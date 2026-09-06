@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T02:47:06Z",
+ "generated_at": "2026-09-06T05:02:59Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -29,13 +29,6 @@
    "verdict": "ok",
    "stars": 1205,
    "desc": "Unlimited memory for OpenClaw"
-  },
-  {
-   "repo": "Anionex/agent-vision-toolkit",
-   "name": "anionex-agent-vision-toolkit",
-   "verdict": "ok",
-   "stars": 932,
-   "desc": "—"
   },
   {
    "repo": "toby-bridges/api-relay-audit",
@@ -89,7 +82,7 @@
   {
    "repo": "nutshellai-tech/mobius",
    "name": "nutshellai-tech-mobius",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 553,
    "desc": "The first self-evolving open-source Agent OS, connecting your team, AI agents, devices, and compute"
   },
@@ -5036,13 +5029,6 @@
    "desc": "DeepSeek Harness plugin: emit OpenTelemetry spans from a session log (turn / step / tool execute)"
   },
   {
-   "repo": "jypjypjypjyp/dsh-agent-teams",
-   "name": "jypjypjypjyp-dsh-agent-teams",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "AgentTeams plugin for DeepSeek Harness"
-  },
-  {
    "repo": "kagura-agent/dsh-reloader",
    "name": "kagura-agent-dsh-reloader",
    "verdict": "ok",
@@ -6954,6 +6940,13 @@
    "desc": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents"
   },
   {
+   "repo": "Anionex/agent-vision-toolkit",
+   "name": "anionex-agent-vision-toolkit",
+   "verdict": "incompatible",
+   "stars": 932,
+   "desc": "—"
+  },
+  {
    "repo": "adoresever/graph-memory",
    "name": "adoresever-graph-memory",
    "verdict": "incompatible",
@@ -8382,6 +8375,13 @@
    "desc": "—"
   },
   {
+   "repo": "jypjypjypjyp/dsh-agent-teams",
+   "name": "jypjypjypjyp-dsh-agent-teams",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "AgentTeams plugin for DeepSeek Harness"
+  },
+  {
    "repo": "kalifun/dsh-cwl",
    "name": "kalifun-dsh-cwl",
    "verdict": "incompatible",
@@ -9017,13 +9017,6 @@
    "verdict": "ok",
    "stars": 144,
    "desc": "DSH crash-rescue plugin: undo config & plugin-code changes, secret-safe snapshots, one-click SAFE MODE, plus o"
-  },
-  {
-   "repo": "Nagi-ovo/dsh-visualize",
-   "name": "dsh-visualize",
-   "verdict": "ok",
-   "stars": 141,
-   "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations"
   },
   {
    "repo": "humblebanana/open-record-replay",
@@ -13149,13 +13142,6 @@
    "desc": "可以在DeepSeek Harness中，快捷配置和管理多台 Jenkins 服务器与 Token， 支持设置页配置、模型工具触发构建、工作区级「执行 Jenkins Job」入口"
   },
   {
-   "repo": "jypjypjypjyp/dsh-guardrail",
-   "name": "jypjypjypjyp-dsh-guardrail",
-   "verdict": "ok",
-   "stars": 2,
-   "desc": "DSH 插件：工具调用规范守卫（deny/warn 拦截 + 规则管理面板）"
-  },
-  {
    "repo": "jypjypjypjyp/dsh-vqa-agent",
    "name": "dsh-vqa-agent",
    "verdict": "ok",
@@ -15380,13 +15366,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DSH self-built plugin"
-  },
-  {
-   "repo": "joyboy-yy/dsh-plugin-sound-notify",
-   "name": "joyboy-yy-dsh-plugin-sound-notify",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "Sound notifications for DeepSeek Harness when tasks finish or user choices require attention, with volume cont"
   },
   {
    "repo": "juliye2025/dsh-butler-atelier",
@@ -18133,6 +18112,13 @@
    "desc": "A Chrome launcher of Deepseek Harness"
   },
   {
+   "repo": "kagurazakayashi/dsh-delete-session",
+   "name": "kagurazakayashi-dsh-delete-session",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "A DeepSeek Harness Web plugin for quickly and thoroughly deleting sessions"
+  },
+  {
    "repo": "kaixinbaba/dsh-session-activity",
    "name": "kaixinbaba-dsh-session-activity",
    "verdict": "ok",
@@ -20184,6 +20170,13 @@
    "desc": "推荐组件（非必须）：DeepSeek Harness 运行时注入器；已随 dsh-routing-suite 单仓库化保留，本仓库继续维护/发布"
   },
   {
+   "repo": "Nagi-ovo/dsh-visualize",
+   "name": "dsh-visualize",
+   "verdict": "incompatible",
+   "stars": 141,
+   "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations"
+  },
+  {
    "repo": "toolclub/dsh-agent-team-gui",
    "name": "toolclub-dsh-agent-team-gui",
    "verdict": "incompatible",
@@ -21199,6 +21192,13 @@
    "desc": "A black hole theme plugin for the dsh (DeepSeek Harness) Web UI: a WebGL real-time ray-traced Schwarzschild bl"
   },
   {
+   "repo": "jypjypjypjyp/dsh-guardrail",
+   "name": "jypjypjypjyp-dsh-guardrail",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 插件：工具调用规范守卫（deny/warn 拦截 + 规则管理面板）"
+  },
+  {
    "repo": "kaijia323/dsh-sidebar",
    "name": "kaijia323-dsh-sidebar",
    "verdict": "incompatible",
@@ -21792,6 +21792,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "多巴仙 — DeepSeek Harness Web UI 主题：八仙×多巴胺亮色，8 套仙家变体+界面切换器+明暗双模式"
+  },
+  {
+   "repo": "joyboy-yy/dsh-plugin-sound-notify",
+   "name": "joyboy-yy-dsh-plugin-sound-notify",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Sound notifications for DeepSeek Harness when tasks finish or user choices require attention, with volume cont"
   },
   {
    "repo": "jsoncode/dsh-balance-by-token",
@@ -22450,13 +22457,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A professional song-level Strudel visual sequencer with structured AI arrangement for DeepDeck."
-  },
-  {
-   "repo": "kagurazakayashi/dsh-delete-session",
-   "name": "kagurazakayashi-dsh-delete-session",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "A DeepSeek Harness Web plugin for quickly and thoroughly deleting sessions"
   },
   {
    "repo": "kangshifu1/dsh-record-replay",
@@ -24491,7 +24491,7 @@
   {
    "repo": "Electricitysheep/dsh-tool-turbo",
    "name": "dsh-tool-turbo",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 4,
    "desc": "Per-round reasoning_effort optimizer for DeepSeek Harness (dsh): auto-downgrades tool-call reasoning for simpl"
   },
@@ -31802,13 +31802,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin to automatically restart goals on harness restart"
-  },
-  {
-   "repo": "junjiangao/dsh-web-search-tavily",
-   "name": "junjiangao-dsh-web-search-tavily",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "jwilson411/dsh-kokoro",
@@ -39712,6 +39705,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A dsh-plugin NGA reader with app-scoped AI conversations for DeepDeck."
+  },
+  {
+   "repo": "junjiangao/dsh-web-search-tavily",
+   "name": "junjiangao-dsh-web-search-tavily",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "KevinShao1991/dsh-plugin-medhub",
@@ -48410,7 +48410,7 @@
   {
    "repo": "Jayden-X-L/forkprobe",
    "name": "forkprobe",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 66,
    "desc": "Compare multiple skills on the same task and pick the winner."
   },
@@ -57599,6 +57599,13 @@
    "desc": "Dual-ledger cross-session memory for DeepSeek Harness: auto-extracted long-term facts (MEMORY.md) + living pro"
   },
   {
+   "repo": "jorinyang/dsh-clawshell",
+   "name": "jorinyang-dsh-clawshell",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "ClawShell vision as DeepSeek Harness plugins: self-perception, closed-loop self-adaptation, trust/niche swarm,"
+  },
+  {
    "repo": "joshryandavis/dsh-llm-aws-kiro",
    "name": "joshryandavis-dsh-llm-aws-kiro",
    "verdict": "ok",
@@ -58990,6 +58997,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "我的数字生命爱丽丝 — DSH 自研插件合集中心（16 个插件仓库相互引流）"
+  },
+  {
+   "repo": "jonah791/dsh-compact-provider",
+   "name": "jonah791-dsh-compact-provider",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "jony5933/codex-dsh-bridge",
@@ -60950,13 +60964,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH git development workbench: branch/worktree environment picker, git context injection, /git commands, workt"
-  },
-  {
-   "repo": "kaixinguo360/dsh-bsk-ws-bridge",
-   "name": "kaixinguo360-dsh-bsk-ws-bridge",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "DeepSeek Harness BrowserSkill 桥接插件：把本机 bsk daemon 的 WebSocket 经浏览器信道暴露给远程 BrowserSkill 扩展"
   },
   {
    "repo": "kelai141/dsh-github-watchdog",
@@ -63367,13 +63374,6 @@
    "desc": "DSH Web extension: live subagent monitor + role-based subagent routing + Claude Code style .dsh/agents/*.md pe"
   },
   {
-   "repo": "jorinyang/dsh-clawshell",
-   "name": "jorinyang-dsh-clawshell",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "ClawShell vision as DeepSeek Harness plugins: self-perception, closed-loop self-adaptation, trust/niche swarm,"
-  },
-  {
    "repo": "justlearner010/dsh-plugin-market",
    "name": "justlearner010-dsh-plugin-market",
    "verdict": "incompatible",
@@ -63918,13 +63918,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: project/task dual-mode workspaces"
-  },
-  {
-   "repo": "jonah791/dsh-compact-provider",
-   "name": "jonah791-dsh-compact-provider",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "karmiy/dsh-session-nav",
@@ -64590,6 +64583,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "xiaok-native Cordis plugins for DeepSeek Harness: evidence-based delivery, intent routing, review separation"
+  },
+  {
+   "repo": "kaixinguo360/dsh-bsk-ws-bridge",
+   "name": "kaixinguo360-dsh-bsk-ws-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness BrowserSkill 桥接插件：把本机 bsk daemon 的 WebSocket 经浏览器信道暴露给远程 BrowserSkill 扩展"
   },
   {
    "repo": "kfc966/dsh-native-codex-oauth",
