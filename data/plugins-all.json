@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T22:30:41Z",
+ "generated_at": "2026-09-06T23:15:39Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -934,13 +934,6 @@
    "desc": "—"
   },
   {
-   "repo": "DDDFXYqiming/Agent_Extensions",
-   "name": "dddfxyqiming-agent-extensions",
-   "verdict": "ok",
-   "stars": 5,
-   "desc": "—"
-  },
-  {
    "repo": "dygin/dsh-recover-context",
    "name": "dygin-dsh-recover-context",
    "verdict": "pending",
@@ -1041,7 +1034,7 @@
   {
    "repo": "nowledge-co/nowledge-mem-deepseek-harness",
    "name": "nowledge-mem-deepseek-harness",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "One memory layer for every AI tool and agent, packaged for DeepSeek Harness"
   },
@@ -7129,6 +7122,13 @@
    "desc": "携手skillhub，快捷安装启用丰富的skill，一键装配方便快捷"
   },
   {
+   "repo": "DDDFXYqiming/Agent_Extensions",
+   "name": "dddfxyqiming-agent-extensions",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
+  },
+  {
    "repo": "hootandy321/dsh-Agentlink",
    "name": "hootandy321-dsh-agentlink",
    "verdict": "incompatible",
@@ -9514,13 +9514,6 @@
    "verdict": "ok",
    "stars": 15,
    "desc": "Skin switcher + custom wallpaper for DeepSeek Harness (dsh): curated --dsw-alias-* palettes, translucent wallp"
-  },
-  {
-   "repo": "lehhair/dsh-diff-viewer",
-   "name": "dsh-diff-viewer",
-   "verdict": "pending",
-   "stars": 15,
-   "desc": "DSH Web GUI PiUI-style diff viewer plugin: replaces the stock DiffBlock for write/edit tool calls via ui-tool"
   },
   {
    "repo": "liqichen/dsh-plugin-manager",
@@ -15783,7 +15776,7 @@
   {
    "repo": "meyaomiao/dsh-files-native",
    "name": "meyaomiao-dsh-files-native",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "DSH 插件：接近原生质感的附件上传（拖入/粘贴/回形针，图片与文件混排）"
   },
@@ -20345,6 +20338,13 @@
    "desc": "Claude Code-style terminal UI for DeepSeek Harness agents, as an out-of-tree dsh plugin bundle"
   },
   {
+   "repo": "lehhair/dsh-diff-viewer",
+   "name": "dsh-diff-viewer",
+   "verdict": "incompatible",
+   "stars": 15,
+   "desc": "DSH Web GUI PiUI-style diff viewer plugin: replaces the stock DiffBlock for write/edit tool calls via ui-tool"
+  },
+  {
    "repo": "cheshireez/dsh-skill-hub",
    "name": "cheshireez-dsh-skill-hub",
    "verdict": "incompatible",
@@ -23287,7 +23287,7 @@
   {
    "repo": "Noob-stupid/dsh-plugin-hub",
    "name": "noob-stupid-dsh-plugin-hub",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 70,
    "desc": "—"
   },
@@ -23826,7 +23826,7 @@
   {
    "repo": "chaos-03x/dsh-agy",
    "name": "dsh-agy",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "Google Antigravity (agy) OAuth auth + model access plugin for DeepSeek Harness: multi-account pool, 429 rotati"
   },
@@ -56418,7 +56418,7 @@
   {
    "repo": "dongsheng123132/dsh-2origin",
    "name": "dsh-2origin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Evidence-first 2Origin state projection, diff and immutable freeze for DeepSeek Harness"
   },
