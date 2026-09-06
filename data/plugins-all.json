@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T22:00:40Z",
+ "generated_at": "2026-09-06T22:15:52Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -999,7 +999,7 @@
   {
    "repo": "lunaship/dsh-links",
    "name": "lunaship-dsh-links",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 5,
    "desc": "Android companion for DeepSeek Harness: trusted-LAN pairing, mobile sessions, SSE approvals, experimental tunn"
   },
@@ -8961,6 +8961,13 @@
    "verdict": "ok",
    "stars": 347,
    "desc": "A visual, non-linear conversation workspace plugin for DeepSeek Harness ; A canvas-based session explorer and"
+  },
+  {
+   "repo": "shanliuling/dsh-image-gen",
+   "name": "shanliuling-dsh-image-gen",
+   "verdict": "pending",
+   "stars": 320,
+   "desc": "AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, mu"
   },
   {
    "repo": "vlln/whale-girl",
@@ -20182,13 +20189,6 @@
    "verdict": "incompatible",
    "stars": 5725,
    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware re"
-  },
-  {
-   "repo": "shanliuling/dsh-image-gen",
-   "name": "shanliuling-dsh-image-gen",
-   "verdict": "incompatible",
-   "stars": 320,
-   "desc": "AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, mu"
   },
   {
    "repo": "op7418/pilot-harness",
@@ -41851,7 +41851,7 @@
   {
    "repo": "sealfly/dsh-reasonix-desktop",
    "name": "sealfly-dsh-reasonix-desktop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -54892,7 +54892,7 @@
   {
    "repo": "geml-spec/geml",
    "name": "geml-spec-geml",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 26,
    "desc": "One format, two readers"
   },
