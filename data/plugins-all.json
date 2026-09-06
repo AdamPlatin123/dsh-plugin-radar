@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T02:32:15Z",
+ "generated_at": "2026-09-06T02:47:06Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -26022,6 +26022,13 @@
    "desc": "—"
   },
   {
+   "repo": "johnnycls/dsh-no-setup-mode",
+   "name": "johnnycls-dsh-no-setup-mode",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DeepSeek Harness 免設置模式 — 安裝後開箱即用，幫你做出最好的設置（No-Setup Mode for DeepSeek Harness: out-of-the-box, best setup auto"
+  },
+  {
    "repo": "kaixinbaba/dsh-model-preset",
    "name": "kaixinbaba-dsh-model-preset",
    "verdict": "ok",
@@ -38571,13 +38578,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
-  },
-  {
-   "repo": "johnnycls/dsh-no-setup-mode",
-   "name": "johnnycls-dsh-no-setup-mode",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "DeepSeek Harness 免設置模式 — 安裝後開箱即用，幫你做出最好的設置（No-Setup Mode for DeepSeek Harness: out-of-the-box, best setup auto"
   },
   {
    "repo": "KarlOfLaw/dsh-goal-mode-enhance",
