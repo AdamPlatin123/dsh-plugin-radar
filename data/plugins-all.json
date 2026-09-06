@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-05T22:45:42Z",
+ "generated_at": "2026-09-06T00:45:57Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -1107,13 +1107,6 @@
    "verdict": "pending",
    "stars": 5,
    "desc": "DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent"
-  },
-  {
-   "repo": "UynajGI/dsh-ssh",
-   "name": "dsh-ssh",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "SSH remote-execution plugin for DeepSeek Harness: ProxyJump chain, SFTP filesystem, subprocess and PTY over ss"
   },
   {
    "repo": "wangwei-wade/dsh-quote-annotate",
@@ -3459,6 +3452,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "The coding agent that grows its own tools"
+  },
+  {
+   "repo": "huajuan2024/dsh-session-manager",
+   "name": "huajuan2024-dsh-session-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH plugin that lists, views, deletes, and exports DeepSeek Harness session histories."
   },
   {
    "repo": "hufang360/dsh-sticky-notes",
@@ -7150,6 +7150,13 @@
    "desc": "Durable dependency-graph task factory for DeepSeek Harness: recurring Agent work, safe checkout lanes, first-c"
   },
   {
+   "repo": "UynajGI/dsh-ssh",
+   "name": "dsh-ssh",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "SSH remote-execution plugin for DeepSeek Harness: ProxyJump chain, SFTP filesystem, subprocess and PTY over ss"
+  },
+  {
    "repo": "Asaiuta/dsh-session-hub",
    "name": "asaiuta-dsh-session-hub",
    "verdict": "incompatible",
@@ -7911,13 +7918,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback"
-  },
-  {
-   "repo": "huajuan2024/dsh-session-manager",
-   "name": "huajuan2024-dsh-session-manager",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DSH plugin that lists, views, deletes, and exports DeepSeek Harness session histories."
   },
   {
    "repo": "ivanon/dsh-dev-crew",
@@ -11817,6 +11817,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DSH Web UI 手机端适配插件：抽屉式布局、聊天背景+毛玻璃、AI 聊天气泡、消息头像、中英双语（桌面端与原版一致）"
+  },
+  {
+   "repo": "huguangyu666/dsh-plugin-backdrop",
+   "name": "huguangyu666-dsh-plugin-backdrop",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "dsh Web UI 动态背景：WebGL2 流体 + 字符鲸鱼游动(循环接缝赛博朋克故障转场) + 发光鱼群 + 点线网格"
   },
   {
    "repo": "huyang218/dsh-desktop",
@@ -20863,13 +20870,6 @@
    "desc": "DSH Finance Plugin Suite - 金融场景插件套件"
   },
   {
-   "repo": "huguangyu666/dsh-plugin-backdrop",
-   "name": "huguangyu666-dsh-plugin-backdrop",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "dsh Web UI 动态背景：WebGL2 流体 + 字符鲸鱼游动(循环接缝赛博朋克故障转场) + 发光鱼群 + 点线网格"
-  },
-  {
    "repo": "imkingjh999/dsh-shorts-wall",
    "name": "imkingjh999-dsh-shorts-wall",
    "verdict": "incompatible",
@@ -24041,6 +24041,13 @@
    "desc": "—"
   },
   {
+   "repo": "loster12520/dsh-btw",
+   "name": "loster12520-dsh-btw",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "deepseek harness版btw插件"
+  },
+  {
    "repo": "m1khal3v/dsh-llm-key-rotation",
    "name": "m1khal3v-dsh-llm-key-rotation",
    "verdict": "ok",
@@ -25646,7 +25653,7 @@
   {
    "repo": "bamboostrip/dsh-access-gate",
    "name": "bamboostrip-dsh-access-gate",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -38095,13 +38102,6 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "模型回合结束后用 LLM 生成 3 条批判性跟进建议，点击即发送 \\| After a model turn, an LLM generates 3 critical follow-up suggestions shown"
-  },
-  {
-   "repo": "loster12520/dsh-btw",
-   "name": "loster12520-dsh-btw",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "deepseek harness版btw插件"
   },
   {
    "repo": "TonyDua/dsh-web-search-exa",
