@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T18:16:47Z",
+ "generated_at": "2026-09-06T18:30:43Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -1443,13 +1443,6 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "Complete context workbench for DeepSeek Harness: trajectory, inventory, cache history, message forge, and sess"
-  },
-  {
-   "repo": "baaai123/solo-memory",
-   "name": "baaai123-solo-memory",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "—"
   },
   {
    "repo": "baconbao/dsh-mermaid-image-preview",
@@ -7253,6 +7246,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH Record & Replay plugin: session timeline replay, replay-pack export/import, re-run recorded conversations,"
+  },
+  {
+   "repo": "baaai123/solo-memory",
+   "name": "baaai123-solo-memory",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "baixianger/dsh-session-messaging",
@@ -23273,7 +23273,7 @@
   {
    "repo": "Renzic-Stone/DSH-EasyRewrite",
    "name": "renzic-stone-dsh-easyrewrite",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 75,
    "desc": "—"
   },
@@ -23287,7 +23287,7 @@
   {
    "repo": "Noob-stupid/dsh-plugin-hub",
    "name": "noob-stupid-dsh-plugin-hub",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 70,
    "desc": "—"
   },
@@ -43039,13 +43039,6 @@
    "desc": "Unofficial Windows desktop client for DeepSeek Harness, with CNY spend and account balance."
   },
   {
-   "repo": "yijigao/deepseek-harness-desktop",
-   "name": "yijigao-deepseek-harness-desktop",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "deepseek-harness-desktop"
-  },
-  {
    "repo": "YLIULING/deepseek-harness-desktop",
    "name": "yliuling-deepseek-harness-desktop",
    "verdict": "ok",
@@ -45004,6 +44997,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek ??? PWA - ????,??????(DeepSeek Mobile PWA client)"
+  },
+  {
+   "repo": "yijigao/deepseek-harness-desktop",
+   "name": "yijigao-deepseek-harness-desktop",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "deepseek-harness-desktop"
   },
   {
    "repo": "yoke233/dsh-tool-monitor",
