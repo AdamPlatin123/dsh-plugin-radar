@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T22:15:52Z",
+ "generated_at": "2026-09-06T22:30:41Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -117,7 +117,7 @@
   {
    "repo": "zhoushoujianwork/easyeda-agent",
    "name": "zhoushoujianwork-easyeda-agent",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 368,
    "desc": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入"
   },
@@ -768,7 +768,7 @@
   {
    "repo": "Zhenyu98/dsh-context-doctor",
    "name": "dsh-context-doctor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "DSH 上下文注入审计插件：统计 AGENTS.md 指令链/技能目录/工具 schema 的 token 成本，检测重复与冲突；Web UI 圆环面板 + context_audit 工具"
   },
@@ -789,7 +789,7 @@
   {
    "repo": "cuddly-guacamole/dsh-auto-approval-llm",
    "name": "cuddly-guacamole-dsh-auto-approval-llm",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 6,
    "desc": "LLM-assisted auto approval + timeout fallback for the DeepSeek Harness Auto preset"
   },
@@ -9122,13 +9122,6 @@
    "verdict": "ok",
    "stars": 57,
    "desc": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新"
-  },
-  {
-   "repo": "whiteguo233/dsh-openbiliclaw",
-   "name": "dsh-openbiliclaw",
-   "verdict": "pending",
-   "stars": 56,
-   "desc": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容"
   },
   {
    "repo": "fandc520/dsh-comfyui",
@@ -20224,6 +20217,13 @@
    "verdict": "incompatible",
    "stars": 107,
    "desc": "dsh / pi-agent web ui"
+  },
+  {
+   "repo": "whiteguo233/dsh-openbiliclaw",
+   "name": "dsh-openbiliclaw",
+   "verdict": "incompatible",
+   "stars": 56,
+   "desc": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容"
   },
   {
    "repo": "mishibeikejie/zat-dsh-engine",
