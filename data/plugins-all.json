@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T17:30:53Z",
+ "generated_at": "2026-09-06T17:45:41Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -23273,7 +23273,7 @@
   {
    "repo": "Renzic-Stone/DSH-EasyRewrite",
    "name": "renzic-stone-dsh-easyrewrite",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 75,
    "desc": "—"
   },
