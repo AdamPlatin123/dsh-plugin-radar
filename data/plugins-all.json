@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T18:00:43Z",
+ "generated_at": "2026-09-06T18:16:47Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -10011,13 +10011,6 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "Unofficial MCP server for AI-driven NI Multisim circuit generation, simulation, data export, and reports"
-  },
-  {
-   "repo": "zsyu9779/dsh-desktop",
-   "name": "zsyu9779-dsh-desktop",
-   "verdict": "pending",
-   "stars": 8,
-   "desc": "Unofficial cross-platform desktop app for DeepSeek Harness"
   },
   {
    "repo": "abidhmuhsin/dsh-visualizer",
@@ -20462,6 +20455,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "全网最强 DeepSeek Harness 插件商场：全量收录 GitHub #dsh-plugin 生态插件，五维实用评分雷达图，智能搜索（AI 理解需求）、智能安装/更新/卸载（AI 装前审查+装后诊断）、一键批量更"
+  },
+  {
+   "repo": "zsyu9779/dsh-desktop",
+   "name": "zsyu9779-dsh-desktop",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "Unofficial cross-platform desktop app for DeepSeek Harness"
   },
   {
    "repo": "534119219/chicheng-stats",
