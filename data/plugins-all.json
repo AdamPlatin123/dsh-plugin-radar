@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T23:15:39Z",
+ "generated_at": "2026-09-06T23:30:37Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -23287,7 +23287,7 @@
   {
    "repo": "Noob-stupid/dsh-plugin-hub",
    "name": "noob-stupid-dsh-plugin-hub",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 70,
    "desc": "—"
   },
