@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T02:01:20Z",
+ "generated_at": "2026-09-06T02:32:15Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -652,13 +652,6 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "A pixel-art whale companion for DeepSeek Harness — it swims while your agents work and taps the glass when an"
-  },
-  {
-   "repo": "jiazz197-cmyk/omd-dsh",
-   "name": "jiazz197-cmyk-omd-dsh",
-   "verdict": "ok",
-   "stars": 9,
-   "desc": "Multi-mode agent presets for DeepSeek Harness — per-mode model routing + tiered subagent delegation."
   },
   {
    "repo": "litestartup-com/dsh-api-gateway",
@@ -7052,6 +7045,13 @@
    "desc": "🐋 鲸鱼记事本 — 你的 Agent 年度报告：从会话事件日志生成日报/周报/月报/年报，任意区间、只读不改写"
   },
   {
+   "repo": "jiazz197-cmyk/omd-dsh",
+   "name": "jiazz197-cmyk-omd-dsh",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "Multi-mode agent presets for DeepSeek Harness — per-mode model routing + tiered subagent delegation."
+  },
+  {
    "repo": "platonai/dsh-browser4",
    "name": "platonai-dsh-browser4",
    "verdict": "incompatible",
@@ -13100,13 +13100,6 @@
    "desc": "DSH plugin: auto-detect current model vendor and show balance/quota in the composer input row (DeepSeek/Moonsh"
   },
   {
-   "repo": "jiangwangyang/dsh-theme-blackhole",
-   "name": "jiangwangyang-dsh-theme-blackhole",
-   "verdict": "ok",
-   "stars": 2,
-   "desc": "A black hole theme plugin for the dsh (DeepSeek Harness) Web UI: a WebGL real-time ray-traced Schwarzschild bl"
-  },
-  {
    "repo": "jinhongxun/dsh-mcphub",
    "name": "jinhongxun-dsh-mcphub",
    "verdict": "ok",
@@ -15275,13 +15268,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "修复 DeepSeek Harness Web UI 的 PWA、移动端支持，各种小 bug 和不合理的地方"
-  },
-  {
-   "repo": "jindaxia2026/dsh-duobaxian",
-   "name": "jindaxia2026-dsh-duobaxian",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "多巴仙 — DeepSeek Harness Web UI 主题：八仙×多巴胺亮色，8 套仙家变体+界面切换器+明暗双模式"
   },
   {
    "repo": "jingshang12/dsh-web-quick-launcher",
@@ -21206,6 +21192,13 @@
    "desc": "IsingQ toolkit for MCP and DeepSeek Harness: guided QUBO modeling, local validation, and user-confirmed solvin〔📦〕"
   },
   {
+   "repo": "jiangwangyang/dsh-theme-blackhole",
+   "name": "jiangwangyang-dsh-theme-blackhole",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "A black hole theme plugin for the dsh (DeepSeek Harness) Web UI: a WebGL real-time ray-traced Schwarzschild bl"
+  },
+  {
    "repo": "kaijia323/dsh-sidebar",
    "name": "kaijia323-dsh-sidebar",
    "verdict": "incompatible",
@@ -21792,6 +21785,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Live request metadata minimization for DeepSeek Harness, covering the native DeepSeek provider with WebUI sett"
+  },
+  {
+   "repo": "jindaxia2026/dsh-duobaxian",
+   "name": "jindaxia2026-dsh-duobaxian",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "多巴仙 — DeepSeek Harness Web UI 主题：八仙×多巴胺亮色，8 套仙家变体+界面切换器+明暗双模式"
   },
   {
    "repo": "jsoncode/dsh-balance-by-token",
