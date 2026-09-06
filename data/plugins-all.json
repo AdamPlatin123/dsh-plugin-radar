@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-06T21:45:49Z",
+ "generated_at": "2026-09-06T22:00:40Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -789,7 +789,7 @@
   {
    "repo": "cuddly-guacamole/dsh-auto-approval-llm",
    "name": "cuddly-guacamole-dsh-auto-approval-llm",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "LLM-assisted auto approval + timeout fallback for the DeepSeek Harness Auto preset"
   },
@@ -44299,6 +44299,13 @@
    "desc": "DeepSeek Harness Desktop shell"
   },
   {
+   "repo": "yxx-jf/deepseek-harness-desktop",
+   "name": "yxx-jf-deepseek-harness-desktop",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "z16166/dsh-desktop",
    "name": "z16166-dsh-desktop",
    "verdict": "ok",
@@ -45333,13 +45340,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "deepseek-harness桌面版〔📦〕"
-  },
-  {
-   "repo": "yxx-jf/deepseek-harness-desktop",
-   "name": "yxx-jf-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "zhuyan1085/mcp-deliverable",
@@ -60114,7 +60114,7 @@
   {
    "repo": "aa2246740/dsh-files-panel",
    "name": "aa2246740-dsh-files-panel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Community DeepSeek Harness plugin: right-side workspace file tree"
   },
