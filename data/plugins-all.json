@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-07T22:45:39Z",
+ "generated_at": "2026-09-07T23:15:42Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -591,13 +591,6 @@
    "desc": "DeepSeek Harness long-term memory & self-evolving plugin: L0 capture -> L1 memory extraction -> L2 scene group"
   },
   {
-   "repo": "omdsh-dev/dsh-security-audit",
-   "name": "dsh-security-audit",
-   "verdict": "pending",
-   "stars": 11,
-   "desc": "DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告"
-  },
-  {
    "repo": "alpacachen/dsh-kanban",
    "name": "alpacachen-dsh-kanban",
    "verdict": "ok",
@@ -712,7 +705,7 @@
   {
    "repo": "cuddly-guacamole/dsh-auto-approval-llm",
    "name": "cuddly-guacamole-dsh-auto-approval-llm",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 7,
    "desc": "LLM-assisted auto approval + timeout fallback for the DeepSeek Harness Auto preset"
   },
@@ -7108,6 +7101,13 @@
    "desc": "🐋 鲸鱼记事本 — 你的 Agent 年度报告：从会话事件日志生成日报/周报/月报/年报，任意区间、只读不改写"
   },
   {
+   "repo": "omdsh-dev/dsh-security-audit",
+   "name": "dsh-security-audit",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告"
+  },
+  {
    "repo": "jiazz197-cmyk/omd-dsh",
    "name": "jiazz197-cmyk-omd-dsh",
    "verdict": "incompatible",
@@ -10015,7 +10015,7 @@
   {
    "repo": "lhh010/dsh-ui-progress",
    "name": "dsh-ui-progress",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动 〔PR〕"
   },
@@ -13637,6 +13637,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH knowledge-base plugin: build audit-able KB packs (references + SQLite FTS5) from md/txt/docx/pdf, determin"
+  },
+  {
+   "repo": "omdsh-dev/dsh-ui-progress",
+   "name": "omdsh-dev-dsh-ui-progress",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
   },
   {
    "repo": "omdsh-dev/dsh-ui-whale",
@@ -21416,13 +21423,6 @@
    "desc": "将多个 DeepSeek Harness 对话融合为一个可继续的会话，支持 Agent 智能剪枝、话题分组、内容排序和界面操作"
   },
   {
-   "repo": "omdsh-dev/dsh-ui-progress",
-   "name": "omdsh-dev-dsh-ui-progress",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
-  },
-  {
    "repo": "pany0593/dsh-ui-notifications",
    "name": "pany0593-dsh-ui-notifications",
    "verdict": "incompatible",
@@ -24083,13 +24083,6 @@
    "desc": "A DeepSeek Harness Web plugin for real-time Token usage, cost estimates, per-round charts, and DeepSeek API ba"
   },
   {
-   "repo": "omdsh-dev/dsh-tool-calculator",
-   "name": "dsh-tool-calculator",
-   "verdict": "pending",
-   "stars": 6,
-   "desc": "DSH 计算器工具插件：安全的数学表达式求值器，零依赖递归下降解析器 〔PR〕"
-  },
-  {
    "repo": "PerryLink/dsh-composer-history",
    "name": "perrylink-dsh-composer-history",
    "verdict": "ok",
@@ -24099,7 +24092,7 @@
   {
    "repo": "Player-MINEPIG/dsh-tavern",
    "name": "dsh-tavern",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "A plugin which makes dsh compatible with SillyTavern artifacts."
   },
@@ -24580,6 +24573,13 @@
    "desc": "—"
   },
   {
+   "repo": "MrMu666/dsh-LAN",
+   "name": "dsh-LAN",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
+  },
+  {
    "repo": "nexsjournal/dsh-vision-plugin",
    "name": "nexsjournal-dsh-vision-plugin",
    "verdict": "ok",
@@ -24599,13 +24599,6 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "—"
-  },
-  {
-   "repo": "omdsh-dev/dsh-tool-time",
-   "name": "dsh-tool-time",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖 〔PR〕"
   },
   {
    "repo": "pandashere/dsh-self-control-guard",
@@ -25219,7 +25212,7 @@
   {
    "repo": "RangeKing/vibemeter",
    "name": "rangeking-vibemeter",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -38083,6 +38076,13 @@
    "desc": "模型回合结束后用 LLM 生成 3 条批判性跟进建议，点击即发送 \\| After a model turn, an LLM generates 3 critical follow-up suggestions shown"
   },
   {
+   "repo": "omdsh-dev/dsh-tool-calculator",
+   "name": "dsh-tool-calculator",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "DSH 计算器工具插件：安全的数学表达式求值器，零依赖递归下降解析器 〔PR〕"
+  },
+  {
    "repo": "suntianc/dsh-antigravity-auth",
    "name": "suntianc-dsh-antigravity-auth",
    "verdict": "incompatible",
@@ -38195,18 +38195,18 @@
    "desc": "A local-first workspace for human-led collaboration with multiple AI employees."
   },
   {
-   "repo": "MrMu666/dsh-LAN",
-   "name": "dsh-LAN",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
-  },
-  {
    "repo": "omdsh-dev/dsh-hub",
    "name": "omdsh-dev-dsh-hub",
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "omdsh-dev/dsh-tool-time",
+   "name": "dsh-tool-time",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖 〔PR〕"
   },
   {
    "repo": "phelpsyacht/dshmath-manim",
@@ -45407,7 +45407,7 @@
   {
    "repo": "Awu12277/dsh-stock-watch",
    "name": "awu12277-dsh-stock-watch",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 26,
    "desc": "—"
   },
@@ -48718,7 +48718,7 @@
   {
    "repo": "omdsh-dev/dsh-plugin-dev",
    "name": "omdsh-dev-dsh-plugin-dev",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 11,
    "desc": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录"
   },
@@ -48933,20 +48933,6 @@
    "desc": "兰亭 (Folio) · 咨询材料生成引擎：15 个 DSH 原生工具 + 会话协议自动执行 + L0 守卫 + 可换方法论包，零 key 起步"
   },
   {
-   "repo": "omdsh-dev/dsh-tool-csv",
-   "name": "dsh-tool-csv",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "DSH CSV 数据工具插件：解析/查询/统计/转换 CSV 文本（RFC 4180），零依赖状态机解析器，注册 csv 工具"
-  },
-  {
-   "repo": "omdsh-dev/dsh-tool-markdown",
-   "name": "dsh-tool-markdown",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "DSH Markdown 工具插件：HTML↔Markdown 转换、GFM 表格规范化、目录生成，零依赖轻量解析器，注册 markdown 工具"
-  },
-  {
    "repo": "sunshine-lang/dsh-pdf",
    "name": "dsh-pdf",
    "verdict": "ok",
@@ -49071,13 +49057,6 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "KolmoPDF tools for DeepSeek Harness with durable API-key settings and CLI configuration."
-  },
-  {
-   "repo": "omdsh-dev/dsh-tool-json",
-   "name": "dsh-tool-json",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "DSH JSON 查询工具插件：JMESPath 子集查询，零依赖递归下降解析器 〔PR〕"
   },
   {
    "repo": "omdsh-dev/dsh-tool-schema",
@@ -51026,6 +51005,20 @@
    "desc": "Upload arbitrary local files from the DeepSeek Harness Web composer and manage them in Settings."
   },
   {
+   "repo": "omdsh-dev/dsh-tool-csv",
+   "name": "dsh-tool-csv",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DSH CSV 数据工具插件：解析/查询/统计/转换 CSV 文本（RFC 4180），零依赖状态机解析器，注册 csv 工具"
+  },
+  {
+   "repo": "omdsh-dev/dsh-tool-markdown",
+   "name": "dsh-tool-markdown",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DSH Markdown 工具插件：HTML↔Markdown 转换、GFM 表格规范化、目录生成，零依赖轻量解析器，注册 markdown 工具"
+  },
+  {
    "repo": "acefun29/dsh-file-mount",
    "name": "dsh-file-mount",
    "verdict": "incompatible",
@@ -51087,6 +51080,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DeepSeek Harness 数据源连接插件，支持数据库元数据发现、AI 语义建模、只读 SQL 查询和固定 HTTP API 调用"
+  },
+  {
+   "repo": "omdsh-dev/dsh-tool-json",
+   "name": "dsh-tool-json",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH JSON 查询工具插件：JMESPath 子集查询，零依赖递归下降解析器 〔PR〕"
   },
   {
    "repo": "weisiren000/dsh-remote-ops",
@@ -55030,13 +55030,6 @@
    "desc": "Install safety net for DeepSeek Harness: pre-install snapshots, one-click/automatic rollback, guarded boot, an"
   },
   {
-   "repo": "omdsh-dev/dsh-toolkit",
-   "name": "dsh-toolkit",
-   "verdict": "pending",
-   "stars": 19,
-   "desc": "DSH 零依赖工具包 collection —— time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema 十"
-  },
-  {
    "repo": "DietCokewithSugar/dsh-user-experience",
    "name": "dsh-user-experience",
    "verdict": "ok",
@@ -56766,13 +56759,6 @@
    "desc": "A plugin for Deepseek Harness (well it may support other AI agent IDEs but I hadn't test it out yet) that chec"
   },
   {
-   "repo": "omdsh-dev/dsh-tool-regex",
-   "name": "dsh-tool-regex",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "DSH 正则工具插件：测试匹配/提取捕获组/安全替换/静态解释正则（不执行代码），零依赖，注册 regex 工具"
-  },
-  {
    "repo": "oppnc/dsh-kernel-kimi",
    "name": "oppnc-dsh-kernel-kimi",
    "verdict": "ok",
@@ -57979,7 +57965,7 @@
   {
    "repo": "shatyuka/dsh-llm-codebuddy",
    "name": "shatyuka-dsh-llm-codebuddy",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Tencent CodeBuddy plugin for DeepSeek Harness (dsh)."
   },
@@ -62695,6 +62681,13 @@
    "desc": "AI 原生智能爬虫与 JavaScript 逆向工程平台，基于 DSH、Patchright/CDP 与独立语义运行时，从浏览器证据恢复参数生成逻辑并交付可验证 Solver"
   },
   {
+   "repo": "omdsh-dev/dsh-toolkit",
+   "name": "dsh-toolkit",
+   "verdict": "incompatible",
+   "stars": 19,
+   "desc": "DSH 零依赖工具包 collection —— time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema 十"
+  },
+  {
    "repo": "wowyuarm/dsh-agent-team",
    "name": "wowyuarm-dsh-agent-team",
    "verdict": "incompatible",
@@ -63169,6 +63162,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH plugin for PaddleOCR-VL document layout parsing: convert PDFs and images to Markdown with async jobs, prog"
+  },
+  {
+   "repo": "omdsh-dev/dsh-tool-regex",
+   "name": "dsh-tool-regex",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH 正则工具插件：测试匹配/提取捕获组/安全替换/静态解释正则（不执行代码），零依赖，注册 regex 工具"
   },
   {
    "repo": "openma-ai/dsh-agents-plugins",
