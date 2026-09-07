@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-07T22:00:35Z",
+ "generated_at": "2026-09-07T22:31:01Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -712,7 +712,7 @@
   {
    "repo": "cuddly-guacamole/dsh-auto-approval-llm",
    "name": "cuddly-guacamole-dsh-auto-approval-llm",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "LLM-assisted auto approval + timeout fallback for the DeepSeek Harness Auto preset"
   },
@@ -12043,6 +12043,13 @@
    "desc": "—"
   },
   {
+   "repo": "mantonlove/dsh-prism-plugin",
+   "name": "mantonlove-dsh-prism-plugin",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Prism · 棱镜 — a deeply customizable glassmorphism theme plugin for the DeepSeek Harness Web GUI"
+  },
+  {
    "repo": "ManuSpurs/dsh-skin20260814",
    "name": "dsh-skin20260814",
    "verdict": "ok",
@@ -12395,7 +12402,7 @@
   {
    "repo": "wycto/dsh-dock",
    "name": "wycto-dsh-dock",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "dsh-dock · DeepSeek Harness 功能中枢：用一张管理面板统一注册、开关所有小功能（模型余额、Token 用量记录、任务动画等）"
   },
@@ -13907,7 +13914,7 @@
   {
    "repo": "suiyideali/dsh-selection-toolbar",
    "name": "suiyideali-dsh-selection-toolbar",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "在 DeepSeek Harness 会话里划选文本，选区上方浮现一个小工具栏： 复制 · 引用 · 询问 · 解释 · 翻译 · 总结 · 自定义"
   },
@@ -14152,7 +14159,7 @@
   {
    "repo": "xswt442-cmd/dsh-instance-manager",
    "name": "xswt442-cmd-dsh-instance-manager",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "DSH 常驻插件：侧边栏面板统一查看并管理本机的 dsh 实例 \\| Sidebar panel to list and manage local dsh web instances"
   },
@@ -15286,7 +15293,7 @@
   {
    "repo": "hjj345/dsh-sm-version-display",
    "name": "hjj345-dsh-sm-version-display",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "用于在侧边栏“设置”按钮上方显示已安装 dsh 版本的 DeepSeek Harness Web 插件"
   },
@@ -20961,13 +20968,6 @@
    "desc": "增强dsh左侧工作区区侧栏——每个工作区文件夹下提供 任务/文件/Git 子 Tab，含文件树与右侧预览、Git 的 Changes/Graph 双视图、搜索、视图切换与添加工作区，界面样式对齐默认插件"
   },
   {
-   "repo": "mantonlove/dsh-prism-plugin",
-   "name": "mantonlove-dsh-prism-plugin",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "Prism · 棱镜 — a deeply customizable glassmorphism theme plugin for the DeepSeek Harness Web GUI"
-  },
-  {
    "repo": "maxmilian/dsh-sonarqube",
    "name": "maxmilian-dsh-sonarqube",
    "verdict": "incompatible",
@@ -25499,7 +25499,7 @@
   {
    "repo": "zuoyunlai/lunheng-article-pipeline-dsh",
    "name": "zuoyunlai-lunheng-article-pipeline-dsh",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "论衡（lunheng-article-pipeline）DeepSeek Harness bundle 插件（DSH 适配版）"
   },
@@ -31573,6 +31573,13 @@
    "desc": "—"
   },
   {
+   "repo": "hy-sde/dsh-stream-rules",
+   "name": "hy-sde-dsh-stream-rules",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "hy-sde/dsh-zstd-frame",
    "name": "hy-sde-dsh-zstd-frame",
    "verdict": "ok",
@@ -31631,7 +31638,7 @@
   {
    "repo": "j2st1n/dsh-cpa-status",
    "name": "j2st1n-dsh-cpa-status",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -32178,13 +32185,6 @@
    "repo": "MCXCC303/dsh-dslow",
    "name": "mcxcc303-dsh-dslow",
    "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "MDR-EX1000/dsh-rw",
-   "name": "mdr-ex1000-dsh-rw",
-   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -39651,13 +39651,6 @@
    "desc": "🎨 DeepSeek Harness 通用 AI 生图插件：任意 OpenAI 兼容生图网关/模型，设置页可视化配置，/dsh-image-gen 一句话出图"
   },
   {
-   "repo": "hy-sde/dsh-stream-rules",
-   "name": "hy-sde-dsh-stream-rules",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "hyperion2144/dsh-hashline-edittool",
    "name": "hyperion2144-dsh-hashline-edittool",
    "verdict": "incompatible",
@@ -39817,6 +39810,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Password + CIDR gate for DeepSeek Harness web / DeepSeek Harness 局域网密码门禁"
+  },
+  {
+   "repo": "MDR-EX1000/dsh-rw",
+   "name": "mdr-ex1000-dsh-rw",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "muou000/improved-compact",
@@ -42572,7 +42572,7 @@
   {
    "repo": "littleblakew/msds-chain-mcp",
    "name": "littleblakew-msds-chain-mcp",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -55879,7 +55879,7 @@
   {
    "repo": "redfox-data/redfox-community-dsh",
    "name": "redfox-data-redfox-community-dsh",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "The official bundle plugin package of DSH (DeepSeek Harness) from RedFoxHub（红狐数据）: Over 100 social media data"
   },
@@ -58840,7 +58840,7 @@
   {
    "repo": "flg1217/dsh-web-search-openai",
    "name": "flg1217-dsh-web-search-openai",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "OpenAI Responses API web search provider for dsh (web_search tool) + Web settings card"
   },
