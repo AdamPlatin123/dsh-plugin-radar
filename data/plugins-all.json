@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-07T23:15:42Z",
+ "generated_at": "2026-09-07T23:30:42Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -9091,7 +9091,7 @@
   {
    "repo": "lire1131/dsh-undo-savepoint",
    "name": "lire1131-dsh-undo-savepoint",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 148,
    "desc": "DSH crash-rescue plugin: undo config & plugin-code changes, secret-safe snapshots, one-click SAFE MODE, plus o"
   },
