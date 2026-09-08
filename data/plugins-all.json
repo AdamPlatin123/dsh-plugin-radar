@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T18:45:44Z",
+ "generated_at": "2026-09-08T20:01:08Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -2227,13 +2227,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Self-evolving memory for DeepSeek Harness: capture → dream consolidation → retrieval injection → evolve"
-  },
-  {
-   "repo": "franksong2702/dsh-dictate",
-   "name": "franksong2702-dsh-dictate",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "Context-aware dictation for DeepSeek Harness — live Composer transcription, model polish, and user-controlled"
   },
   {
    "repo": "genesis-agents/dsh-plugins",
@@ -7556,6 +7549,13 @@
    "desc": "一个用于实时改写提示词的deepseek harness插件"
   },
   {
+   "repo": "franksong2702/dsh-dictate",
+   "name": "franksong2702-dsh-dictate",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Context-aware dictation for DeepSeek Harness — live Composer transcription, model polish, and user-controlled"
+  },
+  {
    "repo": "glangzh/dsh-advisor",
    "name": "glangzh-dsh-advisor",
    "verdict": "incompatible",
@@ -9691,13 +9691,6 @@
    "desc": "Font switcher for DeepSeek Harness Web GUI: 99 UI fonts + 31 code fonts with CJK-Latin pairing, instant apply,"
   },
   {
-   "repo": "z953218350/dsh-archive-manager",
-   "name": "z953218350-dsh-archive-manager",
-   "verdict": "pending",
-   "stars": 12,
-   "desc": "Codex-style archived session manager for DSH Web UI — view, search, restore, and delete archived sessions from"
-  },
-  {
    "repo": "chyra-moon/deepseek-harness-desktop",
    "name": "chyra-moon-deepseek-harness-desktop",
    "verdict": "ok",
@@ -10368,13 +10361,6 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Caddy-fronted administrator authentication for DeepSeek Harness: Argon2id, revocable sessions, bilingual UI, z"
-  },
-  {
-   "repo": "ingleav626-art/dsh-native-launcher",
-   "name": "ingleav626-art-dsh-native-launcher",
-   "verdict": "pending",
-   "stars": 6,
-   "desc": "以\"零额外安装\"为设计原则：仅凭一个官方插件与 Windows 原生机制，让 DeepSeek Harness Web UI 获得桌面 App 式的一键启动体验"
   },
   {
    "repo": "jasondu/dsh-ui-mobile",
@@ -11600,13 +11586,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Drag sessions to another workspace in the DeepSeek Harness (DSH) web GUI — 把侧边栏会话直接拖到其他工作区（完整历史克隆+原会话归档）"
-  },
-  {
-   "repo": "banlanzs/dsh-web-enhanced",
-   "name": "banlanzs-dsh-web-enhanced",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "[building……] DeepSeek Harness's web enhancement plugin—brings task dashboards, Git graphs, workspace file pane"
   },
   {
    "repo": "beihzb/dsh-notebook",
@@ -20338,6 +20317,13 @@
    "desc": "Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Comp"
   },
   {
+   "repo": "z953218350/dsh-archive-manager",
+   "name": "z953218350-dsh-archive-manager",
+   "verdict": "incompatible",
+   "stars": 12,
+   "desc": "Codex-style archived session manager for DSH Web UI — view, search, restore, and delete archived sessions from"
+  },
+  {
    "repo": "buhuikongpan/dsh-win-gitbash",
    "name": "buhuikongpan-dsh-win-gitbash",
    "verdict": "incompatible",
@@ -20525,6 +20511,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "A terminal-native workspace for Codex, Claude Code, and DeepSeek Harness, built on durable cross-harness sessi"
+  },
+  {
+   "repo": "ingleav626-art/dsh-native-launcher",
+   "name": "ingleav626-art-dsh-native-launcher",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "以\"零额外安装\"为设计原则：仅凭一个官方插件与 Windows 原生机制，让 DeepSeek Harness Web UI 获得桌面 App 式的一键启动体验"
   },
   {
    "repo": "kikulmj/dsh-jupyter",
@@ -20847,6 +20840,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH Web 预测回复插件：AI 回复后在输入框上方生成可点击填入草稿的下一步消息候选"
+  },
+  {
+   "repo": "banlanzs/dsh-web-enhanced",
+   "name": "banlanzs-dsh-web-enhanced",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "[building……] DeepSeek Harness's web enhancement plugin—brings task dashboards, Git graphs, workspace file pane"
   },
   {
    "repo": "BenHuHuan/dhs-tuicode",
@@ -23273,7 +23273,7 @@
   {
    "repo": "Renzic-Stone/DSH-EasyRewrite",
    "name": "renzic-stone-dsh-easyrewrite",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 75,
    "desc": "—"
   },
@@ -23948,13 +23948,6 @@
    "verdict": "ok",
    "stars": 7,
    "desc": "ACP server implementation for DeepSeek harness"
-  },
-  {
-   "repo": "spacexun2/dsh-worktime-board",
-   "name": "spacexun2-dsh-worktime-board",
-   "verdict": "pending",
-   "stars": 7,
-   "desc": "🐂🐴 牛马修仙看板：DeepSeek Harness 工时统计 × 修仙养成——把每一分钟劳动，都修成境界（日/周/月 + 学年年历，炼气→宇宙洪荒）"
   },
   {
    "repo": "TheTianzz/dsh-billing",
@@ -38032,6 +38025,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "spacexun2/dsh-worktime-board",
+   "name": "spacexun2-dsh-worktime-board",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "🐂🐴 牛马修仙看板：DeepSeek Harness 工时统计 × 修仙养成——把每一分钟劳动，都修成境界（日/周/月 + 学年年历，炼气→宇宙洪荒）"
   },
   {
    "repo": "zmh2000829/dsh-web-search-multi",
@@ -55429,13 +55429,6 @@
    "desc": "低成本视频理解 dsh 插件：B站/本地视频 → AVIS 信息层 → 摘要+问答（token 压缩 99.95%+）"
   },
   {
-   "repo": "iyllyt/dsh-btw",
-   "name": "iyllyt-dsh-btw",
-   "verdict": "pending",
-   "stars": 9,
-   "desc": "个人很喜欢 Claude Code 的 /btw，于是为 DSH 做了复刻：共享当前上下文快速旁路提问，不中断主任务，也不写入主会话历史"
-  },
-  {
    "repo": "shaokeyibb/dsh-plugin-product-subagents",
    "name": "dsh-plugin-product-subagents",
    "verdict": "ok",
@@ -62728,6 +62721,13 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "A mobile client for deepseek harness remote control"
+  },
+  {
+   "repo": "iyllyt/dsh-btw",
+   "name": "iyllyt-dsh-btw",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "个人很喜欢 Claude Code 的 /btw，于是为 DSH 做了复刻：共享当前上下文快速旁路提问，不中断主任务，也不写入主会话历史"
   },
   {
    "repo": "kaziii/dsh-github-connector",
