@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T21:31:59+00:00",
+  "generated_at": "2026-09-08T21:32:33+00:00",
   "source": "PLUGINS.md",
-  "count": 269,
+  "count": 270,
   "repos": [
     "1na-ko/dsh-hdc-bridge",
     "263311487-ux/dsh-verify",
@@ -150,6 +150,7 @@
     "ZSeven-W/openpencil",
     "Zn-Dk/dsh-session-explorer",
     "Zn-Dk/dsh-session-repair",
+    "Zn-Dk/dsh-zhipu-toolkit",
     "aaravarr/dsh-subagent-max",
     "alooshxl/dsh-session-pins",
     "alpacachen/dsh-worktree",
