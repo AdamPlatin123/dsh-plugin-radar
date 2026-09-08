@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T23:30:52Z",
+ "generated_at": "2026-09-08T23:45:52Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -9189,7 +9189,7 @@
   {
    "repo": "dickpy/dsh-imagegen",
    "name": "dickpy-dsh-imagegen",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 56,
    "desc": "DSH (DeepSeek Harness) Web GUI AI image generation plugin: text-to-image & image-to-image via OpenAI-compatibl"
   },
@@ -17468,13 +17468,6 @@
    "desc": "DSH web plugin: open and edit .docx in the better-sidebar via SuperDoc — self-hosted, offline-capable, atomic"
   },
   {
-   "repo": "chendefine/dsh-sidebar-vscode",
-   "name": "chendefine-dsh-sidebar-vscode",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio"
-  },
-  {
    "repo": "chengoak/dsh-font-size",
    "name": "chengoak-dsh-font-size",
    "verdict": "ok",
@@ -22401,6 +22394,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) plugin — inject durable user-set session/global must-do / must-not requirements into th"
+  },
+  {
+   "repo": "chendefine/dsh-sidebar-vscode",
+   "name": "chendefine-dsh-sidebar-vscode",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio"
   },
   {
    "repo": "davidalmeida90/finance-agent-kit",
@@ -48704,7 +48704,7 @@
   {
    "repo": "zp-home/dsh-recommend",
    "name": "dsh-recommend",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 21,
    "desc": "DSH 插件生态透明排行与推荐：每日自动抓取 dsh-plugin 话题 + 公开评分模型 + 排行/推荐插件与静态站"
   },

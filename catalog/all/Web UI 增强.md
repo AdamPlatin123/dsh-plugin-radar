@@ -42,7 +42,7 @@
 - 🟩 `[可用]` [fandc520-dsh-comfyui](https://github.com/fandc520/dsh-comfyui) ★58 — 一个基于DeepSeek-Harness的ComfyUI插件
 - ⬜ `[待定]` [rison114514-dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui) ★58 — Endfield-inspired industrial UI shell for DeepSeek Harness (dsh) — non-official fan theme
 - 🟩 `[可用]` [xiincs-deepseek-harness-desktop](https://github.com/xiincs/deepseek-harness-desktop) ★57 — DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新
-- 🟩 `[可用]` [dickpy-dsh-imagegen](https://github.com/dickpy/dsh-imagegen) ★56 — DSH (DeepSeek Harness) Web GUI AI image generation plugin: text-to-image & image-to-image via OpenAI-compatibl
+- ⬜ `[待定]` [dickpy-dsh-imagegen](https://github.com/dickpy/dsh-imagegen) ★56 — DSH (DeepSeek Harness) Web GUI AI image generation plugin: text-to-image & image-to-image via OpenAI-compatibl
 - 🟩 `[可用]` [ningbainb-deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop) ★54 — Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, sk
 - 🟩 `[可用]` [niuhuoshan-launch-wechat-miniprogram](https://github.com/niuhuoshan/launch-wechat-miniprogram) ★53 — 面向完全新手的微信小程序 Agent Skill，从需求确认、原生 UI 和高保真原型，到 AppID、备案、开发测试、腾讯云后台、体验版、提审、发布及版本更新
 - ⬜ `[待定]` [heartleo-hn-cli](https://github.com/heartleo/hn-cli) ★52 — Blazing fast, Hacker News CLI (TUI)⚡
@@ -1273,7 +1273,6 @@
 - 🟩 `[可用]` [chencmb2077-ui-dsh-token-monitor](https://github.com/chencmb2077-ui/dsh-token-monitor) ★0 — DSH 静态 Host 插件：Web 界面右下角实时监控 token 用量与 DeepSeek 账户余额
 - ⬜ `[待定]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
 - ⬜ `[待定]` [chendefine-dsh-sidebar-superdoc-docx](https://github.com/chendefine/dsh-sidebar-superdoc-docx) ★0 — DSH web plugin: open and edit .docx in the better-sidebar via SuperDoc — self-hosted, offline-capable, atomic
-- ⬜ `[待定]` [chendefine-dsh-sidebar-vscode](https://github.com/chendefine/dsh-sidebar-vscode) ★0 — DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio
 - 🟩 `[可用]` [chengoak-dsh-font-size](https://github.com/chengoak/dsh-font-size) ★0 — DSH Web GUI plugin: 'Conversation font size' slider (12-22 px) in Settings → General.
 - `[未定位]` **chenruot-dsh-sidebar-qa** — 占位待复核，判定暂不展示
 - `[未定位]` **chenyiming-aaa-dsh-ui-ux-pro-max** — 占位待复核，判定暂不展示
@@ -2537,6 +2536,7 @@
 - 🟨 `[不兼容]` [bvcvb-dsh-baize-rules](https://github.com/bvcvb/dsh-baize-rules) ★0 — DeepSeek Harness (DSH) plugin — inject durable user-set session/global must-do / must-not requirements into th
 - `[未定位]` **cdxdnrf-dsh-wishadel-theme** — 占位待复核，判定暂不展示
 - `[未定位]` **ch4acko3-dsh-ui-workspace** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [chendefine-dsh-sidebar-vscode](https://github.com/chendefine/dsh-sidebar-vscode) ★0 — DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio
 - `[未定位]` **crack-time-dsh-web-ui-skin** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [davidalmeida90-finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) ★0 — Equity valuation skills and data MCPs for DeepSeek Harness and Claude Code
 - `[未定位]` **dee3526-dsh-plugin-voice-input-demo** — 占位待复核，判定暂不展示
