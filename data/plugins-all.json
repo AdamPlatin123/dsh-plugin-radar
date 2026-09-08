@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T21:45:51Z",
+ "generated_at": "2026-09-08T22:00:47Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3041,6 +3041,13 @@
    "desc": "一个可以接入应用系统的deepseek harness插件，让原有的应用系统快速接入智能体能力"
   },
   {
+   "repo": "alaxrpg/dsh-llm-approve-for-me",
+   "name": "alaxrpg-dsh-llm-approve-for-me",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "alwaysmid-19990/dsh-projects",
    "name": "alwaysmid-19990-dsh-projects",
    "verdict": "ok",
@@ -4380,7 +4387,7 @@
   {
    "repo": "zhang-jiazhi/dsh-prompt-optimizer",
    "name": "zhang-jiazhi-dsh-prompt-optimizer",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "将原作者 linshenkx 的 prompt-optimizer 移植到 DeepSeek Harness 的第三方插件（非官方）"
   },
@@ -7841,13 +7848,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Literal Hermes Agent → DeepSeek Harness bridge: shared memory, skills, live tools, MCP, and full-agent delegat"
-  },
-  {
-   "repo": "alaxrpg/dsh-llm-approve-for-me",
-   "name": "alaxrpg-dsh-llm-approve-for-me",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "amphilagus/dsh-literature",
@@ -12309,6 +12309,13 @@
    "desc": "DSH 联网搜索私有化方案，代理 web_search/web_fetch 至 Wigolo，覆盖搜索/抓取/提取/深度研究/缓存/监控全链路，数据不出域，零查询成本"
   },
   {
+   "repo": "tuojc/dsh-browser-firefox",
+   "name": "tuojc-dsh-browser-firefox",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own"
+  },
+  {
    "repo": "tvrpdfe/dsh-chat-manager",
    "name": "tvrpdfe-dsh-chat-manager",
    "verdict": "pending",
@@ -13483,6 +13490,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Anime skin pack for DeepSeek Harness Web UI: 5 AI-generated HD themes, top-right switcher, adjustable transpar"
+  },
+  {
+   "repo": "lywusichen/dsh-sidebar-buttons",
+   "name": "lywusichen-dsh-sidebar-buttons",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "管理 DeepSeek Harness 左下侧栏按钮的插件：拖拽排序、显隐控制，隐藏按钮收进\"更多\"菜单，可统一按钮高度"
   },
   {
    "repo": "lywusichen/dsh-skill-panel",
@@ -21031,13 +21045,6 @@
    "desc": "A DeepSeek Harness plugin that allows you to change the reasoning effort of custom models in WebUI."
   },
   {
-   "repo": "tuojc/dsh-browser-firefox",
-   "name": "tuojc-dsh-browser-firefox",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own"
-  },
-  {
    "repo": "tzy168/dsh-web-theme-packs",
    "name": "tzy168-dsh-web-theme-packs",
    "verdict": "incompatible",
@@ -21344,13 +21351,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
-  },
-  {
-   "repo": "lywusichen/dsh-sidebar-buttons",
-   "name": "lywusichen-dsh-sidebar-buttons",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "管理 DeepSeek Harness 左下侧栏按钮的插件：拖拽排序、显隐控制，隐藏按钮收进\"更多\"菜单，可统一按钮高度"
   },
   {
    "repo": "megatronyy/dsh-skin-background",
@@ -32609,6 +32609,13 @@
    "desc": "@shizhanyu13/dsh-ironbound-policy — DSH plugin: Ironbound hard-gate guard"
   },
   {
+   "repo": "siweimofang/dsh-plugin-zhishe-bikeng-qa",
+   "name": "siweimofang-dsh-plugin-zhishe-bikeng-qa",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "知设装修避坑问答DSH插件"
+  },
+  {
    "repo": "sjk1949/orca-cat",
    "name": "sjk1949-orca-cat",
    "verdict": "pending",
@@ -39959,13 +39966,6 @@
    "desc": "Fix malformed tool-call arguments (nested arguments wrappers, key aliases) at the dsh llm/stream seam"
   },
   {
-   "repo": "siweimofang/dsh-plugin-zhishe-bikeng-qa",
-   "name": "siweimofang-dsh-plugin-zhishe-bikeng-qa",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "知设装修避坑问答DSH插件"
-  },
-  {
    "repo": "siweimofang/dsh-plugin-zhishe-zaojia-gusuan",
    "name": "siweimofang-dsh-plugin-zhishe-zaojia-gusuan",
    "verdict": "incompatible",
@@ -40808,7 +40808,7 @@
   {
    "repo": "licyer/dsh-token-monitor",
    "name": "licyer-dsh-token-monitor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "DSH Web 模型余量与用量监控插件"
   },
@@ -55996,6 +55996,13 @@
    "desc": "Recall (撤回), edit-and-resend (编辑重发) and regenerate (重新生成) for DeepSeek Harness conversation messages — Web and"
   },
   {
+   "repo": "ziduup/dsh-programming-mode",
+   "name": "ziduup-dsh-programming-mode",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "DeepSeek Harness 编程模式组合包：标准模式之上强制执行 Superpowers 工程纪律(TDD、系统化调试、先计划后编码、完成前验证、代码审查)与常驻 Ponytail 代码量纪律，内置 20 个技能("
+  },
+  {
    "repo": "030611/qiushi-dsh-evidence-audit",
    "name": "qiushi-dsh-evidence-audit",
    "verdict": "ok",
@@ -58633,6 +58640,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "可审阅、可回滚、可复用的中文写作全流程 Codex Skill，覆盖灵感、世界观、人物、大纲、故事线、语料、正文与门禁"
+  },
+  {
+   "repo": "chenhw7/dsh-memory",
+   "name": "chenhw7-dsh-memory",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Cairn — long-term memory for the DeepSeek Harness (@chenhw7/dsh-memory)"
   },
   {
    "repo": "chenyinrusi/dsh-engineering-skills",
@@ -62954,13 +62968,6 @@
    "desc": "Prime Agent-inspired persistent RLM control plane for DeepSeek Harness Code Mode"
   },
   {
-   "repo": "ziduup/dsh-programming-mode",
-   "name": "ziduup-dsh-programming-mode",
-   "verdict": "incompatible",
-   "stars": 5,
-   "desc": "DeepSeek Harness 编程模式组合包：标准模式之上强制执行 Superpowers 工程纪律(TDD、系统化调试、先计划后编码、完成前验证、代码审查)与常驻 Ponytail 代码量纪律，内置 20 个技能("
-  },
-  {
    "repo": "itcraft-cn/memrec",
    "name": "itcraft-cn-memrec",
    "verdict": "incompatible",
@@ -63792,13 +63799,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Tencent CodeBuddy provider plugin for DeepSeek Harness: OAuth login, token refresh, and model sync via native"
-  },
-  {
-   "repo": "chenhw7/dsh-memory",
-   "name": "chenhw7-dsh-memory",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Cairn — long-term memory for the DeepSeek Harness (@chenhw7/dsh-memory)"
   },
   {
    "repo": "chenmzh/dsh-codex-reasoning-router",
