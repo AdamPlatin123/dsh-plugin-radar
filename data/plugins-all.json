@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T22:15:49Z",
+ "generated_at": "2026-09-08T22:30:48Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -31813,7 +31813,7 @@
   {
    "repo": "jypjypjypjyp/dsh-super-injector",
    "name": "jypjypjypjyp-dsh-super-injector",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -31939,13 +31939,6 @@
   {
    "repo": "lediemquynh/dsh-ai-question-chime",
    "name": "lediemquynh-dsh-ai-question-chime",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "Lee-Si-Yoon/dsh-llm-friendli",
-   "name": "lee-si-yoon-dsh-llm-friendli",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -39765,6 +39758,13 @@
   {
    "repo": "lament-z/dsh-trae-connect",
    "name": "lament-z-dsh-trae-connect",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "Lee-Si-Yoon/dsh-llm-friendli",
+   "name": "lee-si-yoon-dsh-llm-friendli",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -47941,7 +47941,7 @@
   {
    "repo": "zr-promise/dsh-plugin-market",
    "name": "zr-promise-dsh-plugin-market",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -52176,7 +52176,7 @@
   {
    "repo": "Clarklevis1995/dsh-plugin-mobile-gateway",
    "name": "clarklevis1995-dsh-plugin-mobile-gateway",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
