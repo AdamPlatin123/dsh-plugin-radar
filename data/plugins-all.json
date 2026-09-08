@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T22:30:48Z",
+ "generated_at": "2026-09-08T22:45:44Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -10344,7 +10344,7 @@
   {
    "repo": "enterhalf/dsh-web-network-optimizer",
    "name": "enterhalf-dsh-web-network-optimizer",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 6,
    "desc": "dsh网页端网络优化：通过缓存与压缩技术降低传输，从而大幅提升网页加载速度；同时提供网络断连指示与自动断网重连功能"
   },
@@ -19283,7 +19283,7 @@
   {
    "repo": "weibaohui/experts-management",
    "name": "weibaohui-experts-management",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "dsh 插件 · 专家市场：ntd 格式专家/专家团队管理与注入（＋专家按钮 / /expert-名称 手势），稀疏检出专家市场"
   },
@@ -24918,7 +24918,7 @@
   {
    "repo": "cilis/dsh-tauri-launcher",
    "name": "cilis-dsh-tauri-launcher",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness (DSH) Launcher，this is a dsh plugin."
   },
@@ -27725,7 +27725,7 @@
   {
    "repo": "guhanfei-ai/dsh-mindmap",
    "name": "guhanfei-ai-dsh-mindmap",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "让DSH帮你快速制作思维脑图"
   },
@@ -40570,7 +40570,7 @@
   {
    "repo": "yxxbc/dsh-balance-plugin",
    "name": "yxxbc-dsh-balance-plugin",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 60,
    "desc": "deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理"
   },
@@ -48963,7 +48963,7 @@
   {
    "repo": "nyantused-cpun/folio",
    "name": "nyantused-cpun-folio",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "兰亭 (Folio) · 咨询/汇报材料生成引擎：宿主无关 CLI（87 命令 / 37 种图形 / HTML·PPT·DOCX·报价同源）+ DeepSeek Harness 增强层（15 原生工具 / 会话协议 /"
   },
@@ -60814,7 +60814,7 @@
   {
    "repo": "jarvis-intelligence/jarvis",
    "name": "jarvis-intelligence-jarvis",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "JARVIS is an intelligent layer that gives agents access to their code, knowledge, context, memory, tools, and"
   },
