@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T20:15:43Z",
+ "generated_at": "2026-09-08T21:00:43Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -4623,13 +4623,6 @@
    "desc": "DeepSeek Harness cordis plugin: API balance + Coding Plan usage panel (/balance /plan)"
   },
   {
-   "repo": "alpacachen/dsh-automation",
-   "name": "alpacachen-dsh-automation",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness"
-  },
-  {
    "repo": "altuman-w/dsh-plugin-plantuml",
    "name": "altuman-w-dsh-plugin-plantuml",
    "verdict": "ok",
@@ -8256,6 +8249,13 @@
    "desc": "Native Leppy Loop bundle for DeepSeek Harness"
   },
   {
+   "repo": "alpacachen/dsh-automation",
+   "name": "alpacachen-dsh-automation",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness"
+  },
+  {
    "repo": "autonomous-ai/deepseek-harness-cli",
    "name": "autonomous-ai-deepseek-harness-cli",
    "verdict": "incompatible",
@@ -8891,13 +8891,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "mem0ai/mem0",
-   "name": "mem0ai-mem0",
-   "verdict": "ok",
-   "stars": 64915,
-   "desc": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps"
   },
   {
    "repo": "amruthpillai/reactive-resume",
@@ -19255,7 +19248,7 @@
   {
    "repo": "weibaohui/experts-management",
    "name": "weibaohui-experts-management",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "dsh 插件 · 专家市场：ntd 格式专家/专家团队管理与注入（＋专家按钮 / /expert-名称 手势），稀疏检出专家市场"
   },
@@ -20112,6 +20105,13 @@
    "verdict": "untested",
    "stars": null,
    "desc": "审批面板键盘快捷键：Enter 批准一次、Esc 拒绝、Esc 暂停键盘驱动审阅，审批/提问面板通用；npm `dsh-approval-hotkeys`，`dsh plugin add` 一键安装"
+  },
+  {
+   "repo": "mem0ai/mem0",
+   "name": "mem0ai-mem0",
+   "verdict": "incompatible",
+   "stars": 64915,
+   "desc": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps"
   },
   {
    "repo": "yjh051108/dsh-routing-suite",
@@ -26388,7 +26388,7 @@
   {
    "repo": "rickyfu0625-cell/dsh-billing-dashboard",
    "name": "rickyfu0625-cell-dsh-billing-dashboard",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness 用量看板插件：余额 / 消费 / token / 7 日趋势 / 一键充值"
   },
@@ -31074,6 +31074,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: leave long-running tasks and watch yellow/green/blue on the Firefox, Chrome, or Edge tab"
+  },
+  {
+   "repo": "cofy-x/dsh-automation",
+   "name": "cofy-x-dsh-automation",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Durable background automation for DeepSeek Harness"
   },
   {
    "repo": "coolgech/dsh-siyuan",
@@ -39467,13 +39474,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Enable and disable third-party plugins from the DeepSeek Harness Web settings page."
-  },
-  {
-   "repo": "cofy-x/dsh-automation",
-   "name": "cofy-x-dsh-automation",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Durable background automation for DeepSeek Harness"
   },
   {
    "repo": "cofy-x/dsh-evolver",
@@ -57571,13 +57571,6 @@
    "desc": "—"
   },
   {
-   "repo": "hellogit2021/avoid-ai-writing-cn",
-   "name": "hellogit2021-avoid-ai-writing-cn",
-   "verdict": "ok",
-   "stars": 2,
-   "desc": "知乎\"去AI味写作技巧\"社区免费提供：中文写作去 AI 味插件"
-  },
-  {
    "repo": "hezhongtang/dsh-update-copilot",
    "name": "hezhongtang-dsh-update-copilot",
    "verdict": "ok",
@@ -63386,6 +63379,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Better Harness evidence lanes as three independently installable DeepSeek Harness skill bundles"
+  },
+  {
+   "repo": "hellogit2021/avoid-ai-writing-cn",
+   "name": "hellogit2021-avoid-ai-writing-cn",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "知乎\"去AI味写作技巧\"社区免费提供：中文写作去 AI 味插件"
   },
   {
    "repo": "huchunlinnk/deepseek-desktop",
