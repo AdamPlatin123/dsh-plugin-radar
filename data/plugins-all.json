@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T22:00:47Z",
+ "generated_at": "2026-09-08T22:15:49Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -799,13 +799,6 @@
    "verdict": "pending",
    "stars": 6,
    "desc": "Import pi / opencode / codex / claude-code sessions, chat history, and agents into DeepSeek Harness — one-clic"
-  },
-  {
-   "repo": "chipweaver/veripower",
-   "name": "chipweaver-veripower",
-   "verdict": "ok",
-   "stars": 6,
-   "desc": "An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end sig"
   },
   {
    "repo": "flg1217/dsh-llm-agy",
@@ -7122,6 +7115,13 @@
    "desc": "Finance data toolkit for DeepSeek Harness agents: number/currency formatting (incl"
   },
   {
+   "repo": "chipweaver/veripower",
+   "name": "chipweaver-veripower",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end sig"
+  },
+  {
    "repo": "HuanLinOTO/dsh-plugin-interpreters",
    "name": "dsh-plugin-interpreters",
    "verdict": "incompatible",
@@ -10344,7 +10344,7 @@
   {
    "repo": "enterhalf/dsh-web-network-optimizer",
    "name": "enterhalf-dsh-web-network-optimizer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "dsh网页端网络优化：通过缓存与压缩技术降低传输，从而大幅提升网页加载速度；同时提供网络断连指示与自动断网重连功能"
   },
@@ -24918,7 +24918,7 @@
   {
    "repo": "cilis/dsh-tauri-launcher",
    "name": "cilis-dsh-tauri-launcher",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DeepSeek Harness (DSH) Launcher，this is a dsh plugin."
   },
@@ -27725,7 +27725,7 @@
   {
    "repo": "guhanfei-ai/dsh-mindmap",
    "name": "guhanfei-ai-dsh-mindmap",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "让DSH帮你快速制作思维脑图"
   },
@@ -51824,13 +51824,6 @@
    "desc": "One-click restart of the DSH service from Settings → General"
   },
   {
-   "repo": "chenzheshushi-commits/dsh-evolve",
-   "name": "chenzheshushi-commits-dsh-evolve",
-   "verdict": "ok",
-   "stars": 9,
-   "desc": "Self-evolving memory + skill lifecycle for DeepSeek Harness — durable cross-session memory with zero-token det"
-  },
-  {
    "repo": "pan17/dsh-wechat",
    "name": "pan17-dsh-wechat",
    "verdict": "ok",
@@ -53936,6 +53929,13 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "一个DeepSeek Harness的公众号运营插件，选题 → 写稿 → 排版 → 配图 → 发布"
+  },
+  {
+   "repo": "chenzheshushi-commits/dsh-evolve",
+   "name": "chenzheshushi-commits-dsh-evolve",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "Self-evolving memory + skill lifecycle for DeepSeek Harness — durable cross-session memory with zero-token det"
   },
   {
    "repo": "xmuwenxiang/dsh-web-chat",
