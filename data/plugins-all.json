@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T23:15:51Z",
+ "generated_at": "2026-09-08T23:30:52Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -16581,7 +16581,7 @@
   {
    "repo": "weibaohui/dsh-sync",
    "name": "weibaohui-dsh-sync",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 插件：会话同步与冲突解决（apiproxy、token 内联）"
   },
@@ -19255,7 +19255,7 @@
   {
    "repo": "weibaohui/dsh-continue",
    "name": "weibaohui-dsh-continue",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "自动续跑插件 for DeepSeek Harness — 有序规则表：按失败类型路由 继续续跑 / 换模型 / 压缩后继续 / 停止"
   },
@@ -24601,6 +24601,13 @@
    "desc": "—"
   },
   {
+   "repo": "MrMu666/dsh-LAN",
+   "name": "dsh-LAN",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
+  },
+  {
    "repo": "nexsjournal/dsh-vision-plugin",
    "name": "nexsjournal-dsh-vision-plugin",
    "verdict": "ok",
@@ -24820,7 +24827,7 @@
   {
    "repo": "162568316/dsh-tokenrhythm-bill",
    "name": "162568316-dsh-tokenrhythm-bill",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "dsh-tokenrhythm-bill"
   },
@@ -25086,7 +25093,7 @@
   {
    "repo": "Letter2025/dsh-tool-search",
    "name": "dsh-tool-search",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Tool search & slimming for DeepSeek Harness: Hermes-style progressive disclosure — search, describe, and call"
   },
@@ -26430,7 +26437,7 @@
   {
    "repo": "rickyfu0625-cell/dsh-billing-dashboard",
    "name": "rickyfu0625-cell-dsh-billing-dashboard",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness 用量看板插件：余额 / 消费 / token / 7 日趋势 / 一键充值"
   },
@@ -27207,13 +27214,6 @@
   {
    "repo": "Bandersnatch0x/amber-protocol",
    "name": "bandersnatch0x-amber-protocol",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "Bandersnatch0x/design-playbook",
-   "name": "bandersnatch0x-design-playbook",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -38216,13 +38216,6 @@
    "desc": "dsh 欢乐斗地主"
   },
   {
-   "repo": "MrMu666/dsh-LAN",
-   "name": "dsh-LAN",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
-  },
-  {
    "repo": "omdsh-dev/dsh-hub",
    "name": "omdsh-dev-dsh-hub",
    "verdict": "incompatible",
@@ -38865,6 +38858,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "一个可以在edge上使用进行语音对话的dsh-plugin"
+  },
+  {
+   "repo": "Bandersnatch0x/design-playbook",
+   "name": "bandersnatch0x-design-playbook",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "bunipai/dsh-balance-guard",
@@ -40808,7 +40808,7 @@
   {
    "repo": "licyer/dsh-token-monitor",
    "name": "licyer-dsh-token-monitor",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "DSH Web 模型余量与用量监控插件"
   },
@@ -41119,6 +41119,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "1.安装新插件前检测是否和现有插件存在冲突  2.检测已安装的插件是否存在冲突"
+  },
+  {
+   "repo": "anweat/dsh-browser",
+   "name": "anweat-dsh-browser",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Self-contained browser runtime plugin for DeepSeek Harness — bundles Playwright (chromium) and OpenCLI as plug"
   },
   {
    "repo": "arkyu2077/awesome-dsh-plugin",
@@ -44677,13 +44684,6 @@
    "desc": "—"
   },
   {
-   "repo": "anweat/dsh-browser",
-   "name": "anweat-dsh-browser",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "Self-contained browser runtime plugin for DeepSeek Harness — bundles Playwright (chromium) and OpenCLI as plug"
-  },
-  {
    "repo": "blaxel-ai/deepseek-harness-blaxel-sandbox",
    "name": "blaxel-ai-deepseek-harness-blaxel-sandbox",
    "verdict": "incompatible",
@@ -47064,6 +47064,13 @@
    "desc": "Harness engineering beginner tutorial, from 0 to 1"
   },
   {
+   "repo": "hikariming/dshfind",
+   "name": "hikariming-dshfind",
+   "verdict": "pending",
+   "stars": 92,
+   "desc": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
+  },
+  {
    "repo": "canghai666x/dsh-web-novel-research",
    "name": "canghai666x-dsh-web-novel-research",
    "verdict": "pending",
@@ -47391,13 +47398,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Evidence-grounded bilingual academic research plugin for DeepSeek Harness and On"
-  },
-  {
-   "repo": "hikariming/dshfind",
-   "name": "hikariming-dshfind",
-   "verdict": "incompatible",
-   "stars": 92,
-   "desc": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
   },
   {
    "repo": "omdsh-dev/dsh-deep-research",
@@ -48718,7 +48718,7 @@
   {
    "repo": "modusensus/dsh-mneme",
    "name": "modusensus-dsh-mneme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 15,
    "desc": "🧠 The memory that dreams — cross-session memory plugin for DeepSeek Harness: your AI remembers across sessions"
   },
@@ -48809,7 +48809,7 @@
   {
    "repo": "liceses/dsh-workspace-tree",
    "name": "liceses-dsh-workspace-tree",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 7,
    "desc": "把 DSH Web 左侧栏的「工作区」重做为文件系统树双模式"
   },
