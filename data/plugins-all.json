@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T22:45:44Z",
+ "generated_at": "2026-09-08T23:15:51Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -9903,7 +9903,7 @@
   {
    "repo": "skymecode/deepseek-harness-for-vscode",
    "name": "deepseek-harness-for-vscode",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 9,
    "desc": "deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness"
   },
@@ -52078,7 +52078,7 @@
   {
    "repo": "klarkxy/dsh-plugin-autoevo",
    "name": "klarkxy-dsh-plugin-autoevo",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "发现、探索、审查、升级"
   },
@@ -52176,7 +52176,7 @@
   {
    "repo": "Clarklevis1995/dsh-plugin-mobile-gateway",
    "name": "clarklevis1995-dsh-plugin-mobile-gateway",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "—"
   },
@@ -55200,7 +55200,7 @@
   {
    "repo": "alib8b8/aflare",
    "name": "alib8b8-aflare",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 13,
    "desc": "Local-first automation Agent & deterministic workflow engine — the secure control layer between AI and your da"
   },
@@ -55499,6 +55499,13 @@
    "desc": "DSH plugin: Auto-convert images to text for pure-text LLMs (DeepSeek etc.) via any vision model"
   },
   {
+   "repo": "querit-ai/querit-plugins",
+   "name": "querit-ai-querit-plugins",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "Official Querit integrations for AI agents: real-time, cited web search and page fetch for Pi, DSH, OpenCode,"
+  },
+  {
    "repo": "yhlooo/dsh-bridges",
    "name": "yhlooo-dsh-bridges",
    "verdict": "ok",
@@ -55536,7 +55543,7 @@
   {
    "repo": "jiesou/dsh-commandcode-go-provider",
    "name": "jiesou-dsh-commandcode-go-provider",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Command Code Go API provider for dsh"
   },
@@ -62784,13 +62791,6 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "把你的任何想法，变成每个平台原生的宣发内容 \\| Turn any idea into platform-native publicity"
-  },
-  {
-   "repo": "querit-ai/querit-plugins",
-   "name": "querit-ai-querit-plugins",
-   "verdict": "incompatible",
-   "stars": 8,
-   "desc": "Official Querit integrations for AI agents: real-time, cited web search and page fetch for Pi, DSH, OpenCode,"
   },
   {
    "repo": "xinchen03/minta",
