@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-09T09:46:54Z",
+ "generated_at": "2026-09-09T10:02:07Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3417,13 +3417,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap"
-  },
-  {
-   "repo": "heming-gmh/dsh-capcheck",
-   "name": "heming-gmh-dsh-capcheck",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "V0 capability-disclosure scanner for DeepSeek Harness (DSH) cordis plugins -- zero-execution static analysis o"
   },
   {
    "repo": "hjj588/dsh-memory-vault",
@@ -7953,6 +7946,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback"
+  },
+  {
+   "repo": "heming-gmh/dsh-capcheck",
+   "name": "heming-gmh-dsh-capcheck",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "V0 capability-disclosure scanner for DeepSeek Harness (DSH) cordis plugins -- zero-execution static analysis o"
   },
   {
    "repo": "iguowz/dsh-cortex",
@@ -17641,6 +17641,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH web GUI session manager plugin: archive (soft-delete) and bulk archive sessions from a sidebar panel"
+  },
+  {
+   "repo": "flykit-cc/dsh-claude-live",
+   "name": "flykit-cc-dsh-claude-live",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Run Claude Code as a subagent inside DeepSeek Harness with its steps streaming live into the session UI"
   },
   {
    "repo": "fogmodel/dsh-workspace-jump",
