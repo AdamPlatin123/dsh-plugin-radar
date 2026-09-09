@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-08T23:45:52Z",
+ "generated_at": "2026-09-09T00:00:42Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -16595,7 +16595,7 @@
   {
    "repo": "weibaohui/skills-management",
    "name": "weibaohui-skills-management",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 插件：技能市场——安装/删除/详情 API + 管理界面"
   },
