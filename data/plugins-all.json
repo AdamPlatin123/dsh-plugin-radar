@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-09T00:45:49Z",
+ "generated_at": "2026-09-09T01:00:45Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3498,7 +3498,7 @@
   {
    "repo": "iqingyoung/search2chart-mcp",
    "name": "iqingyoung-search2chart-mcp",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "search2chart-mcp: agent-native charting — turn search/research/tabular data into inline charts in agent conver"
   },
@@ -3561,7 +3561,7 @@
   {
    "repo": "jonah791/dsh-agent-evolve",
    "name": "jonah791-dsh-agent-evolve",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "跨代自评估进化插件：配置仓库（版本化资源+锚点链）、热重载（.agent-presets 运行时应用/回滚）、子智能体白纸继承配置跑 modeltest 评测、账本（分数/轨迹/失败模式）"
   },
@@ -9171,13 +9171,6 @@
    "verdict": "ok",
    "stars": 58,
    "desc": "一个基于DeepSeek-Harness的ComfyUI插件"
-  },
-  {
-   "repo": "rison114514/dsh-endfield-ui",
-   "name": "rison114514-dsh-endfield-ui",
-   "verdict": "pending",
-   "stars": 58,
-   "desc": "Endfield-inspired industrial UI shell for DeepSeek Harness (dsh) — non-official fan theme"
   },
   {
    "repo": "xiincs/deepseek-harness-desktop",
@@ -20175,6 +20168,13 @@
    "verdict": "incompatible",
    "stars": 129,
    "desc": "dsh / pi-agent web ui"
+  },
+  {
+   "repo": "rison114514/dsh-endfield-ui",
+   "name": "rison114514-dsh-endfield-ui",
+   "verdict": "incompatible",
+   "stars": 58,
+   "desc": "Endfield-inspired industrial UI shell for DeepSeek Harness (dsh) — non-official fan theme"
   },
   {
    "repo": "whiteguo233/dsh-openbiliclaw",
@@ -49738,13 +49738,6 @@
    "desc": "哨卫插件（dsh-agent-watch）：跨工作区通用的 DSH Web 守护"
   },
   {
-   "repo": "jonah791/dsh-wq-bridge",
-   "name": "jonah791-dsh-wq-bridge",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "WorldQuant BRAIN 平台桥（Python Bridge 模式）：TS 壳管理 Python 子进程（stdio JSON-RPC），向 DSH 工具面暴露 AlphaFactory 平台能力"
-  },
-  {
    "repo": "kaaaaahn/dsh-vision",
    "name": "kaaaaahn-dsh-vision",
    "verdict": "ok",
@@ -51325,6 +51318,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness（DSH）归档增强插件：自动定期归档、文件夹归档整理、LLM 摘要沉淀经验库、会话收藏与便签、会话删除与优雅关机"
+  },
+  {
+   "repo": "jonah791/dsh-wq-bridge",
+   "name": "jonah791-dsh-wq-bridge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "WorldQuant BRAIN 平台桥（Python Bridge 模式）：TS 壳管理 Python 子进程（stdio JSON-RPC），向 DSH 工具面暴露 AlphaFactory 平台能力"
   },
   {
    "repo": "komoai2026/dsh-zpdf",
@@ -52974,7 +52974,7 @@
   {
    "repo": "jonah791/dsh-agent-taskboard",
    "name": "jonah791-dsh-agent-taskboard",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "任务板插件：主人/任何 agent 可发布任务（异步队列），宿主 agent 空闲时自主领取并完成（不打断会话）"
   },
