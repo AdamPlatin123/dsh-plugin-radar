@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-09T00:00:42Z",
+ "generated_at": "2026-09-09T00:45:49Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -17895,13 +17895,6 @@
    "desc": "DeepSeek Harness Web 界面主题/皮肤管理插件，可切换多种视觉风格"
   },
   {
-   "repo": "ice5kysl/dsh-workspace-kit",
-   "name": "ice5kysl-dsh-workspace-kit",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "dsh (DeepSeek Harness) workspace kit: ⌘K Spotlight search, soft workspace archive/restore, per-workspace icons"
-  },
-  {
    "repo": "ilanxiaoqihi-cell/deepseek-harness-desktop",
    "name": "ilanxiaoqihi-cell-deepseek-harness-desktop",
    "verdict": "ok",
@@ -22487,6 +22480,13 @@
    "desc": "DshForMac 是 DeepSeek Harness 的原生 macOS 启动器与运行时管理器，提供本地环境检测、版本管理及内嵌 Web 界面"
   },
   {
+   "repo": "ice5kysl/dsh-workspace-kit",
+   "name": "ice5kysl-dsh-workspace-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh (DeepSeek Harness) workspace kit: ⌘K Spotlight search, soft workspace archive/restore, per-workspace icons"
+  },
+  {
    "repo": "icyaaaww/dsh-tool-failure-circuit-breaker",
    "name": "icyaaaww-dsh-tool-failure-circuit-breaker",
    "verdict": "incompatible",
@@ -24599,13 +24599,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
-  },
-  {
-   "repo": "MrMu666/dsh-LAN",
-   "name": "dsh-LAN",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
   },
   {
    "repo": "nexsjournal/dsh-vision-plugin",
@@ -38214,6 +38207,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "dsh 欢乐斗地主"
+  },
+  {
+   "repo": "MrMu666/dsh-LAN",
+   "name": "dsh-LAN",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
   },
   {
    "repo": "omdsh-dev/dsh-hub",
@@ -52328,13 +52328,6 @@
    "desc": "DSH 多方群聊协作插件（圆桌）：把不同人设的 AI Agent 拉进同一研讨房间，互相讨论、交叉补充、质疑修正，最终一键总结出综合方案；也支持把工作区已有的对话框拉进来参与讨论，消除信息隔离"
   },
   {
-   "repo": "wangbobo-coder/gitee-ai-employee",
-   "name": "wangbobo-coder-gitee-ai-employee",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "Gitee AI 员工：在 issue 里 @ 机器人并指定目标分支，它自动克隆仓库开发、提交 PR，可自动合并并关闭 issue"
-  },
-  {
    "repo": "xiaoxianyu-office/dsh-image-tools",
    "name": "xiaoxianyu-office-dsh-image-tools",
    "verdict": "ok",
@@ -52886,13 +52879,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Maestro Notifier — pluggable notifier service for DeepSeek Harness (Telegram first; registry open to further p"
-  },
-  {
-   "repo": "ddtcorex/dsh-maestro-remote",
-   "name": "ddtcorex-dsh-maestro-remote",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Remote access for DeepSeek Harness via cloudflared tunnel + proxy, with PIN auth and Telegram notifications."
   },
   {
    "repo": "doncelee229-cmyk/dsh-plugin-approval-alert",
@@ -54078,6 +54064,13 @@
    "desc": "不用一直在电脑前，远程操控Deepseek Harness，在飞书 / 企业微信 / Telegram 里指挥 DeepSeek Harness：远程派活 · 结果通知 · 危险操作审批"
   },
   {
+   "repo": "wangbobo-coder/gitee-ai-employee",
+   "name": "wangbobo-coder-gitee-ai-employee",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Gitee AI 员工：在 issue 里 @ 机器人并指定目标分支，它自动克隆仓库开发、提交 PR，可自动合并并关闭 issue"
+  },
+  {
    "repo": "xqicxx/dsh-telegram",
    "name": "xqicxx-dsh-telegram",
    "verdict": "incompatible",
@@ -54328,6 +54321,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "OpenAI Codex (ChatGPT Plus/Pro OAuth) provider plugin for DeepSeek Harness (DSH)"
+  },
+  {
+   "repo": "ddtcorex/dsh-maestro-remote",
+   "name": "ddtcorex-dsh-maestro-remote",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Remote access for DeepSeek Harness via cloudflared tunnel + proxy, with PIN auth and Telegram notifications."
   },
   {
    "repo": "jackControls/dsh-telegram-control",
