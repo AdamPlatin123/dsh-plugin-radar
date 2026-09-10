@@ -171,6 +171,13 @@
 | dsh-personal-directive | [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) | 个人指令注入插件：Web 顶部运行时开关切换自定义系统提示词段，中性占位指令随包发布（Minglink/dsh-infinite-gen-1 的框架再版，上游归属保留） | 待测 |
 | dsh-qqbot-panel | [zhengjy01/dsh-qqbot-panel](https://github.com/zhengjy01/dsh-qqbot-panel) | 为官方 @tencent-connect/dsh-qqbot 提供的可视化配置面板（管理凭据、访问模式与白名单、工作区选择、扫码绑定）。 | 待测 |
 | dsh-ticktick | [PerryLink/dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) | TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点 | 待测 |
+| dsh-zsxq | [zhengjy01/dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) | 知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板 | 待测 |
+| dsh-skill-recommender | [zhengjy01/dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) | 会话画像驱动的开源 skill 推荐器：扫描本地 DSH/Codex/Claude 会话建立加权画像（主题/工具/任务/项目），按可调匹配指数推荐开源 skill | 待测 |
+| dsh-goofish-mcp | [zhengjy01/dsh-goofish-mcp](https://github.com/zhengjy01/dsh-goofish-mcp) | 闲鱼只读监控：驱动 goofish-cli MCP 服务器，暴露搜索 / 商品详情 / 在售列表 / 会话历史 / 类目识别等只读工具，写操作一律过滤 | 待测 |
+| dsh-npm | [zhengjy01/dsh-npm](https://github.com/zhengjy01/dsh-npm) | NPM 包管理：查询包信息 / 版本列表 / 搜索包，并用本机或注入的 token 发布与弃用，附 Web 设置面板 | 待测 |
+| dsh-backup-migrator | [zhengjy01/dsh-backup-migrator](https://github.com/zhengjy01/dsh-backup-migrator) | 插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原 | 待测 |
+| dsh-feishu-mcp | [zhengjy01/dsh-feishu-mcp](https://github.com/zhengjy01/dsh-feishu-mcp) | 飞书（Lark）OpenAPI MCP 连接：桥接官方 @larksuiteoapi/lark-mcp，把 IM / 多维表格 / 云文档 / 日历 / 云盘 API 暴露为 mcp__feishu__* 工具，支持用户令牌 OAuth | 待测 |
+| dsh-aliyun-mcp | [zhengjy01/dsh-aliyun-mcp](https://github.com/zhengjy01/dsh-aliyun-mcp) | 阿里云 OpenAPI MCP 连接：静态凭证 + 官方 MCP Proxy，把 ECS / OSS / 域名 / DNS / 函数计算等 OpenAPI 暴露为 mcp__aliyun__* 工具 | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
