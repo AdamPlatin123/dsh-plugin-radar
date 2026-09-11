@@ -17,9 +17,9 @@
 
 安装前就知道哪个能用，不用自己踩坑。
 
-[![confirmed](https://img.shields.io/badge/confirmed-1299-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13336-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![confirmed](https://img.shields.io/badge/confirmed-1302-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13336-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-[![运行级可用](https://img.shields.io/badge/运行级可用_8709-0.1.1--rc.2-brightgreen)](#2-看懂状态统一四档口径) [![待测](https://img.shields.io/badge/待测_1957-0.1.1--rc.2-lightgrey)](#2-看懂状态统一四档口径) [![需适配](https://img.shields.io/badge/需适配_2785-0.1.1--rc.2-yellow)](#2-看懂状态统一四档口径)
+[![运行级可用](https://img.shields.io/badge/运行级可用_8708-0.1.1--rc.2-brightgreen)](#2-看懂状态统一四档口径) [![待测](https://img.shields.io/badge/待测_1958-0.1.1--rc.2-lightgrey)](#2-看懂状态统一四档口径) [![需适配](https://img.shields.io/badge/需适配_2785-0.1.1--rc.2-yellow)](#2-看懂状态统一四档口径)
 
 
 
@@ -46,26 +46,26 @@ Radar Engine（开源 → engine/）
 
 ## 工作原理
 
-> 数据截至快照 `20260910T224501Z`（2026-09-11 06:45:03 UTC+8 · 分类器 unified-v2-bridge）
+> 数据截至快照 `20260911T110001Z`（2026-09-11 19:00:03 UTC+8 · 分类器 unified-v2-bridge）
 
 <!-- AUTO:pipeline:START -->
 ```mermaid
 flowchart TB
     subgraph Discovery["发现（每 6 小时 · probe 每 15 分钟 巡检触发）"]
-        A1["GitHub Search<br/>topic ×2 + keyword ×3<br/>候选 19763 · 龄 88m"]
+        A1["GitHub Search<br/>topic ×2 + keyword ×3<br/>候选 19920 · 龄 108m"]
         A2["本地库补全 · 去重 repo id"]
         A3["私有 org 仓排除<br/>35s 错峰 · 403 退避 · dshow 黑名单"]
     end
     subgraph Validation["验证（driver 20s 流式循环）"]
         B1{"package.json<br/>name + main/exports/dsh?"}
     end
-    B1 -->|"插件 1299"| C1["k8s 运行级测试<br/>一插件一 pod · 并发 10<br/>dsh agent + Qwen（de-stream）"]
+    B1 -->|"插件 1302"| C1["k8s 运行级测试<br/>一插件一 pod · 并发 10<br/>dsh agent + Qwen（de-stream）"]
     B1 -->|"非插件（累计删 0）"| B3["即删省空间"]
     C1 --> D1{"判定 · 总 13336"}
-    D1 -->|"8709 / 2785"| E1["聚合 + README 分类统计"]
-    D1 -->|"1842 环境类重试"| C1
+    D1 -->|"8708 / 2785"| E1["聚合 + README 分类统计"]
+    D1 -->|"1843 环境类重试"| C1
     E1 --> E2["cadence 交付<br/>本周期增量 —/100<br/>双仓 bot PR（幂等 supersede）"]
-    M["radar-probe 每 15 分钟 自愈<br/>7 指标流 × 60s · 完成累计 4"]
+    M["radar-probe 每 15 分钟 自愈<br/>7 指标流 × 60s · 完成累计 3"]
     M -.-> A1
     M -.-> C1
 ```
@@ -258,15 +258,15 @@ flowchart TB
 - **🧠 记忆增强**（48）— 可用 15 · 不兼容 6 · 待定 4 · 未测 2 · 监测 21 — [明细](catalog/all/记忆增强.md)
 - **🎨 主题皮肤**（22）— 可用 12 · 不兼容 0 · 待定 2 · 未测 5 · 监测 3 — [明细](catalog/all/主题皮肤.md)
 - **🛒 市场与管理**（310）— 可用 100 · 不兼容 19 · 待定 19 · 未测 8 · 监测 164 — [明细](catalog/all/市场与管理.md)
-- **🔌 Web UI 增强**（2775）— 可用 1319 · 不兼容 410 · 待定 269 · 未测 17 · 监测 760 — [明细](catalog/all/Web%20UI%20增强.md)
-- **💻 编码开发**（2154）— 可用 895 · 不兼容 355 · 待定 221 · 未测 20 · 监测 663 — [明细](catalog/all/编码开发.md)
-- **🤖 Agent 能力**（2262）— 可用 803 · 不兼容 276 · 待定 185 · 未测 12 · 监测 986 — [明细](catalog/all/Agent%20能力.md)
+- **🔌 Web UI 增强**（2773）— 可用 1318 · 不兼容 411 · 待定 267 · 未测 17 · 监测 760 — [明细](catalog/all/Web%20UI%20增强.md)
+- **💻 编码开发**（2152）— 可用 895 · 不兼容 355 · 待定 219 · 未测 20 · 监测 663 — [明细](catalog/all/编码开发.md)
+- **🤖 Agent 能力**（2261）— 可用 801 · 不兼容 276 · 待定 186 · 未测 12 · 监测 986 — [明细](catalog/all/Agent%20能力.md)
 - **📡 消息通讯**（722）— 可用 256 · 不兼容 115 · 待定 62 · 未测 4 · 监测 285 — [明细](catalog/all/消息通讯.md)
-- **🗂 文件数据**（680）— 可用 266 · 不兼容 93 · 待定 66 · 未测 9 · 监测 246 — [明细](catalog/all/文件数据.md)
-- **🎮 娱乐生活**（454）— 可用 172 · 不兼容 34 · 待定 33 · 未测 0 · 监测 215 — [明细](catalog/all/娱乐生活.md)
+- **🗂 文件数据**（681）— 可用 267 · 不兼容 93 · 待定 66 · 未测 9 · 监测 246 — [明细](catalog/all/文件数据.md)
+- **🎮 娱乐生活**（456）— 可用 173 · 不兼容 35 · 待定 33 · 未测 0 · 监测 215 — [明细](catalog/all/娱乐生活.md)
 - **🛠 基建部署**（1359）— 可用 437 · 不兼容 129 · 待定 134 · 未测 4 · 监测 655 — [明细](catalog/all/基建部署.md)
 - **📚 学习研究**（158）— 可用 37 · 不兼容 7 · 待定 10 · 未测 2 · 监测 102 — [明细](catalog/all/学习研究.md)
-- **❓ 其他**（7222）— 可用 1812 · 不兼容 366 · 待定 272 · 未测 21 · 监测 4751 — [明细](catalog/all/其他.md)
+- **❓ 其他**（7224）— 可用 1814 · 不兼容 366 · 待定 272 · 未测 21 · 监测 4751 — [明细](catalog/all/其他.md)
 
 <!-- AUTO:catalog:END -->
 
@@ -323,7 +323,7 @@ DSH 插件社区讨论群（微信群）：插件作者、维护者与使用者�
 | · 未测 | 尚未派发运行级测试 | 不应推断为兼容或不兼容 |
 
 > [!NOTE]
-> **测试版本**：dsh（容器内 agent）+ Qwen3.6-35B 驱动（经 de-stream 代理）· k8s 5 分片 · 以快照 `run_id` 锚定具体轮次（当前 `20260910T224501Z`）。DSH 的 npm 版本号未随快照记录，以 run_id 与 `reports/agent-test/` 日期交叉核对。
+> **测试版本**：dsh（容器内 agent）+ Qwen3.6-35B 驱动（经 de-stream 代理）· k8s 5 分片 · 以快照 `run_id` 锚定具体轮次（当前 `20260911T110001Z`）。DSH 的 npm 版本号未随快照记录，以 run_id 与 `reports/agent-test/` 日期交叉核对。
 > **口径提示**：徽章与统计中的「已测 N」是单轮运行口径；分类目录与全量清单是跨轮累积口径，两者数字不同属正常。
 
 每个结论都应同时看四项：**插件 commit、mainline commit、测试日期、测试层级**。缺少其中任一项时，降低对结果的信任等级。
@@ -432,12 +432,12 @@ DSH 插件社区讨论群（微信群）：插件作者、维护者与使用者�
 ## 当前生态快照
 
 <!-- AUTO:ecosystem:START -->
-> 渲染于快照 20260910T224501Z（2026-09-11 06:45 UTC+8）· 数据源 data/snapshots/（渲染即对齐）
+> 渲染于快照 20260911T110001Z（2026-09-11 19:00 UTC+8）· 数据源 data/snapshots/（渲染即对齐）
 
 | 证据层 | 当前结果 |
 |---|---:|
 | 自动收录 全量索引 2943 · 收录（克隆验证）2996 · 当前版本（0.1.1-rc.2）已测 345 个仓库 |
-| 运行级实测 | 8709 可用 · 2785 不兼容 · 1842 待定（共 13336 个，k8s agent 口径）|
+| 运行级实测 | 8708 可用 · 2785 不兼容 · 1843 待定（共 13336 个，k8s agent 口径）|
 
 [完整索引](PLUGINS-ALL.md) · [运行实测](reports/2026-08-27/agent-test-v2.md)
 
