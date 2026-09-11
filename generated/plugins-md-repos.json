@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T21:32:33+00:00",
+  "generated_at": "2026-09-11T23:36:31+00:00",
   "source": "PLUGINS.md",
-  "count": 270,
+  "count": 280,
   "repos": [
     "1na-ko/dsh-hdc-bridge",
     "263311487-ux/dsh-verify",
@@ -147,6 +147,7 @@
     "Y1X1n/dsh-prompt-optimizer",
     "YEYEYEYESHIFU/dsh-result-only-view",
     "YEYEYEYESHIFU/dsh-session-hotkeys",
+    "YRN-playmaker/dsh-wallpaper_share",
     "ZSeven-W/openpencil",
     "Zn-Dk/dsh-session-explorer",
     "Zn-Dk/dsh-session-repair",
@@ -234,6 +235,7 @@
     "shuguang1994/project-blueprint",
     "sjh9714/dsh-win32",
     "slywalker2006/dsh-passwords",
+    "songofhawk/dsh-alpha",
     "springbrand-lab/dsh-oauth-mcp-client",
     "suimi8/dsh-cost-ledger",
     "suimi8/dsh-test-runner",
@@ -259,6 +261,7 @@
     "wz-heng/dsh-feishu-bridge",
     "xiaobright/dsh-anchored-standard",
     "xiaoyuyu6420/dsh-backup",
+    "xingzhen199186/dsh-insight-tree",
     "yangzhe1003/dsh-web-search-firecrawl",
     "yjh051108/dsh-routing-suite",
     "ysr666/dsh-vision-router",
@@ -268,10 +271,17 @@
     "zh667/TokenLedger",
     "zhang66633/dsh-pixel-ui",
     "zhang66633/dsh-plugin-installer",
+    "zhengjy01/dsh-aliyun-mcp",
+    "zhengjy01/dsh-backup-migrator",
+    "zhengjy01/dsh-feishu-mcp",
+    "zhengjy01/dsh-goofish-mcp",
+    "zhengjy01/dsh-npm",
     "zhengjy01/dsh-qqbot-panel",
+    "zhengjy01/dsh-skill-recommender",
     "zhengjy01/dsh-task-dispatcher",
     "zhengjy01/dsh-vercel-mcp",
     "zhengjy01/dsh-wps",
+    "zhengjy01/dsh-zsxq",
     "zhouwei713/dsh-daily-kit"
   ]
 }
