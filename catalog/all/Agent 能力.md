@@ -1,4 +1,5 @@
 # 🤖 Agent 能力（2302）
+# 🤖 Agent 能力（2262）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 

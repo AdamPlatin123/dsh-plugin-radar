@@ -1,6 +1,7 @@
 {
  "schema": "dsh-radar/v1",
  "generated_at": "2026-09-17T21:45:48Z",
+ "generated_at": "2026-09-12T12:50:05Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -63421,6 +63422,13 @@
    "verdict": "untested",
    "stars": null,
    "desc": "通用型因果约束中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 6 白箱工具 + 3 道硬性闸门（模型之外、执行之内，不侵内 H）；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 44/44 基础版 + 活系统 101 单测全绿）"
+  },
+  {
+   "repo": "zhengjy01/dsh-backup-migrator",
+   "name": "dsh-backup-migrator",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原"
   },
   {
    "repo": "mkaliezz/dsh-plugins",
