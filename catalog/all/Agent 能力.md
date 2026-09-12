@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2261）
+# 🤖 Agent 能力（2262）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1742,6 +1742,7 @@
 - ⬜ `[未测]` [dsh-zhipu-toolkit](https://github.com/zn-dk/dsh-zhipu-toolkit) — 智谱 BigModel GLM 双端点模型目录（Coding Plan 与普通 API），实时模型发现、实测思考档位映射，可视化设置卡片管理 Key/端点/默认推理档，本地 API Key 支持存入 DSH 凭证库；npm `dsh-zhipu-toolkit`@0.1.0
 - `[空仓监测]` **deepseek-heartflow** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[未测]` [dsh-anchored-subagent](https://github.com/gy-bai/dsh-anchored-subagent) ★0 — 让 DSH 主 agent 和子代理别一开口就 `Let me...`：首轮用 Minimal 开局进入满血状态，第二轮恢复全部工具；自定义子代理角色首轮先收起来，第二轮再放出来
+- ⬜ `[未测]` [dsh-alpha](https://github.com/songofhawk/dsh-alpha) — 多机多 Agent 编排与控制平台：从一个 DSH 会话发现跨设备 Agent 与工作区，按机器、仓库、能力和负载路由任务，统一回传进度、审批与结果；支持断线恢复，npm `dsh-alpha`
 - ⬜ `[未测]` [dsh-reach](https://github.com/perrylink/dsh-reach) — 多通道决策与远程控制桥：把 DSH 的审批卡与提问卡推送到 IM 渠道（先微信），可在聊天中直接作答，带会话控制台、逐渠道安全与开放推送服务
 - ⬜ `[未测]` [dsh-minimal-ptc](https://github.com/stardustlc666/dsh-minimal-ptc) — 极简 PTC 模式 Agent 预设：一句 RL 对齐提示词 + PTC 全量工具，安装即物化到用户预设目录，不覆盖用户自建预设
 - ⬜ `[未测]` [dsh-click](https://github.com/perrylink/dsh-click) ★0 — Windows 优先的原生桌面控制：截图、无障碍树结构化读取、点击/输入/滚动/按键、应用启动，变更性操作过审批门禁、屏幕变化拒绝执行、操作前后校验进程身份
