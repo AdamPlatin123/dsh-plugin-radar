@@ -19,7 +19,7 @@
 
 [![confirmed](https://img.shields.io/badge/confirmed-1304-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13336-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-[![运行级可用](https://img.shields.io/badge/运行级可用_8594-0.1.1--rc.2-brightgreen)](#2-看懂状态统一四档口径) [![待测](https://img.shields.io/badge/待测_2102-0.1.1--rc.2-lightgrey)](#2-看懂状态统一四档口径) [![需适配](https://img.shields.io/badge/需适配_2755-0.1.1--rc.2-yellow)](#2-看懂状态统一四档口径)
+[![运行级可用](https://img.shields.io/badge/运行级可用_8594-0.1.1--rc.2-brightgreen)](#2-看懂状态统一四档口径) [![待测](https://img.shields.io/badge/待测_2112-0.1.1--rc.2-lightgrey)](#2-看懂状态统一四档口径) [![需适配](https://img.shields.io/badge/需适配_2755-0.1.1--rc.2-yellow)](#2-看懂状态统一四档口径)
 
 
 
@@ -254,17 +254,17 @@ flowchart TB
 
 逐插件明细（判定 · 定位 · 星标）按域分页见 **[PLUGINS-ALL.md](PLUGINS-ALL.md)** 索引。
 
-- **🎓 技能包**（28）— 可用 7 · 不兼容 2 · 待定 5 · 未测 11 · 监测 3 — [明细](catalog/all/技能包.md)
+- **🎓 技能包**（29）— 可用 7 · 不兼容 2 · 待定 5 · 未测 12 · 监测 3 — [明细](catalog/all/技能包.md)
 - **🧠 记忆增强**（48）— 可用 15 · 不兼容 6 · 待定 4 · 未测 2 · 监测 21 — [明细](catalog/all/记忆增强.md)
-- **🎨 主题皮肤**（22）— 可用 11 · 不兼容 0 · 待定 3 · 未测 5 · 监测 3 — [明细](catalog/all/主题皮肤.md)
-- **🛒 市场与管理**（310）— 可用 100 · 不兼容 19 · 待定 19 · 未测 8 · 监测 164 — [明细](catalog/all/市场与管理.md)
+- **🎨 主题皮肤**（24）— 可用 11 · 不兼容 0 · 待定 3 · 未测 7 · 监测 3 — [明细](catalog/all/主题皮肤.md)
+- **🛒 市场与管理**（312）— 可用 100 · 不兼容 19 · 待定 19 · 未测 10 · 监测 164 — [明细](catalog/all/市场与管理.md)
 - **🔌 Web UI 增强**（2774）— 可用 1317 · 不兼容 413 · 待定 267 · 未测 17 · 监测 760 — [明细](catalog/all/Web%20UI%20增强.md)
-- **💻 编码开发**（2153）— 可用 895 · 不兼容 355 · 待定 220 · 未测 20 · 监测 663 — [明细](catalog/all/编码开发.md)
-- **🤖 Agent 能力**（2261）— 可用 797 · 不兼容 273 · 待定 193 · 未测 12 · 监测 986 — [明细](catalog/all/Agent%20能力.md)
-- **📡 消息通讯**（722）— 可用 255 · 不兼容 115 · 待定 63 · 未测 4 · 监测 285 — [明细](catalog/all/消息通讯.md)
+- **💻 编码开发**（2154）— 可用 895 · 不兼容 355 · 待定 220 · 未测 21 · 监测 663 — [明细](catalog/all/编码开发.md)
+- **🤖 Agent 能力**（2262）— 可用 797 · 不兼容 273 · 待定 193 · 未测 13 · 监测 986 — [明细](catalog/all/Agent%20能力.md)
+- **📡 消息通讯**（723）— 可用 255 · 不兼容 115 · 待定 63 · 未测 5 · 监测 285 — [明细](catalog/all/消息通讯.md)
 - **🗂 文件数据**（680）— 可用 265 · 不兼容 91 · 待定 69 · 未测 9 · 监测 246 — [明细](catalog/all/文件数据.md)
 - **🎮 娱乐生活**（454）— 可用 172 · 不兼容 33 · 待定 34 · 未测 0 · 监测 215 — [明细](catalog/all/娱乐生活.md)
-- **🛠 基建部署**（1360）— 可用 437 · 不兼容 129 · 待定 135 · 未测 4 · 监测 655 — [明细](catalog/all/基建部署.md)
+- **🛠 基建部署**（1362）— 可用 437 · 不兼容 129 · 待定 135 · 未测 6 · 监测 655 — [明细](catalog/all/基建部署.md)
 - **📚 学习研究**（158）— 可用 37 · 不兼容 7 · 待定 10 · 未测 2 · 监测 102 — [明细](catalog/all/学习研究.md)
 - **❓ 其他**（7224）— 可用 1811 · 不兼容 367 · 待定 274 · 未测 21 · 监测 4751 — [明细](catalog/all/其他.md)
 

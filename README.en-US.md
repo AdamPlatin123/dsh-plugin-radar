@@ -14,7 +14,7 @@ Know which plugins work before you install them.
 
 [![confirmed](https://img.shields.io/badge/confirmed-1304-blue)](#featured) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#ecosystem-snapshot) [![tested](https://img.shields.io/badge/tested-13336-orange)](#how-we-assess-compatibility) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=en)](https://dshfind.com/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-[![runtime OK](https://img.shields.io/badge/runtime_OK_8594-0.1.1--rc.2-brightgreen)](#2-understand-status-unified-4-tier-scale) [![to test](https://img.shields.io/badge/to_test_2102-0.1.1--rc.2-lightgrey)](#2-understand-status-unified-4-tier-scale) [![needs adapt](https://img.shields.io/badge/needs_adapt_2755-0.1.1--rc.2-yellow)](#2-understand-status-unified-4-tier-scale)
+[![runtime OK](https://img.shields.io/badge/runtime_OK_8594-0.1.1--rc.2-brightgreen)](#2-understand-status-unified-4-tier-scale) [![to test](https://img.shields.io/badge/to_test_2112-0.1.1--rc.2-lightgrey)](#2-understand-status-unified-4-tier-scale) [![needs adapt](https://img.shields.io/badge/needs_adapt_2755-0.1.1--rc.2-yellow)](#2-understand-status-unified-4-tier-scale)
 
 [English](README.en-US.md) | [简体中文](README.md)
 
@@ -242,17 +242,17 @@ Everything catalog-shaped below — the featured board, bundles, category direct
 
 Per-plugin details (verdict · location · stars) paginated per domain — index in **PLUGINS-ALL.md**.
 
-- **🎓 技能包**（28）— OK 7 · incompatible 2 · pending 5 · untested 11 · watching 3 — [details](catalog/all/技能包.md)
+- **🎓 技能包**（29）— OK 7 · incompatible 2 · pending 5 · untested 12 · watching 3 — [details](catalog/all/技能包.md)
 - **🧠 记忆增强**（48）— OK 15 · incompatible 6 · pending 4 · untested 2 · watching 21 — [details](catalog/all/记忆增强.md)
-- **🎨 主题皮肤**（22）— OK 11 · incompatible 0 · pending 3 · untested 5 · watching 3 — [details](catalog/all/主题皮肤.md)
-- **🛒 市场与管理**（310）— OK 100 · incompatible 19 · pending 19 · untested 8 · watching 164 — [details](catalog/all/市场与管理.md)
+- **🎨 主题皮肤**（24）— OK 11 · incompatible 0 · pending 3 · untested 7 · watching 3 — [details](catalog/all/主题皮肤.md)
+- **🛒 市场与管理**（312）— OK 100 · incompatible 19 · pending 19 · untested 10 · watching 164 — [details](catalog/all/市场与管理.md)
 - **🔌 Web UI 增强**（2774）— OK 1317 · incompatible 413 · pending 267 · untested 17 · watching 760 — [details](catalog/all/Web%20UI%20增强.md)
-- **💻 编码开发**（2153）— OK 895 · incompatible 355 · pending 220 · untested 20 · watching 663 — [details](catalog/all/编码开发.md)
-- **🤖 Agent 能力**（2261）— OK 797 · incompatible 273 · pending 193 · untested 12 · watching 986 — [details](catalog/all/Agent%20能力.md)
-- **📡 消息通讯**（722）— OK 255 · incompatible 115 · pending 63 · untested 4 · watching 285 — [details](catalog/all/消息通讯.md)
+- **💻 编码开发**（2154）— OK 895 · incompatible 355 · pending 220 · untested 21 · watching 663 — [details](catalog/all/编码开发.md)
+- **🤖 Agent 能力**（2262）— OK 797 · incompatible 273 · pending 193 · untested 13 · watching 986 — [details](catalog/all/Agent%20能力.md)
+- **📡 消息通讯**（723）— OK 255 · incompatible 115 · pending 63 · untested 5 · watching 285 — [details](catalog/all/消息通讯.md)
 - **🗂 文件数据**（680）— OK 265 · incompatible 91 · pending 69 · untested 9 · watching 246 — [details](catalog/all/文件数据.md)
 - **🎮 娱乐生活**（454）— OK 172 · incompatible 33 · pending 34 · untested 0 · watching 215 — [details](catalog/all/娱乐生活.md)
-- **🛠 基建部署**（1360）— OK 437 · incompatible 129 · pending 135 · untested 4 · watching 655 — [details](catalog/all/基建部署.md)
+- **🛠 基建部署**（1362）— OK 437 · incompatible 129 · pending 135 · untested 6 · watching 655 — [details](catalog/all/基建部署.md)
 - **📚 学习研究**（158）— OK 37 · incompatible 7 · pending 10 · untested 2 · watching 102 — [details](catalog/all/学习研究.md)
 - **❓ 其他**（7224）— OK 1811 · incompatible 367 · pending 274 · untested 21 · watching 4751 — [details](catalog/all/其他.md)
 
