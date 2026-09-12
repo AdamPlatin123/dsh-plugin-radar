@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-11T15:48:57Z",
+ "generated_at": "2026-09-12T12:50:05Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -6987,6 +6987,13 @@
    "verdict": "untested",
    "stars": 0,
    "desc": "让 DSH 主 agent 和子代理别一开口就 `Let me...`：首轮用 Minimal 开局进入满血状态，第二轮恢复全部工具；自定义子代理角色首轮先收起来，第二轮再放出来"
+  },
+  {
+   "repo": "songofhawk/dsh-alpha",
+   "name": "dsh-alpha",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "多机多 Agent 编排与控制平台：从一个 DSH 会话发现跨设备 Agent 与工作区，按机器、仓库、能力和负载路由任务，统一回传进度、审批与结果；支持断线恢复，npm `dsh-alpha`"
   },
   {
    "repo": "perrylink/dsh-reach",
@@ -23136,6 +23143,20 @@
    "verdict": "untested",
    "stars": 0,
    "desc": "DSH 换肤工作室：一张图一套皮肤，三通道注入（书签/CDP/原生插件）+ 可视化工坊 + 13 套内置主题 + DSH-SKIN-SPEC 导出"
+  },
+  {
+   "repo": "zhengjy01/dsh-zsxq",
+   "name": "dsh-zsxq",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板"
+  },
+  {
+   "repo": "yrn-playmaker/dsh-wallpaper_share",
+   "name": "dsh-wallpaper_share",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "Wallpaper Engine 壁纸同步为 DSH Web 背景（本地桥接）：预览/捕获/完整三档渲染、显示器锁定、本地与市场壁纸库（标题搜索、分页）、专注透镜与眼动追踪、沉浸模式、DWP 挂载；Windows 应用启动器支持直链与 139 网盘分享、加密 zip/7z 解包与一键启动（每次弹确认）"
   },
   {
    "repo": "zseven-w/openpencil",
@@ -44453,6 +44474,20 @@
    "desc": "DeepSeek Harness desktop client (Electron shell)"
   },
   {
+   "repo": "zhengjy01/dsh-goofish-mcp",
+   "name": "dsh-goofish-mcp",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "闲鱼只读监控：驱动 goofish-cli MCP 服务器，暴露搜索 / 商品详情 / 在售列表 / 会话历史 / 类目识别等只读工具，写操作一律过滤"
+  },
+  {
+   "repo": "zhengjy01/dsh-aliyun-mcp",
+   "name": "dsh-aliyun-mcp",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "阿里云 OpenAPI MCP 连接：静态凭证 + 官方 MCP Proxy，把 ECS / OSS / 域名 / DNS / 函数计算等 OpenAPI 暴露为 mcp__aliyun__* 工具"
+  },
+  {
    "repo": "perrylink/dsh-cert-mcp",
    "name": "dsh-cert-mcp",
    "verdict": "untested",
@@ -48296,6 +48331,20 @@
    "desc": "会话消息级全文检索浏览器：FTS5 trigram 按消息检索（用户/助手/系统注入/工具，可按类型筛选），fork/续接会话结果自动去重，只读上下文预览自动滚动定位、一键跳转真实会话，增量/全量重建索引 + 健康检查，中英双语跟随 Host locale"
   },
   {
+   "repo": "zhengjy01/dsh-npm",
+   "name": "dsh-npm",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "NPM 包管理：查询包信息 / 版本列表 / 搜索包，并用本机或注入的 token 发布与弃用，附 Web 设置面板"
+  },
+  {
+   "repo": "xingzhen199186/dsh-insight-tree",
+   "name": "dsh-insight-tree",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "DSH 运行可观测与插件运维面板：Profile 插件树、Loader 真实 fiber 状态、能力/依赖/兼容性、本轮会话插件活动与上游来源/版本核验；一键关闭/启用/更新/卸载 + 独立启动失败诊断页（DSH 未运行也可单独启动）；npm `dsh-insight-tree`@0.1.2，MIT"
+  },
+  {
    "repo": "stardustlc666/dsh-suite",
    "name": "dsh-suite (STARDUSTLC666)",
    "verdict": "untested",
@@ -48581,6 +48630,13 @@
    "verdict": "untested",
    "stars": null,
    "desc": "只读性能诊断：会话加载/恢复耗时、spill 命中计数、压缩次数与触发、上下文注入体量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 命令与 fast_report 工具呈现，异步采样不阻塞模型路径；npm `dsh-fast` 0.1.3"
+  },
+  {
+   "repo": "zhengjy01/dsh-skill-recommender",
+   "name": "dsh-skill-recommender",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "会话画像驱动的开源 skill 推荐器：扫描本地 DSH/Codex/Claude 会话建立加权画像（主题/工具/任务/项目），按可调匹配指数推荐开源 skill"
   },
   {
    "repo": "stardustlc666/dsh-dream",
@@ -53866,6 +53922,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: Windows tray-balloon + sound notification when a conver"
+  },
+  {
+   "repo": "zhengjy01/dsh-feishu-mcp",
+   "name": "dsh-feishu-mcp",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "飞书（Lark）OpenAPI MCP 连接：桥接官方 @larksuiteoapi/lark-mcp，把 IM / 多维表格 / 云文档 / 日历 / 云盘 API 暴露为 mcp__feishu__* 工具，支持用户令牌 OAuth"
   },
   {
    "repo": "perrylink/dsh-wechat",
@@ -62538,7 +62601,7 @@
    "name": "cordis-plugin-sofagent-audit",
    "verdict": "untested",
    "stars": null,
-   "desc": "变更机器审阅 harness：24 条 git diff 规则（密钥泄漏/越界改动/提示注入）+ HMAC 链审计记录 + 快照回滚 + MCP server（83 tools），git hook 即装（引擎内 engine/dsh-plugins/cordis-plugin-sofagent-audit 子包）"
+   "desc": "变更机器审阅 harness：24 条 git diff 规则（密钥泄漏/越界改动/提示注入）+ HMAC 链审计记录 + 快照回滚 + MCP server（84 tools），git hook 即装（引擎内 engine/dsh-plugins/cordis-plugin-sofagent-audit 子包）"
   },
   {
    "repo": "stardustlc666/dsh-code-security",
@@ -62595,6 +62658,13 @@
    "verdict": "untested",
    "stars": null,
    "desc": "通用型因果约束中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 6 白箱工具 + 3 道硬性闸门（模型之外、执行之内，不侵内 H）；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 44/44 基础版 + 活系统 101 单测全绿）"
+  },
+  {
+   "repo": "zhengjy01/dsh-backup-migrator",
+   "name": "dsh-backup-migrator",
+   "verdict": "untested",
+   "stars": null,
+   "desc": "插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原"
   },
   {
    "repo": "mkaliezz/dsh-plugins",
