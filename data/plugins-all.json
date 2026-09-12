@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-12T17:02:49Z",
+ "generated_at": "2026-09-12T17:17:04Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -17538,13 +17538,6 @@
    "desc": "DSH 插件：会话输入框内绘制 Mermaid 流程图，实时生成标准 Mermaid 代码，一键复制/插入 dsh 会话"
   },
   {
-   "repo": "freespace8/dsh-plugins",
-   "name": "freespace8-dsh-plugins",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness (DSH) 插件合集：工具包、守护循环、UI 面板等"
-  },
-  {
    "repo": "ftima-w/dsh-plugin-manager",
    "name": "ftima-w-dsh-plugin-manager",
    "verdict": "ok",
@@ -18558,6 +18551,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "plur-ai/dsh-plugin",
+   "name": "plur-ai-dsh-plugin",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "PLUR memory for DeepSeek Harness — engrams injected into the system prompt, no tool call required"
   },
   {
    "repo": "professorkun/deepseek-harness-desktop",
@@ -22403,6 +22403,13 @@
    "desc": "—"
   },
   {
+   "repo": "freespace8/dsh-plugins",
+   "name": "freespace8-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) 插件合集：工具包、守护循环、UI 面板等"
+  },
+  {
    "repo": "ghbhiee/dsh-plugin-tui",
    "name": "ghbhiee-dsh-plugin-tui",
    "verdict": "incompatible",
@@ -22653,13 +22660,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "plur-ai/dsh-plugin",
-   "name": "plur-ai-dsh-plugin",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "PLUR memory for DeepSeek Harness — engrams injected into the system prompt, no tool call required"
   },
   {
    "repo": "po-et/dsh-session-snapshot",
@@ -40687,6 +40687,13 @@
    "desc": "—"
   },
   {
+   "repo": "timeance/dsh-approve-for-me",
+   "name": "timeance-dsh-approve-for-me",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "DeepSeek Harness plugin for rule-gated automatic sandbox approval with optional LLM review, one-time grants, f"
+  },
+  {
    "repo": "Flyvhidbwo/dsh-vision-proxy",
    "name": "dsh-vision-proxy",
    "verdict": "pending",
@@ -44570,13 +44577,6 @@
    "verdict": "incompatible",
    "stars": 12,
    "desc": "现代化 DeepSeek Harness (DSH) 全栈增强工作台 · 多源 MCP 可视化调试中枢 · 视觉思考引擎 · 灵动极客伴侣〔📦〕"
-  },
-  {
-   "repo": "timeance/dsh-approve-for-me",
-   "name": "timeance-dsh-approve-for-me",
-   "verdict": "incompatible",
-   "stars": 12,
-   "desc": "DeepSeek Harness plugin for rule-gated automatic sandbox approval with optional LLM review, one-time grants, f"
   },
   {
    "repo": "yxccai/dsh-desktop",
