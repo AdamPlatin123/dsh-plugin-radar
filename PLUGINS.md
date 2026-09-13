@@ -234,6 +234,8 @@
 | dsh-cert-mcp | [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) | DSH 插件认证注册表 MCP 服务器：查询认证、列出已认证插件、读取认证规范 | 待测 |
 | dsh-wallpaper-engine | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 把本机 Wallpaper Engine 壁纸渲染到 DSH Web 对话界面后方：视频原生播放、Web/HTML 走 iframe、Scene 壁纸由内置纯 JS 场景渲染器输出完整场景帧（对象树/纹理/粒子/shader 效果）；iOS 液态玻璃（配色/玻璃颜色/透明度/模糊统一调节）、一级液态玻璃设置页、壁纸选择弹窗、隐藏/恢复、倍速/翻转/亮度对比度饱和度、遮挡暂停省电三档、ffmpeg 抽帧转码帧率上限、自定义壁纸上传；设置持久化到宿主端文件，npm `dsh-plugin-wallpaper-engine` 0.7.0 | 待测 |
 | dsh-theme-macintosh | [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) | 经典麦金塔 System 7 像素主题：ChiKareGo/Fusion Pixel 像素字体、桌面噪点画布、Finder 式会话侧栏、黑白按钮与弹窗、深浅色随官方外观切换、Kit 检视页；npm `dsh-theme-macintosh`，`dsh plugin add github:fengb3/dsh-theme-macintosh` 一键安装 | ✅(自报) |
+| dsh-plugin-kit | [PerryLink/dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) | 插件编写工具包：共享 Provider 接缝、bundle 骨架与 dsh 插件家族通用约定（零运行时依赖），npm `@perrylink/dsh-plugin-kit`；定位是插件生态的基础设施而非运行时行为插件 | 待测 |
+| dsh-plugin-doctor | [PerryLink/dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) | 插件「完整性 + 运行流畅」一体检测器：零依赖（Node ≥22），一次运行覆盖包结构静态检查（R）→ cordis 契约扫描（K）→ 动态沙箱冒烟（D）→ 生态集合站清单校验（CC）四层；npm `@perrylink/dsh-plugin-doctor` | 待测 |
 
 ## 📚 学习研究
 
