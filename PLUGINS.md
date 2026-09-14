@@ -180,6 +180,7 @@
 | dsh-wallpaper_share | [YRN-playmaker/dsh-wallpaper_share](https://github.com/YRN-playmaker/dsh-wallpaper_share) | Wallpaper Engine 壁纸同步为 DSH Web 背景（本地桥接）：预览/捕获/完整三档渲染、显示器锁定、本地与市场壁纸库（标题搜索、分页）、专注透镜与眼动追踪、沉浸模式、DWP 挂载；Windows 应用启动器支持直链与 139 网盘分享、加密 zip/7z 解包与一键启动（每次弹确认） | 待测 |
 | dsh-insight-tree | [xingzhen199186/dsh-insight-tree](https://github.com/xingzhen199186/dsh-insight-tree) | DSH 运行可观测与插件运维面板：Profile 插件树、Loader 真实 fiber 状态、能力/依赖/兼容性、本轮会话插件活动与上游来源/版本核验；一键关闭/启用/更新/卸载 + 独立启动失败诊断页（DSH 未运行也可单独启动）；npm `dsh-insight-tree`@0.1.2，MIT | 待测 |
 | dsh-alpha | [songofhawk/dsh-alpha](https://github.com/songofhawk/dsh-alpha) | 多机多 Agent 编排与控制平台：从一个 DSH 会话发现跨设备 Agent 与工作区，按机器、仓库、能力和负载路由任务，统一回传进度、审批与结果；支持断线恢复，npm `dsh-alpha` | 待测 |
+| dsh-labnana | [exoticknight/dsh-labnana](https://github.com/exoticknight/dsh-labnana) | Labnana image generation for DeepSeek Harness：文生图、图生图与精准编辑，提供图片生成、积分估算、订阅余额、任务状态工具，以及 Web 设置界面和对话图片卡片；npm `dsh-labnana` 0.3.3，Apache-2.0 | 待测 |
 | dsh-just-chat | [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) | 一键打开原生对话入口，每次创建独立工作区和会话 | 待测 |
 | dsh-light-tool | [LLYlab/DLT](https://github.com/LLYlab/DLT) | 六个可独立开关的模块：每轮人民币成本、DeepSeek 账户余额、PDF/Word/Excel/CSV 直接读写与右栏预览、编译/运行环境表、dlt_run / dlt_build 直接执行与编译；npm `dsh-light-tool`，声明 dsh.bundle.patch | 待测 |
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
