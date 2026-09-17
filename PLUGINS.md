@@ -207,6 +207,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-mobile-link | [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) | 电脑侧连接器 + 原生 iOS 客户端 + 自建公网中转（DLP v1）：手机在 4G/5G 上连自己电脑的 DSH，不用公网 IP、不用 Tailscale；中转只鉴权与转发、不解析会话内容；npm `dsh-plugin-mobile-link` | 待测 |
 | dsh-telegram | [ben7am1n/dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | Telegram runtime adapter — chat with dsh agents from Telegram; per-chat sessions, followup bridging, committed-text streaming, allowlist auth, zero runtime deps | 待测 |
 | dsh-webhook-bridge | [ben7am1n/dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) | ✅ | ✅ |
 | dsh-lark-bot | [PlutoKeating/dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) | dsh-lark-bot：把 DeepSeek Harness (dsh) 桥接进飞书/Lark 的 bot — 标准 dsh profile bundle（`npx dsh-lark-bot@latest setup` 一行安装），扫码即用：流式卡片、git worktree 项目工作区、scope 并行任务、多角色 Agent、会话归档、lark_notify 跨会话通知、对话内模型/密钥管理、安全网守护（dsh 崩溃后飞书仍可自救，/safemode 仅核心自愈）（0.15.1） | ✅ |
