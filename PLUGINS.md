@@ -227,6 +227,7 @@
 | dsh-session-hub | [Asaiuta/dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 多服务器 DSH 会话聚合与原生操控：网关+官方 UI 桥，一屏合并多个远程 dsh web 的会话，支持历史/prompt/取消/重命名/fork/模型选择/审批问答，并导入本机其他工具的历史会话 | 待测 |
 | dsh-reach | [PerryLink/dsh-reach](https://github.com/PerryLink/dsh-reach) | 多通道决策与远程控制桥：把 DSH 的审批卡与提问卡推送到 IM 渠道（先微信），可在聊天中直接作答，带会话控制台、逐渠道安全与开放推送服务 | 待测 |
 | dsh-wechat | [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) | 微信私聊消息桥接 DSH：文本、图片、文件与音视频双向传输 | 待测 |
+| dsh-wechat-clawbot | [zhengjy01/dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) | 微信 ClawBot 桥接（官方腾讯 iLink / ClawBot）：扫码登录悬浮球把消息桥接到 agent 会话，复用 context_token 支持窗口外主动推送；`lubaiUwU/DSH-WeChatClawBot` 的维护分支（npm `dsh-wechat-clawbot@0.2.0`） | 待测 |
 
 ## 🛠 基础设施
 
