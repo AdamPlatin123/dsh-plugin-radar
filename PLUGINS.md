@@ -167,7 +167,7 @@
 | dsh-humanize | [Guard42/dsh-humanize](https://github.com/Guard42/dsh-humanize) | Humanize 模式 agent 预设：把多阶段目标编排为可恢复的 Flow（draft→check→lock→终局评审→run/resume），SHA-256 流锁身份 + HMAC 终局门禁 + 事件溯源断点续跑；15 个 flow_* 工具，纯 `node:` 内置零 npm 依赖，`dsh plugin add github:Guard42/dsh-humanize` 即装，v0.1.1 起兼容原版 harness 持久层（不写自定义会话事件） | 待测 |
 | dsh-forge | [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) | 自建 Gitea / Forgejo 的只读工具，走两者共用的 REST API：实例版本、仓库列表、议题与 PR 搜索和读取、PR diff 与变更文件，以及 Actions 运行、任务与纯文本日志；11 个工具全部只读，npm `@maxhsu/dsh-forge` 0.3.3 | 待测 |
 | dsh-backup | [xiaoyuyu6420/dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) | 一键备份与恢复 ~/.dsh 用户数据：定时自动备份（重启不中断）、sha256 完整性校验与轮换、宿主升级前自动快照、会话日志体检与定点修复（doctor）、DSH 起不来也能用的零依赖救援通道、凭据默认脱敏只存本机 vault、跨机云端同步；npm `@xiaoyuyu6420/dsh-backup` 0.9.0 | 待测 |
-| weiwen-law-dsh | [Shaky77/weiwen-law-dsh](https://github.com/Shaky77/weiwen-law-dsh) | 通用型因果约束中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 6 白箱工具 + 3 道硬性闸门（模型之外、执行之内，不侵内 H）；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 264/264 基础版 + 活系统 314 单测全绿，2026-09-20 复核） | 待测 |
+| weiwen-law-dsh | [Shaky77/weiwen-law-dsh](https://github.com/Shaky77/weiwen-law-dsh) | 通用型因果约束中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 6 白箱工具 + 3 道硬性闸门（全部位于模型之外：2 道拦动作/步、1 道拦回执；不侵内 H）+ 1 个只读审计钩子；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 282/282 单测全绿 + 活系统 332 单测全绿，2026-09-21 复核） | 待测 |
 | dsh-qqbot-panel | [zhengjy01/dsh-qqbot-panel](https://github.com/zhengjy01/dsh-qqbot-panel) | 为官方 @tencent-connect/dsh-qqbot 提供的可视化配置面板（管理凭据、访问模式与白名单、工作区选择、扫码绑定）。 | 待测 |
 | dsh-ticktick | [PerryLink/dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) | TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点 | 待测 |
 | dsh-zsxq | [zhengjy01/dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) | 知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板 | 待测 |
@@ -189,7 +189,7 @@
 | dsh-light-tool | [LLYlab/DLT](https://github.com/LLYlab/DLT) | 六个可独立开关的模块：每轮人民币成本、DeepSeek 账户余额、PDF/Word/Excel/CSV 直接读写与右栏预览、编译/运行环境表、dlt_run / dlt_build 直接执行与编译；npm `dsh-light-tool`，声明 dsh.bundle.patch | 待测 |
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
-| KISS_Law-DSH | [Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH) | 通用型因果约束中间件（白箱呈现）· 英文版 · 独立仓、面向英文受众：与中文版 weiwen-law-dsh 同构的 R→S→D→H→M 五元因果链白箱裁决引擎（KISS's Law ＝ Keep Integrity & Steady State's Law），给 DSH Agent 挂 7 白箱工具 + 3 道硬性闸门（模型之外、执行之内，不侵内 H）；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 314/314 单测全绿，2026-09-20 复核） | 待测 |
+| KISS_Law-DSH | [Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH) | 通用型因果约束中间件（白箱呈现）· 英文版 · 独立仓、面向英文受众：与中文版 weiwen-law-dsh 同构的 R→S→D→H→M 五元因果链白箱裁决引擎（KISS's Law ＝ Keep Integrity & Steady State's Law），给 DSH Agent 挂 7 白箱工具 + 3 道硬性闸门（全部位于模型之外：2 道拦动作/步、1 道拦回执；不侵内 H）+ 1 个只读审计钩子；跨 11 场景双模型决策层 100% 收敛、引擎确定性 100% 实测（npm test 332/332 单测全绿，2026-09-21 复核） | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
