@@ -216,6 +216,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-mini-remote | [xingzhen199186/dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) | 极简手机遥控：把电脑上的 DSH 会话遥控到手机上，手机端只显示用户发出的指令和 AI 最后的结论，工具调用与读写操作、思考过程都留在电脑；内网 / Tailscale / Cloudflare 隧道三条连接路径并存，各配二维码与密码 | 待测 |
 | dsh-mobile-link | [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) | 电脑侧连接器 + 原生 iOS 客户端 + 自建公网中转（DLP v1）：手机在 4G/5G 上连自己电脑的 DSH，不用公网 IP、不用 Tailscale；中转只鉴权与转发、不解析会话内容；npm `dsh-plugin-mobile-link` | 待测 |
 | dsh-telegram | [ben7am1n/dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | Telegram runtime adapter — chat with dsh agents from Telegram; per-chat sessions, followup bridging, committed-text streaming, allowlist auth, zero runtime deps | 待测 |
 | dsh-webhook-bridge | [ben7am1n/dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) | ✅ | ✅ |
