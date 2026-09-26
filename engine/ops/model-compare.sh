@@ -5,13 +5,17 @@
 set -uo pipefail
 [ -f "$HOME/.dsh-radar.env" ] && . "$HOME/.dsh-radar.env"
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_DIR="$(cd "$(dirname "$0")/../.." && pwd)"   # engine/ops → 仓库根
 cd "$REPO_DIR" || exit 2
 DATE="$(date +%Y-%m-%d)"
 TASK="${1:-用中文解释什么是 goroutine 泄漏，并给出一个最小复现示例}"
 
-# deepseek key（本机 agent.db）
-DS_KEY="$(python3 -c "import sqlite3,json;db=sqlite3.connect('/home/adam/.omp/agent/agent.db');print(json.loads(db.execute(\"SELECT data FROM auth_credentials WHERE provider='deepseek'\").fetchone()[0])['key'])" 2>/dev/null)"
+# deepseek key 经 secretsource 统一解析（env > ~/.radar-keys/deepseek > sqlite 兜底）；
+# Authorization 头写 0600 临时文件经 curl -H @file 传递——密钥不进 argv/ps（P2b）
+AUTH_HDR="$(mktemp)"
+chmod 600 "$AUTH_HDR"
+trap 'rm -f "$AUTH_HDR"' EXIT
+python3 "$REPO_DIR/engine/lib/radar/secretsource.py" deepseek header > "$AUTH_HDR" 2>/dev/null || true
 
 echo "=== $(date -Is) model-compare 开始 ==="
 echo "[任务] $TASK"
@@ -19,7 +23,7 @@ echo "[任务] $TASK"
 # 1. deepseek-v4-flash（旧模型，计费）
 echo "[调用] deepseek-v4-flash..."
 DS_OUT="$(timeout 60 curl -s -m 55 https://api.deepseek.com/chat/completions \
-  -H "Authorization: Bearer $DS_KEY" -H "Content-Type: application/json" \
+  -H @"$AUTH_HDR" -H "Content-Type: application/json" \
   -d "$(python3 -c "import json,sys; print(json.dumps({'model':'deepseek-v4-flash','messages':[{'role':'user','content':sys.argv[1]}],'max_tokens':65536}))" "$TASK")" 2>&1)"
 DS_TXT="$(printf '%s' "$DS_OUT" | python3 -c "import json,sys
 try:

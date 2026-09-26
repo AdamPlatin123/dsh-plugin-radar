@@ -10,7 +10,7 @@
 | `aggregation/` | 聚合 | `aggregate.py` / `normalize.py`（快照聚合与判定归一）· `aggregate-runtime.sh` |
 | `rendering/` | 渲染 | `gen-catalog.sh`（分类目录生成）· `update-readme.sh` · `check-placeholders.sh`（占位符校验）· `report-llm.sh` |
 | `distribution/` | 分发 | `bot-deliver.sh` / `deliver-chain.sh` / `deliver-all.sh`（双仓幂等交付）· `auto-snapshot-push.sh` / `auto-merge-render.sh`（org→mirror 快照同步 + 渲染门控合并）· `cadence.py`（周期交付判定，含输出密钥擦洗） |
-| `ops/` | 运维自愈 | `radar-probe.sh`（15 分钟七指标心跳）· `radar-watchdog.sh`（5 分钟看门狗）· `dashboard.py`（8766 面板）· `model-probe.sh` / `model-compare.sh`（模型探针）· `monitor-usage.sh` |
+| `ops/` | 运维自愈 | `radar-probe.sh`（15 分钟七指标心跳）· `radar-watchdog.sh`（5 分钟看门狗）· `dashboard.py`（RADAR_DASH_PORT，默认 8898 面板）· `model-probe.sh` / `model-compare.sh`（模型探针）· `monitor-usage.sh` |
 | `maintenance/` | 目录维护 | mainline 构建/对比/滞后检查 · `fix-plugin.sh` · issue 起草与上报三件套 |
 
 ## 运行环境契约

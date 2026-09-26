@@ -24,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'lib'))
 from radar.atomicio import atomic_write_json  # noqa: E402
+from radar.sanitize import sanitize_desc, sanitize_name, url_guard  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 SNAP_DIR = ROOT / 'data' / 'snapshots'
@@ -318,6 +319,24 @@ def build(root: Path = ROOT):
 
     vc = Counter(e['verdict'] for e in entries if e['locate'] == 'located')
     v_all = Counter(e['verdict'] for e in entries)
+
+    # ── 内容消毒（P2b，单一收口：render_all 与 export-data 同源消费）──────────
+    # 换行/回车 → 空格（杀条目伪造）；desc 方括号转义（杀钓鱼链接注入）；
+    # 真实 URL 过 GitHub 白名单，不过则降级为无链接条目。
+    # 实测当前数据：name 零命中、URL 零违规（零漂移）；desc 方括号 16 条（有意变更）。
+    n_sanitized = 0
+    for e in entries:
+        s_name = sanitize_name(e.get('name') or '')
+        s_desc = sanitize_desc(e.get('desc') or '')
+        if s_name != e.get('name') or s_desc != e.get('desc'):
+            n_sanitized += 1
+        e['name'], e['desc'] = s_name, s_desc
+        u = e.get('url') or ''
+        if 'search?q=' not in u and url_guard(u) is None:
+            # 白名单外降级到歧义监测轨道：无链接、判定不展示（可见降级，非静默丢弃；
+            # 复用既有渲染路径，不引入"空 URL 假链接"这类不变量破坏）
+            e['locate'] = 'ambiguous_watch'
+            n_sanitized += 1
 
     # ── 导出直出数据（供 export-data 消费，免 Markdown 反解析）─────────────────
     # 顺序契约 = 旧管线 catalog/all/*.md 按文件名字典序拼接 × 组内 (❌沉尾, star 降序)；

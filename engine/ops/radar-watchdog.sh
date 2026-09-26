@@ -102,7 +102,7 @@ fi
 DASH_P=$(pgrep -f "dashboard.p[y]" | head -1)
 DASH_STATUS="down"
 if [ -n "$DASH_P" ]; then
-  HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 3 http://127.0.0.1:8899/ 2>/dev/null)
+  HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 3 http://127.0.0.1:${RADAR_DASH_PORT:-8898}/ 2>/dev/null)
   if [ "$HTTP" = "200" ]; then
     DASH_STATUS="up(http:200)"
   else

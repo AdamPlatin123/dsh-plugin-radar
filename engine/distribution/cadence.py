@@ -172,7 +172,7 @@ def org_deliver(date: str, md_text: str, reason: str) -> bool:
         if r.returncode != 0:
             print("[cadence-v2] org commit failed → cursor kept")
             return False
-        r = sh(["git", "push", "-q", "--force-with-lease", "--force", "dsh-ext",
+        r = sh(["git", "push", "-q", "--force-with-lease", "dsh-ext",
                 f"{branch}:{branch}"], cwd=wt, timeout=180)
         if r.returncode != 0:
             print("[cadence-v2] org push failed → cursor kept")
@@ -318,7 +318,7 @@ def main() -> int:
             return 1
         # bot 报告分支为可弃产物（v1 同语义）：推到 PR 目标仓（origin=个人仓），
         # PR 必须开在分支实际所在的仓库
-        r = sh(["git", "push", "-q", "--force-with-lease", "--force", "origin",
+        r = sh(["git", "push", "-q", "--force-with-lease", "origin",
                 f"{branch}:{branch}"], cwd=wt, timeout=180)
         if r.returncode != 0:
             print("[cadence-v2] org push failed → cursor kept")

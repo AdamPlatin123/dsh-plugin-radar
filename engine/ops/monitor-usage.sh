@@ -20,7 +20,8 @@ declare -a PROVIDER_ROWS=()
 python3 - "$REPO_DIR" > "$LOG_DIR/usage-read.txt" 2>&1 << 'PYEOF'
 import sqlite3, sys
 repo = sys.argv[1]
-dbp = "/home/adam/.omp/agent/agent.db"
+import os as _os
+dbp = _os.environ.get("RADAR_LEGACY_KEY_DB") or _os.path.expanduser("~/.omp/agent/agent.db")
 try:
     db = sqlite3.connect(dbp)
     ok = db.execute("PRAGMA integrity_check").fetchone()[0]
