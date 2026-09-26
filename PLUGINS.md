@@ -189,6 +189,7 @@
 | dsh-light-tool | [LLYlab/DLT](https://github.com/LLYlab/DLT) | 六个可独立开关的模块：每轮人民币成本、DeepSeek 账户余额、PDF/Word/Excel/CSV 直接读写与右栏预览、编译/运行环境表、dlt_run / dlt_build 直接执行与编译；npm `dsh-light-tool`，声明 dsh.bundle.patch | 待测 |
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
+| dsh-gemini-pool | [qikairo7/dsh-gemini-pool](https://github.com/qikairo7/dsh-gemini-pool) | 多账号 Google Gemini 提供商：按剩余额度挑选账号，遇 429 指数退避切换，后台探活已禁用账号；声明 dsh.bundle.patch（仓库根 cordis.patch.yml），`dsh plugin add github:qikairo7/dsh-gemini-pool` 可装，MIT | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
