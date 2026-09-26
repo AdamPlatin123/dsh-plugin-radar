@@ -18,8 +18,13 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+import sys as _sys
+_LIB = Path(__file__).resolve().parents[1] / 'lib'
+if str(_LIB) not in _sys.path:
+    _sys.path.insert(0, str(_LIB))
+from radar.atomicio import atomic_write_json  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent   # engine/aggregation → 仓库根
 CAND = ROOT / "generated" / "current" / "candidates.json"
 CAT_DIR = ROOT / "catalog" / "plugins"
 TOMB = ROOT / "catalog" / "tombstones.json"
@@ -112,9 +117,7 @@ def main() -> int:
         "entries": catalog_view,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    tmp = OUT.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2))
-    tmp.replace(OUT)
+    atomic_write_json(OUT, doc)   # P3：唯一原子写
     print(f"[normalize] catalog view {len(catalog_view)} → {OUT.relative_to(ROOT)}")
     print(f"[normalize] seeded {seeded} new catalog entries (researched+plugin); blocked {blocked_readds} tombstone re-adds")
     return 0

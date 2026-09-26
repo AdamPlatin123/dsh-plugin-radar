@@ -38,10 +38,11 @@ INTERNAL_RE = re.compile(r"https?://(localhost|127\.0\.0\.1|10\.\d+\.\d+\.\d+|17
 PATH_RE = re.compile(r"/home/[A-Za-z0-9._-]+")
 
 
-def sh(args, cwd=None, timeout=120, env=None):
-    assert isinstance(args, list)
-    return subprocess.run(args, capture_output=True, text=True, cwd=cwd,
-                          timeout=timeout, env=env)
+import sys as _sys
+_LIB = Path(__file__).resolve().parents[1] / 'lib'
+if str(_LIB) not in _sys.path:
+    _sys.path.insert(0, str(_LIB))
+from radar.gitops import sh   # P3：git 子进程唯一实现（push 租约式）  # noqa: E402
 
 
 def read_json(p, default=None):
@@ -51,12 +52,11 @@ def read_json(p, default=None):
         return default
 
 
+from radar.atomicio import atomic_write_json as atomic_write_  # P3：唯一原子写
+
+
 def atomic_write(path, obj):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_name(f".{path.name}.tmp-{uuid.uuid4().hex[:8]}")
-    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2))
-    os.replace(tmp, path)
+    atomic_write_(path, obj)
 
 
 def load_active():
