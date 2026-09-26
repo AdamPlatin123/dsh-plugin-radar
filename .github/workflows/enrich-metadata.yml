@@ -1,0 +1,39 @@
+name: enrich-metadata
+# 元数据补采（P6）：pushed_at / 作者头像 / topics / license / language / T0 README 首图。
+# 与 refresh-stars（19:23 UTC）同批请求形态——GraphQL 按节点计费，字段扩充配额零增量；
+# 19:53 错峰启动。产物 enrich-cache（内部）+ plugins-enrich（对外 sidecar，触发站点重建）。
+on:
+  schedule:
+    - cron: "53 19 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-metadata
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 补采（分层节奏：T0 每轮 / T1 ★≥50 日更 / T2 ★≥10 周更 / T3 长尾月更）
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/enrich-repos.py
+      - name: 提交变化（enrich-bot）
+        run: |
+          git config user.name "enrich-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/enrich-cache.json data/plugins-enrich.json; then
+            echo "[enrich] 无变化，跳过提交"
+            exit 0
+          fi
+          git add data/enrich-cache.json data/plugins-enrich.json
+          git commit -m "data: 元数据补采更新（enrich-bot，分层节奏）"
+          git push

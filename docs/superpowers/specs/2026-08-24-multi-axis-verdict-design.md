@@ -1,10 +1,9 @@
-<!-- /autoplan restore point: /home/adam/.gstack/projects/AdamPlatin123-dsh-external-research/main-autoplan-restore-20260824-063414.md -->
 # 多轴证据系统设计（Multi-Axis Verdict）
 
 - 日期：2026-08-24
 - 状态：待用户评审
 - 依据：awesome-dsh-plugin/awesome-dsh-plugin#2582 分歧事件 → 外部评审意见（已全文采纳核心修正：④⑤前置、契约先升版、双轨不切权威、多轴替代单判）
-- 落点：雷达测试台（现运行于 10.144.144.9，代码副本 /mnt/data/radar/dsh-k8s@192.168.1.152）
+- 落点：雷达测试台（私有测试台，见 engine/ops/private/MANIFEST.md）
 
 ## 1. 问题定性
 
