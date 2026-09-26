@@ -49,13 +49,14 @@ jobs:
             数据源：本仓 \`data/snapshots/\` 最新已合并快照（渲染器只读快照，不访问外部流）——数字对齐由 run_id 锚定保证。
             由 \`readme-render\` workflow 在快照合入 main 后自动触发。" \
             || echo "PR 已存在或创建失败，分支已推送"
-          # 白名单守卫：渲染 PR 只含渲染产物文件才自动合并（镜像 allow_auto_merge 已开）
-          BAD=$(gh pr view "$BR" --json files --jq '[.files[].path | select((. == "README.md" or . == "README.en-US.md" or . == "PLUGINS-ALL.md" or . == "CHANGELOG.md" or . == "data/latest.json" or . == "data/plugins-all.json" or startswith("catalog/all/") or . == "assets/tile-ok.svg" or . == "assets/tile-adapt.svg" or . == "assets/tile-test.svg") | not)] | length' 2>/dev/null)
-          if [ "${BAD:-1}" = "0" ]; then
-            gh pr merge "$BR" --merge --auto >/dev/null 2>&1 \
-              || gh pr merge "$BR" --merge >/dev/null 2>&1 \
-              || echo "自动合并失败，留人工"
-            echo "[render] PR $BR 已请求自动合并"
-          else
-            echo "[render] PR 含白名单外文件（${BAD} 个），留人工审"
+          # 三重闸门守卫（P4b：统一 engine/distribution/merge_guard.py——head SHA 钉死
+          # + 作者钉死 + 文件集合精确匹配；替代原内联白名单校验）
+          python3 engine/distribution/merge_guard.py \
+            --repo "$GITHUB_REPOSITORY" --pr "$BR" --expect-sha "$(git rev-parse HEAD)" \
+            --author "${{ github.actor }}" \
+            --expect-file README.md --expect-file PLUGINS-ALL.md --expect-file CHANGELOG.md \
+            --expect-file data/latest.json --expect-file data/plugins-all.json \
+            --expect-file 'catalog/all/*' \
+            --expect-file assets/tile-ok.svg --expect-file assets/tile-adapt.svg --expect-file assets/tile-test.svg \
+            || echo "[render] 留人工审"
           fi

@@ -4,119 +4,49 @@
 #   - 顶层 = 功能领域（webui/agent/coding/comm/data/fun/infra/edu/other），每类 <details> 折叠、h3 大标题 + 描述
 #   - 每条带类型标签（插件/技能/合集/渠道/基建/研究/社区），来自 catalog 的 category
 #   - 每类一次展开全部条目（不分段）「展开全部」
-#   - DOMAIN_MAP 全量重分类（275 条，人工审校）；未映射归 other
-# 数据源：hub catalog.json（gh api 实时拉取）；渲染由 python3 完成
+#   - DOMAIN_MAP 全量重分类（268 条，人工审校；P4b 出壳至 data/domain-map.json）；未映射归 other
+# 数据源：hub catalog.json（gh api 实时拉取；--offline 或拉取失败时用 data/hub-catalog-cache.json 缓存）
+# 渲染由 python3 完成
 set -uo pipefail
-cd "$(dirname "$0")/.." || exit 2
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"   # engine/rendering → 仓库根
+cd "$ROOT" || exit 2
 GH="$HOME/.local/bin/gh"
+DOMAIN_MAP_JSON="$ROOT/data/domain-map.json"
+[ -f "$DOMAIN_MAP_JSON" ] || { echo "[gen-catalog] 缺 $DOMAIN_MAP_JSON，跳过"; exit 0; }
 
 CATALOG="$(mktemp)"
-timeout 90 "$GH" api "repos/dsh-external/hub/contents/catalog.json" --jq '.content' 2>/dev/null | base64 -d 2>/dev/null > "$CATALOG"
-[ -s "$CATALOG" ] || { echo "[gen-catalog] hub catalog 拉取失败，跳过"; rm -f "$CATALOG"; exit 0; }
+if [ "${1:-}" = "--offline" ] && [ -s "$ROOT/data/hub-catalog-cache.json" ]; then
+  cp "$ROOT/data/hub-catalog-cache.json" "$CATALOG"
+  echo "[gen-catalog] --offline：使用 hub catalog 缓存 $(wc -c < "$CATALOG") 字节"
+else
+  timeout 90 "$GH" api "repos/dsh-external/hub/contents/catalog.json" --jq '.content' 2>/dev/null | base64 -d 2>/dev/null > "$CATALOG"
+  if [ -s "$CATALOG" ] && [ "${1:-}" = "--cache" ]; then
+    cp "$CATALOG" "$ROOT/data/hub-catalog-cache.json"   # 顺手刷新缓存
+  fi
+fi
+if [ ! -s "$CATALOG" ] && [ -s "$ROOT/data/hub-catalog-cache.json" ]; then
+  echo "[gen-catalog] hub catalog 拉取失败，回退缓存"
+  cp "$ROOT/data/hub-catalog-cache.json" "$CATALOG"
+fi
+[ -s "$CATALOG" ] || { echo "[gen-catalog] hub catalog 拉取失败且无缓存，跳过"; rm -f "$CATALOG"; exit 0; }
 
 python3 - "$CATALOG" <<'PYEOF'
 import json, os, re, sys
-
+ROOT_DIR = os.environ.get("RADAR_ROOT", os.getcwd())
 catalog = json.load(open(sys.argv[1], encoding="utf-8"))
 DESC_CACHE = {}
-if os.path.isfile("desc-cache.json"):
-    DESC_CACHE = json.load(open("desc-cache.json", encoding="utf-8"))
+if os.path.isfile("data/desc-cache.json"):
+    DESC_CACHE = json.load(open("data/desc-cache.json", encoding="utf-8"))
 repos = catalog.get("repos", [])
 
-# 领域体系：key -> (emoji 标题, 描述)。顺序即渲染顺序。
-DOMAIN_META = [
-    ("webui", "🔌 Web UI 增强", "界面与交互增强插件：侧边栏、输入框、皮肤主题、面板 dock、消息显示、状态栏与可视化，让 Web 界面更顺手更好看"),
-    ("agent", "🤖 Agent 能力", "增强 agent 本身的能力：子代理管理、记忆与上下文、会话控制、规划执行、唤醒/睡眠、提示词与技能注入"),
-    ("coding", "💻 编码开发", "面向编程场景的工具：代码操作、git 集成、终端、diff 与编辑器、文档生成、语言支持与构建辅助"),
-    ("comm", "📡 消息通讯", "把 dsh 接入各类沟通渠道：微信/QQ/Telegram/飞书机器人、桌面通知、消息分享与跨端回复"),
-    ("data", "🗂 文件数据", "文件与数据处理：读写与格式转换、爬取抓取、数据库、编码识别、文档解析与知识库"),
-    ("fun", "🎮 娱乐生活", "摸鱼与趣味：小游戏、桌面宠物、表情包、音乐、股票行情与旅行"),
-    ("infra", "🛠 基建部署", "运行环境与分发：桌面/移动客户端、远程主机、浏览器桥、沙箱隔离、插件管理、更新与监控"),
-    ("edu", "📚 学习研究", "学习与探索：技能包、插件开发指南、文档导航、评测基准与社区 onboarding"),
-    ("other", "❓ 其他", "描述缺失或暂未归类的仓库，补充信息后将细分"),
-]
+# 领域体系/类型标签/全量映射/补录仓库：统一自 data/domain-map.json（P4b 出壳）
+DM = json.load(open(os.path.join(ROOT_DIR, "data", "domain-map.json"), encoding="utf-8"))
+DOMAIN_META = [(m["key"], m["title"], m["desc"]) for m in DM["domain_meta"]]
+TYPE_LABEL = DM["type_label"]
+DOMAIN_MAP = DM["domain_map"]
+EXTRA_REPOS = {k: (v["url"], v["desc"], v["domain"]) for k, v in DM["extra_repos"].items()}
 
-# 类型标签：catalog category -> 展示标签
-TYPE_LABEL = {
-    "plugin": "插件", "skill": "技能", "collection": "合集", "channel": "渠道",
-    "infra": "基建", "research": "研究", "community": "社区",
-}
 
-# 全量领域映射（275 条，人工审校重分类；未列出归 other）
-DOMAIN_MAP = {
-'7d7d': 'webui', 'chat-width': 'webui', 'dsh-ads': 'webui', 'dsh-aigc-canvas': 'webui', 'dsh-annotation': 'webui',
-    'dsh-anti-ads': 'webui', 'dsh-chat': 'webui', 'dsh-custom-css': 'webui', 'dsh-deepcel': 'webui', 'dsh-drag-and-drop': 'webui',
-    'dsh-genui': 'webui', 'dsh-input-history': 'webui', 'dsh-live-stats': 'webui', 'dsh-message-edit': 'webui', 'dsh-paste-input': 'webui',
-    'dsh-question-collapse': 'webui', 'dsh-skins': 'webui', 'dsh-split-panes': 'webui', 'dsh-tavern-plugin': 'webui', 'dsh-tps': 'webui',
-    'dsh-ui-webview': 'webui', 'dsh-ultra-ui': 'webui', 'dsh-vision': 'webui', 'dsh-voice-chat': 'webui', 'dsh-web': 'webui',
-    'dsh-web-panel': 'webui', 'dsh-web-review': 'webui', 'dsh-web-ui': 'webui', 'dsh-browser-panel': 'webui', 'dsh-island': 'webui',
-    'DSH-UI4A': 'webui', 'ex-setting': 'webui', 'group-chat-diary': 'webui', 'review-panel': 'webui', 'show-bash-command': 'webui',
-    'turtle-ui': 'webui', 'ui-status-label': 'webui', 'web-components': 'webui', 'zephyr': 'webui', 'DSH-better-sidebar': 'webui',
-    'dsh-side-panel': 'webui', 'ya-workspace-sidebar': 'webui', 'dsh-selection-chat': 'webui', 'dsh-visualize': 'webui',
-    'dsh-a2a': 'agent', 'dsh-agent-budget': 'agent', 'dsh-agent-rp': 'agent', 'dsh-alphasolve': 'agent', 'dsh-auto-approval': 'agent',
-    'dsh-checkpoint': 'agent', 'dsh-client-ui-plan-execute': 'agent', 'dsh-cot-summary': 'agent', 'dsh-deeplink': 'agent',
-    'dsh-design': 'agent', 'dsh-easy-ctx-manager': 'agent', 'dsh-engram-relay': 'agent', 'dsh-evolve': 'agent', 'dsh-explain': 'agent',
-    'dsh-focus-chat': 'agent', 'dsh-inspect': 'agent', 'dsh-issue-like-skill': 'agent', 'dsh-kimi-bridge': 'agent', 'dsh-llm-fallbacks': 'agent',
-    'dsh-mega': 'agent', 'dsh-memory': 'agent', 'dsh-mnemon': 'agent', 'dsh-nowledge-mem': 'agent', 'dsh-openmaic': 'agent',
-    'dsh-plan-execute': 'agent', 'dsh-prompt-studio': 'agent', 'dsh-reuse-first': 'agent', 'dsh-rewind': 'agent', 'dsh-scout': 'agent',
-    'dsh-self-control-guard': 'agent', 'dsh-session-cluster': 'agent', 'dsh-session-health': 'agent', 'dsh-session-hub': 'agent',
-    'dsh-session-repair-skill': 'agent', 'dsh-skill-session-recovery': 'agent', 'dsh-skill-stats': 'agent', 'dsh-skills-manager': 'agent',
-    'dsh-sleep': 'agent', 'dsh-slice-agent-loop': 'agent', 'dsh-subagent-tree': 'agent', 'dsh-super-injector': 'agent',
-    'dsh-superpowers': 'agent', 'dsh-track': 'agent', 'dsh-turn-navigator': 'agent', 'dsh-turn-rewind': 'agent', 'dsh-ui-progress': 'agent',
-    'dsh-web-workflow-visualizer': 'agent', 'mstar-workflow': 'agent', 'session-teleport': 'agent', 'yet-another-subagent': 'agent',
-    'dsh_workflow': 'agent', 'distill': 'agent', 'dsh-agent-session-sources': 'agent', 'dsh-activity-plugin': 'agent', 'Recall': 'agent',
-    'Qwen-MM-Plugins': 'agent', 'deep-standard-skill': 'agent', 'dsh-qq2006': 'agent',
-    'cross-harness-cite': 'coding', 'dsh_ide': 'coding', 'dsh-auto-blame': 'coding', 'dsh-better-sidebar-plugin-office': 'coding',
-    'dsh-build': 'coding', 'dsh-cc-tui': 'coding', 'dsh-code': 'coding', 'dsh-code-map': 'coding', 'dsh-codex-bridge': 'coding',
-    'dsh-grok-tui': 'coding', 'dsh-interpreters': 'coding', 'dsh-latex': 'coding', 'dsh-memory-evolve': 'coding', 'dsh-my-rsi': 'coding',
-    'dsh-pi-adapter': 'coding', 'dsh-spec-kit': 'coding', 'dsh-tool-browser': 'coding', 'dsh-tool-calculator': 'coding',
-    'dsh-tool-search': 'coding', 'dsh-tool-stat': 'coding', 'dsh-tool-time': 'coding', 'dsh-trace': 'coding', 'dsh-tui': 'coding',
-    'dsh-tui-front-door': 'coding', 'dsh-vscode': 'coding', 'dsh-working-activity': 'coding', 'official-plugins-port': 'coding',
-    'dsh-gh-bridge': 'coding', 'dsh-git-identity': 'coding', 'dsh-github-integration': 'coding', 'dsh-bash-encoding': 'coding',
-    'dsh-cc-connect': 'coding', 'dsh-office': 'coding', 'zotero-wave-rag': 'coding', 'dsh-pty-windows': 'coding', 'dsh-shell-windows': 'coding',
-    'dsh-chat-thumb': 'comm', 'dsh-coding-receipt': 'comm', 'dsh-feishu-bot': 'comm', 'dsh-feishu-notify': 'comm', 'dsh-ica': 'comm',
-    'dsh-share': 'comm', 'dsh-suggested-replies': 'comm', 'dsh-web-ui-notify': 'comm', 'dsh-webbridge': 'comm', 'dsh-wecom-bot': 'comm',
-    'dsh-weixin-bot': 'comm', 'qqbot': 'comm', 'telegram': 'comm', 'tg-bot': 'comm', 'issues': 'comm', 'dsh-club': 'comm', 'dsh-teamwork': 'comm',
-    'dsh-deep-research': 'comm',
-    'context-doctor': 'data', 'dsh-advisor': 'data', 'dsh-artifact': 'data', 'dsh-context7': 'data', 'dsh-cyber-sec': 'data',
-    'dsh-data-agent': 'data', 'dsh-diff-viewer': 'data', 'dsh-issue-filer': 'data', 'dsh-kb-sieve': 'data', 'dsh-loop': 'data',
-    'dsh-mineru': 'data', 'dsh-multimedia-webui-input': 'data', 'dsh-navbar': 'data', 'dsh-notebooks': 'data', 'dsh-openpencil': 'data',
-    'dsh-profile-bundle-example': 'data', 'dsh-task-status': 'data', 'dsh-tool-csv': 'data', 'dsh-tool-diff': 'data',
-    'dsh-tool-encoding': 'data', 'dsh-tool-json': 'data', 'dsh-tool-markdown': 'data', 'dsh-tool-regex': 'data',
-    'dsh-tool-schema': 'data', 'dsh-toolkit': 'data', 'dsh-vision-toolkit': 'data', 'dsh-web-archive': 'data',
-    'session-persistence-rdb': 'data', 'Top': 'data', 'ds_web_craw': 'data', 'session-chatlog': 'data', 'dsh-stock-market': 'data',
-    'tonghuashun-harness': 'data', 'dsh-find-plugins': 'data',
-    'dsh-auto-chess': 'fun', 'dsh-d399': 'fun', 'dsh-deep-whale': 'fun', 'dsh-emoji': 'fun', 'dsh-gomoku': 'fun', 'dsh-lazyfish': 'fun',
-    'dsh-meme': 'fun', 'dsh-minigames': 'fun', 'dsh-music-player': 'fun', 'dsh-pet': 'fun', 'dsh-pet-rs': 'fun', 'dsh-sfw': 'fun',
-    'dsh-travel-plugin': 'fun', 'dsh-ui-whale': 'fun', 'whale-girl': 'fun', 'toybox': 'fun', 'oh-my-dsh': 'fun', 'dsh-stickers': 'fun',
-    'browser4-dsh': 'infra', 'deepseek-harness-desktop': 'infra', 'deepseek-harness-distro': 'infra', 'dsh-acp': 'infra',
-    'dsh-android': 'infra', 'dsh-browser': 'infra', 'dsh-browser-bridge': 'infra', 'dsh-companion': 'infra', 'dsh-computer-use': 'infra',
-    'dsh-desktop': 'infra', 'dsh-desktop-electron': 'infra', 'dsh-desktop-mac': 'infra', 'dsh-desktop-tools': 'infra',
-    'dsh-harness-ops': 'infra', 'dsh-hub': 'infra', 'dsh-kimi-browser': 'infra', 'dsh-mobile': 'infra', 'dsh-mobileweb-adapter': 'infra',
-    'dsh-ohos-patch': 'infra', 'dsh-opencode-server': 'infra', 'dsh-plugin-check': 'infra', 'dsh-plugin-radar': 'infra',
-    'dsh-public-repo-monitor': 'infra', 'dsh-remote': 'infra', 'dsh-session-search': 'infra', 'dsh-win-port': 'infra',
-    'dshx-update-check': 'infra', 'ego-browser': 'infra', 'fabric': 'infra', 'marisa': 'infra', 'oh-dsh-desktop': 'infra',
-    'oh-my-dsh-distribution': 'infra', 'oh-my-deepseek': 'infra', 'plugin-registry': 'infra', 'plugin-template': 'infra',
-    'repo-visibility-guard': 'infra', 'sandbox-micro': 'infra', 'sandbox-mxc': 'infra', 'sandbox-nono': 'infra',
-    'dsh-multica-runtime': 'infra', 'dsh-paseo': 'infra', 'dsh-security': 'infra', 'dsh-security-audit': 'infra', 'dsh-sonar': 'infra',
-    'deepseek-manners': 'edu', 'dsh-101': 'edu', 'dsh-cordis-examples': 'edu', 'dsh-cordis-rocks': 'edu', 'dsh-deepresearch': 'edu',
-    'dsh-edu': 'edu', 'dsh-humanize': 'edu', 'dsh-plugin-dev': 'edu', 'dsh-plugin-guide': 'edu', 'dsh-plugin-skills': 'edu',
-    'dsh-scholar': 'edu', 'dshfind': 'edu', 'onboarding': 'edu', 'savemoneybenchmark': 'edu', 'zotero-harvest': 'edu', 'dsh-plus': 'edu',
-}
-# PR 登记的新插件（catalog 未收录、topic 发现待确认）：name -> (url, desc, domain)
-EXTRA_REPOS = {
-    'dsh-review-skills': ('https://github.com/ben7am1n/dsh-review-skills', '代码评审技能集', 'edu'),
-    'dsh-security-scan': ('https://github.com/ben7am1n/dsh-security-scan', '安全扫描插件', 'infra'),
-    'dsh-telegram': ('https://github.com/ben7am1n/dsh-telegram', 'Telegram 远程渠道', 'comm'),
-    'dsh-oauth-mcp-client': ('https://github.com/springbrand-lab/dsh-oauth-mcp-client', 'OAuth 2.1 Streamable HTTP MCP 客户端', 'agent'),
-    'dsh-balance': ('https://github.com/TwotwoPiggy/dsh-balance', '实时 token 余额跟踪', 'data'),
-    'falsify-dsh': ('https://github.com/shi275773124/falsify-dsh', 'Falsify CLI 适配器（裁决）', 'agent'),
-    'billion-context-dsh': ('https://github.com/Tyan66666/billion-context-dsh', '模型驱动上下文管理（Active Context Pruning）', 'agent'),
-    'deepseek-harness-desktop': ('https://github.com/chyra-moon/deepseek-harness-desktop', '桌面外壳：官方 1:1 复刻', 'infra'),
-    'dsh-web-search-firecrawl': ('https://github.com/yangzhe1003/dsh-web-search-firecrawl', 'Firecrawl 搜索提供方', 'data'),
-    'dsh-claude-move': ('https://github.com/PerryLink/dsh-claude-move', '迁移 Claude Code 会话', 'coding'),
-    'dsh-TUI': ('https://github.com/ccch1mneyyy/dsh-TUI', 'Claude Code 风格全屏交互终端插件：像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚', 'coding'),
-}
 
 # 从最新 mainline-compat.md 读取兼容性判定
 import glob, os

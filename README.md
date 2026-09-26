@@ -326,21 +326,121 @@ flowchart TB
 
 <!-- AUTO:catalog:START -->
 
-逐插件明细（判定 · 定位 · 星标）按域分页见 **[PLUGINS-ALL.md](PLUGINS-ALL.md)** 索引。
+> 按功能领域分类（重分类修正）。点击标题展开，全部条目一次显示。
 
-- **🎓 技能包**（29）— 可用 6 · 不兼容 2 · 待定 5 · 未测 13 · 监测 3 — [明细](catalog/all/技能包.md)
-- **🧠 记忆增强**（50）— 可用 15 · 不兼容 6 · 待定 4 · 未测 2 · 监测 23 — [明细](catalog/all/记忆增强.md)
-- **🎨 主题皮肤**（23）— 可用 10 · 不兼容 1 · 待定 2 · 未测 7 · 监测 3 — [明细](catalog/all/主题皮肤.md)
-- **🛒 市场与管理**（324）— 可用 97 · 不兼容 29 · 待定 18 · 未测 12 · 监测 168 — [明细](catalog/all/市场与管理.md)
-- **🔌 Web UI 增强**（2842）— 可用 1316 · 不兼容 499 · 待定 210 · 未测 18 · 监测 799 — [明细](catalog/all/Web%20UI%20增强.md)
-- **💻 编码开发**（2229）— 可用 897 · 不兼容 430 · 待定 175 · 未测 23 · 监测 704 — [明细](catalog/all/编码开发.md)
-- **🤖 Agent 能力**（2362）— 可用 810 · 不兼容 357 · 待定 146 · 未测 14 · 监测 1035 — [明细](catalog/all/Agent%20能力.md)
-- **📡 消息通讯**（752）— 可用 251 · 不兼容 139 · 待定 49 · 未测 6 · 监测 307 — [明细](catalog/all/消息通讯.md)
-- **🗂 文件数据**（703）— 可用 274 · 不兼容 114 · 待定 50 · 未测 9 · 监测 256 — [明细](catalog/all/文件数据.md)
-- **🎮 娱乐生活**（462）— 可用 172 · 不兼容 48 · 待定 23 · 未测 0 · 监测 219 — [明细](catalog/all/娱乐生活.md)
-- **🛠 基建部署**（1388）— 可用 424 · 不兼容 159 · 待定 118 · 未测 7 · 监测 680 — [明细](catalog/all/基建部署.md)
-- **📚 学习研究**（169）— 可用 36 · 不兼容 14 · 待定 8 · 未测 2 · 监测 109 — [明细](catalog/all/学习研究.md)
-- **❓ 其他**（7573）— 可用 1853 · 不兼容 448 · 待定 237 · 未测 23 · 监测 5012 — [明细](catalog/all/其他.md)
+<details>
+<summary><h3>🔌 Web UI 增强（0）</h3></summary>
+
+*界面与交互增强插件：侧边栏、输入框、皮肤主题、面板 dock、消息显示、状态栏与可视化，让 Web 界面更顺手更好看*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| （暂无） | — | — |
+</details>
+
+*界面与交互增强插件：侧边栏、输入框、皮肤主题、面板 dock、消息显示、状态栏与可视化，让 Web 界面更顺手更好看*
+
+<details>
+<summary><h3>🤖 Agent 能力（3）</h3></summary>
+
+*增强 agent 本身的能力：子代理管理、记忆与上下文、会话控制、规划执行、唤醒/睡眠、提示词与技能注入*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-oauth-mcp-client](https://github.com/springbrand-lab/dsh-oauth-mcp-client) | 插件 | 待调研 | OAuth 2.1 Streamable HTTP MCP 客户端 |
+| [falsify-dsh](https://github.com/shi275773124/falsify-dsh) | 插件 | 待调研 | Falsify CLI 适配器（裁决） |
+| [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | 插件 | 待调研 | 模型驱动上下文管理（Active Context Pruning） |
+</details>
+
+*增强 agent 本身的能力：子代理管理、记忆与上下文、会话控制、规划执行、唤醒/睡眠、提示词与技能注入*
+
+<details>
+<summary><h3>💻 编码开发（3）</h3></summary>
+
+*面向编程场景的工具：代码操作、git 集成、终端、diff 与编辑器、文档生成、语言支持与构建辅助*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-tui](https://github.com/x/dsh-tui) | 插件 | 待调研 | 测试插件 |
+| [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) | 插件 | 待调研 | 迁移 Claude Code 会话 |
+| [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 插件 | 待调研 | Claude Code 风格全屏交互终端插件：像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚 |
+</details>
+
+*面向编程场景的工具：代码操作、git 集成、终端、diff 与编辑器、文档生成、语言支持与构建辅助*
+
+<details>
+<summary><h3>📡 消息通讯（1）</h3></summary>
+
+*把 dsh 接入各类沟通渠道：微信/QQ/Telegram/飞书机器人、桌面通知、消息分享与跨端回复*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | 插件 | 待调研 | Telegram 远程渠道 |
+</details>
+
+*把 dsh 接入各类沟通渠道：微信/QQ/Telegram/飞书机器人、桌面通知、消息分享与跨端回复*
+
+<details>
+<summary><h3>🗂 文件数据（2）</h3></summary>
+
+*文件与数据处理：读写与格式转换、爬取抓取、数据库、编码识别、文档解析与知识库*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-balance](https://github.com/TwotwoPiggy/dsh-balance) | 插件 | 待调研 | 实时 token 余额跟踪 |
+| [dsh-web-search-firecrawl](https://github.com/yangzhe1003/dsh-web-search-firecrawl) | 插件 | 待调研 | Firecrawl 搜索提供方 |
+</details>
+
+*文件与数据处理：读写与格式转换、爬取抓取、数据库、编码识别、文档解析与知识库*
+
+<details>
+<summary><h3>🎮 娱乐生活（0）</h3></summary>
+
+*摸鱼与趣味：小游戏、桌面宠物、表情包、音乐、股票行情与旅行*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| （暂无） | — | — |
+</details>
+
+*摸鱼与趣味：小游戏、桌面宠物、表情包、音乐、股票行情与旅行*
+
+<details>
+<summary><h3>🛠 基建部署（2）</h3></summary>
+
+*运行环境与分发：桌面/移动客户端、远程主机、浏览器桥、沙箱隔离、插件管理、更新与监控*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-security-scan](https://github.com/ben7am1n/dsh-security-scan) | 插件 | 待调研 | 安全扫描插件 |
+| [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) | 插件 | 待调研 | 桌面外壳：官方 1:1 复刻 |
+</details>
+
+*运行环境与分发：桌面/移动客户端、远程主机、浏览器桥、沙箱隔离、插件管理、更新与监控*
+
+<details>
+<summary><h3>📚 学习研究（1）</h3></summary>
+
+*学习与探索：技能包、插件开发指南、文档导航、评测基准与社区 onboarding*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [dsh-review-skills](https://github.com/ben7am1n/dsh-review-skills) | 插件 | 待调研 | 代码评审技能集 |
+</details>
+
+*学习与探索：技能包、插件开发指南、文档导航、评测基准与社区 onboarding*
+
+<details>
+<summary><h3>❓ 其他（1）</h3></summary>
+
+*描述缺失或暂未归类的仓库，补充信息后将细分*
+
+| 插件 | 类型 | 兼容性 | 说明 |
+|---|---|---|---|
+| [unknown-thing](https://github.com/x/u) | 插件 | 待调研 | 未映射 |
+</details>
+
+*描述缺失或暂未归类的仓库，补充信息后将细分*
 
 <!-- AUTO:catalog:END -->
 

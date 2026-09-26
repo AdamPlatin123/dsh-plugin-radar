@@ -82,42 +82,17 @@ def privacy_gate(text: str) -> str | None:
 
 def guarded_auto_merge(repo: str, pr_no: str, wt, expect_sha: str,
                        expect_files: list, author_login: str) -> bool:
-    """守卫式自动合并。三重身份闸门，任一不过即拒并留人工：
-    1) head 钉死：PR 的 headRefOid 必须等于本管线刚推送的 commit SHA（防同名伪装 PR 劫持）；
-    2) 作者钉死：PR 作者必须是本管线认证账号（AdamPlatin123）；
-    3) 文件钉死：PR 文件集合必须精确等于本管线本次产物（而非仅前缀白名单）。
-    merge 后再确认 state=MERGED。"""
-    v = sh([GH_BIN, "pr", "view", pr_no, "--repo", repo, "--json",
-            "headRefOid,author,files,state", "--jq",
-            "{head: .headRefOid, author: .author.login, files: [.files[].path]}"],
-           cwd=wt, timeout=60)
-    try:
-        info = json.loads(v.stdout or "{}")
-    except json.JSONDecodeError:
-        info = {}
-    head = info.get("head") or ""
-    author = info.get("author") or ""
-    files = info.get("files") or None
-    if not head or head != expect_sha:
-        print(f"[cadence-v2] {repo} PR #{pr_no} 拒绝自动合并：head SHA 不符"
-              f"（期望 {expect_sha[:8]}，实际 {head[:8] or '未知'}）→ 留人工")
+    """守卫式自动合并（P4b 起委派唯一实现 engine/distribution/merge_guard.py；
+    三重身份闸门 = head SHA 钉死 + 作者钉死 + 文件集合精确相等，历史演进见该文件头注）。"""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import merge_guard as _mg
+    ok, reason = _mg.verify(repo, pr_no, expect_sha, author_login, expect_files, GH_BIN)
+    if not ok:
+        print(f"[cadence-v2] {repo} PR #{pr_no} 拒绝自动合并：{reason} → 留人工")
         return False
-    if author != author_login:
-        print(f"[cadence-v2] {repo} PR #{pr_no} 拒绝自动合并：作者 {author} 非本管线账号 → 留人工")
-        return False
-    if files is None or sorted(files) != sorted(expect_files):
-        print(f"[cadence-v2] {repo} PR #{pr_no} 拒绝自动合并：文件集合与产物不符 "
-              f"({files}) → 留人工")
-        return False
-    m = sh([GH_BIN, "pr", "merge", pr_no, "--repo", repo, "--merge"], cwd=wt, timeout=120)
-    if m.returncode != 0:
-        print(f"[cadence-v2] {repo} PR #{pr_no} 自动合并失败（留人工）")
-        return False
-    v2 = sh([GH_BIN, "pr", "view", pr_no, "--repo", repo, "--json", "state"],
-            cwd=wt, timeout=60)
-    merged = '"MERGED"' in (v2.stdout or "")
-    print(f"[cadence-v2] {repo} PR #{pr_no} "
-          f"{'身份闸门通过，自动合并确认' if merged else '合并未确认'}")
+    print(f"[cadence-v2] {repo} PR #{pr_no} {reason}")
+    merged, m_reason = _mg.merge(repo, pr_no, GH_BIN)
+    print(f"[cadence-v2] {repo} PR #{pr_no} {m_reason}")
     return merged
 
 

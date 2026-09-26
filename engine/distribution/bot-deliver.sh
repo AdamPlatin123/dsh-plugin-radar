@@ -248,22 +248,22 @@ refresh_pr() {  # $1=repo $2=body
 refresh_pr dsh-external/awesome-dsh-plugins "$BODY_ORG"
 refresh_pr AdamPlatin123/awesome-dsh-plugins "$BODY_MIRROR"
 
-# AUTO_MERGE_GUARD：纯快照 PR 且文件全在白名单 → 自动合并（--auto 失败回退直合并）
+# AUTO_MERGE_GUARD（P4b 升级）：三重身份闸门统一走 merge_guard.py——
+# head SHA 钉死（捕获自本管线推送，防同名伪装分支劫持）+ 作者钉死 + 文件集合精确匹配；
+# 此前仅"前缀白名单"校验，为四处实现中最弱
 if [ "$SNAPSHOT_MODE" = 1 ]; then
-  for R in dsh-external/awesome-dsh-plugins AdamPlatin123/awesome-dsh-plugins; do
-    N=$(gh pr list --repo "$R" --state open --head "$BR" --json number --jq '.[0].number' 2>/dev/null)
-    [ -n "$N" ] || continue
-    BAD=$(gh pr view --repo "$R" "$N" --json files \
-      --jq '[.files[].path | select((startswith("data/snapshots/") or startswith("reports/")) | not)] | length' 2>/dev/null)
-    if [ "${BAD:-1}" = "0" ]; then
-      gh pr merge --repo "$R" "$N" --auto --merge >/dev/null 2>&1 \
-        || gh pr merge --repo "$R" "$N" --merge >/dev/null 2>&1 \
-        || echo "[deliver] 自动合并失败 $R#$N（留人工）" >&2
-      echo "[deliver] 已自动合并 $R#$N（白名单校验通过）"
-    else
-      echo "[deliver] $R#$N 含白名单外文件（$BAD 处），留人工审"
-    fi
-  done
+  GUARD="$RADAR/engine/distribution/merge_guard.py"
+  PUSH_SHA="$(git -C "$WT" rev-parse HEAD 2>/dev/null || true)"
+  if [ -z "$PUSH_SHA" ] || [ ! -f "$GUARD" ]; then
+    echo "[deliver] 无法捕获推送 SHA 或缺 merge_guard——拒绝自动合并（fail-closed，留人工）"
+  else
+    for R in dsh-external/awesome-dsh-plugins AdamPlatin123/awesome-dsh-plugins; do
+      N=$(gh pr list --repo "$R" --state open --head "$BR" --json number --jq '.[0].number' 2>/dev/null)
+      [ -n "$N" ] || continue
+      python3 "$GUARD" --repo "$R" --pr "$N" --expect-sha "$PUSH_SHA" \
+        --author AdamPlatin123 --expect-file 'data/snapshots/*' --expect-file 'reports/*' || true
+    done
+  fi
 fi
 
 cd /
