@@ -1,0 +1,55 @@
+name: alerts
+# 集中失败告警（P0 安全网）：监听四个生产 workflow 的运行结果——
+#   failure → 按 workflow 名查重开 issue（label radar-alert，附运行链接）；
+#   同 workflow 恢复 success → 自动关闭对应告警并留恢复注记。
+# 此前四个 workflow 均无任何失败通知（404 入库、reports 断档、死代码静默的共同元因）。
+on:
+  workflow_run:
+    workflows: [readme-render, refresh-featured, refresh-stars, runner-smoke]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: alerts
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 失败开单 / 恢复关单
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_NAME: ${{ github.event.workflow_run.name }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          RUN_AT: ${{ github.event.workflow_run.run_started_at }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          set -euo pipefail
+          gh label create radar-alert --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true
+          TITLE="[radar-alert] ${RUN_NAME} 失败"
+          OPEN_NUM=$(gh issue list -R "$REPO" --state open --label radar-alert \
+            --json number,title --jq ".[] | select(.title == \"$TITLE\") | .number" | head -1 || true)
+          if [ "$CONCLUSION" = "failure" ]; then
+            BODY="**${RUN_NAME}** 运行失败。
+          - 运行：${RUN_URL}
+          - 开始时间：${RUN_AT}
+          由 alerts 工作流自动创建；同 workflow 恢复成功后自动关闭。"
+            if [ -n "$OPEN_NUM" ]; then
+              echo "已有未关闭告警 #$OPEN_NUM，追加失败记录"
+              gh issue comment -R "$REPO" "$OPEN_NUM" --body "再次失败：${RUN_URL}（${RUN_AT}）"
+            else
+              gh issue create -R "$REPO" --title "$TITLE" --label radar-alert --body "$BODY"
+            fi
+          elif [ -n "$OPEN_NUM" ]; then
+            echo "${RUN_NAME} 已恢复，关闭告警 #$OPEN_NUM"
+            gh issue comment -R "$REPO" "$OPEN_NUM" --body "已恢复：${RUN_URL}"
+            gh issue close -R "$REPO" "$OPEN_NUM" --reason completed
+          else
+            echo "${RUN_NAME} 结论 ${CONCLUSION}，无未关闭告警，跳过"
+          fi

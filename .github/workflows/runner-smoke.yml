@@ -1,11 +1,12 @@
 name: runner-smoke
 # runner 可运行性冒烟：每次引擎/脚本变更即验证「这份开源代码真的能跑」——
-# 编译检查 + 两个确定性产物链（磁贴资产生成 + 数据接口导出）端到端走通。
+# 编译检查 + 两个确定性产物链（磁贴资产生成 + 数据接口导出）端到端走通，
+# 外加稳定数据接口契约校验（P0：挡错误内容以合法 JSON 身份入库）。
 on:
   push:
-    paths: ['engine/**', 'scripts/**', '.github/workflows/runner-smoke.yml']
+    paths: ['engine/**', 'scripts/**', 'schema/**', '.github/workflows/runner-smoke.yml']
   pull_request:
-    paths: ['engine/**', 'scripts/**', '.github/workflows/runner-smoke.yml']
+    paths: ['engine/**', 'scripts/**', 'schema/**', '.github/workflows/runner-smoke.yml']
   workflow_dispatch:
 
 concurrency:
@@ -33,3 +34,7 @@ jobs:
           python3 scripts/gen_plugins_all.py
           python3 scripts/export-data.py .
           python3 -c "import json; n=len(json.load(open('data/plugins-all.json'))['plugins']); assert n>5000, n; print(f'[smoke] 数据接口 OK：{n} 条')"
+      - name: 冒烟③ 稳定接口契约校验（schema/radar-v1.schema.json）
+        run: |
+          pip install --quiet jsonschema
+          python3 scripts/validate_contracts.py .
