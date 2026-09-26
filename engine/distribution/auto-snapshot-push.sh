@@ -74,6 +74,28 @@ sync_put() {  # $1=文件路径：org 内容转推镜像，sha 一致则跳过
   # raw 通道下载（>1MB 文件 contents API 不回 content 字段；base64 内容不走 argv 防 128KB 上限）
   gh api "repos/$REPO/contents/$p" -H "Accept: application/vnd.github.raw" > "$PAY_RAW" 2>/dev/null
   [ -s "$PAY_RAW" ] || { echo "[mirror] $p 内容获取为空，跳过（防 0 字节落仓）"; return 1; }
+  # 内容门禁：非空 ≠ 正确。org 侧曾把 GitHub API 404 响应体当作 runner-versions.json
+  # 的文件内容入库，raw 下载非空、一路同步到镜像并随稳定接口发布——JSON 合法性 +
+  # API 错误对象特征 + 关键文件形态三重拦截（P2a）
+  case "$p" in
+    *.json)
+      if ! python3 -c '
+import json, sys
+try:
+    d = json.load(open(sys.argv[1]))
+except Exception as e:
+    sys.exit(f"JSON 解析失败: {e}")
+if isinstance(d, dict) and "message" in d and "documentation_url" in d:
+    sys.exit("API 错误对象特征（message+documentation_url）——疑似 GitHub API 响应体误入库")
+if sys.argv[2].endswith("runner-versions.json") and not (
+        isinstance(d, dict) and d.get("schema") == "dsh-radar/runner-versions/v1" and "latest" in d):
+    sys.exit("runner-versions.json 形态不符（需 schema=dsh-radar/runner-versions/v1 + latest 键）")
+' "$PAY_RAW" "$p"; then
+        echo "[mirror] $p 内容门禁拦截，跳过本轮同步（org 侧源头待修，sha 不推进下轮重查）"
+        return 1
+      fi
+      ;;
+  esac
   base64 -w0 "$PAY_RAW" > "$PAY_B64"
   python3 - "$PAY_B64" "$PAY_MIRROR" "$sha_m" "$p" <<'PYA'
 import json, sys
@@ -90,7 +112,7 @@ PYA
   fi
 }
 sync_put "data/snapshots/$RUN_ID.json"
-for _f in data/locate-cache.json data/url-audit.json data/repo-map.json data/desc-cache.json; do
+for _f in data/locate-cache.json data/url-audit.json data/repo-map.json data/desc-cache.json data/runner-versions.json; do
   sync_put "$_f"
 done
 # 脚本权威反转（2026-09-05）：主仓 main 为唯一权威，.9 每轮拉取最新脚本再渲染；

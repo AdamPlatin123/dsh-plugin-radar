@@ -98,6 +98,10 @@ def main() -> int:
 
     try:
         runner_versions = json.loads((root / 'data' / 'runner-versions.json').read_text(encoding='utf8'))
+        # 出口门禁：API 错误对象是合法 JSON，try/except 防不住——稳定接口绝不发布错误内容
+        if isinstance(runner_versions, dict) and 'message' in runner_versions and 'documentation_url' in runner_versions:
+            print('[export] WARN runner-versions.json 为 API 错误对象，按空处理', file=sys.stderr)
+            runner_versions = {}
     except Exception:
         runner_versions = {}
     latest = {

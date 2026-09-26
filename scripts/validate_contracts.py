@@ -52,6 +52,39 @@ def validate(root: Path) -> int:
         else:
             print(f'[contracts] {rel} 契约通过（{ref}）')
 
+    # 策展深度条目 ⊕ plugin.schema.json（曾 23/24 因 runtime_test 未入 schema 被判违规——P2a 修正后应全绿）
+    plugin_schema = json.loads((root / 'schema/plugin.schema.json').read_text(encoding='utf8'))
+    pv = jsonschema.Draft7Validator(plugin_schema)
+    n_plugin = n_plugin_bad = 0
+    for p in sorted((root / 'catalog' / 'plugins').glob('*.json')):
+        n_plugin += 1
+        errs = sorted(pv.iter_errors(json.loads(p.read_text(encoding='utf8'))),
+                      key=lambda e: list(e.absolute_path))
+        if errs:
+            n_plugin_bad += 1
+            for e in errs[:3]:
+                print(f'[contracts] catalog/plugins/{p.name}: {e.message}', file=sys.stderr)
+    if n_plugin:
+        print(f'[contracts] catalog/plugins {n_plugin - n_plugin_bad}/{n_plugin} 通过（plugin.schema.json）')
+        failed = failed or bool(n_plugin_bad)
+
+    # 最新快照 ⊕ snapshot.schema.json（快照为渲染层唯一输入，坏快照即坏清单）
+    import glob as _glob
+    snaps = sorted(_glob.glob(str(root / 'data' / 'snapshots' / '*.json')))
+    if snaps:
+        snap_schema = json.loads((root / 'schema/snapshot.schema.json').read_text(encoding='utf8'))
+        sv = jsonschema.Draft7Validator(snap_schema)
+        doc = json.loads(Path(snaps[-1]).read_text(encoding='utf8'))
+        errs = sorted(sv.iter_errors(doc), key=lambda e: list(e.absolute_path))
+        if errs:
+            failed = True
+            for e in errs[:5]:
+                print(f'[contracts] {Path(snaps[-1]).name}: {e.message}', file=sys.stderr)
+        else:
+            print(f'[contracts] 最新快照 {Path(snaps[-1]).name} 通过（snapshot.schema.json）')
+    else:
+        print('[contracts] 无快照文件，跳过快照校验')
+
     # 跨文件语义断言：total_listed 必须等于清单实际条数
     latest = docs.get('data/latest.json')
     plugins = docs.get('data/plugins-all.json')
