@@ -20,7 +20,9 @@ trap 'rm -f "$PAY_SNAP" "$PAY_MIRROR" "$PAY_RAW" "$PAY_B64"' EXIT
 # ① 生成快照
 mkdir -p $SNAP_DIR/data/snapshots
 cd $SNAP_DIR
-python3 $HOME_DIR/dsh-k8s/gen-snapshot-v2.py 2>/dev/null | tail -1 || exit 0
+K8S="${RADAR_K8S_DIR:-$HOME_DIR/dsh-k8s}"
+[ -f "$K8S/gen-snapshot-v2.py" ] || { echo "[auto-snap] WARN 缺私有件 $K8S/gen-snapshot-v2.py，本轮跳过（engine/ops/private/MANIFEST.md）"; exit 0; }
+python3 "$K8S/gen-snapshot-v2.py" 2>/dev/null | tail -1 || exit 0
 
 RUN_FILE=$(ls -t data/snapshots/*.json 2>/dev/null | head -1)
 [ -z "$RUN_FILE" ] && exit 0

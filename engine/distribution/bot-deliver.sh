@@ -11,7 +11,8 @@ BR="bot/agent-test-$DATE"
 
 cd "$RADAR"
 # 确保已聚合（幂等）
-python3 scripts/aggregate-agent-test.py >/dev/null 2>&1 || true
+if [ -f scripts/aggregate-agent-test.py ]; then python3 scripts/aggregate-agent-test.py >/dev/null 2>&1 || true;
+else echo "[deliver] WARN 缺私有聚合器 aggregate-agent-test.py，跳过（engine/ops/private/MANIFEST.md）"; fi
 REPORT="$RADAR/reports/$DATE/agent-test.md"
 [ -f "$REPORT" ] || { echo "[deliver] 报告不存在: $REPORT"; exit 1; }
 

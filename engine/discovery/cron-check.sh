@@ -10,7 +10,12 @@ set -uo pipefail
 
 # Radar v4 worker 门禁：非 worker 调用（cron/hook/手动）只入队，禁止直接写
 if [ "${RADAR_INDEX_WORKER:-}" != "1" ]; then
-  /home/adam/dsh-k8s/radar-index-request.py --reason manual --trigger cron-check-direct >/dev/null 2>&1 || true
+  K8S="${RADAR_K8S_DIR:-$HOME/dsh-k8s}"   # 私有件目录（engine/ops/private/MANIFEST.md）
+  if [ -f "$K8S/radar-index-request.py" ]; then
+    python3 "$K8S/radar-index-request.py" --reason manual --trigger cron-check-direct >/dev/null 2>&1 || true
+  else
+    echo "[cron-check] WARN 缺私有件 $K8S/radar-index-request.py，入队跳过（开源副本降级运行）"
+  fi
   echo "[cron-check] 非 worker 调用：已入队，由 radar-index-worker.service 执行"
   exit 0
 fi
@@ -178,7 +183,7 @@ echo "[状态] .last-changes.json 已记录（新增 ${#NEW_REPOS[@]} / 修改 $
 # 4. 有变化 → 运行 mainline 兼容索引（动态 scope）
 if [ -n "$CHANGED" ]; then
   echo "[索引] 变化仓库:$CHANGED"
-  ./scripts/compare-mainline.sh --scope .scope-current.txt
+  "$SCRIPT_DIR/../maintenance/compare-mainline.sh" --scope .scope-current.txt
   rc=$?
   echo "[索引] compare-mainline.sh 退出码 $rc"
 
@@ -192,16 +197,16 @@ if [ -n "$CHANGED" ]; then
 
   # 4.6 引擎完成后：LLM 生成开发者摘要（同步；失败/超时记录为事实，不伪造成功）
   echo "[LLM] 生成开发者摘要（同步）..."
-  if timeout 600 ./scripts/report-llm.sh >> logs/llm.log 2>&1; then
+  if timeout 600 "$SCRIPT_DIR/../rendering/report-llm.sh" >> logs/llm.log 2>&1; then
     echo "[LLM] 摘要完成"
   else
     echo "[LLM] 摘要失败/超时（rc=$?），已记录，不伪造成功"
   fi
 
   # 4.5 全量模式：同步构建最新 mainline 验证可编译性（产物随本轮提交，杜绝跨轮混批）
-  if [ "$FULL" -eq 1 ] && [ -x ./scripts/build-mainline.sh ]; then
+  if [ "$FULL" -eq 1 ] && [ -x "$SCRIPT_DIR/../maintenance/build-mainline.sh" ]; then
     echo "[构建] mainline 构建（同步，最长 1800s）..."
-    if timeout 1800 ./scripts/build-mainline.sh >> logs/build.log 2>&1; then
+    if timeout 1800 "$SCRIPT_DIR/../maintenance/build-mainline.sh" >> logs/build.log 2>&1; then
       echo "[构建] 完成"
     else
       echo "[构建] 失败/超时（rc=$?），报告已记录失败事实"
@@ -238,7 +243,7 @@ fi
 
 # 5.5 每次运行后更新 README 自动状态节（兼容性汇总 + 跟踪中的 PR）
 echo "[README] 更新自动状态节..."
-if ./scripts/update-readme.sh >/dev/null 2>&1; then
+if "$SCRIPT_DIR/../rendering/update-readme.sh" >/dev/null 2>&1; then
   if ! git diff --quiet -- README.md; then
     git add README.md
     git -c user.name="dsh-ecosystem-bot" -c user.email="bot@dsh-external.local" \
