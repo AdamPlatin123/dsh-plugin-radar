@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Aggregate a single summary.json (SOP §8.2) — the ONLY source README and reports consume.
+"""Aggregate a single summary.json (SOP §8.2) — discovery-track candidate statistics.
+
+Scope (P1 修正，与实际消费方对齐)：summary.json 统计的是发现轨候选仓人群
+（discover → normalize → 本脚本），消费方为 ops/dashboard.py 与 probe；
+公开清单/README/latest.json 的渲染-导出走 canonical 路径
+（engine/aggregation/build_canonical.py），与本文件人群不同、互不供给。
 
 Counts are computed independently from candidates.json + catalog.json, never reverse-
 parsed from Markdown. Evidence axes are kept separate; not_run/inconclusive can never
