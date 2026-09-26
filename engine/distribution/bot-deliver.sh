@@ -261,7 +261,7 @@ if [ "$SNAPSHOT_MODE" = 1 ]; then
       N=$(gh pr list --repo "$R" --state open --head "$BR" --json number --jq '.[0].number' 2>/dev/null)
       [ -n "$N" ] || continue
       python3 "$GUARD" --repo "$R" --pr "$N" --expect-sha "$PUSH_SHA" \
-        --author AdamPlatin123 --expect-file 'data/snapshots/*' --expect-file 'reports/*' || true
+        --author AdamPlatin123 --allow-file 'data/snapshots/*' --allow-file 'reports/*' || true
     done
   fi
 fi

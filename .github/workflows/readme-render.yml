@@ -49,14 +49,14 @@ jobs:
             数据源：本仓 \`data/snapshots/\` 最新已合并快照（渲染器只读快照，不访问外部流）——数字对齐由 run_id 锚定保证。
             由 \`readme-render\` workflow 在快照合入 main 后自动触发。" \
             || echo "PR 已存在或创建失败，分支已推送"
-          # 三重闸门守卫（P4b：统一 engine/distribution/merge_guard.py——head SHA 钉死
-          # + 作者钉死 + 文件集合精确匹配；替代原内联白名单校验）
+          # 三重闸门守卫（P4b + 外审加固：head SHA 钉死含合并绑定 --match-head-commit；
+          # 作者钉死为 GITHUB_TOKEN 创建 PR 的真实身份 app/github-actions（非触发者 actor）；
+          # 文件允许集模式——本轮无变化的产物（磁贴/目录）不强制出现）
           python3 engine/distribution/merge_guard.py \
             --repo "$GITHUB_REPOSITORY" --pr "$BR" --expect-sha "$(git rev-parse HEAD)" \
-            --author "${{ github.actor }}" \
-            --expect-file README.md --expect-file PLUGINS-ALL.md --expect-file CHANGELOG.md \
-            --expect-file data/latest.json --expect-file data/plugins-all.json \
-            --expect-file 'catalog/all/*' \
-            --expect-file assets/tile-ok.svg --expect-file assets/tile-adapt.svg --expect-file assets/tile-test.svg \
+            --author "app/github-actions" \
+            --allow-file README.md --allow-file PLUGINS-ALL.md --allow-file CHANGELOG.md \
+            --allow-file data/latest.json --allow-file data/plugins-all.json \
+            --allow-file 'catalog/all/*' \
+            --allow-file assets/tile-ok.svg --allow-file assets/tile-adapt.svg --allow-file assets/tile-test.svg \
             || echo "[render] 留人工审"
-          fi

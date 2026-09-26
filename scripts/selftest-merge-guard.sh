@@ -52,10 +52,24 @@ out=$(run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --expect-file README.m
   && echo "[④ PASS] 三重闸门通过（--dry）" || { echo "[④ FAIL] $out"; fails=$((fails+1)); }
 [ -f "$MOCK_DIR/merged" ] && { echo "[④ FAIL] --dry 不应合并"; fails=$((fails+1)); }
 
-# 用例⑤ glob 匹配（catalog/all/* 目录产物）
+# 用例⑤ glob 匹配（catalog/all/* 目录产物，精确集模式）
 make_pr "$GOOD_SHA" AdamPlatin123 '{"path":"catalog/all/编码开发.md"},{"path":"catalog/all/其他.md"}'
 out=$(run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --expect-file 'catalog/all/*' --dry) \
   && echo "[⑤ PASS] glob 文件集匹配" || { echo "[⑤ FAIL] $out"; fails=$((fails+1)); }
 
+# 用例⑥ 允许集模式：PR 文件 ∈ 清单即可，清单无需全出现（渲染 PR 本轮磁贴未变属正常）
+make_pr "$GOOD_SHA" AdamPlatin123 '{"path":"README.md"}'
+out=$(run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --allow-file README.md --allow-file CHANGELOG.md --allow-file 'assets/*' --dry) \
+  && echo "[⑥ PASS] 允许集子集通过" || { echo "[⑥ FAIL] $out"; fails=$((fails+1)); }
+
+# 用例⑦ 允许集模式：清单外文件仍拒绝
+make_pr "$GOOD_SHA" AdamPlatin123 '{"path":"README.md"},{"path":"evil.sh"}'
+out=$(run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --allow-file README.md --dry) || true
+echo "$out" | grep -q "允许清单外" && echo "[⑦ PASS] 允许集拦截清单外文件" || { echo "[⑦ FAIL] $out"; fails=$((fails+1)); }
+
+# 用例⑧ 双模式同给/都不给 → 参数错误（exit 2）
+run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --dry >/dev/null 2>&1
+[ $? -eq 2 ] && echo "[⑧ PASS] 缺文件模式参数报错" || { echo "[⑧ FAIL] 应 exit 2"; fails=$((fails+1)); }
+
 echo "────"
-[ "$fails" -eq 0 ] && { echo "[selftest] 全部通过（5 用例）"; exit 0; } || { echo "[selftest] $fails 个失败"; exit 1; }
+[ "$fails" -eq 0 ] && { echo "[selftest] 全部通过（8 用例）"; exit 0; } || { echo "[selftest] $fails 个失败"; exit 1; }

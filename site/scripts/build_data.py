@@ -63,7 +63,9 @@ def build(root: Path):
     for e in canon.get('entries', []):
         u = e.get('url') or ''
         if 'github.com/' in u and 'search?q=' not in u:
-            entry_by_repo[u.split('github.com/')[1].strip('/').lower()] = e
+            k = u.split('github.com/')[1].strip('/').lower()
+            if k not in entry_by_repo:   # 先见者胜（外审 P2：与导出路径同仓仲裁方向一致，末条覆盖曾致同仓分类漂移）
+                entry_by_repo[k] = e
 
     # P6 补采 sidecar（可选）
     enrich = _load(root / 'data' / 'plugins-enrich.json', {}).get('entries', {})

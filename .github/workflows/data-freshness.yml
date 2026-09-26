@@ -26,12 +26,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          set -euo pipefail
+          set -uo pipefail   # 不用 -e：拉取/解析失败必须落进告警分支而非静默终止（外审 P1）
           URL="https://raw.githubusercontent.com/${REPO}/main/data/latest.json"
-          GENERATED=$(curl -fsSL --retry 3 "$URL" | python3 -c "import json,sys; print(json.load(sys.stdin).get('generated_at',''))")
+          GENERATED=$(curl -fsSL --retry 3 "$URL" 2>/dev/null | python3 -c "import json,sys
+          try: print(json.load(sys.stdin).get('generated_at',''))
+          except Exception: print('')" || true)
           if [ -z "$GENERATED" ]; then
-            echo "latest.json 缺 generated_at 字段或拉取失败" >&2
-            AGE_H=999
+            echo "latest.json 拉取失败或缺 generated_at——数据不可用即断警" >&2
+            AGE_H=999999
+            GENERATED="(unavailable)"
           else
             AGE_H=$(python3 -c "
           import datetime as dt

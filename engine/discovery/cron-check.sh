@@ -31,7 +31,8 @@ fi
 FULL=0
 for _arg in "$@"; do [ "$_arg" = "--full" ] && FULL=1; done
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"   # cd 前解析（相对路径调用不因切目录失效——外审 P0-2）
+REPO_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"    # engine/discovery → 仓库根（原 .. 在 engine 布局下漂移）
 cd "$REPO_DIR" || exit 2
 mkdir -p logs
 LOG="logs/cron-$(date +%Y%m%d).log"
@@ -135,7 +136,6 @@ remote_head() { # $1=仓库名 $2=远端 URL → 输出当前 commit（失败为
 }
 
 # 3. 检测 mainline + 全部 scope 仓库的 HEAD 变化（逻辑在 lib_cron_logic.sh，供自测 mock）
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # shellcheck source=lib_cron_logic.sh
 source "$SCRIPT_DIR/lib_cron_logic.sh"
 STATE=".cron-state.json"
@@ -183,7 +183,7 @@ echo "[状态] .last-changes.json 已记录（新增 ${#NEW_REPOS[@]} / 修改 $
 # 4. 有变化 → 运行 mainline 兼容索引（动态 scope）
 if [ -n "$CHANGED" ]; then
   echo "[索引] 变化仓库:$CHANGED"
-  "$SCRIPT_DIR/../maintenance/compare-mainline.sh" --scope .scope-current.txt
+  "$SCRIPT_DIR/../maintenance/compat/compare-mainline.sh" --scope .scope-current.txt
   rc=$?
   echo "[索引] compare-mainline.sh 退出码 $rc"
 

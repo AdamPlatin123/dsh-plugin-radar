@@ -17,4 +17,4 @@ if [ -z "$SHA" ]; then
   exit 0
 fi
 python3 "$GUARD" --repo "$REPO" --pr "$N" --expect-sha "$SHA" \
-  --author AdamPlatin123 --expect-file README.md --expect-file CHANGELOG.md || true
+  --author AdamPlatin123 --allow-file README.md --allow-file CHANGELOG.md || true

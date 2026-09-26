@@ -29,6 +29,7 @@ _LIB = Path(__file__).resolve().parents[1] / 'lib'
 if str(_LIB) not in _sys.path:
     _sys.path.insert(0, str(_LIB))
 from radar.thresholds import DISCOVER_PARTIAL_RATIO  # noqa: E402
+from radar.atomicio import atomic_write_json  # noqa: E402  (P0-外审补：538 落盘调用曾缺导入)
 
 os.environ["PATH"] = os.path.expanduser("~/.local/bin") + ":/usr/local/bin:" + os.environ.get("PATH", "")
 ROOT = Path(__file__).resolve().parent.parent.parent   # engine/discovery → 仓库根（原 parent.parent 在 engine 布局下漂移）

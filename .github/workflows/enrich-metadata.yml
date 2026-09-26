@@ -37,3 +37,5 @@ jobs:
           git add data/enrich-cache.json data/plugins-enrich.json
           git commit -m "data: 元数据补采更新（enrich-bot，分层节奏）"
           git push
+          # GITHUB_TOKEN 的 push 不触发其他 push 工作流（外审 P2）——显式派发站点重建
+          gh workflow run site-build-deploy --ref main || echo "[enrich] 站点重建派发失败（每日 22:37 兜底仍在）"

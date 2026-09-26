@@ -5,7 +5,7 @@ name: alerts
 # 此前四个 workflow 均无任何失败通知（404 入库、reports 断档、死代码静默的共同元因）。
 on:
   workflow_run:
-    workflows: [readme-render, refresh-featured, refresh-stars, runner-smoke]
+    workflows: [readme-render, refresh-featured, refresh-stars, runner-smoke, enrich-metadata]
     types: [completed]
   workflow_dispatch: {}
 
@@ -31,7 +31,7 @@ jobs:
           CONCLUSION: ${{ github.event.workflow_run.conclusion }}
         run: |
           set -euo pipefail
-          gh label create radar-alert --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true
+          gh label create radar-alert -R "$REPO" --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true   # -R 必带：无 checkout 时 cwd 无 git（外审 P1）
           TITLE="[radar-alert] ${RUN_NAME} 失败"
           OPEN_NUM=$(gh issue list -R "$REPO" --state open --label radar-alert \
             --json number,title --jq ".[] | select(.title == \"$TITLE\") | .number" | head -1 || true)
@@ -46,7 +46,9 @@ jobs:
             else
               gh issue create -R "$REPO" --title "$TITLE" --label radar-alert --body "$BODY"
             fi
-          elif [ -n "$OPEN_NUM" ]; then
+          elif [ "$CONCLUSION" = "success" ] && [ -n "$OPEN_NUM" ]; then
+            # 仅 success 关单：cancelled/skipped 不是恢复（外审 P1——并发取消的工作流
+            # 会以 cancelled 结束，曾会把真实故障的告警误关）
             echo "${RUN_NAME} 已恢复，关闭告警 #$OPEN_NUM"
             gh issue comment -R "$REPO" "$OPEN_NUM" --body "已恢复：${RUN_URL}"
             gh issue close -R "$REPO" "$OPEN_NUM" --reason completed

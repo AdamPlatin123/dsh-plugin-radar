@@ -59,7 +59,17 @@ def main() -> int:
         print(f'[rebaseline] 窗口外无快照（cutoff={cutoff}），无需固化')
         return 0
 
+    # 比较基准 = 现存全扫 ⊕ 旧基线（外审 P1：曾只比现存文件——首次裁剪后
+    # 旧基线独有条目会让季度重固化永远 exit 20）
     full_merged, full_rounds, n_all = merge_files(files)
+    _prev_baseline = {}
+    if BASELINE.is_file():
+        try:
+            _prev_baseline = json.loads(BASELINE.read_text())
+        except (json.JSONDecodeError, OSError):
+            print('[rebaseline] 既有基线损坏——按全量扫描重建', file=sys.stderr)
+    for _e in _prev_baseline.get('entries', []):
+        full_merged.setdefault((_e['name'], _e.get('url', '')), dict(_e))
 
     # 基线若已存在（季度重固化），并入历史部分一起重固化
     baseline_entries, baseline_rounds = [], []

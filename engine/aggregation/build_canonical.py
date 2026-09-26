@@ -317,9 +317,6 @@ def build(root: Path = ROOT):
                 e['reclassed'] = True
                 n_reclass += 1
 
-    vc = Counter(e['verdict'] for e in entries if e['locate'] == 'located')
-    v_all = Counter(e['verdict'] for e in entries)
-
     # ── 内容消毒（P2b，单一收口：render_all 与 export-data 同源消费）──────────
     # 换行/回车 → 空格（杀条目伪造）；desc 方括号转义（杀钓鱼链接注入）；
     # 真实 URL 过 GitHub 白名单，不过则降级为无链接条目。
@@ -337,6 +334,11 @@ def build(root: Path = ROOT):
             # 复用既有渲染路径，不引入"空 URL 假链接"这类不变量破坏）
             e['locate'] = 'ambiguous_watch'
             n_sanitized += 1
+
+    # 统计在全部消毒/降级完成后计算（外审 P1：曾先算后消毒，URL 降级后
+    # stats_located/export_stats 保留旧定位状态——当前数据零违规零漂移，逻辑修正）
+    vc = Counter(e['verdict'] for e in entries if e['locate'] == 'located')
+    v_all = Counter(e['verdict'] for e in entries)
 
     # ── 导出直出数据（供 export-data 消费，免 Markdown 反解析）─────────────────
     # 顺序契约 = 旧管线 catalog/all/*.md 按文件名字典序拼接 × 组内 (❌沉尾, star 降序)；

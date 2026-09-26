@@ -131,6 +131,7 @@ def main() -> int:
                 continue
             topics = [t['topic']['name'] for t in
                       ((node.get('repositoryTopics') or {}).get('nodes') or []) if t.get('topic')]
+            prev_img = entries.get(repo, {}).get('readme_image', '')   # 旧图先捕获（外审 P2：整条重建曾把旧图丢掉）
             entries[repo] = {
                 'stars': node.get('stargazerCount'),
                 'pushed_at': node.get('pushedAt') or '',
@@ -140,6 +141,8 @@ def main() -> int:
                 'topics': topics[:5],
                 'fetched_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
             }
+            if prev_img:
+                entries[repo]['readme_image'] = prev_img   # 旧图回填；T0 阶段仅成功抓到新图时替换
             n_ok += 1
         print(f'[enrich] {min(i + BATCH, len(due))}/{len(due)}（本批命中 {len(nodes)}/{len(batch)}）')
         time.sleep(0.4)
@@ -151,8 +154,10 @@ def main() -> int:
             continue
         img = first_readme_image(token, repo)
         if img:
-            entries[repo]['readme_image'] = img
+            entries[repo]['readme_image'] = img   # 仅成功时替换（外审 P2：整条覆盖曾把失败轮的旧图一并丢掉）
             n_img += 1
+        elif 'readme_image' in entries[repo]:
+            n_img += 1   # 沿用既有图计入覆盖统计
     print(f'[enrich] T0 README 首图 {n_img}/{tiers["t0"]}')
 
     if DRY:

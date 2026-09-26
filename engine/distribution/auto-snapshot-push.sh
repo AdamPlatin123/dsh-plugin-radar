@@ -119,7 +119,10 @@ for _f in data/locate-cache.json data/url-audit.json data/repo-map.json data/des
 done
 # 脚本权威反转（2026-09-05）：主仓 main 为唯一权威，.9 每轮拉取最新脚本再渲染；
 # 不再向 org 推送脚本（旧环会用 .9 过期副本周期性回灌主仓，已三次冲掉拆分案）
+# 转发壳 + 其 engine 依赖一并同步（外审 P1：壳新增 engine/lib 导入，旧同步清单
+# 只有七个平铺脚本——未迁移布局的服务器拉到壳会 ModuleNotFoundError）
 SCRIPTS="gen_plugins_all.py resolve_placeholders.py render-readme-from-snapshot.py classify.py gen-pipeline-diagram.py reconcile_catalog.py tile_assets.py"
+ENGINE_FILES="lib/radar/__init__.py lib/radar/atomicio.py lib/radar/sanitize.py lib/radar/ghql.py lib/radar/gitops.py lib/radar/secretsource.py lib/radar/thresholds.py aggregation/build_canonical.py aggregation/rebaseline.py rendering/render_all.py"
 for _f in $SCRIPTS; do
   for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
                "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
@@ -127,5 +130,14 @@ for _f in $SCRIPTS; do
       break
     fi
   done || echo "[scripts] 拉取 $_f 失败（沿用本地现行版）"
+done
+for _f in $ENGINE_FILES; do
+  mkdir -p "$HOME/dsh-external-research/engine/$(dirname "$_f")"
+  for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
+               "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
+    if curl -sf --max-time 20 "$_base/engine/$_f" -o "$HOME/dsh-external-research/engine/$_f"; then
+      break
+    fi
+  done || echo "[scripts] 拉取 engine/$_f 失败（沿用本地现行版）"
 done
 
