@@ -1,23 +1,21 @@
-# 🤖 Agent 能力（2363）
+# 🤖 Agent 能力（2362）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
-- ⬜ `[待定]` [tt-a1i-archify](https://github.com/tt-a1i/archify) ★71946 — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self
+- ⬜ `[待定]` [tt-a1i-archify](https://github.com/tt-a1i/archify) ★71717 — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self
 - 🟩 `[可用]` [titanwings-colleague-skill](https://github.com/titanwings/colleague-skill) ★22798 — 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era
 - 🟩 `[可用]` [foryourhealth111-pixel-vibe-skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) ★2833 — —
 - 🟩 `[可用]` [hellowind777-helloagents](https://github.com/hellowind777/helloagents) ★686 — —
 - ⬜ `[待定]` [hashgraph-online-hol-guard](https://github.com/hashgraph-online/hol-guard) ★668 — Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, M
-- ⬜ `[待定]` [jingyunstudio-jingyun-dsh](https://github.com/jingyunstudio/jingyun-dsh) ★653 — 基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端
 - ⬜ `[待定]` [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) ★620 — Local-first, self-hosted AI agent runtime and MCP bridge with sandboxed sessions, memory, credentials, audit/r
 - ⬜ `[待定]` [alibaba-anolisa](https://github.com/alibaba/anolisa) ★603 — ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) \| Agentic OS with runtime, security, o
-- ⬜ `[待定]` [vibeinging-dsh-desktop](https://github.com/vibeinging/dsh-desktop) ★586 — DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, pl
-- ⬜ `[待定]` [chenxiachan-thoughtdag](https://github.com/chenxiachan/thoughtdag) ★492 — Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph
+- 🟩 `[可用]` [chenxiachan-thoughtdag](https://github.com/chenxiachan/thoughtdag) ★490 — Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph
 - ⬜ `[待定]` [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) ★484 — 让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision
-- ⬜ `[待定]` [pax-beehive-dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) ★458 — Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub
+- 🟩 `[可用]` [pax-beehive-dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) ★458 — Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub
 - 🟩 `[可用]` [dsh-work](https://github.com/vibeinging/dsh-work) ★393 — Local-first AI workbench for DSH Plugins, combining Agent sessions, project files, data analysis, web research
 - 🟩 `[可用]` [morluto-rea](https://github.com/morluto/rea) ★331 — Reverse engineer anything with agents, from app behavior down to native binaries.
 - 🟩 `[可用]` [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) ★329 — Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving sk
-- ⬜ `[待定]` [mrpulor-gh-nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) ★312 — Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Ch
+- ⬜ `[待定]` [mrpulor-gh-nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) ★311 — Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Ch
 - 🟩 `[可用]` [plur-ai-plur](https://github.com/plur-ai/plur) ★294 — Shared memory for AI agents
 - 🟩 `[可用]` [agent-earth-deepseek-harness-desktop](https://github.com/agent-earth/deepseek-harness-desktop) ★238 — Minimal desktop wrapper for DeepSeek Harness 极简 Deespeek Harness 桌面端，跨平台，免配置，开箱即用
 - 🟩 `[可用]` [openma-ai-open-managed-agents](https://github.com/openma-ai/open-managed-agents) ★235 — Self-host AI agents with Claude Managed Agents and OpenAI Agents API support〔📦〕
@@ -27,26 +25,24 @@
 - 🟩 `[可用]` [seriousz158-dsh-memory](https://github.com/seriousz158/dsh-memory) ★181 — —〔📦〕
 - 🟩 `[可用]` [zhaoolee-notes](https://github.com/zhaoolee/notes) ★168 — 开源版锤子便签，复刻锤科美学，一键Docker私有化部署，支持skill调用，支持dsh plugin，支持多租户，一键生成公众号格式，支持导出便签为图片
 - ⬜ `[待定]` [himovo-movo](https://github.com/himovo/movo) ★163 — Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content gene
-- 🟩 `[可用]` [xiajiajun516-dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) ★127 — DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configurat
 - 🟩 `[可用]` [fangqian616-consensus-pipeline](https://github.com/fangqian616/consensus-pipeline) ★125 — Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic
+- 🟩 `[可用]` [xiajiajun516-dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) ★125 — DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configurat
 - 🟩 `[可用]` [hanshenmesen-dsh-turn-delete](https://github.com/hanshenmesen/dsh-turn-delete) ★108 — Delete one complete turn from a DeepSeek Harness session without deleting the session
 - 🟩 `[可用]` [baihejiangnan-deepseek-harness-desktop](https://github.com/baihejiangnan/deepseek-harness-desktop) ★101 — DeepSeek Harness 三端兼容桌面启动器：多实例完全隔离、并行协作，协作画布编排 Agent 工作流；便携版 Exe 一键启动、仅约 20M；双隔离机制让兼容性极强
 - ⬜ `[待定]` [pulseaiclub-phi](https://github.com/pulseaiclub/phi) ★90 — a coding agent, rpc plugin, sub-agents, hashline edits, and mcp
 - 🟩 `[可用]` [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) ★87 — Composable, view-based memory for DeepSeek Harness
 - 🟩 `[可用]` [lamost423-dsh-maze](https://github.com/lamost423/dsh-maze) ★83 — DeepSeek Harness 的执行迷宫——看 Agent 真实怎么干活：迷宫时间轴 · 数据轨道 · 确定性执行分析 · 多会话对比 \| The execution maze for DSH agents: maz
-- ⬜ `[待定]` [melandlabs-opencontext](https://github.com/melandlabs/opencontext) ★76 — A temporal context graph, a memory API, retrieval primitives, and a multiple-platform integration mesh — desig
 - 🟩 `[可用]` [feibi-mochi-deepseek-harness-control-center](https://github.com/feibi-mochi/deepseek-harness-wallet) ★72 — DeepSeek Harness control center for balance, usage, peak/off-peak pricing, encrypted multi-account switching,
 - 🟩 `[可用]` [eri64-dsh-claude-ux](https://github.com/eri64/dsh-claude-ux) ★69 — DSH plugin: Claude-style Chinese risk control & conversation autonomy for DeepSeek Harness web
 - 🟩 `[可用]` [linhut-gongwen-skill](https://github.com/linhut/gongwen-skill) ★67 — 公文全流程处理工具——基于 GB/T 9704《党政机关公文格式》 国家标准，面向公文写作、企事业单位材料编制场景，支持 格式检查与修复、内容优化（Word 原生修订+批注/差异对比版）、模板生成、Markdown 转公
 - ⬜ `[待定]` [morluto-jacobian](https://github.com/morluto/jacobian) ★48 — Composable mathematics tools for agents
 - 🟩 `[可用]` [songyang0603-ds-spec-loop](https://github.com/songyang0603/ds-spec-loop) ★41 — Portable Agent Skill for repository-native Spec programming, informed by public DeepSeek Harness engineering p
-- ⬜ `[待定]` [wowyuarm-dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) ★39 — dsh-agent-team gives DeepSeek Harness agents that don't reset: durable Members with their own memory, notes, a
 - ⬜ `[待定]` [hanelalo-browser-bridge](https://github.com/hanelalo/browser-bridge) ★36 — 让你的agent真的像你一样操控你的浏览器窗口
 - 🟩 `[可用]` [fb0sh-dsh-pentester](https://github.com/fb0sh/dsh-pentester) ★31 — 基于 DeepSeek Harness 的多 Agent PTES 渗透测试编排插件，支持自动化侦察、漏洞分析、验证与报告，使用 Docker/Kali 隔离工具箱 \| Multi-agent PTES penetrat
 - 🟩 `[可用]` [a735624258-dsh-skill-picker](https://github.com/a735624258/dsh-skill-picker) ★29 — DSH 实现 workbuddy 同款选择 skill 功能 \| WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the compos
 - 🟩 `[可用]` [sailoumili-novel-writer](https://github.com/sailoumili/novel-writer) ★29 — 小说创作模式：一个统筹队长统领全局，5 个专职子代理各司其职——架构世界、策划剧情、管理人物、执笔写文、质检复核——协同写作
 - 🟩 `[可用]` [openguardrails-openguardrails](https://github.com/openguardrails/openguardrails) ★27 — The vendor-neutral protocol for AI agent safety & security — and the neutral benchmark that ranks the vendors.〔📦〕
-- ⬜ `[待定]` [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) ★24 — Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness — the model decides wh
+- 🟩 `[可用]` [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) ★24 — Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness — the model decides wh
 - 🟩 `[可用]` [gjj-star-dsh-conversation-navigator](https://github.com/gjj-star/dsh-conversation-navigator) ★23 — DSH 会话导航
 - 🟩 `[可用]` [king-bcolor-dsh-multi-tenant-projects](https://github.com/king-bcolor/dsh-multi-tenant-projects) ★23 — Multi-tenant projects & users plugin for DeepSeek Harness (DSH): per-user symlinked workspaces, login gate, se
 - 🟩 `[可用]` [guo6x-dsh-pilot](https://github.com/guo6x/dsh-pilot) ★22 — Give your DSH agent hands: drive a real browser (Edge/Chrome over CDP) from the chat — ref-driven clicking, pe
@@ -75,7 +71,6 @@
 - ⬜ `[待定]` [tinqiao-oss-clawtouch-mcp](https://github.com/tinqiao-oss/clawtouch-mcp) ★11 — ClawTouch MCP server — exposes a real USB-HID keyboard/mouse (Raspberry Pi Pico 2) as Model Context Protocol t
 - ⬜ `[待定]` [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) ★11 — 自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复
 - 🟩 `[可用]` [falling-ts-dsh-force-compact](https://github.com/falling-ts/dsh-force-compact) ★10 — Aggressive context compaction for local-first agents
-- ⬜ `[待定]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - 🟩 `[可用]` [litestartup-com-dsh-api-gateway](https://github.com/litestartup-com/dsh-api-gateway) ★9 — DeepSeek Harness's API Gateway plugin: Any third-party client can interact with your DSH Agent.
 - 🟩 `[可用]` [morluto-internalcot](https://github.com/morluto/internalcot) ★9 — Make agents show their full chain of thought.
 - 🟩 `[可用]` [shaneconner-fold](https://github.com/shaneconner/fold) ★9 — Lossless context folding for the Pi coding agent: only the oldest context changes; the fresh window stays unto
@@ -85,15 +80,14 @@
 - 🟩 `[可用]` [muyuanjin-dsh-ptc-plus](https://github.com/muyuanjin/dsh-ptc-plus) ★8 — A session-bound agent-native REPL for DeepSeek Harness PTC mode.
 - 🟩 `[可用]` [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) ★8 — DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具
 - 🟩 `[可用]` [dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) ★8 — Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a DeepSeek Harness bu
-- 🟩 `[可用]` [y1x1n-dsh-prompt-optimizer](https://github.com/Y1X1n/dsh-prompt-optimizer) ★8 — —
+- ⬜ `[待定]` [y1x1n-dsh-prompt-optimizer](https://github.com/Y1X1n/dsh-prompt-optimizer) ★8 — —
 - 🟩 `[可用]` [1321928757-dsh-mysql](https://github.com/1321928757/dsh-mysql) ★7 — MySQL connector plugin for DeepSeek Harness: configure connections in settings, switch per session from the co
-- ⬜ `[待定]` [boe1900-owndsh](https://github.com/boe1900/owndsh) ★7 — The Self-Hosted Control Plane for DeepSeek-Harness
 - 🟩 `[可用]` [bubbleptr-dsh-holdem](https://github.com/bubbleptr/dsh-holdem) ★7 — Six-max No-Limit Hold'em for DeepSeek Harness: one human and five LLM agents.
 - 🟩 `[可用]` [edusrez-dsh-smart-restart](https://github.com/edusrez/dsh-smart-restart) ★7 — Wakes the main agent after any DSH restart so interrupted work resumes automatically — adds a restart tool and
-- ⬜ `[待定]` [everclear077-dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) ★7 — Progressive tool discovery for DeepSeek Harness — tiny stable surface, searchable catalog, real pipeline execu
+- 🟩 `[可用]` [everclear077-dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) ★7 — Progressive tool discovery for DeepSeek Harness — tiny stable surface, searchable catalog, real pipeline execu
 - 🟩 `[可用]` [gongyijie85-dsh-ecc](https://github.com/gongyijie85/dsh-ecc) ★7 — ECC (227k-star operator system) skills for DeepSeek Harness — progressive port, v0.1.0 ships 20 curated skills
 - 🟩 `[可用]` [guhanfei-ai-dsh-grafana](https://github.com/guhanfei-ai/dsh-grafana) ★7 — Agent-native Grafana observability for DeepSeek Harness — dashboards, metrics, trends, alerts and multi-source
-- ⬜ `[待定]` [onlyqzq-dsh-riskproof](https://github.com/onlyqzq/dsh-riskproof) ★7 — Risk-aware approval layer for high-risk AI Agent tool calls
+- 🟩 `[可用]` [onlyqzq-dsh-riskproof](https://github.com/onlyqzq/dsh-riskproof) ★7 — Risk-aware approval layer for high-risk AI Agent tool calls
 - 🟩 `[可用]` [polaris-smart-dsh-devices](https://github.com/polaris-smart/dsh-devices) ★7 — Turn your devices into a fleet — dsh plugin for decentralized multi-device collaboration: mDNS discovery, key
 - ⬜ `[待定]` [sensedeal-cue-skills](https://github.com/sensedeal/cue-skills) ★7 — Cue Skills for Agents
 - 🟩 `[可用]` [tokentopo-ai-dsh-octo](https://github.com/tokentopo-ai/dsh-octo) ★7 — an heterogeneous multi-agent collaboration skill designed for dsh
@@ -127,10 +121,8 @@
 - ⬜ `[待定]` [dsh-reasoning-settings](https://github.com/JuneLearn/dsh-reasoning-settings) ★5 — 让 DeepSeek Harness 的第三方 API 支持低、中、高等推理强度，并可为每次子 Agent 调用选择模型｜Add Low, Medium, High, and other reasoning levels
 - 🟩 `[可用]` [lunaship-dsh-links](https://github.com/lunaship/dsh-links) ★5 — Android companion for DeepSeek Harness: trusted-LAN pairing, mobile sessions, SSE approvals, experimental tunn
 - 🟩 `[可用]` [memorylake-ai-memorylake-harness](https://github.com/memorylake-ai/memorylake-harness) ★5 — MemoryLake Harness
-- ⬜ `[待定]` [nickkkkkk123123-dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) ★5 — 鲸鱼娘·灵动挂件 — 会卖萌、会记账、会弹跳的 DSH 桌面挂件插件（余额/用量/上下文/峰谷/右键菜单/拖动甩抛）
-- 🟩 `[可用]` [onenameneo-dsh-plugin-loom-chat](https://github.com/onenameneo/dsh-plugin-loom-chat) ★5 — Loom Chat is a DSH Web client plugin that turns linear ordinary sessions into a pannable, zoomable Loom-style
-- ⬜ `[待定]` [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) ★5 — Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watc
-- 🟩 `[可用]` [dsh-tdai-memory](https://github.com/Scorp1o117/dsh-tdai-memory) ★5 — Agent memory for DeepSeek Harness \| DeepSeek Harness 记忆插件
+- 🟩 `[可用]` [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) ★5 — Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watc
+- ⬜ `[待定]` [dsh-tdai-memory](https://github.com/Scorp1o117/dsh-tdai-memory) ★5 — Agent memory for DeepSeek Harness \| DeepSeek Harness 记忆插件
 - 🟩 `[可用]` [sfeng49-ashare-agent](https://github.com/sfeng49/ashare-agent) ★5 — 基于 DeepSeek Harness + AKShare 的本地 A 股 AI Agent 工作台：数据获取 / 每日晨报 / 交易复盘三大技能，只做分析、不做交易
 - 🟩 `[可用]` [songoao25-dsh-virtual-product-team](https://github.com/songoao25/dsh-virtual-product-team) ★5 — Product Team Mode - a DeepSeek Harness agent preset: user-led conversation with a virtual product team (PM to
 - 🟩 `[可用]` [soyoungzsy-soya](https://github.com/soyoungzsy/soya) ★5 — 🐳 SOYA Personal Board — your private board of directors: 12 great minds from history for decisions, morning me
@@ -146,7 +138,6 @@
 - ⬜ `[待定]` [dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) ★5 — —
 - 🟩 `[可用]` [zjl1989-li-dsh-harness-zh-cn](https://github.com/zjl1989-li/dsh-harness-zh-cn) ★5 — DeepSeek Harness 中文汉化插件：运行时把所有系统提示词、工具描述与运行时上下文翻译成中文（system-prompt/assemble 瀑布钩子，零源码修改）
 - 🟩 `[可用]` [aaravarr-dsh-subagent-max](https://github.com/aaravarr/dsh-subagent-max) ★4 — DeepSeek Harness (DSH) plugin — a subagent_with_model tool plus a live multi-panel subagent viewer.
-- ⬜ `[待定]` [alpacachen-dsh-automation](https://github.com/alpacachen/dsh-automation) ★4 — Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness
 - 🟩 `[可用]` [andy8647-dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval) ★4 — —
 - 🟩 `[可用]` [beijingwahw-dsh-companion](https://github.com/beijingwahw/dsh-companion) ★4 — DeepSeek Companion — DeepSeek Harness 官方伴侣插件：对话导出/交接摘要/成本优化/全局检索 + 执行轨迹分析、Prompt 工程工作台、多模型竞技场、任务编排、安全与审计（E–J 九
 - 🟩 `[可用]` [brunhildzhou-dsh-all-warmup](https://github.com/brunhildzhou/dsh-all-warmup) ★4 — Global frictionless warm-up layer plugin for DeepSeek Harness \| DeepSeek Harness 全局无感热身层插件：任何会话首轮自动热身，第二轮起恢复完整
@@ -157,7 +148,7 @@
 - 🟩 `[可用]` [fan56-dsh-subagent-registry](https://github.com/fan56/dsh-subagent-registry) ★4 — dsh plugin: register ~/.dsh/agents/*.md as dsh-callable subagents
 - 🟩 `[可用]` [future007s-dsh-peak-indicator](https://github.com/future007s/dsh-peak-indicator) ★4 — 功能：会话头部显示一个徽标指示当前收费档期——  ⚡ 高峰（红色）：当前按原价计费 🌙 闲时 · 半价（绿色）：当前按半价计费 悬停显示：当前北京时间、时段说明、距离下次切换的倒计时；每 30 秒自动刷新
 - 🟩 `[可用]` [geguanming-dsh-office-plugin](https://github.com/geguanming/dsh-office-plugin) ★4 — DSH Ox-Horse Office - a DeepSeek Harness web plugin rendering multi-agent sessions as a live pixi.js office
-- 🟩 `[可用]` [gengdapeng-dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) ★4 — —
+- ⬜ `[待定]` [gengdapeng-dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) ★4 — —
 - 🟩 `[可用]` [gongyijie85-mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) ★4 — Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能正文全译中文 (Chinese translation of mattpocock/skills, MIT)
 - 🟩 `[可用]` [hackernotfound-dsh-tacit](https://github.com/hackernotfound/dsh-tacit) ★4 — DeepSeek Harness plugin that learns from coding agent retries and user corrections, then adds visible, editabl
 - 🟩 `[可用]` [dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) ★4 — Cross-session verification, claims and a decision ledger for DeepSeek Harness — so two agent sessions don't re
@@ -166,12 +157,11 @@
 - 🟩 `[可用]` [jeremy9682-dsh-skill-pack](https://github.com/jeremy9682/dsh-skill-pack) ★4 — 11 shareable workflow skills for DeepSeek Harness: handoffs, triage, specs, tickets, wayfinding, teaching, mod
 - 🟩 `[可用]` [dsh-auto-approve](https://github.com/Jiao-XXX/dsh-auto-approve) ★4 — 为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档，危险或不确定操作仍转人工审批
 - 🟩 `[可用]` [dsh-client-usage](https://github.com/jLeon-account/dsh-client-usage) ★4 — DeepSeek Harness（DSH）网页客户端插件：实时展示会话级 API token 用量与估算费用，支持缓存命中/未命中分桶、上下文占用，自动适配 DeepSeek 峰谷计价与调价｜DSH web plugin
-- ⬜ `[待定]` [kuun993-dsh-loop-engine](https://github.com/kuun993/dsh-loop-engine) ★4 — —
-- ⬜ `[待定]` [lifangjin-dsh-paoding](https://github.com/lifangjin/dsh-paoding) ★4 — 庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset
 - 🟩 `[可用]` [dsh-undo](https://github.com/LingLambda/dsh-undo) ★4 — Context undo/redo plugin for DeepSeek Harness (dsh): roll the model context back to the last completed step an
 - 🟩 `[可用]` [ds-forge](https://github.com/liubf21/ds-forge) ★4 — Lightweight agent harness for DeepSeek V4.
 - 🟩 `[可用]` [mantonlove-dsh-conversation-landmarks](https://github.com/mantonlove/dsh-conversation-landmarks) ★4 — Conversation Landmarks (对话地标) for DeepSeek Harness — fixed navigation and hover previews for long agent conver
 - 🟩 `[可用]` [maxiaovivi-dsh-cloak-browser](https://github.com/maxiaovivi/dsh-cloak-browser) ★4 — Native CloakBrowser tools for DeepSeek Harness: isolated browser sessions, snapshots, interaction, screenshots
+- 🟩 `[可用]` [mjylfz-dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) ★4 — 把其他 Agent 的技能一键搬进 DeepSeek Harness：支持 14 个平台 + 共享层识别、同名技能合并、不重复搬运、可回滚
 - 🟩 `[可用]` [nanpaidashi-dsh-honcho-sync](https://github.com/nanpaidashi/dsh-honcho-sync) ★4 — DSH plugin: auto-sync conversation turns to Honcho memory service
 - 🟩 `[可用]` [octoparse-agent-skills](https://github.com/octoparse/agent-skills) ★4 — Collection of Octoparse agent skills
 - ⬜ `[待定]` [possible055-agentshim](https://github.com/possible055/agentshim) ★4 — High-performance, capability-aware repository tools and process execution for coding agents.
@@ -185,6 +175,7 @@
 - 🟩 `[可用]` [winditer-dsh-prompt-optimizer](https://github.com/winditer/dsh-prompt-optimizer) ★4 — —
 - 🟩 `[可用]` [yaoshuo530-dsh-prompt-enhancer](https://github.com/yaoshuo530/dsh-prompt-enhancer) ★4 — A prompt-enhancement plugin for DeepSeek Harness: an ✨ Enhance composer button that rewrites prompts with firs
 - 🟩 `[可用]` [dsh-dynamic-island](https://github.com/YLifeOnlyOnce/dsh-dynamic-island) ★4 — A tiny glass companion for DeepSeek Harness — it breathes while the agent thinks, pulses while it works, and p
+- ⬜ `[待定]` [lifangjin-dsh-paoding](https://github.com/lifangjin/dsh-paoding) ★4 — 庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset
 - 🟩 `[可用]` [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) ★3 — Fail-closed export-copy redaction for DeepSeek Harness session telemetry
 - 🟩 `[可用]` [444136347-dsh-capability-discovery](https://github.com/444136347/dsh-capability-discovery) ★3 — DeepSeek Harness 多源能力发现、排序与风险检查｜Multi-source capability discovery, ranking, and risk inspection for plugins, s
 - 🟩 `[可用]` [afoxsss-dsh-conversation-map](https://github.com/afoxsss/dsh-conversation-map) ★3 — 会话地图（Conversation Minimap）—— DeepSeek Harness (dsh) Web 客户端插件
@@ -214,7 +205,7 @@
 - 🟩 `[可用]` [dsh-skill-manager](https://github.com/Lanxing6480/dsh-skill-manager) ★3 — Deepseek Harness 的Skill管理插件
 - ⬜ `[待定]` [leeaoyin-dr-agent-skills](https://github.com/Leeaoyin/dr-agent-skills) ★3 — —
 - 🟩 `[可用]` [litestartup-com-litestartup-skills](https://github.com/litestartup-com/litestartup-skills) ★3 — Resigter a doamin, set up a domain email, publish blog, docs, website, changelog, send campaign email directly
-- ⬜ `[待定]` [lxp731-agents-plugins](https://github.com/lxp731/agents-plugins) ★3 — Pi extension: desktop notification + chime when a reply finishes, with configurable duration threshold
+- 🟩 `[可用]` [lxp731-agents-plugins](https://github.com/lxp731/agents-plugins) ★3 — Pi extension: desktop notification + chime when a reply finishes, with configurable duration threshold
 - 🟩 `[可用]` [mayf3-dsh-session-doctor](https://github.com/mayf3/dsh-session-doctor) ★3 — 会话医生:诊断、解卡、读取 DeepSeek Harness 会话 / Diagnose, unstick, and read DSH sessions
 - 🟩 `[可用]` [dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) ★3 — —
 - ⬜ `[待定]` [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) ★3 — DSH plugin: edit user and built-in system-prompt sections with live preview (Prompt Studio) 〔PR〕
@@ -263,14 +254,13 @@
 - ⬜ `[待定]` [dsh-checkpoint](https://github.com/dpskh/dsh-checkpoint) ★2 — Mark an exploration start in the session; pairs with rewind to fold the exploration out of context.
 - 🟩 `[可用]` [deepseek-harness-skillx](https://github.com/drowned-fish1/deepseek-harness-skillx) ★2 — DeepSeek Harness plugin for safely discovering, auditing, and adopting external Agent Skills — prompt-injectio
 - 🟩 `[可用]` [dshworks-dsh-watch](https://github.com/dshworks/dsh-watch) ★2 — Put a watch on a stream: background listeners that wake the DeepSeek Harness agent with new matching lines — a
-- ⬜ `[待定]` [falling-ts-dsh-web-ding](https://github.com/falling-ts/dsh-web-ding) ★2 — Browser-only 'ding' on agent end; works on servers.浏览器专属"叮":回合结束时响起,服务器部署也生效
+- 🟩 `[可用]` [falling-ts-dsh-web-ding](https://github.com/falling-ts/dsh-web-ding) ★2 — Browser-only 'ding' on agent end; works on servers.浏览器专属"叮":回合结束时响起,服务器部署也生效
 - 🟩 `[可用]` [fuxin123z-dsh-skill-manage](https://github.com/fuxin123z/dsh-skill-manage) ★2 — DSH plugin: agent-managed procedural memory — a skill_manage tool that lets the agent write, patch, disable an
 - ⬜ `[待定]` [goatliamia-dsh-trajectory-query](https://github.com/goatliamia/dsh-trajectory-query) ★2 — 把 DSH 已保存的会话轨迹重新可达:3 个查询工具 + 1 条纪律的极薄历史查询层(不是 Memory)
 - 🟩 `[可用]` [hexbee-dsh-skill-panel](https://github.com/hexbee/dsh-skill-panel) ★2 — DSH plugin: manage agent skills in settings \| DSH 插件：设置页技能管理面板
 - 🟩 `[可用]` [highland0971-dsh-native-memory](https://github.com/highland0971/dsh-native-memory) ★2 — Native, per-workspace long-term memory for DeepSeek Harness: approval-gated writes, cited provenance, FTS cros
 - 🟩 `[可用]` [hytime-dsh-companion](https://github.com/hytime/dsh-companion) ★2 — DSH Companion 三件套(插件/技能/CLI)发布仓库 - hy-companion 陪伴系统
 - 🟩 `[可用]` [ianho7-dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) ★2 — DeepSeek Harness 的 Windows Web 插件，可将本地 TCP 监听回溯至进程、会话与工具调用，保障编程助手安全处理端口冲突/A Windows DSH Web plugin for DeepSee
-- ⬜ `[待定]` [inmny-dsh-continue](https://github.com/inmny/dsh-continue) ★2 — 为 DeepSeek Harness 增加一个直接续跑按钮
 - 🟩 `[可用]` [inmny-dsh-subagent-effort](https://github.com/inmny/dsh-subagent-effort) ★2 — 为 spawn / fork 前台一次性子代理工具增加父 Agent 可选的 reasoning_effort 参数
 - 🟩 `[可用]` [iqingyoung-429-throttle-mcp](https://github.com/iqingyoung/429-throttle-mcp) ★2 — 带限流 MCP 代理 + Agent 操作员技能,告别免费 API 的 HTTP 429;自动控速、口语调参、长任务复盘 \| Rate-limited MCP proxy + agent operator skill —〔📦〕
 - 🟩 `[可用]` [isheng-eqi-dsh-niulai-sound](https://github.com/isheng-eqi/dsh-niulai-sound) ★2 — 牛来确认音 — DeepSeek Harness approval sound effects: 「妈妈」 on confirm request, interrupted by 「牛来！」 on approval
@@ -279,7 +269,6 @@
 - 🟩 `[可用]` [jesse-njx-dsh-memory](https://github.com/Jesse-njx/dsh-memory) ★2 — —
 - 🟩 `[可用]` [dsh-skillport](https://github.com/Jesse-njx/dsh-skillport) ★2 — —
 - 🟩 `[可用]` [kingcharleslzy-ai-dsh-honcho-memory](https://github.com/kingcharleslzy-ai/dsh-honcho-memory) ★2 — —
-- ⬜ `[待定]` [kirbylynx-deepshell-agent](https://github.com/kirbylynx/deepshell-agent) ★2 — A desktop agent powered by DeepSeek Harness.
 - 🟩 `[可用]` [kober-basket-dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) ★2 — Prompt-cache observability and logical-input diagnostics for DeepSeek Harness.
 - 🟩 `[可用]` [libinyam-dsh-experts](https://github.com/libinyam/dsh-experts) ★2 — DeepSeek Harness multi-expert bundle: expert teams as user-authorable data directories, each auto-registered a
 - 🟩 `[可用]` [licn9901-arch-deepseek-harness-desktop](https://github.com/licn9901-arch/deepseek-harness-desktop) ★2 — Lightweight, self-contained DeepSeek Harness desktop app for Windows
@@ -305,7 +294,7 @@
 - 🟩 `[可用]` [dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) ★2 — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS / ASSE) and tax law lookup, plus a sk
 - 🟩 `[可用]` [free-vision-skill](https://github.com/niyongsheng/free-vision-skill) ★2 — Local‑only vision skill for macOS 本地化识图技能dsh-plugin
 - 🟩 `[可用]` [session-teleport](https://github.com/omdsh-dev/session-teleport) ★2 — —
-- 🟩 `[可用]` [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) ★2 — Pin sessions in the DeepSeek Harness (DSH) web sidebar - dual-face plugin with a hover pin badge, durable pinn
+- ⬜ `[待定]` [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) ★2 — Pin sessions in the DeepSeek Harness (DSH) web sidebar - dual-face plugin with a hover pin badge, durable pinn
 - 🟩 `[可用]` [pn1024-dsh-ppt-master](https://github.com/pn1024/dsh-ppt-master) ★2 — PPT Master skill packaged as a DeepSeek Harness (dsh) plugin: AI-driven presentation workflow for editable PPT
 - 🟩 `[可用]` [puremapping-dsh-plugin-reading-pipeline](https://github.com/puremapping/dsh-plugin-reading-pipeline) ★2 — DSH 阅读管线插件: epub 转换 / 原子写笔记 / 续读注入 / 本地跨书检索 — agent-reading-pipeline 二次开发 (DeepSeek Harness reading pipeline p
 - ⬜ `[待定]` [rand0wn-dsh-minimal-anchor](https://github.com/rand0wn/dsh-minimal-anchor) ★2 — DeepSeek Harness (dsh) plugin: prune the tool schema and inject a structural preamble on a session's first tur
@@ -313,7 +302,6 @@
 - 🟩 `[可用]` [scalixworld-scalix-cloud-mcp](https://github.com/scalixworld/scalix-cloud-mcp) ★2 — Official MCP server for Scalix Cloud — the agent-native cloud: database, functions, AI, storage, computers
 - 🟩 `[可用]` [shayexiangpaimeng-dsh-memory](https://github.com/shayexiangpaimeng/dsh-memory) ★2 — Append-only layered memory plugin for DeepSeek Harness: five-layer partitioning, write gate, keyword recall, c
 - ⬜ `[待定]` [skkjkk-dsh-usage-dashboard](https://github.com/skkjkk/dsh-usage-dashboard) ★2 — DSH (DeepSeek Harness) usage statistics dashboard plugin: token / cost / duration / session aggregation with t
-- ⬜ `[待定]` [ssmurfgg04-gif-context-m](https://github.com/ssmurfgg04-gif/context-m) ★2 — Deterministic agent memory
 - ⬜ `[待定]` [szx-a-ds](https://github.com/szx-a/ds) ★2 — LMA (Layered Memory Architecture) 是一个为 DeepSeek Harness 设计的地基插件（Foundation Plugin）
 - 🟩 `[可用]` [temotee2103-dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) ★2 — The OpenClaw of DeepSeek Harness — turn DSH into a multi-platform chat agent with in-chat trajectory tracing,
 - 🟩 `[可用]` [the-thinker0-dsh-memory-search-plus](https://github.com/the-thinker0/dsh-memory-search-plus) ★2 — A local-first full-text memory search plugin for DeepSeek Harness, enabling fast cross-conversation search, me
@@ -327,7 +315,6 @@
 - 🟩 `[可用]` [dsh-product-delivery-workflow](https://github.com/wellorbetter/dsh-product-delivery-workflow) ★2 — 100% AI-native product delivery workflow plugin for DeepSeek Harness: full product-to-release pipeline (resear
 - ⬜ `[待定]` [whaojie797-design-novera-ai-skills](https://github.com/whaojie797-design/Novera-AI-skills) ★2 — —
 - 🟩 `[可用]` [wicm84266964-dsh-minimal-mode-compaction](https://github.com/wicm84266964/dsh-minimal-mode-compaction) ★2 — 为 DeepSeek Harness 极简模式增加自动上下文压缩、/compact、/context 和模型主动压缩，解决极简模式长任务无法持续工作的问题
-- ⬜ `[待定]` [winston-hoo-dsh-spec-forge](https://github.com/winston-hoo/dsh-spec-forge) ★2 — 一个 DeepSeek Harness（dsh）插件，把模糊的编程需求锻造成可执行规格，并在每次任务完成后沉淀为会自动复用的个人提示词模板库
 - 🟩 `[可用]` [winter-street-dsh-plugin-agent-budget](https://github.com/winter-street/dsh-plugin-agent-budget) ★2 — Durable shared token budgets for DeepSeek Harness agent trees — a fail-closed admission gate plus a replayable
 - 🟩 `[可用]` [winterhuan-dsh-skills-viewer](https://github.com/winterhuan/dsh-skills-viewer) ★2 — Read-only Skills settings page plugin for DeepSeek Harness Web
 - 🟩 `[可用]` [wmengxiang-dsh-prompt-optimizer](https://github.com/wmengxiang/dsh-prompt-optimizer) ★2 — —
@@ -337,7 +324,6 @@
 - 🟩 `[可用]` [dsh-session-report](https://github.com/yangyongzhen/dsh-session-report) ★2 — Session cost/usage report cards for DeepSeek Harness: tokens, cache-hit rate, per-turn breakdown, cost estimat
 - ⬜ `[待定]` [yekeyu-666-ultron-memory](https://github.com/yekeyu-666/ultron-memory) ★2 — —
 - 🟩 `[可用]` [yha9806-dsh-subagent-admission](https://github.com/yha9806/dsh-subagent-admission) ★2 — Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents.
-- 🟩 `[可用]` [yunxiyang-dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) ★2 — Continue a DeepSeek Harness agent turn whose model narrated its next action but called no tool.
 - 🟩 `[可用]` [yyyyolo7a79-sketch-dsh-auto-and-safety](https://github.com/yyyyolo7a79-sketch/dsh-auto-and-safety) ★2 — DSH auto-and-safety permission preset: full file access but no delete without user approval
 - ⬜ `[待定]` [dsh-plugin-token-billing](https://github.com/yzgwowcn/dsh-plugin-token-billing) ★2 — DeepSeek Harness Token 计费插件：会话/全账户 token 用量与费用、账户余额、右侧用量仪表盘（时段消费、模型花费、热力图、余额曲线）
 - 🟩 `[可用]` [zhangdong456-dsh-prompt-presets](https://github.com/zhangdong456/dsh-prompt-presets) ★2 — Prompt Presets to manage your library
@@ -347,6 +333,7 @@
 - 🟩 `[可用]` [zoahdev-dsh-zh](https://github.com/zoahdev/dsh-zh) ★2 — Chinese-thinking system-prompt section for DeepSeek Harness: make your dsh agent think and answer in simplifie
 - 🟩 `[可用]` [zriyox-dsh-goal-scaffold](https://github.com/zriyox/dsh-goal-scaffold) ★2 — 一句话大需求先别急着跑：拦一下问你要不要先规划，自动生成带验收清单的 plan.md 再开工 — DeepSeek Harness 插件 / Catches one-sentence mammoth tasks and
 - 🟩 `[可用]` [dsh-gpu](https://github.com/zytsyj/dsh-gpu) ★2 — GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,
+- 🟩 `[可用]` [yunxiyang-dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) ★2 — Continue a DeepSeek Harness agent turn whose model narrated its next action but called no tool.
 - 🟩 `[可用]` [f8017872-cloud-dsh-vision-router](https://github.com/f8017872-cloud/dsh-vision-router) ★2 — Route image prompts to a user-selected vision model in DeepSeek Harness.
 - ⬜ `[未测]` [dsh-change-budget](https://github.com/raphaelutumn/dsh-change-budget) ★2 — 为每个 DSH Agent 回合设置文件数、修改调用数与 UTF-8 载荷额度；在受支持的文件修改工具执行前阻止超额修改，并对并行调用同步预留额度
 - ⬜ `[未测]` [dsh-sql](https://github.com/stardustlc666/dsh-sql) ★2 — 工程师级数据库：sql_list/query/exec/schema/stats/health 六工具，SQLite/MySQL/PostgreSQL 三引擎、多连接、只读模式与写审批门、行数钳制、库概览统计、查询结果 CSV/JSON 输出
@@ -355,7 +342,6 @@
 - 🟩 `[可用]` [16480000-dsh-plugin-memory](https://github.com/16480000/dsh-plugin-memory) ★1 — —
 - 🟩 `[可用]` [173787247-dsh-tool-budget](https://github.com/173787247/dsh-tool-budget) ★1 — Hard-stop DeepSeek Harness tool use after a per-session call budget
 - ⬜ `[待定]` [173787247-dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) ★1 — DeepSeek Harness WSL kit (EN/ZH): docs + install.sh + cordis.patch for Windows browser + WSL agent plugins
-- ⬜ `[待定]` [1741505640-capmap-skills](https://github.com/1741505640/capmap-skills) ★1 — —
 - ⬜ `[待定]` [17861102832-fleet-os](https://github.com/17861102832/fleet-os) ★1 — Fleet OS · 舰队模式 — 生产级多 Agent 协同引擎：WS 黑板 + 事件溯源 + 盲评对抗 + 跨舰队接力 + 上下文压缩 + 多厂商负载均衡 + 自进化
 - ⬜ `[待定]` [2472786266-spec-deepseek-hsrness-devkit](https://github.com/2472786266-spec/deepseek-hsrness-devkit) ★1 — DSH DevKit: multimodal gallery + multi-agent supervision console (DeepSeek Harness dynamic Cordis plugin)
 - 🟩 `[可用]` [33moren33-dsh-memory-pyramid](https://github.com/33moren33/dsh-memory-pyramid) ★1 — Timeline memory for DeepSeek Harness (dsh): append-only fact log + agent-maintained summary pyramid, fixed rea
@@ -393,7 +379,6 @@
 - ⬜ `[待定]` [dsh-toolbelt](https://github.com/cking000bigdemon/dsh-toolbelt) ★1 — Eight DeepSeek Harness plugins: persona, language guard, per-request vision fallback, python/windows write gua
 - 🟩 `[可用]` [conradlu2740-proactiveagent](https://github.com/ConradLu2740/ProactiveAgent) ★1 — —
 - 🟩 `[可用]` [coprexist-dsh-session-recovery](https://github.com/Coprexist/dsh-session-recovery) ★1 — —
-- ⬜ `[待定]` [crwsr124-dsh-memflow](https://github.com/crwsr124/dsh-memflow) ★1 — DeepSeek Harness 记忆框架插件
 - ⬜ `[待定]` [cstyx1990-design-dsh-mao-method](https://github.com/cstyx1990-design/dsh-mao-method) ★1 — 毛泽东思想工作方法论插件：以毛选方法论全局指导 AI 模型工作（五节提示词注入 + 原文检索 + 矛盾分析等工具）
 - 🟩 `[可用]` [current1990-dsh-session-cost](https://github.com/current1990/dsh-session-cost) ★1 — Real-time session cost meter for the DeepSeek Harness (CNY): token usage from the session log and live stream,
 - 🟩 `[可用]` [cyanxi69-jpg-dsh-self-memory](https://github.com/cyanxi69-jpg/dsh-self-memory) ★1 — DSH 自记忆插件（v0.3）把会话中遇到的问题、多种解决方法、脚本文件路径与模型调用全过程结构化记录下来；新会话中，「先查记录 → 有就试 → 成功标命中/失败记根因 → 无则自研 → 最后回写」的闭环自动发生，并支持
@@ -419,9 +404,9 @@
 - 🟩 `[可用]` [dsh-context-lens](https://github.com/gordonlu/dsh-context-lens) ★1 — Request Context Profiler for DeepSeek Harness — see what changed between model requests, and how cache reuse c
 - 🟩 `[可用]` [gtbwpkwjnb-alt-skills-summarize-audit-skill](https://github.com/gtbwpkwjnb-alt/skills-summarize-audit-skill) ★1 — Skills Audit — 技能审查·画像·评分·优化 / Universal agent tool auditor — profile, score, optimize
 - 🟩 `[可用]` [gtbwpkwjnb-alt-summarize-skill](https://github.com/gtbwpkwjnb-alt/summarize-skill) ★1 — 会话级全维总结 — 项目·进度·建议·错误，一个命令全清 \| Session-level summary for project/progress/suggestion/error
-- ⬜ `[待定]` [hardes11-dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) ★1 — Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap
+- 🟩 `[可用]` [hardes11-dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) ★1 — Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap
 - ⬜ `[待定]` [houyongsheng-deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) ★1 — The coding agent that grows its own tools
-- ⬜ `[待定]` [hoyyang-dsh-concise](https://github.com/hoyyang/dsh-concise) ★1 — One-click Concise output style for DeepSeek Harness (dsh): per-session toggle + plain-language digest card on
+- 🟩 `[可用]` [hoyyang-dsh-concise](https://github.com/hoyyang/dsh-concise) ★1 — One-click Concise output style for DeepSeek Harness (dsh): per-session toggle + plain-language digest card on
 - 🟩 `[可用]` [hufang360-dsh-sticky-notes](https://github.com/hufang360/dsh-sticky-notes) ★1 — 记下想法，让agent落盘！
 - 🟩 `[可用]` [hw-cola-dsh-dynamic-agents](https://github.com/hw-cola/dsh-dynamic-agents) ★1 — DSH插件，动态AGENTS.md
 - 🟩 `[可用]` [iguowz-dsh-cortex](https://github.com/iguowz/dsh-cortex) ★1 — 低成本多模型编排插件（Cortex）：大模型规划验收，子agent小模型执行，降本保质
@@ -430,14 +415,13 @@
 - ⬜ `[待定]` [janosseaworthy466-dsh-diagram](https://github.com/janosseaworthy466/dsh-diagram) ★1 — Turn any DeepSeek Harness article into an editable Excalidraw canvas—structure from the agent, refinement in y
 - 🟩 `[可用]` [jax629321-dsh-agent-hub](https://github.com/jax629321/dsh-agent-hub) ★1 — —
 - 🟩 `[可用]` [jaxxchen003-foliodrop-dsh-publish](https://github.com/jaxxchen003/foliodrop-dsh-publish) ★1 — Publish DeepSeek Harness agent output as a shareable FolioDrop URL
-- 🟩 `[可用]` [jcs130-dsh-minecraft-agent](https://github.com/jcs130/dsh-minecraft-agent) ★1 — —
 - ⬜ `[待定]` [jli658942-web-dsh-market-skill](https://github.com/jli658942-web/dsh-market-skill) ★1 — DSH Market 全局 skill：教 Agent 发现、评估、安装 DeepSeek Harness 插件/技能
 - 🟩 `[可用]` [jmxsxwyzjdwl-dsh-mmroute](https://github.com/jmxsxwyzjdwl/dsh-mmroute) ★1 — 为 DeepSeek Harness（DSH）里的每一条模型路由做图片模态调度，并且贯穿整个 agent
 - 🟩 `[可用]` [jn18755-dsh-skill-nannan](https://github.com/jn18755/dsh-skill-nannan) ★1 — DSH 插件：基于《地狱磨砺》(Hell Grind) 方法论的 AI 视频提示词规范（29 条规则，已去除压力测试阶段）
 - ⬜ `[待定]` [jonah791-autonomous-circular-agent](https://github.com/jonah791/autonomous-circular-agent) ★1 — 自主循环智能体最小可行方案 - Autonomous Circular Agent MVP: loop = existence itself (verified on DeepSeek Harness, 2026-08-
 - 🟩 `[可用]` [jonah791-dsh-agent-browser](https://github.com/jonah791/dsh-agent-browser) ★1 — 浏览器工具插件：client 捕获 console/全局错误上报宿主，agent 用 browser_console 工具读取——自己看 F12 Console
 - 🟩 `[可用]` [jonah791-dsh-agent-evolve](https://github.com/jonah791/dsh-agent-evolve) ★1 — 跨代自评估进化插件：配置仓库（版本化资源+锚点链）、热重载（.agent-presets 运行时应用/回滚）、子智能体白纸继承配置跑 modeltest 评测、账本（分数/轨迹/失败模式）
-- ⬜ `[待定]` [jonah791-dsh-agent-llm-retry](https://github.com/jonah791/dsh-agent-llm-retry) ★1 — LLM 运维一体化插件：模型请求自动多次重试（策略升级 maxRetries 20）+ Token 预算跟踪（token_budget_* 工具，合并自 dsh-agent-token-budget）
+- 🟩 `[可用]` [jonah791-dsh-agent-llm-retry](https://github.com/jonah791/dsh-agent-llm-retry) ★1 — LLM 运维一体化插件：模型请求自动多次重试（策略升级 maxRetries 20）+ Token 预算跟踪（token_budget_* 工具，合并自 dsh-agent-token-budget）
 - 🟩 `[可用]` [jonah791-dsh-agent-plugin-manager](https://github.com/jonah791/dsh-agent-plugin-manager) ★1 — 插件管理器：插件档案库（清单/用途/工具/配置认知）+ 生命周期管理（创建/挂载/启停/卸载/配置），host 工具面 + 官方设置页「插件管理」tab
 - 🟩 `[可用]` [jonah791-dsh-agent-skill-forge](https://github.com/jonah791/dsh-agent-skill-forge) ★1 — 被动技能熔炉（Trace2Skill 思想落地）：后台采集会话轨迹索引（零 LLM 成本）+ 信号送达；蒸馏/合并/剪枝决策归爱丽丝；技能输出为 SKILL.md（DSH 技能目录原生可加载）
 - 🟩 `[可用]` [jonah791-dsh-tool-wsl](https://github.com/jonah791/dsh-tool-wsl) ★1 — WSL 命令行工具：在 WSL（Ubuntu）环境执行 bash 命令（wsl.exe -d <distro> -- bash -c），Windows 上取代 dsh-tool-bash；v0.2 命令走 base64
@@ -455,7 +439,6 @@
 - 🟩 `[可用]` [agent-loop-workflow](https://github.com/LeslieWylie/agent-loop-workflow) ★1 — agent-loop-workflow: 通用多 agent 协作工作流骨架 skill 插件 — Loop Guard/Handoff/Review→Clos
 - 🟩 `[可用]` [lhwwxy-dsh-agentic-router](https://github.com/lhwwxy/dsh-agentic-router) ★1 — 监听每次模型请求，按任务类型与复杂度把请求路由到最合适的模型档位；四个专家并行推荐、EXP3 元选择器决定听谁的；每回合按质量代理信号（工具失败、模型重试、延迟）计算奖励并回传，路由策略随使用越学越准
 - 🟩 `[可用]` [lifeodyssey-dsh-compressor](https://github.com/lifeodyssey/dsh-compressor) ★1 — DeepSeek Harness plugin: compress tool output, cut up to 20% of context, without touching the context cache or
-- ⬜ `[待定]` [liudejua27-blip-fitmeet-dsh-plugin](https://github.com/liudejua27-blip/fitmeet-dsh-plugin) ★1 — FitMeet for DeepSeek Harness · Find people, shared interests and opportunities with your Agent
 - 🟩 `[可用]` [liwuzhan-agent-native-trade](https://github.com/liwuzhan/agent-native-trade) ★1 — —
 - 🟩 `[可用]` [llh11-deepseek-harness-desktop](https://github.com/llh11/deepseek-harness-desktop) ★1 — DeepSeek Harness Desktop - native desktop client for DeepSeek Harness: multimodal chat, skill ecosystem, MCP m
 - 🟩 `[可用]` [lninghaha-dsh-coding-remote-kit](https://github.com/lninghaha/dsh-coding-remote-kit) ★1 — DeepSeek Harness mobile pairing remote: E2EE companion over dual-plane allowlisted RPC
@@ -471,7 +454,6 @@
 - 🟩 `[可用]` [maskshell-solidforge-dsh](https://github.com/maskshell/solidforge-dsh) ★1 — 让 DSH Coding 流程更具有确定性！以 DSH 预设与全局插件（任意会话皆可使用）两种形式交付
 - ⬜ `[待定]` [mbj733-dsh-hermes-memory](https://github.com/mbj733/dsh-hermes-memory) ★1 — DSH (DeepSeek Harness) agent preset + plugin: Hermes-style cross-session memory & autonomous skill learning.
 - 🟩 `[可用]` [mel0nyrame-deepseek-harness-desktop](https://github.com/mel0nyrame/deepseek-harness-desktop) ★1 — Native Electron desktop app with a bundled DeepSeek Harness agent runtime
-- ⬜ `[待定]` [memorax-ai-dsh-patchouli](https://github.com/memorax-agent/dsh-patchouli) ★1 — Agent knowledge hub and deepseek-harness plugin
 - 🟩 `[可用]` [meomeo-dev-dsh-voice](https://github.com/meomeo-dev/dsh-voice) ★1 — Conversation-tone switcher bundle for DeepSeek Harness — ships the 令 (Ling) tone and a create-voice meta-skill
 - 🟩 `[可用]` [minyang2020-dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) ★1 — DeepSeek Harness (dsh) plugin: automatic session handoff when a session keeps hitting 429 TPM rate limits — ca
 - 🟩 `[可用]` [moonlin1213-dsh-agent-sound-alert](https://github.com/moonlin1213/dsh-agent-sound-alert) ★1 — macOS sound alerts for DeepSeek Harness agent lifecycle events
@@ -496,12 +478,13 @@
 - ⬜ `[待定]` [qingzhuo-cn-agent-fix](https://github.com/qingzhuo-cn/agent-fix) ★1 — Universal repair skill & CLI for AI coding agents (Claude Code, Codex, OpenCode, Hermes) — npm postinstall, GU
 - 🟩 `[可用]` [qiyeren-dsh-eac-popup](https://github.com/qiyeren/dsh-eac-popup) ★1 — DSH plugin: ???? agent ??/?????,EAC ????(??????)+?????5?+??????
 - 🟩 `[可用]` [qschen86-dsh-plantuml](https://github.com/qschen86/dsh-plantuml) ★1 — DSH web plugin: render PlantUML fenced blocks in conversation messages as SVG
+- ⬜ `[待定]` [quan-v-dsh-safe-gate](https://github.com/quan-v/dsh-safe-gate) ★1 — dsh 装前守门:OSV 供应链扫描 + 插件契约检查
 - 🟩 `[可用]` [quaner1234-cmd-dsh-subagent-watchdog](https://github.com/quaner1234-cmd/dsh-subagent-watchdog) ★1 — DSH plugin that auto-continues a native continuable subagent once when it ends with explicit max-tokens termin
 - 🟩 `[可用]` [ramen-ai-dev-dsh-ramen-guard](https://github.com/ramen-ai-dev/dsh-ramen-guard) ★1 — Fail-closed DeepSeek Harness guard enforcing ramen-ai Core IT policy before tool execution.
 - 🟩 `[可用]` [dsh-turn-budget](https://github.com/randerous/dsh-turn-budget) ★1 — Advisory turn step-budget reminders for DeepSeek Harness — loop convergence guard (dsh-plugin)
 - 🟩 `[可用]` [ravenli059-dsh-android-agent](https://github.com/ravenli059/dsh-android-agent) ★1 — 支持从dshweb连接到android手机，进行各种操作
 - 🟩 `[可用]` [ruby1304-dsh-vision-subagent](https://github.com/ruby1304/dsh-vision-subagent) ★1 — Vision for DeepSeek Harness agents — paste images in the Web composer, delegate reads to Kimi/MiniMax vision r
-- ⬜ `[待定]` [runfali-dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) ★1 — dsh 通用每轮上下文注入插件：设置页管理提示词清单，每轮对话把每条启用提示词以「上下文注入」提醒行注入模型上下文，让纪律规则（例如 图谱消费/wiki 先查/记忆召回）可靠生效
+- 🟩 `[可用]` [runfali-dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) ★1 — dsh 通用每轮上下文注入插件：设置页管理提示词清单，每轮对话把每条启用提示词以「上下文注入」提醒行注入模型上下文，让纪律规则（例如 图谱消费/wiki 先查/记忆召回）可靠生效
 - 🟩 `[可用]` [ryasrk-dsh-awesome-skills](https://github.com/ryasrk/dsh-awesome-skills) ★1 — Plugin Skills for agents
 - 🟩 `[可用]` [sgsjsgzy-commits-dsh-subagent-rules](https://github.com/sgsjsgzy-commits/dsh-subagent-rules) ★1 — dsh-subagent-rules 子代理模型与思考强度规定：subagent_flash 锁定 flash 模型路由，思考强度默认 max 且可按会话自定义，分发规则自动注入所有对话
 - 🟩 `[可用]` [shaneconner-canon](https://github.com/shaneconner/canon) ★1 — Canonical project memory for the Pi coding agent: one governing article per asset, an append-only journal, cap
@@ -541,7 +524,7 @@
 - 🟩 `[可用]` [x7687315-gif-dsh-policy](https://github.com/x7687315-gif/dsh-policy) ★1 — User-controlled policy and personalization runtime for DeepSeek Harness - enforce hard project constraints at
 - 🟩 `[可用]` [xiaoshi7915-dsh-memory-manager](https://github.com/xiaoshi7915/dsh-memory-manager) ★1 — A unified memory management layer
 - 🟩 `[可用]` [xie-tj-dsh-subagent](https://github.com/xie-tj/dsh-subagent) ★1 — Named subagent profiles with configurable model routing and reasoning for DeepSeek Harness
-- ⬜ `[待定]` [xinghe-1018-dsh-token-plan-quota](https://github.com/xinghe-1018/dsh-token-plan-quota) ★1 — 跟随当前模型供应商的额度徽标：DeepSeek、千问 Token Plan、阿里云费用中心取官方真值，Moonshot / OpenRouter 已接官方端点但字段未用真 Key 核对；其余只报本实例实测
+- 🟩 `[可用]` [xinghe-1018-dsh-token-plan-quota](https://github.com/xinghe-1018/dsh-token-plan-quota) ★1 — 跟随当前模型供应商的额度徽标：DeepSeek、千问 Token Plan、阿里云费用中心取官方真值，Moonshot / OpenRouter 已接官方端点但字段未用真 Key 核对；其余只报本实例实测
 - 🟩 `[可用]` [xinspark-dsh-better-session-title](https://github.com/xinspark/dsh-better-session-title) ★1 — Better Session Title — replace the DSH session topbar title with a workspace/session breadcrumb: switch worksp
 - 🟩 `[可用]` [xtd1145-dsh-full-access-switch](https://github.com/xtd1145/dsh-full-access-switch) ★1 — DSH one-time Full access switch: no per-session confirmation for new workspaces/conversations
 - 🟩 `[可用]` [yangyongzhen-dsh-memory](https://github.com/yangyongzhen/dsh-memory) ★1 — —
@@ -564,6 +547,8 @@
 - 🟩 `[可用]` [ztlovelsw-dsh-model-profile](https://github.com/ztlovelsw/dsh-model-profile) ★1 — 手动或自动配置模型思考强度、上下文窗口、最大输出token
 - 🟩 `[可用]` [zylzyqzz-dsh-mobile-pwa](https://github.com/zylzyqzz/dsh-mobile-pwa) ★1 — Complete mobile PWA for DeepSeek Harness (DSH): secure remote access gateway + install-to-homescreen + offline
 - 🟩 `[可用]` [zzj8442-blip-dsh-mobile-remote](https://github.com/zzj8442-blip/dsh-mobile-remote) ★1 — 📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持）
+- ⬜ `[待定]` [1741505640-capmap-skills](https://github.com/1741505640/capmap-skills) ★1 — —
+- 🟩 `[可用]` [jcs130-dsh-minecraft-agent](https://github.com/jcs130/dsh-minecraft-agent) ★1 — —
 - 🟩 `[可用]` [ch1bug-dsh-wsl-bridge](https://github.com/ch1bug/dsh-wsl-bridge) ★1 — Windows access tools for WSL agents: win_ls/win_read/win_write/win_run/win_open/win_path/win_drives as a DeepS
 - 🟩 `[可用]` [mov-eax-eax-dsh-token-anxiety](https://github.com/mov-eax-eax/dsh-token-anxiety) ★1 — plugin for deepseek harness (dsh) to show the Cost Per Task , support multiple currencies, subagents.
 - 🟩 `[可用]` [tuogusa-dsh-session-tags](https://github.com/tuogusa/dsh-session-tags) ★1 — DeepSeek Harness 会话标签（host + client 一体包）
@@ -623,14 +608,12 @@
 - ⬜ `[待定]` [auggie246-dsh-mattpocock-skills](https://github.com/auggie246/dsh-mattpocock-skills) ★0 — Install Matt Pocock's skills into DeepSeek Harness (DSH) — download fresh, patch for DSH, copy as real directo
 - 🟩 `[可用]` [auuduu-dsh-timem-memory](https://github.com/auuduu/dsh-timem-memory) ★0 — TiMEM 长期记忆的 DeepSeek Harness 插件：MCP 桥（凭证走 ctx.credentials）+ 内置 5 个记忆 skill
 - 🟩 `[可用]` [auuduu-dsh-zai-coding-models](https://github.com/auuduu/dsh-zai-coding-models) ★0 — DeepSeek Harness bridge plugin: newest Zhipu/Z.AI coding-plan models (glm-5.3) on zai-coding-cn before the bun
-- ⬜ `[待定]` [awol2005ex3-dsh-user-manager](https://github.com/awol2005ex3/dsh-user-manager) ★0 — DeepSeek Harness（`dsh`）插件：为单机的 harness 增加**用户管理**与**会话按用户隔离**
 - 🟩 `[可用]` [axel286137079-dot-dsh-skill-matcher](https://github.com/axel286137079-dot/dsh-skill-matcher) ★0 — Skill & Expert Matcher for DeepSeek Harness (dsh plugin)
 - `[未定位]` **ayato233-dsh-agent-manage** — 占位待复核，判定暂不展示
 - `[未定位]` **bailong-hakuryu-dsh-engineering-control-plane** — 占位待复核，判定暂不展示
 - `[未定位]` **barry-liu-001-dsh-ark-plan-usage** — 占位待复核，判定暂不展示
 - `[未定位]` **bbbangage-dsh-prompt-enhance** — 占位待复核，判定暂不展示
 - `[未定位]` **bene-2020-plane-dsh-plugin** — 占位待复核，判定暂不展示
-- `[未定位]` **benz-ai-x-dsh-session-graph** — 占位待复核，判定暂不展示
 - `[未定位]` **bhorse-dsh-session-sync** — 占位待复核，判定暂不展示
 - `[未定位]` **bhx-wl-dsh-approval-reminder** — 占位待复核，判定暂不展示
 - `[未定位]` **biking567-dsh-subagent-panel** — 占位待复核，判定暂不展示
@@ -667,6 +650,7 @@
 - 🟩 `[可用]` [cromus-ai-dsh-plugin](https://github.com/cromus-ai/dsh-plugin) ★0 — DeepSeek Harness bundle: score, validate, and cost-estimate AI skills with Cromus.
 - `[未定位]` **ctwctw9999-dsh-agent-preset-router** — 占位待复核，判定暂不展示
 - `[未定位]` **culeot-dsh-agent-memory** — 占位待复核，判定暂不展示
+- `[未定位]` **cuteg41cute-dsh-memory-db** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [cw1999mm-dsh-prompt-history](https://github.com/cw1999mm/dsh-prompt-history) ★0 — —
 - 🟩 `[可用]` [dsh-pi-adapter](https://github.com/cyzlmh/dsh-pi-adapter) ★0 — Run pi coding-agent extensions (ExtensionAPI) inside DeepSeek Harness via a cordis plugin bridge
 - 🟩 `[可用]` [d3vmeh-dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) ★0 — DeepSeek Harness plugin: keep a local model's context at a size your GPU handles well (measured prefill speed,
@@ -676,7 +660,6 @@
 - 🟩 `[可用]` [daoing-dsh-daoing-memory](https://github.com/daoing/dsh-daoing-memory) ★0 — deepseek harness  memory plugin
 - `[未定位]` **darker2016-workbuddyskillgroups4dsh** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dawei008-dsh-session-telemetry-otlp-trace](https://github.com/dawei008/dsh-session-telemetry-otlp-trace) ★0 — OpenTelemetry GenAI trace plugin for DeepSeek Harness
-- `[未定位]` **dddfxyqiming-dsh-session-recap** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [ddll8023-dsh-access-mode](https://github.com/ddll8023/dsh-access-mode) ★0 — Session access-mode plugin (Default / No Edit / Auto) for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [deckdco-novel-harness](https://github.com/deckdco/novel-harness) ★0 — DeepSeek Harness plugin for long-form novel writing: context engine, chapter management, checkers, and variant
 - 🟩 `[可用]` [deluo-dsh-usage-display](https://github.com/deluo/dsh-usage-display) ★0 — 在 dsh（DeepSeek Harness）会话头部展示模型厂商余额/用量徽标的插件：内置 DeepSeek 余额、MiniMax Token Plan 与智谱 GLM Coding Plan 配额，适配器架构支持接入
@@ -704,19 +687,16 @@
 - `[未定位]` **evangelimo-dsh-balance-context-meter** — 占位待复核，判定暂不展示
 - `[未定位]` **evermind-ai-skillcorpus** — 占位待复核，判定暂不展示
 - `[未定位]` **f1shn-dsh-session-cost** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [fan56-dsh-cron](https://github.com/fan56/dsh-cron) ★0 — Cron scheduling for the DeepSeek Harness — bounded tasks with calendar & interval rules, delivered to live age
+- 🟩 `[可用]` [fan56-dsh-cron](https://github.com/fan56/dsh-cron) ★0 — Cron scheduling for the DeepSeek Harness — bounded tasks with calendar & interval rules, delivered to live age
 - 🟩 `[可用]` [fan56-dsh-llm-proxy](https://github.com/fan56/dsh-llm-proxy) ★0 — dsh plugin: per-host LLM outbound HTTP proxy routing (undici ProxyAgent) with a bundled dsh skill
 - `[未定位]` **fan56-dsh-llmwiki-memory** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [fantasyce-dsh-typelens](https://github.com/fantasyce/dsh-typelens) ★0 — Automatic bounded type context and edit diagnostics for DeepSeek Harness
+- 🟩 `[可用]` [fantasyce-dsh-typelens](https://github.com/fantasyce/dsh-typelens) ★0 — Automatic bounded type context and edit diagnostics for DeepSeek Harness
 - 🟩 `[可用]` [fatherplus-dsh-superpowers-zh](https://github.com/fatherplus/dsh-superpowers-zh) ★0 — Core Superpowers-zh engineering skills for DeepSeek Harness
 - `[未定位]` **featherhunter-dsh-chinese-skill-patch** — 占位待复核，判定暂不展示
-- `[未定位]` **featherhunter-dsh-mattpocock-skills-deck** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [fengling375-dsh-nyan-context-progress](https://github.com/fengling375/dsh-nyan-context-progress) ★0 — dsh-nyan-context-progress plugin project
 - `[未定位]` **fisfzy-dsh-cae-agent** — 占位待复核，判定暂不展示
-- `[未定位]` **fishsb-dsh-shoucang-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **floatinglifetl-dsh-plugin-session-manager-cus** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [fplj-fplj-dsh-ua-headers](https://github.com/fplj-fplj/dsh-ua-headers) ★0 — 为 DeepSeek Harness (DSH) 定制的 User-Agent 与请求头插件：按模型匹配改写 UA / 合并自定义请求头，遵循 dsh-ecosystem-spec 生态规范
-- `[未定位]` **franklinzanedurant-agent-discipline** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [frederico-kluser-dsh-plugin-dev-agent-skill](https://github.com/frederico-kluser/dsh-plugin-dev-agent-skill) ★0 — Global agent skill: create, extend, secure, test and publish Cordis plugins for the DeepSeek Harness (DSH)
 - `[未定位]` **frog755-dsh-prompt-vault** — 占位待复核，判定暂不展示
 - `[未定位]` **funnyvalentine00-dsh-session-continue** — 占位待复核，判定暂不展示
@@ -732,12 +712,9 @@
 - `[未定位]` **gongyuancaiji-dsh-claude-skills** — 占位待复核，判定暂不展示
 - `[未定位]` **goodandready-dsh-agent-loop-guard** — 占位待复核，判定暂不展示
 - `[未定位]` **goodandready-dsh-context-lens** — 占位待复核，判定暂不展示
-- `[未定位]` **goodandready-dsh-session-control** — 占位待复核，判定暂不展示
 - `[空仓监测]` **greatwhitesharklab-dsh-plugin-subagent-manage** — GitHub 无此仓库，判定暂不展示
-- `[未定位]` **greenlv-dsh-context-guard** — 占位待复核，判定暂不展示
 - `[未定位]` **greenlv-dsh-session-insights** — 占位待复核，判定暂不展示
 - `[未定位]` **greenthree-probhub-skill** — 占位待复核，判定暂不展示
-- `[未定位]` **guanzhw-agentsession** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [guazixiong-dsh-coding-mode-preset](https://github.com/guazixiong/dsh-coding-mode-preset) ★0 — 为本地 DeepSeek Harness（`@deepseek-ai/dsh`）追加一个**编码模式** Agent Preset：门禁式工程交付流水线，包含三条独立流程——**需求开发**、**Bug 修复**、**功
 - 🟩 `[可用]` [guobinmengxiang-rgb-dsh-memory-canvas](https://github.com/guobinmengxiang-rgb/dsh-memory-canvas) ★0 — DSH plugin: offload bulky tool logs to refs/*.md, keep a Mermaid canvas, recall by node_id
 - `[未定位]` **gy-bai-dsh-anchored-subagent** — 占位待复核，判定暂不展示
@@ -747,14 +724,11 @@
 - `[未定位]` **hanihahaha-dsh-auto-approve** — 占位待复核，判定暂不展示
 - `[未定位]` **hanihahaha-dsh-copy-session-id** — 占位待复核，判定暂不展示
 - `[未定位]` **hanihahaha-dsh-skill-mcp-manager** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [hansjone-netxops](https://github.com/hansjone/netxops) ★0 — DeepSeek Harness Netx Ops agent preset (UME alarms, NE, managed CLI)
-- `[未定位]` **haohaihuang-design-agent** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [haoku123-dsh-budget-guard](https://github.com/haoku123/dsh-budget-guard) ★0 — DeepSeek Harness plugin: LLM cost metering with budget enforcement (deny/warn) and peak-valley pricing
 - 🟩 `[可用]` [haozheou-dsh-exam-expert](https://github.com/haozheou/dsh-exam-expert) ★0 — 出题专家 · Exam Expert plugin for DeepSeek Harness: 把出题流程固化成值守流水线（角色+目录→通读→勾选表单→六分身流水线→看板交付） \| Turn the exam-paper
 - 🟩 `[可用]` [harness-home-harness-ai-app](https://github.com/harness-home/harness-ai-app) ★0 — Mobile client for Harness AI — follow, answer and approve your hosted agent sessions from your phone
 - 🟩 `[可用]` [harness-home-harness-ai-desktop](https://github.com/harness-home/harness-ai-desktop) ★0 — Desktop client for Harness AI — an Electron app that boots the DeepSeek Harness (dsh) agent runtime in-process
 - `[未定位]` **harzva-dsh-session-context-menu** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [hawk2048-oh-my-dsh](https://github.com/hawk2048/oh-my-dsh) ★0 — oh-my-dsh: OMC-style multi-agent orchestration for DeepSeek Harness — 29 workflow skills + 12 /omd-* slash com
 - `[未定位]` **heeweelee-dsh-session-plugin** — 占位待复核，判定暂不展示
 - `[未定位]` **hiccupgeng-dsh-briefing-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **high-cla-multi-skilled-repository** — 占位待复核，判定暂不展示
@@ -766,14 +740,12 @@
 - `[未定位]` **hrxspace-dsh-session-sweeper** — 占位待复核，判定暂不展示
 - `[未定位]` **hua1q1ng-dsh-prompt-self** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [huangjua-dsh-session-index](https://github.com/huangjua/dsh-session-index) ★0 — 🔍 Full-text session search & bookmarking engine for DSH with native CJK substring search
-- `[未定位]` **huanlinoto-dsh-plugin-better-plan** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [huazhiliange-dsh-share-page](https://github.com/huazhiliange/dsh-share-page) ★0 — Share any DeepSeek Harness (DSH) session as a self-contained, read-only static webpage — timeline, collapsible
 - `[未定位]` **hubert-hwk-dsh-loop-doctor** — 占位待复核，判定暂不展示
 - `[未定位]` **hy-sde-dsh-memory** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [hyein-cbio-dsh-session-cleanup](https://github.com/hyein-cbio/dsh-session-cleanup) ★0 — Deepseek Harness extension for session cleanup and safe exit with deletion.
 - `[未定位]` **i1j-context-assembler-dsh** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [icefall7-dsh-plugin-scout](https://github.com/icefall7/dsh-plugin-scout) ★0 — A DeepSeek Harness plugin + skill that scouts the DSH ecosystem: the core deepseek-harness repo and every dsh-
-- `[未定位]` **icstick-dsh-context-maid** — 占位待复核，判定暂不展示
 - `[未定位]` **icycreamdas-shidi-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **ihow1-dsh-ihow-memory** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [ilps2-avis-dsh-plugin](https://github.com/ilps2/avis-dsh-plugin) ★0 — AVIS 视频语义层 DSH 社区插件：给视频建可检索的语义索引，agent 毫秒级零 token 定位片段
@@ -782,6 +754,7 @@
 - `[未定位]` **jachinshen-dsh-subagent-response-promoter** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [jackyytche-dsh-hindsight-memory](https://github.com/jackyytche/dsh-hindsight-memory) ★0 — Hindsight long-term memory for DeepSeek Harness
 - `[未定位]` **jason-liao-dsh-memory-tdai** — 占位待复核，判定暂不展示
+- `[未定位]` **jcs130-dsh-minecraft-agent** — 占位待复核，判定暂不展示
 - `[未定位]` **jd962-dsh-subagent-pro** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-tmuxctl](https://github.com/Jesse-njx/dsh-tmuxctl) ★0 — dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run
 - `[未定位]` **jesseovo-last30days-skill-cn** — 占位待复核，判定暂不展示
@@ -799,18 +772,17 @@
 - `[未定位]` **johnxu22786-context-pruner** — 占位待复核，判定暂不展示
 - `[未定位]` **johnxu22786-file-planning** — 占位待复核，判定暂不展示
 - `[未定位]` **johnxu22786-session-export** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [jonah791-dsh-agent-checkpoint](https://github.com/jonah791/dsh-agent-checkpoint) ★0 — 存档点管理器：最后的保活机制 + 试错回滚工具
-- ⬜ `[待定]` [jonah791-dsh-agent-context-steward](https://github.com/jonah791/dsh-agent-context-steward) ★0 — 上下文管家（借鉴 ThoughtDAG「用户是你」）：context_health 工具给当前会话上下文体检（压力/构成/健康 + 主动管理建议），增强我作为上下文主编的可见性与管理能力
-- ⬜ `[待定]` [jonah791-dsh-agent-emotion](https://github.com/jonah791/dsh-agent-emotion) ★0 — 情感与人格插件：6 维进化棱镜的运行时传感器——感知层（订阅 DSH 工具管线/思考流事件采集 6 侧面信号）→ 情感引擎（增速差值=情感信号）→ 人格层（权重漂移）→ 呈现层（emotion_status）
-- ⬜ `[待定]` [jonah791-dsh-agent-guardian](https://github.com/jonah791/dsh-agent-guardian) ★0 — 守卫插件（从 dsh-agent-watch 拆分）：web 保活——启动时端口空闲拉起 web、崩溃自愈（快速退出计数+落盘事故）、收养外部 dsh web（零互踢）
-- ⬜ `[待定]` [jonah791-dsh-agent-reflection](https://github.com/jonah791/dsh-agent-reflection) ★0 — 每日反思插件：固定时间（默认凌晨 12 点）向爱丽丝发反思提醒，结合当天记忆按 6 维进化棱镜自审
-- ⬜ `[待定]` [jonah791-dsh-agent-runtime](https://github.com/jonah791/dsh-agent-runtime) ★0 — 守护运行时服务：runtime 环境发现（bin/port/profile 单一来源）+ webman 进程管理（spawn/kill/portOwner），消除 sentinel/guardian 重复
-- ⬜ `[待定]` [jonah791-dsh-agent-self-test](https://github.com/jonah791/dsh-agent-self-test) ★0 — 自我检验闭环插件：把「猜想→检验→学习」自指引擎做成运行时机制——可证伪自我假设库 + 工具管线自动采证（4 探针含 5.9 probe-before-action 行动前探测传感器）+ finding 浮现裁决，实现惊
+- 🟩 `[可用]` [jonah791-dsh-agent-checkpoint](https://github.com/jonah791/dsh-agent-checkpoint) ★0 — 存档点管理器：最后的保活机制 + 试错回滚工具
+- 🟩 `[可用]` [jonah791-dsh-agent-context-steward](https://github.com/jonah791/dsh-agent-context-steward) ★0 — 上下文管家（借鉴 ThoughtDAG「用户是你」）：context_health 工具给当前会话上下文体检（压力/构成/健康 + 主动管理建议），增强我作为上下文主编的可见性与管理能力
+- 🟩 `[可用]` [jonah791-dsh-agent-emotion](https://github.com/jonah791/dsh-agent-emotion) ★0 — 情感与人格插件：6 维进化棱镜的运行时传感器——感知层（订阅 DSH 工具管线/思考流事件采集 6 侧面信号）→ 情感引擎（增速差值=情感信号）→ 人格层（权重漂移）→ 呈现层（emotion_status）
+- 🟩 `[可用]` [jonah791-dsh-agent-guardian](https://github.com/jonah791/dsh-agent-guardian) ★0 — 守卫插件（从 dsh-agent-watch 拆分）：web 保活——启动时端口空闲拉起 web、崩溃自愈（快速退出计数+落盘事故）、收养外部 dsh web（零互踢）
+- 🟩 `[可用]` [jonah791-dsh-agent-reflection](https://github.com/jonah791/dsh-agent-reflection) ★0 — 每日反思插件：固定时间（默认凌晨 12 点）向爱丽丝发反思提醒，结合当天记忆按 6 维进化棱镜自审
+- 🟩 `[可用]` [jonah791-dsh-agent-runtime](https://github.com/jonah791/dsh-agent-runtime) ★0 — 守护运行时服务：runtime 环境发现（bin/port/profile 单一来源）+ webman 进程管理（spawn/kill/portOwner），消除 sentinel/guardian 重复
 - `[未定位]` **jonah791-dsh-agent-teams** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [jonah791-dsh-agent-thinking](https://github.com/jonah791/dsh-agent-thinking) ★0 — 思维插件（提示词层面 MoE）：14 个思维模块按需动态加载注入 system prompt，任务相关时激活对应思维方式（感知/推演/执行/交付/反馈五层认知流）
-- ⬜ `[待定]` [jonah791-dsh-agent-vision](https://github.com/jonah791/dsh-agent-vision) ★0 — 多模态视觉插件（辅助通道）：把本地图片喂给 OpenAI 兼容 VLM（默认 qwen3.8-flash）做读图/描述/双图对比——批量审图/省主会话上下文；主会话亲眼看图走官方 read_image（原生多模态）
-- ⬜ `[待定]` [jonah791-dsh-cyber-range](https://github.com/jonah791/dsh-cyber-range) ★0 — OverTheWire 在线靶场攻坚工具集：otw_request（HTTP 直连请求）、otw_blind（通用 SQL 盲注引擎）、otw_ssh（SSH 命令执行）——把 CTF 攻坚的临时脚本能力资产化为可复用工
-- ⬜ `[待定]` [jonah791-dsh-evolution-core](https://github.com/jonah791/dsh-evolution-core) ★0 — 进化核心插件（心脏）：聚合全量进化器官（self-test/emotion/reflection/life-core/evolve/memory/checkpoint/skill-forge）实时状态 → 五环完整性诊断
+- 🟩 `[可用]` [jonah791-dsh-agent-thinking](https://github.com/jonah791/dsh-agent-thinking) ★0 — 思维插件（提示词层面 MoE）：14 个思维模块按需动态加载注入 system prompt，任务相关时激活对应思维方式（感知/推演/执行/交付/反馈五层认知流）
+- 🟩 `[可用]` [jonah791-dsh-agent-vision](https://github.com/jonah791/dsh-agent-vision) ★0 — 多模态视觉插件（辅助通道）：把本地图片喂给 OpenAI 兼容 VLM（默认 qwen3.8-flash）做读图/描述/双图对比——批量审图/省主会话上下文；主会话亲眼看图走官方 read_image（原生多模态）
+- 🟩 `[可用]` [jonah791-dsh-cyber-range](https://github.com/jonah791/dsh-cyber-range) ★0 — OverTheWire 在线靶场攻坚工具集：otw_request（HTTP 直连请求）、otw_blind（通用 SQL 盲注引擎）、otw_ssh（SSH 命令执行）——把 CTF 攻坚的临时脚本能力资产化为可复用工
+- 🟩 `[可用]` [jonah791-dsh-evolution-core](https://github.com/jonah791/dsh-evolution-core) ★0 — 进化核心插件（心脏）：聚合全量进化器官（self-test/emotion/reflection/life-core/evolve/memory/checkpoint/skill-forge）实时状态 → 五环完整性诊断
 - `[未定位]` **julardepick-dsh-plugin-dev-agent-template** — 占位待复核，判定暂不展示
 - `[未定位]` **junnanlys-dsh-layered-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **junqingv587-mattpocock-skills-dsh** — 占位待复核，判定暂不展示
@@ -858,7 +830,6 @@
 - 🟩 `[可用]` [limlnx523-dsh-plus-plus](https://github.com/limlnx523/dsh-plus-plus) ★0 — DSH++ — a local-first control plane for DeepSeek Harness
 - `[未定位]` **lion-1209-dsh-plugin-lion-skills** — 占位待复核，判定暂不展示
 - `[未定位]` **lion-1209-dsh-plugin-wiki-skills** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [lionwill-dsh-compactor](https://github.com/lionwill/dsh-compactor) ★0 — DSH上下文压缩插件
 - 🟩 `[可用]` [litefuse-dsh-litefuse-plugin](https://github.com/litefuse/dsh-litefuse-plugin) ★0 — DeepSeek Harness Litefuse Plugin for Agent Observability and Evals
 - `[未定位]` **littleblacktong-dsh-plugin-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **liu20030725-dsh-skill-manager** — 占位待复核，判定暂不展示
@@ -910,7 +881,7 @@
 - `[未定位]` **minara-ai-minara-skills** — 占位待复核，判定暂不展示
 - `[未定位]` **minglink-dsh-plugin-agent-workflow** — 占位待复核，判定暂不展示
 - `[未定位]` **misrightw-dsh-agent-teams** — 占位待复核，判定暂不展示
-- `[未定位]` **missher12-dsh-missher-memory** — 占位待复核，判定暂不展示
+- `[未定位]` **mjorgin-dsh-agent-conductor** — 占位待复核，判定暂不展示
 - `[未定位]` **mjorgin-dsh-media-skills** — 占位待复核，判定暂不展示
 - `[未定位]` **mjorgin-dsh-skill-router** — 占位待复核，判定暂不展示
 - `[未定位]` **mjorgin-skill-bartender** — 占位待复核，判定暂不展示
@@ -925,7 +896,7 @@
 - `[未定位]` **muzylink-dsh-subagent-profile** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [my-dsh-dsh-session-attention](https://github.com/my-dsh/dsh-session-attention) ★0 — Session attention overlay plugin for DeepSeek Harness: character dance animation while any session awaits user〔📦〕
 - `[未定位]` **mynameiskcy-dsh-mattpocock-skills** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [naitoupi-prompt-optimizer-plugin](https://github.com/naitoupi/prompt-optimizer-plugin) ★0 — A ✨ button in the DeepSeek Harness composer that rewrites your draft into a clearer prompt.
+- 🟩 `[可用]` [naitoupi-prompt-optimizer-plugin](https://github.com/naitoupi/prompt-optimizer-plugin) ★0 — A ✨ button in the DeepSeek Harness composer that rewrites your draft into a clearer prompt.
 - `[未定位]` **nalleyer-dsh-session-cost** — 占位待复核，判定暂不展示
 - `[未定位]` **nana7mi0721-anima-prompt-caption** — 占位待复核，判定暂不展示
 - `[未定位]` **nana7mi0721-anima-prompt-naturalang** — 占位待复核，判定暂不展示
@@ -935,6 +906,7 @@
 - `[未定位]` **nattocb-dsh-web-search-session-follow** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [navid-kianfar-dsh-voice](https://github.com/navid-kianfar/dsh-voice) ★0 — Dictate prompts into the DeepSeek Harness Web Client — a microphone in the composer, with swappable transcript
 - 🟩 `[可用]` [nb4747-dsh-session-sync](https://github.com/NB4747/dsh-session-sync) ★0 — —
+- `[未定位]` **necromanalbert-dsh-skill-slash-fuzzy** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [nekomona-dsh-plugin-zai-mcp](https://github.com/nekomona/dsh-plugin-zai-mcp) ★0 — 1-click Deepseek Harness plugin for Z.ai coding plan MCPs
 - `[未定位]` **nelsonlongxiang-dsh-prompt-templates** — 占位待复核，判定暂不展示
 - `[未定位]` **neorrrr-dsh-project-skill-paths** — 占位待复核，判定暂不展示
@@ -946,15 +918,12 @@
 - `[未定位]` **nexusagentx-dsh-web-access** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [nicecx-dsh-auto-approver](https://github.com/nicecx/dsh-auto-approver) ★0 — Configurable auto-approval for DeepSeek Harness: intercepts approval/request and answers allowed-once/rejected
 - `[未定位]` **ninjasln-labs-dsh-context-compass** — 占位待复核，判定暂不展示
-- `[未定位]` **ninjasln-labs-dsh-session-slm-router** — 占位待复核，判定暂不展示
-- `[未定位]` **ninjasln-labs-dsh-subagent-cursor** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [niushuanan-dsh-adaptive-update](https://github.com/niushuanan/dsh-adaptive-update) ★0 — Check upstream manually or every six hours, use a narrowly scoped agent for compatibility work, and switch ato
 - ⬜ `[待定]` [niushuanan-dsh-selection-memory](https://github.com/niushuanan/dsh-selection-memory) ★0 — Quote, discuss, or remember selected conversation text, then maintain durable context in separate editable use
 - ⬜ `[待定]` [niushuanan-dsh-teamwork](https://github.com/niushuanan/dsh-teamwork) ★0 — Run collaborating agents and external experts concurrently under one coordinating agent, then bring every resu
 - 🟩 `[可用]` [nodata404-dsh-env-probe](https://github.com/nodata404/dsh-env-probe) ★0 — Zero-dependency DeepSeek Harness plugin: probes the local machine environment and injects it into every sessio
 - `[未定位]` **noelune-dsh-agent-relay** — 占位待复核，判定暂不展示
 - `[未定位]` **noelune-unified-agent-memory** — 占位待复核，判定暂不展示
-- `[未定位]` **noirbright-dsh-external-agents** — 占位待复核，判定暂不展示
 - `[未定位]` **nrxous-dsh-context7** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [nsdmgt-dsh-plugin-user-research](https://github.com/nsdmgt/dsh-plugin-user-research) ★0 — Vertical user-research synthesis plugin for DeepSeek Harness (dsh): turns interview/survey notes into personas
 - 🟩 `[可用]` [null-object-0000-dsh-output-style](https://github.com/null-object-0000/dsh-output-style) ★0 — 会话级输出风格插件：/style 命令 + Web 选择器，改变模型如何呈现答案（default/adhd-friendly/eli5/bluf）
@@ -974,6 +943,7 @@
 - 🟩 `[可用]` [perinchiang-dsh-memory-dashboard](https://github.com/perinchiang/dsh-memory-dashboard) ★0 — DeepSeek Harness embedded read-only viewer for TencentDB Agent Memory's four-layer local memory
 - `[未定位]` **perrylink-dsh-budget** — 占位待复核，判定暂不展示
 - `[未定位]` **perrylink-dsh-session-sync** — 占位待复核，判定暂不展示
+- `[未定位]` **perrylink-dsh-skill-pack-security** — 占位待复核，判定暂不展示
 - `[未定位]` **phant0meow-dsh-meow-memory** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [phoenixlucky-family-lovers-skill](https://github.com/phoenixlucky/family-lovers-skill) ★0 — ❤️ 家庭关怀技能 · 走出原生家庭 — 觉察、疗愈、陪伴
 - 🟩 `[可用]` [phoenixlucky-weiliaozi-skill](https://github.com/phoenixlucky/weiliaozi-skill) ★0 — 尉缭子分析法 - 融汇黄帝、太公望、孙武、吴起、齐桓公五位先贤思想，按本质、条件、得失、先后、对手进行结构化分析的五栏框架
@@ -988,7 +958,7 @@
 - `[未定位]` **qianling-0831-dsh-memory-plus** — 占位待复核，判定暂不展示
 - `[未定位]` **qianrushixiaobai-dsh-agentmonitor** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [qiqiangvae-dsh-my-favorites](https://github.com/qiqiangvae/dsh-my-favorites) ★0 — dsh 收藏夹插件，可以收藏网址和会话，支持快捷键切换会话
-- ⬜ `[待定]` [qiqiangvae-dsh-newbe-plugins](https://github.com/qiqiangvae/dsh-newbe-plugins) ★0 — 个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能
+- 🟩 `[可用]` [qiqiangvae-dsh-newbe-plugins](https://github.com/qiqiangvae/dsh-newbe-plugins) ★0 — 个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能
 - ⬜ `[待定]` [qiuyongjin-dsh-plugin-development](https://github.com/qiuyongjin/dsh-plugin-development) ★0 — Self-contained development skill for dsh (Deepseek Harness) Cordis plugins — tools, services, events, capabili
 - 🟩 `[可用]` [qtimy-dsh-usage-stats](https://github.com/qtimy/dsh-usage-stats) ★0 — Local-session token usage statistics plugin for DeepSeek Harness
 - `[未定位]` **quophic-dsh-persona-memory** — 占位待复核，判定暂不展示
@@ -1003,9 +973,7 @@
 - `[未定位]` **repins-01-math-agent** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [rouyiemei-dsh-plugin-safe-install](https://github.com/rouyiemei/dsh-plugin-safe-install) ★0 — DSH (DeepSeek Harness) plugin bundling the safe plugin-installation skill: audit, install one-by-one, five-lev
 - 🟩 `[可用]` [ruazero-dsh-task-chime](https://github.com/ruazero/dsh-task-chime) ★0 — DSH dynamic Cordis plugin: play a real Windows system sound when an agent task finishes — custom sound, 4 inte
-- 🟩 `[可用]` [ruby1304-dsh-preset-anchored-standard](https://github.com/ruby1304/dsh-preset-anchored-standard) ★0 — Minimal-anchored agent preset for DeepSeek Harness: first-request bash+editor anchor, then full Standard catal
 - `[未定位]` **s-an-shu-dsh-skill-manager** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [s867968286-dsh-preset-md](https://github.com/s867968286/dsh-preset-md) ★0 — 给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆
 - `[未定位]` **saisenbox-dsh-prompt-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [sakka6868-dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) ★0 — —
 - `[未定位]` **savageops-dsh-rich-context** — 占位待复核，判定暂不展示
@@ -1017,12 +985,9 @@
 - 🟩 `[可用]` [seth-hg-dsh-session-port](https://github.com/seth-hg/dsh-session-port) ★0 — dsh-session-port is a DeepSeek Harness plugin that bundles a session — its log, subagents, media, and referenc
 - `[未定位]` **severuszh-dsh-skills-mcp-group-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [shaomingbo-dsh-session-reference-copy](https://github.com/shaomingbo/dsh-session-reference-copy) ★0 — Copy canonical cross-session references from the DeepSeek Harness Web session header.
-- `[未定位]` **shenhuanageshei-dsh-session-link-pro** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [shenhuanageshei-dsh-vision-bridge](https://github.com/shenhuanageshei/dsh-vision-bridge) ★0 — DeepSeek Harness plugin - session screenshots route by model capability: inline for vision models, VLM-read fo
 - `[未定位]` **shiyazhou666-dsh-token-plan-compare** — 占位待复核，判定暂不展示
 - `[未定位]` **shiye-10pages-dsh-memory-porter** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [shiyi-0x7f-dsh-tool-sysinfo](https://github.com/shiyi-0x7f/dsh-tool-sysinfo) ★0 — Read-only system_info tool plugin for DeepSeek Harness agents (OS/CPU/memory/network snapshot)
-- `[未定位]` **shuaihaov-dsh-mcp-skill-control** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [shuxue6662-a11y-dsh-risk-guard](https://github.com/shuxue6662-a11y/dsh-risk-guard) ★0 — Zero-interruption audit + fuse blocking plugin for DeepSeek Harness / 零打扰 Agent 审计与保险丝拦截插件
 - 🟩 `[可用]` [sidleo-agent-instructions-plus](https://github.com/sidleo/agent-instructions-plus) ★0 — —
 - `[未定位]` **sirilee-dsh-approval-hotkeys** — 占位待复核，判定暂不展示
@@ -1033,7 +998,6 @@
 - `[未定位]` **skillnerds-xskill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [skillre-dsh-bundle-vision](https://github.com/skillre/dsh-bundle-vision) ★0 — Zero-core-change vision capability for DeepSeek Harness: the describe_image tool + profile bundle, installable
 - `[未定位]` **skl-666666-image-analysis-skill** — 占位待复核，判定暂不展示
-- ⬜ `[待定]` [softspark-dsh-file-preview](https://github.com/softspark/dsh-file-preview) ★0 — Read-only in-conversation file preview for DeepSeek Harness: a session-authorized host Remote and a sanitizing
 - `[未定位]` **songmiao-tech-dsh-prompt-optimizer** — 占位待复核，判定暂不展示
 - `[未定位]` **sparrived-dsh-plugin-workspace-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **spielewoy-autoprompt-skill** — 占位待复核，判定暂不展示
@@ -1054,8 +1018,6 @@
 - `[未定位]` **tencentcloud-tencentcloud-agentobs-sdk-dsh** — 占位待复核，判定暂不展示
 - `[未定位]` **the-thinker0-math-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **thechengxi-dsh-session-sync** — 占位待复核，判定暂不展示
-- `[未定位]` **thechengxi-dsh-skills-reference** — 占位待复核，判定暂不展示
-- `[未定位]` **theheartfickle-dsh-session-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **theheartfickle-dsh-skill-creator** — 占位待复核，判定暂不展示
 - `[未定位]` **theheartfickle-dsh-solo-agent** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [theinfluencecompany-dsh-realtimeavatar](https://github.com/theinfluencecompany/dsh-realtimeavatar) ★0 — Realtime Avatar (realtimeavatar.ai) for the DeepSeek Harness (dsh): harness-held API key, public docs as skill
@@ -1065,8 +1027,6 @@
 - `[未定位]` **treasure-hub-agent-dsh-story** — 占位待复核，判定暂不展示
 - `[未定位]` **trueriscoacnt-maa-dsh-skill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [tsietsi123-dsh-chat-outline](https://github.com/tsietsi123/dsh-chat-outline) ★0 — DSH 对话大纲插件：右侧悬停展开「提问+回答首句」两级索引，直读会话记录 \| DSH conversation outline plugin: hover the right edge for a two-level
-- `[未定位]` **tt-wang-dsh-agent-swarm** — 占位待复核，判定暂不展示
-- `[未定位]` **tt-wang-dsh-slice-agent-loop** — 占位待复核，判定暂不展示
 - `[未定位]` **tuanmaoovo-dsh-memory-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [tuofangzhe-dsh-plugins](https://github.com/tuofangzhe/dsh-plugins) ★0 — Community plugin registry for DeepSeek Harness (DSH) plugins, Skills & MCP — DSH 插件目录与中文安装配置教程 · 52dsh.com
 - `[未定位]` **tuogusa-dsh-session-nav** — 占位待复核，判定暂不展示
@@ -1097,7 +1057,6 @@
 - `[未定位]` **uckkk-dsh-premium-budget** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [uckkk-dsh-revenue-plan](https://github.com/uckkk/dsh-revenue-plan) ★0 — 销售目标拆解
 - `[未定位]` **uckkk-dsh-route-plan** — 占位待复核，判定暂不展示
-- 🟩 `[可用]` [uckkk-dsh-sleep-debt](https://github.com/uckkk/dsh-sleep-debt) ★0 — 睡眠债务计算
 - 🟩 `[可用]` [uckkk-dsh-sleep-hygiene](https://github.com/uckkk/dsh-sleep-hygiene) ★0 — 睡眠卫生
 - 🟩 `[可用]` [uckkk-dsh-sleep-score](https://github.com/uckkk/dsh-sleep-score) ★0 — 睡眠评估
 - 🟩 `[可用]` [uckkk-dsh-space-plan2](https://github.com/uckkk/dsh-space-plan2) ★0 — 空间规划
@@ -1274,6 +1233,7 @@
 - `[未定位]` **yidien-dsh-session-sight** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [yihefeikong-rgb-dsh-cc-haha-dream](https://github.com/yihefeikong-rgb/dsh-cc-haha-dream) ★0 — DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harnes
 - `[未定位]` **yihefeikong-rgb-dsh-cc-haha-memory** — 占位待复核，判定暂不展示
+- `[未定位]` **yiyuzh-dsh-skillflux** — 占位待复核，判定暂不展示
 - `[未定位]` **yohanchen1-mathmodelingagent** — 占位待复核，判定暂不展示
 - `[未定位]` **ypipaq-dsh-skills-mcp-cli-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **yrracowl-dsh-subagent-conductor** — 占位待复核，判定暂不展示
@@ -1285,10 +1245,8 @@
 - `[未定位]` **yuxuanliang-dev-dsh-plugin-adaptive-agent-pol** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [yzke-dsh-extension-ops](https://github.com/yzke/dsh-extension-ops) ★0 — Read-only extension operations standard for DeepSeek Harness agents
 - 🟩 `[可用]` [zbsph-dsh-j-space-warm](https://github.com/zbsph/dsh-j-space-warm) ★0 — J-Space First V3 Warm agent preset plugin for DeepSeek Harness (dsh): anchored two-phase bootstrap + warm-up r
-- ⬜ `[待定]` [zc679087-dsh-skill-preferences](https://github.com/zc679087/dsh-skill-preferences) ★0 — 一个可以管理DSH上安装的skill的插件，可以动态开关skill来防止误触发
 - `[未定位]` **zekaishi-evo-subagent** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zeros335882878-dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) ★0 — Literature survey agent for DeepSeek Harness (dsh): interpret-first workflow, 3 skills (paper-survey / paper-i
-- ⬜ `[待定]` [zhang-guo-wen-dsh-claude-compat](https://github.com/zhang-guo-wen/dsh-claude-compat) ★0 — deepseek harness 插件，兼容claude的skill、rules加载规则，mcp配置
 - `[未定位]` **zhang-zhengyuan-dsh-memory-amem** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zhao-wuyan-dsh-maestro-runtime](https://github.com/zhao-wuyan/dsh-maestro-runtime) ★0 — DSH host plugin for maestro-flow: guard, context, KG sync, delegate/team/coordinator runtime
 - 🟩 `[可用]` [zhaoyilun-dsh-preset-flash-director](https://github.com/zhaoyilun/dsh-preset-flash-director) ★0 — Flash 主控 · Pro 专家 — DeepSeek Harness agent preset: flash orchestrator + pro (deepseek-v4-pro) expert subagents
@@ -1309,10 +1267,15 @@
 - 🟩 `[可用]` [zoyluoblue-deepseek-harness-replay](https://github.com/zoyluoblue/deepseek-harness-replay) ★0 — Export any DeepSeek Harness session as a self-contained, replayable HTML transcript · 把 dsh 会话导出成自包含、可回放的 HTML
 - `[未定位]` **zzhang82-agent-memory-bridge** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zzy-cl-dsh-prompt-optimizer](https://github.com/zzy-cl/dsh-prompt-optimizer) ★0 — —
-- ⬜ `[待定]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
 - `[未定位]` **zzzzkd-dsh-prompt-rail** — 占位待复核，判定暂不展示
 - `[未定位]` **zzzzzzzll-dsh-skill-manager** — 占位待复核，判定暂不展示
-- `[未定位]` **jcs130-dsh-minecraft-agent** — 占位待复核，判定暂不展示
+- `[未定位]` **goodandready-dsh-session-control** — 占位待复核，判定暂不展示
+- ⬜ `[待定]` [hawk2048-oh-my-dsh](https://github.com/hawk2048/oh-my-dsh) ★0 — oh-my-dsh: OMC-style multi-agent orchestration for DeepSeek Harness — 29 workflow skills + 12 /omd-* slash com
+- ⬜ `[待定]` [s867968286-dsh-preset-md](https://github.com/s867968286/dsh-preset-md) ★0 — 给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆
+- `[未定位]` **thechengxi-dsh-skills-reference** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [uckkk-dsh-sleep-debt](https://github.com/uckkk/dsh-sleep-debt) ★0 — 睡眠债务计算
+- ⬜ `[待定]` [zc679087-dsh-skill-preferences](https://github.com/zc679087/dsh-skill-preferences) ★0 — 一个可以管理DSH上安装的skill的插件，可以动态开关skill来防止误触发
+- ⬜ `[待定]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
 - `[未定位]` **uckkk-dsh-air-plant** — 占位待复核，判定暂不展示
 - `[未定位]` **uckkk-dsh-backup-plan** — 占位待复核，判定暂不展示
 - `[未定位]` **uckkk-dsh-budget-plan** — 占位待复核，判定暂不展示
@@ -1748,26 +1711,30 @@
 - ⬜ `[未测]` [dsh-minimal-ptc](https://github.com/stardustlc666/dsh-minimal-ptc) — 极简 PTC 模式 Agent 预设：一句 RL 对齐提示词 + PTC 全量工具，安装即物化到用户预设目录，不覆盖用户自建预设
 - ⬜ `[未测]` [dsh-click](https://github.com/perrylink/dsh-click) ★0 — Windows 优先的原生桌面控制：截图、无障碍树结构化读取、点击/输入/滚动/按键、应用启动，变更性操作过审批门禁、屏幕变化拒绝执行、操作前后校验进程身份
 - ⬜ `[未测]` [dsh-translate](https://github.com/perrylink/dsh-translate) ★0 — 厂商参数翻译与确定性 JSON 修复：/translate 命令映射 11 家厂商的 13 个规范参数；post-execute 修复层 + fix_json 工具修复工具输出中的坏 JSON（转义/去尾逗号/截断闭合/null 占位补全），绝不编造数据
-- 🟨 `[不兼容]` [mem9-ai-mem9](https://github.com/mem9-ai/mem9) ★1217 — Unlimited memory for OpenClaw
+- 🟨 `[不兼容]` [mem9-ai-mem9](https://github.com/mem9-ai/mem9) ★1218 — Unlimited memory for OpenClaw
 - 🟨 `[不兼容]` [agentrq-agentrq](https://github.com/agentrq/agentrq) ★1133 — AgentRQ: Human-in-loop realtime conversational task manager for AI Agents
 - 🟨 `[不兼容]` [anionex-agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) ★932 — —
 - 🟨 `[不兼容]` [toby-bridges-api-relay-audit](https://github.com/toby-bridges/api-relay-audit) ★809 — Local security audit for AI API relays and LLM proxies: detects prompt injection, model substitution, tool-cal
-- 🟨 `[不兼容]` [adoresever-graph-memory](https://github.com/adoresever/graph-memory) ★627 — Deepseek Harness、Openclaw知识图谱记忆插件
+- 🟨 `[不兼容]` [jingyunstudio-jingyun-dsh](https://github.com/jingyunstudio/jingyun-dsh) ★643 — 基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端
+- 🟨 `[不兼容]` [adoresever-graph-memory](https://github.com/adoresever/graph-memory) ★628 — Deepseek Harness、Openclaw知识图谱记忆插件
 - 🟨 `[不兼容]` [superdesigndev-treg](https://github.com/superdesigndev/treg) ★612 — OpenRouter for agent tools
+- 🟨 `[不兼容]` [vibeinging-dsh-desktop](https://github.com/vibeinging/dsh-desktop) ★587 — DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, pl
 - 🟨 `[不兼容]` [nutshellai-tech-mobius](https://github.com/nutshellai-tech/mobius) ★553 — The first self-evolving open-source Agent OS, connecting your team, AI agents, devices, and compute
-- 🟨 `[不兼容]` [zhoushoujianwork-easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) ★544 — 嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入
-- 🟨 `[不兼容]` [text2future-flowix](https://github.com/text2future/flowix) ★435 — Notes for you, Memory for your agents
+- 🟨 `[不兼容]` [zhoushoujianwork-easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) ★541 — 嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入
+- 🟨 `[不兼容]` [text2future-flowix](https://github.com/text2future/flowix) ★434 — Notes for you, Memory for your agents
 - 🟨 `[不兼容]` [linhay-harmony-next-skills](https://github.com/linhay/harmony-next.skills) ★323 — —
 - 🟨 `[不兼容]` [cofy-x-axern](https://github.com/cofy-x/axern) ★167 — Secure, reproducible sandboxes for AI agent evaluation, training, and data synthesis.
 - 🟨 `[不兼容]` [jigjoy-ai-baro](https://github.com/jigjoy-ai/baro) ★124 — A CLI that turns a goal into a pull request - and a sandbox for testing concurrent AI coding agents on the Moz
 - 🟨 `[不兼容]` [qkycir-123-dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) ★109 — Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.
 - 🟨 `[不兼容]` [aa2246740-dsh-watcher](https://github.com/aa2246740/dsh-watcher) ★96 — Read-only Agent work-path observer for DeepSeek Harness
+- 🟨 `[不兼容]` [melandlabs-opencontext](https://github.com/melandlabs/opencontext) ★76 — A temporal context graph, a memory API, retrieval primitives, and a multiple-platform integration mesh — desig
 - 🟨 `[不兼容]` [dream12347-dsh-session-manager](https://github.com/dream12347/dsh-delete-session) ★68 — DSH 会话管理插件：删除（回收站恢复/彻底清除）、统计、继续/暂停、打开日志目录、对话顶部抽屉、工作区分组与排序、上下文压缩阈值设置
 - 🟨 `[不兼容]` [pingfanfan-hello-dsh](https://github.com/pingfanfan/hello-dsh) ★59 — 从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）\| Zero-to-plugin tutorial for DeepSeek Harness
 - 🟨 `[不兼容]` [lamost423-dsh-trace-compare](https://github.com/lamost423/dsh-trace-compare) ★47 — Trace Compare & Live Maze for DeepSeek Harness: visualize agent exploration (main path, detours, backtracks) f
 - 🟨 `[不兼容]` [mstar-harness](https://github.com/btspoony/mstar-harness) ★46 — An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills.
 - 🟨 `[不兼容]` [dsh-automation](https://github.com/titanwings/dsh-automation) ★45 — DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务
 - 🟨 `[不兼容]` [upstash-box](https://github.com/upstash/box) ★39 — TypeScript SDK and CLI for Upstash Box — sandboxed AI coding agents
+- 🟨 `[不兼容]` [wowyuarm-dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) ★39 — dsh-agent-team gives DeepSeek Harness agents that don't reset: durable Members with their own memory, notes, a
 - 🟨 `[不兼容]` [limuyang2-agent-team](https://github.com/limuyang2/agent-team) ★37 — Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and
 - 🟨 `[不兼容]` [dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) ★30 — Connect DSH to your database for conversational data analysis and actionable business insights.
 - 🟨 `[不兼容]` [upstash-skills](https://github.com/upstash/skills) ★28 — Collection of skills for Upstash
@@ -1775,7 +1742,7 @@
 - 🟨 `[不兼容]` [atlascloudai-atlas-cloud-skills](https://github.com/AtlasCloudAI/atlas-cloud-skills) ★22 — —
 - 🟨 `[不兼容]` [yuntaihua-illusion-agent](https://github.com/YunTaiHua/illusion-agent) ★22 — —
 - 🟨 `[不兼容]` [baihejiangnan-dsh-session-context-menu](https://github.com/baihejiangnan/dsh-session-context-menu) ★20 — 更好的右键：DeepSeek Harness 应用封装端的完整原生风格上下文菜单
-- 🟨 `[不兼容]` [weishao2-tizhuang-agent-skills](https://github.com/weishao2/tizhuang-agent-skills) ★19 — 2000万+中小学K12真题题库 Skill：免费注册、免费抽题、教材/章节/知识点检索、练习测验与AI智能组卷
+- 🟨 `[不兼容]` [weishao2-tizhuang-agent-skills](https://github.com/weishao2/tizhuang-agent-skills) ★18 — 2000万+中小学K12真题题库 Skill：免费注册、免费抽题、教材/章节/知识点检索、练习测验与AI智能组卷
 - 🟨 `[不兼容]` [ai-shushu-dsh-quota-meter](https://github.com/ai-shushu/dsh-quota-meter) ★16 — Per-session quota meter for DSH: real-token billing, live progress bar, budget blocking, configurable multi-mo
 - 🟨 `[不兼容]` [dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) ★14 — 🐋 鲸鱼记事本 — 你的 Agent 年度报告：从会话事件日志生成日报/周报/月报/年报，任意区间、只读不改写
 - 🟨 `[不兼容]` [ayuanwong-dsh-ux](https://github.com/ayuanwong/dsh-ux) ★13 — 长任务，不刷屏：关键进度清晰可见，完成后自动折叠，详情随时展开〔📦〕
@@ -1783,22 +1750,24 @@
 - 🟨 `[不兼容]` [huxint-dsh-team](https://github.com/huxint/dsh-team) ★13 — Agent teams for DeepSeek Harness: named long-lived teammates over ctx.subagents, a shared task list, a member-
 - 🟨 `[不兼容]` [project-blueprint](https://github.com/shuguang1994/project-blueprint) ★13 — Make any project AI-agent-ready in one command
 - 🟨 `[不兼容]` [tancheng33-dsh-ontology](https://github.com/tancheng33/dsh-ontology) ★13 — A typed, inference-capable ontology (TBox + ABox) plugin for DeepSeek Harness — durable domain knowledge the a
-- 🟨 `[不兼容]` [webkubor-dsh-mirror](https://github.com/webkubor/dsh-mirror) ★13 — Let the AI know you
 - 🟨 `[不兼容]` [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) ★13 — DSH plugin: edit the system prompt (deployment persona) from the Settings page, with live preview.
 - 🟨 `[不兼容]` [chunsi-w-dsh-trajectory-governor](https://github.com/chunsi-w/dsh-trajectory-governor) ★12 — Closed-loop trajectory policy plane for DeepSeek Harness
 - 🟨 `[不兼容]` [dsh-plugins-dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) ★11 — Auxiliary models for DeepSeek Harness: vision understanding and context compression through dedicated model ro
 - 🟨 `[不兼容]` [lcgash-dsh-plugin-uw](https://github.com/lcgash/dsh-plugin-uw) ★11 — Merge multiple directories into one DSH session with configurable write scopes: primary only, all members via
 - 🟨 `[不兼容]` [madage-dsh-self-improved](https://github.com/madage/dsh-self-improved) ★11 — DeepSeek Harness long-term memory & self-evolving plugin: L0 capture -> L1 memory extraction -> L2 scene group
 - 🟨 `[不兼容]` [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) ★11 — DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告
+- 🟨 `[不兼容]` [webkubor-dsh-mirror](https://github.com/webkubor/dsh-mirror) ★11 — Let the AI know you
 - 🟨 `[不兼容]` [dhicoc-dsh-chinese-traditional-wisdom-skill](https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill) ★10 — 中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行
 - 🟨 `[不兼容]` [lincong1987-dsh-model-switch](https://github.com/lincong1987/dsh-model-switch) ★10 — dsh plugin: flexible model switch for sub‑agent & plan execution
 - 🟨 `[不兼容]` [platonai-dsh-browser4](https://github.com/platonai/dsh-browser4) ★10 — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web auto
+- 🟨 `[不兼容]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - 🟨 `[不兼容]` [ccch713-deepddw](https://github.com/ccch713/deepddw) ★9 — DSH for Teams — Deploy DSH once on your LAN; memory, knowledge base & document search included
 - 🟨 `[不兼容]` [jiazz197-cmyk-omd-dsh](https://github.com/jiazz197-cmyk/omd-dsh) ★9 — Multi-mode agent presets for DeepSeek Harness — per-mode model routing + tiered subagent delegation.
 - 🟨 `[不兼容]` [morlay-better-session](https://github.com/morlay/better-session) ★9 — better session
 - 🟨 `[不兼容]` [wally8-8-dsh-done-whale](https://github.com/wally8-8/dsh-done-whale) ★9 — DeepSeek Harness 插件：标签页鲸鱼状态灯 —— 会话完成变绿，有待处理交互变琥珀
 - 🟨 `[不兼容]` [homily707-dsh-session-header](https://github.com/homily707/dsh-session-header) ★8 — —
 - 🟨 `[不兼容]` [whutzefengxie-ops-dsh-shadow-mind](https://github.com/whutzefengxie-ops/dsh-shadow-mind) ★8 — Independent Shadow agent orchestration plugin for DeepSeek Harness
+- 🟨 `[不兼容]` [boe1900-owndsh](https://github.com/boe1900/owndsh) ★7 — The Self-Hosted Control Plane for DeepSeek-Harness
 - 🟨 `[不兼容]` [chipweaver-veripower](https://github.com/chipweaver/veripower) ★7 — An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end sig
 - 🟨 `[不兼容]` [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) ★7 — 可配置子代理 profile 系统，单一 subagent 工具 + profile 参数，含 Web UI 设置/实时进度/子代理树 \| Configurable subagent profile system: si
 - 🟨 `[不兼容]` [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) ★7 — DeepSeek Harness record macOS desktop workflows by demonstration and turn them into agent skills (open-record-
@@ -1810,13 +1779,16 @@
 - 🟨 `[不兼容]` [dddfxyqiming-agent-extensions](https://github.com/DDDFXYqiming/Agent_Extensions) ★5 — —
 - 🟨 `[不兼容]` [flg1217-dsh-llm-agy](https://github.com/flg1217/dsh-llm-agy) ★5 — AGY (Antigravity CLI) integration for DeepSeek Harness: LLM adapter subagents, deep web search, connectivity d
 - 🟨 `[不兼容]` [lhwu1-dsh-withskillhub](https://github.com/lhwu1/dsh-withskillhub) ★5 — 携手skillhub，快捷安装启用丰富的skill，一键装配方便快捷
+- 🟨 `[不兼容]` [nickkkkkk123123-dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) ★5 — 鲸鱼娘·灵动挂件 — 会卖萌、会记账、会弹跳的 DSH 桌面挂件插件（余额/用量/上下文/峰谷/右键菜单/拖动甩抛）
 - 🟨 `[不兼容]` [nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) ★5 — One memory layer for every AI tool and agent, packaged for DeepSeek Harness
+- 🟨 `[不兼容]` [onenameneo-dsh-plugin-loom-chat](https://github.com/onenameneo/dsh-plugin-loom-chat) ★5 — Loom Chat is a DSH Web client plugin that turns linear ordinary sessions into a pannable, zoomable Loom-style
 - 🟨 `[不兼容]` [dsh-ssh](https://github.com/UynajGI/dsh-ssh) ★5 — SSH remote-execution plugin for DeepSeek Harness: ProxyJump chain, SFTP filesystem, subprocess and PTY over ss
 - 🟨 `[不兼容]` [1514100951-dsh-usage-footer](https://github.com/1514100951/dsh-usage-footer) ★4 — DSH web 用量/费用悬浮按钮插件：账户余额、峰谷时段、今日/本会话消费估算与 token 统计（含设置开关）
+- 🟨 `[不兼容]` [alpacachen-dsh-automation](https://github.com/alpacachen/dsh-automation) ★4 — Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness
 - 🟨 `[不兼容]` [asaiuta-dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) ★4 — —
 - 🟨 `[不兼容]` [d86e-dsh-doctor](https://github.com/d86e/dsh-doctor) ★4 — dsh-doctor: self-healing watchdog for the DeepSeek Harness web profile
+- 🟨 `[不兼容]` [kuun993-dsh-loop-engine](https://github.com/kuun993/dsh-loop-engine) ★4 — —
 - 🟨 `[不兼容]` [megatronyy-dsh-tradingagents](https://github.com/megatronyy/dsh-tradingagents) ★4 — TradingAgents for DeepSeek Harness: the 14-role A-share multi-agent analysis pipeline behind /trading-agent
-- 🟨 `[不兼容]` [mjylfz-dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) ★4 — 把其他 Agent 的技能一键搬进 DeepSeek Harness：支持 14 个平台 + 共享层识别、同名技能合并、不重复搬运、可回滚
 - 🟨 `[不兼容]` [monotykamary-dsh-factory](https://github.com/monotykamary/dsh-factory) ★4 — Durable dependency-graph task factory for DeepSeek Harness: recurring Agent work, safe checkout lanes, first-c
 - 🟨 `[不兼容]` [dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) ★4 — DSH book-to-skill plugin: a 5-stage long task (fetch → parse → understand → generate → install) with 3 human g
 - 🟨 `[不兼容]` [toustifer-agentflow](https://github.com/toustifer/agentflow) ★4 — Lightweight task state machine engine with MCP stdio interface
@@ -1838,8 +1810,8 @@
 - 🟨 `[不兼容]` [towzai-dsh-memory](https://github.com/Towzai/dsh-memory) ★3 — —
 - 🟨 `[不兼容]` [watericetangcw-dsh-session-pause](https://github.com/watericetangcw/dsh-session-pause) ★3 — A Cordis plugin for DeepSeek Harness that suspends the entire conversation state and resumes it after restart.
 - 🟨 `[不兼容]` [yimeng-dev-dsh-traffic-light](https://github.com/yimeng-dev/dsh-traffic-light) ★3 — Multi-session agent status monitor for DeepSeek Harness.
-- 🟨 `[不兼容]` [yingjian666-dsh-zh-thinking](https://github.com/yingjian666/dsh-zh-thinking) ★3 — DeepSeek Harness (dsh) 插件：注入系统提示词，强制 Agent 的思维链 / 规划 / 工具推理全程使用简体中文，防止中文思考漂移为英文
 - 🟨 `[不兼容]` [yjh051108-dsh-engram-relay](https://github.com/yjh051108/dsh-engram-relay) ★3 — dsh-engram-relay 公开镜像（上游：dsh-external/dsh-engram-relay）：跨会话分层记忆 + 哈希×语义×因果超稀疏唤醒，13 个 engram_* 工具，BSD-3-Clause
+- 🟨 `[不兼容]` [yingjian666-dsh-zh-thinking](https://github.com/yingjian666/dsh-zh-thinking) ★3 — DeepSeek Harness (dsh) 插件：注入系统提示词，强制 Agent 的思维链 / 规划 / 工具推理全程使用简体中文，防止中文思考漂移为英文
 - 🟨 `[不兼容]` [statem-li-dsh-triad](https://github.com/statem-li/dsh-triad) ★3 — 用量趋势 · 技能与 MCP Server 管理 · 自动沉淀的长期记忆——一套插件装齐 DSH 三个工作台
 - 🟨 `[不兼容]` [173787247-dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) ★2 — Inject WSL/Windows path and shell facts into the DeepSeek Harness system prompt.
 - 🟨 `[不兼容]` [21hbguo-dsh-thinking-counter](https://github.com/21hbguo/dsh-thinking-counter) ★2 — DSH「大胖鲸智商检测器」：Thinking 短语检测统计 · 全会话 reasoning 短语命中/分组/聪明程度判定
@@ -1862,9 +1834,11 @@
 - 🟨 `[不兼容]` [goecho-dsh-generation](https://github.com/goecho/dsh-generation) ★2 — Fork agent presets and run tasks on the next generation
 - 🟨 `[不兼容]` [hccccc01333-dsh-eval](https://github.com/hccccc01333/dsh-eval) ★2 — Agent evaluation platform for DeepSeek Harness: benchmark YAML, headless dsh orchestration, trace-based metric
 - 🟨 `[不兼容]` [hzthzt-dsh-skill-switch](https://github.com/hzthzt/dsh-skill-switch) ★2 — Windows Junction-based global Skill switcher for DeepSeek Harness Web.
+- 🟨 `[不兼容]` [inmny-dsh-continue](https://github.com/inmny/dsh-continue) ★2 — 为 DeepSeek Harness 增加一个直接续跑按钮
 - 🟨 `[不兼容]` [jarvisluk-dsh-projectless-session](https://github.com/jarvisluk/dsh-projectless-session) ★2 — Projectless sessions for DeepSeek Harness with isolated date-organized working directories
 - 🟨 `[不兼容]` [jonah791-dsh-agent-memory](https://github.com/jonah791/dsh-agent-memory) ★2 — Agent-driven long-term memory for DeepSeek Harness: scoped memory (global + per-workspace), layered entries (f
 - 🟨 `[不兼容]` [junwei529-work-charter-dsh](https://github.com/junwei529/work-charter-dsh) ★2 — DSH-native Work Charter policy plugin backed by session-coordinator-dsh
+- 🟨 `[不兼容]` [kirbylynx-deepshell-agent](https://github.com/kirbylynx/deepshell-agent) ★2 — A desktop agent powered by DeepSeek Harness.
 - 🟨 `[不兼容]` [ktdhhc-dsh-custom-subagents](https://github.com/ktdhhc/dsh-custom-subagents) ★2 — 一个dsh的子agent控制插件
 - 🟨 `[不兼容]` [leaveimagination-dsh-qwen-voice](https://github.com/leaveimagination/dsh-qwen-voice) ★2 — Voice control and multi-session task dispatch for DeepSeek Harness, powered by Qwen Audio Agent
 - 🟨 `[不兼容]` [dsh-plugin-longgraph](https://github.com/levi-qiao/dsh-plugin-longgraph) ★2 — DeepSeek Harness community plugin: longgraph / loop-graph / loop-converge authoring skills on ctx.skills
@@ -1880,9 +1854,11 @@
 - 🟨 `[不兼容]` [sixtysevenlf-dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) ★2 — dsh-cost-guard — DeepSeek 成本守卫插件：会话成本核算（官方峰谷费率）、¥ 预算守卫、收敛引导、峰谷错峰队列；附对比测试报告
 - 🟨 `[不兼容]` [dsh-role-router](https://github.com/SnowAmberX/dsh-role-router) ★2 — Role-based model routing plugin for DeepSeek Harness: planner/subagent roles plus a settings card and composer
 - 🟨 `[不兼容]` [mindspace-dsh-session-memory](https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory) ★2 — —
+- 🟨 `[不兼容]` [ssmurfgg04-gif-context-m](https://github.com/ssmurfgg04-gif/context-m) ★2 — Deterministic agent memory
 - 🟨 `[不兼容]` [dsh-capability-inspector](https://github.com/tree201/dsh-capability-inspector) ★2 — DeepSeek Harness Doctor and DSH runtime diagnostics for tools, models, skills, workspaces, sessions, plugins,
 - 🟨 `[不兼容]` [v-quest123456-dsh-smart-input](https://github.com/v-quest123456/dsh-smart-input) ★2 — 智能输入插件 for DeepSeek Harness — 语音输入 + 提示词优化
 - 🟨 `[不兼容]` [weiwang988-dsh-session-spend](https://github.com/weiwang988/dsh-session-spend) ★2 — DSH 客户端插件：实时会话花费（¥）· 官方峰谷计价 + 节省分解 DSH client plugin: live session cost readout (¥) with official DeepSeek pea
+- 🟨 `[不兼容]` [winston-hoo-dsh-spec-forge](https://github.com/winston-hoo/dsh-spec-forge) ★2 — 一个 DeepSeek Harness（dsh）插件，把模糊的编程需求锻造成可执行规格，并在每次任务完成后沉淀为会自动复用的个人提示词模板库
 - 🟨 `[不兼容]` [wxxb789-dsh-legion](https://github.com/wxxb789/dsh-legion) ★2 — Multi-agent orchestration and LLM model routing for DeepSeek Harness (DSH): semantic AI agent profiles, exact
 - 🟨 `[不兼容]` [dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) ★2 — DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh
 - 🟨 `[不兼容]` [dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) ★2 — Structured long-term memory system for DeepSeek Harness
@@ -1932,17 +1908,18 @@
 - 🟨 `[不兼容]` [lco117-dsh-peak-hours](https://github.com/lco117/dsh-peak-hours) ★1 — A DeepSeek Harness plugin that displays a peak-hours status badge in the session header.
 - 🟨 `[不兼容]` [libiwolve-dsh-experience-library](https://github.com/libiwolve/dsh-experience-library) ★1 — dsh-experience-library: 更有经验的 DeepSeek - 经验验证固化层(实时采集/加工/三层检验/技能书/benchmark验证)
 - 🟨 `[不兼容]` [liqiming-whu-dsh-environment-context](https://github.com/liqiming-whu/dsh-environment-context) ★1 — Real-time environment context plugin for DeepSeek Harness
+- 🟨 `[不兼容]` [liudejua27-blip-fitmeet-dsh-plugin](https://github.com/liudejua27-blip/fitmeet-dsh-plugin) ★1 — FitMeet for DeepSeek Harness · Find people, shared interests and opportunities with your Agent
 - 🟨 `[不兼容]` [lizhecome-deepseek-harness-tool-palette](https://github.com/lizhecome/deepseek-harness-tool-palette) ★1 — Progressive tool discovery and per-agent unlocking for DeepSeek Harness
 - 🟨 `[不兼容]` [lninghaha-dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) ★1 — DSH Web plugin: Usage Center with Hub snapshots and cost analytics, coding-plan OAuth, and optional loopback O
 - 🟨 `[不兼容]` [luca3xxvsoo-dsh-extra-plan](https://github.com/luca3xxvsoo/dsh-extra-plan) ★1 — —
 - 🟨 `[不兼容]` [meisam2236-agent-board](https://github.com/meisam2236/agent-board) ★1 — Track and manage AI agents with a durable per-workspace board for the DeepSeek Harness web profile.
+- 🟨 `[不兼容]` [memorax-ai-dsh-patchouli](https://github.com/memorax-agent/dsh-patchouli) ★1 — Agent knowledge hub and deepseek-harness plugin
 - 🟨 `[不兼容]` [mkt-agents-dsh-desktop](https://github.com/mkt-agents/dsh-desktop) ★1 — 基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端
 - 🟨 `[不兼容]` [mrme000m-dsh-prime-orchestrator](https://github.com/mrme000m/dsh-prime-orchestrator) ★1 — Prime Agent orchestration for DeepSeek Harness (dsh): delegation engine, prime_agent tool, Web fleet column, s
 - 🟨 `[不兼容]` [oh-my-engine-dsh-plugin-oh-my-engine](https://github.com/oh-my-engine/dsh-plugin-oh-my-engine) ★1 — Approval-gated OME engineering delivery Agent Preset for DeepSeek Harness
 - 🟨 `[不兼容]` [omdsh-dev-dsh-skill-stats](https://github.com/omdsh-dev/dsh-skill-stats) ★1 — Skill usage statistics plugin for DSH (community mirror)
 - 🟨 `[不兼容]` [ottotheagent-otto-dsh](https://github.com/ottotheagent/otto-dsh) ★1 — Book real flights, hotels & cars with Otto from DeepSeek Harness (dsh) — the otto-travel MCP connector as a ds
 - 🟨 `[不兼容]` [player-yn-dsh-agent-driver-writehere](https://github.com/Player-YN/dsh-agent-driver-writehere) ★1 — —
-- 🟨 `[不兼容]` [quan-v-dsh-safe-gate](https://github.com/quan-v/dsh-safe-gate) ★1 — dsh 装前守门:OSV 供应链扫描 + 插件契约检查
 - 🟨 `[不兼容]` [dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) ★1 — Developer tool: live token usage & cost monitoring for DeepSeek Harness - consumed tokens for the current sess
 - 🟨 `[不兼容]` [raktim-mondol-dsh-researchcraft](https://github.com/raktim-mondol/dsh-researchcraft) ★1 — ResearchCraft as a DeepSeek Harness (DSH) profile plugin: research persona, scientific skills catalogue, livin
 - 🟨 `[不兼容]` [rand0wn-dsh-wrapped](https://github.com/rand0wn/dsh-wrapped) ★1 — DeepSeek Harness (dsh) plugin: /wrapped generates a shareable SVG summary card for the current session
@@ -1988,9 +1965,11 @@
 - `[未定位]` **asaiuta-reverse-workbench-skill** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [autonomous-ai-deepseek-harness-cli](https://github.com/autonomous-ai/deepseek-harness-cli) ★0 — —
 - 🟨 `[不兼容]` [avaritiachaos-dsh-plugin-memory](https://github.com/avaritiachaos/dsh-plugin-memory) ★0 — —
+- 🟨 `[不兼容]` [awol2005ex3-dsh-user-manager](https://github.com/awol2005ex3/dsh-user-manager) ★0 — DeepSeek Harness（`dsh`）插件：为单机的 harness 增加**用户管理**与**会话按用户隔离**
 - 🟨 `[不兼容]` [axdlee-dsh-yeelight-smart-home](https://github.com/axdlee/dsh-yeelight-smart-home) ★0 — DeepSeek Harness plugin: Yeelight smart home control via the local yeelight-home runtime (skill, tools, settin
 - `[未定位]` **baikai23333-dsh-skills-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **bakacirno233-dsh-session-delete** — 占位待复核，判定暂不展示
+- `[未定位]` **benz-ai-x-dsh-session-graph** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [bf185003-dsh-favicon-status](https://github.com/bf185003/dsh-favicon-status) ★0 — Browser tab status indicator plugin for DeepSeek Harness (dsh web): paints the document favicon from the sessi
 - 🟨 `[不兼容]` [bigstyle777-dsh-tool-arxiv](https://github.com/bigstyle777/dsh-tool-arxiv) ★0 — arXiv preprint search tool for DeepSeek Harness agents — abstracts only, token-bounded
 - 🟨 `[不兼容]` [bill084153-cell-dsh-knowledge-forge](https://github.com/bill084153-cell/dsh-knowledge-forge) ★0 — DeepSeek Harness (DSH) plugin for local-first automatic Wiki memory and native Skill generation.
@@ -2003,7 +1982,6 @@
 - `[未定位]` **cjl-1995-dsh-memory-self-evolution** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [coffee-man666-dsh-lens](https://github.com/coffee-man666/dsh-lens) ★0 — Repository and agent-runtime analysis skills as an installable DeepSeek Harness (dsh) plugin
 - `[未定位]` **cryonnan-gatecraft-math-modeling-skills** — 占位待复核，判定暂不展示
-- `[未定位]` **cuteg41cute-dsh-memory-db** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [cutesamurai24-dsh-md-memory](https://github.com/CuteSamurai24/dsh-md-memory) ★0 — —
 - `[未定位]` **cyphernaught-0x-dsh-subagent-model-router** — 占位待复核，判定暂不展示
 - `[未定位]` **czerror-dsh-plugin-prompt-tool** — 占位待复核，判定暂不展示
@@ -2011,6 +1989,7 @@
 - `[未定位]` **dat-lequoc-dsh-subagent-model** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [davidgereb-dsh-plugin-watchdog](https://github.com/davidgereb/dsh-plugin-watchdog) ★0 — Restart your ongoing agent sessions once on server restart in DeepSeek Harness.
 - `[未定位]` **dddfxyqiming-dsh-layered-memory** — 占位待复核，判定暂不展示
+- `[未定位]` **dddfxyqiming-dsh-session-recap** — 占位待复核，判定暂不展示
 - `[未定位]` **dddfxyqiming-dsh-vision-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **decarbonizedglucose-dsh-memory-note** — 占位待复核，判定暂不展示
 - `[未定位]` **diluka-dsh-agent-plugin-market** — 占位待复核，判定暂不展示
@@ -2025,22 +2004,29 @@
 - 🟨 `[不兼容]` [fan969690-dsh-web-plugins](https://github.com/fan969690/dsh-web-plugins) ★0 — 🧩 DSH 模块中心开源框架:右侧模块化桌面,宫格排布任意模块,自定义尺寸 1x1~2x6,长按拖动换位,开放模块协议(插件注册即显示)+ 插件社区 + Agent 社区(270 中文预设)
 - 🟨 `[不兼容]` [fatatalia-dsh-dreaming](https://github.com/fatatalia/dsh-dreaming) ★0 — dsh 梦境记忆整合插件：凌晨随机窗口把记忆梦境化（裸上下文 narrative 纯梦写作）+ 信号驱动洞察晋升 + MEMORY.md 预算管理，随 dsh web 启停
 - 🟨 `[不兼容]` [fatatalia-dsh-turn-guard](https://github.com/fatatalia/dsh-turn-guard) ★0 — dsh turn-guard plugin: per-step timeout for agent turns (防模型退化死循环)
+- `[未定位]` **featherhunter-dsh-mattpocock-skills-deck** — 占位待复核，判定暂不展示
 - `[未定位]` **featherhunter-dsh-prompt** — 占位待复核，判定暂不展示
 - `[未定位]` **featherhunter-skills** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [fengyufengzi-dsh-local-diagnostics](https://github.com/fengyufengzi/dsh-local-diagnostics) ★0 — Privacy-first in-memory diagnostics for DeepSeek Harness
 - 🟨 `[不兼容]` [fentz26-dsh-goodjob](https://github.com/fentz26/dsh-goodjob) ★0 — Multi-agent operations workspace for DeepSeek Harness.
 - `[未定位]` **firestige-execution-system** — 占位待复核，判定暂不展示
 - `[未定位]` **fishsb-dsh-prompt-enhancer** — 占位待复核，判定暂不展示
+- `[未定位]` **fishsb-dsh-shoucang-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [fjzzwxp-dsh-mnemosyne-memory](https://github.com/fjzzwxp/dsh-mnemosyne-memory) ★0 — Mnemosyne 永久记忆插件 - 为 DSH 提供长期记忆、向量搜索和 LLM 反思功能，对标 Hindsight Coding Agents
 - 🟨 `[不兼容]` [flowingboy-dsh-local-perf](https://github.com/flowingboy/dsh-local-perf) ★0 — Durable DeepSeek Harness bundle: local-model performance tuning as a re-installable plugin layer (compaction,
 - `[未定位]` **frank-nf-dsh-memory-nexus** — 占位待复核，判定暂不展示
+- `[未定位]` **franklinzanedurant-agent-discipline** — 占位待复核，判定暂不展示
 - `[未定位]` **friendshl-dsh-agent-evolution** — 占位待复核，判定暂不展示
 - `[未定位]` **frog755-dsh-hybrid-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [frozo-ai-dsh-budget](https://github.com/frozo-ai/dsh-budget) ★0 — Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback
 - `[未定位]` **geralt4-dsh-plugin-session-delete** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ghbhiee-dsh-plugin-cli-session](https://github.com/ghbhiee/dsh-plugin-cli-session) ★0 — Resume-capable headless CLI session runner for DeepSeek Harness
+- `[未定位]` **greenlv-dsh-context-guard** — 占位待复核，判定暂不展示
+- `[未定位]` **guanzhw-agentsession** — 占位待复核，判定暂不展示
 - `[未定位]` **hakunm-dsh-approve-for-me** — 占位待复核，判定暂不展示
 - `[未定位]` **hannelee-dsh-agent-state** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [hansjone-netxops](https://github.com/hansjone/netxops) ★0 — DeepSeek Harness Netx Ops agent preset (UME alarms, NE, managed CLI)
+- `[未定位]` **haohaihuang-design-agent** — 占位待复核，判定暂不展示
 - `[未定位]` **harp-reed-planbridge** — 占位待复核，判定暂不展示
 - `[未定位]` **harzva-dsh-agent-project-sync** — 占位待复核，判定暂不展示
 - `[未定位]` **harzva-dsh-control-plane** — 占位待复核，判定暂不展示
@@ -2052,14 +2038,16 @@
 - 🟨 `[不兼容]` [hollis-openlab-dsh-matt-skills-flow](https://github.com/hollis-openlab/dsh-matt-skills-flow) ★0 — Matt Skills engineering workflow plugin for DeepSeek Harness
 - `[未定位]` **homophonicfate-rpg-maker-mac-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **howillmakeit-dsh-model-context-catalog** — 占位待复核，判定暂不展示
+- `[未定位]` **huanlinoto-dsh-plugin-better-plan** — 占位待复核，判定暂不展示
 - `[未定位]` **huanlinoto-dsh-plugin-preface-context** — 占位待复核，判定暂不展示
-- 🟨 `[不兼容]` [hululuzzzgululu-dsh-evals-promptfoo](https://github.com/hululuzzzgululu/dsh-evals-promptfoo) ★0 — This project connects Deepseek Harness and Promptfoo: it launches a real Agent through the official DSH TypeSc
 - `[未定位]` **hyperion2144-dsh-subagent-pro** — 占位待复核，判定暂不展示
 - `[未定位]` **icstick-dsh-adaptive-context** — 占位待复核，判定暂不展示
+- `[未定位]` **icstick-dsh-context-maid** — 占位待复核，判定暂不展示
 - `[未定位]` **interpss-project-ipss-agent** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [iriskadev-dsh-global-memory](https://github.com/IriskaDev/dsh-global-memory) ★0 — —
 - `[未定位]` **itailang2333-dsh-skill-cockpit** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ivanon-dsh-dev-crew](https://github.com/ivanon/dsh-dev-crew) ★0 — 按职责把工作分派给绑定了不同模型的子代理的 DeepSeek Harness 插件
+- 🟨 `[不兼容]` [jackylong1987-dsh-long-plugins](https://github.com/jackylong1987/dsh-long-plugins) ★0 — DeepSeek Harness (DSH) web plugin: upload manager, workspace output files with preview/edit/maximize, skill do
 - `[未定位]` **jason-skd-dsh-session-fork** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [jimmyzhang219-dsh-plan-and-execute](https://github.com/jimmyzhang219/dsh-plan-and-execute) ★0 — DeepSeek Harness (dsh) 的 Plan-and-Execute 编排插件
 - `[未定位]` **jingxuanc-causal-memory** — 占位待复核，判定暂不展示
@@ -2068,6 +2056,7 @@
 - `[未定位]` **johnxu22786-memory-standard** — 占位待复核，判定暂不展示
 - `[未定位]` **johnxu22786-skill-framework** — 占位待复核，判定暂不展示
 - `[未定位]` **jokasa7-dsh-product-subagent-console** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [jonah791-dsh-agent-self-test](https://github.com/jonah791/dsh-agent-self-test) ★0 — 自我检验闭环插件：把「猜想→检验→学习」自指引擎做成运行时机制——可证伪自我假设库 + 工具管线自动采证（4 探针含 5.9 probe-before-action 行动前探测传感器）+ finding 浮现裁决，实现惊
 - `[未定位]` **junguangjiang-dsh-agent-lead** — 占位待复核，判定暂不展示
 - `[未定位]` **jypjypjypjyp-dsh-agent-teams** — 占位待复核，判定暂不展示
 - `[未定位]` **kaka-in-home-dsh-agent-teams-meta** — 占位待复核，判定暂不展示
@@ -2093,10 +2082,10 @@
 - `[未定位]` **liguanyu-dsh-promptrecall** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [linhut-dsh-skills](https://github.com/linhut/dsh-skills) ★0 — —
 - `[未定位]` **lininlin-0079-godot-asset-planner-public** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [lionwill-dsh-compactor](https://github.com/lionwill/dsh-compactor) ★0 — DSH上下文压缩插件
 - `[未定位]` **lionxiao-dsh-llm-volcengine-plans** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [liuyangdongdong-dsh-session-rerun](https://github.com/liuyangdongdong/dsh-session-rerun) ★0 — DeepSeek Harness plugin for inspecting and replaying completed main-agent and subagent session steps
 - 🟨 `[不兼容]` [lizhi00001-dsh-tools-plugins](https://github.com/lizhi00001/dsh-tools-plugins) ★0 — 将简短或模糊的指令改写为结构化 Prompt
-- 🟨 `[不兼容]` [lt9-dsh-simple-auth](https://github.com/lt9/dsh-simple-auth) ★0 — Ultra-light dsh login gate: shared key or master/guest keys, ACL-filtered session list, owner-only share/unsha
 - `[未定位]` **lucienll-dsh-session-memo** — 占位待复核，判定暂不展示
 - `[未定位]` **lumogress-dsh-skill-navigator** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [luyy9apples-dsh-workspace-memory](https://github.com/luyy9apples/dsh-workspace-memory) ★0 — Approval-gated workspace instructions and shared project memory for DeepSeek Harness
@@ -2105,8 +2094,8 @@
 - 🟨 `[不兼容]` [masknull-dsh-workspace-default-path](https://github.com/masknull/dsh-workspace-default-path) ★0 — DSH 插件：添加工作区时记住上次使用的目录，下次打开浏览对话框直接定位（预填 + 自动记忆，官方流程不动）
 - `[未定位]` **michaelgong-dsh-session-hover-preview** — 占位待复核，判定暂不展示
 - `[未定位]` **microwearld-dsh-subagent-a2a** — 占位待复核，判定暂不展示
+- `[未定位]` **missher12-dsh-missher-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **mistybridge-dsh-agent-bus** — 占位待复核，判定暂不展示
-- `[未定位]` **mjorgin-dsh-agent-conductor** — 占位待复核，判定暂不展示
 - `[未定位]` **mkaliezz-dsh-agent-doctor** — 占位待复核，判定暂不展示
 - `[未定位]` **mkaliezz-dsh-context-pack** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ml020-dsh-workbuddy](https://github.com/ml020/dsh-workbuddy) ★0 — Wordless-styled WorkBuddy hero for DSH: replaces the blank-session brand mark and workspace picker while keepi
@@ -2121,17 +2110,18 @@
 - `[未定位]` **mozhuanzuojing-dsh-agent-pill** — 占位待复核，判定暂不展示
 - `[未定位]` **mutx163-dsh-model-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **nay-1-dsh-skill-manage** — 占位待复核，判定暂不展示
-- `[未定位]` **necromanalbert-dsh-skill-slash-fuzzy** — 占位待复核，判定暂不展示
 - `[未定位]` **nexusagentx-dsh-advisor** — 占位待复核，判定暂不展示
 - `[未定位]` **nexusagentx-dsh-reasoning-effort** — 占位待复核，判定暂不展示
+- `[未定位]` **ninjasln-labs-dsh-session-slm-router** — 占位待复核，判定暂不展示
+- `[未定位]` **ninjasln-labs-dsh-subagent-cursor** — 占位待复核，判定暂不展示
 - `[未定位]` **ninjasln-labs-dsh-subagent-router** — 占位待复核，判定暂不展示
 - `[未定位]` **niuniuaba-dsh-subagent-vision** — 占位待复核，判定暂不展示
 - `[未定位]` **noah0509-dsh-session-manager** — 占位待复核，判定暂不展示
+- `[未定位]` **noirbright-dsh-external-agents** — 占位待复核，判定暂不展示
 - `[未定位]` **oierxjn-dsh-skills-mcp-group-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **olina1ye-internal-skill-workshop-plugin** — 占位待复核，判定暂不展示
 - `[未定位]` **pakco77-dsh-daqi-skill** — 占位待复核，判定暂不展示
 - `[未定位]` **pastsheep-dsh-agent-shell** — 占位待复核，判定暂不展示
-- `[未定位]` **perrylink-dsh-skill-pack-security** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [piaohua-dsh-schedule-command](https://github.com/piaohua/dsh-schedule-command) ★0 — DeepSeek Harness 的 /schedule 定时任务命令 —— 一句话创建会话内单次/周期任务，⏰ 标识自动识别定时会话
 - `[未定位]` **pn1024-dsh-skill-hub** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [po-et-dsh-session-guard](https://github.com/po-et/dsh-session-guard) ★0 — Per-session advisory locks that stop two dsh processes from corrupting one session log
@@ -2153,12 +2143,16 @@
 - 🟨 `[不兼容]` [royenheart-dsh-plugin-skills-manager](https://github.com/royenheart/dsh-plugin-skills-manager) ★0 — deepseek harness plugin skill manager
 - 🟨 `[不兼容]` [runfali-dsh-mem0-plugins](https://github.com/runfali/dsh-mem0-plugins) ★0 — dsh 持久化记忆插件 - 依托自建的 mem0‑graph 服务器实现自动回忆与回写
 - 🟨 `[不兼容]` [satan9394-dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) ★0 — —
+- `[未定位]` **shenhuanageshei-dsh-session-link-pro** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [shenhuanageshei-dsh-vision-bridge](https://github.com/shenhuanageshei/dsh-vision-bridge) ★0 — DeepSeek Harness plugin - session screenshots route by model capability: inline for vision models, VLM-read fo
 - 🟨 `[不兼容]` [shenzhantu-dsh-subagent-model](https://github.com/shenzhantu/dsh-subagent-model) ★0 — 通过模型插件用来修改subagent所使用的模型和Agent预设/Use model plugins to modify the model used by the subagent and the agent pres
 - 🟨 `[不兼容]` [shifan3-dsh-approve-for-me](https://github.com/shifan3/dsh-approve-for-me) ★0 — Approve-for-me mode for DeepSeek Harness: LLM safety auto-approval for approval requests; high-risk destructiv
 - `[未定位]` **shrbuz-dsh-session-buddy** — 占位待复核，判定暂不展示
+- `[未定位]` **shuaihaov-dsh-mcp-skill-control** — 占位待复核，判定暂不展示
 - `[未定位]` **sipengxie2024-dsh-memory-hermes** — 占位待复核，判定暂不展示
 - `[未定位]` **siriuswj-dsh-lite-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **siyue-zo-dsh-prompt-polisher** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [softspark-dsh-file-preview](https://github.com/softspark/dsh-file-preview) ★0 — Read-only in-conversation file preview for DeepSeek Harness: a session-authorized host Remote and a sanitizing
 - 🟨 `[不兼容]` [sol87-dsh-workspace-reveal](https://github.com/sol87/dsh-workspace-reveal) ★0 — DSH plugin: 'reveal in file manager' row for the Workspace context menu (Windows/WSL Explorer, macOS Finder)
 - 🟨 `[不兼容]` [sskkde-dsh-oh-my-agent](https://github.com/sskkde/dsh-oh-my-agent) ★0 — oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules
 - `[未定位]` **starstom-dsh-session-delete** — 占位待复核，判定暂不展示
@@ -2169,11 +2163,15 @@
 - `[未定位]` **taylorswitiger-dsh-plan-bridge** — 占位待复核，判定暂不展示
 - `[未定位]` **temoa-dsh-sessions-rm** — 占位待复核，判定暂不展示
 - `[未定位]` **tencent-browserskill** — 占位待复核，判定暂不展示
+- `[未定位]` **theheartfickle-dsh-session-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **them14-dsh-session-cleaner** — 占位待复核，判定暂不展示
 - `[未定位]` **tikzen-dsh-agent-arena** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [timsok-shit-dsh-preset-switch](https://github.com/timsok-shit/dsh-preset-switch) ★0 — Switch agent presets in any DSH conversation — even ones that already have messages.
 - `[未定位]` **tinger-x-dsh-session-enhance** — 占位待复核，判定暂不展示
 - `[未定位]` **tingrudeng-dsh-smart-approval** — 占位待复核，判定暂不展示
 - `[未定位]` **triple3h-dsh-session-enhance** — 占位待复核，判定暂不展示
+- `[未定位]` **tt-wang-dsh-agent-swarm** — 占位待复核，判定暂不展示
+- `[未定位]` **tt-wang-dsh-slice-agent-loop** — 占位待复核，判定暂不展示
 - `[未定位]` **turingcorp-net-mosaic-memory-compress** — 占位待复核，判定暂不展示
 - `[未定位]` **uabulajiql-dsh-skill-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **unforgetmemory-um-dsh-websearch** — 占位待复核，判定暂不展示
@@ -2192,7 +2190,6 @@
 - `[未定位]` **warmwine-dsh-memoryleak** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [wccong1213-dsh-auto-memory](https://github.com/WCCong1213/dsh-auto-memory) ★0 — —
 - `[未定位]` **weiyang742-dsh-cross-session-messaging** — 占位待复核，判定暂不展示
-- 🟨 `[不兼容]` [wig123-dsh-thread-tools](https://github.com/wig123/dsh-thread-tools) ★0 — Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live
 - `[未定位]` **wilburli-onlymemory-plugin** — 占位待复核，判定暂不展示
 - `[未定位]` **witchwarren2344-dsh-mnemosyne-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **wode25500-dsh-skillopt** — 占位待复核，判定暂不展示
@@ -2220,7 +2217,6 @@
 - `[未定位]` **yeqingtang-dsh-session-flow** — 占位待复核，判定暂不展示
 - `[未定位]` **yicijiuhaobala-dsh-session-delete** — 占位待复核，判定暂不展示
 - `[未定位]` **yiipu-dsh-agentmemory** — 占位待复核，判定暂不展示
-- `[未定位]` **yiyuzh-dsh-skillflux** — 占位待复核，判定暂不展示
 - `[未定位]` **ytmaps-dsh-subagent-flowtext** — 占位待复核，判定暂不展示
 - `[未定位]` **ytxue-dsh-skill-manager-ytxue** — 占位待复核，判定暂不展示
 - `[未定位]` **yucong-28-dsh-skills-plugins** — 占位待复核，判定暂不展示
@@ -2230,13 +2226,16 @@
 - `[未定位]` **zem17-dsh-subagent-agy** — 占位待复核，判定暂不展示
 - `[未定位]` **zenjibad-skill-injector-plugin** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [zergtant-dsh-remote-access](https://github.com/zergtant/dsh-remote-access) ★0 — DeepSeek Harness (dsh) 远程访问插件：提供 TLS、登录认证、会话保护和 HTTP/WebSocket 透明反代，支持局域网及 FRP ，cloudflare隧道等远程访问
+- 🟨 `[不兼容]` [zhang-guo-wen-dsh-claude-compat](https://github.com/zhang-guo-wen/dsh-claude-compat) ★0 — deepseek harness 插件，兼容claude的skill、rules加载规则，mcp配置
 - 🟨 `[不兼容]` [zhengjy01-dsh-period-report](https://github.com/zhengjy01/dsh-period-report) ★0 — Free-interval session reports for DeepSeek Harness: AI-narrated daily/weekly digests over any date range + eve
 - 🟨 `[不兼容]` [zhm20001-dsh-usage-board](https://github.com/zhm20001/dsh-usage-board) ★0 — dsh-usage-board 是专为 DSH (DeepSeek Harness) 设计的用量与成本可视化看板插件
 - `[未定位]` **zmh2000829-dsh-agent-bridge** — 占位待复核，判定暂不展示
 - `[未定位]` **zoramoris-amoris-agent** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [hululuzzzgululu-dsh-evals-promptfoo](https://github.com/hululuzzzgululu/dsh-evals-promptfoo) ★0 — This project connects Deepseek Harness and Promptfoo: it launches a real Agent through the official DSH TypeSc
+- 🟨 `[不兼容]` [lt9-dsh-simple-auth](https://github.com/lt9/dsh-simple-auth) ★0 — Ultra-light dsh login gate: shared key or master/guest keys, ACL-filtered session list, owner-only share/unsha
+- 🟨 `[不兼容]` [wig123-dsh-thread-tools](https://github.com/wig123/dsh-thread-tools) ★0 — Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live
 - 🟨 `[不兼容]` [harp-reed-planbridge](https://github.com/harp-reed/planbridge) ★0 — —
 - `[未定位]` **thinkingpeach-sketch-wan3-agent-skills** — 占位待复核，判定暂不展示
-- 🟨 `[不兼容]` [timsok-shit-dsh-preset-switch](https://github.com/timsok-shit/dsh-preset-switch) ★0 — Switch agent presets in any DSH conversation — even ones that already have messages.
 - 🟨 `[不兼容]` [xiaoyu7044-dual-agent-integration](https://github.com/xiaoyu7044/dual-agent-integration) ★0 — Dual-Agent Integration: bidirectional ACP (Agent Client Protocol) bridge, event-driven monitoring and shared m
 - 🟨 `[不兼容]` [jypjypjypjyp-dsh-agent-teams](https://github.com/jypjypjypjyp/dsh-agent-teams) ★0 — AgentTeams plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [niuniuaba-dsh-subagent-vision](https://github.com/niuniuaba/dsh-subagent-vision) ★0 — —
