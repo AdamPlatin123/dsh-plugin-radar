@@ -27,6 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'engine' / 'lib'))
 from radar import ghql  # noqa: E402
+from radar.atomicio import atomic_write_json  # noqa: E402
 
 DRY = '--dry' in sys.argv
 CACHE = ROOT / 'data' / 'enrich-cache.json'
@@ -167,14 +168,13 @@ def main() -> int:
     cache_doc = {'schema': 'dsh-enrich/v1', 'updated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
                  'entry_count': len(entries), 'entries': entries}
     (ROOT / 'data').mkdir(exist_ok=True)
-    CACHE.write_text(json.dumps(cache_doc, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
+    atomic_write_json(CACHE, cache_doc, indent=1)   # 原子写（二轮外审 P2：write_text 中断留半文件）
     # 对外 sidecar：剥内部年龄口径（fetched_at），承诺字段只增不删
     sidecar_entries = {k: {kk: vv for kk, vv in v.items() if kk != 'fetched_at'}
                        for k, v in entries.items()}
-    SIDECAR.write_text(json.dumps(
-        {'schema': 'dsh-enrich/v1', 'generated_at': cache_doc['updated_at'],
-         'entry_count': len(sidecar_entries), 'entries': sidecar_entries},
-        ensure_ascii=False, indent=1) + '\n', encoding='utf8')
+    atomic_write_json(SIDECAR,
+                      {'schema': 'dsh-enrich/v1', 'generated_at': cache_doc['updated_at'],
+                       'entry_count': len(sidecar_entries), 'entries': sidecar_entries}, indent=1)
     print(f'[enrich] 缓存 {len(entries)} 条 → data/enrich-cache.json｜sidecar → data/plugins-enrich.json'
           f'（命中 {n_ok} · 缺失 {n_miss}）')
     return 0

@@ -176,7 +176,7 @@ done
     _first=0
   done
   printf ']}'
-} > .last-changes.json.tmp && mv .last-changes.json.tmp .last-changes.json
+} > .last-changes.json.$$ && mv .last-changes.json.$$ .last-changes.json
 
 echo "[状态] .last-changes.json 已记录（新增 ${#NEW_REPOS[@]} / 修改 ${#CHANGED_REPOS[@]}）"
 

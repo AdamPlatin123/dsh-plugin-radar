@@ -50,11 +50,11 @@ jobs:
             由 \`readme-render\` workflow 在快照合入 main 后自动触发。" \
             || echo "PR 已存在或创建失败，分支已推送"
           # 三重闸门守卫（P4b + 外审加固：head SHA 钉死含合并绑定 --match-head-commit；
-          # 作者钉死为 GITHUB_TOKEN 创建 PR 的真实身份 app/github-actions（非触发者 actor）；
+          # 作者钉死为仓库令牌身份白名单（app/github-actions 新格式与 github-actions[bot] 经典格式 any-of；二轮外审）；
           # 文件允许集模式——本轮无变化的产物（磁贴/目录）不强制出现）
           python3 engine/distribution/merge_guard.py \
             --repo "$GITHUB_REPOSITORY" --pr "$BR" --expect-sha "$(git rev-parse HEAD)" \
-            --author "app/github-actions" \
+            --author "app/github-actions" --author "github-actions[bot]" \
             --allow-file README.md --allow-file PLUGINS-ALL.md --allow-file CHANGELOG.md \
             --allow-file data/latest.json --allow-file data/plugins-all.json \
             --allow-file 'catalog/all/*' \

@@ -86,7 +86,7 @@ def guarded_auto_merge(repo: str, pr_no: str, wt, expect_sha: str,
     三重身份闸门 = head SHA 钉死 + 作者钉死 + 文件集合精确相等，历史演进见该文件头注）。"""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import merge_guard as _mg
-    ok, reason = _mg.verify(repo, pr_no, expect_sha, author_login, expect_files=expect_files, gh_bin=GH_BIN)
+    ok, reason = _mg.verify(repo, pr_no, expect_sha, {author_login}, expect_files=expect_files, gh_bin=GH_BIN)
     if not ok:
         print(f"[cadence-v2] {repo} PR #{pr_no} 拒绝自动合并：{reason} → 留人工")
         return False

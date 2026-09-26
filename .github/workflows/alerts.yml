@@ -33,8 +33,11 @@ jobs:
           set -euo pipefail
           gh label create radar-alert -R "$REPO" --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true   # -R 必带：无 checkout 时 cwd 无 git（外审 P1）
           TITLE="[radar-alert] ${RUN_NAME} 失败"
-          OPEN_NUM=$(gh issue list -R "$REPO" --state open --label radar-alert \
-            --json number,title --jq ".[] | select(.title == \"$TITLE\") | .number" | head -1 || true)
+          if ! ISSUE_JSON=$(gh issue list -R "$REPO" --state open --label radar-alert --json number,title 2>/dev/null); then
+            echo "[alerts] WARN 告警查重查询失败——本轮保守跳过开单（防重复刷单，下轮重试）"
+            exit 0
+          fi
+          OPEN_NUM=$(printf '%s' "$ISSUE_JSON" | jq -r --arg t "$TITLE" '.[] | select(.title == $t) | .number' | head -1)
           if [ "$CONCLUSION" = "failure" ]; then
             BODY="**${RUN_NAME}** 运行失败。
           - 运行：${RUN_URL}

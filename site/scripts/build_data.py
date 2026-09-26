@@ -64,7 +64,10 @@ def build(root: Path):
         u = e.get('url') or ''
         if 'github.com/' in u and 'search?q=' not in u:
             k = u.split('github.com/')[1].strip('/').lower()
-            if k not in entry_by_repo:   # 先见者胜（外审 P2：与导出路径同仓仲裁方向一致，末条覆盖曾致同仓分类漂移）
+            # 先见者胜（与导出首条仲裁同向；已知限制：同仓多 canonical 条目时
+            # name/desc/域取先见者而非逐字段仲裁，影响 ≤14 仓的展示分类，根治在
+            # canonical 层合并——二轮外审 P2 注记）
+            if k not in entry_by_repo:
                 entry_by_repo[k] = e
 
     # P6 补采 sidecar（可选）

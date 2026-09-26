@@ -46,5 +46,5 @@ write_cursor() {
     done
     echo ""
     echo "}"
-  } > "$STATE.tmp" && mv "$STATE.tmp" "$STATE"
+  } > "$STATE.$$" && mv "$STATE.$$" "$STATE"
 }

@@ -124,20 +124,24 @@ done
 SCRIPTS="gen_plugins_all.py resolve_placeholders.py render-readme-from-snapshot.py classify.py gen-pipeline-diagram.py reconcile_catalog.py tile_assets.py"
 ENGINE_FILES="lib/radar/__init__.py lib/radar/atomicio.py lib/radar/sanitize.py lib/radar/ghql.py lib/radar/gitops.py lib/radar/secretsource.py lib/radar/thresholds.py aggregation/build_canonical.py aggregation/rebaseline.py rendering/render_all.py"
 for _f in $SCRIPTS; do
+  _ok=0
   for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
                "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
-    if curl -sf --max-time 20 "$_base/scripts/$_f" -o "$HOME/dsh-external-research/scripts/$_f"; then
-      break
+    if curl -sf --retry 2 --max-time 20 "$_base/scripts/$_f" -o "$HOME/dsh-external-research/scripts/$_f"; then
+      _ok=1; break
     fi
-  done || echo "[scripts] 拉取 $_f 失败（沿用本地现行版）"
+  done
+  [ "$_ok" = 1 ] || echo "[scripts] WARN 双源均失败：$_f 沿用本地现行版（二轮外审：for||echo 曾吞掉双败）"
 done
 for _f in $ENGINE_FILES; do
   mkdir -p "$HOME/dsh-external-research/engine/$(dirname "$_f")"
+  _ok=0
   for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
                "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
-    if curl -sf --max-time 20 "$_base/engine/$_f" -o "$HOME/dsh-external-research/engine/$_f"; then
-      break
+    if curl -sf --retry 2 --max-time 20 "$_base/engine/$_f" -o "$HOME/dsh-external-research/engine/$_f"; then
+      _ok=1; break
     fi
-  done || echo "[scripts] 拉取 engine/$_f 失败（沿用本地现行版）"
+  done
+  [ "$_ok" = 1 ] || echo "[scripts] WARN 双源均失败：engine/$_f 沿用本地现行版"
 done
 

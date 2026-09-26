@@ -38,9 +38,12 @@ jobs:
           else
             AGE_H=$(python3 -c "
           import datetime as dt
-          t = dt.datetime.strptime('$GENERATED', '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
-          print(round((dt.datetime.now(dt.timezone.utc) - t).total_seconds() / 3600, 1))
-          ")
+          try:
+              t = dt.datetime.strptime('$GENERATED', '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
+              print(round((dt.datetime.now(dt.timezone.utc) - t).total_seconds() / 3600, 1))
+          except ValueError:
+              print(999999)   # 非法时间戳 = 数据不可信 = 断警（二轮外审 P1：曾空值终止不告警）
+          " || echo 999999)
           fi
           echo "latest.json generated_at=${GENERATED}，年龄 ${AGE_H}h"
           gh label create radar-alert --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true

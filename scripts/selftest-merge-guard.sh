@@ -12,6 +12,7 @@ trap 'rm -rf "$MOCK_DIR"' EXIT
 cat > "$MOCK_DIR/gh" <<EOF
 #!/usr/bin/env bash
 # mock gh：pr view 回 canned JSON；pr merge 记录并置 merged 标记
+if [ "\$1 \$2 \$3" = "pr merge --help" ]; then echo "  --match-head-commit <commit SHA>"; exit 0; fi
 if [ "\$1 \$2" = "pr view" ]; then cat "$MOCK_DIR/pr.json"; exit 0; fi
 if [ "\$1 \$2" = "pr merge" ]; then echo merge-called >> "$MOCK_DIR/merged"; exit 0; fi
 exit 9
@@ -71,5 +72,16 @@ echo "$out" | grep -q "允许清单外" && echo "[⑦ PASS] 允许集拦截清�
 run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --dry >/dev/null 2>&1
 [ $? -eq 2 ] && echo "[⑧ PASS] 缺文件模式参数报错" || { echo "[⑧ FAIL] 应 exit 2"; fails=$((fails+1)); }
 
+# 用例⑨ 身份白名单 any-of：经典 bot 格式也过
+make_pr "$GOOD_SHA" "github-actions[bot]" "$FILES_OK"
+out=$(run --expect-sha "$GOOD_SHA" --author "app/github-actions" --author "github-actions[bot]" --expect-file README.md --expect-file CHANGELOG.md --dry) \
+  && echo "[⑨ PASS] 身份白名单 any-of（github-actions[bot]）" || { echo "[⑨ FAIL] $out"; fails=$((fails+1)); }
+
+# 用例⑩ 排队合并语义：--auto 受理即成功（不再因 state=OPEN 误报失败）
+rm -f "$MOCK_DIR/merged"
+make_pr "$GOOD_SHA" AdamPlatin123 "$FILES_OK"
+out=$(run --expect-sha "$GOOD_SHA" --author AdamPlatin123 --expect-file README.md --expect-file CHANGELOG.md) \
+  && echo "[⑩ PASS] --auto 受理视为成功（head 已钉死）" || { echo "[⑩ FAIL] $out"; fails=$((fails+1)); }
+
 echo "────"
-[ "$fails" -eq 0 ] && { echo "[selftest] 全部通过（8 用例）"; exit 0; } || { echo "[selftest] $fails 个失败"; exit 1; }
+[ "$fails" -eq 0 ] && { echo "[selftest] 全部通过（10 用例）"; exit 0; } || { echo "[selftest] $fails 个失败"; exit 1; }

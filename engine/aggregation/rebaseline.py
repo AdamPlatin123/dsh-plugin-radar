@@ -66,20 +66,21 @@ def main() -> int:
     if BASELINE.is_file():
         try:
             _prev_baseline = json.loads(BASELINE.read_text())
-        except (json.JSONDecodeError, OSError):
-            print('[rebaseline] 既有基线损坏——按全量扫描重建', file=sys.stderr)
+        except (json.JSONDecodeError, OSError) as exc:
+            # 既有基线损坏 = 历史可能在里面且已无处可寻（窗口外快照已裁剪）——fail-closed
+            # 拒绝重建（二轮外审 P1：曾静默按空基线继续，可写入丢掉全部历史的"新基线"）
+            print(f'[rebaseline] FAIL CLOSED: 既有基线损坏（{exc}）——历史无法核验，'
+                  f'请从 git 历史恢复 data/snapshot-baseline.json 后重试', file=sys.stderr)
+            return 20
     for _e in _prev_baseline.get('entries', []):
         full_merged.setdefault((_e['name'], _e.get('url', '')), dict(_e))
 
     # 基线若已存在（季度重固化），并入历史部分一起重固化
     baseline_entries, baseline_rounds = [], []
     if BASELINE.is_file():
-        try:
-            prev = json.loads(BASELINE.read_text())
-            baseline_entries = prev.get('entries', [])
-            baseline_rounds = [tuple(r) for r in prev.get('rounds', [])]
-        except (json.JSONDecodeError, OSError):
-            print('[rebaseline] 既有基线损坏——按全量扫描重建', file=sys.stderr)
+        prev = _prev_baseline   # 前置校验已 fail-closed，此处必然可读
+        baseline_entries = prev.get('entries', [])
+        baseline_rounds = [tuple(r) for r in prev.get('rounds', [])]
 
     beyond_merged, beyond_rounds, n_beyond = merge_files(beyond)
     for e in baseline_entries:   # 旧基线的条目比一切现存文件都旧，垫底

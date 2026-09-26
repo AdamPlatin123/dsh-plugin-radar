@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # gh workflow run 派发站点重建（二轮外审 P1：缺此权限必 403）
 
 concurrency:
   group: enrich-metadata
