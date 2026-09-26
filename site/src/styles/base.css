@@ -1,0 +1,22 @@
+/* base.css — 全局基线 */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+}
+a { color: var(--cy); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+h1, h2, h3 { line-height: 1.25; }
+button { font: inherit; color: inherit; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+  .container { padding: 0 12px; }
+}

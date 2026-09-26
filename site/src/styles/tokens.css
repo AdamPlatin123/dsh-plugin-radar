@@ -1,0 +1,35 @@
+/* tokens.css — 设计变量继承自 engine/ops/dashboard.py 的暗色控制塔语言
+   （--bg 深藏青 + 青/绿/红/黄四态色 + mono 数字），磁贴三色语义沿用 assets/tile-*.svg */
+:root {
+  --bg: #0a0f1c;
+  --bg-raise: #0d1524;
+  --panel: #101b30;
+  --panel-2: #14213a;
+  --line: #1d2c4a;
+  --line-soft: #16233c;
+  --fg: #dbe7f5;
+  --fg-dim: #8b98ab;
+  --fg-faint: #5d6b82;
+  --cy: #22d3ee;
+  --cy-dim: rgba(34, 211, 238, 0.14);
+  --ok: #34d399;
+  --ok-dim: rgba(52, 211, 153, 0.14);
+  --bad: #f87171;
+  --bad-dim: rgba(248, 113, 113, 0.13);
+  --warn: #f5a623;
+  --warn-dim: rgba(245, 166, 35, 0.13);
+  --skip: #8b98ab;
+  --skip-dim: rgba(139, 152, 171, 0.12);
+  --radius: 10px;
+  --radius-s: 6px;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: 'Inter', -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --shadow: 0 2px 14px rgba(2, 6, 16, 0.5);
+}
+
+/* 判定 → 四态色映射（七档收敛为四态：ok / bad / warn / skip） */
+.v-ok { --tone: var(--ok); --tone-dim: var(--ok-dim); }
+.v-incompatible { --tone: var(--bad); --tone-dim: var(--bad-dim); }
+.v-pending { --tone: var(--warn); --tone-dim: var(--warn-dim); }
+.v-untested { --tone: var(--skip); --tone-dim: var(--skip-dim); }
+.v-gone, .v-ambiguous, .v-unlocated { --tone: var(--fg-faint); --tone-dim: var(--skip-dim); }

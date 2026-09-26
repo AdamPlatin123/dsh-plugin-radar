@@ -1,0 +1,40 @@
+export const en = {
+  nav: { home: 'Home', browse: 'Browse', featured: 'Featured', bundles: 'Bundles', about: 'About' },
+  hero: {
+    title: 'DSH Plugin Radar',
+    tagline: 'DeepSeek Harness plugin ecosystem — every verdict comes from real runtime testing',
+    cta: 'Browse plugins',
+    cta2: 'Data API',
+  },
+  stat: {
+    ok: 'Runtime OK', incompatible: 'Needs adaptation', pending: 'Pending', untested: 'Untested',
+    gone: 'Empty watch', ambiguous: 'Ambiguous', unlocated: 'Unlocated', total: 'Listed repos',
+    fresh: 'Data as of snapshot', runner: 'Tested on',
+  },
+  filter: {
+    all: 'All categories', verdict: 'Verdict', stars: 'Stars', search: 'Search name / repo / description…',
+    any: 'Any', sortStars: 'Sort by stars', resultCount: '{n} plugins',
+  },
+  card: { view: 'Details', bundle: 'Bundle', pr: 'PR registered', stars: 'stars' },
+  detail: {
+    install: 'Install', noInstall: 'No install command yet (see repo README)',
+    updated: 'Last pushed', language: 'Language', license: 'License', topics: 'Topics',
+    evidence: 'Runtime evidence', notCurated: 'No curated profile yet (disclosures / test details)',
+    curated: 'Curated profile', risk: 'Risk', network: 'Network', fs: 'Filesystem',
+    creds: 'Credentials', testedAt: 'Tested at', source: 'Provenance', snapshot: 'Snapshot',
+    openRepo: 'Open repository',
+  },
+  featured: { title: 'Featured', desc: 'Hand-picked 50+ must-have plugins (11 categories)' },
+  bundles: { title: 'Bundles', desc: 'Ready-to-use plugin collections' },
+  about: {
+    title: 'About',
+    p1: 'This site is the demo frontend of dsh-plugin-radar — same canonical source of truth as the README and the data API.',
+    p2: 'Verdict semantics: listed ≠ compatible ≠ runtime-OK ≠ security-audited. "Runtime OK" comes from isolated K8s testing (one pod per plugin).',
+    p3: 'Preview images: cards hotlink GitHub OpenGraph cards (auto-generated from repo content), falling back to deterministic local tiles.',
+    api: 'Stable data API (dsh-radar/v1)',
+    repo: 'GitHub repository',
+  },
+  footer: { built: 'Built automatically by the dsh-plugin-radar pipeline', lang: '中文' },
+  freshness: { fresh: 'Fresh', stale: 'Stale' },
+  empty: { noResult: 'No matching plugins', featuredNone: 'No featured data yet' },
+}

@@ -15,6 +15,8 @@
 安装前就知道哪个能用，不用自己踩坑。
 *Know which plugins work before you install them.*
 
+**🛒 目录演示站 / Catalog site**：[adamplatin123.github.io/dsh-plugin-radar](https://adamplatin123.github.io/dsh-plugin-radar/) —— 卡片墙 · 筛选 · 插件详情页，数据与 README 同源同口径（canonical 单一事实源）。
+*A demo frontend with card wall, filters and per-plugin detail pages — same canonical source of truth.*
 [![confirmed](https://img.shields.io/badge/confirmed-1310-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13489-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **判定按 runner 版本分离 / verdicts by runner version：**

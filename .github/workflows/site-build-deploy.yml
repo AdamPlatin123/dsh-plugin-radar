@@ -1,0 +1,64 @@
+name: site-build-deploy
+# 站点构建部署（P5）：GitHub Pages 官方 artifact 型工作流。
+# 数据构建期烘焙（build_data → src/data/*.ts 打进 bundle），运行时零请求。
+# 触发面挂数据落地点与站点源（不挂 data/snapshots/**——与 readme-render 双触发冗余）；
+# 每日 22:37 UTC 兜底（避开 21:47 的 readme-render）。
+# 配额：Pages 免费 10 构建/小时；本流 + 兜底远低于限额。concurrency cancel 保序。
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'data/plugins-all.json', 'data/latest.json', 'data/plugins-enrich.json',
+            'data/awesome-50.json', 'data/bundles.json', 'catalog/**', 'engine/aggregation/**']
+  schedule:
+    - cron: "37 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: site/package.json
+      - name: 烘焙站点数据（canonical ⊕ 清单 → src/data/*.ts）
+        run: python3 site/scripts/build_data.py --root .
+      - name: 构建（类型检查 + vite build）
+        run: |
+          npm ci --prefix site --no-audit --no-fund
+          npm run build --prefix site
+      - name: 构建断言（红线：不带快照、体积有界）
+        run: |
+          test -f site/dist/index.html
+          test -z "$(find site/dist -path '*snapshots*')"
+          SIZE=$(du -sk site/dist | cut -f1)
+          echo "dist ${SIZE}KB"
+          [ "$SIZE" -lt 61440 ]
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
