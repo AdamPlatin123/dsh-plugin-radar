@@ -6,19 +6,24 @@
 set -uo pipefail
 [ -f "$HOME/.dsh-radar.env" ] && . "$HOME/.dsh-radar.env"
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_DIR="$(cd "$(dirname "$0")/../.." && pwd)"   # engine/ops → 仓库根
 cd "$REPO_DIR" || exit 2
-DS_KEY="$(python3 -c "import sqlite3,json;db=sqlite3.connect('/home/adam/.omp/agent/agent.db');print(json.loads(db.execute(\"SELECT data FROM auth_credentials WHERE provider='deepseek'\").fetchone()[0])['key'])" 2>/dev/null)"
+# 密钥经 secretsource 统一解析（env > ~/.radar-keys/deepseek > sqlite 兜底）；
+# Authorization 头写 0600 临时文件经 curl -H @file 传递——密钥不进 argv/ps（P2b）
+AUTH_HDR="$(mktemp)"
+chmod 600 "$AUTH_HDR"
+trap 'rm -f "$AUTH_HDR"' EXIT
+python3 "$REPO_DIR/engine/lib/radar/secretsource.py" deepseek header > "$AUTH_HDR" 2>/dev/null || true
 QW_URL="${DSH_QWEN_BASE_URL:-http://127.0.0.1:1/v1}/chat/completions"
 OUT="$REPO_DIR/reports/$(date +%Y-%m-%d)/model-probe.md"
 mkdir -p "$(dirname "$OUT")"
 echo "# 模型上限实测（$(date +%Y-%m-%d)）" > "$OUT"
 
-probe_output() { # $1=名称 $2=URL $3=key $4=max_tokens
-  local name="$1" url="$2" key="$3" mt="$4"
+probe_output() { # $1=名称 $2=URL $3=auth头文件(空=无鉴权) $4=max_tokens
+  local name="$1" url="$2" hdr="$3" mt="$4"
   local resp
   resp="$(timeout 300 curl -s -m 290 "$url" -H "Content-Type: application/json" \
-    ${key:+-H "Authorization: Bearer $key"} \
+    ${hdr:+-H @$hdr} \
     -d "$(python3 -c "import json,sys;print(json.dumps({'model':sys.argv[1],'messages':[{'role':'user','content':'从1开始依次输出数字，每个数字一行，越多越好'}],'max_tokens':int(sys.argv[2])}))" "$( [ "$name" = "deepseek" ] && echo deepseek-v4-flash || echo Qwen3.6-35B )" "$mt")" 2>/dev/null)"
   printf '%s' "$resp" | python3 -c "
 import json,sys
@@ -34,8 +39,8 @@ else:
 echo "== 输出上限（二分：从声明值附近试探，看服务端 clamp/报错） =="
 echo "" >> "$OUT"
 for mt in 100 2000 8192 16000 32000; do
-  echo "[deepseek] max_tokens=$mt → $(probe_output deepseek https://api.deepseek.com/chat/completions "$DS_KEY" "$mt")"
-  echo "- deepseek max_tokens=$mt → $(probe_output deepseek https://api.deepseek.com/chat/completions "$DS_KEY" "$mt")" >> "$OUT"
+  echo "[deepseek] max_tokens=$mt → $(probe_output deepseek https://api.deepseek.com/chat/completions "$AUTH_HDR" "$mt")"
+  echo "- deepseek max_tokens=$mt → $(probe_output deepseek https://api.deepseek.com/chat/completions "$AUTH_HDR" "$mt")" >> "$OUT"
 done
 for mt in 100 2000 8192 16384 32768 60000; do
   echo "[qwen] max_tokens=$mt → $(probe_output qwen "$QW_URL" "" "$mt")"
@@ -52,7 +57,7 @@ json.dump({str(k): v for k, v in payloads.items()}, open("/tmp/probe-in.json", "
 print("generated")
 PYEOF
 for size in 8192 32768 65536 131072 262144; do
-  echo "[deepseek] 输入≈${size}字 → $(timeout 90 curl -s -m 80 https://api.deepseek.com/chat/completions -H "Authorization: Bearer $DS_KEY" -H "Content-Type: application/json" -d "$(python3 -c "import json;d=json.load(open('/tmp/probe-in.json'));print(json.dumps({'model':'deepseek-v4-flash','messages':[{'role':'user','content':d['$size'][:${size}]}],'max_tokens':10}))")" 2>/dev/null | python3 -c "
+  echo "[deepseek] 输入≈${size}字 → $(timeout 90 curl -s -m 80 https://api.deepseek.com/chat/completions -H @"$AUTH_HDR" -H "Content-Type: application/json" -d "$(python3 -c "import json;d=json.load(open('/tmp/probe-in.json'));print(json.dumps({'model':'deepseek-v4-flash','messages':[{'role':'user','content':d['$size'][:${size}]}],'max_tokens':10}))")" 2>/dev/null | python3 -c "
 import json,sys
 try:
     d=json.load(sys.stdin)

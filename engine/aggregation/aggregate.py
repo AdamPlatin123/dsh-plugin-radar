@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Aggregate a single summary.json (SOP §8.2) — the ONLY source README and reports consume.
+"""Aggregate a single summary.json (SOP §8.2) — discovery-track candidate statistics.
+
+Scope (P1 修正，与实际消费方对齐)：summary.json 统计的是发现轨候选仓人群
+（discover → normalize → 本脚本），消费方为 ops/dashboard.py 与 probe；
+公开清单/README/latest.json 的渲染-导出走 canonical 路径
+（engine/aggregation/build_canonical.py），与本文件人群不同、互不供给。
 
 Counts are computed independently from candidates.json + catalog.json, never reverse-
 parsed from Markdown. Evidence axes are kept separate; not_run/inconclusive can never
@@ -11,8 +16,14 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+import sys as _sys
+_LIB = Path(__file__).resolve().parents[1] / 'lib'
+if str(_LIB) not in _sys.path:
+    _sys.path.insert(0, str(_LIB))
+from radar.atomicio import atomic_write_json  # noqa: E402
+from radar.thresholds import AGGREGATE_SHRINK_RATIO  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent   # engine/aggregation → 仓库根（原 parent.parent 在 engine 布局下漂移）
 CAND = ROOT / "generated" / "current" / "candidates.json"
 CAT = ROOT / "generated" / "current" / "catalog.json"
 PREV = ROOT / "generated" / "current" / "summary.json"  # read before overwrite
@@ -63,7 +74,7 @@ def main() -> int:
     if prev and prev.get("counts", {}).get("total"):
         prev_total = prev["counts"]["total"]
         cur_total = len(candidates)
-        if cur_total < prev_total * 0.95:
+        if cur_total < prev_total * AGGREGATE_SHRINK_RATIO:
             shrink_ok = False
 
     not_run_or_inc = sum(
@@ -96,9 +107,7 @@ def main() -> int:
         "not_run_or_inconclusive": not_run_or_inc,
         "shrinkage_ok": shrink_ok,
     }
-    tmp = OUT.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(summary, ensure_ascii=False, indent=2))
-    tmp.replace(OUT)
+    atomic_write_json(OUT, summary)   # P3：唯一原子写（原 tmp+replace 手写副本）
     print(f"[aggregate] summary → {OUT.relative_to(ROOT)}")
     print(f"[aggregate] total={summary['counts']['total']} candidate={states['candidate']} listed={states['listed']} | new={new_since} removed={removed_since} shrinkage_ok={shrink_ok}")
     if not shrink_ok:

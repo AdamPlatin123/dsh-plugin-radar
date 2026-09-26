@@ -1,35 +1,20 @@
 #!/usr/bin/env bash
-# auto-merge-render.sh — Bot B 渲染 PR 自动合并（白名单守卫 + 直合并回退）
-# 由 readme-render-watch.sh 在 PR 创建后调用
+# auto-merge-render.sh — Bot B 渲染 PR 自动合并（P4b 起委派 merge_guard 三重闸门）
+# 由 readme-render-watch.sh 在 PR 创建后调用：auto-merge-render.sh <branch> <pushed-sha>
+# <pushed-sha> = 推送方捕获的分支 commit——缺省即拒绝自动合并（fail-closed，
+# 不降级为仅文件校验：同名伪装分支可塞白名单文件绕过）
 set -uo pipefail
 export PATH=$HOME/.local/bin:$PATH
 REPO=dsh-external/awesome-dsh-plugins
-BR="${1:?用法: auto-merge-render.sh <branch>}"
+BR="${1:?用法: auto-merge-render.sh <branch> <pushed-sha>}"
+SHA="${2:-}"
+GUARD="$(cd "$(dirname "$0")" && pwd)/merge_guard.py"
 
 N=$(gh pr list --repo "$REPO" --state open --head "$BR" --json number --jq '.[0].number' 2>/dev/null)
 [ -n "$N" ] || { echo "[auto-merge] 无 open PR"; exit 0; }
-
-# 白名单：渲染 PR 只允许 README.md + CHANGELOG.md
-BAD=$(gh pr view --repo "$REPO" "$N" --json files \
-  --jq '[.files[].path | select((. == "README.md" or . == "CHANGELOG.md") | not)] | length' 2>/dev/null)
-
-if [ "${BAD:-1}" != "0" ]; then
-  echo "[auto-merge] PR #$N 含白名单外文件（$BAD 处），留人工审"
+if [ -z "$SHA" ]; then
+  echo "[auto-merge] 未传推送 SHA——拒绝自动合并 #$N（留人工）"
   exit 0
 fi
-
-# 尝试 --auto（org 可能不开），失败回退直合并
-gh pr merge --repo "$REPO" "$N" --auto --merge >/dev/null 2>&1
-sleep 3
-STATE=$(gh pr view --repo "$REPO" "$N" --json state --jq '.state' 2>/dev/null)
-if [ "$STATE" = "OPEN" ]; then
-  gh pr merge --repo "$REPO" "$N" --merge >/dev/null 2>&1
-  sleep 3
-  STATE=$(gh pr view --repo "$REPO" "$N" --json state --jq '.state' 2>/dev/null)
-fi
-
-if [ "$STATE" = "MERGED" ]; then
-  echo "[auto-merge] PR #$N 已自动合并 ✓"
-else
-  echo "[auto-merge] PR #$N 未能合并（state=$STATE），留人工"
-fi
+python3 "$GUARD" --repo "$REPO" --pr "$N" --expect-sha "$SHA" \
+  --author AdamPlatin123 --allow-file README.md --allow-file CHANGELOG.md || true

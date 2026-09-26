@@ -10,7 +10,12 @@ set -uo pipefail
 
 # Radar v4 worker 门禁：非 worker 调用（cron/hook/手动）只入队，禁止直接写
 if [ "${RADAR_INDEX_WORKER:-}" != "1" ]; then
-  /home/adam/dsh-k8s/radar-index-request.py --reason manual --trigger cron-check-direct >/dev/null 2>&1 || true
+  K8S="${RADAR_K8S_DIR:-$HOME/dsh-k8s}"   # 私有件目录（engine/ops/private/MANIFEST.md）
+  if [ -f "$K8S/radar-index-request.py" ]; then
+    python3 "$K8S/radar-index-request.py" --reason manual --trigger cron-check-direct >/dev/null 2>&1 || true
+  else
+    echo "[cron-check] WARN 缺私有件 $K8S/radar-index-request.py，入队跳过（开源副本降级运行）"
+  fi
   echo "[cron-check] 非 worker 调用：已入队，由 radar-index-worker.service 执行"
   exit 0
 fi
@@ -26,7 +31,8 @@ fi
 FULL=0
 for _arg in "$@"; do [ "$_arg" = "--full" ] && FULL=1; done
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"   # cd 前解析（相对路径调用不因切目录失效——外审 P0-2）
+REPO_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"    # engine/discovery → 仓库根（原 .. 在 engine 布局下漂移）
 cd "$REPO_DIR" || exit 2
 mkdir -p logs
 LOG="logs/cron-$(date +%Y%m%d).log"
@@ -107,6 +113,15 @@ fi
 : > .scope-current.txt
 for r in "${SCOPE_REPOS[@]}"; do echo "$r" >> .scope-current.txt; done
 
+# 探测表：name|url 形态（detect_changes/write_cursor 按此拆分）。
+# mainline = 主线快照仓，URL 与 compare-mainline.sh 的 MAINLINE_URL 同源——改一处必改两处。
+# 修复注记：此前本表从未构建（变化检测循环引用未定义的 REPOS，bash 4.4+ 静默空转，
+# 增量检测整段死代码）——P2a 修复并配 scripts/selftest-cron-increment.sh 三用例回归。
+REPOS=( "mainline|https://github.com/dsh2026/test-AdamPlatin123" )
+for r in "${SCOPE_REPOS[@]}"; do
+  REPOS+=( "$r|https://github.com/$r" )
+done
+
 
 # 远端 HEAD 探测：mainline 取最新快照分支（与 compare-mainline.sh 实际索引的快照一致），
 # 其余仓库取 HEAD。快照分支名含 ISO 时间戳，字典序即时间序。
@@ -120,28 +135,12 @@ remote_head() { # $1=仓库名 $2=远端 URL → 输出当前 commit（失败为
   fi
 }
 
-# 3. 检测 mainline + 全部 scope 仓库的 HEAD 变化
+# 3. 检测 mainline + 全部 scope 仓库的 HEAD 变化（逻辑在 lib_cron_logic.sh，供自测 mock）
+# shellcheck source=lib_cron_logic.sh
+source "$SCRIPT_DIR/lib_cron_logic.sh"
 STATE=".cron-state.json"
-MODIFIED=""   # 真实 HEAD 变化集合（无论 --full 与否都计算，避免全量误报"全部修改"）
-if [ -f "$STATE" ]; then
-  for entry in "${REPOS[@]}"; do
-    name="${entry%%|*}"; url="${entry#*|}"
-    prev="$(jq -r --arg n "$name" '.[$n] // ""' "$STATE" 2>/dev/null || echo "")"
-    cur="$(remote_head "$name" "$url")"
-    if [ -z "$cur" ]; then
-      echo "[跳过] $name：ls-remote 失败（离线/网络），保留上次状态"
-    elif [ -z "$prev" ]; then
-      MODIFIED="$MODIFIED $name"
-      echo "[新增] $name：首次纳入检测（HEAD $cur）"
-    elif [ "$cur" != "$prev" ]; then
-      MODIFIED="$MODIFIED $name"
-      echo "[变化] $name: $prev -> $cur"
-    fi
-  done
-else
-  echo "[首次运行] 无状态文件，执行全量索引"
-  MODIFIED="all(首次)"
-fi
+detect_changes
+MODIFIED="$DETECTED"   # 真实 HEAD 变化集合（无论 --full 与否都计算，避免全量误报"全部修改"）
 # --full 决定是否强制全量索引，但不影响"真实修改"集合
 if [ "$FULL" -eq 1 ]; then
   echo "[全量] --full 模式：强制全量索引；真实修改仅 ${MODIFIED:-无}"
@@ -177,14 +176,14 @@ done
     _first=0
   done
   printf ']}'
-} > .last-changes.json.tmp && mv .last-changes.json.tmp .last-changes.json
+} > .last-changes.json.$$ && mv .last-changes.json.$$ .last-changes.json
 
 echo "[状态] .last-changes.json 已记录（新增 ${#NEW_REPOS[@]} / 修改 ${#CHANGED_REPOS[@]}）"
 
 # 4. 有变化 → 运行 mainline 兼容索引（动态 scope）
 if [ -n "$CHANGED" ]; then
   echo "[索引] 变化仓库:$CHANGED"
-  ./scripts/compare-mainline.sh --scope .scope-current.txt
+  "$SCRIPT_DIR/../maintenance/compat/compare-mainline.sh" --scope .scope-current.txt
   rc=$?
   echo "[索引] compare-mainline.sh 退出码 $rc"
 
@@ -198,16 +197,16 @@ if [ -n "$CHANGED" ]; then
 
   # 4.6 引擎完成后：LLM 生成开发者摘要（同步；失败/超时记录为事实，不伪造成功）
   echo "[LLM] 生成开发者摘要（同步）..."
-  if timeout 600 ./scripts/report-llm.sh >> logs/llm.log 2>&1; then
+  if timeout 600 "$SCRIPT_DIR/../rendering/report-llm.sh" >> logs/llm.log 2>&1; then
     echo "[LLM] 摘要完成"
   else
     echo "[LLM] 摘要失败/超时（rc=$?），已记录，不伪造成功"
   fi
 
   # 4.5 全量模式：同步构建最新 mainline 验证可编译性（产物随本轮提交，杜绝跨轮混批）
-  if [ "$FULL" -eq 1 ] && [ -x ./scripts/build-mainline.sh ]; then
+  if [ "$FULL" -eq 1 ] && [ -x "$SCRIPT_DIR/../maintenance/build-mainline.sh" ]; then
     echo "[构建] mainline 构建（同步，最长 1800s）..."
-    if timeout 1800 ./scripts/build-mainline.sh >> logs/build.log 2>&1; then
+    if timeout 1800 "$SCRIPT_DIR/../maintenance/build-mainline.sh" >> logs/build.log 2>&1; then
       echo "[构建] 完成"
     else
       echo "[构建] 失败/超时（rc=$?），报告已记录失败事实"
@@ -244,7 +243,7 @@ fi
 
 # 5.5 每次运行后更新 README 自动状态节（兼容性汇总 + 跟踪中的 PR）
 echo "[README] 更新自动状态节..."
-if ./scripts/update-readme.sh >/dev/null 2>&1; then
+if "$SCRIPT_DIR/../rendering/update-readme.sh" >/dev/null 2>&1; then
   if ! git diff --quiet -- README.md; then
     git add README.md
     git -c user.name="dsh-ecosystem-bot" -c user.email="bot@dsh-external.local" \
@@ -263,20 +262,7 @@ if ! git push dsh-ext main 2>&1 | tail -2; then
 fi
 
 # 6. 更新状态文件（仅在推送成功后推进游标——SOP：已发布 SHA 确认后才更新 published cursor）
-{
-  echo "{"
-  first=1
-  for entry in "${REPOS[@]}"; do
-    name="${entry%%|*}"; url="${entry#*|}"
-    cur="$(remote_head "$name" "$url")"
-    [ -z "$cur" ] && cur="$(jq -r --arg n "$name" '.[$n] // ""' "$STATE" 2>/dev/null || echo "")"
-    [ $first -eq 0 ] && echo ","
-    printf '  "%s": "%s"' "$name" "$cur"
-    first=0
-  done
-  echo ""
-  echo "}"
-} > "$STATE.tmp" && mv "$STATE.tmp" "$STATE"
+write_cursor
 
 echo "=== $(date -Is) cron-check 结束 ==="
 exit 0

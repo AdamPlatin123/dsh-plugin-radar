@@ -20,7 +20,9 @@ trap 'rm -f "$PAY_SNAP" "$PAY_MIRROR" "$PAY_RAW" "$PAY_B64"' EXIT
 # ① 生成快照
 mkdir -p $SNAP_DIR/data/snapshots
 cd $SNAP_DIR
-python3 $HOME_DIR/dsh-k8s/gen-snapshot-v2.py 2>/dev/null | tail -1 || exit 0
+K8S="${RADAR_K8S_DIR:-$HOME_DIR/dsh-k8s}"
+[ -f "$K8S/gen-snapshot-v2.py" ] || { echo "[auto-snap] WARN 缺私有件 $K8S/gen-snapshot-v2.py，本轮跳过（engine/ops/private/MANIFEST.md）"; exit 0; }
+python3 "$K8S/gen-snapshot-v2.py" 2>/dev/null | tail -1 || exit 0
 
 RUN_FILE=$(ls -t data/snapshots/*.json 2>/dev/null | head -1)
 [ -z "$RUN_FILE" ] && exit 0
@@ -74,6 +76,28 @@ sync_put() {  # $1=文件路径：org 内容转推镜像，sha 一致则跳过
   # raw 通道下载（>1MB 文件 contents API 不回 content 字段；base64 内容不走 argv 防 128KB 上限）
   gh api "repos/$REPO/contents/$p" -H "Accept: application/vnd.github.raw" > "$PAY_RAW" 2>/dev/null
   [ -s "$PAY_RAW" ] || { echo "[mirror] $p 内容获取为空，跳过（防 0 字节落仓）"; return 1; }
+  # 内容门禁：非空 ≠ 正确。org 侧曾把 GitHub API 404 响应体当作 runner-versions.json
+  # 的文件内容入库，raw 下载非空、一路同步到镜像并随稳定接口发布——JSON 合法性 +
+  # API 错误对象特征 + 关键文件形态三重拦截（P2a）
+  case "$p" in
+    *.json)
+      if ! python3 -c '
+import json, sys
+try:
+    d = json.load(open(sys.argv[1]))
+except Exception as e:
+    sys.exit(f"JSON 解析失败: {e}")
+if isinstance(d, dict) and "message" in d and "documentation_url" in d:
+    sys.exit("API 错误对象特征（message+documentation_url）——疑似 GitHub API 响应体误入库")
+if sys.argv[2].endswith("runner-versions.json") and not (
+        isinstance(d, dict) and d.get("schema") == "dsh-radar/runner-versions/v1" and "latest" in d):
+    sys.exit("runner-versions.json 形态不符（需 schema=dsh-radar/runner-versions/v1 + latest 键）")
+' "$PAY_RAW" "$p"; then
+        echo "[mirror] $p 内容门禁拦截，跳过本轮同步（org 侧源头待修，sha 不推进下轮重查）"
+        return 1
+      fi
+      ;;
+  esac
   base64 -w0 "$PAY_RAW" > "$PAY_B64"
   python3 - "$PAY_B64" "$PAY_MIRROR" "$sha_m" "$p" <<'PYA'
 import json, sys
@@ -90,18 +114,34 @@ PYA
   fi
 }
 sync_put "data/snapshots/$RUN_ID.json"
-for _f in data/locate-cache.json data/url-audit.json data/repo-map.json data/desc-cache.json; do
+for _f in data/locate-cache.json data/url-audit.json data/repo-map.json data/desc-cache.json data/runner-versions.json; do
   sync_put "$_f"
 done
 # 脚本权威反转（2026-09-05）：主仓 main 为唯一权威，.9 每轮拉取最新脚本再渲染；
 # 不再向 org 推送脚本（旧环会用 .9 过期副本周期性回灌主仓，已三次冲掉拆分案）
+# 转发壳 + 其 engine 依赖一并同步（外审 P1：壳新增 engine/lib 导入，旧同步清单
+# 只有七个平铺脚本——未迁移布局的服务器拉到壳会 ModuleNotFoundError）
 SCRIPTS="gen_plugins_all.py resolve_placeholders.py render-readme-from-snapshot.py classify.py gen-pipeline-diagram.py reconcile_catalog.py tile_assets.py"
+ENGINE_FILES="lib/radar/__init__.py lib/radar/atomicio.py lib/radar/sanitize.py lib/radar/ghql.py lib/radar/gitops.py lib/radar/secretsource.py lib/radar/thresholds.py aggregation/build_canonical.py aggregation/rebaseline.py rendering/render_all.py"
 for _f in $SCRIPTS; do
+  _ok=0
   for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
                "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
-    if curl -sf --max-time 20 "$_base/scripts/$_f" -o "$HOME/dsh-external-research/scripts/$_f"; then
-      break
+    if curl -sf --retry 2 --max-time 20 "$_base/scripts/$_f" -o "$HOME/dsh-external-research/scripts/$_f"; then
+      _ok=1; break
     fi
-  done || echo "[scripts] 拉取 $_f 失败（沿用本地现行版）"
+  done
+  [ "$_ok" = 1 ] || echo "[scripts] WARN 双源均失败：$_f 沿用本地现行版（二轮外审：for||echo 曾吞掉双败）"
+done
+for _f in $ENGINE_FILES; do
+  mkdir -p "$HOME/dsh-external-research/engine/$(dirname "$_f")"
+  _ok=0
+  for _base in "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main" \
+               "https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main"; do
+    if curl -sf --retry 2 --max-time 20 "$_base/engine/$_f" -o "$HOME/dsh-external-research/engine/$_f"; then
+      _ok=1; break
+    fi
+  done
+  [ "$_ok" = 1 ] || echo "[scripts] WARN 双源均失败：engine/$_f 沿用本地现行版"
 done
 

@@ -1,0 +1,40 @@
+export const zh = {
+  nav: { home: '首页', browse: '浏览', featured: '精选', bundles: '合集', about: '关于' },
+  hero: {
+    title: 'DSH 插件雷达',
+    tagline: 'DeepSeek Harness 插件生态目录——每个判定都来自真实运行级实测',
+    cta: '开始浏览',
+    cta2: '数据接口',
+  },
+  stat: {
+    ok: '运行级可用', incompatible: '需适配', pending: '待定', untested: '未测',
+    gone: '空仓监测', ambiguous: '歧义监测', unlocated: '未定位', total: '收录仓库',
+    fresh: '数据截至快照', runner: '实测基线',
+  },
+  filter: {
+    all: '全部分类', verdict: '判定', stars: '星数', search: '搜索名称 / 仓库 / 描述…',
+    any: '不限', sortStars: '按星数排序', resultCount: '{n} 个插件',
+  },
+  card: { view: '详情', bundle: '整合包', pr: 'PR 登记', stars: '星' },
+  detail: {
+    install: '安装', noInstall: '暂无安装命令（见仓库 README）',
+    updated: '最近更新', language: '语言', license: '许可证', topics: '话题',
+    evidence: '实测证据', notCurated: '尚无深度策展档案（安全披露/实测详情）',
+    curated: '策展档案', risk: '风险披露', network: '网络访问', fs: '文件系统',
+    creds: '凭据接触', testedAt: '实测于', source: '数据溯源', snapshot: '快照',
+    openRepo: '打开仓库',
+  },
+  featured: { title: '精选榜', desc: '人工策选的 50+ 必装插件（11 类）' },
+  bundles: { title: '整合包', desc: '开箱即用的插件合集' },
+  about: {
+    title: '关于本站',
+    p1: '本站是 dsh-plugin-radar 的演示前端：数据来自同一 canonical 事实源，与 README/数据接口同源同口径。',
+    p2: '判定语义：收录 ≠ 兼容 ≠ 运行可用 ≠ 安全审计。「运行级可用」由 K8s 隔离实测（一插件一 pod）产生。',
+    p3: '预览图说明：卡片图热链 GitHub OpenGraph 内容卡（按仓库内容自动生成），失败回退站内确定性磁贴。',
+    api: '稳定数据接口（dsh-radar/v1）',
+    repo: 'GitHub 仓库',
+  },
+  footer: { built: '由 dsh-plugin-radar 管线自动构建', lang: 'English' },
+  freshness: { fresh: '新鲜', stale: '待更新' },
+  empty: { noResult: '没有匹配的插件', featuredNone: '暂无精选数据' },
+}

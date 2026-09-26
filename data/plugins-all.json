@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-26T11:13:26Z",
+ "generated_at": "2026-09-26T17:39:26Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3206,7 +3206,7 @@
    "name": "nbfys-dsh-web-attention-badge-enhanced",
    "verdict": "ok",
    "stars": 1,
-   "desc": "DSH Web attention badge (fork): [Waiting]/[Done] tab title, current-session done tracking, acknowledged remind"
+   "desc": "DSH Web attention badge (fork): \\[Waiting\\]/\\[Done\\] tab title, current-session done tracking, acknowledged remind"
   },
   {
    "repo": "NexusClawHQ/nexusclaw-agent-governance",
@@ -12348,7 +12348,7 @@
    "name": "dsh-wikilink",
    "verdict": "ok",
    "stars": 3,
-   "desc": "Obsidian-style [[wikilink]] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the"
+   "desc": "Obsidian-style \\[\\[wikilink\\]\\] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the"
   },
   {
    "repo": "zhtx2024/dsh-skin-switcher",
@@ -18067,7 +18067,7 @@
    "name": "luxueliu-luxueliu-dsh-story",
    "verdict": "ok",
    "stars": 0,
-   "desc": "DSH 写小说缺的四件事一次配齐！世界书角色卡拖进输入框，正文整篇进上下文；剧情断了 /gemini-sum 一键交接新窗；/out 导出干净成稿；/sum 一句话成角色卡/世界书；[论坛体][第二人称] 打字即展开 —"
+   "desc": "DSH 写小说缺的四件事一次配齐！世界书角色卡拖进输入框，正文整篇进上下文；剧情断了 /gemini-sum 一键交接新窗；/out 导出干净成稿；/sum 一句话成角色卡/世界书；\\[论坛体\\]\\[第二人称\\] 打字即展开 —"
   },
   {
    "repo": "lwb919191/dsh-voice-input",
@@ -18088,7 +18088,7 @@
    "name": "lyuwen-dsh-tui",
    "verdict": "ok",
    "stars": 0,
-   "desc": "[WIP] TUI for DeepSeeh-Harness"
+   "desc": "\\[WIP\\] TUI for DeepSeeh-Harness"
   },
   {
    "repo": "lzxcs/chat-width-pro",
@@ -21231,7 +21231,7 @@
    "name": "banlanzs-dsh-web-enhanced",
    "verdict": "incompatible",
    "stars": 2,
-   "desc": "[building……] DeepSeek Harness's web enhancement plugin—brings task dashboards, Git graphs, workspace file pane"
+   "desc": "\\[building……\\] DeepSeek Harness's web enhancement plugin—brings task dashboards, Git graphs, workspace file pane"
   },
   {
    "repo": "bentong-chain/dsh-plugin-dir-tree",
@@ -31052,7 +31052,7 @@
    "name": "litianshuo110-dsh-ds-vision-auto-route",
    "verdict": "ok",
    "stars": 0,
-   "desc": "[DEPRECATED] DeepSeek V4.1 Flash is natively multimodal; DeepSeek Harness 0.1.5-rc.2+ ships deepseek-flash wit"
+   "desc": "\\[DEPRECATED\\] DeepSeek V4.1 Flash is natively multimodal; DeepSeek Harness 0.1.5-rc.2+ ships deepseek-flash wit"
   },
   {
    "repo": "liulei237136/dsh-publish-plugin",
@@ -48860,7 +48860,7 @@
    "name": "zhujiaqi-dsh-secret-paste",
    "verdict": "ok",
    "stars": 3,
-   "desc": "DeepSeek Harness plugin: detect pasted secrets, store them in the credentials seam, and send [secret:REF] plac"
+   "desc": "DeepSeek Harness plugin: detect pasted secrets, store them in the credentials seam, and send \\[secret:REF\\] plac"
   },
   {
    "repo": "bululuburuarua666/dsh-plugin-manager",
@@ -49973,7 +49973,7 @@
    "name": "chen731215-dev-dsh-tavern",
    "verdict": "ok",
    "stars": 37,
-   "desc": "[ARCHIVED] Migrated to dsh-tavern-v2 with PolyForm-Noncommercial-Copyleft-1.0.0 license"
+   "desc": "\\[ARCHIVED\\] Migrated to dsh-tavern-v2 with PolyForm-Noncommercial-Copyleft-1.0.0 license"
   },
   {
    "repo": "jing-hy/picturereader",
@@ -50995,7 +50995,7 @@
    "name": "naivemap-dsh-geo-viewer",
    "verdict": "ok",
    "stars": 1,
-   "desc": "DSH 地理数据可视化插件：对话中出现地理数据时，对话流中直接渲染一张基于 [MapLibre GL JS]的交互式地图卡片"
+   "desc": "DSH 地理数据可视化插件：对话中出现地理数据时，对话流中直接渲染一张基于 \\[MapLibre GL JS\\]的交互式地图卡片"
   },
   {
    "repo": "onclaw-dev/dsh-ima-copilot",
@@ -53228,7 +53228,7 @@
    "name": "dsh-qq2006",
    "verdict": "pending",
    "stars": 11,
-   "desc": "DSH (DeepSeek Harness) 的 QQ2006 皮肤插件：注册 qq2006 主题、镜像 body[data-ds-skin]、全局皮肤表与完整素材"
+   "desc": "DSH (DeepSeek Harness) 的 QQ2006 皮肤插件：注册 qq2006 主题、镜像 body\\[data-ds-skin\\]、全局皮肤表与完整素材"
   },
   {
    "repo": "wsz987/dsh-channels",
@@ -54684,7 +54684,7 @@
    "name": "deepseekbluefish-dsh-screenshot-plugin",
    "verdict": "ok",
    "stars": 0,
-   "desc": "WeChat-style in-app screenshot button for DeepSeek Harness: drag to capture a region, auto-numbered PNGs, [Sho"
+   "desc": "WeChat-style in-app screenshot button for DeepSeek Harness: drag to capture a region, auto-numbered PNGs, \\[Sho"
   },
   {
    "repo": "devteapot/dsh-openai-codex",
@@ -55083,7 +55083,7 @@
    "name": "ykfs-dsh-openviking-client",
    "verdict": "ok",
    "stars": 0,
-   "desc": "DSH (DeepSeek Harness) 插件：将 Agent 会话消息自动同步到 [OpenViking](https://github.com/volcengine/OpenViking) 会话记忆库，由 Ope"
+   "desc": "DSH (DeepSeek Harness) 插件：将 Agent 会话消息自动同步到 \\[OpenViking\\](https://github.com/volcengine/OpenViking) 会话记忆库，由 Ope"
   },
   {
    "repo": "ZenHatesCoding/feishu-local-agent-bridge-windows",
@@ -55342,7 +55342,7 @@
    "name": "huoxue1-harness-lark",
    "verdict": "incompatible",
    "stars": 6,
-   "desc": "Lark/飞书（Feishu）渠道插件，为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供飞书通信能力"
+   "desc": "Lark/飞书（Feishu）渠道插件，为 \\[DeepSeek Harness\\](https://github.com/deepseek-ai/deepseek-harness) 提供飞书通信能力"
   },
   {
    "repo": "LoserFox/telegram",
@@ -57323,7 +57323,7 @@
    "name": "lovezi0-dsh-memory-palace",
    "verdict": "pending",
    "stars": 5,
-   "desc": "把 WorkBuddy 的文件式记忆系统移植进 [DeepSeek Harness](https://www.deepseek.com/harness/) —— 为 Harness 提供**跨会话持久化、人类可直接编辑的"
+   "desc": "把 WorkBuddy 的文件式记忆系统移植进 \\[DeepSeek Harness\\](https://www.deepseek.com/harness/) —— 为 Harness 提供**跨会话持久化、人类可直接编辑的"
   },
   {
    "repo": "mjylfz/dsh-subagent-codex",
@@ -61320,7 +61320,7 @@
    "name": "change979666-ox-alpha-dsh",
    "verdict": "ok",
    "stars": 0,
-   "desc": "[Model Hub for DSH] Lightweight model/provider integration toolkit for DeepSeek Harness Desktop - one plugin i"
+   "desc": "\\[Model Hub for DSH\\] Lightweight model/provider integration toolkit for DeepSeek Harness Desktop - one plugin i"
   },
   {
    "repo": "charlescroft/dsh-desktop",
@@ -64463,7 +64463,7 @@
    "name": "deepseek-harness-external-migration",
    "verdict": "incompatible",
    "stars": 4,
-   "desc": "**DeepSeek-Harness Migration Plugin** 是一款专为 [DeepSeek-Harness](https://github.com/deepseek-ai/deepseek-harness"
+   "desc": "**DeepSeek-Harness Migration Plugin** 是一款专为 \\[DeepSeek-Harness\\](https://github.com/deepseek-ai/deepseek-harness"
   },
   {
    "repo": "enoughpower/dsh-git-graph",

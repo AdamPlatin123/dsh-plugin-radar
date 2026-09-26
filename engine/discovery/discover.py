@@ -24,9 +24,15 @@ import time
 from datetime import datetime, timezone
 from urllib.parse import quote
 from pathlib import Path
+import sys as _sys
+_LIB = Path(__file__).resolve().parents[1] / 'lib'
+if str(_LIB) not in _sys.path:
+    _sys.path.insert(0, str(_LIB))
+from radar.thresholds import DISCOVER_PARTIAL_RATIO  # noqa: E402
+from radar.atomicio import atomic_write_json  # noqa: E402  (P0-外审补：538 落盘调用曾缺导入)
 
 os.environ["PATH"] = os.path.expanduser("~/.local/bin") + ":/usr/local/bin:" + os.environ.get("PATH", "")
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent   # engine/discovery → 仓库根（原 parent.parent 在 engine 布局下漂移）
 OUT = ROOT / "generated" / "current" / "candidates.json"
 CLONES = ROOT / ".clones"
 RESEARCH = ROOT / "research"
@@ -521,7 +527,7 @@ def main() -> int:
             prev_n = prev.get("candidate_count", 0)
             prev_kw = prev.get("source_counts", {}).get("keyword", 0)
             cur_kw = source_counts.get("keyword", 0)
-            if (prev_kw > 0 and cur_kw == 0) or (prev_n and len(candidates) < prev_n * 0.6):
+            if (prev_kw > 0 and cur_kw == 0) or (prev_n and len(candidates) < prev_n * DISCOVER_PARTIAL_RATIO):
                 part = OUT.with_name("candidates.partial.json")
                 doc["_partial_reason"] = f"shrink {prev_n}->{len(candidates)} keyword {prev_kw}->{cur_kw}"
                 part.write_text(json.dumps(doc, ensure_ascii=False, indent=2))
@@ -530,10 +536,7 @@ def main() -> int:
         except Exception:
             pass
     scan_bundles_and_code(by_id, npm_pkg_names)
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    tmp = OUT.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2))
-    tmp.replace(OUT)
+    atomic_write_json(OUT, doc)   # P3：唯一原子写（原 tmp+replace 手写副本）
     print(f"[discover] {len(candidates)} candidates → {OUT.relative_to(ROOT)}")
     print(f"[discover] sources: {source_counts}")
     unknown = sum(1 for c in candidates if c["id"].startswith("github:unknown:"))
