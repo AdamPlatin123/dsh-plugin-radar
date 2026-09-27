@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-26T17:39:26Z",
+ "generated_at": "2026-09-27T20:37:16Z",
  "snapshot_run_id": "20260926T111047Z",
  "stats": {
   "ok": 6161,
@@ -14,30 +14,33 @@
  "total_listed": 9574,
  "runner_versions": {
   "schema": "dsh-radar/runner-versions/v1",
-  "generated_at": "2026-09-19T05:35:47Z",
-  "total": 13523,
-  "latest": "0.1.5-rc.2",
+  "generated_at": "2026-09-27T20:36:36Z",
+  "total": 13488,
+  "latest": "0.1.5-rc.3",
   "versions": {
+   "0.1.5-rc.3": {
+    "ok": 0,
+    "fail": 0,
+    "inc": 1,
+    "untested": 350
+   },
    "0.1.5-rc.1": {
-    "ok": 1380,
-    "fail": 1365,
-    "inc": 481
-   },
-   "0.1.1-rc.2": {
-    "inc": 642,
-    "ok": 2691,
-    "fail": 647
-   },
-   "0.1.5-rc.2": {
-    "inc": 258
+    "ok": 1360,
+    "fail": 1333,
+    "inc": 9,
+    "untested": 290
    },
    "0.1.2-rc.1": {
-    "ok": 4458,
-    "fail": 1426,
-    "inc": 174
+    "ok": 4505,
+    "fail": 1456,
+    "inc": 14,
+    "untested": 159
    },
-   "latest": {
-    "inc": 1
+   "0.1.1-rc.2": {
+    "ok": 2712,
+    "fail": 661,
+    "inc": 15,
+    "untested": 623
    }
   }
  },
