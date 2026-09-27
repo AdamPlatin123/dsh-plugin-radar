@@ -232,6 +232,10 @@
 | dsh-wechat | [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) | 微信私聊消息桥接 DSH：文本、图片、文件与音视频双向传输 | 待测 |
 | dsh-wechat-clawbot | [zhengjy01/dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) | 微信 ClawBot 桥接（官方腾讯 iLink / ClawBot）：扫码登录悬浮球把消息桥接到 agent 会话，复用 context_token 支持窗口外主动推送；`lubaiUwU/DSH-WeChatClawBot` 的维护分支（npm `dsh-wechat-clawbot@0.2.0`） | 待测 |
 
+| dsh-gemini-pool | [qikairo7/dsh-gemini-pool](https://github.com/qikairo7/dsh-gemini-pool) | 多账号 Google Gemini 提供商：按剩余额度挑选账号，遇 429 指数退避切换，后台探活已禁用账号；声明 dsh.bundle.patch（仓库根 cordis.patch.yml），`dsh plugin add github:qikairo7/dsh-gemini-pool` 可装，MIT | 待测 |
+| KISS_Law-DSH | [Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH) | 唯稳律英文版 KISS's Law（守真·稳态 / Keep Integrity & Steady State's Law）——与中文主仓 weiwen-law-dsh 同构的通用型因果裁决中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 7 白箱工具 + 3 道硬性闸门 + 1 只读审计钩（模型之外、执行之内，不侵内 H）；跨 12 场景双模型（DeepSeek + mock）实测、npm test 332/332 全绿；AGPL-3.0 / 双许可 | 待测 |
+| dsh-oh-my-claude | [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) | 把已登录的 Claude Code CLI 作为 dsh 的 LLM 供应商（stream-json）：实时模型列表、按会话恢复、审批中转、图片、记忆/回退/变更面板、远程 SSH 主机上的工作区；npm `dsh-oh-my-claude` | 待测 |
+
 ## 🛠 基础设施
 
 | 插件 | 仓库 | 说明 | 运行级 |
