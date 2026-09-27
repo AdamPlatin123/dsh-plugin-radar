@@ -12,7 +12,7 @@
 ## 冻结窗口（UTC 19:00–21：00，快照低峰）
 
 1. 服务器 crontab 全量注释（probe / watchdog / discover / cadence 四条）
-2. 等在途 bot PR 全部 MERGED（`gh pr list --repo dsh-external/awesome-dsh-plugins`）
+2. 等在途 bot PR 全部 MERGED（`gh pr list --repo Zhidao-Lab-OSS/awesome-dsh-plugins`）
 3. 停 org→mirror 同步（auto-snapshot-push 不再被 probe 触发即停；≤2h 可接受）
 
 ## 切换步骤

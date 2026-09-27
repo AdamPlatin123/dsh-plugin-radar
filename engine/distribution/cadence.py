@@ -120,7 +120,7 @@ def load_bot_env():
         print(f"[cadence-v2] bot token load failed, personal fallback: {type(e).__name__}")
 
 
-ORG_REPO = "dsh-external/awesome-dsh-plugins"
+ORG_REPO = "Zhidao-Lab-OSS/awesome-dsh-plugins"
 FORCE = "--force" in sys.argv  # 测试/手动：跳过触发判定
 
 

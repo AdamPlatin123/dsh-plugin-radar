@@ -5,7 +5,7 @@
 # 不降级为仅文件校验：同名伪装分支可塞白名单文件绕过）
 set -uo pipefail
 export PATH=$HOME/.local/bin:$PATH
-REPO=dsh-external/awesome-dsh-plugins
+REPO=Zhidao-Lab-OSS/awesome-dsh-plugins
 BR="${1:?用法: auto-merge-render.sh <branch> <pushed-sha>}"
 SHA="${2:-}"
 GUARD="$(cd "$(dirname "$0")" && pwd)/merge_guard.py"

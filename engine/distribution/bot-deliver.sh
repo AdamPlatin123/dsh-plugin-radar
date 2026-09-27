@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bot-deliver.sh — 把 agent 测试结果以 bot PR 送到 dsh-external/awesome-dsh-plugins（不直推 main）。
+# bot-deliver.sh — 把 agent 测试结果以 bot PR 送到 Zhidao-Lab-OSS/awesome-dsh-plugins（不直推 main）。
 # 用独立 worktree，不干扰 ~/dsh-external-research 的未提交 WIP。
 set -uo pipefail
 export PATH=$HOME/.local/bin:$PATH
@@ -210,8 +210,8 @@ git -c user.name=dsh-ecosystem-bot -c user.email=bot@dsh-external.local \
 git push -q --force-with-lease dsh-ext "$BR"
 
 # 已有同分支 PR 则不重复开
-gh pr view --repo dsh-external/awesome-dsh-plugins "$BR" >/dev/null 2>&1 || \
-gh pr create --repo dsh-external/awesome-dsh-plugins \
+gh pr view --repo Zhidao-Lab-OSS/awesome-dsh-plugins "$BR" >/dev/null 2>&1 || \
+gh pr create --repo Zhidao-Lab-OSS/awesome-dsh-plugins \
   --base main --head "$BR" \
   --title "bot: agent 运行级测试报告 $DATE" \
   --body "$SUMMARY
@@ -228,7 +228,7 @@ gh pr create --repo AdamPlatin123/awesome-dsh-plugins --base main --head "$BR" \
   --title "bot: agent 运行级测试报告 $DATE" \
   --body "$SUMMARY
 
-来源：AdamPlatin123/dsh-plugin-radar。PR 类别：bot 运行级测试报告（豁免插件登记模板）。同内容 PR：dsh-external/awesome-dsh-plugins。"
+来源：AdamPlatin123/dsh-plugin-radar。PR 类别：bot 运行级测试报告（豁免插件登记模板）。同内容 PR：Zhidao-Lab-OSS/awesome-dsh-plugins。"
 
 # 已有 PR 正文刷新：每次交付重算数值 + 分类表（先按 head 分支解析编号，再按编号 edit）
 BODY_ORG="$SUMMARY
@@ -237,7 +237,7 @@ BODY_ORG="$SUMMARY
 本 PR 只含聚合报告；原始 per-plugin 结果留在后端仓库。合并与否由人工决定。"
 BODY_MIRROR="$SUMMARY
 
-来源：AdamPlatin123/dsh-plugin-radar。PR 类别：bot 运行级测试报告（豁免插件登记模板）。同内容 PR：dsh-external/awesome-dsh-plugins。"
+来源：AdamPlatin123/dsh-plugin-radar。PR 类别：bot 运行级测试报告（豁免插件登记模板）。同内容 PR：Zhidao-Lab-OSS/awesome-dsh-plugins。"
 refresh_pr() {  # $1=repo $2=body
   N=$(gh pr list --repo "$1" --state open --head "$BR" --json number --jq ".[0].number" 2>/dev/null || true)
   if [ -n "$N" ]; then
@@ -245,7 +245,7 @@ refresh_pr() {  # $1=repo $2=body
     echo "[deliver] PR 正文已刷新 $1#$N"
   fi
 }
-refresh_pr dsh-external/awesome-dsh-plugins "$BODY_ORG"
+refresh_pr Zhidao-Lab-OSS/awesome-dsh-plugins "$BODY_ORG"
 refresh_pr AdamPlatin123/awesome-dsh-plugins "$BODY_MIRROR"
 
 # AUTO_MERGE_GUARD（P4b 升级）：三重身份闸门统一走 merge_guard.py——
@@ -257,7 +257,7 @@ if [ "$SNAPSHOT_MODE" = 1 ]; then
   if [ -z "$PUSH_SHA" ] || [ ! -f "$GUARD" ]; then
     echo "[deliver] 无法捕获推送 SHA 或缺 merge_guard——拒绝自动合并（fail-closed，留人工）"
   else
-    for R in dsh-external/awesome-dsh-plugins AdamPlatin123/awesome-dsh-plugins; do
+    for R in Zhidao-Lab-OSS/awesome-dsh-plugins AdamPlatin123/awesome-dsh-plugins; do
       N=$(gh pr list --repo "$R" --state open --head "$BR" --json number --jq '.[0].number' 2>/dev/null)
       [ -n "$N" ] || continue
       python3 "$GUARD" --repo "$R" --pr "$N" --expect-sha "$PUSH_SHA" \

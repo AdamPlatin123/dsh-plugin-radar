@@ -18,7 +18,7 @@
 雷达生态的三个仓库（2026-09-27 修订，P1 全量重构后口径）：
 
 - **清单仓**（AdamPlatin123/awesome-dsh-plugins）：社区登记 PR 的合并地，持有权威登记表（PLUGINS.md），面向读者的门面。
-- **管线仓**（dsh-external/awesome-dsh-plugins）：快照生产与渲染源，雷达数据权威。
+- **管线仓**（Zhidao-Lab-OSS/awesome-dsh-plugins，2026-09-28 自 dsh-external/awesome-dsh-plugins 迁入，老仓已 archive）：快照生产与渲染源，雷达数据权威。
 - **引擎镜像仓**（AdamPlatin123/dsh-plugin-radar，即本仓）：引擎开源副本 + 站点宿主 + 管线数据镜像。数据流：管线仓→本仓（org→mirror 同步）→GitHub Pages 站点；渲染与导出经 canonical 单一事实源（见 docs/radar/architecture.md）。
 
 数据单向流：管线仓→清单仓、管线仓→本仓；登记表只在清单仓。（2026-08-27 首次正名取代「主仓/镜像」称呼；2026-09-27 增补第三仓角色。）

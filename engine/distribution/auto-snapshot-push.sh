@@ -55,7 +55,7 @@ if [ -n "$LAST_RUN" ] && [ -f "$SNAP_DIR/data/snapshots/$LAST_RUN.json" ]; then
 fi
 
 # ③ 推 main（gh API）
-REPO=dsh-external/awesome-dsh-plugins
+REPO=Zhidao-Lab-OSS/awesome-dsh-plugins
 CONTENT=$(base64 -w0 "$RUN_FILE")
 python3 -c \
   "import base64,json; json.dump({'message':'auto: 快照 $RUN_ID（v2 桥接 · total=$CUR_TOTAL）','content':base64.b64encode(open('$RUN_FILE','rb').read()).decode(),'branch':'main'},open('$PAY_SNAP','w'))"

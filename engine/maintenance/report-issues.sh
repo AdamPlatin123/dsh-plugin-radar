@@ -51,7 +51,7 @@ while IFS= read -r line; do
   TITLE="[compat] 与最新 mainline（$MAINLINE_LABEL）$SEVERITY：$err"
   BODY="## 兼容性验证发现（自动报告，未修复）
 
-在 [awesome-dsh-plugins](https://github.com/dsh-external/awesome-dsh-plugins) 的编译验证中发现本仓库可能存在问题：
+在 [awesome-dsh-plugins](https://github.com/Zhidao-Lab-OSS/awesome-dsh-plugins) 的编译验证中发现本仓库可能存在问题：
 
 - **mainline 基线**：$MAINLINE_LABEL
 - **验证方式**：插件源码放入 mainline workspace 后 \`tsc --noEmit\`
@@ -62,7 +62,7 @@ while IFS= read -r line; do
 - 错误分类：
   - TS2307/TS6053/TS5083/TS5101/TS2688 → 环境/配置类（tsconfig 解析、依赖、类型包），真实安装环境可能可解
   - TS2339/TS2345/TS2322 → API 漂移，**很可能真实不兼容**
-- 完整验证数据：https://github.com/dsh-external/awesome-dsh-plugins/blob/main/reports/$(basename "$(dirname "$COMPAT")")/compile-compat.md
+- 完整验证数据：https://github.com/Zhidao-Lab-OSS/awesome-dsh-plugins/blob/main/reports/$(basename "$(dirname "$COMPAT")")/compile-compat.md
 
 ### 建议
 请仓库维护者自查：更新 tsconfig 继承 / 补齐依赖 / 对照新 API 签名。"
