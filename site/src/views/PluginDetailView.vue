@@ -39,6 +39,7 @@ const fmtDate = (iso: string) => (iso ? iso.slice(0, 10) : '—')
           <VerdictBadge :verdict="row.verdict" />
           <span v-if="row.bundle" class="chip">📦 {{ t('card.bundle') }}</span>
           <span v-if="row.pr" class="chip">{{ t('card.pr') }}</span>
+          <span v-if="row.dormant" class="chip dormant">😴 {{ t('card.dormant') }}</span>
           <router-link class="chip link" :to="`/browse?domain=${row.domain}`">{{ domainTitle }}</router-link>
         </div>
         <div class="metrics">
@@ -67,6 +68,7 @@ const fmtDate = (iso: string) => (iso ? iso.slice(0, 10) : '—')
         <li v-if="meta.runnerLatest">{{ t('stat.runner') }} <span class="num">{{ meta.runnerLatest }}</span></li>
       </ul>
       <p class="note">{{ t('detail.notCurated') }}</p>
+      <p v-if="row.dormant" class="note">😴 {{ t('detail.dormantNote') }}</p>
     </aside>
   </article>
 </template>

@@ -14,6 +14,7 @@ export interface PluginRow {
   bundle: boolean
   pr: boolean
   hasEnrich: boolean
+  dormant: boolean
 }
 
 export interface EnrichInfo {
@@ -50,6 +51,7 @@ export function ensureRows(): Promise<void> {
         bundle: (flags & 1) !== 0,
         pr: (flags & 2) !== 0,
         hasEnrich: (flags & 4) !== 0,
+        dormant: (flags & 8) !== 0,
       }
     })
     enrich.value = m.ENRICH

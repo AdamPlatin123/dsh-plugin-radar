@@ -90,3 +90,8 @@ print(verdict.get("omdsh-dev/DSH-better-sidebar"))   # → 'ok'
 键同 plugins-all 的 repo；字段：`stars / pushed_at / avatar / lang / license /
 topics(≤5) / readme_image(仅精选与策展仓)`。与全量清单正交、字段只增不删；
 由 `enrich-metadata` 工作流日更（与星标刷同批 GraphQL，配额零增量）。
+
+## 休眠名单：data/test-skip-list.json（radar-test-skip/v1）
+
+`repos` 为 repo 全名小写数组（判定口径见 CONTEXT.md「休眠测试策略」）；
+enrich-metadata 工作流日更刷新。测试调度方可据此跳过派发。

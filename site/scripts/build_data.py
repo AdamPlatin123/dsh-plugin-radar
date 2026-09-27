@@ -72,9 +72,10 @@ def build(root: Path):
 
     # P6 补采 sidecar（可选）
     enrich = _load(root / 'data' / 'plugins-enrich.json', {}).get('entries', {})
+    skip = set(_load(root / 'data' / 'test-skip-list.json', {}).get('repos', []))
 
     # ── 大表（列数组）：[repo, name, verdict, stars, desc, domain, flags] ──
-    # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据
+    # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据 8=休眠（>30天未更新且不兼容，暂停测试）
     out_rows, missing_domain = [], 0
     for r in rows:
         repo_l = r['repo'].lower()
@@ -83,7 +84,7 @@ def build(root: Path):
         if not e:
             missing_domain += 1
         flags = (1 if e.get('bundle') else 0) | (2 if r['name'] in pr_names else 0) \
-            | (4 if repo_l in enrich else 0)
+            | (4 if repo_l in enrich else 0) | (8 if repo_l in skip else 0)
         out_rows.append([r['repo'], r['name'], r['verdict'],
                          r['stars'] if r['stars'] is not None else -1,
                          r['desc'], dom, flags])

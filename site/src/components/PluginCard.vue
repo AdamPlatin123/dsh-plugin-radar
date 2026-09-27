@@ -26,6 +26,7 @@ const { t } = useI18n()
         <VerdictBadge :verdict="row.verdict" />
         <span v-if="row.bundle" class="chip bundle">📦 {{ t('card.bundle') }}</span>
         <span v-if="row.pr" class="chip pr">{{ t('card.pr') }}</span>
+        <span v-if="row.dormant" class="chip dormant">😴 {{ t('card.dormant') }}</span>
         <span class="owner">{{ row.owner }}</span>
       </div>
     </div>

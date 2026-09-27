@@ -46,3 +46,11 @@
 ## 补采 sidecar（plugins-enrich）
 
 `data/plugins-enrich.json`（dsh-enrich/v1）：GraphQL 补采的增量元数据（pushed_at/作者头像/topics/license/language/README 首图），与全量清单正交、键同 repo、字段只增不删。站点详情页与画廊的数据源。（2026-09-27 P6，ADR-0005。）
+
+## 休眠测试策略（test-skip）
+
+`data/test-skip-list.json`（radar-test-skip/v1）：pushed_at >30 天未更新 **且** 判定
+incompatible 的仓库集合——按 2026-09-28 策略暂停重测，待其下次推送自动复活
+（enrich 日更刷新 pushed_at）。测试调度器消费该名单跳过派发；展示层仅标注
+"😴 休眠"，不改判定语义与七档统计口径。判定保守：任一条件不满足或缺
+pushed_at 的仓继续测试。

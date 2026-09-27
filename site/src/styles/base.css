@@ -20,3 +20,5 @@ button { font: inherit; color: inherit; }
   body { font-size: 14px; }
   .container { padding: 0 12px; }
 }
+
+.chip.dormant { color: var(--fg-faint); border-color: var(--line-soft); opacity: 0.85; }
