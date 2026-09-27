@@ -1,17 +1,17 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-27T17:45:43Z",
+ "generated_at": "2026-09-27T23:59:21Z",
  "snapshot_run_id": "20260927T174501Z",
  "stats": {
   "ok": 5998,
   "incompatible": 2142,
   "pending": 1316,
-  "untested": 136,
+  "untested": 143,
   "gone": 133,
   "ambiguous": 103,
   "unlocated": 9091
  },
- "total_listed": 9578,
+ "total_listed": 9585,
  "runner_versions": {
   "message": "Not Found",
   "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
