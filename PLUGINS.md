@@ -81,6 +81,7 @@
 | dsh-web-access | [NexusAgentX/dsh-web-access](https://github.com/NexusAgentX/dsh-web-access) | 多提供方联网：web_search / fetch_content / source_check，注册 ctx.web 的 web-access 搜索/抓取提供方，Web 面板改配置与策展；npm `dsh-web-access` | ✅ |
 | dsh-llm-fallback | [Visol-456/dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) | LLM 回退链插件：请求本身永远是链头（聊天栏所选模型永不被改写），失败自动按备用顺序切换重试；Web UI 配置面板（provider/model 下拉选择、错误码、阈值、冷却，保存热生效）；dsh.bundle 一键激活；69 单测全绿 + Windows 实测 | ✅ |
 | dsh-lens | [NexusAgentX/dsh-lens](https://github.com/NexusAgentX/dsh-lens) | 写/改文件时的实时代码反馈：LSP / linter / formatter / ast-grep / symbol_search，Web chip+dock；npm `dsh-lens` | ✅ |
+| sage-mem | [gezi-wen/sage-mem](https://github.com/gezi-wen/sage-mem) | 文件式跨会话记忆：每条记忆一个 Markdown 文件（frontmatter + 正文），按问题检索并自动注入 + baseline 每会话必读，四类记忆；从 Claude Code 无损迁移（拷文件即可）；带记忆星图、类型/标签筛选与可选的记忆整理（做梦）；无数据库、无 worker、无端口、无网络 | 待测 |
 | dsh-mnemon | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Mnemon 深度集成的本地记忆系统：运行时热记忆 / 项目档案 / 长期记忆体三层存储，受监督写回、检索工具与 8 页 Web UI | ✅ |
 | dsh-daily-brief | [Equinox7379/dsh-daily-brief](https://github.com/Equinox7379/dsh-daily-brief) | 回合日报：跨 live 会话统计回合/用户消息/助手回复/工具调用（daily_brief 工具，只读零依赖） | ✅ |
 | dsh-config-watch | [Equinox7379/dsh-config-watch](https://github.com/Equinox7379/dsh-config-watch) | 配置漂移侦探：启动时快照 profile/插件清单并记录变更历史（config_changes 工具） | ❌ |
