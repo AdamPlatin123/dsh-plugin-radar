@@ -26,7 +26,7 @@ from urllib.parse import quote
 from pathlib import Path
 
 os.environ["PATH"] = os.path.expanduser("~/.local/bin") + ":/usr/local/bin:" + os.environ.get("PATH", "")
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 OUT = ROOT / "generated" / "current" / "candidates.json"
 CLONES = ROOT / ".clones"
 RESEARCH = ROOT / "research"

@@ -12,7 +12,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CAND = ROOT / "generated" / "current" / "candidates.json"
 CAT = ROOT / "generated" / "current" / "catalog.json"
 PREV = ROOT / "generated" / "current" / "summary.json"  # read before overwrite

@@ -19,7 +19,7 @@ def facts():
     f = {"topic_n": 2, "kw_n": 3, "spacing": 35, "cap": 10, "batch": 100,
          "probe": "*/15", "streams": 7, "stream_sec": 60, "discover_hours": 6}
     try:
-        s = (FRONT / "scripts/discover.py").read_text()
+        s = (FRONT / "engine/discovery/discover.py").read_text()
         f["topic_n"] = s.count('("topic",')
         f["kw_n"] = s.count('("keyword",')
         m = re.search(r"time\.sleep\((\d+)\)", s)

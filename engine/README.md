@@ -35,7 +35,7 @@ DEEPSEEK_API_KEY     # 冒烟测试用（可为占位 none，走本地代理时�
 ```cron
 */15 * * * * flock -n /tmp/radar-probe.lock    -c "bash ~/dsh-k8s/radar-probe.sh    >> ~/dsh-k8s/probe.log 2>&1"
 */5  * * * * flock -w 60 /tmp/radar-watchdog.lock -c "bash ~/dsh-k8s/radar-watchdog.sh >> ~/dsh-k8s/watchdog.log 2>&1"
-17   */4 * * * flock -n /tmp/radar-discover.lock -c "cd ~/dsh-external-research && python3 scripts/discover.py >> ~/dsh-k8s/discover.log 2>&1"
+17   */4 * * * flock -n /tmp/radar-discover.lock -c "cd ~/dsh-external-research && python3 engine/discovery/discover.py >> ~/dsh-k8s/discover.log 2>&1"
 ```
 
 ## 诚实边界
