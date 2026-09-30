@@ -1,11 +1,11 @@
 {
  "schema": "dsh-enrich/v1",
- "updated_at": "2026-09-26T16:47:11+00:00",
- "entry_count": 9399,
+ "updated_at": "2026-09-30T23:14:54+00:00",
+ "entry_count": 9420,
  "entries": {
   "tt-a1i/archify": {
-   "stars": 72117,
-   "pushed_at": "2026-09-26T14:58:38Z",
+   "stars": 75214,
+   "pushed_at": "2026-09-30T15:57:42Z",
    "avatar": "https://avatars.githubusercontent.com/u/53142663?s=96&u=0b4227024a29da8bfd9d0d037dd6cad78c8f3ae0&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -16,10 +16,10 @@
     "diagram-as-code",
     "mermaid-alternative"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "titanwings/colleague-skill": {
-   "stars": 25046,
+   "stars": 25177,
    "pushed_at": "2026-09-22T14:01:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/85022018?s=96&u=6113597ca45e93695ad70a154be122589f227d53&v=4",
    "lang": "Python",
@@ -31,10 +31,10 @@
     "codex",
     "hermes-agent"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "foryourhealth111-pixel/vibe-skills": {
-   "stars": 3458,
+   "stars": 3507,
    "pushed_at": "2026-08-31T13:52:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/251585801?s=96&u=3b2f67b0122fab86c8ff2a311ae894381f0835d7&v=4",
    "lang": "Python",
@@ -46,7 +46,7 @@
     "codex",
     "developer-tools"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "hellowind777/helloagents": {
    "stars": 704,
@@ -58,12 +58,12 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00",
+   "fetched_at": "2026-09-30T23:14:04+00:00",
    "readme_image": "https://img.shields.io/badge/version-3.1.9-orange.svg"
   },
   "hashgraph-online/hol-guard": {
-   "stars": 669,
-   "pushed_at": "2026-09-26T16:15:58Z",
+   "stars": 683,
+   "pushed_at": "2026-09-30T23:12:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/160371962?s=96&v=4",
    "lang": "Python",
    "license": "Apache-2.0",
@@ -74,11 +74,11 @@
     "agent-security",
     "ai-agent-security"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "sandbaseai/sandbase-harness": {
-   "stars": 673,
-   "pushed_at": "2026-09-26T16:31:46Z",
+   "stars": 678,
+   "pushed_at": "2026-09-30T07:15:49Z",
    "avatar": "https://avatars.githubusercontent.com/u/271874822?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -89,12 +89,12 @@
     "deepseek-harness",
     "mcp-server"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00",
+   "fetched_at": "2026-09-30T23:14:04+00:00",
    "readme_image": "https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social"
   },
   "alibaba/anolisa": {
-   "stars": 656,
-   "pushed_at": "2026-09-25T09:40:03Z",
+   "stars": 658,
+   "pushed_at": "2026-09-30T03:31:10Z",
    "avatar": "https://avatars.githubusercontent.com/u/326861446?s=96&v=4",
    "lang": "Rust",
    "license": "Apache-2.0",
@@ -105,11 +105,11 @@
     "agent-infrastructure",
     "agent-memory"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "chenxiachan/thoughtdag": {
-   "stars": 492,
-   "pushed_at": "2026-09-26T10:38:50Z",
+   "stars": 512,
+   "pushed_at": "2026-09-30T22:03:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/106488602?s=96&u=d531e9b0fb1781deab15990dd07297222e6caee7&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -120,11 +120,11 @@
     "dag",
     "infinite-canvas"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "anionex/dsh-vision-toolkit": {
-   "stars": 884,
-   "pushed_at": "2026-09-26T12:25:51Z",
+   "stars": 887,
+   "pushed_at": "2026-09-30T19:45:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/123177548?s=96&u=2757eac44216028f029a6ac6190ef08fb4ae069a&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -135,11 +135,11 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00",
+   "fetched_at": "2026-09-30T23:14:04+00:00",
    "readme_image": "https://img.shields.io/badge/recommended%20by-dshfind-FFD700?style=flat-square"
   },
   "pax-beehive/dsh-hub-cli": {
-   "stars": 458,
+   "stars": 455,
    "pushed_at": "2026-09-22T05:24:50Z",
    "avatar": "https://avatars.githubusercontent.com/u/292671531?s=96&v=4",
    "lang": "TypeScript",
@@ -151,11 +151,11 @@
     "developer-tools",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "vibeinging/dsh-work": {
-   "stars": 586,
-   "pushed_at": "2026-09-25T20:04:42Z",
+   "stars": 591,
+   "pushed_at": "2026-09-30T20:54:49Z",
    "avatar": "https://avatars.githubusercontent.com/u/8122332?s=96&u=efa53a309a6f35d51338aa6d2818f1f0a4a97d72&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -166,11 +166,11 @@
     "ai-agent",
     "ai-workbench"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "morluto/rea": {
-   "stars": 415,
-   "pushed_at": "2026-09-08T03:00:46Z",
+   "stars": 422,
+   "pushed_at": "2026-09-30T11:07:44Z",
    "avatar": "https://avatars.githubusercontent.com/u/76467478?s=96&u=8a96c1f808f07cd860147ae4b87750aec1437ee4&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -181,12 +181,12 @@
     "coding-agents",
     "decompiler"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00",
+   "fetched_at": "2026-09-30T23:14:04+00:00",
    "readme_image": "https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837"
   },
   "pm-shawn/abu-cowork": {
-   "stars": 387,
-   "pushed_at": "2026-09-24T23:17:40Z",
+   "stars": 389,
+   "pushed_at": "2026-09-30T17:40:04Z",
    "avatar": "https://avatars.githubusercontent.com/u/34580770?s=96&u=301ff630274751d24be81978d3631683bc9d74d7&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
@@ -197,11 +197,11 @@
     "desktop-app",
     "llm"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "mrpulor-gh/nuphus-mcp": {
-   "stars": 312,
-   "pushed_at": "2026-09-25T18:32:34Z",
+   "stars": 315,
+   "pushed_at": "2026-09-28T21:40:02Z",
    "avatar": "https://avatars.githubusercontent.com/u/187365610?s=96&u=001c8718b41b7fdedacf810afe7d51299cf29f07&v=4",
    "lang": "Rust",
    "license": "MIT",
@@ -212,11 +212,11 @@
     "computer-use",
     "computer-vision"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "plur-ai/plur": {
-   "stars": 294,
-   "pushed_at": "2026-09-26T16:11:13Z",
+   "stars": 295,
+   "pushed_at": "2026-09-30T19:11:26Z",
    "avatar": "https://avatars.githubusercontent.com/u/269585694?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -227,20 +227,20 @@
     "context-engine",
     "llm"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "agent-earth/deepseek-harness-desktop": {
-   "stars": 238,
+   "stars": 243,
    "pushed_at": "2026-09-18T03:22:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/320394190?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
    "topics": [],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "openma-ai/open-managed-agents": {
-   "stars": 306,
-   "pushed_at": "2026-09-25T09:27:00Z",
+   "stars": 311,
+   "pushed_at": "2026-09-29T16:52:03Z",
    "avatar": "https://avatars.githubusercontent.com/u/275590287?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -251,13 +251,13 @@
     "cloudflare",
     "managed-agents"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "wssfk12138/dsh-damage-pulse": {
-   "stars": 203,
-   "pushed_at": "2026-09-18T08:31:07Z",
+   "stars": 236,
+   "pushed_at": "2026-09-30T09:12:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/79346097?s=96&u=3307b78b1593d7cdef0f0d4e4e561f5d3ab48a04&v=4",
-   "lang": "TypeScript",
+   "lang": "JavaScript",
    "license": "MIT",
    "topics": [
     "balance-monitor",
@@ -266,7 +266,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "shanliuling/skills-link": {
    "stars": 197,
@@ -281,10 +281,10 @@
     "skills",
     "skills-sync"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "tinqiao-oss/engramory": {
-   "stars": 191,
+   "stars": 192,
    "pushed_at": "2026-09-24T03:16:00Z",
    "avatar": "https://avatars.githubusercontent.com/u/236648079?s=96&u=6d190b0b1ff89aae88b77c2e2112513e20a442c8&v=4",
    "lang": "Python",
@@ -296,10 +296,10 @@
     "llm-memory",
     "markdown"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "seriousz158/dsh-memory": {
-   "stars": 181,
+   "stars": 180,
    "pushed_at": "2026-09-23T07:24:04Z",
    "avatar": "https://avatars.githubusercontent.com/u/275876067?s=96&v=4",
    "lang": "JavaScript",
@@ -310,11 +310,11 @@
     "dsh-plugin",
     "memory"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "zhaoolee/notes": {
-   "stars": 169,
-   "pushed_at": "2026-09-26T09:05:51Z",
+   "stars": 175,
+   "pushed_at": "2026-09-29T04:02:04Z",
    "avatar": "https://avatars.githubusercontent.com/u/15868458?s=96&u=aa3a39fdb2c4a16abeb527f343ab7909d10e1b4e&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -323,11 +323,11 @@
     "smartisan",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "himovo/movo": {
-   "stars": 163,
-   "pushed_at": "2026-09-23T07:50:12Z",
+   "stars": 208,
+   "pushed_at": "2026-09-30T15:34:13Z",
    "avatar": "https://avatars.githubusercontent.com/u/323513317?s=96&v=4",
    "lang": "Python",
    "license": "NOASSERTION",
@@ -338,10 +338,10 @@
     "enterprise-agents",
     "mcp"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "fangqian616/consensus-pipeline": {
-   "stars": 125,
+   "stars": 126,
    "pushed_at": "2026-09-23T18:20:34Z",
    "avatar": "https://avatars.githubusercontent.com/u/203673857?s=96&u=2446c1331379fc0851e74398ff3b3b22c4cd034f&v=4",
    "lang": "Python",
@@ -353,11 +353,11 @@
     "llm",
     "multi-agent"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "xiajiajun516/dsh-config-manager": {
-   "stars": 129,
-   "pushed_at": "2026-09-24T21:05:52Z",
+   "stars": 138,
+   "pushed_at": "2026-09-30T00:40:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/116311454?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -368,7 +368,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "hanshenmesen/dsh-turn-delete": {
    "stars": 108,
@@ -382,10 +382,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "baihejiangnan/deepseek-harness-desktop": {
-   "stars": 101,
+   "stars": 100,
    "pushed_at": "2026-09-24T09:16:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/139034235?s=96&u=e4b246c563fd49f69f4bb78447927e53c2f6c5b8&v=4",
    "lang": "Rust",
@@ -397,11 +397,11 @@
     "deepseek-harness-desktop",
     "desktop-app"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "pulseaiclub/phi": {
-   "stars": 519,
-   "pushed_at": "2026-09-26T16:07:51Z",
+   "stars": 523,
+   "pushed_at": "2026-09-30T18:09:20Z",
    "avatar": "https://avatars.githubusercontent.com/u/300049892?s=96&v=4",
    "lang": "Go",
    "license": "MIT",
@@ -412,11 +412,11 @@
     "ai-agent",
     "go"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "omdsh-dev/dsh-mnemon": {
-   "stars": 417,
-   "pushed_at": "2026-09-26T16:19:24Z",
+   "stars": 431,
+   "pushed_at": "2026-09-30T22:04:11Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -427,11 +427,11 @@
     "persistent-memory",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "lamost423/dsh-maze": {
-   "stars": 83,
-   "pushed_at": "2026-09-24T15:43:21Z",
+   "stars": 86,
+   "pushed_at": "2026-09-27T23:28:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/117018962?s=96&u=d8da01c1ebf99fbe3a1ea64b00ac8e75607b9248&v=4",
    "lang": "HTML",
    "license": "MIT",
@@ -442,7 +442,7 @@
     "trace",
     "visualization"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "feibi-mochi/deepseek-harness-wallet": {
    "stars": 72,
@@ -457,10 +457,10 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "eri64/dsh-claude-ux": {
-   "stars": 69,
+   "stars": 70,
    "pushed_at": "2026-08-15T18:18:39Z",
    "avatar": "https://avatars.githubusercontent.com/u/118366122?s=96&v=4",
    "lang": "JavaScript",
@@ -470,10 +470,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "linhut/gongwen-skill": {
-   "stars": 67,
+   "stars": 69,
    "pushed_at": "2026-09-26T15:51:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/26740855?s=96&u=a76952342f25beca21de1c43605d247680997e2d&v=4",
    "lang": "Python",
@@ -485,7 +485,7 @@
     "gongwen",
     "wps-office"
    ],
-   "fetched_at": "2026-09-26T16:33:19+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "morluto/jacobian": {
    "stars": 194,
@@ -1660,7 +1660,7 @@
     "openai-compatible",
     "reasoning-effort"
    ],
-   "fetched_at": "2026-09-26T16:33:27+00:00",
+   "fetched_at": "2026-09-30T23:14:04+00:00",
    "readme_image": "https://raw.githubusercontent.com/junelearn/dsh-reasoning-settings/HEAD/assets/reasoning-settings-page.png"
   },
   "lunaship/dsh-links": {
@@ -2891,7 +2891,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:33:34+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "paean-ai/8x-skills": {
    "stars": 3,
@@ -4180,7 +4180,7 @@
     "plugin",
     "search"
    ],
-   "fetched_at": "2026-09-26T16:33:43+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "tohsakarin521/dsh-academic-skill": {
    "stars": 1,
@@ -12685,22 +12685,22 @@
    "fetched_at": "2026-09-26T16:34:35+00:00"
   },
   "mem9-ai/mem9": {
-   "stars": 1218,
-   "pushed_at": "2026-09-16T09:39:50Z",
+   "stars": 1220,
+   "pushed_at": "2026-09-29T03:14:07Z",
    "avatar": "https://avatars.githubusercontent.com/u/266194263?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "agentrq/agentrq": {
-   "stars": 1134,
-   "pushed_at": "2026-09-26T15:59:57Z",
+   "stars": 1136,
+   "pushed_at": "2026-09-30T07:13:04Z",
    "avatar": "https://avatars.githubusercontent.com/u/270256433?s=96&v=4",
    "lang": "Go",
-   "license": "Apache-2.0",
+   "license": "AGPL-3.0",
    "topics": [
     "agentic-ai",
     "agentic-workflow",
@@ -12708,10 +12708,10 @@
     "task",
     "task-manager"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "anionex/agent-vision-toolkit": {
-   "stars": 1214,
+   "stars": 1219,
    "pushed_at": "2026-08-27T05:13:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/123177548?s=96&u=2757eac44216028f029a6ac6190ef08fb4ae069a&v=4",
    "lang": "Python",
@@ -12723,11 +12723,11 @@
     "glm",
     "multimodal"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://img.shields.io/badge/-@anion__ex-000000?style=flat-square&logo=x&logoColor=white"
   },
   "toby-bridges/api-relay-audit": {
-   "stars": 859,
+   "stars": 865,
    "pushed_at": "2026-09-16T09:42:54Z",
    "avatar": "https://avatars.githubusercontent.com/u/59594712?s=96&u=261f6e22f725e8a9dbaefdd371bb9487986a01fa&v=4",
    "lang": "Python",
@@ -12739,12 +12739,12 @@
     "api-gateway",
     "claude"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://api.star-history.com/svg?repos=toby-bridges/api-relay-audit&type=Date"
   },
   "jingyunstudio/jingyun-dsh": {
-   "stars": 666,
-   "pushed_at": "2026-09-23T08:03:31Z",
+   "stars": 781,
+   "pushed_at": "2026-09-30T10:00:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/263533190?s=96&v=4",
    "lang": "TypeScript",
    "license": "",
@@ -12755,10 +12755,10 @@
     "dsh-plugin-desktop",
     "dsh-plugin-market"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "adoresever/graph-memory": {
-   "stars": 628,
+   "stars": 633,
    "pushed_at": "2026-09-09T07:51:31Z",
    "avatar": "https://avatars.githubusercontent.com/u/167835671?s=96&u=c0ba21ba42fde9cc4a1f93e33be738c3f05ad464&v=4",
    "lang": "TypeScript",
@@ -12770,11 +12770,11 @@
     "claude-code",
     "codex"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "superdesigndev/treg": {
-   "stars": 3460,
-   "pushed_at": "2026-09-26T10:14:25Z",
+   "stars": 3937,
+   "pushed_at": "2026-09-30T22:58:28Z",
    "avatar": "https://avatars.githubusercontent.com/u/217153862?s=96&v=4",
    "lang": "Python",
    "license": "NOASSERTION",
@@ -12785,11 +12785,11 @@
     "cli",
     "credentials"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "vibeinging/dsh-desktop": {
-   "stars": 586,
-   "pushed_at": "2026-09-25T20:04:42Z",
+   "stars": 591,
+   "pushed_at": "2026-09-30T20:54:49Z",
    "avatar": "https://avatars.githubusercontent.com/u/8122332?s=96&u=efa53a309a6f35d51338aa6d2818f1f0a4a97d72&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -12800,7 +12800,7 @@
     "ai-agent",
     "ai-workbench"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "nutshellai-tech/mobius": {
    "stars": 296,
@@ -12812,12 +12812,12 @@
     "dsh-plugin",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/nutshellai-tech/mobius/HEAD/logo.png"
   },
   "zhoushoujianwork/easyeda-agent": {
-   "stars": 548,
-   "pushed_at": "2026-09-26T16:17:58Z",
+   "stars": 572,
+   "pushed_at": "2026-09-30T18:04:20Z",
    "avatar": "https://avatars.githubusercontent.com/u/40590631?s=96&v=4",
    "lang": "Go",
    "license": "NOASSERTION",
@@ -12828,11 +12828,11 @@
     "claude-code",
     "easyeda"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "text2future/flowix": {
-   "stars": 435,
-   "pushed_at": "2026-09-26T06:37:27Z",
+   "stars": 443,
+   "pushed_at": "2026-09-29T18:00:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/287577413?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -12843,10 +12843,10 @@
     "markdown-editor",
     "memory-system"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "linhay/harmony-next.skills": {
-   "stars": 353,
+   "stars": 357,
    "pushed_at": "2026-09-20T07:21:18Z",
    "avatar": "https://avatars.githubusercontent.com/u/15262434?s=96&u=b29cd527d8d29ef9cdb05de5a6b88d967fe8153e&v=4",
    "lang": "Python",
@@ -12858,12 +12858,12 @@
     "harmonyos",
     "harmonyos-next"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://img.shields.io/github/v/release/linhay/harmony-next.skills?style=flat-square"
   },
   "cofy-x/axern": {
    "stars": 66,
-   "pushed_at": "2026-09-24T14:51:40Z",
+   "pushed_at": "2026-09-29T18:11:46Z",
    "avatar": "https://avatars.githubusercontent.com/u/225628682?s=96&v=4",
    "lang": "Go",
    "license": "Apache-2.0",
@@ -12874,12 +12874,12 @@
     "sandbox",
     "self-hosted"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/cofy-x/axern/HEAD/assets/readme/hero.svg"
   },
   "jigjoy-ai/baro": {
    "stars": 124,
-   "pushed_at": "2026-09-24T19:21:35Z",
+   "pushed_at": "2026-09-30T12:23:07Z",
    "avatar": "https://avatars.githubusercontent.com/u/192809911?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -12890,11 +12890,11 @@
     "claude-code",
     "cli"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "qkycir-123/dsh-run2skill": {
-   "stars": 109,
-   "pushed_at": "2026-09-25T10:40:44Z",
+   "stars": 108,
+   "pushed_at": "2026-09-30T17:41:55Z",
    "avatar": "https://avatars.githubusercontent.com/u/318239146?s=96&u=397f5bf7a7b5ae9e032b2cdd4cb97fd604b5158a&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -12905,11 +12905,11 @@
     "local-first",
     "agent-learning"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "aa2246740/dsh-watcher": {
-   "stars": 96,
-   "pushed_at": "2026-09-26T05:55:38Z",
+   "stars": 100,
+   "pushed_at": "2026-09-30T17:31:02Z",
    "avatar": "https://avatars.githubusercontent.com/u/10174279?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -12920,11 +12920,11 @@
     "plugin",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "melandlabs/opencontext": {
    "stars": 76,
-   "pushed_at": "2026-09-24T13:12:32Z",
+   "pushed_at": "2026-09-30T10:46:12Z",
    "avatar": "https://avatars.githubusercontent.com/u/239154911?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -12935,10 +12935,10 @@
     "harness",
     "memory"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "dream12347/dsh-delete-session": {
-   "stars": 69,
+   "stars": 68,
    "pushed_at": "2026-08-27T16:20:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/202648322?s=96&v=4",
    "lang": "TypeScript",
@@ -12950,7 +12950,7 @@
     "dsh",
     "deepseek-harness-plugin"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "pingfanfan/hello-dsh": {
    "stars": 96,
@@ -12965,7 +12965,7 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:34:35+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "lamost423/dsh-trace-compare": {
    "stars": 83,
@@ -17400,8 +17400,8 @@
    "fetched_at": "2026-09-26T16:35:03+00:00"
   },
   "huangruiteng/loopx": {
-   "stars": 6007,
-   "pushed_at": "2026-09-26T16:33:39Z",
+   "stars": 6119,
+   "pushed_at": "2026-09-30T22:59:32Z",
    "avatar": "https://avatars.githubusercontent.com/u/331332701?s=96&v=4",
    "lang": "Python",
    "license": "Apache-2.0",
@@ -17412,11 +17412,11 @@
     "loop-engineering",
     "workflow-automation"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "chuspeeism/dashi-taskboard": {
-   "stars": 3227,
-   "pushed_at": "2026-09-26T13:56:12Z",
+   "stars": 3269,
+   "pushed_at": "2026-09-29T07:54:30Z",
    "avatar": "https://avatars.githubusercontent.com/u/70992554?s=96&u=219ff74d5825926785b16e2bf84cfdc5cf199a45&v=4",
    "lang": "JavaScript",
    "license": "Apache-2.0",
@@ -17427,11 +17427,11 @@
     "codex-app",
     "codex-desktop"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "liustack/modlens": {
-   "stars": 4043,
-   "pushed_at": "2026-09-24T09:02:01Z",
+   "stars": 4092,
+   "pushed_at": "2026-09-27T20:45:40Z",
    "avatar": "https://avatars.githubusercontent.com/u/83945823?s=96&u=ddd515b23c79d1f9ae23b0116db367fac9fc50d9&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -17442,12 +17442,12 @@
     "codex",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/liustack/modlens/main/assets/demo-dsh-settings-card.jpg"
   },
   "xmanrui/dsh-im": {
-   "stars": 1511,
-   "pushed_at": "2026-09-25T14:23:42Z",
+   "stars": 1565,
+   "pushed_at": "2026-09-30T18:27:16Z",
    "avatar": "https://avatars.githubusercontent.com/u/4094054?s=96&u=f68ad970a1a41b5e23d415717fe8056c2be6f5a6&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17458,11 +17458,11 @@
     "cordis",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "omdsh-dev/dsh-better-sidebar": {
-   "stars": 3765,
-   "pushed_at": "2026-09-24T17:06:44Z",
+   "stars": 3928,
+   "pushed_at": "2026-09-28T16:45:35Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -17473,13 +17473,13 @@
     "deepseek-harness",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
-   "readme_image": "https://raw.githubusercontent.com/omdsh-dev/dsh-better-sidebar/HEAD/img.png"
+   "fetched_at": "2026-09-30T23:14:08+00:00",
+   "readme_image": "https://img.shields.io/npm/v/dsh-better-sidebar"
   },
   "ccch1mneyyy/dsh-tui": {
-   "stars": 3310,
-   "pushed_at": "2026-09-26T16:34:25Z",
-   "avatar": "https://avatars.githubusercontent.com/u/268149062?s=96&u=4eb96e7cc1d9fd83b45e74f54ff5f9fc54cb8fc7&v=4",
+   "stars": 3876,
+   "pushed_at": "2026-09-30T21:57:36Z",
+   "avatar": "https://avatars.githubusercontent.com/u/268149062?s=96&u=6b8c7bba58214354b91e45e6cbbfae95ab85eabc&v=4",
    "lang": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -17489,7 +17489,7 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "paean-ai/deeptide": {
    "stars": 1102,
@@ -17504,11 +17504,11 @@
     "deepseek",
     "macos"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "vshulcz/deja-vu": {
-   "stars": 1040,
-   "pushed_at": "2026-09-26T16:26:41Z",
+   "stars": 1105,
+   "pushed_at": "2026-09-30T18:35:54Z",
    "avatar": "https://avatars.githubusercontent.com/u/99616188?s=96&v=4",
    "lang": "Go",
    "license": "MIT",
@@ -17519,10 +17519,10 @@
     "opencode",
     "agent-memory"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "vostride/agent-qa": {
-   "stars": 889,
+   "stars": 893,
    "pushed_at": "2026-08-03T18:44:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/266585013?s=96&v=4",
    "lang": "TypeScript",
@@ -17534,11 +17534,11 @@
     "ai-agents",
     "mcp"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "ysr666/dsh-vision-router": {
-   "stars": 1120,
-   "pushed_at": "2026-09-26T10:14:37Z",
+   "stars": 1129,
+   "pushed_at": "2026-09-30T19:22:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/77105194?s=96&u=49feea52bc5f396778d54ec87286339b6c7160f2&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17549,12 +17549,12 @@
     "multimodal",
     "vision"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/ysr666/dsh-vision-router/main/assets/pixel-loop.png"
   },
   "shanliuling/dsh-image-gen": {
-   "stars": 489,
-   "pushed_at": "2026-09-26T07:14:24Z",
+   "stars": 536,
+   "pushed_at": "2026-09-30T06:39:06Z",
    "avatar": "https://avatars.githubusercontent.com/u/83563400?s=96&u=7b523d8e034b08ff8202be30d7b9b4c3a8767156&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -17565,11 +17565,11 @@
     "dsh-plugin",
     "gemini"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "nagi-ovo/dsh-ads": {
-   "stars": 633,
-   "pushed_at": "2026-09-25T22:25:48Z",
+   "stars": 641,
+   "pushed_at": "2026-09-29T13:34:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/101612750?s=96&u=5757f982e0b4ee8e5298062bf4b88e072195978e&v=4",
    "lang": "TypeScript",
    "license": "BSD-3-Clause",
@@ -17579,11 +17579,11 @@
     "web-ui",
     "trolling"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/nagi-ovo/dsh-ads/HEAD/assets/social-preview.jpg"
   },
   "liangmianya/dsh-synapse": {
-   "stars": 429,
+   "stars": 460,
    "pushed_at": "2026-08-26T13:12:24Z",
    "avatar": "https://avatars.githubusercontent.com/u/204553989?s=96&u=4a08b3c0bd8710a3ef2f7f2127dcf714ae64c632&v=4",
    "lang": "JavaScript",
@@ -17595,10 +17595,10 @@
     "plugin",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "d-dev0101/open-sea-skin": {
-   "stars": 379,
+   "stars": 381,
    "pushed_at": "2026-09-11T18:41:51Z",
    "avatar": "https://avatars.githubusercontent.com/u/245708388?s=96&v=4",
    "lang": "JavaScript",
@@ -17610,10 +17610,10 @@
     "theme",
     "threejs"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "yjh051108/dsh-router-standard": {
-   "stars": 355,
+   "stars": 350,
    "pushed_at": "2026-08-24T18:20:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/195255374?s=96&u=f1e542ce9de1e0785d0206597b60b538c87ad8df&v=4",
    "lang": "JavaScript",
@@ -17625,11 +17625,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "elysia395/dsh-wallpaper-engine": {
-   "stars": 359,
-   "pushed_at": "2026-09-26T08:29:39Z",
+   "stars": 426,
+   "pushed_at": "2026-09-30T19:05:02Z",
    "avatar": "https://avatars.githubusercontent.com/u/182482545?s=96&u=e54427ef36e56a79ef873163951f434a638d2812&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17640,10 +17640,10 @@
     "deepseek-harness",
     "liquid-glass"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "vlln/whale-girl": {
-   "stars": 337,
+   "stars": 340,
    "pushed_at": "2026-08-31T09:40:54Z",
    "avatar": "https://avatars.githubusercontent.com/u/43031803?s=96&u=c701d7ae2617c16ea1449d8e1573a147b1ea77bb&v=4",
    "lang": "JavaScript",
@@ -17655,12 +17655,12 @@
     "pet",
     "dsh-repository-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/vlln/whale-girl/HEAD/docs/preview/idle.gif"
   },
   "saya-ch/dsh-mobile": {
-   "stars": 318,
-   "pushed_at": "2026-09-26T13:01:47Z",
+   "stars": 343,
+   "pushed_at": "2026-09-30T06:32:47Z",
    "avatar": "https://avatars.githubusercontent.com/u/225364157?s=96&u=5af317a04369b8f20f3967ac0dfea4809ed87c0d&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -17671,10 +17671,10 @@
     "mobile",
     "webview"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "alaliqing/claude-paper": {
-   "stars": 337,
+   "stars": 339,
    "pushed_at": "2026-08-14T09:09:33Z",
    "avatar": "https://avatars.githubusercontent.com/u/53362513?s=96&u=4dcfab4f8c978d59a3a719b28ac76e5ce246824f&v=4",
    "lang": "Vue",
@@ -17686,12 +17686,12 @@
     "learning-management",
     "pdf-parser"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://img.shields.io/badge/License-MIT-blue.svg"
   },
   "xing-shuyin/pi-web-ui": {
-   "stars": 247,
-   "pushed_at": "2026-09-26T15:47:15Z",
+   "stars": 260,
+   "pushed_at": "2026-09-30T15:22:22Z",
    "avatar": "https://avatars.githubusercontent.com/u/209304951?s=96&u=0ccd04b480aa40c4bffb64f4bfe3446f540b8d4c&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17702,11 +17702,11 @@
     "dsh-desktop",
     "pi-web"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "huiliyi37/dsh-tianshu-tui": {
-   "stars": 285,
-   "pushed_at": "2026-09-19T15:53:03Z",
+   "stars": 284,
+   "pushed_at": "2026-09-30T11:13:01Z",
    "avatar": "https://avatars.githubusercontent.com/u/175001329?s=96&u=d85293b51c87cea3c221fe0a152ddb3815ca35cc&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -17717,11 +17717,11 @@
     "harness-engineering",
     "coding"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://img.shields.io/npm/v/@huiliyi37/dsh-tianshu-tui.svg"
   },
   "e2mcc/dsh-popout-sidebar": {
-   "stars": 210,
+   "stars": 209,
    "pushed_at": "2026-08-20T16:51:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/49865733?s=96&u=97ebf4ceb9596b0c4c0db705833dec7a597fb0b9&v=4",
    "lang": "JavaScript",
@@ -17729,11 +17729,11 @@
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "omdsh-dev/dsh-genui": {
-   "stars": 481,
-   "pushed_at": "2026-09-26T03:35:59Z",
+   "stars": 496,
+   "pushed_at": "2026-09-30T14:58:03Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -17741,12 +17741,12 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00",
+   "fetched_at": "2026-09-30T23:14:08+00:00",
    "readme_image": "https://raw.githubusercontent.com/omdsh-dev/dsh-genui/HEAD/assets/demo-thumb.png"
   },
   "lire1131/dsh-undo-savepoint": {
-   "stars": 165,
-   "pushed_at": "2026-09-20T05:24:15Z",
+   "stars": 168,
+   "pushed_at": "2026-09-30T14:00:11Z",
    "avatar": "https://avatars.githubusercontent.com/u/316649547?s=96&u=4459a05493d20142f8fda62ecf81623dcc477c95&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17757,10 +17757,10 @@
     "rollback",
     "snapshot"
    ],
-   "fetched_at": "2026-09-26T16:35:03+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "cocode-agency/cocode": {
-   "stars": 163,
+   "stars": 164,
    "pushed_at": "2026-09-03T10:37:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/307241767?s=96&v=4",
    "lang": "TypeScript",
@@ -17772,11 +17772,11 @@
     "coding-agent",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "mexiaosqwq/dsh-web-mobile": {
-   "stars": 105,
-   "pushed_at": "2026-09-26T02:45:39Z",
+   "stars": 109,
+   "pushed_at": "2026-09-30T06:26:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/139669839?s=96&u=c5b87a95a2d9762032e5daf6dd53595f41ef5531&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17787,10 +17787,10 @@
     "mobile",
     "mobile-ui"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "jsdvjx/dsh-strata": {
-   "stars": 103,
+   "stars": 100,
    "pushed_at": "2026-09-11T07:46:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/12291665?s=96&v=4",
    "lang": "JavaScript",
@@ -17802,11 +17802,11 @@
     "minimap",
     "scrollbar"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "ymh0000123/dsh-theme-endfield": {
-   "stars": 103,
-   "pushed_at": "2026-09-25T09:08:52Z",
+   "stars": 109,
+   "pushed_at": "2026-09-30T11:17:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/107793048?s=96&u=b56ed4cb5e037b0f544823c0dbfd1dec9037dc64&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -17817,33 +17817,33 @@
     "endfield",
     "plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "dickpy/dsh-imagegen": {
-   "stars": 90,
-   "pushed_at": "2026-09-25T06:45:56Z",
+   "stars": 98,
+   "pushed_at": "2026-09-30T17:04:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/38396890?s=96&u=49c98323fa86f0c6ae9f2ce0251b3d2ea098ee71&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "fandc520/dsh-comfyui": {
-   "stars": 88,
-   "pushed_at": "2026-09-14T01:09:24Z",
+   "stars": 90,
+   "pushed_at": "2026-09-27T03:36:11Z",
    "avatar": "https://avatars.githubusercontent.com/u/104415700?s=96&u=92f280ddf9e0aa854e7dc1a4997126efe438f9d1&v=4",
    "lang": "TypeScript",
    "license": "MIT",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "amlyczz/dsh-agy-link": {
-   "stars": 86,
-   "pushed_at": "2026-09-21T08:02:48Z",
+   "stars": 91,
+   "pushed_at": "2026-09-30T09:03:42Z",
    "avatar": "https://avatars.githubusercontent.com/u/83716611?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -17853,10 +17853,10 @@
     "dsh-plugin",
     "gemini"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "libukai/awesome-deepseek-harness": {
-   "stars": 274,
+   "stars": 281,
    "pushed_at": "2026-09-12T05:53:00Z",
    "avatar": "https://avatars.githubusercontent.com/u/5654585?s=96&u=da690982b3acbee4621f56d1baf913004212882a&v=4",
    "lang": "",
@@ -17868,10 +17868,10 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "plolpl789/dsh-raw-html": {
-   "stars": 75,
+   "stars": 77,
    "pushed_at": "2026-08-28T15:55:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/188015371?s=96&u=91669e98e9cdd3a2cac881febb6f1cddbd69bba0&v=4",
    "lang": "JavaScript",
@@ -17882,10 +17882,10 @@
     "dsh-plugin-market",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "niuhuoshan/launch-wechat-miniprogram": {
-   "stars": 67,
+   "stars": 68,
    "pushed_at": "2026-08-11T09:08:13Z",
    "avatar": "https://avatars.githubusercontent.com/u/206687869?s=96&u=43590108cabfd25c3d93fcfcb8eacb7bb21d8e03&v=4",
    "lang": "Python",
@@ -17897,10 +17897,10 @@
     "skills",
     "wechat-mini-program"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "sanqi-normal/dsh-webui-market-plugin": {
-   "stars": 103,
+   "stars": 105,
    "pushed_at": "2026-08-22T05:36:20Z",
    "avatar": "https://avatars.githubusercontent.com/u/191078933?s=96&u=12a6950a8582041ba473ce99ac7d4516b19cd70e&v=4",
    "lang": "JavaScript",
@@ -17912,7 +17912,7 @@
     "plugin-market",
     "ui"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "plolpl789/dsh-raw-html-v2": {
    "stars": 55,
@@ -17926,7 +17926,7 @@
     "dsh-plugin",
     "visual-synesthesia"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "heartleo/hn-cli": {
    "stars": 51,
@@ -17941,7 +17941,7 @@
     "go",
     "golang"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "bowenliang123/dsh-context": {
    "stars": 1533,
@@ -18166,8 +18166,8 @@
    "fetched_at": "2026-09-26T16:35:08+00:00"
   },
   "lhh010/dsh-ui-whale": {
-   "stars": 34,
-   "pushed_at": "2026-09-25T13:01:19Z",
+   "stars": 38,
+   "pushed_at": "2026-09-30T14:23:19Z",
    "avatar": "https://avatars.githubusercontent.com/u/198077988?s=96&v=4",
    "lang": "TypeScript",
    "license": "BSD-3-Clause",
@@ -18178,7 +18178,7 @@
     "fun",
     "pet"
    ],
-   "fetched_at": "2026-09-26T16:35:08+00:00",
+   "fetched_at": "2026-09-30T23:14:10+00:00",
    "readme_image": "https://raw.githubusercontent.com/lhh010/dsh-ui-whale/HEAD/docs/dsh-ui-whale-demo.gif"
   },
   "pingta-guangpingwang/claude-harness-desktop": {
@@ -19600,7 +19600,7 @@
   },
   "lhh010/dsh-ui-progress": {
    "stars": 7,
-   "pushed_at": "2026-09-25T12:59:34Z",
+   "pushed_at": "2026-09-30T14:31:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/198077988?s=96&v=4",
    "lang": "TypeScript",
    "license": "BSD-3-Clause",
@@ -19611,7 +19611,7 @@
     "session-status",
     "todo"
    ],
-   "fetched_at": "2026-09-26T16:35:16+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "liang-today/dsh-liangxiang": {
    "stars": 8,
@@ -22854,7 +22854,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:35:39+00:00",
+   "fetched_at": "2026-09-30T23:14:10+00:00",
    "readme_image": "https://raw.githubusercontent.com/moeblack/dsh-skins/HEAD/docs/images/skin-nord.svg"
   },
   "morluto/gitcontribute": {
@@ -22925,7 +22925,7 @@
     "encoding",
     "hash"
    ],
-   "fetched_at": "2026-09-26T16:35:39+00:00",
+   "fetched_at": "2026-09-30T23:14:10+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-blue.svg"
   },
   "omdsh-dev/dsh-web-ui-notify": {
@@ -37572,8 +37572,8 @@
    "fetched_at": "2026-09-26T16:37:13+00:00"
   },
   "mem0ai/mem0": {
-   "stars": 66021,
-   "pushed_at": "2026-09-25T17:36:35Z",
+   "stars": 66386,
+   "pushed_at": "2026-09-30T10:03:23Z",
    "avatar": "https://avatars.githubusercontent.com/u/137054526?s=96&v=4",
    "lang": "Python",
    "license": "Apache-2.0",
@@ -37584,10 +37584,10 @@
     "python",
     "rag"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "yjh051108/dsh-routing-suite": {
-   "stars": 7001,
+   "stars": 6991,
    "pushed_at": "2026-09-18T23:10:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/195255374?s=96&u=f1e542ce9de1e0785d0206597b60b538c87ad8df&v=4",
    "lang": "JavaScript",
@@ -37599,11 +37599,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "yogsoth-ai/de-anthropocentric-research-engine": {
-   "stars": 501,
-   "pushed_at": "2026-09-25T15:49:45Z",
+   "stars": 503,
+   "pushed_at": "2026-09-29T07:12:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/283866934?s=96&v=4",
    "lang": "",
    "license": "Apache-2.0",
@@ -37614,10 +37614,10 @@
     "mcp",
     "skill"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "superdesigndev/superdesign-skill": {
-   "stars": 604,
+   "stars": 619,
    "pushed_at": "2026-08-21T05:23:23Z",
    "avatar": "https://avatars.githubusercontent.com/u/217153862?s=96&v=4",
    "lang": "JavaScript",
@@ -37629,10 +37629,10 @@
     "claude-code",
     "claude-skill"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "op7418/pilot-harness": {
-   "stars": 277,
+   "stars": 282,
    "pushed_at": "2026-09-10T20:06:01Z",
    "avatar": "https://avatars.githubusercontent.com/u/13505770?s=96&u=f161773fad9ed19edffc8c5c37fc2a31cd919b11&v=4",
    "lang": "TypeScript",
@@ -37644,7 +37644,7 @@
     "deepseek-harness",
     "desktop-app"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "hust-open-atom-club/oh-dsh": {
    "stars": 325,
@@ -37659,12 +37659,12 @@
     "ai-agent",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00",
+   "fetched_at": "2026-09-30T23:14:13+00:00",
    "readme_image": "https://raw.githubusercontent.com/hust-open-atom-club/oh-dsh/HEAD/assets/oh-dsh-plugin-marketplace.png"
   },
   "zhu1090093659/dsh-trading": {
-   "stars": 210,
-   "pushed_at": "2026-09-19T01:54:00Z",
+   "stars": 220,
+   "pushed_at": "2026-09-29T15:13:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/46916148?s=96&u=0ae624afd176d448375dd0265d9906e57c711cb5&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
@@ -37675,10 +37675,10 @@
     "trading-terminal",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:08+00:00"
   },
   "yjh051108/dsh-super-injector": {
-   "stars": 163,
+   "stars": 165,
    "pushed_at": "2026-09-18T23:14:33Z",
    "avatar": "https://avatars.githubusercontent.com/u/195255374?s=96&u=f1e542ce9de1e0785d0206597b60b538c87ad8df&v=4",
    "lang": "TypeScript",
@@ -37687,11 +37687,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "nagi-ovo/dsh-visualize": {
-   "stars": 272,
-   "pushed_at": "2026-09-25T22:25:50Z",
+   "stars": 284,
+   "pushed_at": "2026-09-29T13:34:34Z",
    "avatar": "https://avatars.githubusercontent.com/u/101612750?s=96&u=5757f982e0b4ee8e5298062bf4b88e072195978e&v=4",
    "lang": "TypeScript",
    "license": "BSD-3-Clause",
@@ -37701,7 +37701,7 @@
     "deepseek-harness",
     "interactive-visualization"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00",
+   "fetched_at": "2026-09-30T23:14:13+00:00",
    "readme_image": "https://raw.githubusercontent.com/nagi-ovo/dsh-visualize/HEAD/assets/social-preview.jpg"
   },
   "humblebanana/open-record-replay": {
@@ -37717,11 +37717,11 @@
     "skills",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00",
+   "fetched_at": "2026-09-30T23:14:13+00:00",
    "readme_image": "https://raw.githubusercontent.com/humblebanana/open-record-replay/HEAD/assets/cover.png"
   },
   "toolclub/dsh-agent-team-gui": {
-   "stars": 268,
+   "stars": 281,
    "pushed_at": "2026-09-21T06:28:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/266060413?s=96&v=4",
    "lang": "TypeScript",
@@ -37733,7 +37733,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "pengyue-polaron/deepseek-harness-genui": {
    "stars": 114,
@@ -37748,10 +37748,10 @@
     "generative-ui",
     "genui"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "rison114514/dsh-endfield-ui": {
-   "stars": 73,
+   "stars": 75,
    "pushed_at": "2026-09-03T11:08:55Z",
    "avatar": "https://avatars.githubusercontent.com/u/139313244?s=96&v=4",
    "lang": "JavaScript",
@@ -37763,11 +37763,11 @@
     "theme",
     "web-ui"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "huaweicloud/huaweicloud-devkit": {
-   "stars": 64,
-   "pushed_at": "2026-09-26T06:57:11Z",
+   "stars": 65,
+   "pushed_at": "2026-09-30T22:49:00Z",
    "avatar": "https://avatars.githubusercontent.com/u/36578213?s=96&v=4",
    "lang": "JavaScript",
    "license": "Apache-2.0",
@@ -37778,10 +37778,10 @@
     "sdk",
     "terraform"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:10+00:00"
   },
   "xiincs/deepseek-harness-desktop": {
-   "stars": 59,
+   "stars": 60,
    "pushed_at": "2026-09-21T10:23:41Z",
    "avatar": "https://avatars.githubusercontent.com/u/181250834?s=96&u=3ec7680eed506eac434f1a5d88a7572cca0fc009&v=4",
    "lang": "Rust",
@@ -37793,10 +37793,10 @@
     "desktop",
     "rust"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "whiteguo233/dsh-openbiliclaw": {
-   "stars": 60,
+   "stars": 59,
    "pushed_at": "2026-09-11T03:38:55Z",
    "avatar": "https://avatars.githubusercontent.com/u/3350171?s=96&v=4",
    "lang": "JavaScript",
@@ -37808,11 +37808,11 @@
     "agent-bridge",
     "openbiliclaw"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "kenz1117/dsh-ui-usage-billing": {
-   "stars": 59,
-   "pushed_at": "2026-09-26T11:47:31Z",
+   "stars": 63,
+   "pushed_at": "2026-09-29T08:15:15Z",
    "avatar": "https://avatars.githubusercontent.com/u/229862838?s=96&u=0cad46906cfc63be55b6bf8c0175263c039bedc0&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -37823,7 +37823,7 @@
     "llm",
     "usage-billing"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "vlln/plugin-registry": {
    "stars": 58,
@@ -37838,10 +37838,10 @@
     "dsh-repository-plugin",
     "plugin-management"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "ningbainb/deepseek-harness-desktop": {
-   "stars": 731,
+   "stars": 760,
    "pushed_at": "2026-09-22T16:36:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/53441521?s=96&u=674652d95f73760d9a1a73736da8fa54dea8dce5&v=4",
    "lang": "JavaScript",
@@ -37853,10 +37853,10 @@
     "desktop-app",
     "electron"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "mishibeikejie/zat-dsh-engine": {
-   "stars": 79,
+   "stars": 78,
    "pushed_at": "2026-09-24T11:07:40Z",
    "avatar": "https://avatars.githubusercontent.com/u/219629301?s=96&u=579a3cd27fd317d26095f46e022683d03d8f76c5&v=4",
    "lang": "TypeScript",
@@ -37866,7 +37866,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:13+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "zhuiyueya/dsh-im-gateway": {
    "stars": 48,
@@ -38437,7 +38437,7 @@
    "fetched_at": "2026-09-26T16:37:17+00:00"
   },
   "turtle1999/turtle-ui": {
-   "stars": 9,
+   "stars": 10,
    "pushed_at": "2026-08-13T09:37:16Z",
    "avatar": "https://avatars.githubusercontent.com/u/301751225?s=96&u=e9340e400bec6c3a9a8b09bb7ebaa8e163a9b35e&v=4",
    "lang": "TypeScript",
@@ -38447,7 +38447,7 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:37:17+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "xmanrui/dsh-feishu": {
    "stars": 9,
@@ -44228,8 +44228,8 @@
    "fetched_at": "2026-09-26T16:37:53+00:00"
   },
   "yyh-001/dsh-expression": {
-   "stars": 109,
-   "pushed_at": "2026-09-25T13:20:23Z",
+   "stars": 118,
+   "pushed_at": "2026-09-28T05:00:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/52917381?s=96&u=3c5386e19a1ace73b155f2df93b494083c2c13e5&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -44240,7 +44240,7 @@
     "qq-bot",
     "selfloom"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "gao-yee/dsh-wallpaper": {
    "stars": 3,
@@ -44443,8 +44443,8 @@
    "fetched_at": "2026-09-26T16:37:53+00:00"
   },
   "zseven-w/openpencil": {
-   "stars": 6025,
-   "pushed_at": "2026-09-26T15:47:26Z",
+   "stars": 6054,
+   "pushed_at": "2026-09-30T10:22:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/218180147?s=96&v=4",
    "lang": "Rust",
    "license": "MIT",
@@ -44455,11 +44455,11 @@
     "pencil",
     "ui"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "devin-axis/ipollowork": {
-   "stars": 6750,
-   "pushed_at": "2026-09-26T07:40:38Z",
+   "stars": 6930,
+   "pushed_at": "2026-09-30T11:37:22Z",
    "avatar": "https://avatars.githubusercontent.com/u/228423313?s=96&u=da5545d8c380c27ba33be744e7a8f3af1d634db0&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
@@ -44470,11 +44470,11 @@
     "dsh-plugin",
     "visual-editor"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "awesome-dsh-plugin/awesome-dsh-plugin": {
-   "stars": 16974,
-   "pushed_at": "2026-09-26T16:23:55Z",
+   "stars": 17461,
+   "pushed_at": "2026-09-30T16:28:35Z",
    "avatar": "https://avatars.githubusercontent.com/u/316603077?s=96&v=4",
    "lang": "JavaScript",
    "license": "CC0-1.0",
@@ -44485,20 +44485,20 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "imsai-sh/zhuzhiliao": {
-   "stars": 2885,
+   "stars": 2888,
    "pushed_at": "2026-08-14T14:31:41Z",
    "avatar": "https://avatars.githubusercontent.com/u/14907300?s=96&u=64b9730149654e2414827fb0dee4a0a83ffda4ee&v=4",
    "lang": "HTML",
    "license": "NOASSERTION",
    "topics": [],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "tong-io/tongflow": {
-   "stars": 1033,
-   "pushed_at": "2026-09-25T11:27:36Z",
+   "stars": 1032,
+   "pushed_at": "2026-09-27T03:55:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/224423069?s=96&u=927a2d5c174a5d066b6b2f7b0805d4b70628b546&v=4",
    "lang": "TypeScript",
    "license": "AGPL-3.0",
@@ -44509,11 +44509,11 @@
     "canvas",
     "3d"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "adamplatin123/awesome-dsh-plugins": {
-   "stars": 1468,
-   "pushed_at": "2026-09-26T16:30:15Z",
+   "stars": 1465,
+   "pushed_at": "2026-09-30T23:01:06Z",
    "avatar": "https://avatars.githubusercontent.com/u/154926636?s=96&u=3e6367cdd41be0763d1afe3008f19a14b4101d5f&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -44524,7 +44524,7 @@
     "dsh",
     "plugin-registry"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "picgo/picgo-core": {
    "stars": 991,
@@ -44538,11 +44538,11 @@
     "picgo",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "mindscale-noah/mindmemos": {
-   "stars": 996,
-   "pushed_at": "2026-09-22T10:22:12Z",
+   "stars": 1002,
+   "pushed_at": "2026-09-29T08:35:56Z",
    "avatar": "https://avatars.githubusercontent.com/u/296153438?s=96&v=4",
    "lang": "Python",
    "license": "",
@@ -44553,12 +44553,12 @@
     "agentic",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "ccch1mneyyy/working-activity": {
-   "stars": 660,
-   "pushed_at": "2026-08-30T18:41:47Z",
-   "avatar": "https://avatars.githubusercontent.com/u/268149062?s=96&u=4eb96e7cc1d9fd83b45e74f54ff5f9fc54cb8fc7&v=4",
+   "stars": 661,
+   "pushed_at": "2026-09-26T22:11:59Z",
+   "avatar": "https://avatars.githubusercontent.com/u/268149062?s=96&u=6b8c7bba58214354b91e45e6cbbfae95ab85eabc&v=4",
    "lang": "TypeScript",
    "license": "MIT",
    "topics": [
@@ -44568,10 +44568,10 @@
     "pi-plugin",
     "statusline"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "yejiming/museai": {
-   "stars": 663,
+   "stars": 668,
    "pushed_at": "2026-08-14T07:59:06Z",
    "avatar": "https://avatars.githubusercontent.com/u/10279806?s=96&u=5a0f96a5e598d94fe64400045abd0250d8b4d67f&v=4",
    "lang": "TypeScript",
@@ -44583,11 +44583,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "0xsline/awesome-deepseek-harness": {
-   "stars": 1106,
-   "pushed_at": "2026-09-26T15:39:07Z",
+   "stars": 1126,
+   "pushed_at": "2026-09-30T11:34:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/151105947?s=96&u=12be32400cffcc18f3b8800aa983878a16aea351&v=4",
    "lang": "Python",
    "license": "CC0-1.0",
@@ -44598,11 +44598,11 @@
     "ai-tools",
     "awesome"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "edgetype/better-deepseek": {
-   "stars": 502,
-   "pushed_at": "2026-09-19T09:23:32Z",
+   "stars": 558,
+   "pushed_at": "2026-09-29T18:04:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/34396598?s=96&u=87c73ddc04b9011741576cbe7d7acf9f55637193&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -44613,10 +44613,10 @@
     "chrome-extension",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "electricitysheep/dsh-handbook": {
-   "stars": 812,
+   "stars": 822,
    "pushed_at": "2026-09-07T02:21:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/166776913?s=96&u=0b175e743e6a9595dc954a316bbbcc9ff45b1c62&v=4",
    "lang": "HTML",
@@ -44628,10 +44628,10 @@
     "agent",
     "ai-agents"
    ],
-   "fetched_at": "2026-09-26T16:37:53+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "weijiafu14/pi2dsh": {
-   "stars": 206,
+   "stars": 209,
    "pushed_at": "2026-09-22T04:00:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/17469139?s=96&u=6543c019b616b4c232f0b6ced8a2a0cb63d62cef&v=4",
    "lang": "TypeScript",
@@ -44643,12 +44643,12 @@
     "plugin-migration",
     "compatibility-layer"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "han-1413141/dsh-cost-meter": {
-   "stars": 339,
-   "pushed_at": "2026-09-26T02:58:26Z",
-   "avatar": "https://avatars.githubusercontent.com/u/209751045?s=96&v=4",
+   "stars": 361,
+   "pushed_at": "2026-09-30T19:14:14Z",
+   "avatar": "https://avatars.githubusercontent.com/u/209751045?s=96&u=fa8ae8fed5cfb2eb9d0a82d91993b92cbf214427&v=4",
    "lang": "JavaScript",
    "license": "MIT",
    "topics": [
@@ -44658,11 +44658,11 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "cocofhu/anime-find": {
-   "stars": 172,
-   "pushed_at": "2026-09-26T12:43:17Z",
+   "stars": 174,
+   "pushed_at": "2026-09-27T10:25:07Z",
    "avatar": "https://avatars.githubusercontent.com/u/43171452?s=96&u=87d7bbbb69258fd586d9f5f33efd5b514c6d5fc0&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -44673,10 +44673,10 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "zh667/tokenledger": {
-   "stars": 203,
+   "stars": 202,
    "pushed_at": "2026-09-15T06:42:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/128960749?s=96&u=c04c68117f5ef1435b994b860dcbb96275af2e68&v=4",
    "lang": "JavaScript",
@@ -44688,11 +44688,11 @@
     "newapi",
     "sub2api"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "ychris12138/dsh-usage-stats": {
-   "stars": 163,
-   "pushed_at": "2026-09-26T06:36:43Z",
+   "stars": 169,
+   "pushed_at": "2026-09-30T08:50:34Z",
    "avatar": "https://avatars.githubusercontent.com/u/194215355?s=96&u=2fdbc5d0ee889cd9ce3f3d327da269abd91bfd93&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -44703,11 +44703,11 @@
     "deepseek-harness-plugin-dev",
     "deepseek-harness-plugins"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "ruler4396/dsh-launcher": {
-   "stars": 208,
-   "pushed_at": "2026-09-26T04:26:34Z",
+   "stars": 203,
+   "pushed_at": "2026-09-29T13:26:31Z",
    "avatar": "https://avatars.githubusercontent.com/u/110097886?s=96&u=8f0fdf976a838e2b7bd1e2a27e41b13711057060&v=4",
    "lang": "C#",
    "license": "MIT",
@@ -44718,10 +44718,10 @@
     "webview2",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "nagi-ovo/dsh-find-plugins": {
-   "stars": 174,
+   "stars": 176,
    "pushed_at": "2026-08-15T15:58:22Z",
    "avatar": "https://avatars.githubusercontent.com/u/101612750?s=96&u=5757f982e0b4ee8e5298062bf4b88e072195978e&v=4",
    "lang": "JavaScript",
@@ -44732,36 +44732,36 @@
     "deepseek-harness",
     "plugin-discovery"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "sikao-engine/kimix": {
-   "stars": 113,
-   "pushed_at": "2026-09-26T12:37:39Z",
+   "stars": 114,
+   "pushed_at": "2026-09-30T03:22:45Z",
    "avatar": "https://avatars.githubusercontent.com/u/210728589?s=96&v=4",
    "lang": "Python",
    "license": "",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "dominic789654/awesome-deepseek-harness": {
-   "stars": 353,
-   "pushed_at": "2026-09-26T12:33:51Z",
+   "stars": 358,
+   "pushed_at": "2026-09-30T13:04:39Z",
    "avatar": "https://avatars.githubusercontent.com/u/47224289?s=96&u=540a0f723646118f33799373257328d349af781b&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
    "topics": [
     "agent",
-    "awesome",
     "awesome-list",
     "deepseek",
-    "deepseek-harness"
+    "dsh",
+    "llm"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "renzic-stone/dsh-easyrewrite": {
-   "stars": 116,
+   "stars": 121,
    "pushed_at": "2026-09-24T16:21:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/114870751?s=96&u=c21f92cb7a99e331ab3c1fec770d4d3df277a05a&v=4",
    "lang": "JavaScript",
@@ -44773,10 +44773,10 @@
     "i18n",
     "internationalization"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "kanghelyu/dsh-deepseek-flow": {
-   "stars": 72,
+   "stars": 74,
    "pushed_at": "2026-08-19T15:49:27Z",
    "avatar": "https://avatars.githubusercontent.com/u/153344794?s=96&u=95682deef50266372ee76d07931f70415a334ed3&v=4",
    "lang": "JavaScript",
@@ -44788,7 +44788,7 @@
     "workflow-management",
     "ai-workflow"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "zimenglan-sysu-512/deep-flow": {
    "stars": 71,
@@ -44797,11 +44797,11 @@
    "lang": "C++",
    "license": "",
    "topics": [],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "noob-stupid/dsh-plugin-hub": {
-   "stars": 92,
-   "pushed_at": "2026-09-26T15:57:48Z",
+   "stars": 93,
+   "pushed_at": "2026-09-30T21:35:20Z",
    "avatar": "https://avatars.githubusercontent.com/u/264477940?s=96&u=96a78f98eb8199ceac667146605aef88f94370a1&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -44812,11 +44812,11 @@
     "plugin-manager",
     "plugin-market"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "daha1216/dsh-adult-tension": {
-   "stars": 68,
-   "pushed_at": "2026-09-26T16:32:21Z",
+   "stars": 84,
+   "pushed_at": "2026-09-27T04:42:03Z",
    "avatar": "https://avatars.githubusercontent.com/u/292222665?s=96&u=701f0328442f75d372715222d5ed73f2d3045070&v=4",
    "lang": "Python",
    "license": "NOASSERTION",
@@ -44827,10 +44827,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "a179-sanae/dsh-auto-collapse": {
-   "stars": 65,
+   "stars": 64,
    "pushed_at": "2026-09-14T08:22:02Z",
    "avatar": "https://avatars.githubusercontent.com/u/289159664?s=96&u=43f806c55da1a9af2206d3694aa8f4603b184bf3&v=4",
    "lang": "JavaScript",
@@ -44842,7 +44842,7 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "alex-yanggg/awesome-dsh-plugin": {
    "stars": 99,
@@ -44857,11 +44857,11 @@
     "awesome-list",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "anionex/dsh-turn-rewind": {
-   "stars": 119,
-   "pushed_at": "2026-09-26T11:30:44Z",
+   "stars": 123,
+   "pushed_at": "2026-09-30T19:52:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/123177548?s=96&u=2757eac44216028f029a6ac6190ef08fb4ae069a&v=4",
    "lang": "JavaScript",
    "license": "BSD-3-Clause",
@@ -44872,10 +44872,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "ayase34/gal-view": {
-   "stars": 191,
+   "stars": 193,
    "pushed_at": "2026-08-16T00:02:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/153441571?s=96&u=31a33c234825bbade149aeb517caa8bc56ccb1dc&v=4",
    "lang": "JavaScript",
@@ -44885,11 +44885,11 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "hanshanyike/dsh-yolo": {
    "stars": 55,
-   "pushed_at": "2026-09-13T08:30:37Z",
+   "pushed_at": "2026-09-28T15:07:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/53092272?s=96&u=b60614dc668235c6e45cd219de6c0e2f2f3f13b2&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -44898,7 +44898,7 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "c3ll256/dsh-toy": {
    "stars": 66,
@@ -44909,11 +44909,11 @@
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "dshbox/cordis-rs": {
-   "stars": 51,
-   "pushed_at": "2026-09-26T13:47:16Z",
+   "stars": 55,
+   "pushed_at": "2026-09-30T15:05:52Z",
    "avatar": "https://avatars.githubusercontent.com/u/316813059?s=96&v=4",
    "lang": "Rust",
    "license": "MIT",
@@ -44924,7 +44924,7 @@
     "dsh-plugin",
     "events"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "tnnevol/fn-os-apps": {
    "stars": 44,
@@ -45067,7 +45067,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:37:59+00:00",
+   "fetched_at": "2026-09-30T23:14:15+00:00",
    "readme_image": "https://raw.githubusercontent.com/william-jin-cmu/dsh-vision/HEAD/assets/demo-input.jpeg"
   },
   "alexchenzl/dsh-plugin-directory": {
@@ -47046,7 +47046,7 @@
    "fetched_at": "2026-09-26T16:38:10+00:00"
   },
   "electricitysheep/dsh-tool-turbo": {
-   "stars": 8,
+   "stars": 9,
    "pushed_at": "2026-08-17T02:14:23Z",
    "avatar": "https://avatars.githubusercontent.com/u/166776913?s=96&u=0b175e743e6a9595dc954a316bbbcc9ff45b1c62&v=4",
    "lang": "TypeScript",
@@ -47058,7 +47058,7 @@
     "harness",
     "plugin"
    ],
-   "fetched_at": "2026-09-26T16:38:10+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "fang2hou/dsh-locale-ja": {
    "stars": 5,
@@ -50433,7 +50433,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:38:36+00:00",
+   "fetched_at": "2026-09-30T23:14:15+00:00",
    "readme_image": "https://raw.githubusercontent.com/xiaoshihou514/dsh-vision/HEAD/assets/logo.png"
   },
   "ximengxiaolan/dsh-vision-bridge": {
@@ -53038,7 +53038,7 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:38:56+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "purezhi/dsh-plugin-confirmo": {
    "stars": 1,
@@ -70646,7 +70646,7 @@
    "fetched_at": "2026-09-26T16:40:33+00:00"
   },
   "xiaobright/dsh-anchored-standard": {
-   "stars": 3796,
+   "stars": 3783,
    "pushed_at": "2026-09-10T05:00:13Z",
    "avatar": "https://avatars.githubusercontent.com/u/104243166?s=96&v=4",
    "lang": "JavaScript",
@@ -70657,11 +70657,11 @@
     "dsh-plugin",
     "llm-agent"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "whiteguo233/openbiliclaw": {
-   "stars": 3355,
-   "pushed_at": "2026-09-25T14:13:53Z",
+   "stars": 3371,
+   "pushed_at": "2026-09-30T19:43:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/3350171?s=96&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -70672,11 +70672,11 @@
     "llm",
     "privacy-first"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:13+00:00"
   },
   "xiufengsun/tokentracker": {
-   "stars": 1728,
-   "pushed_at": "2026-09-26T15:34:34Z",
+   "stars": 1917,
+   "pushed_at": "2026-09-30T17:12:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/10932671?s=96&u=eba82742d43beafa7e6b2230e14f8b04b4342281&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -70687,20 +70687,20 @@
     "cost-tracker",
     "cursor"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://img.shields.io/npm/v/tokentracker-cli.svg?color=blue"
   },
   "dsheval/dsh-top100": {
-   "stars": 496,
-   "pushed_at": "2026-09-24T12:59:17Z",
+   "stars": 494,
+   "pushed_at": "2026-09-30T02:53:54Z",
    "avatar": "https://avatars.githubusercontent.com/u/318957752?s=96&u=ec68a5cd09301651c86cf82a13e85dd367ceef33&v=4",
    "lang": "TypeScript",
    "license": "MIT",
    "topics": [],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "tencentcloud/tencentmeeting-cli": {
-   "stars": 246,
+   "stars": 247,
    "pushed_at": "2026-09-11T08:49:33Z",
    "avatar": "https://avatars.githubusercontent.com/u/20101770?s=96&v=4",
    "lang": "Go",
@@ -70712,11 +70712,11 @@
     "workbuddy",
     "workbuddy-skill"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "ariestar/sivtr": {
-   "stars": 278,
-   "pushed_at": "2026-09-26T16:27:53Z",
+   "stars": 277,
+   "pushed_at": "2026-09-30T06:22:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/47706741?s=96&v=4",
    "lang": "Rust",
    "license": "Apache-2.0",
@@ -70727,10 +70727,10 @@
     "sivtr",
     "output"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "beiyege-01/dsh-voice-ai-girlfriend": {
-   "stars": 126,
+   "stars": 132,
    "pushed_at": "2026-09-13T16:36:44Z",
    "avatar": "https://avatars.githubusercontent.com/u/130621663?s=96&u=42100e4e4e1958e539fdec059f2fe76df3f6b0c4&v=4",
    "lang": "TypeScript",
@@ -70742,10 +70742,10 @@
     "digital-human",
     "speech-to-speech"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "xuedai-mayi/dsh-wenshan": {
-   "stars": 100,
+   "stars": 98,
    "pushed_at": "2026-08-26T18:51:27Z",
    "avatar": "https://avatars.githubusercontent.com/u/210227958?s=96&u=ae68eaacc85191a17a652a12be82b4fcafa350f9&v=4",
    "lang": "TypeScript",
@@ -70757,22 +70757,22 @@
     "gis",
     "knowledge-graph"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "aa2246740/dsh-better-display": {
-   "stars": 74,
-   "pushed_at": "2026-09-26T05:55:33Z",
+   "stars": 73,
+   "pushed_at": "2026-09-30T13:43:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/10174279?s=96&v=4",
    "lang": "JavaScript",
    "license": "NOASSERTION",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:15+00:00"
   },
   "peiyuwang54/deepseek-harness-cli": {
-   "stars": 62,
-   "pushed_at": "2026-09-26T14:39:41Z",
+   "stars": 63,
+   "pushed_at": "2026-09-27T13:48:45Z",
    "avatar": "https://avatars.githubusercontent.com/u/274990983?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -70783,7 +70783,7 @@
     "deepseek-harness",
     "deepseek-cli"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "lyn-77/promentor": {
    "stars": 78,
@@ -70796,7 +70796,7 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "oil-oil/dsh-vision": {
    "stars": 89,
@@ -70811,7 +70811,7 @@
     "multimodal",
     "vision"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "laplaceyoung/oh-my-dsh": {
    "stars": 58,
@@ -71259,7 +71259,7 @@
     "expression-evaluator",
     "math"
    ],
-   "fetched_at": "2026-09-26T16:40:37+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-blue.svg"
   },
   "startupworld-ai/soulnet": {
@@ -71487,7 +71487,7 @@
     "time",
     "timezone"
    ],
-   "fetched_at": "2026-09-26T16:40:41+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-blue.svg"
   },
   "thonatos/project-v": {
@@ -71536,7 +71536,7 @@
    "lang": "HTML",
    "license": "Apache-2.0",
    "topics": [],
-   "fetched_at": "2026-09-26T16:40:41+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://raw.githubusercontent.com/omdsh-dev/qwen-mm-plugins/HEAD/docs/assets/architecture.svg"
   },
   "2006spy/dsh-token-billing": {
@@ -72428,7 +72428,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:40:45+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "omdsh-dev/web-components": {
    "stars": 1,
@@ -72440,7 +72440,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:40:45+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "qjf44/dsh-plugin-thinking-api": {
    "stars": 2,
@@ -76252,8 +76252,8 @@
    "fetched_at": "2026-09-26T16:41:08+00:00"
   },
   "anywhere-labs/deepseek-harness-desktop": {
-   "stars": 29067,
-   "pushed_at": "2026-09-25T22:27:38Z",
+   "stars": 29650,
+   "pushed_at": "2026-09-30T18:11:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/286827603?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -76264,11 +76264,11 @@
     "desktop",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:41:08+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "xytom/coding-tools-mcp": {
-   "stars": 1154,
-   "pushed_at": "2026-09-15T07:26:33Z",
+   "stars": 1163,
+   "pushed_at": "2026-09-30T22:18:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/75466119?s=96&u=966e40b519ef20c85f1d229de2194323644d9584&v=4",
    "lang": "Python",
    "license": "Apache-2.0",
@@ -76277,11 +76277,11 @@
     "mcp-server",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:41:08+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "dataelement/dsh-desktop": {
-   "stars": 9589,
-   "pushed_at": "2026-09-26T12:28:49Z",
+   "stars": 11101,
+   "pushed_at": "2026-09-30T10:24:14Z",
    "avatar": "https://avatars.githubusercontent.com/u/103249391?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -76292,11 +76292,11 @@
     "deepseek-harness",
     "deepseek-harness-desktop"
    ],
-   "fetched_at": "2026-09-26T16:41:08+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "hairyf/deepseek-harness-desktop": {
-   "stars": 2701,
-   "pushed_at": "2026-09-26T16:16:30Z",
+   "stars": 2911,
+   "pushed_at": "2026-09-30T19:37:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/320038577?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -76307,22 +76307,22 @@
     "dsh",
     "tauri"
    ],
-   "fetched_at": "2026-09-26T16:41:08+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://raw.githubusercontent.com/hairyf/deepseek-harness-desktop/HEAD/public/favicon.svg"
   },
   "turtle2209/bigfish": {
-   "stars": 321,
+   "stars": 320,
    "pushed_at": "2026-08-25T14:04:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/264740861?s=96&u=d9983c7e2baeb266780169d75dbab9bbe5fd67f3&v=4",
    "lang": "JavaScript",
    "license": "MIT",
    "topics": [],
-   "fetched_at": "2026-09-26T16:41:12+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://img.shields.io/github/v/release/turtle2209/Bigfish?label=Release"
   },
   "sepinetam/mcp-for-stata": {
-   "stars": 261,
-   "pushed_at": "2026-09-26T09:51:23Z",
+   "stars": 263,
+   "pushed_at": "2026-09-28T09:54:34Z",
    "avatar": "https://avatars.githubusercontent.com/u/165980942?s=96&u=bd017a512fecfbb0ac2b17ee08c1f2b2c4423057&v=4",
    "lang": "Python",
    "license": "AGPL-3.0",
@@ -76333,29 +76333,29 @@
     "llm",
     "statistical-analysis"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "rrzu/deepseek-harness-desktop": {
-   "stars": 192,
+   "stars": 190,
    "pushed_at": "2026-09-10T03:11:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/152236912?s=96&u=d497a14d9f4db341689858b595d500d1770b661a&v=4",
    "lang": "",
    "license": "",
    "topics": [],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "steven-kid/deepseek-harness-desktop": {
-   "stars": 238,
+   "stars": 243,
    "pushed_at": "2026-09-18T03:22:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/320394190?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
    "topics": [],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "dshplugin/dsh-plugin-hub": {
-   "stars": 130,
-   "pushed_at": "2026-09-24T02:37:55Z",
+   "stars": 156,
+   "pushed_at": "2026-09-30T13:45:42Z",
    "avatar": "https://avatars.githubusercontent.com/u/316656345?s=96&u=2064f7eeed9a48ae8a9599f3d8e2c9f0c69ee56b&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -76366,11 +76366,11 @@
     "community-plugins",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "liguobao/deepseek-harness-remote": {
-   "stars": 222,
-   "pushed_at": "2026-09-26T16:32:42Z",
+   "stars": 246,
+   "pushed_at": "2026-09-30T13:57:50Z",
    "avatar": "https://avatars.githubusercontent.com/u/10910802?s=96&u=a2bda754a10054a27391a9419e17ca33732d4550&v=4",
    "lang": "TypeScript",
    "license": "",
@@ -76378,7 +76378,7 @@
     "dsh-plugin",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "dclichang2022/dsh-green-meter": {
    "stars": 97,
@@ -76393,11 +76393,11 @@
     "dsh",
     "energy"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "wqty123/dsh-browser": {
-   "stars": 83,
-   "pushed_at": "2026-09-21T13:46:14Z",
+   "stars": 88,
+   "pushed_at": "2026-09-30T23:06:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/153445160?s=96&u=65c594292eed23b2f43a6a66e9cc30ef4e2c1021&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -76406,16 +76406,16 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "chen704290901chen/deepseek-harness-desktop": {
-   "stars": 67,
+   "stars": 66,
    "pushed_at": "2026-08-20T08:21:13Z",
    "avatar": "https://avatars.githubusercontent.com/u/96671273?s=96&v=4",
    "lang": "",
    "license": "",
    "topics": [],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "yxxbc/dsh-balance-plugin": {
    "stars": 64,
@@ -76430,10 +76430,10 @@
     "wallet",
     "webui"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "wess09/deepseekharnessdesktop": {
-   "stars": 109,
+   "stars": 112,
    "pushed_at": "2026-08-13T18:00:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/152146621?s=96&u=b1bf7817e3b232b821b22a77439c01f1c194150c&v=4",
    "lang": "JavaScript",
@@ -76445,7 +76445,7 @@
     "desktop",
     "desktop-app"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "xingj404-lab/dsh-desktop": {
    "stars": 59,
@@ -76454,10 +76454,10 @@
    "lang": "Rust",
    "license": "",
    "topics": [],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:18+00:00"
   },
   "qufei1993/dsh-desktop": {
-   "stars": 55,
+   "stars": 56,
    "pushed_at": "2026-09-14T01:10:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/17956058?s=96&u=a313429335bc5e810c271165859752fa3aeeae66&v=4",
    "lang": "TypeScript",
@@ -76469,10 +76469,10 @@
     "dsh",
     "electron"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "omdsh-dev/dsh-notification": {
-   "stars": 85,
+   "stars": 86,
    "pushed_at": "2026-09-01T01:00:44Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "JavaScript",
@@ -76481,11 +76481,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "zexadev/dsh-tether": {
-   "stars": 49,
-   "pushed_at": "2026-09-19T14:55:51Z",
+   "stars": 59,
+   "pushed_at": "2026-09-29T06:59:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/160208005?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -76496,7 +76496,7 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "omdsh-dev/dsh-plugin-check": {
    "stars": 26,
@@ -76511,7 +76511,7 @@
     "linting",
     "plugin-health"
    ],
-   "fetched_at": "2026-09-26T16:41:12+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-blue.svg"
   },
   "sqs404/dsh-portable": {
@@ -82679,8 +82679,8 @@
    "fetched_at": "2026-09-26T16:41:51+00:00"
   },
   "anywhere-labs/dsh-desktop": {
-   "stars": 29067,
-   "pushed_at": "2026-09-25T22:27:38Z",
+   "stars": 29650,
+   "pushed_at": "2026-09-30T18:11:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/286827603?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -82691,12 +82691,12 @@
     "desktop",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00",
+   "fetched_at": "2026-09-30T23:14:18+00:00",
    "readme_image": "https://raw.githubusercontent.com/anywhere-labs/dsh-desktop/HEAD/assets/desktop-hero-zh.png"
   },
   "dsh-tauri-desk/deepseek-harness-desktop": {
-   "stars": 2701,
-   "pushed_at": "2026-09-26T16:16:30Z",
+   "stars": 2911,
+   "pushed_at": "2026-09-30T19:37:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/320038577?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -82707,11 +82707,11 @@
     "dsh",
     "tauri"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "corrinehu/dsh-workbuddy-connect": {
-   "stars": 215,
-   "pushed_at": "2026-09-26T06:37:01Z",
+   "stars": 250,
+   "pushed_at": "2026-09-30T12:47:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/202069267?s=96&u=8d84e19a6d13a6e6151166e1316af59c07ace7a2&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -82720,11 +82720,11 @@
     "dsh-plugin",
     "workbuddy"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "lum1104/dsh-browser": {
-   "stars": 731,
-   "pushed_at": "2026-09-22T08:26:24Z",
+   "stars": 750,
+   "pushed_at": "2026-09-30T07:47:15Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -82735,11 +82735,11 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://dshfind.com/api/badge/Lum1104/dsh-browser?lang=zh"
   },
   "kanneiren/dsh-network-settings": {
-   "stars": 107,
+   "stars": 105,
    "pushed_at": "2026-08-22T01:15:02Z",
    "avatar": "https://avatars.githubusercontent.com/u/74912610?s=96&v=4",
    "lang": "TypeScript",
@@ -82751,11 +82751,11 @@
     "deepseek-harness",
     "dns"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "chisaalter/deepseek-harness-desktop": {
-   "stars": 172,
-   "pushed_at": "2026-09-26T16:36:07Z",
+   "stars": 173,
+   "pushed_at": "2026-09-29T18:52:13Z",
    "avatar": "https://avatars.githubusercontent.com/u/278054389?s=96&u=66d3758d57cfe1cc8a46634bb3354b505fddc2d4&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -82764,7 +82764,7 @@
     "deepseek",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:41:51+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "tycoding/deepseek-harness-desktop": {
    "stars": 29,
@@ -82820,8 +82820,8 @@
    "fetched_at": "2026-09-26T16:41:55+00:00"
   },
   "flymysql/dsh-remote": {
-   "stars": 99,
-   "pushed_at": "2026-09-23T15:03:30Z",
+   "stars": 111,
+   "pushed_at": "2026-09-30T22:14:07Z",
    "avatar": "https://avatars.githubusercontent.com/u/37113068?s=96&u=eb49d9602e26c4c9724f3506c2b4a525c371248c&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -82832,7 +82832,7 @@
     "ssh",
     "tunnel"
    ],
-   "fetched_at": "2026-09-26T16:41:55+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://img.shields.io/npm/v/dsh-remote"
   },
   "lehhair/dsh-mobile": {
@@ -83380,7 +83380,7 @@
     "dsh-plugin",
     "sandbox"
    ],
-   "fetched_at": "2026-09-26T16:41:55+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "openma-ai/dsh-mcp-apps": {
    "stars": 2,
@@ -84612,8 +84612,8 @@
    "fetched_at": "2026-09-26T16:42:06+00:00"
   },
   "crafter-station/petdex": {
-   "stars": 4162,
-   "pushed_at": "2026-09-21T11:44:51Z",
+   "stars": 4178,
+   "pushed_at": "2026-09-28T21:17:19Z",
    "avatar": "https://avatars.githubusercontent.com/u/120886289?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -84624,28 +84624,22 @@
     "codex",
     "developer-tools"
    ],
-   "fetched_at": "2026-09-26T16:42:06+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://raw.githubusercontent.com/crafter-station/petdex/HEAD/public/brand/petdex-desktop-icon.png"
   },
   "alvinunreal/openpets": {
-   "stars": 1243,
-   "pushed_at": "2026-09-25T16:49:49Z",
-   "avatar": "https://avatars.githubusercontent.com/u/324426052?s=96&v=4",
-   "lang": "TypeScript",
-   "license": "MIT",
-   "topics": [
-    "ai-agents",
-    "claude-code",
-    "desktop-pet",
-    "opencode",
-    "openpets"
-   ],
-   "fetched_at": "2026-09-26T16:42:06+00:00",
+   "stars": 0,
+   "pushed_at": "2026-09-27T09:16:39Z",
+   "avatar": "https://avatars.githubusercontent.com/u/204474669?s=96&v=4",
+   "lang": "",
+   "license": "",
+   "topics": [],
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://raw.githubusercontent.com/alvinunreal/openpets/HEAD/assets/openpets.png"
   },
   "small-tailqwq/dsh-deep-whale": {
-   "stars": 2221,
-   "pushed_at": "2026-09-26T04:53:22Z",
+   "stars": 2325,
+   "pushed_at": "2026-09-30T11:54:01Z",
    "avatar": "https://avatars.githubusercontent.com/u/56996438?s=96&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
@@ -84653,11 +84647,11 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:06+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://raw.githubusercontent.com/small-tailqwq/dsh-deep-whale/HEAD/maid-atelier/preview/light.webp"
   },
   "perrylink/dsh-memento": {
-   "stars": 120,
+   "stars": 130,
    "pushed_at": "2026-09-25T01:35:00Z",
    "avatar": "https://avatars.githubusercontent.com/u/255665900?s=96&u=c45dcefbeb0005ad85d4a3d472d67eec6d962dae&v=4",
    "lang": "JavaScript",
@@ -84669,11 +84663,11 @@
     "cordis",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:42:06+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "pc2005-cloud/dsh-pet": {
-   "stars": 778,
-   "pushed_at": "2026-09-24T04:30:17Z",
+   "stars": 928,
+   "pushed_at": "2026-09-30T07:18:55Z",
    "avatar": "https://avatars.githubusercontent.com/u/246970914?s=96&u=57198a79481bd44bc9bb60a060e862781f86c6d5&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -84683,7 +84677,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:06+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "xiaoshihou514/dsh-desktop-pet": {
    "stars": 37,
@@ -87117,8 +87111,8 @@
    "fetched_at": "2026-09-26T16:42:18+00:00"
   },
   "flizzywine/dsh-tavern": {
-   "stars": 512,
-   "pushed_at": "2026-09-26T16:41:23Z",
+   "stars": 571,
+   "pushed_at": "2026-09-30T19:46:59Z",
    "avatar": "https://avatars.githubusercontent.com/u/27564130?s=96&v=4",
    "lang": "JavaScript",
    "license": "AGPL-3.0",
@@ -87126,11 +87120,11 @@
     "dsh-plugin",
     "sillytavern"
    ],
-   "fetched_at": "2026-09-26T16:42:18+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "zenstory-ai/oh-story-dsh": {
-   "stars": 408,
-   "pushed_at": "2026-09-26T05:14:28Z",
+   "stars": 428,
+   "pushed_at": "2026-09-28T15:00:45Z",
    "avatar": "https://avatars.githubusercontent.com/u/311489559?s=96&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -87141,10 +87135,10 @@
     "dsh-plugin",
     "fiction-writing"
    ],
-   "fetched_at": "2026-09-26T16:42:18+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "liyupi/dsh-kun-like-pet": {
-   "stars": 98,
+   "stars": 100,
    "pushed_at": "2026-08-14T06:54:53Z",
    "avatar": "https://avatars.githubusercontent.com/u/26037703?s=96&u=2e10561c66c1cd1b33119a5ba72881088d5bcc60&v=4",
    "lang": "JavaScript",
@@ -87156,7 +87150,7 @@
     "dsh",
     "ikun"
    ],
-   "fetched_at": "2026-09-26T16:42:22+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://raw.githubusercontent.com/liyupi/dsh-kun-like-pet/HEAD/docs/screenshot-working.png"
   },
   "baisama-cloud/dsh-galgame-generator": {
@@ -87754,8 +87748,8 @@
    "fetched_at": "2026-09-26T16:42:22+00:00"
   },
   "walkinglabs/learn-harness-engineering": {
-   "stars": 16146,
-   "pushed_at": "2026-08-26T01:08:59Z",
+   "stars": 17094,
+   "pushed_at": "2026-09-30T07:48:48Z",
    "avatar": "https://avatars.githubusercontent.com/u/271878417?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -87766,7 +87760,7 @@
     "harness-framework",
     "llm"
    ],
-   "fetched_at": "2026-09-26T16:42:22+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "civaapple-alt/mini-dsh": {
    "stars": 7,
@@ -88349,17 +88343,17 @@
    "fetched_at": "2026-09-26T16:42:26+00:00"
   },
   "hikariming/dshfind": {
-   "stars": 267,
-   "pushed_at": "2026-09-26T08:08:27Z",
+   "stars": 286,
+   "pushed_at": "2026-09-30T16:47:40Z",
    "avatar": "https://avatars.githubusercontent.com/u/23065064?s=96&u=e0a32a5fba388efaef11d21f2a7f1036417867e7&v=4",
-   "lang": "JavaScript",
+   "lang": "TypeScript",
    "license": "",
    "topics": [
     "deepseek-harness",
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:26+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "bainianling/dsh-jailbreak-mode": {
    "stars": 14,
@@ -88527,8 +88521,8 @@
    "fetched_at": "2026-09-26T16:42:30+00:00"
   },
   "q00/ouroboros": {
-   "stars": 6108,
-   "pushed_at": "2026-09-26T14:13:43Z",
+   "stars": 6159,
+   "pushed_at": "2026-09-30T19:27:33Z",
    "avatar": "https://avatars.githubusercontent.com/u/31264094?s=96&u=52ab710b6502dec7ed0093a031b71d10ae43143e&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -88539,12 +88533,12 @@
     "agentic-ai",
     "claude-code"
    ],
-   "fetched_at": "2026-09-26T16:42:30+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://raw.githubusercontent.com/q00/ouroboros/HEAD/docs/images/ouroboros.png"
   },
   "edison7009/echobird": {
-   "stars": 3275,
-   "pushed_at": "2026-09-26T07:15:41Z",
+   "stars": 3284,
+   "pushed_at": "2026-09-30T14:14:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/244278055?s=96&u=18f0509faa200ab918cb7af77bcc635dc592962c&v=4",
    "lang": "Rust",
    "license": "MIT",
@@ -88555,10 +88549,10 @@
     "opencode",
     "zcode"
    ],
-   "fetched_at": "2026-09-26T16:42:30+00:00"
+   "fetched_at": "2026-09-30T23:14:20+00:00"
   },
   "lx2000wasd/dsh-web-plugin-manager": {
-   "stars": 70,
+   "stars": 68,
    "pushed_at": "2026-09-20T03:19:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/124053119?s=96&u=804f8fafd53a5f08915d778c391610f2387f19cf&v=4",
    "lang": "TypeScript",
@@ -88567,7 +88561,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:30+00:00",
+   "fetched_at": "2026-09-30T23:14:20+00:00",
    "readme_image": "https://img.shields.io/npm/v/dsh-web-plugin-manager"
   },
   "maddogfinance/dsh-trading": {
@@ -90110,8 +90104,8 @@
    "fetched_at": "2026-09-26T16:42:38+00:00"
   },
   "zhu1090093659/dsh-web": {
-   "stars": 8032,
-   "pushed_at": "2026-09-26T14:22:54Z",
+   "stars": 8226,
+   "pushed_at": "2026-09-30T18:10:47Z",
    "avatar": "https://avatars.githubusercontent.com/u/46916148?s=96&u=0ae624afd176d448375dd0265d9906e57c711cb5&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -90122,10 +90116,10 @@
     "cordis",
     "dsh-web"
    ],
-   "fetched_at": "2026-09-26T16:42:38+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "akira399/dsh-novel-writer": {
-   "stars": 66,
+   "stars": 70,
    "pushed_at": "2026-08-27T04:19:38Z",
    "avatar": "https://avatars.githubusercontent.com/u/315272894?s=96&u=6d27a69a831cceab9227508c8c2e837d8996310a&v=4",
    "lang": "TypeScript",
@@ -90137,7 +90131,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:38+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "yelebai/dsh-plugin-marketplace": {
    "stars": 20,
@@ -90152,7 +90146,7 @@
   },
   "ericwong5021/deepseek-plugin-store": {
    "stars": 23,
-   "pushed_at": "2026-09-21T20:52:24Z",
+   "pushed_at": "2026-09-30T14:41:48Z",
    "avatar": "https://avatars.githubusercontent.com/u/26177736?s=96&u=fbc313bbd4421d4e9a7305dc3ee3f5e11ee9feb4&v=4",
    "lang": "JavaScript",
    "license": "CC0-1.0",
@@ -90163,7 +90157,7 @@
     "community",
     "curated-list"
    ],
-   "fetched_at": "2026-09-26T16:42:38+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://awesome.re/badge-flat2.svg"
   },
   "imsai-sh/awesome-deepseek-harness-plugins": {
@@ -90479,8 +90473,8 @@
    "fetched_at": "2026-09-26T16:42:41+00:00"
   },
   "ganyuanran/aegis": {
-   "stars": 1286,
-   "pushed_at": "2026-09-26T14:47:27Z",
+   "stars": 1308,
+   "pushed_at": "2026-09-30T12:13:56Z",
    "avatar": "https://avatars.githubusercontent.com/u/203426402?s=96&u=32b5dfa065066a58b414fab2bd9a120afd83f3e7&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -90491,7 +90485,7 @@
     "architecture-driven-development",
     "claude-code"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "tabbit-browser/dsh-plugin": {
    "stars": 101,
@@ -90506,11 +90500,11 @@
     "dsh-plugin",
     "dsh-plugin-market"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://raw.githubusercontent.com/tabbit-browser/dsh-plugin/HEAD/assets/dsh-tabbit-banner.png"
   },
   "jayden-x-l/forkprobe": {
-   "stars": 72,
+   "stars": 73,
    "pushed_at": "2026-08-19T08:42:44Z",
    "avatar": "https://avatars.githubusercontent.com/u/206548680?s=96&u=f18953438f9bb1b52f084774446940e23200f555&v=4",
    "lang": "Python",
@@ -90522,11 +90516,11 @@
     "codex",
     "pptx"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-111827"
   },
   "laynechai/superpowers-dsh": {
-   "stars": 93,
+   "stars": 98,
    "pushed_at": "2026-08-17T14:39:52Z",
    "avatar": "https://avatars.githubusercontent.com/u/40556866?s=96&u=e6ff7d24a664ac7a4ebd7dc2c05fdd1865b0210f&v=4",
    "lang": "JavaScript",
@@ -90537,7 +90531,7 @@
     "skills",
     "superpowers"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://raw.githubusercontent.com/laynechai/superpowers-dsh/HEAD/static/home.png"
   },
   "loserfox/distill": {
@@ -90549,7 +90543,7 @@
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "areium/dsh-fail-logger": {
    "stars": 10,
@@ -90854,8 +90848,8 @@
    "fetched_at": "2026-09-26T16:42:41+00:00"
   },
   "xgone/dsh-remote": {
-   "stars": 66,
-   "pushed_at": "2026-09-23T12:20:02Z",
+   "stars": 67,
+   "pushed_at": "2026-09-29T08:59:15Z",
    "avatar": "https://avatars.githubusercontent.com/u/6811277?s=96&u=999f08def221882407011ccf7d67fc11be99748a&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -90866,11 +90860,11 @@
     "mfa",
     "remote-access"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "cloader/dsh-taskboard": {
-   "stars": 55,
-   "pushed_at": "2026-09-26T14:40:18Z",
+   "stars": 57,
+   "pushed_at": "2026-09-28T10:01:56Z",
    "avatar": "https://avatars.githubusercontent.com/u/3699964?s=96&u=ed0f39c28cc2c9194a82f72e644f9c60fb44de69&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -90881,7 +90875,7 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "chen731215-dev/dsh-tavern": {
    "stars": 37,
@@ -90941,14 +90935,14 @@
   },
   "huanlinoto/dsh-plugin-mineru": {
    "stars": 47,
-   "pushed_at": "2026-09-24T18:05:01Z",
+   "pushed_at": "2026-09-30T09:46:19Z",
    "avatar": "https://avatars.githubusercontent.com/u/94176676?s=96&u=57518fb3f1454c488f385186594a6f32dc4413b0&v=4",
    "lang": "TypeScript",
    "license": "NOASSERTION",
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:42:41+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/npm/v/@huanlin/dsh-plugin-mineru"
   },
   "kw78/dsh-office-tools": {
@@ -95171,7 +95165,7 @@
    "fetched_at": "2026-09-26T16:43:15+00:00"
   },
   "oil-oil/dsh-oil-creator": {
-   "stars": 192,
+   "stars": 194,
    "pushed_at": "2026-09-10T13:19:49Z",
    "avatar": "https://avatars.githubusercontent.com/u/57465570?s=96&u=bfb4b7b49075d78526c6d04cae123aeeacd4e85a&v=4",
    "lang": "TypeScript",
@@ -95181,7 +95175,7 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:15+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "xmutfyh/dsh-plugin-writing-guard": {
    "stars": 42,
@@ -95213,8 +95207,8 @@
    "fetched_at": "2026-09-26T16:43:15+00:00"
   },
   "dingminhua/dsh-connect-workbuddy": {
-   "stars": 40,
-   "pushed_at": "2026-09-26T05:08:33Z",
+   "stars": 50,
+   "pushed_at": "2026-09-30T16:41:56Z",
    "avatar": "https://avatars.githubusercontent.com/u/24245120?s=96&u=f177622099da66eb340a4c256298a0b7cccf20a0&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -95223,7 +95217,7 @@
     "dsh-plugin-market",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:43:15+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "duhu2000/dsh-mcp-connector": {
    "stars": 34,
@@ -95616,7 +95610,7 @@
     "json",
     "query"
    ],
-   "fetched_at": "2026-09-26T16:43:15+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/badge/license-MIT-blue.svg"
   },
   "orangeofcarl0-sys/dsh-fresh-start": {
@@ -96684,10 +96678,10 @@
     "dsh-plugin-market",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "tencent-connect/dsh-qqbot": {
-   "stars": 109,
+   "stars": 115,
    "pushed_at": "2026-09-08T15:21:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/89066837?s=96&v=4",
    "lang": "TypeScript",
@@ -96697,11 +96691,11 @@
     "dsh-plugin",
     "qqbot"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "omdsh-dev/dsh-annotation": {
-   "stars": 128,
-   "pushed_at": "2026-09-15T05:53:20Z",
+   "stars": 133,
+   "pushed_at": "2026-09-30T15:25:26Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "HTML",
    "license": "MIT",
@@ -96709,7 +96703,7 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://badgen.net/badge/license/MIT/blue"
   },
   "vlln/dsh-navbar": {
@@ -96724,7 +96718,7 @@
     "plugin",
     "ui"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "songoao25/dsh-bottom-info-bar": {
    "stars": 38,
@@ -96783,7 +96777,7 @@
     "interconnect",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "sugarforever/dsh-lark": {
    "stars": 27,
@@ -96816,7 +96810,7 @@
    "fetched_at": "2026-09-26T16:43:22+00:00"
   },
   "moeblack/dsh-message-edit": {
-   "stars": 49,
+   "stars": 50,
    "pushed_at": "2026-08-16T11:33:37Z",
    "avatar": "https://avatars.githubusercontent.com/u/28835093?s=96&u=c06739ce86fbb2bd4b7cca2c0843fe32b29c0078&v=4",
    "lang": "TypeScript",
@@ -96825,7 +96819,7 @@
     "dsh-plugin",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/npm/v/dsh-message-edit"
   },
   "omdsh-dev/dsh-lark": {
@@ -96841,7 +96835,7 @@
     "dsh",
     "feishu"
    ],
-   "fetched_at": "2026-09-26T16:43:22+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/npm/v/dsh-lark-channel"
   },
   "plutokeating/dsh-lark-bot": {
@@ -100742,7 +100736,7 @@
    "fetched_at": "2026-09-26T16:43:47+00:00"
   },
   "titanwings/distilly": {
-   "stars": 25046,
+   "stars": 25177,
    "pushed_at": "2026-09-22T14:01:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/85022018?s=96&u=6113597ca45e93695ad70a154be122589f227d53&v=4",
    "lang": "Python",
@@ -100754,11 +100748,11 @@
     "codex",
     "hermes-agent"
    ],
-   "fetched_at": "2026-09-26T16:43:47+00:00",
+   "fetched_at": "2026-09-30T23:14:23+00:00",
    "readme_image": "https://img.shields.io/badge/License-MIT-yellow.svg"
   },
   "fufankeji/deepseek-harness-studio": {
-   "stars": 663,
+   "stars": 666,
    "pushed_at": "2026-09-01T03:15:24Z",
    "avatar": "https://avatars.githubusercontent.com/u/172011122?s=96&u=c291b162d4207f027f3a8c5e63fcf730626de144&v=4",
    "lang": "TypeScript",
@@ -100770,10 +100764,10 @@
     "desktop-app",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:47+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "h4dex/opc-nexus": {
-   "stars": 240,
+   "stars": 241,
    "pushed_at": "2026-09-03T16:58:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/8213215?s=96&u=a14c679665d5cc23152a954c670c495e76bacb86&v=4",
    "lang": "TypeScript",
@@ -100785,11 +100779,11 @@
     "dsh-plugin",
     "remote-android-control"
    ],
-   "fetched_at": "2026-09-26T16:43:47+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "wenbin-wb/dsh-bridge": {
-   "stars": 177,
-   "pushed_at": "2026-09-25T14:53:08Z",
+   "stars": 179,
+   "pushed_at": "2026-09-30T14:23:28Z",
    "avatar": "https://avatars.githubusercontent.com/u/57818063?s=96&u=ab394d5ab44f3a9a2c33f95ee83c0936515483c5&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -100800,7 +100794,7 @@
     "remote-access",
     "tunnel"
    ],
-   "fetched_at": "2026-09-26T16:43:47+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "limbo947/dsh-recall-plugin": {
    "stars": 35,
@@ -101042,7 +101036,7 @@
    "topics": [
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:51+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "sulfide2085/dsh-llm-wechat": {
    "stars": 5,
@@ -102531,8 +102525,8 @@
    "fetched_at": "2026-09-26T16:43:58+00:00"
   },
   "nexu-io/open-design": {
-   "stars": 98174,
-   "pushed_at": "2026-09-26T12:24:27Z",
+   "stars": 98937,
+   "pushed_at": "2026-09-30T18:16:17Z",
    "avatar": "https://avatars.githubusercontent.com/u/263625318?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -102543,11 +102537,11 @@
     "design-systems",
     "local-first"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "amruthpillai/reactive-resume": {
-   "stars": 43442,
-   "pushed_at": "2026-09-26T08:25:06Z",
+   "stars": 43625,
+   "pushed_at": "2026-09-30T20:55:01Z",
    "avatar": "https://avatars.githubusercontent.com/u/245328954?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -102558,10 +102552,10 @@
     "self-hosted",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "freestylefly/awesome-gpt-image-2": {
-   "stars": 33547,
+   "stars": 33815,
    "pushed_at": "2026-09-24T08:01:10Z",
    "avatar": "https://avatars.githubusercontent.com/u/43960064?s=96&u=3f0d393870149e009bddc35d16ad46c18310813c&v=4",
    "lang": "JavaScript",
@@ -102573,11 +102567,11 @@
     "image-prompts",
     "prompt-as-code"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "strukto-ai/mirage": {
-   "stars": 3663,
-   "pushed_at": "2026-09-26T15:32:45Z",
+   "stars": 3670,
+   "pushed_at": "2026-09-30T22:26:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/248286111?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -102588,10 +102582,10 @@
     "bash",
     "claude-code"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "zilliztech/memsearch": {
-   "stars": 2662,
+   "stars": 2686,
    "pushed_at": "2026-09-24T08:08:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/18416694?s=96&v=4",
    "lang": "Python",
@@ -102603,11 +102597,11 @@
     "memory",
     "openclaw"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "memorax-ai/memorax-code": {
-   "stars": 1670,
-   "pushed_at": "2026-09-26T16:36:15Z",
+   "stars": 2007,
+   "pushed_at": "2026-09-30T13:57:24Z",
    "avatar": "https://avatars.githubusercontent.com/u/272675989?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102618,11 +102612,11 @@
     "coding-memory",
     "developer-tools"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "hyhmrright/brooks-lint": {
-   "stars": 1498,
-   "pushed_at": "2026-09-21T08:58:51Z",
+   "stars": 1501,
+   "pushed_at": "2026-09-28T09:49:01Z",
    "avatar": "https://avatars.githubusercontent.com/u/6754730?s=96&u=6e5cac3788adad110f4d146496b099cf0deb695c&v=4",
    "lang": "HTML",
    "license": "MIT",
@@ -102633,10 +102627,10 @@
     "tech-debt",
     "claude-code-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "nagisanzenin/engram": {
-   "stars": 1436,
+   "stars": 1439,
    "pushed_at": "2026-08-27T09:29:10Z",
    "avatar": "https://avatars.githubusercontent.com/u/97045551?s=96&u=c3e4fddb9c09b786504012f66783be8ec30f73a6&v=4",
    "lang": "Python",
@@ -102648,10 +102642,10 @@
     "fsrs",
     "learning"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "shaobeichen/dsh-pocket": {
-   "stars": 1367,
+   "stars": 1442,
    "pushed_at": "2026-09-16T16:08:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/18715564?s=96&u=fb8e7b49d6cda87e06f4a803337aaa2bc387eea3&v=4",
    "lang": "JavaScript",
@@ -102663,10 +102657,10 @@
     "mobile",
     "qr"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "gitroomhq/postiz-agent": {
-   "stars": 495,
+   "stars": 499,
    "pushed_at": "2026-09-22T16:50:32Z",
    "avatar": "https://avatars.githubusercontent.com/u/128401275?s=96&v=4",
    "lang": "TypeScript",
@@ -102678,11 +102672,11 @@
     "claude",
     "claude-code"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "syncable-dev/memtrace-public": {
-   "stars": 478,
-   "pushed_at": "2026-09-25T12:19:41Z",
+   "stars": 488,
+   "pushed_at": "2026-09-30T13:48:05Z",
    "avatar": "https://avatars.githubusercontent.com/u/215073026?s=96&v=4",
    "lang": "Python",
    "license": "NOASSERTION",
@@ -102693,11 +102687,11 @@
     "coding-agents",
     "knowledge-graph"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "dsh-market/dsh-market": {
-   "stars": 4635,
-   "pushed_at": "2026-09-26T16:25:05Z",
+   "stars": 5146,
+   "pushed_at": "2026-09-30T16:21:03Z",
    "avatar": "https://avatars.githubusercontent.com/u/316826596?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -102706,12 +102700,12 @@
     "dsh-plugin",
     "marketplace"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00",
+   "fetched_at": "2026-09-30T23:14:26+00:00",
    "readme_image": "https://img.shields.io/npm/v/dshmarket"
   },
   "ilyautov/humanizer-ru": {
-   "stars": 390,
-   "pushed_at": "2026-09-26T13:59:18Z",
+   "stars": 400,
+   "pushed_at": "2026-09-29T23:34:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/9898202?s=96&u=ad32a070177508b424eaf5ac8ad1eed8f4eb6452&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -102722,11 +102716,11 @@
     "humanizer",
     "russian"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:04+00:00"
   },
   "nanmicoder/dsh-agent-teams": {
-   "stars": 1813,
-   "pushed_at": "2026-09-24T19:22:29Z",
+   "stars": 1864,
+   "pushed_at": "2026-09-29T13:47:43Z",
    "avatar": "https://avatars.githubusercontent.com/u/47178017?s=96&u=9ede4e056bc911665ade24d830ac24b5c1122c8b&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102737,12 +102731,12 @@
     "dsh-agent-teams",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00",
+   "fetched_at": "2026-09-30T23:14:26+00:00",
    "readme_image": "https://raw.githubusercontent.com/nanmicoder/dsh-agent-teams/HEAD/assets/readme/hero.svg"
   },
   "v1ki/dsh-plugin-subscriptions": {
-   "stars": 389,
-   "pushed_at": "2026-09-23T07:36:20Z",
+   "stars": 409,
+   "pushed_at": "2026-09-28T06:29:18Z",
    "avatar": "https://avatars.githubusercontent.com/u/5071121?s=96&u=94c393214537a1d0698c1c250f3af1f2bb0633a3&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -102753,10 +102747,10 @@
     "codex",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "liustack/modsearch": {
-   "stars": 552,
+   "stars": 579,
    "pushed_at": "2026-09-24T07:05:54Z",
    "avatar": "https://avatars.githubusercontent.com/u/83945823?s=96&u=ddd515b23c79d1f9ae23b0116db367fac9fc50d9&v=4",
    "lang": "TypeScript",
@@ -102768,11 +102762,11 @@
     "cordis",
     "deepseek"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "acryldev/acryl": {
-   "stars": 257,
-   "pushed_at": "2026-09-26T16:16:28Z",
+   "stars": 258,
+   "pushed_at": "2026-09-30T18:37:47Z",
    "avatar": "https://avatars.githubusercontent.com/u/321071188?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -102783,11 +102777,11 @@
     "ai-agents",
     "cordis"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "bruc3van/awesome-dsh-plugin": {
-   "stars": 367,
-   "pushed_at": "2026-09-26T16:14:42Z",
+   "stars": 381,
+   "pushed_at": "2026-09-30T19:34:39Z",
    "avatar": "https://avatars.githubusercontent.com/u/10140863?s=96&u=370cf2b6070ef11b12dae007fd884891e91e6fec&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102797,10 +102791,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "summer1238/dsh-remote-web-gateway": {
-   "stars": 155,
+   "stars": 156,
    "pushed_at": "2026-08-28T11:00:58Z",
    "avatar": "https://avatars.githubusercontent.com/u/151708650?s=96&u=2bffc5e78380fc40a0d224f771384454eab3de5c&v=4",
    "lang": "TypeScript",
@@ -102812,7 +102806,7 @@
     "developer-tools",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "yzlnew/infra-skills": {
    "stars": 147,
@@ -102826,11 +102820,11 @@
     "dsh-plugin",
     "skills"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "dream-num/dsh-univer-plugin": {
-   "stars": 406,
-   "pushed_at": "2026-09-24T18:21:51Z",
+   "stars": 450,
+   "pushed_at": "2026-09-30T16:05:42Z",
    "avatar": "https://avatars.githubusercontent.com/u/61444807?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -102841,11 +102835,11 @@
     "office",
     "office-harness"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "bradegithub/dsh-plugins-marketplace": {
-   "stars": 167,
-   "pushed_at": "2026-09-26T13:09:32Z",
+   "stars": 170,
+   "pushed_at": "2026-09-30T19:30:06Z",
    "avatar": "https://avatars.githubusercontent.com/u/61537138?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102856,11 +102850,11 @@
     "plugin-marketplace",
     "plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "orziz/odai": {
    "stars": 118,
-   "pushed_at": "2026-09-24T03:56:56Z",
+   "pushed_at": "2026-09-29T02:57:11Z",
    "avatar": "https://avatars.githubusercontent.com/u/36832622?s=96&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102871,10 +102865,10 @@
     "ai-agent",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "dundunhan/dsh-video-lens": {
-   "stars": 114,
+   "stars": 113,
    "pushed_at": "2026-09-19T16:49:44Z",
    "avatar": "https://avatars.githubusercontent.com/u/191685311?s=96&v=4",
    "lang": "JavaScript",
@@ -102883,11 +102877,11 @@
     "deepseek-harness",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "csyangwen/dsh-memory-evolve": {
-   "stars": 336,
-   "pushed_at": "2026-09-15T04:13:05Z",
+   "stars": 343,
+   "pushed_at": "2026-09-29T12:52:46Z",
    "avatar": "https://avatars.githubusercontent.com/u/8225044?s=96&u=321eddef0ec3eac7c71454b34fe73dbae16abf2a&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -102896,11 +102890,11 @@
     "dsh-plugin",
     "deepseek-harness"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "taxueseek/argo": {
-   "stars": 152,
-   "pushed_at": "2026-09-26T14:40:05Z",
+   "stars": 160,
+   "pushed_at": "2026-09-30T14:36:42Z",
    "avatar": "https://avatars.githubusercontent.com/u/263354195?s=96&u=ce0727e707d0749e92e8774978d75456b21344d9&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -102911,10 +102905,10 @@
     "agent-tools",
     "ai-agent"
    ],
-   "fetched_at": "2026-09-26T16:43:58+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "yj-liuzepeng/dsh-project-brain": {
-   "stars": 89,
+   "stars": 101,
    "pushed_at": "2026-09-22T10:54:36Z",
    "avatar": "https://avatars.githubusercontent.com/u/75007029?s=96&u=e29fdceef959dd9df944076304e016c8029ea8e8&v=4",
    "lang": "JavaScript",
@@ -102926,11 +102920,11 @@
     "dsh-plugin",
     "local-first"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "labring/sealos-skills": {
    "stars": 81,
-   "pushed_at": "2026-08-14T06:36:11Z",
+   "pushed_at": "2026-09-28T08:36:08Z",
    "avatar": "https://avatars.githubusercontent.com/u/102226726?s=96&v=4",
    "lang": "Python",
    "license": "",
@@ -102941,7 +102935,7 @@
     "cloud-native",
     "codex"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "raullenchai/rapid-mlx-dsh-provider": {
    "stars": 70,
@@ -102956,7 +102950,7 @@
     "dsh",
     "llm"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "kuangre123/codex-switch": {
    "stars": 70,
@@ -102971,7 +102965,7 @@
     "codex-desktop",
     "codex-github"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "zseven-w/dsh-openpencil": {
    "stars": 179,
@@ -102986,7 +102980,7 @@
     "deepseek-harness",
     "design"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00",
+   "fetched_at": "2026-09-30T23:14:26+00:00",
    "readme_image": "https://raw.githubusercontent.com/zseven-w/dsh-openpencil/HEAD/docs/images/dsh-openpencil-logo.png"
   },
   "jermaine123123/agent-context-editor": {
@@ -103002,10 +102996,10 @@
     "dsh-plugin",
     "pi-coding-agent"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "zenx0x/allinluna": {
-   "stars": 62,
+   "stars": 63,
    "pushed_at": "2026-09-01T13:24:30Z",
    "avatar": "https://avatars.githubusercontent.com/u/56068289?s=96&u=f62cc6d132a7792d8f4808d781a0c150041fd088&v=4",
    "lang": "Python",
@@ -103017,11 +103011,11 @@
     "luna",
     "multi-agent"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "nwflower/dsh-chat-import": {
-   "stars": 202,
-   "pushed_at": "2026-09-23T17:57:14Z",
+   "stars": 207,
+   "pushed_at": "2026-09-30T10:12:20Z",
    "avatar": "https://avatars.githubusercontent.com/u/105714958?s=96&u=4f1b704dea93235b9b6f7a70665fd47dc8138ca8&v=4",
    "lang": "JavaScript",
    "license": "MIT",
@@ -103032,11 +103026,11 @@
     "automation",
     "chatgpt"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "opencues/opencues": {
-   "stars": 57,
-   "pushed_at": "2026-09-26T16:41:57Z",
+   "stars": 60,
+   "pushed_at": "2026-09-26T22:59:34Z",
    "avatar": "https://avatars.githubusercontent.com/u/274945173?s=96&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -103047,10 +103041,10 @@
     "claude",
     "developer-tools"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "xiehuan123/dsh-deepread": {
-   "stars": 56,
+   "stars": 57,
    "pushed_at": "2026-09-11T13:13:19Z",
    "avatar": "https://avatars.githubusercontent.com/u/82025141?s=96&u=152e210fc9db0ee09fd4870920abf40821aa07f3&v=4",
    "lang": "JavaScript",
@@ -103062,10 +103056,10 @@
     "deep-read",
     "deep-reading"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "anysearch-team/anysearch-dsh": {
-   "stars": 430,
+   "stars": 441,
    "pushed_at": "2026-09-20T09:34:50Z",
    "avatar": "https://avatars.githubusercontent.com/u/316589933?s=96&v=4",
    "lang": "TypeScript",
@@ -103077,10 +103071,10 @@
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "icetomoyo/dsh_workflow": {
-   "stars": 130,
+   "stars": 131,
    "pushed_at": "2026-09-05T04:10:09Z",
    "avatar": "https://avatars.githubusercontent.com/u/312905287?s=96&v=4",
    "lang": "TypeScript",
@@ -103092,7 +103086,7 @@
     "dsh-plugin",
     "dshtopic"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "sunxin-ai/dsh-deepseek-vision": {
    "stars": 44,
@@ -103177,7 +103171,7 @@
    "fetched_at": "2026-09-26T16:44:02+00:00"
   },
   "reddapidev/dsh-reddit-radar": {
-   "stars": 36,
+   "stars": 90,
    "pushed_at": "2026-08-17T03:09:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/310419079?s=96&v=4",
    "lang": "TypeScript",
@@ -103189,7 +103183,7 @@
     "deepseek-harness",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "perrylink/dsh-auto-review": {
    "stars": 205,
@@ -103321,7 +103315,7 @@
   },
   "wzj998/chatccc": {
    "stars": 22,
-   "pushed_at": "2026-09-26T02:27:14Z",
+   "pushed_at": "2026-09-29T22:32:51Z",
    "avatar": "https://avatars.githubusercontent.com/u/20184052?s=96&u=febf3793cab4afceb435e08b75f061d3988b4843&v=4",
    "lang": "TypeScript",
    "license": "Apache-2.0",
@@ -103332,7 +103326,7 @@
     "coding-agent",
     "cursor"
    ],
-   "fetched_at": "2026-09-26T16:44:02+00:00",
+   "fetched_at": "2026-09-30T23:14:26+00:00",
    "readme_image": "https://raw.githubusercontent.com/wzj998/chatccc/HEAD/images/img_readme_messages.jpg"
   },
   "zhaiyateng/dsh-design-skills": {
@@ -103748,8 +103742,8 @@
    "fetched_at": "2026-09-26T16:44:06+00:00"
   },
   "anweat/dsh-web-search-pro": {
-   "stars": 70,
-   "pushed_at": "2026-09-23T03:24:42Z",
+   "stars": 73,
+   "pushed_at": "2026-09-27T14:18:27Z",
    "avatar": "https://avatars.githubusercontent.com/u/89571234?s=96&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -103760,7 +103754,7 @@
     "web-search",
     "dsh"
    ],
-   "fetched_at": "2026-09-26T16:44:06+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "shinjiyu/holdem": {
    "stars": 12,
@@ -117086,8 +117080,8 @@
    "fetched_at": "2026-09-26T16:45:27+00:00"
   },
   "anbeime/skill": {
-   "stars": 7231,
-   "pushed_at": "2026-09-26T07:10:02Z",
+   "stars": 7438,
+   "pushed_at": "2026-09-30T08:07:45Z",
    "avatar": "https://avatars.githubusercontent.com/u/52991404?s=96&u=b193336e65b6590d0b1f37b2a7ce77eef249a21a&v=4",
    "lang": "Python",
    "license": "",
@@ -117098,10 +117092,10 @@
     "office-skill",
     "openclaw-skills"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:23+00:00"
   },
   "freestylefly/wesight": {
-   "stars": 929,
+   "stars": 933,
    "pushed_at": "2026-09-19T16:42:35Z",
    "avatar": "https://avatars.githubusercontent.com/u/43960064?s=96&u=3f0d393870149e009bddc35d16ad46c18310813c&v=4",
    "lang": "TypeScript",
@@ -117113,7 +117107,7 @@
     "codex",
     "desktop-app"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "whitelonng/dshcode": {
    "stars": 713,
@@ -117128,11 +117122,11 @@
     "deepseek",
     "harness"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "howmp/dsh-pentest": {
-   "stars": 552,
-   "pushed_at": "2026-09-22T11:17:05Z",
+   "stars": 570,
+   "pushed_at": "2026-09-29T06:52:15Z",
    "avatar": "https://avatars.githubusercontent.com/u/10806806?s=96&u=9afae9d833e7110f84fe0d26faae1aa37fc9a30d&v=4",
    "lang": "JavaScript",
    "license": "",
@@ -117142,10 +117136,10 @@
     "dsh-plugins",
     "pentest"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "antibrow/dsh-antibrow": {
-   "stars": 548,
+   "stars": 618,
    "pushed_at": "2026-09-12T07:39:10Z",
    "avatar": "https://avatars.githubusercontent.com/u/268527319?s=96&v=4",
    "lang": "JavaScript",
@@ -117157,11 +117151,11 @@
     "anti-detect-browser",
     "browser-automation"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "mnemon-dev/mnemon": {
-   "stars": 596,
-   "pushed_at": "2026-09-24T13:44:47Z",
+   "stars": 604,
+   "pushed_at": "2026-09-30T13:22:45Z",
    "avatar": "https://avatars.githubusercontent.com/u/262709594?s=96&v=4",
    "lang": "Go",
    "license": "Apache-2.0",
@@ -117172,24 +117166,24 @@
     "claude",
     "claude-code"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00",
+   "fetched_at": "2026-09-30T23:14:29+00:00",
    "readme_image": "https://raw.githubusercontent.com/mnemon-dev/mnemon/HEAD/docs/logo/logo.svg"
   },
   "omdsh-dev/dsh-at-file": {
-   "stars": 513,
+   "stars": 514,
    "pushed_at": "2026-09-01T01:00:35Z",
-   "avatar": "https://avatars.githubusercontent.com/u/60334584?s=96&u=838c2247b2555863d4950cb157e528797130ee82&v=4",
+   "avatar": "https://avatars.githubusercontent.com/u/60334584?s=96&u=88b76051f85342b7dd08abee8a0edbede1df9c83&v=4",
    "lang": "JavaScript",
    "license": "MIT",
    "topics": [
     "dsh",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "sopaco/terrain": {
-   "stars": 242,
-   "pushed_at": "2026-09-26T14:27:27Z",
+   "stars": 249,
+   "pushed_at": "2026-09-29T12:11:24Z",
    "avatar": "https://avatars.githubusercontent.com/u/15891288?s=96&u=d5559b1f0a43d4b34d07a8584219b21831ea0fea&v=4",
    "lang": "Rust",
    "license": "MIT",
@@ -117200,11 +117194,11 @@
     "deepwiki",
     "knowledge-base"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "edonadei/caliper": {
-   "stars": 182,
-   "pushed_at": "2026-09-26T16:26:19Z",
+   "stars": 197,
+   "pushed_at": "2026-09-30T02:05:31Z",
    "avatar": "https://avatars.githubusercontent.com/u/21025565?s=96&u=47d9cafdef1109efff3e87b417cd3496c0b9169e&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -117215,11 +117209,11 @@
     "codex",
     "evals"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "volcengine/ark-cli": {
-   "stars": 139,
-   "pushed_at": "2026-09-24T03:48:21Z",
+   "stars": 141,
+   "pushed_at": "2026-09-29T14:46:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/67365215?s=96&v=4",
    "lang": "Go",
    "license": "Apache-2.0",
@@ -117230,7 +117224,7 @@
     "cli",
     "doubao"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:26+00:00"
   },
   "liceses/dsh-gitbash-preset": {
    "stars": 129,
@@ -117243,7 +117237,7 @@
     "dsh-plugin",
     "dsh-plugins"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "drewnekota/cetus": {
    "stars": 147,
@@ -117258,11 +117252,11 @@
     "codex",
     "computer-use"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "hancao97/hanai-investment-dsh": {
-   "stars": 114,
-   "pushed_at": "2026-09-12T12:40:28Z",
+   "stars": 115,
+   "pushed_at": "2026-09-30T15:36:23Z",
    "avatar": "https://avatars.githubusercontent.com/u/29964332?s=96&u=b3fd04c0d36c6d0ff67edfb256177df28faf6d16&v=4",
    "lang": "TypeScript",
    "license": "MIT",
@@ -117273,11 +117267,11 @@
     "deepseek-harness",
     "financial-analysis"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "wink-run/tokenbank": {
-   "stars": 101,
-   "pushed_at": "2026-09-26T12:37:52Z",
+   "stars": 106,
+   "pushed_at": "2026-09-29T13:54:57Z",
    "avatar": "https://avatars.githubusercontent.com/u/141621609?s=96&v=4",
    "lang": "JavaScript",
    "license": "Apache-2.0",
@@ -117288,11 +117282,11 @@
     "tokenhub",
     "agent"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "fwerkor/local-shell-mcp": {
-   "stars": 78,
-   "pushed_at": "2026-09-26T16:16:49Z",
+   "stars": 81,
+   "pushed_at": "2026-09-30T18:07:29Z",
    "avatar": "https://avatars.githubusercontent.com/u/62789965?s=96&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -117303,10 +117297,10 @@
     "chatgpt-app",
     "dsh-plugin"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "bruzwj/liang-saint-slider": {
-   "stars": 96,
+   "stars": 95,
    "pushed_at": "2026-08-19T21:13:35Z",
    "avatar": "https://avatars.githubusercontent.com/u/149516937?s=96&u=0cf0b88f84a619682235ca1bf411413cab1684b0&v=4",
    "lang": "JavaScript",
@@ -117316,12 +117310,12 @@
     "deepseek-harness",
     "deepseek-harness-plugin"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00",
+   "fetched_at": "2026-09-30T23:14:29+00:00",
    "readme_image": "https://pbs.twimg.com/amplify_video_thumb/2087967285621542912/img/Vk2-2wdcV3s2ITIO.jpg"
   },
   "lna-lab/distill-kura": {
-   "stars": 52,
-   "pushed_at": "2026-09-05T21:47:48Z",
+   "stars": 53,
+   "pushed_at": "2026-09-30T10:40:10Z",
    "avatar": "https://avatars.githubusercontent.com/u/226374315?s=96&v=4",
    "lang": "Python",
    "license": "MIT",
@@ -117332,7 +117326,7 @@
     "long-term-memory",
     "mcp-server"
    ],
-   "fetched_at": "2026-09-26T16:45:27+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "yan-zero/dsh-codex": {
    "stars": 66,
@@ -118526,7 +118520,7 @@
    "lang": "TypeScript",
    "license": "MIT",
    "topics": [],
-   "fetched_at": "2026-09-26T16:45:37+00:00"
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   },
   "agent-plaza/agent-plaza": {
    "stars": 3,
@@ -122747,8 +122741,8 @@
    "fetched_at": "2026-09-26T16:46:02+00:00"
   },
   "evermind-ai/everos": {
-   "stars": 13214,
-   "pushed_at": "2026-09-24T10:31:33Z",
+   "stars": 13314,
+   "pushed_at": "2026-09-30T14:23:21Z",
    "avatar": "https://avatars.githubusercontent.com/u/229275294?s=96&v=4",
    "lang": "Python",
    "license": "Apache-2.0",
@@ -122759,7 +122753,7 @@
     "llm",
     "long-term-memory"
    ],
-   "fetched_at": "2026-09-26T16:46:02+00:00",
+   "fetched_at": "2026-09-30T23:14:29+00:00",
    "readme_image": "https://github.com/user-attachments/assets/806e9d7f-c861-4b89-9141-11e38f8753e3"
   },
   "modusensus/dsh-mneme": {
@@ -123080,6 +123074,292 @@
     "mcp"
    ],
    "fetched_at": "2026-09-26T16:46:05+00:00"
+  },
+  "dusbin/dsh-memory-view": {
+   "stars": 0,
+   "pushed_at": "2026-09-29T13:31:10Z",
+   "avatar": "https://avatars.githubusercontent.com/u/7601584?s=96&u=e9af48bad9add0d405d3b13e2082544ab5a62029&v=4",
+   "lang": "JavaScript",
+   "license": "",
+   "topics": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "memory"
+   ],
+   "fetched_at": "2026-09-30T23:14:08+00:00"
+  },
+  "fatatalia/dsh-ledger": {
+   "stars": 0,
+   "pushed_at": "2026-09-25T01:32:13Z",
+   "avatar": "https://avatars.githubusercontent.com/u/304444133?s=96&u=c276651575b9e0072038e351317b4a3da1667cbb&v=4",
+   "lang": "JavaScript",
+   "license": "",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:08+00:00"
+  },
+  "zhengjy01/dsh-wechat-clawbot": {
+   "stars": 0,
+   "pushed_at": "2026-09-29T15:40:07Z",
+   "avatar": "https://avatars.githubusercontent.com/u/306360614?s=96&u=67df1219d779519c7a1db1458817ac799a1bf8b0&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "wechat",
+    "dsh"
+   ],
+   "fetched_at": "2026-09-30T23:14:08+00:00"
+  },
+  "nishuoyang/dsh-wallpaper-bg": {
+   "stars": 4,
+   "pushed_at": "2026-09-30T10:18:46Z",
+   "avatar": "https://avatars.githubusercontent.com/u/184843835?s=96&u=b10cd077ce537b87705acf58965e2713ac6b8027&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-plugins",
+    "dsh-web"
+   ],
+   "fetched_at": "2026-09-30T23:14:10+00:00"
+  },
+  "xiyue718/dsh-ui-message-nav": {
+   "stars": 0,
+   "pushed_at": "2026-09-20T02:37:55Z",
+   "avatar": "https://avatars.githubusercontent.com/u/171023085?s=96&v=4",
+   "lang": "TypeScript",
+   "license": "",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:10+00:00"
+  },
+  "subconscious-systems/subconscious": {
+   "stars": 75,
+   "pushed_at": "2026-09-30T15:39:23Z",
+   "avatar": "https://avatars.githubusercontent.com/u/195182511?s=96&v=4",
+   "lang": "JavaScript",
+   "license": "",
+   "topics": [],
+   "fetched_at": "2026-09-30T23:14:15+00:00"
+  },
+  "wangzhanchao883/dsh-resume-screening": {
+   "stars": 0,
+   "pushed_at": "2026-09-29T03:51:35Z",
+   "avatar": "https://avatars.githubusercontent.com/u/235096715?s=96&u=a987ba344b7ba7f45906e3e2be8b2aba9e93181c&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "ats",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "hr"
+   ],
+   "fetched_at": "2026-09-30T23:14:15+00:00"
+  },
+  "xingzhen199186/dsh-mini-remote": {
+   "stars": 2,
+   "pushed_at": "2026-09-30T23:01:06Z",
+   "avatar": "https://avatars.githubusercontent.com/u/139222541?s=96&u=bee68ba0b8ee20330995b3061ce4f06f157ebee1&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "cordis-plugin",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "remote"
+   ],
+   "fetched_at": "2026-09-30T23:14:20+00:00"
+  },
+  "zhengjy01/dsh-mcp-manager": {
+   "stars": 0,
+   "pushed_at": "2026-09-29T15:40:28Z",
+   "avatar": "https://avatars.githubusercontent.com/u/306360614?s=96&u=67df1219d779519c7a1db1458817ac799a1bf8b0&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "mcp-server"
+   ],
+   "fetched_at": "2026-09-30T23:14:23+00:00"
+  },
+  "sueqet/dsh-todo-board": {
+   "stars": 0,
+   "pushed_at": "2026-09-30T05:02:53Z",
+   "avatar": "https://avatars.githubusercontent.com/u/129881006?s=96&u=dcdf2352302bd640e91592d1c78ff29a64b37ad9&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "task-board"
+   ],
+   "fetched_at": "2026-09-30T23:14:23+00:00"
+  },
+  "kovey/dsh-chat-interaction": {
+   "stars": 0,
+   "pushed_at": "2026-09-30T03:09:32Z",
+   "avatar": "https://avatars.githubusercontent.com/u/2876473?s=96&u=9897696b3d6fb6c6529e785e195e03333d87fbcc&v=4",
+   "lang": "TypeScript",
+   "license": "",
+   "topics": [
+    "dsh-plugin",
+    "feishu",
+    "feishu-bot",
+    "tui",
+    "weixin"
+   ],
+   "fetched_at": "2026-09-30T23:14:23+00:00"
+  },
+  "lsdt45/dsh-plan-plus": {
+   "stars": 1,
+   "pushed_at": "2026-09-28T05:10:08Z",
+   "avatar": "https://avatars.githubusercontent.com/u/42729729?s=96&u=f5209ee3e21cfeac846297b0ebc4276856c714e8&v=4",
+   "lang": "JavaScript",
+   "license": "",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:26+00:00"
+  },
+  "nmindz/stupid-comments": {
+   "stars": 0,
+   "pushed_at": "2026-09-30T17:40:25Z",
+   "avatar": "https://avatars.githubusercontent.com/u/5567477?s=96&u=50dd877287f50df987409c5e30f8390d769b89fa&v=4",
+   "lang": "Rust",
+   "license": "GPL-3.0",
+   "topics": [],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "starstorm-ai/dsh-embedded-codex": {
+   "stars": 0,
+   "pushed_at": "2026-09-21T15:12:21Z",
+   "avatar": "https://avatars.githubusercontent.com/u/312401139?s=96&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "wesleyel/dsh-plugin-gpt-load": {
+   "stars": 0,
+   "pushed_at": "2026-09-30T12:50:38Z",
+   "avatar": "https://avatars.githubusercontent.com/u/48174882?s=96&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "cordis",
+    "deepseek-harness",
+    "dsh-plugin",
+    "llm-gateway",
+    "typescript"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "qikairo7/dsh-gemini-pool": {
+   "stars": 2,
+   "pushed_at": "2026-09-29T18:37:50Z",
+   "avatar": "https://avatars.githubusercontent.com/u/132990250?s=96&u=0f8eae7cb852b7032aaf891247c45847176e5fb5&v=4",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "antigravity",
+    "gemini"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "shaky77/kiss_law-dsh": {
+   "stars": 2,
+   "pushed_at": "2026-09-29T09:06:13Z",
+   "avatar": "https://avatars.githubusercontent.com/u/283731521?s=96&u=72ea3c71e76c1ed13ee16a3e4eb1a088c00fac41&v=4",
+   "lang": "JavaScript",
+   "license": "AGPL-3.0",
+   "topics": [
+    "ai",
+    "causality",
+    "harness",
+    "risk-control",
+    "white-box"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "zcx369658780/governed-workflow-for-dsh": {
+   "stars": 2,
+   "pushed_at": "2026-08-20T07:27:48Z",
+   "avatar": "https://avatars.githubusercontent.com/u/112786427?s=96&u=5616e7716ce6f38844be96d3cce2e29cfa6c91fb&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "agent-governance",
+    "ai-agents",
+    "coding-agent",
+    "deepseek-harness",
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "csiroqa/dsh-plugin-forge": {
+   "stars": 1,
+   "pushed_at": "2026-09-27T12:24:58Z",
+   "avatar": "https://avatars.githubusercontent.com/u/77228441?s=96&u=e0d4fdeeaf9b02d5bc04e33ba5760a1c7966a35b&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai-native",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "1420079678-ctrl/agent-body": {
+   "stars": 14,
+   "pushed_at": "2026-09-30T00:33:17Z",
+   "avatar": "https://avatars.githubusercontent.com/u/238475055?s=96&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "agent-framework",
+    "ai-agents",
+    "ai-memory",
+    "autonomous-agents",
+    "context-engineering"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
+  },
+  "lcestou/dsh-oh-my-claude": {
+   "stars": 5,
+   "pushed_at": "2026-09-29T16:06:01Z",
+   "avatar": "https://avatars.githubusercontent.com/u/3686394?s=96&u=e10e684c4924c2179b570234810186aa037c7779&v=4",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "anthropic",
+    "claude-code",
+    "cordis",
+    "deepseek-harness",
+    "dsh"
+   ],
+   "fetched_at": "2026-09-30T23:14:29+00:00"
   }
  }
 }
