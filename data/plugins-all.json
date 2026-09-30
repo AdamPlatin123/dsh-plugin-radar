@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-30T06:04:53Z",
+ "generated_at": "2026-09-30T17:46:56Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -38536,13 +38536,6 @@
    "verdict": "untested",
    "stars": 0,
    "desc": "统一静态图像生成路由：单一 image_generate 工具 + 标准参数，配置驱动的 OpenAI 兼容引擎路由（OpenAI Images、智谱 CogView 及任意兼容端点）与健康感知回退，工作区持久附件结果、按会话配额记账、对话内结果卡片，API key 存为凭据引用"
-  },
-  {
-   "repo": "deepseek-ai/deepseek-harness",
-   "name": "deepseek-ai-deepseek-harness",
-   "verdict": "incompatible",
-   "stars": 124593,
-   "desc": "DeepSeek Harness: Everything is a Plugin.〔📦〕"
   },
   {
    "repo": "xiaobright/dsh-anchored-standard",
