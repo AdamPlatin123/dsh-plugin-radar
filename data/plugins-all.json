@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-30T22:45:43Z",
+ "generated_at": "2026-09-30T23:00:52Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -11112,13 +11112,6 @@
    "desc": "File-diff visualization between checkpoint time nodes for DeepSeek Harness: read-only timeline + per-file line"
   },
   {
-   "repo": "tuojc/dsh-browser-firefox",
-   "name": "tuojc-dsh-browser-firefox",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own"
-  },
-  {
    "repo": "Visol-456/dsh-llm-fallback",
    "name": "dsh-llm-fallback",
    "verdict": "ok",
@@ -21092,6 +21085,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "VS Code-style workspace keyword search for DeepSeek Harness: a Search tab in dsh-better-sidebar"
+  },
+  {
+   "repo": "tuojc/dsh-browser-firefox",
+   "name": "tuojc-dsh-browser-firefox",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own"
   },
   {
    "repo": "zengweicheng666/dsh-svn-tools",
@@ -56327,7 +56327,7 @@
   {
    "repo": "vshulcz/deja-vu",
    "name": "vshulcz-deja-vu",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1105,
    "desc": "The most accurate, cheapest and fastest memory for coding agents: searchable session history from Claude Code,"
   },
