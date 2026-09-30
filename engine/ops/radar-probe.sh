@@ -25,7 +25,7 @@ for C in "metrics-loo[p]" "cadence-loo[p]" "dashboar[d].py" "pipeline-driver.p[y
 done
 
 # 2) 心跳
-echo "[$(date +%H:%M:%S)] 心跳 ok：driver=$(pgrep -f pipeline-driver.py >/dev/null && echo up || echo down) dash=$(curl -s -m 3 -o /dev/null -w "%{http_code}" http://127.0.0.1:8899/) met=$(pgrep -f metrics-probe >/dev/null && echo up || echo down)"
+echo "[$(date +%H:%M:%S)] 心跳 ok：driver=$(pgrep -f pipeline-driver.py >/dev/null && echo up || echo down) dash=$(curl -s -m 3 -o /dev/null -w "%{http_code}" http://127.0.0.1:${RADAR_DASH_PORT:-8898}/) met=$(pgrep -f metrics-probe >/dev/null && echo up || echo down)"
 
 # 3) watchdog 心跳新鲜度兜底：watchdog 由 cron */5 调用并写 probe-heartbeat.json；
 #    若心跳超 15 分钟未更新（cron 丢失/挂起），此处主动补跑一次 watchdog

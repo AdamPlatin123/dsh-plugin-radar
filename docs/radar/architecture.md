@@ -56,7 +56,7 @@
 
 ## 渲染层
 
-全部人读产物从快照**重建**而非增量维护，脚本即源码（见 `scripts/`）：
+全部人读产物从 **canonical 单一事实源**重建而非增量维护（2026-09-27 P1 数据层收敛：`engine/aggregation/build_canonical.py` 产 canonical.json，Markdown 不再被反向解析）：
 
 - `gen_plugins_all.py` — 聚合归一 + PLUGINS-ALL 生成 + 登记表兜底补行；
 - `resolve_placeholders.py` — 占位键反查、星数回填、批量补齐星缓存；
@@ -70,7 +70,7 @@
 - **快照推送**：机器可读快照（`data/snapshots/`）按轮次提交，schema 见 [schema/](../../schema/)；
 - **自动渲染**：GitHub Actions 在快照推送后重建 README/PLUGINS-ALL/CHANGELOG（产物白名单守卫 + 自动合并）；
 - **星数日更**：每日定时刷新全部呈现星数，捕获改名；
-- **双仓分工**：本仓（个人镜像）为文档登记轨主阵地，组织仓为自动化轨主阵地；两轨周期性对齐，快照数据同口径。
+- **三仓分工**：本仓（引擎镜像仓）= 引擎开源副本 + 站点宿主 + 数据镜像；组织仓为管线仓（快照生产）；个人 awesome 仓为清单仓（登记表）。数据单向流：管线仓→本仓→Pages 站点（ADR-0001 2026-09-27 修订）。
 
 ## 运行节奏
 
@@ -81,3 +81,21 @@
 | 每轮手动 sync | PLUGINS-ALL 提交更新（区别于自动渲染白名单） |
 
 单例锁保证派发与推送互斥；「提交消息与 diff 文件不符」「渲染无变化」分别作为载荷串写与链路冻结的故障指纹，监控按此设防。
+
+## 数据层收敛（2026-09-27 P1，ADR-0004）
+
+```
+快照(窗口) ⊕ snapshot-baseline ⊕ 登记轨 ⊕ 定位/描述缓存
+            └────────────┬────────────┘
+                         ▼
+        engine/aggregation/build_canonical.py
+                         ▼
+        generated/current/canonical.json（radar-canonical/v1）
+        ├── engine/rendering/render_all.py → PLUGINS-ALL.md + catalog/all/
+        ├── scripts/export-data.py        → latest.json + plugins-all.json（dsh-radar/v1）
+        ├── site/scripts/build_data.py    → Pages 站点 bundle
+        └── compat/lib_report.sh          → mainline-compat.json
+```
+
+快照装载 = 现存文件全扫 ⊕ 基线垫底（ADR-0002 落地：基线固化带重放等价断言，
+窗口外快照已裁剪，工作区 IO 有界）。

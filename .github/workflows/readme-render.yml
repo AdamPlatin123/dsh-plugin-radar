@@ -33,14 +33,14 @@ jobs:
         run: |
           git config user.name "readme-render-bot"
           git config user.email "readme-render-bot@users.noreply.github.com"
-          if git diff --quiet README.md README.en-US.md PLUGINS-ALL.md CHANGELOG.md data/latest.json data/plugins-all.json 'catalog/all' assets/tile-ok.svg assets/tile-adapt.svg assets/tile-test.svg; then
+          if git diff --quiet README.md PLUGINS-ALL.md CHANGELOG.md data/latest.json data/plugins-all.json 'catalog/all' assets/tile-ok.svg assets/tile-adapt.svg assets/tile-test.svg; then
             echo "无变化（快照与 README 已对齐）"
             exit 0
           fi
           BR="readme/render-$(date -u +%Y%m%dT%H%M%SZ)"
           git checkout -b "$BR"
           python3 scripts/export-data.py .
-          git add README.md README.en-US.md PLUGINS-ALL.md CHANGELOG.md data/latest.json data/plugins-all.json catalog/all/ assets/tile-ok.svg assets/tile-adapt.svg assets/tile-test.svg
+          git add README.md PLUGINS-ALL.md CHANGELOG.md data/latest.json data/plugins-all.json catalog/all/ assets/tile-ok.svg assets/tile-adapt.svg assets/tile-test.svg
           git commit -m "readme-render: 从快照 $(ls -t data/snapshots | head -1 | sed 's/.json//') 渲染（Bot B，merge 门控）"
           git push origin "$BR"
           gh pr create --base main --head "$BR" \
@@ -49,13 +49,14 @@ jobs:
             数据源：本仓 \`data/snapshots/\` 最新已合并快照（渲染器只读快照，不访问外部流）——数字对齐由 run_id 锚定保证。
             由 \`readme-render\` workflow 在快照合入 main 后自动触发。" \
             || echo "PR 已存在或创建失败，分支已推送"
-          # 白名单守卫：渲染 PR 只含渲染产物文件才自动合并（镜像 allow_auto_merge 已开）
-          BAD=$(gh pr view "$BR" --json files --jq '[.files[].path | select((. == "README.md" or . == "README.en-US.md" or . == "PLUGINS-ALL.md" or . == "CHANGELOG.md" or . == "data/latest.json" or . == "data/plugins-all.json" or startswith("catalog/all/") or . == "assets/tile-ok.svg" or . == "assets/tile-adapt.svg" or . == "assets/tile-test.svg") | not)] | length' 2>/dev/null)
-          if [ "${BAD:-1}" = "0" ]; then
-            gh pr merge "$BR" --merge --auto >/dev/null 2>&1 \
-              || gh pr merge "$BR" --merge >/dev/null 2>&1 \
-              || echo "自动合并失败，留人工"
-            echo "[render] PR $BR 已请求自动合并"
-          else
-            echo "[render] PR 含白名单外文件（${BAD} 个），留人工审"
-          fi
+          # 三重闸门守卫（P4b + 外审加固：head SHA 钉死含合并绑定 --match-head-commit；
+          # 作者钉死为仓库令牌身份白名单（app/github-actions 新格式与 github-actions[bot] 经典格式 any-of；二轮外审）；
+          # 文件允许集模式——本轮无变化的产物（磁贴/目录）不强制出现）
+          python3 engine/distribution/merge_guard.py \
+            --repo "$GITHUB_REPOSITORY" --pr "$BR" --expect-sha "$(git rev-parse HEAD)" \
+            --author "app/github-actions" --author "github-actions[bot]" \
+            --allow-file README.md --allow-file PLUGINS-ALL.md --allow-file CHANGELOG.md \
+            --allow-file data/latest.json --allow-file data/plugins-all.json \
+            --allow-file 'catalog/all/*' \
+            --allow-file assets/tile-ok.svg --allow-file assets/tile-adapt.svg --allow-file assets/tile-test.svg \
+            || echo "[render] 留人工审"

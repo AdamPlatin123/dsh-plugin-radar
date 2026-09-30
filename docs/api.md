@@ -79,3 +79,19 @@ print(verdict.get("omdsh-dev/DSH-better-sidebar"))   # → 'ok'
 - 数据与代码均为 MIT；引用时建议标注「兼容性数据来自 [DSH Plugin Radar](https://github.com/AdamPlatin123/dsh-plugin-radar)」并链接快照 `run_id` 以锚定轮次
 - 收录 ≠ 兼容 ≠ 运行可用 ≠ 安全审计——请在市场侧保留此口径提示
 - 判定为 `incompatible` 的多数属「需构建授权」类（allowBuilds），并非插件损坏，展示时建议区分
+
+## 快照窗口口径（2026-09-27 起）
+
+`data/snapshots/` 保留 30 天窗口；更早轮次固化于 `data/snapshot-baseline.json`
+（并集，含轮次元信息）。回溯性以基线保证；每季度重固化。
+
+## 补采 sidecar：data/plugins-enrich.json（dsh-enrich/v1）
+
+键同 plugins-all 的 repo；字段：`stars / pushed_at / avatar / lang / license /
+topics(≤5) / readme_image(仅精选与策展仓)`。与全量清单正交、字段只增不删；
+由 `enrich-metadata` 工作流日更（与星标刷同批 GraphQL，配额零增量）。
+
+## 休眠名单：data/test-skip-list.json（radar-test-skip/v1）
+
+`repos` 为 repo 全名小写数组（判定口径见 CONTEXT.md「休眠测试策略」）；
+enrich-metadata 工作流日更刷新。测试调度方可据此跳过派发。

@@ -1,0 +1,73 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/schema/radar-v1.schema.json",
+ "title": "dsh-radar/v1 稳定数据接口契约",
+ "description": "对外稳定接口的正式机器可读契约（docs/DATA.md 口径的权威化）。latest.json 校验 #/definitions/latest；plugins-all.json 校验 #/definitions/plugins_all。字段只增不删承诺以本文件为准。",
+ "definitions": {
+  "count": {"type": "integer", "minimum": 0},
+  "latest": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": ["schema", "generated_at", "snapshot_run_id", "stats", "total_listed", "runner_versions", "data"],
+   "properties": {
+    "schema": {"const": "dsh-radar/v1"},
+    "generated_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"},
+    "snapshot_run_id": {"type": ["string", "null"], "pattern": "^\\d{8}T\\d{6}Z$"},
+    "stats": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": ["ok", "incompatible", "pending", "untested", "gone", "ambiguous", "unlocated"],
+     "properties": {
+      "ok": {"$ref": "#/definitions/count"},
+      "incompatible": {"$ref": "#/definitions/count"},
+      "pending": {"$ref": "#/definitions/count"},
+      "untested": {"$ref": "#/definitions/count"},
+      "gone": {"$ref": "#/definitions/count"},
+      "ambiguous": {"$ref": "#/definitions/count"},
+      "unlocated": {"$ref": "#/definitions/count"}
+     }
+    },
+    "total_listed": {"$ref": "#/definitions/count"},
+    "runner_versions": {
+     "type": "object",
+     "description": "runner 版本分解（dsh-radar/runner-versions/v1 全量嵌入）或空对象。禁 API 错误对象特征键——上游 404 曾以合法 JSON 身份混入（本契约即防复发）。",
+     "propertyNames": {"not": {"enum": ["message", "documentation_url", "status", "error"]}}
+    },
+    "data": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": ["plugins_all", "snapshots_dir"],
+     "properties": {
+      "plugins_all": {"const": "data/plugins-all.json"},
+      "snapshots_dir": {"const": "data/snapshots/"}
+     }
+    }
+   }
+  },
+  "plugins_all": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": ["schema", "generated_at", "plugins"],
+   "properties": {
+    "schema": {"const": "dsh-radar/v1"},
+    "generated_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"},
+    "plugins": {
+     "type": "array",
+     "minItems": 1000,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repo", "name", "verdict", "stars", "desc"],
+      "properties": {
+       "repo": {"type": "string", "pattern": "^[A-Za-z0-9_.\\-]+/[A-Za-z0-9_.\\-]+$"},
+       "name": {"type": "string", "minLength": 1},
+       "verdict": {"enum": ["ok", "incompatible", "pending", "untested", "gone", "ambiguous", "unlocated"]},
+       "stars": {"type": ["integer", "null"], "minimum": 0},
+       "desc": {"type": "string"}
+      }
+     }
+    }
+   }
+  }
+ }
+}

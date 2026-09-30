@@ -9,7 +9,7 @@ MAIN="$REPO_DIR/.runtime-test-state.json"
 echo '{}' > "$MAIN"
 for f in "$REPO_DIR"/.runtime-test-state.*.json; do
   [ -f "$f" ] || continue
-  "$JQ" -s '.[0] * .[1]' "$MAIN" "$f" > "$MAIN.tmp" && mv "$MAIN.tmp" "$MAIN"
+  "$JQ" -s '.[0] * .[1]' "$MAIN" "$f" > "$MAIN.part.$$" && mv "$MAIN.part.$$" "$MAIN"
 done
 TOTAL=$("$JQ" 'length' "$MAIN")
 PASS=$("$JQ" -r '[.[].result] | map(select(startswith("✅"))) | length' "$MAIN")

@@ -1,7 +1,7 @@
 # B 线实施计划（第一批：不依赖环境的改造）
 
 - 依据：`docs/superpowers/specs/2026-08-24-multi-axis-verdict-design.md`（含 autoplan 终门四决策）
-- 代码落点：152 副本 `/mnt/data/radar/dsh-k8s`（未来部署版）；数据/schema 落本机渲染仓
+- 代码落点：152 副本 ``~/dsh-k8s`（私有测试台，见 engine/ops/private/MANIFEST.md）`（未来部署版）；数据/schema 落本机渲染仓
 - 原则：每项独立可验证；不依赖旧机（失联中）与 152 装机
 
 ## B1. 冻结自动墓碑（⑤状态机的第一步）

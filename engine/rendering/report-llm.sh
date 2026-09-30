@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# LLM 报告增强：用最好模型（deepseek-v4-flash）读当日兼容矩阵，
+# LLM 报告增强：用最好模型（deepseek-v4-pro）读当日兼容矩阵，
 # 生成"开发者摘要与建议"（生态状态解读 + 需适配插件行动建议 + mainline 变更影响）
 # 输出：reports/<日期>/mainline-summary.md（人工可读摘要，附在报告旁）
 # 用法：report-llm.sh [--date YYYY-MM-DD]
 # 集成：cron-check.sh 引擎完成后调用（异步后台）
 set -uo pipefail
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_DIR="$(cd "$(dirname "$0")/../.." && pwd)"   # engine/rendering → 仓库根
 cd "$REPO_DIR" || exit 2
 DATE="$(date +%Y-%m-%d)"
 for a in "$@"; do [ "$a" = "--date" ] && shift; done
@@ -15,8 +15,15 @@ REPORT="$REPO_DIR/reports/$DATE/mainline-compat.md"
 OUT="$REPO_DIR/reports/$DATE/mainline-summary.md"
 [ -f "$REPORT" ] || { echo "[llm] 当日报告不存在: $REPORT"; exit 2; }
 
-DS_KEY="$(python3 -c "import sqlite3,json;db=sqlite3.connect('/home/adam/.omp/agent/agent.db');print(json.loads(db.execute(\"SELECT data FROM auth_credentials WHERE provider='deepseek'\").fetchone()[0])['key'])" 2>/dev/null)"
-[ -z "$DS_KEY" ] && { echo "[llm] deepseek key 不可用"; exit 2; }
+# 密钥经 secretsource 统一解析（env > ~/.radar-keys/deepseek > sqlite 兜底）；
+# Authorization 头写 0600 临时文件经 curl -H @file 传递——密钥不进 argv/ps（P2b）
+SECRETS="$REPO_DIR/engine/lib/radar/secretsource.py"
+AUTH_HDR="$(mktemp)"
+chmod 600 "$AUTH_HDR"
+trap 'rm -f "$AUTH_HDR"' EXIT
+python3 "$SECRETS" deepseek header > "$AUTH_HDR" 2>/dev/null \
+  || { echo "[llm] deepseek key 不可用"; exit 2; }
+[ -s "$AUTH_HDR" ] || { echo "[llm] deepseek key 不可用"; exit 2; }
 
 # 提取报告核心（汇总行 + 需适配矩阵行 + 变更分析节）
 python3 - "$REPORT" > /tmp/report-core.txt << 'PYEOF'
@@ -41,9 +48,9 @@ PYEOF
 
 PROMPT="你是 DSH 插件生态的资深技术顾问。以下是最新 mainline 兼容性扫描结果（DSH Plugin Radar 每日自动生成）。请用中文写一份 300-500 字的「开发者摘要与建议」，结构：\n1) 今日生态状态一句话（仓库数/兼容/需适配比例）\n2) 需适配插件清单的行动建议（每个 1 句：根因+修法）\n3) mainline 变更影响（如有变更分析：哪些插件受影响、如何提前适配）\n4) 一句话提醒（今天最该做的事）\n\n扫描结果：\n$(cat /tmp/report-core.txt)"
 
-echo "[llm] 调用 deepseek-v4-flash 生成摘要..."
+echo "[llm] 调用 deepseek-v4-pro 生成摘要..."
 SUMMARY="$(timeout 180 curl -s -m 170 https://api.deepseek.com/chat/completions \
-  -H "Authorization: Bearer $DS_KEY" -H "Content-Type: application/json" \
+  -H @"$AUTH_HDR" -H "Content-Type: application/json" \
   -d "$(python3 -c "import json,sys;print(json.dumps({'model':'deepseek-v4-pro','messages':[{'role':'user','content':sys.argv[1]}],'max_tokens':2000}))" "$PROMPT")" 2>/dev/null \
   | python3 -c "import json,sys
 try:
@@ -62,7 +69,7 @@ fi
   printf '%s\n' "$SUMMARY"
   echo ""
   echo "---"
-  echo "> 由 DSH Plugin Radar 自动生成（deepseek-v4-flash）；数据源：[$DATE 兼容性报告](mainline-compat.md)"
+  echo "> 由 DSH Plugin Radar 自动生成（deepseek-v4-pro）；数据源：[$DATE 兼容性报告](mainline-compat.md)"
 } > "$OUT"
 echo "[llm] 摘要已写入 $OUT"
 exit 0

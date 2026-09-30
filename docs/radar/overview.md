@@ -29,8 +29,8 @@ DSH 插件生态没有中心化市场——插件以 GitHub 仓库和 npm 包的
 | 阶段 | 内容 | 状态 |
 |---|---|---|
 | Phase 1 | **文档先行**（本文件集）：管线架构、数据契约、判定语义全部公开 | ✅ 本次交付 |
-| Phase 2 | **雷达引擎源码**：发现、聚合、渲染、分发四环的完整实现（渲染链已随 `scripts/` 在仓） | 稳定后开源 |
-| Phase 3 | **测试引擎源码，双形态**：`轻量版`（无需 k8s——本地直接执行测试，clone 即可复现 L0–L2 判定）与 `服务器版`（k8s 集群形态：多 pod 并行、四层测试、复核调度） | 稳定后开源 |
+| Phase 2 | **雷达引擎源码**：发现、聚合、渲染、分发四环的完整实现（渲染链已随 `scripts/` 在仓） | 已开源（engine/，2026-09 第二阶段） |
+| Phase 3 | **测试引擎源码，双形态**：`轻量版`（无需 k8s——本地直接执行测试，clone 即可复现 L0–L2 判定）与 `服务器版`（k8s 集群形态：多 pod 并行、四层测试、复核调度） | 已开源（engine/，2026-09 第二阶段） |
 
 Phase 2/3 的「稳定」判据：聚合键口径（canonical 归一）与测试契约版本（`RESULT_CONTRACT_REVISION`）进入无频繁变更的平缓期，避免开源首月即面对不兼容重构。
 
@@ -43,3 +43,5 @@ Phase 2/3 的「稳定」判据：聚合键口径（canonical 归一）与测试
 - `scripts/render-readme-from-snapshot.py` — 快照到双语 README 的渲染
 - `scripts/classify.py` — 与 [CATALOGING.md](../CATALOGING.md) 同源的分类规则引擎
 - `scripts/refresh-stars.py` / `refresh-featured.py` — 星数日更与精选位刷新
+
+> 2026-09-27：第二阶段引擎已开源并完成全量重构（ADR-0004）；演示站上线（ADR-0005）。

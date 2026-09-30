@@ -1,0 +1,70 @@
+name: data-freshness
+# 数据新鲜度断警（P0 安全网）：latest.json 的 generated_at 停更超过 26 小时即开 issue，
+# 恢复后自动关闭。盯的是 main 分支已发布状态（raw 直链，消费者视角），
+# 不受本 workflow 自身 checkout 快照影响。
+# 26h 阈值依据：readme-render 每日 21:47 UTC 兜底 + 数据同步近月 1-3 次/天，
+# 一个完整日更周期 + 2h 余量。
+on:
+  schedule:
+    - cron: "41 * * * *"   # 每小时 :41，避开整点高峰
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: data-freshness
+  cancel-in-progress: false
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查 latest.json 新鲜度（阈值 26h）
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail   # 不用 -e：拉取/解析失败必须落进告警分支而非静默终止（外审 P1）
+          URL="https://raw.githubusercontent.com/${REPO}/main/data/latest.json"
+          GENERATED=$(curl -fsSL --retry 3 "$URL" 2>/dev/null | python3 -c "import json,sys
+          try: print(json.load(sys.stdin).get('generated_at',''))
+          except Exception: print('')" || true)
+          if [ -z "$GENERATED" ]; then
+            echo "latest.json 拉取失败或缺 generated_at——数据不可用即断警" >&2
+            AGE_H=999999
+            GENERATED="(unavailable)"
+          else
+            AGE_H=$(python3 -c "
+          import datetime as dt
+          try:
+              t = dt.datetime.strptime('$GENERATED', '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
+              print(round((dt.datetime.now(dt.timezone.utc) - t).total_seconds() / 3600, 1))
+          except ValueError:
+              print(999999)   # 非法时间戳 = 数据不可信 = 断警（二轮外审 P1：曾空值终止不告警）
+          " || echo 999999)
+          fi
+          echo "latest.json generated_at=${GENERATED}，年龄 ${AGE_H}h"
+          gh label create radar-alert --color d73a4a --description "自动化断警（alerts workflow 自动开关）" 2>/dev/null || true
+          TITLE="[radar-alert] 数据新鲜度：latest.json 停更超 26h"
+          OPEN_NUM=$(gh issue list -R "$REPO" --state open --label radar-alert \
+            --json number,title --jq ".[] | select(.title == \"$TITLE\") | .number" | head -1 || true)
+          STALE=$(python3 -c "print(1 if float('$AGE_H') > 26 else 0)")
+          if [ "$STALE" = "1" ]; then
+            BODY="**数据新鲜度断警**：main 分支 latest.json 已 ${AGE_H}h 未更新（generated_at=${GENERATED}）。
+          - 指针：${URL}
+          - 可能原因：服务器快照推送停摆 / org→mirror 同步失败 / readme-render 兜底未生效
+          恢复后本告警自动关闭。"
+            if [ -n "$OPEN_NUM" ]; then
+              gh issue comment -R "$REPO" "$OPEN_NUM" --body "仍停更：${AGE_H}h（generated_at=${GENERATED}）"
+            else
+              gh issue create -R "$REPO" --title "$TITLE" --label radar-alert --body "$BODY"
+            fi
+          elif [ -n "$OPEN_NUM" ]; then
+            echo "已恢复（${AGE_H}h），关闭告警 #$OPEN_NUM"
+            gh issue comment -R "$REPO" "$OPEN_NUM" --body "已恢复：generated_at=${GENERATED}（${AGE_H}h）"
+            gh issue close -R "$REPO" "$OPEN_NUM" --reason completed
+          else
+            echo "新鲜度正常，无未关闭告警"
+          fi

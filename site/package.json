@@ -1,0 +1,25 @@
+{
+  "name": "dsh-plugin-radar-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DSH 插件雷达演示站（CurseForge 风格目录）——数据构建期烘焙自 canonical",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:fast": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.0.0",
+    "vue": "^3.5.0",
+    "vue-i18n": "^11.0.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vue-tsc": "^3.0.0"
+  }
+}

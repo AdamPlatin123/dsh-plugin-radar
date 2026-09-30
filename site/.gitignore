@@ -1,0 +1,5 @@
+node_modules/
+dist/
+# 构建期烘焙数据（site/scripts/build_data.py 生成，勿入库）
+src/data/meta.ts
+src/data/plugins.ts

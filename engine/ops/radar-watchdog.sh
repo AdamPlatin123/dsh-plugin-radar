@@ -5,6 +5,10 @@
 set -u
 export PATH=$HOME/.local/bin:$HOME/.nvm/versions/node/v24.14.1/bin:$PATH
 K8S=$HOME/dsh-k8s
+# 私有件在场自检（P2c）：缺失仅告警不阻断——开源副本可跑到"仅缺私有件功能"
+for _pf in pipeline-driver.py cadence-loop.sh metrics-loop.sh; do
+  [ -f "$K8S/$_pf" ] || echo "[watchdog] WARN 缺私有件 $K8S/$_pf（拉起将跳过，见 engine/ops/private/MANIFEST.md）"
+done
 REPO=$HOME/dsh-external-research
 HB=$K8S/probe-heartbeat.json
 LOCK=/tmp/radar-probe.lock
@@ -102,7 +106,7 @@ fi
 DASH_P=$(pgrep -f "dashboard.p[y]" | head -1)
 DASH_STATUS="down"
 if [ -n "$DASH_P" ]; then
-  HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 3 http://127.0.0.1:8899/ 2>/dev/null)
+  HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 3 http://127.0.0.1:${RADAR_DASH_PORT:-8898}/ 2>/dev/null)
   if [ "$HTTP" = "200" ]; then
     DASH_STATUS="up(http:200)"
   else

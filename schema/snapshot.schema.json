@@ -1,0 +1,47 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/schema/snapshot.schema.json",
+ "title": "radar-snapshot 快照契约（内部口径，不承诺保留窗口）",
+ "description": "data/snapshots/*.json 的正式契约。快照是测试引擎的逐轮产物、渲染层的唯一输入；schema 串 radar-snapshot/（版本号在后缀）。基线文件 data/snapshot-baseline.json 只复用 entries 结构，顶层不同。",
+ "type": "object",
+ "required": ["schema", "run_id", "generated_at", "verdict", "catalog_entries"],
+ "additionalProperties": true,
+ "properties": {
+  "schema": { "type": "string", "pattern": "^radar-snapshot/" },
+  "run_id": { "type": "string", "pattern": "^\\d{8}T\\d{6}Z$" },
+  "generated_at": { "type": "string" },
+  "classifier": { "type": "string" },
+  "verdict": {
+   "type": "object",
+   "required": ["pass", "fail", "total", "cur_image"],
+   "additionalProperties": true,
+   "properties": {
+    "pass": { "type": "integer", "minimum": 0 },
+    "fail": { "type": "integer", "minimum": 0 },
+    "inc": { "type": "integer", "minimum": 0 },
+    "total": { "type": "integer", "minimum": 0 },
+    "bundle": { "type": "integer", "minimum": 0 },
+    "cur_image": { "type": "string", "description": "测试 runner 镜像标签（如 dsh-test-runner:0.1.5-rc.2）" },
+    "cur_tested": { "type": "integer", "minimum": 0 },
+    "cur_pass": { "type": "integer", "minimum": 0 }
+   }
+  },
+  "catalog_entries": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["name", "url", "star", "verdict", "domain", "desc"],
+    "additionalProperties": true,
+    "properties": {
+     "name": { "type": "string", "minLength": 1 },
+     "url": { "type": "string", "description": "真实仓库 URL 或 github.com/search?q= 占位" },
+     "star": { "type": "integer", "minimum": 0 },
+     "verdict": { "enum": ["✅ 运行级可用", "❌ 运行级不兼容", "⚠️ 待定", "⏳ 未测"] },
+     "domain": { "type": "string" },
+     "desc": { "type": "string" },
+     "bundle": { "type": "string" }
+    }
+   }
+  }
+ }
+}

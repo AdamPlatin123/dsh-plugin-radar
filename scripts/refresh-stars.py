@@ -6,30 +6,34 @@
 查不到（私有/删除/改名）的条目保留原值。成功解析低于候选半数时中止（防
 token 失效产生大面积误写）。
 
-依赖：环境变量 GH_TOKEN；curl；python3。
+P3 起 GraphQL 批量与 REST 改名回退收敛至 engine/lib/radar/ghql.py（urllib 直连，
+token 不进 argv；限速感知）。
+
+依赖：环境变量 GH_TOKEN（或 gh auth token）；python3 纯标准库。
 用法：GH_TOKEN=... python3 scripts/refresh-stars.py [--dry]
 """
-import json
 import os
 import re
-import subprocess
 import sys
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'engine' / 'lib'))
+from radar import ghql  # noqa: E402
+
 DRY = '--dry' in sys.argv
-TARGET = os.path.join(ROOT, 'PLUGINS-ALL.md')
-DOMAIN_DIR = os.path.join(ROOT, 'catalog', 'all')
+TARGET = ROOT / 'PLUGINS-ALL.md'
+DOMAIN_DIR = ROOT / 'catalog' / 'all'
 
 def _targets():
     files = [TARGET]
-    if os.path.isdir(DOMAIN_DIR):
-        files += sorted(os.path.join(DOMAIN_DIR, f) for f in os.listdir(DOMAIN_DIR) if f.endswith('.md'))
+    if DOMAIN_DIR.is_dir():
+        files += sorted(DOMAIN_DIR.glob('*.md'))
     return files
 BATCH = 50
 MIN_RESOLVE_RATIO = 0.5  # 解析成功率守门
 
-TOKEN = os.environ.get('GH_TOKEN') or subprocess.run(
-    ['gh', 'auth', 'token'], capture_output=True, text=True).stdout.strip()
+TOKEN = ghql.resolve_token()
 if not TOKEN:
     sys.exit('[错误] 缺少 GH_TOKEN（且 gh auth token 不可用）')
 
@@ -49,46 +53,10 @@ GQL_RENAMES = {}   # GraphQL 名实不符的改名映射（请求名lower → �
 
 
 def gql_batch(repos):
-    """一批 GraphQL 查询：{o}/{n} -> stargazerCount；返回 {full_name_lower: stars}。"""
-    parts = []
-    for i, (o, n) in enumerate(repos):
-        parts.append(
-            f'r{i}: repository(owner:"{o}",name:"{n}")'
-            '{ stargazerCount nameWithOwner }')
-    query = '{ ' + ' '.join(parts) + ' }'
-    data = None
-    for _attempt in (1, 2):  # 代理下批量查询偶发整批失败：重试一次
-        p = subprocess.run(
-            ['curl', '-sL', '--max-time', '30',
-             '-H', f'Authorization: Bearer {TOKEN}',
-             '-H', 'Content-Type: application/json',
-             '-d', json.dumps({'query': query}),
-             'https://api.github.com/graphql'],
-            capture_output=True, text=True)
-        try:
-            payload = json.loads(p.stdout)
-            data = payload.get('data') or {}
-            if data:
-                break
-            if payload.get('errors'):
-                print('[gql-diag] errors:', str(payload['errors'])[:300], file=sys.stderr)
-            elif not p.stdout.strip():
-                print(f'[gql-diag] empty stdout, curl rc={p.returncode}', file=sys.stderr)
-        except Exception as exc:
-            print(f'[gql-diag] parse fail: {exc}; rc={p.returncode}; body[:200]={p.stdout[:200]}', file=sys.stderr)
-            data = None
-    if data is None:
-        return {}
-    out = {}
-    for i, (o, n) in enumerate(repos):
-        node = data.get(f'r{i}')
-        if node is not None:
-            key = f'{o}/{n}'.lower()
-            out[key] = node.get('stargazerCount')
-            full = (node.get('nameWithOwner') or '').strip()
-            if full and full.lower() != key:
-                GQL_RENAMES[key] = full   # GraphQL 解析名与请求名不符 = 已改名
-    return out
+    """一批查询（收敛实现见 engine/lib/radar/ghql.py）；返回 {full_name_lower: stars}。"""
+    nodes = ghql.gql_batch(repos, token=TOKEN,
+                           on_rename=lambda old, new: GQL_RENAMES.__setitem__(old, new))
+    return {k: node.get('stargazerCount') for k, node in nodes.items()}
 
 
 def process(path):
@@ -120,14 +88,7 @@ def process(path):
     # REST /repos/<old> 跟随重定向取新 full_name + stargazers_count——补星数并记改名映射
     renames = {}
     for o, n in [(o, n) for o, n in entries if f'{o}/{n}'.lower() not in stars]:
-        p = subprocess.run(['curl', '-sL', '--max-time', '15',
-                            '-H', f'Authorization: Bearer {TOKEN}',
-                            f'https://api.github.com/repos/{o}/{n}'],
-                           capture_output=True, text=True)
-        try:
-            d = json.loads(p.stdout)
-        except Exception:
-            continue
+        d = ghql.rest_repo(o, n, token=TOKEN) or {}
         full, sc = d.get('full_name'), d.get('stargazers_count')
         if not full or not isinstance(sc, int):
             continue
