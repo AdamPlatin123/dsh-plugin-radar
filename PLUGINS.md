@@ -46,11 +46,11 @@
 | CiteCiter | [kirkchinese/CiteCiter](https://github.com/kirkchinese/CiteCiter) | 在 DSH Web 中选中已完成的助手回复，右键 `Citer!` 后从真实会话边界创建只读子会话，并在 details 侧栏流式解释；不写入父会话日志，支持 Markdown、代码、KaTeX、安全 SVG 与无网络 HTML 预览；npm `@kirkchinese/dsh-citeciter` 0.1.1，17 项测试及真实 registry 安装、浏览器 smoke 均通过 | 待测 |
 | dsh-security-scan | [ben7am1n/dsh-security-scan](https://github.com/ben7am1n/dsh-security-scan) | Secret & dangerous-pattern scanner — API keys/tokens/private keys redacted; ignore lists; zero deps | ✅ |
 | cordis-plugin-sofagent-audit | [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) | 变更机器审阅 harness：24 条 git diff 规则（密钥泄漏/越界改动/提示注入）+ HMAC 链审计记录 + 快照回滚 + MCP server（完整工具面），git hook 即装（引擎内 engine/dsh-plugins/cordis-plugin-sofagent-audit 子包） | 待测 |
-| dsh-email | [STARDUSTLC666/dsh-email](https://github.com/STARDUSTLC666/dsh-email) | 邮件工具插件：IMAP/SMTP 收/发/搜/列文件夹/附件下载（email_list/read/search/send/folders/attachment/health），since/until 时间范围过滤，内置 QQ/163/126/新浪/阿里/Gmail/Outlook/iCloud 预设，多账号与连接复用，发信默认走审批门；纯 Node 全平台 | ✅ |
-| dsh-calendar | [STARDUSTLC666/dsh-calendar](https://github.com/STARDUSTLC666/dsh-calendar) | CalDAV 日历插件：查/建/改/删/搜日程 + calendar_health 自检（calendar_list/create/update/delete/search/health），Google/iCloud/Nextcloud/自定义端点，应用专用密码 | ✅ |
+| dsh-email | [STARDUSTLC666/dsh-email](https://github.com/STARDUSTLC666/dsh-email) | 邮件工具插件：IMAP/SMTP 收/发/搜/回复转发/附件/整理（email_list/read/search/send/reply/folders/attachment/mark/watch/health 十工具），since/until 时间范围过滤，内置 QQ/163/126/新浪/阿里/Gmail/Outlook/iCloud 预设，多账号卡片设置页，Outlook OAuth2 设备码登录，发送别名（登录名与发件地址可分开），发信默认走审批门；Outlook OAuth2 设备码登录开箱即用（内置社区客户端，账号仍可填自己的 clientId 覆盖）；纯 Node 全平台 | ✅ |
+| dsh-calendar | [STARDUSTLC666/dsh-calendar](https://github.com/STARDUSTLC666/dsh-calendar) | CalDAV 日历插件：查/建/改/删/搜日程 + calendar_health 自检（calendar_list/create/update/delete/search/health），重复日程展开识别 RECURRENCE-ID 覆盖实例，改事件保留 ATTENDEE/VALARM 等原始属性，搜索支持时间窗，Google OAuth2/iCloud/Nextcloud/自定义端点与应用专用密码；设置页内置月/周/议程面板（连接可在面板内填写并先测后存），周视图支持拖拽改期 | ✅ |
 | dsh-dingtalk | [STARDUSTLC666/dsh-dingtalk](https://github.com/STARDUSTLC666/dsh-dingtalk) | 钉钉群机器人通知（dingtalk_notify/dingtalk_text/dingtalk_health），自定义机器人 webhook+加签，自检只查配置不发消息，零运行时依赖 | ✅ |
 | dsh-slack | [STARDUSTLC666/dsh-slack](https://github.com/STARDUSTLC666/dsh-slack) | Slack 通知插件（slack_notify/channels/inbox/reply/health），Bot Token + 官方 Web API，Socket Mode 收件箱，健康自检汇总 token/appToken/默认频道 | ✅ |
-| dsh-ffmpeg | [STARDUSTLC666/dsh-ffmpeg](https://github.com/STARDUSTLC666/dsh-ffmpeg) | 视频处理插件：ffmpeg_probe/cut/concat/encode/subtitle/extract/gif/frames/health 九工具（探测摘要/剪辑/拼接/转码/字幕烧录/抽帧/批量抽帧/GIF/自检），走官方 subprocess 服务、argv 数组无 shell 注入、零运行时依赖 | ✅ |
+| dsh-ffmpeg | [STARDUSTLC666/dsh-ffmpeg](https://github.com/STARDUSTLC666/dsh-ffmpeg) | 视频处理插件：ffmpeg_probe/cut/concat/encode/subtitle/extract/gif/frames/adjust/health 十工具（探测摘要/剪辑/拼接/转码/字幕烧录/抽帧/批量抽帧/GIF/变速调音/自检），音轨提取遇非 AAC 自动转 AAC、concat 支持混合音轨，走官方 subprocess 服务、argv 数组无 shell 注入、零运行时依赖 | ✅ |
 | dsh-docker | [STARDUSTLC666/dsh-docker](https://github.com/STARDUSTLC666/dsh-docker) | 容器管理插件：docker_ps/logs/inspect/exec/manage/health 六工具，官方 subprocess 服务、argv 无 shell 注入、exec 审批门、守护进程自检、零运行时依赖；npm 包为 scoped 名 @stardustlc/dsh-docker | ✅ |
 | dsh-rss | [STARDUSTLC666/dsh-rss](https://github.com/STARDUSTLC666/dsh-rss) | RSS/Atom 订阅工具：九工具（含跨订阅搜索 rss_search、增量抓取、OPML 导入导出、自检），代理支持，纯 Node 全平台 | ✅ |
 | dsh-cite | [STARDUSTLC666/dsh-cite](https://github.com/STARDUSTLC666/dsh-cite) | 参考文献：cite_lookup/format/bibtex/check/health，Crossref 查询与连通性自检，GB/T 7714 / APA / MLA / Chicago 与 BibTeX | ✅ |
@@ -81,6 +81,7 @@
 | dsh-web-access | [NexusAgentX/dsh-web-access](https://github.com/NexusAgentX/dsh-web-access) | 多提供方联网：web_search / fetch_content / source_check，注册 ctx.web 的 web-access 搜索/抓取提供方，Web 面板改配置与策展；npm `dsh-web-access` | ✅ |
 | dsh-llm-fallback | [Visol-456/dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) | LLM 回退链插件：请求本身永远是链头（聊天栏所选模型永不被改写），失败自动按备用顺序切换重试；Web UI 配置面板（provider/model 下拉选择、错误码、阈值、冷却，保存热生效）；dsh.bundle 一键激活；69 单测全绿 + Windows 实测 | ✅ |
 | dsh-lens | [NexusAgentX/dsh-lens](https://github.com/NexusAgentX/dsh-lens) | 写/改文件时的实时代码反馈：LSP / linter / formatter / ast-grep / symbol_search，Web chip+dock；npm `dsh-lens` | ✅ |
+| sage-mem | [gezi-wen/sage-mem](https://github.com/gezi-wen/sage-mem) | 文件式跨会话记忆：每条记忆一个 Markdown 文件（frontmatter + 正文），按问题检索并自动注入 + baseline 每会话必读，四类记忆；从 Claude Code 无损迁移（拷文件即可）；带记忆星图、类型/标签筛选与可选的记忆整理（做梦）；无数据库、无 worker、无端口、无网络 | 待测 |
 | dsh-mnemon | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Mnemon 深度集成的本地记忆系统：运行时热记忆 / 项目档案 / 长期记忆体三层存储，受监督写回、检索工具与 8 页 Web UI | ✅ |
 | dsh-daily-brief | [Equinox7379/dsh-daily-brief](https://github.com/Equinox7379/dsh-daily-brief) | 回合日报：跨 live 会话统计回合/用户消息/助手回复/工具调用（daily_brief 工具，只读零依赖） | ✅ |
 | dsh-config-watch | [Equinox7379/dsh-config-watch](https://github.com/Equinox7379/dsh-config-watch) | 配置漂移侦探：启动时快照 profile/插件清单并记录变更历史（config_changes 工具） | ❌ |
@@ -189,6 +190,7 @@
 | dsh-light-tool | [LLYlab/DLT](https://github.com/LLYlab/DLT) | 六个可独立开关的模块：每轮人民币成本、DeepSeek 账户余额、PDF/Word/Excel/CSV 直接读写与右栏预览、编译/运行环境表、dlt_run / dlt_build 直接执行与编译；npm `dsh-light-tool`，声明 dsh.bundle.patch | 待测 |
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
+| dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
@@ -200,6 +202,7 @@
 | dsh-update-notifier | [arvin-yd/dsh-update-notifier](https://github.com/arvin-yd/dsh-update-notifier) | DSH 本体版本徽标：常驻侧边栏 Settings 行右侧，三色状态点（红=有更新/绿=最新/黄=检查中或失败），点开五态弹窗（复制更新命令/忽略/稍后/立即检查），启动 10s 首查+6h 复查；零构建、29 单测、mock-llm headless L4 实测（mainline 47f9438，证据见 [VERIFICATION.md](https://github.com/arvin-yd/dsh-update-notifier/blob/main/VERIFICATION.md)） | ✅ |
 | dsh-daily-kit | [zhouwei713/dsh-daily-kit](https://github.com/zhouwei713/dsh-daily-kit) | 日常插件集合 monorepo：16 个插件（审批门/桌面与Webhook通知/成本计量/会话导出/Ollama 本地模型/上下文水位/办公文档解析/本地文件夹索引/cron 全局调度/RSS与网页内容监控/日历/Gmail/待办/天气地点/票据识别/音视频转录）+ 4 个一键 bundle（dev-buddy/evidence-wall/inbox-zero/daily-briefing）；权限透明、读取优先、零 native 依赖，596 单测，dsh rc.6/rc.7 真实加载与 npm 安装实测通过 | ✅ |
 | dsh-suite (STARDUSTLC666) | [STARDUSTLC666/dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) | 与 18 个组件配套的组合补丁：统一注入办公流、媒体工坊、DevOps、通知与极简 PTC 预设的默认配置；组件需作为直接依赖一并安装；npm `@stardustlc/dsh-suite` | 待测 |
+| agent-body | [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) | 器官化插件平台（插件集）：仓库内 14 个可安装插件包各自声明为器官（能力 / 感知 / 反射弧），内核提供其余生理活动——变速心跳把当前指令与稳态告警泵向全身、神经冲动把命令确定性支配到负责它的器官、反射弧零模型调用即开火、空闲期把运行经历巩固成记忆卡、失败先归因（缺工具/参数/权限/超时/网络/不存在/冲突）再决定是否重试且复检才闭合伤口。工具 schema 按当前意图显影，仓库内冷启动基准 48 条命令省 84.71% tool schema token | 待测 |
 
 ## 🎓 技能
 
@@ -216,6 +219,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-mini-remote | [xingzhen199186/dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) | 极简手机遥控：把电脑上的 DSH 会话遥控到手机上，手机端只显示用户发出的指令和 AI 最后的结论，工具调用与读写操作、思考过程都留在电脑；内网 / Tailscale / Cloudflare 隧道三条连接路径并存，各配二维码与密码 | 待测 |
 | dsh-mobile-link | [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) | 电脑侧连接器 + 原生 iOS 客户端 + 自建公网中转（DLP v1）：手机在 4G/5G 上连自己电脑的 DSH，不用公网 IP、不用 Tailscale；中转只鉴权与转发、不解析会话内容；npm `dsh-plugin-mobile-link` | 待测 |
 | dsh-telegram | [ben7am1n/dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | Telegram runtime adapter — chat with dsh agents from Telegram; per-chat sessions, followup bridging, committed-text streaming, allowlist auth, zero runtime deps | 待测 |
 | dsh-webhook-bridge | [ben7am1n/dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) | ✅ | ✅ |
@@ -227,6 +231,11 @@
 | dsh-session-hub | [Asaiuta/dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 多服务器 DSH 会话聚合与原生操控：网关+官方 UI 桥，一屏合并多个远程 dsh web 的会话，支持历史/prompt/取消/重命名/fork/模型选择/审批问答，并导入本机其他工具的历史会话 | 待测 |
 | dsh-reach | [PerryLink/dsh-reach](https://github.com/PerryLink/dsh-reach) | 多通道决策与远程控制桥：把 DSH 的审批卡与提问卡推送到 IM 渠道（先微信），可在聊天中直接作答，带会话控制台、逐渠道安全与开放推送服务 | 待测 |
 | dsh-wechat | [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) | 微信私聊消息桥接 DSH：文本、图片、文件与音视频双向传输 | 待测 |
+| dsh-wechat-clawbot | [zhengjy01/dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) | 微信 ClawBot 桥接（官方腾讯 iLink / ClawBot）：扫码登录悬浮球把消息桥接到 agent 会话，复用 context_token 支持窗口外主动推送；`lubaiUwU/DSH-WeChatClawBot` 的维护分支（npm `dsh-wechat-clawbot@0.2.0`） | 待测 |
+
+| dsh-gemini-pool | [qikairo7/dsh-gemini-pool](https://github.com/qikairo7/dsh-gemini-pool) | 多账号 Google Gemini 提供商：按剩余额度挑选账号，遇 429 指数退避切换，后台探活已禁用账号；声明 dsh.bundle.patch（仓库根 cordis.patch.yml），`dsh plugin add github:qikairo7/dsh-gemini-pool` 可装，MIT | 待测 |
+| KISS_Law-DSH | [Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH) | 唯稳律英文版 KISS's Law（守真·稳态 / Keep Integrity & Steady State's Law）——与中文主仓 weiwen-law-dsh 同构的通用型因果裁决中间件（白箱呈现）：R→S→D→H→M 五元因果链白箱裁决引擎，给 DSH Agent 挂 7 白箱工具 + 3 道硬性闸门 + 1 只读审计钩（模型之外、执行之内，不侵内 H）；跨 12 场景双模型（DeepSeek + mock）实测、npm test 332/332 全绿；AGPL-3.0 / 双许可 | 待测 |
+| dsh-oh-my-claude | [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) | 把已登录的 Claude Code CLI 作为 dsh 的 LLM 供应商（stream-json）：实时模型列表、按会话恢复、审批中转、图片、记忆/回退/变更面板、远程 SSH 主机上的工作区；npm `dsh-oh-my-claude` | 待测 |
 
 ## 🛠 基础设施
 
@@ -294,8 +303,8 @@
 | dsh-sql | [STARDUSTLC666/dsh-sql](https://github.com/STARDUSTLC666/dsh-sql) | 工程师级数据库：sql_list/query/exec/schema/stats/health 六工具，SQLite/MySQL/PostgreSQL 三引擎、多连接、只读模式与写审批门、行数钳制、库概览统计、查询结果 CSV/JSON 输出 | ✅ |
 | dsh-feishucard | [cmfok/dsh-feishucard](https://github.com/cmfok/dsh-feishucard) | DSH ↔ 飞书桥（自研非 fork）：官方 SDK 长连接（无需公网）+ 流式回复卡片（过程话语内联/工具折叠面板/状态符号/限流退避熔断兜底），每聊天独立会话 + live 复用保上下文，配置独立 ~/.dsh-feishucard；npm dsh-feishucard v0.1.0，冒烟 18 项 + 实机链路实测通过 | ✅ |
 | dsh-trajectory-reader | [flyingtimes/dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) | 轨迹解读标签页：按用户轮次解读助手行为（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留；dsh.bundle.patch 一键安装 | ✅ |
-| dsh-remotion | [STARDUSTLC666/dsh-remotion](https://github.com/STARDUSTLC666/dsh-remotion) | Remotion 官方技能移植：React 编程式视频（动画/音频/字幕/3D/图表/字体），38 个规则文件，附 remotion_health 随包技能资源自检，技能可跨 harness | ✅ |
-| dsh-hyperframes | [STARDUSTLC666/dsh-hyperframes](https://github.com/STARDUSTLC666/dsh-hyperframes) | HyperFrames by HeyGen 五件套：HTML 写视频、GSAP 动画、字幕、配音、音频响应、网址转视频，附 hyperframes_health 随包技能资源自检 | ✅ |
+| dsh-remotion | [STARDUSTLC666/dsh-remotion](https://github.com/STARDUSTLC666/dsh-remotion) | Remotion 官方 12 技能：React 编程式视频（动画/音频/字幕/3D/地图/图表/渲染/Studio），安装即用，附随包资源完整性自检。 | ✅ |
+| dsh-hyperframes | [STARDUSTLC666/dsh-hyperframes](https://github.com/STARDUSTLC666/dsh-hyperframes) | 同步 HyperFrames by HeyGen 官方上游的二十一技能：HTML 写视频/动画/关键帧/音频与音乐转视频/CLI/注册表/幻灯片/口播重剪/网址·产品·PR 转视频/Studio 时间轴规范等，附随包资源完整性自检。 | ✅ |
 | dsh-voice | [STARDUSTLC666/dsh-voice](https://github.com/STARDUSTLC666/dsh-voice) | 语音双件套：voice_tts（edge-tts 免费微软神经语音）/ voice_stt（OpenAI 兼容 ASR）/ voice_list / voice_preview 音色批量试听 / voice_health 自检，WebSocket 直连，插件级代理 | ✅ |
 | dsh-codex-port | [STARDUSTLC666/dsh-codex-port](https://github.com/STARDUSTLC666/dsh-codex-port) | 把 ~/.codex 官方插件（186 插件、583 技能）一键移植为 DSH 技能：codex_list/port/status/health，frontmatter 转换、幂等跳过、Codex 目录自检，技能可跨 harness | ✅ |
 | dsh-dream | [STARDUSTLC666/dsh-dream](https://github.com/STARDUSTLC666/dsh-dream) | 做梦插件：会话回放（多帧 zstd 零依赖解析）→ 反思 → 梦境日记，dream_digest/save/journal/recall/health 五工具 + 做梦协议技能，记忆巩固向 | ✅ |

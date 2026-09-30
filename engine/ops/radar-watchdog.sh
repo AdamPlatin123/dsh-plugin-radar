@@ -164,7 +164,7 @@ CAND_AGE=$(sec_since "$REPO/generated/current/candidates.json")
 CAND_AGE_H=$(( CAND_AGE / 3600 ))
 if [ "$CAND_AGE_H" -ge 6 ]; then
   log "发现段陈旧 ${CAND_AGE_H}h，重跑"
-  (cd "$REPO" && timeout 120 python3 scripts/discover.py >> "$K8S/probe.log.discover" 2>&1 \
+  (cd "$REPO" && timeout 120 python3 engine/discovery/discover.py >> "$K8S/probe.log.discover" 2>&1 \
     && python3 - "$REPO/generated/current/candidates.json" > /tmp/to-clone.new << 'PY'
 import json, sys, os
 from pathlib import Path

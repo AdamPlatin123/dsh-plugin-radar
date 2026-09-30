@@ -13,9 +13,10 @@ import sys
 TAXONOMY_VERSION = 'v2'
 
 DOMAINS = [
-    ('🛒 市场与管理', '插件市场、包管理器、健康检查、装卸载与版本管理工具'),
+    ('🎓 技能包', '以 skill 形态提供能力：技能集合、技能分发、技能搜索'),
     ('🧠 记忆增强', '跨会话/长期记忆、记忆检索与蒸馏：memory、会话历史沉淀、自省与召回'),
     ('🎨 主题皮肤', '外观主题、皮肤、CSS/配色/像素装饰：不改变功能仅改变观感'),
+    ('🛒 市场与管理', '插件市场、包管理器、健康检查、装卸载与版本管理工具'),
     ('🔌 Web UI 增强', 'Web/TUI 界面功能增强：侧栏、输入、面板、批注、状态栏、渲染交互'),
     ('💻 编码开发', '编码场景：代码操作、git、diff、终端、语言与构建、测试'),
     ('🤖 Agent 能力', 'agent 本体能力：子代理、规划执行、上下文管理、唤醒睡眠、自主循环'),
@@ -66,7 +67,7 @@ def cli():
     dom, hit = classify(name, desc)
     print(f'建议分类: {dom}')
     print(f'命中规则: {hit or "（无，兜底为其他）"}')
-    definition = next((d for d, dd in DOMAINS if d == dom), '')
+    definition = next((dd for d, dd in DOMAINS if d == dom), '')
     print(f'类目定义: {definition}')
 
 
