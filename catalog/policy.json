@@ -14,7 +14,16 @@
     "comment": "A candidate becomes listed only after a curation PR satisfies all of the above. Auto-discovery never promotes to listed."
   },
   "discovery": {
-    "paths": ["org:dsh-external", "topic:dsh-plugin", "topic:dsh-external", "keyword:deepseek harness", "keyword:DSH plugin", "keyword:dsh plugin", "library:research", "library:clones"],
+    "paths": [
+      "org:dsh-external",
+      "topic:dsh-plugin",
+      "topic:dsh-external",
+      "keyword:deepseek harness",
+      "keyword:DSH plugin",
+      "keyword:dsh plugin",
+      "library:research",
+      "library:clones"
+    ],
     "dedupe_key": "github_numeric_repository_id",
     "non_plugin_handling": "discovered but is_plugin=false → kept as candidate with is_plugin=false (Radar records everything found; Catalog never lists non-plugins)"
   },
@@ -24,9 +33,20 @@
     "max_single_run_removals": "max(3, 5% of last active)"
   },
   "evidence": {
-    "pass_values": ["pass", "warn"],
-    "non_pass_values": ["fail"],
-    "never_count_as_pass": ["not_run", "inconclusive"]
+    "pass_values": [
+      "pass",
+      "warn"
+    ],
+    "non_pass_values": [
+      "fail"
+    ],
+    "never_count_as_pass": [
+      "not_run",
+      "inconclusive"
+    ]
+  },
+  "platform_repositories": {
+    "deepseek-ai/deepseek-harness": "harness 本体（被测基座），非插件——装测必败，判定无意义，排除出目录与统计"
   },
   "tombstone": {
     "readd_policy": "blocked — a tombstoned id that reappears is NOT auto-relisted; requires an explicit curation PR explaining restoration."

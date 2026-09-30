@@ -59,6 +59,12 @@ def _read_json_safe(p, default):
         return default
 
 
+# 平台基座仓（policy.platform_repositories）：harness 本体非插件，装进 profile
+# 当插件测必然失败——判定无意义且污染 incompatible 统计，目录与统计一并排除。
+POLICY = _read_json_safe(ROOT / 'catalog' / 'policy.json', {})
+PLATFORM_REPOS = {str(k).strip().lower() for k in (POLICY.get('platform_repositories') or {})}
+
+
 def _merge_snapshot_files(files, merged, rounds):
     """files 须为新→旧序；(name,url) 同键以最新轮覆盖（setdefault），返回读取的文件数。"""
     n = 0
@@ -334,6 +340,17 @@ def build(root: Path = ROOT):
             # 复用既有渲染路径，不引入"空 URL 假链接"这类不变量破坏）
             e['locate'] = 'ambiguous_watch'
             n_sanitized += 1
+
+    # ── 平台基座仓排除：单点过滤，统计/导出/目录全部下游一致生效 ──────────────
+    if PLATFORM_REPOS:
+        _name_set = {p.replace('/', '-') for p in PLATFORM_REPOS}
+        _before = len(entries)
+        entries = [e for e in entries
+                   if (e.get('url') or '').split('github.com/')[-1].strip('/').lower() not in PLATFORM_REPOS
+                   and e.get('name', '').lower().replace('/', '-') not in _name_set]
+        n_platform = _before - len(entries)
+        if n_platform:
+            print(f'[canonical] platform repos excluded: {n_platform} ({sorted(PLATFORM_REPOS)})')
 
     # 统计在全部消毒/降级完成后计算（外审 P1：曾先算后消毒，URL 降级后
     # stats_located/export_stats 保留旧定位状态——当前数据零违规零漂移，逻辑修正）
