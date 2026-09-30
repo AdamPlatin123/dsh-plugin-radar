@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-29T19:37:05Z",
+ "generated_at": "2026-09-30T00:46:08Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -49917,7 +49917,7 @@
    "name": "dsh-remotion",
    "verdict": "untested",
    "stars": 4,
-   "desc": "Remotion 官方技能移植：React 编程式视频（动画/音频/字幕/3D/图表/字体），38 个规则文件，附 remotion_health 随包技能资源自检，技能可跨 harness"
+   "desc": "Remotion 官方 12 技能：React 编程式视频（动画/音频/字幕/3D/地图/图表/渲染/Studio），安装即用，附随包资源完整性自检。"
   },
   {
    "repo": "LeslieWylie/dsh-plugin-release",
@@ -49931,7 +49931,7 @@
    "name": "dsh-hyperframes",
    "verdict": "untested",
    "stars": 3,
-   "desc": "HyperFrames by HeyGen 五件套：HTML 写视频、GSAP 动画、字幕、配音、音频响应、网址转视频，附 hyperframes_health 随包技能资源自检"
+   "desc": "同步 HyperFrames by HeyGen 官方上游的二十一技能：HTML 写视频/动画/关键帧/音频与音乐转视频/CLI/注册表/幻灯片/口播重剪/网址·产品·PR 转视频/Studio 时间轴规范等，附随包资源完整性自检。"
   },
   {
    "repo": "Niuniu-Sir/dsh-data-ledger",
