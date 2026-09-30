@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-30T21:45:50Z",
+ "generated_at": "2026-09-30T22:45:43Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -24253,7 +24253,7 @@
   {
    "repo": "hherosoul/dsh-smart-charts",
    "name": "hherosoul-dsh-smart-charts",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "smart charts"
   },
@@ -29814,6 +29814,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-computer-use: computer-use plugin for DeepSeek Harness (Cordis)"
+  },
+  {
+   "repo": "aa2246740/dsh-creator-mode-plus",
+   "name": "aa2246740-dsh-creator-mode-plus",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Fail-closed Creator Mode+ bridge for DeepSeek Harness, supervised externally by DSHX."
   },
   {
    "repo": "aa2246740/dsh-livevoice",
@@ -40358,13 +40365,6 @@
    "desc": "A live, self-organizing constellation map of your DeepSeek Harness plugin universe — AI-balanced taxonomy, bil"
   },
   {
-   "repo": "aa2246740/dsh-creator-mode-plus",
-   "name": "aa2246740-dsh-creator-mode-plus",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Fail-closed Creator Mode+ bridge for DeepSeek Harness, supervised externally by DSHX."
-  },
-  {
    "repo": "aa2246740/dsh-cuadrive-mac",
    "name": "aa2246740-dsh-cuadrive-mac",
    "verdict": "incompatible",
@@ -44754,6 +44754,13 @@
    "desc": "DeepSeek Harness 桌面版（Tauri v2 源码）—— 分出发版产物见 lem0nl1me/dsh-desktop"
   },
   {
+   "repo": "lemoncat7/dsh-remote-settings-compat",
+   "name": "lemoncat7-dsh-remote-settings-compat",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Remote settings compatibility plugin for DeepSeek Harness"
+  },
+  {
    "repo": "leonardoxr/dsh-native",
    "name": "leonardoxr-dsh-native",
    "verdict": "ok",
@@ -46418,13 +46425,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness desktop edition: Electron shell + Windows NSIS installer〔📦〕"
-  },
-  {
-   "repo": "lemoncat7/dsh-remote-settings-compat",
-   "name": "lemoncat7-dsh-remote-settings-compat",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Remote settings compatibility plugin for DeepSeek Harness"
   },
   {
    "repo": "littleblakew/msds-chain-mcp",
@@ -48415,6 +48415,13 @@
    "desc": "—"
   },
   {
+   "repo": "initial-d/dsh-plugin-mlquant-benchmark",
+   "name": "initial-d-dsh-plugin-mlquant-benchmark",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DeepSeek Harness tools for reproducing the ml-quant-trading protocol v1 benchmark."
+  },
+  {
    "repo": "zh851233/docs-mode",
    "name": "zh851233-docs-mode",
    "verdict": "ok",
@@ -48714,13 +48721,6 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
-  },
-  {
-   "repo": "initial-d/dsh-plugin-mlquant-benchmark",
-   "name": "initial-d-dsh-plugin-mlquant-benchmark",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "DeepSeek Harness tools for reproducing the ml-quant-trading protocol v1 benchmark."
   },
   {
    "repo": "try-works/dsh-paper-design",
@@ -54099,6 +54099,13 @@
    "desc": "Connect a Feishu bot to DeepSeek Harness projects and conversations"
   },
   {
+   "repo": "aa2246740/dsh-gateway",
+   "name": "aa2246740-dsh-gateway",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "One DSH Host, one messaging Gateway"
+  },
+  {
    "repo": "aokamoaki/dsh-notify",
    "name": "aokamoaki-dsh-notify",
    "verdict": "ok",
@@ -55735,13 +55742,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH (DeepSeek Harness) Agent 实时看板：主 agent 与子代理树形层级监控 + 停滞自动告警 + SSE 实时推送，点击直达会话"
-  },
-  {
-   "repo": "aa2246740/dsh-gateway",
-   "name": "aa2246740-dsh-gateway",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "One DSH Host, one messaging Gateway"
   },
   {
    "repo": "azure5100/huahua-dsh-chatroom",
@@ -60513,7 +60513,7 @@
   {
    "repo": "marshfolx/dsh-subagent-setting",
    "name": "marshfolx-dsh-subagent-setting",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Configure the default provider / model / reasoning effort for subagents from the DeepSeek Harness Web settings"
   },
@@ -62403,7 +62403,7 @@
   {
    "repo": "lcthe/dsh-hermes-memory",
    "name": "lcthe-dsh-hermes-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DSH-native persistent memory and safe session-aware retrieval plugin"
   },
