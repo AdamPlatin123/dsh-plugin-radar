@@ -226,8 +226,8 @@ flowchart TB
 
 <!-- AUTO:featured:START -->
 
-> 人工策展 55 款插件，按 11 类分组、类内按星标排序；星标每 6 小时自动刷新（成员调整请提 PR 修改 data/awesome-50.json）。数据截至 2026-10-02 04:39（UTC+8）。
-> *Human-curated 55 plugins in 11 groups, star-sorted within each; stars auto-refresh every 6 hours (membership via PR to data/awesome-50.json). As of 2026-10-02 04:39 (UTC+8).*
+> 人工策展 55 款插件，按 11 类分组、类内按星标排序；星标每 6 小时自动刷新（成员调整请提 PR 修改 data/awesome-50.json）。数据截至 2026-10-02 06:45（UTC+8）。
+> *Human-curated 55 plugins in 11 groups, star-sorted within each; stars auto-refresh every 6 hours (membership via PR to data/awesome-50.json). As of 2026-10-02 06:45 (UTC+8).*
 
 ### 🚀 智力增强 Booster（7）
 *Intelligence Boosters (7)*
@@ -253,9 +253,9 @@ flowchart TB
 ### ⌨️ 终端与桌面端（5）
 *Terminal & Desktop (5)*
 
-- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)** · 29748★ — 生态最高星桌面客户端（21.5k★，原 deepseek-harness-desktop 再改名）：万物皆插件、桌面本身也是插件（雷达重测中；rc.8 源码路径实测 ✅）
-- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** · 3908★ — 官方尚无终端 TUI 的补位之作：Claude Code 风格全屏交互终端——像素鲸鱼顶栏、实时状态行、思考流式展开；Cordis 插件形态（dsh plugin add dsh-tui 即装），三仓协作生态与 npm 分发；★3907 TUI 品类头牌（维护者手测通过背书）
-- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop)** · 2926★ — Tauri 桌面版：5MB 安装包零环境配置，Win/macOS/Linux
+- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)** · 29750★ — 生态最高星桌面客户端（21.5k★，原 deepseek-harness-desktop 再改名）：万物皆插件、桌面本身也是插件（雷达重测中；rc.8 源码路径实测 ✅）
+- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** · 3910★ — 官方尚无终端 TUI 的补位之作：Claude Code 风格全屏交互终端——像素鲸鱼顶栏、实时状态行、思考流式展开；Cordis 插件形态（dsh plugin add dsh-tui 即装），三仓协作生态与 npm 分发；★3907 TUI 品类头牌（维护者手测通过背书）
+- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop)** · 2929★ — Tauri 桌面版：5MB 安装包零环境配置，Win/macOS/Linux
 - <img src="assets/tile-adapt.svg" alt="需适配" width="122" height="20"> **[oh-dsh](https://github.com/hust-open-atom-club/oh-dsh)** · 326★ — 社区发行版：桌面/Web/TUI 三形态统一体验
 - <img src="assets/tile-adapt.svg" alt="需适配" width="122" height="20"> **[dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui)** · 285★ — 自研 ANSI 渲染的极简终端 UI
 
@@ -270,7 +270,7 @@ flowchart TB
 ### 🤖 Agent 能力与编排（7）
 *Agent Orchestration (7)*
 
-- <img src="assets/tile-adapt.svg" alt="需适配" width="122" height="20"> **[distilly](https://github.com/titanwings/distilly)** · 25211★ — 把专家思维蒸馏为可复用 Skills 的平台（24k★，Agent 域之最，原名 colleague-skill；雷达判可用）
+- <img src="assets/tile-adapt.svg" alt="需适配" width="122" height="20"> **[distilly](https://github.com/titanwings/distilly)** · 25214★ — 把专家思维蒸馏为可复用 Skills 的平台（24k★，Agent 域之最，原名 colleague-skill；雷达判可用）
 - <img src="assets/tile-test.svg" alt="待测试" width="122" height="20"> **[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)** · 1880★ — 多代理团队编排
 - <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[helloagents](https://github.com/hellowind777/helloagents)** · 704★ — agent 能力合集
 - <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · 677★ — CMA 兼容开源 agent 运行时，任意模型可驱动
@@ -313,7 +313,7 @@ flowchart TB
 ### 🛒 市场与管理（4）
 *Marketplaces & Management (4)*
 
-- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-market](https://github.com/dsh-market/dsh-market)** · 5235★ — 持续收录 1000+ 插件的市场：中文搜索 + 五维评分
+- <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-market](https://github.com/dsh-market/dsh-market)** · 5237★ — 持续收录 1000+ 插件的市场：中文搜索 + 五维评分
 - <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[dsh-web-plugin-manager](https://github.com/LX2000WASD/dsh-web-plugin-manager)** · 67★ — Web UI 一键管理插件：启停/装卸/环境管理
 - <img src="assets/tile-adapt.svg" alt="需适配" width="122" height="20"> **[dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check)** · 26★ — 插件健康检查：清单协议/patch 格式/构建陷阱
 - <img src="assets/tile-ok.svg" alt="已兼容" width="122" height="20"> **[deepseek-plugin-store](https://github.com/Ericwong5021/deepseek-plugin-store)** · 23★ — 独立社区插件商店：发现/安装/提交经验证的插件
@@ -338,8 +338,8 @@ flowchart TB
 
 <!-- AUTO:bundles:START -->
 
-> 人工策展 16 个整合包：内测成员作品置顶，其下按预设套件 / 能力合集 / 发行版 / 配方管理器四形态分组，类内按星标排序；星标每 6 小时自动刷新（成员调整请提 PR 修改 data/bundles.json）。数据截至 2026-10-02 04:39（UTC+8）。
-> *Human-curated 16 bundles: insider picks pinned on top, then presets / collections / distributions / recipe managers, star-sorted; auto-refreshed every 6 hours. As of 2026-10-02 04:39 (UTC+8).*
+> 人工策展 16 个整合包：内测成员作品置顶，其下按预设套件 / 能力合集 / 发行版 / 配方管理器四形态分组，类内按星标排序；星标每 6 小时自动刷新（成员调整请提 PR 修改 data/bundles.json）。数据截至 2026-10-02 06:45（UTC+8）。
+> *Human-curated 16 bundles: insider picks pinned on top, then presets / collections / distributions / recipe managers, star-sorted; auto-refreshed every 6 hours. As of 2026-10-02 06:45 (UTC+8).*
 
 ### ⭐ 内测成员作品（1）
 *Insider Members (1)*
