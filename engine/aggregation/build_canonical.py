@@ -217,6 +217,17 @@ def build(root: Path = ROOT):
     live_star = {r['full_name'].lower(): r['star'] for r in locate.values()
                  if r.get('status') == 'found' and r.get('full_name') and isinstance(r.get('star'), int)}
 
+    # 日更 GQL 星缓存（refresh-stars bot 回流 data/star-cache.json）最高优先：
+    # locate 星为定位时快照会陈旧（2026-10-02 全量低报根因），star-cache 每日全量刷新。
+    _sc = (_read_json_safe(ROOT / 'data' / 'star-cache.json', {}) or {}).get('entries') or {}
+    _n_sc = 0
+    for _k, _v in _sc.items():
+        if isinstance(_v, dict) and isinstance(_v.get('star'), int):
+            live_star[_k] = _v['star']
+            _n_sc += 1
+    if _n_sc:
+        print(f'[canonical] star-cache 覆盖 {_n_sc} 条实时星')
+
     n_fix = n_empty = n_amb = n_unresolved = n_star = 0
     for e in entries:
         if 'search?q=' in (e.get('url') or ''):
