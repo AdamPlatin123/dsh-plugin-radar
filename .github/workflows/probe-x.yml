@@ -1,0 +1,10 @@
+name: probe-x
+on:
+  workflow_dispatch: {}
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in "https://cdn.syndication.twimg.com/widgets/timelines/8f887f4d3c83b53d9b236d8479d9a5b5" "https://syndication.twitter.com/srv/timeline-profile/screen-name/tianyicui"; do
+            echo "== $u"; curl -s -o /tmp/o -w "%{http_code} %{size_download}B\n" -H "User-Agent: Mozilla/5.0" "$u"; head -c 300 /tmp/o; echo; done
