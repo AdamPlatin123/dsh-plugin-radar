@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>DSH 插件雷达 · Plugin Radar</title>
+  <script>
+    // GitHub Pages SPA 回退垫片：深链 404 → 转对应 hash 路由（#/…）由应用接管
+    (function () {
+      var base = '/dsh-plugin-radar/';
+      var p = location.pathname.slice(base.length).replace(/\/+$/, '');
+      location.replace(location.origin + base + '#/' + p + location.search + location.hash);
+    })();
+  </script>
+</head>
+<body>
+  <noscript>请启用 JavaScript，或从 <a href="/dsh-plugin-radar/">首页</a> 进入。</noscript>
+</body>
+</html>
