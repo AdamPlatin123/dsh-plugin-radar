@@ -1568,7 +1568,7 @@
 - 🟩 `[可用]` [nonchalantludens-dsh-skin-collection](https://github.com/NonchalantLudens/dsh-skin-collection) ★0 — —
 - 🟩 `[可用]` [northern-penguin-dsh-h3-seg-prompt-design](https://github.com/northern-penguin/dsh-h3-seg-prompt-design) ★0 — 一个DeepSeekHarness插件，用于让模型在DeepSeekHarness中生成符合H3视频生成模型规范的提示词
 - `[空仓监测]` **nsoio-talon-ui** — GitHub 无此仓库，判定暂不展示
-- 🟩 `[可用]` [oa1mgo-dshplugin](https://github.com/oa1mgo/dshplugin) ★0 — Community-built discovery and verification registry for DeepSeek Harness plugins.
+- ⬜ `[待定]` [oa1mgo-dshplugin](https://github.com/oa1mgo/dshplugin) ★0 — Community-built discovery and verification registry for DeepSeek Harness plugins.
 - 🟩 `[可用]` [odelbos-dsh-models-filter](https://github.com/odelbos/dsh-models-filter) ★0 — DeepSeek Harness plugin used to add an input filed to filter the models menu
 - ⬜ `[待定]` [oierxjn-dsh-skills-mcp-group-manager](https://github.com/oierxjn/dsh-skills-mcp-group-manager) ★0 — DeepSeek Harness Skills & MCPs 分组管理器 — 分组管理 Skills、过滤模型技能目录、独立开关 MCP 服务器、左侧面板一键管理 / Group skills, filter the m
 - 🟩 `[可用]` [oli-bot-dsh-desktop](https://github.com/oli-bot/dsh-desktop) ★0 — DeepWork — community desktop shell for DeepSeek Harness: Electron + sidecar DSH engine + stock DSH web UI, sha
