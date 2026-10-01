@@ -1,392 +1,392 @@
 {
-  "updated": "2026-08-17",
-  "source": "雷达 k8s 运行级实测（PLUGINS-ALL.md）+ 联网调研交叉验证（量子位 / awesome-dsh-plugin / dshfind / linux.do）",
-  "contract": "成员与分类人工策展，bot 只刷新星标不改成员；常规类目门槛 ≥15★；智力增强类经人工点名收录、豁免星标门槛（功能稀缺性优先）；verdict: ok=运行级可用, pending=待定, incompatible=需适配, untested=未测, null=无雷达判定",
-  "categories": [
+ "updated": "2026-10-02",
+ "source": "雷达 k8s 运行级实测（PLUGINS-ALL.md）+ 联网调研交叉验证（量子位 / awesome-dsh-plugin / dshfind / linux.do）",
+ "contract": "成员与分类人工策展，bot 只刷新星标不改成员；常规类目门槛 ≥15★；智力增强类经人工点名收录、豁免星标门槛（功能稀缺性优先）；verdict: ok=运行级可用, pending=待定, incompatible=需适配, untested=未测, null=无雷达判定",
+ "categories": [
+  {
+   "name": "🚀 智力增强 Booster",
+   "plugins": [
     {
-      "name": "🚀 智力增强 Booster",
-      "plugins": [
-        {
-          "repo": "linhay/harmony-next.skills",
-          "name": "harmony-next.skills",
-          "verdict": "ok",
-          "desc": "技能驱动的工作流增强"
-        },
-        {
-          "repo": "Jayden-X-L/forkprobe",
-          "name": "forkprobe",
-          "verdict": "ok",
-          "desc": "同一任务跑多个技能对比，自动选优"
-        },
-        {
-          "repo": "LayneChai/superpowers-dsh",
-          "name": "superpowers-dsh",
-          "verdict": "ok",
-          "desc": "TDD/调试/计划等开发技能集"
-        },
-        {
-          "repo": "yjh051108/dsh-routing-suite",
-          "name": "dsh-routing-suite",
-          "verdict": null,
-          "desc": "注入器 × 思维模式路由套装：免重启运行时注入器 + 任务感知推理模式路由预设（P1-P23 实测）"
-        },
-        {
-          "repo": "Electricitysheep/dsh-tool-turbo",
-          "name": "dsh-tool-turbo",
-          "verdict": "ok",
-          "desc": "按轮次自动优化 reasoning_effort（推理力度）"
-        },
-        {
-          "repo": "JuneLearn/dsh-reasoning-settings",
-          "name": "dsh-reasoning-settings",
-          "verdict": "ok",
-          "desc": "推理设置控制：让模型按任务切换思考档位"
-        },
-        {
-          "repo": "Q00/ouroboros",
-          "name": "ouroboros",
-          "verdict": "untested",
-          "desc": "Agent OS：agent 自我变强、人只守底线——自进化运行时（5.7k★；rc.8 实测 ✅）"
-        }
-      ]
+     "repo": "linhay/harmony-next.skills",
+     "name": "harmony-next.skills",
+     "verdict": "ok",
+     "desc": "技能驱动的工作流增强"
     },
     {
-      "name": "🖥 界面与工作台",
-      "plugins": [
-        {
-          "repo": "zhu1090093659/dsh-web-ui",
-          "name": "dsh-web-ui",
-          "verdict": "ok",
-          "desc": "Web UI 增强与皮肤合集：任务看板、Git 图、移动端、皮肤中心"
-        },
-        {
-          "repo": "omdsh-dev/DSH-better-sidebar",
-          "name": "DSH-better-sidebar",
-          "verdict": "ok",
-          "desc": "侧边栏变完整工作台：文件编辑/终端/Git/子代理，支持三方注册扩展页"
-        },
-        {
-          "repo": "Nagi-ovo/dsh-visualize",
-          "name": "dsh-visualize",
-          "verdict": "ok",
-          "desc": "对话中生成交互式可视化卡片"
-        },
-        {
-          "repo": "omdsh-dev/dsh-genui",
-          "name": "dsh-genui",
-          "verdict": "ok",
-          "desc": "GenUI 内联组件：图表/表单/测验/3D 场景 + action 事件环"
-        },
-        {
-          "repo": "BruzWJ/Liang-Saint-Slider",
-          "name": "Liang-Saint-Slider",
-          "verdict": "ok",
-          "desc": "模型与思考力度选择滑条"
-        },
-        {
-          "repo": "omdsh-dev/dsh-annotation",
-          "name": "dsh-annotation",
-          "verdict": "ok",
-          "desc": "划选文字→批注→随消息发送，回复逐条对照"
-        }
-      ]
+     "repo": "Jayden-X-L/forkprobe",
+     "name": "forkprobe",
+     "verdict": "ok",
+     "desc": "同一任务跑多个技能对比，自动选优"
     },
     {
-      "name": "⌨️ 终端与桌面端",
-      "plugins": [
-        {
-          "repo": "hairyf/deepseek-harness-desktop",
-          "name": "deepseek-harness-desktop",
-          "verdict": "ok",
-          "desc": "Tauri 桌面版：5MB 安装包零环境配置，Win/macOS/Linux"
-        },
-        {
-          "repo": "turtle2209/Bigfish",
-          "name": "Bigfish",
-          "verdict": "incompatible",
-          "desc": "第三方桌面端：内置 Node 运行时，双击即用"
-        },
-        {
-          "repo": "hust-open-atom-club/oh-dsh",
-          "name": "oh-dsh",
-          "verdict": "ok",
-          "desc": "社区发行版：桌面/Web/TUI 三形态统一体验"
-        },
-        {
-          "repo": "huiliyi37/dsh-tianshu-tui",
-          "name": "dsh-tianshu-tui",
-          "verdict": "pending",
-          "desc": "自研 ANSI 渲染的极简终端 UI"
-        },
-        {
-          "repo": "anywhere-labs/dsh-desktop",
-          "name": "dsh-desktop",
-          "verdict": "pending",
-          "desc": "生态最高星桌面客户端（21.5k★，原 deepseek-harness-desktop 再改名）：万物皆插件、桌面本身也是插件（雷达重测中；rc.8 源码路径实测 ✅）"
-        }
-      ]
+     "repo": "LayneChai/superpowers-dsh",
+     "name": "superpowers-dsh",
+     "verdict": "ok",
+     "desc": "TDD/调试/计划等开发技能集"
     },
     {
-      "name": "👁 视觉与多模态",
-      "plugins": [
-        {
-          "repo": "liustack/modlens",
-          "name": "modlens",
-          "verdict": "ok",
-          "desc": "生态第一个视觉插件，视觉工作流的基准方案"
-        },
-        {
-          "repo": "Anionex/dsh-vision-toolkit",
-          "name": "dsh-vision-toolkit",
-          "verdict": "incompatible",
-          "desc": "带意图图片问答、长截图 OCR、UI 还原"
-        },
-        {
-          "repo": "ysr666/dsh-vision-router",
-          "name": "dsh-vision-router",
-          "verdict": "ok",
-          "desc": "内置免费视觉模型路由，给文本 agent 装眼睛"
-        },
-        {
-          "repo": "Anionex/agent-vision-toolkit",
-          "name": "agent-vision-toolkit",
-          "verdict": "ok",
-          "desc": "通用 agent 视觉工具箱：多图理解/图片问答/前端 UI 还原/GUI 自动化（dsh-vision-toolkit 同作者）"
-        }
-      ]
+     "repo": "yjh051108/dsh-routing-suite",
+     "name": "dsh-routing-suite",
+     "verdict": null,
+     "desc": "注入器 × 思维模式路由套装：免重启运行时注入器 + 任务感知推理模式路由预设（P1-P23 实测）"
     },
     {
-      "name": "🤖 Agent 能力与编排",
-      "plugins": [
-        {
-          "repo": "hellowind777/helloagents",
-          "name": "helloagents",
-          "verdict": "ok",
-          "desc": "agent 能力合集"
-        },
-        {
-          "repo": "sandbaseai/sandbase-harness",
-          "name": "sandbase-harness",
-          "verdict": "ok",
-          "desc": "CMA 兼容开源 agent 运行时，任意模型可驱动"
-        },
-        {
-          "repo": "NanmiCoder/dsh-agent-teams",
-          "name": "dsh-agent-teams",
-          "verdict": "pending",
-          "desc": "多代理团队编排"
-        },
-        {
-          "repo": "morluto/rea",
-          "name": "rea",
-          "verdict": "ok",
-          "desc": "用 agent 逆向工程任何东西：从应用行为到原生二进制"
-        },
-        {
-          "repo": "cofy-x/axern",
-          "name": "axern",
-          "verdict": "ok",
-          "desc": "AI agent 开源沙箱：不可信代码执行与持久服务"
-        },
-        {
-          "repo": "humblebanana/open-record-replay",
-          "name": "open-record-replay",
-          "verdict": "ok",
-          "desc": "macOS 录制回放：把鼠标/键盘/UI 事件存为结构化轨迹供 agent 学习重放"
-        },
-        {
-          "repo": "titanwings/distilly",
-          "name": "distilly",
-          "verdict": "ok",
-          "desc": "把专家思维蒸馏为可复用 Skills 的平台（24k★，Agent 域之最，原名 colleague-skill；雷达判可用）"
-        }
-      ]
+     "repo": "Electricitysheep/dsh-tool-turbo",
+     "name": "dsh-tool-turbo",
+     "verdict": "ok",
+     "desc": "按轮次自动优化 reasoning_effort（推理力度）"
     },
     {
-      "name": "💻 编码与生产力",
-      "plugins": [
-        {
-          "repo": "flymysql/dsh-remote",
-          "name": "dsh-remote",
-          "verdict": "ok",
-          "desc": "多机远程工作区：SSH 连接管理、远程目录→本地镜像→原生工作区收养、SFTP 双向同步与 rw_* 工具族"
-        },
-        {
-          "repo": "xiufengsun/TokenTracker",
-          "name": "TokenTracker",
-          "verdict": "untested",
-          "desc": "本地优先的 31 种编码工具 token 用量与成本追踪"
-        },
-        {
-          "repo": "alaliqing/claude-paper",
-          "name": "claude-paper",
-          "verdict": "ok",
-          "desc": "跨 agent 论文工具箱：速读摘要/深度研读材料/代码演示 + 本地 Web 阅读器"
-        },
-        {
-          "repo": "nutshellai-tech/mobius",
-          "name": "mobius",
-          "verdict": "ok",
-          "desc": "编码增强"
-        },
-        {
-          "repo": "toby-bridges/api-relay-audit",
-          "name": "api-relay-audit",
-          "verdict": "ok",
-          "desc": "AI API 中继/LLM 代理本地安全审计，产出 Markdown 报告（rc.8 实测 ✅）"
-        }
-      ]
+     "repo": "JuneLearn/dsh-reasoning-settings",
+     "name": "dsh-reasoning-settings",
+     "verdict": "ok",
+     "desc": "推理设置控制：让模型按任务切换思考档位"
     },
     {
-      "name": "🧠 记忆与上下文",
-      "plugins": [
-        {
-          "repo": "mnemon-dev/mnemon",
-          "name": "mnemon",
-          "verdict": "ok",
-          "desc": "跨 agent、本地优先的持久记忆"
-        },
-        {
-          "repo": "csyangwen/dsh-memory-evolve",
-          "name": "dsh-memory-evolve",
-          "verdict": "ok",
-          "desc": "五轨记忆 + git 分支托管 + 后台自我进化"
-        },
-        {
-          "repo": "EverMind-AI/EverOS",
-          "name": "EverOS",
-          "verdict": "untested",
-          "desc": "全 agent 便携记忆层：本地优先、Markdown-native（12.4k★ 记忆域之最；rc.8 实测 ✅）"
-        }
-      ]
-    },
-    {
-      "name": "📡 消息通讯与 IM",
-      "plugins": [
-        {
-          "repo": "omdsh-dev/dsh-lark",
-          "name": "dsh-lark",
-          "verdict": "ok",
-          "desc": "飞书 IM bot 频道（官方渠道插件）"
-        },
-        {
-          "repo": "Moeblack/dsh-message-edit",
-          "name": "dsh-message-edit",
-          "verdict": "ok",
-          "desc": "分支式消息编辑、reroll、重试、多版本"
-        },
-        {
-          "repo": "Chinesezjc/dsh-interconnect",
-          "name": "dsh-interconnect",
-          "verdict": "pending",
-          "desc": "跨 DSH 实例消息/事件交接"
-        },
-        {
-          "repo": "wzj998/ChatCCC",
-          "name": "ChatCCC",
-          "verdict": "ok",
-          "desc": "飞书/微信聊天控制 DSH / Claude Code"
-        }
-      ]
-    },
-    {
-      "name": "🗂 文件、数据与浏览",
-      "plugins": [
-        {
-          "repo": "Lum1104/dsh-browser",
-          "name": "dsh-browser",
-          "verdict": "incompatible",
-          "desc": "Chrome 侧栏扩展，让 DSH 直接操作浏览器"
-        },
-        {
-          "repo": "ZSeven-W/dsh-openpencil",
-          "name": "dsh-openpencil",
-          "verdict": "ok",
-          "desc": "OpenPencil 设计稿预览与编辑"
-        },
-        {
-          "repo": "HuanLinOTO/dsh-plugin-mineru",
-          "name": "dsh-plugin-mineru",
-          "verdict": "pending",
-          "desc": "PDF/图片/Office 转结构化 Markdown"
-        },
-        {
-          "repo": "anweat/dsh-web-search-pro",
-          "name": "dsh-web-search-pro",
-          "verdict": "ok",
-          "desc": "增强型持久网页搜索"
-        }
-      ]
-    },
-    {
-      "name": "🛒 市场与管理",
-      "plugins": [
-        {
-          "repo": "dsh-market/dsh-market",
-          "name": "dsh-market",
-          "verdict": "ok",
-          "desc": "持续收录 1000+ 插件的市场：中文搜索 + 五维评分"
-        },
-        {
-          "repo": "LX2000WASD/dsh-web-plugin-manager",
-          "name": "dsh-web-plugin-manager",
-          "verdict": "ok",
-          "desc": "Web UI 一键管理插件：启停/装卸/环境管理"
-        },
-        {
-          "repo": "omdsh-dev/dsh-plugin-check",
-          "name": "dsh-plugin-check",
-          "verdict": "ok",
-          "desc": "插件健康检查：清单协议/patch 格式/构建陷阱"
-        },
-        {
-          "repo": "Ericwong5021/deepseek-plugin-store",
-          "name": "deepseek-plugin-store",
-          "verdict": "ok",
-          "desc": "独立社区插件商店：发现/安装/提交经验证的插件"
-        }
-      ]
-    },
-    {
-      "name": "🎮 娱乐生活",
-      "plugins": [
-        {
-          "repo": "crafter-station/petdex",
-          "name": "petdex",
-          "verdict": "ok",
-          "desc": "生态最高星桌宠图鉴"
-        },
-        {
-          "repo": "Small-tailqwq/dsh-deep-whale",
-          "name": "dsh-deep-whale",
-          "verdict": "pending",
-          "desc": "深海鲸鱼养成"
-        },
-        {
-          "repo": "Nagi-ovo/dsh-ads",
-          "name": "dsh-ads",
-          "verdict": "ok",
-          "desc": "把 DSH 变回 2005 门户网站：怀旧广告/小游戏/弹窗"
-        },
-        {
-          "repo": "vlln/whale-girl",
-          "name": "whale-girl",
-          "verdict": "ok",
-          "desc": "QQ 宠物形态桌宠：可拖拽/投喂/玩耍"
-        },
-        {
-          "repo": "liyupi/dsh-kun-like-pet",
-          "name": "dsh-kun-like-pet",
-          "verdict": "ok",
-          "desc": "小坤桌宠：随 Agent 工作状态切换 9 种动作"
-        },
-        {
-          "repo": "alvinunreal/openpets",
-          "name": "openpets",
-          "verdict": "ok",
-          "desc": "本地优先桌面伴侣平台：动画宠物 + 插件 SDK（娱乐域第二位）"
-        }
-      ]
+     "repo": "Q00/ouroboros",
+     "name": "ouroboros",
+     "verdict": "untested",
+     "desc": "Agent OS：agent 自我变强、人只守底线——自进化运行时（5.7k★；rc.8 实测 ✅）"
     }
-  ]
+   ]
+  },
+  {
+   "name": "🖥 界面与工作台",
+   "plugins": [
+    {
+     "repo": "zhu1090093659/dsh-web-ui",
+     "name": "dsh-web-ui",
+     "verdict": "ok",
+     "desc": "Web UI 增强与皮肤合集：任务看板、Git 图、移动端、皮肤中心"
+    },
+    {
+     "repo": "omdsh-dev/DSH-better-sidebar",
+     "name": "DSH-better-sidebar",
+     "verdict": "ok",
+     "desc": "侧边栏变完整工作台：文件编辑/终端/Git/子代理，支持三方注册扩展页"
+    },
+    {
+     "repo": "Nagi-ovo/dsh-visualize",
+     "name": "dsh-visualize",
+     "verdict": "ok",
+     "desc": "对话中生成交互式可视化卡片"
+    },
+    {
+     "repo": "omdsh-dev/dsh-genui",
+     "name": "dsh-genui",
+     "verdict": "ok",
+     "desc": "GenUI 内联组件：图表/表单/测验/3D 场景 + action 事件环"
+    },
+    {
+     "repo": "BruzWJ/Liang-Saint-Slider",
+     "name": "Liang-Saint-Slider",
+     "verdict": "ok",
+     "desc": "模型与思考力度选择滑条"
+    },
+    {
+     "repo": "omdsh-dev/dsh-annotation",
+     "name": "dsh-annotation",
+     "verdict": "ok",
+     "desc": "划选文字→批注→随消息发送，回复逐条对照"
+    }
+   ]
+  },
+  {
+   "name": "⌨️ 终端与桌面端",
+   "plugins": [
+    {
+     "repo": "ccch1mneyyy/dsh-TUI",
+     "name": "dsh-TUI",
+     "verdict": "ok",
+     "desc": "官方尚无终端 TUI 的补位之作：Claude Code 风格全屏交互终端——像素鲸鱼顶栏、实时状态行、思考流式展开；Cordis 插件形态（dsh plugin add dsh-tui 即装），三仓协作生态与 npm 分发；★3907 TUI 品类头牌（维护者手测通过背书）"
+    },
+    {
+     "repo": "hairyf/deepseek-harness-desktop",
+     "name": "deepseek-harness-desktop",
+     "verdict": "ok",
+     "desc": "Tauri 桌面版：5MB 安装包零环境配置，Win/macOS/Linux"
+    },
+    {
+     "repo": "hust-open-atom-club/oh-dsh",
+     "name": "oh-dsh",
+     "verdict": "ok",
+     "desc": "社区发行版：桌面/Web/TUI 三形态统一体验"
+    },
+    {
+     "repo": "huiliyi37/dsh-tianshu-tui",
+     "name": "dsh-tianshu-tui",
+     "verdict": "pending",
+     "desc": "自研 ANSI 渲染的极简终端 UI"
+    },
+    {
+     "repo": "anywhere-labs/dsh-desktop",
+     "name": "dsh-desktop",
+     "verdict": "pending",
+     "desc": "生态最高星桌面客户端（21.5k★，原 deepseek-harness-desktop 再改名）：万物皆插件、桌面本身也是插件（雷达重测中；rc.8 源码路径实测 ✅）"
+    }
+   ]
+  },
+  {
+   "name": "👁 视觉与多模态",
+   "plugins": [
+    {
+     "repo": "liustack/modlens",
+     "name": "modlens",
+     "verdict": "ok",
+     "desc": "生态第一个视觉插件，视觉工作流的基准方案"
+    },
+    {
+     "repo": "Anionex/dsh-vision-toolkit",
+     "name": "dsh-vision-toolkit",
+     "verdict": "incompatible",
+     "desc": "带意图图片问答、长截图 OCR、UI 还原"
+    },
+    {
+     "repo": "ysr666/dsh-vision-router",
+     "name": "dsh-vision-router",
+     "verdict": "ok",
+     "desc": "内置免费视觉模型路由，给文本 agent 装眼睛"
+    },
+    {
+     "repo": "Anionex/agent-vision-toolkit",
+     "name": "agent-vision-toolkit",
+     "verdict": "ok",
+     "desc": "通用 agent 视觉工具箱：多图理解/图片问答/前端 UI 还原/GUI 自动化（dsh-vision-toolkit 同作者）"
+    }
+   ]
+  },
+  {
+   "name": "🤖 Agent 能力与编排",
+   "plugins": [
+    {
+     "repo": "hellowind777/helloagents",
+     "name": "helloagents",
+     "verdict": "ok",
+     "desc": "agent 能力合集"
+    },
+    {
+     "repo": "sandbaseai/sandbase-harness",
+     "name": "sandbase-harness",
+     "verdict": "ok",
+     "desc": "CMA 兼容开源 agent 运行时，任意模型可驱动"
+    },
+    {
+     "repo": "NanmiCoder/dsh-agent-teams",
+     "name": "dsh-agent-teams",
+     "verdict": "pending",
+     "desc": "多代理团队编排"
+    },
+    {
+     "repo": "morluto/rea",
+     "name": "rea",
+     "verdict": "ok",
+     "desc": "用 agent 逆向工程任何东西：从应用行为到原生二进制"
+    },
+    {
+     "repo": "cofy-x/axern",
+     "name": "axern",
+     "verdict": "ok",
+     "desc": "AI agent 开源沙箱：不可信代码执行与持久服务"
+    },
+    {
+     "repo": "humblebanana/open-record-replay",
+     "name": "open-record-replay",
+     "verdict": "ok",
+     "desc": "macOS 录制回放：把鼠标/键盘/UI 事件存为结构化轨迹供 agent 学习重放"
+    },
+    {
+     "repo": "titanwings/distilly",
+     "name": "distilly",
+     "verdict": "ok",
+     "desc": "把专家思维蒸馏为可复用 Skills 的平台（24k★，Agent 域之最，原名 colleague-skill；雷达判可用）"
+    }
+   ]
+  },
+  {
+   "name": "💻 编码与生产力",
+   "plugins": [
+    {
+     "repo": "flymysql/dsh-remote",
+     "name": "dsh-remote",
+     "verdict": "ok",
+     "desc": "多机远程工作区：SSH 连接管理、远程目录→本地镜像→原生工作区收养、SFTP 双向同步与 rw_* 工具族"
+    },
+    {
+     "repo": "xiufengsun/TokenTracker",
+     "name": "TokenTracker",
+     "verdict": "untested",
+     "desc": "本地优先的 31 种编码工具 token 用量与成本追踪"
+    },
+    {
+     "repo": "alaliqing/claude-paper",
+     "name": "claude-paper",
+     "verdict": "ok",
+     "desc": "跨 agent 论文工具箱：速读摘要/深度研读材料/代码演示 + 本地 Web 阅读器"
+    },
+    {
+     "repo": "nutshellai-tech/mobius",
+     "name": "mobius",
+     "verdict": "ok",
+     "desc": "编码增强"
+    },
+    {
+     "repo": "toby-bridges/api-relay-audit",
+     "name": "api-relay-audit",
+     "verdict": "ok",
+     "desc": "AI API 中继/LLM 代理本地安全审计，产出 Markdown 报告（rc.8 实测 ✅）"
+    }
+   ]
+  },
+  {
+   "name": "🧠 记忆与上下文",
+   "plugins": [
+    {
+     "repo": "mnemon-dev/mnemon",
+     "name": "mnemon",
+     "verdict": "ok",
+     "desc": "跨 agent、本地优先的持久记忆"
+    },
+    {
+     "repo": "csyangwen/dsh-memory-evolve",
+     "name": "dsh-memory-evolve",
+     "verdict": "ok",
+     "desc": "五轨记忆 + git 分支托管 + 后台自我进化"
+    },
+    {
+     "repo": "EverMind-AI/EverOS",
+     "name": "EverOS",
+     "verdict": "untested",
+     "desc": "全 agent 便携记忆层：本地优先、Markdown-native（12.4k★ 记忆域之最；rc.8 实测 ✅）"
+    }
+   ]
+  },
+  {
+   "name": "📡 消息通讯与 IM",
+   "plugins": [
+    {
+     "repo": "omdsh-dev/dsh-lark",
+     "name": "dsh-lark",
+     "verdict": "ok",
+     "desc": "飞书 IM bot 频道（官方渠道插件）"
+    },
+    {
+     "repo": "Moeblack/dsh-message-edit",
+     "name": "dsh-message-edit",
+     "verdict": "ok",
+     "desc": "分支式消息编辑、reroll、重试、多版本"
+    },
+    {
+     "repo": "Chinesezjc/dsh-interconnect",
+     "name": "dsh-interconnect",
+     "verdict": "pending",
+     "desc": "跨 DSH 实例消息/事件交接"
+    },
+    {
+     "repo": "wzj998/ChatCCC",
+     "name": "ChatCCC",
+     "verdict": "ok",
+     "desc": "飞书/微信聊天控制 DSH / Claude Code"
+    }
+   ]
+  },
+  {
+   "name": "🗂 文件、数据与浏览",
+   "plugins": [
+    {
+     "repo": "Lum1104/dsh-browser",
+     "name": "dsh-browser",
+     "verdict": "incompatible",
+     "desc": "Chrome 侧栏扩展，让 DSH 直接操作浏览器"
+    },
+    {
+     "repo": "ZSeven-W/dsh-openpencil",
+     "name": "dsh-openpencil",
+     "verdict": "ok",
+     "desc": "OpenPencil 设计稿预览与编辑"
+    },
+    {
+     "repo": "HuanLinOTO/dsh-plugin-mineru",
+     "name": "dsh-plugin-mineru",
+     "verdict": "pending",
+     "desc": "PDF/图片/Office 转结构化 Markdown"
+    },
+    {
+     "repo": "anweat/dsh-web-search-pro",
+     "name": "dsh-web-search-pro",
+     "verdict": "ok",
+     "desc": "增强型持久网页搜索"
+    }
+   ]
+  },
+  {
+   "name": "🛒 市场与管理",
+   "plugins": [
+    {
+     "repo": "dsh-market/dsh-market",
+     "name": "dsh-market",
+     "verdict": "ok",
+     "desc": "持续收录 1000+ 插件的市场：中文搜索 + 五维评分"
+    },
+    {
+     "repo": "LX2000WASD/dsh-web-plugin-manager",
+     "name": "dsh-web-plugin-manager",
+     "verdict": "ok",
+     "desc": "Web UI 一键管理插件：启停/装卸/环境管理"
+    },
+    {
+     "repo": "omdsh-dev/dsh-plugin-check",
+     "name": "dsh-plugin-check",
+     "verdict": "ok",
+     "desc": "插件健康检查：清单协议/patch 格式/构建陷阱"
+    },
+    {
+     "repo": "Ericwong5021/deepseek-plugin-store",
+     "name": "deepseek-plugin-store",
+     "verdict": "ok",
+     "desc": "独立社区插件商店：发现/安装/提交经验证的插件"
+    }
+   ]
+  },
+  {
+   "name": "🎮 娱乐生活",
+   "plugins": [
+    {
+     "repo": "crafter-station/petdex",
+     "name": "petdex",
+     "verdict": "ok",
+     "desc": "生态最高星桌宠图鉴"
+    },
+    {
+     "repo": "Small-tailqwq/dsh-deep-whale",
+     "name": "dsh-deep-whale",
+     "verdict": "pending",
+     "desc": "深海鲸鱼养成"
+    },
+    {
+     "repo": "Nagi-ovo/dsh-ads",
+     "name": "dsh-ads",
+     "verdict": "ok",
+     "desc": "把 DSH 变回 2005 门户网站：怀旧广告/小游戏/弹窗"
+    },
+    {
+     "repo": "vlln/whale-girl",
+     "name": "whale-girl",
+     "verdict": "ok",
+     "desc": "QQ 宠物形态桌宠：可拖拽/投喂/玩耍"
+    },
+    {
+     "repo": "liyupi/dsh-kun-like-pet",
+     "name": "dsh-kun-like-pet",
+     "verdict": "ok",
+     "desc": "小坤桌宠：随 Agent 工作状态切换 9 种动作"
+    },
+    {
+     "repo": "alvinunreal/openpets",
+     "name": "openpets",
+     "verdict": "ok",
+     "desc": "本地优先桌面伴侣平台：动画宠物 + 插件 SDK（娱乐域第二位）"
+    }
+   ]
+  }
+ ]
 }
