@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-01T09:30:55Z",
+ "generated_at": "2026-10-01T10:47:19Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -22860,7 +22860,7 @@
   {
    "repo": "oa1mgo/dshplugin",
    "name": "oa1mgo-dshplugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Community-built discovery and verification registry for DeepSeek Harness plugins."
   },
