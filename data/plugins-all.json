@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-01T09:15:52Z",
+ "generated_at": "2026-10-01T09:30:55Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -29335,7 +29335,7 @@
   {
    "repo": "Noob-stupid/dsh-plugin-hub",
    "name": "noob-stupid-dsh-plugin-hub",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 70,
    "desc": "—"
   },
@@ -81009,7 +81009,7 @@
   {
    "repo": "Nwflower/dsh-chat-import",
    "name": "dsh-chat-import",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 60,
    "desc": "从Claude Code、Codex、Reasonix等Agent工具导入迁移历史消息，并在DeepSeek Harness(DSH)中继续对话"
   },
