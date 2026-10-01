@@ -56,7 +56,7 @@ jobs:
           git fetch dsh-ext main
           # 双仓历史分叉：不整仓 rebase，只在 org main 之上同步 PLUGINS-ALL.md 单文件
           git checkout -q -B stars-mirror-sync dsh-ext/main
-          git checkout -q "$BASE" -- PLUGINS-ALL.md
+          git checkout -q "$BASE" -- PLUGINS-ALL.md data/star-cache.json
           if git diff --cached --quiet; then echo "[skip] org 的 PLUGINS-ALL.md 已同步"; exit 0; fi
           git -c user.name="stars-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -m "auto: PLUGINS-ALL 星数镜像同步 personal→org"
