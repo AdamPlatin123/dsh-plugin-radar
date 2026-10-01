@@ -22,6 +22,7 @@ sys.path.insert(0, str(ROOT / 'engine' / 'lib'))
 from radar import ghql  # noqa: E402
 
 DRY = '--dry' in sys.argv
+ACC_STARS = {}  # 跨文件星值并集（star-cache 回流用）
 TARGET = ROOT / 'PLUGINS-ALL.md'
 DOMAIN_DIR = ROOT / 'catalog' / 'all'
 
@@ -105,6 +106,7 @@ def process(path):
     if resolved < len(entries) * MIN_RESOLVE_RATIO:
         sys.exit(f'[中止] GraphQL 解析率过低：{resolved}/{len(entries)}')
 
+    ACC_STARS.update(stars)
     changed = [0]
 
     def sub_list(m):
@@ -148,6 +150,14 @@ def main():
             process(f)
         except Exception as e:
             print(f'[stars] {os.path.basename(f)} 处理失败: {e}', file=sys.stderr)
+    # 星值回流数据层（2026-10-02）：GQL 并集落 star-cache，canonical 导出取实时星，
+    # 不再只写 Markdown（数据接口星标陈旧的根因修补）。
+    import time as _t
+    sc = {'updated': _t.strftime('%Y-%m-%d'),
+          'entries': {k: {'star': v} for k, v in ACC_STARS.items() if v is not None}}
+    (ROOT / 'data' / 'star-cache.json').write_text(
+        json.dumps(sc, ensure_ascii=False, separators=(',', ':')) + '\n')
+    print(f"[star-cache] {len(sc['entries'])} 条重写 → data/star-cache.json")
 
 
 if __name__ == '__main__':
