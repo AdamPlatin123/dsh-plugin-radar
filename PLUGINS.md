@@ -191,6 +191,7 @@
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
+| dsh-novel-writer | [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 中文网文写作工作台：动笔前一次调用取齐上一章承接口/本章大纲/人物卡/待回收伏笔与用语规范；写完按六维文笔基线与原著波动带自检，诊断排成带原句行号的改稿待办；跨章查伏笔跨度、人物连续缺席与大纲偏离；随包 24MB 中文模型本机推理（零 API 花费、正文不出本机）；18 个工具，另可作 MCP 服务器 | agent |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
