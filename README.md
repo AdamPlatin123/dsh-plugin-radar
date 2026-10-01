@@ -15,7 +15,7 @@
 安装前就知道哪个能用，不用自己踩坑。
 *Know which plugins work before you install them.*
 
-[![confirmed](https://img.shields.io/badge/confirmed-1492-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13600-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![confirmed](https://img.shields.io/badge/confirmed-1508-blue)](#精选插件榜) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-13600-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/dsh-plugin-radar?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/dsh-plugin-radar?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **判定按 runner 版本分离 / verdicts by runner version：**
 
@@ -23,6 +23,8 @@
 |---|---:|---:|---:|---:|
 
 | **累计 / cumulative** | **8161** | **3174** | **2407** | **13742** |
+
+
 
 
 
@@ -120,22 +122,22 @@ Radar Engine（开源 → engine/）          Radar Engine (open-source → engi
 ```
 
 ## 工作原理
-> 数据截至快照 `20261001T001501Z`（2026-10-01 08:15:03 UTC+8 · 分类器 unified-v2-bridge）
-> *Data as of snapshot — currently `20261001T001501Z` (2026-10-01 08:15:03 UTC+8 · classifier unified-v2-bridge)*
+> 数据截至快照 `20261001T003001Z`（2026-10-01 08:30:03 UTC+8 · 分类器 unified-v2-bridge）
+> *Data as of snapshot — currently `20261001T003001Z` (2026-10-01 08:30:03 UTC+8 · classifier unified-v2-bridge)*
 *How It Works*
 
 <!-- AUTO:pipeline:START -->
 ```mermaid
 flowchart TB
     subgraph Discovery["发现（每 6 小时 · probe 每 15 分钟 巡检触发）"]
-        A1["GitHub Search<br/>topic ×2 + keyword ×3<br/>候选 25277 · 龄 176m"]
+        A1["GitHub Search<br/>topic ×2 + keyword ×3<br/>候选 25277 · 龄 191m"]
         A2["本地库补全 · 去重 repo id"]
         A3["私有 org 仓排除<br/>35s 错峰 · 403 退避 · dshow 黑名单"]
     end
     subgraph Validation["验证（driver 20s 流式循环）"]
         B1{"package.json<br/>name + main/exports/dsh?"}
     end
-    B1 -->|"插件 1492"| C1["k8s 运行级测试<br/>一插件一 pod · 并发 10<br/>dsh agent + Qwen（de-stream）"]
+    B1 -->|"插件 1508"| C1["k8s 运行级测试<br/>一插件一 pod · 并发 10<br/>dsh agent + Qwen（de-stream）"]
     B1 -->|"非插件（累计删 0）"| B3["即删省空间"]
     C1 --> D1{"判定 · 总 13600"}
     D1 -->|"8161 / 3174"| E1["聚合 + README 分类统计"]
@@ -486,7 +488,7 @@ docs/radar/        管线文档 / pipeline docs
 *Ecosystem Snapshot*
 
 <!-- AUTO:ecosystem:START -->
-> 渲染于快照 20261001T001501Z（2026-10-01 08:15 UTC+8）· 数据源 data/snapshots/（渲染即对齐）
+> 渲染于快照 20261001T003001Z（2026-10-01 08:30 UTC+8）· 数据源 data/snapshots/（渲染即对齐）
 
 
 
