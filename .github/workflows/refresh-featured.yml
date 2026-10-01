@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "featured-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README.en-US.md
+          git add README.md
           if git diff --cached --quiet; then
             echo "[skip] 榜单无变化，不提交"
             exit 0
@@ -66,7 +66,7 @@ jobs:
           # 双仓历史分叉：不做整仓 rebase，只在 org main 之上同步两个 README；
           # 星标区块归本链，渲染区块归 Bot B（幂等渲染自愈），区块不重叠
           git checkout -q -B mirror-sync dsh-ext/main
-          git checkout -q "$BASE" -- README.md README.en-US.md
+          git checkout -q "$BASE" -- README.md
           if git diff --cached --quiet; then echo "[skip] org 的 README 已同步"; exit 0; fi
           git -c user.name="featured-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com"             commit -m "auto: 星标榜镜像同步 personal→org"
           git push dsh-ext mirror-sync:main
