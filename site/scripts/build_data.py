@@ -78,6 +78,11 @@ def build(root: Path):
     # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据 8=休眠（>30天未更新且不兼容，暂停测试）
     out_rows, missing_domain = [], 0
     for r in rows:
+        # 目录口径（2026-10-02）：仅收录 dsh 插件且实测可用——verdict=ok 本身蕴含
+        # 插件形态（能经 dsh plugin add 装上并跑通运行级测试的必然是真插件）；
+        # 四档全量证据链保留在 PLUGINS-ALL.md 与数据接口，站点目录只做可用插件门面。
+        if r.get('verdict') != 'ok':
+            continue
         repo_l = r['repo'].lower()
         e = entry_by_repo.get(repo_l) or {}
         dom = DOMAIN_TITLE2SLUG.get(e.get('domain') or '', 'other')
