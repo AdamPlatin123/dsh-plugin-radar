@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-09-30T23:00:52Z",
+ "generated_at": "2026-10-01T00:15:48Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -9602,7 +9602,7 @@
   {
    "repo": "skyf0xx/hedgehog",
    "name": "skyf0xx-hedgehog",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 43,
    "desc": "HEDGEHOG codes Cleaner, Faster and with Fewer Tokens"
   },
@@ -10690,13 +10690,6 @@
    "verdict": "pending",
    "stars": 6,
    "desc": "为 DeepSeek Harness 提供会话删除能力，支持侧边栏 ⋮ 菜单入口"
-  },
-  {
-   "repo": "gehennawu/dsh-service",
-   "name": "gehennawu-dsh-service",
-   "verdict": "pending",
-   "stars": 6,
-   "desc": "DSH Web 一站式运维面板：安全重启、健康诊断、模型用量与额度查询、会话管理、备份与权限维护、任务通知、技能与子代理模型路由"
   },
   {
    "repo": "ginuim/multi-screen-wireframe",
@@ -13063,13 +13056,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH 会话人体工学：/new 一键新会话 + 输入历史 ↑↓ 回溯"
-  },
-  {
-   "repo": "hjj345/dsh-sm-context-piano",
-   "name": "hjj345-dsh-sm-context-piano",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "DeepSeek Harness Web GUI 的 Codex 风格对话导航器：帮助用户快速浏览、定位和切换对话，提升多任务、多会话场景下的工作效率"
   },
   {
    "repo": "huabai-flowerwhite/dsh-ui-skin",
@@ -15979,7 +15965,7 @@
   {
    "repo": "rongyishuaige7/dsh-stats",
    "name": "rongyishuaige7-dsh-stats",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness (DSH) 插件：项目级 Token 消耗、开发时间线与消费金额统计面板"
   },
@@ -20940,6 +20926,13 @@
    "desc": "Use DeepSeek Harness from your iPhone / iPad: LAN reverse proxy, iOS PWA (add-to-home-screen) chrome, and touc"
   },
   {
+   "repo": "gehennawu/dsh-service",
+   "name": "gehennawu-dsh-service",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "DSH Web 一站式运维面板：安全重启、健康诊断、模型用量与额度查询、会话管理、备份与权限维护、任务通知、技能与子代理模型路由"
+  },
+  {
    "repo": "keyiadiannao/dsh-power-button",
    "name": "keyiadiannao-dsh-power-button",
    "verdict": "incompatible",
@@ -21533,6 +21526,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH plugin: delete_subagent tool + UI - release or permanently remove subagent sessions from the DeepSeek Harn"
+  },
+  {
+   "repo": "hjj345/dsh-sm-context-piano",
+   "name": "hjj345-dsh-sm-context-piano",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness Web GUI 的 Codex 风格对话导航器：帮助用户快速浏览、定位和切换对话，提升多任务、多会话场景下的工作效率"
   },
   {
    "repo": "honghuachen/deepseekharness-desktop",
@@ -27858,7 +27858,7 @@
   {
    "repo": "HorusJiang/dsh-map-tools",
    "name": "horusjiang-dsh-map-tools",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -42761,7 +42761,7 @@
   {
    "repo": "gzh330205/deepseek-harness-desktop",
    "name": "gzh330205-deepseek-harness-desktop",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -42985,7 +42985,7 @@
   {
    "repo": "tanle-mtr/dsh-plogin-plugin-recommender",
    "name": "tanle-mtr-dsh-plogin-plugin-recommender",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "The most comprehensive AI-curated list of DeepSeek Harness (DSH) plugins - 190+ plugins, 12 categories, update"
   },
@@ -58929,13 +58929,6 @@
    "desc": "DeepSeek PPT — AI-native PowerPoint generation"
   },
   {
-   "repo": "lemoncat7/dsh-ssh",
-   "name": "lemoncat7-dsh-ssh",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "SSH sessions, SFTP, terminals, proxies and port forwarding for DeepSeek Harness"
-  },
-  {
    "repo": "leonardwwq/dsh-cultivation",
    "name": "leonardwwq-dsh-cultivation",
    "verdict": "ok",
@@ -60376,13 +60369,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH plugin: let DeepSeek-V4-Pro use V4-Flash-Vision-Exp for attached images"
-  },
-  {
-   "repo": "lemoncat7/dsh-web-search",
-   "name": "lemoncat7-dsh-web-search",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Configurable and secure multi-provider web search for DeepSeek Harness"
   },
   {
    "repo": "LeslieWylie/dsh-fleet-audit",
@@ -65208,6 +65194,13 @@
    "desc": "Model-scoped DSH plugin: GPT Responses lifecycle, Native V2 compaction and Hosted/Alpha Search; Grok native We"
   },
   {
+   "repo": "lemoncat7/dsh-ssh",
+   "name": "lemoncat7-dsh-ssh",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "SSH sessions, SFTP, terminals, proxies and port forwarding for DeepSeek Harness"
+  },
+  {
    "repo": "lileikeji/dsh-crosstalk",
    "name": "lileikeji-dsh-crosstalk",
    "verdict": "incompatible",
@@ -65696,6 +65689,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Pre-write reuse firewall for DeepSeek Harness: before the agent writes a new helper/service, surface the exist"
+  },
+  {
+   "repo": "lemoncat7/dsh-web-search",
+   "name": "lemoncat7-dsh-web-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Configurable and secure multi-provider web search for DeepSeek Harness"
   },
   {
    "repo": "lhh666-6/dsh-update-check",
