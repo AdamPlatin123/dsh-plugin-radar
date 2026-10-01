@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "stars-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add PLUGINS-ALL.md
+          git add PLUGINS-ALL.md data/star-cache.json
           if git diff --cached --quiet; then
             echo "[skip] 星数无变化，不提交"
             exit 0
