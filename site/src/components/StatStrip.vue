@@ -18,8 +18,12 @@ const items = computed(() => {
 <template>
   <div class="strip">
     <div class="total">
-      <div class="num n">{{ (meta.totalListed).toLocaleString() }}</div>
+      <div class="num n">{{ (meta.totalIndexed).toLocaleString() }}</div>
       <div class="lbl">{{ t('stat.total') }}</div>
+      <div class="lbl sub2">
+        {{ t('stat.browsable') }} <span class="num">{{ meta.totalBrowsable.toLocaleString() }}</span>
+      </div>
+      <div class="lbl sub2">{{ t('stat.runnerSource') }}: {{ meta.runnerLatest || t('stat.unavailable') }}</div>
     </div>
     <div v-for="it in items" :key="it.key" class="cell" :class="it.cls">
       <div class="num n">{{ it.n.toLocaleString() }}</div>
@@ -38,6 +42,8 @@ const items = computed(() => {
 .n { font-size: 24px; color: var(--tone, var(--cy)); }
 .total .n { font-size: 30px; color: var(--cy); }
 .lbl { font-size: 12px; color: var(--fg-dim); margin-top: 2px; }
+.sub2 { font-size: 11px; color: var(--fg-faint); margin-top: 4px; }
+.sub2 .num { color: var(--fg-dim); }
 
 @media (max-width: 640px) {
   .strip { grid-template-columns: repeat(2, 1fr); }

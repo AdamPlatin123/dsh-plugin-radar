@@ -2,19 +2,22 @@ export const en = {
   nav: { home: 'Home', browse: 'Browse', featured: 'Featured', bundles: 'Bundles', about: 'About' },
   hero: {
     title: 'DSH Plugin Radar',
-    tagline: 'DeepSeek Harness plugin ecosystem — every verdict comes from real runtime testing',
+    tagline: 'Discover DeepSeek Harness plugins and track compatibility across historical snapshots',
     cta: 'Browse plugins',
     cta2: 'Data API',
   },
   stat: {
     ok: 'Runtime OK', incompatible: 'Needs adaptation', pending: 'Pending', untested: 'Untested',
     gone: 'Empty watch', ambiguous: 'Ambiguous', unlocated: 'Unlocated', total: 'Listed repos',
-    fresh: 'Data as of snapshot', runner: 'Tested on',
+    fresh: 'Data as of snapshot', runner: 'Tested on', browsable: 'Browsable by default',
+    runnerSource: 'Test version source', unavailable: 'Unavailable',
   },
   filter: {
     all: 'All categories', verdict: 'Verdict', stars: 'Stars', search: 'Search name / repo / description…',
     any: 'Any', sortStars: 'Sort by stars', resultCount: '{n} plugins',
+    defaultNote: 'Shows only "Runtime OK" by default; switch the verdict filter to see all {n} listed repos',
   },
+  curated: { noRecord: 'No verdict details', recorded: 'Radar record: {status}' },
   card: { view: 'Details', bundle: 'Bundle', pr: 'PR registered', stars: 'stars', dormant: 'Dormant' },
   detail: {
     install: 'Install', noInstall: 'No install command yet (see repo README)',

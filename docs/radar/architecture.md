@@ -70,7 +70,7 @@
 - **快照推送**：机器可读快照（`data/snapshots/`）按轮次提交，schema 见 [schema/](../../schema/)；
 - **自动渲染**：GitHub Actions 在快照推送后重建 README/PLUGINS-ALL/CHANGELOG（产物白名单守卫 + 自动合并）；
 - **星数日更**：每日定时刷新全部呈现星数，捕获改名；
-- **三仓分工**：本仓（引擎镜像仓）= 引擎开源副本 + 站点宿主 + 数据镜像；组织仓为管线仓（快照生产）；个人 awesome 仓为清单仓（登记表）。数据单向流：管线仓→本仓→Pages 站点（ADR-0001 2026-09-27 修订）。
+- **两个实际仓库**：本仓 https://github.com/AdamPlatin123/dsh-plugin-radar 承载社区登记、引擎源码、数据镜像与站点；组织仓 https://github.com/Zhidao-Lab-OSS/awesome-dsh-plugins 承载管线快照生产。个人旧 awesome 地址重定向至本仓，不是第三个仓库。管线数据流为组织仓→本仓→Pages 站点；历史决议保留其当时语境。
 
 ## 运行节奏
 

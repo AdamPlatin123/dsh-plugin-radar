@@ -13,6 +13,7 @@
 """
 import json
 import sys
+from collections import Counter
 from pathlib import Path
 
 SCHEMA_FILE = 'schema/radar-v1.schema.json'
@@ -96,6 +97,22 @@ def validate(root: Path) -> int:
             failed = True
         else:
             print(f'[contracts] 跨文件一致：total_listed={n_claim}')
+        # 语义门禁：schema 合法 ≠ 数量正确——四档须与 plugins[] 逐条计数一致
+        # （曾以去重前计数发布，schema 全绿但四档漂移；监测三态 gone/ambiguous/
+        #   unlocated 在数组之外，不参与此对账）
+        counts = Counter(p['verdict'] for p in plugins['plugins'])
+        verdict_bad = False
+        for verdict in ('ok', 'incompatible', 'pending', 'untested'):
+            # .get 链：latest 缺 stats 键（schema 已拦）时以 None 参与比较 → 判不符，不崩栈
+            claimed = latest.get('stats', {}).get(verdict)
+            if claimed != counts[verdict]:
+                print(f'[contracts] stats.{verdict}={claimed} 与清单实际 {counts[verdict]} 不符',
+                      file=sys.stderr)
+                failed = True
+                verdict_bad = True
+        if not verdict_bad:
+            print(f'[contracts] 四档对账：ok={counts["ok"]} incompatible={counts["incompatible"]} '
+                  f'pending={counts["pending"]} untested={counts["untested"]}')
     return 1 if failed else 0
 
 

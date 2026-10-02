@@ -1,11 +1,18 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { meta } from '../lib/data'
+import { meta, curatedStatusOf, sourceRepoUrl } from '../lib/data'
 
 const { t } = useI18n()
 interface Member { repo: string; name: string; verdict: string | null; desc: string }
 interface Category { name: string; plugins: Member[] }
 const categories: Category[] = meta.featured.categories ?? []
+
+// 状态取构建期 curatedStatus（与最终 rows 对账），而非策展名单自带的 verdict（可能滞后）
+const statusOf = curatedStatusOf
+const monitorLabel = (m: Member) => {
+  const monitor = statusOf(m.repo)?.monitor
+  return monitor ? t('curated.recorded', { status: t(`stat.${monitor}`) }) : t('curated.noRecord')
+}
 </script>
 
 <template>
@@ -14,10 +21,23 @@ const categories: Category[] = meta.featured.categories ?? []
   <section v-for="c in categories" :key="c.name" class="cat">
     <h2>{{ c.name }}<span class="n num">{{ c.plugins.length }}</span></h2>
     <div class="list">
-      <router-link v-for="m in c.plugins" :key="m.repo" :to="`/plugin/${m.repo}`" class="item" :class="m.verdict ? `v-${m.verdict}` : ''">
-        <span class="i-name">{{ m.name }}</span>
-        <span class="i-desc">{{ m.desc }}</span>
-      </router-link>
+      <template v-for="m in c.plugins" :key="m.repo">
+        <router-link
+          v-if="statusOf(m.repo)?.indexed"
+          :to="`/plugin/${m.repo}`" class="item"
+          :class="`v-${statusOf(m.repo)?.verdict ?? 'pending'}`"
+        >
+          <span class="i-name">{{ m.name }}<span v-if="statusOf(m.repo)?.dormant" class="chip-d" :title="t('card.dormant')">😴</span></span>
+          <span class="i-desc">{{ m.desc }}</span>
+        </router-link>
+        <!-- 未进入雷达索引的策展条目：呈现真实监测态 + 源仓库回退，不渲染 404 详情 -->
+        <a v-else :href="sourceRepoUrl(m.repo)" target="_blank" rel="noopener" class="item missing v-unlocated">
+          <span class="i-name">{{ m.name }}</span>
+          <span class="i-status">◌ {{ monitorLabel(m) }} · {{ t('curated.noRecord') }}</span>
+          <span class="i-desc">{{ m.desc }}</span>
+          <span class="i-src num">↗ github.com/{{ m.repo }}</span>
+        </a>
+      </template>
     </div>
   </section>
   <div v-if="!categories.length" class="empty">{{ t('empty.featuredNone') }}</div>
@@ -39,5 +59,10 @@ h2 { font-size: 17px; margin: 0 0 10px; }
 .item:hover { text-decoration: none; background: var(--panel-2); }
 .i-name { font-weight: 600; font-size: 14px; }
 .i-desc { color: var(--fg-dim); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.missing { border-left-color: var(--fg-faint); }
+.missing .i-name { color: var(--fg-dim); }
+.i-status { color: var(--fg-faint); font-size: 12px; }
+.i-src { color: var(--cy); font-size: 12px; margin-top: 2px; }
+.chip-d { margin-left: 6px; font-size: 12px; }
 .empty { padding: 60px 0; text-align: center; color: var(--fg-faint); }
 </style>

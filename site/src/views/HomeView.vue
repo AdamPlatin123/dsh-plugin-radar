@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { meta, useRows, byStars } from '../lib/data'
+import { meta, useRows, byStars, curatedStatusOf, sourceRepoUrl } from '../lib/data'
 import StatStrip from '../components/StatStrip.vue'
 import PluginCard from '../components/PluginCard.vue'
 import LazyOgImage from '../components/LazyOgImage.vue'
@@ -19,7 +19,12 @@ const featured = computed(() => {
   const flat = cats.flatMap((c) => c.plugins.slice(0, 3).map((m) => ({ ...m, cat: c.name })))
   return flat.slice(0, 18)
 })
-const rowOf = (repo: string) => rows.value.find((r) => r.repo.toLowerCase() === repo.toLowerCase())
+// 未进入雷达索引的横滑条目：外链源仓库 + 监测态，而非 404 详情
+const statusOf = curatedStatusOf
+const monitorLabel = (repo: string) => {
+  const monitor = statusOf(repo)?.monitor
+  return monitor ? t('curated.recorded', { status: t(`stat.${monitor}`) }) : t('curated.noRecord')
+}
 const topNew = computed(() => [...rows.value].sort(byStars).slice(0, 12))
 </script>
 
@@ -41,19 +46,26 @@ const topNew = computed(() => [...rows.value].sort(byStars).slice(0, 12))
     <h2>{{ t('featured.title') }}</h2>
     <div class="rail">
       <div v-for="f in featured" :key="f.repo" class="rail-card">
-        <router-link :to="`/plugin/${f.repo}`" class="rail-link">
-          <LazyOgImage :repo="f.repo" :name="f.name" :verdict="f.verdict || 'pending'" />
+        <router-link v-if="statusOf(f.repo)?.indexed" :to="`/plugin/${f.repo}`" class="rail-link">
+          <LazyOgImage :repo="f.repo" :name="f.name" :verdict="statusOf(f.repo)?.verdict || 'pending'" />
           <div class="rail-body">
             <div class="rail-name">{{ f.name }}</div>
             <div class="rail-desc">{{ f.desc }}</div>
           </div>
         </router-link>
+        <a v-else :href="sourceRepoUrl(f.repo)" target="_blank" rel="noopener" class="rail-link missing">
+          <LazyOgImage :repo="f.repo" :name="f.name" :verdict="statusOf(f.repo)?.monitor || 'unlocated'" />
+          <div class="rail-body">
+            <div class="rail-name">{{ f.name }}</div>
+            <div class="rail-desc">◌ {{ monitorLabel(f.repo) }} · ↗ {{ t('about.repo') }}</div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
 
   <section class="mt">
-    <h2>{{ t('nav.browse') }}<span class="h2sub num">{{ meta.totalListed.toLocaleString() }}</span></h2>
+    <h2>{{ t('nav.browse') }}<span class="h2sub num">{{ meta.totalBrowsable.toLocaleString() }}</span></h2>
     <div class="domain-grid">
       <router-link
         v-for="d in meta.domains" :key="d.slug"
@@ -98,6 +110,8 @@ h2 { font-size: 19px; margin: 0 0 14px; }
 .rail-card { flex: 0 0 230px; border: 1px solid var(--line-soft); border-radius: var(--radius); overflow: hidden; background: var(--panel); }
 .rail-link { display: block; color: inherit; }
 .rail-link:hover { text-decoration: none; }
+.rail-link.missing .rail-name { color: var(--fg-dim); }
+.rail-link.missing .rail-desc { color: var(--fg-faint); }
 .rail-body { padding: 8px 10px 10px; }
 .rail-name { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rail-desc { font-size: 12px; color: var(--fg-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 2px; }

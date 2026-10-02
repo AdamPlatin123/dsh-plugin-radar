@@ -405,13 +405,15 @@ def build(root: Path = ROOT):
             _by[k] = p
     export_rows = list(_by.values())
 
-    # stats 契约 = 旧 STAT_RE 序列（全量行 → 已定位行 → 监测行）的「后值覆盖」结果；
-    # unlocated 旧管线仅在其行印出时存在（=0 时缺失），新管线恒定输出（P0 schema 要求七键齐）。
+    # 四档清单统计在同仓去重与判定仲裁后按最终 rows 计数，与对外数组逐条一致
+    # （曾用去重前的 vc，latest.stats 与 plugins[] 实际计数漂移——语义门禁校验的就是它）；
+    # 监测三态（gone/ambiguous/unlocated）不进入 rows，单独计数，不能与 total_listed 相加对账。
+    row_counts = Counter(p['verdict'] for p in export_rows)
     export_stats = {
-        'ok': vc.get('✅ 运行级可用', 0),
-        'incompatible': vc.get('❌ 运行级不兼容', 0),
-        'pending': vc.get('⚠️ 待定', 0),
-        'untested': vc.get('⏳ 未测', 0),
+        'ok': row_counts.get('ok', 0),
+        'incompatible': row_counts.get('incompatible', 0),
+        'pending': row_counts.get('pending', 0),
+        'untested': row_counts.get('untested', 0),
         'gone': n_empty,
         'ambiguous': n_amb,
         'unlocated': n_unresolved,

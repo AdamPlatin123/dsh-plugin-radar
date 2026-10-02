@@ -10,18 +10,33 @@
   data/plugins-enrich.json           P6 补采 sidecar（可选；pushed_at/avatar/topics/…）
   data/awesome-50.json               精选榜（11 类人工策展）
   data/bundles.json                  合集
-  data/latest.json                   统计指针 + snapshot_run_id（OG 图缓存版本串）
+  data/latest.json                   snapshot_run_id（OG 图缓存版本串）+ runner 版本指针
+                                     （统计不再取此文件的 stats，一律从 rows 现算）
 
 产物：
   src/data/meta.ts      轻数据（统计/域元数据/精选/合集/run_id）——入口 chunk
   src/data/plugins.ts   大表（列数组压缩，~9574 行）——独立懒加载 chunk
+
+口径约定（站点对外数字一律从最终 rows 计算，不引用 data/latest.json 的统计）：
+  stats          浏览页四档判定计数（ok/incompatible/pending/untested）逐行统计
+  totalIndexed   全量索引数 = len(rows)（plugins-all.json 的 plugins[] 长度）
+  totalBrowsable 默认可浏览数 = rows 中 verdict=ok 的行数（浏览页默认筛选口径）
+  counts         各域计数，与浏览页默认口径一致（仅统计 verdict=ok 的行）
+  curatedStatus  精选/整合包条目 → 是否进入 rows（indexed）+ 真实 verdict/休眠位；
+                 未进入 rows 的给出监测态回退（monitor：unlocated/gone/ambiguous，
+                 由 canonical 未定位条目的 search?q=owner-name URL 精确匹配得出）
 """
 import argparse
 import json
 import sys
+from collections import Counter
 from pathlib import Path
 
 VERDICTS = ['ok', 'incompatible', 'pending', 'untested', 'gone', 'ambiguous', 'unlocated']
+# 浏览页四档（rows 只含这四档；gone/ambiguous/unlocated 为 canonical 监测态，不进数组）
+BROWSABLE_VERDICTS = VERDICTS[:4]
+# canonical locate 监测态 → 站点监测档位（精选/整合包回退展示用）
+LOCATE_TO_MONITOR = {'unresolved': 'unlocated', 'empty_watch': 'gone', 'ambiguous_watch': 'ambiguous'}
 # canonical 13 域（渲染顺序 = PLUGINS-ALL 口径）；slug 供 URL/键
 DOMAINS = [
     ('skill', '🎓 技能包'), ('memory', '🧠 记忆增强'), ('skin', '🎨 主题皮肤'),
@@ -40,9 +55,9 @@ def _load(p: Path, default):
         return default
 
 
-def build(root: Path):
+def build(root: Path, out_dir: Path | None = None):
     site = Path(__file__).resolve().parent.parent
-    out_dir = site / 'src' / 'data'
+    out_dir = out_dir or site / 'src' / 'data'
     out_dir.mkdir(parents=True, exist_ok=True)
 
     plugins_doc = _load(root / 'data' / 'plugins-all.json', {})
@@ -78,11 +93,6 @@ def build(root: Path):
     # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据 8=休眠（>30天未更新且不兼容，暂停测试）
     out_rows, missing_domain = [], 0
     for r in rows:
-        # 目录口径（2026-10-02）：仅收录 dsh 插件且实测可用——verdict=ok 本身蕴含
-        # 插件形态（能经 dsh plugin add 装上并跑通运行级测试的必然是真插件）；
-        # 四档全量证据链保留在 PLUGINS-ALL.md 与数据接口，站点目录只做可用插件门面。
-        if r.get('verdict') != 'ok':
-            continue
         repo_l = r['repo'].lower()
         e = entry_by_repo.get(repo_l) or {}
         dom = DOMAIN_TITLE2SLUG.get(e.get('domain') or '', 'other')
@@ -103,18 +113,52 @@ def build(root: Path):
                               en.get('lang') or '', en.get('license') or '',
                               list(en.get('topics') or [])[:5]]
 
-    stats = latest.get('stats', {})
+    # ── 统计从最终 rows 现算（latest.json 的统计指针是导出侧口径，与本表可能错位，
+    #     站点对外数字必须与构建产物逐行可对账）──
+    verdict_counts = Counter(r[2] for r in out_rows)
+    total_indexed = len(out_rows)
+    total_browsable = verdict_counts.get('ok', 0)
+
+    # ── 策展名单状态：精选/整合包条目是否进入最终 rows；未进入的给出监测态回退 ──
+    # 不增删策展名单本身（featured/bundles 原样透传），只附加真实状态供视图分流。
+    curated_repos: set = set()
+    for group in [*(awesome.get('categories') or []), *(bundles.get('forms') or [])]:
+        for m in group.get('plugins') or []:
+            if m.get('repo'):
+                curated_repos.add(m['repo'].lower())
+    row_by_repo = {r[0].lower(): r for r in out_rows}
+    # canonical 未定位条目 url 形如 github.com/search?q=owner-name（'/' 已归一为 '-'）；
+    # 仅整串精确匹配，避免误挂到同名前缀的其他条目
+    monitor_by_dash = {}
+    for e in canon.get('entries', []):
+        u = e.get('url') or ''
+        if 'search?q=' in u:
+            monitor_by_dash[u.split('search?q=')[1].strip('/').lower()] = e.get('locate') or ''
+    curated_status = {}
+    for repo_l in sorted(curated_repos):
+        r = row_by_repo.get(repo_l)
+        if r:
+            curated_status[repo_l] = {'indexed': True, 'verdict': r[2],
+                                      'dormant': bool(r[6] & 8), 'monitor': None}
+        else:
+            locate = monitor_by_dash.get(repo_l.replace('/', '-'), '')
+            curated_status[repo_l] = {'indexed': False, 'verdict': None, 'dormant': False,
+                                      'monitor': LOCATE_TO_MONITOR.get(locate)}
+
     meta = {
         'generatedAt': plugins_doc.get('generated_at', ''),
         'runId': latest.get('snapshot_run_id') or '',
-        'stats': {k: stats.get(k, 0) for k in VERDICTS},
-        'totalListed': latest.get('total_listed', len(rows)),
+        'stats': {v: verdict_counts.get(v, 0) for v in BROWSABLE_VERDICTS},
+        'totalIndexed': total_indexed,
+        'totalBrowsable': total_browsable,
         'runnerLatest': (latest.get('runner_versions') or {}).get('latest', '')
         if isinstance(latest.get('runner_versions'), dict) else '',
         'domains': [{'slug': s, 'title': t} for s, t in DOMAINS],
         'featured': awesome,
         'bundles': bundles,
-        'counts': {s: sum(1 for r in out_rows if r[5] == s) for s, _ in DOMAINS},
+        'counts': {s: sum(1 for r in out_rows if r[5] == s and r[2] == 'ok')
+                   for s, _ in DOMAINS},
+        'curatedStatus': curated_status,
     }
 
     (out_dir / 'meta.ts').write_text(
@@ -129,8 +173,11 @@ def build(root: Path):
         'export const ENRICH: Record<number, [string, string, string, string, string[]]> = '
         + json.dumps(enrich_rows, ensure_ascii=False, separators=(',', ':')) + '\n',
         encoding='utf8')
+    missing_curated = sum(1 for s in curated_status.values() if not s['indexed'])
     print(f'[build-data] {len(out_rows)} 行（canonical 域命中 {len(out_rows) - missing_domain}，'
           f'enrich {len(enrich_rows)}）→ meta.ts + plugins.ts；run_id={meta["runId"]}')
+    print(f'[build-data] 口径：totalIndexed={total_indexed} totalBrowsable={total_browsable} '
+          f'（stats={dict(meta["stats"])}）；策展 {len(curated_status)} 条中 {missing_curated} 条不在 rows（已带监测态回退）')
 
 
 def main() -> int:

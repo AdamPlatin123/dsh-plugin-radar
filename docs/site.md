@@ -20,8 +20,8 @@ site/
 ## 本地开发
 
 ```bash
-cd site
-python3 scripts/build_data.py --root ..   # 先烘焙数据
+cd /mnt/shared/_Projects/DSH-Plugin-Radar/site
+python3 /mnt/shared/_Projects/DSH-Plugin-Radar/site/scripts/build_data.py --root /mnt/shared/_Projects/DSH-Plugin-Radar   # 先烘焙数据
 npm install
 npm run dev                               # http://localhost:5173/dsh-plugin-radar/
 npm run build                             # vue-tsc 类型检查 + vite build
@@ -29,12 +29,33 @@ npm run build                             # vue-tsc 类型检查 + vite build
 
 ## 数据口径
 
-- 大表 9574 行 = `data/plugins-all.json`（dsh-radar/v1 五字段）⊕ canonical 域分类
+- 大表全量行 = `data/plugins-all.json`（dsh-radar/v1 五字段）⊕ canonical 域分类
   （13 taxonomy）⊕ bundle/PR 标记；enrich 副表 = `data/plugins-enrich.json`
-  （pushed_at/avatar/lang/license/topics，有则显示）。
-- 统计与 run_id 锚取 `data/latest.json`；OG 图缓存版本串 = snapshot_run_id。
+  （pushed_at/avatar/lang/license/topics，有则显示），键 = 大表行号，
+  与 flags 位 4 严格对齐（回归测试守护，防评审 P1 的元数据错位复发）。
+- **对外数字一律从最终 rows 现算**，不引用 `data/latest.json` 的统计指针
+  （导出侧口径可能与本表错位）：`stats` 四档逐行计数；
+  `totalIndexed` = 全量收录数（len(rows)）；`totalBrowsable` = ok 行数
+  （浏览页默认筛选「运行级可用」，可切判定筛选看全量）；`counts` 各域计数
+  与浏览页默认口径一致（仅 ok）。`latest.json` 仅取 `snapshot_run_id`
+  （OG 图缓存版本串）与 `runner_versions.latest`（实测基线）。
+- **策展回退**：`meta.curatedStatus` 记录精选/整合包每条是否进入 rows
+  （indexed）及真实 verdict/休眠位；未进入的条目视图渲染「监测态
+  （unlocated/gone/ambiguous，取自 canonical 未定位记录）+ 源 GitHub 仓回退」，
+  不路由到详情页 404，也不从策展名单中抹除。
 - **红线**：`site/dist` 绝不含 `data/snapshots/`（1.34GB）；CI 构建断言
   dist < 60MB。
+
+## 回归测试
+
+```bash
+python3 /mnt/shared/_Projects/DSH-Plugin-Radar/site/scripts/test_build_data.py   # 站点烘焙不变量（离线 fixture，13 例）
+```
+
+覆盖：全量行不被 verdict 过滤、enrich 键与 flags 对齐且逐行归属正确、
+统计从 rows 现算而非 latest 指针、totalIndexed/totalBrowsable 分离、
+curatedStatus 与 rows 对账（indexed ⇔ 在表内）及未索引条目监测态回退、
+策展名单原样透传。
 
 ## 部署与回滚
 
