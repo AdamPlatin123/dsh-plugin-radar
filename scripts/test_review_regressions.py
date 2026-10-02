@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """test_review_regressions.py — 评审回归检查（数据口径 / 渲染稳定性 / 契约语义门禁）。
 
-覆盖六项回归（2026-10 维护评审）：
+覆盖维护评审回归与 README 摘要、策展区块所有权和旧写入器保护：
   1. 站点烘焙全量保留行（不过滤 verdict）+ enrich 行索引与最终输出行一一对应
   2. 渲染器无有效快照：显式退出码 1 且不写任何文件（安全停旧，不得 NoneType 崩栈）
   3. 渲染器坏 schema 快照：同上优雅报错，不得 KeyError 崩栈
@@ -40,6 +40,130 @@ def write_json(path, value):
 
 
 class ReviewRegressions(unittest.TestCase):
+    def summary_fixture(self):
+        canonical = {'schema': 'radar-canonical/v1', 'export': {
+            'anchor_run_id': '20261003T000000Z',
+            'rows': [{'repo': 'a/one', 'verdict': 'ok'},
+                     {'repo': 'b/two', 'verdict': 'pending'}],
+            'stats': {'ok': 1, 'incompatible': 0, 'pending': 1, 'untested': 0},
+        }}
+        snapshot = {'run_id': '20261003T000000Z', 'generated_at': '2026-10-03T00:00:00Z'}
+        text = ('<!-- README:layout:v2 -->\nstatic prefix\n'
+                '<!-- AUTO:summary:START -->\nstale data\n<!-- AUTO:summary:END -->\n'
+                'static suffix with architecture and QR\n')
+        return text, canonical, snapshot
+
+    def test_summary_preserves_unowned_text_and_is_idempotent(self):
+        module = load_module('summary_stable', 'scripts/render-readme-from-snapshot.py')
+        text, canonical, snapshot = self.summary_fixture()
+        rendered = module.render_summary(text, canonical, snapshot)
+        self.assertEqual(module.render_summary(rendered, canonical, snapshot), rendered)
+        start, end = '<!-- AUTO:summary:START -->', '<!-- AUTO:summary:END -->'
+        self.assertEqual(text.split(start)[0], rendered.split(start)[0])
+        self.assertEqual(text.split(end)[1], rendered.split(end)[1])
+        self.assertIn('| 全量记录 | 2 |', rendered)
+        self.assertIn('| 可用记录 | 1 |', rendered)
+        self.assertIn('| 待定记录 | 1 |', rendered)
+        self.assertIn('2026-10-03 08:00:00 UTC+8', rendered)
+
+    def test_summary_rejects_ambiguous_or_reversed_markers(self):
+        module = load_module('summary_markers', 'scripts/render-readme-from-snapshot.py')
+        text, canonical, snapshot = self.summary_fixture()
+        start, end = '<!-- AUTO:summary:START -->', '<!-- AUTO:summary:END -->'
+        for invalid in ('no markers', text.replace(end, ''), text + start,
+                        text + end, end + '\n' + start):
+            with self.subTest(text=invalid), self.assertRaises(ValueError):
+                module.render_summary(invalid, canonical, snapshot)
+
+    def test_summary_rejects_bad_counts_duplicate_repos_and_anchor(self):
+        module = load_module('summary_counts', 'scripts/render-readme-from-snapshot.py')
+        for defect in ('counts', 'duplicate', 'anchor', 'verdict'):
+            text, canonical, snapshot = self.summary_fixture()
+            if defect == 'counts':
+                canonical['export']['stats']['ok'] = 9
+            elif defect == 'duplicate':
+                canonical['export']['rows'][1]['repo'] = 'A/ONE'
+            elif defect == 'anchor':
+                snapshot['run_id'] = '20261002T000000Z'
+            else:
+                canonical['export']['rows'][1]['verdict'] = 'gone'
+            with self.subTest(defect=defect), self.assertRaises(ValueError):
+                module.render_summary(text, canonical, snapshot)
+
+    def test_missing_summary_stops_before_generation_and_keeps_readme(self):
+        module = load_module('summary_missing', 'scripts/render-readme-from-snapshot.py')
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            module.ROOT, module.SNAP_DIR = root, root / 'data/snapshots'
+            write_json(module.SNAP_DIR / '20261003T000000Z.json', {
+                'schema': 'radar-snapshot/2', 'run_id': '20261003T000000Z',
+                'generated_at': '2026-10-03T00:00:00Z', 'catalog_entries': [],
+                'verdict': {}, 'discovery': {}, 'clone': {}, 'test': {}, 'deliver': {},
+            })
+            readme = root / 'README.md'
+            readme.write_text('<!-- README:layout:v2 -->\nkeep existing content\n')
+            original = readme.read_bytes()
+            with contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(module.main(), 1)
+            self.assertEqual(readme.read_bytes(), original)
+            self.assertFalse((root / 'generated').exists())
+
+    def test_curated_refresh_preserves_other_sections(self):
+        with patch.dict('os.environ', {'GH_TOKEN': 'offline-test'}):
+            module = load_module('curated_blocks', 'scripts/refresh-featured.py')
+        text = ('prefix\n<!-- AUTO:featured:START -->old<!-- AUTO:featured:END -->\n'
+                'middle\n<!-- AUTO:bundles:START -->old<!-- AUTO:bundles:END -->\nsuffix')
+        featured = '<!-- AUTO:featured:START -->new featured<!-- AUTO:featured:END -->'
+        bundles = '<!-- AUTO:bundles:START -->new bundles<!-- AUTO:bundles:END -->'
+        rendered = module.replace_curated_blocks(text, featured, bundles)
+        self.assertTrue(rendered.startswith('prefix\n'))
+        self.assertTrue(rendered.endswith('\nsuffix'))
+        self.assertIn('\nmiddle\n', rendered)
+        self.assertEqual(module.replace_curated_blocks(rendered, featured, bundles), rendered)
+        for invalid in (text.replace('<!-- AUTO:bundles:END -->', ''), text + featured,
+                        text.replace('<!-- AUTO:bundles:START -->old<!-- AUTO:bundles:END -->',
+                                     '<!-- AUTO:bundles:END --><!-- AUTO:bundles:START -->')):
+            with self.subTest(text=invalid), self.assertRaises(ValueError):
+                module.replace_curated_blocks(invalid, featured, bundles)
+
+    def test_legacy_diagram_writer_cannot_replace_new_architecture(self):
+        module = load_module('diagram_guard', 'scripts/gen-pipeline-diagram.py')
+        with tempfile.TemporaryDirectory() as folder:
+            readme = Path(folder) / 'README.md'
+            readme.write_text('<!-- README:layout:v2 -->\n```mermaid\nflowchart TB\n```\n')
+            original = readme.read_bytes()
+            with contextlib.redirect_stdout(io.StringIO()):
+                module.inject(readme, 'old live diagram')
+                module.refresh_badges(readme, {})
+            self.assertEqual(readme.read_bytes(), original)
+
+    def test_curated_job_writes_dedicated_page_and_keeps_readme(self):
+        with patch.dict('os.environ', {'GH_TOKEN': 'offline-test'}):
+            module = load_module('curated_job', 'scripts/refresh-featured.py')
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            module.ROOT, module.DRY = str(root), False
+            write_json(root / 'data/plugins-all.json',
+                       json.loads((ROOT / 'data/plugins-all.json').read_text()))
+            readme = root / 'README.md'
+            readme.write_bytes(b'keep project homepage\n')
+            target = root / 'docs/catalog-highlights.md'
+            target.parent.mkdir()
+            target.write_text((ROOT / 'docs/catalog-highlights.md').read_text())
+            def offline_fetch(repo):
+                return repo, 123, 'offline fixture'
+            with patch.object(module, 'fetch', side_effect=offline_fetch), \
+                    contextlib.redirect_stdout(io.StringIO()):
+                module.main()
+            self.assertEqual(readme.read_bytes(), b'keep project homepage\n')
+            self.assertIn('123★', target.read_text())
+            self.assertNotIn('tile-ok.svg', target.read_text())
+            before_failure = target.read_bytes()
+            with patch.object(module, 'fetch', return_value=None), \
+                    contextlib.redirect_stdout(io.StringIO()), self.assertRaises(SystemExit):
+                module.main()
+            self.assertEqual(target.read_bytes(), before_failure)
+
     def test_baked_rows_keep_all_verdicts_and_enrich_index_aligned(self):
         """站点大表全量保留各档行；enrich 副表键=行序，元数据必须取自该行自身的仓库。
 

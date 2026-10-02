@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""刷新 README 精选插件榜 + 整合包节（人工策展 + 自动刷新星标）。
+"""刷新独立目录页的精选插件榜与整合包节（人工策展 + 自动刷新星标）。
 
 精选榜成员来自 data/awesome-50.json、整合包来自 data/bundles.json（均人工策展，
 本脚本只读不改成员）；逐仓库 REST 查询星标（跟随改名重定向），渲染分类表格，
-重写两份 README 的 AUTO:featured 与 AUTO:bundles 块。任一策展成员不可达或
+只替换独立目录页的精选与整合包标记块。任一策展成员不可达或
 查询失败即中止（成员是固定名单，消失/失联是异常信号，不写半截榜单）。
 
 依赖：环境变量 GH_TOKEN（GitHub token，读公开仓库）；curl；python3。
@@ -11,19 +11,18 @@
 """
 import json
 import os
-import re
 import subprocess
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DRY = '--dry' in sys.argv
 CURATED = os.path.join(ROOT, 'data', 'awesome-50.json')
 BUNDLES = os.path.join(ROOT, 'data', 'bundles.json')
-SNAP_DIR = os.path.join(ROOT, 'data', 'snapshots')
 REFRESH_LABEL = '每 6 小时自动刷新'
 # 类目/形态英文名（双语标题副行；一行中文一行英文的 README 约定）
 CAT_EN = {'🚀 智力增强 Booster': 'Intelligence Boosters', '🖥 界面与工作台': 'UI & Workbench',
@@ -33,97 +32,29 @@ CAT_EN = {'🚀 智力增强 Booster': 'Intelligence Boosters', '🖥 界面与�
           '🗂 文件、数据与浏览': 'Files, Data & Browsing', '🛒 市场与管理': 'Marketplaces & Management',
           '🎮 娱乐生活': 'Fun & Life', '⭐ 内测成员作品': 'Insider Members', '🎚 预设与配置套件': 'Presets & Config Kits',
           '🧩 能力合集': 'Capability Collections', '📀 发行版': 'Distributions', '📑 配方管理器': 'Recipe Managers'}
-VERDICT_MARK = {'ok': '✅', 'pending': '待定', 'incompatible': '需适配', 'untested': '未测', None: '—'}
-# 快照四档 → 榜单判定键（渲染期覆盖 JSON 种子值；快照缺失/未定位时回落种子）
-SNAP_VERDICT = {'✅ 运行级可用': 'ok', '运行级可用': 'ok', '❌ 运行级不兼容': 'incompatible',
-                '运行级不兼容': 'incompatible', '⚠️ 待定': 'pending', '待定': 'pending',
-                '⏳ 未测': 'untested', '未测': 'untested'}
 
 
 def radar_verdicts():
-    """最新快照 catalog_entries → {owner/repo 小写: 判定键}；无快照返回空表（渲染回落 JSON 种子）。"""
-    try:
-        snaps = sorted(f for f in os.listdir(SNAP_DIR) if f.endswith('.json'))
-        data = json.load(open(os.path.join(SNAP_DIR, snaps[-1]), encoding='utf-8'))
-        out = {}
-        for e in data.get('catalog_entries') or []:
-            url = str(e.get('url', ''))
-            if 'github.com/' in url:
-                repo = url.split('github.com/', 1)[1].strip('/').lower()
-                v = SNAP_VERDICT.get(str(e.get('verdict', '')).strip())
-                if repo and v:
-                    out[repo] = v
-        return out
-    except Exception as e:
-        print(f'[warn] 快照判定加载失败，回落 JSON 种子: {e}')
-        return {}
+    """Read verdicts from the final deduplicated public list."""
+    path = os.path.join(ROOT, 'data', 'plugins-all.json')
+    data = json.loads(Path(path).read_text(encoding='utf-8'))
+    return {p['repo'].lower(): p['verdict'] for p in data['plugins']}
 
 
-def wbr(s):
-    """在 ASCII 长词内注入 <wbr> 断点（连字符/斜杠/点后）。
-    统一各表换行逻辑：GitHub 表格超宽时按可断行性压缩列宽，长词不可断会使不同表的
-    列宽谈判结果不同、挤压磁贴列；统一断点后所有表行为一致（<wbr> 在 sanitize 白名单内）。"""
-    return re.sub(r'([\-/.])(?=[A-Za-z0-9])', r'\1<wbr>', s)
+def status_label(verdict):
+    return {'ok': '[可用记录]', 'incompatible': '[不兼容记录]',
+            'pending': '[待定]', 'untested': '[未测]'}.get(verdict, '[未索引]')
 
 
-def radar_version():
-    """runner 测试版本：优先 data/runner-versions.json 的 latest（runner 实测多版本中的最新，
-    与 .rt-agent-v2/results 的 runner_image_digest 同源对齐）；回落快照 cur_image → radar-env.json。"""
-    try:
-        return json.load(open(os.path.join(ROOT, 'data', 'runner-versions.json')))['latest']
-    except Exception:
-        pass
-    try:
-        snaps = sorted(f for f in os.listdir(SNAP_DIR) if f.endswith('.json'))
-        data = json.load(open(os.path.join(SNAP_DIR, snaps[-1]), encoding='utf-8'))
-        img = str(data.get('verdict', {}).get('cur_image', '') or '')
-        if ':' in img:
-            return img.split(':', 1)[1]
-        if img:
-            return img
-    except Exception:
-        pass
-    try:
-        return json.load(open(os.path.join(ROOT, 'data', 'radar-env.json'), encoding='utf-8'))['dsh_version']
-    except Exception:
-        return ''
-
-
-_TILE_W = {}
-
-
-def _probe_width(url):
-    """探测 shields SVG 的 intrinsic 宽度（按 URL 缓存），用于钉死 <img> 尺寸防 GitHub 表格自动缩放。"""
-    if url not in _TILE_W:
-        try:
-            p = subprocess.run(['curl', '-s', '--max-time', '15', url],
-                               capture_output=True, text=True)
-            m = re.search(r'<svg[^>]*width="(\d+)"', p.stdout)
-            _TILE_W[url] = int(m.group(1)) if m else 108
-        except Exception:
-            _TILE_W[url] = 108
-    return _TILE_W[url]
-
-
-def tile(verdict_key, ver):
-    """三态磁贴：仓内 SVG 资产优先（assets/tile-{ok,adapt,test}.svg，版本烤入、零外部请求、
-    与 PLUGINS-ALL 同源）；资产缺失时回落 shields 在线徽章。"""
-    from urllib.parse import quote
-    label_map = {'ok': ('已兼容', '97CA00'), 'adapt': ('需适配', 'DFB317'), 'test': ('待测试', '9F9F9F')}
-    key = {'ok': 'ok', 'incompatible': 'adapt'}.get(verdict_key, 'test')
-    label = label_map[key][0]
-    try:
-        import tile_assets
-        tw = tile_assets.tile_widths()
-        if key in tw:
-            return f'<img src="assets/tile-{key}.svg" alt="{label}" width="{tw[key]}" height="20">'
-    except Exception:
-        pass
-    v = ver.replace('-', '--').replace('_', '__').replace(' ', '_')
-    url = (f'https://img.shields.io/badge/{quote(label)}-{v}-555555'
-           f'?style=flat-square&labelColor={label_map[key][1]}')
-    w = _probe_width(url)
-    return f'<img src="{url}" alt="{label}" width="{w}" height="20">'
+def replace_curated_blocks(text, featured, bundles):
+    """Reject missing or ambiguous blocks; leave all unowned text untouched."""
+    for key, block in [('featured', featured), ('bundles', bundles)]:
+        start, end = f'<!-- AUTO:{key}:START -->', f'<!-- AUTO:{key}:END -->'
+        if text.count(start) != 1 or text.count(end) != 1 or text.index(end) < text.index(start):
+            raise ValueError(f'{key} 标记缺失、重复或次序错误')
+        left, right = text.index(start), text.index(end) + len(end)
+        text = text[:left] + block + text[right:]
+    return text
 
 
 TOKEN = os.environ.get('GH_TOKEN') or subprocess.run(
@@ -157,11 +88,10 @@ def fetch(repo):
 
 
 def main():
-    data = json.load(open(CURATED, encoding='utf-8'))
-    bdata = json.load(open(BUNDLES, encoding='utf-8'))
+    data = json.loads(Path(CURATED).read_text(encoding='utf-8'))
+    bdata = json.loads(Path(BUNDLES).read_text(encoding='utf-8'))
     rv = radar_verdicts()
-    ver = radar_version()
-    print(f'[verdict] 快照判定映射 {len(rv)} 条（渲染期覆盖，缺者回落 JSON 种子）· 测试版本 {ver}')
+    print(f'[verdict] 已定位去重清单 {len(rv)} 条；未收录成员标为未索引')
     cats = data['categories']
     forms = bdata['forms']
     repos = [p['repo'] for c in cats for p in c['plugins']]
@@ -208,16 +138,12 @@ def main():
         # 列表布局（非表格）：GitHub 表格对单元格图片强制 max-width:100%+height:auto 缩放无法规避；
         # 列表行内图片保持原尺寸，磁贴开头统一 108px 亦使全页文本列自然对齐
         for p in ranked:
-            t = tile(rv.get(p['repo'].lower(), p.get('verdict')), ver)
+            t = status_label(rv.get(p['repo'].lower()))
             parts.append(f"- {t} **[{p['name']}](https://github.com/{p['repo']})** · {stars[p['repo']]}★"
                          f" — {p['desc'].replace('|', '\\|')}")
         parts.append('')
-    parts.append('> 兼容状态磁贴 = 雷达 k8s 运行级判定（🟩 已兼容 · 🟨 需适配 · ⬜ 待测试，三态等宽；四档口径见下文），'
-                 '右半为该轮 runner 测试版本，**由 bot 按最新快照自动回写**，榜内成员走插队重测通道优先轮测；'
-                 '安装第三方插件前请审查源码并固定 commit。')
-    parts.append('> *Status tiles = radar k8s runtime verdicts (🟩 compatible · 🟨 needs-adaptation · ⬜ to-test); '
-                 'the right segment carries the runner version — both auto-updated from the latest snapshot. '
-                 'Always review plugin source and pin a commit before installing.*')
+    parts.append('> 状态来自公开清单的历史归并记录，未索引成员不推断兼容性；'
+                 '逐条测试版本证据尚未完整公开。安装前请检查原仓库说明。')
     block = '\n'.join(parts) + '\n\n<!-- AUTO:featured:END -->'
 
     # ── 整合包节（AUTO:bundles）：四形态，类内星标降序 ──
@@ -236,26 +162,23 @@ def main():
         bparts.append(f"*{CAT_EN.get(f['name'], '')} ({len(ranked)})*")
         bparts.append('')
         for p in ranked:
-            t = tile(rv.get(p['repo'].lower(), p.get('verdict')), ver)
+            t = status_label(rv.get(p['repo'].lower()))
             bparts.append(f"- {t} **[{p['name']}](https://github.com/{p['repo']})** · {stars[p['repo']]}★"
                           f" — {p['desc'].replace('|', '\\|')}")
         bparts.append('')
-    bparts.append('> 磁贴口径同精选榜（三态 · 右半 runner 版本）；整合包安装方式以各仓库 README 为准（预设类多为 `dsh plugin add` 后在设置中启用，发行版类需按其自身安装器操作）。')
-    bparts.append('> *Tiles follow the same scheme as the featured board; install per each bundle\'s own README '
+    bparts.append('> 状态口径同精选榜；整合包安装、权限与卸载方式以各仓库说明为准。')
+    bparts.append('> *Statuses follow the same historical-record scale as the featured board; install per each bundle\'s own README '
                   '(presets: `dsh plugin add` then enable in settings; distributions: use their installers).*')
     bblock = '\n'.join(bparts) + '\n\n<!-- AUTO:bundles:END -->'
 
     changed = False
-    for name in ['README.md',]:
+    for name in ['docs/catalog-highlights.md']:
         path = os.path.join(ROOT, name)
-        text = open(path, encoding='utf-8').read()
-        new = re.sub(r'<!-- AUTO:featured:START -->[\s\S]*?<!-- AUTO:featured:END -->',
-                     lambda _: block, text, count=1)
-        new = re.sub(r'<!-- AUTO:bundles:START -->[\s\S]*?<!-- AUTO:bundles:END -->',
-                     lambda _: bblock, new, count=1)
+        text = Path(path).read_text(encoding='utf-8')
+        new = replace_curated_blocks(text, block, bblock)
         if new != text:
             if not DRY:
-                open(path, 'w', encoding='utf-8').write(new)
+                Path(path).write_text(new, encoding='utf-8')
             changed = True
             print(f'[write] {name}')
     if not changed:
