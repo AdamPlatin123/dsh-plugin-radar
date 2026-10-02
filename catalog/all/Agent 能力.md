@@ -11,7 +11,7 @@
 - ⬜ `[待定]` [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) ★887 — 让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision
 - 🟩 `[可用]` [hellowind777-helloagents](https://github.com/hellowind777/helloagents) ★704 — —
 - ⬜ `[待定]` [hashgraph-online-hol-guard](https://github.com/hashgraph-online/hol-guard) ★689 — Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, M
-- ⬜ `[待定]` [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) ★677 — Local-first, self-hosted AI agent runtime and MCP bridge with sandboxed sessions, memory, credentials, audit/r
+- 🟩 `[可用]` [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) ★677 — Local-first, self-hosted AI agent runtime and MCP bridge with sandboxed sessions, memory, credentials, audit/r
 - ⬜ `[待定]` [evermind-ai-skillcorpus](https://github.com/EverMind-AI/SkillCorpus) ★676 — —
 - ⬜ `[待定]` [alibaba-anolisa](https://github.com/alibaba/anolisa) ★658 — ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) \| Agentic OS with runtime, security, o
 - 🟩 `[可用]` [chainbase-labs-agentkey](https://github.com/chainbase-labs/Agentkey) ★654 — —
@@ -96,7 +96,6 @@
 - 🟩 `[可用]` [nullptr-dzf-dsh-academic-research-skills](https://github.com/nullptr-DZF/dsh-academic-research-skills) ★14 — —
 - 🟩 `[可用]` [perrylink-dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) ★14 — —
 - 🟩 `[可用]` [tencentcloud-tencentcloud-agentobs-sdk-dsh](https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh) ★14 — —
-- ⬜ `[待定]` [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) ★14 — DSH plugin: edit the system prompt (deployment persona) from the Settings page, with live preview.
 - 🟩 `[可用]` [dsh-eval-harness](https://github.com/BiBoyang/dsh-eval-harness) ★13 — DSH 插件评测工具：YAML 用例驱动真实 agent 回归评测 + baseline 对比 PASS/WARN/FAIL 门禁｜Regression eval harness for DeepSeek Harness
 - ⬜ `[待定]` [sivan757-dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugin-market) ★13 — —
 - 🟩 `[可用]` [wdsjwzl-session-seed-plugin](https://github.com/wdsjwzl/session-seed-plugin) ★13 — 对话自动注入，可用于高概率破甲模型
@@ -1390,6 +1389,7 @@
 - 🟨 `[不兼容]` [dsh-plugin-langfuse](https://github.com/linyp/dsh-plugin-langfuse) ★14 — Langfuse observability for DeepSeek Harness (dsh): exports agent sessions as OpenTelemetry trace trees (GenAI
 - 🟨 `[不兼容]` [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) ★14 — DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告
 - 🟨 `[不兼容]` [tancheng33-dsh-ontology](https://github.com/tancheng33/dsh-ontology) ★14 — A typed, inference-capable ontology (TBox + ABox) plugin for DeepSeek Harness — durable domain knowledge the a
+- 🟨 `[不兼容]` [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) ★14 — DSH plugin: edit the system prompt (deployment persona) from the Settings page, with live preview.
 - 🟨 `[不兼容]` [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) ★13 — DeepSeek Harness record macOS desktop workflows by demonstration and turn them into agent skills (open-record-
 - 🟨 `[不兼容]` [webkubor-dsh-mirror](https://github.com/webkubor/dsh-mirror) ★13 — Let the AI know you
 - 🟨 `[不兼容]` [chunsi-w-dsh-trajectory-governor](https://github.com/chunsi-w/dsh-trajectory-governor) ★12 — Closed-loop trajectory policy plane for DeepSeek Harness
