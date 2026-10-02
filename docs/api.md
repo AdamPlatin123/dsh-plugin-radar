@@ -16,7 +16,32 @@ https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/lates
 https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugins-all.json
 ```
 
-（CDN 回退可换 `https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main/data/...`）
+## 可用性与缓存接入
+
+这两个接口是由 GitHub Raw 托管的公开静态文件，无需密钥。每次读取不触发本项目的后端计算；接口可用性受托管平台、网络与流量限制影响，不承诺持续可达或固定响应时间。高流量与分布式拒绝服务攻击可能影响访问，客户端应能在短时故障下继续使用已有数据。
+
+| 接入环节 | 建议行为 |
+|---|---|
+| 请求调度 | 由一个后台任务统一刷新并向业务分发缓存；建议从每 15 分钟一次开始，根据更新需求调整，并加入随机错峰，避免所有客户端同时请求 |
+| 缓存更新 | 若响应提供 `ETag`（HTTP 内容版本标识），保存它并使用 `If-None-Match` 条件请求；收到 HTTP 304 时继续使用现有缓存 |
+| 清单下载 | 先读取小型状态接口，结合快照编号和生成时间识别更新；明细允许独立条件校验，不仅凭快照编号推断文件未变化 |
+| 超时与重试 | 设置请求超时；对网络故障、HTTP 429 和服务端临时错误采用指数退避加随机延迟，建议最多尝试 3 次；遇到 `Retry-After` 按该提示安排下次请求，避免立即重复尝试 |
+| 数据校验 | 成功获取后验证 JSON 结构、schema、字段与统计一致性，再替换缓存；错误响应、残缺数据和校验失败不得覆盖上次成功的数据 |
+| 故障回退 | 超时、限流或源站不可用时保留上次成功的数据，并向使用者显示原始数据日期与最近刷新状态；首次获取失败时明确显示数据暂不可用 |
+| 较大规模接入 | 用下游自己的缓存或镜像服务分发数据，避免每个用户请求都回源下载完整清单 |
+
+该策略减少重复请求并缓解短时故障影响，不保证抵御所有攻击或长期源站故障。雷达站点的插件数据在构建期打包，公开 JSON 地址短时不可用通常不影响已经部署的插件浏览；站点部署更新和实时读取接口的下游仍可能受影响。
+
+### 镜像与一致性
+
+可选内容分发网络镜像地址：
+
+- https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main/data/latest.json
+- https://cdn.jsdelivr.net/gh/AdamPlatin123/dsh-plugin-radar@main/data/plugins-all.json
+
+镜像可能延迟更新，也可能存在服务限制；它不是已经验证的实时故障切换保障。切换来源时先核对数据日期和结构；不得把不同来源、不同更新轮次的统计与明细视为同一组数据。
+
+需要严格跨文件一致性时，把两个地址中的 `main` 替换为同一个完整 Git 提交哈希（40 位提交标识）读取，再逐档对账。轮询结果可用于发现更新，但读取可变分支下的两个文件本身不构成原子快照。下游显示数据日期时使用数据中的 `generated_at`，不要用本地下载时间替代。
 
 ## Schema（`dsh-radar/v1`）
 
@@ -72,14 +97,18 @@ https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/til
 
 endpoint.json 遵循 shields schema：`{"schemaVersion": 1, "label": "radar", "message": "已兼容", "color": "brightgreen", "labelColor": "#97CA00"}`
 
-## 接入三行示例
+## 单次读取示例
+
+下面演示一次带超时的读取；持续运行的接入方应按上面的策略实现缓存、校验与有限重试。
 
 ```python
-import json, urllib.request
-d = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugins-all.json"))
-verdict = {p["repo"]: p["verdict"] for p in d["plugins"]}
-print(verdict.get("omdsh-dev/DSH-better-sidebar"))   # → 'ok'
+import json
+from urllib.request import urlopen
+
+url = "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugins-all.json"
+with urlopen(url, timeout=20) as response:
+    data = json.load(response)
+verdict_by_repo = {plugin["repo"].lower(): plugin["verdict"] for plugin in data["plugins"]}
 ```
 
 ## 署名与许可

@@ -4,9 +4,9 @@ name: runner-smoke
 # 外加稳定数据接口契约校验（P0：挡错误内容以合法 JSON 身份入库）。
 on:
   push:
-    paths: ['engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
+    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
   pull_request:
-    paths: ['engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
+    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
   workflow_dispatch:
 
 concurrency:
@@ -35,7 +35,7 @@ jobs:
           test -s assets/tile-test.svg
       - name: 冒烟② 数据接口导出（dsh-radar/v1）
         run: |
-          python3 scripts/gen_plugins_all.py
+          python3 scripts/render-readme-from-snapshot.py
           python3 scripts/export-data.py .
           python3 -c "import json; n=len(json.load(open('data/plugins-all.json'))['plugins']); assert n>5000, n; print(f'[smoke] 数据接口 OK：{n} 条')"
       - name: 冒烟③ 稳定接口契约校验（schema/radar-v1.schema.json）

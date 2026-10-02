@@ -99,6 +99,9 @@ def render(f, l):
 def refresh_badges(readme: Path, l):
     """三枚徽章刷新：confirmed=插件数 · tested=判定总数 · scan=发现节奏（小时）。"""
     t = readme.read_text()
+    if '<!-- README:layout:v2 -->' in t:
+        print('[gen-diagram] 新布局保留静态架构图，跳过旧数字面写入')
+        return
     t = re.sub(r"badge/confirmed-\d+", f"badge/confirmed-{l['plugins']}", t)
     t = re.sub(r"badge/tested-\d+", f"badge/tested-{l['total']}", t)
     readme.write_text(t)
@@ -106,6 +109,9 @@ def refresh_badges(readme: Path, l):
 
 def inject(readme: Path, block: str):
     t = readme.read_text()
+    if '<!-- README:layout:v2 -->' in t:
+        print('[gen-diagram] 新布局保留静态架构图，跳过旧数字面写入')
+        return
     a, b = "<!-- AUTO:pipeline:START -->", "<!-- AUTO:pipeline:END -->"
     wrapped = a + "\n" + block + "\n" + b
     if a in t and b in t:
@@ -119,6 +125,9 @@ def inject(readme: Path, block: str):
 
 if __name__ == "__main__":
     target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("README.md")
+    if '<!-- README:layout:v2 -->' in target.read_text():
+        print('[gen-diagram] 新布局保留静态架构图，跳过旧生成任务')
+        sys.exit(0)
     f, l = facts(), live()
     inject(target, render(f, l))
     refresh_badges(target, l)

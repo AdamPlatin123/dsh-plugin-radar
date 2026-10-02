@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """render-readme-from-snapshot.py — Bot B：从已合并快照渲染 README（仓库内运行，零外部依赖）。
 
-契约：只读 data/snapshots/*.json（取 run_id 最新），绝不访问网络/指标流。
+契约：从已合并快照和统一聚合结果生成，绝不访问网络/指标流。
+新布局只替换 AUTO:summary 摘要区块；无新布局标记的历史首页走兼容路径。
 渲染面（中英两版 README 同步渲染；语言专属正则不命中即安全跳过）：
   三徽章 + 证据层运行级行 + AUTO:pipeline 活数字图（中文版）+ 「数据截至」锚（中文版）
   + 头部数字面 + 目录对账 + 生态快照块头行/报告链接。
@@ -88,6 +89,56 @@ def fmt(x):
     return "—" if x is None else str(x)
 
 
+def summary_bounds(text):
+    """Validate the single owned summary block before any generation or writes."""
+    start, end = '<!-- AUTO:summary:START -->', '<!-- AUTO:summary:END -->'
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise ValueError('README 必须包含唯一的一对摘要标记')
+    left, right = text.index(start), text.index(end)
+    if right < left:
+        raise ValueError('README 摘要标记次序错误')
+    return left + len(start), right
+
+
+def render_summary(text, canonical, snapshot):
+    """Replace only the summary with final deduplicated counts and snapshot time."""
+    left, right = summary_bounds(text)
+    if canonical.get('schema') != 'radar-canonical/v1':
+        raise ValueError('聚合数据格式错误')
+    export = canonical['export']
+    anchor = export['anchor_run_id']
+    if (not isinstance(anchor, str) or not re.fullmatch(r'\d{8}T\d{6}Z', anchor)
+            or snapshot['run_id'] != anchor):
+        raise ValueError('摘要快照与聚合锚点不一致')
+    timestamp = snapshot['generated_at']
+    datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
+    rows = export['rows']
+    verdicts = ('ok', 'incompatible', 'pending', 'untested')
+    counts = Counter(row['verdict'] for row in rows)
+    if set(counts) - set(verdicts):
+        raise ValueError('已定位清单含非四档判定')
+    repos = [row['repo'].lower() for row in rows]
+    if len(set(repos)) != len(rows):
+        raise ValueError('聚合清单存在重复仓库')
+    if any(export['stats'][key] != counts[key] for key in verdicts):
+        raise ValueError('四档统计与最终明细不一致')
+    # The aggregate does not provide complete per-row version evidence.
+    block = (
+        f'\n\n快照：`{anchor}` · 快照时间：{bj(timestamp)}。'
+        '此摘要由已合并快照对应的聚合结果自动生成。\n\n'
+        '| 已定位、按仓库去重后的清单 | 条数 |\n|---|---:|\n'
+        f'| 全量记录 | {len(rows):,} |\n'
+        f'| 可用记录 | {counts["ok"]:,} |\n'
+        f'| 不兼容记录 | {counts["incompatible"]:,} |\n'
+        f'| 待定记录 | {counts["pending"]:,} |\n'
+        f'| 未测记录 | {counts["untested"]:,} |\n\n'
+        '四档合计等于全量清单条数。仓库消亡、定位歧义等监测计数在清单之外，'
+        '见[数据状态接口](https://raw.githubusercontent.com/AdamPlatin123/'
+        'dsh-plugin-radar/main/data/latest.json)。逐条测试版本证据尚未完整公开。\n\n'
+    )
+    return text[:left] + block + text[right:]
+
+
 def main():
     snap = latest_snapshot()
     if (not isinstance(snap, dict)
@@ -103,6 +154,15 @@ def main():
     v, d, c, t, dl = (snap[k] for k in ("verdict", "discovery", "clone", "test", "deliver"))
     topo = snap.get("topology", {})
 
+    readme_text = (ROOT / 'README.md').read_text()
+    summary_layout = '<!-- README:layout:v2 -->' in readme_text
+    if summary_layout:
+        try:
+            summary_bounds(readme_text)
+        except ValueError as error:
+            print(f'[render] {error}，保留现有产物', file=sys.stderr)
+            return 1
+
     # ⓪ 全量清单随每轮快照重生成（PLUGINS-ALL.md），并取九类分布供目录摘要卡使用；
     #    global.un = 登记兜底口径的未测数（快照 catalog 不产 ⏳，磁贴未测恒 0 的修复数据源）
     g_un = None
@@ -113,10 +173,26 @@ def main():
         domain_stats = stats.get('domains') or stats   # 兼容旧返回结构（裸 dict）
         g_un = (stats.get('global') or {}).get('un')
     except Exception as _e:
+        if summary_layout:
+            print(f'[render] 聚合生成失败，保留 README: {_e}', file=sys.stderr)
+            return 1
         print(f"[render] WARN 清单生成跳过: {_e}")
         domain_stats = {}
+    if summary_layout:
+        try:
+            canonical = json.loads((ROOT / 'generated/current/canonical.json').read_text())
+            anchor = canonical['export']['anchor_run_id']
+            if not isinstance(anchor, str) or not re.fullmatch(r'\d{8}T\d{6}Z', anchor):
+                raise ValueError('无有效聚合快照锚点')
+            snapshot = json.loads((SNAP_DIR / f'{anchor}.json').read_text())
+            updated = render_summary(readme_text, canonical, snapshot)
+        except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
+            print(f'[render] 摘要生成失败，保留 README: {error}', file=sys.stderr)
+            return 1
+        (ROOT / 'README.md').write_text(updated)
+        print(f'[render] 摘要更新，快照={anchor}；摘要外内容保持原样')
     # 2026-09-16 双语合并：README 单文件化（中文行+英文行交错），en-US 转存根
-    for path in (ROOT / "README.md",):
+    for path in (() if summary_layout else (ROOT / "README.md",)):
         is_zh = True
         t_readme = path.read_text()
 
@@ -344,8 +420,11 @@ def main():
             i2 = ct.find("## ")
             cl.write_text(ct[:i2] + entry + ct[i2:] if i2 >= 0 else entry + ct)
 
-    print(f"[render] run_id={snap['run_id']} · 徽章 confirmed-{c.get('plugins')}/tested-{v.get('total')} · "
-          f"判定 {v.get('pass')}/{v.get('fail')}/{v.get('inc')} · 双文件渲染完成")
+    if summary_layout:
+        print('[render] 首页摘要、完整目录与快照变更日志更新完成')
+    else:
+        print(f"[render] run_id={snap['run_id']} · 徽章 confirmed-{c.get('plugins')}/tested-{v.get('total')} · "
+              f"判定 {v.get('pass')}/{v.get('fail')}/{v.get('inc')} · 双文件渲染完成")
     return 0
 
 

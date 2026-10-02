@@ -10,6 +10,10 @@
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"   # engine/rendering → 仓库根
 cd "$ROOT" || exit 2
+if grep -q '<!-- README:layout:v2 -->' "$ROOT/README.md"; then
+  echo '[gen-catalog] 新布局通过独立目录提供明细，跳过旧首页写入'
+  exit 0
+fi
 GH="$HOME/.local/bin/gh"
 DOMAIN_MAP_JSON="$ROOT/data/domain-map.json"
 [ -f "$DOMAIN_MAP_JSON" ] || { echo "[gen-catalog] 缺 $DOMAIN_MAP_JSON，跳过"; exit 0; }

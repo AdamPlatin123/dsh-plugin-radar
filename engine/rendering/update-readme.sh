@@ -6,10 +6,14 @@
 # 依赖：bash/git/gh/jq（gh 认证）
 set -uo pipefail
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
 cd "$REPO_DIR" || exit 2
 README="README.md"
 [ -f "$README" ] || { echo "[错误] 找不到 README.md"; exit 2; }
+if grep -q '<!-- README:layout:v2 -->' "$README"; then
+  echo '[update-readme] 新布局由快照摘要渲染器维护，跳过旧仪表盘写入'
+  exit 0
+fi
 
 # 1. 最新报告汇总（reports/<最新日期>/mainline-compat.md 首行兼容性）
 LATEST_REPORT="$(ls -d reports/20*/ 2>/dev/null | sort | tail -1 | sed 's#/$##')"
