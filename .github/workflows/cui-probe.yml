@@ -1,0 +1,22 @@
+name: cui-probe
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 1 * * *"   # 每日 09:23 UTC+8
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm i x-client-transaction-id undici
+        working-directory: scripts/cui-fetcher
+      - run: node fetch-cui.mjs --days 30 --out out/cui-picks.json
+        working-directory: scripts/cui-fetcher
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          NO_PROXY_EGRESS: actions
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: cui-picks, path: scripts/cui-fetcher/out/ }
