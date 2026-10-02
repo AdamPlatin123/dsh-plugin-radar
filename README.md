@@ -126,10 +126,10 @@ flowchart TB
 
 持续接入时，建议：
 
-- **统一缓存：**后台统一刷新，从每 15 分钟一次开始并随机错峰；若服务提供 HTTP 内容版本标识 `ETag`，使用条件请求减少重复下载。
-- **有限重试：**设置超时，对临时网络故障、限流或服务端错误退避重试，建议最多尝试 3 次；收到 `Retry-After` 时按提示安排下次请求。
-- **保留可用数据：**只有新数据校验通过才替换缓存；刷新失败时继续使用上次成功的数据，并显示数据日期和刷新状态。
-- **按规模分发：**较大规模接入使用自己的缓存或镜像，让用户请求读取下游缓存。
+- **统一缓存**：后台统一刷新，从每 15 分钟一次开始并随机错峰；若服务提供 HTTP 内容版本标识 `ETag`，使用条件请求减少重复下载。
+- **有限重试**：设置超时，对临时网络故障、限流或服务端错误退避重试，建议最多尝试 3 次；收到 `Retry-After` 时按提示安排下次请求。
+- **保留可用数据**：只有新数据校验通过才替换缓存；刷新失败时继续使用上次成功的数据，并显示数据日期和刷新状态。
+- **按规模分发**：较大规模接入使用自己的缓存或镜像，让用户请求读取下游缓存。
 
 下面仅演示一次带超时的读取，持续运行的接入方还需实现上述缓存与回退策略。
 
@@ -151,10 +151,10 @@ verdict_by_repo = {record["repo"].lower(): record["verdict"] for record in recor
 
 ## 贡献与维护
 
-- **登记插件：**为公开仓库添加 `dsh-plugin` topic，或向[社区登记表](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/PLUGINS.md)提交 PR；登记与自动发现互补。
-- **更正判定：**通过[Issue](https://github.com/AdamPlatin123/dsh-plugin-radar/issues/new)提供仓库地址、插件版本、DSH 版本与可复现日志。
-- **维护引擎：**从[引擎说明](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/engine/README.md)了解运行环境与公开范围。
-- **维护目录或站点：**阅读[分类规则](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/CATALOGING.md)、[站点说明](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/site.md)与[运维手册](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/RUNBOOK.md)。
+- **登记插件**：为公开仓库添加 `dsh-plugin` topic，或向[社区登记表](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/PLUGINS.md)提交 PR；登记与自动发现互补。
+- **更正判定**：通过[Issue](https://github.com/AdamPlatin123/dsh-plugin-radar/issues/new)提供仓库地址、插件版本、DSH 版本与可复现日志。
+- **维护引擎**：从[引擎说明](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/engine/README.md)了解运行环境与公开范围。
+- **维护目录或站点**：阅读[分类规则](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/CATALOGING.md)、[站点说明](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/site.md)与[运维手册](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/RUNBOOK.md)。
 
 ## 社区
 
