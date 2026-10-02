@@ -171,3 +171,13 @@ verdict_by_repo = {record["repo"].lower(): record["verdict"] for record in recor
 代码与数据采用 [MIT 许可证](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/LICENSE)。引用数据时建议标注 DSH Plugin Radar 与相应快照编号。
 
 这是社区项目，与 DeepSeek 官方无隶属关系；记录与推荐不代表官方背书。感谢插件作者、贡献者与 DSH 社区。
+
+特别感谢 DSH 内测期间一起参与的伙伴们，以及大家分享的使用反馈、插件实测与问题报告。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/dsh-miji-heying.png" width="720" alt="DSH 内测成员合影，仅涵盖部分内测成员">
+</p>
+
+*DSH 内测成员合影 · 仅涵盖部分内测成员，并非完整贡献者名单。*
+
+如希望补充公开署名或更正致谢信息，欢迎通过 [Issue](https://github.com/AdamPlatin123/dsh-plugin-radar/issues/new) 或 PR 告诉我们。
