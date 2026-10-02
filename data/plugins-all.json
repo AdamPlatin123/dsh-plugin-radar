@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-02T03:30:48Z",
+ "generated_at": "2026-10-02T03:46:20Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -5911,13 +5911,6 @@
    "desc": "—"
   },
   {
-   "repo": "GooDAnDReaDY/dsh-agent-loop-guard",
-   "name": "goodandready-dsh-agent-loop-guard",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "GooDAnDReaDY/dsh-session-control",
    "name": "goodandready-dsh-session-control",
    "verdict": "pending",
@@ -6840,13 +6833,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Configurable auto-approval for DeepSeek Harness: intercepts approval/request and answers allowed-once/rejected"
-  },
-  {
-   "repo": "NinjaSln-labs/dsh-context-compass",
-   "name": "ninjasln-labs-dsh-context-compass",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "NinjaSln-labs/dsh-session-slm-router",
@@ -11294,6 +11280,13 @@
    "desc": "Resume-capable headless CLI session runner for DeepSeek Harness"
   },
   {
+   "repo": "GooDAnDReaDY/dsh-agent-loop-guard",
+   "name": "goodandready-dsh-agent-loop-guard",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Hakunm/dsh-approve-for-me",
    "name": "hakunm-dsh-approve-for-me",
    "verdict": "incompatible",
@@ -11702,6 +11695,13 @@
   {
    "repo": "NexusAgentX/dsh-advisor",
    "name": "nexusagentx-dsh-advisor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "NinjaSln-labs/dsh-context-compass",
+   "name": "ninjasln-labs-dsh-context-compass",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -19696,7 +19696,7 @@
   {
    "repo": "rongyishuaige7/dsh-stats",
    "name": "rongyishuaige7-dsh-stats",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness (DSH) 插件：项目级 Token 消耗、开发时间线与消费金额统计面板"
   },
@@ -22877,13 +22877,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin used to add an input filed to filter the models menu"
-  },
-  {
-   "repo": "oierxjn/dsh-skills-mcp-group-manager",
-   "name": "oierxjn-dsh-skills-mcp-group-manager",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness Skills & MCPs 分组管理器 — 分组管理 Skills、过滤模型技能目录、独立开关 MCP 服务器、左侧面板一键管理 / Group skills, filter the m"
   },
   {
    "repo": "oli-bot/dsh-desktop",
@@ -28220,6 +28213,13 @@
    "desc": "—"
   },
   {
+   "repo": "oierxjn/dsh-skills-mcp-group-manager",
+   "name": "oierxjn-dsh-skills-mcp-group-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness Skills & MCPs 分组管理器 — 分组管理 Skills、过滤模型技能目录、独立开关 MCP 服务器、左侧面板一键管理 / Group skills, filter the m"
+  },
+  {
    "repo": "Olympianz/dsh-github-sidebar",
    "name": "olympianz-dsh-github-sidebar",
    "verdict": "incompatible",
@@ -28927,13 +28927,6 @@
    "desc": "—"
   },
   {
-   "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
-   "name": "tencentcloudbase-cloudbase-ai-toolkit",
-   "verdict": "pending",
-   "stars": 1130,
-   "desc": "—"
-  },
-  {
    "repo": "0xsline/awesome-deepseek-harness",
    "name": "0xsline-awesome-deepseek-harness",
    "verdict": "pending",
@@ -29454,9 +29447,9 @@
   {
    "repo": "double-coding-lab/Flow2Spec",
    "name": "double-coding-lab-flow2spec",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 50,
-   "desc": "—"
+   "desc": "—〔📦〕"
   },
   {
    "repo": "chaos-03x/dsh-agy",
@@ -30985,13 +30978,6 @@
    "desc": "—"
   },
   {
-   "repo": "Max-Null/seek-soul-in-darkness",
-   "name": "max-null-seek-soul-in-darkness",
-   "verdict": "pending",
-   "stars": 8,
-   "desc": "—"
-  },
-  {
    "repo": "Scorp1o117/dsh-tool-vision",
    "name": "dsh-tool-vision",
    "verdict": "pending",
@@ -31911,7 +31897,7 @@
   {
    "repo": "GooDAnDReaDY/dsh-cron",
    "name": "goodandready-dsh-cron",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 5,
    "desc": "—"
   },
@@ -32404,13 +32390,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "dsh 启动保险丝：社区插件不兼容导致 dsh 启动失败时，自动禁用坏插件并重试"
-  },
-  {
-   "repo": "ItBayMax/dsh-replay-theater",
-   "name": "itbaymax-dsh-replay-theater",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "—"
   },
   {
    "repo": "JasonWei04/dsh-computer-use",
@@ -33689,7 +33668,7 @@
   {
    "repo": "SilenZerOrz/obsidian-dsh-acp",
    "name": "silenzerorz-obsidian-dsh-acp",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "—"
   },
@@ -34894,13 +34873,6 @@
    "repo": "kami-mura/dsh-cost",
    "name": "kami-mura-dsh-cost",
    "verdict": "ok",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "Kayungko/dsh-plugin-task-coordinator",
-   "name": "kayungko-dsh-plugin-task-coordinator",
-   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -39511,13 +39483,6 @@
    "desc": "—"
   },
   {
-   "repo": "Ran-sh/dsh-crew",
-   "name": "ran-sh-dsh-crew",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "rangrongg/SearchSieve",
    "name": "rangrongg-searchsieve",
    "verdict": "ok",
@@ -43188,13 +43153,6 @@
   {
    "repo": "GooDAnDReaDY/dsh-kanban",
    "name": "goodandready-dsh-kanban",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "GooDAnDReaDY/dsh-shadow-auditor",
-   "name": "goodandready-dsh-shadow-auditor",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -54253,6 +54211,13 @@
    "desc": "—"
   },
   {
+   "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
+   "name": "tencentcloudbase-cloudbase-ai-toolkit",
+   "verdict": "incompatible",
+   "stars": 1130,
+   "desc": "—"
+  },
+  {
    "repo": "LivXue/dsh-plugin-shop",
    "name": "livxue-dsh-plugin-shop",
    "verdict": "incompatible",
@@ -54911,6 +54876,13 @@
    "desc": "—"
   },
   {
+   "repo": "Max-Null/seek-soul-in-darkness",
+   "name": "max-null-seek-soul-in-darkness",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "—"
+  },
+  {
    "repo": "omdsh-dev/dsh-tool-calculator",
    "name": "dsh-tool-calculator",
    "verdict": "incompatible",
@@ -55200,6 +55172,13 @@
   {
    "repo": "Howardzhangdqs/dsh-recap",
    "name": "howardzhangdqs-dsh-recap",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "—"
+  },
+  {
+   "repo": "ItBayMax/dsh-replay-theater",
+   "name": "itbaymax-dsh-replay-theater",
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
@@ -56061,6 +56040,13 @@
   {
    "repo": "kanchengw/dsh-assembly.resume",
    "name": "kanchengw-dsh-assembly-resume",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "Kayungko/dsh-plugin-task-coordinator",
+   "name": "kayungko-dsh-plugin-task-coordinator",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -57522,6 +57508,13 @@
    "desc": "Auto-continue for DeepSeek Harness: when a local model hits its output-token cap, automatically send \"continue"
   },
   {
+   "repo": "Ran-sh/dsh-crew",
+   "name": "ran-sh-dsh-crew",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Raphaelutumn/dsh-mood",
    "name": "raphaelutumn-dsh-mood",
    "verdict": "incompatible",
@@ -58763,6 +58756,13 @@
   {
    "repo": "GooDAnDReaDY/dsh-im-hub-media",
    "name": "goodandready-dsh-im-hub-media",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "GooDAnDReaDY/dsh-shadow-auditor",
+   "name": "goodandready-dsh-shadow-auditor",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
