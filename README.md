@@ -323,14 +323,20 @@ flowchart TB
 ## 🤝 市场与下游接入（欢迎引用可用性数据）
 *For Marketplaces — reference our compatibility data*
 
-插件市场、聚合站与社区清单（dsh-market、dshfind、awesome 列表等）**欢迎直接引用本雷达的运行级可用性数据**——两个稳定 JSON 接口，无需申请、署名即可：
-*Plugin marketplaces and aggregators are **welcome to consume this radar's runtime-verdict data** — two stable JSON endpoints, no key required, attribution appreciated:*
+插件市场、聚合站与社区清单（dsh-market、dshfind、awesome 列表等）**欢迎引用本雷达的运行级可用性数据**。公开静态 JSON 接口无需密钥，建议下游缓存使用；接口可用性受 GitHub 托管平台影响。
+*Public static JSON endpoints require no key. Cache downstream; availability depends on GitHub hosting. Attribution is appreciated.*
 
 ```python
-d = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugins-all.json"))
-verdict = {p["repo"]: p["verdict"] for p in d["plugins"]}
+import json
+from urllib.request import urlopen
+
+url = "https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugins-all.json"
+with urlopen(url, timeout=20) as response:
+    data = json.load(response)
+verdict_by_repo = {plugin["repo"].lower(): plugin["verdict"] for plugin in data["plugins"]}
 ```
+
+持续接入时由后台统一缓存，设置超时与有限退避重试；失败时保留上次成功的数据并标注数据日期。完整策略见[接口文档](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/api.md#可用性与缓存接入)。
 
 三态磁贴资产可热链、动态徽章端点 schema、口径与署名规范见 **[docs/api.md](docs/api.md)**。
 *Hotlinkable status tiles, dynamic badge schema, and attribution rules: **[docs/api.md](docs/api.md)**.*
@@ -347,10 +353,10 @@ verdict = {p["repo"]: p["verdict"] for p in d["plugins"]}
 DSH 插件社区讨论群（微信群）：插件作者、维护者与使用者都在这里。
 *WeChat group for plugin authors, maintainers and users.*
 
-<img src="assets/community-discussion-20260916.jpg" width="330" alt="DSH 插件社区讨论群 / community QR">
+<img src="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261002.jpg" width="330" alt="DSH 插件社区讨论群 / community QR">
 
-> 当前为「DSH-Plugins 社区交流 3 群」二维码，7 天内有效（2026-09-23 前），过期请联系群主换新。
-> *Currently the QR for community group #3 — expires 2026-09-23; contact the owner for a fresh one afterwards.*
+> 当前为「DSH-Plugins 社区交流 3 群」二维码，更新于 2026-10-02；图片注明在 2026-10-09 前有效。过期请联系群主换新。
+> *QR for DSH-Plugins community group #3, updated on 2026-10-02; the image states it is valid before 2026-10-09. Contact the owner for a fresh code after expiry.*
 
 ## 给插件使用者
 *For Plugin Users*
