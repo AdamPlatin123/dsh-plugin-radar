@@ -339,6 +339,24 @@ flowchart TB
 
 <!-- AUTO:featured:END -->
 
+<!-- AUTO:cui-picks:START -->
+## 🗣️ 崔佬推荐（@tianyi 日更）
+> DeepSeek 弹性计算工程师崔添翼的每日 DSH 插件/生态推荐 · 机器抓取自 [X @tianyi](https://x.com/tianyi) · 更新 2026-10-02 · 近 30 天 15 条
+
+- Thu Oct 01 · [Congrats to the Claude Code team on shipping Mods! A cute way to make your agent…](https://x.com/tianyi/status/2105790798461882377)
+- Thu Oct 01 · [Mods are absolutely insane. You can now customize Claude to work and look the wa…](https://x.com/tianyi/status/2105756563302723721)
+- Thu Oct 01 · [You can now mod Claude Code: - Change how it behaves - Customize the UI - Swap i…](https://x.com/tianyi/status/2105721434807083061)
+- Thu Oct 01 · [We have an official @DeepSeekHarness X account now. Please follow us!](https://x.com/tianyi/status/2105462807705895061)
+- Wed Sep 30 · [DeepSeek Harness for desktop is now available on macOS and Windows.](https://x.com/tianyi/status/2105330281389662575)
+- Wed Sep 30 · [今天推荐一个功能很丰富的 DSH 上下文管理插件 dsh-context：](https://x.com/tianyi/status/2105256532657267119)
+- Tue Sep 29 · [DeepSeek 弹性计算团队大量 HC 招人！尤其需要资深工程师。 来看看这篇技术分享：《DeepSeek 弹性计算 (DSec)：面向大规模 Agent 训…](https://x.com/tianyi/status/2104881693706653733)
+- Mon Sep 28 · [今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～ 其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。 （不代表公司立场，不对…](https://x.com/tianyi/status/2104565558712959065)
+- Sun Sep 27 · [dsh-better-sidebar 插件为 DeepSeek Harness 添加了侧边栏、底边栏、分栏、可浮动栏等 UI 定制化能力。属于“为其它插件提供基…](https://x.com/tianyi/status/2104125200048746899)
+- Sat Sep 26 · [【DSH 社区插件推荐】推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，…](https://x.com/tianyi/status/2103821968944533526)
+
+<sub>关键词过滤（dsh/插件/推荐/MCP…）· 完整数据见 [data/cui-picks.json](data/cui-picks.json) · 数据接口同源</sub>
+<!-- AUTO:cui-picks:END -->
+
 ## 📦 整合包
 *Bundles*
 
