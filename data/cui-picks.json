@@ -1,0 +1,114 @@
+{
+ "updated": "2026-10-02",
+ "source": "@tianyi",
+ "name": "崔添翼 @tianyi",
+ "days": 30,
+ "count": 15,
+ "tweets": [
+  {
+   "id": "2105790798461882377",
+   "date": "Thu Oct 01 22:43:44 +0000 2026",
+   "text": "Congrats to the Claude Code team on shipping Mods! A cute way to make your agent harness extensible and customizable.\n\nIt's a nice convergence of ideas: in Claude Code, mods are just plugins; and @DeepSeekHarness has been built around rethinking the concept of plugins from the",
+   "url": "https://x.com/tianyi/status/2105790798461882377",
+   "likes": 370
+  },
+  {
+   "id": "2105756563302723721",
+   "date": "Thu Oct 01 20:27:42 +0000 2026",
+   "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
+   "url": "https://x.com/tianyi/status/2105756563302723721",
+   "likes": 2793
+  },
+  {
+   "id": "2105721434807083061",
+   "date": "Thu Oct 01 18:08:07 +0000 2026",
+   "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
+   "url": "https://x.com/tianyi/status/2105721434807083061",
+   "likes": 13757
+  },
+  {
+   "id": "2105462807705895061",
+   "date": "Thu Oct 01 01:00:25 +0000 2026",
+   "text": "We have an official @DeepSeekHarness  X account now. Please follow us!",
+   "url": "https://x.com/tianyi/status/2105462807705895061",
+   "likes": 2613
+  },
+  {
+   "id": "2105330281389662575",
+   "date": "Wed Sep 30 16:13:48 +0000 2026",
+   "text": "DeepSeek Harness for desktop is now available on macOS and Windows.",
+   "url": "https://x.com/tianyi/status/2105330281389662575",
+   "likes": 5117
+  },
+  {
+   "id": "2105256532657267119",
+   "date": "Wed Sep 30 11:20:45 +0000 2026",
+   "text": "今天推荐一个功能很丰富的 DSH 上下文管理插件 dsh-context：",
+   "url": "https://x.com/tianyi/status/2105256532657267119",
+   "likes": 326
+  },
+  {
+   "id": "2104881693706653733",
+   "date": "Tue Sep 29 10:31:17 +0000 2026",
+   "text": "DeepSeek 弹性计算团队大量 HC 招人！尤其需要资深工程师。 来看看这篇技术分享：《DeepSeek 弹性计算 (DSec)：面向大规模 Agent 训练的沙盒基础设施》",
+   "url": "https://x.com/tianyi/status/2104881693706653733",
+   "likes": 690
+  },
+  {
+   "id": "2104565558712959065",
+   "date": "Mon Sep 28 13:35:04 +0000 2026",
+   "text": "今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～\n\n\n\n\n\n其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。\n\n（不代表公司立场，不对非官方网站的内容负责。）",
+   "url": "https://x.com/tianyi/status/2104565558712959065",
+   "likes": 292
+  },
+  {
+   "id": "2104125200048746899",
+   "date": "Sun Sep 27 08:25:15 +0000 2026",
+   "text": "dsh-better-sidebar 插件为 DeepSeek Harness 添加了侧边栏、底边栏、分栏、可浮动栏等 UI 定制化能力。属于“为其它插件提供基础能力”的底座类插件，体现了 Cordis 插件系统中可组合性的特点（相比来说 Chrome 或 VS Code 中就不太会出现此类插件）。\n\n在 DSH",
+   "url": "https://x.com/tianyi/status/2104125200048746899",
+   "likes": 447
+  },
+  {
+   "id": "2103821968944533526",
+   "date": "Sat Sep 26 12:20:19 +0000 2026",
+   "text": "【DSH 社区插件推荐】推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。\n\n插件网址见回复。",
+   "url": "https://x.com/tianyi/status/2103821968944533526",
+   "likes": 877
+  },
+  {
+   "id": "2103534313463783831",
+   "date": "Fri Sep 25 17:17:16 +0000 2026",
+   "text": "从 DeepSeek 官方 API 处统计的数据来看，约有 60% 的 DeepSeek Harness 用户使用了至少一个第三方插件。第三方插件是 DeepSeek Harness 用户体验中最具特色且不可缺少的一部分。DeepSeek Harness 团队将持续支持第三方插件生态的繁荣发展，并推动插件 API 趋于稳定，在将来减少和尽量避免破坏性更新。",
+   "url": "https://x.com/tianyi/status/2103534313463783831",
+   "likes": 991
+  },
+  {
+   "id": "2097993855778046379",
+   "date": "Thu Sep 10 10:21:28 +0000 2026",
+   "text": "DeepSeek 开源了一些新的代码仓库，方便更容易地部署 V4.1 Flash 以及后续的开源模型：",
+   "url": "https://x.com/tianyi/status/2097993855778046379",
+   "likes": 1141
+  },
+  {
+   "id": "2097919769878135053",
+   "date": "Thu Sep 10 05:27:05 +0000 2026",
+   "text": "欢迎试用 DeepSeek Harness v0.1.5 版本。新版本与 DeepSeek V4.1 Flash 模型训练深度结合，模型在 DeepSeek Harness  的不同配置中都进行了专项训练和优化。\n\n与模型训练深度结合的实验性的 Agent Teams 功能也期待尝鲜试用。\n\nDeepSeek Harness 团队仍在开放招聘中，欢迎加入我们，一起打造",
+   "url": "https://x.com/tianyi/status/2097919769878135053",
+   "likes": 2003
+  },
+  {
+   "id": "2097371778364669954",
+   "date": "Tue Sep 08 17:09:33 +0000 2026",
+   "text": "DeepSeek 针对这次大规模的资深工程师社招重新设计了笔试和面试的题目和流程。",
+   "url": "https://x.com/tianyi/status/2097371778364669954",
+   "likes": 578
+  },
+  {
+   "id": "2096975270578139273",
+   "date": "Mon Sep 07 14:53:59 +0000 2026",
+   "text": "DeepSeek 社招资深后端/服务端工程师，新开放约 150 个 HC，好多好多新方向新系统新需求需要搞。简历建议直接扫码或邮箱投递，私信我简历的话会看但不一定能及时处理。",
+   "url": "https://x.com/tianyi/status/2096975270578139273",
+   "likes": 646
+  }
+ ]
+}
