@@ -1,1 +1,1 @@
-{"name":"cui-fetcher","private":true,"type":"module","dependencies":{"undici":"^7","x-client-transaction-id":"^0.1"}}
+{"name":"cui-fetcher","private":true,"type":"module","dependencies":{"undici":"^7","x-client-transaction-id":"0.3.2"}}
