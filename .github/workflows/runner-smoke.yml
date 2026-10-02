@@ -4,9 +4,9 @@ name: runner-smoke
 # 外加稳定数据接口契约校验（P0：挡错误内容以合法 JSON 身份入库）。
 on:
   push:
-    paths: ['engine/**', 'scripts/**', 'schema/**', '.github/workflows/runner-smoke.yml']
+    paths: ['engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
   pull_request:
-    paths: ['engine/**', 'scripts/**', 'schema/**', '.github/workflows/runner-smoke.yml']
+    paths: ['engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
   workflow_dispatch:
 
 concurrency:
@@ -21,6 +21,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: 校验仓内接口（生成前，避免重建掩盖已提交的数据错误）
+        run: |
+          pip install --quiet jsonschema
+          python3 scripts/validate_contracts.py .
       - name: 编译检查（scripts/ + engine/ 全量）
         run: python3 -m compileall -q scripts engine
       - name: 冒烟① 磁贴资产生成（tile_assets，确定性输出）
@@ -35,6 +39,8 @@ jobs:
           python3 scripts/export-data.py .
           python3 -c "import json; n=len(json.load(open('data/plugins-all.json'))['plugins']); assert n>5000, n; print(f'[smoke] 数据接口 OK：{n} 条')"
       - name: 冒烟③ 稳定接口契约校验（schema/radar-v1.schema.json）
-        run: |
-          pip install --quiet jsonschema
-          python3 scripts/validate_contracts.py .
+        run: python3 scripts/validate_contracts.py .
+      - name: 数据与渲染回归检查
+        run: python3 scripts/test_review_regressions.py
+      - name: 站点数据关联回归检查
+        run: python3 site/scripts/test_build_data.py

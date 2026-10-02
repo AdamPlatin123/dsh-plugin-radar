@@ -2,19 +2,22 @@ export const zh = {
   nav: { home: '首页', browse: '浏览', featured: '精选', bundles: '合集', about: '关于' },
   hero: {
     title: 'DSH 插件雷达',
-    tagline: 'DeepSeek Harness 插件生态目录——每个判定都来自真实运行级实测',
+    tagline: '持续发现 DeepSeek Harness 插件，追踪兼容状态与历史快照',
     cta: '开始浏览',
     cta2: '数据接口',
   },
   stat: {
     ok: '运行级可用', incompatible: '需适配', pending: '待定', untested: '未测',
     gone: '空仓监测', ambiguous: '歧义监测', unlocated: '未定位', total: '收录仓库',
-    fresh: '数据截至快照', runner: '实测基线',
+    fresh: '数据截至快照', runner: '实测基线', browsable: '默认可浏览',
+    runnerSource: '测试版本源', unavailable: '不可用',
   },
   filter: {
     all: '全部分类', verdict: '判定', stars: '星数', search: '搜索名称 / 仓库 / 描述…',
     any: '不限', sortStars: '按星数排序', resultCount: '{n} 个插件',
+    defaultNote: '默认仅展示「运行级可用」；切换判定可查看全部 {n} 条收录',
   },
+  curated: { noRecord: '暂无判定详情', recorded: '雷达记录：{status}' },
   card: { view: '详情', bundle: '整合包', pr: 'PR 登记', stars: '星', dormant: '休眠' },
   detail: {
     install: '安装', noInstall: '暂无安装命令（见仓库 README）',

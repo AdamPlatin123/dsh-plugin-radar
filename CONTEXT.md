@@ -13,15 +13,14 @@
 
 （决议于 2026-08-27 来源标记制 grilling，适用 PLUGINS.md 判定列与渲染产物。）
 
-## 三仓角色（清单仓 / 管线仓 / 引擎镜像仓）
+## 仓库角色（社区入口 / 管线仓 / 引擎与数据镜像）
 
-雷达生态的三个仓库（2026-09-27 修订，P1 全量重构后口径）：
+当前有两个实际仓库，承载以下逻辑角色（2026-10-02 校正改名后的拓扑）：
 
-- **清单仓**（AdamPlatin123/awesome-dsh-plugins）：社区登记 PR 的合并地，持有权威登记表（PLUGINS.md），面向读者的门面。
-- **管线仓**（Zhidao-Lab-OSS/awesome-dsh-plugins，2026-09-28 自 dsh-external/awesome-dsh-plugins 迁入，老仓已 archive）：快照生产与渲染源，雷达数据权威。
-- **引擎镜像仓**（AdamPlatin123/dsh-plugin-radar，即本仓）：引擎开源副本 + 站点宿主 + 管线数据镜像。数据流：管线仓→本仓（org→mirror 同步）→GitHub Pages 站点；渲染与导出经 canonical 单一事实源（见 docs/radar/architecture.md）。
+- **社区入口 + 引擎与数据镜像**（AdamPlatin123/dsh-plugin-radar，即本仓）：持有社区登记表（PLUGINS.md），接收登记 PR，公开引擎源码并承载站点；同时镜像管线数据。旧名 `AdamPlatin123/awesome-dsh-plugins` 重定向到同一 repository ID `1323404274`，不是第三个独立仓库。
+- **管线仓**（https://github.com/Zhidao-Lab-OSS/awesome-dsh-plugins，2026-09-28 迁移后公开地址）：快照生产与渲染源，雷达数据权威。旧组织公开路径当前返回 404，不能仅据此断定其归档状态。
 
-数据单向流：管线仓→清单仓、管线仓→本仓；登记表只在清单仓。（2026-08-27 首次正名取代「主仓/镜像」称呼；2026-09-27 增补第三仓角色。）
+管线数据流：管线仓→本仓（org→mirror 同步）→GitHub Pages 站点；渲染与导出经 canonical 单一事实源（见 docs/radar/architecture.md）。登记表在本仓维护。历史「清单仓」与「引擎镜像仓」名称描述的是逻辑角色，当前不能用作两个不同的 GitHub 仓库身份。
 
 ## 登记清单与全量索引
 

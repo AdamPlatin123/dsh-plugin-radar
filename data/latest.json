@@ -3,10 +3,10 @@
  "generated_at": "2026-10-02T02:30:51Z",
  "snapshot_run_id": "20261002T023001Z",
  "stats": {
-  "ok": 8342,
-  "incompatible": 3155,
-  "pending": 1843,
-  "untested": 44,
+  "ok": 8323,
+  "incompatible": 3145,
+  "pending": 1853,
+  "untested": 41,
   "gone": 843,
   "ambiguous": 105,
   "unlocated": 0

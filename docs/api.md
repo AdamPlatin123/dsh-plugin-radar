@@ -25,14 +25,20 @@ https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugi
 ```json
 {
   "schema": "dsh-radar/v1",
-  "generated_at": "2026-09-05T07:32:57Z",
-  "snapshot_run_id": "20260905T073001Z",
-  "stats": {"ok": 6262, "incompatible": 1668, "pending": 1191, "untested": 109,
-             "gone": 133, "ambiguous": 103, "unlocated": 8503},
-  "total_listed": 17971,   // 全量口径（含监测/未定位）；plugins 数组为已定位明细口径
-  "data": {"latest": "...", "plugins_all": "..."}
+  "generated_at": "2026-10-02T00:00:00Z",
+  "snapshot_run_id": "20261001T174501Z",
+  "stats": {"ok": 8351, "incompatible": 3156, "pending": 1814, "untested": 41,
+             "gone": 842, "ambiguous": 105, "unlocated": 1},
+  "total_listed": 13362,
+  "runner_versions": {},
+  "data": {
+    "plugins_all": "data/plugins-all.json",
+    "snapshots_dir": "data/snapshots/"
+  }
 }
 ```
+
+上例仅说明结构，不承诺当前数量或生成时间。`total_listed` 等于已定位且按仓库去重后的 `plugins[]` 长度，也等于四档 `ok + incompatible + pending + untested` 之和。`gone/ambiguous/unlocated` 为数组外监测计数，不参与该加总。版本源不可用时 `runner_versions` 为空对象，不应推断测试版本。
 
 **plugins-all.json**（`plugins[]` 数组，每条）
 
@@ -42,9 +48,11 @@ https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/data/plugi
 ```
 
 - `verdict ∈ ok | incompatible | pending | untested | gone | ambiguous | unlocated`
-  （运行级四档 + 定位监测三态；`ok` = 在 runner 版本 `latest.json.stats` 对应轮次下真实安装加载并完成验证任务）
+  （运行级四档 + 定位监测三态；当前已定位明细数组含前四档，监测三态单独计数。`ok` 为历史归并中的可用结论，不能解释为已在全局最新 runner 下验证。）
 - `stars` 为 `null` 表示未知（缺值，非 0）
 - **口径承诺**：字段只增不删；判定真相以 `data/snapshots/` 逐轮快照为准（本接口为多轮并集归并口径）
+
+发布说明：2026-10-02 维护修复将四档统计改为在最终仓库去重和冲突仲裁之后计数，字段名和数组结构不变，数量与明细逐条对账。公开接口尚未为每条记录提供完整的插件 commit、测试版本、时间和日志；全局版本指针不能替代逐条证据。
 
 ## 徽章（单插件可用性磁贴）
 

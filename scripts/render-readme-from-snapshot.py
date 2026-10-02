@@ -90,8 +90,15 @@ def fmt(x):
 
 def main():
     snap = latest_snapshot()
-    if not snap or not str(snap.get("schema", "")).startswith("radar-snapshot/"):
-        print("[render] 无有效快照（radar-snapshot/1）— 保持 README 现状（安全停旧）")
+    if (not isinstance(snap, dict)
+            or snap.get("schema") not in ("radar-snapshot/1", "radar-snapshot/2")
+            or any(not isinstance(snap.get(k), dict)
+                   for k in ("verdict", "discovery", "clone", "test", "deliver"))
+            or not isinstance(snap.get("run_id"), str) or not snap["run_id"]
+            or not isinstance(snap.get("generated_at"), str) or not snap["generated_at"]):
+        # 安全停旧 = 不写任何产物并显式非零退出（曾打印后继续索引 snap → NoneType/KeyError 崩栈）
+        print("[render] 无有效快照（radar-snapshot/*）— 保持 README 现状（安全停旧）")
+        return 1
 
     v, d, c, t, dl = (snap[k] for k in ("verdict", "discovery", "clone", "test", "deliver"))
     topo = snap.get("topology", {})
@@ -177,8 +184,9 @@ def main():
                    "| runner 版本 / version | 可用 / OK | 需适配 / adapt | 在测 / testing | 小计 / total |\n"
                    "|---|---:|---:|---:|---:|\n" + "\n".join(_vrows) + "\n"
                    f"| **累计 / cumulative** | **{n_ok}** | **{n_bad}** | **{n_test}** | **{n_ok + n_bad + n_test}** |")
-        # 幂等重建：先删旧表格（若有），再替换旧磁贴行（若有）——两者取其一即可
-        t_readme = re.sub(r"\*\*判定按 runner 版本分离[\s\S]*?\| \*\*累计 / cumulative\*\*[^\n]*\n?", "", t_readme, count=1)
+        # 幂等重建：先删旧表格（若有），再替换旧磁贴行（若有）——两者取其一即可；
+        # 尾部 \n* 消费旧表后的全部连续空行（\n? 每轮遗留一个空行，重复渲染逐轮累积）
+        t_readme = re.sub(r"\*\*判定按 runner 版本分离[\s\S]*?\| \*\*累计 / cumulative\*\*[^\n]*\n*", "", t_readme, count=1)
         t_readme = re.sub(r"^\[!\[运行级可用\][^\n]*\n(?:^$\n)?(?:^\[!\[runtime OK\][^\n]*\n)?(?:^$\n)?",
                           _vtable + "\n\n", t_readme, count=1, flags=re.M)
         # 双保险：若旧磁贴与旧表格都已被清但表格未插入（首次迁移），在 confirmed 徽章行后插入
@@ -275,7 +283,7 @@ def main():
         _vt = _rvd.get("latest") or ""
         _vd = " · ".join(f"{t} ({sum(c.values())})" for t, c in sorted(_rvd.get("versions", {}).items(),
                       key=lambda kv: (kv[0] == _vt, _vk(kv[0])), reverse=True)[:6])
-        t_readme = re.sub(r"^> 按版本分解.*$", "", t_readme, flags=re.M)
+        t_readme = re.sub(r"^> 按版本分解[^\n]*\n*", "", t_readme, flags=re.M)
         t_readme = re.sub(r"(渲染于快照 [0-9A-Za-z]+（[^\n]*）)",
                           f"\\g<0>\n> 按版本分解 / by runner version：{_vd}" if _vd else "\\g<0>", t_readme, count=1)
         t_readme = re.sub(r"(更新于 [0-9-]+ [0-9:]+[^\n]*|渲染于快照 [0-9A-Za-z]+（[^\n]*）)",

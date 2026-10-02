@@ -2,7 +2,7 @@
 import { computed, onMounted, reactive, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useRows, applyFilters, byStars, type Filters } from '../lib/data'
+import { meta, useRows, applyFilters, byStars, type Filters } from '../lib/data'
 import FilterBar from '../components/FilterBar.vue'
 import VirtualCardGrid from '../components/VirtualCardGrid.vue'
 
@@ -14,23 +14,24 @@ onMounted(ensureRows)
 
 const filters = reactive<Filters>({
   domain: (route.query.domain as string) || 'all',
-  verdict: (route.query.verdict as string) || 'all',
+  // 默认口径 = 「运行级可用」（totalBrowsable）；判定筛选保留，可切全量收录
+  verdict: (route.query.verdict as string) || 'ok',
   stars: (route.query.stars as string) || 'all',
   q: (route.query.q as string) || '',
 })
 
-// 筛选状态 ↔ URL query 双向同步（可分享、可后退）
+// 筛选状态 ↔ URL query 双向同步（可分享、可后退）；默认值不写入 query
 watch(filters, (f) => {
   const q: Record<string, string> = {}
   if (f.domain !== 'all') q.domain = f.domain
-  if (f.verdict !== 'all') q.verdict = f.verdict
+  if (f.verdict !== 'ok') q.verdict = f.verdict
   if (f.stars !== 'all') q.stars = f.stars
   if (f.q) q.q = f.q
   router.replace({ query: q })
 })
 watch(() => route.query, (q) => {
   filters.domain = (q.domain as string) || 'all'
-  filters.verdict = (q.verdict as string) || 'all'
+  filters.verdict = (q.verdict as string) || 'ok'
   filters.stars = (q.stars as string) || 'all'
   filters.q = (q.q as string) || ''
 })
@@ -45,8 +46,11 @@ const filtered = computed(() => {
 
 <template>
   <h1 class="page-h">{{ t('nav.browse') }}</h1>
-  <FilterBar v-model="filters" />
-  <div class="count num">{{ t('filter.resultCount', { n: filtered.length.toLocaleString() }) }}</div>
+  <FilterBar :model-value="filters" @update:model-value="Object.assign(filters, $event)" />
+  <div class="count num">
+    {{ t('filter.resultCount', { n: filtered.length.toLocaleString() }) }}
+    <span class="scope">· {{ t('filter.defaultNote', { n: meta.totalIndexed.toLocaleString() }) }}</span>
+  </div>
   <div v-if="!loaded" class="loading">…</div>
   <VirtualCardGrid v-else-if="filtered.length" :rows="filtered" />
   <div v-else class="empty">{{ t('empty.noResult') }}</div>
@@ -55,5 +59,6 @@ const filtered = computed(() => {
 <style scoped>
 .page-h { font-size: 22px; margin: 0 0 16px; }
 .count { color: var(--fg-faint); font-size: 13px; margin-bottom: 10px; }
+.scope { color: var(--fg-faint); }
 .loading, .empty { padding: 60px 0; text-align: center; color: var(--fg-faint); }
 </style>

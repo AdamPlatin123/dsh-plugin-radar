@@ -111,4 +111,22 @@ export function byStars(a: PluginRow, b: PluginRow): number {
   return (b.stars ?? -1) - (a.stars ?? -1)
 }
 
+/** 策展条目（精选/整合包）的构建期状态：是否进入最终 rows + 真实判定/监测态 */
+export interface CuratedStatus {
+  indexed: boolean
+  verdict: string | null
+  dormant: boolean
+  monitor: string | null   // 未收录时的监测档位：unlocated / gone / ambiguous / null（无记录）
+}
+
+export function curatedStatusOf(repo: string): CuratedStatus | null {
+  const table = meta.curatedStatus as Record<string, CuratedStatus>
+  return table[repo.toLowerCase()] ?? null
+}
+
+/** 策展条目源仓库地址（未收录条目的回退出口；已收录条目的详情页亦有同链接） */
+export function sourceRepoUrl(repo: string): string {
+  return `https://github.com/${repo}`
+}
+
 export { meta }
