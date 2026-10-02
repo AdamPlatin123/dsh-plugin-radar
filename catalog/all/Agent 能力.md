@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1855）
+# 🤖 Agent 能力（1857）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -24,7 +24,7 @@
 - 🟩 `[可用]` [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) ★439 — Composable, view-based memory for DeepSeek Harness
 - 🟩 `[可用]` [morluto-rea](https://github.com/morluto/rea) ★421 — Reverse engineer anything with agents, from app behavior down to native binaries.
 - ⬜ `[待定]` [ilyautov-humanizer-ru](https://github.com/ilyautov/humanizer-ru) ★405 — humanizer-ru: редактура русского текста для AI-агентов
-- 🟩 `[可用]` [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) ★390 — Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving sk
+- ⬜ `[待定]` [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) ★390 — Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving sk
 - ⬜ `[待定]` [minara-ai-minara-skills](https://github.com/Minara-AI/minara-skills) ★359 — —
 - ⬜ `[待定]` [mrpulor-gh-nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) ★316 — Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Ch
 - 🟩 `[可用]` [openma-ai-open-managed-agents](https://github.com/openma-ai/open-managed-agents) ★313 — Self-host AI agents with Claude Managed Agents and OpenAI Agents API support〔📦〕
@@ -462,6 +462,7 @@
 - ⬜ `[待定]` [yunxiyang-dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) ★2 — Continue a DeepSeek Harness agent turn whose model narrated its next action but called no tool.
 - 🟩 `[可用]` [yyyyolo7a79-sketch-dsh-auto-and-safety](https://github.com/yyyyolo7a79-sketch/dsh-auto-and-safety) ★2 — DSH auto-and-safety permission preset: full file access but no delete without user approval
 - ⬜ `[待定]` [dsh-plugin-token-billing](https://github.com/yzgwowcn/dsh-plugin-token-billing) ★2 — DeepSeek Harness Token 计费插件：会话/全账户 token 用量与费用、账户余额、右侧用量仪表盘（时段消费、模型花费、热力图、余额曲线）
+- ⬜ `[待定]` [dsh-SkillsManagePlugins](https://github.com/z-col/dsh-SkillsManagePlugins) ★2 — DSH Skills 可视化管理器：在 DSH Web 界面可视化查看、编辑、创建、删除 Skills（用户级 ~/.dsh/skills 与项目级 .dsh/skills）
 - 🟩 `[可用]` [zhang-zhengyuan-dsh-memory-amem](https://github.com/Zhang-Zhengyuan/dsh-memory-amem) ★2 — —
 - 🟩 `[可用]` [zhangdong456-dsh-prompt-presets](https://github.com/zhangdong456/dsh-prompt-presets) ★2 — Prompt Presets to manage your library
 - 🟩 `[可用]` [zhaoyuntao-wl-dsh-plugin-thread](https://github.com/zhaoyuntao-wl/dsh-plugin-thread) ★2 — DeepSeek Harness plugin - Thread session memory adapter (dsh-thread)
@@ -500,6 +501,7 @@
 - 🟩 `[可用]` [aorucshiea-dsh-preset-switch](https://github.com/aorucshiea/dsh-preset-switch) ★1 — Optional mid-session agent-preset switching for DeepSeek Harness
 - 🟩 `[可用]` [dsh-turn-approval](https://github.com/arrow949/dsh-turn-approval) ★1 — Turn-scoped "Allow for this task" approvals for DeepSeek Harness.
 - ⬜ `[待定]` [dsh-plan-first-dev](https://github.com/asd176916847/dsh-plan-first-dev) ★1 — DSH 插件：开发前自动进入 plan mode（plan-first development workflow）
+- ⬜ `[待定]` [axelfreeman-hermes-security-audit](https://github.com/axelfreeman/hermes-security-audit) ★1 — 🔒 12-method security audit for Hermes Agent — virus scan, rootkit detection, SSH brute force protection
 - 🟩 `[可用]` [ayato233-dsh-agent-manage](https://github.com/Ayato233/dsh-agent-manage) ★1 — —
 - ⬜ `[待定]` [bbaz123-novel-writing-plugin](https://github.com/bbaz123/novel-writing-plugin) ★1 — DeepSeek Harness plugin for long-form Chinese AI novel writing: layered context, foreshadowing ledger, anti-AI
 - 🟩 `[可用]` [beijingwahw-dsh-companion-dev](https://github.com/beijingwahw/dsh-companion-dev) ★1 — DeepSeek Companion 开发者版 — DeepSeek Harness 官方伴侣插件完整功能集：A–J 九大模块（对话导出/交接摘要/成本优化/全局检索 + 执行轨迹分析、Prompt 工程工作台、多模型竞
@@ -1288,6 +1290,7 @@
 - 🟩 `[可用]` [zhengjy01-dsh-flomo](https://github.com/zhengjy01/dsh-flomo) ★0 — Send notes and memos to flomo (浮墨笔记) from DeepSeek Harness: flomo_send / flomo_config / flomo_status agent too
 - 🟩 `[可用]` [zhengjy01-dsh-flomo-report](https://github.com/zhengjy01/dsh-flomo-report) ★0 — Daily session report generator for DeepSeek Harness with one-click flomo sync: AI-narrated daily/weekly/monthl
 - ⬜ `[待定]` [zhengjy01-dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) ★0 — Session-profile skill recommender for DeepSeek Harness
+- ⬜ `[待定]` [zhengjy01-dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) ★0 — Knowledge Planet (zsxq) integration for DeepSeek Harness
 - `[空仓监测]` **zhengzeyong9527-droid-zzy-dsh-prompt-optimize** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [zisen123-dsh-reasoning-ruler](https://github.com/zisen123/dsh-reasoning-ruler) ★0 — Minimal reasoning-effort ruler for the DSH web composer: hairline + sliding marker, per-model memory, optimist
 - 🟩 `[可用]` [zouxiaoqiang-dsh-hotkeys](https://github.com/zouxiaoqiang/dsh-hotkeys) ★0 — dsh-hotkeys: personal DeepSeek Harness (DSH) user-level plugin — configurable keyboard shortcuts to cycle the
@@ -1542,7 +1545,6 @@
 - 🟨 `[不兼容]` [wxxb789-dsh-legion](https://github.com/wxxb789/dsh-legion) ★2 — Multi-agent orchestration and LLM model routing for DeepSeek Harness (DSH): semantic AI agent profiles, exact
 - 🟨 `[不兼容]` [yanglaofish-dsh-skill-manager](https://github.com/yanglaofish/dsh-skill-manager) ★2 — dsh-plugin，use to manager an enable skills
 - 🟨 `[不兼容]` [yiyuzh-dsh-skillflux](https://github.com/YiyuZh/dsh-skillflux) ★2 — —
-- 🟨 `[不兼容]` [dsh-SkillsManagePlugins](https://github.com/z-col/dsh-SkillsManagePlugins) ★2 — DSH Skills 可视化管理器：在 DSH Web 界面可视化查看、编辑、创建、删除 Skills（用户级 ~/.dsh/skills 与项目级 .dsh/skills）
 - 🟨 `[不兼容]` [zmh2000829-dsh-memory-graph](https://github.com/zmh2000829/dsh-memory-graph) ★2 — Local-first long-term memory and temporal knowledge graph plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [vidgewong-dsh-agent-hub](https://github.com/vidgewong/dsh-agent-hub) ★2 — —
 - 🟨 `[不兼容]` [deepseek-harness-memory](https://github.com/2303572348/deepseek-harness-memory) ★1 — —
