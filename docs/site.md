@@ -29,6 +29,8 @@ npm run build                             # vue-tsc 类型检查 + vite build
 
 ## 数据口径
 
+- 一仓一条：按 GitHub 稳定仓库编号和已核实别名归一改名、转移后的地址；插件与整合包共享同一记录，整合包是标签，不额外生成一张卡。首页精选与星数榜也按归一身份互斥展示；不同编号的同名项目和 fork 保持独立。
+- 身份来源：上游仓库映射、补采返回的仓库编号与当前全名，以及人工核实的 [身份修正记录](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/data/repository-identities.json)。修正文件独立于镜像写入，避免上游旧映射覆盖；后续补采的更新身份可继续跟随改名。站点在写入大表、索引元数据和计算统计前再次归一；旧地址详情链接兼容解析到当前仓库。
 - 首页星数榜先按仓库名称中的独立 `dsh` 或 `deepseek-harness` 标识筛选（忽略大小写，支持连字符、下划线与点分隔），再按星数降序展示前 12 项；不按作者名或描述推断关联，不改变全量浏览与数据接口的收录范围。榜单保留不同兼容性判定，以卡片状态为准。
 - 大表全量行 = `data/plugins-all.json`（dsh-radar/v1 五字段）⊕ canonical 域分类
   （13 taxonomy）⊕ bundle/PR 标记；enrich 副表 = `data/plugins-enrich.json`
@@ -50,7 +52,7 @@ npm run build                             # vue-tsc 类型检查 + vite build
 ## 回归测试
 
 ```bash
-python3 /mnt/shared/_Projects/DSH-Plugin-Radar/site/scripts/test_build_data.py   # 站点烘焙不变量（离线 fixture，13 例）
+python3 /mnt/shared/_Projects/DSH-Plugin-Radar/site/scripts/test_build_data.py   # 站点烘焙不变量（离线 fixture，14 例）
 ```
 
 覆盖：全量行不被 verdict 过滤、enrich 键与 flags 对齐且逐行归属正确、

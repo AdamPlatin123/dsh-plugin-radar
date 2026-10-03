@@ -35,7 +35,7 @@ SIDECAR = ROOT / 'data' / 'plugins-enrich.json'
 BATCH = 50
 
 # GraphQL 扩展字段（stargazerCount 保持——与星标刷同批，可互替）
-FIELDS = ('stargazerCount nameWithOwner pushedAt primaryLanguage{name} '
+FIELDS = ('databaseId stargazerCount nameWithOwner pushedAt primaryLanguage{name} '
           'licenseInfo{spdxId} repositoryTopics(first:5){nodes{topic{name}}} '
           'owner{login avatarUrl(size:96)}')
 
@@ -134,6 +134,9 @@ def main() -> int:
                       ((node.get('repositoryTopics') or {}).get('nodes') or []) if t.get('topic')]
             prev_img = entries.get(repo, {}).get('readme_image', '')   # 旧图先捕获（外审 P2：整条重建曾把旧图丢掉）
             entries[repo] = {
+                'canonical_id': f"github:{node['databaseId']}" if node.get('databaseId') else '',
+                'full_name': node.get('nameWithOwner') or repo,
+                'identity_checked_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
                 'stars': node.get('stargazerCount'),
                 'pushed_at': node.get('pushedAt') or '',
                 'avatar': ((node.get('owner') or {}).get('avatarUrl') or ''),

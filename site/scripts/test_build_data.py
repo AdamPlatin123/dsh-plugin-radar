@@ -236,6 +236,42 @@ class BuildDataRegression(unittest.TestCase):
         self.assertEqual(by_repo['f/dormant-inc'][6] & 8, 8)  # skip-list 命中
         self.assertEqual(by_repo['a/first-untested'][6], 4)
 
+    def test_alias_duplicates_merge_before_enrich_flags_and_statistics(self):
+        """旧导出仍有别名重复时，站点写入归一身份；整合包标签、元数据和统计都跟随最终行。"""
+        with tempfile.TemporaryDirectory() as folder:
+            root, out = Path(folder) / 'root', Path(folder) / 'out'
+            _write(root)
+            rows = {'plugins': [
+                {'repo': 'old/desktop', 'name': 'desktop', 'verdict': 'ok', 'stars': 10, 'desc': 'desktop'},
+                {'repo': 'new/desktop', 'name': 'desktop', 'verdict': 'incompatible', 'stars': 20, 'desc': 'desktop〔📦〕'},
+                {'repo': 'independent/desktop', 'name': 'desktop', 'verdict': 'ok', 'stars': 30, 'desc': 'different project'},
+            ]}
+            (root / 'data/plugins-all.json').write_text(json.dumps(rows))
+            (root / 'data/repository-identities.json').write_text(json.dumps({'entries': [{
+                'canonical_id': 'github:1', 'full_name': 'new/desktop',
+                'aliases': ['old/desktop'], 'checked_at': '2026-10-03'}]}))
+            (root / 'data/plugins-enrich.json').write_text(json.dumps({'entries': {
+                'old/desktop': {'lang': 'Rust', 'pushed_at': '2026-10-03T00:00:00Z'},
+                'independent/desktop': {'lang': 'Python'},
+            }}))
+            (root / 'data/awesome-50.json').write_text(json.dumps({'categories': [{
+                'name': 'desktop', 'plugins': [{'repo': 'old/desktop', 'name': 'desktop'}]}]}))
+            (root / 'data/test-skip-list.json').write_text(json.dumps({'repos': ['old/desktop']}))
+            build(root, out)
+            final_rows = _load_export(out / 'plugins.ts', 'ROWS')
+            meta = _load_export(out / 'meta.ts', 'meta')
+            enrich = _load_export(out / 'plugins.ts', 'ENRICH')
+            self.assertEqual([r[0] for r in final_rows], ['new/desktop', 'independent/desktop'])
+            self.assertEqual(final_rows[0][2], 'pending')
+            self.assertEqual(final_rows[0][3], 20)
+            self.assertEqual(final_rows[0][6] & 13, 13)  # 整合包、有元数据、休眠位都归并
+            self.assertEqual(enrich['0'][2], 'Rust')
+            self.assertEqual(enrich['1'][2], 'Python')
+            self.assertEqual(meta['totalIndexed'], 2)
+            self.assertEqual(meta['totalBrowsable'], 1)
+            self.assertEqual(meta['curatedStatus']['old/desktop']['verdict'], 'pending')
+            self.assertEqual(meta['repoAliases']['old/desktop'], 'new/desktop')
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

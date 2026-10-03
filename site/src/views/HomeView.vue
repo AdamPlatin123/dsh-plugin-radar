@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { meta, useRows, curatedStatusOf, sourceRepoUrl } from '../lib/data'
+import { meta, useRows, curatedStatusOf, sourceRepoUrl, canonicalRepo } from '../lib/data'
 import { dshStarLeaders } from '../lib/ranking'
 import StatStrip from '../components/StatStrip.vue'
 import PluginCard from '../components/PluginCard.vue'
@@ -12,13 +12,20 @@ import StarCount from '../components/StarCount.vue'
 const { t } = useI18n()
 const { rows, loaded, ensureRows } = useRows()
 onMounted(ensureRows)
+const topByStars = computed(() => dshStarLeaders(rows.value))
 
 // 首页精选横滑：awesome-50 各分类头部成员（按 verdict 可用优先 + 名单序）
 interface FeaturedCat { name: string; plugins: { repo: string; name: string; verdict: string | null; desc: string }[] }
 const featured = computed(() => {
   const cats: FeaturedCat[] = meta.featured.categories ?? []
   const flat = cats.flatMap((c) => c.plugins.slice(0, 3).map((m) => ({ ...m, cat: c.name })))
-  return flat.slice(0, 18)
+  const seen = new Set(topByStars.value.map((m) => m.repo.toLowerCase()))
+  return flat.filter((m) => {
+    const repo = canonicalRepo(m.repo).toLowerCase()
+    if (seen.has(repo)) return false
+    seen.add(repo)
+    return true
+  }).slice(0, 18)
 })
 // 未进入雷达索引的横滑条目：外链源仓库 + 监测态，而非 404 详情
 const statusOf = curatedStatusOf
@@ -26,7 +33,6 @@ const monitorLabel = (repo: string) => {
   const monitor = statusOf(repo)?.monitor
   return monitor ? t('curated.recorded', { status: t(`stat.${monitor}`) }) : t('curated.noRecord')
 }
-const topByStars = computed(() => dshStarLeaders(rows.value))
 </script>
 
 <template>
@@ -48,7 +54,7 @@ const topByStars = computed(() => dshStarLeaders(rows.value))
     <div class="rail">
       <div v-for="f in featured" :key="f.repo" class="rail-card">
         <router-link v-if="statusOf(f.repo)?.indexed" :to="`/plugin/${f.repo}`" class="rail-link">
-          <LazyOgImage :repo="f.repo" :name="f.name" :verdict="statusOf(f.repo)?.verdict || 'pending'" />
+          <LazyOgImage :repo="canonicalRepo(f.repo)" :name="f.name" :verdict="statusOf(f.repo)?.verdict || 'pending'" />
           <div class="rail-body">
             <div class="rail-name">{{ f.name }}</div>
             <div class="rail-desc">{{ f.desc }}</div>

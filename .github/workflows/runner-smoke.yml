@@ -41,6 +41,8 @@ jobs:
       - name: 冒烟③ 稳定接口契约校验（schema/radar-v1.schema.json）
         run: python3 scripts/validate_contracts.py .
       - name: 数据与渲染回归检查
-        run: python3 scripts/test_review_regressions.py
+        run: |
+          python3 scripts/test_repository_identity.py
+          python3 scripts/test_review_regressions.py
       - name: 站点数据关联回归检查
         run: python3 site/scripts/test_build_data.py

@@ -25,6 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'lib'))
 from radar.atomicio import atomic_write_json  # noqa: E402
 from radar.sanitize import sanitize_desc, sanitize_name, url_guard  # noqa: E402
+from radar.repository_identity import RepositoryIdentities, dedupe_public_rows  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 SNAP_DIR = ROOT / 'data' / 'snapshots'
@@ -104,20 +105,23 @@ def load_entries():
     return list(merged.values()), rounds, n
 
 
-def canonical_key(e, repo_map, locate):
+def canonical_key(e, repo_map, locate, identities=None):
     """条目 → 规范主键。真实 URL > repo-map local_key > locate-cache；均无则退回原始键。"""
     url = e.get('url') or ''
     if 'search?q=' not in url:
         m = REAL_URL_RE.search(url)
         if m:
-            return ('repo', f"{m.group(1)}/{m.group(2)}".lower())
+            full = f"{m.group(1)}/{m.group(2)}"
+            return ('repo', (identities.resolve(full) if identities else full).lower())
     name = e['name']
     r = repo_map.get(name)
     if r and r.get('full_name'):
-        return ('repo', r['full_name'].lower())
+        full = r['full_name']
+        return ('repo', (identities.resolve(full) if identities else full).lower())
     lc = locate.get(name) or {}
     if lc.get('status') == 'found' and lc.get('full_name'):
-        return ('repo', lc['full_name'].lower())
+        full = lc['full_name']
+        return ('repo', (identities.resolve(full) if identities else full).lower())
     return ('raw', name.lower(), url)
 
 
@@ -140,7 +144,10 @@ def merge_entry(a, b):
     if not out.get('domain') and b.get('domain'):
         out['domain'] = b['domain']
     va, vb = out.get('verdict'), b.get('verdict')
-    if va != vb:
+    if out.get('verdict_conflict') or b.get('verdict_conflict'):
+        out['verdict'] = '⚠️ 待定'
+        out['verdict_conflict'] = out.get('verdict_conflict') or b['verdict_conflict']
+    elif va != vb:
         if vb in CONFLICTING_VERDICTS and va not in CONFLICTING_VERDICTS:
             out['verdict'] = vb
         elif va in CONFLICTING_VERDICTS and vb not in CONFLICTING_VERDICTS:
@@ -151,11 +158,19 @@ def merge_entry(a, b):
     return out
 
 
-def canonical_merge(entries, repo_map, locate):
+def canonical_merge(entries, repo_map, locate, identities=None):
     """按 canonical 主键归并（装载产出的条目序近似新→旧）。返回 (归并条目, 统计)。"""
     groups, order, plain = {}, [], {}
     for e in entries:
-        k = canonical_key(e, repo_map, locate)
+        e = dict(e)
+        if identities and url_guard(e.get('url') or ''):
+            full = e['url'].split('github.com/')[1].strip('/')
+            current = identities.resolve(full)
+            if full.lower() != current.lower():
+                if e['name'].lower() in {full.split('/')[-1].lower(), full.lower().replace('/', '-')}:
+                    e['name'] = current.split('/')[-1]
+                e['url'] = f'https://github.com/{current}'
+        k = canonical_key(e, repo_map, locate, identities)
         if k not in groups:
             groups[k] = dict(e)
             order.append(k)
@@ -210,11 +225,12 @@ def build(root: Path = ROOT):
     desc_cache = _read_json_safe(DESC_CACHE, {}) if DESC_CACHE.exists() else {}
     url_audit = (_read_json_safe(URL_AUDIT, {}) or {}).get('entries', {}) if URL_AUDIT.exists() else {}
     pr_names = pr_registered_names()
+    identities = RepositoryIdentities.load(root)
 
-    entries, (n_dedup, n_conflict) = canonical_merge(entries, repo_map, locate)
+    entries, (n_dedup, n_conflict) = canonical_merge(entries, repo_map, locate, identities)
 
     # 实时 star 映射（locate-cache 的 full_name → stargazerCount），对全部已定位条目生效
-    live_star = {r['full_name'].lower(): r['star'] for r in locate.values()
+    live_star = {identities.resolve(r['full_name']).lower(): r['star'] for r in locate.values()
                  if r.get('status') == 'found' and r.get('full_name') and isinstance(r.get('star'), int)}
 
     # 日更 GQL 星缓存（refresh-stars bot 回流 data/star-cache.json）最高优先：
@@ -223,7 +239,7 @@ def build(root: Path = ROOT):
     _n_sc = 0
     for _k, _v in _sc.items():
         if isinstance(_v, dict) and isinstance(_v.get('star'), int):
-            live_star[_k] = _v['star']
+            live_star[identities.resolve(_k).lower()] = _v['star']
             _n_sc += 1
     if _n_sc:
         print(f'[canonical] star-cache 覆盖 {_n_sc} 条实时星')
@@ -233,7 +249,7 @@ def build(root: Path = ROOT):
         if 'search?q=' in (e.get('url') or ''):
             r = locate.get(e['name'], {})
             if r.get('status') == 'found':
-                e['url'] = f"https://github.com/{r['full_name']}"
+                e['url'] = f"https://github.com/{identities.resolve(r['full_name'])}"
                 e['locate'] = 'located'
                 n_fix += 1
             elif r.get('status') == 'not_found':
@@ -277,7 +293,7 @@ def build(root: Path = ROOT):
             if not rm:
                 continue
             name, url, desc = rm.group(1).strip(), rm.group(2), rm.group(3).strip()
-            full = url.split('github.com/')[1].strip('/').lower()
+            full = identities.resolve(url.split('github.com/')[1].strip('/')).lower()
             if full in have:
                 continue
             dom, _hit = classify(name, desc)
@@ -293,15 +309,7 @@ def build(root: Path = ROOT):
             have.add(full)
 
     # canonical 改名跟随（repo-map aliases → 引擎登记的最新全名；名称文本仅在等于旧仓名时改写）
-    rm_canon = {}
-    for v in repo_map.values():
-        fn = (v.get('full_name') or '').strip()
-        if not fn:
-            continue
-        for a in ([fn] + list(v.get('aliases') or [])):
-            al = (a or '').strip().lower()
-            if al and al != fn.lower():
-                rm_canon[al] = fn
+    rm_canon = identities.aliases
     n_rename = 0
     for e in entries:
         if e.get('locate') != 'located':
@@ -317,6 +325,11 @@ def build(root: Path = ROOT):
             e['name'] = canon.split('/')[1]
         e['url'] = f"https://github.com/{canon}"
         n_rename += 1
+
+    # 定位修复与登记兜底会使不同原键收敛为同仓；目录/统计之前再次归并，而非只在导出处去重。
+    entries, (n_post_dedup, _) = canonical_merge(entries, repo_map, locate, identities)
+    n_dedup += n_post_dedup
+    n_conflict = sum(1 for e in entries if e.get('verdict_conflict'))
 
     # desc 回填（GitHub 描述缓存）+「其他」兜底重分类（taxonomy v2 规则，仅动其他类）
     n_desc = n_reclass = 0
@@ -365,6 +378,9 @@ def build(root: Path = ROOT):
 
     # 统计在全部消毒/降级完成后计算（外审 P1：曾先算后消毒，URL 降级后
     # stats_located/export_stats 保留旧定位状态——当前数据零违规零漂移，逻辑修正）
+    n_empty = sum(e['locate'] == 'empty_watch' for e in entries)
+    n_amb = sum(e['locate'] == 'ambiguous_watch' for e in entries)
+    n_unresolved = sum(e['locate'] == 'unresolved' for e in entries)
     vc = Counter(e['verdict'] for e in entries if e['locate'] == 'located')
     v_all = Counter(e['verdict'] for e in entries)
 
@@ -390,20 +406,8 @@ def build(root: Path = ROOT):
                 'stars': e.get('star') if isinstance(e.get('star'), int) else None,
                 'desc': f'{desc}{pr}{bundle}',
             })
-    # 同仓多键去重 + 判定仲裁（与旧导出路径逐字一致：定位修复发生在归并之后，
-    # 占位条目修复出真实 URL 后可能与既有条目同仓——首个获胜、星数取大、ok/❌ 冲突降 pending）
-    _by = {}
-    for p in export_rows:
-        k = p['repo'].lower()
-        if k in _by:
-            prev = _by[k]
-            if prev['verdict'] != p['verdict'] and {prev['verdict'], p['verdict']} & {'ok', 'incompatible'}:
-                prev['verdict'] = 'pending'
-            if (p['stars'] or 0) > (prev['stars'] or 0):
-                prev['stars'] = p['stars']
-        else:
-            _by[k] = p
-    export_rows = list(_by.values())
+    # 出口再验证归一身份；与站点和历史 Markdown 导出共享同仓标签/星数/判定归并规则。
+    export_rows = dedupe_public_rows(export_rows, identities)
 
     # 四档清单统计在同仓去重与判定仲裁后按最终 rows 计数，与对外数组逐条一致
     # （曾用去重前的 vc，latest.stats 与 plugins[] 实际计数漂移——语义门禁校验的就是它）；

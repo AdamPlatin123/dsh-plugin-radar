@@ -8,10 +8,12 @@ on:
   push:
     branches: [main]
     paths: ['site/**', 'data/plugins-all.json', 'data/latest.json', 'data/plugins-enrich.json',
-            'data/awesome-50.json', 'data/bundles.json', 'catalog/**', 'engine/aggregation/**',
+            'data/awesome-50.json', 'data/bundles.json', 'data/repo-map.json', 'data/repository-identities.json',
+            'catalog/**', 'engine/aggregation/**', 'engine/lib/radar/repository_identity.py',
             '.github/workflows/site-build-deploy.yml']
   pull_request:
-    paths: ['site/**', '.github/workflows/site-build-deploy.yml']
+    paths: ['site/**', 'engine/aggregation/**', 'engine/lib/radar/repository_identity.py',
+            'data/repo-map.json', 'data/repository-identities.json', '.github/workflows/site-build-deploy.yml']
   schedule:
     - cron: "37 22 * * *"
   workflow_dispatch: {}
@@ -36,7 +38,9 @@ jobs:
           cache: 'npm'
           cache-dependency-path: site/package.json
       - name: 烘焙站点数据（canonical ⊕ 清单 → src/data/*.ts）
-        run: python3 site/scripts/build_data.py --root .
+        run: |
+          python3 site/scripts/test_build_data.py
+          python3 site/scripts/build_data.py --root .
       - name: 构建（类型检查 + vite build）
         run: |
           npm ci --prefix site --no-audit --no-fund
