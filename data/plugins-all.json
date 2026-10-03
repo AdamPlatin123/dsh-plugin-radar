@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-03T17:31:27Z",
+ "generated_at": "2026-10-03T17:46:32Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -318,13 +318,6 @@
    "desc": "—"
   },
   {
-   "repo": "FeatherHunter/dsh-mattpocock-skills-deck",
-   "name": "featherhunter-dsh-mattpocock-skills-deck",
-   "verdict": "pending",
-   "stars": 102,
-   "desc": "—"
-  },
-  {
    "repo": "baihejiangnan/deepseek-harness-desktop",
    "name": "baihejiangnan-deepseek-harness-desktop",
    "verdict": "ok",
@@ -558,7 +551,7 @@
   {
    "repo": "FeatherHunter/dsh-prompt",
    "name": "featherhunter-dsh-prompt",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 18,
    "desc": "—"
   },
@@ -932,6 +925,13 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "向模型暴露 sleep 工具，按指定毫秒暂停执行后返回，支持取消/clamp \\| Exposes a sleep tool that pauses for specified ms then returns, with"
+  },
+  {
+   "repo": "morlay/better-session",
+   "name": "morlay-better-session",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "better session"
   },
   {
    "repo": "yoza10635/dsh-argp",
@@ -1737,13 +1737,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "Conversation Landmarks (对话地标) for DeepSeek Harness — fixed navigation and hover previews for long agent conver"
-  },
-  {
-   "repo": "Max-Null/dsh-memory",
-   "name": "max-null-dsh-memory",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "—"
   },
   {
    "repo": "maxiaovivi/dsh-cloak-browser",
@@ -8921,6 +8914,13 @@
    "desc": "Read-only Agent work-path observer for DeepSeek Harness"
   },
   {
+   "repo": "FeatherHunter/dsh-mattpocock-skills-deck",
+   "name": "featherhunter-dsh-mattpocock-skills-deck",
+   "verdict": "incompatible",
+   "stars": 102,
+   "desc": "—"
+  },
+  {
    "repo": "titanwings/dsh-automation",
    "name": "dsh-automation",
    "verdict": "incompatible",
@@ -9285,13 +9285,6 @@
    "desc": "DSH for Teams — Deploy DSH once on your LAN; memory, knowledge base & document search included"
   },
   {
-   "repo": "morlay/better-session",
-   "name": "morlay-better-session",
-   "verdict": "incompatible",
-   "stars": 9,
-   "desc": "better session"
-  },
-  {
    "repo": "whutzefengxie-ops/dsh-shadow-mind",
    "name": "whutzefengxie-ops-dsh-shadow-mind",
    "verdict": "incompatible",
@@ -9549,6 +9542,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "Standalone Agent Client Protocol (ACP) server for DeepSeek Harness with real-time streaming, reasoning trace,"
+  },
+  {
+   "repo": "Max-Null/dsh-memory",
+   "name": "max-null-dsh-memory",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "—"
   },
   {
    "repo": "megatronyy/dsh-tradingagents",
@@ -13970,7 +13970,7 @@
   {
    "repo": "better-er/dsh-classic-coding",
    "name": "better-er-dsh-classic-coding",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "「DSH·古法编程」：在 DSH Web 界面右侧栏用 Monaco 编辑器打开工作区代码文件"
   },
@@ -30994,7 +30994,7 @@
   {
    "repo": "Max-Null/dsh-chinese-thinking",
    "name": "max-null-dsh-chinese-thinking",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "—"
   },
@@ -35537,7 +35537,7 @@
   {
    "repo": "STARDUSTLC666/dsh-cite",
    "name": "stardustlc666-dsh-cite",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -36167,7 +36167,7 @@
   {
    "repo": "ZJUZhiyuCai/dsh-ivory",
    "name": "zjuzhiyucai-dsh-ivory",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -70285,7 +70285,7 @@
   {
    "repo": "YRN-playmaker/dsh-wallpaper_share",
    "name": "yrn-playmaker-dsh-wallpaper-share",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 30,
    "desc": "—"
   },
@@ -73790,6 +73790,13 @@
    "desc": "—"
   },
   {
+   "repo": "zsxh1990/pr-genius",
+   "name": "zsxh1990-pr-genius",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库"
+  },
+  {
    "repo": "LQ-1123/paste-to-workspace",
    "name": "paste-to-workspace",
    "verdict": "ok",
@@ -75993,13 +76000,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Installable DeepSeek Harness profile bundle and bounded MCP adapter for MediaCrawler."
-  },
-  {
-   "repo": "zsxh1990/pr-genius",
-   "name": "zsxh1990-pr-genius",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库"
   },
   {
    "repo": "saurtone/dsh-tool-somark",
