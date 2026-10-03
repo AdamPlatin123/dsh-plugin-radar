@@ -2,7 +2,7 @@
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { meta, useRows, curatedStatusOf, sourceRepoUrl, canonicalRepo } from '../lib/data'
-import { dshStarLeaders } from '../lib/ranking'
+import { dshStarLeaders, isDshProject } from '../lib/ranking'
 import StatStrip from '../components/StatStrip.vue'
 import PluginCard from '../components/PluginCard.vue'
 import LazyOgImage from '../components/LazyOgImage.vue'
@@ -13,6 +13,12 @@ const { t } = useI18n()
 const { rows, loaded, ensureRows } = useRows()
 onMounted(ensureRows)
 const topByStars = computed(() => dshStarLeaders(rows.value))
+const browsableDsh = computed(() => rows.value.filter((r) => r.verdict === 'ok' && isDshProject(r)))
+const domainCounts = computed(() => {
+  const counts: Record<string, number> = {}
+  for (const row of browsableDsh.value) counts[row.domain] = (counts[row.domain] ?? 0) + 1
+  return counts
+})
 
 // 首页精选横滑：awesome-50 各分类头部成员（按 verdict 可用优先 + 名单序）
 interface FeaturedCat { name: string; plugins: { repo: string; name: string; verdict: string | null; desc: string }[] }
@@ -49,7 +55,7 @@ const monitorLabel = (repo: string) => {
 
   <StatStrip class="mt" />
 
-  <section class="mt" v-if="featured.length">
+  <section class="mt" v-if="loaded && featured.length">
     <h2>{{ t('featured.title') }}</h2>
     <div class="rail">
       <div v-for="f in featured" :key="f.repo" class="rail-card">
@@ -71,15 +77,15 @@ const monitorLabel = (repo: string) => {
     </div>
   </section>
 
-  <section class="mt">
-    <h2>{{ t('nav.browse') }}<span class="h2sub num">{{ meta.totalBrowsable.toLocaleString() }}</span></h2>
+  <section class="mt" v-if="loaded">
+    <h2>{{ t('nav.browse') }} · {{ t('filter.dshScope') }}<span class="h2sub num">{{ browsableDsh.length.toLocaleString() }}</span></h2>
     <div class="domain-grid">
       <router-link
         v-for="d in meta.domains" :key="d.slug"
         class="domain-tile" :to="`/browse?domain=${d.slug}`"
       >
         <span class="d-title">{{ d.title }}</span>
-        <span class="d-count num">{{ (meta.counts as Record<string, number>)[d.slug] ?? 0 }}</span>
+        <span class="d-count num">{{ domainCounts[d.slug] ?? 0 }}</span>
       </router-link>
     </div>
   </section>

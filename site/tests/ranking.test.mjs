@@ -8,9 +8,25 @@ const source = await readFile(new URL('../src/lib/ranking.ts', import.meta.url),
 const { outputText } = ts.transpileModule(source, {
   compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ES2022 },
 })
-const { dshStarLeaders, byStars } = await import(
+const { dshStarLeaders, byStars, applyFilters } = await import(
   `data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`
 )
+
+test('browse star buckets share the homepage DSH scope; full index is explicit', () => {
+  const rows = [
+    { repo: 'mem0ai/mem0', name: 'mem0', stars: 66432, verdict: 'ok', domain: 'memory', desc: '', bundle: false },
+    { repo: 'dataelement/dsh-desktop', name: 'desktop', stars: 11393, verdict: 'ok', domain: 'infra', desc: '', bundle: false },
+    { repo: 'anywhere-labs/dsh-desktop', name: 'desktop', stars: 29748, verdict: 'pending', domain: 'infra', desc: '', bundle: true },
+  ]
+  const filters = { scope: 'dsh', kind: 'all', domain: 'all', verdict: 'all', stars: '500+', q: '' }
+  assert.deepEqual(applyFilters(rows, filters), rows.slice(1))
+  assert.deepEqual(applyFilters(rows, { ...filters, scope: 'all' }), rows)
+  assert.deepEqual(applyFilters(rows, { ...filters, kind: 'plugin' }), [rows[1]])
+  assert.deepEqual(applyFilters(rows, { ...filters, kind: 'bundle' }), [rows[2]])
+  assert.deepEqual(applyFilters(rows, { ...filters, verdict: 'ok' }), [rows[1]])
+  assert.deepEqual(applyFilters(rows, { ...filters, q: 'mem0' }), [])
+  assert.deepEqual(applyFilters(rows, { ...filters, scope: 'all', q: 'mem0' }), [rows[0]])
+})
 
 test('keeps DSH desktop, sidebar and TUI across verdicts; excludes popular general tools', () => {
   const rows = [

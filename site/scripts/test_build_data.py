@@ -272,6 +272,29 @@ class BuildDataRegression(unittest.TestCase):
             self.assertEqual(meta['curatedStatus']['old/desktop']['verdict'], 'pending')
             self.assertEqual(meta['repoAliases']['old/desktop'], 'new/desktop')
 
+    def test_curated_aliases_do_not_repeat_within_or_across_categories(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root, out = Path(folder) / 'root', Path(folder) / 'out'
+            _write(root)
+            (root / 'data/repository-identities.json').write_text(json.dumps({'entries': [{
+                'canonical_id': 'github:1', 'full_name': 'new/desktop',
+                'aliases': ['old/desktop'], 'checked_at': '2026-10-03'}]}))
+            groups = [{'name': 'first', 'plugins': [
+                {'repo': 'old/desktop', 'name': 'original'},
+                {'repo': 'new/desktop', 'name': 'renamed'},
+            ]}, {'name': 'second', 'plugins': [
+                {'repo': 'NEW/Desktop', 'name': 'repeated'},
+                {'repo': 'independent/desktop', 'name': 'different project'},
+            ]}]
+            (root / 'data/awesome-50.json').write_text(json.dumps({'categories': groups}))
+            (root / 'data/bundles.json').write_text(json.dumps({'forms': groups}))
+            build(root, out)
+            meta = _load_export(out / 'meta.ts', 'meta')
+            for document, key in [('featured', 'categories'), ('bundles', 'forms')]:
+                members = [m for g in meta[document][key] for m in g['plugins']]
+                self.assertEqual([m['repo'] for m in members], ['old/desktop', 'independent/desktop'])
+                self.assertEqual(members[0]['name'], 'original')
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
