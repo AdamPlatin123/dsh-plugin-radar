@@ -58,6 +58,22 @@ def _load(p: Path, default):
         return default
 
 
+def dedupe_curated(document: dict, group_key: str, identities: RepositoryIdentities) -> dict:
+    """同一策展页面每个仓库身份仅保留首次出现，保留策展文案和分组顺序。"""
+    seen = set()
+    groups = []
+    for group in document.get(group_key) or []:
+        members = []
+        for member in group.get('plugins') or []:
+            key = identities.resolve(member['repo']).lower()
+            if key not in seen:
+                seen.add(key)
+                members.append(member)
+        if members:
+            groups.append({**group, 'plugins': members})
+    return {**document, group_key: groups}
+
+
 def build(root: Path, out_dir: Path | None = None):
     site = Path(__file__).resolve().parent.parent
     out_dir = out_dir or site / 'src' / 'data'
@@ -131,7 +147,7 @@ def build(root: Path, out_dir: Path | None = None):
     total_browsable = verdict_counts.get('ok', 0)
 
     # ── 策展名单状态：精选/整合包条目是否进入最终 rows；未进入的给出监测态回退 ──
-    # 不增删策展名单本身（featured/bundles 原样透传），只附加真实状态供视图分流。
+    # 状态保留原名单的全部地址；展示名单另按身份去重，首次出现的文案与分组不变。
     curated_repos: set = set()
     for group in [*(awesome.get('categories') or []), *(bundles.get('forms') or [])]:
         for m in group.get('plugins') or []:
@@ -165,8 +181,8 @@ def build(root: Path, out_dir: Path | None = None):
         'runnerLatest': (latest.get('runner_versions') or {}).get('latest', '')
         if isinstance(latest.get('runner_versions'), dict) else '',
         'domains': [{'slug': s, 'title': t} for s, t in DOMAINS],
-        'featured': awesome,
-        'bundles': bundles,
+        'featured': dedupe_curated(awesome, 'categories', identities),
+        'bundles': dedupe_curated(bundles, 'forms', identities),
         'counts': {s: sum(1 for r in out_rows if r[5] == s and r[2] == 'ok')
                    for s, _ in DOMAINS},
         'curatedStatus': curated_status,

@@ -78,34 +78,7 @@ export function rowIndex(row: PluginRow): number {
   return rows.value.indexOf(row)
 }
 
-export interface Filters {
-  domain: string
-  verdict: string
-  stars: string
-  q: string
-}
-
-export const STAR_BUCKETS: { key: string; min: number; max: number }[] = [
-  { key: '500+', min: 500, max: Infinity },
-  { key: '100-499', min: 100, max: 499 },
-  { key: '50-99', min: 50, max: 99 },
-  { key: '10-49', min: 10, max: 49 },
-  { key: '1-9', min: 1, max: 9 },
-  { key: '0', min: 0, max: 0 },
-]
-
-export function applyFilters(all: PluginRow[], f: Filters): PluginRow[] {
-  const q = f.q.trim().toLowerCase()
-  const bucket = STAR_BUCKETS.find((b) => b.key === f.stars)
-  return all.filter((r) => {
-    if (f.domain !== 'all' && r.domain !== f.domain) return false
-    if (f.verdict !== 'all' && r.verdict !== f.verdict) return false
-    if (bucket && (r.stars === null || r.stars < bucket.min || r.stars > bucket.max)) return false
-    if (q && !(r.name.toLowerCase().includes(q) || r.repo.toLowerCase().includes(q)
-      || r.desc.toLowerCase().includes(q))) return false
-    return true
-  })
-}
+export { applyFilters, STAR_BUCKETS, type Filters } from './ranking'
 
 export { byStars } from './ranking'
 

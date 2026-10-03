@@ -20,6 +20,15 @@ function setQ(v: string) {
 
 <template>
   <div class="bar">
+    <select class="sel" :aria-label="t('filter.scope')" :value="modelValue.scope" @change="set({ scope: ($event.target as HTMLSelectElement).value })">
+      <option value="dsh">{{ t('filter.dshScope') }}</option>
+      <option value="all">{{ t('filter.allScope') }}</option>
+    </select>
+    <select class="sel" :aria-label="t('filter.kind')" :value="modelValue.kind" @change="set({ kind: ($event.target as HTMLSelectElement).value })">
+      <option value="all">{{ t('filter.allKinds') }}</option>
+      <option value="plugin">{{ t('filter.pluginsOnly') }}</option>
+      <option value="bundle">{{ t('filter.bundlesOnly') }}</option>
+    </select>
     <select class="sel" :value="modelValue.domain" @change="set({ domain: ($event.target as HTMLSelectElement).value })">
       <option value="all">{{ t('filter.all') }}</option>
       <option v-for="d in meta.domains" :key="d.slug" :value="d.slug">{{ d.title }}</option>
