@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-02T21:31:23Z",
+ "generated_at": "2026-10-03T03:01:53Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3414,7 +3414,7 @@
   {
    "repo": "Anionex/dsh-pinned-sessions",
    "name": "anionex-dsh-pinned-sessions",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -3778,7 +3778,7 @@
   {
    "repo": "EternalNight996/agent-teams-pixel",
    "name": "eternalnight996-agent-teams-pixel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -4516,6 +4516,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 声音提醒插件:Agent 工作事件的声音提醒,每类事件独立开关、声音与音量,浏览器合成音 + 跨平台系统蜂鸣(Windows/Linux/macOS),工作区快捷静音,默认声音零版权负担"
+  },
+  {
+   "repo": "NinjaSln-labs/dsh-subagent-router",
+   "name": "ninjasln-labs-dsh-subagent-router",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "niushuanan/dsh-pure-chat",
@@ -10743,13 +10750,6 @@
   {
    "repo": "NexusAgentX/dsh-reasoning-effort",
    "name": "nexusagentx-dsh-reasoning-effort",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "NinjaSln-labs/dsh-subagent-router",
-   "name": "ninjasln-labs-dsh-subagent-router",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -28962,6 +28962,13 @@
    "desc": "—"
   },
   {
+   "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
+   "name": "tencentcloudbase-cloudbase-ai-toolkit",
+   "verdict": "pending",
+   "stars": 1130,
+   "desc": "—"
+  },
+  {
    "repo": "0xsline/awesome-deepseek-harness",
    "name": "0xsline-awesome-deepseek-harness",
    "verdict": "pending",
@@ -29781,6 +29788,13 @@
    "desc": "—"
   },
   {
+   "repo": "Kihara777/NixKits",
+   "name": "kihara777-nixkits",
+   "verdict": "pending",
+   "stars": 27,
+   "desc": "—"
+  },
+  {
    "repo": "crazywoola/dsh-balance",
    "name": "dsh-balance",
    "verdict": "ok",
@@ -30042,7 +30056,7 @@
   {
    "repo": "Wenaixi/dsh-superpower",
    "name": "wenaixi-dsh-superpower",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 18,
    "desc": "—"
   },
@@ -30441,7 +30455,14 @@
   {
    "repo": "Wenaixi/dsh-ponytail",
    "name": "wenaixi-dsh-ponytail",
-   "verdict": "ok",
+   "verdict": "pending",
+   "stars": 13,
+   "desc": "—"
+  },
+  {
+   "repo": "Yunado/dsh-qwen38-local-qol",
+   "name": "yunado-dsh-qwen38-local-qol",
+   "verdict": "pending",
    "stars": 13,
    "desc": "—"
   },
@@ -30995,6 +31016,13 @@
    "repo": "Max-Null/dsh-chinese-thinking",
    "name": "max-null-dsh-chinese-thinking",
    "verdict": "ok",
+   "stars": 8,
+   "desc": "—"
+  },
+  {
+   "repo": "Max-Null/seek-soul-in-darkness",
+   "name": "max-null-seek-soul-in-darkness",
+   "verdict": "pending",
    "stars": 8,
    "desc": "—"
   },
@@ -31911,7 +31939,7 @@
   {
    "repo": "GooDAnDReaDY/dsh-cron",
    "name": "goodandready-dsh-cron",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -39086,7 +39114,7 @@
   {
    "repo": "NinjaSln-labs/dsh-imgdraw",
    "name": "ninjasln-labs-dsh-imgdraw",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -40228,6 +40256,13 @@
    "repo": "ucloud/ucloud-dsh-plugin",
    "name": "ucloud-ucloud-dsh-plugin",
    "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Ultmebius/universal-plugin-hub",
+   "name": "ultmebius-universal-plugin-hub",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -54183,13 +54218,6 @@
    "desc": "—"
   },
   {
-   "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
-   "name": "tencentcloudbase-cloudbase-ai-toolkit",
-   "verdict": "incompatible",
-   "stars": 1130,
-   "desc": "—"
-  },
-  {
    "repo": "LivXue/dsh-plugin-shop",
    "name": "livxue-dsh-plugin-shop",
    "verdict": "incompatible",
@@ -54491,13 +54519,6 @@
    "desc": "AI4Scholar for DeepSeek Harness (dsh): 38 native academic tools — Semantic Scholar, PubMed, Google Scholar, ar"
   },
   {
-   "repo": "Kihara777/NixKits",
-   "name": "kihara777-nixkits",
-   "verdict": "incompatible",
-   "stars": 27,
-   "desc": "—"
-  },
-  {
    "repo": "MichengAI/dsh-im-connect",
    "name": "michengai-dsh-im-connect",
    "verdict": "incompatible",
@@ -54687,13 +54708,6 @@
    "desc": "—〔📦〕"
   },
   {
-   "repo": "Yunado/dsh-qwen38-local-qol",
-   "name": "yunado-dsh-qwen38-local-qol",
-   "verdict": "incompatible",
-   "stars": 13,
-   "desc": "—"
-  },
-  {
    "repo": "beiyege-01/dsh-voice-ai-girlfriend-plugin",
    "name": "beiyege-01-dsh-voice-ai-girlfriend-plugin",
    "verdict": "incompatible",
@@ -54857,13 +54871,6 @@
   {
    "repo": "FuzzySoul/dsh-free-vision",
    "name": "fuzzysoul-dsh-free-vision",
-   "verdict": "incompatible",
-   "stars": 8,
-   "desc": "—"
-  },
-  {
-   "repo": "Max-Null/seek-soul-in-darkness",
-   "name": "max-null-seek-soul-in-darkness",
    "verdict": "incompatible",
    "stars": 8,
    "desc": "—"
@@ -57769,13 +57776,6 @@
   {
    "repo": "TYEclipse/dsh-semver",
    "name": "tyeclipse-dsh-semver",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "Ultmebius/universal-plugin-hub",
-   "name": "ultmebius-universal-plugin-hub",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -62422,13 +62422,6 @@
    "desc": "Bidirectional Discord bridge and remote controller for DeepSeek Harness"
   },
   {
-   "repo": "tanle-mtr/dsh-plogin-plugin-recommender",
-   "name": "tanle-mtr-dsh-plogin-plugin-recommender",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "The most comprehensive AI-curated list of DeepSeek Harness (DSH) plugins - 190+ plugins, 12 categories, update"
-  },
-  {
    "repo": "Time-assify/deepseek-harness-desktop",
    "name": "time-assify-deepseek-harness-desktop",
    "verdict": "ok",
@@ -66788,6 +66781,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—〔📦〕"
+  },
+  {
+   "repo": "tanle-mtr/dsh-plogin-plugin-recommender",
+   "name": "tanle-mtr-dsh-plogin-plugin-recommender",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "The most comprehensive AI-curated list of DeepSeek Harness (DSH) plugins - 190+ plugins, 12 categories, update"
   },
   {
    "repo": "TecFancy/dsh-mobile",
@@ -74098,6 +74098,13 @@
    "desc": "—"
   },
   {
+   "repo": "MeSun424/dsh-archive-manager",
+   "name": "mesun424-dsh-archive-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "mmyhj/dsh-tool-hermes-web",
    "name": "mmyhj-dsh-tool-hermes-web",
    "verdict": "ok",
@@ -76182,13 +76189,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH 优化插件：会话体检/归档/清理 + history 分页补丁（流式 chunk 不再拖慢会话切换）"
-  },
-  {
-   "repo": "MeSun424/dsh-archive-manager",
-   "name": "mesun424-dsh-archive-manager",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "mldhao/dsh-blue-archive-shiroko",
@@ -83728,6 +83728,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "grloper/dsh-deep-research",
+   "name": "grloper-dsh-deep-research",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Kestrel: normalized quotation admission, source anchoring and evidence-processing tools with verified offline"
   },
   {
    "repo": "HelloGit403/deepseek-harness-desktop",
