@@ -107,9 +107,7 @@ export function applyFilters(all: PluginRow[], f: Filters): PluginRow[] {
   })
 }
 
-export function byStars(a: PluginRow, b: PluginRow): number {
-  return (b.stars ?? -1) - (a.stars ?? -1)
-}
+export { byStars } from './ranking'
 
 /** 策展条目（精选/整合包）的构建期状态：是否进入最终 rows + 真实判定/监测态 */
 export interface CuratedStatus {

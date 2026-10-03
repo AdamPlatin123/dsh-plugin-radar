@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { meta, useRows, byStars, curatedStatusOf, sourceRepoUrl } from '../lib/data'
+import { meta, useRows, curatedStatusOf, sourceRepoUrl } from '../lib/data'
+import { dshStarLeaders } from '../lib/ranking'
 import StatStrip from '../components/StatStrip.vue'
 import PluginCard from '../components/PluginCard.vue'
 import LazyOgImage from '../components/LazyOgImage.vue'
@@ -25,7 +26,7 @@ const monitorLabel = (repo: string) => {
   const monitor = statusOf(repo)?.monitor
   return monitor ? t('curated.recorded', { status: t(`stat.${monitor}`) }) : t('curated.noRecord')
 }
-const topNew = computed(() => [...rows.value].sort(byStars).slice(0, 12))
+const topByStars = computed(() => dshStarLeaders(rows.value))
 </script>
 
 <template>
@@ -79,8 +80,9 @@ const topNew = computed(() => [...rows.value].sort(byStars).slice(0, 12))
 
   <section class="mt" v-if="loaded">
     <h2>★ {{ t('filter.sortStars') }}</h2>
+    <p class="ranking-note">{{ t('filter.dshStarsNote') }}</p>
     <div class="top-grid">
-      <PluginCard v-for="r in topNew" :key="r.repo" :row="r" />
+      <PluginCard v-for="r in topByStars" :key="r.repo" :row="r" />
     </div>
   </section>
 </template>
@@ -126,6 +128,7 @@ h2 { font-size: 19px; margin: 0 0 14px; }
 .d-count { color: var(--fg-faint); font-size: 13px; }
 
 .top-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.ranking-note { margin: -6px 0 14px; color: var(--fg-dim); font-size: 13px; }
 
 @media (max-width: 640px) {
   .hero { padding: 28px 18px; }
