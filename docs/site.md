@@ -29,6 +29,7 @@ npm run build                             # vue-tsc 类型检查 + vite build
 
 ## 数据口径
 
+- 首页星数榜先按仓库名称中的独立 `dsh` 或 `deepseek-harness` 标识筛选（忽略大小写，支持连字符、下划线与点分隔），再按星数降序展示前 12 项；不按作者名或描述推断关联，不改变全量浏览与数据接口的收录范围。榜单保留不同兼容性判定，以卡片状态为准。
 - 大表全量行 = `data/plugins-all.json`（dsh-radar/v1 五字段）⊕ canonical 域分类
   （13 taxonomy）⊕ bundle/PR 标记；enrich 副表 = `data/plugins-enrich.json`
   （pushed_at/avatar/lang/license/topics，有则显示），键 = 大表行号，

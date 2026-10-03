@@ -5,6 +5,7 @@
   "type": "module",
   "description": "DSH 插件雷达演示站（CurseForge 风格目录）——数据构建期烘焙自 canonical",
   "scripts": {
+    "test": "node --test tests/*.test.mjs",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "build:fast": "vite build",

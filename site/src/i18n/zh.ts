@@ -15,6 +15,7 @@ export const zh = {
   filter: {
     all: '全部分类', verdict: '判定', stars: '星数', search: '搜索名称 / 仓库 / 描述…',
     any: '不限', sortStars: '按星数排序', resultCount: '{n} 个插件',
+    dshStarsNote: '仅展示仓库名称含 DSH / DeepSeek Harness 标识的项目，按星数降序排列；兼容性以卡片判定为准。',
     defaultNote: '默认仅展示「运行级可用」；切换判定可查看全部 {n} 条收录',
   },
   curated: { noRecord: '暂无判定详情', recorded: '雷达记录：{status}' },

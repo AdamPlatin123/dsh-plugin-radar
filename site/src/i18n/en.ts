@@ -15,6 +15,7 @@ export const en = {
   filter: {
     all: 'All categories', verdict: 'Verdict', stars: 'Stars', search: 'Search name / repo / description…',
     any: 'Any', sortStars: 'Sort by stars', resultCount: '{n} plugins',
+    dshStarsNote: 'Only projects with DSH / DeepSeek Harness in their repository names, ranked by stars. Check each card for compatibility.',
     defaultNote: 'Shows only "Runtime OK" by default; switch the verdict filter to see all {n} listed repos',
   },
   curated: { noRecord: 'No verdict details', recorded: 'Radar record: {status}' },

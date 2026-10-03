@@ -8,13 +8,16 @@ on:
   push:
     branches: [main]
     paths: ['site/**', 'data/plugins-all.json', 'data/latest.json', 'data/plugins-enrich.json',
-            'data/awesome-50.json', 'data/bundles.json', 'catalog/**', 'engine/aggregation/**']
+            'data/awesome-50.json', 'data/bundles.json', 'catalog/**', 'engine/aggregation/**',
+            '.github/workflows/site-build-deploy.yml']
+  pull_request:
+    paths: ['site/**', '.github/workflows/site-build-deploy.yml']
   schedule:
     - cron: "37 22 * * *"
   workflow_dispatch: {}
 
 concurrency:
-  group: pages
+  group: ${{ github.event_name == 'pull_request' && format('pages-pr-{0}', github.event.pull_request.number) || 'pages' }}
   cancel-in-progress: true
 
 jobs:
@@ -37,6 +40,7 @@ jobs:
       - name: 构建（类型检查 + vite build）
         run: |
           npm ci --prefix site --no-audit --no-fund
+          npm test --prefix site
           npm run build --prefix site
       - name: 构建断言（红线：不带快照、体积有界）
         run: |
@@ -46,11 +50,14 @@ jobs:
           echo "dist ${SIZE}KB"
           [ "$SIZE" -lt 61440 ]
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: site/dist
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     permissions:
       contents: read
