@@ -110,7 +110,7 @@
 - ⬜ `[待定]` [dsh-a2a](https://github.com/dpskh/dsh-a2a) ★11 — Agent2Agent mesh for the Harness
 - ⬜ `[待定]` [context-vista](https://github.com/GooodWei/context-vista) ★11 — 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配，compact指令效果，同时支持估算费用消耗，对标 Claude Code 的 /co
 - ⬜ `[待定]` [howillmakeit-skills](https://github.com/HOWILLMAKEIT/skills) ★11 — —
-- 🟩 `[可用]` [litestartup-com-dsh-api-gateway](https://github.com/litestartup-com/dsh-api-gateway) ★11 — DeepSeek Harness's API Gateway plugin: Any third-party client can interact with your DSH Agent.
+- ⬜ `[待定]` [litestartup-com-dsh-api-gateway](https://github.com/litestartup-com/dsh-api-gateway) ★11 — DeepSeek Harness's API Gateway plugin: Any third-party client can interact with your DSH Agent.
 - 🟩 `[可用]` [master1sun-dsh-prompt-library](https://github.com/master1Sun/dsh-prompt-library) ★11 — —
 - 🟩 `[可用]` [mjorgin-dsh-agent-conductor](https://github.com/MJorgin/dsh-agent-conductor) ★11 — —
 - 🟩 `[可用]` [vocaloid-mcp](https://github.com/N0zoM1z0/vocaloid-mcp) ★11 — An agent-native MCP for composing, tuning, rendering, mixing, and auditing native VOCALOID3/4 projects — built
@@ -129,7 +129,6 @@
 - 🟩 `[可用]` [muyuanjin-dsh-ptc-plus](https://github.com/muyuanjin/dsh-ptc-plus) ★10 — A session-bound agent-native REPL for DeepSeek Harness PTC mode.
 - 🟩 `[可用]` [perrylink-dsh-budget](https://github.com/PerryLink/dsh-budget) ★10 — —
 - 🟩 `[可用]` [shaneconner-fold](https://github.com/shaneconner/fold) ★10 — Lossless context folding for the Pi coding agent: only the oldest context changes; the fresh window stays unto
-- ⬜ `[待定]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - ⬜ `[待定]` [ciyuan1234-mcm-skills](https://github.com/ciyuan1234/MCM_skills) ★9 — —
 - 🟩 `[可用]` [falling-ts-dsh-force-compact](https://github.com/falling-ts/dsh-force-compact) ★9 — Aggressive context compaction for local-first agents
 - 🟩 `[可用]` [dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) ★9 — 暴露 run_python/run_node 工具，通过 stdin 执行代码返回 stdout/stderr/exit，含解释器路径配置卡 \| Exposes run_python/run_node tools tha
@@ -333,7 +332,7 @@
 - 🟩 `[可用]` [dsh-dynamic-island](https://github.com/YLifeOnlyOnce/dsh-dynamic-island) ★3 — A tiny glass companion for DeepSeek Harness — it breathes while the agent thinks, pulses while it works, and p
 - 🟩 `[可用]` [zhubaohi-dsh-qwen38-compaction-fix](https://github.com/zhubaohi/dsh-qwen38-compaction-fix) ★3 — DSH plugin: stop qwen3.8-27b from burning its output budget on thinking during context compaction
 - 🟩 `[可用]` [zihaovistonwang-stata-ai-skill](https://github.com/ZihaoVistonWang/Stata-AI-Skill) ★3 — —
-- 🟩 `[可用]` [ziye1208-dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) ★3 — —
+- ⬜ `[待定]` [ziye1208-dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) ★3 — —
 - 🟩 `[可用]` [zn-dk-dsh-session-explorer](https://github.com/Zn-Dk/dsh-session-explorer) ★3 — —
 - `[空仓监测]` **deepseek-harness-typescript-sdk** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-tool-memory](https://github.com/sikwoxy/dsh-tool-memory) ★3 — DeepSeek Harness 插件：跨会话持久记忆（Hermes 式）
@@ -1399,6 +1398,7 @@
 - 🟨 `[不兼容]` [lincong1987-dsh-model-switch](https://github.com/lincong1987/dsh-model-switch) ★10 — dsh plugin: flexible model switch for sub‑agent & plan execution
 - 🟨 `[不兼容]` [platonai-dsh-browser4](https://github.com/platonai/dsh-browser4) ★10 — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web auto
 - 🟨 `[不兼容]` [wally8-8-dsh-done-whale](https://github.com/wally8-8/dsh-done-whale) ★10 — DeepSeek Harness 插件：标签页鲸鱼状态灯 —— 会话完成变绿，有待处理交互变琥珀
+- 🟨 `[不兼容]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - 🟨 `[不兼容]` [ccch713-deepddw](https://github.com/ccch713/deepddw) ★9 — DSH for Teams — Deploy DSH once on your LAN; memory, knowledge base & document search included
 - 🟨 `[不兼容]` [whutzefengxie-ops-dsh-shadow-mind](https://github.com/whutzefengxie-ops/dsh-shadow-mind) ★9 — Independent Shadow agent orchestration plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [chipweaver-veripower](https://github.com/chipweaver/veripower) ★8 — An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end sig

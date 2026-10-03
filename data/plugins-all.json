@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-03T17:46:32Z",
+ "generated_at": "2026-10-03T21:00:46Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -761,7 +761,7 @@
   {
    "repo": "litestartup-com/dsh-api-gateway",
    "name": "litestartup-com-dsh-api-gateway",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 11,
    "desc": "DeepSeek Harness's API Gateway plugin: Any third-party client can interact with your DSH Agent."
   },
@@ -890,13 +890,6 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "Lossless context folding for the Pi coding agent: only the oldest context changes; the fresh window stays unto"
-  },
-  {
-   "repo": "9931666/dsh-plugin-roundtable",
-   "name": "9931666-dsh-plugin-roundtable",
-   "verdict": "pending",
-   "stars": 9,
-   "desc": "（roundtable V1.0.0）把一次 DeepSeek Harness 会话，从\"你和 AI 一对一聊天\"，升级成\"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会"
   },
   {
    "repo": "ciyuan1234/MCM_skills",
@@ -2301,7 +2294,7 @@
   {
    "repo": "ZIye1208/dsh-approval-voice",
    "name": "ziye1208-dsh-approval-voice",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -9278,6 +9271,13 @@
    "desc": "DeepSeek Harness 插件：标签页鲸鱼状态灯 —— 会话完成变绿，有待处理交互变琥珀"
   },
   {
+   "repo": "9931666/dsh-plugin-roundtable",
+   "name": "9931666-dsh-plugin-roundtable",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "（roundtable V1.0.0）把一次 DeepSeek Harness 会话，从\"你和 AI 一对一聊天\"，升级成\"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会"
+  },
+  {
    "repo": "ccch713/deepddw",
    "name": "ccch713-deepddw",
    "verdict": "incompatible",
@@ -14010,6 +14010,13 @@
    "desc": "为 DeepSeek Harness 提供会话删除能力，支持侧边栏 ⋮ 菜单入口"
   },
   {
+   "repo": "gehennawu/dsh-service",
+   "name": "gehennawu-dsh-service",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "DSH Web 一站式运维面板：安全重启、健康诊断、模型用量与额度查询、会话管理、备份与权限维护、任务通知、技能与子代理模型路由"
+  },
+  {
    "repo": "H1a3x/dsh-token-stats",
    "name": "dsh-token-stats",
    "verdict": "ok",
@@ -14036,6 +14043,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Run multi-agent task pipelines on DSH like a team — plan, execute, review, and deliver code through a visual k"
+  },
+  {
+   "repo": "keyiadiannao/dsh-power-button",
+   "name": "keyiadiannao-dsh-power-button",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "Self-contained power control for DeepSeek Harness: sidebar power button with upward restart/shutdown menu, Win"
   },
   {
    "repo": "kui123456789/dsh-codex-workflow",
@@ -16731,6 +16745,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH 插件：把 dsh 的回环 Web UI 通过 0.0.0.0 反代暴露到局域网，开关/状态/日志嵌入设置页"
+  },
+  {
+   "repo": "lkdx0220/Genshin-odette-skin-dsh",
+   "name": "lkdx0220-genshin-odette-skin-dsh",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "—"
   },
   {
    "repo": "longyu065/dsh-desktop",
@@ -25595,20 +25616,6 @@
    "desc": "—"
   },
   {
-   "repo": "gehennawu/dsh-service",
-   "name": "gehennawu-dsh-service",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "DSH Web 一站式运维面板：安全重启、健康诊断、模型用量与额度查询、会话管理、备份与权限维护、任务通知、技能与子代理模型路由"
-  },
-  {
-   "repo": "keyiadiannao/dsh-power-button",
-   "name": "keyiadiannao-dsh-power-button",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "Self-contained power control for DeepSeek Harness: sidebar power button with upward restart/shutdown menu, Win"
-  },
-  {
    "repo": "kikulmj/dsh-jupyter",
    "name": "kikulmj-dsh-jupyter",
    "verdict": "incompatible",
@@ -26384,13 +26391,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Multi-session terminal workbench for DeepSeek Harness — durable Assistant, persistent project sessions, struct"
-  },
-  {
-   "repo": "lkdx0220/Genshin-odette-skin-dsh",
-   "name": "lkdx0220-genshin-odette-skin-dsh",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "—"
   },
   {
    "repo": "lqhl/dsh-pi-tui",
@@ -31015,21 +31015,21 @@
   {
    "repo": "STARDUSTLC666/dsh-ppt",
    "name": "stardustlc666-dsh-ppt",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "—"
   },
   {
    "repo": "STARDUSTLC666/dsh-remotion",
    "name": "stardustlc666-dsh-remotion",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "—"
   },
   {
    "repo": "STARDUSTLC666/dsh-sql",
    "name": "stardustlc666-dsh-sql",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 8,
    "desc": "—"
   },
@@ -31134,7 +31134,7 @@
   {
    "repo": "AlexPeng07/dsh-custom-plugin",
    "name": "alexpeng07-dsh-custom-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "—"
   },
@@ -32100,7 +32100,7 @@
   {
    "repo": "STARDUSTLC666/dsh-ffmpeg",
    "name": "stardustlc666-dsh-ffmpeg",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 5,
    "desc": "—"
   },
@@ -32667,7 +32667,7 @@
   {
    "repo": "STARDUSTLC666/dsh-voice",
    "name": "stardustlc666-dsh-voice",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 4,
    "desc": "—"
   },
@@ -34583,13 +34583,6 @@
    "desc": "—"
   },
   {
-   "repo": "green-dalii/dsh-shift-router",
-   "name": "green-dalii-dsh-shift-router",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "Two-tier model router for DeepSeek Harness — LLM-Judge routing, multi-model fallback chains, exponential-backo"
-  },
-  {
    "repo": "gsh150801/dsh-bioinf-verify",
    "name": "gsh150801-dsh-bioinf-verify",
    "verdict": "ok",
@@ -34809,7 +34802,7 @@
   {
    "repo": "JohnXu22786/worktree-mgr",
    "name": "johnxu22786-worktree-mgr",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -39912,14 +39905,7 @@
   {
    "repo": "STARDUSTLC666/dsh-flakefinder",
    "name": "stardustlc666-dsh-flakefinder",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "STARDUSTLC666/dsh-minimal-ptc",
-   "name": "stardustlc666-dsh-minimal-ptc",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "—"
   },
@@ -41690,7 +41676,7 @@
   {
    "repo": "ArmyWas/dsh-failure-lens",
    "name": "armywas-dsh-failure-lens",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -43825,21 +43811,14 @@
   {
    "repo": "JohnXu22786/command-scout",
    "name": "johnxu22786-command-scout",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "JohnXu22786/computer-control",
-   "name": "johnxu22786-computer-control",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
   {
    "repo": "JohnXu22786/docgen",
    "name": "johnxu22786-docgen",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -44028,7 +44007,7 @@
   {
    "repo": "Kickstartparty3459/dsh-ios",
    "name": "kickstartparty3459-dsh-ios",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -55961,6 +55940,13 @@
    "desc": "—"
   },
   {
+   "repo": "green-dalii/dsh-shift-router",
+   "name": "green-dalii-dsh-shift-router",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Two-tier model router for DeepSeek Harness — LLM-Judge routing, multi-model fallback chains, exponential-backo"
+  },
+  {
    "repo": "GTC2080/dsh-APEX_Plugin",
    "name": "gtc2080-dsh-apex-plugin",
    "verdict": "incompatible",
@@ -57655,6 +57641,13 @@
    "desc": "—"
   },
   {
+   "repo": "STARDUSTLC666/dsh-minimal-ptc",
+   "name": "stardustlc666-dsh-minimal-ptc",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "STFQ/dsh-showcase",
    "name": "stfq-dsh-showcase",
    "verdict": "incompatible",
@@ -59071,6 +59064,13 @@
   {
    "repo": "JoeeLiu/dsh-super-subscriptions",
    "name": "joeeliu-dsh-super-subscriptions",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "JohnXu22786/computer-control",
+   "name": "johnxu22786-computer-control",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -71102,13 +71102,6 @@
    "desc": "—"
   },
   {
-   "repo": "Js2Hou/dsh-mcp-manager",
-   "name": "js2hou-dsh-mcp-manager",
-   "verdict": "pending",
-   "stars": 21,
-   "desc": "—"
-  },
-  {
    "repo": "xxxyz/DeepSeekHarness-MCP-Manager",
    "name": "xxxyz-deepseekharness-mcp-manager",
    "verdict": "ok",
@@ -71496,7 +71489,7 @@
   {
    "repo": "fishlikewater/dsh-mcp-manager",
    "name": "fishlikewater-dsh-mcp-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -72464,6 +72457,13 @@
    "name": "ericwong5021-deepseek-plugin-store",
    "verdict": "incompatible",
    "stars": 23,
+   "desc": "—"
+  },
+  {
+   "repo": "Js2Hou/dsh-mcp-manager",
+   "name": "js2hou-dsh-mcp-manager",
+   "verdict": "incompatible",
+   "stars": 21,
    "desc": "—"
   },
   {
@@ -73655,6 +73655,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "ltxlong/dsh-session-kit",
+   "name": "ltxlong-dsh-session-kit",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "会话管理菜单、归档管理、轮次级删除、重新生成、记忆管理、任务管理、话题导航"
   },
   {
    "repo": "master1Sun/dsh-file-workbench-lib",
@@ -75925,13 +75932,6 @@
    "desc": "DeepSeek Harness 会话管理插件｜归档与恢复、批量操作、工作区分组、子代理关系、活动详情、记录目录与安全文件清理"
   },
   {
-   "repo": "ltxlong/dsh-session-kit",
-   "name": "ltxlong-dsh-session-kit",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "会话管理菜单、归档管理、轮次级删除、重新生成、记忆管理、任务管理、话题导航"
-  },
-  {
    "repo": "maxmilian/dsh-grafana-query",
    "name": "maxmilian-dsh-grafana-query",
    "verdict": "incompatible",
@@ -77012,7 +77012,7 @@
   {
    "repo": "HiQ-AI/dingtalk-dsh-assistant",
    "name": "hiq-ai-dingtalk-dsh-assistant",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "—"
   },
@@ -78963,6 +78963,13 @@
    "desc": "Add a Cursor passthrough group to the DSH chat model picker."
   },
   {
+   "repo": "Missher12/dsh-lark",
+   "name": "missher12-dsh-lark",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Mobai-read/dsh-chat-index-rail",
    "name": "mobai-read-dsh-chat-index-rail",
    "verdict": "ok",
@@ -80468,13 +80475,6 @@
    "desc": "—"
   },
   {
-   "repo": "Missher12/dsh-lark",
-   "name": "missher12-dsh-lark",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "NishiMihaeru/dsh-chatgpt-web",
    "name": "nishimihaeru-dsh-chatgpt-web",
    "verdict": "incompatible",
@@ -81023,7 +81023,7 @@
   {
    "repo": "Sutera-Diffusus/dsh-whale-musume",
    "name": "sutera-diffusus-dsh-whale-musume",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 106,
    "desc": "—"
   },
@@ -81051,9 +81051,9 @@
   {
    "repo": "starsstreaming/beautiCode",
    "name": "starsstreaming-beauticode",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 85,
-   "desc": "—"
+   "desc": "—〔📦〕"
   },
   {
    "repo": "labring/sealos-skills",
@@ -81184,7 +81184,7 @@
   {
    "repo": "Lixxx1/dsh-vscode",
    "name": "lixxx1-dsh-vscode",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 30,
    "desc": "—"
   },
@@ -81467,13 +81467,6 @@
    "verdict": "pending",
    "stars": 14,
    "desc": "—"
-  },
-  {
-   "repo": "picoaide/picoaide-harness",
-   "name": "picoaide-picoaide-harness",
-   "verdict": "pending",
-   "stars": 14,
-   "desc": "PicoAide Harness：企业级 DeepSeek Harness 一体化平台〔📦〕"
   },
   {
    "repo": "sjh9714/dsh-movein",
@@ -83007,13 +83000,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DSH plugin: Codex-style computer use for Windows - read the screen, drive mouse & keyboard via SendInput; pair"
-  },
-  {
-   "repo": "JohnXu22786/codegraph",
-   "name": "johnxu22786-codegraph",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "—"
   },
   {
    "repo": "jonah791/alice-digital-life",
@@ -86098,7 +86084,7 @@
   {
    "repo": "STARDUSTLC666/dsh-code-security",
    "name": "stardustlc666-dsh-code-security",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "—"
   },
@@ -90247,6 +90233,13 @@
    "desc": "Clickable file paths in DSH replies: Codex-style inline open, 📂 reveal in file manager, mentioned-files chip l"
   },
   {
+   "repo": "picoaide/picoaide-harness",
+   "name": "picoaide-picoaide-harness",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "PicoAide Harness：企业级 DeepSeek Harness 一体化平台〔📦〕"
+  },
+  {
    "repo": "zxlishixian/deepseek-harness-for-vscode",
    "name": "zxlishixian-deepseek-harness-for-vscode",
    "verdict": "incompatible",
@@ -90868,6 +90861,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "知乎\"去AI味写作技巧\"社区免费提供：中文写作去 AI 味插件"
+  },
+  {
+   "repo": "JohnXu22786/codegraph",
+   "name": "johnxu22786-codegraph",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "kam74515-boop/dsh-everything-oauth",
