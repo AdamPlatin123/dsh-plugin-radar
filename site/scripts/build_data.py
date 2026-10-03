@@ -32,6 +32,9 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'engine/lib'))
+from radar.repository_identity import RepositoryIdentities, dedupe_public_rows  # noqa: E402
+
 VERDICTS = ['ok', 'incompatible', 'pending', 'untested', 'gone', 'ambiguous', 'unlocated']
 # 浏览页四档（rows 只含这四档；gone/ambiguous/unlocated 为 canonical 监测态，不进数组）
 BROWSABLE_VERDICTS = VERDICTS[:4]
@@ -61,7 +64,8 @@ def build(root: Path, out_dir: Path | None = None):
     out_dir.mkdir(parents=True, exist_ok=True)
 
     plugins_doc = _load(root / 'data' / 'plugins-all.json', {})
-    rows = plugins_doc.get('plugins', [])
+    identities = RepositoryIdentities.load(root)
+    rows = dedupe_public_rows(plugins_doc.get('plugins', []), identities)
     latest = _load(root / 'data' / 'latest.json', {})
     awesome = _load(root / 'data' / 'awesome-50.json', {})
     bundles = _load(root / 'data' / 'bundles.json', {})
@@ -78,16 +82,23 @@ def build(root: Path, out_dir: Path | None = None):
     for e in canon.get('entries', []):
         u = e.get('url') or ''
         if 'github.com/' in u and 'search?q=' not in u:
-            k = u.split('github.com/')[1].strip('/').lower()
-            # 先见者胜（与导出首条仲裁同向；已知限制：同仓多 canonical 条目时
-            # name/desc/域取先见者而非逐字段仲裁，影响 ≤14 仓的展示分类，根治在
-            # canonical 层合并——二轮外审 P2 注记）
+            k = identities.resolve(u.split('github.com/')[1].strip('/')).lower()
+            # canonical 已在写入前按身份合并；兼容旧生成物时额外合并类型标签。
             if k not in entry_by_repo:
-                entry_by_repo[k] = e
+                entry_by_repo[k] = dict(e)
+            elif e.get('bundle'):
+                entry_by_repo[k]['bundle'] = True
 
     # P6 补采 sidecar（可选）
-    enrich = _load(root / 'data' / 'plugins-enrich.json', {}).get('entries', {})
-    skip = set(_load(root / 'data' / 'test-skip-list.json', {}).get('repos', []))
+    enrich = {}
+    for repo, item in _load(root / 'data' / 'plugins-enrich.json', {}).get('entries', {}).items():
+        key = identities.resolve(repo).lower()
+        if key not in enrich or (item.get('pushed_at') or '') > (enrich[key].get('pushed_at') or ''):
+            enrich[key] = item
+    skip = {identities.resolve(repo).lower() for repo in
+            _load(root / 'data' / 'test-skip-list.json', {}).get('repos', [])}
+    bundle_repos = {identities.resolve(m['repo']).lower()
+                    for group in bundles.get('forms') or [] for m in group.get('plugins') or []}
 
     # ── 大表（列数组）：[repo, name, verdict, stars, desc, domain, flags] ──
     # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据 8=休眠（>30天未更新且不兼容，暂停测试）
@@ -98,7 +109,7 @@ def build(root: Path, out_dir: Path | None = None):
         dom = DOMAIN_TITLE2SLUG.get(e.get('domain') or '', 'other')
         if not e:
             missing_domain += 1
-        flags = (1 if e.get('bundle') else 0) | (2 if r['name'] in pr_names else 0) \
+        flags = (1 if e.get('bundle') or repo_l in bundle_repos or '〔📦〕' in r['desc'] else 0) | (2 if r['name'] in pr_names else 0) \
             | (4 if repo_l in enrich else 0) | (8 if repo_l in skip else 0)
         out_rows.append([r['repo'], r['name'], r['verdict'],
                          r['stars'] if r['stars'] is not None else -1,
@@ -136,7 +147,7 @@ def build(root: Path, out_dir: Path | None = None):
             monitor_by_dash[u.split('search?q=')[1].strip('/').lower()] = e.get('locate') or ''
     curated_status = {}
     for repo_l in sorted(curated_repos):
-        r = row_by_repo.get(repo_l)
+        r = row_by_repo.get(identities.resolve(repo_l).lower())
         if r:
             curated_status[repo_l] = {'indexed': True, 'verdict': r[2],
                                       'dormant': bool(r[6] & 8), 'monitor': None}
@@ -159,6 +170,7 @@ def build(root: Path, out_dir: Path | None = None):
         'counts': {s: sum(1 for r in out_rows if r[5] == s and r[2] == 'ok')
                    for s, _ in DOMAINS},
         'curatedStatus': curated_status,
+        'repoAliases': identities.aliases,
     }
 
     (out_dir / 'meta.ts').write_text(

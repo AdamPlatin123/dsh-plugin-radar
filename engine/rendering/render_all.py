@@ -139,7 +139,7 @@ def render(canonical=None) -> dict:
     L.append('')
     L.append('- 判定与定位正交；监测类条目的原始判定保留于 data/snapshots/，定位成功后自动恢复展示。')
     L.append('- 占位 URL 由发现管线 clone 库通道产生；定位复核：`python3 scripts/resolve_placeholders.py`（结果写 data/locate-cache.json，命中附实时 star）。')
-    L.append('- 合并主键以 GitHub 仓库全名为准（真实 URL / data/repo-map.json / 定位缓存三源归一）：同一仓库的不同命名键合并为单条，判定冲突降级 [待定] 待重测仲裁。')
+    L.append('- 合并主键以 GitHub 仓库身份为准（稳定编号与已核实改名/转移别名归一）：同一仓库的不同名称、插件与整合包记录合并为单条，类型作为标签保留；判定冲突降级 [待定] 待重测仲裁。')
     L.append('- 口径对齐说明：README 磁贴/徽章与「运行级实测」行为单快照即时全量口径；本清单为多轮快照并集归并口径（同名多键合一、判定冲突降 [待定]、刷新随日更）。两者存在时滞与归并差，属设计特性；判定真相以 data/snapshots/ 逐轮快照为准。')
     L.append('')
 

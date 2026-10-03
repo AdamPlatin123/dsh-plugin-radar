@@ -16,8 +16,8 @@ const row = computed(() => findRow(props.owner, props.name))
 const enrich = computed(() => (row.value ? enrichAt(rowIndex(row.value)) : null))
 const domainTitle = computed(() =>
   meta.domains.find((d) => d.slug === row.value?.domain)?.title ?? '')
-const installCmd = computed(() => `dsh plugin add ${props.owner}/${props.name}`)
-const repoUrl = computed(() => `https://github.com/${props.owner}/${props.name}`)
+const installCmd = computed(() => `dsh plugin add ${row.value?.repo ?? `${props.owner}/${props.name}`}`)
+const repoUrl = computed(() => `https://github.com/${row.value?.repo ?? `${props.owner}/${props.name}`}`)
 const fmtDate = (iso: string) => (iso ? iso.slice(0, 10) : '—')
 </script>
 

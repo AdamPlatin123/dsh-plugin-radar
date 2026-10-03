@@ -20,7 +20,11 @@ import json
 import re
 import sys
 import time
+from collections import Counter
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'engine/lib'))
+from radar.repository_identity import RepositoryIdentities, dedupe_public_rows  # noqa: E402
 
 SCHEMA = 'dsh-radar/v1'
 VERDICT_MAP = {
@@ -53,24 +57,15 @@ def from_markdown(root: Path):
             'stars': int(stars.lstrip('★')) if stars else None,
             'desc': (desc or '').strip(),
         })
-    _dedupe_arbitrate(plugins)
+    _dedupe_arbitrate(plugins, RepositoryIdentities.load(root))
+    counts = Counter(p['verdict'] for p in plugins)
+    stats.update({v: counts[v] for v in ('ok', 'incompatible', 'pending', 'untested')})
     return stats, plugins, (anchor.group(1) if anchor else None)
 
 
-def _dedupe_arbitrate(plugins):
+def _dedupe_arbitrate(plugins, identities=None):
     """同仓多键去重 + 判定仲裁（codex 评审 #4；canonical 路径已天然唯一，此处仅供旧路径）。"""
-    _by = {}
-    for p in plugins:
-        k = p['repo'].lower()
-        if k in _by:
-            prev = _by[k]
-            if prev['verdict'] != p['verdict'] and {prev['verdict'], p['verdict']} & {'ok', 'incompatible'}:
-                prev['verdict'] = 'pending'   # 互斥冲突降待定（对齐 gen_plugins_all 仲裁规则）
-            if (p['stars'] or 0) > (prev['stars'] or 0):
-                prev['stars'] = p['stars']
-        else:
-            _by[k] = p
-    plugins[:] = list(_by.values())
+    plugins[:] = dedupe_public_rows(plugins, identities or RepositoryIdentities())
     _keys = [p['repo'].lower() for p in plugins]
     assert len(_keys) == len(set(_keys)), f'导出仓库键不唯一: {len(_keys)} 行 {len(set(_keys))}'
 
@@ -85,9 +80,13 @@ def from_canonical(root: Path):
     doc = json.loads(canon_path.read_text(encoding='utf8'))
     export = doc['export']
     plugins = [dict(r) for r in export['rows']]
+    _dedupe_arbitrate(plugins, RepositoryIdentities.load(root))
     _keys = [p['repo'].lower() for p in plugins]
     assert len(_keys) == len(set(_keys)), f'导出仓库键不唯一: {len(_keys)} 行 {len(set(_keys))}'
-    return export['stats'], plugins, export['anchor_run_id']
+    counts = Counter(p['verdict'] for p in plugins)
+    stats = dict(export['stats'])
+    stats.update({v: counts[v] for v in ('ok', 'incompatible', 'pending', 'untested')})
+    return stats, plugins, export['anchor_run_id']
 
 
 def main() -> int:

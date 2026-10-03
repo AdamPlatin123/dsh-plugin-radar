@@ -1,0 +1,19 @@
+{
+ "schema": "dsh-radar/repository-identities/v1",
+ "entries": [
+  {
+   "canonical_id": "github:1333321333",
+   "full_name": "anywhere-labs/dsh-desktop",
+   "aliases": ["anywhere-labs/deepseek-harness-desktop", "anywhere-labs/dsh-desktop"],
+   "checked_at": "2026-10-03",
+   "evidence": "https://api.github.com/repositories/1333321333"
+  },
+  {
+   "canonical_id": "github:1333718792",
+   "full_name": "dsh-tauri/deepseek-harness-desktop",
+   "aliases": ["hairyf/deepseek-harness-desktop", "dsh-tauri-desk/deepseek-harness-desktop", "dsh-tauri/deepseek-harness-desktop"],
+   "checked_at": "2026-10-03",
+   "evidence": "https://api.github.com/repositories/1333718792"
+  }
+ ]
+}

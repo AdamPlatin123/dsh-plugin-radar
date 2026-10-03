@@ -70,7 +70,7 @@ export function enrichAt(index: number): EnrichInfo | null {
 }
 
 export function findRow(owner: string, name: string): PluginRow | null {
-  const key = `${owner}/${name}`.toLowerCase()
+  const key = canonicalRepo(`${owner}/${name}`).toLowerCase()
   return rows.value.find((r) => r.repo.toLowerCase() === key) ?? null
 }
 
@@ -124,7 +124,11 @@ export function curatedStatusOf(repo: string): CuratedStatus | null {
 
 /** 策展条目源仓库地址（未收录条目的回退出口；已收录条目的详情页亦有同链接） */
 export function sourceRepoUrl(repo: string): string {
-  return `https://github.com/${repo}`
+  return `https://github.com/${canonicalRepo(repo)}`
+}
+
+export function canonicalRepo(repo: string): string {
+  return (meta.repoAliases as Record<string, string>)[repo.toLowerCase()] ?? repo
 }
 
 export { meta }
