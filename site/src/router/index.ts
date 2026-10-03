@@ -1,4 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { pagesFallbackRoute } from '../lib/pages-route'
+
+const restoredRoute = pagesFallbackRoute(location.pathname, location.hash, import.meta.env.BASE_URL)
+if (restoredRoute !== null) history.replaceState(history.state, '', restoredRoute)
 
 // 全部视图路由级懒加载（大表 chunk 只在 /browse 拉）
 export const router = createRouter({
