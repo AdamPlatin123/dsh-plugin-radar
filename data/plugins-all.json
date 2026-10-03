@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-03T21:00:46Z",
+ "generated_at": "2026-10-03T21:16:12Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -2427,7 +2427,7 @@
   {
    "repo": "Bionic-forest/dsh-memory_rollout",
    "name": "bionic-forest-dsh-memory-rollout",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -3053,6 +3053,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Local, per-session prompt stash for DeepSeek Harness Web \\| 本地、分对话的提示词输入暂存工具"
+  },
+  {
+   "repo": "winsonpong98-cloud/dsh-distillation-director",
+   "name": "winsonpong98-cloud-dsh-distillation-director",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH 蒸馏主管：把一本书蒸馏成可执行 Agent 技能的判态制元技能（三闸判态·零🔴门禁）｜V4.9.17 npm 通道实发·CLI 发布·readme 回归；发版闸 A/B/C/D/D-配套/D-import/E/F"
   },
   {
    "repo": "winter-street/dsh-plugin-agent-budget",
@@ -4114,7 +4121,7 @@
   {
    "repo": "KannaKuron/dsh-agent-lang",
    "name": "kannakuron-dsh-agent-lang",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -15683,13 +15690,6 @@
    "desc": "—"
   },
   {
-   "repo": "omdsh-dev/dsh-file-trace",
-   "name": "omdsh-dev-dsh-file-trace",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的每个文件，带行号内容、终端风逐行 diff（红删绿增蓝改）与 hunk 上下文折叠；支持 present 交付文件查看（Markdown 渲染 / Ka"
-  },
-  {
    "repo": "omdsh-dev/dsh-kb-sieve",
    "name": "dsh-kb-sieve",
    "verdict": "ok",
@@ -16698,13 +16698,6 @@
    "desc": "DeepSeek Harness vision plugin: analyze_image (structured OCR evidence) + capture_image (USB camera visual loo"
   },
   {
-   "repo": "lhh010/dsh-file-trace",
-   "name": "lhh010-dsh-file-trace",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的每个文件，带行号内容、终端风逐行 diff（红删绿增蓝改）与 hunk 上下文折叠；支持 present 交付文件查看（Markdown 渲染 / Ka"
-  },
-  {
    "repo": "lijian-ui/dsh-file-manager",
    "name": "lijian-ui-dsh-file-manager",
    "verdict": "pending",
@@ -17102,13 +17095,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "dsh-gmail: Gmail plugin suite for DeepSeek Harness — 61 model-facing tools + 2 polling triggers over the Gmail"
-  },
-  {
-   "repo": "saqie803/ponytail",
-   "name": "saqie803-ponytail",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony."
   },
   {
    "repo": "Seryta/dsh-node-nav",
@@ -26078,6 +26064,13 @@
    "desc": "DeepSeek WebUI Studio for interactive, visual-first client plugin development"
   },
   {
+   "repo": "omdsh-dev/dsh-file-trace",
+   "name": "omdsh-dev-dsh-file-trace",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的每个文件，带行号内容、终端风逐行 diff（红删绿增蓝改）与 hunk 上下文折叠；支持 present 交付文件查看（Markdown 渲染 / Ka"
+  },
+  {
    "repo": "papachong/deepseek-harness-tui",
    "name": "papachong-deepseek-harness-tui",
    "verdict": "incompatible",
@@ -26379,6 +26372,13 @@
    "desc": "Taffy Live Atelier / 塔菲直播工房 — DSH Web 粉金亚克力主题：浅色花房、深色舞台、粉金对话框与塔菲立绘，可选 Agent 预设"
   },
   {
+   "repo": "lhh010/dsh-file-trace",
+   "name": "lhh010-dsh-file-trace",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的每个文件，带行号内容、终端风逐行 diff（红删绿增蓝改）与 hunk 上下文折叠；支持 present 交付文件查看（Markdown 渲染 / Ka"
+  },
+  {
    "repo": "linhx1999/dsh-writing-pad",
    "name": "linhx1999-dsh-writing-pad",
    "verdict": "incompatible",
@@ -26482,6 +26482,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Open DeepSeek Harness UI in native window"
+  },
+  {
+   "repo": "saqie803/ponytail",
+   "name": "saqie803-ponytail",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony."
   },
   {
    "repo": "shawnlone/dsh-theme-tuner",
@@ -31911,7 +31918,7 @@
   {
    "repo": "GooDAnDReaDY/dsh-cron",
    "name": "goodandready-dsh-cron",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -39168,6 +39175,13 @@
    "desc": "—"
   },
   {
+   "repo": "O3SET/dsh-mapscan",
+   "name": "o3set-dsh-mapscan",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "oebeliever/dsh-image2-draw",
    "name": "oebeliever-dsh-image2-draw",
    "verdict": "pending",
@@ -45018,6 +45032,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "msn233/dsh-keymouse-use",
+   "name": "msn233-dsh-keymouse-use",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "A project that allow dsh to control your Windows."
   },
   {
    "repo": "Muredsa/dsh-benchup",
@@ -57368,13 +57389,6 @@
    "desc": "—"
   },
   {
-   "repo": "O3SET/dsh-mapscan",
-   "name": "o3set-dsh-mapscan",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "omdsh-dev/dsh-scout",
    "name": "omdsh-dev-dsh-scout",
    "verdict": "incompatible",
@@ -64193,6 +64207,13 @@
    "desc": "DeepSeek Harness cordis plugin: /desktop commands to open and control the desktop shell"
   },
   {
+   "repo": "Andrietteprotective835/dsh-mcp-lens",
+   "name": "andrietteprotective835-dsh-mcp-lens",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "april-jk/dsh-mobile",
    "name": "april-jk-dsh-mobile",
    "verdict": "pending",
@@ -67219,13 +67240,6 @@
   {
    "repo": "Alyosha28/dsh-plugin-updater",
    "name": "alyosha28-dsh-plugin-updater",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "Andrietteprotective835/dsh-mcp-lens",
-   "name": "andrietteprotective835-dsh-mcp-lens",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
