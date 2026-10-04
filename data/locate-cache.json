@@ -1,5 +1,5 @@
 {
-"resolved_at": "2026-10-03",
+"resolved_at": "2026-10-04",
 "entries": {
 "01virex-dsh-status-rotator": {
 "status": "found",
@@ -71985,6 +71985,32 @@
 },
 "bainianling-dsh-jailbreak-mode": {
 "status": "not_found"
+},
+"h1kariiiiiii-dsh-desktop-launcher2": {
+"status": "not_found"
+},
+"paul090515-dsh-system-cleanup": {
+"status": "found",
+"full_name": "Paul090515/dsh-system-cleanup",
+"star": 0
+},
+"tyeclipse-dsh-complex": {
+"status": "found",
+"full_name": "TYEclipse/dsh-complex",
+"star": 0
+},
+"vecnode-dsh-vn-plugins": {
+"status": "not_found"
+},
+"xxxxxq-0206-dsh-prompt-for-me": {
+"status": "found",
+"full_name": "XXXXXQ-0206/dsh-prompt-for-me",
+"star": 1
+},
+"xxxxxq-0206-dsh-session-delete": {
+"status": "found",
+"full_name": "XXXXXQ-0206/dsh-session-delete",
+"star": 0
 }
 }
 }
