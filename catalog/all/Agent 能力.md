@@ -127,6 +127,7 @@
 - 🟩 `[可用]` [muyuanjin-dsh-ptc-plus](https://github.com/muyuanjin/dsh-ptc-plus) ★10 — A session-bound agent-native REPL for DeepSeek Harness PTC mode.
 - 🟩 `[可用]` [perrylink-dsh-budget](https://github.com/PerryLink/dsh-budget) ★10 — —
 - 🟩 `[可用]` [shaneconner-fold](https://github.com/shaneconner/fold) ★10 — Lossless context folding for the Pi coding agent: only the oldest context changes; the fresh window stays unto
+- ⬜ `[待定]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - ⬜ `[待定]` [ciyuan1234-mcm-skills](https://github.com/ciyuan1234/MCM_skills) ★9 — —
 - 🟩 `[可用]` [falling-ts-dsh-force-compact](https://github.com/falling-ts/dsh-force-compact) ★9 — Aggressive context compaction for local-first agents
 - 🟩 `[可用]` [dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) ★9 — 暴露 run_python/run_node 工具，通过 stdin 执行代码返回 stdout/stderr/exit，含解释器路径配置卡 \| Exposes run_python/run_node tools tha
@@ -330,7 +331,7 @@
 - 🟩 `[可用]` [dsh-dynamic-island](https://github.com/YLifeOnlyOnce/dsh-dynamic-island) ★3 — A tiny glass companion for DeepSeek Harness — it breathes while the agent thinks, pulses while it works, and p
 - 🟩 `[可用]` [zhubaohi-dsh-qwen38-compaction-fix](https://github.com/zhubaohi/dsh-qwen38-compaction-fix) ★3 — DSH plugin: stop qwen3.8-27b from burning its output budget on thinking during context compaction
 - 🟩 `[可用]` [zihaovistonwang-stata-ai-skill](https://github.com/ZihaoVistonWang/Stata-AI-Skill) ★3 — —
-- ⬜ `[待定]` [ziye1208-dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) ★3 — —
+- 🟩 `[可用]` [ziye1208-dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) ★3 — —
 - 🟩 `[可用]` [zn-dk-dsh-session-explorer](https://github.com/Zn-Dk/dsh-session-explorer) ★3 — —
 - `[空仓监测]` **deepseek-harness-typescript-sdk** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-tool-memory](https://github.com/sikwoxy/dsh-tool-memory) ★3 — DeepSeek Harness 插件：跨会话持久记忆（Hermes 式）
@@ -980,7 +981,6 @@
 - `[空仓监测]` **milbaxter-dsh-critique-loop** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [minglink-dsh-plugin-agent-workflow](https://github.com/Minglink/dsh-plugin-agent-workflow) ★0 — —
 - 🟩 `[可用]` [misrightw-dsh-agent-teams](https://github.com/MisRightW/dsh-agent-teams) ★0 — —
-- ⬜ `[待定]` [missher12-dsh-missher-memory](https://github.com/Missher12/dsh-missher-memory) ★0 — —
 - 🟩 `[可用]` [modole-dsh-plugin-skills-laoboshi](https://github.com/Modole/dsh-plugin-skills-laoboshi) ★0 — —
 - 🟩 `[可用]` [morehao-ai-kit](https://github.com/morehao/ai-kit) ★0 — A collection of my skills.
 - 🟩 `[可用]` [mrwoov-dsh-agent-md](https://github.com/mrwoov/dsh-agent-md) ★0 — dsh agents.md manager
@@ -1396,7 +1396,6 @@
 - 🟨 `[不兼容]` [lincong1987-dsh-model-switch](https://github.com/lincong1987/dsh-model-switch) ★10 — dsh plugin: flexible model switch for sub‑agent & plan execution
 - 🟨 `[不兼容]` [platonai-dsh-browser4](https://github.com/platonai/dsh-browser4) ★10 — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web auto
 - 🟨 `[不兼容]` [wally8-8-dsh-done-whale](https://github.com/wally8-8/dsh-done-whale) ★10 — DeepSeek Harness 插件：标签页鲸鱼状态灯 —— 会话完成变绿，有待处理交互变琥珀
-- 🟨 `[不兼容]` [9931666-dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) ★9 — （roundtable V1.0.0）把一次 DeepSeek Harness 会话，从"你和 AI 一对一聊天"，升级成"你 + 主持人(DeepSeek) + 一圈专家 AI 开圆桌会
 - 🟨 `[不兼容]` [ccch713-deepddw](https://github.com/ccch713/deepddw) ★9 — DSH for Teams — Deploy DSH once on your LAN; memory, knowledge base & document search included
 - 🟨 `[不兼容]` [whutzefengxie-ops-dsh-shadow-mind](https://github.com/whutzefengxie-ops/dsh-shadow-mind) ★9 — Independent Shadow agent orchestration plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [chipweaver-veripower](https://github.com/chipweaver/veripower) ★8 — An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end sig
@@ -1749,6 +1748,7 @@
 - 🟨 `[不兼容]` [masknull-dsh-workspace-default-path](https://github.com/masknull/dsh-workspace-default-path) ★0 — DSH 插件：添加工作区时记住上次使用的目录，下次打开浏览对话框直接定位（预填 + 自动记忆，官方流程不动）
 - 🟨 `[不兼容]` [michaelgong-dsh-session-hover-preview](https://github.com/MichaelGong/dsh-session-hover-preview) ★0 — —
 - 🟨 `[不兼容]` [microwearld-dsh-subagent-a2a](https://github.com/MicroWearld/dsh-subagent-a2a) ★0 — —
+- 🟨 `[不兼容]` [missher12-dsh-missher-memory](https://github.com/Missher12/dsh-missher-memory) ★0 — —
 - 🟨 `[不兼容]` [mkaliezz-dsh-agent-doctor](https://github.com/MkaliezZ/dsh-agent-doctor) ★0 — —
 - 🟨 `[不兼容]` [mkaliezz-dsh-context-pack](https://github.com/MkaliezZ/dsh-context-pack) ★0 — —
 - 🟨 `[不兼容]` [ml020-dsh-workbuddy](https://github.com/ml020/dsh-workbuddy) ★0 — Wordless-styled WorkBuddy hero for DSH: replaces the blank-session brand mark and workspace picker while keepi
