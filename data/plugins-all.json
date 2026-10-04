@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-04T17:46:43Z",
+ "generated_at": "2026-10-04T18:01:24Z",
  "plugins": [
   {
    "repo": "tt-a1i/archify",
@@ -3426,13 +3426,6 @@
    "desc": "DSH 插件：开发前自动进入 plan mode（plan-first development workflow）"
   },
   {
-   "repo": "axelfreeman/hermes-security-audit",
-   "name": "axelfreeman-hermes-security-audit",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "🔒 12-method security audit for Hermes Agent — virus scan, rootkit detection, SSH brute force protection"
-  },
-  {
    "repo": "Ayato233/dsh-agent-manage",
    "name": "ayato233-dsh-agent-manage",
    "verdict": "ok",
@@ -5041,6 +5034,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH (DeepSeek Harness) 会话日志可视化插件：三层渐进式查看器（摘要卡片 / 执行故事线 / 技术事件树），随 harness 启动"
+  },
+  {
+   "repo": "XXXXXQ-0206/dsh-prompt-for-me",
+   "name": "xxxxxq-0206-dsh-prompt-for-me",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "xzyonline/dsh-file-attachments",
@@ -8471,6 +8471,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r"
+  },
+  {
+   "repo": "XXXXXQ-0206/dsh-session-delete",
+   "name": "xxxxxq-0206-dsh-session-delete",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "xz1996618/dsh-memory",
@@ -45384,6 +45391,13 @@
    "desc": "—"
   },
   {
+   "repo": "Paul090515/dsh-system-cleanup",
+   "name": "paul090515-dsh-system-cleanup",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "pd90506/dsh-web-notification",
    "name": "pd90506-dsh-web-notification",
    "verdict": "ok",
@@ -46661,6 +46675,13 @@
    "repo": "TY-ang/dsh-worktree-flow",
    "name": "ty-ang-dsh-worktree-flow",
    "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "TYEclipse/dsh-complex",
+   "name": "tyeclipse-dsh-complex",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -86836,13 +86857,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "astral-code session-memory system ported to DeepSeek Harness (dsh): sidechain summary extraction + boundary-tr"
-  },
-  {
-   "repo": "axelfreeman/backupper",
-   "name": "axelfreeman-backupper",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Free encrypted deduplicated backups of remote Linux servers, pulled from a Windows PC with Restic — zero softw"
   },
   {
    "repo": "ayumedaze/dsh-git",

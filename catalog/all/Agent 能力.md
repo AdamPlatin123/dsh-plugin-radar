@@ -496,7 +496,7 @@
 - 🟩 `[可用]` [aorucshiea-dsh-preset-switch](https://github.com/aorucshiea/dsh-preset-switch) ★1 — Optional mid-session agent-preset switching for DeepSeek Harness
 - 🟩 `[可用]` [dsh-turn-approval](https://github.com/arrow949/dsh-turn-approval) ★1 — Turn-scoped "Allow for this task" approvals for DeepSeek Harness.
 - ⬜ `[待定]` [dsh-plan-first-dev](https://github.com/asd176916847/dsh-plan-first-dev) ★1 — DSH 插件：开发前自动进入 plan mode（plan-first development workflow）
-- ⬜ `[待定]` [axelfreeman-hermes-security-audit](https://github.com/axelfreeman/hermes-security-audit) ★1 — 🔒 12-method security audit for Hermes Agent — virus scan, rootkit detection, SSH brute force protection
+- `[空仓监测]` **axelfreeman-hermes-security-audit** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ayato233-dsh-agent-manage](https://github.com/Ayato233/dsh-agent-manage) ★1 — —
 - ⬜ `[待定]` [bbaz123-novel-writing-plugin](https://github.com/bbaz123/novel-writing-plugin) ★1 — DeepSeek Harness plugin for long-form Chinese AI novel writing: layered context, foreshadowing ledger, anti-AI
 - 🟩 `[可用]` [beijingwahw-dsh-companion-dev](https://github.com/beijingwahw/dsh-companion-dev) ★1 — DeepSeek Companion 开发者版 — DeepSeek Harness 官方伴侣插件完整功能集：A–J 九大模块（对话导出/交接摘要/成本优化/全局检索 + 执行轨迹分析、Prompt 工程工作台、多模型竞
@@ -731,6 +731,7 @@
 - 🟩 `[可用]` [xsakura666-dsh-plugin-chronoagent](https://github.com/XSakura666/dsh-plugin-ChronoAgent) ★1 — —
 - 🟩 `[可用]` [xtd1145-dsh-full-access-switch](https://github.com/xtd1145/dsh-full-access-switch) ★1 — DSH one-time Full access switch: no per-session confirmation for new workspaces/conversations
 - 🟩 `[可用]` [xusuyang030218-dsh-session-viz](https://github.com/xusuyang030218/dsh-session-viz) ★1 — DSH (DeepSeek Harness) 会话日志可视化插件：三层渐进式查看器（摘要卡片 / 执行故事线 / 技术事件树），随 harness 启动
+- ⬜ `[待定]` [xxxxxq-0206-dsh-prompt-for-me](https://github.com/XXXXXQ-0206/dsh-prompt-for-me) ★1 — —
 - 🟩 `[可用]` [dsh-file-attachments](https://github.com/xzyonline/dsh-file-attachments) ★1 — Session-bound file attachments for DeepSeek Harness: drag, paste, or select files into the chat; the agent rea
 - 🟩 `[可用]` [yangyongzhen-dsh-memory](https://github.com/yangyongzhen/dsh-memory) ★1 — —
 - 🟩 `[可用]` [dsh-session-report](https://github.com/yangyongzhen/dsh-session-report) ★1 — Session cost/usage report cards for DeepSeek Harness: tokens, cache-hit rate, per-turn breakdown, cost estimat
@@ -1251,8 +1252,7 @@
 - ⬜ `[待定]` [xrj-dsh-plugin-registry](https://github.com/xrj/dsh-plugin-registry) ★0 — An open registry snapshot for DeepSeek Harness plugins, skills, and related tools
 - ⬜ `[待定]` [xujiping-dsh-plugins](https://github.com/xujiping/dsh-plugins) ★0 — DeepSeek Harness 自研插件全家桶（monorepo）：dsh-memory 全局记忆等
 - 🟩 `[可用]` [xuviga-dsh-plugin-mnemosyne](https://github.com/xuviga/dsh-plugin-mnemosyne) ★0 — Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r
-- `[未定位]` **xxxxxq-0206-dsh-prompt-for-me** — 占位待复核，判定暂不展示
-- `[未定位]` **xxxxxq-0206-dsh-session-delete** — 占位待复核，判定暂不展示
+- ⬜ `[待定]` [xxxxxq-0206-dsh-session-delete](https://github.com/XXXXXQ-0206/dsh-session-delete) ★0 — —
 - 🟩 `[可用]` [xz1996618-dsh-memory](https://github.com/xz1996618/dsh-memory) ★0 — DeepSeek Harness (DSH) plugin: cross-workspace long-term memory manager with vector search (host + browser dua
 - 🟩 `[可用]` [yangbobo2021-relay-dsh-plugin-monitor-author](https://github.com/yangbobo2021/relay-dsh-plugin-monitor-author) ★0 — DSH Skill for discovering and safely authoring Relay Monitor Bundles.
 - 🟩 `[可用]` [yangbobo2021-relay-dsh-plugin-skill-creator](https://github.com/yangbobo2021/relay-dsh-plugin-skill-creator) ★0 — DSH plugin that turns completed conversations into reusable, validated Skill bundles
