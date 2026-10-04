@@ -1,5 +1,5 @@
 {
-"checked_at": "2026-10-03",
+"checked_at": "2026-10-04",
 "entries": {
 "01virex/dsh-status-rotator": {
 "status": "ok",
@@ -54484,6 +54484,70 @@
 "lucagiftzek/dsh-artifacts": {
 "status": "ok",
 "checked": "2026-10-02"
+},
+"axelfreeman/backupper": {
+"status": "gone",
+"checked": "2026-10-04"
+},
+"axelfreeman/hermes-security-audit": {
+"status": "gone",
+"checked": "2026-10-04"
+},
+"grloper/dsh-deep-research": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"msn233/dsh-keymouse-use": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"paul090515/dsh-system-cleanup": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"tyeclipse/dsh-complex": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"weibaohui/dsh-webdav-server": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"winsonpong98-cloud/dsh-distillation-director": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"xxxxxq-0206/dsh-prompt-for-me": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"xxxxxq-0206/dsh-session-delete": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"yuu1111/dsh-ui-font": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"zhengjy01/dsh-aliyun-mcp": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"zhengjy01/dsh-feishu-mcp": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"zhengjy01/dsh-goofish-mcp": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"zhengjy01/dsh-npm": {
+"status": "ok",
+"checked": "2026-10-04"
+},
+"zhengjy01/dsh-zsxq": {
+"status": "ok",
+"checked": "2026-10-04"
 }
 }
 }
