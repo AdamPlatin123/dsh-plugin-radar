@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-06T22:00:51Z",
+ "generated_at": "2026-10-06T23:15:51Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -22851,6 +22851,13 @@
    "desc": "DSH 插件管理器：设置面板内的社区插件市场（npm 搜索一键安装）+ 已安装插件三维筛选管理（启停热重载/一键卸载/持久化）"
   },
   {
+   "repo": "new-256/dsh-session-cleaner",
+   "name": "new-256-dsh-session-cleaner",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 会话清理宿主插件：侧边栏原生「移入回收站」+ 回收站管理页 + HTTP API（两级可恢复删除、同名防删错、活跃会话保护）"
+  },
+  {
    "repo": "NewDaNew/dsh-voice-input",
    "name": "newdanew-dsh-voice-input",
    "verdict": "ok",
@@ -39285,6 +39292,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Nous Portal LLM plugin bundle for DeepSeek Harness"
+  },
+  {
+   "repo": "PerryLink/dsh-autotier",
+   "name": "perrylink-dsh-autotier",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "PerryLink/dsh-plugin-kit",
@@ -71653,13 +71667,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "A mod-style plugin manager for DeepSeek Harness web profiles."
-  },
-  {
-   "repo": "perrylink/dsh-autotier",
-   "name": "dsh-autotier",
-   "verdict": "untested",
-   "stars": 1,
-   "desc": "自动模型分层路由：一条用户指令进、一条分层决策出——复杂意图由强档规划、廉价档执行，确定性护栏 + TTL 升级回退，无需手动切换模型；`dsh.bundle.patch` 可安装，1024 商店渠道 `dsh1024 plugin --profile web add dsh-autotier`"
   },
   {
    "repo": "1clickreport/dsh-1clickreport",
