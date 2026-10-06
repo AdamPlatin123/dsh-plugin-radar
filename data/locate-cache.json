@@ -1,5 +1,5 @@
 {
-"resolved_at": "2026-10-05",
+"resolved_at": "2026-10-07",
 "entries": {
 "01virex-dsh-status-rotator": {
 "status": "found",
@@ -72011,6 +72011,17 @@
 "status": "found",
 "full_name": "XXXXXQ-0206/dsh-session-delete",
 "star": 0
+},
+"axelfreeman-backupper": {
+"status": "not_found"
+},
+"axelfreeman-hermes-security-audit": {
+"status": "not_found"
+},
+"perrylink-dsh-autotier": {
+"status": "found",
+"full_name": "PerryLink/dsh-autotier",
+"star": 1
 }
 }
 }
