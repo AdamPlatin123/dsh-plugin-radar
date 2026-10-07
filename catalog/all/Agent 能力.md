@@ -547,6 +547,7 @@
 - `[空仓监测]` **dsh-agent-arcade** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **dsh-prompt-presets** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [findshan-dsh-agent-memory](https://github.com/findshan/dsh-agent-memory) ★1 — Self-evolving memory for DeepSeek Harness: capture → dream consolidation → retrieval injection → evolve
+- 🟩 `[可用]` [forrestsweet-dsh-agent-replay](https://github.com/forrestsweet/dsh-agent-replay) ★1 — DeepSeek Harness 会话回放与脱敏分享插件：将真实 Agent 轨迹导出为独立交互 HTML，用于文档、演示和问题反馈
 - ⬜ `[待定]` [franklinzanedurant-agent-discipline](https://github.com/FranklinZaneDurant/agent-discipline) ★1 — —
 - 🟩 `[可用]` [fufuf-c-dsh-token](https://github.com/fufuf-c/dsh-token) ★1 — DSH local token usage & cost dashboard: 4-segment token breakdown, cache savings, per-session drill-down, glob
 - 🟩 `[可用]` [funnyvalentine00-dsh-session-continue](https://github.com/Funnyvalentine00/dsh-session-continue) ★1 — —
@@ -641,7 +642,6 @@
 - 🟩 `[可用]` [mynameiskcy-dsh-mattpocock-skills](https://github.com/MynameisKcy/dsh-mattpocock-skills) ★1 — —
 - ⬜ `[待定]` [nanbujiwanfeng-deepseek-harness-translation](https://github.com/nanbujiwanfeng/deepseek-harness-translation) ★1 — Bidirectional Chinese↔English conversation translation for deepseek-harness: Chinese-speaking users converse i
 - 🟩 `[可用]` [nataliwhite20534-droid-dsh-4-role-workflow](https://github.com/nataliwhite20534-droid/dsh-4-role-workflow) ★1 — 4-agent workflow (PM + Browser + Programmer + DataEng) for complex DSH tasks
-- 🟩 `[可用]` [nbfys-dsh-web-attention-badge-enhanced](https://github.com/nbfys/dsh-web-attention-badge-enhanced) ★1 — DSH Web attention badge (fork): \[Waiting\]/\[Done\] tab title, current-session done tracking, acknowledged remind
 - 🟩 `[可用]` [nexusagentx-dsh-lens](https://github.com/NexusAgentX/dsh-lens) ★1 — —
 - 🟩 `[可用]` [dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) ★1 — MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into context.
 - 🟩 `[可用]` [nexusagentx-dsh-web-access](https://github.com/NexusAgentX/dsh-web-access) ★1 — —
@@ -1765,7 +1765,6 @@
 - 🟨 `[不兼容]` [ninjasln-labs-dsh-subagent-cursor](https://github.com/NinjaSln-labs/dsh-subagent-cursor) ★0 — —
 - 🟨 `[不兼容]` [niuniuaba-dsh-subagent-vision](https://github.com/niuniuaba/dsh-subagent-vision) ★0 — —
 - 🟨 `[不兼容]` [noah0509-dsh-session-manager](https://github.com/Noah0509/dsh-session-manager) ★0 — —
-- `[空仓监测]` **oierxjn-dsh-skills-mcp-group-manager** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [olina1ye-internal-skill-workshop-plugin](https://github.com/Olina1Ye/internal-skill-workshop-plugin) ★0 — —
 - 🟨 `[不兼容]` [pastsheep-dsh-agent-shell](https://github.com/PastSheep/dsh-agent-shell) ★0 — —
 - 🟨 `[不兼容]` [piaohua-dsh-schedule-command](https://github.com/piaohua/dsh-schedule-command) ★0 — DeepSeek Harness 的 /schedule 定时任务命令 —— 一句话创建会话内单次/周期任务，⏰ 标识自动识别定时会话
@@ -1843,6 +1842,7 @@
 - 🟨 `[不兼容]` [zhengjy01-dsh-cubox](https://github.com/zhengjy01/dsh-cubox) ★0 — Cubox sync plugin for DeepSeek Harness: scheduled sync, AI daily brief from your prompt template into Obsidian
 - 🟨 `[不兼容]` [zhengjy01-dsh-period-report](https://github.com/zhengjy01/dsh-period-report) ★0 — Free-interval session reports for DeepSeek Harness: AI-narrated daily/weekly digests over any date range + eve
 - 🟨 `[不兼容]` [zhm20001-dsh-usage-board](https://github.com/zhm20001/dsh-usage-board) ★0 — dsh-usage-board 是专为 DSH (DeepSeek Harness) 设计的用量与成本可视化看板插件
+- `[空仓监测]` **oierxjn-dsh-skills-mcp-group-manager** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **jypjypjypjyp-dsh-agent-teams** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **wangweber-dsh-my-todo** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [dsh-session-supervisor](https://github.com/acosmi/dsh-session-supervisor) ★0 — Durable, bounded lifecycle supervisor with scheduled evaluation for live DeepSee
