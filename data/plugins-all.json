@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-06T23:15:51Z",
+ "generated_at": "2026-10-07T01:01:19Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -54162,7 +54162,7 @@
    "desc": "—"
   },
   {
-   "repo": "evaldock/dsh-top100",
+   "repo": "evaldock-account/dsh-top100",
    "name": "dsh-top100",
    "verdict": "incompatible",
    "stars": 495,
