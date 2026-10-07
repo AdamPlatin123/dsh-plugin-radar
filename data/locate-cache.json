@@ -1,5 +1,5 @@
 {
-"resolved_at": "2026-10-07",
+"resolved_at": "2026-10-08",
 "entries": {
 "01virex-dsh-status-rotator": {
 "status": "found",
@@ -72022,6 +72022,27 @@
 "status": "found",
 "full_name": "PerryLink/dsh-autotier",
 "star": 1
+},
+"itraceur-dsh-wechat-mp-search": {
+"status": "found",
+"full_name": "iTraceur/dsh-wechat-mp-search",
+"star": 1
+},
+"tyeclipse-dsh-boolean": {
+"status": "found",
+"full_name": "TYEclipse/dsh-boolean",
+"star": 0
+},
+"youli42-dsh-betterinput": {
+"status": "found",
+"full_name": "youli42/dsh_BetterInput",
+"star": 0,
+"fuzzy": true
+},
+"z-6354-dsh-local-hanaccount": {
+"status": "found",
+"full_name": "Z-6354/dsh-local-hanaccount",
+"star": 0
 }
 }
 }
