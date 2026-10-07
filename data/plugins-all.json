@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-07T21:15:47Z",
+ "generated_at": "2026-10-07T22:30:50Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -4425,13 +4425,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "4-agent workflow (PM + Browser + Programmer + DataEng) for complex DSH tasks"
-  },
-  {
-   "repo": "nbfys/dsh-web-attention-badge-enhanced",
-   "name": "nbfys-dsh-web-attention-badge-enhanced",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "DSH Web attention badge (fork): \\[Waiting\\]/\\[Done\\] tab title, current-session done tracking, acknowledged remind"
   },
   {
    "repo": "NexusAgentX/dsh-lens",
@@ -10265,6 +10258,13 @@
    "desc": "—"
   },
   {
+   "repo": "21hbguo/dsh-agent-board",
+   "name": "21hbguo-dsh-agent-board",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH (DeepSeek Harness) Agent 实时看板：主 agent 与子代理树形层级监控 + 停滞自动告警 + SSE 实时推送，点击直达会话"
+  },
+  {
    "repo": "2303572348/deepseek-harness-memory",
    "name": "deepseek-harness-memory",
    "verdict": "incompatible",
@@ -10774,6 +10774,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "qiuyiwu1989-star/dsh-k12-substrate",
+   "name": "qiuyiwu1989-star-dsh-k12-substrate",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "让 Agent 查询课程能力、清单知识点和本地学习者档案，辅助判断下一步学习"
   },
   {
    "repo": "raktim-mondol/dsh-researchcraft",
@@ -18525,13 +18532,6 @@
    "desc": "Right-to-left text direction for the DeepSeek Harness Web client"
   },
   {
-   "repo": "helays/dsh-tray",
-   "name": "helays-dsh-tray",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "🐳 dsh-tray：DeepSeek Harness 一键托盘启动器 —— 双击即启动 Web GUI 并最小化到系统托盘，单文件、自包含、免安装的 C# 托盘小程序"
-  },
-  {
    "repo": "HenrlyLin16/dsh-quickstart",
    "name": "henrlylin16-dsh-quickstart",
    "verdict": "pending",
@@ -19328,13 +19328,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "mtaech/dsh-material-you",
-   "name": "mtaech-dsh-material-you",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "Material You (M3) skin for DeepSeek Harness: HCT tonal palette + Maple Mono NF CN, clean blue & white"
   },
   {
    "repo": "mumuer1024/dsh-ui-liteglass",
@@ -27184,6 +27177,13 @@
    "desc": "—"
   },
   {
+   "repo": "mldhao/dsh-blue-archive-shiroko",
+   "name": "mldhao-dsh-blue-archive-shiroko",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Blue Archive-inspired DSH theme with a Shiroko desktop companion, Codex-style reply bubbles, petting effects,"
+  },
+  {
    "repo": "motongv/dsh-voice",
    "name": "motongv-dsh-voice",
    "verdict": "incompatible",
@@ -27280,13 +27280,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "qiuyiwu1989-star/dsh-k12-substrate",
-   "name": "qiuyiwu1989-star-dsh-k12-substrate",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "让 Agent 查询课程能力、清单知识点和本地学习者档案，辅助判断下一步学习"
   },
   {
    "repo": "RadicalGitter/dsh-ui-translate",
@@ -28764,6 +28757,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH插件：将大图像分割成带标签的800像素图块，并保留概览图，同时保留视觉模型所需的细节"
+  },
+  {
+   "repo": "mtaech/dsh-material-you",
+   "name": "mtaech-dsh-material-you",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Material You (M3) skin for DeepSeek Harness: HCT tonal palette + Maple Mono NF CN, clean blue & white"
   },
   {
    "repo": "yan5236/slcatwujian-dsh-vision-plugin",
@@ -39021,6 +39021,13 @@
    "desc": "—"
   },
   {
+   "repo": "nbfys/dsh-web-attention-badge-enhanced",
+   "name": "nbfys-dsh-web-attention-badge-enhanced",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web attention badge (fork): \\[Waiting\\]/\\[Done\\] tab title, current-session done tracking, acknowledged remind"
+  },
+  {
    "repo": "Neplich/dsh_plugin",
    "name": "neplich-dsh-plugin",
    "verdict": "ok",
@@ -43436,6 +43443,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "ikomom/dsh-trade-chart",
+   "name": "ikomom-dsh-trade-chart",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 交易图表插件：对话内直接渲染 K线/折线/柱状/面积图、技术指标（EMA/BOLL/MACD/RSI/KDJ/MAVOL）、热点轮动矩阵与连板晋级图"
   },
   {
    "repo": "imdeniil/dsh-effort-bars",
@@ -51157,6 +51171,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "挑选字段"
+  },
+  {
+   "repo": "uckkk/dsh-pickle-intro",
+   "name": "uckkk-dsh-pickle-intro",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "腌菜入门"
   },
   {
    "repo": "uckkk/dsh-pickle-recipe",
@@ -60189,6 +60210,13 @@
    "desc": "DeepSeek Harness: Everything is a Plugin.〔📦〕"
   },
   {
+   "repo": "windygo123/dsh-see-world",
+   "name": "windygo123-dsh-see-world",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: decide WHEN to search the web, enforce search-first answers, and stay out of the way for local tas"
+  },
+  {
    "repo": "winliyou/dsh-plugins",
    "name": "winliyou-dsh-plugins",
    "verdict": "incompatible",
@@ -68687,6 +68715,13 @@
    "desc": "封装 danbooru-tags.exe 为 DSH 工具面（硬锚点校验/随机抽卡/批量），支撑 Anima 生图 prompt 组装"
   },
   {
+   "repo": "jonnycafong/office-farmer-emoji",
+   "name": "jonnycafong-office-farmer-emoji",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "🧑‍🌾 agent 通用 skill / npm 包：把中国农村传统农具画成「搪瓷缸怀旧质感 + 打工人梗」的微信表情包（CLI / 编程 API / DSH 插件三种接入）"
+  },
+  {
    "repo": "jxwb125646/dsh-niu-lai",
    "name": "jxwb125646-dsh-niu-lai",
    "verdict": "ok",
@@ -70150,13 +70185,6 @@
    "desc": "Pi and DSH plugins for stock market"
   },
   {
-   "repo": "tiantizz/dsh-whale-report",
-   "name": "tiantizz-dsh-whale-report",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Evidence-based delivery acceptance for DeepSeek Harness."
-  },
-  {
    "repo": "uckkk/dsh-pet-food-amt",
    "name": "uckkk-dsh-pet-food-amt",
    "verdict": "incompatible",
@@ -70757,13 +70785,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "高铁指南"
-  },
-  {
-   "repo": "uckkk/dsh-pickle-intro",
-   "name": "uckkk-dsh-pickle-intro",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "腌菜入门"
   },
   {
    "repo": "uckkk/dsh-solid-food",
@@ -73958,6 +73979,13 @@
    "desc": "学习+链接 → 全自动采集·AI总结·亮点·术语·评分·图谱·深度OCR·入库 \\| One link → AI analysis+highlights+glossary+rating+knowledge graph →"
   },
   {
+   "repo": "helays/dsh-tray",
+   "name": "helays-dsh-tray",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "🐳 dsh-tray：DeepSeek Harness 一键托盘启动器 —— 双击即启动 Web GUI 并最小化到系统托盘，单文件、自包含、免安装的 C# 托盘小程序"
+  },
+  {
    "repo": "imlishiyuan/keep-reminder",
    "name": "imlishiyuan-keep-reminder",
    "verdict": "ok",
@@ -76107,13 +76135,6 @@
    "desc": "—"
   },
   {
-   "repo": "mldhao/dsh-blue-archive-shiroko",
-   "name": "mldhao-dsh-blue-archive-shiroko",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Blue Archive-inspired DSH theme with a Shiroko desktop companion, Codex-style reply bubbles, petting effects,"
-  },
-  {
    "repo": "my-dsh-plugin/session-archive-manager",
    "name": "my-dsh-plugin-session-archive-manager",
    "verdict": "incompatible",
@@ -78081,13 +78102,6 @@
    "desc": "自由职业任务雷达（主人自由人路线支撑）：聚合公开远程任务源（电鸭 API/RSS）→ 按主人能力画像（AI/Agent/LLM + 排除词）打分筛选 → 工具面呈现 + telegram 推送「值得看」清单"
   },
   {
-   "repo": "jonnycafong/office-farmer-emoji",
-   "name": "jonnycafong-office-farmer-emoji",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "🧑‍🌾 agent 通用 skill / npm 包：把中国农村传统农具画成「搪瓷缸怀旧质感 + 打工人梗」的微信表情包（CLI / 编程 API / DSH 插件三种接入）"
-  },
-  {
    "repo": "kvenux/dsh-oai-oauth",
    "name": "kvenux-dsh-oai-oauth",
    "verdict": "ok",
@@ -79878,13 +79892,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
-  },
-  {
-   "repo": "21hbguo/dsh-agent-board",
-   "name": "21hbguo-dsh-agent-board",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DSH (DeepSeek Harness) Agent 实时看板：主 agent 与子代理树形层级监控 + 停滞自动告警 + SSE 实时推送，点击直达会话"
   },
   {
    "repo": "aa2246740/dsh-gateway",
@@ -87699,13 +87706,6 @@
    "desc": "DSH Insights ecosystem assistant — health scores, scenario picks and ecosystem dynamics inside DeepSeek Harnes"
   },
   {
-   "repo": "ikomom/dsh-trade-chart",
-   "name": "ikomom-dsh-trade-chart",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "DeepSeek Harness 交易图表插件：对话内直接渲染 K线/折线/柱状/面积图、技术指标（EMA/BOLL/MACD/RSI/KDJ/MAVOL）、热点轮动矩阵与连板晋级图"
-  },
-  {
    "repo": "imBlanker/codex-plugin-dsh",
    "name": "imblanker-codex-plugin-dsh",
    "verdict": "ok",
@@ -92991,6 +92991,13 @@
    "desc": "—"
   },
   {
+   "repo": "tiantizz/dsh-whale-report",
+   "name": "tiantizz-dsh-whale-report",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Evidence-based delivery acceptance for DeepSeek Harness."
+  },
+  {
    "repo": "toolazytoname/dsh-plugin-grok",
    "name": "toolazytoname-dsh-plugin-grok",
    "verdict": "incompatible",
@@ -93087,13 +93094,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "windygo123/dsh-see-world",
-   "name": "windygo123-dsh-see-world",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "DSH plugin: decide WHEN to search the web, enforce search-first answers, and stay out of the way for local tas"
   },
   {
    "repo": "winyh/dsh-idea",
