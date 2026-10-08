@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-08T01:20:04Z",
+ "generated_at": "2026-10-08T03:31:00Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -4425,6 +4425,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "4-agent workflow (PM + Browser + Programmer + DataEng) for complex DSH tasks"
+  },
+  {
+   "repo": "nbfys/dsh-web-attention-badge-enhanced",
+   "name": "nbfys-dsh-web-attention-badge-enhanced",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web attention badge (fork): \\[Waiting\\]/\\[Done\\] tab title, current-session done tracking, acknowledged remind"
   },
   {
    "repo": "NexusAgentX/dsh-lens",
@@ -21544,7 +21551,7 @@
   {
    "repo": "Erick0412-dev/dsh-agy-ui",
    "name": "erick0412-dev-dsh-agy-ui",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -27238,13 +27245,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "System notifications for the DeepSeek Harness web GUI — OS-level popups for finished turns and pending interac"
-  },
-  {
-   "repo": "pc439527/dsh-side-monitor",
-   "name": "pc439527-dsh-side-monitor",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DSH 系统监控侧边插件：概览/进程/Docker 只读监控"
   },
   {
    "repo": "pick1e-morty/dsh-suggest-reply",
@@ -39021,13 +39021,6 @@
    "desc": "—"
   },
   {
-   "repo": "nbfys/dsh-web-attention-badge-enhanced",
-   "name": "nbfys-dsh-web-attention-badge-enhanced",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "DSH Web attention badge (fork): \\[Waiting\\]/\\[Done\\] tab title, current-session done tracking, acknowledged remind"
-  },
-  {
    "repo": "Neplich/dsh_plugin",
    "name": "neplich-dsh-plugin",
    "verdict": "ok",
@@ -43720,7 +43713,7 @@
   {
    "repo": "jmche/dsh-llm-verifier-pro",
    "name": "jmche-dsh-llm-verifier-pro",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "LLM-as-a-Verifier plugin for DeepSeek Harness — fine-grained reward tools (verify_compare / verify_select / ve"
   },
@@ -60222,13 +60215,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness: Everything is a Plugin.〔📦〕"
-  },
-  {
-   "repo": "windygo123/dsh-see-world",
-   "name": "windygo123-dsh-see-world",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "DSH plugin: decide WHEN to search the web, enforce search-first answers, and stay out of the way for local tas"
   },
   {
    "repo": "winliyou/dsh-plugins",
@@ -79145,6 +79131,13 @@
    "desc": "DSH desktop pet plugin: an American Shorthair kitten in the bottom-right corner that reacts to the Agent's wor"
   },
   {
+   "repo": "surenkid/dsh-selection-based-comments",
+   "name": "surenkid-dsh-selection-based-comments",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web 的选区评论插件，提供类似 ChatGPT/Codex 网页端的评论体验：在聊天消息中选中一段文字，针对该选段写评论；可以继续选择其他内容追加评论；最后一次性把所有选段和评论组成一条普通用户消息提交给当前会"
+  },
+  {
    "repo": "syncended/deepseek-harness-messenger",
    "name": "syncended-deepseek-harness-messenger",
    "verdict": "pending",
@@ -88931,13 +88924,6 @@
    "desc": "DeepSeek Harness plugins — dual-face cordis packages extending the DSH web surface: command deck, git worktree"
   },
   {
-   "repo": "surenkid/dsh-selection-based-comments",
-   "name": "surenkid-dsh-selection-based-comments",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "DSH Web 的选区评论插件，提供类似 ChatGPT/Codex 网页端的评论体验：在聊天消息中选中一段文字，针对该选段写评论；可以继续选择其他内容追加评论；最后一次性把所有选段和评论组成一条普通用户消息提交给当前会"
-  },
-  {
    "repo": "suyukun/dsh-plugin-publish",
    "name": "suyukun-dsh-plugin-publish",
    "verdict": "pending",
@@ -91878,6 +91864,13 @@
    "desc": "—"
   },
   {
+   "repo": "pc439527/dsh-side-monitor",
+   "name": "pc439527-dsh-side-monitor",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 系统监控侧边插件：概览/进程/Docker 只读监控"
+  },
+  {
    "repo": "perlied03/dsh-approval-auto-review",
    "name": "perlied03-dsh-approval-auto-review",
    "verdict": "incompatible",
@@ -93115,6 +93108,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "windygo123/dsh-see-world",
+   "name": "windygo123-dsh-see-world",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: decide WHEN to search the web, enforce search-first answers, and stay out of the way for local tas"
   },
   {
    "repo": "winyh/dsh-idea",

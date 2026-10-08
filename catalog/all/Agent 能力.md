@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1851）
+# 🤖 Agent 能力（1852）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -641,6 +641,7 @@
 - 🟩 `[可用]` [mynameiskcy-dsh-mattpocock-skills](https://github.com/MynameisKcy/dsh-mattpocock-skills) ★1 — —
 - ⬜ `[待定]` [nanbujiwanfeng-deepseek-harness-translation](https://github.com/nanbujiwanfeng/deepseek-harness-translation) ★1 — Bidirectional Chinese↔English conversation translation for deepseek-harness: Chinese-speaking users converse i
 - 🟩 `[可用]` [nataliwhite20534-droid-dsh-4-role-workflow](https://github.com/nataliwhite20534-droid/dsh-4-role-workflow) ★1 — 4-agent workflow (PM + Browser + Programmer + DataEng) for complex DSH tasks
+- 🟩 `[可用]` [nbfys-dsh-web-attention-badge-enhanced](https://github.com/nbfys/dsh-web-attention-badge-enhanced) ★1 — DSH Web attention badge (fork): \[Waiting\]/\[Done\] tab title, current-session done tracking, acknowledged remind
 - 🟩 `[可用]` [nexusagentx-dsh-lens](https://github.com/NexusAgentX/dsh-lens) ★1 — —
 - 🟩 `[可用]` [dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) ★1 — MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into context.
 - 🟩 `[可用]` [nexusagentx-dsh-web-access](https://github.com/NexusAgentX/dsh-web-access) ★1 — —
