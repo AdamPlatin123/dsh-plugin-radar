@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-07T22:30:50Z",
+ "generated_at": "2026-10-08T01:20:04Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -9194,7 +9194,7 @@
    "desc": "DeepSeek Harness record macOS desktop workflows by demonstration and turn them into agent skills (open-record-"
   },
   {
-   "repo": "Sivan757/dsh-agent-plugin-market",
+   "repo": "Sivan757/dsh-agent-plugins-market",
    "name": "sivan757-dsh-agent-plugins-market",
    "verdict": "incompatible",
    "stars": 13,
@@ -24475,6 +24475,13 @@
    "desc": "74 non-invasive DeepSeek Harness themes generated from awesome-design-md"
   },
   {
+   "repo": "youli42/dsh_BetterInput",
+   "name": "youli42-dsh-betterinput",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "YrracOwl/dsh-theme-acid-noir",
    "name": "yrracowl-dsh-theme-acid-noir",
    "verdict": "ok",
@@ -30146,10 +30153,10 @@
   },
   {
    "repo": "TsFreddie/dsh-compaction-instant",
-   "name": "tsfreddie-dsh-compaction-instant",
+   "name": "dsh-compaction-instant",
    "verdict": "ok",
    "stars": 16,
-   "desc": "—"
+   "desc": "LLM-free lossless* compaction engine for DeepSeek Harness"
   },
   {
    "repo": "XieZongChen/dsh-md-notes",
@@ -30157,13 +30164,6 @@
    "verdict": "ok",
    "stars": 16,
    "desc": "—"
-  },
-  {
-   "repo": "KitDoesIt/dsh-compaction-instant",
-   "name": "dsh-compaction-instant",
-   "verdict": "ok",
-   "stars": 16,
-   "desc": "LLM-free lossless* compaction engine for DeepSeek Harness"
   },
   {
    "repo": "billLiao/awesome-dsh-plugin",
@@ -30467,14 +30467,14 @@
    "desc": "—"
   },
   {
-   "repo": "rinDBeans/dsh-apex-standard",
+   "repo": "rinDBeans/dsh-miraculous-standard",
    "name": "rindbeans-dsh-miraculous-standard",
    "verdict": "ok",
    "stars": 12,
    "desc": "—"
   },
   {
-   "repo": "SpookySandwich/dsh-smooth-stream",
+   "repo": "SpookySandwich/dsh-plugin-smooth-stream",
    "name": "spookysandwich-dsh-plugin-smooth-stream",
    "verdict": "pending",
    "stars": 12,
@@ -46644,6 +46644,13 @@
    "desc": "—"
   },
   {
+   "repo": "TYEclipse/dsh-boolean",
+   "name": "tyeclipse-dsh-boolean",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "TYEclipse/dsh-complex",
    "name": "tyeclipse-dsh-complex",
    "verdict": "pending",
@@ -53574,6 +53581,13 @@
    "desc": "—"
   },
   {
+   "repo": "Z-6354/dsh-local-hanaccount",
+   "name": "z-6354-dsh-local-hanaccount",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "z7ping/narratica",
    "name": "z7ping-narratica",
    "verdict": "ok",
@@ -54540,7 +54554,7 @@
    "desc": "—"
   },
   {
-   "repo": "Yu-tao-Li/computer-use-win",
+   "repo": "Yu-tao-Li/dsh-computer-use-win",
    "name": "yu-tao-li-dsh-computer-use-win",
    "verdict": "incompatible",
    "stars": 19,
@@ -72859,7 +72873,7 @@
    "desc": "Deepseek-harness-workbench-plugin"
   },
   {
-   "repo": "Dely0/dsh-workbench",
+   "repo": "Dely0/dsh-personal-workbench",
    "name": "dely0-dsh-personal-workbench",
    "verdict": "ok",
    "stars": 33,
@@ -72929,7 +72943,7 @@
    "desc": "DSH 插件生态透明排行与推荐：每日自动抓取 dsh-plugin 话题 + 公开评分模型 + 排行/推荐插件与静态站"
   },
   {
-   "repo": "Breeze136/kb-rag",
+   "repo": "Breeze136/dsh-kb-rag",
    "name": "breeze136-dsh-kb-rag",
    "verdict": "ok",
    "stars": 14,
@@ -75659,7 +75673,7 @@
    "desc": "DSH 原生多平台深度调研流水线插件：scout多源发现 / deep_research长篇研报 / extract穿透抓取 / verify交叉验证 / audit可信度审计，支持作为原生 Skill 一键调度"
   },
   {
-   "repo": "GLFzr/dsh-drop-file-to-path",
+   "repo": "GLFzr/dsh-file-upload",
    "name": "glfzr-dsh-file-upload",
    "verdict": "incompatible",
    "stars": 10,
@@ -78063,6 +78077,13 @@
    "repo": "hZsFN/dsh-qq-bot",
    "name": "hzsfn-dsh-qq-bot",
    "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "iTraceur/dsh-wechat-mp-search",
+   "name": "itraceur-dsh-wechat-mp-search",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -81091,7 +81112,7 @@
    "desc": "Design-fidelity QA for DeepSeek Harness: lend any text-only model an eye, then judge whether the implementatio"
   },
   {
-   "repo": "chenw2759-wq/dsh-easyssh",
+   "repo": "chenw2759-wq/dsh-IDE",
    "name": "chenw2759-wq-dsh-ide",
    "verdict": "ok",
    "stars": 40,
