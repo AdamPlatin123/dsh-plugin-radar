@@ -1810,7 +1810,7 @@
 - ⬜ `[待定]` [dsh-plugin-connection-banner](https://github.com/yinren112/dsh-plugin-connection-banner) ★0 — Visible reconnecting banner for the DeepSeek Harness Web UI
 - ⬜ `[待定]` [yjm110517-visual-to-editable-ppt-skill](https://github.com/yjm110517/visual-to-editable-ppt-skill) ★0 — —
 - 🟩 `[可用]` [yonglun-deepseek-harness-themes](https://github.com/yonglun/deepseek-harness-themes) ★0 — 74 non-invasive DeepSeek Harness themes generated from awesome-design-md
-- `[未定位]` **youli42-dsh-betterinput** — 占位待复核，判定暂不展示
+- ⬜ `[待定]` [youli42-dsh-betterinput](https://github.com/youli42/dsh_BetterInput) ★0 — —
 - 🟩 `[可用]` [yrracowl-dsh-theme-acid-noir](https://github.com/YrracOwl/dsh-theme-acid-noir) ★0 — —
 - 🟩 `[可用]` [yrracowl-dsh-theme-cutout-clash](https://github.com/YrracOwl/dsh-theme-cutout-clash) ★0 — —
 - ⬜ `[待定]` [yth1120-dsh-web-workbench](https://github.com/yth1120/dsh-web-workbench) ★0 — Public mirror for the dsh-external/dsh-web-workbench plugin suite; canonical organization repository is privat
