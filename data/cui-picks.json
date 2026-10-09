@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
- "count": 15,
+ "count": 14,
  "tweets": [
   {
    "id": "2107030904233460208",
    "date": "Mon Oct 05 08:51:28 +0000 2026",
    "text": "推荐一下 dsh-plugin-upgrade-skill 这个帮助 DSH 插件作者升级自己插件、适配 DSH 新版本 的 skill。\n\n当然，长远来看，DSH 插件生态不能依赖于插件作者每次都要修改自己的代码来兼容 DSH 的新版本。这一方面需要 DSH 逐渐减少破坏性变更，另外也需要一些技术手段，让插件 API 升级后，面向旧 API",
    "url": "https://x.com/tianyi/status/2107030904233460208",
-   "likes": 516
+   "likes": 522
   },
   {
    "id": "2105790798461882377",
@@ -24,35 +24,35 @@
    "date": "Thu Oct 01 20:27:42 +0000 2026",
    "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
    "url": "https://x.com/tianyi/status/2105756563302723721",
-   "likes": 5285
+   "likes": 5287
   },
   {
    "id": "2105721434807083061",
    "date": "Thu Oct 01 18:08:07 +0000 2026",
    "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
    "url": "https://x.com/tianyi/status/2105721434807083061",
-   "likes": 20394
+   "likes": 20410
   },
   {
    "id": "2105462807705895061",
    "date": "Thu Oct 01 01:00:25 +0000 2026",
    "text": "We have an official @DeepSeekHarness  X account now. Please follow us!",
    "url": "https://x.com/tianyi/status/2105462807705895061",
-   "likes": 2707
+   "likes": 2706
   },
   {
    "id": "2105330281389662575",
    "date": "Wed Sep 30 16:13:48 +0000 2026",
    "text": "DeepSeek Harness for desktop is now available on macOS and Windows.",
    "url": "https://x.com/tianyi/status/2105330281389662575",
-   "likes": 5787
+   "likes": 5796
   },
   {
    "id": "2105256532657267119",
    "date": "Wed Sep 30 11:20:45 +0000 2026",
    "text": "今天推荐一个功能很丰富的 DSH 上下文管理插件 dsh-context：",
    "url": "https://x.com/tianyi/status/2105256532657267119",
-   "likes": 333
+   "likes": 335
   },
   {
    "id": "2104881693706653733",
@@ -102,13 +102,6 @@
    "text": "欢迎试用 DeepSeek Harness v0.1.5 版本。新版本与 DeepSeek V4.1 Flash 模型训练深度结合，模型在 DeepSeek Harness  的不同配置中都进行了专项训练和优化。\n\n与模型训练深度结合的实验性的 Agent Teams 功能也期待尝鲜试用。\n\nDeepSeek Harness 团队仍在开放招聘中，欢迎加入我们，一起打造",
    "url": "https://x.com/tianyi/status/2097919769878135053",
    "likes": 2003
-  },
-  {
-   "id": "2097371778364669954",
-   "date": "Tue Sep 08 17:09:33 +0000 2026",
-   "text": "DeepSeek 针对这次大规模的资深工程师社招重新设计了笔试和面试的题目和流程。",
-   "url": "https://x.com/tianyi/status/2097371778364669954",
-   "likes": 578
   }
  ]
 }
