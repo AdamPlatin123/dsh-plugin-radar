@@ -1,5 +1,5 @@
 {
-"resolved_at": "2026-10-08",
+"resolved_at": "2026-10-10",
 "entries": {
 "01virex-dsh-status-rotator": {
 "status": "found",
@@ -72042,6 +72042,19 @@
 "z-6354-dsh-local-hanaccount": {
 "status": "found",
 "full_name": "Z-6354/dsh-local-hanaccount",
+"star": 0
+},
+"dpskk2-dsh-whale-sync": {
+"status": "not_found"
+},
+"loserforloser-dsh-workspace-merge": {
+"status": "found",
+"full_name": "LoserForLoser/dsh-workspace-merge",
+"star": 0
+},
+"nesarf-mega-index-map": {
+"status": "found",
+"full_name": "Nesarf/mega-index-map",
 "star": 0
 }
 }
