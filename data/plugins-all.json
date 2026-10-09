@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-09T01:27:11Z",
+ "generated_at": "2026-10-09T02:46:32Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -31869,7 +31869,7 @@
   {
    "repo": "GooDAnDReaDY/dsh-cron",
    "name": "goodandready-dsh-cron",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -38494,6 +38494,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DSH Web 密码门禁 – Cookie 认证 + 首次强制设密 + 登录失败锁定60s + 内置访问日志查看器"
+  },
+  {
+   "repo": "little-traincar/dsh-imagegen",
+   "name": "little-traincar-dsh-imagegen",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Image generation plugin for DeepSeek Harness — Doubao Seedream 5.0 Pro / qwen-image-3.0-pro, watermark-free, v"
   },
   {
    "repo": "LittleBlackTong/dsh-plugin-cron",
@@ -57198,13 +57205,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "little-traincar/dsh-imagegen",
-   "name": "little-traincar-dsh-imagegen",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Image generation plugin for DeepSeek Harness — Doubao Seedream 5.0 Pro / qwen-image-3.0-pro, watermark-free, v"
   },
   {
    "repo": "liudejua27-blip/fitmeet-dsh-plugin",
