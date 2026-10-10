@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
@@ -10,42 +10,42 @@
    "date": "Mon Oct 05 08:51:28 +0000 2026",
    "text": "推荐一下 dsh-plugin-upgrade-skill 这个帮助 DSH 插件作者升级自己插件、适配 DSH 新版本 的 skill。\n\n当然，长远来看，DSH 插件生态不能依赖于插件作者每次都要修改自己的代码来兼容 DSH 的新版本。这一方面需要 DSH 逐渐减少破坏性变更，另外也需要一些技术手段，让插件 API 升级后，面向旧 API",
    "url": "https://x.com/tianyi/status/2107030904233460208",
-   "likes": 522
+   "likes": 525
   },
   {
    "id": "2105790798461882377",
    "date": "Thu Oct 01 22:43:44 +0000 2026",
    "text": "Congrats to the Claude Code team on shipping Mods! A cute way to make your agent harness extensible and customizable.\n\nIt's a nice convergence of ideas: in Claude Code, mods are just plugins; and @DeepSeekHarness has been built around rethinking the concept of plugins from the",
    "url": "https://x.com/tianyi/status/2105790798461882377",
-   "likes": 725
+   "likes": 726
   },
   {
    "id": "2105756563302723721",
    "date": "Thu Oct 01 20:27:42 +0000 2026",
    "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
    "url": "https://x.com/tianyi/status/2105756563302723721",
-   "likes": 5287
+   "likes": 5288
   },
   {
    "id": "2105721434807083061",
    "date": "Thu Oct 01 18:08:07 +0000 2026",
    "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
    "url": "https://x.com/tianyi/status/2105721434807083061",
-   "likes": 20410
+   "likes": 20407
   },
   {
    "id": "2105462807705895061",
    "date": "Thu Oct 01 01:00:25 +0000 2026",
    "text": "We have an official @DeepSeekHarness  X account now. Please follow us!",
    "url": "https://x.com/tianyi/status/2105462807705895061",
-   "likes": 2706
+   "likes": 2700
   },
   {
    "id": "2105330281389662575",
    "date": "Wed Sep 30 16:13:48 +0000 2026",
    "text": "DeepSeek Harness for desktop is now available on macOS and Windows.",
    "url": "https://x.com/tianyi/status/2105330281389662575",
-   "likes": 5796
+   "likes": 5810
   },
   {
    "id": "2105256532657267119",
@@ -66,7 +66,7 @@
    "date": "Mon Sep 28 13:35:04 +0000 2026",
    "text": "今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～\n\n\n\n\n\n其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。\n\n（不代表公司立场，不对非官方网站的内容负责。）",
    "url": "https://x.com/tianyi/status/2104565558712959065",
-   "likes": 295
+   "likes": 296
   },
   {
    "id": "2104125200048746899",
