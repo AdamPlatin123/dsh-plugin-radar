@@ -1,5 +1,5 @@
 {
-"resolved_at": "2026-10-13",
+"resolved_at": "2026-10-14",
 "entries": {
 "01virex-dsh-status-rotator": {
 "status": "found",
@@ -72056,6 +72056,16 @@
 "status": "found",
 "full_name": "Nesarf/mega-index-map",
 "star": 0
+},
+"retr67-dsh-opencode-models": {
+"status": "found",
+"full_name": "Retr67/dsh-opencode-models",
+"star": 4
+},
+"subconscious-systems-subconscious": {
+"status": "found",
+"full_name": "subconscious-systems/subconscious",
+"star": 76
 }
 }
 }
