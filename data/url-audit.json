@@ -1,5 +1,5 @@
 {
-"checked_at": "2026-10-13",
+"checked_at": "2026-10-14",
 "entries": {
 "01virex/dsh-status-rotator": {
 "status": "ok",
@@ -54551,7 +54551,7 @@
 },
 "perrylink/dsh-autotier": {
 "status": "ok",
-"checked": "2026-10-06"
+"checked": "2026-10-14"
 },
 "itraceur/dsh-wechat-mp-search": {
 "status": "ok",
@@ -54580,6 +54580,10 @@
 "nesarf/mega-index-map": {
 "status": "ok",
 "checked": "2026-10-10"
+},
+"retr67/dsh-opencode-models": {
+"status": "ok",
+"checked": "2026-10-14"
 }
 }
 }
