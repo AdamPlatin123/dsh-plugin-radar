@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-13T23:30:51Z",
+ "generated_at": "2026-10-14T00:37:14Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -82139,6 +82139,13 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "DSH Diff 工具插件：文本/JSON/CSV/Markdown 结构化比较与 unified diff，零依赖只读，注册 diff 工具"
+  },
+  {
+   "repo": "Retr67/dsh-opencode-models",
+   "name": "retr67-dsh-opencode-models",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "—"
   },
   {
    "repo": "SPYQWER1/dsh-imagecraft",
