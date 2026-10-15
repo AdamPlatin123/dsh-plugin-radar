@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-15T00:06:59Z",
+ "generated_at": "2026-10-15T23:52:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -24118,7 +24118,7 @@
    "desc": "A compact discovery and lifecycle console for DeepSeek Harness plugins."
   },
   {
-   "repo": "KitDoesIt/dsh-compaction-instant",
+   "repo": "TsFreddie/dsh-compaction-instant",
    "name": "dsh-compaction-instant",
    "verdict": "ok",
    "stars": 16,
@@ -39707,8 +39707,8 @@
    "desc": "非官方 Tauri 2 DeepSeek Harness 桌面客户端，内置 Node.js，支持 Windows/macOS，无需命令行"
   },
   {
-   "repo": "MrMu666/dsh-LAN",
-   "name": "dsh-LAN",
+   "repo": "MrMu666/dsh-lan-tool",
+   "name": "dsh-lan-tool",
    "verdict": "untested",
    "stars": 10,
    "desc": "为DeepSeek  harness开启局域网访问及移动端页面的插件"
@@ -53658,8 +53658,8 @@
    "desc": "「DSH·质量 diff」：接管 edit/write 及 extraTools 配置的其他工具卡片，行级去重与行内高亮，消除相同内容在删除与新增两区的重复；兼容 PTC 模式"
   },
   {
-   "repo": "dabaicai001/star-dsh-desktop",
-   "name": "dabaicai001-star-dsh-desktop",
+   "repo": "dabaicai001/starhub",
+   "name": "starhub",
    "verdict": "pending",
    "stars": 12,
    "desc": "StarHub — All-in-One DevOps Desktop Command Center"
