@@ -1,18 +1,57 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-15T23:52:51Z",
- "snapshot_run_id": "20261014T060001Z",
+ "generated_at": "2026-10-16T06:35:19Z",
+ "snapshot_run_id": "20261016T063437Z",
  "stats": {
-  "ok": 5520,
-  "incompatible": 1937,
-  "pending": 1316,
+  "ok": 5760,
+  "incompatible": 2056,
+  "pending": 957,
   "untested": 349,
   "gone": 0,
   "ambiguous": 0,
   "unlocated": 14379
  },
  "total_listed": 9122,
- "runner_versions": {},
+ "runner_versions": {
+  "schema": "dsh-radar/runner-versions/v1",
+  "generated_at": "2026-10-15T16:00:11Z",
+  "total": 13628,
+  "latest": "0.2.0-rc.2",
+  "versions": {
+   "0.1.5-rc.1": {
+    "ok": 982,
+    "fail": 1019,
+    "inc": 378
+   },
+   "0.1.1-rc.2": {
+    "inc": 633,
+    "ok": 2612,
+    "fail": 612
+   },
+   "0.1.5-rc.3": {
+    "inc": 176
+   },
+   "0.1.2-rc.1": {
+    "ok": 4270,
+    "fail": 1343,
+    "inc": 164
+   },
+   "0.1.5-rc.2": {
+    "inc": 201
+   },
+   "0.2.0-rc.2": {
+    "inc": 411,
+    "ok": 327,
+    "fail": 283
+   },
+   "0.1.7-rc.2": {
+    "inc": 100
+   },
+   "latest": {
+    "inc": 117
+   }
+  }
+ },
  "data": {
   "plugins_all": "data/plugins-all.json",
   "snapshots_dir": "data/snapshots/"
