@@ -162,9 +162,9 @@ verdict_by_repo = {record["repo"].lower(): record["verdict"] for record in recor
 
 插件作者、维护者与使用者可加入「DSH-Plugins 社区交流 3 群」：
 
-<a href="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261002.jpg"><img src="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261002.jpg" width="330" alt="DSH-Plugins 社区交流 3 群微信二维码，更新于 2026-10-02，图片注明 2026-10-09 前有效"></a>
+<a href="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261016.png"><img src="https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261016.png" width="330" alt="DSH-Plugins 社区交流 3 群微信二维码，更新于 2026-10-16，图片注明 2026-10-23 前有效"></a>
 
-更新于 **2026-10-02**。图片注明在 **2026-10-09 前有效**；过期请联系群主获取新码。点击图片可查看原图。
+更新于 **2026-10-16**。图片注明在 **2026-10-23 前有效**；过期请联系群主获取新码。点击图片可查看原图。
 
 ## 许可与致谢
 

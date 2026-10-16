@@ -16,7 +16,7 @@
 | [精选与整合包目录](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/catalog-highlights.md) | GitHub 阅读回退，保留人工策展名单和迁移时的推荐动态 |
 | [完整目录](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/PLUGINS-ALL.md) | 自动归并生成的完整记录 |
 | [API 文档](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/api.md) | 数据字段、历史归并语义、缓存与可用性契约 |
-| [社群二维码](https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261002.jpg) | 社区入口；更新日与有效期由人工维护，过期提供联系群主的指引 |
+| [社群二维码](https://raw.githubusercontent.com/AdamPlatin123/dsh-plugin-radar/main/assets/community-discussion-20261016.png) | 社区入口；更新日与有效期由人工维护，过期提供联系群主的指引 |
 
 架构图说明快照同步、多源聚合和目录、JSON、站点之间的关系。社区登记直接参与聚合；未被测试覆盖的登记条目标为未测。展示补充数据独立接入站点。生产测试引擎尚未开源，首页不将公开引擎等同于完整测试复现能力。
 
@@ -54,4 +54,4 @@
 
 维护回归覆盖摘要幂等、摘要外内容保持、标记拒绝、重复仓库、非法档位、错计数与错锚点拒绝、策展区块所有权和旧图生成器保护。CI 冒烟直接调用快照渲染器，再导出并校验数据契约，验证真实产物链。
 
-二维码原图保持字节不变；已核对图片注明的 2026-10-09 前有效期，不将图片验证等同于实际微信入群验证。
+二维码原图保持字节不变；已核对图片注明的 2026-10-23 前有效期，不将图片验证等同于实际微信入群验证。
