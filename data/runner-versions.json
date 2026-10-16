@@ -1,1 +1,40 @@
-{"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/contents#get-repository-content","status":"404"}
+{
+ "schema": "dsh-radar/runner-versions/v1",
+ "generated_at": "2026-10-15T16:00:11Z",
+ "total": 13628,
+ "latest": "0.2.0-rc.2",
+ "versions": {
+  "0.1.5-rc.1": {
+   "ok": 982,
+   "fail": 1019,
+   "inc": 378
+  },
+  "0.1.1-rc.2": {
+   "inc": 633,
+   "ok": 2612,
+   "fail": 612
+  },
+  "0.1.5-rc.3": {
+   "inc": 176
+  },
+  "0.1.2-rc.1": {
+   "ok": 4270,
+   "fail": 1343,
+   "inc": 164
+  },
+  "0.1.5-rc.2": {
+   "inc": 201
+  },
+  "0.2.0-rc.2": {
+   "inc": 411,
+   "ok": 327,
+   "fail": 283
+  },
+  "0.1.7-rc.2": {
+   "inc": 100
+  },
+  "latest": {
+   "inc": 117
+  }
+ }
+}
