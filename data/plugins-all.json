@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-16T06:35:19Z",
+ "generated_at": "2026-10-16T23:53:06Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -39546,8 +39546,8 @@
    "desc": "—"
   },
   {
-   "repo": "XDTrees/dsh-workbuddy-xdpool",
-   "name": "dsh-workbuddy-xdpool",
+   "repo": "XDTrees/dsh-xdpool",
+   "name": "dsh-xdpool",
    "verdict": "pending",
    "stars": 34,
    "desc": "将 WorkBuddy 桌面 App 里登录过的所有账号自动并入一个 DeepSeek Harness 模型池：无需任何手动配置，你在 WorkBuddy 桌面登录的每个账号都会成为一个池成员；某个账号被限流（429）时"
@@ -60987,8 +60987,8 @@
    "desc": "Install safety net for DeepSeek Harness: pre-install snapshots, one-click/automatic rollback, guarded boot, an"
   },
   {
-   "repo": "398894496-arch/DSH-KRouter",
-   "name": "DSH-KRouter",
+   "repo": "398894496-arch/KRouter",
+   "name": "KRouter",
    "verdict": "incompatible",
    "stars": 41,
    "desc": "Second brain for coding agents"
