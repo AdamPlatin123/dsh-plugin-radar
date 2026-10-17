@@ -11,6 +11,10 @@ on:
             'data/awesome-50.json', 'data/bundles.json', 'data/repo-map.json', 'data/repository-identities.json',
             'catalog/**', 'engine/aggregation/**', 'engine/lib/radar/repository_identity.py',
             '.github/workflows/site-build-deploy.yml']
+  workflow_run:
+    workflows: [readme-render]
+    types: [completed]
+    branches: [main]
   pull_request:
     paths: ['site/**', 'engine/aggregation/**', 'engine/lib/radar/repository_identity.py',
             'data/repo-map.json', 'data/repository-identities.json', '.github/workflows/site-build-deploy.yml']
@@ -24,11 +28,15 @@ concurrency:
 
 jobs:
   build:
+    # 机器人令牌合并不会递归触发 push；渲染完成后只读 main，不执行事件分支代码。
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     permissions:
       contents: read   # 构建任务只读（外审 P2：pages/id-token 写权限仅授予部署任务）
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
