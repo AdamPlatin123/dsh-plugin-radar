@@ -1,44 +1,58 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
- "count": 13,
+ "count": 15,
  "tweets": [
+  {
+   "id": "2111376782717035007",
+   "date": "Sat Oct 17 08:40:27 +0000 2026",
+   "text": "为充分发挥新模型 DeepSeek-V4.1-Flash-1017 的能力，请升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。",
+   "url": "https://x.com/tianyi/status/2111376782717035007",
+   "likes": 1569
+  },
+  {
+   "id": "2111375640717033777",
+   "date": "Sat Oct 17 08:35:54 +0000 2026",
+   "text": "🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.\n\n🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy,",
+   "url": "https://x.com/tianyi/status/2111375640717033777",
+   "likes": 30566
+  },
   {
    "id": "2110663080246132855",
    "date": "Thu Oct 15 09:24:27 +0000 2026",
    "text": "Between 8:11 and 13:04 (Beijing Time) on October 15, 2026, DeepSeek API service system experienced a failure that prevented the API service from functioning properly during that period. We sincerely apologize for the inconvenience and disruption this may have caused. We",
    "url": "https://x.com/tianyi/status/2110663080246132855",
-   "likes": 1573
+   "likes": 1596
   },
   {
    "id": "2107030904233460208",
    "date": "Mon Oct 05 08:51:28 +0000 2026",
    "text": "推荐一下 dsh-plugin-upgrade-skill 这个帮助 DSH 插件作者升级自己插件、适配 DSH 新版本 的 skill。\n\n当然，长远来看，DSH 插件生态不能依赖于插件作者每次都要修改自己的代码来兼容 DSH 的新版本。这一方面需要 DSH 逐渐减少破坏性变更，另外也需要一些技术手段，让插件 API 升级后，面向旧 API",
    "url": "https://x.com/tianyi/status/2107030904233460208",
-   "likes": 556
+   "likes": 565
   },
   {
    "id": "2105790798461882377",
    "date": "Thu Oct 01 22:43:44 +0000 2026",
    "text": "Congrats to the Claude Code team on shipping Mods! A cute way to make your agent harness extensible and customizable.\n\nIt's a nice convergence of ideas: in Claude Code, mods are just plugins; and @DeepSeekHarness has been built around rethinking the concept of plugins from the",
    "url": "https://x.com/tianyi/status/2105790798461882377",
-   "likes": 733
+   "likes": 739
   },
   {
    "id": "2105756563302723721",
    "date": "Thu Oct 01 20:27:42 +0000 2026",
    "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
    "url": "https://x.com/tianyi/status/2105756563302723721",
-   "likes": 5295
+   "likes": 5300
   },
   {
    "id": "2105721434807083061",
    "date": "Thu Oct 01 18:08:07 +0000 2026",
    "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
    "url": "https://x.com/tianyi/status/2105721434807083061",
-   "likes": 20433
+   "likes": 20430
   },
   {
    "id": "2105462807705895061",
@@ -52,49 +66,49 @@
    "date": "Wed Sep 30 16:13:48 +0000 2026",
    "text": "DeepSeek Harness for desktop is now available on macOS and Windows.",
    "url": "https://x.com/tianyi/status/2105330281389662575",
-   "likes": 5858
+   "likes": 5910
   },
   {
    "id": "2105256532657267119",
    "date": "Wed Sep 30 11:20:45 +0000 2026",
    "text": "今天推荐一个功能很丰富的 DSH 上下文管理插件 dsh-context：",
    "url": "https://x.com/tianyi/status/2105256532657267119",
-   "likes": 335
+   "likes": 337
   },
   {
    "id": "2104881693706653733",
    "date": "Tue Sep 29 10:31:17 +0000 2026",
    "text": "DeepSeek 弹性计算团队大量 HC 招人！尤其需要资深工程师。 来看看这篇技术分享：《DeepSeek 弹性计算 (DSec)：面向大规模 Agent 训练的沙盒基础设施》",
    "url": "https://x.com/tianyi/status/2104881693706653733",
-   "likes": 690
+   "likes": 691
   },
   {
    "id": "2104565558712959065",
    "date": "Mon Sep 28 13:35:04 +0000 2026",
    "text": "今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～\n\n\n\n\n\n其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。\n\n（不代表公司立场，不对非官方网站的内容负责。）",
    "url": "https://x.com/tianyi/status/2104565558712959065",
-   "likes": 298
+   "likes": 300
   },
   {
    "id": "2104125200048746899",
    "date": "Sun Sep 27 08:25:15 +0000 2026",
    "text": "dsh-better-sidebar 插件为 DeepSeek Harness 添加了侧边栏、底边栏、分栏、可浮动栏等 UI 定制化能力。属于“为其它插件提供基础能力”的底座类插件，体现了 Cordis 插件系统中可组合性的特点（相比来说 Chrome 或 VS Code 中就不太会出现此类插件）。\n\n在 DSH",
    "url": "https://x.com/tianyi/status/2104125200048746899",
-   "likes": 447
+   "likes": 448
   },
   {
    "id": "2103821968944533526",
    "date": "Sat Sep 26 12:20:19 +0000 2026",
    "text": "【DSH 社区插件推荐】推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。\n\n插件网址见回复。",
    "url": "https://x.com/tianyi/status/2103821968944533526",
-   "likes": 878
+   "likes": 879
   },
   {
    "id": "2103534313463783831",
    "date": "Fri Sep 25 17:17:16 +0000 2026",
    "text": "从 DeepSeek 官方 API 处统计的数据来看，约有 60% 的 DeepSeek Harness 用户使用了至少一个第三方插件。第三方插件是 DeepSeek Harness 用户体验中最具特色且不可缺少的一部分。DeepSeek Harness 团队将持续支持第三方插件生态的繁荣发展，并推动插件 API 趋于稳定，在将来减少和尽量避免破坏性更新。",
    "url": "https://x.com/tianyi/status/2103534313463783831",
-   "likes": 989
+   "likes": 990
   }
  ]
 }
