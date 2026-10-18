@@ -10,7 +10,6 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
-| deepseek-computer-use | [STARDUSTLC666/deepseek-computer-use](https://github.com/STARDUSTLC666/deepseek-computer-use) | Windows 10/11 桌面操作：UI Automation、窗口截图、鼠标键盘与控件读写；npm `deepseek-computer-use`，仅支持 Windows | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
@@ -192,6 +191,7 @@
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
+| deepseek-computer-use | [STARDUSTLC666/deepseek-computer-use](https://github.com/STARDUSTLC666/deepseek-computer-use) | Windows 10/11 桌面操作：UI Automation、窗口截图、鼠标键盘与控件读写；npm `deepseek-computer-use`，仅支持 Windows | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
