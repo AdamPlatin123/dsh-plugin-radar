@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
@@ -10,28 +10,28 @@
    "date": "Sat Oct 17 08:40:27 +0000 2026",
    "text": "为充分发挥新模型 DeepSeek-V4.1-Flash-1017 的能力，请升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。",
    "url": "https://x.com/tianyi/status/2111376782717035007",
-   "likes": 1569
+   "likes": 1767
   },
   {
    "id": "2111375640717033777",
    "date": "Sat Oct 17 08:35:54 +0000 2026",
    "text": "🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.\n\n🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy,",
    "url": "https://x.com/tianyi/status/2111375640717033777",
-   "likes": 30566
+   "likes": 35649
   },
   {
    "id": "2110663080246132855",
    "date": "Thu Oct 15 09:24:27 +0000 2026",
    "text": "Between 8:11 and 13:04 (Beijing Time) on October 15, 2026, DeepSeek API service system experienced a failure that prevented the API service from functioning properly during that period. We sincerely apologize for the inconvenience and disruption this may have caused. We",
    "url": "https://x.com/tianyi/status/2110663080246132855",
-   "likes": 1596
+   "likes": 1600
   },
   {
    "id": "2107030904233460208",
    "date": "Mon Oct 05 08:51:28 +0000 2026",
    "text": "推荐一下 dsh-plugin-upgrade-skill 这个帮助 DSH 插件作者升级自己插件、适配 DSH 新版本 的 skill。\n\n当然，长远来看，DSH 插件生态不能依赖于插件作者每次都要修改自己的代码来兼容 DSH 的新版本。这一方面需要 DSH 逐渐减少破坏性变更，另外也需要一些技术手段，让插件 API 升级后，面向旧 API",
    "url": "https://x.com/tianyi/status/2107030904233460208",
-   "likes": 565
+   "likes": 567
   },
   {
    "id": "2105790798461882377",
@@ -45,42 +45,42 @@
    "date": "Thu Oct 01 20:27:42 +0000 2026",
    "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
    "url": "https://x.com/tianyi/status/2105756563302723721",
-   "likes": 5300
+   "likes": 5297
   },
   {
    "id": "2105721434807083061",
    "date": "Thu Oct 01 18:08:07 +0000 2026",
    "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
    "url": "https://x.com/tianyi/status/2105721434807083061",
-   "likes": 20430
+   "likes": 20429
   },
   {
    "id": "2105462807705895061",
    "date": "Thu Oct 01 01:00:25 +0000 2026",
    "text": "We have an official @DeepSeekHarness  X account now. Please follow us!",
    "url": "https://x.com/tianyi/status/2105462807705895061",
-   "likes": 2700
+   "likes": 2699
   },
   {
    "id": "2105330281389662575",
    "date": "Wed Sep 30 16:13:48 +0000 2026",
    "text": "DeepSeek Harness for desktop is now available on macOS and Windows.",
    "url": "https://x.com/tianyi/status/2105330281389662575",
-   "likes": 5910
+   "likes": 5930
   },
   {
    "id": "2105256532657267119",
    "date": "Wed Sep 30 11:20:45 +0000 2026",
    "text": "今天推荐一个功能很丰富的 DSH 上下文管理插件 dsh-context：",
    "url": "https://x.com/tianyi/status/2105256532657267119",
-   "likes": 337
+   "likes": 336
   },
   {
    "id": "2104881693706653733",
    "date": "Tue Sep 29 10:31:17 +0000 2026",
    "text": "DeepSeek 弹性计算团队大量 HC 招人！尤其需要资深工程师。 来看看这篇技术分享：《DeepSeek 弹性计算 (DSec)：面向大规模 Agent 训练的沙盒基础设施》",
    "url": "https://x.com/tianyi/status/2104881693706653733",
-   "likes": 691
+   "likes": 692
   },
   {
    "id": "2104565558712959065",
@@ -101,7 +101,7 @@
    "date": "Sat Sep 26 12:20:19 +0000 2026",
    "text": "【DSH 社区插件推荐】推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。\n\n插件网址见回复。",
    "url": "https://x.com/tianyi/status/2103821968944533526",
-   "likes": 879
+   "likes": 878
   },
   {
    "id": "2103534313463783831",
