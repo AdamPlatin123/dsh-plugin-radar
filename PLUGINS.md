@@ -191,7 +191,7 @@
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
-| dsh-connect-minimaxcode | [JeffTsuiCUG/dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) | 复用本机已登录的 MiniMax Code 桌面 App（国内版）的登录态，把其模型接入 DSH：零配置，上游是标准 Anthropic Messages 协议故复用 DSH 自带 provider，模型目录从上游实时拉取，并在对话框底部的胶囊与插件页面显示积分余额、即将到期积分与本机 token 消耗折算的等效金额；非官方插件，依赖 MiniMax 客户端非公开接口，仅供学习与研究；npm `dsh-connect-minimaxcode` 0.4.2，声明 dsh.bundle.patch，MIT | 待测 |
+| dsh-connect-minimaxcode | [JeffTsuiCUG/dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) | 把 MiniMax Code 桌面 App（国内版）模型接入 DSH：复用本机桌面 App 登录态，也可走插件自带 OAuth 2.0 设备码登录（RFC 8628、PKCE）；上游为 Anthropic Messages 协议故复用 DSH 自带 provider，模型目录实时拉取；0.5.0 加每日签到（自动签到默认关闭）；0.5.1 起余额读数从输入框下方 dock 移到工具行，按 modelSelection 门控，仅选中 minimaxcode 模型时显示；需登录态或自登录其一，否则只剩两个占位条目、调不通；非官方插件，依赖 MiniMax 客户端非公开接口，仅供学习研究；npm `dsh-connect-minimaxcode` 0.5.1，声明 dsh.bundle.patch，MIT | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
