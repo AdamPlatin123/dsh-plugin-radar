@@ -192,6 +192,7 @@
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
 | dsh-mcp-tools | [hxlog/dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) | DSH 设置内的 MCP 服务器/工具管理器：streamable-http 与 stdio、Postman 式请求头、连通性测试、逐工具开关（停用的工具不会注册进模型）；npm `dsh-mcp-tools`，声明 dsh.bundle.patch | 待测 |
+
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
