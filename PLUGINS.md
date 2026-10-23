@@ -10,7 +10,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
-| dsh-become-human | [liangTc/dsh-become-human](https://github.com/liangTc/dsh-become-human) | 单会话自主 Agent：人格驱动事件循环、规划执行、目标与定时任务、预算审批，Web 与一个本人 IM 共用会话；Windows / Node 24+，安装见 Release .tgz；beta.4（开发中），已测 DSH 0.2.0-rc.2 Web | 待测 |
+| dsh-become-human | [liangTc/dsh-become-human](https://github.com/liangTc/dsh-become-human) | DSH Web 单会话自主 Agent：人格、记忆、学习、目标与主动交流，Web 与一个 IM 共享；安装见 beta.4 Release；beta.5 源码新增任务看板、统计、MCP 及原生 DeepSeek API Key 适配（全新安装整链待测）；Windows / Node 24+ / DSH 0.2.0-rc.2，测试版未完成 | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
