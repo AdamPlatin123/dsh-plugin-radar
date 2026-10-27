@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-22T00:14:56Z",
+ "generated_at": "2026-10-27T00:50:24Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -62632,8 +62632,8 @@
    "desc": "同步codex中的会话到dsh,一键导入上下文."
   },
   {
-   "repo": "csiroqa/dsh-plugin-forge",
-   "name": "csiroqa-dsh-plugin-forge",
+   "repo": "csiroqa/self-iteration-forge",
+   "name": "self-iteration-forge",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness（DSH）插件生成工具：AI 自发发现能力缺口，子代理开发、迁移为独立 git 仓库并自动提交、热挂载与装入 profile"
