@@ -54,7 +54,7 @@
 - 🟩 `[可用]` [xiaoyuyu6420-dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) ★23 — 一条命令备份/恢复/迁移 DSH 全部数据（~/.dsh）：升级前快照、换机迁移（会话/插件/MCP/技能）、会话日志修复、进程外救援、凭据脱敏
 - ⬜ `[待定]` [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) ★22 — 为 Deepseek Harness 提供新的「聚焦会话」精简会话视图，更轻松易于阅读，只关注最终产出结果
 - 🟩 `[可用]` [guo6x-dsh-pilot](https://github.com/guo6x/dsh-pilot) ★22 — Give your DSH agent hands: drive a real browser (Edge/Chrome over CDP) from the chat — ref-driven clicking, pe
-- 🟩 `[可用]` [caob23-dsh-browser-control](https://github.com/caob23/dsh-browser-control) ★21 — Chrome 浏览器扩展 + DeepSeek Harness 插件，让 AI Agent 直接操控你的真实浏览器
+- 🟩 `[可用]` [dsh-browser-control](https://github.com/angelky7/dsh-browser-control) ★21 — Chrome 浏览器扩展 + DeepSeek Harness 插件，让 AI Agent 直接操控你的真实浏览器
 - 🟩 `[可用]` [seven282-oss-prompt-optimizer](https://github.com/seven282/oss-prompt-optimizer) ★21 — 用于优化 DeepSeek harness提示词优化器，提升 AI 输出质量
 - 🟩 `[可用]` [npxcnency-ux-pi-trace-extension](https://github.com/npxcnency-ux/pi-trace-extension) ★19 — Langfuse-style trace viewer for pi-agent — local-first, zero-setup, single-file HTML
 - 🟩 `[可用]` [sikadi233-hub-minecraft-dev](https://github.com/sikadi233-hub/minecraft-dev) ★18 — Minecraft development plugin for DeepSeek Harness: skills & tools for Paper/Spigot plugins and Fabric/Forge/Ne

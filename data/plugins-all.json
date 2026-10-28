@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-10-27T00:50:24Z",
+ "generated_at": "2026-10-28T00:44:29Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -367,8 +367,8 @@
    "desc": "Give your DSH agent hands: drive a real browser (Edge/Chrome over CDP) from the chat — ref-driven clicking, pe"
   },
   {
-   "repo": "caob23/dsh-browser-control",
-   "name": "caob23-dsh-browser-control",
+   "repo": "angelky7/dsh-browser-control",
+   "name": "dsh-browser-control",
    "verdict": "ok",
    "stars": 21,
    "desc": "Chrome 浏览器扩展 + DeepSeek Harness 插件，让 AI Agent 直接操控你的真实浏览器"
