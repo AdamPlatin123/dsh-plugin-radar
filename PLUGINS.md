@@ -10,6 +10,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-remote-console | [cccodder/dsh-remote-console](https://github.com/cccodder/dsh-remote-console) | DSH 右侧栏 SSH 远程终端（DSH SSH 插件）：人和 agent 共用一个 PTY，命令、退出码与统一日志同源；16 个工具（终端 / 文件传输 / 端口转发 / 审计 / 主机管理）；单文件传输默认 256 MB、可调 2048 MB；审计按会话隔离；npm `dsh-remote-console` | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
