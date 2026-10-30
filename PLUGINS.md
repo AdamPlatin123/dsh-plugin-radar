@@ -191,6 +191,7 @@
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
+| dsh-context-rescue | [Lequait/dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) | 上下文溢出的事后急救：宿主压缩失败时接住 `agent/request-error`，按宿主自身规则改写会话投影（优先借用宿主 compaction 引擎，否则用不调用模型的摘要折叠），保持工具调用与结果成对、`compaction/*` 事务括号闭合，再让宿主重发同一请求；另提供 `/rescue` 与 `/rescue-status` 斜杠命令，不占用宿主 compaction 槽位 | ✅ |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
