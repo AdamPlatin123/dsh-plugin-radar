@@ -191,6 +191,8 @@
 | dsh-essential-tools | [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) | DSH 永久插件工作台：LVAL 工程工具（编译/运行/代码查看/版本快照回退）+ 对话树（分支/编辑/重生成）+ 消息小版本 + DET 管理器 + 全局插件控制 + MDA 分层 + 网络权限 / MMS / 安全审计 / 浏览器控制；npm `dsh-essential-tools`，声明 dsh.bundle.patch | 待测 |
 | dsh-continue | [flg1217/dsh-continue](https://github.com/flg1217/dsh-continue) | dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动 | 待测 |
 | dsh-mcp-manager | [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) | DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启 | 待测 |
+| dsh-nexttavern | [a86582751/dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) | 角色扮演：角色卡导入/创作、世界线、世界书、分层长期记忆与关键词/语义/混合检索、角色 Agent、角色卡/小说导出；npm dsh-nexttavern，支持 DSH 0.1.7-rc.2 / Web | 待测 |
+
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
