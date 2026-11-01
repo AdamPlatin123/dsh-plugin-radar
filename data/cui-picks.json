@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
- "count": 14,
+ "count": 11,
  "tweets": [
   {
    "id": "2112529760748437977",
@@ -17,7 +17,7 @@
    "date": "Tue Oct 20 09:30:19 +0000 2026",
    "text": "🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale with high throughput and low latency. We’re sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more",
    "url": "https://x.com/tianyi/status/2112476496283775135",
-   "likes": 43487
+   "likes": 43504
   },
   {
    "id": "2112471106426900677",
@@ -31,14 +31,14 @@
    "date": "Sat Oct 17 08:40:27 +0000 2026",
    "text": "为充分发挥新模型 DeepSeek-V4.1-Flash-1017 的能力，请升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。",
    "url": "https://x.com/tianyi/status/2111376782717035007",
-   "likes": 1816
+   "likes": 1818
   },
   {
    "id": "2111375640717033777",
    "date": "Sat Oct 17 08:35:54 +0000 2026",
    "text": "🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.\n\n🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy,",
    "url": "https://x.com/tianyi/status/2111375640717033777",
-   "likes": 37201
+   "likes": 37210
   },
   {
    "id": "2110663080246132855",
@@ -66,7 +66,7 @@
    "date": "Mon Oct 05 08:51:28 +0000 2026",
    "text": "推荐一下 dsh-plugin-upgrade-skill 这个帮助 DSH 插件作者升级自己插件、适配 DSH 新版本 的 skill。\n\n当然，长远来看，DSH 插件生态不能依赖于插件作者每次都要修改自己的代码来兼容 DSH 的新版本。这一方面需要 DSH 逐渐减少破坏性变更，另外也需要一些技术手段，让插件 API 升级后，面向旧 API",
    "url": "https://x.com/tianyi/status/2107030904233460208",
-   "likes": 583
+   "likes": 585
   },
   {
    "id": "2105917711285150183",
@@ -80,28 +80,7 @@
    "date": "Fri Oct 02 07:00:07 +0000 2026",
    "text": "Please check out @DeepSeekHarness. We just released packaged desktop versions for macOS and Windows; Linux users can get it from the @​deepseek-ai/dsh package on npm.",
    "url": "https://x.com/tianyi/status/2105915715241062644",
-   "likes": 4851
-  },
-  {
-   "id": "2105790798461882377",
-   "date": "Thu Oct 01 22:43:44 +0000 2026",
-   "text": "Congrats to the Claude Code team on shipping Mods! A cute way to make your agent harness extensible and customizable.\n\nIt's a nice convergence of ideas: in Claude Code, mods are just plugins; and @DeepSeekHarness has been built around rethinking the concept of plugins from the",
-   "url": "https://x.com/tianyi/status/2105790798461882377",
-   "likes": 740
-  },
-  {
-   "id": "2105756563302723721",
-   "date": "Thu Oct 01 20:27:42 +0000 2026",
-   "text": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others",
-   "url": "https://x.com/tianyi/status/2105756563302723721",
-   "likes": 5295
-  },
-  {
-   "id": "2105721434807083061",
-   "date": "Thu Oct 01 18:08:07 +0000 2026",
-   "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
-   "url": "https://x.com/tianyi/status/2105721434807083061",
-   "likes": 20403
+   "likes": 4856
   }
  ]
 }
