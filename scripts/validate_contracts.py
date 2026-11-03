@@ -113,7 +113,81 @@ def validate(root: Path) -> int:
         if not verdict_bad:
             print(f'[contracts] 四档对账：ok={counts["ok"]} incompatible={counts["incompatible"]} '
                   f'pending={counts["pending"]} untested={counts["untested"]}')
+        failed = check_unlocated_ratio(latest) or failed
+    failed = check_data_files(root) or failed
     return 1 if failed else 0
+
+
+# 聚合缓存形态门禁（2026-10-14 事故）：org→mirror 同步把 GitHub API 404 响应体当作文件
+# 内容入库，四个缓存被覆盖为 127 字节错误对象，定位全失效（收录 13268→9122、
+# unlocated 0→14379）。schema 只覆盖 latest/plugins-all，缓存坏了契约校验照样全绿。
+# 值为必需顶层键（其中 entries 须为非空 dict）；None 表示扁平 {owner/repo: 文本}。
+# 只校验存在的文件：缺文件由消费方各自的在场守卫处理，不在此判失败。
+CACHE_SHAPES = {
+    'data/locate-cache.json': ('resolved_at', 'entries'),
+    'data/url-audit.json': ('checked_at', 'entries'),
+    'data/repo-map.json': ('exported_at', 'entries'),
+    'data/desc-cache.json': None,
+}
+# 未定位占比上限：事故前长期 0–7 条（<0.1%），事故时 14379/23484（61%）。
+MAX_UNLOCATED_RATIO = 0.05
+
+
+def is_api_error_object(doc) -> bool:
+    """GitHub API 错误响应体特征（与 auto-snapshot-push.sh 内容门禁同口径）。"""
+    return isinstance(doc, dict) and 'message' in doc and 'documentation_url' in doc
+
+
+def check_data_files(root: Path) -> bool:
+    """data/*.json 一律须为合法 JSON 且非 API 错误对象；聚合缓存另验形态。返回是否失败。"""
+    failed = False
+    for path in sorted((root / 'data').glob('*.json')):
+        rel = path.relative_to(root).as_posix()
+        try:
+            doc = json.loads(path.read_text(encoding='utf8'))
+        except (OSError, ValueError) as e:
+            print(f'[contracts] {rel}: JSON 解析失败（{e}）', file=sys.stderr)
+            failed = True
+            continue
+        if is_api_error_object(doc):
+            print(f'[contracts] {rel}: 内容是 GitHub API 错误对象（message+documentation_url）'
+                  f'——疑似 API 响应体误入库', file=sys.stderr)
+            failed = True
+            continue
+        if rel not in CACHE_SHAPES:
+            continue
+        keys = CACHE_SHAPES[rel]
+        if not isinstance(doc, dict) or not doc:
+            reason = '须为非空对象'
+        elif keys is None:
+            reason = None if all(isinstance(v, str) for v in doc.values()) else '值须全为字符串'
+        elif missing := [k for k in keys if k not in doc]:
+            reason = f'缺顶层键 {missing}'
+        elif not isinstance(doc['entries'], dict) or not doc['entries']:
+            reason = 'entries 须为非空对象'
+        else:
+            reason = None
+        if reason:
+            print(f'[contracts] {rel}: 缓存形态不符——{reason}', file=sys.stderr)
+            failed = True
+    if not failed:
+        print('[contracts] data/*.json 无 API 错误对象；在场聚合缓存形态通过')
+    return failed
+
+
+def check_unlocated_ratio(latest: dict) -> bool:
+    """未定位占比超限即判失败（缓存失效的直接症状）。返回是否失败。"""
+    stats = latest.get('stats', {})
+    unlocated = stats.get('unlocated') or 0
+    universe = (latest.get('total_listed') or 0) + unlocated + \
+        (stats.get('gone') or 0) + (stats.get('ambiguous') or 0)
+    ratio = unlocated / universe if universe else 0.0
+    if ratio > MAX_UNLOCATED_RATIO:
+        print(f'[contracts] 未定位占比 {ratio:.1%}（{unlocated}/{universe}）超过上限 '
+              f'{MAX_UNLOCATED_RATIO:.0%}——定位缓存疑似失效', file=sys.stderr)
+        return True
+    print(f'[contracts] 未定位占比 {ratio:.2%}（{unlocated}/{universe}）')
+    return False
 
 
 def main() -> int:

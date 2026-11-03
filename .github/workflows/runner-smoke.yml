@@ -4,9 +4,9 @@ name: runner-smoke
 # 外加稳定数据接口契约校验（P0：挡错误内容以合法 JSON 身份入库）。
 on:
   push:
-    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
+    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/*.json', '.github/workflows/runner-smoke.yml']
   pull_request:
-    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/latest.json', 'data/plugins-all.json', '.github/workflows/runner-smoke.yml']
+    paths: ['README.md', 'docs/catalog-highlights.md', 'engine/**', 'scripts/**', 'schema/**', 'site/scripts/**', 'data/*.json', '.github/workflows/runner-smoke.yml']
   workflow_dispatch:
 
 concurrency:
