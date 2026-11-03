@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-03T07:17:45Z",
+ "generated_at": "2026-11-03T20:31:26Z",
  "plugins": [
   {
    "repo": "foryourhealth111-pixel/Vibe-Skills",
@@ -12220,7 +12220,7 @@
   {
    "repo": "ysr666/dsh-vision-router",
    "name": "dsh-vision-router",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1128,
    "desc": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&"
   },
@@ -14638,13 +14638,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "DeepSeek API quota blood-bar widget for the DSH web GUI: remaining balance vs month-opening, today/month spend"
-  },
-  {
-   "repo": "jinsiyu/dsh-code-server-app",
-   "name": "jinsiyu-dsh-code-server-app",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "将code-server（VSCode网页版）打包安装到dsh内的插件，快速实现专业的文件编辑"
   },
   {
    "repo": "kaotusi/dsh-task-notify",
@@ -25553,6 +25546,13 @@
    "desc": "Task-aware native capability manager for DeepSeek Harness — use, prepare, and verify built-in DSH tools before"
   },
   {
+   "repo": "jinsiyu/dsh-code-server-app",
+   "name": "jinsiyu-dsh-code-server-app",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "将code-server（VSCode网页版）打包安装到dsh内的插件，快速实现专业的文件编辑"
+  },
+  {
    "repo": "laoduu/DeepSeek-Harness-yizi-themes",
    "name": "laoduu-deepseek-harness-yizi-themes",
    "verdict": "incompatible",
@@ -28623,7 +28623,7 @@
    "name": "element-plus-element-plus",
    "verdict": "pending",
    "stars": 27794,
-   "desc": "—〔📦〕"
+   "desc": "—"
   },
   {
    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
@@ -68253,6 +68253,13 @@
    "desc": "—"
   },
   {
+   "repo": "ltmroberthk915/dsh-pet",
+   "name": "ltmroberthk915-dsh-pet",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "看一眼桌宠，就知道 AI 忙到哪了"
+  },
+  {
    "repo": "Lucasli2018/totoro-pet",
    "name": "lucasli2018-totoro-pet",
    "verdict": "ok",
@@ -80083,13 +80090,6 @@
    "desc": "A decorative whale-diving activity icon for the DeepSeek Harness Web chat flow:"
   },
   {
-   "repo": "nexu-io/open-design",
-   "name": "nexu-io-open-design",
-   "verdict": "pending",
-   "stars": 99062,
-   "desc": "The 1st Collaborative AI Design Agent Workspace"
-  },
-  {
    "repo": "tt-a1i/archify",
    "name": "tt-a1i-archify",
    "verdict": "pending",
@@ -80816,13 +80816,6 @@
    "verdict": "ok",
    "stars": 14,
    "desc": "iKanban 是面向 OpenCode V2 的独立前端应用"
-  },
-  {
-   "repo": "Lenonss/DSH_VsCodeMode",
-   "name": "lenonss-dsh-vscodemode",
-   "verdict": "pending",
-   "stars": 14,
-   "desc": "—"
   },
   {
    "repo": "sjh9714/dsh-movein",
@@ -89092,6 +89085,13 @@
    "desc": "跟踪 DSH 官方版本并一键更新：读取 npm dist-tags 与 GitHub 更新说明，列出当前版本到目标版本之间每一个版本的更新点，给出分级风险清单（预发布、破坏性变更措辞、本机多份安装与 PATH 不一致、插件 dsh.engines.dsh 兼容性、备份与回滚可用性），再把安装交给分离助手——用 rename 原子备份当前安装、执行 npm、校验落地结果、用原命令重启，新版本起不来就自动回滚；npm `@zhengjunyao/dsh-updater` 0.1.0，MIT"
   },
   {
+   "repo": "nexu-io/open-design",
+   "name": "nexu-io-open-design",
+   "verdict": "incompatible",
+   "stars": 99062,
+   "desc": "The 1st Collaborative AI Design Agent Workspace"
+  },
+  {
    "repo": "anbeime/skill",
    "name": "anbeime-skill",
    "verdict": "incompatible",
@@ -89398,6 +89398,13 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "Clickable file paths in DSH replies: Codex-style inline open, 📂 reveal in file manager, mentioned-files chip l"
+  },
+  {
+   "repo": "Lenonss/DSH_VsCodeMode",
+   "name": "lenonss-dsh-vscodemode",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "—"
   },
   {
    "repo": "picoaide/picoaide-harness",
