@@ -300,6 +300,40 @@ class ReviewRegressions(unittest.TestCase):
                     contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(module.validate(root), 1)
 
+    def test_contract_rejects_api_error_cache_and_unlocated_spike(self):
+        """2026-10-14 事故回归：缓存被 GitHub 404 响应体覆盖 → 必须失败；
+        缓存缺 entries → 必须失败；未定位占比超限 → 必须失败；正常缓存放行。"""
+        module = load_module('contracts_cache', 'scripts/validate_contracts.py')
+        api_404 = {'message': 'Not Found', 'status': '404',
+                   'documentation_url': 'https://docs.github.com/rest/repos/contents'}
+        good_locate = {'resolved_at': '2026-10-14T00:00:00Z',
+                       'entries': {'a-b': {'status': 'found', 'full_name': 'a/b'}}}
+        quiet = (contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()))
+
+        def run(root):
+            with quiet[0], quiet[1]:
+                return module.check_data_files(root)
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            write_json(root / 'data/locate-cache.json', good_locate)
+            write_json(root / 'data/desc-cache.json', {'a/b': 'desc'})
+            self.assertFalse(run(root), '正常缓存须放行')
+            write_json(root / 'data/locate-cache.json', api_404)
+            self.assertTrue(run(root), 'API 错误对象须拦截')
+            write_json(root / 'data/locate-cache.json', {'resolved_at': 'x', 'entries': {}})
+            self.assertTrue(run(root), '空 entries 须拦截')
+            write_json(root / 'data/locate-cache.json', good_locate)
+            write_json(root / 'data/star-cache.json', api_404)
+            self.assertTrue(run(root), '非缓存的 data/*.json 也不得是 API 错误对象')
+
+        incident = {'total_listed': 9122, 'stats': {'unlocated': 14379, 'gone': 0, 'ambiguous': 0}}
+        healthy = {'total_listed': 13254, 'stats': {'unlocated': 2, 'gone': 912, 'ambiguous': 105}}
+        with quiet[0], quiet[1]:
+            self.assertTrue(module.check_unlocated_ratio(incident), '事故态未定位占比须拦截')
+        with contextlib.redirect_stdout(io.StringIO()):
+            self.assertFalse(module.check_unlocated_ratio(healthy), '正常未定位须放行')
+
 
 if __name__ == '__main__':
     unittest.main()
