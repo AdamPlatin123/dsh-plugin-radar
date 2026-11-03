@@ -279,7 +279,6 @@
 - 🟩 `[可用]` [aiworkskills-deepseek-harness-server](https://github.com/aiworkskills/deepseek-harness-server) ★3 — 一个可以接入应用系统的deepseek harness插件，让原有的应用系统快速接入智能体能力
 - 🟩 `[可用]` [andy8647-dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval) ★3 — —
 - 🟩 `[可用]` [baconbao-dsh-mermaid-image-preview](https://github.com/baconbao/dsh-mermaid-image-preview) ★3 — A DeepSeek Harness Plugin for Previewing Mermaid Diagram by Images in Chat Sessions
-- ⬜ `[待定]` [baixianger-dsh-bridge](https://github.com/baixianger/dsh-bridge) ★3 — Same-process session-to-session messaging plugin for DeepSeek Harness
 - 🟩 `[可用]` [beihzb-dsh-envsel](https://github.com/beihzb/dsh-envsel) ★3 — Per-session environment selector for DeepSeek Harness: Python / R / CLI slots from conda, standalone R, WSL, o
 - 🟩 `[可用]` [dsh-session-audit](https://github.com/bwndlct/dsh-session-audit) ★3 — Session execution analytics and audit reports for DeepSeek Harness — see how your agent actually worked
 - 🟩 `[可用]` [chenkai2-dsh-daemon](https://github.com/chenkai2/dsh-daemon) ★3 — dsh daemon: register the DeepSeek Harness web server (dsh web) as an auto-start, self-healing background servi
@@ -1443,6 +1442,7 @@
 - 🟨 `[不兼容]` [asaiuta-reverse-workbench-skill](https://github.com/Asaiuta/reverse-workbench-skill) ★3 — —
 - 🟨 `[不兼容]` [azure5100-huahua-dsh-record-replay](https://github.com/azure5100/huahua-dsh-record-replay) ★3 — DSH Record & Replay plugin: session timeline replay, replay-pack export/import, re-run recorded conversations,
 - 🟨 `[不兼容]` [baaai123-solo-memory](https://github.com/baaai123/solo-memory) ★3 — —
+- 🟨 `[不兼容]` [baixianger-dsh-bridge](https://github.com/baixianger/dsh-bridge) ★3 — Same-process session-to-session messaging plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [beijingwahw-dsh-computer-use-plugin](https://github.com/beijingwahw/dsh-computer-use-plugin) ★3 — Vision-only desktop automation agent plugin for DeepSeek Harness (DSH) \| 纯视觉桌面自动化 Agent 插件：SoM grounding · Pla
 - 🟨 `[不兼容]` [beijingwahw-dsh-usage-ledger](https://github.com/beijingwahw/dsh-usage-ledger) ★3 — dsh-usage-ledger（Token 费用统计）— 自动记下每笔对话花了多少 Token、多少钱（按对话、按天、累计都能查），价格自动跟着官方最新价走、支持多家国产厂商，低谷时段自动按便宜价算，预算超了自动提醒还
 - 🟨 `[不兼容]` [bingoagenttouch-personal-mcp](https://github.com/BingoAgentTouch/Personal_MCP) ★3 — —
