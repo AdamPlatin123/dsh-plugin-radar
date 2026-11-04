@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T03:45:41Z",
+ "generated_at": "2026-11-04T04:00:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3039,6 +3039,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "yukitakasama/dsh-wsl-preset",
+   "name": "yukitakasama-dsh-wsl-preset",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin: installs the 'wsl' agent preset for Windows WSL"
   },
   {
    "repo": "yyyyolo7a79-sketch/dsh-auto-and-safety",
@@ -7108,6 +7115,13 @@
    "desc": "—"
   },
   {
+   "repo": "TheChengXi/dsh-skills-reference",
+   "name": "thechengxi-dsh-skills-reference",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "TheHeartFickle/dsh-solo-agent",
    "name": "theheartfickle-dsh-solo-agent",
    "verdict": "ok",
@@ -8548,13 +8562,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "oh-my-dsh: OMC-style multi-agent orchestration for DeepSeek Harness — 29 workflow skills + 12 /omd-* slash com"
-  },
-  {
-   "repo": "TheChengXi/dsh-skills-reference",
-   "name": "thechengxi-dsh-skills-reference",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "XXXXXQ-0206/dsh-session-delete",
@@ -16726,6 +16733,13 @@
    "desc": "Mirror of dsh-external/dsh-skins + feat: harbor (夕港) dusk-harbor skin 〔PR〕"
   },
   {
+   "repo": "momo20012002/dsh-hmos-emulator",
+   "name": "momo20012002-dsh-hmos-emulator",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH better-sidebar 侧边栏标签页:一键启动鸿蒙模拟器、构建并部署 HarmonyOS 应用到模拟器"
+  },
+  {
    "repo": "moyuer233/dsh-deepseek-monitor",
    "name": "moyuer233-dsh-deepseek-monitor",
    "verdict": "ok",
@@ -23215,6 +23229,13 @@
    "desc": "Bailian (DashScope) Kimi LLM adapter plugin for DeepSeek Harness — kimi-k3 with image input, thinking and tool"
   },
   {
+   "repo": "somebdly/dsh-docker",
+   "name": "somebdly-dsh-docker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-docker 是 DeepSeek Harness Web 的 Docker 管理面板插件：支持本机 CLI 与 SSH 远端多目标一键切换，统一管理 Docker MCP（部署/移除/搜索官方 Catalog/"
+  },
+  {
    "repo": "sqs404/dsh-client-ui-beautify",
    "name": "sqs404-dsh-client-ui-beautify",
    "verdict": "ok",
@@ -24230,6 +24251,13 @@
    "desc": "需要你做的 UI 验收（重启后逐项过一遍）  1"
   },
   {
+   "repo": "zhangyuzhangyu233/dsh-rgb-input-glow",
+   "name": "zhangyuzhangyu233-dsh-rgb-input-glow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web 插件：「光污染」RGB 流光皮肤（输入框/侧栏/hero 等 WebGL bloom + CSS 光效，独立皮肤不修改任何原皮肤）"
+  },
+  {
    "repo": "zhangzhimou78-code/deepseek-visual-plugin",
    "name": "zhangzhimou78-code-deepseek-visual-plugin",
    "verdict": "ok",
@@ -24928,6 +24956,13 @@
    "verdict": "incompatible",
    "stars": 23,
    "desc": "DSH (DeepSeek Harness) web GUI plugin collection — task notifications, provider usage, LAN proxy, MCP manager,"
+  },
+  {
+   "repo": "better-er/dsh-pause",
+   "name": "better-er-dsh-pause",
+   "verdict": "incompatible",
+   "stars": 20,
+   "desc": "「DSH·暂停」：agent 完成一轮工具交互、正要发出下一次模型请求之前暂停，保持输入框可用，人类按回车放行并可携带补充文字；不打断任何在途 API 调用"
   },
   {
    "repo": "cofy-x/dsh-console",
@@ -66636,6 +66671,13 @@
    "desc": "专为 DeepSeek Harness（DSH）打造的 macOS 与 Windows 桌面客户端，免配置，轻松切换最新 DSH 版本"
   },
   {
+   "repo": "huanlanmie/dsh-mobile-access",
+   "name": "huanlanmie-dsh-mobile-access",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "hw-cola/dsh-remote-control",
    "name": "hw-cola-dsh-remote-control",
    "verdict": "incompatible",
@@ -66837,6 +66879,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH Desktop: LAN-ready DeepSeek Harness with Android compatibility and Electron packaging〔📦〕"
+  },
+  {
+   "repo": "techflag/dsh-plugin-ssh",
+   "name": "techflag-dsh-plugin-ssh",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "SSH/SFTP workspace and host-model server assistant for DeepSeek Harness."
   },
   {
    "repo": "w2112515/dsh-remote-host",
@@ -75734,6 +75783,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "baddying/dsh-geolibre",
+   "name": "baddying-dsh-geolibre",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: render GeoJSON/vector data into an interactive GeoLibre map and let agents operate th"
   },
   {
    "repo": "chen731215-dev/dsh-muv-engine",
@@ -88357,6 +88413,13 @@
    "desc": "DeepSeek Harness 的 Windows 桌面封装:免 Node.js,内置终端与静默自动更新(第三方,非官方)"
   },
   {
+   "repo": "teethyachi/dsh-usage-mini",
+   "name": "teethyachi-dsh-usage-mini",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Floating usage window for DeepSeek Harness Web: Claude/Codex reset countdowns + DeepSeek API spend."
+  },
+  {
    "repo": "tianhanly/dsh-official-port-nav",
    "name": "tianhanly-dsh-official-port-nav",
    "verdict": "ok",
@@ -92611,6 +92674,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "shaomingbo/dsh-codex-compaction",
+   "name": "shaomingbo-dsh-codex-compaction",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Codex native compaction integration for DeepSeek Harness using existing account capabilities (in development)."
   },
   {
    "repo": "shaomingbo/dsh-open-in-editor",
