@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2512）
+# 🔌 Web UI 增强（2517）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1312,6 +1312,7 @@
 - 🟩 `[可用]` [dac114514-dsh-theme-center](https://github.com/dac114514/dsh-theme-center) ★0 — DeepSeek Harness 主题中心 · Theme Center for dsh web UI：精选主题画廊（浅色/深色分组）、一键切换、自定义壁纸、dsh-theme 导入导出
 - 🟩 `[可用]` [daha1216-dsh-font-customizer](https://github.com/daha1216/dsh-font-customizer) ★0 — DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化
 - 🟩 `[可用]` [dakeshui123-dsh-pet-frieren](https://github.com/dakeshui123/dsh-pet-frieren) ★0 — A chibi Frieren desktop pet for the DeepSeek Harness Web GUI: install with dsh plugin --profile web add github
+- 🟩 `[可用]` [danhcng3822f-dsh-upload-plugin](https://github.com/danhcng3822f/dsh-upload-plugin) ★0 — DeepSeek Harness plugin providing Add photos, Add files, and Uploaded files in chat UI with vision validation
 - 🟩 `[可用]` [danieltoraji-dsh-skin-kamisato](https://github.com/Danieltoraji/dsh-skin-kamisato) ★0 — —
 - `[空仓监测]` **darkskyx15-dsh-client-ui-m3-theme** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [dddzzz123-dz-dsh-read-image-plugin](https://github.com/dddzzz123-dz/dsh-read-image-plugin) ★0 — Image input fallback for DeepSeek Harness with native multimodal model detection and Volcengine Ark vision.
@@ -1371,6 +1372,9 @@
 - `[空仓监测]` **fthuu-my-skin-for-deepseek-harness** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ftima-w-dsh-plugin-manager](https://github.com/ftima-w/dsh-plugin-manager) ★0 — DSH plugin-manager-ui: MCP/Skills management + plugin stop/enable/delete
 - 🟩 `[可用]` [fubao885522-debug-dsh-wallpaper](https://github.com/fubao885522-debug/dsh-wallpaper) ★0 — DeepSeek Harness Web UI 壁纸插件：图片自适应任意屏幕缩放（CSS cover），并自动跟随深浅色主题
+- 🟩 `[可用]` [fuguier001-dsh-imgnav](https://github.com/fuguier001/dsh-imgnav) ★0 — Click-to-zoom lightbox with arrow-key paging for DSH conversation images: ← prev / → next / Esc close, edge hi
+- 🟩 `[可用]` [fuguier001-dsh-procguard](https://github.com/fuguier001/dsh-procguard) ★0 — DSH 进程看护管家：launchd 保活 + preflight 启动闸 + 内存哨兵 + 断链自愈的四层防御插件（macOS 实测 / Linux 骨架 / 不支持 Windows）
+- 🟩 `[可用]` [fuguier001-dsh-progress](https://github.com/fuguier001/dsh-progress) ★0 — DSH web GUI 浮动水球进度指示器：莫兰迪色带水位、光晕联动、抓取感拖动（附可复用拖动模板）
 - 🟩 `[可用]` [fusu123fusu-dsh-tui-herdr](https://github.com/FUSU123fusu/dsh-tui-herdr) ★0 — —
 - 🟩 `[可用]` [fusu123fusu-dsh-tui-jobs](https://github.com/FUSU123fusu/dsh-tui-jobs) ★0 — —
 - 🟩 `[可用]` [fyhc1-dsh-webui-installer](https://github.com/FYHC1/dsh-webui-installer) ★0 — —
@@ -2350,6 +2354,7 @@
 - 🟨 `[不兼容]` [cinnamobot-dsh-nothing-skin](https://github.com/Cinnamobot/dsh-nothing-skin) ★0 — —
 - 🟨 `[不兼容]` [cnkids-dsh-session-reattach](https://github.com/cnkids/dsh-session-reattach) ★0 — DSH 宿主插件：把游离（未分组）会话按 cwd 归位到匹配的工作区 —— 只改工作区归属记录，不碰会话文件；支持拖拽与 /reattach 命令（默认 dry-run）｜ DSH host plugin: re-att
 - `[空仓监测]` **crack-time-dsh-web-ui-skin** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [damlys99-dsh-queue-reorder](https://github.com/damlys99/dsh-queue-reorder) ★0 — Reorder queued messages inside the DeepSeek Harness Web GUI queue dock: grip-and-drag plus move buttons, witho
 - 🟨 `[不兼容]` [dee3526-dsh-plugin-voice-input-demo](https://github.com/Dee3526/dsh-plugin-voice-input-demo) ★0 — —
 - 🟨 `[不兼容]` [difimim-dsh-voice-input](https://github.com/difimim/dsh-voice-input) ★0 — 语音输入插件 for Deepseek Harness
 - `[空仓监测]` **dingpenghui-good-dsh-plugin-manager** — GitHub 无此仓库，判定暂不展示
