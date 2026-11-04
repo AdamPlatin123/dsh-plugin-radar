@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T17:45:50Z",
+ "generated_at": "2026-11-04T18:30:47Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11670,6 +11670,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Approval-gated workspace instructions and shared project memory for DeepSeek Harness"
+  },
+  {
+   "repo": "maci0/dsh-ponytail",
+   "name": "maci0-dsh-ponytail",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Ponytail (lazy senior dev mode) for DeepSeek Harness: six skills, an always-on anti-over-engineering ruleset,"
   },
   {
    "repo": "makechange/dsh-session-note",
@@ -78137,6 +78144,13 @@
    "desc": "—"
   },
   {
+   "repo": "idoall/dsh-notify",
+   "name": "idoall-dsh-notify",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "In-page task notifications for DeepSeek Harness: toast, bell history, WebAudio cue, flashing background tab ti"
+  },
+  {
    "repo": "iTraceur/dsh-wechat-mp-search",
    "name": "itraceur-dsh-wechat-mp-search",
    "verdict": "ok",
@@ -89958,6 +89972,13 @@
    "verdict": "incompatible",
    "stars": 41,
    "desc": "Second brain for coding agents"
+  },
+  {
+   "repo": "bychv/dsh-preset-enhance",
+   "name": "bychv-dsh-preset-enhance",
+   "verdict": "incompatible",
+   "stars": 37,
+   "desc": "SillyTavern preset mode, macro engine and editor for DeepSeek Harness"
   },
   {
    "repo": "Ajwyunsx/dsh-cmdgo-provider",
