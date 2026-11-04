@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1867）
+# 🤖 Agent 能力（1868）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -315,6 +315,7 @@
 - ⬜ `[待定]` [sunshaobei-dsh-session-review](https://github.com/sunshaobei/dsh-session-review) ★3 — —
 - 🟩 `[可用]` [trueriscoacnt-maa-dsh-skill](https://github.com/trueRISCOacnt/maa-dsh-skill) ★3 — —
 - 🟩 `[可用]` [warrenop-open-preset-harness](https://github.com/warrenop/open-preset-harness) ★3 — DSH Memory plugin (dsh-tool-project-memory): shared project organizational memory across presets — recall, rem
+- 🟩 `[可用]` [weilantianhai-dsh-command-skill-list](https://github.com/weilantianhai/dsh-command-skill-list) ★3 — /skills command for DSH — list skills with auto-translated descriptions (zh↔en)
 - 🟩 `[可用]` [xmoon-dsh-subagent-router](https://github.com/XMoon/dsh-subagent-router) ★3 — —
 - 🟩 `[可用]` [yan5236-dsh-memory](https://github.com/yan5236/dsh-memory) ★3 — Two-phase long-term memory plugin for DeepSeek Harness (DSH): per-session extraction + global consolidation, a
 - 🟩 `[可用]` [yangyongzhen-dsh-session-export](https://github.com/yangyongzhen/dsh-session-export) ★3 — Export DeepSeek Harness sessions to Markdown for review, blogging and audit
@@ -432,6 +433,7 @@
 - 🟩 `[可用]` [whning0513-awesome-deepseek-skills](https://github.com/Whning0513/awesome-deepseek-skills) ★2 — —
 - 🟩 `[可用]` [wicm84266964-dsh-minimal-mode-compaction](https://github.com/wicm84266964/dsh-minimal-mode-compaction) ★2 — 为 DeepSeek Harness 极简模式增加自动上下文压缩、/compact、/context 和模型主动压缩，解决极简模式长任务无法持续工作的问题
 - 🟩 `[可用]` [dsh-prompt-stash](https://github.com/Wine-Red/dsh-prompt-stash) ★2 — Local, per-session prompt stash for DeepSeek Harness Web \| 本地、分对话的提示词输入暂存工具
+- 🟩 `[可用]` [winsonpong98-cloud-dsh-distillation-director](https://github.com/winsonpong98-cloud/dsh-distillation-director) ★2 — DSH 蒸馏主管：把一本书蒸馏成可执行 Agent 技能的判态制元技能（三闸判态·零🔴门禁）｜V4.9.17 npm 通道实发·CLI 发布·readme 回归；发版闸 A/B/C/D/D-配套/D-import/E/F
 - 🟩 `[可用]` [winter-street-dsh-plugin-agent-budget](https://github.com/winter-street/dsh-plugin-agent-budget) ★2 — Durable shared token budgets for DeepSeek Harness agent trees — a fail-closed admission gate plus a replayable
 - 🟩 `[可用]` [winterhuan-dsh-skills-viewer](https://github.com/winterhuan/dsh-skills-viewer) ★2 — Read-only Skills settings page plugin for DeepSeek Harness Web
 - 🟩 `[可用]` [wmengxiang-dsh-prompt-optimizer](https://github.com/wmengxiang/dsh-prompt-optimizer) ★2 — —
@@ -457,7 +459,6 @@
 - 🟩 `[可用]` [zoahdev-dsh-zh](https://github.com/zoahdev/dsh-zh) ★2 — Chinese-thinking system-prompt section for DeepSeek Harness: make your dsh agent think and answer in simplifie
 - 🟩 `[可用]` [zriyox-dsh-goal-scaffold](https://github.com/zriyox/dsh-goal-scaffold) ★2 — 一句话大需求先别急着跑：拦一下问你要不要先规划，自动生成带验收清单的 plan.md 再开工 — DeepSeek Harness 插件 / Catches one-sentence mammoth tasks and
 - 🟩 `[可用]` [dsh-gpu](https://github.com/zytsyj/dsh-gpu) ★2 — GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,
-- ⬜ `[待定]` [winsonpong98-cloud-dsh-distillation-director](https://github.com/winsonpong98-cloud/dsh-distillation-director) ★2 — DSH 蒸馏主管：把一本书蒸馏成可执行 Agent 技能的判态制元技能（三闸判态·零🔴门禁）｜V4.9.17 npm 通道实发·CLI 发布·readme 回归；发版闸 A/B/C/D/D-配套/D-import/E/F
 - ⬜ `[待定]` [yunxiyang-dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) ★2 — Continue a DeepSeek Harness agent turn whose model narrated its next action but called no tool.
 - ⬜ `[待定]` [dsh-handheld](https://github.com/pawpaw-agent/dsh-handheld) ★2 — DeepSeek Harness (dsh) 原生 Android 客户端 — 直连 dsh web 的 /api RPC + WebSocket 事件流，无需 WebView
 - 🟩 `[可用]` [0231071-llm-as-a-verifier](https://github.com/0231071/llm-as-a-verifier) ★1 — LLM-as-a-Verifier plugin for DeepSeek Harness (DSH): best-of-N 候选并行生成 + 概率枢轴锦标赛(PPT)验证器择优, 官方样式设置卡片, lav_statu
