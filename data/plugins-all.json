@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T01:15:54Z",
+ "generated_at": "2026-11-04T01:30:42Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -12549,7 +12549,7 @@
   {
    "repo": "PerryLink/dsh-mcp-panel",
    "name": "dsh-mcp-panel",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 70,
    "desc": "Read-only runtime management panel for the official DeepSeek Harness MCP client: /mcp command + Settings MCP t"
   },
