@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T22:45:56Z",
+ "generated_at": "2026-11-04T23:00:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4621,6 +4621,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Canonical project memory for the Pi coding agent: one governing article per asset, an append-only journal, cap"
+  },
+  {
+   "repo": "shengyvself/dsh-prompt-only-forge",
+   "name": "shengyvself-dsh-prompt-only-forge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: pure injection prompt polish (no send action)"
   },
   {
    "repo": "shenjingnan/zapmomo",
@@ -11987,11 +11994,25 @@
    "desc": "dsh 持久化记忆插件 - 依托自建的 mem0‑graph 服务器实现自动回忆与回写"
   },
   {
+   "repo": "sangning-h/dsh-farm-dispatch",
+   "name": "sangning-h-dsh-farm-dispatch",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "子代理派发规范（吝啬农场主模式）全局化插件 for DeepSeek Harness — syncs cordis-async preset + AGENTS.md dispatch rules"
+  },
+  {
    "repo": "satan9394/dsh-skills-bundle",
    "name": "satan9394-dsh-skills-bundle",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "199 DSH skill plugins in one monorepo - comprehensive collection for DeepSeek Harness"
+  },
+  {
+   "repo": "sdegongzuo/dsh-webops-plugin",
+   "name": "sdegongzuo-dsh-webops-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页"
   },
   {
    "repo": "shenhuanageshei/dsh-vision-bridge",
@@ -23493,6 +23514,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "A complete, human-centered memory layer for DeepSeek that stores user preferences, conversation notes, and per"
+  },
+  {
+   "repo": "simikangtao/dsh-storyboard",
+   "name": "simikangtao-dsh-storyboard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Doubao-style end-of-chat storyboard card for DeepSeek Harness: lightweight, zero-dependency HTML/SVG visual su"
   },
   {
    "repo": "SingleMelon/dsh-balance-panel",
@@ -57893,6 +57921,13 @@
    "desc": "—"
   },
   {
+   "repo": "samuelrubiodev/dsh-hyper-tools",
+   "name": "samuelrubiodev-dsh-hyper-tools",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: keeps Charm Hyper model requests under the gateway's 10 MiB body cap by replacing the oldest image"
+  },
+  {
    "repo": "sandersyao/dsh-credentials-mysql",
    "name": "sandersyao-dsh-credentials-mysql",
    "verdict": "incompatible",
@@ -79509,6 +79544,13 @@
    "desc": "DSH desktop pet plugin: an American Shorthair kitten in the bottom-right corner that reacts to the Agent's wor"
   },
   {
+   "repo": "sxylvlv/dsh-weixin-channel",
+   "name": "sxylvlv-dsh-weixin-channel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "微信通道插件 for DSH：把微信消息接成 DSH 会话（文本/图片/文件/语音/视频双向，出站可推文档）"
+  },
+  {
    "repo": "TARS-snail/dsh-notify",
    "name": "tars-snail-dsh-notify",
    "verdict": "ok",
@@ -89064,11 +89106,25 @@
    "desc": "Public, reusable DeepSeek Harness plugins and skills: workflow canvas toolkit, blind eval harness, LLM cost la"
   },
   {
+   "repo": "ryanxie113/dsh-solpi",
+   "name": "ryanxie113-dsh-solpi",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Four harness efficiency mechanisms (Action Fusion, ObservationPack, Evidence-Preserving Reducer, Online Contex"
+  },
+  {
    "repo": "ryasrk/dsh-vision-patch",
    "name": "ryasrk-dsh-vision-patch",
    "verdict": "ok",
    "stars": 0,
    "desc": "Patch custom provider vision model"
+  },
+  {
+   "repo": "s867968286/dsh-memory-md",
+   "name": "s867968286-dsh-memory-md",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "简单的纯依赖MD文件的记忆插件，实现思路参考CodeBuddy和WorkBuddy的实现"
   },
   {
    "repo": "samaidev/pluginAICQ",
