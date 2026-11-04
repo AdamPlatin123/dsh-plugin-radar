@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T13:45:58Z",
+ "generated_at": "2026-11-04T14:45:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -9528,6 +9528,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "longmiaoo/dsh-native-browser",
+   "name": "longmiaoo-dsh-native-browser",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "A production-grade, DSH-native browser runtime for DeepSeek Harness with visible human-agent collaboration."
   },
   {
    "repo": "maojindao55/deepseek-harness-acp",
