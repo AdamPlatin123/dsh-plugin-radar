@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T10:15:50Z",
+ "generated_at": "2026-11-04T11:45:47Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -9080,6 +9080,13 @@
    "verdict": "incompatible",
    "stars": 15,
    "desc": "DSH manager for user Skills already on disk in Agent home and DSH home"
+  },
+  {
+   "repo": "realguan/dsh-dock",
+   "name": "realguan-dsh-dock",
+   "verdict": "incompatible",
+   "stars": 15,
+   "desc": "专为 DeepSeek Harness (DSH) 打造的跨平台桌面控制中心：多工作台管理、3,400+ 社区插件市场、会话自愈、凭据与系统诊断"
   },
   {
    "repo": "Y1X1n/dsh-prompt-optimizer",
@@ -60565,6 +60572,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "zhangj1164/dsh-mega-plugins",
+   "name": "zhangj1164-dsh-mega-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH mega plugins monorepo — a collection of DeepSeek Harness plugins"
   },
   {
    "repo": "zhangjunjesse/dsh-task-board",
