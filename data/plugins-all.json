@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T22:31:57Z",
+ "generated_at": "2026-11-04T22:45:56Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4560,6 +4560,13 @@
    "desc": "—"
   },
   {
+   "repo": "rex178178/dsh-turnbar",
+   "name": "rex178178-dsh-turnbar",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A progress bar for your agent conversations — in-session turn navigation with hover previews, scrub, playhead,"
+  },
+  {
    "repo": "rrrrrredy/skill-security-guard",
    "name": "rrrrrredy-skill-security-guard",
    "verdict": "pending",
@@ -6910,6 +6917,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH Web 插件：会话右侧的问题索引标尺（Question Jump Bar），每个刻度一次提问，悬停预览、点击/键盘跳转"
+  },
+  {
+   "repo": "pureexe/dsh-vision-3090-fix",
+   "name": "pureexe-dsh-vision-3090-fix",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness LLM adapter that caps images per request to 1, for self-hosted vLLM backends that reject prom"
   },
   {
    "repo": "pythonshiyi/dsh-compact-standard",
@@ -60000,6 +60014,13 @@
    "desc": "—"
   },
   {
+   "repo": "realpkuasule/dsh-launch-pad",
+   "name": "realpkuasule-dsh-launch-pad",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh-launch-pad"
+  },
+  {
    "repo": "rgzhang1231321/dsh-plugin",
    "name": "rgzhang1231321-dsh-plugin",
    "verdict": "incompatible",
@@ -88978,6 +88999,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Zero-config Kimi Coding web search provider for DeepSeek Harness: reuses the local kimi-coding credential, ins"
+  },
+  {
+   "repo": "rainfishs/dsh-vscode",
+   "name": "rainfishs-dsh-vscode",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "Richardcoder849/flomo-dsh-plugin",
