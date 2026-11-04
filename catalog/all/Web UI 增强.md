@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2464）
+# 🔌 Web UI 增强（2467）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -217,6 +217,7 @@
 - 🟩 `[可用]` [dsh-research-graph](https://github.com/benz-ai-x/dsh-research-graph) ★8 — DeepSeek Harness (dsh) plugin for AI agent session visualization: explore lineage, branch conversations, merge
 - 🟩 `[可用]` [2nd1st-dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) ★7 — Bring open-mcp-apps into deepseek-harness: apps as sidebar containers with their own sessions, an agent status
 - 🟩 `[可用]` [bilbillm-deepseek-harness-angelina-themes](https://github.com/bilbillm/deepseek-harness-angelina-themes) ★7 — Angelina light and dark glass themes with parallax for DeepSeek Harness
+- 🟩 `[可用]` [builtin-pb-dsh-developer](https://github.com/builtin-pb/dsh-developer) ★7 — The single plugin you need for DSH — build, test, diagnose, and maintain DeepSeek Harness plugins and core.
 - 🟩 `[可用]` [charrywhite-dsh-sticky-notes](https://github.com/charrywhite/dsh-sticky-notes) ★7 — Sticky notes for DeepSeek Harness: draggable notes with text & image support, 9 skins, and AI-powered read/wri
 - 🟩 `[可用]` [culture-flask-dsh-aemeath-pet](https://github.com/culture-flask/dsh-aemeath-pet) ★7 — 爱弥斯 · DeepSeek Harness 桌宠 — DeepSeek Harness Web GUI 的像素风宠物插件
 - 🟩 `[可用]` [dfkai-dsh-board](https://github.com/dfkai/dsh-board) ★7 — DeepSeek Harness 侧栏用量与成本面板：官方峰谷计价 · 1M 上下文 · 词勋段位 · 成就与热力图
@@ -393,7 +394,6 @@
 - 🟩 `[可用]` [silk-background](https://github.com/z21for99/silk-background) ★4 — DSH Web GUI 客户端插件：WebGL Silk 丝绸动态背景 + 全站玻璃化皮肤（官方主题 token 覆盖，零依赖） \| WebGL silk shader background & glassmorphis
 - `[空仓监测]` **zhuiyueya-dsh-voice** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **zoumutou-dsh-web-preview** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [10086ggqq-dsh-theme-minecraft](https://github.com/10086ggqq/dsh_theme_Minecraft) ★3 — —
 - 🟩 `[可用]` [1010n111-dsh-about](https://github.com/1010n111/dsh-about) ★3 — 为 DeepSeek Harness Web 设置面板添加“关于”页，展示当前运行的 DSH 版本、插件版本与项目主页
 - 🟩 `[可用]` [dsh-black-whale](https://github.com/147228/dsh-black-whale) ★3 — DeepSeek Harness 黑鲸实验室主题：官网黑鲸 × 夕小瑶 IP，真实 profile 可安装的 Web UI 插件
 - ⬜ `[待定]` [15828148-dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) ★3 — One-click portable launcher for DeepSeek Harness (dsh) Web UI on Windows
@@ -839,7 +839,6 @@
 - 🟩 `[可用]` [dingyi580-dsh-plugin-gemini-theme](https://github.com/dingyi580/dsh-plugin-gemini-theme) ★1 — A Gemini-styled skin for the DeepSeek Harness web client
 - ⬜ `[待定]` [dkthreefr-atri-theme-dsh](https://github.com/DKthreeFR/ATRI-Theme-DSH) ★1 — —
 - 🟩 `[可用]` [dlpufan-dsh-theme-cyberpunk](https://github.com/dlpufan/dsh-theme-cyberpunk) ★1 — DeepSeek Harness 赛博朋克主题插件：RGB 流动霓虹、自定义背景图库、本地音乐播放器与一键启停
-- ⬜ `[待定]` [doebkblcya-dsh-workbench](https://github.com/doebkblcya/dsh-workbench) ★1 — A VS Code-style workbench (Preview + Files/Git panels) plugin for the DSH Web GUI
 - 🟩 `[可用]` [domitor-syh-dsh-ui-skin-switcher](https://github.com/domitor-syh/dsh-ui-skin-switcher) ★1 — Model & reasoning-effort switcher plugin for DeepSeek Harness (DSH): composer seat with Off/Max effort slider
 - ⬜ `[待定]` [dongce9655-design-dsh-desktop-launcher](https://github.com/dongce9655-design/dsh-desktop-launcher) ★1 — One-click launcher for the DeepSeek Harness Web GUI on Windows
 - 🟩 `[可用]` [dongjinxiang-deepseek-harness-desktop](https://github.com/dongjinxiang/deepseek-harness-desktop) ★1 — Lossless Windows desktop app for DeepSeek Harness with the complete DSH Web UI, plugins, skins, and skill dock
@@ -1781,6 +1780,7 @@
 - 🟩 `[可用]` [zheng16965-dsh-deliverables-toggle](https://github.com/zheng16965/dsh-deliverables-toggle) ★0 — 为 DeepSeek Harness 对话产物列表增加主动展开与收起功能的 Web UI 插件
 - 🟩 `[可用]` [zhengjy01-dsh-qqbot-panel](https://github.com/zhengjy01/dsh-qqbot-panel) ★0 — Visual web settings panel for the official @tencent-connect/dsh-qqbot plugin: manage AppID/AppSecret, c2c & gr
 - 🟩 `[可用]` [zhibailu-dsh-vsc](https://github.com/zhibailu/dsh-vsc) ★0 — Run DeepSeek Harness (DSH), a local AI agent, inside VS Code — native sidebar panel + editor bridge
+- `[未定位]` **zhigengniao258-dsh-theme-tarkov** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [zhm20001-dsh-plugin-palette-board](https://github.com/zhm20001/dsh-plugin-palette-board) ★0 — 本项目为 DeepSeek Harness web 控制台带来一块 2D 调色盘应用板
 - 🟩 `[可用]` [zhongruiyu-mine-math-modeling-plugin](https://github.com/ZhongRuiYu-mine/math-modeling-plugin) ★0 — —
 - 🟩 `[可用]` [zhouchengke2046-dsh-sidebar-balance](https://github.com/zhouchengke2046/dsh-sidebar-balance) ★0 — 极简原生风 DSH 余额插件:侧边栏常驻 DeepSeek 余额 + OpenCode Go 套餐消耗圆环,磨砂玻璃悬浮卡,一键重启
@@ -2015,6 +2015,7 @@
 - 🟨 `[不兼容]` [dsh-effort-tweak](https://github.com/Toukaiteio/dsh-effort-tweak) ★4 — A DeepSeek Harness plugin that allows you to change the reasoning effort of custom models in WebUI.
 - 🟨 `[不兼容]` [zmm863-commits-dsh-paperclip](https://github.com/zmm863-commits/dsh-paperclip) ★4 — DSH Web GUI paperclip button: a single 📎 button in the composer that opens a file picker (drag & drop supporte
 - 🟨 `[不兼容]` [zoehao2026-dsh-ui-model-selection-collapsible](https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible) ★4 — —
+- 🟨 `[不兼容]` [10086ggqq-dsh-theme-minecraft](https://github.com/10086ggqq/dsh_theme_Minecraft) ★3 — —
 - 🟨 `[不兼容]` [1014029855-dsh-codevault](https://github.com/1014029855/dsh-codevault) ★3 — Records what you understood while reading open-source code — quick notes and deep notes grouped into one card
 - 🟨 `[不兼容]` [21hbguo-dsh-mobile-ui](https://github.com/21hbguo/dsh-mobile-ui) ★3 — DSH Web GUI 手机端 UI 适配插件：窄屏下全屏聊天布局（抽屉化侧栏/面板 + 顶部操作条 + 返回键退栈），桌面宽度零影响
 - 🟨 `[不兼容]` [3361805598-gif-dsh-md-annotator](https://github.com/3361805598-gif/dsh-md-annotator) ★3 — DSH Markdown sidebar viewer and editor with block- and text-range annotations for structured revision requests
@@ -2161,6 +2162,7 @@
 - 🟨 `[不兼容]` [deathcmd-deepseek-harness-desktop](https://github.com/deathcmd/deepseek-harness-desktop) ★1 — Cross-platform desktop distribution for the official DeepSeek Harness, with Windows NSIS and portable builds.〔📦〕
 - 🟨 `[不兼容]` [demo-0416-deepseek-harness-tui](https://github.com/Demo-0416/deepseek-harness-tui) ★1 — —
 - 🟨 `[不兼容]` [difimim-dsh-voice-input-npm](https://github.com/difimim/dsh-voice-input-npm) ★1 — 语音输入插件 for Deepseek Harness
+- 🟨 `[不兼容]` [doebkblcya-dsh-workbench](https://github.com/doebkblcya/dsh-workbench) ★1 — A VS Code-style workbench (Preview + Files/Git panels) plugin for the DSH Web GUI
 - 🟨 `[不兼容]` [dongdong1997-dsh-mcskin](https://github.com/DongDong1997/dsh-mcskin) ★1 — —
 - 🟨 `[不兼容]` [dycode7-deepseek-harness-tui](https://github.com/Dycode7/deepseek-harness-TUI-) ★1 — —
 - 🟨 `[不兼容]` [equinox7379-dsh-skill-search](https://github.com/Equinox7379/dsh-skill-search) ★1 — —
@@ -2295,6 +2297,7 @@
 - `[空仓监测]` **andyzheng0715-dsh-web-ui-model-search** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [anweat-dsh-substrate](https://github.com/anweat/dsh-substrate) ★0 — A conflict-resolution substrate for the DeepSeek Harness plugin ecosystem, with the measurements it is built o
 - 🟨 `[不兼容]` [apodemakeles-dsh-gui](https://github.com/apodemakeles/dsh-gui) ★0 — Desktop shell for dsh (DeepSeek Harness) — an Electron app delivered as a dsh bundle
+- `[未定位]` **arcaneorion-dsh-stage-panel** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [asymptotee-dsh-terminal](https://github.com/asymptotee/dsh-terminal) ★0 — Claude Code-style terminal UI plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [awol2005ex3-dsh-logo-custom](https://github.com/awol2005ex3/dsh-logo-custom) ★0 — DeepSeek Harness 自定义 Logo 插件 — 上传图片替换侧边栏左上角的品牌图标和文字
 - 🟨 `[不兼容]` [bg8lng-dsh-openlist-sync](https://github.com/bg8lng/dsh-openlist-sync) ★0 — DeepSeek Harness 文件同步插件：交付文件自动上传 OpenList + 目录全读写工具 + 设置面板 + 按工作区布局
