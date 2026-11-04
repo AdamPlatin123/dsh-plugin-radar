@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T01:00:53Z",
+ "generated_at": "2026-11-04T01:15:54Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -13429,13 +13429,6 @@
    "desc": "—"
   },
   {
-   "repo": "AlfredChaos/dsh-usage-panel",
-   "name": "alfredchaos-dsh-usage-panel",
-   "verdict": "pending",
-   "stars": 9,
-   "desc": "—"
-  },
-  {
    "repo": "asukasec/dsh-message-preview",
    "name": "asukasec-dsh-message-preview",
    "verdict": "ok",
@@ -18481,13 +18474,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh-quick-replies"
-  },
-  {
-   "repo": "idoall/dsh-update-status",
-   "name": "idoall-dsh-update-status",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Read-only DeepSeek Harness Web version status and release-channel guidance plugin"
   },
   {
    "repo": "iluluyu/dsh-ui-deepdiving",
@@ -25119,6 +25105,13 @@
    "desc": "as is, no warranty 〔PR〕"
   },
   {
+   "repo": "AlfredChaos/dsh-usage-panel",
+   "name": "alfredchaos-dsh-usage-panel",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "—"
+  },
+  {
    "repo": "diguike/book-deepseek-harness",
    "name": "diguike-book-deepseek-harness",
    "verdict": "incompatible",
@@ -26825,6 +26818,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "dsh (DeepSeek Harness) workspace kit: ⌘K Spotlight search, soft workspace archive/restore, per-workspace icons"
+  },
+  {
+   "repo": "idoall/dsh-update-status",
+   "name": "idoall-dsh-update-status",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Read-only DeepSeek Harness Web version status and release-channel guidance plugin"
   },
   {
    "repo": "ising-tech/isingq-toolkit",
@@ -67464,7 +67464,7 @@
   {
    "repo": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
    "name": "meteornox-deepseek-balance-whale-widget",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3784,
    "desc": "—"
   },
