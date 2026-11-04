@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2497）
+# 🔌 Web UI 增强（2498）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1481,6 +1481,7 @@
 - 🟩 `[可用]` [licheng-ma-dsh-wechat-skin](https://github.com/licheng-ma/dsh-wechat-skin) ★0 — 微信风格皮肤 for DeepSeek Harness — WeChat-style light theme for DeepSeek Harness
 - 🟩 `[可用]` [ligaoc-dsh-plugin-dev](https://github.com/ligaoc/dsh-plugin-dev) ★0 — Agent skill: guide LLMs to develop DeepSeek Harness (dsh) plugins and install them via the official bundle mec
 - 🟩 `[可用]` [dsh-note-sidebar](https://github.com/liliuCourier/dsh-note-sidebar) ★0 — ?????:?????????????????,?????????,???????????(DeepSeek Harness ??)
+- 🟩 `[可用]` [linkbag-dsh-capyreporter](https://github.com/linkbag/dsh-capyreporter) ★0 — CapyReporter - always-on-top capybara task reporter for the DeepSeek Harness Web UI
 - 🟩 `[可用]` [linzhuolisoc-dsh-skin-study](https://github.com/linzhuoliSOC/dsh-skin-study) ★0 — —
 - 🟩 `[可用]` [lispking-git-skills](https://github.com/lispking/git-skills) ★0 — A powerful Claude Code Git assistant skill that provides intelligent branch management, commit message convent
 - 🟩 `[可用]` [literaf-dsh-paper-slides](https://github.com/literaf/dsh-paper-slides) ★0 — Paper → academic talk for DeepSeek Harness: reads the real full text, budgets the slot per venue (组会汇报/会议报告/答辩
