@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2510）
+# 🔌 Web UI 增强（2511）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2344,6 +2344,7 @@
 - `[空仓监测]` **ch4acko3-dsh-ui-workspace** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-vscode](https://github.com/chendefine/dsh-sidebar-vscode) ★0 — DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio
+- `[未定位]` **chenneyzhuang-estimate-before-build** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [cherrchen-dsh-client-ui-details-host](https://github.com/cherrchen/dsh-client-ui-details-host) ★0 — 可移植 DSH Client Details 栏基础设施，在 AppFrame 详情列承载活动 surface；DeepSeek Harness Desktop 内置
 - 🟨 `[不兼容]` [cherrchen-dsh-theme-studio](https://github.com/cherrchen/dsh-theme-studio) ★0 — 可移植的 DSH/Cordis 主题插件：内置配色浏览、预览、应用与持久化；DeepSeek Harness Desktop 预装
 - 🟨 `[不兼容]` [cinnamobot-dsh-nothing-skin](https://github.com/Cinnamobot/dsh-nothing-skin) ★0 — —
