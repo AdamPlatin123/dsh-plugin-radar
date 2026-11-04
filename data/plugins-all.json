@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T06:15:41Z",
+ "generated_at": "2026-11-04T06:45:42Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -44887,6 +44887,13 @@
    "desc": "—"
   },
   {
+   "repo": "nsswkj/dsh-typewriter-blip",
+   "name": "nsswkj-dsh-typewriter-blip",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Speech blips while the assistant's answer streams - audible even when the window is in the background; swappab"
+  },
+  {
    "repo": "nzl153/dsh-tool-router",
    "name": "nzl153-dsh-tool-router",
    "verdict": "ok",
@@ -68372,6 +68379,13 @@
    "desc": "—"
   },
   {
+   "repo": "nailiang002-wq/deepseek-girl-harness",
+   "name": "nailiang002-wq-deepseek-girl-harness",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DeepSeek 娘互动挂件：任务表情、铁盆白饭、盆帽与时间问候"
+  },
+  {
    "repo": "penglai-doll/LocalWhale",
    "name": "penglai-doll-localwhale",
    "verdict": "pending",
@@ -79010,6 +79024,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-sidechat companion: push messages straight to the main agent (floating pill + /notify and /to-main command"
+  },
+  {
+   "repo": "renjianbuchai/dsh-session-attention",
+   "name": "renjianbuchai-dsh-session-attention",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Browser-side attention reminders for DeepSeek Harness — desktop notification, tab-title dot and PWA badge when"
   },
   {
    "repo": "scubiry-glitch/dsh-plugin-feishu-chat",
@@ -91813,6 +91834,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH accessibility companion, core remediation, test tooling, assistive-technology evidence, and accessible aut"
+  },
+  {
+   "repo": "orfeomorello/dsh-websearch-stack",
+   "name": "orfeomorello-dsh-websearch-stack",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Keyless-default web search for DeepSeek Harness (dsh): one provider on the ctx.web seam running an ordered fal"
   },
   {
    "repo": "perlied03/dsh-approval-auto-review",
