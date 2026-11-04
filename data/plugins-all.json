@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T06:00:54Z",
+ "generated_at": "2026-11-04T06:15:41Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -22331,6 +22331,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "?????:?????????????????,?????????,???????????(DeepSeek Harness ??)"
+  },
+  {
+   "repo": "linkbag/dsh-capyreporter",
+   "name": "linkbag-dsh-capyreporter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "CapyReporter - always-on-top capybara task reporter for the DeepSeek Harness Web UI"
   },
   {
    "repo": "linzhuoliSOC/dsh-skin-study",
@@ -89237,6 +89244,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "AI-powered PDF reader for DeepSeek Harness with annotations, multi-PDF workflows, mixed image-text evidence, a"
+  },
+  {
+   "repo": "yee114514/dsh-gandi",
+   "name": "yee114514-dsh-gandi",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 DSH 的 agent 在你的Gandi IDE里做 Scratch 项目"
   },
   {
    "repo": "Yiyang0659/dsh-git-sync",
