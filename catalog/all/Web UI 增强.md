@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2524）
+# 🔌 Web UI 增强（2529）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1549,6 +1549,7 @@
 - ⬜ `[待定]` [msnlyy-rgb-dsh-spotify-theme](https://github.com/msnlyy-rgb/dsh-spotify-theme) ★0 — DeepSeek Harness Spotify 风格主题 — 近黑底色、灰阶分层卡片、Spotify 绿 (#1ed760) 点缀的 CSS 主题覆写，含折叠栏加宽与统计卡进度条可选补丁
 - 🟩 `[可用]` [mtdx2001-dsh-think-translate](https://github.com/mtdx2001/dsh-think-translate) ★0 — Display-layer translation for the DeepSeek Harness Web UI: thinking chain, task cards and answers in 8 languag
 - `[空仓监测]` **mykeura-dsh-minimalist-themes** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [n0pe-sled-skill-mcp-manager](https://github.com/n0pe-sled/skill-mcp-manager) ★0 — dsh plugin: manage dsh skills and MCP servers from Settings > Skills & MCP, hot-reloaded without restarting th
 - 🟩 `[可用]` [nailing10086-zx-dsh-custom-ui](https://github.com/nailing10086-zx/dsh-custom-ui) ★0 — Custom UI for DeepSeek Harness Web: right-side file-tree sidebar, workspace file open, balance meter.
 - 🟩 `[可用]` [navid-kianfar-dsh-advanced-sidebar](https://github.com/navid-kianfar/dsh-advanced-sidebar) ★0 — Advanced sidebar operations for the DeepSeek Harness Web Client: git changes, a terminal, a file browser, a de
 - 🟩 `[可用]` [navid-kianfar-dsh-memory](https://github.com/navid-kianfar/dsh-memory) ★0 — Persistent, searchable, per-project memory for the DeepSeek Harness: decisions, rules, and session context in
@@ -2428,7 +2429,11 @@
 - 🟨 `[不兼容]` [miragelyu-dsh-tui](https://github.com/MirageLyu/dsh-tui) ★0 — —
 - 🟨 `[不兼容]` [momojie-s-dsh-right-dock](https://github.com/Momojie-S/dsh-right-dock) ★0 — —
 - 🟨 `[不兼容]` [moolmool114-dsh-client-ui-recipes](https://github.com/Moolmool114/dsh-client-ui-recipes) ★0 — —
+- 🟨 `[不兼容]` [n0pe-sled-herdr-themes](https://github.com/n0pe-sled/herdr-themes) ★0 — dsh plugin: the 18 herdr themes as Settings > Themes with live swatch cards and persistent selection
+- 🟨 `[不兼容]` [n0pe-sled-system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) ★0 — dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with l
+- 🟨 `[不兼容]` [n0pe-sled-web-search-searxng](https://github.com/n0pe-sled/web-search-searxng) ★0 — dsh plugin: SEARXNG-backed web search provider for the dsh web_search tool (host-only, no Settings UI)
 - 🟨 `[不兼容]` [nan1010082085-dsh-chat-sync](https://github.com/nan1010082085/dsh-chat-sync) ★0 — DSH plugin: browse & live-sync local Claude Code / Codex CLI / Cursor Agent conversations inside the dsh web G
+- 🟨 `[不兼容]` [nguyenduclong-ict-dsh-better-uiux](https://github.com/nguyenduclong-ict/dsh-better-uiux) ★0 — Better UIUX for DeepSeek Harness: one Settings section with switches for live terminal output streaming and cu
 - 🟨 `[不兼容]` [nightsvesa-dsh-input-history](https://github.com/NightsVesa/dsh-input-history) ★0 — —
 - 🟨 `[不兼容]` [nkjv2-dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) ★0 — —
 - 🟨 `[不兼容]` [noirbright-dsh-codex-sidebar](https://github.com/NOirBRight/dsh-codex-sidebar) ★0 — —
