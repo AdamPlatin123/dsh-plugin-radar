@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T05:30:55Z",
+ "generated_at": "2026-11-04T05:45:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10720,6 +10720,13 @@
    "desc": "基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端"
   },
   {
+   "repo": "modesthub/dsh-sensenova-vision-aid",
+   "name": "modesthub-dsh-sensenova-vision-aid",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Unofficial DeepSeek Harness vision plugin: when the main model receives an image-recognition request, it spawn"
+  },
+  {
    "repo": "mrme000m/dsh-prime-orchestrator",
    "name": "mrme000m-dsh-prime-orchestrator",
    "verdict": "incompatible",
@@ -19071,6 +19078,13 @@
    "desc": "Local-first role-based collaboration tools for DeepSeek Harness, with an embedded panel and human-confirmed de"
   },
   {
+   "repo": "lwx071001/dsh-mobile-console",
+   "name": "lwx071001-dsh-mobile-console",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Open this DeepSeek Harness (DSH) on a phone: one QR code, a LAN bridge that runs only while it is on, no --hos"
+  },
+  {
    "repo": "lwy521/dsh-remote-mcp-manager",
    "name": "lwy521-dsh-remote-mcp-manager",
    "verdict": "pending",
@@ -24072,6 +24086,13 @@
    "repo": "xjg12345/DeepSeek-Harness-Bocchi-UI",
    "name": "xjg12345-deepseek-harness-bocchi-ui",
    "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "xkxkiscoder/dsh-ui-zzz-sunna",
+   "name": "xkxkiscoder-dsh-ui-zzz-sunna",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -38610,6 +38631,13 @@
   {
    "repo": "Mengshang-spec/dsh-plugin-trustlens",
    "name": "mengshang-spec-dsh-plugin-trustlens",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "meowyuho/dsh-usage-balance",
+   "name": "meowyuho-dsh-usage-balance",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
