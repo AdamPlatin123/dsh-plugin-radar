@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T16:15:44Z",
+ "generated_at": "2026-11-04T16:30:54Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -25222,6 +25222,13 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "deepseek harness plugin obsidian memory"
+  },
+  {
+   "repo": "ouli-1242/dsh-plugin-tool-management",
+   "name": "ouli-1242-dsh-plugin-tool-management",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切"
   },
   {
    "repo": "baobaolaodie/dsh-tui-vscode",
