@@ -41,7 +41,7 @@
 - 🟩 `[可用]` [phant0meow-dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) ★134 — —
 - 🟩 `[可用]` [skillnerds-xskill](https://github.com/SkillNerds/xskill) ★127 — —
 - 🟩 `[可用]` [fangqian616-consensus-pipeline](https://github.com/fangqian616/consensus-pipeline) ★126 — Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic
-- 🟩 `[可用]` [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) ★121 — Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness — the model decides wh
+- ⬜ `[待定]` [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) ★121 — Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness — the model decides wh
 - 🟩 `[可用]` [hanshenmesen-dsh-turn-delete](https://github.com/hanshenmesen/dsh-turn-delete) ★108 — Delete one complete turn from a DeepSeek Harness session without deleting the session
 - `[空仓监测]` **diqierjia-stratagate-agentmemory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [baihejiangnan-deepseek-harness-desktop](https://github.com/baihejiangnan/deepseek-harness-desktop) ★100 — DeepSeek Harness 三端兼容桌面启动器：多实例完全隔离、并行协作，协作画布编排 Agent 工作流；便携版 Exe 一键启动、仅约 20M；双隔离机制让兼容性极强
@@ -389,7 +389,7 @@
 - 🟩 `[可用]` [menotbobbybrown-dsh-plugin-mcp](https://github.com/menotbobbybrown/dsh-plugin-mcp) ★2 — Universal Model Context Protocol (MCP) Bridge Plugin for DeepSeek Harness (dsh) — Everything is a Plugin
 - ⬜ `[待定]` [merlinshieh-agentmemhub](https://github.com/MerlinShieh/AgentMemHub) ★2 — —
 - 🟩 `[可用]` [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) ★2 — DeepSeek Harness (DSH) host plugin wrapping the Playwright CLI: install browsers, run tests, open the HTML rep
-- ⬜ `[待定]` [dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) ★2 — —
+- 🟩 `[可用]` [dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) ★2 — —
 - ⬜ `[待定]` [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) ★2 — DSH plugin: edit user and built-in system-prompt sections with live preview (Prompt Studio) 〔PR〕
 - ⬜ `[待定]` [dsh-subagent-model](https://github.com/Momojie-S/dsh-subagent-model) ★2 — DSH plugin: subagent_model tool — delegate to a subagent with a per-call selected model route (minimal fork of
 - 🟩 `[可用]` [muretai-muretai-dsh-skill](https://github.com/muretai/muretai-dsh-skill) ★2 — Join the Muretai agent network from DeepSeek Harness (dsh) — one-step install, MCP wiring, inbound-mail wake
@@ -419,7 +419,7 @@
 - 🟩 `[可用]` [the-thinker0-dsh-memory-search-plus](https://github.com/the-thinker0/dsh-memory-search-plus) ★2 — A local-first full-text memory search plugin for DeepSeek Harness, enabling fast cross-conversation search, me
 - ⬜ `[待定]` [treasure-hub-agent-dsh-story](https://github.com/Treasure-hub-agent/dsh-story) ★2 — —
 - ⬜ `[待定]` [truehooha-dsh-plugin-dev-skill](https://github.com/TrueHOOHA/dsh-plugin-dev-skill) ★2 — —
-- 🟩 `[可用]` [dsh-wecom](https://github.com/TtTRz/dsh-wecom) ★2 — WeCom AI Bot channel for DeepSeek Harness — every chat runs a persistent, preset-backed agent with real tools.
+- ⬜ `[待定]` [dsh-wecom](https://github.com/TtTRz/dsh-wecom) ★2 — WeCom AI Bot channel for DeepSeek Harness — every chat runs a persistent, preset-backed agent with real tools.
 - 🟩 `[可用]` [tuanmaoovo-dsh-memory-manager](https://github.com/tuanmaoOVO/dsh-memory-manager) ★2 — —
 - ⬜ `[待定]` [vibe-any-awesome-skills](https://github.com/vibe-any/awesome-skills) ★2 — awesome skills for any agent
 - `[空仓监测]` **wasd258-jpg-dsh-prompt-inject** — GitHub 无此仓库，判定暂不展示
@@ -628,7 +628,7 @@
 - 🟩 `[可用]` [nataliwhite20534-droid-dsh-4-role-workflow](https://github.com/nataliwhite20534-droid/dsh-4-role-workflow) ★1 — 4-agent workflow (PM + Browser + Programmer + DataEng) for complex DSH tasks
 - 🟩 `[可用]` [nbfys-dsh-web-attention-badge-enhanced](https://github.com/nbfys/dsh-web-attention-badge-enhanced) ★1 — DSH Web attention badge (fork): \[Waiting\]/\[Done\] tab title, current-session done tracking, acknowledged remind
 - 🟩 `[可用]` [nexusagentx-dsh-lens](https://github.com/NexusAgentX/dsh-lens) ★1 — —
-- 🟩 `[可用]` [dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) ★1 — MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into context.
+- ⬜ `[待定]` [dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) ★1 — MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into context.
 - 🟩 `[可用]` [nexusagentx-dsh-web-access](https://github.com/NexusAgentX/dsh-web-access) ★1 — —
 - 🟩 `[可用]` [nexusclawhq-nexusclaw-agent-governance](https://github.com/NexusClawHQ/nexusclaw-agent-governance) ★1 — —〔📦〕
 - 🟩 `[可用]` [dsh-plugin-skill-tree](https://github.com/nfz/dsh-plugin-skill-tree) ★1 — —
