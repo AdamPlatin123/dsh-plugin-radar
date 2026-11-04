@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T14:45:57Z",
+ "generated_at": "2026-11-04T15:00:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -13147,6 +13147,13 @@
    "verdict": "ok",
    "stars": 19,
    "desc": "为deepseek harness做了一个tui界面，方便开发者直接在终端使用"
+  },
+  {
+   "repo": "huangziyuan-general/dsh-novel-forge",
+   "name": "huangziyuan-general-dsh-novel-forge",
+   "verdict": "ok",
+   "stars": 19,
+   "desc": "AI 写长篇的四个死法：设定崩、看不见前文、水文超字数、满屏 AI 味——这个插件全用代码堵死"
   },
   {
    "repo": "KinGao294/dsh-skin",
@@ -75720,6 +75727,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "DSH 文档阅读模式"
+  },
+  {
+   "repo": "cherrchen/dsh-plugin-multi-root-workspace",
+   "name": "cherrchen-dsh-plugin-multi-root-workspace",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "多文件夹 workspace：让 DSH（DeepSeek Harness）的 Agent 不只能读写主目录，还能同时读写你添加的其他文件夹"
   },
   {
    "repo": "jorinyang/dsh-doctor",
