@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T06:45:42Z",
+ "generated_at": "2026-11-04T07:00:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6378,6 +6378,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "lishuo4096/dsh-enet-review",
+   "name": "lishuo4096-dsh-enet-review",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "嘉立创 EDA .enet 网表原理图校对 —— DeepSeek Harness 插件（9 个 enet_* 工具 + 2 个技能）"
   },
   {
    "repo": "litefuse/dsh-litefuse-plugin",
@@ -20870,6 +20877,13 @@
    "desc": "Give your DeepSeek Harness agent a paintbrush"
   },
   {
+   "repo": "ant404/dsh-session-delete-ui",
+   "name": "ant404-dsh-session-delete-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a"
+  },
+  {
    "repo": "aqiane/dsh-client-ui-period-hint",
    "name": "aqiane-dsh-client-ui-period-hint",
    "verdict": "pending",
@@ -27805,6 +27819,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "alfredhuang211/dsh-ssh-hosts",
+   "name": "alfredhuang211-dsh-ssh-hosts",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：把多台 SSH 服务器存成主机清单，agent 在会话里按主机名引用（命令执行 + 远端文件读写）；设置界面管理，支持密钥/密码登录，会话窗口「+」菜单可选主机"
   },
   {
    "repo": "alison-xx/deepseek-harness-flow",
@@ -44206,6 +44227,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "ljxdsg12/dsh-liuyao",
+   "name": "ljxdsg12-dsh-liuyao",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "六爻"
   },
   {
    "repo": "loongWoong/dsh-plugins",
@@ -92765,6 +92793,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Real-time DeepSeek token usage and cost meter for DSH: status-bar capsule plus detail panel, local-only persis"
+  },
+  {
+   "repo": "lion231226/dsh-freellmapi",
+   "name": "lion231226-dsh-freellmapi",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "FreeLLMAPI (Auto) provider route for DeepSeek Harness: pick the auto model and a local FreeLLMAPI gateway choo"
   },
   {
    "repo": "lovstudio/dsh-plugin-marketplace",
