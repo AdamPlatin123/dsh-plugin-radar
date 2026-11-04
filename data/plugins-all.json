@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T08:45:46Z",
+ "generated_at": "2026-11-04T10:15:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10900,6 +10900,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "AI turns repeated dev commands, prompts, and habits into one-click DeepSeek Harness actions."
+  },
+  {
+   "repo": "snhna-a/dsh-reactor",
+   "name": "snhna-a-dsh-reactor",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Event-Condition-Action (ECA) automation plugin for DeepSeek Harness: turns your agent into a proactive watchdo"
   },
   {
    "repo": "songyang0603/dsh-open-deep-research",
