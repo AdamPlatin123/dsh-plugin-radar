@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T16:30:54Z",
+ "generated_at": "2026-11-04T17:45:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -23906,6 +23906,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wings1848/dsh-rtk",
+   "name": "wings1848-dsh-rtk",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "RTK command rewriting and tool-output compaction for the DeepSeek Harness: rewrites bash commands to their rtk"
   },
   {
    "repo": "wjinxuan/dsh-ai-ui-studio",
