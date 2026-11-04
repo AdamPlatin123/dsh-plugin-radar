@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T21:15:42Z",
+ "generated_at": "2026-11-04T21:30:43Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -14472,6 +14472,13 @@
    "desc": "Environment housekeeper for DeepSeek Harness: toolchain inventory, safe cache cleanup, and machine rules edito"
   },
   {
+   "repo": "hoyyang/dsh-improve-prompt",
+   "name": "hoyyang-dsh-improve-prompt",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "输入框一键增强提示词：直接替换 + 一键撤回，带保真闸（硬事实零丢失）与长度闸（防膨胀）"
+  },
+  {
    "repo": "jasondu/dsh-ui-mobile",
    "name": "jasondu-dsh-ui-mobile",
    "verdict": "ok",
@@ -21897,6 +21904,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh 输入框的提示词导航插件，支持上下键查看历史输入"
+  },
+  {
+   "repo": "hoyin-law/dsh-notify-plus",
+   "name": "hoyin-law-dsh-notify-plus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Context-rich native notifications for DSH Desktop: the toast title is the live conversation title, and the bod"
   },
   {
    "repo": "huangDouP/dsh-client-ui-notifications",
@@ -43100,6 +43114,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Give DeepSeek Harness eyes: one-click install the dsh-plugin-deepeye vision plugin with the free Zhipu GLM-4V-"
+  },
+  {
+   "repo": "guannan1031/yanxu-dsh-plugin",
+   "name": "guannan1031-yanxu-dsh-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "guobinmengxiang-rgb/dsh-xhs-note",
@@ -83114,6 +83135,13 @@
    "desc": "—"
   },
   {
+   "repo": "hatsuyuki0103/dsh-fight-scene-director",
+   "name": "hatsuyuki0103-dsh-fight-scene-director",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DeepSeek Harness ??:? Codex ?? fight-scene-director(??? AI ????????????)??? DSH ????,???? Seedance 2.0 / 2.5?M"
+  },
+  {
    "repo": "hawk2048/dsh-openwolf",
    "name": "hawk2048-dsh-openwolf",
    "verdict": "ok",
@@ -92835,6 +92863,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Report render intent for DeepSeek Harness: render interactive HTML report cards directly inside the conversati〔📦〕"
+  },
+  {
+   "repo": "he-yufeng/dsh-tool-radar",
+   "name": "he-yufeng-dsh-tool-radar",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Repo health radar for DeepSeek Harness: score a GitHub repo's contribution-friendliness from live evidence"
+  },
+  {
+   "repo": "he-yufeng/dsh-tool-reading-map",
+   "name": "he-yufeng-dsh-tool-reading-map",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Repo reading-map tool for DeepSeek Harness: a structured, priority-ranked map of any codebase before the agent"
   },
   {
    "repo": "helibeiqi/dsh-csp-runtime",
