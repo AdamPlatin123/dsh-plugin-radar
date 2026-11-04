@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T01:30:42Z",
+ "generated_at": "2026-11-04T01:45:55Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -596,13 +596,6 @@
    "verdict": "ok",
    "stars": 15,
    "desc": "为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档，危险或不确定操作仍转人工审批"
-  },
-  {
-   "repo": "Y1X1n/dsh-prompt-optimizer",
-   "name": "y1x1n-dsh-prompt-optimizer",
-   "verdict": "pending",
-   "stars": 15,
-   "desc": "—"
   },
   {
    "repo": "ddtcorex/govard",
@@ -3029,7 +3022,7 @@
   {
    "repo": "YEYEYEYESHIFU/dsh-session-hotkeys",
    "name": "yeyeyeyeshifu-dsh-session-hotkeys",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -3536,13 +3529,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness & AI agent skill: h3-prompt-writing MiniMax H3 视频生成提示词（T2VA/I2VA/FL2VA/L2VA/Ref2VA）"
-  },
-  {
-   "repo": "DahliaVoid/dsh-temp-session",
-   "name": "dahliavoid-dsh-temp-session",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "DAIZHISEN/dsh-prompt-enhance",
@@ -9061,6 +9047,13 @@
    "desc": "DSH manager for user Skills already on disk in Agent home and DSH home"
   },
   {
+   "repo": "Y1X1n/dsh-prompt-optimizer",
+   "name": "y1x1n-dsh-prompt-optimizer",
+   "verdict": "incompatible",
+   "stars": 15,
+   "desc": "—"
+  },
+  {
    "repo": "ayuanwong/dsh-ux",
    "name": "dsh-ux",
    "verdict": "incompatible",
@@ -10375,6 +10368,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Commitment write-gate for AI coding agents: two-tier pre-execution policy (deterministic guard + LLM judge) wi"
+  },
+  {
+   "repo": "DahliaVoid/dsh-temp-session",
+   "name": "dahliavoid-dsh-temp-session",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "dat-lequoc/dsh-supervisor",
@@ -31685,13 +31685,6 @@
    "desc": "—"
   },
   {
-   "repo": "Johnny-xuan/dsh-paste-to-path",
-   "name": "johnny-xuan-dsh-paste-to-path",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "—"
-  },
-  {
    "repo": "KannaKuron/dsh-ptc-cordis-preset",
    "name": "kannakuron-dsh-ptc-cordis-preset",
    "verdict": "pending",
@@ -32317,7 +32310,7 @@
   {
    "repo": "RangeKing/vibemeter",
    "name": "rangeking-vibemeter",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 4,
    "desc": "—"
   },
@@ -42223,13 +42216,6 @@
    "repo": "e2333-hsjdjh/DeepWorker",
    "name": "e2333-hsjdjh-deepworker",
    "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "EasyTZ/dsh-reveal-explorer",
-   "name": "easytz-dsh-reveal-explorer",
-   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -54589,6 +54575,13 @@
    "desc": "—"
   },
   {
+   "repo": "Johnny-xuan/dsh-paste-to-path",
+   "name": "johnny-xuan-dsh-paste-to-path",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
+  },
+  {
    "repo": "kevinforge/orbit",
    "name": "kevinforge-orbit",
    "verdict": "incompatible",
@@ -58259,6 +58252,13 @@
   {
    "repo": "DreamsTOF/dsh-shadow-rewind",
    "name": "dreamstof-dsh-shadow-rewind",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "EasyTZ/dsh-reveal-explorer",
+   "name": "easytz-dsh-reveal-explorer",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -76331,13 +76331,6 @@
    "desc": "DSH (DeepSeek Harness) 的 QQ2006 皮肤插件：注册 qq2006 主题、镜像 body\\[data-ds-skin\\]、全局皮肤表与完整素材"
   },
   {
-   "repo": "PGZXB/dsh-feishu",
-   "name": "pgzxb-dsh-feishu",
-   "verdict": "pending",
-   "stars": 29,
-   "desc": "—"
-  },
-  {
    "repo": "dingyi222666/dsh-session-notification",
    "name": "dsh-session-notification",
    "verdict": "ok",
@@ -79033,6 +79026,13 @@
    "desc": "消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent"
   },
   {
+   "repo": "PGZXB/dsh-feishu",
+   "name": "pgzxb-dsh-feishu",
+   "verdict": "incompatible",
+   "stars": 29,
+   "desc": "—"
+  },
+  {
    "repo": "sugarforever/dsh-lark",
    "name": "sugarforever-dsh-lark",
    "verdict": "incompatible",
@@ -80279,13 +80279,6 @@
    "desc": "A decorative whale-diving activity icon for the DeepSeek Harness Web chat flow:"
   },
   {
-   "repo": "tt-a1i/archify",
-   "name": "tt-a1i-archify",
-   "verdict": "pending",
-   "stars": 75763,
-   "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram"
-  },
-  {
    "repo": "reactive-resume/reactive-resume",
    "name": "reactive-resume",
    "verdict": "ok",
@@ -80396,13 +80389,6 @@
    "verdict": "ok",
    "stars": 443,
    "desc": "AnySearch web search provider and advanced search tools for DeepSeek Harness (DSH)"
-  },
-  {
-   "repo": "V1ki/dsh-plugin-subscriptions",
-   "name": "dsh-plugin-subscriptions",
-   "verdict": "pending",
-   "stars": 415,
-   "desc": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth logi"
   },
   {
    "repo": "bruc3van/awesome-dsh-plugin",
@@ -80592,13 +80578,6 @@
    "verdict": "pending",
    "stars": 73,
    "desc": "Enhanced, persistent web search plugin for DeepSeek Harness (multi-engine search, SQLite+LRU cache, platform b"
-  },
-  {
-   "repo": "chiphoton/DeepSeek-Harness-Video-Director",
-   "name": "chiphoton-deepseek-harness-video-director",
-   "verdict": "pending",
-   "stars": 73,
-   "desc": "—"
   },
   {
    "repo": "kuangre123/codex-switch",
@@ -84458,13 +84437,6 @@
    "desc": "—"
   },
   {
-   "repo": "EasyTZ/dsh-git",
-   "name": "easytz-dsh-git",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "Elaina-real/dsh-tiered-approval",
    "name": "dsh-tiered-approval",
    "verdict": "ok",
@@ -86638,13 +86610,6 @@
    "repo": "easysir10/easy-git",
    "name": "easysir10-easy-git",
    "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "EasyTZ/dsh-terminal-panel",
-   "name": "easytz-dsh-terminal-panel",
-   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -89211,6 +89176,13 @@
    "desc": "The 1st Collaborative AI Design Agent Workspace"
   },
   {
+   "repo": "tt-a1i/archify",
+   "name": "tt-a1i-archify",
+   "verdict": "incompatible",
+   "stars": 75763,
+   "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram"
+  },
+  {
    "repo": "anbeime/skill",
    "name": "anbeime-skill",
    "verdict": "incompatible",
@@ -89265,6 +89237,13 @@
    "verdict": "incompatible",
    "stars": 514,
    "desc": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their path"
+  },
+  {
+   "repo": "V1ki/dsh-plugin-subscriptions",
+   "name": "dsh-plugin-subscriptions",
+   "verdict": "incompatible",
+   "stars": 415,
+   "desc": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth logi"
   },
   {
    "repo": "sopaco/terrain",
@@ -89362,6 +89341,13 @@
    "name": "wm-coder-custom-first-control-prompt",
    "verdict": "incompatible",
    "stars": 75,
+   "desc": "—"
+  },
+  {
+   "repo": "chiphoton/DeepSeek-Harness-Video-Director",
+   "name": "chiphoton-deepseek-harness-video-director",
+   "verdict": "incompatible",
+   "stars": 73,
    "desc": "—"
   },
   {
@@ -91073,6 +91059,13 @@
    "desc": "DSH plugin: auto-tiles oversized chat images into labelled grid tiles for DeepSeek v4Flash vision, with Python"
   },
   {
+   "repo": "EasyTZ/dsh-git",
+   "name": "easytz-dsh-git",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "elonmaskhair-prog/dsh-plugin-diepi",
    "name": "elonmaskhair-prog-dsh-plugin-diepi",
    "verdict": "incompatible",
@@ -91796,6 +91789,13 @@
   {
    "repo": "DevViking-Persike/dsh-git-graph",
    "name": "devviking-persike-dsh-git-graph",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "EasyTZ/dsh-terminal-panel",
+   "name": "easytz-dsh-terminal-panel",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
