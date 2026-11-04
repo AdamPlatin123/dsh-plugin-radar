@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T02:45:48Z",
+ "generated_at": "2026-11-04T03:00:47Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -19036,13 +19036,6 @@
    "desc": "—"
   },
   {
-   "repo": "mojiexuan/dsh-git",
-   "name": "mojiexuan-dsh-git",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "A VS Code-style Git source control panel plugin for DeepSeek Harness.为 DeepSeek Harness 开发的一个类似 VS Code 的 Git"
-  },
-  {
    "repo": "monotykamary/dsh-multiprovider",
    "name": "monotykamary-dsh-multiprovider",
    "verdict": "ok",
@@ -27049,6 +27042,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "mojiexuan/dsh-git",
+   "name": "mojiexuan-dsh-git",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "A VS Code-style Git source control panel plugin for DeepSeek Harness.为 DeepSeek Harness 开发的一个类似 VS Code 的 Git"
   },
   {
    "repo": "motongv/dsh-voice",
@@ -35094,13 +35094,6 @@
    "desc": "—"
   },
   {
-   "repo": "SummerSec/dsh-web-auth",
-   "name": "summersec-dsh-web-auth",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
    "repo": "swaylq/dsh-wildmon",
    "name": "swaylq-dsh-wildmon",
    "verdict": "ok",
@@ -41483,6 +41476,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "changguo1998/dsh-toolset",
+   "name": "changguo1998-dsh-toolset",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "My self-used deepseek harness plugins"
   },
   {
    "repo": "ChaoYuZhang001/dsh-auto-router",
@@ -55921,6 +55921,13 @@
   {
    "repo": "Stu-KatoMegumi/dsh-weixin",
    "name": "stu-katomegumi-dsh-weixin",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "SummerSec/dsh-web-auth",
+   "name": "summersec-dsh-web-auth",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -72614,13 +72621,6 @@
    "desc": "Repair DeepSeek Harness sessions that refuse to load"
   },
   {
-   "repo": "ChuShiZ/dsh-archive-manager",
-   "name": "chushiz-dsh-archive-manager",
-   "verdict": "pending",
-   "stars": 9,
-   "desc": "—"
-  },
-  {
    "repo": "GoalfyAI/goalfydata",
    "name": "goalfyai-goalfydata",
    "verdict": "pending",
@@ -73732,13 +73732,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "tbxy09/dsh-replay-lab",
-   "name": "tbxy09-dsh-replay-lab",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Controlled request-surface replay and regression workbench for DeepSeek Harness"
   },
   {
    "repo": "tonycc/dsh-work",
@@ -75204,6 +75197,13 @@
    "desc": "—"
   },
   {
+   "repo": "ChuShiZ/dsh-archive-manager",
+   "name": "chushiz-dsh-archive-manager",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "—"
+  },
+  {
    "repo": "1070296335-create/dph-taskboard",
    "name": "1070296335-create-dph-taskboard",
    "verdict": "incompatible",
@@ -75776,6 +75776,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Safe third-party web fetch for DSH — delegates page crawling to user-configured services with no direct URL ac"
+  },
+  {
+   "repo": "tbxy09/dsh-replay-lab",
+   "name": "tbxy09-dsh-replay-lab",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Controlled request-surface replay and regression workbench for DeepSeek Harness"
   },
   {
    "repo": "tempuspatia/dsh-archive-manager",
@@ -78291,13 +78298,6 @@
    "desc": "—"
   },
   {
-   "repo": "Gum97/dsh-telegram",
-   "name": "gum97-dsh-telegram",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "having5548/dsh-notify",
    "name": "having5548-dsh-notify",
    "verdict": "ok",
@@ -79948,6 +79948,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Telegram bot channel plugin for DeepSeek Harness — one DSH agent session per chat, zero npm dependencies"
+  },
+  {
+   "repo": "Gum97/dsh-telegram",
+   "name": "gum97-dsh-telegram",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "Huauauaa/dsh-chatbi",
@@ -82279,6 +82286,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeekharness agent预设模式文档生成助手"
+  },
+  {
+   "repo": "chrislee121/wenmai",
+   "name": "chrislee121-wenmai",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "文脉 Wenmai — 文字工作者的编译型知识库，DeepSeek Harness 插件"
   },
   {
    "repo": "CJYLZS/dsh-opencode-go-autosync",
@@ -87554,7 +87568,7 @@
   {
    "repo": "MkaliezZ/dsh-test-normalizer",
    "name": "mkaliezz-dsh-test-normalizer",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -89419,6 +89433,13 @@
    "verdict": "incompatible",
    "stars": 20,
    "desc": "Terminal-native frontend for DeepSeek Harness with real scrollback; a direct, in-process consumer of Harness c"
+  },
+  {
+   "repo": "pawaca/dsh-edge",
+   "name": "pawaca-dsh-edge",
+   "verdict": "incompatible",
+   "stars": 19,
+   "desc": "Your DeepSeek Harness, anywhere — deploy a persistent personal coding agent to Cloudflare Workers in one comma"
   },
   {
    "repo": "xlight/deepseek-visionary",
