@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T22:00:46Z",
+ "generated_at": "2026-11-04T22:15:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -80853,6 +80853,13 @@
    "desc": "Long-lived AI companions with WeChat channel routing for DeepSeek Harness"
   },
   {
+   "repo": "loklamlok/dsh-queue-director",
+   "name": "loklamlok-dsh-queue-director",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH web plugin: reorder queued messages (up / down / top / bottom) before the agent processes them."
+  },
+  {
    "repo": "messageer/dsh-notif-plugin",
    "name": "messageer-dsh-notif-plugin",
    "verdict": "incompatible",
@@ -85977,6 +85984,13 @@
    "desc": "—"
   },
   {
+   "repo": "meimiaoji-creator/meow-file-view",
+   "name": "meimiaoji-creator-meow-file-view",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "meow-file-view 解决「AI 改完文件，我却要切到 VS Code 才能看它到底改了什么」的问题"
+  },
+  {
    "repo": "MichengAI/dsh-codex-desktop-website",
    "name": "michengai-dsh-codex-desktop-website",
    "verdict": "ok",
@@ -88530,6 +88544,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "moonbowterfly/dsh-bio-graft",
+   "name": "moonbowterfly-dsh-bio-graft",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "基因编辑设计域插件（dsh-bio-genie 生态）：sgRNA 候选/评分向量/切割位点 + 声明式排名 + Cas-OFFinder 脱靶语义层 + 碱基编辑（CBE/ABE）+ EditPlan 可审计账本 \\|"
   },
   {
    "repo": "morlay/dsh-llm-openai-compatible",
