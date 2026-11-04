@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1874）
+# 🤖 Agent 能力（1877）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -18,6 +18,7 @@
 - ⬜ `[待定]` [pulseaiclub-phi](https://github.com/pulseaiclub/phi) ★524 — a coding agent, rpc plugin, sub-agents, hashline edits, and mcp
 - 🟩 `[可用]` [chenxiachan-thoughtdag](https://github.com/chenxiachan/thoughtdag) ★516 — Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph
 - 🟩 `[可用]` [pax-beehive-dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) ★456 — Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub
+- 🟩 `[可用]` [aerovato-operator-memory](https://github.com/aerovato/operator-memory) ★441 — The self-improving context engine for coding agents.
 - ⬜ `[待定]` [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) ★439 — Composable, view-based memory for DeepSeek Harness
 - 🟩 `[可用]` [morluto-rea](https://github.com/morluto/rea) ★421 — Reverse engineer anything with agents, from app behavior down to native binaries.
 - ⬜ `[待定]` [ilyautov-humanizer-ru](https://github.com/ilyautov/humanizer-ru) ★405 — humanizer-ru: редактура русского текста для AI-агентов
@@ -131,6 +132,7 @@
 - 🟩 `[可用]` [falling-ts-dsh-force-compact](https://github.com/falling-ts/dsh-force-compact) ★9 — Aggressive context compaction for local-first agents
 - 🟩 `[可用]` [dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) ★9 — 向模型暴露 sleep 工具，按指定毫秒暂停执行后返回，支持取消/clamp \| Exposes a sleep tool that pauses for specified ms then returns, with
 - 🟩 `[可用]` [yoza10635-dsh-argp](https://github.com/yoza10635/dsh-argp) ★9 — Guarded context compaction for DeepSeek Harness (dsh): the LLM proposes, deterministic guards dispose — eager
+- 🟩 `[可用]` [aa2246740-dsh-notch](https://github.com/aa2246740/dsh-notch) ★8 — Native macOS Notch for DSH sessions, inline answers and animated task status
 - 🟩 `[可用]` [cookiesheep-whale-on-desk](https://github.com/cookiesheep/whale-on-desk) ★8 — A pixel-art whale companion for DeepSeek Harness — it swims while your agents work and taps the glass when an
 - 🟩 `[可用]` [crayonnan-dsh-math-modeling-skills-gatecraft](https://github.com/Crayonnan/dsh-math-modeling-skills-Gatecraft-) ★8 — —
 - 🟩 `[可用]` [culeot-dsh-agent-memory](https://github.com/Culeot/dsh-agent-memory) ★8 — —
@@ -1854,6 +1856,7 @@
 - 🟨 `[不兼容]` [yicijiuhaobala-dsh-session-delete](https://github.com/Yicijiuhaobala/dsh-session-delete) ★0 — —
 - `[空仓监测]` **ytmaps-dsh-subagent-flowtext** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —
+- 🟨 `[不兼容]` [yuluo554-dsh-prompt-polisher](https://github.com/yuluo554/dsh-prompt-polisher) ★0 — Composer prompt-polisher button plugin for DeepSeek Harness (dsh): one-click draft rewrite, style presets, dua
 - 🟨 `[不兼容]` [yummy4727-dsh-context-branch](https://github.com/yummy4727/dsh-context-branch) ★0 — Context-branching conversation tree plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [yuzh1090-dsh-voice-prompt-compressor](https://github.com/yuzh1090/dsh-voice-prompt-compressor) ★0 — DSH plugin: compress verbose voice-dictation text into token-efficient prompts — fully local, zero LLM tokens.
 - 🟨 `[不兼容]` [zachshi-ai-newmind](https://github.com/zachshi-ai/newmind) ★0 — 老思想 × 新智能 实验室：每门经典思想精确解决一个 AI 真实问题
