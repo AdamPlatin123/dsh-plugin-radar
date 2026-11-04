@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T04:45:44Z",
+ "generated_at": "2026-11-04T05:00:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3529,6 +3529,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "cyh3436332528/dsh-plugin-session-purge",
+   "name": "cyh3436332528-dsh-plugin-session-purge",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH 会话管理插件：永久删除会话，连同它的日志、投影缓存、工作区记账与子会话（子代理）一起清掉"
   },
   {
    "repo": "daha1216/dsh-skill-h3-prompt-writing",
@@ -28010,6 +28017,13 @@
    "desc": "DeepSeek Harness（DSH）的只读技能清单插件，在 Web GUI 中展示全局技能和当前会话可见的技能，并从会话日志推导技能加载状态"
   },
   {
+   "repo": "jdz321/dsh-plugin-relay",
+   "name": "jdz321-dsh-plugin-relay",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness (dsh) plugin that routes model traffic through any new-api-family relay panel (one-api / new-"
+  },
+  {
    "repo": "JimLuan/dsh-tui-plugin",
    "name": "jimluan-dsh-tui-plugin",
    "verdict": "incompatible",
@@ -37717,6 +37731,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jcjyids/dsh-web-advanced-settings",
+   "name": "jcjyids-dsh-web-advanced-settings",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "完全由DeepSeek大模型生成"
   },
   {
    "repo": "JD962/dsh-model-reasoning-intensity",
@@ -91554,6 +91575,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jingzhao-l/iterate-skill",
+   "name": "jingzhao-l-iterate-skill",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Turn any AI coding assistant into a self-checking senior engineer: multi-round, multi-dimension code review →"
   },
   {
    "repo": "JohnXu22786/net-debug",

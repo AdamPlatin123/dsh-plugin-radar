@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2492）
+# 🔌 Web UI 增强（2494）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1593,6 +1593,7 @@
 - 🟩 `[可用]` [retmon2333-dsh-background](https://github.com/retmon2333/dsh-background) ★0 — DeepSeek Harness（DSH）背景壁纸更换（单图 / 文件夹轮播）模式，可调透明、模糊、遮罩与樱花／雪花特效，侧栏与输入框也能透出壁纸
 - ⬜ `[待定]` [reyesyang-dsh-plugin-file-drop](https://github.com/reyesyang/dsh-plugin-file-drop) ★0 — DSH 文件拖拽上传插件：把本地文件拖到对话框，保存到系统临时目录 dsh-file-drop/ 并写入输入框（支持 Linux/macOS/Windows）
 - 🟩 `[可用]` [ricardolicong-dsh-deepseek-quota](https://github.com/ricardolicong/dsh-deepseek-quota) ★0 — DeepSeek API quota (balance) widget for the dsh web GUI: a floating wallet card showing balance, today’s consu
+- `[未定位]` **rindbeans-codex-ui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [ringoage-dsh-subagent-model-picker](https://github.com/ringoage/dsh-subagent-model-picker) ★0 — The visual, manual subagent-model picker for DeepSeek Harness — predictable per-session routing with global co
 - ⬜ `[待定]` [rockeymen-dsh-plugins](https://github.com/rockeymen/dsh-plugins) ★0 — Bilingual directory of 600+ DeepSeek Harness plugins, Agent Skills, MCP tools, model adapters and themes, rank
 - 🟩 `[可用]` [rocklau-dsh-ui-digest](https://github.com/rocklau/dsh-ui-digest) ★0 — Turn-digest overview tab for the DeepSeek Harness (dsh) Web UI: what you asked, a one-sentence summary of what
@@ -2361,6 +2362,7 @@
 - 🟨 `[不兼容]` [jaikensai888-dsh-skillui](https://github.com/jaikensai888/dsh-skillui) ★0 — —
 - 🟨 `[不兼容]` [dsh-plugin-file-manager](https://github.com/jasper-zsh/dsh-plugin-file-manager) ★0 — 面向 DeepSeek Harness（DSH） Web 界面的会话文件管理器插件
 - 🟨 `[不兼容]` [dsh-plugin-skill-panel](https://github.com/jasper-zsh/dsh-plugin-skill-panel) ★0 — DeepSeek Harness（DSH）的只读技能清单插件，在 Web GUI 中展示全局技能和当前会话可见的技能，并从会话日志推导技能加载状态
+- 🟨 `[不兼容]` [jdz321-dsh-plugin-relay](https://github.com/jdz321/dsh-plugin-relay) ★0 — DeepSeek Harness (dsh) plugin that routes model traffic through any new-api-family relay panel (one-api / new-
 - 🟨 `[不兼容]` [jimluan-dsh-tui-plugin](https://github.com/JimLuan/dsh-tui-plugin) ★0 — —
 - 🟨 `[不兼容]` [jo32-dsh-strudel-studio](https://github.com/jo32/dsh-strudel-studio) ★0 — A professional song-level Strudel visual sequencer with structured AI arrangement for DeepDeck.
 - 🟨 `[不兼容]` [johndoe0827-deepseek-harness-tui](https://github.com/JohnDoe0827/deepseek-harness-tui) ★0 — —〔📦〕
