@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T11:45:47Z",
+ "generated_at": "2026-11-04T13:30:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -87090,6 +87090,13 @@
    "desc": "Deployment-scoped model-visible DSH tool surface conformance evidence"
   },
   {
+   "repo": "dsh-plugins/dsh-file-drop-attachments",
+   "name": "dsh-plugins-dsh-file-drop-attachments",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web plugin: native image previews plus persistent non-image file-drop attachment cards"
+  },
+  {
    "repo": "dsh-plugins/dsh-plugin-market",
    "name": "dsh-plugins-dsh-plugin-market",
    "verdict": "pending",
@@ -93502,13 +93509,6 @@
    "desc": "—"
   },
   {
-   "repo": "dreamor/MemVault",
-   "name": "dreamor-memvault",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
    "repo": "Bleed00/Anywhere-claude-mem",
    "name": "bleed00-anywhere-claude-mem",
    "verdict": "pending",
@@ -93654,6 +93654,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "语织：中文优先、用户可控的 AI 写作风格记忆层，让 AI 学会你的表达，需要时再调用"
+  },
+  {
+   "repo": "dreamor/MemVault",
+   "name": "dreamor-memvault",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
   },
   {
    "repo": "crwsr124/dsh-memflow",
