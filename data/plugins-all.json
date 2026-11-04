@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T08:31:25Z",
+ "generated_at": "2026-11-04T08:45:46Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -77192,13 +77192,6 @@
    "desc": "—"
   },
   {
-   "repo": "NoneadChina/dsh-nonead-universal-robots",
-   "name": "noneadchina-dsh-nonead-universal-robots",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "—"
-  },
-  {
    "repo": "baisama-cloud/dsh-omni-bridge",
    "name": "baisama-cloud-dsh-omni-bridge",
    "verdict": "ok",
@@ -79696,6 +79689,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "Telegram duty gateway for DeepSeek Harness: phone-message task loop, global approval forwarding, duty/local to"
+  },
+  {
+   "repo": "NoneadChina/dsh-nonead-universal-robots",
+   "name": "noneadchina-dsh-nonead-universal-robots",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
   },
   {
    "repo": "sulfide2085/dsh-llm-wechat",
