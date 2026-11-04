@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T13:30:59Z",
+ "generated_at": "2026-11-04T13:45:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -44285,6 +44285,13 @@
    "desc": "—"
   },
   {
+   "repo": "LoserForLoser/dsh-workspace-merge",
+   "name": "loserforloser-dsh-workspace-merge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "lovstudio/dsh-account-balance",
    "name": "lovstudio-dsh-account-balance",
    "verdict": "ok",
@@ -53534,13 +53541,6 @@
   {
    "repo": "kevin-zx/dsh-park-notes",
    "name": "kevin-zx-dsh-park-notes",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "LoserForLoser/dsh-workspace-merge",
-   "name": "loserforloser-dsh-workspace-merge",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -92933,6 +92933,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Dayreel — a DeepSeek Harness (dsh) community plugin: turn your day of work sessions into a designed daily repo"
+  },
+  {
+   "repo": "peng7peng/dsh-terminal-manager",
+   "name": "peng7peng-dsh-terminal-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh-terminal-manager"
   },
   {
    "repo": "plutoczm/deepseek-harness-vscode",
