@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2535）
+# 🔌 Web UI 增强（2539）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1232,6 +1232,7 @@
 - 🟩 `[可用]` [2275803244-cpu-dsh-session-search](https://github.com/2275803244-cpu/dsh-session-search) ★0 — In-session full-text search client plugin for the DeepSeek Harness web GUI - full-history coverage, kind filte
 - 🟩 `[可用]` [2327644800-dsh-usage-analytics](https://github.com/2327644800/dsh-usage-analytics) ★0 — Personal usage analytics & activity dashboard for the DeepSeek Harness (dsh) web GUI: token totals, contributi
 - 🟩 `[可用]` [241793-dsh-win-gui](https://github.com/241793/DSH-Win-GUI) ★0 — —
+- `[未定位]` **2754lm-dsh-theme-newsprint** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [3436359054-dsh-web-background](https://github.com/3436359054/dsh-web-background) ★0 — DeepSeek Harness (dsh) web UI background & theme customization plugin: color/gradient/image/video backgrounds
 - 🟩 `[可用]` [pawin-brain-deepseek-harness](https://github.com/PawinAI/pawin-brain-deepseek-harness) ★0 — A brain-inspired runtime for DeepSeek Harness agents — remember, self-correct, learn
 - 🟩 `[可用]` [43456-awa-dsh-notepad](https://github.com/43456-awa/dsh-notepad) ★0 — DSH Web GUI ???????:??/?????????????????Agent ????
@@ -1815,6 +1816,8 @@
 - 🟩 `[可用]` [zdram-deepseek-harness-skin](https://github.com/Zdram/deepseek-harness-skin) ★0 — —
 - 🟩 `[可用]` [zengqingsong-dsh-sidebar-frog](https://github.com/zengqingsong/dsh-sidebar-frog) ★0 — 可弹出侧边栏 · Popout Sidebar — an artifacts + file-tree sidebar for DeepSeek Harness: offline previews (code / Mark
 - 🟩 `[可用]` [zerr0o-dsh-desktop](https://github.com/zerr0o/dsh-desktop) ★0 — Native desktop launcher (Tauri 2) for the DeepSeek Harness web UI - starts, supervises, and displays dsh web i
+- 🟩 `[可用]` [zhang-guo-wen-dsh-drawio](https://github.com/zhang-guo-wen/dsh-drawio) ★0 — Standalone DeepSeek Harness plugin: preview .drawio (mxGraph XML) diagrams in the Web Sidebar.侧边栏预览流程图  .drawi
+- 🟩 `[可用]` [zhang-guo-wen-dsh-drawioedit](https://github.com/zhang-guo-wen/dsh-drawioedit) ★0 — DeepSeek Harness plugin: edit .drawio diagrams in the Web Sidebar ,侧边栏编辑流程图  .drawio文件
 - ⬜ `[待定]` [zhang132212-dsh-remote](https://github.com/zhang132212/dsh-remote) ★0 — DeepSeek Harness Remote: token auth, 0.0.0.0 unlock, mobile CSS, one-shot Windows/Linux/Docker deployment — tu
 - 🟩 `[可用]` [zhangguiping-xydt-dsh-session-lab](https://github.com/zhangguiping-xydt/dsh-session-lab) ★0 — DeepSeek Harness session teaching, evidence capsules, and controlled trajectory comparison
 - 🟩 `[可用]` [zhangguiping-xydt-dsh-skin-studio](https://github.com/zhangguiping-xydt/dsh-skin-studio) ★0 — A visual, local-first skin authoring studio for DeepSeek Harness Web.
@@ -2326,6 +2329,7 @@
 - 🟨 `[不兼容]` [zhou1736948757-cpu-dsh-auto-continue](https://github.com/zhou1736948757-cpu/dsh-auto-continue) ★1 — Automatically resumes replies cut off at the output token limit — built for self-hosted Ollama users with smal
 - 🟨 `[不兼容]` [zouxiaoyang-dsh-commandcode-usage](https://github.com/zouxiaoyang/dsh-commandcode-usage) ★1 — CommandCode usage & balance panel for DeepSeek Harness / DSH 的 CommandCode 用量与余额面板
 - 🟨 `[不兼容]` [openclaw-plugin-dsh](https://github.com/ZRui-C/openclaw-plugin-dsh) ★1 — OpenClaw plugin that runs agent turns through an embedded DeepSeek Harness (DSH) agent — written entirely by D
+- 🟨 `[不兼容]` [zzy6-a-dsh-prompt-enhance](https://github.com/zzy6-a/dsh-prompt-enhance) ★1 — DSH 输入框旁的一键提示词增强：把口语化的一句话改写成目标明确、细节完整的任务说明，可一键撤销；五种改写风格、模型可跟随或固定，含 @引用/命令芯片时自动置灰保护
 - 🟨 `[不兼容]` [zzyyyds88-dsh-solo-leveling](https://github.com/zzyyyds88/dsh-solo-leveling) ★1 — DeepSeek Harness（DSH）插件集：访问门禁（登录 + HTTPS 反代）、默认值、手机端适配、桌宠、任务套件（看板 / 统计 / Git 图谱 / 皮肤），浏览器 / 手机 / 局域网公网随时调用
 - `[空仓监测]` **zw11591-sketch-dsh-pet-panel** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [dsh-tauri-plugins](https://github.com/dsh-tauri/dsh-tauri-plugins) ★1 — ⚠️ Deprecated & archived — built-in plugins migrated to github.com/dsh-tauri-desk/deepseek-harness-desktop pac

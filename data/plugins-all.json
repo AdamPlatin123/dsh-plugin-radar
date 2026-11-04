@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T23:30:58Z",
+ "generated_at": "2026-11-04T23:45:44Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -24657,6 +24657,20 @@
    "desc": "Native desktop launcher (Tauri 2) for the DeepSeek Harness web UI - starts, supervises, and displays dsh web i"
   },
   {
+   "repo": "zhang-guo-wen/dsh-drawio",
+   "name": "zhang-guo-wen-dsh-drawio",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Standalone DeepSeek Harness plugin: preview .drawio (mxGraph XML) diagrams in the Web Sidebar.侧边栏预览流程图  .drawi"
+  },
+  {
+   "repo": "zhang-guo-wen/dsh-drawioedit",
+   "name": "zhang-guo-wen-dsh-drawioedit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: edit .drawio diagrams in the Web Sidebar ,侧边栏编辑流程图  .drawio文件"
+  },
+  {
    "repo": "zhang132212/dsh-remote",
    "name": "zhang132212-dsh-remote",
    "verdict": "pending",
@@ -28043,6 +28057,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "OpenClaw plugin that runs agent turns through an embedded DeepSeek Harness (DSH) agent — written entirely by D"
+  },
+  {
+   "repo": "zzy6-a/dsh-prompt-enhance",
+   "name": "zzy6-a-dsh-prompt-enhance",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 输入框旁的一键提示词增强：把口语化的一句话改写成目标明确、细节完整的任务说明，可一键撤销；五种改写风格、模型可跟随或固定，含 @引用/命令芯片时自动置灰保护"
   },
   {
    "repo": "zzyyyds88/dsh-solo-leveling",
@@ -58467,6 +58488,13 @@
    "desc": "—"
   },
   {
+   "repo": "zhourenke/dsh-reasoning-mode",
+   "name": "zhourenke-dsh-reasoning-mode",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "zhourenke/dsh-tool-call-limit",
    "name": "zhourenke-dsh-tool-call-limit",
    "verdict": "incompatible",
@@ -74294,6 +74322,13 @@
    "desc": "DSH native tools: parse Chinese e-invoice PDFs into structured JSON with amount cross-check, and generate expe"
   },
   {
+   "repo": "a1435473620/dsh-web-search-nokey",
+   "name": "a1435473620-dsh-web-search-nokey",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "给 DeepSeek Harness 的免 key 搜索插件，也可以修复接 Trae / WorkBuddy 积分时 web_search 恒 401"
+  },
+  {
    "repo": "AATINF/pdf-extractor-dsh-plugin",
    "name": "aatinf-pdf-extractor-dsh-plugin",
    "verdict": "pending",
@@ -84862,6 +84897,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Codex-inspired decision and planning policy plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "zhangzhangco/dsh-llm-antigravity",
+   "name": "zhangzhangco-dsh-llm-antigravity",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Antigravity route for DeepSeek Harness: local Antigravity CLI (agy) as an LLM provider"
   },
   {
    "repo": "zhiyuchen1101/codewhale-dsh",
