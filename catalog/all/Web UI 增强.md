@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2491）
+# 🔌 Web UI 增强（2492）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -28,6 +28,7 @@
 - ⬜ `[待定]` [libukai-awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) ★281 — DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plug
 - 🟩 `[可用]` [xing-shuyin-pi-web-ui](https://github.com/xing-shuyin/pi-web-ui) ★259 — Just open your browser — get all your work done.
 - 🟩 `[可用]` [kingofsoysauce-dsh-liang-skin](https://github.com/kingOfSoySauce/dsh-liang-skin) ★230 — —
+- 🟩 `[可用]` [sixtysevenlf-dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin) ★225 — DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender over a direct TCP channel: viewport
 - 🟩 `[可用]` [e2mcc-dsh-popout-sidebar](https://github.com/e2mcc/dsh-popout-sidebar) ★209 — A sidebar can pop out a separate browser tab (drag it to another monitor)
 - 🟩 `[可用]` [revolutionla-dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin) ★199 — —
 - 🟩 `[可用]` [kingofsoysauce-dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) ★174 — —

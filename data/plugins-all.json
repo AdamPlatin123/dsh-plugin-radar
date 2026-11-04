@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T04:30:57Z",
+ "generated_at": "2026-11-04T04:45:44Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11861,6 +11861,13 @@
    "desc": "—"
   },
   {
+   "repo": "slatinwine/dsh-sentience-audit",
+   "name": "slatinwine-dsh-sentience-audit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Audit a DeepSeek Harness session against the 14 consciousness indicator properties (Butlin/Long/Bengio 2023),"
+  },
+  {
    "repo": "softspark/dsh-file-preview",
    "name": "softspark-dsh-file-preview",
    "verdict": "incompatible",
@@ -12447,6 +12454,13 @@
    "verdict": "ok",
    "stars": 230,
    "desc": "—"
+  },
+  {
+   "repo": "sixtysevenlf/dsh-blender-plugin",
+   "name": "sixtysevenlf-dsh-blender-plugin",
+   "verdict": "ok",
+   "stars": 225,
+   "desc": "DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender over a direct TCP channel: viewport"
   },
   {
    "repo": "e2mcc/dsh-popout-sidebar",
@@ -44992,6 +45006,13 @@
    "desc": "—"
   },
   {
+   "repo": "plumeume/dsh-copilot-key",
+   "name": "plumeume-dsh-copilot-key",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "把笔记本的 Copilot 硬件键变成启动/唤起 DeepSeek Harness：自研按键钩子 + DSH 管理器插件（dsh-copilot-key，已发布 npm）"
+  },
+  {
    "repo": "Poepon/dsh-image-generation-responses",
    "name": "poepon-dsh-image-generation-responses",
    "verdict": "ok",
@@ -45746,6 +45767,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Self-made DeepSeek Harness plugins (MIT)"
+  },
+  {
+   "repo": "succlz123/dsh-model-switch",
+   "name": "succlz123-dsh-model-switch",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) 全局插件：用任意按键（含 spare 键、蓝牙小键盘、遥控器 HID 键盘等）**一键切换模型与思考强度**"
   },
   {
    "repo": "SuCriss/dsh-voice-control",
@@ -59004,6 +59032,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "资源下载插件：aria2 RPC 引擎，磁力/BT/HTTP 直链下载管理（添加/查询/暂停/移除/限速）"
+  },
+  {
+   "repo": "jonah791/dsh-temporal-self",
+   "name": "jonah791-dsh-temporal-self",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "时间自我模型 T1 时距注入（距主人上条 / 距自圈 / 今日已醒）——注入坐标，不假装感觉"
   },
   {
    "repo": "junjiangao/dsh-web-search-tavily",
@@ -84673,6 +84708,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Read-only diagnostics and redacted support bundles for DSH, Claude Code, Codex, and OpenClaw — CLI + Codex plu"
+  },
+  {
+   "repo": "drscrewdriver/dsh-patch-edit-plus",
+   "name": "drscrewdriver-dsh-patch-edit-plus",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Patch-style file editing for DeepSeek Harness: one apply_patch tool for git/unified diff (default) and Codex a"
   },
   {
    "repo": "dshworks/dsh-crew",
