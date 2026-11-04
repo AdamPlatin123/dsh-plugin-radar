@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T02:30:42Z",
+ "generated_at": "2026-11-04T02:45:48Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1272,7 +1272,7 @@
   {
    "repo": "dhicoc/dsh-wuyun-liuqi",
    "name": "dhicoc-dsh-wuyun-liuqi",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 5,
    "desc": "五运六气（运气学）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：31 个 SKILL.md 技能原样封装，一行 dsh plugin add 安装"
   },
@@ -12302,6 +12302,13 @@
    "desc": "把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web UI"
   },
   {
+   "repo": "superdesigndev/superdesign-skill",
+   "name": "superdesigndev-superdesign-skill",
+   "verdict": "pending",
+   "stars": 620,
+   "desc": "The design skill for Claude Code, Cursor and any coding agent"
+  },
+  {
    "repo": "shanliuling/dsh-image-gen",
    "name": "shanliuling-dsh-image-gen",
    "verdict": "ok",
@@ -14528,13 +14535,6 @@
    "desc": "Winuxsh runtime, sandbox, profile bundle, and Web UI plugin for DeepSeek Harness"
   },
   {
-   "repo": "causebefore/dsh-pomodoro",
-   "name": "causebefore-dsh-pomodoro",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "DeepSeek Harness Web 番茄钟插件：可配置专注与休息时长，提供侧栏入口和可拖动浮动面板"
-  },
-  {
    "repo": "chengdb/dsh-plugin-capability-panel",
    "name": "chengdb-dsh-plugin-capability-panel",
    "verdict": "ok",
@@ -15310,13 +15310,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "dsh Web UI 动态背景：WebGL2 流体 + 字符鲸鱼游动(循环接缝赛博朋克故障转场) + 发光鱼群 + 点线网格"
-  },
-  {
-   "repo": "HuiHuitie-zhu/dsh-incognito",
-   "name": "huihuitie-zhu-dsh-incognito",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "—"
   },
   {
    "repo": "huyang218/dsh-desktop",
@@ -24615,13 +24608,6 @@
    "desc": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, sk"
   },
   {
-   "repo": "superdesigndev/superdesign-skill",
-   "name": "superdesigndev-superdesign-skill",
-   "verdict": "incompatible",
-   "stars": 620,
-   "desc": "The design skill for Claude Code, Cursor and any coding agent"
-  },
-  {
    "repo": "kelai141/dsh-mobile-apk",
    "name": "kelai141-dsh-mobile-apk",
    "verdict": "incompatible",
@@ -25602,6 +25588,13 @@
    "desc": "DSH (DeepSeek Harness) 任务看板插件：主机状态机 + git 调度 + 浏览器看板 UI，agent 自动执行任务、审核后自动合并回基础分支"
   },
   {
+   "repo": "causebefore/dsh-pomodoro",
+   "name": "causebefore-dsh-pomodoro",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DeepSeek Harness Web 番茄钟插件：可配置专注与休息时长，提供侧栏入口和可拖动浮动面板"
+  },
+  {
    "repo": "cyanseek/dsh-native-playbook",
    "name": "dsh-native-playbook",
    "verdict": "incompatible",
@@ -25796,6 +25789,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "dsh全模态工作站插件，让模型支持视频、图片、语音的输入与输出，支持comfyui图像生成工具调用"
+  },
+  {
+   "repo": "HuiHuitie-zhu/dsh-incognito",
+   "name": "huihuitie-zhu-dsh-incognito",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "kiligzzz/dsh-session-archive",
@@ -30616,7 +30616,7 @@
   {
    "repo": "STARDUSTLC666/dsh-hyperframes",
    "name": "stardustlc666-dsh-hyperframes",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 9,
    "desc": "—"
   },
@@ -31149,13 +31149,6 @@
    "repo": "DM010727/dsh-cline",
    "name": "dm010727-dsh-cline",
    "verdict": "ok",
-   "stars": 6,
-   "desc": "—"
-  },
-  {
-   "repo": "Fayelin12/dsh-office",
-   "name": "fayelin12-dsh-office",
-   "verdict": "pending",
    "stars": 6,
    "desc": "—"
   },
@@ -37477,13 +37470,6 @@
    "repo": "iZY3/dsh-notebook-knowledge-studio",
    "name": "izy3-dsh-notebook-knowledge-studio",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "izz-BLUE/dsh-devtools",
-   "name": "izz-blue-dsh-devtools",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -54421,6 +54407,13 @@
    "desc": "An OAuth adapter for DSH"
   },
   {
+   "repo": "Fayelin12/dsh-office",
+   "name": "fayelin12-dsh-office",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "—"
+  },
+  {
    "repo": "Hanmiao33/dsh-bubble-explain",
    "name": "hanmiao33-dsh-bubble-explain",
    "verdict": "incompatible",
@@ -56635,6 +56628,13 @@
   {
    "repo": "iTrimut/dsh-Webroad",
    "name": "itrimut-dsh-webroad",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "izz-BLUE/dsh-devtools",
+   "name": "izz-blue-dsh-devtools",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -76235,7 +76235,7 @@
   {
    "repo": "tencent-connect/dsh-qqbot",
    "name": "tencent-connect-dsh-qqbot",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 116,
    "desc": "让 QQ Bot 接入 DeepSeek Harness（dsh）的官方插件"
   },
@@ -77425,7 +77425,7 @@
   {
    "repo": "btboys/dsh-notify",
    "name": "btboys-dsh-notify",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "DSH Notify Plugin"
   },
@@ -80433,6 +80433,13 @@
    "desc": "从Claude Code、Codex、Reasonix等Agent工具导入迁移历史消息，并在DeepSeek Harness(DSH)中继续对话"
   },
   {
+   "repo": "sandbaseai/sandbase-skills",
+   "name": "sandbaseai-sandbase-skills",
+   "verdict": "pending",
+   "stars": 202,
+   "desc": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—c"
+  },
+  {
    "repo": "ZSeven-W/dsh-openpencil",
    "name": "dsh-openpencil",
    "verdict": "ok",
@@ -81583,7 +81590,7 @@
   {
    "repo": "IT-coder-Yy/dsh-lazygit-plugin",
    "name": "it-coder-yy-dsh-git-plugin",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 6,
    "desc": "—"
   },
@@ -82041,13 +82048,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "模式匹配自动注入 steering rules，不占系统上下文 - Inject rules when needed, without wasting context"
-  },
-  {
-   "repo": "jiuyuechuwuhao/dsh-canvas-preview",
-   "name": "jiuyuechuwuhao-dsh-canvas-preview",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "🎨 DeepSeek Harness 的画板预览插件 — AI 生成的网页产物实时预览 · PNG/JPG/SVG 一键导出（对标 Gemini Canvas 体验）"
   },
   {
    "repo": "jkrandom-sudo/dsh-plugin-audit",
@@ -83082,13 +83082,6 @@
    "repo": "GIT121995/dsh-memory-gate",
    "name": "git121995-dsh-memory-gate",
    "verdict": "ok",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "GitHubJiKe/dsh-markdown-preview",
-   "name": "githubjike-dsh-markdown-preview",
-   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -86999,13 +86992,6 @@
    "desc": "Codex-inspired managed approval for DeepSeek Harness"
   },
   {
-   "repo": "JesmonX/dsh-web-shell",
-   "name": "jesmonx-dsh-web-shell",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "jesongit/dsh-plugin",
    "name": "jesongit-dsh-plugin",
    "verdict": "pending",
@@ -89190,13 +89176,6 @@
    "desc": "AI-native engineering environment management that makes your codebase agent-ready."
   },
   {
-   "repo": "sandbaseai/sandbase-skills",
-   "name": "sandbaseai-sandbase-skills",
-   "verdict": "incompatible",
-   "stars": 202,
-   "desc": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—c"
-  },
-  {
    "repo": "KelaoHu/dsh-lowtide",
    "name": "kelaohu-dsh-lowtide",
    "verdict": "incompatible",
@@ -89356,6 +89335,13 @@
    "verdict": "incompatible",
    "stars": 30,
    "desc": "The complete collection of Kiro IDE configs, agents, skills, hooks, and MCP integrations for maximum productiv"
+  },
+  {
+   "repo": "olicesx/kixparadigm",
+   "name": "olicesx-kixparadigm",
+   "verdict": "incompatible",
+   "stars": 30,
+   "desc": "kixparadigm — AI self-orchestrated minimal paradigm (resident cognition layer) + kixpower multi-agent orchestr"
   },
   {
    "repo": "geml-spec/geml",
@@ -90023,6 +90009,13 @@
    "desc": "Local-first AI memory with project isolation — for terminal, for private use"
   },
   {
+   "repo": "jiuyuechuwuhao/dsh-canvas-preview",
+   "name": "jiuyuechuwuhao-dsh-canvas-preview",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "🎨 DeepSeek Harness 的画板预览插件 — AI 生成的网页产物实时预览 · PNG/JPG/SVG 一键导出（对标 Gemini Canvas 体验）"
+  },
+  {
    "repo": "jyao-SUSE-power-group/dsh-provider-rate-limit",
    "name": "jyao-suse-power-group-dsh-provider-rate-limit",
    "verdict": "incompatible",
@@ -90515,6 +90508,13 @@
   {
    "repo": "Funnyvalentine00/dsh-github-push",
    "name": "funnyvalentine00-dsh-github-push",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "GitHubJiKe/dsh-markdown-preview",
+   "name": "githubjike-dsh-markdown-preview",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -92013,6 +92013,13 @@
   {
    "repo": "jackiesre721/dsh-hybrid-coder",
    "name": "jackiesre721-dsh-hybrid-coder",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "JesmonX/dsh-web-shell",
+   "name": "jesmonx-dsh-web-shell",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
