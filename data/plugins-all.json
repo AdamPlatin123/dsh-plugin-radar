@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T05:45:51Z",
+ "generated_at": "2026-11-04T06:00:54Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3312,6 +3312,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Project-level conversation memory explorer for DeepSeek Harness with related memories, cross-session bridges,"
+  },
+  {
+   "repo": "annkun/dsh-memory",
+   "name": "annkun-dsh-memory",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Deepseek harness memory"
   },
   {
    "repo": "ANOKO1122/dsh-session-cost-plus",
@@ -9864,6 +9871,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness 会话管理插件：链式上下文视图、可在任意轮次边界分叉的子会话、一次性 /btw 只读问答，全部基于会话原语——把长对话拆成并行支线而不污染主上下文，但可手动向主会话注入临时对话内容"
+  },
+  {
+   "repo": "cckbc/dsh-session-recycle-bin",
+   "name": "cckbc-dsh-session-recycle-bin",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/3"
   },
   {
    "repo": "CharlesLiuZC/deepseek-harness-voice-context",
