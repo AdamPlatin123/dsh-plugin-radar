@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1860）
+# 🤖 Agent 能力（1864）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -354,6 +354,7 @@
 - 🟩 `[可用]` [directwire-culmen](https://github.com/directwire/culmen) ★2 — persona/v1 — 通用智能体人格格式：定义有记忆、会成长、有关系的 AI 如何落盘、迁移、在任意实现（Claude CLI / OpenClaw / Hermes / 自建运行时）间互换
 - 🟩 `[可用]` [djasdh-interest-memory](https://github.com/djasdh/interest-memory) ★2 — Low-footprint memory backend for AI agents — single binary, ~50MB RAM, verify-augmented accuracy
 - 🟩 `[可用]` [dshworks-dsh-watch](https://github.com/dshworks/dsh-watch) ★2 — Put a watch on a stream: background listeners that wake the DeepSeek Harness agent with new matching lines — a
+- 🟩 `[可用]` [duhu2000-dsh-form-fill-agent](https://github.com/duhu2000/dsh-form-fill-agent) ★2 — AI form filling and spreadsheet autofill for XLSX in DeepSeek Harness, using authorized Qichacha MCP facts wit
 - 🟩 `[可用]` [elmaxid-gateway-agent](https://github.com/elmaxid/gateway-agent) ★2 — Claude Code plugin que delega code reviews y tareas a endpoints LLM alternativos (Ollama, gateways custom) usa
 - 🟩 `[可用]` [falling-ts-dsh-web-ding](https://github.com/falling-ts/dsh-web-ding) ★2 — Browser-only 'ding' on agent end; works on servers.浏览器专属"叮":回合结束时响起,服务器部署也生效
 - 🟩 `[可用]` [fuxin123z-dsh-skill-manage](https://github.com/fuxin123z/dsh-skill-manage) ★2 — DSH plugin: agent-managed procedural memory — a skill_manage tool that lets the agent write, patch, disable an
@@ -827,6 +828,7 @@
 - 🟩 `[可用]` [dubeno-dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) ★0 — 将符合Agent Plugin规范的插件适配到DSH生态
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
+- `[未定位]` **epiphany-leon-dsh-skill-forge** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [fan56-dsh-cron](https://github.com/fan56/dsh-cron) ★0 — Cron scheduling for the DeepSeek Harness — bounded tasks with calendar & interval rules, delivered to live age
 - 🟩 `[可用]` [fan56-dsh-llm-proxy](https://github.com/fan56/dsh-llm-proxy) ★0 — dsh plugin: per-host LLM outbound HTTP proxy routing (undici ProxyAgent) with a bundled dsh skill
 - `[空仓监测]` **fan56-dsh-llmwiki-memory** — GitHub 无此仓库，判定暂不展示
@@ -1671,6 +1673,7 @@
 - 🟨 `[不兼容]` [cagierash123-dsh-obsidian-agent-wiki](https://github.com/CagierAsh123/dsh-obsidian-agent-wiki) ★0 — —
 - 🟨 `[不兼容]` [changyinliangbaikai-dsh-b2us-schedule](https://github.com/changyinliangbaikai/dsh-b2us-schedule) ★0 — dsh定时任务插件，支持延迟、固定间隔、cron表达式，支持执行shell命令，支持发起Agent会话
 - 🟨 `[不兼容]` [chen-zz20-dsh-skill-stats](https://github.com/chen-zz20/dsh-skill-stats) ★0 — —
+- 🟨 `[不兼容]` [chuxindd-dsh-context-enhancement](https://github.com/chuxindd/dsh-context-enhancement) ★0 — 适用于 DeepSeek Harness 的单会话上下文增强工具，力求化解会话在触发 /compact 上下文压缩后损失信息过多，导致前后表现“判若两人”的技术困境
 - `[空仓监测]` **cjl-1995-dsh-memory-self-evolution** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [dsh-toolbelt](https://github.com/cking000bigdemon/dsh-toolbelt) ★0 — Eight DeepSeek Harness plugins: persona, language guard, per-request vision fallback, python/windows write gua
 - 🟨 `[不兼容]` [coffee-man666-dsh-lens](https://github.com/coffee-man666/dsh-lens) ★0 — Repository and agent-runtime analysis skills as an installable DeepSeek Harness (dsh) plugin
@@ -1690,6 +1693,7 @@
 - 🟨 `[不兼容]` [fan969690-dsh-web-plugins](https://github.com/fan969690/dsh-web-plugins) ★0 — 🧩 DSH 模块中心开源框架:右侧模块化桌面,宫格排布任意模块,自定义尺寸 1x1~2x6,长按拖动换位,开放模块协议(插件注册即显示)+ 插件社区 + Agent 社区(270 中文预设)
 - 🟨 `[不兼容]` [fatatalia-dsh-dreaming](https://github.com/fatatalia/dsh-dreaming) ★0 — dsh 梦境记忆整合插件：凌晨随机窗口把记忆梦境化（裸上下文 narrative 纯梦写作）+ 信号驱动洞察晋升 + MEMORY.md 预算管理，随 dsh web 启停
 - 🟨 `[不兼容]` [fatatalia-dsh-turn-guard](https://github.com/fatatalia/dsh-turn-guard) ★0 — dsh turn-guard plugin: per-step timeout for agent turns (防模型退化死循环)
+- `[未定位]` **fayelin12-dsh-workspace-prompts** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [fengyufengzi-dsh-local-diagnostics](https://github.com/fengyufengzi/dsh-local-diagnostics) ★0 — Privacy-first in-memory diagnostics for DeepSeek Harness
 - 🟨 `[不兼容]` [fentz26-dsh-goodjob](https://github.com/fentz26/dsh-goodjob) ★0 — Multi-agent operations workspace for DeepSeek Harness.
 - `[空仓监测]` **firestige-execution-system** — GitHub 无此仓库，判定暂不展示
