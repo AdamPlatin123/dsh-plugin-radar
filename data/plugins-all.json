@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T20:15:58Z",
+ "generated_at": "2026-11-04T20:30:54Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3335,6 +3335,13 @@
    "desc": "Boot-time guard for DeepSeek Harness: repairs corrupt session logs, preflights plugin composition, smoke-tests"
   },
   {
+   "repo": "aoripus/dsh-optimize",
+   "name": "aoripus-dsh-optimize",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Long-session resource control for DeepSeek Harness: measures the context every request carries, warns at confi"
+  },
+  {
    "repo": "aorucshiea/dsh-preset-switch",
    "name": "aorucshiea-dsh-preset-switch",
    "verdict": "ok",
@@ -5237,6 +5244,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "almazom/dsh-almazom-approve-escalate",
+   "name": "almazom-dsh-almazom-approve-escalate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH web plugin: one-click Approve & escalate on the approval card — approves the pending request and switches"
   },
   {
    "repo": "alonelypigeon/dsh-plugin-balance-panel",
@@ -10396,6 +10410,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "一个deepseek-harness插件，用来做agent轨迹回放"
+  },
+  {
+   "repo": "azazo1/dsh-limit-timeout",
+   "name": "azazo1-dsh-limit-timeout",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Cap how long one DSH tool call may wait: a global default wait limit in Settings, plus a per-session raise the"
   },
   {
    "repo": "beartackler/dsh-bridge",
@@ -80517,6 +80538,13 @@
    "desc": "Use a ChatGPT Plus, Pro, Business, or Enterprise subscription with Codex access as a DeepSeek Harness model pr"
   },
   {
+   "repo": "baixianger/dsh-codex-adapter",
+   "name": "baixianger-dsh-codex-adapter",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "ChatGPT-powered coding, image generation and web search for DeepSeek Harness."
+  },
+  {
    "repo": "CAI-MH/dsh-feishu-task-recorder",
    "name": "cai-mh-dsh-feishu-task-recorder",
    "verdict": "incompatible",
@@ -84640,6 +84668,13 @@
    "desc": "面向各类 AI 编程代理的功能测试用例生成 Skill"
   },
   {
+   "repo": "alexhegit/dsh-plugin-h3-hip",
+   "name": "alexhegit-dsh-plugin-h3-hip",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness Host plugin for h3-hip.c (--serve, protocol v1alpha)"
+  },
+  {
    "repo": "alextangson/dsh-dispatch",
    "name": "alextangson-dsh-dispatch",
    "verdict": "ok",
@@ -86710,6 +86745,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A persistent, responsive tmux control-mode cockpit for DeepSeek Harness Web."
+  },
+  {
+   "repo": "advance-lion/dsh-lan-link",
+   "name": "advance-lion-dsh-lan-link",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Persistent token-gated LAN access for DeepSeek Harness Web"
   },
   {
    "repo": "aimaoge/timem-dsh-memory",
