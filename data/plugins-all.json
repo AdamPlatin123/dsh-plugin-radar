@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T21:45:52Z",
+ "generated_at": "2026-11-04T22:00:46Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1632,6 +1632,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "liceses/dsh-showme-html",
+   "name": "liceses-dsh-showme-html",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH 插件：把工作区里写好的 HTML 页展示在对话里，并让用户在页面上的表态快速回到 agent 手里"
   },
   {
    "repo": "LingLambda/dsh-undo",
@@ -6413,6 +6420,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Litefuse Plugin for Agent Observability and Evals"
+  },
+  {
+   "repo": "liyixuan201211/ctx-budget",
+   "name": "liyixuan201211-ctx-budget",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "What will your agent's context cost before it runs? Audit instruction files, skills, MCP tool schemas and memo"
   },
   {
    "repo": "ljlj7149-cloud/dsh-cognitio",
@@ -22473,6 +22487,13 @@
    "desc": "1945-08-15 世界名画 dsh皮肤"
   },
   {
+   "repo": "leolee9086/dsh-fetch-router",
+   "name": "leolee9086-dsh-fetch-router",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: route and rewrite outbound HTTP requests by host and path, with a native right-sidebar monitor"
+  },
+  {
    "repo": "lianginx/dsh-quote-selection",
    "name": "lianginx-dsh-quote-selection",
    "verdict": "ok",
@@ -27399,6 +27420,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Raiden Inazuma Atelier / 稻妻雷电工房 — DSH Web 紫金亚克力主题（独立于 Taffy）"
+  },
+  {
+   "repo": "lhenlihai-hub/dsh-voice-input",
+   "name": "lhenlihai-hub-dsh-voice-input",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "liceses/dsh-web-text-drop",
@@ -57354,6 +57382,13 @@
    "desc": "—"
   },
   {
+   "repo": "kemi-20/dsx",
+   "name": "kemi-20-dsx",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Kerberos255/dsh-web-search-router",
    "name": "kerberos255-dsh-web-search-router",
    "verdict": "incompatible",
@@ -75022,6 +75057,13 @@
    "desc": "DSH Archive Manager — 在 DeepSeek Harness 中安全查看、恢复和管理已归档会话 · Safely view, restore, and manage archived sessions"
   },
   {
+   "repo": "lnsdlszsqxxx/dsh-courseware",
+   "name": "lnsdlszsqxxx-dsh-courseware",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "create pptx file based on template.pptx and a outline file"
+  },
+  {
    "repo": "longlongdragons/roleplay-plugin",
    "name": "longlongdragons-roleplay-plugin",
    "verdict": "pending",
@@ -85781,6 +85823,20 @@
    "desc": "A developer toolkit for the DeepSeek Harness (DSH) web console: a real multi-tab PTY terminal plus an AI-outpu"
   },
   {
+   "repo": "liyixuan201211/dsh-rewind",
+   "name": "liyixuan201211-dsh-rewind",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Undo what an agent did to a directory: content-addressed snapshots, one-command rewind, and an undo you can un"
+  },
+  {
+   "repo": "liyixuan201211/mcp-cap",
+   "name": "liyixuan201211-mcp-cap",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "What can this MCP server actually do — and has it changed since you trusted it? Inspect its declared capabilit"
+  },
+  {
    "repo": "LJH-snow/dsh-tool-github",
    "name": "dsh-tool-github",
    "verdict": "ok",
@@ -92123,6 +92179,13 @@
    "desc": "ClawShell vision as DeepSeek Harness plugins: self-perception, closed-loop self-adaptation, trust/niche swarm,"
   },
   {
+   "repo": "kaiarvin/dsh-show-diff",
+   "name": "kaiarvin-dsh-show-diff",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Expanded color-coded diff tool cards for the edit/write tools — DeepSeek Harness client plugin with per-file l"
+  },
+  {
    "repo": "karmiy/dsh-session-nav",
    "name": "karmiy-dsh-session-nav",
    "verdict": "incompatible",
@@ -93129,6 +93192,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native Codex OAuth login and model access for DeepSeek Harness as one installable plugin."
+  },
+  {
+   "repo": "kiiiiile/dsh-approval-ai-review",
+   "name": "kiiiiile-dsh-approval-ai-review",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "AI-reviewed auto-approval for DeepSeek Harness: safe tool asks granted automatically, risky ones escalated wit"
   },
   {
    "repo": "kittimzhe/dsh-session-recall",
