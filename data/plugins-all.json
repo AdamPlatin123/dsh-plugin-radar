@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T05:15:50Z",
+ "generated_at": "2026-11-04T05:30:55Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -113,6 +113,13 @@
    "verdict": "ok",
    "stars": 456,
    "desc": "Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub"
+  },
+  {
+   "repo": "aerovato/operator-memory",
+   "name": "aerovato-operator-memory",
+   "verdict": "ok",
+   "stars": 441,
+   "desc": "The self-improving context engine for coding agents."
   },
   {
    "repo": "omdsh-dev/dsh-mnemon",
@@ -897,6 +904,13 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "Guarded context compaction for DeepSeek Harness (dsh): the LLM proposes, deterministic guards dispose — eager"
+  },
+  {
+   "repo": "aa2246740/dsh-notch",
+   "name": "aa2246740-dsh-notch",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "Native macOS Notch for DSH sessions, inline answers and animated task status"
   },
   {
    "repo": "cookiesheep/whale-on-desk",
@@ -12160,6 +12174,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yuluo554/dsh-prompt-polisher",
+   "name": "yuluo554-dsh-prompt-polisher",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Composer prompt-polisher button plugin for DeepSeek Harness (dsh): one-click draft rewrite, style presets, dua"
   },
   {
    "repo": "yummy4727/dsh-context-branch",
@@ -73685,6 +73706,13 @@
    "desc": "DSH 插件：把粘贴/拖入聊天框的图片与任意文件保存为会话工作区文件"
   },
   {
+   "repo": "17897693/dsh-wen",
+   "name": "17897693-dsh-wen",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 办公文档全能插件：docx/xlsx/pptx/pdf/odf/csv/html 读写改互转 + 内嵌离线 OCR（中文扫描件与乱码 PDF），零第三方依赖、装上不让 DSH 崩"
+  },
+  {
    "repo": "240xu/verdict-engine",
    "name": "240xu-verdict-engine",
    "verdict": "ok",
@@ -91911,6 +91939,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "xiex16070-jpg/dsh-learn",
+   "name": "xiex16070-jpg-dsh-learn",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Persistent learning for DeepSeek Harness: turn a session's corrections, failures and fixes into ordinary DSH s"
   },
   {
    "repo": "Xinlong-Wu/dsh-github-reviewer",
