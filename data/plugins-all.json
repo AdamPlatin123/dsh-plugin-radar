@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T22:15:50Z",
+ "generated_at": "2026-11-04T22:31:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11840,6 +11840,20 @@
    "desc": "Self-hosted Browser Bridge plugin for dsh Desktop: expose a local workspace to web AI agents through protected"
   },
   {
+   "repo": "n0pe-sled/clear-session-history",
+   "name": "n0pe-sled-clear-session-history",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: clear session history from disk (workspace/all/session) with scoped, confirmed deletes"
+  },
+  {
+   "repo": "n0pe-sled/context-before-user",
+   "name": "n0pe-sled-context-before-user",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: keep injected runtime context and skill context as user-role turns before the human request"
+  },
+  {
    "repo": "NexusAgentX/dsh-advisor",
    "name": "nexusagentx-dsh-advisor",
    "verdict": "incompatible",
@@ -22858,6 +22872,13 @@
    "desc": "Display-layer translation for the DeepSeek Harness Web UI: thinking chain, task cards and answers in 8 languag"
   },
   {
+   "repo": "n0pe-sled/skill-mcp-manager",
+   "name": "n0pe-sled-skill-mcp-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh plugin: manage dsh skills and MCP servers from Settings > Skills & MCP, hot-reloaded without restarting th"
+  },
+  {
    "repo": "nailing10086-zx/dsh-custom-ui",
    "name": "nailing10086-zx-dsh-custom-ui",
    "verdict": "ok",
@@ -28598,11 +28619,39 @@
    "desc": "—"
   },
   {
+   "repo": "n0pe-sled/herdr-themes",
+   "name": "n0pe-sled-herdr-themes",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: the 18 herdr themes as Settings > Themes with live swatch cards and persistent selection"
+  },
+  {
+   "repo": "n0pe-sled/system-prompt-editor",
+   "name": "n0pe-sled-system-prompt-editor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with l"
+  },
+  {
+   "repo": "n0pe-sled/web-search-searxng",
+   "name": "n0pe-sled-web-search-searxng",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: SEARXNG-backed web search provider for the dsh web_search tool (host-only, no Settings UI)"
+  },
+  {
    "repo": "nan1010082085/dsh-chat-sync",
    "name": "nan1010082085-dsh-chat-sync",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH plugin: browse & live-sync local Claude Code / Codex CLI / Cursor Agent conversations inside the dsh web G"
+  },
+  {
+   "repo": "nguyenduclong-ict/dsh-better-uiux",
+   "name": "nguyenduclong-ict-dsh-better-uiux",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Better UIUX for DeepSeek Harness: one Settings section with switches for live terminal output streaming and cu"
   },
   {
    "repo": "NightsVesa/dsh-input-history",
@@ -80888,6 +80937,13 @@
    "desc": "—"
   },
   {
+   "repo": "n0pe-sled/subscription-logins",
+   "name": "n0pe-sled-subscription-logins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: store and switch ChatGPT/Claude OAuth and Z.AI Coding Plan credentials in a Logins settings page"
+  },
+  {
    "repo": "NishiMihaeru/dsh-chatgpt-web",
    "name": "nishimihaeru-dsh-chatgpt-web",
    "verdict": "incompatible",
@@ -86045,6 +86101,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Tavily web-search provider plugin for DeepSeek Harness (dsh) — registers into ctx.web so the model-facing web_"
+  },
+  {
+   "repo": "my-dsh-plugin/dsh-skill-manager",
+   "name": "my-dsh-plugin-dsh-skill-manager",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 技能安装管理器:从 GitHub 安装/更新/卸载 Skills,分组展示已加载技能,可选兼容 Claude Code .claude/skills"
   },
   {
    "repo": "nanshanyi/dsh-mcp-xcode",
@@ -93318,6 +93381,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native DeepSeek Harness vision tools backed by local OpenCodex"
+  },
+  {
+   "repo": "n0pe-sled/configurable-subagents",
+   "name": "n0pe-sled-configurable-subagents",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: default sub-agent provider, model, and reasoning effort plus per-delegation overrides"
   },
   {
    "repo": "nateEc/dsh-gitLens",
