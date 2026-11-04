@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T07:15:50Z",
+ "generated_at": "2026-11-04T07:30:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10405,6 +10405,13 @@
    "desc": "给DSH提供会话级的MCP控制能力"
   },
   {
+   "repo": "blauerberg/dsh-web-push-notification",
+   "name": "blauerberg-dsh-web-push-notification",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Web Push notifications for DeepSeek Harness tasks, approvals, and questions."
+  },
+  {
    "repo": "bluechips-zhao/dsh-browser-slotpool",
    "name": "bluechips-zhao-dsh-browser-slotpool",
    "verdict": "incompatible",
@@ -13791,6 +13798,13 @@
    "verdict": "pending",
    "stars": 8,
    "desc": "Reproducible Python and R work on DeepSeek Harness, built as plugins.〔📦〕"
+  },
+  {
+   "repo": "openbkn-ai/bkn-dsh",
+   "name": "openbkn-ai-bkn-dsh",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "OpenBKN's DeepSeek Harness Web UI plugin enables business users to safely, accurately and reliably utilize the"
   },
   {
    "repo": "Starlight-bananice/dsh-status-bar",
