@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T05:00:52Z",
+ "generated_at": "2026-11-04T05:15:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11294,6 +11294,13 @@
    "desc": "Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback"
   },
   {
+   "repo": "fuyu2022/dsh-session-dir",
+   "name": "fuyu2022-dsh-session-dir",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "简单的工作区会话分组插件"
+  },
+  {
    "repo": "ghbhiee/dsh-plugin-cli-session",
    "name": "ghbhiee-dsh-plugin-cli-session",
    "verdict": "incompatible",
@@ -17991,6 +17998,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "让碎片化知识随问答深入脑海"
+  },
+  {
+   "repo": "cyh3436332528/dsh-float-chat",
+   "name": "cyh3436332528-dsh-float-chat",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 DSH 的侧边对话弹出来，变成一个能压在所有应用之上的独立置顶浮窗：自带四态外观（浅色/深色/跟随 DSH/跟随 Windows）、不透明度、窗口几何记忆、即用即焚与缓存清理"
   },
   {
    "repo": "dacs2019/dsh-deepseek-price-timer",
@@ -64296,6 +64310,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "chou109/dsh-strength-meter",
+   "name": "chou109-dsh-strength-meter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "强度表是 DSH Web 开源插件：设置页按模型统计 token 用量（环形图、热力图、趋势），数据仅来自本地日志"
   },
   {
    "repo": "chshcbz/dsh-plugin-safety-toolkit",
