@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2506）
+# 🔌 Web UI 增强（2510）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -772,6 +772,7 @@
 - 🟩 `[可用]` [dsh-question-anchors](https://github.com/snakeUni/dsh-question-anchors) ★2 — DeepSeek Harness 右侧提问锚点面板
 - `[空仓监测]` **dsh-miku-skin** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [DeepSeekHarness-DesktopUI](https://github.com/Adnnnnai/DeepSeekHarness-DesktopUI) ★2 — —
+- 🟩 `[可用]` [060625dfy-dsh-prompt-boost](https://github.com/060625dfy/dsh-prompt-boost) ★1 — 优化输入内容的 DSH 插件（仿 Trae CN）：模型选择器旁的 ✨ 按钮一键把输入想法改写为高质量、忠实原文、可直接执行的提示词，↩ 一键撤销恢复原文
 - 🟩 `[可用]` [0928oyx-dsh-free-skins](https://github.com/0928OYX/dsh-free-skins) ★1 — —
 - 🟩 `[可用]` [1052326311-dsh-goal-quiescence](https://github.com/1052326311/dsh-goal-quiescence) ★1 — Completion evidence gate for DeepSeek Harness goal-mode subagents
 - 🟩 `[可用]` [165555979-dsh-desktop](https://github.com/165555979/dsh-desktop) ★1 — DeepSeek Harness 液态玻璃桌面外壳 · A liquid-glass desktop shell for DeepSeek Harness
@@ -1221,6 +1222,7 @@
 - 🟩 `[可用]` [1162514620-plugin-center](https://github.com/1162514620/plugin-center) ★0 — DSH 插件中心：统一的插件管理面板，支持启用/禁用、插件市场浏览、AI 解释、一键重启
 - 🟩 `[可用]` [123cdxcc-dsh-mindsee](https://github.com/123cdxcc/dsh-mindsee) ★0 — A DeepSeek Harness plugin that lets DeepSeek see screenshots and local images via MindSee
 - 🟩 `[可用]` [123twtd-dsh-skin-manager](https://github.com/123twtd/dsh-skin-manager) ★0 — DeepSeek Harness (dsh) 可切换皮肤包管理器：皮肤包发现/激活/ZIP 导入，适配 0.1.x，含爱弥斯示例皮肤
+- 🟩 `[可用]` [1921622004-dsh-command-palette](https://github.com/1921622004/dsh-command-palette) ★0 — ⌘K 命令面板插件，为 DeepSeek Harness Web GUI 提供：会话切换、设置直达、侧边栏页签与插件集成入口，支持自定义快捷键，手不离键盘完成大部分操作
 - 🟩 `[可用]` [1wanganshi-dsh-marketing-toolkit](https://github.com/1wanganshi/dsh-marketing-toolkit) ★0 — DSH 营销工具箱插件：侧边栏一键进入封面图生成 / 朋友圈文案 / 短视频脚本 / 开头黄金3秒检验四个营销 Agent 通道
 - 🟩 `[可用]` [2017java-dsh-md-viewer](https://github.com/2017java/dsh-md-viewer) ★0 — DSH web 插件：在 dsh-better-sidebar 侧边栏内把 Markdown 富渲染为预览（代码高亮 / 目录 / 一键复制）
 - 🟩 `[可用]` [2275803244-cpu-dsh-model-switcher](https://github.com/2275803244-cpu/dsh-model-switcher) ★0 — One-click provider/model switcher client plugin for the DeepSeek Harness web GUI
@@ -1796,6 +1798,7 @@
 - ⬜ `[待定]` [zdjmrq-dsh-chat-mode](https://github.com/zdjmrq/dsh-chat-mode) ★0 — DSH 插件：为 DeepSeek Harness 增加「对话」纯聊天模式（ChatGPT 式）——侧边栏新会话模式切换（DSH/对话）、对话会话仅提问+搜索工具、专属 \/chat 聊天工作区
 - ⬜ `[待定]` [zdjmrq-dsh-plugin-suite](https://github.com/zdjmrq/dsh-plugin-suite) ★0 — DeepSeek Harness customization suite (partial fork): command-guard anti-deletion + one-click backend shutdown/
 - 🟩 `[可用]` [zdram-deepseek-harness-skin](https://github.com/Zdram/deepseek-harness-skin) ★0 — —
+- 🟩 `[可用]` [zengqingsong-dsh-sidebar-frog](https://github.com/zengqingsong/dsh-sidebar-frog) ★0 — 可弹出侧边栏 · Popout Sidebar — an artifacts + file-tree sidebar for DeepSeek Harness: offline previews (code / Mark
 - 🟩 `[可用]` [zerr0o-dsh-desktop](https://github.com/zerr0o/dsh-desktop) ★0 — Native desktop launcher (Tauri 2) for the DeepSeek Harness web UI - starts, supervises, and displays dsh web i
 - ⬜ `[待定]` [zhang132212-dsh-remote](https://github.com/zhang132212/dsh-remote) ★0 — DeepSeek Harness Remote: token auth, 0.0.0.0 unlock, mobile CSS, one-shot Windows/Linux/Docker deployment — tu
 - 🟩 `[可用]` [zhangguiping-xydt-dsh-session-lab](https://github.com/zhangguiping-xydt/dsh-session-lab) ★0 — DeepSeek Harness session teaching, evidence capsules, and controlled trajectory comparison
@@ -2315,6 +2318,7 @@
 - 🟨 `[不兼容]` [odefined-dsh-mobile-webui](https://github.com/Odefined/dsh-mobile-webui) ★1 — —
 - 🟨 `[不兼容]` [1mlightyears-dsh-theme-synthwave](https://github.com/1MLightyears/dsh-theme-synthwave) ★0 — —
 - 🟨 `[不兼容]` [43456-awa-dsh-opencode-go-quota](https://github.com/43456-awa/dsh-opencode-go-quota) ★0 — DSH Web GUI plugin: real-time OpenCode Go plan quota indicator (dot next to the model selector)
+- 🟨 `[不兼容]` [776138506-pinpoint](https://github.com/776138506/pinpoint) ★0 — 指哪打哪：在任意网页标记元素并评论，截图+结构化文本直达 dsh 会话（dsh 插件 + 浏览器扩展）
 - 🟨 `[不兼容]` [863683348-dsh-gov](https://github.com/863683348/dsh-gov) ★0 — Agent governance suite for DeepSeek Harness: policy-based tool gating (allow/deny/ask), structured JSONL audit
 - 🟨 `[不兼容]` [988hj7tczd-oss-dsh-mcp-tunnel](https://github.com/988hj7tczd-oss/dsh-mcp-tunnel) ★0 — DSH plugin: expose a local MCP server to remote agents via outbound-only tunnel (mcp-proxy + cloudflared Quick
 - 🟨 `[不兼容]` [a792883583-dsh-git-panel](https://github.com/a792883583/dsh-git-panel) ★0 — DSH web GUI git panel: branch management + GitLens-style commit graph

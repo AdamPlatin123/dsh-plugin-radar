@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T18:46:03Z",
+ "generated_at": "2026-11-04T20:15:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -17671,6 +17671,13 @@
    "desc": "—"
   },
   {
+   "repo": "060625dfy/dsh-prompt-boost",
+   "name": "060625dfy-dsh-prompt-boost",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "优化输入内容的 DSH 插件（仿 Trae CN）：模型选择器旁的 ✨ 按钮一键把输入想法改写为高质量、忠实原文、可直接执行的提示词，↩ 一键撤销恢复原文"
+  },
+  {
    "repo": "0928OYX/dsh-free-skins",
    "name": "0928oyx-dsh-free-skins",
    "verdict": "ok",
@@ -20714,6 +20721,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (dsh) 可切换皮肤包管理器：皮肤包发现/激活/ZIP 导入，适配 0.1.x，含爱弥斯示例皮肤"
+  },
+  {
+   "repo": "1921622004/dsh-command-palette",
+   "name": "1921622004-dsh-command-palette",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "⌘K 命令面板插件，为 DeepSeek Harness Web GUI 提供：会话切换、设置直达、侧边栏页签与插件集成入口，支持自定义快捷键，手不离键盘完成大部分操作"
   },
   {
    "repo": "1wanganshi/dsh-marketing-toolkit",
@@ -24405,6 +24419,13 @@
    "desc": "—"
   },
   {
+   "repo": "zengqingsong/dsh-sidebar-frog",
+   "name": "zengqingsong-dsh-sidebar-frog",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "可弹出侧边栏 · Popout Sidebar — an artifacts + file-tree sidebar for DeepSeek Harness: offline previews (code / Mark"
+  },
+  {
    "repo": "zerr0o/dsh-desktop",
    "name": "zerr0o-dsh-desktop",
    "verdict": "ok",
@@ -27826,6 +27847,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Web GUI plugin: real-time OpenCode Go plan quota indicator (dot next to the model selector)"
+  },
+  {
+   "repo": "776138506/pinpoint",
+   "name": "776138506-pinpoint",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "指哪打哪：在任意网页标记元素并评论，截图+结构化文本直达 dsh 会话（dsh 插件 + 浏览器扩展）"
   },
   {
    "repo": "863683348/dsh-gov",
@@ -61071,6 +61099,13 @@
    "desc": "DeepSeek Harness plugin for rule-gated automatic sandbox approval with optional LLM review, one-time grants, f"
   },
   {
+   "repo": "webkubor/dsh-llm-hub",
+   "name": "webkubor-dsh-llm-hub",
+   "verdict": "ok",
+   "stars": 18,
+   "desc": "给 DSH 模型页补上官方适配器缺的那半：网关可达性探测、模型目录拉取并勾选写回、余额/配额常驻、协议与接入地址可见"
+  },
+  {
    "repo": "ArvinQi/dsh-mcp",
    "name": "arvinqi-dsh-mcp",
    "verdict": "ok",
@@ -62644,6 +62679,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: current WSL distro facts and multi-distro warnings."
+  },
+  {
+   "repo": "2h0n/dsh-web-notification",
+   "name": "2h0n-dsh-web-notification",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Desktop notifications when the model finishes a reply in DeepSeek Harness"
   },
   {
    "repo": "30-years-vango/dsh-desktop",
@@ -79425,6 +79467,13 @@
    "desc": "—"
   },
   {
+   "repo": "zhbdream/dsh-feishu-bridge",
+   "name": "zhbdream-dsh-feishu-bridge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "飞书 → 本机 DeepSeek Harness Agent 桥接（dsh-plugin）"
+  },
+  {
    "repo": "zootguru/dsh-vpn-ops",
    "name": "zootguru-dsh-vpn-ops",
    "verdict": "ok",
@@ -79486,13 +79535,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: model-facing notify tool for DeepSeek Harness — send notifications t"
-  },
-  {
-   "repo": "zhbdream/dsh-feishu-bridge",
-   "name": "zhbdream-dsh-feishu-bridge",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "KeFan-J/dsh-chat-link",
@@ -80067,6 +80109,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "173787247/dsh-wsl-im",
+   "name": "173787247-dsh-wsl-im",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: Feishu / WeCom aibot / DingTalk Stream / QQ Gateway bridge into dsh agents (WSL)"
   },
   {
    "repo": "aa2246740/dsh-gateway",
@@ -86362,6 +86411,13 @@
    "desc": "DeepSeek Harness web plugin: on-expand quota badge for the active model provider (OpenCode Go plan limits, Dee"
   },
   {
+   "repo": "zhangzhangco/dsh-llm-codex",
+   "name": "zhangzhangco-dsh-llm-codex",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Codex route for DeepSeek Harness: local Codex CLI first, OpenAI-compatible API fallback"
+  },
+  {
    "repo": "zhengjy01/dsh-start",
    "name": "zhengjy01-dsh-start",
    "verdict": "ok",
@@ -89484,6 +89540,13 @@
    "desc": "AI agent skills + MCP hub for DeepSeek Harness (dsh) & Claude Code — one console fronts every MCP server with"
   },
   {
+   "repo": "zhengjy01/dsh-updater",
+   "name": "zhengjy01-dsh-updater",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Track DeepSeek Harness's own releases and update in one click: npm dist-tags + GitHub changelog, risk-graded,"
+  },
+  {
    "repo": "zhoujianbin/dsh-codex-continue",
    "name": "zhoujianbin-dsh-codex-continue",
    "verdict": "ok",
@@ -89727,13 +89790,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: watch GitHub upstream repos for new commits on default branch, live"
-  },
-  {
-   "repo": "zhengjy01/dsh-updater",
-   "name": "dsh-updater",
-   "verdict": "untested",
-   "stars": 0,
-   "desc": "跟踪 DSH 官方版本并一键更新：读取 npm dist-tags 与 GitHub 更新说明，列出当前版本到目标版本之间每一个版本的更新点，给出分级风险清单（预发布、破坏性变更措辞、本机多份安装与 PATH 不一致、插件 dsh.engines.dsh 兼容性、备份与回滚可用性），再把安装交给分离助手——用 rename 原子备份当前安装、执行 npm、校验落地结果、用原命令重启，新版本起不来就自动回滚；npm `@zhengjunyao/dsh-updater` 0.1.0，MIT"
   },
   {
    "repo": "diwer/dsh-codex-adapter",
