@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T20:45:48Z",
+ "generated_at": "2026-11-04T21:00:45Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11229,6 +11229,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "chenqg618/compliance-skills",
+   "name": "chenqg618-compliance-skills",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "150+ deterministic, fully-offline MCP tools & free AI-agent skills for cross-industry monthly checks (payroll,"
   },
   {
    "repo": "chuxindd/dsh-context-enhancement",
@@ -28036,6 +28043,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "cnkids/dsh-session-reattach",
+   "name": "cnkids-dsh-session-reattach",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 宿主插件：把游离（未分组）会话按 cwd 归位到匹配的工作区 —— 只改工作区归属记录，不碰会话文件；支持拖拽与 /reattach 命令（默认 dry-run）｜ DSH host plugin: re-att"
   },
   {
    "repo": "Dee3526/dsh-plugin-voice-input-demo",
@@ -87046,6 +87060,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "竖版科普视频全链路生产 skill：专家视角文案、百炼 TTS、信息图动效、Live2D 数字人、音效、抖音封面/文案"
+  },
+  {
+   "repo": "ciceroyang/dsh-topic-audit",
+   "name": "ciceroyang-dsh-topic-audit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Audit the GitHub dsh-plugin topic: which repos are real DSH plugins, which are companions, which are pollution"
   },
   {
    "repo": "cinderzhan/dsh-plugin-dew",
