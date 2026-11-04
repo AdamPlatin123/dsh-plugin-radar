@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T03:15:51Z",
+ "generated_at": "2026-11-04T03:30:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2409,6 +2409,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Put a watch on a stream: background listeners that wake the DeepSeek Harness agent with new matching lines — a"
+  },
+  {
+   "repo": "duhu2000/dsh-form-fill-agent",
+   "name": "duhu2000-dsh-form-fill-agent",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "AI form filling and spreadsheet autofill for XLSX in DeepSeek Harness, using authorized Qichacha MCP facts wit"
   },
   {
    "repo": "elmaxid/gateway-agent",
@@ -11098,6 +11105,13 @@
    "desc": "—"
   },
   {
+   "repo": "chuxindd/dsh-context-enhancement",
+   "name": "chuxindd-dsh-context-enhancement",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "适用于 DeepSeek Harness 的单会话上下文增强工具，力求化解会话在触发 /compact 上下文压缩后损失信息过多，导致前后表现“判若两人”的技术困境"
+  },
+  {
    "repo": "cking000bigdemon/dsh-toolbelt",
    "name": "dsh-toolbelt",
    "verdict": "incompatible",
@@ -15158,6 +15172,13 @@
    "desc": "Busy-time input queue for the DeepSeek Harness web GUI: three-tier (now/next/later) planning, queue editing wi"
   },
   {
+   "repo": "dsh-cc/dsh-cc",
+   "name": "dsh-cc-dsh-cc",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "A batteries-included coding agent for DeepSeek Harness — Claude Code-style workflows, your choice of models, T"
+  },
+  {
    "repo": "dsh-tui-ecosystem/plugin-template",
    "name": "dsh-tui-ecosystem-plugin-template",
    "verdict": "ok",
@@ -17949,6 +17970,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Persistent wallpaper skin for dsh web: static image or muted looping video background with translucent panels."
+  },
+  {
+   "repo": "delock/dsh-whats-up",
+   "name": "delock-dsh-whats-up",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "What's up for DeepSeek Harness: a zero-maintenance todo board that scans your DSH sessions, extracts goal + on"
   },
   {
    "repo": "DfsyJian/dsh-snapshot",
@@ -21017,6 +21045,13 @@
    "desc": "DeepSeek Harness 主题中心 · Theme Center for dsh web UI：精选主题画廊（浅色/深色分组）、一键切换、自定义壁纸、dsh-theme 导入导出"
   },
   {
+   "repo": "daha1216/dsh-font-customizer",
+   "name": "daha1216-dsh-font-customizer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化"
+  },
+  {
    "repo": "dakeshui123/dsh-pet-frieren",
    "name": "dakeshui123-dsh-pet-frieren",
    "verdict": "ok",
@@ -21302,6 +21337,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "fewoot/dsh-whale-particles",
+   "name": "fewoot-dsh-whale-particles",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给 DSH Web 加一个点阵互动背景:点阵可组成鲸鱼或你上传的透明 PNG 照片,每颗粒子有自己独立的平滑外力;既能手动随鼠标扰动,也能切换自动屏保模式(360° 任意方向扫波 + 全屏呼吸躁动),参数面板支持恢复默认"
   },
   {
    "repo": "ffsszzll/dsh-sidebar-tools",
@@ -21645,6 +21687,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Unofficial Electron desktop wrapper for DeepSeek Harness Web UI with a branded splash screen."
+  },
+  {
+   "repo": "imroc/dsh-mobile-flow",
+   "name": "imroc-dsh-mobile-flow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Mobile in-flow composer for the DeepSeek Harness (dsh) Web UI — the input bar and AI confirmation cards scroll"
   },
   {
    "repo": "Isanti2016/dsh-quicksight",
@@ -26699,6 +26748,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "dsh-mixxed/dsh-client-ui-settings-skills",
+   "name": "dsh-mixxed-dsh-client-ui-settings-skills",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "A customized DeepSeek Harness skill setting UI plugin."
   },
   {
    "repo": "Dycode7/deepseek-harness-TUI-",
@@ -34042,6 +34098,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Route image prompts to a user-selected vision model in DeepSeek Harness."
+  },
+  {
+   "repo": "fangqian616/dsh-local-search",
+   "name": "fangqian616-dsh-local-search",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "拒绝花里胡哨，让你的dsh用本地网络搜索信息 \\| Zero-dependency local Bing search DSH plugin"
   },
   {
    "repo": "FiretrUCK666/dsh-task-board",
@@ -42145,6 +42208,13 @@
   {
    "repo": "dustinmoon78/dsh-usage-stats",
    "name": "dustinmoon78-dsh-usage-stats",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "duyanta123/dsh-repo-scanner",
+   "name": "duyanta123-dsh-repo-scanner",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -79649,6 +79719,13 @@
    "desc": "—"
   },
   {
+   "repo": "dusbin/dsh-chat-fold",
+   "name": "dusbin-dsh-chat-fold",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "折叠/展开AI回复的Think、Read、Edit 等操作内容，默认只展示重要信息"
+  },
+  {
    "repo": "dyuan311/dsh-openai-codex-oauth",
    "name": "dyuan311-dsh-openai-codex-oauth",
    "verdict": "incompatible",
@@ -82379,6 +82456,13 @@
    "desc": "Deterministic revision-pinned benchmarks and regression evidence for DeepSeek Harness"
   },
   {
+   "repo": "drshy-org/lightroom-py",
+   "name": "drshy-org-lightroom-py",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Unofficial Python library, CLI, and Claude/Codex agent skill for automating Adobe Lightroom Classic"
+  },
+  {
    "repo": "dsh-plugins/dsh-loader",
    "name": "dsh-plugins-dsh-loader",
    "verdict": "ok",
@@ -82993,6 +83077,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "⚡ DeepSeek Harness 自定义模型增强插件：在配置第三方提供商时，自动从权威模型库补齐上下文大小、Token 上限、视觉多模态输入与思考强度档位"
+  },
+  {
+   "repo": "cmyfqwq/webauthn-for-webview-shells",
+   "name": "cmyfqwq-webauthn-for-webview-shells",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Enable passkeys in WebView-shell browsers (Via, Quark, ...) via the official androidx.webkit switch — LSPosed"
   },
   {
    "repo": "coderstory/dsh-desktop",
@@ -90469,6 +90560,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Aggregated web-search provider for DeepSeek Harness (DSH): one prioritized queue over AnySearch / TinyFish / T"
+  },
+  {
+   "repo": "clclyzybzjsq/dsh-btw",
+   "name": "clclyzybzjsq-dsh-btw",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "enables /btw commands in deepseek-harness (similar to /btw in claude code)"
   },
   {
    "repo": "coderHeJiyu/dsh-setting-manager",
