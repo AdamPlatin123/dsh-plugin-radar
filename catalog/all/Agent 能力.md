@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1916）
+# 🤖 Agent 能力（1919）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -105,6 +105,7 @@
 - 🟩 `[可用]` [goatbroai-dsh-plugin-scaffold](https://github.com/goatbroai/dsh-plugin-scaffold) ★12 — 从规划到发布的全流程 DeepSeek Harness 插件开发 skill，支持 pure、bundle、bundle-client 三种形态，自动生成脚手架、构建脚本、门禁与验证流程
 - 🟩 `[可用]` [morluto-internalcot](https://github.com/morluto/internalcot) ★12 — Make agents show their full chain of thought.
 - ⬜ `[待定]` [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) ★12 — DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent
+- 🟩 `[可用]` [yangdcm-dsh-expert-team](https://github.com/yangdcm/dsh-expert-team) ★12 — Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out
 - 🟩 `[可用]` [alpacachen-dsh-kanban](https://github.com/alpacachen/dsh-kanban) ★11 — A shared kanban board for people and AI agents in DeepSeek Harness.
 - 🟩 `[可用]` [better-er-dsh-cache-billing](https://github.com/better-er/dsh-cache-billing) ★11 — 「DSH·缓存账单」：在上下文圆环弹层里实时算账，缓存命中、未命中与输出各带 token 与金额，峰谷自动计价，第三方中转照常记账
 - 🟩 `[可用]` [cuddly-guacamole-dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) ★11 — LLM-assisted auto approval + timeout fallback for the DeepSeek Harness Auto preset
@@ -442,6 +443,7 @@
 - 🟩 `[可用]` [wmengxiang-dsh-prompt-optimizer](https://github.com/wmengxiang/dsh-prompt-optimizer) ★2 — —
 - 🟩 `[可用]` [woosh2010-dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) ★2 — DeepSeek Harness (dsh) usage analytics plugin: peak/valley billing dock, token/cost/model dashboard, cross-ses
 - ⬜ `[待定]` [xiaohou521-fusion-moa](https://github.com/xiaohou521/fusion-moa) ★2 — Fusion MoA: model- and GPU-independent Mixture-of-Agents runtime for coding agents
+- 🟩 `[可用]` [xinyang920-dsh-caps-beacon](https://github.com/xinyang920/dsh-caps-beacon) ★2 — Caps Lock LED status beacon for DeepSeek Harness — solid while agents work, blinking when your approval or ans
 - 🟩 `[可用]` [xn-289-dsh-ninglet-novel-agent](https://github.com/XN-289/dsh-NINGLET-novel-Agent) ★2 — —
 - ⬜ `[待定]` [dsh-history](https://github.com/xuender/dsh-history) ★2 — Recall and re-run the current session's command history with ↑/↓ keys in the DSH Web composer.
 - 🟩 `[可用]` [yangdongzhen590-dsh-knj-scheduler](https://github.com/yangdongzhen590/dsh-knj-scheduler) ★2 — Cron task scheduler for DeepSeek Harness: scheduled sessions with your prompt, workspace-aware placement, pagi
@@ -1873,6 +1875,7 @@
 - `[空仓监测]` **wantosure-dsh-plugin-browser-memory** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [warmwine-dsh-memoryleak](https://github.com/warmwine/dsh-memoryleak) ★0 — 基于dsh的知识库和待办管理工具
 - 🟨 `[不兼容]` [wccong1213-dsh-auto-memory](https://github.com/WCCong1213/dsh-auto-memory) ★0 — —
+- `[未定位]` **westfox-awa-dsh-prompt-optimizer** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [wuxie233-dsh-plugin-agent-teams](https://github.com/Wuxie233/dsh-plugin-agent-teams) ★0 — —
 - 🟨 `[不兼容]` [xarleyn-dsh-sleev](https://github.com/xarleyn/dsh-sleev) ★0 — MOVED to @yadsh/dsh-sleev in xarleyn/dsh-plugins — Sleev integration for DeepSeek Harness with route-aware LLM
 - 🟨 `[不兼容]` [xby-skill-xby-anndata](https://github.com/xby-skill/xby-anndata) ★0 — AnnData MCP是一个通过MCP协议检索AnnData对象信息的工具，适用于生物医学数据分析场景

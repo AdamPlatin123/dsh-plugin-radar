@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T23:15:49Z",
+ "generated_at": "2026-11-04T23:30:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -715,6 +715,13 @@
    "verdict": "pending",
    "stars": 12,
    "desc": "DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent"
+  },
+  {
+   "repo": "yangdcm/dsh-expert-team",
+   "name": "yangdcm-dsh-expert-team",
+   "verdict": "ok",
+   "stars": 12,
+   "desc": "Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out"
   },
   {
    "repo": "alpacachen/dsh-kanban",
@@ -3018,6 +3025,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Fusion MoA: model- and GPU-independent Mixture-of-Agents runtime for coding agents"
+  },
+  {
+   "repo": "xinyang920/dsh-caps-beacon",
+   "name": "xinyang920-dsh-caps-beacon",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Caps Lock LED status beacon for DeepSeek Harness — solid while agents work, blinking when your approval or ans"
   },
   {
    "repo": "XN-289/dsh-NINGLET-novel-Agent",
@@ -20478,6 +20492,13 @@
    "desc": "Budget-LLM pool router for DeepSeek Harness: ledger, health tracking, Thompson-sampling failover across free-t"
   },
   {
+   "repo": "yiyunet/dsh-dingtalk-connector",
+   "name": "yiyunet-dsh-dingtalk-connector",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把钉钉 AI 表格接入 DeepSeek Harness ｜ 10 个工具 + 设置面板 + 定时导出 ｜ Read & write DingTalk AI Tables from DeepSeek Harness"
+  },
+  {
    "repo": "ymr6666/deepseekHarnessUI",
    "name": "ymr6666-deepseekharnessui",
    "verdict": "pending",
@@ -24335,6 +24356,13 @@
    "desc": "dsh-math-input 是一个 DeepSeek Harness 插件，提供零 token 消耗的离线数学输入能力"
   },
   {
+   "repo": "xingheyewang-1/dsh-whale-rod-cursor",
+   "name": "xingheyewang-1-dsh-whale-rod-cursor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "🎣 鱼竿鲸鱼娘光标 —— DSH Web 的鱼竿光标：弹性绳吊着 Q 版鲸鱼娘，随鼠标甩飞/回弹，悬停变色，甩猛了尖叫，停下演「钓鱼佬又空军了」小剧场"
+  },
+  {
    "repo": "xingjisen/dsh-secure-gate",
    "name": "xingjisen-dsh-secure-gate",
    "verdict": "ok",
@@ -26953,6 +26981,13 @@
    "desc": "🚀 为 DeepSeek Harness 而生的左右侧栏：左侧按工作区浏览会话（状态点/分组/搜索/移动到文件夹），右侧就地浏览文件 + Git 面板（状态/暂存/diff/提交/历史/分支）—— 会话管理像 IDE 一"
   },
   {
+   "repo": "weibaohui/dsh-fde-tools",
+   "name": "weibaohui-dsh-fde-tools",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "dsh 插件全家桶：装一个插件带一批插件（Git 服务器/WebDAV 挂载盘/知识库/定时任务/自动续跑/界面微调/自动复盘）"
+  },
+  {
    "repo": "whh110112/human-writing-skills",
    "name": "whh110112-human-writing-skills",
    "verdict": "incompatible",
@@ -29163,6 +29198,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yunxiyang/dsh-wide-conversation",
+   "name": "yunxiyang-dsh-wide-conversation",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH web client plugin: pins the conversation column to a configurable percentage of its width (default full wi"
   },
   {
    "repo": "yuzhou1227/dsh-session-manager",
@@ -58285,6 +58327,13 @@
    "desc": "—"
   },
   {
+   "repo": "xingling80/dsh-zhipu-vision",
+   "name": "xingling80-dsh-zhipu-vision",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "xinyuehtx/dsh-plugin-hooks-ordering",
    "name": "xinyuehtx-dsh-plugin-hooks-ordering",
    "verdict": "incompatible",
@@ -68729,6 +68778,13 @@
    "desc": "在 DeepSeek Harness 里孵一只数码兽：吃你的真实工作长大，数码宝贝式分支进化，零 token、模型不知道它存在 \\| Digimon-style raising game for DSH — feeds o"
   },
   {
+   "repo": "wei125775-lab/whalegirl-deskpet",
+   "name": "wei125775-lab-whalegirl-deskpet",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "会跟着 Claude Code 干活的鲸鱼娘桌宠（PetPet / dsh 双版本，Windows x64）"
+  },
+  {
    "repo": "xiekai886/dsh-MusicPlayer",
    "name": "xiekai886-dsh-musicplayer",
    "verdict": "ok",
@@ -75533,6 +75589,13 @@
    "desc": "OCR-level vision bridge for DeepSeek Harness: paste images, read them locally (macOS Vision / Tesseract), answ"
   },
   {
+   "repo": "vv5v5/dsh-memory-archive",
+   "name": "vv5v5-dsh-memory-archive",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Session memory archive + prompt viewer for DeepSeek Harness: read back what compaction folded away, inspect th"
+  },
+  {
    "repo": "wanghj040530/dsh-swarm",
    "name": "wanghj040530-dsh-swarm",
    "verdict": "ok",
@@ -75545,6 +75608,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "一个包、零配置：把 DeepSeek Harness 网页版在手机宽度下的体验从头打磨一遍——响应式抽屉布局、字号/间距适配、≥44px 触控目标、按钮/菜单/表格移动端交互、安全区适配"
+  },
+  {
+   "repo": "wangzhanchao883/dsh-lost-and-found",
+   "name": "wangzhanchao883-dsh-lost-and-found",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: local file recall - watch the folders you choose, index what appeared (name/type/size"
   },
   {
    "repo": "wangzhanchao883/dsh-plugin",

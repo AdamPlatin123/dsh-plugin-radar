@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2531）
+# 🔌 Web UI 增强（2535）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1160,6 +1160,7 @@
 - 🟩 `[可用]` [yinbenfeng-dsh-plugin-quick-draw-tool](https://github.com/Yinbenfeng/dsh-plugin-quick-draw-Tool-) ★1 — —
 - 🟩 `[可用]` [yinxe-dsh-custom-ui](https://github.com/Yinxe/dsh-custom-ui) ★1 — —
 - 🟩 `[可用]` [yishengdaxiaonengjihui-dsh-poor-router](https://github.com/yishengdaxiaonengjihui/dsh-poor-router) ★1 — Budget-LLM pool router for DeepSeek Harness: ledger, health tracking, Thompson-sampling failover across free-t
+- 🟩 `[可用]` [yiyunet-dsh-dingtalk-connector](https://github.com/yiyunet/dsh-dingtalk-connector) ★1 — 把钉钉 AI 表格接入 DeepSeek Harness ｜ 10 个工具 + 设置面板 + 定时导出 ｜ Read & write DingTalk AI Tables from DeepSeek Harness
 - ⬜ `[待定]` [ymr6666-deepseekharnessui](https://github.com/ymr6666/deepseekHarnessUI) ★1 — —
 - 🟩 `[可用]` [yolorouter-dsh-llmasking](https://github.com/yolorouter/dsh-llmasking) ★1 — Transport-layer data masking for deepseek-harness (dsh): the model sees placeholders, you see real values rest
 - 🟩 `[可用]` [young1lin-dsh-ui-gitworkbench](https://github.com/young1lin/dsh-ui-gitworkbench) ★1 — —
@@ -1769,6 +1770,7 @@
 - 🟩 `[可用]` [xiaoyizhuang03-droid-dsh-lmstudio-router](https://github.com/xiaoyizhuang03-droid/dsh-lmstudio-router) ★0 — Local LM Studio model router for the dsh web GUI: routes token-expensive bulk tasks (text work, compaction, se
 - `[空仓监测]` **xiaozuishuai-eng-prompt-optimize-dsh** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [xiaxi626-dsh-math-input](https://github.com/xiaxi626/dsh-math-input) ★0 — dsh-math-input 是一个 DeepSeek Harness 插件，提供零 token 消耗的离线数学输入能力
+- 🟩 `[可用]` [xingheyewang-1-dsh-whale-rod-cursor](https://github.com/xingheyewang-1/dsh-whale-rod-cursor) ★0 — 🎣 鱼竿鲸鱼娘光标 —— DSH Web 的鱼竿光标：弹性绳吊着 Q 版鲸鱼娘，随鼠标甩飞/回弹，悬停变色，甩猛了尖叫，停下演「钓鱼佬又空军了」小剧场
 - 🟩 `[可用]` [xingjisen-dsh-secure-gate](https://github.com/xingjisen/dsh-secure-gate) ★0 — 是一个为 DeepSeek Harness Web UI 提供企业级安全防护的认证网关插件
 - 🟩 `[可用]` [dsh-claw-policy](https://github.com/xingyingyuzhui/dsh-claw-policy) ★0 — Shared Claw/session policy schema for DeepSeek Harness
 - 🟩 `[可用]` [xingyingyuzhui-dsh-chat-tune](https://github.com/xingyingyuzhui/dsh-chat-tune) ★0 — DeepSeek Harness plugin: tune chat font, width, line height, and paragraph spacing
@@ -2168,6 +2170,7 @@
 - 🟨 `[不兼容]` [void2anything-dsh-qingagent](https://github.com/void2anything/dsh-qingagent) ★2 — AI writing assistant plugin for DeepSeek Harness — draft and revise in chat, every edit staged on a rice-paper
 - 🟨 `[不兼容]` [wangxueqi00-dsh-client-ui-knowledge-cards](https://github.com/wangxueqi00/dsh-client-ui-knowledge-cards) ★2 — A plugin of Deepseek Harness(DSH),transform your recent chat history into beautifully designed knowledge cards
 - 🟨 `[不兼容]` [webkong-dsh-plugin-sidebar](https://github.com/webkong/dsh-plugin-sidebar) ★2 — 🚀 为 DeepSeek Harness 而生的左右侧栏：左侧按工作区浏览会话（状态点/分组/搜索/移动到文件夹），右侧就地浏览文件 + Git 面板（状态/暂存/diff/提交/历史/分支）—— 会话管理像 IDE 一
+- 🟨 `[不兼容]` [weibaohui-dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) ★2 — dsh 插件全家桶：装一个插件带一批插件（Git 服务器/WebDAV 挂载盘/知识库/定时任务/自动续跑/界面微调/自动复盘）
 - 🟨 `[不兼容]` [whh110112-human-writing-skills](https://github.com/whh110112/human-writing-skills) ★2 — Advanced multilingual AI humanizer and writing toolkit for natural prose, voice preservation, long-form contin
 - 🟨 `[不兼容]` [xia-sc-dsh-git](https://github.com/xia-sc/dsh-git) ★2 — DeepSeek Harness Web GUI 的完整 Git 管理插件，形态为一个可折叠的悬浮面板， 实时跟随当前会话的工作区——在侧边栏点击不同的会话/工作区，面板会瞬间 重新绑定到对应仓库
 - 🟨 `[不兼容]` [xiangrui979-foresight](https://github.com/xiangrui979/foresight) ★2 — ForeSight: a temporal-aspect long-term memory plugin for DeepSeek Harness (dsh)
@@ -2506,6 +2509,7 @@
 - 🟨 `[不兼容]` [youwenkui-dsh-openclaw-enterprise-team](https://github.com/youwenkui/dsh-openclaw-enterprise-team) ★0 — OpenClaw Enterprise AI Team bridge for DeepSeek Harness
 - 🟨 `[不兼容]` [yth1120-deepseek-harness](https://github.com/yth1120/deepseek-harness) ★0 — DeepSeek Harness source with the dsh-web-workbench plugin suite (right workbench, terminal, timeline, review,〔📦〕
 - 🟨 `[不兼容]` [yuikizj2026-dsh-slot-homestead](https://github.com/YuiKiZJ2026/dsh-slot-homestead) ★0 — —
+- 🟨 `[不兼容]` [yunxiyang-dsh-wide-conversation](https://github.com/yunxiyang/dsh-wide-conversation) ★0 — DSH web client plugin: pins the conversation column to a configurable percentage of its width (default full wi
 - 🟨 `[不兼容]` [yuzhou1227-dsh-session-manager](https://github.com/yuzhou1227/dsh-session-manager) ★0 — DSH web plugin: sidebar session manager - list, search and batch-delete historical sessions
 - 🟨 `[不兼容]` [yyyyyylor-dsh-asuka-school-theme](https://github.com/Yyyyyylor/dsh-asuka-school-theme) ★0 — —
 - 🟨 `[不兼容]` [zaalipro-dsh-workflows](https://github.com/zaalipro/dsh-workflows) ★0 — DeepSeek workflows exactly like grok build CLI
