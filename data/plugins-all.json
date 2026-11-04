@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T03:00:47Z",
+ "generated_at": "2026-11-04T03:15:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1471,6 +1471,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five"
+  },
+  {
+   "repo": "athif23/dsh-context-rollover",
+   "name": "athif23-dsh-context-rollover",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Model-driven context-window rollover bundle for the DeepSeek Harness: fresh working context, durable notes, ve"
   },
   {
    "repo": "beijingwahw/dsh-companion",
@@ -13716,6 +13723,13 @@
    "desc": "Angelina light and dark glass themes with parallax for DeepSeek Harness"
   },
   {
+   "repo": "builtin-pb/dsh-developer",
+   "name": "builtin-pb-dsh-developer",
+   "verdict": "ok",
+   "stars": 7,
+   "desc": "The single plugin you need for DSH — build, test, diagnose, and maintain DeepSeek Harness plugins and core."
+  },
+  {
    "repo": "charrywhite/dsh-sticky-notes",
    "name": "charrywhite-dsh-sticky-notes",
    "verdict": "ok",
@@ -14925,13 +14939,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "DSH Web GUI 客户端插件：WebGL Silk 丝绸动态背景 + 全站玻璃化皮肤（官方主题 token 覆盖，零依赖） \\| WebGL silk shader background & glassmorphis"
-  },
-  {
-   "repo": "10086ggqq/dsh_theme_Minecraft",
-   "name": "10086ggqq-dsh-theme-minecraft",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "—"
   },
   {
    "repo": "1010n111/dsh-about",
@@ -17977,13 +17984,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 赛博朋克主题插件：RGB 流动霓虹、自定义背景图库、本地音乐播放器与一键启停"
-  },
-  {
-   "repo": "doebkblcya/dsh-workbench",
-   "name": "doebkblcya-dsh-workbench",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "A VS Code-style workbench (Preview + Files/Git panels) plugin for the DSH Web GUI"
   },
   {
    "repo": "domitor-syh/dsh-ui-skin-switcher",
@@ -25672,6 +25672,13 @@
    "desc": "—"
   },
   {
+   "repo": "10086ggqq/dsh_theme_Minecraft",
+   "name": "10086ggqq-dsh-theme-minecraft",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
+  },
+  {
    "repo": "1014029855/dsh-codevault",
    "name": "1014029855-dsh-codevault",
    "verdict": "incompatible",
@@ -26678,6 +26685,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "语音输入插件 for Deepseek Harness"
+  },
+  {
+   "repo": "doebkblcya/dsh-workbench",
+   "name": "doebkblcya-dsh-workbench",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "A VS Code-style workbench (Preview + Files/Git panels) plugin for the DSH Web GUI"
   },
   {
    "repo": "DongDong1997/dsh-mcskin",
@@ -42248,6 +42262,13 @@
    "desc": "—"
   },
   {
+   "repo": "Eternalloveone/dsh-palm",
+   "name": "eternalloveone-dsh-palm",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Euan-Zhang/DSH-plugin",
    "name": "DSH-plugin",
    "verdict": "pending",
@@ -53091,13 +53112,6 @@
    "desc": "—"
   },
   {
-   "repo": "Eternalloveone/dsh-palm",
-   "name": "eternalloveone-dsh-palm",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "Fishsb/dsh-project-nav",
    "name": "fishsb-dsh-project-nav",
    "verdict": "pending",
@@ -57256,6 +57270,13 @@
    "desc": "—"
   },
   {
+   "repo": "shetengteng/dsh-lumina-tarot",
+   "name": "shetengteng-dsh-lumina-tarot",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Tarot for DeepSeek Harness"
+  },
+  {
    "repo": "shi275773124/falsify-dsh",
    "name": "falsify-dsh",
    "verdict": "incompatible",
@@ -58028,6 +58049,13 @@
   {
    "repo": "Bortor/dsh-fingerprint-show",
    "name": "bortor-dsh-fingerprint-show",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "bug-huntter/web-search-advanced",
+   "name": "bug-huntter-web-search-advanced",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -75407,6 +75435,13 @@
    "desc": "Multica JSONL bridge profile for DeepSeek Harness"
   },
   {
+   "repo": "chengxianglibra/dsh-data-analysis",
+   "name": "chengxianglibra-dsh-data-analysis",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "data analysis plugin for deepseek harness."
+  },
+  {
    "repo": "DDDFXYqiming/dsh-ocr1-memory",
    "name": "dddfxyqiming-dsh-ocr1-memory",
    "verdict": "incompatible",
@@ -76203,6 +76238,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 插件：模型在知识库目录执行 grep/glob 搜索时，自动补充 QMD 语义检索结果 DSH plugin: auto-supplement QMD semantic search when the model"
+  },
+  {
+   "repo": "zsspub/dsh-personal-todo",
+   "name": "zsspub-dsh-personal-todo",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "SQLite-backed personal todo tools and Web panel for DeepSeek Harness"
   },
   {
    "repo": "ggquanta528/dsh-archive-manager",
@@ -77591,6 +77633,13 @@
    "desc": "—"
   },
   {
+   "repo": "iTraceur/dsh-wechat-mp-search",
+   "name": "itraceur-dsh-wechat-mp-search",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "jensentsts/dsh-completion-sound",
    "name": "jensentsts-dsh-completion-sound",
    "verdict": "ok",
@@ -78014,13 +78063,6 @@
    "repo": "Zyy1997/dsh-sound-notify",
    "name": "zyy1997-dsh-sound-notify",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "iTraceur/dsh-wechat-mp-search",
-   "name": "itraceur-dsh-wechat-mp-search",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -79374,6 +79416,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Automated unit-test generation for DeepSeek Harness: /testgen command + generate_tests tool that scaffold, run"
+  },
+  {
+   "repo": "bululuburuarua666/dsh-herald",
+   "name": "bululuburuarua666-dsh-herald",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "🔔 Herald 传令官 — DSH 三通道任务通知：页内浮层、浏览器横幅、宿主直发系统通知（浏览器关闭也送达） \\| Tri-channel task notifications for DeepSeek Harness"
   },
   {
    "repo": "ccch1mneyyy/dsh-auth",
@@ -86614,13 +86663,6 @@
    "desc": "AnySearch web search provider plugin for DeepSeek Harness (dsh) — zero-config, out-of-the-box"
   },
   {
-   "repo": "Fast-Editor/lynkr-dsh-plugin",
-   "name": "fast-editor-lynkr-dsh-plugin",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "faye0526/dsh-backup-btn",
    "name": "faye0526-dsh-backup-btn",
    "verdict": "ok",
@@ -91738,6 +91780,13 @@
    "desc": "—"
   },
   {
+   "repo": "biyuhao/dsh-web-searxng",
+   "name": "biyuhao-dsh-web-searxng",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Self-hosted SearXNG search backend for DSH — settings card, one-click connectivity tests, and a self-ranking c"
+  },
+  {
    "repo": "bleakbelladonnals/dsh-echo",
    "name": "bleakbelladonnals-dsh-echo",
    "verdict": "incompatible",
@@ -91855,6 +91904,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness（dsh）的 Matrix agent 桥接插件：把 Matrix 房间桥接到 harness agent 会话，每个房间一个会话，支持在聊天里远程监控、审批和追加指令；多分身架构 + 媒"
+  },
+  {
+   "repo": "Fast-Editor/lynkr-dsh-plugin",
+   "name": "fast-editor-lynkr-dsh-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "fastengiel-kurai/dsh-peekfile-everything",
