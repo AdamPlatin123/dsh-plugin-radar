@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T23:00:51Z",
+ "generated_at": "2026-11-04T23:15:49Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4754,6 +4754,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "tq04qom/dsh-multirole",
+   "name": "tq04qom-dsh-multirole",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH 多角色协作模式插件——人/顾问/总控/执行者四层架构，任务单制度 + 写入域互斥 + 授权模式 + 裁决日志，让大模型协作开发可控、可复用"
   },
   {
    "repo": "tsja2001/dsh-token-dashboard",
@@ -12111,6 +12118,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "tabilet/tabilet-skills",
+   "name": "tabilet-tabilet-skills",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Agentic Engineering Harness for Small to Large Projects"
   },
   {
    "repo": "Temoa/dsh-sessions-rm",
