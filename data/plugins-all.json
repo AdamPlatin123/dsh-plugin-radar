@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T15:00:51Z",
+ "generated_at": "2026-11-04T16:00:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -15387,6 +15387,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "fangwen9527/dsh-composer-ux",
+   "name": "fangwen9527-dsh-composer-ux",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH Web 输入体验插件：发送/换行键位切换、右键菜单、面板滚动与尺寸记忆、OpenCode 请求头自动注入"
   },
   {
    "repo": "FAVKTOXIC/dsh-theme-liquid-glass",
