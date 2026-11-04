@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T04:15:53Z",
+ "generated_at": "2026-11-04T04:30:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5848,6 +5848,13 @@
    "desc": "—"
   },
   {
+   "repo": "hasan-aghayev/dsh-session-resilience",
+   "name": "hasan-aghayev-dsh-session-resilience",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Safe DSH restarts, token-aware reconnect, and policy-based recovery for DSH 0.2+"
+  },
+  {
    "repo": "HiccupGeng/dsh-briefing-skill",
    "name": "hiccupgeng-dsh-briefing-skill",
    "verdict": "pending",
@@ -8494,6 +8501,20 @@
    "desc": "Daily session report generator for DeepSeek Harness with one-click flomo sync: AI-narrated daily/weekly/monthl"
   },
   {
+   "repo": "zhengjy01/dsh-skill-recommender",
+   "name": "zhengjy01-dsh-skill-recommender",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Session-profile skill recommender for DeepSeek Harness"
+  },
+  {
+   "repo": "zhengjy01/dsh-zsxq",
+   "name": "zhengjy01-dsh-zsxq",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Knowledge Planet (zsxq) integration for DeepSeek Harness"
+  },
+  {
    "repo": "zisen123/dsh-reasoning-ruler",
    "name": "zisen123-dsh-reasoning-ruler",
    "verdict": "ok",
@@ -8583,20 +8604,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "一个可以管理DSH上安装的skill的插件，可以动态开关skill来防止误触发"
-  },
-  {
-   "repo": "zhengjy01/dsh-skill-recommender",
-   "name": "zhengjy01-dsh-skill-recommender",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Session-profile skill recommender for DeepSeek Harness"
-  },
-  {
-   "repo": "zhengjy01/dsh-zsxq",
-   "name": "zhengjy01-dsh-zsxq",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Knowledge Planet (zsxq) integration for DeepSeek Harness"
   },
   {
    "repo": "zzzmmmnn/dsh-openkapsel",
@@ -23362,11 +23369,25 @@
    "desc": "—"
   },
   {
+   "repo": "temidayoxyz/deep-browser",
+   "name": "temidayoxyz-deep-browser",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (dsh) plugin: browse http(s) pages in the right sidebar, beside the conversation."
+  },
+  {
    "repo": "terrywangcode/dsh-mermaid-web",
    "name": "terrywangcode-dsh-mermaid-web",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Web UI plugin for rendering Mermaid diagrams with zoom and a fullscreen workspace"
+  },
+  {
+   "repo": "thanhdz235123-commits/nyx-dsh-plugins",
+   "name": "thanhdz235123-commits-nyx-dsh-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Nyx plugins for DeepSeek Harness — a right-side file panel and true edit-message, both drawn with the harness'"
   },
   {
    "repo": "thooy/dsh-client-ui-theme-manager",
@@ -27896,6 +27917,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "henrytian1998/dsh-doctor",
+   "name": "henrytian1998-dsh-doctor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 诊断插件：把 home、进程、端口、大 session、版本问题收成一份可粘贴的报告"
   },
   {
    "repo": "hongbaiqi/dsh-model-account-login",
@@ -73279,6 +73307,13 @@
    "desc": "AI投标灵标书审核 Skill：稳定审核非扫描 PDF/DOCX 的商务标、技术标与通用文档风险"
   },
   {
+   "repo": "zzjzzb/ai-memory",
+   "name": "zzjzzb-ai-memory",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Personal AI memory semantic layer SDK (Rust + SQLite) — short/mid/long-term memory with hybrid recall"
+  },
+  {
    "repo": "violetdream/dsh-officecli",
    "name": "violetdream-dsh-officecli",
    "verdict": "ok",
@@ -87760,6 +87795,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Pasting non-image files into the web composer inserts their paths as @file references (host-side clipboard rea"
+  },
+  {
+   "repo": "mafeis/dsh-image-guard",
+   "name": "mafeis-dsh-image-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: trims historical images to the provider image budget before sending, learns the image cap from HTT"
   },
   {
    "repo": "maoruoyu/dsh-plugin-store",
