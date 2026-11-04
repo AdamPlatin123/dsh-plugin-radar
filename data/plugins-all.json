@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T21:30:43Z",
+ "generated_at": "2026-11-04T21:45:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11532,6 +11532,20 @@
    "desc": "—"
   },
   {
+   "repo": "ivanearisty/dsh-plugin-cmdk",
+   "name": "ivanearisty-dsh-plugin-cmdk",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Command palette for DeepSeek Harness (Cmd+K) — new chat, jump to session, switch model, permissions, slash com"
+  },
+  {
+   "repo": "ivanearisty/dsh-session-search",
+   "name": "ivanearisty-dsh-session-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Full-text search across every DeepSeek Harness conversation — MiniSearch host index, Option+K palette, jump st"
+  },
+  {
    "repo": "ivanon/dsh-dev-crew",
    "name": "ivanon-dsh-dev-crew",
    "verdict": "incompatible",
@@ -13539,6 +13553,13 @@
    "verdict": "pending",
    "stars": 10,
    "desc": "Replace dsh's built-in web search with search MCP servers (Tavily/Brave/Exa/Perplexity/DuckDuckGo/custom), con"
+  },
+  {
+   "repo": "huashenglian/dsh-livechat",
+   "name": "huashenglian-dsh-livechat",
+   "verdict": "ok",
+   "stars": 10,
+   "desc": "给 dsh 对话区叠加 B 站风格吐槽弹幕，可接入 LLM 生成弹幕"
   },
   {
    "repo": "kunjinkao-os/dsh-mobile-gui-agent",
@@ -38041,6 +38062,13 @@
    "desc": "dsh预设热切换"
   },
   {
+   "repo": "jetheaven/dsh-translate-pro",
+   "name": "dsh-translate-pro",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "专业翻译：术语一致、专业领域选择与语气调整，附带术语对照表"
+  },
+  {
    "repo": "JIAChenyu525/dsh-explore",
    "name": "jiachenyu525-dsh-explore",
    "verdict": "ok",
@@ -41152,13 +41180,6 @@
    "repo": "jetheaven/dsh-seo-writer",
    "name": "dsh-seo-writer",
    "verdict": "pending",
-   "stars": 1,
-   "desc": "DeepSeek Harness plugin"
-  },
-  {
-   "repo": "jetheaven/dsh-translate-pro",
-   "name": "dsh-translate-pro",
-   "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin"
   },
@@ -59370,6 +59391,13 @@
    "desc": "资源下载插件：aria2 RPC 引擎，磁力/BT/HTTP 直链下载管理（添加/查询/暂停/移除/限速）"
   },
   {
+   "repo": "jonah791/dsh-plugin-bootreport",
+   "name": "jonah791-dsh-plugin-bootreport",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 启动自报账本：web 启动时落一行「本进程加载了哪些插件构建」，判据 lib mtime vs 进程起点，一条命令答全生态「构建是否生效 / 谁需重启」"
+  },
+  {
    "repo": "jonah791/dsh-temporal-self",
    "name": "jonah791-dsh-temporal-self",
    "verdict": "incompatible",
@@ -76366,6 +76394,13 @@
    "desc": "—"
   },
   {
+   "repo": "jonah791/dsh-agent-cluster",
+   "name": "jonah791-dsh-agent-cluster",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 多实例通讯底座：文件总线 + 在线名册 + 点对点/广播 + 收件箱 + 会话注入（多智能体工作台的 L0 层）"
+  },
+  {
    "repo": "jonah791/dsh-wq-bridge",
    "name": "jonah791-dsh-wq-bridge",
    "verdict": "incompatible",
@@ -78310,6 +78345,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Notify after deepseek harness finishes your work"
+  },
+  {
+   "repo": "jiangnan-awa/dsh-user-message-jump",
+   "name": "jiangnan-awa-dsh-user-message-jump",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "JohnWes7/ds-notify-plugin",
@@ -80396,6 +80438,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness 原生 RSS 订阅监控插件：多源订阅、关键词过滤、定时检查去重、新条目邮件通知（缩略图 HTML 模板），SMTP 密码走凭据库永不落盘，原生设置页四页签体验"
+  },
+  {
+   "repo": "icanotcode/dsh-feishu-bot",
+   "name": "icanotcode-dsh-feishu-bot",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 社区飞书插件：Webhook、长连接、可视化配置与消息自动回复"
   },
   {
    "repo": "itr-del/dsh-feishu",
@@ -83924,6 +83973,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "User-governed local memory spaces for DeepSeek Harness — explicitly share selected sessions with previewable,"
+  },
+  {
+   "repo": "id7869/dsh-security",
+   "name": "id7869-dsh-security",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "在 DeepSeek Harness (DSH) 内等价重建 OpenAI codex-security 安全审计能力的原生插件"
   },
   {
    "repo": "iiiweiii/dsh-guardwall",
@@ -92954,6 +93010,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jasonjiang9527/dsh-plugins",
+   "name": "jasonjiang9527-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "自研 dsh 插件合集 · dsh-btw: 划选引用 / btw 临时会话 / 新上下文 / Provider 高级配置"
   },
   {
    "repo": "JesmonX/dsh-web-shell",
