@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-04T03:30:52Z",
+ "generated_at": "2026-11-04T03:45:41Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3711,6 +3711,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "glh5835/dsh-prompt-refiner",
+   "name": "glh5835-dsh-prompt-refiner",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 提示词精炼插件：结构化改写 + 成本路由 + 缓存 + token 统计"
   },
   {
    "repo": "GreenLv/dsh-session-insights",
@@ -18203,6 +18210,13 @@
    "desc": "Team access for the DeepSeek Harness (dsh) web UI — login wall + HTTP/WebSocket reverse proxy"
   },
   {
+   "repo": "fuilyha56-wq/dsh-for-mofox-ada",
+   "name": "fuilyha56-wq-dsh-for-mofox-ada",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness integration plugin for Neo-MoFox"
+  },
+  {
    "repo": "ganfne123/dsh-plugin-api-quota",
    "name": "ganfne123-dsh-plugin-api-quota",
    "verdict": "ok",
@@ -18614,6 +18628,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "kaerf15/dsh-geek-ui",
+   "name": "kaerf15-dsh-geek-ui",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH Geek UI — dsh web 极客增强插件集合（页头重排 / 极客侧栏 / 归档管理）"
   },
   {
    "repo": "kaixinbaba/dsh-session-activity",
@@ -25644,6 +25665,13 @@
    "desc": "Task-aware native capability manager for DeepSeek Harness — use, prepare, and verify built-in DSH tools before"
   },
   {
+   "repo": "hoshinoick811/dsh-tool-ssh",
+   "name": "hoshinoick811-dsh-tool-ssh",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "MobaXterm-style SSH/SFTP tool plugin for DeepSeek Harness (DSH): saved connection profiles, persistent multipl"
+  },
+  {
    "repo": "jinsiyu/dsh-code-server-app",
    "name": "jinsiyu-dsh-code-server-app",
    "verdict": "incompatible",
@@ -26832,6 +26860,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Safety-gated SSH development plugin for DeepSeek Harness and MCP, built for GPU and offline laboratory servers"
+  },
+  {
+   "repo": "giiiiiithub/terminal",
+   "name": "giiiiiithub-terminal",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness Plugin，Web UI 的终端面板：node-pty 真实 PTY + xterm.js 浏览器渲染，开箱即用的交互式 shell"
   },
   {
    "repo": "GMH13552/dsh-longrun-suite",
@@ -42934,6 +42969,13 @@
    "desc": "—"
   },
   {
+   "repo": "hy-sde/dsh-av",
+   "name": "hy-sde-dsh-av",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Read-only Automic Vault plumbing for DeepSeek Harness: the host ctx.av service (av CLI probe, scan/doctor/dete"
+  },
+  {
    "repo": "hy-sde/dsh-web-search-public",
    "name": "hy-sde-dsh-web-search-public",
    "verdict": "ok",
@@ -58901,6 +58943,13 @@
    "desc": "—"
   },
   {
+   "repo": "k12u/dsh-ios-pwa",
+   "name": "k12u-dsh-ios-pwa",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pre alpha〔📦〕"
+  },
+  {
    "repo": "Kev-ZJY/dsh-exa-search",
    "name": "kev-zjy-dsh-exa-search",
    "verdict": "incompatible",
@@ -62812,6 +62861,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh桌面端，windows版，无依赖，纯壳启动器，DSH原生更新，免维护，独立视窗"
+  },
+  {
+   "repo": "kaerf15/dsh-plus",
+   "name": "kaerf15-dsh-plus",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH+：给 DeepSeek Harness web 套原生桌面窗口的多应用容器（electron，macOS/Windows）"
   },
   {
    "repo": "kakajun/dsh-web-recorder",
@@ -84591,6 +84647,13 @@
    "desc": "DeepSeek Harness Web client plugin that displays real-time DeepSeek API balance."
   },
   {
+   "repo": "flashyiyi/dsh-zcode-persona",
+   "name": "flashyiyi-dsh-zcode-persona",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Make the model believe it is inside the Z.ai Code (Zhipu ZCode) agent environment"
+  },
+  {
    "repo": "fly3366/dsh-o11y-plugin",
    "name": "fly3366-dsh-o11y-plugin",
    "verdict": "ok",
@@ -89883,6 +89946,13 @@
    "desc": "—"
   },
   {
+   "repo": "fu827707013/dsh-codebuddy-cli",
+   "name": "fu827707013-dsh-codebuddy-cli",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "dsh-codebuddy-cli"
+  },
+  {
    "repo": "grunmin/dsh-acp-enhanced",
    "name": "grunmin-dsh-acp-enhanced",
    "verdict": "incompatible",
@@ -90301,6 +90371,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "Remote execution worlds for DeepSeek Harness: run the agent's Bash, terminals, LSP and file tools inside a con"
+  },
+  {
+   "repo": "grloper/dsh-claude-oauth",
+   "name": "grloper-dsh-claude-oauth",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Claude Pro/Max OAuth model provider for DeepSeek Harness with Google/Gmail login in Settings, auto-token refre"
   },
   {
    "repo": "guchang/draw2code",
