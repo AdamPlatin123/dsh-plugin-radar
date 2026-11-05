@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T02:45:58Z",
+ "generated_at": "2026-11-05T03:00:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6945,6 +6945,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness embedded read-only viewer for TencentDB Agent Memory's four-layer local memory"
+  },
+  {
+   "repo": "pgjh/dsh-model-metadata",
+   "name": "pgjh-dsh-model-metadata",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: match custom-gateway models to the model metadata they should have (context window, output cap, re"
   },
   {
    "repo": "phoenixlucky/family-lovers-skill",
@@ -26260,6 +26267,13 @@
    "desc": "Custom product name and logo branding for DeepSeek Harness Web 自定义 DeepSeek Harness Web 端 logo 和产品名称"
   },
   {
+   "repo": "raphael-y7/dsh-desktop-statusbar",
+   "name": "raphael-y7-dsh-desktop-statusbar",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "把 DSH 桌面端底部的统计行换成可配置状态栏：10 个字段可选可排序，按 DeepSeek 官方峰谷口径估算费用，支持自定义模型单价与账户余额"
+  },
+  {
    "repo": "sixtysevenlf/dsh-sound-alerts",
    "name": "sixtysevenlf-dsh-sound-alerts",
    "verdict": "incompatible",
@@ -27938,6 +27952,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Remote SSH workspace & deployment Agent for DeepSeek Harness — SSH Files, terminal, remote editing, zero-to-on"
+  },
+  {
+   "repo": "qingli-sketch/dsh-preset-agent-manager",
+   "name": "qingli-sketch-dsh-preset-agent-manager",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Preset agent manager for DeepSeek Harness: a sidebar admin panel and the preset_agent_dispatch tool, with stri"
   },
   {
    "repo": "QinLuza/dsh-rollback-visual",
@@ -40071,6 +40092,13 @@
    "desc": "—"
   },
   {
+   "repo": "sd1g1/dsh-image-describe",
+   "name": "sd1g1-dsh-image-describe",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 图片多模态描述插件"
+  },
+  {
    "repo": "Sdongmaker/vpshub",
    "name": "sdongmaker-vpshub",
    "verdict": "ok",
@@ -46320,6 +46348,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "In-process death black box for DeepSeek Harness (dsh) hosts: heartbeat windows, crash stacks, end-kind self-ch"
+  },
+  {
+   "repo": "ShenpingDD/wooden-fish-dsh",
+   "name": "shenpingdd-wooden-fish-dsh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "ShenXuAkaEkstasis/dsh-ai-shopping-assistant",
@@ -54211,13 +54246,6 @@
    "desc": "—"
   },
   {
-   "repo": "ShenpingDD/wooden-fish-dsh",
-   "name": "shenpingdd-wooden-fish-dsh",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "SodaZheng/dsh-totp",
    "name": "sodazheng-dsh-totp",
    "verdict": "pending",
@@ -56120,6 +56148,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "deepseek harness manim数学插件"
+  },
+  {
+   "repo": "piaobo123/dafeiyu-buchibaifan",
+   "name": "piaobo123-dafeiyu-buchibaifan",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "QiE2035/dsh-llm-headers",
@@ -71016,6 +71051,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Pi and DSH plugins for stock market"
+  },
+  {
+   "repo": "saya-ch/dsh-amadeus",
+   "name": "saya-ch-dsh-amadeus",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Amadeus — DSH Galgame Mode + 独立移动端 APP"
   },
   {
    "repo": "Traveritas/petween",
@@ -89552,6 +89594,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "roushanyyzz/dsh-diff-vis",
+   "name": "roushanyyzz-dsh-diff-vis",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 AI 在对话中每修改一个文件，你就立刻看到它改了什么"
   },
   {
    "repo": "rouyiemei/dsh-smart-router",

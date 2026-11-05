@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2559）
+# 🔌 Web UI 增强（2561）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2059,6 +2059,7 @@
 - 🟨 `[不兼容]` [lanbaolu-dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) ★5 — DeepSeek Harness (DSH) 微信桥接插件：三端通用，host 工具 + Web 管理面板
 - 🟨 `[不兼容]` [lbl61-dsh-drop-in](https://github.com/lbl61/dsh-drop-in) ★5 — 把文件拖入/粘贴到 DeepSeek Harness Web：输入框原生引用气泡，随消息发送（含绝对路径），气泡渲染文件卡片
 - 🟨 `[不兼容]` [ningbonb-dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) ★5 — Custom product name and logo branding for DeepSeek Harness Web 自定义 DeepSeek Harness Web 端 logo 和产品名称
+- 🟨 `[不兼容]` [raphael-y7-dsh-desktop-statusbar](https://github.com/raphael-y7/dsh-desktop-statusbar) ★5 — 把 DSH 桌面端底部的统计行换成可配置状态栏：10 个字段可选可排序，按 DeepSeek 官方峰谷口径估算费用，支持自定义模型单价与账户余额
 - 🟨 `[不兼容]` [sixtysevenlf-dsh-sound-alerts](https://github.com/sixtysevenlf/dsh-sound-alerts) ★5 — DSH Web UI 声音提示插件：需要授权/提问与任务完成时播放提示音 (Web Audio, no assets)
 - 🟨 `[不兼容]` [tsonglew-dsh-workspace-search](https://github.com/tsonglew/dsh-workspace-search) ★5 — VS Code-style workspace keyword search for DeepSeek Harness: a Search tab in dsh-better-sidebar
 - 🟨 `[不兼容]` [xanthanl-dsh-plugin-uisfx](https://github.com/XanthanL/dsh-plugin-uisfx) ★5 — —
@@ -2302,6 +2303,7 @@
 - 🟨 `[不兼容]` [princefrogdida-ux-dsh-vision-suite](https://github.com/princefrogdida-ux/dsh-vision-suite) ★1 — Windows-first vision suite with image understanding, OCR, screenshot diffing, and multi-provider routing for D
 - 🟨 `[不兼容]` [pureskywalk-dsh-context-show](https://github.com/pureskywalk/dsh-context-show) ★1 — DSH Web 实时上下文占用面板：可拖动面板、按工具/供应商统计 token 用量与花费、峰谷计价
 - 🟨 `[不兼容]` [qigelunbiya-dsh-ssh-files-sidebar](https://github.com/qigelunbiya/dsh-ssh-files-sidebar) ★1 — Remote SSH workspace & deployment Agent for DeepSeek Harness — SSH Files, terminal, remote editing, zero-to-on
+- 🟨 `[不兼容]` [qingli-sketch-dsh-preset-agent-manager](https://github.com/qingli-sketch/dsh-preset-agent-manager) ★1 — Preset agent manager for DeepSeek Harness: a sidebar admin panel and the preset_agent_dispatch tool, with stri
 - 🟨 `[不兼容]` [qinluza-dsh-rollback-visual](https://github.com/QinLuza/dsh-rollback-visual) ★1 — —
 - 🟨 `[不兼容]` [radicalgitter-dsh-ui-translate](https://github.com/RadicalGitter/dsh-ui-translate) ★1 — —
 - 🟨 `[不兼容]` [rain02333z-spec-dsh-plugin-sidebar-manager](https://github.com/rain02333z-spec/dsh-plugin-sidebar-manager) ★1 — Installable DSH Web sidebar plugin manager with search, categories, and runtime toggles
