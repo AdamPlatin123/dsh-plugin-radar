@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1938）
+# 🤖 Agent 能力（1940）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1034,6 +1034,7 @@
 - `[空仓监测]` **pawpaw-agent-dsh-mobile** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [pbwheel-dsh-agency-market](https://github.com/pbwheel/dsh-agency-market) ★0 — 把 agency-agents 中的 273 个专业智能体装进 DeepSeek Harness，类似 workbuddy 中的专家
 - 🟩 `[可用]` [perinchiang-dsh-memory-dashboard](https://github.com/perinchiang/dsh-memory-dashboard) ★0 — DeepSeek Harness embedded read-only viewer for TencentDB Agent Memory's four-layer local memory
+- 🟩 `[可用]` [pgjh-dsh-model-metadata](https://github.com/pgjh/dsh-model-metadata) ★0 — DSH plugin: match custom-gateway models to the model metadata they should have (context window, output cap, re
 - 🟩 `[可用]` [phoenixlucky-family-lovers-skill](https://github.com/phoenixlucky/family-lovers-skill) ★0 — ❤️ 家庭关怀技能 · 走出原生家庭 — 觉察、疗愈、陪伴
 - 🟩 `[可用]` [phoenixlucky-weiliaozi-skill](https://github.com/phoenixlucky/weiliaozi-skill) ★0 — 尉缭子分析法 - 融汇黄帝、太公望、孙武、吴起、齐桓公五位先贤思想，按本质、条件、得失、先后、对手进行结构化分析的五栏框架
 - ⬜ `[待定]` [pixellover1433-dsh-plugin-dev-skills](https://github.com/pixellover1433/dsh-plugin-dev-skills) ★0 — This set of skills allows your agent to create plugins for Deepseek Harness.
@@ -1055,6 +1056,7 @@
 - 🟩 `[可用]` [rainpomelo-deepseek-harness-mimo-memory](https://github.com/Rainpomelo/deepseek-harness-mimo-memory) ★0 — —
 - 🟩 `[可用]` [dsh-turn-budget](https://github.com/randerous/dsh-turn-budget) ★0 — Advisory turn step-budget reminders for DeepSeek Harness — loop convergence guard (dsh-plugin)
 - 🟩 `[可用]` [raomaiping-hash-dsh-rgate](https://github.com/raomaiping-hash/dsh-rgate) ★0 — Remote access login gate for DeepSeek Harness Web: password wall, /api gating, session cookies, Remote Access
+- `[未定位]` **rayyeung1989-dsh-memory-tencentdb** — 占位待复核，判定暂不展示
 - `[未定位]` **re-itrt-dsh-skill-mcp-panel** — 占位待复核，判定暂不展示
 - `[空仓监测]` **realalexandreai-dsh-noc-memory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [renat3u-dsh-upgrade-skill](https://github.com/renat3u/dsh-upgrade-skill) ★0 — dsh 插件升级适配skill
