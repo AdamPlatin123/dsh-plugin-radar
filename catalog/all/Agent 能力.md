@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1923）
+# 🤖 Agent 能力（1924）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1657,6 +1657,7 @@
 - 🟨 `[不兼容]` [pakco77-dsh-daqi-skill](https://github.com/pakco77/dsh-daqi.skill) ★1 — —
 - 🟨 `[不兼容]` [phoenixlucky-chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) ★1 — 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力
 - 🟨 `[不兼容]` [player-yn-dsh-agent-driver-writehere](https://github.com/Player-YN/dsh-agent-driver-writehere) ★1 — —
+- 🟨 `[不兼容]` [polaris-smart-dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) ★1 — dsh (DeepSeek Harness) 跨 agent 信箱插件：mailbox_send/check/reply/list/done/broadcast + task_create/list，桥接 agent-m
 - 🟨 `[不兼容]` [powerrrrrrrr-dsh-live-loop](https://github.com/POWERRRRRRRR/dsh-live-loop) ★1 — —
 - 🟨 `[不兼容]` [qinpanwan-dsh-prompt-antivirus](https://github.com/QinpanWan/dsh-prompt-antivirus) ★1 — —
 - 🟨 `[不兼容]` [qiuyiwu1989-star-dsh-k12-substrate](https://github.com/qiuyiwu1989-star/dsh-k12-substrate) ★1 — 让 Agent 查询课程能力、清单知识点和本地学习者档案，辅助判断下一步学习
