@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T00:01:01Z",
+ "generated_at": "2026-11-05T00:15:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3984,6 +3984,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "自主循环智能体最小可行方案 - Autonomous Circular Agent MVP: loop = existence itself (verified on DeepSeek Harness, 2026-08-"
+  },
+  {
+   "repo": "jonah791/computer-use",
+   "name": "jonah791-computer-use",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH computer-use 插件：让 agent 自己看屏幕、自己操作鼠标键盘（截屏/窗口/鼠标/键盘 6 工具），用于自主开发-验证-迭代闭环"
   },
   {
    "repo": "jonah791/dsh-agent-browser",
@@ -9453,6 +9460,13 @@
    "desc": "—"
   },
   {
+   "repo": "godv61/dsh-task-engine",
+   "name": "godv61-dsh-task-engine",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "Engineering workflow plugin for DeepSeek Harness: task stages, verification records, commit checks, and skill"
+  },
+  {
    "repo": "ht719/dsh-session-categories",
    "name": "ht719-dsh-session-categories",
    "verdict": "incompatible",
@@ -10767,6 +10781,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Local HTTP API for DeepSeek Harness: let other agents control DSH sessions through official ApiProxy routes."
+  },
+  {
+   "repo": "kovey/dsh-memory",
+   "name": "kovey-dsh-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Layered memory plugin for DeepSeek Harness: strictly separated project/global memory, host-driven recall befor"
   },
   {
    "repo": "kyrielrving11/LoopForge",
@@ -16537,6 +16558,13 @@
    "desc": "DeepSeek Harness Skin Plugin"
   },
   {
+   "repo": "elong16/dsh-skin-xuyuanwu",
+   "name": "elong16-dsh-skin-xuyuanwu",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "Ericwong5021/dsh-kanban",
    "name": "dsh-kanban",
    "verdict": "ok",
@@ -18796,6 +18824,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Continuous water-flow light for the dsh web 'Deep diving...' turn status — three parallax gradient currents ov"
+  },
+  {
+   "repo": "imchangchang/dsh-llm-provider",
+   "name": "imchangchang-dsh-llm-provider",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "dsh LLM provider plugin: self-maintained pi-ai bridge, model selector, provider quota/billing and settings UI"
   },
   {
    "repo": "imdeniil/dsh-ui-zoom",
