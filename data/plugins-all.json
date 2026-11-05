@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T00:45:55Z",
+ "generated_at": "2026-11-05T01:15:56Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5085,6 +5085,13 @@
    "desc": "—"
   },
   {
+   "repo": "zhuto666/dsh-compact-agents",
+   "name": "zhuto666-dsh-compact-agents",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "zixin947/dsh-compact",
    "name": "zixin947-dsh-compact",
    "verdict": "ok",
@@ -6385,6 +6392,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "lau4tin1/dsh-skill-router",
+   "name": "lau4tin1-dsh-skill-router",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "An automatic skill router for deepseek harness"
   },
   {
    "repo": "lcb522/dsh-plugin-vision-bridge",
@@ -9579,6 +9593,13 @@
    "desc": "Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness"
   },
   {
+   "repo": "antonio-mastropaolo/dsh-anthropic-membership",
+   "name": "antonio-mastropaolo-dsh-anthropic-membership",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DeepSeek Harness plugin: Sign in with Claude Pro/Max (no API key)"
+  },
+  {
    "repo": "BAIKAI23333/dsh-skills-manager",
    "name": "baikai23333-dsh-skills-manager",
    "verdict": "incompatible",
@@ -11187,6 +11208,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 的安卓壳子 APP - 把家里电脑的 AI 装进口袋,所有插件/技能/工具 100% 保留"
+  },
+  {
+   "repo": "1998moye/dsh-plugin-usage",
+   "name": "1998moye-dsh-plugin-usage",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）Web 用量与费用看板插件：余额、今日/本周/本月/累计消费、API 请求次数、token 明细与趋势图，按 DeepSeek 官方峰谷价估算，数据从本地会话日志全量重建"
   },
   {
    "repo": "245678000000/dsh-autopilot",
@@ -13917,6 +13945,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "avdergh/poe2-exile-architect",
+   "name": "avdergh-poe2-exile-architect",
+   "verdict": "pending",
+   "stars": 8,
+   "desc": "Research, create, and understand Path of Exile 2 builds with AI agents and Path of Building."
   },
   {
    "repo": "cccakeee/awesome-dsh-plugins",
@@ -21129,6 +21164,13 @@
    "desc": "Community plugins and UI extensions for DeepSeek Harness"
   },
   {
+   "repo": "amwangfan/dsh-privacy-guard",
+   "name": "amwangfan-dsh-privacy-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 隐私保护插件：本地凭据脱敏网关的控制面板 —— 状态与审计看板、泄密探测沙箱、豁免白名单、加密密钥管理、凭据保护模型入口与部署控制"
+  },
+  {
    "repo": "andrepontesmelo/dsh-suite",
    "name": "andrepontesmelo-dsh-suite",
    "verdict": "ok",
@@ -28323,6 +28365,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "bobobo2026/dsh-workspace-promote",
+   "name": "bobobo2026-dsh-workspace-promote",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH host plugin: promote the workspace you just submitted a task in to the top of the sidebar — once per submi"
   },
   {
    "repo": "chendefine/dsh-sidebar-onlyoffice",
@@ -87557,6 +87606,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Session code collector for DeepSeek Harness: gather every code block the model produced in the current session"
+  },
+  {
+   "repo": "bycall/dsh-engineer-tools",
+   "name": "bycall-dsh-engineer-tools",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Engineering work-tools for DeepSeek Harness: a scoped git runner and a package-manager (npm/pnpm/yarn/bun) run"
   },
   {
    "repo": "cchenbin042/yuque-notes-plugin",
