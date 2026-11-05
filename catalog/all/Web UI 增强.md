@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2562）
+# 🔌 Web UI 增强（2567）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1793,6 +1793,7 @@
 - 🟩 `[可用]` [xingjisen-dsh-secure-gate](https://github.com/xingjisen/dsh-secure-gate) ★0 — 是一个为 DeepSeek Harness Web UI 提供企业级安全防护的认证网关插件
 - 🟩 `[可用]` [dsh-claw-policy](https://github.com/xingyingyuzhui/dsh-claw-policy) ★0 — Shared Claw/session policy schema for DeepSeek Harness
 - 🟩 `[可用]` [xingyingyuzhui-dsh-chat-tune](https://github.com/xingyingyuzhui/dsh-chat-tune) ★0 — DeepSeek Harness plugin: tune chat font, width, line height, and paragraph spacing
+- `[未定位]` **xingyingyuzhui-dsh-folded-chat** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-claw-observability](https://github.com/xingyingyuzhui/dsh-claw-observability) ★0 — Shared Claw suite diagnostics for DeepSeek Harness
 - 🟩 `[可用]` [xingyingyuzhui-dsh-restart](https://github.com/xingyingyuzhui/dsh-restart) ★0 — Restart the DeepSeek Harness Web host from Settings.
 - 🟩 `[可用]` [xingyingyuzhui-dsh-skill-manager](https://github.com/xingyingyuzhui/dsh-skill-manager) ★0 — Manage DeepSeek Harness skills from Settings: list, disable without editing SKILL.md, and install/uninstall us
@@ -1816,6 +1817,7 @@
 - 🟩 `[可用]` [yin52133-dsh-luban](https://github.com/yin52133/dsh-luban) ★0 — 🛠️ Custom workbench plugin suite for DeepSeek Harness (DSH) — LAN auth, task board, SSH + tmux keep-alive, sha
 - ⬜ `[待定]` [ying-c-dsh-browser](https://github.com/ying-c/dsh-browser) ★0 — Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, no vision capabilities requ
 - ⬜ `[待定]` [dsh-plugin-connection-banner](https://github.com/yinren112/dsh-plugin-connection-banner) ★0 — Visible reconnecting banner for the DeepSeek Harness Web UI
+- 🟩 `[可用]` [yizhixiaokong-dsh-compose-panel](https://github.com/yizhixiaokong/dsh-compose-panel) ★0 — —
 - ⬜ `[待定]` [yjm110517-visual-to-editable-ppt-skill](https://github.com/yjm110517/visual-to-editable-ppt-skill) ★0 — —
 - 🟩 `[可用]` [yonglun-deepseek-harness-themes](https://github.com/yonglun/deepseek-harness-themes) ★0 — 74 non-invasive DeepSeek Harness themes generated from awesome-design-md
 - 🟩 `[可用]` [yrracowl-dsh-theme-acid-noir](https://github.com/YrracOwl/dsh-theme-acid-noir) ★0 — —
@@ -2420,6 +2422,7 @@
 - 🟨 `[不兼容]` [icyaaaww-dsh-tool-failure-circuit-breaker](https://github.com/icyaaaww/dsh-tool-failure-circuit-breaker) ★0 — DeepSeek Harness plugin that blocks repeated identical failed tool calls
 - 🟨 `[不兼容]` [icyaaaww-dsh-tui-secret-guard](https://github.com/icyaaaww/dsh-tui-secret-guard) ★0 — Blocks high-confidence secrets before dsh-TUI sends them to a model, compliant with dsh ecosystem manifest v0.
 - 🟨 `[不兼容]` [ievenight-dsh-plugin](https://github.com/ievenight/dsh-plugin) ★0 — OAuth subscription login UI plugins for DeepSeek Harness
+- 🟨 `[不兼容]` [iuuuuuuuu-dsh-model-capability](https://github.com/iuuuuuuuu/dsh-model-capability) ★0 — DSH plugin: configure per-model vision, reasoning levels and capacity from the Models settings UI (no host sou
 - 🟨 `[不兼容]` [jaikensai888-dsh-skillui](https://github.com/jaikensai888/dsh-skillui) ★0 — —
 - 🟨 `[不兼容]` [dsh-plugin-file-manager](https://github.com/jasper-zsh/dsh-plugin-file-manager) ★0 — 面向 DeepSeek Harness（DSH） Web 界面的会话文件管理器插件
 - 🟨 `[不兼容]` [dsh-plugin-skill-panel](https://github.com/jasper-zsh/dsh-plugin-skill-panel) ★0 — DeepSeek Harness（DSH）的只读技能清单插件，在 Web GUI 中展示全局技能和当前会话可见的技能，并从会话日志推导技能加载状态
@@ -2477,6 +2480,7 @@
 - 🟨 `[不兼容]` [pgnqukezrdxmhjso-dsh-ui-fortifier](https://github.com/pgnqukezrdxmhjso/dsh-ui-fortifier) ★0 — DSH Web UI 强化插件：功能模块可开关，含提供方标签、级联模型选择器、设置面板拖动 等
 - 🟨 `[不兼容]` [piggy00544-dsh-upgrade-kit](https://github.com/piggy00544/dsh-upgrade-kit) ★0 — DSH 装备升级套件：看钱（dsh-cost 费用面板）、看文件（file-preview 预览）、搜外网（research-mcp）、看图片（vision-bridge）
 - 🟨 `[不兼容]` [po-et-dsh-session-snapshot](https://github.com/po-et/dsh-session-snapshot) ★0 — Rolling, integrity-verified backups of every dsh session at turn boundaries — corruption costs at most the in-
+- `[未定位]` **popcornboom-dsh-insight-dock** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [qewregrfhnm-dsh-session-manager](https://github.com/qewregrfhnm/dsh-session-manager) ★0 — Full session management plugin for DeepSeek Harness (DSH) web UI: delete/trash/restore, workspace grouping, mo
 - 🟨 `[不兼容]` [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) ★0 — DeepSeek Harness 事件流审计面板插件：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部
 - 🟨 `[不兼容]` [qipenglin-dsh-theme-spectrum](https://github.com/qipenglin/dsh-theme-spectrum) ★0 — Light and dark theme presets for DeepSeek Harness Web
@@ -2528,6 +2532,7 @@
 - 🟨 `[不兼容]` [dsh-claw-registry](https://github.com/xingyingyuzhui/dsh-claw-registry) ★0 — Claw Agent registry for DeepSeek Harness: bind, isolate, archive
 - 🟨 `[不兼容]` [dsh-claw-permissions](https://github.com/xingyingyuzhui/dsh-claw-permissions) ★0 — Layered session permissions for DeepSeek Harness
 - 🟨 `[不兼容]` [xusuyang030218-dsh-skill-ui](https://github.com/xusuyang030218/dsh-skill-ui) ★0 — —
+- 🟨 `[不兼容]` [dsh-c137](https://github.com/xxxrickymorty-dev/dsh-c137) ★0 — C-137 skin for DeepSeek Harness: 28 posters, custom scenes, and overlay pets (Rick, Morty, portal gun).
 - 🟨 `[不兼容]` [yangwuan55-dsh-feishu-integration](https://github.com/yangwuan55/dsh-feishu-integration) ★0 — Bidirectional Feishu/Lark integration for DeepSeek Harness: summaries, reply routing, binding UI, and QR provi
 - 🟨 `[不兼容]` [yaotongsb-dsh-phosphor](https://github.com/yaotongsb/dsh-phosphor) ★0 — A full-screen, Matrix-styled TUI frontend for DeepSeek Harness — built with React + Ink as a Cordis bundle plu
 - 🟨 `[不兼容]` [yeruizhi-dsh-ask-user-timeout](https://github.com/yeruizhi/dsh-ask-user-timeout) ★0 — Guard plugin for DeepSeek Harness: bounded lifetime for ask_user_question — stops the no-tab-renders-question

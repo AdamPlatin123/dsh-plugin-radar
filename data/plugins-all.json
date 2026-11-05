@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T04:00:45Z",
+ "generated_at": "2026-11-05T04:15:46Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11621,6 +11621,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hasan-aghayev/dsh-task-orchestrator",
+   "name": "hasan-aghayev-dsh-task-orchestrator",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Automatic plan-first role delegation for DeepSeek Harness with dependency-aware workers and final review"
   },
   {
    "repo": "Haven-hvn/deepseek-harness-web3-agent-stack",
@@ -24741,6 +24748,13 @@
    "desc": "Visible reconnecting banner for the DeepSeek Harness Web UI"
   },
   {
+   "repo": "yizhixiaokong/dsh-compose-panel",
+   "name": "yizhixiaokong-dsh-compose-panel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "yjm110517/visual-to-editable-ppt-skill",
    "name": "yjm110517-visual-to-editable-ppt-skill",
    "verdict": "pending",
@@ -28696,6 +28710,13 @@
    "desc": "OAuth subscription login UI plugins for DeepSeek Harness"
   },
   {
+   "repo": "iuuuuuuuu/dsh-model-capability",
+   "name": "iuuuuuuuu-dsh-model-capability",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: configure per-model vision, reasoning levels and capacity from the Models settings UI (no host sou"
+  },
+  {
    "repo": "jaikensai888/dsh-skillui",
    "name": "jaikensai888-dsh-skillui",
    "verdict": "incompatible",
@@ -29401,6 +29422,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xxxrickymorty-dev/dsh-c137",
+   "name": "dsh-c137",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "C-137 skin for DeepSeek Harness: 28 posters, custom scenes, and overlay pets (Rick, Morty, portal gun)."
   },
   {
    "repo": "yangwuan55/dsh-feishu-integration",
@@ -30577,6 +30605,13 @@
    "verdict": "ok",
    "stars": 26,
    "desc": "—"
+  },
+  {
+   "repo": "fandc520/dsh-openreelbench",
+   "name": "fandc520-dsh-openreelbench",
+   "verdict": "ok",
+   "stars": 25,
+   "desc": "一个基于DeepSeek-Harness的视频创作工作台"
   },
   {
    "repo": "Likenttt/garmin-connect-plugin-for-dsh",
@@ -36468,6 +36503,13 @@
   {
    "repo": "yiwufen/fin-trace",
    "name": "yiwufen-fin-trace",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "yizhixiaokong/dsh-simple-restart",
+   "name": "yizhixiaokong-dsh-simple-restart",
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
@@ -57263,6 +57305,13 @@
    "desc": "—"
   },
   {
+   "repo": "xiazhi88/dshgo",
+   "name": "xiazhi88-dshgo",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH Go —— 在手机/平板上用 DeepSeek Harness"
+  },
+  {
    "repo": "xie-tj/dsh-token-usage-ledger",
    "name": "xie-tj-dsh-token-usage-ledger",
    "verdict": "incompatible",
@@ -58945,6 +58994,13 @@
   {
    "repo": "Zayzz-pixel/dsh-ariadne",
    "name": "zayzz-pixel-dsh-ariadne",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "zerodegress/dsh-model-redactor",
+   "name": "zerodegress-dsh-model-redactor",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -70787,6 +70843,13 @@
    "desc": "dsh-stock-chart"
   },
   {
+   "repo": "xrn1997/dsh-novel",
+   "name": "xrn1997-dsh-novel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "deepseek-harness嵌入一个小说阅读功能，防止打瞌睡"
+  },
+  {
    "repo": "yoke233/dsh-pixel-whale",
    "name": "dsh-pixel-whale",
    "verdict": "ok",
@@ -70813,6 +70876,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness 写实小兔子桌面宠物插件"
+  },
+  {
+   "repo": "zhang24xiao/dsh-snippets",
+   "name": "zhang24xiao-dsh-snippets",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "zhaoxuejie/dsh-plugin-feihualing",
@@ -81908,6 +81978,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "ChatGPT-style message navigator for DeepSeek Harness conversations with hover previews and smooth jump navigat"
+  },
+  {
+   "repo": "zeta987/dsh-notify-zeta",
+   "name": "zeta987-dsh-notify-zeta",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness notification center with interactive Windows question and approval cards"
   },
   {
    "repo": "zhang0098/dsh-telegram-channel",
@@ -94774,6 +94851,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "MOVED → github.com/zhangmiao03/cloakpack (packages/dsh-cloak)"
+  },
+  {
+   "repo": "zhitiaojun/dsh-auto-git",
+   "name": "zhitiaojun-dsh-auto-git",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh profile bundle: git init every newly registered DSH workspace, with one empty commit, so git-aware plugins"
   },
   {
    "repo": "zuojinxin/dsh-provider-switch",

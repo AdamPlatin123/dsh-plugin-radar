@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1941）
+# 🤖 Agent 能力（1942）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1776,6 +1776,7 @@
 - 🟨 `[不兼容]` [harp-reed-planbridge](https://github.com/harp-reed/planbridge) ★0 — —
 - 🟨 `[不兼容]` [harzva-dsh-control-plane](https://github.com/Harzva/dsh-control-plane) ★0 — —
 - 🟨 `[不兼容]` [harzva-dsh-session-folders](https://github.com/Harzva/dsh-session-folders) ★0 — —
+- 🟨 `[不兼容]` [hasan-aghayev-dsh-task-orchestrator](https://github.com/hasan-aghayev/dsh-task-orchestrator) ★0 — Automatic plan-first role delegation for DeepSeek Harness with dependency-aware workers and final review
 - 🟨 `[不兼容]` [haven-hvn-deepseek-harness-web3-agent-stack](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack) ★0 — —
 - `[空仓监测]` **hejielijob-commits-dsh-data-agent** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [helibeiqi-dsh-context-aware-search](https://github.com/helibeiqi/dsh-context-aware-search) ★0 — Context-aware web search plugin for DeepSeek Harness (dsh): rewrites queries with session context, reranks + c
