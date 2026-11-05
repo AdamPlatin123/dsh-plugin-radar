@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T03:45:50Z",
+ "generated_at": "2026-11-05T04:00:45Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -24403,6 +24403,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "面向 DeepSeek Harness Web 的已归档会话管理与恢复界面插件"
+  },
+  {
+   "repo": "wyzh0117/dsh-notebook",
+   "name": "wyzh0117-dsh-notebook",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH sidebar notebook: titles + bodies, inline images (videos rejected), click a title to copy its body, @-refe"
   },
   {
    "repo": "wyzh0117/dsh-port-manager",
@@ -52370,6 +52377,13 @@
    "desc": "楼梯踏步计算"
   },
   {
+   "repo": "uckkk/dsh-stall-site",
+   "name": "uckkk-dsh-stall-site",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "摆摊选址"
+  },
+  {
    "repo": "uckkk/dsh-stddev",
    "name": "uckkk-dsh-stddev",
    "verdict": "ok",
@@ -52487,6 +52501,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "应季选茶"
+  },
+  {
+   "repo": "uckkk/dsh-tea-set",
+   "name": "uckkk-dsh-tea-set",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "茶具搭配"
   },
   {
    "repo": "uckkk/dsh-teacher-cert",
@@ -52713,6 +52734,13 @@
    "desc": "吸尘器选购"
   },
   {
+   "repo": "uckkk/dsh-variance",
+   "name": "uckkk-dsh-variance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "方差"
+  },
+  {
    "repo": "uckkk/dsh-vatican",
    "name": "uckkk-dsh-vatican",
    "verdict": "ok",
@@ -52725,6 +52753,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "病虫害防治"
+  },
+  {
+   "repo": "uckkk/dsh-veggie-pick",
+   "name": "uckkk-dsh-veggie-pick",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "阳台菜品种"
   },
   {
    "repo": "uckkk/dsh-ventilate",
@@ -52790,11 +52825,25 @@
    "desc": "墙面修补"
   },
   {
+   "repo": "uckkk/dsh-wall-mold",
+   "name": "uckkk-dsh-wall-mold",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "墙面除霉"
+  },
+  {
    "repo": "uckkk/dsh-wardrobe-min",
    "name": "uckkk-dsh-wardrobe-min",
    "verdict": "ok",
    "stars": 0,
    "desc": "衣橱精简"
+  },
+  {
+   "repo": "uckkk/dsh-wash-machine",
+   "name": "uckkk-dsh-wash-machine",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "洗地机"
   },
   {
    "repo": "uckkk/dsh-washer-buy",
@@ -52921,6 +52970,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "XOR 加密"
+  },
+  {
+   "repo": "uckkk/dsh-yeast-convert",
+   "name": "uckkk-dsh-yeast-convert",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "酵母用量计算"
   },
   {
    "repo": "uckkk/dsh-zone-clean",
@@ -68708,6 +68764,13 @@
    "desc": "—"
   },
   {
+   "repo": "udisyue/dsh-update",
+   "name": "udisyue-dsh-update",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "a plugin for update deepseek harness by one click"
+  },
+  {
    "repo": "ve766/deepseek-harness-desktop",
    "name": "ve766-deepseek-harness-desktop",
    "verdict": "incompatible",
@@ -80284,6 +80347,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "扫地机器人"
+  },
+  {
+   "repo": "uckkk/dsh-wechat-et",
+   "name": "uckkk-dsh-wechat-et",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "微信沟通礼仪"
   },
   {
    "repo": "Uknown-wang/dsh-approval-notify",
