@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T03:30:52Z",
+ "generated_at": "2026-11-05T03:45:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -51509,6 +51509,13 @@
    "desc": "密码强度"
   },
   {
+   "repo": "uckkk/dsh-payback",
+   "name": "uckkk-dsh-payback",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "回本周期测算"
+  },
+  {
    "repo": "uckkk/dsh-payroll-net",
    "name": "uckkk-dsh-payroll-net",
    "verdict": "ok",
@@ -51824,6 +51831,13 @@
    "desc": "隐私自查"
   },
   {
+   "repo": "uckkk/dsh-probation-period",
+   "name": "uckkk-dsh-probation-period",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "试用期上限"
+  },
+  {
    "repo": "uckkk/dsh-project-schedule",
    "name": "uckkk-dsh-project-schedule",
    "verdict": "ok",
@@ -51913,6 +51927,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "租车保险建议"
+  },
+  {
+   "repo": "uckkk/dsh-rental-yield",
+   "name": "uckkk-dsh-rental-yield",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "租金回报率"
   },
   {
    "repo": "uckkk/dsh-repeat",
@@ -52167,6 +52188,13 @@
    "desc": "浅拷贝"
   },
   {
+   "repo": "uckkk/dsh-shipping-fee",
+   "name": "uckkk-dsh-shipping-fee",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "运费计算"
+  },
+  {
    "repo": "uckkk/dsh-shoe-size",
    "name": "uckkk-dsh-shoe-size",
    "verdict": "ok",
@@ -52312,6 +52340,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "播种时间"
+  },
+  {
+   "repo": "uckkk/dsh-sphere",
+   "name": "uckkk-dsh-sphere",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "球体计算"
   },
   {
    "repo": "uckkk/dsh-stage-presence",
@@ -70500,6 +70535,13 @@
    "desc": "营养补充"
   },
   {
+   "repo": "uckkk/dsh-pet-pack",
+   "name": "uckkk-dsh-pet-pack",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "宠物旅行清单"
+  },
+  {
    "repo": "uckkk/dsh-pet-pill",
    "name": "uckkk-dsh-pet-pill",
    "verdict": "ok",
@@ -71807,6 +71849,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "高铁指南"
+  },
+  {
+   "repo": "uckkk/dsh-origami",
+   "name": "uckkk-dsh-origami",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "折纸教程"
   },
   {
    "repo": "uckkk/dsh-pickle-intro",
@@ -80228,6 +80277,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "等额本金房贷计算器"
+  },
+  {
+   "repo": "uckkk/dsh-robot-setup",
+   "name": "uckkk-dsh-robot-setup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "扫地机器人"
   },
   {
    "repo": "Uknown-wang/dsh-approval-notify",
