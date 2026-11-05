@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T01:30:52Z",
+ "generated_at": "2026-11-05T01:46:05Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -16549,6 +16549,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Maintainer PR review queue board for DeepSeek Harness: five-state tracking (waiting on me / waiting on author"
+  },
+  {
+   "repo": "destr-z/dsh-web-portable",
+   "name": "destr-z-dsh-web-portable",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "非官方的 DSH（DeepSeek Harness）Web 界面 Windows 便携版，面向 AI 短剧/AI 视频的剧本工作流：自带「剧本批注」（小说→剧本）与「提示词对照」（剧本→视频提示词）两个成对的改稿工作台，"
   },
   {
    "repo": "dorisaimpatient855/awesome-dsh-plugin",

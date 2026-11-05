@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1929）
+# 🤖 Agent 能力（1931）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -821,6 +821,7 @@
 - `[未定位]` **chenneyzhuang-agent-skills-cn** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [chenyangcun-dsh-fixed-new-session-model](https://github.com/chenyangcun/dsh-fixed-new-session-model) ★0 — 为 DSH 固定新会话的默认 Agent 预设与模型，支持全局默认设置和工作区独立配置
 - `[未定位]` **chip-philo-gh-dsh-loop-breaker** — 占位待复核，判定暂不展示
+- `[未定位]` **chip-philo-gh-dsh-session-namer** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [chris-003-dsh-agent-in-browser](https://github.com/chris-003/dsh-agent-in-browser) ★0 — Let a DeepSeek Harness agent see and control your browser in real time — read, screenshot, navigate, click, an
 - 🟩 `[可用]` [cndn-dsh-d1](https://github.com/cndn/dsh-d1) ★0 — Cloudflare D1 tools for the DeepSeek Harness (dsh): read-only first, approval-gated writes, zero runtime depen
 - 🟩 `[可用]` [cowwo-dsh-session-info](https://github.com/cowwo/dsh-session-info) ★0 — —
@@ -1723,6 +1724,7 @@
 - 🟨 `[不兼容]` [chen-zz20-dsh-skill-stats](https://github.com/chen-zz20/dsh-skill-stats) ★0 — —
 - `[未定位]` **chenneyzhuang-context-budget** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [chenqg618-compliance-skills](https://github.com/chenqg618/compliance-skills) ★0 — 150+ deterministic, fully-offline MCP tools & free AI-agent skills for cross-industry monthly checks (payroll,
+- `[未定位]` **chip-philo-gh-dsh-session-search** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [chuxindd-dsh-context-enhancement](https://github.com/chuxindd/dsh-context-enhancement) ★0 — 适用于 DeepSeek Harness 的单会话上下文增强工具，力求化解会话在触发 /compact 上下文压缩后损失信息过多，导致前后表现“判若两人”的技术困境
 - `[空仓监测]` **cjl-1995-dsh-memory-self-evolution** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [dsh-toolbelt](https://github.com/cking000bigdemon/dsh-toolbelt) ★0 — Eight DeepSeek Harness plugins: persona, language guard, per-request vision fallback, python/windows write gua
