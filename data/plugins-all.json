@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T06:16:08Z",
+ "generated_at": "2026-11-05T06:30:56Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11614,6 +11614,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "简单的工作区会话分组插件"
+  },
+  {
+   "repo": "gankudadiz/dsh-reclaim",
+   "name": "gankudadiz-dsh-reclaim",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "审计并安全回收 DSH 占用的空间：看清会话、附件与缓存各占多少、还被谁引用，清理一律进可恢复的隔离区（DeepSeek Harness 插件）"
   },
   {
    "repo": "ghbhiee/dsh-plugin-cli-session",
@@ -28759,6 +28766,13 @@
    "desc": "蓝瓷女仆 · Azure Maid —— DSH Web GUI 主题皮肤"
   },
   {
+   "repo": "fengbinmov/dsh-git-panel",
+   "name": "fengbinmov-dsh-git-panel",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web GUI 的 Git 面板插件：在会话界面的标签栏里，紧挨「对话 / 轨迹」再加一个 Git 页， 用来完成日常的查看改动、暂存、提交、看 diff、翻历史、切分支和推拉"
+  },
+  {
    "repo": "fonlan/dsh-quick-commands",
    "name": "fonlan-dsh-quick-commands",
    "verdict": "incompatible",
@@ -41980,13 +41994,6 @@
    "verdict": "untested",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "flg1217/dsh-continue",
-   "name": "dsh-continue",
-   "verdict": "untested",
-   "stars": 1,
-   "desc": "dsh 输入栏「发送」按钮右侧的一键快捷按钮：「继续」一键续跑、「讲人话」一键通俗解释，代替长会话里重复的打字体力活；纯客户端，草稿非空时追加不覆盖，零 dsh 源码改动"
   },
   {
    "repo": "jayanttang/dsh_mobile",
@@ -57998,6 +58005,13 @@
    "desc": "—"
   },
   {
+   "repo": "flg1217/dsh-continue",
+   "name": "flg1217-dsh-continue",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh 输入栏一键「继续」「讲人话」快捷按钮插件 —— 代替程序员重复的体力活"
+  },
+  {
    "repo": "FlyingFreeOwl/dshgirl-starter",
    "name": "flyingfreeowl-dshgirl-starter",
    "verdict": "incompatible",
@@ -68657,6 +68671,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Instalacion y administracion de DeepSeek Harness (dsh): install/start/stop/update/status para puestos dev"
+  },
+  {
+   "repo": "ethanrise/dsh-nx",
+   "name": "ethanrise-dsh-nx",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Experimental DeepSeek Harness plugin for safe, local Siemens NX automation through MCP."
   },
   {
    "repo": "geminiai19811-jpg/dsh-desktop",
@@ -88721,6 +88742,13 @@
    "desc": "Deployment-scoped model-visible DSH tool surface conformance evidence"
   },
   {
+   "repo": "dooooling/dsh-opencode-compat",
+   "name": "dooooling-dsh-opencode-compat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Standalone OpenCode Zen compatibility bundle for DeepSeek Harness: session headers and Muse reasoning replay"
+  },
+  {
    "repo": "dsh-plugins/dsh-file-drop-attachments",
    "name": "dsh-plugins-dsh-file-drop-attachments",
    "verdict": "ok",
@@ -95488,6 +95516,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Xiaomi MiMo v2.5 adapter for DeepSeek Harness — fixed fork (sanitize tool args, dsh-llm 0.1.1-rc.2, prepareCal"
+  },
+  {
+   "repo": "fengshuai3/memosbox-dsh-plugin",
+   "name": "fengshuai3-memosbox-dsh-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "scd13150/dsh-cognition",
