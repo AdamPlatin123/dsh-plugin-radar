@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T05:30:59Z",
+ "generated_at": "2026-11-05T05:45:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -414,6 +414,13 @@
    "verdict": "ok",
    "stars": 41,
    "desc": "Portable Agent Skill for repository-native Spec programming, informed by public DeepSeek Harness engineering p"
+  },
+  {
+   "repo": "yzi1b/whale-craft",
+   "name": "yzi1b-whale-craft",
+   "verdict": "ok",
+   "stars": 41,
+   "desc": "A plugin for DeepSeek Harness, allowing your agent to play in Minecraft Java Edition servers."
   },
   {
    "repo": "fb0sh/dsh-pentester",
@@ -4880,6 +4887,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "100% AI-native product delivery workflow plugin for DeepSeek Harness: full product-to-release pipeline (resear"
+  },
+  {
+   "repo": "wendou-chen/dsh-render-perf",
+   "name": "wendou-chen-dsh-render-perf",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web 公式渲染性能治理：运行时注入公式渲染结果缓存（不改安装目录）+ 视口外渲染跳过"
   },
   {
    "repo": "whaojie797-design/china-exec-report",
@@ -16964,6 +16978,13 @@
    "desc": "DeepSeek Harness plugin: hot install / uninstall / update / enable-disable of profile plugin bundles from the"
   },
   {
+   "repo": "langyo/dsh-mobile-upgrade",
+   "name": "langyo-dsh-mobile-upgrade",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Mobile UI fixes for the DeepSeek Harness web profile: composer upload, restart row, narrow drawer and tabs, an"
+  },
+  {
    "repo": "laoshi1991/dsh-shortcuts",
    "name": "laoshi1991-dsh-shortcuts",
    "verdict": "ok",
@@ -17998,13 +18019,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH plugin developer sandbox: spawn isolated DeepSeek Harness web mirror instances (own DSH_HOME/port/profile)"
-  },
-  {
-   "repo": "langyo/dsh-mobile-upgrade",
-   "name": "langyo-dsh-mobile-upgrade",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "Mobile UI fixes for the DeepSeek Harness web profile: composer upload, restart row, narrow drawer and tabs, an"
   },
   {
    "repo": "snakeUni/dsh-question-anchors",
@@ -20378,6 +20392,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "一款基于 DeepSeek 大模型开发的开源桌面对话客户端"
+  },
+  {
+   "repo": "wangzhanchao883/dsh-word-vault",
+   "name": "wangzhanchao883-dsh-word-vault",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: multi-user English vocabulary bank - copy text, pick the user in a popup at the mouse"
   },
   {
    "repo": "wanzhiwei5/dsh-skin-amis",
@@ -61442,6 +61463,13 @@
    "desc": "—"
   },
   {
+   "repo": "wcytjy/dsh-meal-picker",
+   "name": "wcytjy-dsh-meal-picker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "weekitmo/dsh-trace",
    "name": "weekitmo-dsh-trace",
    "verdict": "incompatible",
@@ -62532,6 +62560,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Model-agnostic Computer Use for DeepSeek Harness: isolated browser, Windows native helper, third-party vision"
+  },
+  {
+   "repo": "yanglaofish/dsh-proxy-pro",
+   "name": "yanglaofish-dsh-proxy-pro",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "—"
   },
   {
    "repo": "0nt-one/dsh-voice-input",
@@ -67131,6 +67166,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yueyexiayu/dsh-edu",
+   "name": "yueyexiayu-dsh-edu",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness desktop quota and balance readout plugin"
   },
   {
    "repo": "yuntaojinghong/dsh-balance-monitor",
@@ -77621,6 +77663,13 @@
   {
    "repo": "Yvesgao/dsh-env-profile",
    "name": "yvesgao-dsh-env-profile",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "z2476720314-sys/dsh-workbuddy-auth",
+   "name": "z2476720314-sys-dsh-workbuddy-auth",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -95012,6 +95061,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "You.com search + fetch provider plugin for DeepSeek Harness (dsh), plus a research-focused agent preset"
+  },
+  {
+   "repo": "yueyexiayu/dsh-bianji",
+   "name": "yueyexiayu-dsh-bianji",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness desktop workspace file editor plugin"
   },
   {
    "repo": "yushuosun/dsh-cost-governor",
