@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T02:01:02Z",
+ "generated_at": "2026-11-05T02:15:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -22424,6 +22424,13 @@
    "desc": "DSH web 背景皮肤插件：将 DSH 界面背景替换为本地图片（半屏居中覆盖对话区域，AI 输出卡片不透明）"
   },
   {
+   "repo": "jiumengya/dsh-knowledge-suite",
+   "name": "jiumengya-dsh-knowledge-suite",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "English: DeepSeek Harness knowledge (document library) capability plugin suite - six packages, install/uninsta"
+  },
+  {
    "repo": "JoaquinDG/dsh-governor",
    "name": "joaquindg-dsh-governor",
    "verdict": "ok",
@@ -38076,6 +38083,13 @@
    "desc": "—"
   },
   {
+   "repo": "ghost0411/dsh-privacy-protector",
+   "name": "ghost0411-dsh-privacy-protector",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "GiantAxeint/DSH-P2M",
    "name": "giantaxeint-dsh-p2m",
    "verdict": "ok",
@@ -43630,6 +43644,13 @@
    "repo": "HarryLi-7/dsh-tools",
    "name": "harryli-7-dsh-tools",
    "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "Harzva/dsh-maclens",
+   "name": "harzva-dsh-maclens",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -61330,13 +61351,6 @@
    "desc": "—"
   },
   {
-   "repo": "Harzva/dsh-maclens",
-   "name": "harzva-dsh-maclens",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "johnoooooo/dsh-view-image",
    "name": "johnoooooo-dsh-view-image",
    "verdict": "incompatible",
@@ -74371,6 +74385,13 @@
    "desc": "dsh-a2a-server makes a DeepSeek Harness agent reachable over the A2A (Agent2Agent) protocol"
   },
   {
+   "repo": "huguangyu666/open-source-first-skill",
+   "name": "huguangyu666-open-source-first-skill",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Pragmatic Anti-Wheel-Reinvention Protocol for AI Coding Agents: Research First, Open-Source Ethics, and Tokeno"
+  },
+  {
    "repo": "jiaoqsh/dsh-document",
    "name": "jiaoqsh-dsh-document",
    "verdict": "ok",
@@ -84416,6 +84437,13 @@
    "desc": "—"
   },
   {
+   "repo": "fashionmascherine-svg/formalswarm",
+   "name": "fashionmascherine-svg-formalswarm",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Multi-agent validation for any repository: independent theses, adversarial critics, and a seal whose verdict i"
+  },
+  {
    "repo": "felix-lj-ct/dsh-mcp-workspace-scope",
    "name": "felix-lj-ct-dsh-mcp-workspace-scope",
    "verdict": "ok",
@@ -84470,6 +84498,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Offline Cordis/DSH plugin standards, scaffolding, static checks, runtime debugging, and performance gates."
+  },
+  {
+   "repo": "hoyyang/dsh-plan-board",
+   "name": "hoyyang-dsh-plan-board",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "思维导图式项目规划可视 + 最强防跑偏：计划→模块→任务树/DAG、执行序号、Agent GPS 站位、改图人审门、git 交叉核对、阻断级漂移防护（DeepSeek Harness 插件）"
   },
   {
    "repo": "iamaanahmad/everything-antigravity",
