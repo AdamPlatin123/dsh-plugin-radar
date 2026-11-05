@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T03:00:53Z",
+ "generated_at": "2026-11-05T03:15:42Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -9703,6 +9703,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "Lightweight task state machine engine with MCP stdio interface"
+  },
+  {
+   "repo": "twoyoung91/dsh-memoknow",
+   "name": "twoyoung91-dsh-memoknow",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "Local personal memory and knowledge management for DeepSeek Harness"
   },
   {
    "repo": "YeqingTang/dsh-session-flow",
@@ -47414,6 +47421,13 @@
    "desc": "天文学术语"
   },
   {
+   "repo": "uckkk/dsh-atbash",
+   "name": "uckkk-dsh-atbash",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Atbash 密码"
+  },
+  {
    "repo": "uckkk/dsh-audio-bitrate",
    "name": "uckkk-dsh-audio-bitrate",
    "verdict": "ok",
@@ -47783,6 +47797,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "笼具配置"
+  },
+  {
+   "repo": "uckkk/dsh-bird-diet",
+   "name": "uckkk-dsh-bird-diet",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "鸟食搭配"
   },
   {
    "repo": "uckkk/dsh-bird-health",
@@ -48492,6 +48513,13 @@
    "desc": "调酒比例"
   },
   {
+   "repo": "uckkk/dsh-coffee-temp",
+   "name": "uckkk-dsh-coffee-temp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "咖啡水温"
+  },
+  {
    "repo": "uckkk/dsh-cold-drink",
    "name": "uckkk-dsh-cold-drink",
    "verdict": "ok",
@@ -48807,11 +48835,25 @@
    "desc": "电流计算"
   },
   {
+   "repo": "uckkk/dsh-curtain-calc",
+   "name": "uckkk-dsh-curtain-calc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "窗帘用量计算"
+  },
+  {
    "repo": "uckkk/dsh-cycle-water",
    "name": "uckkk-dsh-cycle-water",
    "verdict": "ok",
    "stars": 0,
    "desc": "养水流程"
+  },
+  {
+   "repo": "uckkk/dsh-cylinder",
+   "name": "uckkk-dsh-cylinder",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "圆柱计算"
   },
   {
    "repo": "uckkk/dsh-cyprus",
@@ -73524,6 +73566,13 @@
    "desc": "Profile plugin manager for DeepSeek Harness"
   },
   {
+   "repo": "starstorm-ai/dsh-file-manager",
+   "name": "starstorm-ai-dsh-file-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Yiklek/dsh-settings-manager",
    "name": "yiklek-dsh-settings-manager",
    "verdict": "incompatible",
@@ -91647,6 +91696,13 @@
    "desc": "—"
   },
   {
+   "repo": "tearslee/dsh-workbuddy2api",
+   "name": "tearslee-dsh-workbuddy2api",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "DeepSeek Harness (dsh) plugin: supervise a workbuddy2api gateway process and auto-register its models as an LL"
+  },
+  {
    "repo": "wss534857356/dsh-plugin-codex",
    "name": "wss534857356-dsh-plugin-codex",
    "verdict": "incompatible",
@@ -94193,6 +94249,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—〔📦〕"
+  },
+  {
+   "repo": "skyyyyyk/dsh-szg-hint",
+   "name": "skyyyyyk-dsh-szg-hint",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Sidecar hints for a running DSH task: host plugin + web client, gated by the host trust fence."
   },
   {
    "repo": "SPYfighting/dsh-science-plugin",
