@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2572）
+# 🔌 Web UI 增强（2575）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1516,6 +1516,7 @@
 - 🟩 `[可用]` [literaf-dsh-paper-slides](https://github.com/literaf/dsh-paper-slides) ★0 — Paper → academic talk for DeepSeek Harness: reads the real full text, budgets the slot per venue (组会汇报/会议报告/答辩
 - 🟩 `[可用]` [literaf-dsh-slides](https://github.com/literaf/dsh-slides) ★0 — Slides for DeepSeek Harness: the agent writes a talk to one self-contained HTML file — presents fullscreen off
 - 🟩 `[可用]` [liujuntao123-dsh-mobile-keys](https://github.com/liujuntao123/dsh-mobile-keys) ★0 — DSH 移动端热键模式插件：自动检测移动端，Ctrl+Enter 发送 / Enter 换行；设置面板开关
+- 🟩 `[可用]` [liujuntao123-dsh-trusted-page](https://github.com/liujuntao123/dsh-trusted-page) ★0 — DSH (DeepSeek Harness) Web 远程受信访问插件：设置面板可视化配置受信域名，联动 /api 放行与页面受信判定，修复远程 Models/设置页 settings are unavailable i
 - 🟩 `[可用]` [liuyun847-dsh-client-ui-turn-chime](https://github.com/liuyun847/dsh-client-ui-turn-chime) ★0 — DSH Web 客户端插件:AI 回复完成时播放双音提示音 (DeepSeek Harness)
 - 🟩 `[可用]` [lkdxzhxi-dsh-glass-ui-theme](https://github.com/lkdxzhxi/dsh-glass-ui-theme) ★0 — 为 DeepSeek Harness 打造的液态玻璃主题插件：磨砂玻璃、可调色调、动态壁纸，让 DSH 界面焕然一新
 - 🟩 `[可用]` [lonelymoon87-dsh-engineering-suite](https://github.com/lonelymoon87/dsh-engineering-suite) ★0 — One install for SpecFlow, GitFlow, Guardian, and Code Intel on DeepSeek Harness.
@@ -2260,6 +2261,7 @@
 - 🟨 `[不兼容]` [heiheiha798-dsh-plugin-response-window](https://github.com/heiheiha798/dsh-plugin-response-window) ★1 — DeepSeek Harness (DSH) web plugin: wrap each prompt-to-prompt turn's response (tool calls + assistant text) in
 - 🟨 `[不兼容]` [hellosky983-dsh-mc-companion](https://github.com/hellosky983/dsh-mc-companion) ★1 — Friendly AI Minecraft companion for DeepSeek Harness: follows the player, chats like a friend, remembers adven
 - 🟨 `[不兼容]` [hialuoy-deepseek-harness-desktop](https://github.com/hialuoy/deepseek-harness-desktop) ★1 — DeepSeek Harness 的官方桌面应用——以原生 WebView 加载 DeepSeek Harness 工作台,轻量、低内存、无需技术背景即可安装使用
+- 🟨 `[不兼容]` [hoyyang-dsh-android-pane](https://github.com/hoyyang/dsh-android-pane) ★1 — Live Android device pane for DeepSeek Harness: scrcpy H.264 streaming, agent injection, UI-tree verification
 - 🟨 `[不兼容]` [hpyer-dsh-for-mac](https://github.com/hpyer/dsh-for-mac) ★1 — DshForMac 是 DeepSeek Harness 的原生 macOS 启动器与运行时管理器，提供本地环境检测、版本管理及内嵌 Web 界面
 - 🟨 `[不兼容]` [ice5kysl-dsh-workspace-kit](https://github.com/ice5kysl/dsh-workspace-kit) ★1 — dsh (DeepSeek Harness) workspace kit: ⌘K Spotlight search, soft workspace archive/restore, per-workspace icons
 - 🟨 `[不兼容]` [idoall-dsh-update-status](https://github.com/idoall/dsh-update-status) ★1 — Read-only DeepSeek Harness Web version status and release-channel guidance plugin
@@ -2456,6 +2458,7 @@
 - `[未定位]` **liuzwzyw-dsh-pwa-ui** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [llyyhh0487-dsh-input-polish](https://github.com/llyyhh0487/dsh-input-polish) ★0 — —
 - 🟨 `[不兼容]` [lnetrit-alt-dsh-system-control](https://github.com/lnetrit-alt/dsh-system-control) ★0 — DSH web plugin: sidebar-embedded DeepSeek balance readout with a black minimalist full-shutdown button.
+- 🟨 `[不兼容]` [loyalchiiina-dsh-voice-alert](https://github.com/loyalchiiina/dsh-voice-alert) ★0 — DSH voice/SFX alert: plays 'done' on turn end and 'fail' on errors — per-turn dedup, error-first, three modes
 - 🟨 `[不兼容]` [lrplrplrp-dsh-sidebar-gdhighlight](https://github.com/lrplrplrp/dsh-sidebar-gdhighlight) ★0 — godot语法高亮，依赖dsh-better-sidebar
 - 🟨 `[不兼容]` [luisarg03-dsh-memory-vault](https://github.com/Luisarg03/dsh-memory-vault) ★0 — —
 - 🟨 `[不兼容]` [lw-storm-dsh-plugin-version-management](https://github.com/lw-storm/dsh-plugin-version-management) ★0 — This plugin provides version management and rollback capabilities

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T04:45:58Z",
+ "generated_at": "2026-11-05T05:00:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6492,6 +6492,13 @@
    "desc": "—"
   },
   {
+   "repo": "lishize20040802-rgb/dsh-rigor-4",
+   "name": "lishize20040802-rgb-dsh-rigor-4",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Rigor 4 community agent plugin for DeepSeek Harness, with portable install and uninstall workflows"
+  },
+  {
    "repo": "lishuo4096/dsh-enet-review",
    "name": "lishuo4096-dsh-enet-review",
    "verdict": "ok",
@@ -6511,6 +6518,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "What will your agent's context cost before it runs? Audit instruction files, skills, MCP tool schemas and memo"
+  },
+  {
+   "repo": "liyixuan201211/nightshift",
+   "name": "liyixuan201211-nightshift",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Run an agent unattended for hours and get a morning brief that is an audit, not a summary"
   },
   {
    "repo": "ljlj7149-cloud/dsh-cognitio",
@@ -22844,6 +22858,13 @@
    "desc": "DSH 移动端热键模式插件：自动检测移动端，Ctrl+Enter 发送 / Enter 换行；设置面板开关"
   },
   {
+   "repo": "liujuntao123/dsh-trusted-page",
+   "name": "liujuntao123-dsh-trusted-page",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) Web 远程受信访问插件：设置面板可视化配置受信域名，联动 /api 放行与页面受信判定，修复远程 Models/设置页 settings are unavailable i"
+  },
+  {
    "repo": "liuyun847/dsh-client-ui-turn-chime",
    "name": "liuyun847-dsh-client-ui-turn-chime",
    "verdict": "ok",
@@ -27667,6 +27688,13 @@
    "desc": "DeepSeek Harness 的官方桌面应用——以原生 WebView 加载 DeepSeek Harness 工作台,轻量、低内存、无需技术背景即可安装使用"
   },
   {
+   "repo": "hoyyang/dsh-android-pane",
+   "name": "hoyyang-dsh-android-pane",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Live Android device pane for DeepSeek Harness: scrcpy H.264 streaming, agent injection, UI-tree verification"
+  },
+  {
    "repo": "hpyer/dsh-for-mac",
    "name": "hpyer-dsh-for-mac",
    "verdict": "incompatible",
@@ -28932,6 +28960,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH web plugin: sidebar-embedded DeepSeek balance readout with a black minimalist full-shutdown button."
+  },
+  {
+   "repo": "loyalchiiina/dsh-voice-alert",
+   "name": "loyalchiiina-dsh-voice-alert",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH voice/SFX alert: plays 'done' on turn end and 'fail' on errors — per-turn dedup, error-first, three modes"
   },
   {
    "repo": "lrplrplrp/dsh-sidebar-gdhighlight",
@@ -81453,6 +81488,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness 原生 RSS 订阅监控插件：多源订阅、关键词过滤、定时检查去重、新条目邮件通知（缩略图 HTML 模板），SMTP 密码走凭据库永不落盘，原生设置页四页签体验"
+  },
+  {
+   "repo": "huuthuan-nguyen/dsh-tgrep",
+   "name": "huuthuan-nguyen-dsh-tgrep",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "⚡️ Ultra-fast trigram-indexed code search for DeepSeek Harness powered by Microsoft tgrep."
   },
   {
    "repo": "icanotcode/dsh-feishu-bot",
