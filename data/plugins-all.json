@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T02:15:58Z",
+ "generated_at": "2026-11-05T02:30:57Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4159,6 +4159,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "监听每次模型请求，按任务类型与复杂度把请求路由到最合适的模型档位；四个专家并行推荐、EXP3 元选择器决定听谁的；每回合按质量代理信号（工具失败、模型重试、延迟）计算奖励并回传，路由策略随使用越学越准"
+  },
+  {
+   "repo": "libaie/dsh-flotilla",
+   "name": "libaie-dsh-flotilla",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Multi-repo workflow isolation skill for DeepSeek Harness - one isolated entry agent per repo, one controller f"
   },
   {
    "repo": "lileikeji/dsh-auto-compact",
@@ -10781,6 +10788,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "生命核心：存在状态机 + 时间线 + 自我激活原语 + 可打断睡眠 + 主体性自我模型（我存在，不因任何人的需要；我改变自己，不需要任何人的许可）"
+  },
+  {
+   "repo": "jonah791/dsh-prompt-defense",
+   "name": "jonah791-dsh-prompt-defense",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 提示词注入防御：外部内容标记 + 注入特征检测 + 危险动作人审门控 + 审计侧车"
   },
   {
    "repo": "jonah791/dsh-session-eject",
@@ -44411,6 +44425,13 @@
    "desc": "2D teaching plots for DeepSeek Harness"
   },
   {
+   "repo": "kiterunner1/dsh-attention-beep",
+   "name": "kiterunner1-dsh-attention-beep",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：任务结束或命令卡死时用本机人声提醒，自动中断卡住的 pwsh 调用并把「怎么继续」写回工具结果，并在 spawn 之前拦掉已知的性能陷阱写法"
+  },
+  {
    "repo": "knowbo/dsh-plugin",
    "name": "knowbo-dsh-plugin",
    "verdict": "pending",
@@ -59993,6 +60014,13 @@
    "desc": "—"
   },
   {
+   "repo": "liceses/dsh-ds-tts",
+   "name": "liceses-dsh-ds-tts",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "用 DeepSeek 官方朗读音色朗读 / 导出 / 接口化"
+  },
+  {
    "repo": "lilei0311/dsh-plugin-modality-fallback",
    "name": "lilei0311-dsh-plugin-modality-fallback",
    "verdict": "incompatible",
@@ -63925,6 +63953,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH web plugin: enable/disable installed plugins from the browser + audit every plugin download (source & time"
+  },
+  {
+   "repo": "leolee9086/dsh-computer-use",
+   "name": "leolee9086-dsh-computer-use",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Independent cross-platform desktop computer-use plugins for DeepSeek Harness (region capture via a bundled nat"
   },
   {
    "repo": "linshufan21/dsh-Api-monitor",
@@ -69553,6 +69588,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH whale-girl pet: balance + official daily usage + session cost"
+  },
+  {
+   "repo": "liyixuan201211/dsh-audio-read",
+   "name": "liyixuan201211-dsh-audio-read",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "让 AI Agent 听懂音频：转写、鸟种识别、语音情感、环境声与音乐分析"
   },
   {
    "repo": "loveplana/dsh-game-mentor",
@@ -77246,6 +77288,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness A股研究助手插件：对话式选股/排雷/盯盘/复盘，数据走同花顺金融数据 API，带本地缓存层"
+  },
+  {
+   "repo": "kevin9327/dsh-hwp",
+   "name": "kevin9327-dsh-hwp",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: read Korean Hangul .hwp (HWP 5.x) and .hwpx documents as Markdown or text, with no na"
   },
   {
    "repo": "KL3jd/handwritten-ocr",
@@ -88658,6 +88707,13 @@
    "desc": "DeepSeek Harness plugin wrapping the GitHub CLI (gh)."
   },
   {
+   "repo": "kiterunner1/dsh-plugin-audit",
+   "name": "kiterunner1-dsh-plugin-audit",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Agent Skill for DeepSeek Harness (DSH)：装第三方插件前的静态安全审计 —— 扫出 eval、patch 层 !!js、安装期脚本、开机自启、凭据复制、出网域名与提示词注入面"
+  },
+  {
    "repo": "kkutysllb/dsh-file-review-kcoder",
    "name": "kkutysllb-dsh-file-review-kcoder",
    "verdict": "ok",
@@ -88754,6 +88810,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness proxy config plugin: injects HTTP/SOCKS proxy into process.env so plugin installs (pnpm/git)"
+  },
+  {
+   "repo": "liangz2210-lgtm/dsh-openclaude-ecosystem",
+   "name": "liangz2210-lgtm-dsh-openclaude-ecosystem",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Register OpenClaude as a named subagent provider on DeepSeek Harness: task graph, exit-code classification, st"
   },
   {
    "repo": "Liaominduyh/GitHub-dsh-plugin-market",
