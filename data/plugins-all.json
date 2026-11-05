@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T04:30:52Z",
+ "generated_at": "2026-11-05T04:45:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5764,6 +5764,13 @@
    "desc": "AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl"
   },
   {
+   "repo": "erya2000/dsh-session-budget-guard",
+   "name": "erya2000-dsh-session-budget-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-session-budget-guard"
+  },
+  {
    "repo": "ewoowe/dsh-session-usage-plugin",
    "name": "ewoowe-dsh-session-usage-plugin",
    "verdict": "ok",
@@ -10746,6 +10753,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Automatic cross-session GoodMemory recall and writeback for DeepSeek Harness"
+  },
+  {
+   "repo": "hoyyang/dsh-agent-billing",
+   "name": "hoyyang-dsh-agent-billing",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Agent billing & usage observability for DeepSeek Harness — 会话日志直扫记账 / per-window 实时徽标 / 多账号费率档案 / 预算告警"
   },
   {
    "repo": "huajuan2024/dsh-session-manager",
@@ -22074,6 +22088,13 @@
    "desc": "—"
   },
   {
+   "repo": "gunduziba/dsh-tool-open-in-idea",
+   "name": "gunduziba-dsh-tool-open-in-idea",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) 官方原生侧边栏与界面专属的 IntelliJ IDEA 直连与文件跳转插件，基于 Streamable HTTP MCP 协议"
+  },
+  {
    "repo": "guo6x/dsh-shipcheck",
    "name": "guo6x-dsh-shipcheck",
    "verdict": "ok",
@@ -27492,6 +27513,13 @@
    "desc": "—"
   },
   {
+   "repo": "developerdh/dsh-jenkins-panel",
+   "name": "developerdh-dsh-jenkins-panel",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "面向 Jenkins 的 DeepSeek Harness (dsh) 插件：让 dsh 里的 AI 直接触发、跟踪、排查 Jenkins 构建，并提供一个 dsh 官方右侧栏可视化面板"
+  },
+  {
    "repo": "difimim/dsh-voice-input-npm",
    "name": "difimim-dsh-voice-input-npm",
    "verdict": "incompatible",
@@ -28582,6 +28610,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "erha2777/dsh-azure-maid-skin",
+   "name": "erha2777-dsh-azure-maid-skin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "蓝瓷女仆 · Azure Maid —— DSH Web GUI 主题皮肤"
   },
   {
    "repo": "fonlan/dsh-quick-commands",
