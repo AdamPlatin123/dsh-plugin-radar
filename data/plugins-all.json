@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T05:15:58Z",
+ "generated_at": "2026-11-05T05:30:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10377,6 +10377,13 @@
    "desc": "—"
   },
   {
+   "repo": "temidayoxyz/deep-design",
+   "name": "temidayoxyz-deep-design",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Design mode for DeepSeek Harness: the design-loop agent preset plus design-principles and design-qa skill pack"
+  },
+  {
    "repo": "TingRuDeng/dsh-smart-approval",
    "name": "tingrudeng-dsh-smart-approval",
    "verdict": "incompatible",
@@ -12258,6 +12265,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Local request and response inspector for session-associated DeepSeek Harness LLM calls"
+  },
+  {
+   "repo": "sujingkpo/dsh-auto-pass",
+   "name": "sujingkpo-dsh-auto-pass",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "本项目只解决「自动审批通过」，不解决无人值守问题"
   },
   {
    "repo": "SuperPaiGu/dsh-session-manager",
@@ -17599,6 +17613,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness (DSH) 代码参考检索与复用调查插件：开发前检索本地代码库与 GitHub/npm 开源项目，评估复用/改造/引入依赖/自制并询问用户，支持架构级复用"
+  },
+  {
+   "repo": "viyiviyi/dsh-quiet-mode",
+   "name": "viyiviyi-dsh-quiet-mode",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "少点废话"
   },
   {
    "repo": "waknow/dsh-web-icon-indicator",
@@ -29221,6 +29242,13 @@
    "desc": "English-only fork of dsh-TUI — Claude Code-style terminal UI for DeepSeek Harness"
   },
   {
+   "repo": "rhczz/dsh-plugin-ui-font-family",
+   "name": "rhczz-dsh-plugin-ui-font-family",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "给 DeepSeek Harness 的 Web 界面换字体"
+  },
+  {
    "repo": "rocklau/dsh-rss-reader",
    "name": "rocklau-dsh-rss-reader",
    "verdict": "incompatible",
@@ -40160,6 +40188,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "熊猫日历 · DSH client-plugin：公历/农历/干支/生肖/节气、传统与外国节日、中国法定节假日（含调休）、多城市天气、时间戳转换（秒/毫秒 ↔ 年月日时分秒，可选时区）与离线的「历史上的今天」 — tok"
+  },
+  {
+   "repo": "runcat-tommy/dsh-windows-c-cleanup",
+   "name": "runcat-tommy-dsh-windows-c-cleanup",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: scan, grade and clean up Windows C: drive - five-tier safety grading, staging area, UAC elevation,"
   },
   {
    "repo": "Ruqii/dsh-minecraft",
@@ -82848,6 +82883,13 @@
    "desc": "Try DeepSeek Harness with your existing Claude Code setup"
   },
   {
+   "repo": "smilewhenever777/dsh-scholar",
+   "name": "smilewhenever777-dsh-scholar",
+   "verdict": "ok",
+   "stars": 14,
+   "desc": "DSH 科研插件集：论文精读与追问、Idea 知识库、SSH GPU 监控，以及按工作区管理的研究目标、假设、DAG 和实验台账"
+  },
+  {
    "repo": "WNJXYK/dsh-codex-oauth",
    "name": "wnjxyk-dsh-codex-oauth",
    "verdict": "ok",
@@ -94746,6 +94788,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH WebUI plugin for managing custom LLM providers, model parameters, thinking budgets, and request settings."
+  },
+  {
+   "repo": "ubggyhjb/dsh-mathmodel-v7",
+   "name": "ubggyhjb-dsh-mathmodel-v7",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "数学建模竞赛 Agent（DeepSeek Harness preset）v7：CUMCM 国赛专项，资产接管→Discovery+竞争搜索→方法学契约→代码图表→编辑/视觉证据链→论文→全门禁验收，含 CUMCM Ty"
   },
   {
    "repo": "uckkk/dsh-brand-identity",
