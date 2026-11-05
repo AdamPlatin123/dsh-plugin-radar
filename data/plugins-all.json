@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T01:15:56Z",
+ "generated_at": "2026-11-05T01:30:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -24125,6 +24125,13 @@
    "desc": "Windows desktop shell + Doraemon Dream theme plugin for DeepSeek Harness (dsh) — 哆啦A梦主题桌面工作台"
   },
   {
+   "repo": "vb2250158/dsh-theme-blue",
+   "name": "vb2250158-dsh-theme-blue",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Private blue theme foundation for the DeepSeek Harness web client"
+  },
+  {
    "repo": "vilicvane/dsh-plugin-web-notify",
    "name": "dsh-plugin-web-notify",
    "verdict": "ok",
@@ -38389,13 +38396,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "jeffcwj/dsh-preset-switcher",
-   "name": "jeffcwj-dsh-preset-switcher",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "dsh预设热切换"
   },
   {
    "repo": "jetheaven/dsh-translate-pro",
@@ -57599,6 +57599,13 @@
    "desc": "—"
   },
   {
+   "repo": "jeffcwj/dsh-preset-switcher",
+   "name": "jeffcwj-dsh-preset-switcher",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh预设热切换"
+  },
+  {
    "repo": "Jensen-Yao/dsh-model-palette",
    "name": "jensen-yao-dsh-model-palette",
    "verdict": "incompatible",
@@ -72164,6 +72171,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "iasiv5/dsh-m",
+   "name": "iasiv5-dsh-m",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件市场：Marketplace for DeepSeek Harness plugins · dsh-m"
   },
   {
    "repo": "jilian-dsh/dsh-rules-manager",
