@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T03:15:42Z",
+ "generated_at": "2026-11-05T03:30:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -48933,6 +48933,13 @@
    "desc": "契税计算"
   },
   {
+   "repo": "uckkk/dsh-deep-clean",
+   "name": "uckkk-dsh-deep-clean",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "开荒保洁"
+  },
+  {
    "repo": "uckkk/dsh-deep-clone",
    "name": "uckkk-dsh-deep-clone",
    "verdict": "ok",
@@ -49248,6 +49255,13 @@
    "desc": "省略缩写"
   },
   {
+   "repo": "uckkk/dsh-email-length",
+   "name": "uckkk-dsh-email-length",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "邮件字数建议"
+  },
+  {
    "repo": "uckkk/dsh-emergency-kit",
    "name": "uckkk-dsh-emergency-kit",
    "verdict": "ok",
@@ -49260,6 +49274,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "精油稀释计算"
+  },
+  {
+   "repo": "uckkk/dsh-espresso",
+   "name": "uckkk-dsh-espresso",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "意式萃取"
+  },
+  {
+   "repo": "uckkk/dsh-euler-totient",
+   "name": "uckkk-dsh-euler-totient",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "欧拉函数"
   },
   {
    "repo": "uckkk/dsh-ev-range",
@@ -49505,6 +49533,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "粉底用量"
+  },
+  {
+   "repo": "uckkk/dsh-frame-rate",
+   "name": "uckkk-dsh-frame-rate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "帧率选择"
   },
   {
    "repo": "uckkk/dsh-fuel-cost",
@@ -50004,6 +50039,13 @@
    "desc": "洗头频率"
   },
   {
+   "repo": "uckkk/dsh-hair-wash-care",
+   "name": "uckkk-dsh-hair-wash-care",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "洗发护发"
+  },
+  {
    "repo": "uckkk/dsh-haiti",
    "name": "uckkk-dsh-haiti",
    "verdict": "ok",
@@ -50023,6 +50065,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "仓鼠饮食"
+  },
+  {
+   "repo": "uckkk/dsh-hand-care",
+   "name": "uckkk-dsh-hand-care",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "手部护理"
   },
   {
    "repo": "uckkk/dsh-hanfu-buy",
@@ -50478,6 +50527,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "平方数判断"
+  },
+  {
+   "repo": "uckkk/dsh-iso8601",
+   "name": "uckkk-dsh-iso8601",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ISO8601 转换"
   },
   {
    "repo": "uckkk/dsh-israel",
@@ -51145,6 +51201,13 @@
    "desc": "情绪日志"
   },
   {
+   "repo": "uckkk/dsh-morse",
+   "name": "uckkk-dsh-morse",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "摩尔斯电码编解码"
+  },
+  {
    "repo": "uckkk/dsh-motor-current",
    "name": "uckkk-dsh-motor-current",
    "verdict": "ok",
@@ -51262,6 +51325,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "非暴力沟通"
+  },
+  {
+   "repo": "uckkk/dsh-objectid",
+   "name": "uckkk-dsh-objectid",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ObjectId 生成"
   },
   {
    "repo": "uckkk/dsh-objection",
@@ -60915,6 +60985,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "直播带货拆解"
+  },
+  {
+   "repo": "uckkk/dsh-liver-func",
+   "name": "uckkk-dsh-liver-func",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "肝功能解读"
   },
   {
    "repo": "uckkk/dsh-nail-issue",
@@ -89986,6 +90063,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "基因编辑未来"
+  },
+  {
+   "repo": "uckkk/dsh-github-live",
+   "name": "uckkk-dsh-github-live",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "GitHub仓库信息"
   },
   {
    "repo": "uckkk/dsh-html-decode",
