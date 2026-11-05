@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T05:45:57Z",
+ "generated_at": "2026-11-05T06:00:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -13408,6 +13408,13 @@
    "desc": "Blue: a TUI is not a package, it is a Cordis plugin tree — a modern terminal UI for DeepSeek Harness with hot-"
   },
   {
+   "repo": "aklnaaw/dsh-claude-theme",
+   "name": "aklnaaw-dsh-claude-theme",
+   "verdict": "pending",
+   "stars": 20,
+   "desc": "Claude-style theme for the DeepSeek Harness Web GUI: warm cream canvas, serif reading text, coral accent — plu"
+  },
+  {
    "repo": "Imzl-zl/dsh-toolbox-ui",
    "name": "imzl-zl-dsh-mcp-manager-ui",
    "verdict": "ok",
@@ -26442,6 +26449,13 @@
    "desc": "dsh plugin - skill marketplace (SkillHub + ClawHub) with sidebar entry, overlay panel, and chat input quick-pi"
   },
   {
+   "repo": "adithyanraj03/dsh-graft-plugin",
+   "name": "adithyanraj03-dsh-graft-plugin",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "A DeepSeek Harness plugin that puts graft — a prebuilt graph of every symbol, its file:line span, and who call"
+  },
+  {
    "repo": "ai-eks/dsh-auth-tunnel",
    "name": "ai-eks-dsh-auth-tunnel",
    "verdict": "incompatible",
@@ -26895,6 +26909,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "akira399/dsh-session-delete",
+   "name": "akira399-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Permanently delete DSH sessions from the file system, right from the sidebar conversation menu — 在 DSH 侧边栏菜单真正"
   },
   {
    "repo": "andyfan1094/dsh-winrm",
@@ -28526,6 +28547,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "akvi0921/dsh-console-tap",
+   "name": "akvi0921-dsh-console-tap",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "【已停止维护/归档】旧版控制台显形插件 → 新插件见 akvi0921/dsh-build-progress"
   },
   {
    "repo": "alfredhuang211/dsh-ssh-hosts",
@@ -80769,6 +80797,13 @@
    "desc": "飞书 → 本机 DeepSeek Harness Agent 桥接（dsh-plugin）"
   },
   {
+   "repo": "zhengjy01/dsh-qqmail",
+   "name": "zhengjy01-dsh-qqmail",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "QQ Mail (and any IMAP/SMTP mailbox) for DeepSeek Harness — qqmail_* agent tools, a qqmail CLI, a qqmail-mcp st"
+  },
+  {
    "repo": "zootguru/dsh-vpn-ops",
    "name": "zootguru-dsh-vpn-ops",
    "verdict": "ok",
@@ -86003,6 +86038,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness client plugin: right-side session stats panel - cache hit rate, session cost (DeepSeek offici"
+  },
+  {
+   "repo": "aa2246740/dsh-oauth-login",
+   "name": "aa2246740-dsh-oauth-login",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Pi-native multi-provider OAuth login for DeepSeek Harness"
   },
   {
    "repo": "addxing/conservative-code-edits",
