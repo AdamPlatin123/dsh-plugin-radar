@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2575）
+# 🔌 Web UI 增强（2576）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2065,6 +2065,7 @@
 - 🟨 `[不兼容]` [kovey-dsh-nvim-tui](https://github.com/kovey/dsh-nvim-tui) ★5 — Neovim-style TUI for DeepSeek Harness (dsh): nvim renders the terminal, a Node runner bridges DSH agent events
 - 🟨 `[不兼容]` [lanbaolu-dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) ★5 — DeepSeek Harness (DSH) 微信桥接插件：三端通用，host 工具 + Web 管理面板
 - 🟨 `[不兼容]` [lbl61-dsh-drop-in](https://github.com/lbl61/dsh-drop-in) ★5 — 把文件拖入/粘贴到 DeepSeek Harness Web：输入框原生引用气泡，随消息发送（含绝对路径），气泡渲染文件卡片
+- 🟨 `[不兼容]` [mozi-desk-mozi-forge](https://github.com/mozi-desk/mozi-forge) ★5 — A foundation for self-evolving AI agents, built on DeepSeek Harness.
 - 🟨 `[不兼容]` [ningbonb-dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) ★5 — Custom product name and logo branding for DeepSeek Harness Web 自定义 DeepSeek Harness Web 端 logo 和产品名称
 - 🟨 `[不兼容]` [raphael-y7-dsh-desktop-statusbar](https://github.com/raphael-y7/dsh-desktop-statusbar) ★5 — 把 DSH 桌面端底部的统计行换成可配置状态栏：10 个字段可选可排序，按 DeepSeek 官方峰谷口径估算费用，支持自定义模型单价与账户余额
 - 🟨 `[不兼容]` [sixtysevenlf-dsh-sound-alerts](https://github.com/sixtysevenlf/dsh-sound-alerts) ★5 — DSH Web UI 声音提示插件：需要授权/提问与任务完成时播放提示音 (Web Audio, no assets)

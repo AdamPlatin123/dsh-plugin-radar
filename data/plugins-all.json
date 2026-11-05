@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T05:00:57Z",
+ "generated_at": "2026-11-05T05:15:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -9892,6 +9892,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH 一键复活：重启后给所有被打断的会话自动发送「继续」指令（/revive 命令 + revive_sessions 工具 + 浏览器一键按钮）"
+  },
+  {
+   "repo": "pan17/dsh-tool-manager",
+   "name": "pan17-dsh-tool-manager",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH 工具管理插件：按 Agent Preset 开关和分组工具，像 Skill 一样按需加载工具，减少模型上下文占用"
   },
   {
    "repo": "qiuqiukof-oss/hesi-dsh-plugins",
@@ -26328,6 +26335,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "把文件拖入/粘贴到 DeepSeek Harness Web：输入框原生引用气泡，随消息发送（含绝对路径），气泡渲染文件卡片"
+  },
+  {
+   "repo": "mozi-desk/mozi-forge",
+   "name": "mozi-desk-mozi-forge",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "A foundation for self-evolving AI agents, built on DeepSeek Harness."
   },
   {
    "repo": "ningbonb/dsh-client-ui-brand",
@@ -89671,6 +89685,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh plugin wrapping hashline line-addressed editor as a native tool"
+  },
+  {
+   "repo": "moziforge/calendar-plugins",
+   "name": "moziforge-calendar-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugins that connect agents to calendar providers: iCloud Calendar over CalDAV, with recurring events expa"
   },
   {
    "repo": "myk5010/dsh-kimi",
