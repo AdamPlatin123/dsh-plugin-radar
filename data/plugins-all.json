@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T04:15:46Z",
+ "generated_at": "2026-11-05T04:30:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5974,6 +5974,13 @@
    "desc": "Safe DSH restarts, token-aware reconnect, and policy-based recovery for DSH 0.2+"
   },
   {
+   "repo": "hawk2048/oh-my-dsh",
+   "name": "hawk2048-oh-my-dsh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "oh-my-dsh: OMC-style multi-agent orchestration for DeepSeek Harness — 29 workflow skills + 12 /omd-* slash com"
+  },
+  {
    "repo": "HiccupGeng/dsh-briefing-skill",
    "name": "hiccupgeng-dsh-briefing-skill",
    "verdict": "pending",
@@ -8737,13 +8744,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "hawk2048/oh-my-dsh",
-   "name": "hawk2048-oh-my-dsh",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "oh-my-dsh: OMC-style multi-agent orchestration for DeepSeek Harness — 29 workflow skills + 12 /omd-* slash com"
   },
   {
    "repo": "XXXXXQ-0206/dsh-session-delete",
@@ -42654,6 +42654,13 @@
    "desc": "—"
   },
   {
+   "repo": "ckk-09/dsh-refix",
+   "name": "ckk-09-dsh-refix",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Self-diagnosing, self-repairing, self-iterating dynamic plugin for DSH (DeepSeek Harness)"
+  },
+  {
    "repo": "ClancyLiao/dsh-plugins",
    "name": "clancyliao-dsh-plugins",
    "verdict": "pending",
@@ -63640,6 +63647,13 @@
    "desc": "—"
   },
   {
+   "repo": "activeing123/dsh-mcptoon",
+   "name": "activeing123-dsh-mcptoon",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command"
+  },
+  {
    "repo": "Ahaway1st/dsh-browser-control",
    "name": "ahaway1st-dsh-browser-control",
    "verdict": "pending",
@@ -66879,6 +66893,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Electron launcher for a local deepseek-harness checkout"
+  },
+  {
+   "repo": "xinghaix/deepseek-harness-desktop",
+   "name": "xinghaix-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Minimal cross-platform desktop wrapper for DeepSeek Harness (DSH) CLI"
   },
   {
    "repo": "xlin20021/dsh-mcp-hub",
@@ -93759,6 +93780,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Display subagent provider, model, and reasoning effort badges in DeepSeek Harness"
+  },
+  {
+   "repo": "aleskxyz/dsh-subagent-fork-lite",
+   "name": "aleskxyz-dsh-subagent-fork-lite",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "In-process DeepSeek Harness subagent provider that seeds each child with a bounded window of the parent’s comp"
   },
   {
    "repo": "alex-dsh-plugin/open-in-vscode",
