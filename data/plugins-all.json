@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T00:30:49Z",
+ "generated_at": "2026-11-05T00:45:55Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -8991,7 +8991,7 @@
    "desc": "从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）\\| Zero-to-plugin tutorial for DeepSeek Harness"
   },
   {
-   "repo": "Fishsb/dsh-prompt-enhancer",
+   "repo": "Fishsb/dsh-voice-prompt-enhancer",
    "name": "fishsb-dsh-prompt-enhancer",
    "verdict": "incompatible",
    "stars": 82,
@@ -24069,6 +24069,13 @@
    "desc": "为 DSH Web 对话区提供回到顶部 / 上一条 / 下一条 / 回到底部的圆形导航按钮，自动处理更早历史分页"
   },
   {
+   "repo": "unsiscon/dsh-novel-launcher",
+   "name": "unsiscon-dsh-novel-launcher",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "在 DSH 界面放一个悬浮球：点开本地书单，用你自己的阅读器打开，窗口自动归位"
+  },
+  {
    "repo": "uselessbiubiubiu/deepseek-harness-desktop",
    "name": "uselessbiubiubiu-deepseek-harness-desktop",
    "verdict": "pending",
@@ -24277,6 +24284,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "面向 DeepSeek Harness Web 的已归档会话管理与恢复界面插件"
+  },
+  {
+   "repo": "wyzh0117/dsh-port-manager",
+   "name": "wyzh0117-dsh-port-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Native DSH sidebar app: every listening port on this machine, the app behind it, and one-click port actions."
   },
   {
    "repo": "xain/ui-beep",
@@ -41200,6 +41214,13 @@
   {
    "repo": "ZhhhhMMM/dsh-usage-dashboard",
    "name": "zhhhhmmm-dsh-usage-dashboard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "zhourenke/dsh-reasoning-merge",
+   "name": "zhourenke-dsh-reasoning-merge",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -94179,6 +94200,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "社区维护的 DeepSeek Harness Codex 插件：OAuth、模型、图片与流式恢复；非官方 / Community Codex plugin for DSH: OAuth, models, images,"
+  },
+  {
+   "repo": "youdotcom-oss/dsh-plugin-youcom",
+   "name": "youdotcom-oss-dsh-plugin-youcom",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "You.com search + fetch provider plugin for DeepSeek Harness (dsh), plus a research-focused agent preset"
   },
   {
    "repo": "yushuosun/dsh-cost-governor",
