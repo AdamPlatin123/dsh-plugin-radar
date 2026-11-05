@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T06:30:56Z",
+ "generated_at": "2026-11-05T06:45:56Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5918,6 +5918,13 @@
    "desc": "为本地 DeepSeek Harness（`@deepseek-ai/dsh`）追加一个**编码模式** Agent Preset：门禁式工程交付流水线，包含三条独立流程——**需求开发**、**Bug 修复**、**功"
   },
   {
+   "repo": "guhanfei-ai/dsh-human-intent",
+   "name": "guhanfei-ai-dsh-human-intent",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Cryptographically bind human authorization to the exact action an AI agent is about to execute."
+  },
+  {
    "repo": "guobinmengxiang-rgb/dsh-memory-canvas",
    "name": "guobinmengxiang-rgb-dsh-memory-canvas",
    "verdict": "ok",
@@ -11756,6 +11763,13 @@
    "desc": "—"
   },
   {
+   "repo": "iuuuuuuuu/dsh-usage-stats",
+   "name": "iuuuuuuuu-dsh-usage-stats",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: per-day token usage and time-to-first-token statistics, broken down by workspace and session"
+  },
+  {
    "repo": "ivanearisty/dsh-plugin-cmdk",
    "name": "ivanearisty-dsh-plugin-cmdk",
    "verdict": "incompatible",
@@ -16941,6 +16955,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "UI plugin for deepseek harness web"
+  },
+  {
+   "repo": "john-walks-slow/dsh-proactive",
+   "name": "john-walks-slow-dsh-proactive",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Proactive follow-ups for DeepSeek Harness: the model schedules host-level alarms (once/every/cron with jitter,"
   },
   {
    "repo": "jsoncode/dsh-jenkins",
@@ -28808,6 +28829,13 @@
    "desc": "Claude Code-style terminal UI plugin for DeepSeek Harness (dsh): streaming REPL, collapsed thinking, interacti"
   },
   {
+   "repo": "guhanfei-ai/dsh-searchops",
+   "name": "guhanfei-ai-dsh-searchops",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Deterministic search, log and evidence acquisition for AI agents"
+  },
+  {
    "repo": "gydmsg/dsh-plugin",
    "name": "gydmsg-dsh-plugin",
    "verdict": "incompatible",
@@ -28904,6 +28932,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH plugin: configure per-model vision, reasoning levels and capacity from the Models settings UI (no host sou"
+  },
+  {
+   "repo": "jaikensai888/dsh-drawio",
+   "name": "jaikensai888-dsh-drawio",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "在 DSH Web GUI 侧边栏里直接画 draw.io 图：图纸即工作区里的 .drawio 文件，编辑器自托管、完全离线 · A self-hosted draw.io editor for the DSH sid"
   },
   {
    "repo": "jaikensai888/dsh-skillui",
@@ -38454,6 +38489,13 @@
    "desc": "—"
   },
   {
+   "repo": "guhanfei-ai/dsh-fingerprint-signature",
+   "name": "guhanfei-ai-dsh-fingerprint-signature",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Lightweight human-presence confirmation for DeepSeek Harness — a one-shot verification gate for protected AI t"
+  },
+  {
    "repo": "GuoCheng24/breakthrough-harness",
    "name": "guocheng24-breakthrough-harness",
    "verdict": "pending",
@@ -43856,6 +43898,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "guhanfei-ai/dsh-introspect",
+   "name": "guhanfei-ai-dsh-introspect",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Local-first self-observability for DeepSeek Harness — events, personal metrics and reality feedback."
   },
   {
    "repo": "guobinmengxiang-rgb/dsh-xhs-note",
@@ -77549,6 +77598,13 @@
    "desc": "DSH plugin auditor: pre-flight compatibility check for profile plugin combinations"
   },
   {
+   "repo": "iasmndjxjz/dsh-paper-reader",
+   "name": "iasmndjxjz-dsh-paper-reader",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSHA 论文阅读器插件：三栏阅读（左目录/中黑底论文/右实时 Agent 对话）+ 右栏停靠模式 + pdf.js 渲染与文字抽取"
+  },
+  {
    "repo": "iceprosurface/dsh-gateway-config",
    "name": "dsh-gateway-config",
    "verdict": "incompatible",
@@ -77876,6 +77932,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "S3 storage backend for the DeepSeek Harness attachment seam: content-addressed, write-once objects with verifi"
+  },
+  {
+   "repo": "guhanfei-ai/dsh-worldsense",
+   "name": "guhanfei-ai-dsh-worldsense",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A safe, bounded, read-only perception layer for AI agents to observe administrator-defined JSON APIs."
   },
   {
    "repo": "hcyinnn/dsh-tool-ssh",
@@ -82965,6 +83028,13 @@
    "verdict": "ok",
    "stars": 16,
    "desc": "仿 Claude Code 推理等级滑块 支持第三方模型 DSH 插件"
+  },
+  {
+   "repo": "fourzkw/dsh-drawai",
+   "name": "fourzkw-dsh-drawai",
+   "verdict": "ok",
+   "stars": 16,
+   "desc": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具"
   },
   {
    "repo": "giter00/dsh-headroom",

@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2591）
+# 🔌 Web UI 增强（2594）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -618,6 +618,7 @@
 - 🟩 `[可用]` [dsh-deepseek-usage-dashboard](https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard) ★2 — DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and ba
 - 🟩 `[可用]` [jiekesu967-dsh-plugin-opencode-usage](https://github.com/jiekesu967/dsh-plugin-opencode-usage) ★2 — OpenCode Go 订阅用量悬浮面板:DeepSeek Harness Web 侧边栏显示滚动/每周/每月额度、已用与剩余额度
 - 🟩 `[可用]` [jinxlux-xiao-theme-dsh-ui-plugin](https://github.com/jinxlux/xiao-theme-dsh-ui-plugin) ★2 — UI plugin for deepseek harness web
+- ⬜ `[待定]` [john-walks-slow-dsh-proactive](https://github.com/john-walks-slow/dsh-proactive) ★2 — Proactive follow-ups for DeepSeek Harness: the model schedules host-level alarms (once/every/cron with jitter,
 - 🟩 `[可用]` [jsoncode-dsh-jenkins](https://github.com/jsoncode/dsh-jenkins) ★2 — 可以在DeepSeek Harness中，快捷配置和管理多台 Jenkins 服务器与 Token， 支持设置页配置、模型工具触发构建、工作区级「执行 Jenkins Job」入口
 - 🟩 `[可用]` [julyves-dsh-git-ui](https://github.com/Julyves/dsh-git-ui) ★2 — —
 - 🟩 `[可用]` [junguangjiang-ds-whale-ui](https://github.com/JunguangJiang/ds-whale-ui) ★2 — —
@@ -2431,6 +2432,7 @@
 - 🟨 `[不兼容]` [fuchao2pku-dsh-experts](https://github.com/fuchao2pku/dsh-experts) ★0 — DSH Expert Marketplace — browse & install community experts/expert groups from the Web UI Settings
 - 🟨 `[不兼容]` [fusu123fusu-dsh-tui-cron](https://github.com/FUSU123fusu/dsh-tui-cron) ★0 — —
 - 🟨 `[不兼容]` [ghbhiee-dsh-plugin-tui](https://github.com/ghbhiee/dsh-plugin-tui) ★0 — Claude Code-style terminal UI plugin for DeepSeek Harness (dsh): streaming REPL, collapsed thinking, interacti
+- 🟨 `[不兼容]` [guhanfei-ai-dsh-searchops](https://github.com/guhanfei-ai/dsh-searchops) ★0 — Deterministic search, log and evidence acquisition for AI agents
 - 🟨 `[不兼容]` [gydmsg-dsh-plugin](https://github.com/gydmsg/dsh-plugin) ★0 — Out-of-tree plugin collection for DeepSeek Harness (DSH) Web UI — Space workspace file explorer (browse / Mark
 - 🟨 `[不兼容]` [hacxy-dsh-live2d](https://github.com/hacxy/dsh-live2d) ★0 — 一个用于DeepSeek Harness网页界面的Live2D宠物伴侣插件
 - 🟨 `[不兼容]` [hanlinlibham-dsh-native-tui](https://github.com/hanlinlibham/dsh-native-tui) ★0 — Classic, dependable DeepSeek Harness TUI with session, provider, and model management.
@@ -2445,6 +2447,7 @@
 - 🟨 `[不兼容]` [icyaaaww-dsh-tui-secret-guard](https://github.com/icyaaaww/dsh-tui-secret-guard) ★0 — Blocks high-confidence secrets before dsh-TUI sends them to a model, compliant with dsh ecosystem manifest v0.
 - 🟨 `[不兼容]` [ievenight-dsh-plugin](https://github.com/ievenight/dsh-plugin) ★0 — OAuth subscription login UI plugins for DeepSeek Harness
 - 🟨 `[不兼容]` [iuuuuuuuu-dsh-model-capability](https://github.com/iuuuuuuuu/dsh-model-capability) ★0 — DSH plugin: configure per-model vision, reasoning levels and capacity from the Models settings UI (no host sou
+- 🟨 `[不兼容]` [jaikensai888-dsh-drawio](https://github.com/jaikensai888/dsh-drawio) ★0 — 在 DSH Web GUI 侧边栏里直接画 draw.io 图：图纸即工作区里的 .drawio 文件，编辑器自托管、完全离线 · A self-hosted draw.io editor for the DSH sid
 - 🟨 `[不兼容]` [jaikensai888-dsh-skillui](https://github.com/jaikensai888/dsh-skillui) ★0 — —
 - 🟨 `[不兼容]` [dsh-plugin-file-manager](https://github.com/jasper-zsh/dsh-plugin-file-manager) ★0 — 面向 DeepSeek Harness（DSH） Web 界面的会话文件管理器插件
 - 🟨 `[不兼容]` [dsh-plugin-skill-panel](https://github.com/jasper-zsh/dsh-plugin-skill-panel) ★0 — DeepSeek Harness（DSH）的只读技能清单插件，在 Web GUI 中展示全局技能和当前会话可见的技能，并从会话日志推导技能加载状态
