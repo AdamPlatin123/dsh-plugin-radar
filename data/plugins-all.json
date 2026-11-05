@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T00:15:52Z",
+ "generated_at": "2026-11-05T00:30:49Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10951,6 +10951,13 @@
    "desc": "—"
   },
   {
+   "repo": "polaris-smart/dsh-agent-mailbox",
+   "name": "polaris-smart-dsh-agent-mailbox",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh (DeepSeek Harness) 跨 agent 信箱插件：mailbox_send/check/reply/list/done/broadcast + task_create/list，桥接 agent-m"
+  },
+  {
    "repo": "POWERRRRRRRR/dsh-live-loop",
    "name": "powerrrrrrrr-dsh-live-loop",
    "verdict": "incompatible",
@@ -17251,6 +17258,13 @@
    "desc": "一个插件让你的dsh可以自由切换你的wallpaper engine里面的壁纸资源，还可以通过多个滑动条来控制壁纸的模糊程度、亮度、边框，以及对话框的液态玻璃效果"
   },
   {
+   "repo": "sailoumili/dsh-sidebar-plus",
+   "name": "sailoumili-dsh-sidebar-plus",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "基于 DSH 官方侧边栏的文件视图增强插件，提供源码视图、原位编辑、行号显示、搜索和字体缩放功能"
+  },
+  {
    "repo": "sakka6868/dsh-skin",
    "name": "sakka6868-dsh-skin",
    "verdict": "ok",
@@ -22690,6 +22704,13 @@
    "desc": "Slides for DeepSeek Harness: the agent writes a talk to one self-contained HTML file — presents fullscreen off"
   },
   {
+   "repo": "liujuntao123/dsh-mobile-keys",
+   "name": "liujuntao123-dsh-mobile-keys",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 移动端热键模式插件：自动检测移动端，Ctrl+Enter 发送 / Enter 换行；设置面板开关"
+  },
+  {
    "repo": "liuyun847/dsh-client-ui-turn-chime",
    "name": "liuyun847-dsh-client-ui-turn-chime",
    "verdict": "ok",
@@ -22856,6 +22877,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "masknull/dsh-sidebar-ratio",
+   "name": "masknull-dsh-sidebar-ratio",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：侧边栏按窗口比例打开（左栏默认 14%、右栏可选），同一父会话组内共享右侧栏面板"
   },
   {
    "repo": "me9rez/dsh-pwsh-style",
@@ -27905,6 +27933,13 @@
    "desc": "文件拖拽：把文件拖到 DSH 窗口，真实路径写入输入框"
   },
   {
+   "repo": "trynewthin/dsh-left-panel",
+   "name": "trynewthin-dsh-left-panel",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Git worktree-aware workspace browser for the DeepSeek Harness Web sidebar: repositories group their worktrees,"
+  },
+  {
    "repo": "VioletScar-Hui/dsh-chat-history",
    "name": "violetscar-hui-dsh-chat-history",
    "verdict": "incompatible",
@@ -28967,6 +29002,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Codex-style conversation rollback and edit-and-resend plugin for DeepSeek Harness (DSH) Web UI"
+  },
+  {
+   "repo": "shenkonghui/dsh-worktree-manager",
+   "name": "shenkonghui-dsh-worktree-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "Skylarking/dsh-sidebar",
@@ -45391,6 +45433,13 @@
    "desc": "DeepSeek 平台用量仪表盘插件 \\| DeepSeek usage dashboard plugin for DeepSeek Harness"
   },
   {
+   "repo": "objectyan/dsh-model-picker-plus",
+   "name": "objectyan-dsh-model-picker-plus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Octo-o-o-o/dsh-plugin-prune",
    "name": "octo-o-o-o-dsh-plugin-prune",
    "verdict": "ok",
@@ -60497,6 +60546,13 @@
    "desc": "—"
   },
   {
+   "repo": "tofu-zyc/dsh-plugin-tofu-box",
+   "name": "tofu-zyc-dsh-plugin-tofu-box",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Triple3h/dsh-reasoning-effort",
    "name": "triple3h-dsh-reasoning-effort",
    "verdict": "incompatible",
@@ -60523,6 +60579,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "u9521/dsh-cust-search",
+   "name": "u9521-dsh-cust-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Custom Web Search plugin for DeepSeek Harness (DSH), replacing web-search-deepseek with multi-engine sequentia"
   },
   {
    "repo": "uckkk/dsh-baby-weight",
@@ -65570,6 +65633,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件体检：安装前检查 peer 版本兼容性，防止 rc 不匹配崩溃 🩺"
+  },
+  {
+   "repo": "lin-strive/deepseek-harness-enterprise",
+   "name": "lin-strive-deepseek-harness-enterprise",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Enterprise deployment template for DeepSeek Harness"
   },
   {
    "repo": "lingyingaojue/dsh-l10n-hardpatch",
@@ -89496,6 +89566,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 思维导图插件：AI 回答自动整理为可编辑 Markdown，支持导出文件和生成图片；核心逻辑已内置，单包发布"
+  },
+  {
+   "repo": "turnwire/turnwire",
+   "name": "turnwire-turnwire",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Self-hosted agent sessions across terminal, browser and phone〔📦〕"
   },
   {
    "repo": "uckkk/dsh-ab-sample",
