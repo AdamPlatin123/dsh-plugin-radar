@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T02:30:57Z",
+ "generated_at": "2026-11-05T02:45:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -22968,6 +22968,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "masknull/dsh-delete-session",
+   "name": "masknull-dsh-delete-session",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：在侧栏会话行的 ⋯ 菜单中增加「删除会话」（永久删除，不可恢复），不接管也不禁用任何官方插件行"
   },
   {
    "repo": "masknull/dsh-sidebar-ratio",
@@ -64144,6 +64151,13 @@
    "desc": "Cross-platform Electron desktop shell for DeepSeek Harness"
   },
   {
+   "repo": "o-Sakurajimamai-o/dsh-desktop",
+   "name": "o-sakurajimamai-o-dsh-desktop",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "oldwounds2120/deepseek-harness-desktop",
    "name": "oldwounds2120-deepseek-harness-desktop",
    "verdict": "ok",
@@ -64720,13 +64734,6 @@
   {
    "repo": "LvienOeria/dsh-desktop-launcher",
    "name": "lvienoeria-dsh-desktop-launcher",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "o-Sakurajimamai-o/dsh-desktop",
-   "name": "o-sakurajimamai-o-dsh-desktop",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -79010,6 +79017,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 插件：给助手消息加头像与名字（App 图标 + 吃白饭的蓝色大肥鱼）\\| Adds app-icon avatar and name to assistant messages"
+  },
+  {
+   "repo": "lilith1257/dsh-plugin-qq-groupmate",
+   "name": "lilith1257-dsh-plugin-qq-groupmate",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "ljnljn2005/dsh-wecom-notify",
