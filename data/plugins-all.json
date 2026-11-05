@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T06:00:59Z",
+ "generated_at": "2026-11-05T06:16:08Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -14206,6 +14206,13 @@
    "desc": "Bring open-mcp-apps into deepseek-harness: apps as sidebar containers with their own sessions, an agent status"
   },
   {
+   "repo": "appthin/dsh-mcp-manager-plus",
+   "name": "appthin-dsh-mcp-manager-plus",
+   "verdict": "ok",
+   "stars": 7,
+   "desc": "MCP 服务器管理插件：在 DeepSeek Harness 设置界面的左侧边栏新增「MCP 管理」页面"
+  },
+  {
    "repo": "bilbillm/deepseek-harness-angelina-themes",
    "name": "bilbillm-deepseek-harness-angelina-themes",
    "verdict": "ok",
@@ -21318,6 +21325,13 @@
    "desc": "DSH 隐私保护插件：本地凭据脱敏网关的控制面板 —— 状态与审计看板、泄密探测沙箱、豁免白名单、加密密钥管理、凭据保护模型入口与部署控制"
   },
   {
+   "repo": "andregoncalves/dsh-balance",
+   "name": "andregoncalves-dsh-balance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Provider-aware balance chip for the DeepSeek Harness web sidebar: DeepSeek, OpenRouter, Moonshot/Kimi, Zhipu/G"
+  },
+  {
    "repo": "andrepontesmelo/dsh-suite",
    "name": "andrepontesmelo-dsh-suite",
    "verdict": "ok",
@@ -21500,6 +21514,13 @@
    "desc": "DSH plugin: per-model proxy routing (http/https/socks5) with a settings UI — e.g"
   },
   {
+   "repo": "black970/dsh-quota-viewer",
+   "name": "black970-dsh-quota-viewer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 侧边栏额度面板：DeepSeek 官方余额、jojo code、SCNet、方舟 Coding Plan 用量窗口，含 90 天本地历史与趋势图"
+  },
+  {
    "repo": "boomzikazita/dsh-spec-gate",
    "name": "boomzikazita-dsh-spec-gate",
    "verdict": "ok",
@@ -21624,6 +21645,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "czhzz/dsh-net-access",
+   "name": "czhzz-dsh-net-access",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Control how the DeepSeek Harness Web GUI is reachable: local only, Tailscale, all local networks, or off."
   },
   {
    "repo": "d-ouyang/dsh-plugin-ascension",
@@ -77437,6 +77465,13 @@
    "desc": "DSH Native MUV Engine - tavern companion: regex script execution, variable state tracking, iframe status bar r"
   },
   {
+   "repo": "darrien1998/dsh-ditto",
+   "name": "darrien1998-dsh-ditto",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "AI is great at doing one file"
+  },
+  {
    "repo": "dongsheng123132/dsh-profile-lock-proof",
    "name": "dongsheng123132-dsh-profile-lock-proof",
    "verdict": "incompatible",
@@ -92065,6 +92100,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories"
+  },
+  {
+   "repo": "ciskonc/dsh-context-imports",
+   "name": "ciskonc-dsh-context-imports",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "Claude Code-style @path imports for DeepSeek Harness: expands @imports in AGENTS.md/CLAUDE.md and injects refe"
   },
   {
    "repo": "geohotstan/dsh-computer-use",
