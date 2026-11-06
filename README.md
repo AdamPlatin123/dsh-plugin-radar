@@ -14,11 +14,21 @@ DSH Plugin Radar 持续收集插件候选、归并兼容性记录，并发布可
 
 **[浏览插件](https://adamplatin123.github.io/dsh-plugin-radar/)** · **[接入数据](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/api.md)** · **[登记插件](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/PLUGINS.md)**
 
+> [!TIP]
+> **更新 · 2026-11-06：雷达客户端 [dsh-autofit](https://github.com/AdamPlatin123/dsh-autofit) 发布（独立仓库 · npm `dsh-autofit`）**
+>
+> 把雷达的兼容性判定搬进你自己的 DSH：在插件页点「Install with autofix」，先在临时 profile 里真实试装；不兼容的自动修复，修复版通过了才安装；从任何入口装进来的插件，约 1 分钟内自动补测。已在 DSH 0.1.5 – 0.2.2-rc.1 和 DSH Desktop 2.0.12 – 2.0.22 上实测。
+>
+> *Update: [dsh-autofit](https://github.com/AdamPlatin123/dsh-autofit), the radar's client — trial-install any plugin in a throwaway profile, auto-repair incompatible ones, and install only what passes.*
+>
+> `dsh plugin --profile web add dsh-autofit` · **[GitHub](https://github.com/AdamPlatin123/dsh-autofit)** · **[说明与实测报告](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/autofit.md)**
+
 ## 选择你的入口
 
 | 你想做什么 | 从哪里开始 |
 |---|---|
 | 找到合适的插件 | [雷达站点](https://adamplatin123.github.io/dsh-plugin-radar/)提供浏览、筛选、精选与整合包入口 |
+| 装之前先在自己的 DSH 里测一遍，不兼容自动修 | 客户端 [dsh-autofit](https://github.com/AdamPlatin123/dsh-autofit)（`dsh plugin --profile web add dsh-autofit`） |
 | 查看精选与整合包 | [精选与整合包目录](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/catalog-highlights.md)，成员由人工策展 |
 | 在 GitHub 阅读完整记录 | [完整目录](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/PLUGINS-ALL.md)与[分类目录](https://github.com/AdamPlatin123/dsh-plugin-radar/tree/main/catalog/all) |
 | 将兼容性记录接入自己的工具 | [数据接口与口径](https://github.com/AdamPlatin123/dsh-plugin-radar/blob/main/docs/api.md) |

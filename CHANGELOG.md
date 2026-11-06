@@ -1,3 +1,7 @@
+## 2026-11-06 UTC+8（客户端发布 · dsh-autofit 0.3.0）
+- 雷达客户端 [dsh-autofit](https://github.com/AdamPlatin123/dsh-autofit) 发布（独立仓库 · npm `dsh-autofit`）：在 DSH 插件页「Install with autofix」，临时 profile 真实试装 → 不兼容自动修复 → 通过才安装；任何入口装入的插件自动补测
+- 跨版本实测：DSH 0.1.5 – 0.2.2-rc.1、DSH Desktop 2.0.12 – 2.0.22；说明与报告见 [docs/autofit.md](docs/autofit.md)
+
 ## 2026-11-04 UTC+8（运行级 · 20261103T214501Z）<!-- snapshot:20261103T214501Z -->
 - 运行级实测：总 13491：可用 8628 / 真不兼容 3546 / 待定 1317（k8s agent · 公有生态口径）
 - 快照：data/snapshots/20261103T214501Z.json（本条目与其同源）
