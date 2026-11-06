@@ -10,6 +10,8 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-go-quota | [skyrocks/dsh-go-quota](https://github.com/skyrocks/dsh-go-quota) | OpenCode GO 套餐用量（5 小时/周/月三窗口）：输入框下方标签 + 迷你进度条 + 百分比，悬浮看重置倒计时，阈值变色（<80% 绿 / ≥80% 琥珀 / ≥90% 红）；只读当前 DSH 配置的 Key，零运行时依赖，GitHub 安装 `github:skyrocks/dsh-go-quota` | 待测 |
+| dsh-deepseek-cost | [skyrocks/dsh-deepseek-cost](https://github.com/skyrocks/dsh-deepseek-cost) | DeepSeek 官网账号余额与本轮/今日/本周/本月/累计花费 dock：余额/累计/日周月读官网同源接口（与官网「用量」页一致），本轮按官方价目表峰谷分时本地估算；仅官方路由显示，GitHub 安装 `github:skyrocks/dsh-deepseek-cost` | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
