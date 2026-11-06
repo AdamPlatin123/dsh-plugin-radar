@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-05T07:00:56Z",
+ "generated_at": "2026-11-06T01:49:05Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -29676,8 +29676,8 @@
    "desc": "—"
   },
   {
-   "repo": "xxxrickymorty-dev/dsh-c137",
-   "name": "dsh-c137",
+   "repo": "xxxrickymorty-dev/dsh-rick",
+   "name": "xxxrickymorty-dev-dsh-rick",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "C-137 skin for DeepSeek Harness: 28 posters, custom scenes, and overlay pets (Rick, Morty, portal gun)."
@@ -30054,7 +30054,7 @@
    "desc": "—"
   },
   {
-   "repo": "EthanYoQ/AI-Novel-Writer",
+   "repo": "EthanYoQ/Pagekin",
    "name": "ethanyoq-ai-novel-writer",
    "verdict": "ok",
    "stars": 1239,
@@ -43914,8 +43914,8 @@
    "desc": "—"
   },
   {
-   "repo": "guhanfei-ai/dsh-introspect",
-   "name": "guhanfei-ai-dsh-introspect",
+   "repo": "guhanfei-ai/dsh-innersense",
+   "name": "dsh-innersense",
    "verdict": "ok",
    "stars": 0,
    "desc": "Local-first self-observability for DeepSeek Harness — events, personal metrics and reality feedback."
@@ -77577,8 +77577,8 @@
    "desc": "Content-addressed proof that a DSH profile declaration, pnpm lock and installed bundles agree"
   },
   {
-   "repo": "drscrewdriver/dsh-session-steward",
-   "name": "drscrewdriver-dsh-session-steward",
+   "repo": "drscrewdriver/dsh-manage-session",
+   "name": "dsh-manage-session",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH 会话管家：会话历史文件（病案室）与健康检查（体检→处方→出院），给异常会话做投影级体检与可逆修复"
