@@ -294,6 +294,7 @@
 | dsh-plugin-kit | [PerryLink/dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) | 插件编写工具包：共享 Provider 接缝、bundle 骨架与 dsh 插件家族通用约定（零运行时依赖），npm `@perrylink/dsh-plugin-kit`；定位是插件生态的基础设施而非运行时行为插件 | 待测 |
 | dsh-plugin-doctor | [PerryLink/dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) | 插件「完整性 + 运行流畅」一体检测器：零依赖（Node ≥22），一次运行覆盖包结构静态检查（R）→ cordis 契约扫描（K）→ 动态沙箱冒烟（D）→ 生态集合站清单校验（CC）四层；npm `@perrylink/dsh-plugin-doctor` | 待测 |
 | dsh-plugin-index | [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) | DSH 内的插件索引：收录 1 万余个按 package.json 里 dsh.bundle 声明校验过的插件（不按星数判定），支持一键安装，另有配套网站 | 待测 |
+| superagent-github-mock | [huanlin-labs/superagent-github-mock](https://github.com/huanlin-labs/superagent-github-mock) | dsh-superagent GitHub Source 的离线 mock：本地 REST 服务 + gh 转发 shim（继承原型真实 Commands，只覆盖 run()）+ 6 个可重放 fixture + 33 项测试（含常量 410/304 语义）；不联网、不需要 GitHub token；以 DSH Skill 安装，不是 Cordis 原生插件 | 待测 |
 
 ## 📚 学习研究
 
