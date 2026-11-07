@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T17:30:47Z",
+ "generated_at": "2026-11-07T18:30:48Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11264,6 +11264,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Windows computer-use capability for DSH: screenshot, vision, simulated input, self-evolving knowledge base"
+  },
+  {
+   "repo": "yeyuan98/bioresearcher-skills",
+   "name": "yeyuan98-bioresearcher-skills",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Agent Skills/Plugins/Connectors for biomedical research with the biomcp-ts MCP server."
   },
   {
    "repo": "yhfgyyf/dsh-auto-preset-router",
