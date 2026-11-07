@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T20:45:50Z",
+ "generated_at": "2026-11-07T21:00:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -75806,13 +75806,6 @@
    "desc": "KiroCrew bridge for DeepSeek Harness: delegate turns to a persistent, self-evolving workspace over ACP (JSON-R"
   },
   {
-   "repo": "omdsh-dev/dsh-better-workbench",
-   "name": "omdsh-dev-dsh-better-workbench",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "DSH 工作台插件，把常用的页面或者应用，Pin 在工作台"
-  },
-  {
    "repo": "americanjeff/changestab",
    "name": "changestab",
    "verdict": "pending",
@@ -77771,6 +77764,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: a project task board kept with the project as a queryable SQLite file, with a kanban/"
+  },
+  {
+   "repo": "omdsh-dev/dsh-better-workbench",
+   "name": "omdsh-dev-dsh-better-workbench",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 工作台插件，把常用的页面或者应用，Pin 在工作台"
   },
   {
    "repo": "qingmumingyang/dsh-doc-toolkit",
