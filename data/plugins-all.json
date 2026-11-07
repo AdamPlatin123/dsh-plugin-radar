@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T18:30:48Z",
+ "generated_at": "2026-11-07T20:45:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2444,6 +2444,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Low-footprint memory backend for AI agents — single binary, ~50MB RAM, verify-augmented accuracy"
+  },
+  {
+   "repo": "drscrewdriver/dsh-date-wrapper",
+   "name": "drscrewdriver-dsh-date-wrapper",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Minimal date line for the DeepSeek Harness runtime-context snapshot: 'Current date: 2026-09-08 Asia/Shanghai T"
   },
   {
    "repo": "dshworks/dsh-watch",
@@ -89230,6 +89237,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "huangfuren/dsh-bg-plugin",
+   "name": "huangfuren-dsh-bg-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: persistent full-window background image - upload, live preview, opacity/brightness/mask/blur/posit"
   },
   {
    "repo": "huangjua/dsh-evidence",
