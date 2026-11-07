@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T21:15:58Z",
+ "generated_at": "2026-11-07T21:45:44Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -36951,6 +36951,13 @@
   {
    "repo": "zsjHub/dsh-meeting-notes",
    "name": "zsjhub-dsh-meeting-notes",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "zz-zhi54/dsh-plugins",
+   "name": "zz-zhi54-dsh-plugins",
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
