@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T21:45:44Z",
+ "generated_at": "2026-11-07T22:15:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -75526,6 +75526,13 @@
    "desc": "DeepSeek Harness plugin: paste Finder file paths into the composer with Ctrl+V"
   },
   {
+   "repo": "jiekesu967/dsh-markitdown",
+   "name": "jiekesu967-dsh-markitdown",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Microsoft MarkItDown as a DeepSeek Harness tool: convert PDF, Word, Excel, PowerPoint, HTML, CSV, EPUB, or a U"
+  },
+  {
    "repo": "jonah791/dsh-agent-watch",
    "name": "jonah791-dsh-agent-watch",
    "verdict": "ok",
@@ -81014,13 +81021,6 @@
    "desc": "—"
   },
   {
-   "repo": "kovey/dsh-chat-interaction",
-   "name": "kovey-dsh-chat-interaction",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Abstract interaction layer between DeepSeek Harness (DSH) and IM platforms (Feishu, WeCom, ...)"
-  },
-  {
    "repo": "zhengjy01/dsh-feishu-mcp",
    "name": "zhengjy01-dsh-feishu-mcp",
    "verdict": "pending",
@@ -82167,6 +82167,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "kovey/dsh-chat-interaction",
+   "name": "kovey-dsh-chat-interaction",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Abstract interaction layer between DeepSeek Harness (DSH) and IM platforms (Feishu, WeCom, ...)"
   },
   {
    "repo": "ktziy/dsh-Yuuka-qqbot",
