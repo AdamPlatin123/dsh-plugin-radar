@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T21:00:53Z",
+ "generated_at": "2026-11-07T21:15:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -30483,7 +30483,7 @@
   {
    "repo": "subconscious-systems/subconscious",
    "name": "subconscious-systems-subconscious",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 76,
    "desc": "—"
   },
