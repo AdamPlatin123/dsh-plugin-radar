@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-06T01:49:05Z",
+ "generated_at": "2026-11-07T16:30:56Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -39238,6 +39238,13 @@
    "desc": "—"
   },
   {
+   "repo": "lemonxiny55/dsh-composition-doctor",
+   "name": "lemonxiny55-dsh-composition-doctor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Explain DSH plugin failures: duplicate inserts, missing patches, peer mismatches and their source paths"
+  },
+  {
    "repo": "Leo-Ayh-Oday/motion-pro-max",
    "name": "leo-ayh-oday-motion-pro-max",
    "verdict": "ok",
@@ -41889,13 +41896,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness Image2 生图插件（gpt-image-2，OpenAI Images 兼容中转）· 社区维护分支，含网关兼容性修复"
-  },
-  {
-   "repo": "PerryLink/dsh-autotier",
-   "name": "perrylink-dsh-autotier",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "Shyboy0499/dsh-pr-watch",
@@ -58714,6 +58714,13 @@
   {
    "repo": "Perfirstvito/dsh-prospector",
    "name": "perfirstvito-dsh-prospector",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "PerryLink/dsh-autotier",
+   "name": "perrylink-dsh-autotier",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -76310,6 +76317,13 @@
    "desc": "Cross-session token usage dashboard plugin for DeepSeek Harness: SQLite-backed capture + browser dashboard pan〔📦〕"
   },
   {
+   "repo": "Nesarf/mega-index-map",
+   "name": "nesarf-mega-index-map",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Neumannzc/dsh-archive-manager",
    "name": "neumannzc-dsh-archive-manager",
    "verdict": "pending",
@@ -76980,13 +76994,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Per-project long-term memory for DeepSeek Harness (DSH), backed by SQLite."
-  },
-  {
-   "repo": "Nesarf/mega-index-map",
-   "name": "nesarf-mega-index-map",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "sueqet/dsh-todo-board",
