@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T22:15:53Z",
+ "generated_at": "2026-11-07T23:00:52Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -35696,6 +35696,13 @@
    "desc": "DeepSeek Harness 识图插件：保持 DeepSeek 对话，15+ 供应商视觉模型把图片转译为文字，可在 设置→插件 配置"
   },
   {
+   "repo": "Kalospacer/dsh-model-capabilities",
+   "name": "kalospacer-dsh-model-capabilities",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "kami-mura/dsh-cost",
    "name": "kami-mura-dsh-cost",
    "verdict": "ok",
@@ -36965,13 +36972,6 @@
   {
    "repo": "CMoyuer/dsh-cad-viewer",
    "name": "cmoyuer-dsh-cad-viewer",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "Kalospacer/dsh-model-capabilities",
-   "name": "kalospacer-dsh-model-capabilities",
    "verdict": "pending",
    "stars": 2,
    "desc": "—"
@@ -54729,13 +54729,6 @@
    "desc": "—"
   },
   {
-   "repo": "JularDepick/dsh-wakatime-plugin",
-   "name": "julardepick-dsh-wakatime-plugin",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "Jumqyc/dsh-wsl-gpufix",
    "name": "jumqyc-dsh-wsl-gpufix",
    "verdict": "pending",
@@ -60483,6 +60476,13 @@
    "desc": "时间自我模型 T1 时距注入（距主人上条 / 距自圈 / 今日已醒）——注入坐标，不假装感觉"
   },
   {
+   "repo": "JularDepick/dsh-wakatime-plugin",
+   "name": "julardepick-dsh-wakatime-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "junjiangao/dsh-web-search-tavily",
    "name": "junjiangao-dsh-web-search-tavily",
    "verdict": "incompatible",
@@ -65334,13 +65334,6 @@
    "desc": "DSH Desktop - 轻量 Electron 客户端，为 DeepSeek Harness (dsh web) 提供桌面化体验"
   },
   {
-   "repo": "GooDAnDReaDY/dsh-remote-workspace",
-   "name": "goodandready-dsh-remote-workspace",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "AyaXshiN/dsh-desktop",
    "name": "ayaxshin-dsh-desktop",
    "verdict": "ok",
@@ -68300,6 +68293,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—〔📦〕"
+  },
+  {
+   "repo": "GooDAnDReaDY/dsh-remote-workspace",
+   "name": "goodandready-dsh-remote-workspace",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "helloproblems/dsh-browser-use",
