@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T05:30:54Z",
+ "generated_at": "2026-11-08T05:46:07Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11854,6 +11854,13 @@
    "desc": "自我检验闭环插件：把「猜想→检验→学习」自指引擎做成运行时机制——可证伪自我假设库 + 工具管线自动采证（4 探针含 5.9 probe-before-action 行动前探测传感器）+ finding 浮现裁决，实现惊"
   },
   {
+   "repo": "jonah791/dsh-agent-toolface",
+   "name": "jonah791-dsh-agent-toolface",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "工具面分档（DSH agent preset 行）：按证据化的 deny 集在 agent 作用域收窄模型可见工具，lean/full 一键切换 + 审计留痕，降低工具 schema 的固定上下文成本与工具选择稀释"
+  },
+  {
    "repo": "kalifun/dsh-cwl",
    "name": "kalifun-dsh-cwl",
    "verdict": "incompatible",
@@ -22401,6 +22408,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：DeepSeek Harness 界面主题与皮肤管理组件，可自由切换多款界面视觉风格"
+  },
+  {
+   "repo": "ice5kysl/dsh-msg9-kit",
+   "name": "ice5kysl-dsh-msg9-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给每个 dsh workspace 一个 msg9.io 收件箱：Agent 用工具收发，GUI 点 ✉ 看同一份邮件 \\| one msg9.io inbox per dsh workspace"
   },
   {
    "repo": "ilanxiaoqihi-cell/deepseek-harness-desktop",
@@ -94711,6 +94725,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jonah791/dsh-semantic-docs",
+   "name": "jonah791-dsh-semantic-docs",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 本地语义文档系统工具面：semantic_list/get/check/register + D1–D6 drift 判据（单一真源、文档随代码、未验证显式、留白诚实）"
   },
   {
    "repo": "joxmx/dsh-usage",
