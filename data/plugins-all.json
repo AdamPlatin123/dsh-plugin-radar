@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T16:15:59Z",
+ "generated_at": "2026-11-08T16:31:02Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1968,13 +1968,6 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "Content-addressed receipts for skills actually loaded by DeepSeek Harness"
-  },
-  {
-   "repo": "drscrewdriver/dsh-session-guard",
-   "name": "drscrewdriver-dsh-session-guard",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "—"
   },
   {
    "repo": "egnmosk/dsh-browser-bridge",
@@ -9903,6 +9896,13 @@
   {
    "repo": "drscrewdriver/dsh-prime-memory",
    "name": "drscrewdriver-dsh-prime-memory",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
+  },
+  {
+   "repo": "drscrewdriver/dsh-session-guard",
+   "name": "drscrewdriver-dsh-session-guard",
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
