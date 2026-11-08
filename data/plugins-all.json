@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T01:30:48Z",
+ "generated_at": "2026-11-08T02:00:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6371,6 +6371,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "kexuejin/dsh-browser-bsk",
+   "name": "kexuejin-dsh-browser-bsk",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：用本机 bsk CLI（腾讯 BrowserSkill 的 CLI）提供 browser 能力 seam（ctx.browser）——零工具注册，可与 browser-skill 共存"
   },
   {
    "repo": "kiefeng/dsh-lan-memory",
@@ -22760,6 +22767,13 @@
    "desc": "—"
   },
   {
+   "repo": "kexuejin/dsh-accounts-ui",
+   "name": "kexuejin-dsh-accounts-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：给 dsh-accounts 在设置面板加「账号」区（原生 UI 组件渲染）"
+  },
+  {
    "repo": "kid-tea/dsh-plugin-conflict-checker",
    "name": "kid-tea-dsh-plugin-conflict-checker",
    "verdict": "ok",
@@ -27749,6 +27763,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH (DeepSeek Harness) web plugin: pin sessions to the top of the sidebar for quick access to recurring workfl"
+  },
+  {
+   "repo": "fan56/dsh-profile-switch",
+   "name": "fan56-dsh-profile-switch",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: switch named model profiles (default model, think level, per-subagent models) interactively via th"
   },
   {
    "repo": "fan969690/dsh-module-center",
@@ -34000,6 +34021,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "一个尝试在dsh web 启动前检测其他可能导致崩溃插件并禁用的插件"
+  },
+  {
+   "repo": "drscrewdriver/dsh-perm-gate",
+   "name": "drscrewdriver-dsh-perm-gate",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "Einskyle/dsh-llm-vision-bridge",
