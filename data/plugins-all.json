@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T16:46:05Z",
+ "generated_at": "2026-11-08T17:16:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -20779,13 +20779,6 @@
    "desc": "ink-based terminal UI plugin for DeepSeek Harness"
   },
   {
-   "repo": "xuanyuanchumo/dsh-codegraph-visualizer",
-   "name": "xuanyuanchumo-dsh-codegraph-visualizer",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "dsh的代码图谱可视化"
-  },
-  {
    "repo": "XuRuitian/deepseek-harness-desktop",
    "name": "xuruitian-deepseek-harness-desktop",
    "verdict": "pending",
@@ -28582,6 +28575,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "通过微信扫码把微信机器人接入 DeepSeek Harness"
+  },
+  {
+   "repo": "xuanyuanchumo/dsh-codegraph-visualizer",
+   "name": "xuanyuanchumo-dsh-codegraph-visualizer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh的代码图谱可视化"
   },
   {
    "repo": "yamibyfajsstsgsjdw-ui/deepseek-harness-tui",
@@ -56409,6 +56409,13 @@
    "desc": "—"
   },
   {
+   "repo": "aaronlei/dsh-web-search-diy",
+   "name": "aaronlei-dsh-web-search-diy",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DeepSeek Harness（DSH）网页搜索提供方插件：把内置 web_search 工具接到 OpenAI 兼容 Responses API 及其原生 web_search 工具上"
+  },
+  {
    "repo": "BHXiang/auto-pwa",
    "name": "bhxiang-auto-pwa",
    "verdict": "incompatible",
@@ -64156,6 +64163,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: current WSL distro facts and multi-distro warnings."
+  },
+  {
+   "repo": "173787247/dsh-wsl-obscura",
+   "name": "173787247-dsh-wsl-obscura",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness tools: drive Obscura headless browser from WSL."
   },
   {
    "repo": "2h0n/dsh-web-notification",
