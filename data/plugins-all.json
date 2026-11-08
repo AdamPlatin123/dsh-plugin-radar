@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T14:30:59Z",
+ "generated_at": "2026-11-08T14:45:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -33944,6 +33944,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "apify/apify-deepseek-harness-plugin",
+   "name": "apify-apify-deepseek-harness-plugin",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Apify plugin for the DeepSeek harness"
   },
   {
    "repo": "Arborsm/dsh-plugin-devin-bridge",
