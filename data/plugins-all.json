@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T13:01:01Z",
+ "generated_at": "2026-11-08T13:16:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2890,6 +2890,13 @@
    "repo": "SiriusWJ/dsh-skills",
    "name": "siriuswj-dsh-skills",
    "verdict": "pending",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "super3ben/agent-feedback-loop",
+   "name": "super3ben-agent-feedback-loop",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -24452,6 +24459,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "远程 VPS 上部署 DSH 并通过 HTTPS 安全开放外网访问 \\| Deploy DSH on a remote VPS and expose it securely over HTTPS"
+  },
+  {
+   "repo": "vlozg/dsh-autoresearch",
+   "name": "vlozg-dsh-autoresearch",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Metric-driven autonomous experiment loop for DeepSeek Harness: the agent proposes, benchmarks, keeps or discar"
   },
   {
    "repo": "Vuitier/dsh-sound-notify",
@@ -61414,6 +61428,13 @@
    "desc": "—"
   },
   {
+   "repo": "toustifer/dshplugin",
+   "name": "toustifer-dshplugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Triple3h/dsh-reasoning-effort",
    "name": "triple3h-dsh-reasoning-effort",
    "verdict": "incompatible",
@@ -87937,6 +87958,13 @@
    "desc": "DSH tool plugin: realtime quotes and historical K-line for A-share / HK / US markets (Tencent public quote API"
   },
   {
+   "repo": "wertyq111/dsh-paste-preview",
+   "name": "wertyq111-dsh-paste-preview",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) web plugin: paste images with thumbnail previews, reroute them as file attachments for"
+  },
+  {
    "repo": "whaojie797-design/agent-handoff-kit",
    "name": "whaojie797-design-agent-handoff-kit",
    "verdict": "pending",
@@ -90912,6 +90940,13 @@
    "desc": "—"
   },
   {
+   "repo": "voidmind26/dsh-lsp-bridge",
+   "name": "voidmind26-dsh-lsp-bridge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Bridge DeepSeek Harness to language servers for read-only code intelligence, with multi-language configuration"
+  },
+  {
    "repo": "Walvez/dsh-opencodex-usage",
    "name": "walvez-dsh-opencodex-usage",
    "verdict": "ok",
@@ -92681,6 +92716,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "更改 deepseek harness 思考过程语言"
+  },
+  {
+   "repo": "wawo77/dsh-opencode-go-usage",
+   "name": "wawo77-dsh-opencode-go-usage",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "dsh的桌宠插件，爱吃白饭的可爱大肥鱼"
   },
   {
    "repo": "william-jin-cmu/dsh-companion",

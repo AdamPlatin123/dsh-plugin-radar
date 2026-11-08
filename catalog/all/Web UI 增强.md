@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2600）
+# 🔌 Web UI 增强（2601）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1751,6 +1751,7 @@
 - 🟩 `[可用]` [vb2250158-dsh-theme-blue](https://github.com/vb2250158/dsh-theme-blue) ★0 — Private blue theme foundation for the DeepSeek Harness web client
 - 🟩 `[可用]` [dsh-plugin-web-notify](https://github.com/vilicvane/dsh-plugin-web-notify) ★0 — Browser notifications for the DeepSeek Harness Web GUI.
 - ⬜ `[待定]` [vinokok-dsh-external-access-guide](https://github.com/vinokok/dsh-external-access-guide) ★0 — 远程 VPS 上部署 DSH 并通过 HTTPS 安全开放外网访问 \| Deploy DSH on a remote VPS and expose it securely over HTTPS
+- ⬜ `[待定]` [vlozg-dsh-autoresearch](https://github.com/vlozg/dsh-autoresearch) ★0 — Metric-driven autonomous experiment loop for DeepSeek Harness: the agent proposes, benchmarks, keeps or discar
 - 🟩 `[可用]` [vuitier-dsh-sound-notify](https://github.com/Vuitier/dsh-sound-notify) ★0 — —
 - 🟩 `[可用]` [waldsatte-dsh-theme-taojian](https://github.com/Waldsatte/dsh-theme-taojian) ★0 — —
 - `[空仓监测]` **dsh-deepseek-balance** — GitHub 无此仓库，判定暂不展示
