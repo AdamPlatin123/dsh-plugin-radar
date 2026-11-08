@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T00:45:50Z",
+ "generated_at": "2026-11-08T01:30:48Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -95026,6 +95026,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Sidecar hints for a running DSH task: host plugin + web client, gated by the host trust fence."
+  },
+  {
+   "repo": "snailium/dsh-repeat-tool-breaker",
+   "name": "snailium-dsh-repeat-tool-breaker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Hard break on repeated identical tool calls in DeepSeek Harness (DSH): a synchronous monotonic ctx.tools.guard"
   },
   {
    "repo": "SPYfighting/dsh-science-plugin",
