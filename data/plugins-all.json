@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T17:46:01Z",
+ "generated_at": "2026-11-08T18:04:39Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -26727,6 +26727,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "将code-server（VSCode网页版）打包安装到dsh内的插件，快速实现专业的文件编辑"
+  },
+  {
+   "repo": "jixishi/dsh-adapter-qq",
+   "name": "jixishi-dsh-adapter-qq",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "QQ Official Bot Adapter for DeepSeek Harness — C2C chat, interactive action boards, workspace session manageme"
   },
   {
    "repo": "laoduu/DeepSeek-Harness-yizi-themes",
