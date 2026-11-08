@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T16:01:04Z",
+ "generated_at": "2026-11-08T16:15:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -85949,6 +85949,13 @@
    "desc": "—"
   },
   {
+   "repo": "NeoXider/neoxider-agent-deck",
+   "name": "neoxider-neoxider-agent-deck",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "nlqh7/dsh-vision-router",
    "name": "nlqh7-dsh-vision-router",
    "verdict": "ok",
@@ -89552,6 +89559,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Agent-curated long-horizon memory for DeepSeek Harness: durable project-scoped memory banks (ctx.memory) with"
+  },
+  {
+   "repo": "hy-sde/dsh-tool-ast",
+   "name": "hy-sde-dsh-tool-ast",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The ast_grep (structural code search) and ast_edit (structural rewrite) tools for DeepSeek Harness over the pa"
   },
   {
    "repo": "hy-sde/dsh-zstd-frame",
@@ -93633,13 +93647,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "CLI-first vision sidecar for text-only coding agents"
-  },
-  {
-   "repo": "NeoXider/neoxider-agent-deck",
-   "name": "neoxider-neoxider-agent-deck",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "—"
   },
   {
    "repo": "hotpot1993/dsh-pocket",
