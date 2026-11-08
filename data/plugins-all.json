@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T21:46:02Z",
+ "generated_at": "2026-11-08T22:30:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -44430,6 +44430,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Parallelize-by-default orchestration policy for DeepSeek Harness: config-driven fan-out rules, fail-closed tas"
+  },
+  {
+   "repo": "hy-sde/dsh-plugins",
+   "name": "hy-sde-dsh-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Standalone @hy-sde-org/dsh-* plugins for DeepSeek Harness (monorepo)"
   },
   {
    "repo": "hy-sde/dsh-tool-edit",
