@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T04:16:00Z",
+ "generated_at": "2026-11-08T05:00:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -94109,6 +94109,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "GitHub 仓库 AI 自动管理通道插件 (DeepSeek Harness community bundle): 27 个工具（仓库/Issue/PR/分支/文件/标签/话题/Tags/Releases/搜索）+ W"
+  },
+  {
+   "repo": "yumusb/dsh-opencode-go-usage",
+   "name": "yumusb-dsh-opencode-go-usage",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "yushenghai1106/dsh-memory-plugin",
