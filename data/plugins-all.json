@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T17:16:01Z",
+ "generated_at": "2026-11-08T17:46:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6105,6 +6105,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Internal URL schemes for DeepSeek Harness (conflict://, pr://, issue://, …): one registry behind fs-shaped too"
+  },
+  {
+   "repo": "hy-sde/dsh-logseq",
+   "name": "hy-sde-dsh-logseq",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Logseq for DeepSeek Harness: host-plane wiki-graph service (ctx.wikiGraph) over the Logseq CLI plus model-faci"
   },
   {
    "repo": "hy-sde/dsh-tool-debug",
@@ -22485,6 +22492,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hy-sde/dsh-tool-subagent-report",
+   "name": "hy-sde-dsh-tool-subagent-report",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The child-scoped report tool for continuable in-process subagents on DeepSeek Harness: installs `report` plus"
   },
   {
    "repo": "iasiv5/skins",
@@ -44395,6 +44409,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Read-only Automic Vault plumbing for DeepSeek Harness: the host ctx.av service (av CLI probe, scan/doctor/dete"
+  },
+  {
+   "repo": "hy-sde/dsh-openwiki",
+   "name": "hy-sde-dsh-openwiki",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "OpenWiki 0.4.3 deterministic engine (MIT) as an in-process library for DeepSeek Harness: resumable page-job li"
+  },
+  {
+   "repo": "hy-sde/dsh-orchestration-policy",
+   "name": "hy-sde-dsh-orchestration-policy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Parallelize-by-default orchestration policy for DeepSeek Harness: config-driven fan-out rules, fail-closed tas"
   },
   {
    "repo": "hy-sde/dsh-tool-edit",
@@ -68589,6 +68617,13 @@
    "desc": "—"
   },
   {
+   "repo": "januory/dsh-remote-workspaces",
+   "name": "januory-dsh-remote-workspaces",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "kk2679842795/Deepseek-Harness-Desktop",
    "name": "kk2679842795-deepseek-harness-desktop",
    "verdict": "incompatible",
@@ -76350,6 +76385,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hy-sde/dsh-session-url",
+   "name": "hy-sde-dsh-session-url",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "session:// internal-URL scheme handler for DeepSeek Harness: read a session transcript, read one event as JSON"
   },
   {
    "repo": "ice5kysl/dsh-file-explorer-kit",
@@ -89603,6 +89645,13 @@
    "desc": "Agentic git plumbing for DeepSeek Harness: the host ctx.git service (diff capture/parsing, hunk staging, commi"
   },
   {
+   "repo": "hy-sde/dsh-llm-slots",
+   "name": "hy-sde-dsh-llm-slots",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Host-wide model-slot admission control (ctx.modelSlots) for DeepSeek Harness: a shared FIFO budget over every"
+  },
+  {
    "repo": "hy-sde/dsh-memory",
    "name": "hy-sde-dsh-memory",
    "verdict": "ok",
@@ -89615,6 +89664,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "The ast_grep (structural code search) and ast_edit (structural rewrite) tools for DeepSeek Harness over the pa"
+  },
+  {
+   "repo": "hy-sde/dsh-tool-codebase-memory",
+   "name": "hy-sde-dsh-tool-codebase-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Model-facing codebase-memory CLI tools for DeepSeek Harness: index repositories and query definitions, callers"
+  },
+  {
+   "repo": "hy-sde/dsh-vcs",
+   "name": "hy-sde-dsh-vcs",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Native vcs plumbing for DeepSeek Harness: the host ctx.vcs service (pi-vcs CLI resolution + probe, repo-info /"
   },
   {
    "repo": "hy-sde/dsh-zstd-frame",
