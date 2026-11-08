@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-07T23:00:52Z",
+ "generated_at": "2026-11-08T00:45:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1877,13 +1877,6 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
-  },
-  {
-   "repo": "lifangjin/dsh-paoding",
-   "name": "lifangjin-dsh-paoding",
-   "verdict": "pending",
-   "stars": 4,
-   "desc": "庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset"
   },
   {
    "repo": "nomicore-ai/nomicore",
@@ -9710,6 +9703,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "lifangjin/dsh-paoding",
+   "name": "lifangjin-dsh-paoding",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset"
   },
   {
    "repo": "LINinLIN-0079/godot-asset-planner-public",
@@ -21024,13 +21024,6 @@
    "desc": "—"
   },
   {
-   "repo": "latte03/dsh-select-quote",
-   "name": "latte03-dsh-select-quote",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "在对话里划词加批注——把选中的原文连同你的评论一起交给模型，并让它在回答里明确指出说的是哪一段"
-  },
-  {
    "repo": "little-traincar/dsh-imagegen",
    "name": "little-traincar-dsh-imagegen",
    "verdict": "pending",
@@ -27980,6 +27973,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH Web UI plugin — drag a conversation onto any workspace to organize it"
+  },
+  {
+   "repo": "latte03/dsh-select-quote",
+   "name": "latte03-dsh-select-quote",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "在对话里划词加批注——把选中的原文连同你的评论一起交给模型，并让它在回答里明确指出说的是哪一段"
   },
   {
    "repo": "lengzhanbao/dsh-raiden-theme",
@@ -55289,7 +55289,7 @@
    "desc": "—"
   },
   {
-   "repo": "Lyn-77/ProMentor",
+   "repo": "0xLyn77/ProMentor",
    "name": "lyn-77-promentor",
    "verdict": "incompatible",
    "stars": 78,
