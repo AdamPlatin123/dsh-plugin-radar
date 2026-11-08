@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T16:31:02Z",
+ "generated_at": "2026-11-08T16:46:05Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -11714,6 +11714,13 @@
    "desc": "—"
   },
   {
+   "repo": "guytogay/dsh-addon-kit",
+   "name": "guytogay-dsh-addon-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH addon kit: reusable MCP servers (desktop/browsers), A2A agent bridge, skill, plugins and mobile-remote kit"
+  },
+  {
    "repo": "Hakunm/dsh-approve-for-me",
    "name": "hakunm-dsh-approve-for-me",
    "verdict": "incompatible",
@@ -19146,6 +19153,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "浮游主题（Krill）——深海世界 + 浅海世界 双模式主题插件（DSH Web）：深色=深海（亮度编码信息层级），亮色=浅海（清澈度编码）；浮游生物动画背景、深潜工作态增强、水母参数入口"
+  },
+  {
+   "repo": "iasiv5/dsh-skins",
+   "name": "iasiv5-dsh-skins",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：DeepSeek Harness 界面主题与皮肤管理组件，可自由切换多款界面视觉风格"
   },
   {
    "repo": "idoall/dsh-quick-replies",
@@ -53560,6 +53574,13 @@
    "desc": "—"
   },
   {
+   "repo": "vb2250158/dsh-environment-sync",
+   "name": "vb2250158-dsh-environment-sync",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Open-source DSH environment synchronization and personal plugin management"
+  },
+  {
    "repo": "vb2250158/dsh-plugins",
    "name": "vb2250158-dsh-plugins",
    "verdict": "ok",
@@ -54955,13 +54976,6 @@
   {
    "repo": "Rainflowers686/deepseek-harness-minimal-omni",
    "name": "rainflowers686-deepseek-harness-minimal-omni",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "Scorp1o117/dsh-reasoning-options",
-   "name": "scorp1o117-dsh-reasoning-options",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -57375,6 +57389,13 @@
    "desc": "—"
   },
   {
+   "repo": "Kayungko/dsh-plugin-task-coordinator",
+   "name": "kayungko-dsh-plugin-task-coordinator",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "kevinchu1981/dsh-insurance-experts",
    "name": "kevinchu1981-dsh-insurance-experts",
    "verdict": "incompatible",
@@ -57867,13 +57888,6 @@
   {
    "repo": "zmh2000829/dsh-x-connect",
    "name": "zmh2000829-dsh-x-connect",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "Kayungko/dsh-plugin-task-coordinator",
-   "name": "kayungko-dsh-plugin-task-coordinator",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -61265,6 +61279,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "deepseek harness 插件 增加默认工作区"
+  },
+  {
+   "repo": "Scorp1o117/dsh-reasoning-options",
+   "name": "scorp1o117-dsh-reasoning-options",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "SeireiA/dsh-plugin-rtk",
@@ -67278,6 +67299,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "vb2250158/dsh-mobile-layout",
+   "name": "vb2250158-dsh-mobile-layout",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Mobile-first layout plugin for DeepSeek Harness"
   },
   {
    "repo": "wahu2008/DeepSeekHarnessDesktop",
@@ -89230,6 +89258,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "把本机已登录的 CodeBuddy / WorkBuddy（腾讯代码助手） 订阅作为 dsh（DeepSeek Harness） 的原生 provider 接入，启用后 CodeBuddy 模型会直接出现在 dsh 的模"
+  },
+  {
+   "repo": "fan56/dsh-llm-stats",
+   "name": "fan56-dsh-llm-stats",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Persistent whole-machine LLM usage ledger for DeepSeek Harness with a pure-text /llm-stats command (tokens, ca"
   },
   {
    "repo": "fan56/dsh-vault",
