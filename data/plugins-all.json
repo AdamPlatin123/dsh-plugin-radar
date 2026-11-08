@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T13:30:58Z",
+ "generated_at": "2026-11-08T14:00:44Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -10069,6 +10069,13 @@
    "desc": "—"
   },
   {
+   "repo": "0x5446/rowel",
+   "name": "0x5446-rowel",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Native iOS client for DeepSeek Harness (dsh)〔📦〕"
+  },
+  {
    "repo": "173787247/dsh-wsl-env",
    "name": "173787247-dsh-wsl-env",
    "verdict": "incompatible",
@@ -12664,6 +12671,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "老思想 × 新智能 实验室：每门经典思想精确解决一个 AI 真实问题"
+  },
+  {
+   "repo": "zaimokuza-yoshiteru/dsh-agent-teams-office",
+   "name": "zaimokuza-yoshiteru-dsh-agent-teams-office",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Office views for DSH Agent Teams."
   },
   {
    "repo": "zergtant/dsh-remote-access",
@@ -25721,6 +25735,13 @@
    "desc": "一款主打安全且更尊重开发者的开源 DeepSeek Harness 桌面客户端"
   },
   {
+   "repo": "youdotcom-oss/agent-skills",
+   "name": "youdotcom-oss-agent-skills",
+   "verdict": "incompatible",
+   "stars": 90,
+   "desc": "You.com skills and plugins for web search, content extraction, research, finance, and integration discovery, h〔📦〕"
+  },
+  {
    "repo": "AITabby/dockyard-dsh",
    "name": "aitabby-dockyard-dsh",
    "verdict": "incompatible",
@@ -29835,6 +29856,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness source with the dsh-web-workbench plugin suite (right workbench, terminal, timeline, review,〔📦〕"
+  },
+  {
+   "repo": "yudaxia1/dsh-sidebar-file-menu",
+   "name": "yudaxia1-dsh-sidebar-file-menu",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "为 DeepSeek Harness Web UI 右侧栏文件树提供 VS Code 风格右键菜单：复制绝对/相对路径与名称、在资源管理器或 Finder 中显示、用默认程序打开"
   },
   {
    "repo": "YuiKiZJ2026/dsh-slot-homestead",
@@ -67700,13 +67728,6 @@
    "desc": "Windows 10/11 桌面操作：UI Automation、窗口截图、鼠标键盘与控件读写；npm `deepseek-computer-use`，仅支持 Windows"
   },
   {
-   "repo": "youdotcom-oss/agent-skills",
-   "name": "@youdotcom-oss/dsh-plugin",
-   "verdict": "untested",
-   "stars": null,
-   "desc": "You.com 联网：把 DSH 原生 web_search 接到 You.com（无 key 时走免费匿名搜索），注册 web_fetch 提供方，并挂载 You.com 研究/金融/发现/docs 四个 MCP 服务器；monorepo，插件在 `packages/dsh-plugin`"
-  },
-  {
    "repo": "omdsh-dev/dsh-browser",
    "name": "lum1104-dsh-browser",
    "verdict": "incompatible",
@@ -92767,6 +92788,13 @@
    "desc": "Minimal Windows agent preset + Git Bash tool for DeepSeek Harness: gitbash & pwsh & str_replace_editor, drop-i"
   },
   {
+   "repo": "1624318455/dsh-plugin-adapter",
+   "name": "1624318455-dsh-plugin-adapter",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH adapter for OpenCode Zen free models (maintained fork with gateway-compat fixes)"
+  },
+  {
    "repo": "agent-plaza/agent-plaza",
    "name": "agent-plaza-agent-plaza",
    "verdict": "incompatible",
@@ -94244,6 +94272,13 @@
    "desc": "—"
   },
   {
+   "repo": "yunfeizhu/dsh-pptx-editor",
+   "name": "yunfeizhu-dsh-pptx-editor",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "PPTX editor integration for DeepSeek Harness"
+  },
+  {
    "repo": "yushenghai1106/dsh-memory-plugin",
    "name": "yushenghai1106-dsh-memory-plugin",
    "verdict": "incompatible",
@@ -95544,6 +95579,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "MOVED → github.com/zhangmiao03/cloakpack (packages/dsh-cloak)"
+  },
+  {
+   "repo": "zhangzhangco/dsh-tier-router",
+   "name": "zhangzhangco-dsh-tier-router",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Automatic tier-based model routing for DeepSeek Harness (dsh): a virtual `smart` model classifies every reques"
   },
   {
    "repo": "zhitiaojun/dsh-auto-git",
