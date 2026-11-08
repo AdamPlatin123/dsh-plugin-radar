@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（1977）
+# 🤖 Agent 能力（1978）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -484,6 +484,7 @@
 - 🟩 `[可用]` [ackerman0-dsh-prompt-enhancement](https://github.com/Ackerman0/Dsh-Prompt-Enhancement) ★1 — —
 - 🟩 `[可用]` [activeing123-dsh-forge](https://github.com/activeing123/dsh-forge) ★1 — Skill self-forging plugin for DeepSeek Harness — watch session traces, detect repeated successful tasks, forge
 - 🟩 `[可用]` [fullstack-expert](https://github.com/heyadhithya/fullstack-expert) ★1 — Cordis-native, evidence-driven full-stack engineering discipline for DeepSeek Harness agents
+- 🟩 `[可用]` [aidulibrary-skillmesh-index](https://github.com/aidulibrary/skillmesh-index) ★1 — SkillMesh / 插台 — 能力通约网络的开放索引层
 - 🟩 `[可用]` [aili1337-dsh-context-length](https://github.com/AiLi1337/dsh-context-length) ★1 — —
 - 🟩 `[可用]` [dsh-yuzuha-prompts-manager](https://github.com/Airrcat/dsh-yuzuha-prompts-manager) ★1 — a plugin for manage prompts in deepseek harness.
 - 🟩 `[可用]` [alaxrpg-dsh-llm-approve-for-me](https://github.com/alaxrpg/dsh-llm-approve-for-me) ★1 — —

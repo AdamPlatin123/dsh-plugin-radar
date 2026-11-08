@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T14:00:44Z",
+ "generated_at": "2026-11-08T14:16:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3312,6 +3312,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Cordis-native, evidence-driven full-stack engineering discipline for DeepSeek Harness agents"
+  },
+  {
+   "repo": "aidulibrary/skillmesh-index",
+   "name": "aidulibrary-skillmesh-index",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "SkillMesh / 插台 — 能力通约网络的开放索引层"
   },
   {
    "repo": "AiLi1337/dsh-context-length",
@@ -18238,6 +18245,20 @@
    "desc": "—"
   },
   {
+   "repo": "afterrealism/dsh-conn-dot",
+   "name": "afterrealism-dsh-conn-dot",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: green/red connection dot beside the sidebar brand showing WebSocket + liveness-probe health of dsh"
+  },
+  {
+   "repo": "afterrealism/dsh-session-ctxmenu",
+   "name": "afterrealism-dsh-session-ctxmenu",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu"
+  },
+  {
    "repo": "ahren112/ds-image-skin",
    "name": "ahren112-ds-image-skin",
    "verdict": "pending",
@@ -21386,6 +21407,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness details 面板的纯前端小游戏合集：猜数字 / 2048 / 扫雷"
+  },
+  {
+   "repo": "akvi0921/dsh-build-progress",
+   "name": "akvi0921-dsh-build-progress",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 构建进度条推送插件:构建 APK 时在会话流折叠工具条标题处原地刷新显示 Gradle 进度条"
   },
   {
    "repo": "alanpaul1969/dsh-agent-sticky-note",
@@ -42255,6 +42283,13 @@
    "desc": "DSH 启动器 — 双击一键启动 DeepSeek Harness / Double-click macOS launcher"
   },
   {
+   "repo": "822384810/dsh-plugin",
+   "name": "822384810-dsh-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh plugins"
+  },
+  {
    "repo": "95384/DSH-user-plugin-list",
    "name": "DSH-user-plugin-list",
    "verdict": "pending",
@@ -57886,6 +57921,13 @@
    "desc": "Community plugin collection for DeepSeek Harness (DSH) 〔PR〕"
   },
   {
+   "repo": "ajceee/dsh-subscription-overlay",
+   "name": "ajceee-dsh-subscription-overlay",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "AL-spiritphoenix/dsh-auto-model",
    "name": "al-spiritphoenix-dsh-auto-model",
    "verdict": "incompatible",
@@ -68769,6 +68811,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness 桌面快捷启动器：安装后生成大肥鱼桌面图标，双击一键拉起 DSH web 并打开网页，不再显示终端，DSH网页端右上角增加关闭DSH按钮"
+  },
+  {
+   "repo": "1624318455/dsh-plugin-proxy",
+   "name": "1624318455-dsh-plugin-proxy",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Runtime-switchable outbound proxy for DSH, with web settings card (maintained fork)"
   },
   {
    "repo": "58586621991/deepseek-harness-desktop",
@@ -94396,6 +94445,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH skill pack: legacy code modernization workflow (preflight -> assess -> map -> transform) with Cordis mount"
+  },
+  {
+   "repo": "a981008/dsh-switch",
+   "name": "a981008-dsh-switch",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "CC Switch bridge for DeepSeek Harness: mirrors cc-switch providers and models into DSH, and shows each provide"
   },
   {
    "repo": "aa2246740/dsh-antigravity-oauth",

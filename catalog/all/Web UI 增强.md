@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2603）
+# 🔌 Web UI 增强（2606）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -794,6 +794,8 @@
 - 🟩 `[可用]` [aaaaamadeus-dsh-gui](https://github.com/Aaaaamadeus/dsh-gui) ★1 — —
 - 🟩 `[可用]` [aapanel-btpanel-dsh](https://github.com/aaPanel/btpanel-dsh) ★1 — —
 - 🟩 `[可用]` [adamaik-dsh-git-sidebar](https://github.com/Adamaik/dsh-git-sidebar) ★1 — —
+- 🟩 `[可用]` [afterrealism-dsh-conn-dot](https://github.com/afterrealism/dsh-conn-dot) ★1 — DSH plugin: green/red connection dot beside the sidebar brand showing WebSocket + liveness-probe health of dsh
+- 🟩 `[可用]` [afterrealism-dsh-session-ctxmenu](https://github.com/afterrealism/dsh-session-ctxmenu) ★1 — DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu
 - ⬜ `[待定]` [ahren112-ds-image-skin](https://github.com/ahren112/ds-image-skin) ★1 — Image skin plugin for DeepSeek Harness web UI
 - 🟩 `[可用]` [ai-yucheng-dsh-audio-copilot](https://github.com/ai-yucheng/dsh-audio-copilot) ★1 — Audio Copilot for DeepSeek Harness — transcribe audio (ASR) , with an in-composer voice-input mic button
 - 🟩 `[可用]` [ai-yucheng-dsh-composer-image-tools](https://github.com/ai-yucheng/dsh-composer-image-tools) ★1 — DSH 聊天输入框图片工具(自研):上传图片 + 区域截图,注入草稿图片轨
@@ -1261,6 +1263,7 @@
 - 🟩 `[可用]` [aefuimn-dsh-agent-preset-switcher](https://github.com/aefuimn/dsh-agent-preset-switcher) ★0 — Hot-switch agent presets (working modes) inside a running DSH session, instead of choosing a preset only when
 - 🟩 `[可用]` [af2000-tech-dsh-taskboard-plugin](https://github.com/af2000-tech/dsh-taskboard-plugin) ★0 — Taskboard plugin for DeepSeek Harness (DSH) — issue kanban with a sidebar board panel, a 13-command agent tool
 - 🟩 `[可用]` [aga-j-dsh-mini-games](https://github.com/aga-j/dsh-mini-games) ★0 — DeepSeek Harness details 面板的纯前端小游戏合集：猜数字 / 2048 / 扫雷
+- ⬜ `[待定]` [akvi0921-dsh-build-progress](https://github.com/akvi0921/dsh-build-progress) ★0 — DSH 构建进度条推送插件:构建 APK 时在会话流折叠工具条标题处原地刷新显示 Gradle 进度条
 - 🟩 `[可用]` [alanpaul1969-dsh-agent-sticky-note](https://github.com/alanpaul1969/dsh-agent-sticky-note) ★0 — 📌 Sticky-note plugin for DeepSeek Harness — agent notices & pending decisions visible in the Web GUI (Tailscal
 - 🟩 `[可用]` [alexfengrui-dsh-client-ui-skin-real-madrid](https://github.com/alexfengrui/dsh-client-ui-skin-real-madrid) ★0 — Real Madrid dual-mode skin for DeepSeek Harness: Bernabeu night stadium (dark) and white-kit pinstripes (light
 - 🟩 `[可用]` [alextamhk-dsh-harness-title](https://github.com/alextamhk/dsh-harness-title) ★0 — DSH web plugin: customizable Name Title for the DeepSeek Harness GUI
