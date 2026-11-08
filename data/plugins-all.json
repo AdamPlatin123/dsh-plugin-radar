@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T14:16:01Z",
+ "generated_at": "2026-11-08T14:30:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -65761,6 +65761,13 @@
    "desc": "DeepSeek Harness (dsh) packaged as a Windows desktop application - folder-portable Electron build"
   },
   {
+   "repo": "anthonyyu-verkada/dsh-mcp-client-plus",
+   "name": "anthonyyu-verkada-dsh-mcp-client-plus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness MCP client bridge with OAuth 2.1, bounded connect/discovery timeouts, environment-indirected"
+  },
+  {
    "repo": "april-jk/dsh-mobile",
    "name": "april-jk-dsh-mobile",
    "verdict": "pending",
@@ -80363,6 +80370,13 @@
    "desc": "DSH 插件：ChatGPT 画中画小窗 + 把 ChatGPT 定稿计划回流到新 DSH 对话执行"
   },
   {
+   "repo": "albertgranados/dsh-run",
+   "name": "albertgranados-dsh-run",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness web plugin: a Session-header split button that runs npm scripts from the workspace's package."
+  },
+  {
    "repo": "alchemistwu/dsh-telegram",
    "name": "alchemistwu-dsh-telegram",
    "verdict": "pending",
@@ -82237,6 +82251,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "ChatGPT Codex OAuth authentication center for DeepSeek Harness 0.1.1-rc.2"
+  },
+  {
+   "repo": "albertgranados/dsh-run-environment",
+   "name": "albertgranados-dsh-run-environment",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: run the project you have open, from the harness you are already in"
   },
   {
    "repo": "auggie246/dsh-llm-openai-codex",
