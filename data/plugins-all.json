@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T19:46:02Z",
+ "generated_at": "2026-11-08T21:46:02Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
