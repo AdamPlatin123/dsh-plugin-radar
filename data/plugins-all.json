@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T13:16:01Z",
+ "generated_at": "2026-11-08T13:30:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -53826,6 +53826,13 @@
    "desc": "—"
   },
   {
+   "repo": "wqy-cell/dsh-plugin-basket",
+   "name": "wqy-cell-dsh-plugin-basket",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "插件收纳篮：DSH 最右侧的可收起抽屉，零改造收纳各席位上的第三方插件按钮（分组 / 来源 / 搜索 / 置顶 / 排序） · A DeepSeek Harness plugin: a collapsible drawe"
+  },
+  {
    "repo": "wqy8593521/dsh-plugin-scaffold",
    "name": "wqy8593521-dsh-plugin-scaffold",
    "verdict": "ok",
@@ -54123,6 +54130,13 @@
    "repo": "xyxi-u0/dsh-plugin",
    "name": "xyxi-u0-dsh-plugin",
    "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "xyzzing/dsh-captain-guard",
+   "name": "xyzzing-dsh-captain-guard",
+   "verdict": "ok",
    "stars": 0,
    "desc": "—"
   },
@@ -61874,6 +61888,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xianmua/dsh-apis-plugin",
+   "name": "xianmua-dsh-apis-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh-apis-plugin"
   },
   {
    "repo": "xiaoliang2/dsh-plugin-eval",
@@ -84029,6 +84050,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Model Pro — DSH plugin for llm-pi-ai provider lifecycle management"
+  },
+  {
+   "repo": "xiaobbl/dsh-opencode-go-model-list",
+   "name": "xiaobbl-dsh-opencode-go-model-list",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "修复dsh上opencode go模型列表问题"
   },
   {
    "repo": "xiongjiamu/dsh-atomgit",
