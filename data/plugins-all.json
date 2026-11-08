@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T12:15:59Z",
+ "generated_at": "2026-11-08T13:01:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1772,6 +1772,13 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "High-performance, capability-aware repository tools and process execution for coding agents."
+  },
+  {
+   "repo": "rootkiller6788/dsh-plugin-anything",
+   "name": "rootkiller6788-dsh-plugin-anything",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "An agent-native compilation & verification pipeline that converts software capabilities such as CLI, APIs, and"
   },
   {
    "repo": "says693/dsh-log-memory",
@@ -11180,6 +11187,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "AI turns repeated dev commands, prompts, and habits into one-click DeepSeek Harness actions."
+  },
+  {
+   "repo": "snail30xx/dsh-graph-runtime",
+   "name": "snail30xx-dsh-graph-runtime",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g"
   },
   {
    "repo": "snhna-a/dsh-reactor",
@@ -74665,6 +74679,13 @@
    "desc": "DSH 会话健康检查插件：多帧 zstd 会话文件的帧级扫描诊断（torn/损坏/空会话检测），零依赖只读，注册 session_health 工具"
   },
   {
+   "repo": "shiyan688/dsh-novel-craft",
+   "name": "shiyan688-dsh-novel-craft",
+   "verdict": "pending",
+   "stars": 8,
+   "desc": "dsh-novel-craft —— 跑在 DeepSeek Harness 上的开源 AI 小说写作插件"
+  },
+  {
    "repo": "baihejiangnan/dsh-plugin-pack-web",
    "name": "baihejiangnan-dsh-plugin-pack-web",
    "verdict": "pending",
@@ -79353,6 +79374,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "s11phere/dsh-away-notify",
+   "name": "s11phere-dsh-away-notify",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "dsh 插件：离开 dsh 页面时可收到桌面通知，点击回到对应会话"
   },
   {
    "repo": "shangjian2023/dsh-rss-daily",
