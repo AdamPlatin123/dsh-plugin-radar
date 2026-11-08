@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T14:45:51Z",
+ "generated_at": "2026-11-08T16:01:04Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -44381,6 +44381,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Read-only Automic Vault plumbing for DeepSeek Harness: the host ctx.av service (av CLI probe, scan/doctor/dete"
+  },
+  {
+   "repo": "hy-sde/dsh-tool-edit",
+   "name": "hy-sde-dsh-tool-edit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The rich edit tool for DeepSeek Harness (replace / patch / apply_patch / hashline modes) with embedded format-"
   },
   {
    "repo": "hy-sde/dsh-web-search-public",
