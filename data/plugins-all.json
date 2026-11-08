@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T12:01:46Z",
+ "generated_at": "2026-11-08T12:15:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -18145,6 +18145,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Completion evidence gate for DeepSeek Harness goal-mode subagents"
+  },
+  {
+   "repo": "1499501762/dsh-web-fetch-proxy",
+   "name": "1499501762-dsh-web-fetch-proxy",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: route the built-in web_fetch through a local proxy so TUN fake-ip addresses stop tripping the SSRF"
   },
   {
    "repo": "165555979/dsh-desktop",
