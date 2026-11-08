@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T03:15:54Z",
+ "generated_at": "2026-11-08T03:30:54Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -27219,11 +27219,25 @@
    "desc": "—"
   },
   {
+   "repo": "loyalchiiina/dsh-model-fold",
+   "name": "loyalchiiina-dsh-model-fold",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH plugin: model picker grouped by provider — sources listed first, click a source to open its models in a sl"
+  },
+  {
    "repo": "lqhl/dsh-pi-tui",
    "name": "lqhl-dsh-pi-tui",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "lsjspl/dsh-reel",
+   "name": "lsjspl-dsh-reel",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "基于 dsh 内置 Web 服务管理、浏览与播放本地媒体库，完美适配 PC 与移动端，支持滑动刷视频、即时拖拽秒播与实时转码"
   },
   {
    "repo": "luoyan96/dsh-catnap-studio",
