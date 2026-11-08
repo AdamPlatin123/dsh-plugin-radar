@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T05:46:07Z",
+ "generated_at": "2026-11-08T06:16:00Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -7106,6 +7106,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "qxcool/dsh-usage-plus",
+   "name": "qxcool-dsh-usage-plus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Desktop plugin: usage stats, plan quotas, custom HTTPS balance, 26-week heatmap"
   },
   {
    "repo": "qyjgg/dsh-plugin-skill-palette",
@@ -94963,6 +94970,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-terminal-manager"
+  },
+  {
+   "repo": "phoenixyun/dsh-plugin-live-diff",
+   "name": "phoenixyun-dsh-plugin-live-diff",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Live streaming diffs for DSH file edits: a diff that grows while the model is still emitting the edit argument"
   },
   {
    "repo": "plutoczm/deepseek-harness-vscode",
