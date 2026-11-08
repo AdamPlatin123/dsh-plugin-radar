@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2599）
+# 🔌 Web UI 增强（2600）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -786,6 +786,7 @@
 - 🟩 `[可用]` [060625dfy-dsh-prompt-boost](https://github.com/060625dfy/dsh-prompt-boost) ★1 — 优化输入内容的 DSH 插件（仿 Trae CN）：模型选择器旁的 ✨ 按钮一键把输入想法改写为高质量、忠实原文、可直接执行的提示词，↩ 一键撤销恢复原文
 - 🟩 `[可用]` [0928oyx-dsh-free-skins](https://github.com/0928OYX/dsh-free-skins) ★1 — —
 - 🟩 `[可用]` [1052326311-dsh-goal-quiescence](https://github.com/1052326311/dsh-goal-quiescence) ★1 — Completion evidence gate for DeepSeek Harness goal-mode subagents
+- 🟩 `[可用]` [1499501762-dsh-web-fetch-proxy](https://github.com/1499501762/dsh-web-fetch-proxy) ★1 — DSH plugin: route the built-in web_fetch through a local proxy so TUN fake-ip addresses stop tripping the SSRF
 - 🟩 `[可用]` [165555979-dsh-desktop](https://github.com/165555979/dsh-desktop) ★1 — DeepSeek Harness 液态玻璃桌面外壳 · A liquid-glass desktop shell for DeepSeek Harness
 - 🟩 `[可用]` [2017java-dsh-md-overlay](https://github.com/2017java/dsh-md-overlay) ★1 — DSH web 插件：可悬浮 / 可停靠的多标签 Markdown 预览面板 + md_preview 模型工具，会话里一键预览报告
 - 🟩 `[可用]` [863683348-dsh-need-finder](https://github.com/863683348/dsh-need-finder) ★1 — Requirement-driven dsh plugin discovery (点菜, not 逛超市): plugin_guide tool matches natural-language needs to a c
