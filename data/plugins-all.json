@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T21:31:01Z",
+ "generated_at": "2026-11-09T21:45:53Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4875,6 +4875,13 @@
    "desc": "DSH 平台 GeoServer 交互插件，实现可视化配置与会话内地图图像输出"
   },
   {
+   "repo": "wanglijie34/dsh-session-jump",
+   "name": "wanglijie34-dsh-session-jump",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "wellorbetter/dsh-plugin-window-stats",
    "name": "wellorbetter-dsh-plugin-window-stats",
    "verdict": "ok",
@@ -5006,6 +5013,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH (DeepSeek Harness) 会话日志可视化插件：三层渐进式查看器（摘要卡片 / 执行故事线 / 技术事件树），随 harness 启动"
+  },
+  {
+   "repo": "XXXXXQ-0206/dsh-prompt-for-me",
+   "name": "xxxxxq-0206-dsh-prompt-for-me",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "yangyongzhen/dsh-memory",
@@ -5153,13 +5167,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Multi-repo workflow isolation skill for DeepSeek Harness - one isolated entry agent per repo, one controller f"
-  },
-  {
-   "repo": "XXXXXQ-0206/dsh-prompt-for-me",
-   "name": "xxxxxq-0206-dsh-prompt-for-me",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "hejielijob-commits/SemaRail",
@@ -8814,13 +8821,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "查看 dsh 的 memory"
-  },
-  {
-   "repo": "XXXXXQ-0206/dsh-session-delete",
-   "name": "xxxxxq-0206-dsh-session-delete",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "zc679087/dsh-skill-preferences",
@@ -12813,6 +12813,13 @@
    "desc": "Caidazi investment MCP and Skills plugin for DeepSeek Harness"
   },
   {
+   "repo": "XXXXXQ-0206/dsh-session-delete",
+   "name": "xxxxxq-0206-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Yicijiuhaobala/dsh-session-delete",
    "name": "yicijiuhaobala-dsh-session-delete",
    "verdict": "incompatible",
@@ -14199,6 +14206,13 @@
    "desc": "DSH老花眼插件，对眼睛不好看不了小字的朋友相当有善"
   },
   {
+   "repo": "weekitmo/oh-my-dsh-plugins",
+   "name": "weekitmo-oh-my-dsh-plugins",
+   "verdict": "ok",
+   "stars": 10,
+   "desc": "A curated collection of awesome plugins for DeepSeek Harness (DSH) — task notifications, LLM trace inspection,"
+  },
+  {
    "repo": "wei-806206088/dsh-skin",
    "name": "wei-806206088-dsh-skin",
    "verdict": "ok",
@@ -14225,13 +14239,6 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "—"
-  },
-  {
-   "repo": "weekitmo/oh-my-dsh-plugins",
-   "name": "weekitmo-oh-my-dsh-plugins",
-   "verdict": "pending",
-   "stars": 10,
-   "desc": "A curated collection of awesome plugins for DeepSeek Harness (DSH) — task notifications, LLM trace inspection,"
   },
   {
    "repo": "AKS1st/dock",
@@ -25245,6 +25252,13 @@
    "desc": "一个简单的 DSH 工具坞 \\| A simple utility dock for DSH"
   },
   {
+   "repo": "xtd1145/dsh-deepseek-cost-live",
+   "name": "xtd1145-dsh-deepseek-cost-live",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock"
+  },
+  {
    "repo": "xusuyang030218/dsh-preview-ui",
    "name": "xusuyang030218-dsh-preview-ui",
    "verdict": "ok",
@@ -25677,13 +25691,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \\| 会话区 \\| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放"
-  },
-  {
-   "repo": "xiyue718/dsh-ui-message-nav",
-   "name": "xiyue718-dsh-ui-message-nav",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH 会话消息导航插件：独立的用户消息导航栏"
   },
   {
    "repo": "youli42/dsh_BetterInput",
@@ -30229,11 +30236,25 @@
    "desc": "Layered session permissions for DeepSeek Harness"
   },
   {
+   "repo": "xingzhen199186/dsh-insight-tree",
+   "name": "xingzhen199186-dsh-insight-tree",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH runtime observability and plugin diagnostics panel"
+  },
+  {
    "repo": "xiyue718/dsh-ui-git-bash",
    "name": "xiyue718-dsh-ui-git-bash",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Git Base 插件：让 AI 使用 Git Bash 执行命令，可在 Pwsh 与 Git Base 模式间切换"
+  },
+  {
+   "repo": "xiyue718/dsh-ui-message-nav",
+   "name": "xiyue718-dsh-ui-message-nav",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 会话消息导航插件：独立的用户消息导航栏"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -51957,6 +51978,13 @@
    "desc": "口红选择"
   },
   {
+   "repo": "uckkk/dsh-listing-price",
+   "name": "uckkk-dsh-listing-price",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "定价策略"
+  },
+  {
    "repo": "uckkk/dsh-literature-terms",
    "name": "uckkk-dsh-literature-terms",
    "verdict": "ok",
@@ -52272,6 +52300,13 @@
    "desc": "谈判策略"
   },
   {
+   "repo": "uckkk/dsh-neuter",
+   "name": "uckkk-dsh-neuter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "绝育时机"
+  },
+  {
    "repo": "uckkk/dsh-new-home-check",
    "name": "uckkk-dsh-new-home-check",
    "verdict": "ok",
@@ -52298,6 +52333,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "下一个素数"
+  },
+  {
+   "repo": "uckkk/dsh-nitrite-safe",
+   "name": "uckkk-dsh-nitrite-safe",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "亚硝酸盐安全"
   },
   {
    "repo": "uckkk/dsh-nitrogen",
@@ -52776,6 +52818,13 @@
    "desc": "配土方案"
   },
   {
+   "repo": "uckkk/dsh-pour-over",
+   "name": "uckkk-dsh-pour-over",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "手冲参数"
+  },
+  {
    "repo": "uckkk/dsh-power-mod",
    "name": "uckkk-dsh-power-mod",
    "verdict": "ok",
@@ -52893,6 +52942,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "生成范围"
+  },
+  {
+   "repo": "uckkk/dsh-reading-time",
+   "name": "uckkk-dsh-reading-time",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "阅读时间"
   },
   {
    "repo": "uckkk/dsh-rectangle",
@@ -53133,6 +53189,13 @@
    "desc": "录像存储容量"
   },
   {
+   "repo": "uckkk/dsh-season-health",
+   "name": "uckkk-dsh-season-health",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "四季养生"
+  },
+  {
    "repo": "uckkk/dsh-seasoning",
    "name": "uckkk-dsh-seasoning",
    "verdict": "ok",
@@ -53145,6 +53208,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "播种深度"
+  },
+  {
+   "repo": "uckkk/dsh-serum-concentration",
+   "name": "uckkk-dsh-serum-concentration",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "精华浓度参考"
   },
   {
    "repo": "uckkk/dsh-serving-order",
@@ -53385,6 +53455,13 @@
    "desc": "压力管理"
   },
   {
+   "repo": "uckkk/dsh-sub-audit",
+   "name": "uckkk-dsh-sub-audit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "订阅审计"
+  },
+  {
    "repo": "uckkk/dsh-sugar-convert",
    "name": "uckkk-dsh-sugar-convert",
    "verdict": "ok",
@@ -53532,6 +53609,13 @@
    "desc": "轮胎磨损判断"
   },
   {
+   "repo": "uckkk/dsh-title-length",
+   "name": "uckkk-dsh-title-length",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "标题字数建议"
+  },
+  {
    "repo": "uckkk/dsh-titlecase",
    "name": "uckkk-dsh-titlecase",
    "verdict": "ok",
@@ -53649,6 +53733,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "集合并集"
+  },
+  {
+   "repo": "uckkk/dsh-unique",
+   "name": "uckkk-dsh-unique",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "数组去重"
   },
   {
    "repo": "uckkk/dsh-upcycle",
@@ -53833,6 +53924,13 @@
    "desc": "停水应对"
   },
   {
+   "repo": "uckkk/dsh-water-resist",
+   "name": "uckkk-dsh-water-resist",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "防水等级判断"
+  },
+  {
    "repo": "uckkk/dsh-watering-schedule",
    "name": "uckkk-dsh-watering-schedule",
    "verdict": "ok",
@@ -53908,6 +54006,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "雨刮更换"
+  },
+  {
+   "repo": "uckkk/dsh-work-injury-allowance",
+   "name": "uckkk-dsh-work-injury-allowance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "工伤伤残补助金"
   },
   {
    "repo": "uckkk/dsh-workout-split",
@@ -54188,6 +54293,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wangzhanchao883/dsh-resume-screening",
+   "name": "wangzhanchao883-dsh-resume-screening",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Resume screening plugin for DeepSeek Harness (HR): ingest up to 100k resumes into one library, rule pre-filter"
   },
   {
    "repo": "wangzishu-CN/dsh-guardian",
@@ -55574,13 +55686,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "wangzhanchao883/dsh-resume-screening",
-   "name": "wangzhanchao883-dsh-resume-screening",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Resume screening plugin for DeepSeek Harness (HR): ingest up to 100k resumes into one library, rule pre-filter"
   },
   {
    "repo": "whiteS18/dsh-image-generation",
@@ -62837,6 +62942,13 @@
   {
    "repo": "WooLeo1995/dsh-llm-ai",
    "name": "wooleo1995-dsh-llm-ai",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "wpan36/dsh-gvisor",
+   "name": "wpan36-dsh-gvisor",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -73804,6 +73916,13 @@
    "desc": "—"
   },
   {
+   "repo": "xiangyun0519/dsh-trace-narrator",
+   "name": "xiangyun0519-dsh-trace-narrator",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：把 dsh 最被称赞的 trajectory 特性从本地私有日志变成可分享、可复盘、可教学的结构化报告"
+  },
+  {
    "repo": "zhu1090093659/dsh-web",
    "name": "zhu1090093659-dsh-web",
    "verdict": "pending",
@@ -75118,13 +75237,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A plugin marketplace next to the composer + button in the DeepSeek Harness Web G"
-  },
-  {
-   "repo": "xingzhen199186/dsh-insight-tree",
-   "name": "dsh-insight-tree",
-   "verdict": "untested",
-   "stars": 0,
-   "desc": "DSH 运行可观测与插件运维面板：Profile 插件树、Loader 真实 fiber 状态、能力/依赖/兼容性、本轮会话插件活动与上游来源/版本核验；一键关闭/启用/更新/卸载 + 独立启动失败诊断页（DSH 未运行也可单独启动）；npm `dsh-insight-tree`@0.1.2，MIT"
   },
   {
    "repo": "zhengjy01/dsh-mcp-manager",
@@ -83959,6 +84071,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "MCP Database Server 是一个为AI助手和基于LLM的工具提供安全数据库访问的服务，支持SQLite、PostgreSQL、MySQL和MariaDB，具有查询验证、审计日志和安全控制功能"
+  },
+  {
+   "repo": "xiaozhiaixue/dsh-side-notify",
+   "name": "xiaozhiaixue-dsh-side-notify",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh-sidechat companion: push messages straight to the main agent (floating pill + /notify and /to-main command"
   },
   {
    "repo": "yx-yinhe/dsh-message-navigator",
