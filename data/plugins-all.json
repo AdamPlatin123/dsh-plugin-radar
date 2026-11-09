@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T17:46:12Z",
+ "generated_at": "2026-11-09T18:01:03Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -30327,13 +30327,6 @@
    "desc": "—"
   },
   {
-   "repo": "Rain-kl/dsh-preset-plus",
-   "name": "rain-kl-dsh-preset-plus",
-   "verdict": "pending",
-   "stars": 148,
-   "desc": "—"
-  },
-  {
    "repo": "Justin-sky/ai-art-engine",
    "name": "justin-sky-ai-art-engine",
    "verdict": "ok",
@@ -31557,6 +31550,13 @@
    "verdict": "ok",
    "stars": 12,
    "desc": "—"
+  },
+  {
+   "repo": "sugarforever/dsh-plugins",
+   "name": "sugarforever-dsh-plugins",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "DeepSeek Harness Plugins"
   },
   {
    "repo": "swnotmetal/Project-Koma",
@@ -55296,6 +55296,13 @@
    "desc": "Awesome DeepSeek Harness (DSH) Plugin"
   },
   {
+   "repo": "Rain-kl/dsh-preset-plus",
+   "name": "rain-kl-dsh-preset-plus",
+   "verdict": "incompatible",
+   "stars": 148,
+   "desc": "—"
+  },
+  {
    "repo": "beiyege-01/dsh-voice-ai-girlfriend",
    "name": "beiyege-01-dsh-voice-ai-girlfriend",
    "verdict": "incompatible",
@@ -61258,6 +61265,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "shantanugoel/dsh-web-degoog",
+   "name": "shantanugoel-dsh-web-degoog",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness bundle: web_search + SSRF-guarded web_fetch backed by any self-hosted degoog instance"
   },
   {
    "repo": "shenzhantu/dsh-usage-info",
