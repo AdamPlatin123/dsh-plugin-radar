@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-08T22:30:58Z",
+ "generated_at": "2026-11-09T01:14:02Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -79607,8 +79607,8 @@
    "desc": "—"
   },
   {
-   "repo": "s11phere/dsh-away-notify",
-   "name": "s11phere-dsh-away-notify",
+   "repo": "TianzeLuo/dsh-away-notify",
+   "name": "dsh-away-notify",
    "verdict": "ok",
    "stars": 2,
    "desc": "dsh 插件：离开 dsh 页面时可收到桌面通知，点击回到对应会话"
