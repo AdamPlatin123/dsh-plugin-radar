@@ -116,34 +116,102 @@ h1 { margin: 0 0 10px; font-size: 34px; letter-spacing: 0.5px; }
 .btn.primary:hover { text-decoration: none; filter: brightness(1.1); }
 .btn.ghost { border: 1px solid var(--line); color: var(--fg-dim); }
 .btn.ghost:hover { text-decoration: none; color: var(--cy); border-color: var(--cy); }
-.mt { margin-top: 28px; }
-h2 { font-size: 19px; margin: 0 0 14px; }
+.mt { margin-top: 32px; min-width: 0; }
+h2 { font-size: 19px; margin: 0 0 14px; overflow-wrap: anywhere; }
 .h2sub { font-size: 13px; color: var(--fg-faint); margin-left: 8px; }
 
-.rail { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: thin; }
-.rail-card { flex: 0 0 230px; border: 1px solid var(--line-soft); border-radius: var(--radius); overflow: hidden; background: var(--panel); }
-.rail-link { display: block; color: inherit; }
+/* 整卡分列：列宽按可见张数均分轨道，横滑吸附，避免末张被裁成一条。 */
+.rail {
+  --rail-gap: 14px;
+  --rail-visible: 4;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - (var(--rail-visible) - 1) * var(--rail-gap)) / var(--rail-visible));
+  gap: var(--rail-gap);
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.rail::-webkit-scrollbar { height: 8px; }
+.rail::-webkit-scrollbar-thumb { background: var(--line); border-radius: 99px; }
+.rail-card {
+  scroll-snap-align: start;
+  min-width: 0;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--panel);
+}
+.rail-link { display: block; color: inherit; height: 100%; }
 .rail-link:hover { text-decoration: none; }
 .rail-link.missing .rail-name { color: var(--fg-dim); }
 .rail-link.missing .rail-desc { color: var(--fg-faint); }
-.rail-body { padding: 8px 10px 10px; }
+.rail-body { padding: 10px 12px 12px; }
 .rail-name { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.rail-desc { font-size: 12px; color: var(--fg-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 2px; }
+.rail-desc {
+  font-size: 12px; color: var(--fg-dim); line-height: 1.45; margin-top: 4px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  min-height: 2.9em;
+}
 
-.domain-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
+  gap: 10px;
+  min-width: 0;
+}
 .domain-tile {
-  display: flex; justify-content: space-between; align-items: center;
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
   padding: 12px 14px; background: var(--panel); border: 1px solid var(--line-soft);
-  border-radius: var(--radius-s); color: var(--fg); font-size: 14px;
+  border-radius: var(--radius-s); color: var(--fg); font-size: 14px; min-width: 0;
 }
 .domain-tile:hover { text-decoration: none; border-color: var(--cy); }
-.d-count { color: var(--fg-faint); font-size: 13px; }
+.d-title { min-width: 0; line-height: 1.35; }
+.d-count { color: var(--fg-faint); font-size: 13px; flex: none; }
 
-.top-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
-.ranking-note { margin: -6px 0 14px; color: var(--fg-dim); font-size: 13px; }
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 18px;
+  align-items: stretch;
+  min-width: 0;
+}
+.top-grid :deep(.card) {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-grid :deep(.body) {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 14px 16px 16px;
+}
+.top-grid :deep(.meta) { margin-top: auto; }
+.ranking-note { margin: 0 0 16px; color: var(--fg-dim); font-size: 13px; max-width: 70ch; }
 
-@media (max-width: 640px) {
-  .hero { padding: 28px 18px; }
+@media (max-width: 1080px) {
+  .rail { --rail-visible: 3; }
+}
+@media (max-width: 760px) {
+  .rail { --rail-visible: 2; }
+}
+@media (max-width: 560px) {
+  .rail { --rail-visible: 1; }
+  .hero { padding: 24px 16px; }
   h1 { font-size: 26px; }
+  .tagline { font-size: 14px; }
+  .cta { flex-wrap: wrap; }
+  .btn { flex: 1 1 auto; text-align: center; }
+  .h2sub { margin-left: 0; }
+}
+@media (max-width: 480px) {
+  /* 两列时「Web UI 增强」会把最后一个字拆到下一行。 */
+  .domain-grid { grid-template-columns: 1fr; }
 }
 </style>
