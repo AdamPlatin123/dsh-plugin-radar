@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T04:30:54Z",
+ "generated_at": "2026-11-09T04:45:55Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -87410,6 +87410,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Open AI-agent skill and DeepSeek function-calling adapter for turning ideas and public reference images into p"
+  },
+  {
+   "repo": "jaxzhou/dsh-file-explorer",
+   "name": "jaxzhou-dsh-file-explorer",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A \\[DeepSeek Harness\\](https://github.com/deepseek-ai/deepseek-harness) plugin that adds a **Files** tab to the"
   },
   {
    "repo": "JerryXst/dsh-codex-web-auth",
