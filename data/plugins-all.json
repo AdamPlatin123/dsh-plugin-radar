@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T17:01:11Z",
+ "generated_at": "2026-11-09T17:15:58Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -38223,13 +38223,6 @@
    "desc": "—"
   },
   {
-   "repo": "elviass/dsh-cost-insights",
-   "name": "elviass-dsh-cost-insights",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "DeepSeek Harness 的用量、费用、Token、缓存、余额与模型价格分析插件"
-  },
-  {
    "repo": "Enc-hanted/dsh-quote-temp-ask",
    "name": "enc-hanted-dsh-quote-temp-ask",
    "verdict": "ok",
@@ -58152,6 +58145,13 @@
    "desc": "—"
   },
   {
+   "repo": "elviass/dsh-cost-insights",
+   "name": "elviass-dsh-cost-insights",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 的用量、费用、Token、缓存、余额与模型价格分析插件"
+  },
+  {
    "repo": "enoughpower/dsh-harmony",
    "name": "enoughpower-dsh-harmony",
    "verdict": "incompatible",
@@ -75617,13 +75617,6 @@
    "desc": "DSH plugin: neutralize tool calls with invalid JSON arguments on the wire — so one malformed model generation"
   },
   {
-   "repo": "bentong-chain/dsh-dir-tree",
-   "name": "bentong-chain-dsh-dir-tree",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "A DeepSeek Harness (DSH) floating workspace directory-tree plugin"
-  },
-  {
    "repo": "birdman1992/dsh-birdman-plugins",
    "name": "birdman1992-dsh-birdman-plugins",
    "verdict": "pending",
@@ -77841,6 +77834,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "bentong-chain/dsh-dir-tree",
+   "name": "bentong-chain-dsh-dir-tree",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "A DeepSeek Harness (DSH) floating workspace directory-tree plugin"
   },
   {
    "repo": "darrien1998/dsh-ditto",
