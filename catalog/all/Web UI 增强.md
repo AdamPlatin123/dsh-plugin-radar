@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2653）
+# 🔌 Web UI 增强（2655）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -705,6 +705,7 @@
 - 🟩 `[可用]` [skylar-fei-dsh-wechat-maid](https://github.com/skylar-fei/dsh-wechat-maid) ★2 — 一个适用于DSH的插件，提供微信远程控制、主动对话、未来任务、桌宠等功能，可通过桌宠面板实时检查未来任务的状态，并提供“自动编码”模式，使模型在对话完后发微信提醒你，以便你认真的刷手机
 - 🟩 `[可用]` [skzrui-dsh-cli](https://github.com/SKzrui/DSH-CLI) ★2 — —
 - 🟩 `[可用]` [small-miao-dsh-statusbar](https://github.com/Small-Miao/dsh-statusbar) ★2 — —
+- 🟩 `[可用]` [spix18-dsh-mobilecode](https://github.com/spix18/dsh-mobilecode) ★2 — dsh-mobilecode — MobileCode port for DeepSeek Harness: detect iOS/Android projects, run serve-sim/serve-avd pr
 - 🟩 `[可用]` [stopchewing-dsh-mcp-view](https://github.com/stopchewing/dsh-mcp-view) ★2 — MCP Tools panel for the DeepSeek Harness Web GUI: every MCP server & tool in your session, grouped by server,
 - 🟩 `[可用]` [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) ★2 — DSH plugin: structured test runner tool (test_run) — auto-detect vitest/jest/pytest/node:test, run tests, pars
 - 🟩 `[可用]` [dsh-waterball-pet](https://github.com/sundusk/dsh-waterball-pet) ★2 — A floating water-ball pet plugin for the DeepSeek Harness Web UI.
@@ -1734,6 +1735,7 @@
 - 🟩 `[可用]` [tkliuxing-dsh-hypatia-ui](https://github.com/tkliuxing/dsh-hypatia-ui) ★0 — Hypatia knowledge console for the DeepSeek Harness Web GUI: a sidebar entry that opens shelf browsing, JSE sea
 - 🟩 `[可用]` [trees163-dsh-customizations](https://github.com/trees163/dsh-customizations) ★0 — DeepSeek Harness 全家桶定制——All-in-one customization suite for DeepSeek Harness: 3 agent presets (Classic / Pro An
 - `[空仓监测]` **triple3h-dsh-input-enhancement** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **trouvaille-xx-dsh-stardewvalley-ui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [tumi-huakai-dsh-plugin-meow-speech](https://github.com/tumi-huakai/dsh-plugin-meow-speech) ★0 — 喵语定制：DSH 消息正文显示层文本替换插件（仅界面显示，不改动真实对话内容）
 - 🟩 `[可用]` [tyon-nos-ty90-dsh-mcsm-panel](https://github.com/Tyon-nos-Ty90/dsh-mcsm-panel) ★0 — —
 - 🟩 `[可用]` [uaapple-dsh-ui-cost](https://github.com/uaapple/dsh-ui-cost) ★0 — DeepSeek Harness Web UI plugin for live token usage and estimated cost
@@ -1912,7 +1914,6 @@
 - ⬜ `[待定]` [tianyagk-dsh-tradewatcher](https://github.com/tianyagk/dsh-tradewatcher) ★0 — DeepSeek Harness (DSH) web plugin: 盯盘 market-dashboard sidebar tab — three quote strips with hover intraday ch
 - ⬜ `[待定]` [vithrive-dsh-livebench-panel](https://github.com/Vithrive/dsh-livebench-panel) ★0 — —
 - ⬜ `[待定]` [wjx-ai-dsh-md-reader](https://github.com/wjx-ai/dsh-md-reader) ★0 — DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \| 会话区 \| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放
-- ⬜ `[待定]` [xiyue718-dsh-ui-git-bash](https://github.com/xiyue718/dsh-ui-git-bash) ★0 — DSH Git Base 插件：让 AI 使用 Git Bash 执行命令，可在 Pwsh 与 Git Base 模式间切换
 - ⬜ `[待定]` [xiyue718-dsh-ui-message-nav](https://github.com/xiyue718/dsh-ui-message-nav) ★0 — DSH 会话消息导航插件：独立的用户消息导航栏
 - ⬜ `[待定]` [youli42-dsh-betterinput](https://github.com/youli42/dsh_BetterInput) ★0 — —
 - ⬜ `[待定]` [yuu1111-dsh-ui-font](https://github.com/yuu1111/dsh-ui-font) ★0 — DeepSeek Harness Web GUI plugin: change the UI font family through theme token overrides
@@ -2612,6 +2613,7 @@
 - 🟨 `[不兼容]` [dsh-claw-memory](https://github.com/xingyingyuzhui/dsh-claw-memory) ★0 — Claw persistent memory for DeepSeek Harness
 - 🟨 `[不兼容]` [dsh-claw-registry](https://github.com/xingyingyuzhui/dsh-claw-registry) ★0 — Claw Agent registry for DeepSeek Harness: bind, isolate, archive
 - 🟨 `[不兼容]` [dsh-claw-permissions](https://github.com/xingyingyuzhui/dsh-claw-permissions) ★0 — Layered session permissions for DeepSeek Harness
+- 🟨 `[不兼容]` [xiyue718-dsh-ui-git-bash](https://github.com/xiyue718/dsh-ui-git-bash) ★0 — DSH Git Base 插件：让 AI 使用 Git Bash 执行命令，可在 Pwsh 与 Git Base 模式间切换
 - 🟨 `[不兼容]` [xusuyang030218-dsh-skill-ui](https://github.com/xusuyang030218/dsh-skill-ui) ★0 — —
 - 🟨 `[不兼容]` [xxxrickymorty-dev-dsh-rick](https://github.com/xxxrickymorty-dev/dsh-rick) ★0 — C-137 skin for DeepSeek Harness: 28 posters, custom scenes, and overlay pets (Rick, Morty, portal gun).
 - `[未定位]` **yangruiyangdan-dsh-media-card** — 占位待复核，判定暂不展示

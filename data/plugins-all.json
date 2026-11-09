@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T20:31:06Z",
+ "generated_at": "2026-11-09T20:46:03Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -7759,6 +7759,13 @@
    "desc": "DeepFusion: DSH x Reasonix 融合 Agent 引擎 (DeepSeek-native 编排 + 前缀缓存优化)"
   },
   {
+   "repo": "wuwuzhige-sudo/dsh-skill-gsd",
+   "name": "wuwuzhige-sudo-dsh-skill-gsd",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "skill比较轻量，缩减上下文占用"
+  },
+  {
    "repo": "wuxiangru915/dsh-session-navigator",
    "name": "wuxiangru915-dsh-session-navigator",
    "verdict": "ok",
@@ -11320,6 +11327,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "xiaono1/dsh-ov-memory",
+   "name": "xiaono1-dsh-ov-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把 OpenViking 持久记忆接入 DeepSeek Harness（DSH）的插件：自动召回、会话镜像与阈值提交、离线出站队列重放、自研 MCP 工具桥与 viking:// URI 守卫"
   },
   {
    "repo": "XiaoWind/dsh-loop",
@@ -17732,6 +17746,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "spix18/dsh-mobilecode",
+   "name": "spix18-dsh-mobilecode",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "dsh-mobilecode — MobileCode port for DeepSeek Harness: detect iOS/Android projects, run serve-sim/serve-avd pr"
   },
   {
    "repo": "stopchewing/dsh-mcp-view",
@@ -25560,13 +25581,6 @@
    "desc": "DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \\| 会话区 \\| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放"
   },
   {
-   "repo": "xiyue718/dsh-ui-git-bash",
-   "name": "xiyue718-dsh-ui-git-bash",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH Git Base 插件：让 AI 使用 Git Bash 执行命令，可在 Pwsh 与 Git Base 模式间切换"
-  },
-  {
    "repo": "xiyue718/dsh-ui-message-nav",
    "name": "xiyue718-dsh-ui-message-nav",
    "verdict": "pending",
@@ -30080,6 +30094,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Layered session permissions for DeepSeek Harness"
+  },
+  {
+   "repo": "xiyue718/dsh-ui-git-bash",
+   "name": "xiyue718-dsh-ui-git-bash",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Git Base 插件：让 AI 使用 Git Bash 执行命令，可在 Pwsh 与 Git Base 模式间切换"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -68246,6 +68267,13 @@
    "desc": "DeepSeek Harness Remote: token auth, 0.0.0.0 unlock, mobile CSS, one-shot Windows/Linux/Docker deployment — tu"
   },
   {
+   "repo": "zhangzhend0ng/canonkeeper",
+   "name": "zhangzhend0ng-canonkeeper",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "canonkeeper —— 网文长篇设定冲突验证 harness：状态库 + 纯程序化规则引擎 + MCP server，作为 dsh (deepseek-harness) 插件"
+  },
+  {
    "repo": "zhenghaoyang24/dsh-desktop",
    "name": "zhenghaoyang24-dsh-desktop",
    "verdict": "ok",
@@ -76009,13 +76037,6 @@
    "desc": "Personal AI memory semantic layer SDK (Rust + SQLite) — short/mid/long-term memory with hybrid recall"
   },
   {
-   "repo": "violetdream/dsh-officecli",
-   "name": "violetdream-dsh-officecli",
-   "verdict": "ok",
-   "stars": 3,
-   "desc": "dsh插件-结合officecli命令实现在Deepseek Harness中操作office文档"
-  },
-  {
    "repo": "1841220388zzzcccxxx-star/dsh-token-stats",
    "name": "1841220388zzzcccxxx-star-dsh-token-stats",
    "verdict": "ok",
@@ -78401,6 +78422,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "Balanced web search plugin/MCP server for DeepSeek Harness: Keenable / Exa / Tavily / Firecrawl / AnySearch /"
+  },
+  {
+   "repo": "violetdream/dsh-officecli",
+   "name": "violetdream-dsh-officecli",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "dsh插件-结合officecli命令实现在Deepseek Harness中操作office文档"
   },
   {
    "repo": "weisiren000/dsh-remote-ssh-ops",
@@ -84661,6 +84689,13 @@
    "desc": "—"
   },
   {
+   "repo": "tylina/dsh-tylina",
+   "name": "tylina-dsh-tylina",
+   "verdict": "ok",
+   "stars": 9,
+   "desc": "Edit typeset Typst documents inside DeepSeek Harness"
+  },
+  {
    "repo": "Victor-770/dsh-commandcode-provider",
    "name": "dsh-commandcode-provider",
    "verdict": "pending",
@@ -84673,13 +84708,6 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "Use local Codex App Server as a model provider in DeepSeek Harness"
-  },
-  {
-   "repo": "tylina/dsh-tylina",
-   "name": "tylina-dsh-tylina",
-   "verdict": "pending",
-   "stars": 9,
-   "desc": "Edit typeset Typst documents inside DeepSeek Harness"
   },
   {
    "repo": "chengzhi43/dsh-file",
@@ -92403,6 +92431,13 @@
    "desc": "DeepSeek Harness plugin: show the DeepSeek account balance/usage from the official GET /user/balance API in th"
   },
   {
+   "repo": "xiixii005-tech/dsh-file-diff",
+   "name": "xiixii005-tech-dsh-file-diff",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "deepseek harness 会话文件修改总览插件（by dsh deepseek v4 flash）"
+  },
+  {
    "repo": "xing01l/session-import-codex",
    "name": "xing01l-session-import-codex",
    "verdict": "ok",
@@ -92730,13 +92765,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: serve every gpt-load model from one provider group, each model on its own wire protoc"
-  },
-  {
-   "repo": "xiixii005-tech/dsh-file-diff",
-   "name": "xiixii005-tech-dsh-file-diff",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "deepseek harness 会话文件修改总览插件（by dsh deepseek v4 flash）"
   },
   {
    "repo": "dsh-plugins/dsh-approve-for-me",
@@ -96517,6 +96545,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Google Antigravity subscription reuse for DeepSeek Harness: browser PKCE sign-in, loopback OpenAI-compatible p"
+  },
+  {
+   "repo": "shimingming520/dsh-videogen",
+   "name": "shimingming520-dsh-videogen",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "shizhanyu13/dsh-waom",

@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2012）
+# 🤖 Agent 能力（2014）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1180,6 +1180,7 @@
 - ⬜ `[待定]` [wolfsonliu-zotero-skill](https://github.com/wolfsonliu/zotero-skill) ★0 — An agent-usable Zotero skill for AI agent — search, read, and write your local Zotero library through a single
 - `[未定位]` **wonderfuledge-dsh-publish-skill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wpc725562-dotcom-deepfusion](https://github.com/wpc725562-dotcom/deepfusion) ★0 — DeepFusion: DSH x Reasonix 融合 Agent 引擎 (DeepSeek-native 编排 + 前缀缓存优化)
+- ⬜ `[待定]` [wuwuzhige-sudo-dsh-skill-gsd](https://github.com/wuwuzhige-sudo/dsh-skill-gsd) ★0 — skill比较轻量，缩减上下文占用
 - `[未定位]` **wuxiangru915-dsh-session-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wuxiangru915-dsh-session-navigator](https://github.com/wuxiangru915/dsh-session-navigator) ★0 — Session navigator & turn minimap for DeepSeek Harness: proportional rail, hover preview card, turn stepper.
 - 🟩 `[可用]` [wuxie233-dsh-plugin-blank-session-gc](https://github.com/Wuxie233/dsh-plugin-blank-session-gc) ★0 — —
@@ -1732,6 +1733,7 @@
 - 🟨 `[不兼容]` [witchwarren2344-dsh-mnemosyne-memory](https://github.com/Witchwarren2344/dsh-mnemosyne-memory) ★1 — —
 - 🟨 `[不兼容]` [wr-web-dsh-context-tree](https://github.com/wr-web/dsh-context-tree) ★1 — Reusable trajectory-tree context, exact-turn forks, and bounded cross-session recall for DeepSeek Harness
 - 🟨 `[不兼容]` [xiaochaz-dsh-session-title-summary](https://github.com/xiaochaZ/dsh-session-title-summary) ★1 — —
+- 🟨 `[不兼容]` [xiaono1-dsh-ov-memory](https://github.com/xiaono1/dsh-ov-memory) ★1 — 把 OpenViking 持久记忆接入 DeepSeek Harness（DSH）的插件：自动召回、会话镜像与阈值提交、离线出站队列重放、自研 MCP 工具桥与 viking:// URI 守卫
 - 🟨 `[不兼容]` [xiaowind-dsh-loop](https://github.com/XiaoWind/dsh-loop) ★1 — —
 - 🟨 `[不兼容]` [xingzhen199186-dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) ★1 — 让一个会话既能向其他模型借智慧，也能向其他会话借记忆
 - 🟨 `[不兼容]` [dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) ★1 — DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh
