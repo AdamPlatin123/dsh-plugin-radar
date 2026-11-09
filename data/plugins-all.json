@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T14:46:09Z",
+ "generated_at": "2026-11-09T15:01:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -3634,13 +3634,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "dataelement/dsh-plugin-coaligne",
-   "name": "dataelement-dsh-plugin-coaligne",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "CoAligne for DeepSeek Harness: shared team project context over MCP, plus the coaligne-workflow skill"
   },
   {
    "repo": "devmom/dsh-session-import",
@@ -10648,6 +10641,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Always-on supervisor agent bundle for DeepSeek Harness: main-agent preset + schedule overlay, one dsh plugin a"
+  },
+  {
+   "repo": "dataelement/dsh-plugin-coaligne",
+   "name": "dataelement-dsh-plugin-coaligne",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "CoAligne for DeepSeek Harness: shared team project context over MCP, plus the coaligne-workflow skill"
   },
   {
    "repo": "DDDFXYqiming/dsh-session-recap",
@@ -43429,6 +43429,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "dtyg123/dsh-afdian",
+   "name": "dtyg123-dsh-afdian",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Afdian plugin for DeepSeek Harness"
   },
   {
    "repo": "Duleey/dsh-plugin",
@@ -80678,13 +80685,6 @@
    "desc": "Tencent Agent Mail (agent.qq.com) workbench plugin for DeepSeek Harness: polling, LLM classification, fullscre"
   },
   {
-   "repo": "iluluyu/dsh-btw",
-   "name": "iluluyu-dsh-btw",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Side questions (/btw) and ephemeral temporary chat for DeepSeek Harness (dsh) web — ask without interrupting,"
-  },
-  {
    "repo": "itsnone-liu/dsh-feishu",
    "name": "itsnone-liu-dsh-feishu",
    "verdict": "ok",
@@ -82433,6 +82433,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "iluluyu/dsh-btw",
+   "name": "iluluyu-dsh-btw",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Side questions (/btw) and ephemeral temporary chat for DeepSeek Harness (dsh) web — ask without interrupting,"
   },
   {
    "repo": "jackControls/dsh-telegram-control",
