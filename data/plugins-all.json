@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T14:15:51Z",
+ "generated_at": "2026-11-09T14:30:59Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -16915,13 +16915,6 @@
    "desc": "一个可实际使用的 DeepSeek Harness WebUI 插件管理器：在浏览器里搜索 npm 仓库、安装、启用/停用、卸载 profile 插件，不再依赖命令行 dsh plugin"
   },
   {
-   "repo": "imkingjh999/dsh-shorts-wall",
-   "name": "imkingjh999-dsh-shorts-wall",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "DSH plugin: vertical shorts wall for dsh-better-sidebar — YouTube Shorts + Bilibili vertical, dual-source caro"
-  },
-  {
    "repo": "imtanhui/dsh-plugin-butler",
    "name": "imtanhui-dsh-plugin-butler",
    "verdict": "ok",
@@ -27121,6 +27114,13 @@
    "desc": "—"
   },
   {
+   "repo": "imkingjh999/dsh-shorts-wall",
+   "name": "imkingjh999-dsh-shorts-wall",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH plugin: vertical shorts wall for dsh-better-sidebar — YouTube Shorts + Bilibili vertical, dual-source caro"
+  },
+  {
    "repo": "ipromise2021/dsh-omc-tui",
    "name": "ipromise2021-dsh-omc-tui",
    "verdict": "incompatible",
@@ -31708,13 +31708,6 @@
   {
    "repo": "PerryLink/dsh-kit",
    "name": "perrylink-dsh-kit",
-   "verdict": "pending",
-   "stars": 10,
-   "desc": "—"
-  },
-  {
-   "repo": "Soulize/hard-flash",
-   "name": "soulize-hard-flash",
    "verdict": "pending",
    "stars": 10,
    "desc": "—"
@@ -42962,13 +42955,6 @@
    "desc": "—"
   },
   {
-   "repo": "ChuanTianML/dsh-open-with",
-   "name": "chuantianml-dsh-open-with",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "ckk-09/dsh-refix",
    "name": "ckk-09-dsh-refix",
    "verdict": "pending",
@@ -46544,13 +46530,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "ruby1304/dsh-quota-status",
-   "name": "ruby1304-dsh-quota-status",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness web plugin: minimal quota/balance card — DeepSeek API balance with tier colors & peak/off-pea"
   },
   {
    "repo": "run-bigpig/dsh-plugin-hub",
@@ -55884,6 +55863,13 @@
    "desc": "—"
   },
   {
+   "repo": "Soulize/hard-flash",
+   "name": "soulize-hard-flash",
+   "verdict": "incompatible",
+   "stars": 10,
+   "desc": "—"
+  },
+  {
    "repo": "le-soleil-se-couche/dsh-token-cost",
    "name": "le-soleil-se-couche-dsh-token-cost",
    "verdict": "incompatible",
@@ -59972,6 +59958,13 @@
    "desc": "Verify that Cordis-managed runtime resources return to baseline after mount, exercise, and unmount."
   },
   {
+   "repo": "ChuanTianML/dsh-open-with",
+   "name": "chuantianml-dsh-open-with",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Co-Kyo/dsh-interview-forge",
    "name": "co-kyo-dsh-interview-forge",
    "verdict": "incompatible",
@@ -61160,6 +61153,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "deepseek harness plugin structured output"
+  },
+  {
+   "repo": "ruby1304/dsh-quota-status",
+   "name": "ruby1304-dsh-quota-status",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness web plugin: minimal quota/balance card — DeepSeek API balance with tier colors & peak/off-pea"
   },
   {
    "repo": "Ryu6Zero/dsh-hindsight",
@@ -89930,6 +89930,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "KnowzCode TDD / quality-gate workflow for DeepSeek Harness"
+  },
+  {
+   "repo": "knyazev741/knyazevai-dsh",
+   "name": "knyazev741-knyazevai-dsh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "KnyazevAI DSH Provider — adds KnyazevAI API models to DeepSeek Harness and DSH Desktop"
   },
   {
    "repo": "kp-z/dsh-dev-git-graph",
