@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T15:16:12Z",
+ "generated_at": "2026-11-09T16:17:22Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -33367,7 +33367,7 @@
   {
    "repo": "Letter2025/dsh-model-failover",
    "name": "letter2025-dsh-model-failover",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 4,
    "desc": "—"
   },
