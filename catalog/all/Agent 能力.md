@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2028）
+# 🤖 Agent 能力（2031）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -754,7 +754,6 @@
 - 🟩 `[可用]` [ztlovelsw-dsh-model-profile](https://github.com/ztlovelsw/dsh-model-profile) ★1 — 手动或自动配置模型思考强度、上下文窗口、最大输出token
 - 🟩 `[可用]` [zzj8442-blip-dsh-mobile-remote](https://github.com/zzj8442-blip/dsh-mobile-remote) ★1 — 📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持）
 - ⬜ `[待定]` [libaie-dsh-flotilla](https://github.com/libaie/dsh-flotilla) ★1 — Multi-repo workflow isolation skill for DeepSeek Harness - one isolated entry agent per repo, one controller f
-- ⬜ `[待定]` [plxloyzb-dsh-context-management](https://github.com/PlxloYzb/dsh-context-management) ★1 — —
 - ⬜ `[待定]` [xxxxxq-0206-dsh-prompt-for-me](https://github.com/XXXXXQ-0206/dsh-prompt-for-me) ★1 — —
 - `[空仓监测]` **axelfreeman-hermes-security-audit** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [SemaRail](https://github.com/hejielijob-commits/SemaRail) ★1 — Pluggable WrenAI data agent for DeepSeek Harness
@@ -1097,6 +1096,7 @@
 - 🟩 `[可用]` [sakka6868-dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) ★0 — —
 - 🟩 `[可用]` [sam-midlight-dsh-loop-rescue](https://github.com/sam-midlight/dsh-loop-rescue) ★0 — DRAFT — DeepSeek Harness guard that breaks an agent out of a tool-call loop and escalates to a stronger model
 - `[空仓监测]` **savageops-dsh-rich-context** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **sdf-jkl-gh-dsh-memory-panel** — 占位待复核，判定暂不展示
 - `[未定位]` **seekerwxy-dsh-session-tabs** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [sehoon123-dsh-mcp-adapter](https://github.com/sehoon123/dsh-mcp-adapter) ★0 — Context-cheap, crash-resistant MCP access for the DeepSeek Harness: one lazy proxy tool instead of dumping eve
 - 🟩 `[可用]` [seth-hg-dsh-session-port](https://github.com/seth-hg/dsh-session-port) ★0 — dsh-session-port is a DeepSeek Harness plugin that bundles a session — its log, subagents, media, and referenc
@@ -1724,6 +1724,7 @@
 - 🟨 `[不兼容]` [pakco77-dsh-daqi-skill](https://github.com/pakco77/dsh-daqi.skill) ★1 — —
 - 🟨 `[不兼容]` [phoenixlucky-chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) ★1 — 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力
 - 🟨 `[不兼容]` [player-yn-dsh-agent-driver-writehere](https://github.com/Player-YN/dsh-agent-driver-writehere) ★1 — —
+- 🟨 `[不兼容]` [plxloyzb-dsh-context-management](https://github.com/PlxloYzb/dsh-context-management) ★1 — —
 - 🟨 `[不兼容]` [polaris-smart-dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) ★1 — dsh (DeepSeek Harness) 跨 agent 信箱插件：mailbox_send/check/reply/list/done/broadcast + task_create/list，桥接 agent-m
 - 🟨 `[不兼容]` [polohot-dsh-adrian-inject-context](https://github.com/polohot/dsh-adrian-inject-context) ★1 — —
 - 🟨 `[不兼容]` [powerrrrrrrr-dsh-live-loop](https://github.com/POWERRRRRRRR/dsh-live-loop) ★1 — —
@@ -1737,6 +1738,7 @@
 - 🟨 `[不兼容]` [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) ★1 — AI turns repeated dev commands, prompts, and habits into one-click DeepSeek Harness actions.
 - 🟨 `[不兼容]` [snail30xx-dsh-graph-runtime](https://github.com/snail30xx/dsh-graph-runtime) ★1 — Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g
 - 🟨 `[不兼容]` [tinger-x-dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) ★1 — —
+- 🟨 `[不兼容]` [trynewthin-dsh-subagent-roles](https://github.com/trynewthin/dsh-subagent-roles) ★1 — Role-based model routing for DeepSeek Harness subagent delegation.
 - 🟨 `[不兼容]` [tsja2001-dsh-zhipu-coding-plan](https://github.com/tsja2001/dsh-zhipu-coding-plan) ★1 — GLM Coding Plan quota & usage as a conversation view tab (额度) for DeepSeek Harness web — 5h/weekly token windo
 - 🟨 `[不兼容]` [tt-wang-dsh-agent-swarm](https://github.com/TT-Wang/dsh-agent-swarm) ★1 — —
 - 🟨 `[不兼容]` [vibeinging-dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) ★1 — Per-agent on-demand tool discovery and progressive schema disclosure for DeepSeek Harness
@@ -1938,6 +1940,7 @@
 - 🟨 `[不兼容]` [rhy006-agency-agents-zh-dsh-plugin](https://github.com/RHY006/agency-agents-zh-dsh-plugin) ★0 — —
 - 🟨 `[不兼容]` [robbywang25-dsh-llm-mlx](https://github.com/robbywang25/dsh-llm-mlx) ★0 — DeepSeek Harness plugin for local MLX-LM models with loopback-only defaults and optional managed server startu
 - 🟨 `[不兼容]` [robin758-dsh-session-admin](https://github.com/robin758/dsh-session-admin) ★0 — —
+- 🟨 `[不兼容]` [roojay-dsh-stream-upload](https://github.com/roojay/dsh-stream-upload) ★0 — DeepSeek Harness hybrid attachment plugin: native images plus bounded-memory workspace uploads
 - 🟨 `[不兼容]` [royenheart-dsh-plugin-skills-manager](https://github.com/royenheart/dsh-plugin-skills-manager) ★0 — deepseek harness plugin skill manager
 - 🟨 `[不兼容]` [runfali-dsh-mem0-plugins](https://github.com/runfali/dsh-mem0-plugins) ★0 — dsh 持久化记忆插件 - 依托自建的 mem0‑graph 服务器实现自动回忆与回写
 - 🟨 `[不兼容]` [satan9394-dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) ★0 — 199 DSH skill plugins in one monorepo - comprehensive collection for DeepSeek Harness
