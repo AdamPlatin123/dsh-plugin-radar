@@ -195,7 +195,6 @@
 - ⬜ `[待定]` [dqsjqian-ariaagent](https://github.com/dqsjqian/AriaAgent) ★5 — —
 - 🟩 `[可用]` [flymysql-dsh-memory](https://github.com/flymysql/dsh-memory) ★5 — DeepSeek Harness 跨会话记忆库：memory_remember/recall/forget 三个工具 + 系统提示注入，agent 持久化记忆
 - 🟩 `[可用]` [gongyuancaiji-dsh-agency-agents-zh](https://github.com/GongYuanCaiJi/dsh-agency-agents-zh) ★5 — —
-- ⬜ `[待定]` [hanxuanliang-dsh-chaos](https://github.com/hanxuanliang/dsh-chaos) ★5 — Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions
 - 🟩 `[可用]` [dsh-plugin-spur](https://github.com/HuanLinOTO/dsh-plugin-spur) ★5 — 聊天流中悬挂皮鞭，甩动鞭梢（>2.0 px/ms）即向 agent 发送 go work 消息 \| A whip hanging in the chat stream; flick the tip (>2.0 px/ms
 - ⬜ `[待定]` [itmoqing-deepseek-harness-skill](https://github.com/itmoqing/DeepSeek-Harness-Skill) ★5 — —
 - 🟩 `[可用]` [john-walks-slow-dsh-simulated-life](https://github.com/john-walks-slow/dsh-simulated-life) ★5 — Simulated life context for DeepSeek Harness: reads .life/<date> events into agent context with dedup, and a li
@@ -406,7 +405,7 @@
 - ⬜ `[待定]` [nana7mi0721-anima-prompt-caption](https://github.com/Nana7mi0721/anima-prompt-caption) ★2 — —
 - 🟩 `[可用]` [nelsonlongxiang-dsh-prompt-templates](https://github.com/NelsonLongxiang/dsh-prompt-templates) ★2 — —
 - 🟩 `[可用]` [nianchen8-dsh-skill-panel](https://github.com/nianchen8/dsh-skill-panel) ★2 — Skill management panel for the DeepSeek Harness web app
-- ⬜ `[待定]` [nishit130-dsh-notification](https://github.com/nishit130/dsh-notification) ★2 — know when your agent finishes a turn, hits an error, or is waiting for your approval — without watching the ta
+- 🟩 `[可用]` [nishit130-dsh-notification](https://github.com/nishit130/dsh-notification) ★2 — know when your agent finishes a turn, hits an error, or is waiting for your approval — without watching the ta
 - 🟩 `[可用]` [nishuoyang-dsh-workbench-ecs](https://github.com/nishuoyang/dsh-workbench-ecs) ★2 — Alibaba Cloud Workbench CLI plugin — lets DeepSeek Harness's Agent directly control remote ECS instances.
 - 🟩 `[可用]` [dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) ★2 — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS / ASSE) and tax law lookup, plus a sk
 - 🟩 `[可用]` [session-teleport](https://github.com/omdsh-dev/session-teleport) ★2 — —
@@ -1013,7 +1012,6 @@
 - 🟩 `[可用]` [nattocb-dsh-web-search-session-follow](https://github.com/NattoCB/dsh-web-search-session-follow) ★0 — —
 - 🟩 `[可用]` [navid-kianfar-dsh-voice](https://github.com/navid-kianfar/dsh-voice) ★0 — Dictate prompts into the DeepSeek Harness Web Client — a microphone in the composer, with swappable transcript
 - 🟩 `[可用]` [nb4747-dsh-session-sync](https://github.com/NB4747/dsh-session-sync) ★0 — —
-- ⬜ `[待定]` [necromanalbert-dsh-skill-slash-fuzzy](https://github.com/NecromanAlbert/dsh-skill-slash-fuzzy) ★0 — —
 - 🟩 `[可用]` [nekomona-dsh-plugin-zai-mcp](https://github.com/nekomona/dsh-plugin-zai-mcp) ★0 — 1-click Deepseek Harness plugin for Z.ai coding plan MCPs
 - 🟩 `[可用]` [neorrrr-dsh-project-skill-paths](https://github.com/NeoRrrr/dsh-project-skill-paths) ★0 — —
 - ⬜ `[待定]` [neumannzc-dsh-native-session-split](https://github.com/Neumannzc/dsh-native-session-split) ★0 — —
@@ -1466,6 +1464,7 @@
 - 🟨 `[不兼容]` [diluka-dsh-agent-plugin-market](https://github.com/Diluka/dsh-agent-plugin-market) ★5 — —
 - 🟨 `[不兼容]` [featherhunter-skills](https://github.com/FeatherHunter/SKILLS) ★5 — —
 - 🟨 `[不兼容]` [flg1217-dsh-llm-agy](https://github.com/flg1217/dsh-llm-agy) ★5 — AGY (Antigravity CLI) integration for DeepSeek Harness: LLM adapter subagents, deep web search, connectivity d
+- 🟨 `[不兼容]` [hanxuanliang-dsh-chaos](https://github.com/hanxuanliang/dsh-chaos) ★5 — Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions
 - 🟨 `[不兼容]` [kinomotomio-dsh-context-lens](https://github.com/KinomotoMio/dsh-context-lens) ★5 — —
 - 🟨 `[不兼容]` [lhwu1-dsh-withskillhub](https://github.com/lhwu1/dsh-withskillhub) ★5 — 携手skillhub，快捷安装启用丰富的skill，一键装配方便快捷
 - 🟨 `[不兼容]` [nickkkkkk123123-dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) ★5 — 鲸鱼娘·灵动挂件 — 会卖萌、会记账、会弹跳的 DSH 桌面挂件插件（余额/用量/上下文/峰谷/右键菜单/拖动甩抛）
@@ -1868,6 +1867,7 @@
 - `[未定位]` **n0pe-sled-configurable-subagents** — 占位待复核，判定暂不展示
 - `[未定位]` **n0pe-sled-context-before-user** — 占位待复核，判定暂不展示
 - `[空仓监测]` **nay-1-dsh-skill-manage** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [necromanalbert-dsh-skill-slash-fuzzy](https://github.com/NecromanAlbert/dsh-skill-slash-fuzzy) ★0 — —
 - `[未定位]` **new-beginner-dsh-default-prompt** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [nexusagentx-dsh-advisor](https://github.com/NexusAgentX/dsh-advisor) ★0 — —
 - 🟨 `[不兼容]` [ninjasln-labs-dsh-session-slm-router](https://github.com/NinjaSln-labs/dsh-session-slm-router) ★0 — —
