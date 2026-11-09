@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T16:17:22Z",
+ "generated_at": "2026-11-09T17:01:11Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -4740,13 +4740,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Token usage dashboard for DeepSeek Harness 用量仪表盘：查看缓存、上下文、请求效率、逐步骤和跨会话统计"
-  },
-  {
-   "repo": "tsja2001/dsh-zhipu-coding-plan",
-   "name": "tsja2001-dsh-zhipu-coding-plan",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "GLM Coding Plan quota & usage as a conversation view tab (额度) for DeepSeek Harness web — 5h/weekly token windo"
   },
   {
    "repo": "tuogusa/dsh-session-tags",
@@ -11161,6 +11154,13 @@
    "desc": "—"
   },
   {
+   "repo": "tsja2001/dsh-zhipu-coding-plan",
+   "name": "tsja2001-dsh-zhipu-coding-plan",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "GLM Coding Plan quota & usage as a conversation view tab (额度) for DeepSeek Harness web — 5h/weekly token windo"
+  },
+  {
    "repo": "TT-Wang/dsh-agent-swarm",
    "name": "tt-wang-dsh-agent-swarm",
    "verdict": "incompatible",
@@ -13238,6 +13238,13 @@
    "verdict": "ok",
    "stars": 38,
    "desc": "Configurable DSH web-surface plugin: wallpaper & frosted-glass themes, accent colors, custom keyboard shortcut"
+  },
+  {
+   "repo": "aqiu817/dsh-llm-agentrouter",
+   "name": "aqiu817-dsh-llm-agentrouter",
+   "verdict": "ok",
+   "stars": 37,
+   "desc": "DeepSeek Harness bundle: the AgentRouter relay as one pi-ai route with a domestic/international endpoint switc"
   },
   {
    "repo": "lsz-asd/dsh-plugin-session-delete",
@@ -15622,7 +15629,7 @@
   {
    "repo": "changan0617/dsh-skin",
    "name": "changan0617-dsh-skin",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness homepage-style chat background skin: fluid + dot grid + digitile whale"
   },
@@ -16213,13 +16220,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "A DSH sidebar plugin that shows AnySearch references as cards, with the search query, source snippets and high"
-  },
-  {
-   "repo": "wang-bool/visual-review",
-   "name": "wang-bool-visual-review",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "DeepSeek Harness plugin for image upload, in-chat rendering, and vision analysis with cloud or local models"
   },
   {
    "repo": "wangxilhy23/dsh-wx-skin",
@@ -17811,13 +17811,6 @@
    "desc": "DSH 常驻插件：侧边栏面板统一查看并管理本机的 dsh 实例 \\| Sidebar panel to list and manage local dsh web instances"
   },
   {
-   "repo": "yangshen830-eng/dsh-editor",
-   "name": "yangshen830-eng-dsh-editor",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "DSH 代码编辑器插件：VS Code 风格界面，内置文件树、Monaco 编辑器、跨文件搜索/替换、Markdown 预览与 Git diff"
-  },
-  {
    "repo": "ydhcxh/dsh-desktop",
    "name": "ydhcxh-dsh-desktop",
    "verdict": "pending",
@@ -18208,13 +18201,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Custom background (image / GIF / animated wallpaper) plugin for the DeepSeek Harness (DSH) Web GUI - enable sw"
-  },
-  {
-   "repo": "AlexYin-Tongji/dsh-ui-enhancer",
-   "name": "alexyin-tongji-dsh-ui-enhancer",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "allen546/dsh-plugin-genshin-startup",
@@ -18703,13 +18689,6 @@
    "repo": "EternalNight996/dsh-ui-three-body",
    "name": "eternalnight996-dsh-ui-three-body",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "Ethanz11-creat/dsh-billing-tui",
-   "name": "ethanz11-creat-dsh-billing-tui",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -26890,6 +26869,13 @@
    "desc": "Session settings, MCP servers, and Skill management plugin for DeepSeek Harness (DSH) Web GUI."
   },
   {
+   "repo": "wang-bool/visual-review",
+   "name": "wang-bool-visual-review",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DeepSeek Harness plugin for image upload, in-chat rendering, and vision analysis with cloud or local models"
+  },
+  {
    "repo": "Wulabalabo/dsh-sidebar-Explorer-Plus",
    "name": "wulabalabo-dsh-sidebar-explorer-plus",
    "verdict": "incompatible",
@@ -27492,6 +27478,13 @@
    "desc": "—"
   },
   {
+   "repo": "yangshen830-eng/dsh-editor",
+   "name": "yangshen830-eng-dsh-editor",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 代码编辑器插件：VS Code 风格界面，内置文件树、Monaco 编辑器、跨文件搜索/替换、Markdown 预览与 Git diff"
+  },
+  {
    "repo": "yoshino-xiao7/dsh-grok-provider",
    "name": "yoshino-xiao7-dsh-grok-provider",
    "verdict": "incompatible",
@@ -27588,6 +27581,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Run your DSH workspace on a remote host over SSH - connection sidebar, remote directory browser, per-session r"
+  },
+  {
+   "repo": "AlexYin-Tongji/dsh-ui-enhancer",
+   "name": "alexyin-tongji-dsh-ui-enhancer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "awa-123-cw/dsh-matrix-rain",
@@ -27767,6 +27767,13 @@
   {
    "repo": "Equinox7379/dsh-skill-search",
    "name": "equinox7379-dsh-skill-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Ethanz11-creat/dsh-billing-tui",
+   "name": "ethanz11-creat-dsh-billing-tui",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -37211,13 +37218,6 @@
    "repo": "Acc1143/dsh-vision-bridge",
    "name": "acc1143-dsh-vision-bridge",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "Adachi-Hougetsu/dsh-api-tools",
-   "name": "adachi-hougetsu-dsh-api-tools",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -57844,6 +57844,13 @@
    "desc": "Community plugin collection for DeepSeek Harness (DSH) 〔PR〕"
   },
   {
+   "repo": "Adachi-Hougetsu/dsh-api-tools",
+   "name": "adachi-hougetsu-dsh-api-tools",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "ajceee/dsh-subscription-overlay",
    "name": "ajceee-dsh-subscription-overlay",
    "verdict": "incompatible",
@@ -76884,13 +76891,6 @@
    "desc": "—"
   },
   {
-   "repo": "vuvanmai936-dot/dsh-ocr-bridge",
-   "name": "vuvanmai936-dot-dsh-ocr-bridge",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "OCR-level vision bridge for DeepSeek Harness: paste images, read them locally (macOS Vision / Tesseract), answ"
-  },
-  {
    "repo": "vv5v5/dsh-memory-archive",
    "name": "vv5v5-dsh-memory-archive",
    "verdict": "ok",
@@ -78429,6 +78429,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: a deployment deny list of filesystem roots the model may never touch"
+  },
+  {
+   "repo": "vuvanmai936-dot/dsh-ocr-bridge",
+   "name": "vuvanmai936-dot-dsh-ocr-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "OCR-level vision bridge for DeepSeek Harness: paste images, read them locally (macOS Vision / Tesseract), answ"
   },
   {
    "repo": "Wilson-Lai-Ab/dsh-at-file",
@@ -81112,13 +81119,6 @@
    "desc": "Chat bridge that connects Telegram (WhatsApp, Zalo, Viber, .."
   },
   {
-   "repo": "wangsan71/DSh-feishu-bot",
-   "name": "wangsan71-dsh-feishu-bot",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "welay21312312321/dsh-design-feishu-docs",
    "name": "welay21312312321-dsh-design-feishu-docs",
    "verdict": "ok",
@@ -82685,6 +82685,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 对话窗口协作与窗口团队插件 · dsh-plugin · DSH 窗口间真实消息、任务协调与角色窗口团队，按链接精确寻址"
+  },
+  {
+   "repo": "wangsan71/DSh-feishu-bot",
+   "name": "wangsan71-dsh-feishu-bot",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "whoisDDD/dsh-approval-notify",
@@ -93444,6 +93451,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "godchen520/dsh-web-search-bing",
+   "name": "godchen520-dsh-web-search-bing",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Free Bing-backed web search provider for DeepSeek Harness (DSH)"
   },
   {
    "repo": "guyuefangyuanl/dsh-memory",
