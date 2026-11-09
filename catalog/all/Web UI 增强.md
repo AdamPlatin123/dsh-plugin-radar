@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2621）
+# 🔌 Web UI 增强（2626）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1256,6 +1256,7 @@
 - `[空仓监测]` **abccgh-dsh-agent-builder** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [abcofabc-dsh-enter-approve](https://github.com/abcofabc/dsh-enter-approve) ★0 — Press Enter to approve the sandbox permission-escalation prompt in the DeepSeek Harness WebUI - no mouse click
 - `[空仓监测]` **abidhmuhsin-dsh-visualizer** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [addie-ace-dsh-livebench-rankings](https://github.com/addie-ace/dsh-livebench-rankings) ★0 — LiveBench AI 能力排行榜 UI 插件 for DeepSeek Harness：拉取 livebench.ai 官方数据，筛选/对比 AI 模型并导出 CSV
 - 🟩 `[可用]` [addxing-replicate-android-feature](https://github.com/addxing/replicate-android-feature) ★0 — 面向 AI 编程代理的 Android 功能复刻 Skill
 - 🟩 `[可用]` [aefuimn-dsh-agent-preset-switcher](https://github.com/aefuimn/dsh-agent-preset-switcher) ★0 — Hot-switch agent presets (working modes) inside a running DSH session, instead of choosing a preset only when
 - 🟩 `[可用]` [af2000-tech-dsh-taskboard-plugin](https://github.com/af2000-tech/dsh-taskboard-plugin) ★0 — Taskboard plugin for DeepSeek Harness (DSH) — issue kanban with a sidebar board panel, a 13-command agent tool
@@ -1272,6 +1273,7 @@
 - 🟩 `[可用]` [anitman-dsh-plugin-md-preview](https://github.com/anitman/dsh-plugin-md-preview) ★0 — DSH Markdown 预览器 / DSH Markdown Previewer — web GUI 侧栏 Markdown 浏览、渲染与编辑保存（原子写入 + mtime 冲突检测）
 - 🟩 `[可用]` [ankye-dsh-image-generation](https://github.com/ankye/dsh-image-generation) ★0 — Give your DeepSeek Harness agent a paintbrush
 - 🟩 `[可用]` [ant404-dsh-session-delete-ui](https://github.com/ant404/dsh-session-delete-ui) ★0 — DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a
+- `[未定位]` **apeincodemountain-llm-wiki-sidebar** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [aqiane-dsh-client-ui-period-hint](https://github.com/aqiane/dsh-client-ui-period-hint) ★0 — 在输入栏显示当前dsAPI价格时段
 - ⬜ `[待定]` [as17514-dsh-cc-suite](https://github.com/AS17514/dsh-cc-suite) ★0 — —
 - 🟩 `[可用]` [askingtheheavens-dsh-openclaw-persona](https://github.com/AskingTheHeavens/dsh-openclaw-persona) ★0 — —
@@ -1559,6 +1561,7 @@
 - 🟩 `[可用]` [masknull-dsh-sidebar-ratio](https://github.com/masknull/dsh-sidebar-ratio) ★0 — DSH 插件：侧边栏按窗口比例打开（左栏默认 14%、右栏可选），同一父会话组内共享右侧栏面板
 - `[未定位]` **mauit06-dsh-jinhsi-skin** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [me9rez-dsh-pwsh-style](https://github.com/me9rez/dsh-pwsh-style) ★0 — 修改 DSH 会话回复中 pwsh(PowerShell) 工具卡片的主题、字体与可读性增强
+- 🟩 `[可用]` [mengge237-dsh-legacy-compat](https://github.com/mengge237/dsh-legacy-compat) ★0 — DSH 旧版兼容垫片：给 0.1.2-rc.1 的预设补上 Session.events 别名，并在启动前把损坏的会话日志隔离掉 ｜ Compatibility shim for older DSH builds: ad
 - 🟩 `[可用]` [mercy719-dsh-client-ui-weather](https://github.com/mercy719/dsh-client-ui-weather) ★0 — Weather dashboard plugin for the DeepSeek Harness Web GUI
 - 🟩 `[可用]` [mervin1944-dsh-version-badge](https://github.com/mervin1944/dsh-version-badge) ★0 — DSH 版本号徽标插件：侧边栏设置按钮上方显示 dsh 版本，带检查更新与一键部署
 - ⬜ `[待定]` [metercai-aimail](https://github.com/metercai/aimail) ★0 — AIMail: the native email system for the AI age — purpose-built for human-agent and agent-agent collaboration.
@@ -1659,7 +1662,6 @@
 - `[未定位]` **seekercodes-dsh-ui-deepseek-balance** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [seekerwxy-dsh-aurora-theme](https://github.com/seekerwxy/dsh-aurora-theme) ★0 — DSH ????:??????? + ??/???? + ??/??????
 - `[空仓监测]` **shadowbrucemeaninglau-dsh-rss-for-shadow-suit** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [shangfr-dsh-md-picker](https://github.com/shangfr/dsh-md-picker) ★0 — DeepSeek Harness Web GUI 插件：在会话输入框左侧添加一个「文档 + Markdown」按钮，通过系统文件选择器添加附件并转换成 Markdown 格式
 - 🟩 `[可用]` [shanhaifish-dsh-theme-brick](https://github.com/ShanHaiFish/dsh-theme-brick) ★0 — —
 - 🟩 `[可用]` [shao-01-test-dsh-chat-rail](https://github.com/shao-01-test/dsh-chat-rail) ★0 — dsh-chat-rail — DeepSeek Harness 聊天右侧导航拉条插件：按「提问→回答」轮次显示彩色节点（绿/黄/红/蓝表状态），点击即跳转对应提问与回答段落，悬停展开状态面板，刚回答完有闪光动画，关键词
 - 🟩 `[可用]` [shaomingbo-dsh-visualization](https://github.com/shaomingbo/dsh-visualization) ★0 — —
@@ -1709,6 +1711,7 @@
 - `[空仓监测]` **tiger3807861189-j-space-cognition-suite-v3-7** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [timsok-shit-dsh-conversation-tracker](https://github.com/timsok-shit/dsh-conversation-tracker) ★0 — DSH Web Conversation Navigator（对话追踪导航条）- 节点直接来自当前 conversation 完整 messages 数据
 - 🟩 `[可用]` [timsok-shit-dsh-quick-resume](https://github.com/timsok-shit/dsh-quick-resume) ★0 — One-click resume button for interrupted DSH agents: a continue button in the assistant message action row that
+- 🟩 `[可用]` [tkliuxing-dsh-hypatia-ui](https://github.com/tkliuxing/dsh-hypatia-ui) ★0 — Hypatia knowledge console for the DeepSeek Harness Web GUI: a sidebar entry that opens shelf browsing, JSE sea
 - 🟩 `[可用]` [trees163-dsh-customizations](https://github.com/trees163/dsh-customizations) ★0 — DeepSeek Harness 全家桶定制——All-in-one customization suite for DeepSeek Harness: 3 agent presets (Classic / Pro An
 - `[空仓监测]` **triple3h-dsh-input-enhancement** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [tumi-huakai-dsh-plugin-meow-speech](https://github.com/tumi-huakai/dsh-plugin-meow-speech) ★0 — 喵语定制：DSH 消息正文显示层文本替换插件（仅界面显示，不改动真实对话内容）
@@ -2018,6 +2021,7 @@
 - 🟨 `[不兼容]` [xmanrui-dsh-feishu](https://github.com/xmanrui/dsh-feishu) ★9 — 通过扫码把飞书机器人接入DeepSeek Harness
 - 🟨 `[不兼容]` [zsyu9779-dsh-desktop](https://github.com/zsyu9779/dsh-desktop) ★9 — Unofficial cross-platform desktop app for DeepSeek Harness
 - 🟨 `[不兼容]` [dsh-tasks](https://github.com/weibaohui/dsh-tasks) ★9 — DeepSeek Harness 插件：cron 定时事项——定时/立即执行新建 agent 会话提交提示词，全屏管理界面
+- 🟨 `[不兼容]` [1985899182-dsh-harness-chat-control](https://github.com/1985899182/dsh-harness-chat-control) ★8 — ChatGPT-style stop, revise, quote, and side-question controls for DeepSeek Harness Desktop UI.
 - 🟨 `[不兼容]` [dsh-claude-tui](https://github.com/cogine-ai/dsh-claude-tui) ★8 — Claude-Code-Styled TUI for DeepSeek Harness
 - 🟨 `[不兼容]` [compforge-baton](https://github.com/compforge/baton) ★8 — A terminal-native workspace for Codex, Claude Code, and DeepSeek Harness, built on durable cross-harness sessi
 - 🟨 `[不兼容]` [demacia1314-dsh-airdrop](https://github.com/demacia1314/dsh-airdrop) ★8 — ⭐ 支持拖拽上传文件/文件夹到 DSH 窗口任意位置；支持远程上传，字节直传服务器会话工作区——部署在服务器上的 DSH 也能像本地一样拖了就发
@@ -2539,6 +2543,7 @@
 - 🟨 `[不兼容]` [runfali-dsh-web-search-custom](https://github.com/runfali/dsh-web-search-custom) ★0 — 让 DSH Web UI 使用任意 JSON 搜索 API 的通用搜索插件，默认对接自建 SearXNG，支持 API Key、GET/POST 与字段映射
 - 🟨 `[不兼容]` [saitoasuka1121-dsh-client-ui-elasticsearch](https://github.com/SaitoAsuka1121/dsh-client-ui-elasticsearch) ★0 — —
 - 🟨 `[不兼容]` [shadowquill-dialoguecontextbridge](https://github.com/ShadowQuill/DialogueContextBridge) ★0 — —
+- 🟨 `[不兼容]` [shangfr-dsh-md-picker](https://github.com/shangfr/dsh-md-picker) ★0 — DeepSeek Harness Web GUI 插件：在会话输入框左侧添加一个「文档 + Markdown」按钮，通过系统文件选择器添加附件并转换成 Markdown 格式
 - 🟨 `[不兼容]` [sharedcare-dsh-conversation-rollback](https://github.com/sharedcare/dsh-conversation-rollback) ★0 — Codex-style conversation rollback and edit-and-resend plugin for DeepSeek Harness (DSH) Web UI
 - 🟨 `[不兼容]` [shenkonghui-dsh-worktree-manager](https://github.com/shenkonghui/dsh-worktree-manager) ★0 — —
 - `[空仓监测]` **six6strings-dsh-client-ui-thinking-stats** — GitHub 无此仓库，判定暂不展示
