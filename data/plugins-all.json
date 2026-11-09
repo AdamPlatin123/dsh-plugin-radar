@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T14:30:59Z",
+ "generated_at": "2026-11-09T14:46:09Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2897,13 +2897,6 @@
    "repo": "super3ben/agent-feedback-loop",
    "name": "super3ben-agent-feedback-loop",
    "verdict": "ok",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "SZMY-haruhi/dsh-session-plus",
-   "name": "szmy-haruhi-dsh-session-plus",
-   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -10372,6 +10365,13 @@
   {
    "repo": "StarsTom/dsh-session-delete",
    "name": "starstom-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "SZMY-haruhi/dsh-session-plus",
+   "name": "szmy-haruhi-dsh-session-plus",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -33029,13 +33029,6 @@
    "desc": "—"
   },
   {
-   "repo": "symmetryseeker/dsh-akn-plugin",
-   "name": "symmetryseeker-dsh-akn-plugin",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "—"
-  },
-  {
    "repo": "TaurenMountain/dsh-llm-as-a-verifier",
    "name": "taurenmountain-dsh-llm-as-a-verifier",
    "verdict": "ok",
@@ -43422,13 +43415,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Toolchain CLI for DeepSeek Harness (dsh) plugin authors: scaffold, dev, check and publish plugins with hot rel"
-  },
-  {
-   "repo": "dsh-pulse/dsh-hermes-bridge",
-   "name": "dsh-pulse-dsh-hermes-bridge",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "dshapp/dsh-kimi-computer-use",
@@ -56269,6 +56255,13 @@
    "desc": "—"
   },
   {
+   "repo": "symmetryseeker/dsh-akn-plugin",
+   "name": "symmetryseeker-dsh-akn-plugin",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
+  },
+  {
    "repo": "TencentCloudADP/Tencent-ADP-dsh-plugin",
    "name": "tencentcloudadp-tencent-adp-dsh-plugin",
    "verdict": "incompatible",
@@ -60037,6 +60030,13 @@
   {
    "repo": "DreamsTOF/dsh-shadow-rewind",
    "name": "dreamstof-dsh-shadow-rewind",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "dsh-pulse/dsh-hermes-bridge",
+   "name": "dsh-pulse-dsh-hermes-bridge",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -84010,13 +84010,6 @@
    "desc": "—"
   },
   {
-   "repo": "jean3690/dsh-drawio",
-   "name": "jean3690-dsh-drawio",
-   "verdict": "pending",
-   "stars": 7,
-   "desc": "DSH drawio 插件：AI 驱动画图（validate/render/edit/template 工具）+ 侧栏实时 SVG 画板，内嵌 diagrams.net 官方编辑器"
-  },
-  {
    "repo": "k-ying/dsh-vsceditor",
    "name": "k-ying-dsh-vsceditor",
    "verdict": "ok",
@@ -92604,6 +92597,13 @@
    "verdict": "incompatible",
    "stars": 7,
    "desc": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: bl"
+  },
+  {
+   "repo": "jean3690/dsh-drawio",
+   "name": "jean3690-dsh-drawio",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "DSH drawio 插件：AI 驱动画图（validate/render/edit/template 工具）+ 侧栏实时 SVG 画板，内嵌 diagrams.net 官方编辑器"
   },
   {
    "repo": "NOirBRight/dsh-llm-codex",
