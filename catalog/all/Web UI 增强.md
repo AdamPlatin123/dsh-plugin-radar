@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2611）
+# 🔌 Web UI 增强（2612）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2166,6 +2166,7 @@
 - 🟨 `[不兼容]` [awa-123-cw-dsh-webui-perf](https://github.com/awa-123-cw/dsh-webui-perf) ★2 — DeepSeek Harness WebUI 性能优化开关插件：长代码流式渲染/历史加载/高亮缓存优化，设置面板一键开关（with official-package patches）
 - 🟨 `[不兼容]` [banlanzs-dsh-web-enhanced](https://github.com/banlanzs/dsh-web-enhanced) ★2 — \[building……\] DeepSeek Harness's web enhancement plugin—brings task dashboards, Git graphs, workspace file pane
 - 🟨 `[不兼容]` [bentong-chain-dsh-plugin-dir-tree](https://github.com/bentong-chain/dsh-plugin-dir-tree) ★2 — DeepSeek Harness 插件：浮窗展示工作区目录树，支持拖拽路径、懒加载、搜索、文件类型图标
+- 🟨 `[不兼容]` [cq-guojia-dsh-session-title-pattern](https://github.com/cq-guojia/dsh-session-title-pattern) ★2 — 自动管理 dsh 会话标题，统一成「日期｜类型｜主题」的格式：类型与主题由模型对整段对话总结
 - 🟨 `[不兼容]` [cyjyyd-dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) ★2 — DSH Relay — remote-first terminal UI for DeepSeek Harness coding agents
 - 🟨 `[不兼容]` [daboge-beach-dsh-skin-studio](https://github.com/daboge-beach/dsh-skin-studio) ★2 — 🎨 Create, try on & share living DeepSeek Harness skins — no code required〔📦〕
 - 🟨 `[不兼容]` [daodishisha28-dsh-sidechat-plugin](https://github.com/daodishisha28/dsh-sidechat-plugin) ★2 — Open a persistent side conversation from any DeepSeek Harness session to investigate questions, clarify requir
