@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T06:30:50Z",
+ "generated_at": "2026-11-09T07:19:07Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -27175,6 +27175,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness 插件：浮窗展示工作区目录树，支持拖拽路径、懒加载、搜索、文件类型图标"
+  },
+  {
+   "repo": "cq-guojia/dsh-session-title-pattern",
+   "name": "cq-guojia-dsh-session-title-pattern",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "自动管理 dsh 会话标题，统一成「日期｜类型｜主题」的格式：类型与主题由模型对整段对话总结"
   },
   {
    "repo": "cyjyyd/dsh-ssh-tui",
