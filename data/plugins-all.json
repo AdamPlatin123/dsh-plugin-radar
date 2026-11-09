@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T14:01:17Z",
+ "generated_at": "2026-11-09T14:15:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2197,13 +2197,6 @@
    "repo": "StyxNether/dsh-auto-approval-plugin",
    "name": "styxnether-dsh-auto-approval-plugin",
    "verdict": "ok",
-   "stars": 3,
-   "desc": "—"
-  },
-  {
-   "repo": "sunshaobei/dsh-session-review",
-   "name": "sunshaobei-dsh-session-review",
-   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -9957,6 +9950,13 @@
    "desc": "—"
   },
   {
+   "repo": "sunshaobei/dsh-session-review",
+   "name": "sunshaobei-dsh-session-review",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
+  },
+  {
    "repo": "swarm-apps/dsh-swarmdrop",
    "name": "swarm-apps-dsh-swarmdrop",
    "verdict": "incompatible",
@@ -15009,13 +15009,6 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "—"
-  },
-  {
-   "repo": "zemul/dsh-video-preview",
-   "name": "zemul-dsh-video-preview",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "dsh-better-sidebar 的视频文件预览插件： 在侧边栏打开 .mp4 .webm  .mov  .mkv  .avi 等视频文件时，内联渲染一个可播放、可拖拽进度条的 <video> 播放器"
   },
   {
    "repo": "zhouzhencheng07/dsh-kit",
@@ -26505,6 +26498,13 @@
    "desc": "Claude Code integration plugin for DeepSeek Harness, providing native Claude conversations powered by the Clau"
   },
   {
+   "repo": "zemul/dsh-video-preview",
+   "name": "zemul-dsh-video-preview",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "dsh-better-sidebar 的视频文件预览插件： 在侧边栏打开 .mp4 .webm  .mov  .mkv  .avi 等视频文件时，内联渲染一个可播放、可拖拽进度条的 <video> 播放器"
+  },
+  {
    "repo": "zengweicheng666/dsh-svn-tools",
    "name": "zengweicheng666-dsh-svn-tools",
    "verdict": "incompatible",
@@ -36980,13 +36980,6 @@
    "repo": "ZJUZhiyuCai/dsh-ivory",
    "name": "zjuzhiyucai-dsh-ivory",
    "verdict": "ok",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "zljr/dsh-share",
-   "name": "zljr-dsh-share",
-   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -57793,6 +57786,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Lightweight realtime ASR → DeepSeek Harness → TTS community plugin."
+  },
+  {
+   "repo": "zljr/dsh-share",
+   "name": "zljr-dsh-share",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
   },
   {
    "repo": "zmh2000829/dsh-x-connect",
@@ -80398,13 +80398,6 @@
    "desc": "Feishu (Lark) long-connection channel plugin for DeepSeek Harness (dsh) — zero npm dependencies"
   },
   {
-   "repo": "4t145/dsh-lark-connector",
-   "name": "4t145-dsh-lark-connector",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Feishu connector plugin for DeepSeek Harness"
-  },
-  {
    "repo": "alaxrpg/dsh-chatgpt-pip",
    "name": "alaxrpg-dsh-chatgpt-pip",
    "verdict": "ok",
@@ -82314,6 +82307,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "ChatGPT Codex OAuth authentication center for DeepSeek Harness 0.1.1-rc.2"
+  },
+  {
+   "repo": "4t145/dsh-lark-connector",
+   "name": "4t145-dsh-lark-connector",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Feishu connector plugin for DeepSeek Harness"
   },
   {
    "repo": "a903067276-rgb/dsh-backup",
@@ -87671,13 +87671,6 @@
    "desc": "DeepSeek Harness (DSH) plugins: Tavily+Exa web search, Oracle second opinion, GitHub Librarian, /handoff, sess"
   },
   {
-   "repo": "mario03690/dsh-allrouter",
-   "name": "mario03690-dsh-allrouter",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Register AllRouter as a DSH provider: one base URL and one key for Kimi K3, Claude, GPT-5.6, Grok, GLM, DeepSe"
-  },
-  {
    "repo": "markzhang12345/dsh-opencode-go-usage",
    "name": "markzhang12345-dsh-opencode-go-usage",
    "verdict": "ok",
@@ -90084,13 +90077,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 插件：生成前注入「人味」风格约束 + AI 味检测报告（纯代码、零 token、结果可复现）"
-  },
-  {
-   "repo": "liuyuelintop/dsh-conversation-exporter",
-   "name": "liuyuelintop-dsh-conversation-exporter",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Export DeepSeek Harness conversations as clean, human-readable Markdown."
   },
   {
    "repo": "ljh220300-eng/dsh-plugin-ssh-manager",
@@ -94160,6 +94146,13 @@
    "desc": "Manage Git worktrees inside DSH: scan workspace repositories, create worktrees, add them as DSH workspaces, op"
   },
   {
+   "repo": "mario03690/dsh-allrouter",
+   "name": "mario03690-dsh-allrouter",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Register AllRouter as a DSH provider: one base URL and one key for Kimi K3, Claude, GPT-5.6, Grok, GLM, DeepSe"
+  },
+  {
    "repo": "masquerator-coder/dsh-im-gateway",
    "name": "masquerator-coder-dsh-im-gateway",
    "verdict": "incompatible",
@@ -95229,6 +95222,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Real-time DeepSeek token usage and cost meter for DSH: status-bar capsule plus detail panel, local-only persis"
+  },
+  {
+   "repo": "liuyuelintop/dsh-conversation-exporter",
+   "name": "liuyuelintop-dsh-conversation-exporter",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Export DeepSeek Harness conversations as clean, human-readable Markdown."
   },
   {
    "repo": "lovstudio/dsh-plugin-marketplace",
