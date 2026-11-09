@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T10:16:07Z",
+ "generated_at": "2026-11-09T11:15:51Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -82778,6 +82778,13 @@
    "desc": "A decorative whale-diving activity icon for the DeepSeek Harness Web chat flow:"
   },
   {
+   "repo": "nexu-io/open-design",
+   "name": "nexu-io-open-design",
+   "verdict": "pending",
+   "stars": 99062,
+   "desc": "The 1st Collaborative AI Design Agent Workspace"
+  },
+  {
    "repo": "reactive-resume/reactive-resume",
    "name": "reactive-resume",
    "verdict": "ok",
@@ -91960,13 +91967,6 @@
    "verdict": "untested",
    "stars": null,
    "desc": "对 Git 改动进行独立多智能体审阅，依据代码快照复核问题并追踪处置；npm `@stardustlc/dsh-review`，AI 门禁不替代 CI 或人工批准"
-  },
-  {
-   "repo": "nexu-io/open-design",
-   "name": "nexu-io-open-design",
-   "verdict": "incompatible",
-   "stars": 99062,
-   "desc": "The 1st Collaborative AI Design Agent Workspace"
   },
   {
    "repo": "tt-a1i/archify",
