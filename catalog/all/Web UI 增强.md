@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2723）
+# 🔌 Web UI 增强（2730）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -942,6 +942,7 @@
 - 🟩 `[可用]` [imocking-dsh-theme-triptych](https://github.com/iMocking/dsh-theme-triptych) ★1 — —
 - 🟩 `[可用]` [infosave2007-cortiq-router](https://github.com/infosave2007/cortiq-router) ★1 — Smart LLM request router for DeepSeek Harness — classifies prompts by task type and complexity via the allaiga
 - 🟩 `[可用]` [iskshadow195563-deepseek-harness-files-panel](https://github.com/iskshadow195563/DeepSeek_Harness_Files_Panel) ★1 — —
+- 🟩 `[可用]` [it-kxw-dsh-ui-background](https://github.com/it-kxw/dsh-ui-background) ★1 — DSH Web 背景切换插件：内置渐变/纯色预设、本地图片上传与路径引用，支持不透明度/模糊/填充调节，浅深配色自动适配，一条命令即可安装使用
 - 🟩 `[可用]` [jack-sun-learner-dsh-image-skin](https://github.com/Jack-sun-learner/dsh-image-skin) ★1 — —
 - 🟩 `[可用]` [jacujay-dsh-model-balance](https://github.com/jacujay/dsh-model-balance) ★1 — DSH plugin: auto-detect current model vendor and show balance/quota in the composer input row (DeepSeek/Moonsh
 - ⬜ `[待定]` [jeffrey950404-deepseek-harness-desktop](https://github.com/jeffrey950404/deepseek-harness-desktop) ★1 — DeepSeek Harness 的 Windows x64 桌面安装版，内置运行环境、中文界面、PowerShell 工具和 one2api-gpt
@@ -1469,6 +1470,7 @@
 - 🟩 `[可用]` [ice5kysl-dsh-msg9-kit](https://github.com/ice5kysl/dsh-msg9-kit) ★0 — 给每个 dsh workspace 一个 msg9.io 收件箱：Agent 用工具收发，GUI 点 ✉ 看同一份邮件 \| one msg9.io inbox per dsh workspace
 - 🟩 `[可用]` [ilanxiaoqihi-cell-deepseek-harness-desktop](https://github.com/ilanxiaoqihi-cell/deepseek-harness-desktop) ★0 — Unofficial Electron desktop wrapper for DeepSeek Harness Web UI with a branded splash screen.
 - 🟩 `[可用]` [imroc-dsh-mobile-flow](https://github.com/imroc/dsh-mobile-flow) ★0 — Mobile in-flow composer for the DeepSeek Harness (dsh) Web UI — the input bar and AI confirmation cards scroll
+- 🟩 `[可用]` [inxups-dsh-user-plugins](https://github.com/inxups/dsh-user-plugins) ★0 — A dsh web GUI panel listing the plugins you installed into your dsh profiles — install spec, version, kind, an
 - 🟩 `[可用]` [isanti2016-dsh-quicksight](https://github.com/Isanti2016/dsh-quicksight) ★0 — —
 - `[未定位]` **itchenshi-deepseekharnessgui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [ivvan3016-dsh-ui-pricing](https://github.com/ivvan3016/dsh-ui-pricing) ★0 — user-configurable cost pricing for dsh
@@ -1533,6 +1535,7 @@
 - ⬜ `[待定]` [kiwifruit13-dsh-self-evolving-system](https://github.com/kiwifruit13/DSH-Self-evolving-system) ★0 — —
 - 🟩 `[可用]` [kiwifruit13-dsh-syntax-checker](https://github.com/kiwifruit13/DSH-Syntax-Checker) ★0 — —
 - 🟩 `[可用]` [kogisune-dsh-skin-koi-pond](https://github.com/Kogisune/dsh-skin-koi-pond) ★0 — —
+- 🟩 `[可用]` [kongbai-shike-dsh-drop-path](https://github.com/kongbai-shike/dsh-drop-path) ★0 — 对于Deepseek-Harness，桌面版来说，只有图片才能直接接收，对于用惯了claudecode的人来说很不习惯，所以我依靠ai完成了一个可以直接在文件管理器页面，把需要上传的文件拖拽到对应的DSH桌面端界面，就能
 - 🟩 `[可用]` [kristol07-dsh-version-inventory](https://github.com/kristol07/dsh-version-inventory) ★0 — Show the running DeepSeek Harness version and every mounted plugin's package version inside the dsh web UI.
 - 🟩 `[可用]` [ktao732084-arch-dsh-vibegap](https://github.com/ktao732084-arch/dsh-vibegap) ★0 — Vocabulary flashcards inside the dsh web UI - appear while your agent runs, retreat when it finishes
 - 🟩 `[可用]` [kuailexiaozixin-tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) ★0 — Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller）
@@ -1837,9 +1840,11 @@
 - 🟩 `[可用]` [worksassistant-dsh-quickref](https://github.com/worksAssistant/dsh-quickref) ★0 — —
 - 🟩 `[可用]` [wplleo-deepseek-harness-desktop](https://github.com/wplleo/deepseek-harness-desktop) ★0 — DeepSeek Harness Desktop - Electron 封装的 dsh web GUI 桌面应用 (NSIS 安装包)
 - 🟩 `[可用]` [wqy-cell-dsh-task-flow](https://github.com/wqy-cell/dsh-task-flow) ★0 — DSH 插件：任务星图 — 樱花主题的任务流程可视化
+- 🟩 `[可用]` [wswbx-quick-research-campaign](https://github.com/wswbx/quick-research-campaign) ★0 — —
 - 🟩 `[可用]` [wuruihi-dsh-memory-loader](https://github.com/wuruihi/dsh-memory-loader) ★0 — DSH plugin: deterministic two-level memory injection (global + project MEMORY.md + today's notes) at session s
 - 🟩 `[可用]` [wushu75-conceptnet-dsh-plugin](https://github.com/wushu75/conceptnet-dsh-plugin) ★0 — ConceptNet intent classification plugin for DeepSeek Harness
 - 🟩 `[可用]` [ww2186874-cyber-dsh-archived-sessions](https://github.com/ww2186874-cyber/dsh-archived-sessions) ★0 — 面向 DeepSeek Harness Web 的已归档会话管理与恢复界面插件
+- 🟩 `[可用]` [wx-yss-dsh-composer-enter](https://github.com/wx-yss/dsh-composer-enter) ★0 — 让 DSH Web 输入框 Enter 换行、Cmd/Ctrl+Enter 发送（无配置项）
 - 🟩 `[可用]` [wyzh0117-dsh-notebook](https://github.com/wyzh0117/dsh-notebook) ★0 — DSH sidebar notebook: titles + bodies, inline images (videos rejected), click a title to copy its body, @-refe
 - 🟩 `[可用]` [wyzh0117-dsh-port-manager](https://github.com/wyzh0117/dsh-port-manager) ★0 — Native DSH sidebar app: every listening port on this machine, the app behind it, and one-click port actions.
 - 🟩 `[可用]` [xain-ui-beep](https://github.com/xain/ui-beep) ★0 — **dsh-beep** — an agent-heartbeat sonification plugin for the DeepSeek Harness Web surface.
@@ -1850,6 +1855,7 @@
 - 🟩 `[可用]` [xby-skill-xby-quick-chart](https://github.com/xby-skill/xby-quick-chart) ★0 — 一个基于Model Context Protocol (MCP)的服务器，提供与Quick Chart交互的标准化接口，支持图表生成和管理
 - 🟩 `[可用]` [xchannel1987-dsh-mobile-xc](https://github.com/xchannel1987/dsh-mobile-xc) ★0 — DSH Web mobile UI adaptation plugin with overlay drawer, safe-area support, and canary version detection
 - 🟩 `[可用]` [xdongho-dsh-wechat-mobile-skin](https://github.com/xdongHo/dsh-wechat-mobile-skin) ★0 — —
+- 🟩 `[可用]` [xerxescom-dsh-theme-inkstone](https://github.com/xerxescom/dsh-theme-inkstone) ★0 — —
 - 🟩 `[可用]` [xgone-dsh-netshell](https://github.com/xgone/dsh-netshell) ★0 — DSH 远程终端插件:在 Web UI 直连 SSH,危险命令三级护栏,AI 命令须真人确认,密码加密存储、不进 AI 会话 \| Remote SSH terminal plugin for DeepSeek Harne
 - 🟩 `[可用]` [xhvdhczd-dsh-plugin-skill-manager](https://github.com/xhvdhczd/dsh-plugin-skill-manager) ★0 — DSH Web UI plugin: Skills tab with per-skill enable/disable toggles (DeepSeek Harness)
 - 🟩 `[可用]` [deepseek-harness-auth](https://github.com/xi4z/deepseek-harness-auth) ★0 — Sign-in / sign-up window plugin for DeepSeek Harness Web UI, with a built-in demo auth API and a proxy mode fo
@@ -2500,6 +2506,7 @@
 - 🟨 `[不兼容]` [bg8lng-dsh-openlist-sync](https://github.com/bg8lng/dsh-openlist-sync) ★0 — DeepSeek Harness 文件同步插件：交付文件自动上传 OpenList + 目录全读写工具 + 设置面板 + 按工作区布局
 - 🟨 `[不兼容]` [blueriverlhr-dsh-better-webui](https://github.com/bLueriVerLHR/dsh-better-webui) ★0 — —
 - 🟨 `[不兼容]` [bobobo2026-dsh-workspace-promote](https://github.com/bobobo2026/dsh-workspace-promote) ★0 — DSH host plugin: promote the workspace you just submitted a task in to the top of the sidebar — once per submi
+- 🟨 `[不兼容]` [caijiachen34-dsh-sophnet-balance](https://github.com/caijiachen34/dsh-sophnet-balance) ★0 — SophNet balance and usage monitor for DeepSeek Harness Web GUI
 - `[空仓监测]` **ch4acko3-dsh-ui-workspace** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-vscode](https://github.com/chendefine/dsh-sidebar-vscode) ★0 — DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio
