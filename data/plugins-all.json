@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T21:16:08Z",
+ "generated_at": "2026-11-09T21:31:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5153,13 +5153,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Multi-repo workflow isolation skill for DeepSeek Harness - one isolated entry agent per repo, one controller f"
-  },
-  {
-   "repo": "PlxloYzb/dsh-context-management",
-   "name": "plxloyzb-dsh-context-management",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "XXXXXQ-0206/dsh-prompt-for-me",
@@ -11238,6 +11231,13 @@
    "desc": "—"
   },
   {
+   "repo": "PlxloYzb/dsh-context-management",
+   "name": "plxloyzb-dsh-context-management",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "polaris-smart/dsh-agent-mailbox",
    "name": "polaris-smart-dsh-agent-mailbox",
    "verdict": "incompatible",
@@ -11327,6 +11327,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "trynewthin/dsh-subagent-roles",
+   "name": "trynewthin-dsh-subagent-roles",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Role-based model routing for DeepSeek Harness subagent delegation."
   },
   {
    "repo": "tsja2001/dsh-zhipu-coding-plan",
@@ -12412,6 +12419,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "roojay/dsh-stream-upload",
+   "name": "roojay-dsh-stream-upload",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness hybrid attachment plugin: native images plus bounded-memory workspace uploads"
   },
   {
    "repo": "royenheart/dsh-plugin-skills-manager",
@@ -20464,6 +20478,13 @@
    "desc": "—"
   },
   {
+   "repo": "shengyvself/dsh-reading-pad",
+   "name": "shengyvself-dsh-reading-pad",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Immersive read-only reading panel for DeepSeek Harness: model delivers pre-formatted Markdown via reading_pad_"
+  },
+  {
    "repo": "shenyan-008/dsh-visual-aid",
    "name": "shenyan-008-dsh-visual-aid",
    "verdict": "ok",
@@ -21344,13 +21365,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "An Artifacts tab for the DSH (DeepSeek Harness) web GUI sidebar: lists the files an agent produced and preview"
-  },
-  {
-   "repo": "shengyvself/dsh-reading-pad",
-   "name": "shengyvself-dsh-reading-pad",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Immersive read-only reading panel for DeepSeek Harness: model delivers pre-formatted Markdown via reading_pad_"
   },
   {
    "repo": "suuuuunamei/dsh-kaze-tachinu-theme",
@@ -29844,6 +29858,13 @@
    "desc": "—"
   },
   {
+   "repo": "penguin-oo/dsh-quota-hub",
+   "name": "penguin-oo-dsh-quota-hub",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "pgnqukezrdxmhjso/dsh-ui-fortifier",
    "name": "pgnqukezrdxmhjso-dsh-ui-fortifier",
    "verdict": "incompatible",
@@ -29891,6 +29912,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Share and import complete DeepSeek Harness Session trees as validated, offline Capsules with local ZIP transfe"
+  },
+  {
+   "repo": "qvsix/dsh-antigravity-bridge",
+   "name": "qvsix-dsh-antigravity-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Google Antigravity conversations for DeepSeek Harness — list, read and import local Antigravity SQLite session"
   },
   {
    "repo": "qwertyuiop314/dsh-recycle-bin",
@@ -48380,6 +48408,13 @@
    "desc": "资产配置"
   },
   {
+   "repo": "uckkk/dsh-astatine",
+   "name": "uckkk-dsh-astatine",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "砹元素"
+  },
+  {
    "repo": "uckkk/dsh-astronomy-terms",
    "name": "uckkk-dsh-astronomy-terms",
    "verdict": "ok",
@@ -48492,6 +48527,13 @@
    "desc": "阳台改造"
   },
   {
+   "repo": "uckkk/dsh-bandwidth",
+   "name": "uckkk-dsh-bandwidth",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "带宽需求估算"
+  },
+  {
    "repo": "uckkk/dsh-bangkok-city",
    "name": "uckkk-dsh-bangkok-city",
    "verdict": "ok",
@@ -48511,6 +48553,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "蒸制时间"
+  },
+  {
+   "repo": "uckkk/dsh-bar2psi",
+   "name": "uckkk-dsh-bar2psi",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "巴转 PSI"
   },
   {
    "repo": "uckkk/dsh-barbados",
@@ -48644,6 +48693,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "伯利兹国家"
+  },
+  {
+   "repo": "uckkk/dsh-benin",
+   "name": "uckkk-dsh-benin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "贝宁国"
   },
   {
    "repo": "uckkk/dsh-bento",
@@ -49407,6 +49463,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "数值限幅"
+  },
+  {
+   "repo": "uckkk/dsh-clay-craft",
+   "name": "uckkk-dsh-clay-craft",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "黏土手工"
   },
   {
    "repo": "uckkk/dsh-clean-freq",
@@ -50228,6 +50291,13 @@
    "desc": "油车电车成本对比"
   },
   {
+   "repo": "uckkk/dsh-exam-timing",
+   "name": "uckkk-dsh-exam-timing",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "考试时间分配"
+  },
+  {
    "repo": "uckkk/dsh-exercise-calories",
    "name": "uckkk-dsh-exercise-calories",
    "verdict": "ok",
@@ -50459,6 +50529,13 @@
    "desc": "粉底用量"
   },
   {
+   "repo": "uckkk/dsh-fridge-buy",
+   "name": "uckkk-dsh-fridge-buy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "冰箱选购"
+  },
+  {
    "repo": "uckkk/dsh-fuel-cost",
    "name": "uckkk-dsh-fuel-cost",
    "verdict": "ok",
@@ -50639,6 +50716,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "冈比亚国"
+  },
+  {
+   "repo": "uckkk/dsh-gaokao-split",
+   "name": "uckkk-dsh-gaokao-split",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "备考时间拆解"
   },
   {
    "repo": "uckkk/dsh-gas-safety",
@@ -50863,6 +50947,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "数组分组"
+  },
+  {
+   "repo": "uckkk/dsh-group-buy",
+   "name": "uckkk-dsh-group-buy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "拼单团购"
   },
   {
    "repo": "uckkk/dsh-group-by",
@@ -51180,6 +51271,13 @@
    "desc": "热饮养生"
   },
   {
+   "repo": "uckkk/dsh-hotel-tax",
+   "name": "uckkk-dsh-hotel-tax",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "酒店税费计算"
+  },
+  {
    "repo": "uckkk/dsh-hp2kw",
    "name": "uckkk-dsh-hp2kw",
    "verdict": "ok",
@@ -51199,6 +51297,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "人类食物喂食"
+  },
+  {
+   "repo": "uckkk/dsh-humidity",
+   "name": "uckkk-dsh-humidity",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "湿度参考"
   },
   {
    "repo": "uckkk/dsh-humidity-comfort",
@@ -55452,13 +55557,6 @@
   {
    "repo": "TianJie52009/dsh-kaomoji",
    "name": "tianjie52009-dsh-kaomoji",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "tkliuxing/dsh-presets-hidden",
-   "name": "tkliuxing-dsh-presets-hidden",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -62149,6 +62247,13 @@
    "desc": "—"
   },
   {
+   "repo": "sousike/dsh-faxin-search",
+   "name": "sousike-dsh-faxin-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH client plugin: login your Faxin(faxin.cn) account and give AI structured legal search tools (law provision"
+  },
+  {
    "repo": "SoyMeng/dsh-plugin-template",
    "name": "soymeng-dsh-plugin-template",
    "verdict": "incompatible",
@@ -62291,6 +62396,13 @@
   {
    "repo": "Tiko9527/task-router",
    "name": "tiko9527-task-router",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "tkliuxing/dsh-presets-hidden",
+   "name": "tkliuxing-dsh-presets-hidden",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -64919,13 +65031,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Windows 桌面悬浮窗，实时显示 DeepSeek 官方用量（余额/今日消费/模型 Tokens/请求数）+  本地缓存命中统计"
-  },
-  {
-   "repo": "tr1v3r/dsh-proxy",
-   "name": "tr1v3r-dsh-proxy",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "Runtime-switchable outbound proxy plugin for the DeepSeek Harness — hot-reload HTTP(S)/SOCKS5 routing via one"
   },
   {
    "repo": "functy23/DSH-Desktop",
@@ -69203,6 +69308,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "The most comprehensive AI-curated list of DeepSeek Harness (DSH) plugins - 190+ plugins, 12 categories, update"
+  },
+  {
+   "repo": "tr1v3r/dsh-proxy",
+   "name": "tr1v3r-dsh-proxy",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Runtime-switchable outbound proxy plugin for the DeepSeek Harness — hot-reload HTTP(S)/SOCKS5 routing via one"
   },
   {
    "repo": "YHDYYDS/deepseek-harness-desktop",
@@ -76828,6 +76940,13 @@
    "desc": "Qwen-MM-Plugins integration bundle for DeepSeek Harness (dsh) — multimodal MCP tools (vision, OCR, ASR, search"
   },
   {
+   "repo": "rrvvvnnn/dsh-web-file-upload",
+   "name": "rrvvvnnn-dsh-web-file-upload",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Rudyy898/dsh-drag-path",
    "name": "rudyy898-dsh-drag-path",
    "verdict": "ok",
@@ -77771,6 +77890,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "大盘指数行情"
+  },
+  {
+   "repo": "uckkk/dsh-json-pointer",
+   "name": "uckkk-dsh-json-pointer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "JSON Pointer"
   },
   {
    "repo": "uckkk/dsh-json5",
@@ -89652,13 +89778,6 @@
    "desc": "DeepSeek Harness 计划评审增强插件：评审弹窗内直接提意见修改计划，随时回看、对比、编辑每一版计划"
   },
   {
-   "repo": "qiuyiwu1989-star/dsh-yingnao",
-   "name": "qiuyiwu1989-star-dsh-yingnao",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "让 Agent 查看硬盘索引覆盖、搜索文件、追踪相关内容并派发可撤销治理任务"
-  },
-  {
    "repo": "yoke233/omdsh",
    "name": "yoke233-omdsh",
    "verdict": "pending",
@@ -92261,6 +92380,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A/B测试样本量"
+  },
+  {
+   "repo": "uckkk/dsh-base16",
+   "name": "uckkk-dsh-base16",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Base16 编码"
   },
   {
    "repo": "uckkk/dsh-base36",
@@ -95530,6 +95656,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Dub video and audio into 10 languages with voice cloning, from a DeepSeek Harness agent \\| DSH 视频/音频配音插件"
+  },
+  {
+   "repo": "qiuyiwu1989-star/dsh-yingnao",
+   "name": "qiuyiwu1989-star-dsh-yingnao",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "让 Agent 查看硬盘索引覆盖、搜索文件、追踪相关内容并派发可撤销治理任务"
   },
   {
    "repo": "qubyyang/awesome-ios-sim",
