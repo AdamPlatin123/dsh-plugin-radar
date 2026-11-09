@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T04:45:55Z",
+ "generated_at": "2026-11-09T06:30:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -13322,6 +13322,13 @@
    "verdict": "pending",
    "stars": 39,
    "desc": "【求⭐】🐋DSH Web UI 全手绘像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眼/偶尔摆尾/动胸鳍，思考运行时持续动起来，回合完成头顶喷水，点击还会冒爱心，不工作时还会偷懒睡觉，零核心改动 〔PR〕"
+  },
+  {
+   "repo": "yinnho/aginxbrowser",
+   "name": "yinnho-aginxbrowser",
+   "verdict": "pending",
+   "stars": 38,
+   "desc": "The browser built for AI agents — fetch live pages as markdown, render JS/SPAs with built-in V8, take screensh"
   },
   {
    "repo": "yoli-mi/dsh-client-ui-custom",
@@ -36996,6 +37003,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "yoursc/dsh-siyuan",
+   "name": "yoursc-dsh-siyuan",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "把思源笔记（SiYuan）接入 DeepSeek Harness：17 个 siyuan_* 工具（检索/读写/日记/删除）+ 独立设置页"
   },
   {
    "repo": "yuandian-ailaw/yuandian_dsh_plugin",
