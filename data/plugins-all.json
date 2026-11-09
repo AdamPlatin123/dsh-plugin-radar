@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T20:01:09Z",
+ "generated_at": "2026-11-09T20:16:05Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -1961,6 +1961,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "A DeepSeek Harness Plugin for Previewing Mermaid Diagram by Images in Chat Sessions"
+  },
+  {
+   "repo": "bainianlaoyao/dsh-session-robustness",
+   "name": "bainianlaoyao-dsh-session-robustness",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DSH plugin: after official llm-retry (n/5), keep retrying transient API failures on the same open step until s"
   },
   {
    "repo": "beihzb/dsh-envsel",
@@ -5890,6 +5897,13 @@
    "desc": "—"
   },
   {
+   "repo": "GooDAnDReaDY/dsh-session-control",
+   "name": "goodandready-dsh-session-control",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "gordonlu/dsh-context-lens",
    "name": "dsh-context-lens",
    "verdict": "ok",
@@ -8774,13 +8788,6 @@
    "desc": "dsh 只读记账仪表盘插件：会话页「记账」Tab 展示 beancount 账本月度快照（收支总览/资产结构动态分组/支出分类/最近交易），只读，复用 ledger.py，Fava 保留做深度分析"
   },
   {
-   "repo": "GooDAnDReaDY/dsh-session-control",
-   "name": "goodandready-dsh-session-control",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "XXXXXQ-0206/dsh-session-delete",
    "name": "xxxxxq-0206-dsh-session-delete",
    "verdict": "pending",
@@ -11572,6 +11579,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "150+ deterministic, fully-offline MCP tools & free AI-agent skills for cross-industry monthly checks (payroll,"
+  },
+  {
+   "repo": "chr003/dsh-subagent-model-picker",
+   "name": "chr003-dsh-subagent-model-picker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Separate per-session model and reasoning effort controls for DeepSeek Harness subagents."
   },
   {
    "repo": "chuxindd/dsh-context-enhancement",
@@ -15835,6 +15849,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness usage recorder plugin: per-model hourly token usage (input/output/cache hits) with a stacked"
+  },
+  {
+   "repo": "dearbld/dsh-living-memory",
+   "name": "dearbld-dsh-living-memory",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Living memory for DeepSeek Harness — self-tending local knowledge base: nightly patrol, temporal decay, RRF hy"
   },
   {
    "repo": "destr-z/dsh-web-portable",
@@ -28150,6 +28171,13 @@
    "desc": "—"
   },
   {
+   "repo": "haichangcharles/dsh-context-map",
+   "name": "haichangcharles-dsh-context-map",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Visual, user-controlled conversation context for long-horizon agents, built on DeepSeek Harness.〔📦〕"
+  },
+  {
    "repo": "hatter123/dsh-math-suite",
    "name": "hatter123-dsh-math-suite",
    "verdict": "incompatible",
@@ -29100,6 +29128,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 宿主插件：把游离（未分组）会话按 cwd 归位到匹配的工作区 —— 只改工作区归属记录，不碰会话文件；支持拖拽与 /reattach 命令（默认 dry-run）｜ DSH host plugin: re-att"
+  },
+  {
+   "repo": "ct-jyjntc/dsh-model-modality",
+   "name": "ct-jyjntc-dsh-model-modality",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: declare whether a configured third-party model accepts image (multimodal) input"
   },
   {
    "repo": "damlys99/dsh-queue-reorder",
@@ -38678,6 +38713,13 @@
    "desc": "—"
   },
   {
+   "repo": "flaricy/herdr-bridge",
+   "name": "flaricy-herdr-bridge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "fly3366/DeepJIT",
    "name": "fly3366-deepjit",
    "verdict": "ok",
@@ -38944,6 +38986,13 @@
    "desc": "Call Wolfram Mathematica from DeepSeek Harness"
   },
   {
+   "repo": "helllo-shijie/motor-hospital-plugins",
+   "name": "helllo-shijie-motor-hospital-plugins",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "HellowVirgil/dsh-antv-ava",
    "name": "hellowvirgil-dsh-antv-ava",
    "verdict": "ok",
@@ -39138,6 +39187,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jackie2455/dsh-model-info-hint",
+   "name": "jackie2455-dsh-model-info-hint",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "hovering over a candidate model pops up a hint showing that model's full configuration"
   },
   {
    "repo": "jackxu3111/dsh-snapshot",
@@ -42262,13 +42318,6 @@
    "desc": "—"
   },
   {
-   "repo": "Haoxiang-Fant/dsh-task-notice",
-   "name": "haoxiang-fant-dsh-task-notice",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "Jensen-Yao/dsh-plus-plus",
    "name": "jensen-yao-dsh-plus-plus",
    "verdict": "pending",
@@ -42948,6 +42997,13 @@
    "desc": "—"
   },
   {
+   "repo": "baolunshu/dsh-struct-guard",
+   "name": "baolunshu-dsh-struct-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "结构嵌入协议验证工具，用于检查信任边界、方向漂移和言行一致性"
+  },
+  {
    "repo": "BarrierFly/apx-watchdog",
    "name": "barrierfly-apx-watchdog",
    "verdict": "ok",
@@ -43202,6 +43258,13 @@
   {
    "repo": "ChenChen913/dsh-security-doctor",
    "name": "chenchen913-dsh-security-doctor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "chendefine/dsh-composer-markdown",
+   "name": "chendefine-dsh-composer-markdown",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -57501,6 +57564,13 @@
    "desc": "Capability-aware reasoning controls and Fast model routing for DeepSeek Harness"
   },
   {
+   "repo": "emuco/dsh-venv",
+   "name": "emuco-dsh-venv",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Per-project runtime environments for DeepSeek Harness: auto-adopt or create a project-local Python venv (.venv"
+  },
+  {
    "repo": "Enosensu/dsh-fork-relink",
    "name": "enosensu-dsh-fork-relink",
    "verdict": "incompatible",
@@ -58658,6 +58728,13 @@
   {
    "repo": "haodongzhang022-hue/OpenLiulan",
    "name": "haodongzhang022-hue-openliulan",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Haoxiang-Fant/dsh-task-notice",
+   "name": "haoxiang-fant-dsh-task-notice",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -70605,6 +70682,13 @@
    "desc": "DeepSeek Harness plugin: game development role subagents (planner=minimal preset, executor=hard PTC code mode,"
   },
   {
+   "repo": "bai111111/dsh-pet-luotianyi",
+   "name": "bai111111-dsh-pet-luotianyi",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "洛天依桌宠：住在 DSH 里的虚拟歌姬"
+  },
+  {
    "repo": "BlackBearCC/dsh-pet-sprite",
    "name": "blackbearcc-dsh-pet-sprite",
    "verdict": "ok",
@@ -76714,6 +76798,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Specification gate plugin for DeepSeek Harness: Socratic interview (ambiguity scoring) + immutable Seed lockin"
+  },
+  {
+   "repo": "chy007-fun/dsh-token-hud",
+   "name": "chy007-fun-dsh-token-hud",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web global real-time Token HUD: draggable floating window with live tok/s, cumulative output and per-sessi"
   },
   {
    "repo": "cnskycn/dev-workbench",
@@ -84080,6 +84171,13 @@
    "desc": "DSH 模型 Pro:为 DSH WebUI 提供将 pi-ai 预设或任意已配置提供商的模型上下文、输出上限、推理档位与兼容开关一键应用到目标提供商,并集中查看、新建、编辑、复制与删除各提供商模型条目的能力"
   },
   {
+   "repo": "beihzb/dsh-opencode-session-header",
+   "name": "beihzb-dsh-opencode-session-header",
+   "verdict": "ok",
+   "stars": 17,
+   "desc": "Per-conversation x-opencode-session injection for OpenCode Go in DeepSeek Harness - fixes 400 MissingSessionID"
+  },
+  {
    "repo": "HarcoChen/dsh-vsc-integration",
    "name": "dsh-vsc-integration",
    "verdict": "pending",
@@ -85009,6 +85107,13 @@
    "verdict": "pending",
    "stars": 5,
    "desc": "—"
+  },
+  {
+   "repo": "gwj001/arch-lens",
+   "name": "gwj001-arch-lens",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "一个基于代码事实的，ai画图、ai 讲解的代码架构学习台插件(An AI drawing and AI explanation code architecture learning platform plugin)"
   },
   {
    "repo": "HansLin911/dsh-liang-slider",
@@ -87881,6 +87986,13 @@
    "desc": "DeepSeek Harness tool for finding and verifying community DSH plugins on GitHub"
   },
   {
+   "repo": "grloper/dsh-deep-research",
+   "name": "grloper-dsh-deep-research",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Kestrel: normalized quotation admission, source anchoring and evidence-processing tools with verified offline"
+  },
+  {
    "repo": "GuTianshuo/powershell-fix",
    "name": "gutianshuo-powershell-fix",
    "verdict": "ok",
@@ -89148,13 +89260,6 @@
    "desc": "Assembled context for DeepSeek Harness: a context tree over the session surface with per-node assemble modes ("
   },
   {
-   "repo": "grloper/dsh-deep-research",
-   "name": "grloper-dsh-deep-research",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Kestrel: normalized quotation admission, source anchoring and evidence-processing tools with verified offline"
-  },
-  {
    "repo": "lsdt45/dsh-plan-plus",
    "name": "lsdt45-dsh-plan-plus",
    "verdict": "pending",
@@ -89764,6 +89869,13 @@
    "desc": "—"
   },
   {
+   "repo": "codezha/dsh-double-shift-file-search",
+   "name": "codezha-dsh-double-shift-file-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Double-Shift file search plugin for DeepSeek Harness — search filenames and contents in the active workspace,"
+  },
+  {
    "repo": "coldxiangyu163/dsh-web-search-tavily",
    "name": "coldxiangyu163-dsh-web-search-tavily",
    "verdict": "ok",
@@ -90035,6 +90147,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "An experimental DeepSeek Harness adapter that uses ChatGPT OAuth to access a Cod"
+  },
+  {
+   "repo": "ffseika0304/code-ownership-audit",
+   "name": "ffseika0304-code-ownership-audit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "判定 Python 代码是原创还是演绎作品 — 纯本地 AST 分析，零依赖不联网"
   },
   {
    "repo": "fineven/dsh-zhipu",
@@ -95908,6 +96027,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 用量页：本机跨会话 Token 使用统计（Codex 风格），纯只读、不出本机 \\| Local cross-session token usage statistics for the DSH Web GUI"
+  },
+  {
+   "repo": "jsoncode/dsh-listen-npm",
+   "name": "jsoncode-dsh-listen-npm",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "监听查看设置的npm包的下载情况"
   },
   {
    "repo": "jsoncode/dsh-single-terminal",
