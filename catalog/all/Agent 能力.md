@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2033）
+# 🤖 Agent 能力（2036）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -788,6 +788,7 @@
 - `[空仓监测]` **dsh-plugin-session-outline** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [altuman-w-dsh-plugin-plantuml](https://github.com/altuman-w/dsh-plugin-plantuml) ★0 — deepseek harness plugin view plantuml
 - 🟩 `[可用]` [alwaysmid-19990-dsh-projects](https://github.com/alwaysmid-19990/dsh-projects) ★0 — DSH Web Project Center — Cowork/WorkBuddy-style projects with CLAUDE.md memory sync
+- `[未定位]` **anakincao-dsh-session-allow** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [andyfan1094-dsh-minimax-usage-pro](https://github.com/andyfan1094/dsh-minimax-usage-pro) ★0 — DSH bundle plugin showing MiniMax Token Plan / Subscription usage in Settings
 - 🟩 `[可用]` [andyyang12345-dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) ★0 — —
 - 🟩 `[可用]` [aorucshiea-dsh-omnipotent-preset](https://github.com/aorucshiea/dsh-omnipotent-preset) ★0 — Omnipotent agent preset for DeepSeek Harness: Standard/PTC/Minimal + routing modes
@@ -831,6 +832,7 @@
 - ⬜ `[待定]` [chris-003-dsh-agent-in-browser](https://github.com/chris-003/dsh-agent-in-browser) ★0 — Let a DeepSeek Harness agent see and control your browser in real time — read, screenshot, navigate, click, an
 - 🟩 `[可用]` [ckcfcc-dsh-hindsight-workspace-switch](https://github.com/ckcfcc/dsh-hindsight-workspace-switch) ★0 — A **per-workspace** HindSight switch for the DeepSeek Harness (dsh) composer: a toggle sits to the left of the
 - 🟩 `[可用]` [cndn-dsh-d1](https://github.com/cndn/dsh-d1) ★0 — Cloudflare D1 tools for the DeepSeek Harness (dsh): read-only first, approval-gated writes, zero runtime depen
+- 🟩 `[可用]` [cooperzhuang-dsh-context-window](https://github.com/CooperZhuang/dsh-context-window) ★0 — —
 - 🟩 `[可用]` [cowwo-dsh-session-info](https://github.com/cowwo/dsh-session-info) ★0 — —
 - 🟩 `[可用]` [cromus-ai-dsh-plugin](https://github.com/cromus-ai/dsh-plugin) ★0 — DeepSeek Harness bundle: score, validate, and cost-estimate AI skills with Cromus.
 - 🟩 `[可用]` [ctwctw9999-dsh-agent-preset-router](https://github.com/CTWCTW9999/dsh-agent-preset-router) ★0 — —
@@ -855,6 +857,7 @@
 - 🟩 `[可用]` [dsh-plugin-evaluation-dsh-agent-observe](https://github.com/dsh-plugin-evaluation/dsh-agent-observe) ★0 — DSH plugin for agent observability and security evaluation
 - `[未定位]` **du-u-uck-dsh-prompt-optimization** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dubeno-dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) ★0 — 将符合Agent Plugin规范的插件适配到DSH生态
+- 🟩 `[可用]` [dusbin-dsh-memory-view](https://github.com/dusbin/dsh-memory-view) ★0 — 查看 dsh 的 memory
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
@@ -1330,6 +1333,7 @@
 - 🟩 `[可用]` [dsh-plugin-context-compressor](https://github.com/YYTbit/dsh-plugin-context-compressor) ★0 — Context compression skill for DeepSeek Harness
 - ⬜ `[待定]` [dsh-plugin-vision-toolkit](https://github.com/YYTbit/dsh-plugin-vision-toolkit) ★0 — Vision toolkit for DeepSeek Harness -- give text-only agents eyes
 - 🟩 `[可用]` [yzke-dsh-extension-ops](https://github.com/yzke/dsh-extension-ops) ★0 — Read-only extension operations standard for DeepSeek Harness agents
+- 🟩 `[可用]` [zampie-request-frame-preview](https://github.com/zampie/request-frame-preview) ★0 — Preview and download the exact request frame (system prompt + tools_list + wire messages) that DeepSeek Harnes
 - 🟩 `[可用]` [zbsph-dsh-j-space-warm](https://github.com/zbsph/dsh-j-space-warm) ★0 — J-Space First V3 Warm agent preset plugin for DeepSeek Harness (dsh): anchored two-phase bootstrap + warm-up r
 - 🟩 `[可用]` [zeros335882878-dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) ★0 — Literature survey agent for DeepSeek Harness (dsh): interpret-first workflow, 3 skills (paper-survey / paper-i
 - `[未定位]` **zeyu-j-centricmem-skill** — 占位待复核，判定暂不展示
@@ -1350,8 +1354,6 @@
 - 🟩 `[可用]` [hyein-cbio-dsh-session-cleanup](https://github.com/hyein-cbio/dsh-session-cleanup) ★0 — Deepseek Harness extension for session cleanup and safe exit with deletion.
 - `[未定位]` **zzy2210-y1n-agent-flow** — 占位待复核，判定暂不展示
 - `[空仓监测]` **agimentu-dsh-session-cost** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [cooperzhuang-dsh-context-window](https://github.com/CooperZhuang/dsh-context-window) ★0 — —
-- ⬜ `[待定]` [dusbin-dsh-memory-view](https://github.com/dusbin/dsh-memory-view) ★0 — 查看 dsh 的 memory
 - ⬜ `[待定]` [zc679087-dsh-skill-preferences](https://github.com/zc679087/dsh-skill-preferences) ★0 — 一个可以管理DSH上安装的skill的插件，可以动态开关skill来防止误触发
 - ⬜ `[待定]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
 - `[空仓监测]` **luoxin10086-dsh-session-doctor** — GitHub 无此仓库，判定暂不展示
@@ -1788,6 +1790,7 @@
 - 🟨 `[不兼容]` [bigstyle777-dsh-tool-arxiv](https://github.com/bigstyle777/dsh-tool-arxiv) ★0 — arXiv preprint search tool for DeepSeek Harness agents — abstracts only, token-bounded
 - 🟨 `[不兼容]` [bill084153-cell-dsh-knowledge-forge](https://github.com/bill084153-cell/dsh-knowledge-forge) ★0 — DeepSeek Harness (DSH) plugin for local-first automatic Wiki memory and native Skill generation.
 - `[未定位]` **birfy-agentdescent** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [blauerberg-dsh-subagent-concurrency-limit](https://github.com/blauerberg/dsh-subagent-concurrency-limit) ★0 — Limit concurrent DeepSeek Harness subagent turns and delegation runs
 - 🟨 `[不兼容]` [blauerberg-dsh-web-push-notification](https://github.com/blauerberg/dsh-web-push-notification) ★0 — Web Push notifications for DeepSeek Harness tasks, approvals, and questions.
 - `[未定位]` **bptumbleweed-dsh-agent-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [bryan-cmf-dsh-vector-memory](https://github.com/Bryan-cmf/dsh-vector-memory) ★0 — —
