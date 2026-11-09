@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T01:14:02Z",
+ "generated_at": "2026-11-09T03:30:55Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -84820,6 +84820,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Out-of-the-box per-language LSP configuration packs for DeepSeek Harness: 12 Cordis plugins (one per language)"
+  },
+  {
+   "repo": "agent-network-protocol/anp-identity",
+   "name": "agent-network-protocol-anp-identity",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "asdf17128/dshp",
