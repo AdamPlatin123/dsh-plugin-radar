@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T12:46:30Z",
+ "generated_at": "2026-11-09T13:01:05Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -23712,13 +23712,6 @@
    "desc": "The visual, manual subagent-model picker for DeepSeek Harness — predictable per-session routing with global co"
   },
   {
-   "repo": "rockeymen/dsh-plugins",
-   "name": "rockeymen-dsh-plugins",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Bilingual directory of 600+ DeepSeek Harness plugins, Agent Skills, MCP tools, model adapters and themes, rank"
-  },
-  {
    "repo": "rocklau/dsh-ui-digest",
    "name": "rocklau-dsh-ui-digest",
    "verdict": "ok",
@@ -29387,6 +29380,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "给 DeepSeek Harness 的 Web 界面换字体"
+  },
+  {
+   "repo": "rockeymen/dsh-plugins",
+   "name": "rockeymen-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Bilingual directory of 600+ DeepSeek Harness plugins, Agent Skills, MCP tools, model adapters and themes, rank"
   },
   {
    "repo": "rocklau/dsh-rss-reader",
