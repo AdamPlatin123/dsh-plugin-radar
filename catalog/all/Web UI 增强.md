@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2602）
+# 🔌 Web UI 增强（2604）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2531,10 +2531,12 @@
 - 🟨 `[不兼容]` [sharedcare-dsh-conversation-rollback](https://github.com/sharedcare/dsh-conversation-rollback) ★0 — Codex-style conversation rollback and edit-and-resend plugin for DeepSeek Harness (DSH) Web UI
 - 🟨 `[不兼容]` [shenkonghui-dsh-worktree-manager](https://github.com/shenkonghui/dsh-worktree-manager) ★0 — —
 - `[空仓监测]` **six6strings-dsh-client-ui-thinking-stats** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **skycui-dsh-feishu-control** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [skylarking-dsh-sidebar](https://github.com/Skylarking/dsh-sidebar) ★0 — —
 - 🟨 `[不兼容]` [slicenferqin-dsh-whale-tui](https://github.com/slicenferqin/dsh-whale-tui) ★0 — grok-build style terminal UI for DeepSeek Harness: a Rust/ratatui TUI shipped as a dsh plugin bundle
 - 🟨 `[不兼容]` [slohmaier-dsh-a11y-announcer](https://github.com/slohmaier/dsh-a11y-announcer) ★0 — Accessibility plugin for DeepSeek Harness web UI: announces tool calls and finished assistant messages via ari
 - 🟨 `[不兼容]` [slymaster-dsh-theme-lab](https://github.com/Slymaster/dsh-theme-lab) ★0 — —
+- `[未定位]` **snow-the-dsh-plugin-guide** — 占位待复核，判定暂不展示
 - `[空仓监测]` **snzhi000-sys-harness-macos-desktop-plugin-sui** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [stardustlc666-dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) ★0 — —
 - `[空仓监测]` **statem-li-dsh-webui** — GitHub 无此仓库，判定暂不展示
