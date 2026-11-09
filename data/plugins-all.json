@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T22:16:04Z",
+ "generated_at": "2026-11-09T22:31:04Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -17734,6 +17734,13 @@
    "desc": "DSH plugin: sub-agent matrix swarm — routes heterogeneous tasks to the most suitable model (OpenRouter-like +"
   },
   {
+   "repo": "raomaiping-hash/dsh-client-ui-mobile",
+   "name": "raomaiping-hash-dsh-client-ui-mobile",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Mobile UI optimizer for the DeepSeek Harness Web GUI — drawer sidebar, full-screen settings, safe areas, touch"
+  },
+  {
    "repo": "RealHacker/dsh-theme-colorizer",
    "name": "realhacker-dsh-theme-colorizer",
    "verdict": "ok",
@@ -20441,6 +20448,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "ruisenbai/dsh-turn-fold",
+   "name": "ruisenbai-dsh-turn-fold",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Two-level folding for DeepSeek Harness reasoning and tool calls (targets DSH 0.1.5-alpha.1)"
   },
   {
    "repo": "Ruixinhua/dsh-universe-api",
@@ -24090,6 +24104,13 @@
    "desc": "—"
   },
   {
+   "repo": "readfish/dsh-client-theme-cyber",
+   "name": "readfish-dsh-client-theme-cyber",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 主题"
+  },
+  {
    "repo": "Reddddddds/dsh-naiwa-skin",
    "name": "reddddddds-dsh-naiwa-skin",
    "verdict": "ok",
@@ -25005,6 +25026,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Desktop - Electron 封装的 dsh web GUI 桌面应用 (NSIS 安装包)"
+  },
+  {
+   "repo": "wqy-cell/dsh-task-flow",
+   "name": "wqy-cell-dsh-task-flow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：任务星图 — 樱花主题的任务流程可视化"
   },
   {
    "repo": "wuruihi/dsh-memory-loader",
@@ -28010,6 +28038,13 @@
    "desc": "DSH 代码编辑器插件：VS Code 风格界面，内置文件树、Monaco 编辑器、跨文件搜索/替换、Markdown 预览与 Git diff"
   },
   {
+   "repo": "yangwuan55/dsh-accounts",
+   "name": "yangwuan55-dsh-accounts",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 凭据桥接插件：AI 代填登录表单/注入 env 运行 CLI，值不进模型上下文；附网页管理界面"
+  },
+  {
    "repo": "yoshino-xiao7/dsh-grok-provider",
    "name": "yoshino-xiao7-dsh-grok-provider",
    "verdict": "incompatible",
@@ -30320,6 +30355,13 @@
    "desc": "DSH runtime observability and plugin diagnostics panel"
   },
   {
+   "repo": "xiyue718/dsh-ui-file-browser",
+   "name": "xiyue718-dsh-ui-file-browser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 文件浏览插件：工作区目录树、会话文件视图、编辑与预览"
+  },
+  {
    "repo": "xiyue718/dsh-ui-git-bash",
    "name": "xiyue718-dsh-ui-git-bash",
    "verdict": "incompatible",
@@ -30332,6 +30374,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 会话消息导航插件：独立的用户消息导航栏"
+  },
+  {
+   "repo": "xiyue718/dsh-ui-usage-stats",
+   "name": "xiyue718-dsh-ui-usage-stats",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 用量统计插件：按工作区/会话/时段/模型统计 token 用量与 DeepSeek 费用"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -37040,6 +37089,13 @@
    "desc": "—"
   },
   {
+   "repo": "songer522/dsh-launcher",
+   "name": "songer522-dsh-launcher",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "macOS menu bar app for the DeepSeek Harness web server, with a Host plugin that publishes the running server's"
+  },
+  {
    "repo": "StarChen-Cycler/octie-dsh-plugin",
    "name": "starchen-cycler-octie-dsh-plugin",
    "verdict": "ok",
@@ -37679,13 +37735,6 @@
   {
    "repo": "CMoyuer/dsh-cad-viewer",
    "name": "cmoyuer-dsh-cad-viewer",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "qigelunbiya/DSH-Patrol",
-   "name": "qigelunbiya-dsh-patrol",
    "verdict": "pending",
    "stars": 2,
    "desc": "—"
@@ -42122,6 +42171,13 @@
    "desc": "—"
   },
   {
+   "repo": "Xieweikang123/dsh-vision-bridge",
+   "name": "xieweikang123-dsh-vision-bridge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Xin-Zhang-IceMan/dsh-vision-plugin",
    "name": "xin-zhang-iceman-dsh-vision-plugin",
    "verdict": "ok",
@@ -42769,13 +42825,6 @@
    "repo": "xiaoheizi1212/dsh-cookie-bridge",
    "name": "xiaoheizi1212-dsh-cookie-bridge",
    "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "Xieweikang123/dsh-vision-bridge",
-   "name": "xieweikang123-dsh-vision-bridge",
-   "verdict": "ok",
    "stars": 1,
    "desc": "—"
   },
@@ -46938,6 +46987,13 @@
    "desc": "—"
   },
   {
+   "repo": "Paul090515/dsh-system-cleanup",
+   "name": "paul090515-dsh-system-cleanup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "pd90506/dsh-web-notification",
    "name": "pd90506-dsh-web-notification",
    "verdict": "ok",
@@ -47673,6 +47729,13 @@
    "desc": "—"
   },
   {
+   "repo": "stadeummwt/dsh-supreme",
+   "name": "stadeummwt-dsh-supreme",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "STARDUSTLC666/dsh-dream",
    "name": "stardustlc666-dsh-dream",
    "verdict": "ok",
@@ -48109,6 +48172,13 @@
   {
    "repo": "TY-ang/dsh-worktree-flow",
    "name": "ty-ang-dsh-worktree-flow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "TYEclipse/dsh-complex",
+   "name": "tyeclipse-dsh-complex",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -55751,36 +55821,8 @@
    "desc": "—"
   },
   {
-   "repo": "Paul090515/dsh-system-cleanup",
-   "name": "paul090515-dsh-system-cleanup",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "SodaZheng/dsh-totp",
-   "name": "sodazheng-dsh-totp",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "TianJie52009/dsh-kaomoji",
-   "name": "tianjie52009-dsh-kaomoji",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "TYEclipse/dsh-boolean",
    "name": "tyeclipse-dsh-boolean",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "TYEclipse/dsh-complex",
-   "name": "tyeclipse-dsh-complex",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -58532,6 +58574,13 @@
   {
    "repo": "PerryLink/dsh-reach",
    "name": "perrylink-dsh-reach",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "qigelunbiya/DSH-Patrol",
+   "name": "qigelunbiya-dsh-patrol",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -62485,6 +62534,13 @@
    "desc": "—"
   },
   {
+   "repo": "SodaZheng/dsh-totp",
+   "name": "sodazheng-dsh-totp",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "sol5766/ppt-master-cloner",
    "name": "sol5766-ppt-master-cloner",
    "verdict": "incompatible",
@@ -62630,6 +62686,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "完成任务自动跳转到原神 Automatically jump to Genshin Impact after completing the task"
+  },
+  {
+   "repo": "TianJie52009/dsh-kaomoji",
+   "name": "tianjie52009-dsh-kaomoji",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "Tieboyh/dsh-notes-markdown",
@@ -76870,6 +76933,13 @@
    "desc": "—"
   },
   {
+   "repo": "zhaoxuejie/dsh-plugin-academic-paper",
+   "name": "zhaoxuejie-dsh-plugin-academic-paper",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness 学术文献插件：arXiv / Semantic Scholar 真实数据源检索、单篇详情、GB/T 7714 / APA / BibTeX 引用格式生成、本地文献库与批量导出，杜绝模型编"
+  },
+  {
    "repo": "LQ-1123/paste-to-workspace",
    "name": "paste-to-workspace",
    "verdict": "ok",
@@ -78613,13 +78683,6 @@
    "desc": "Per-project long-term memory for DeepSeek Harness (DSH), backed by SQLite."
   },
   {
-   "repo": "sueqet/dsh-todo-board",
-   "name": "sueqet-dsh-todo-board",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Cross-session TODO board for DeepSeek Harness (dsh): a draggable floating panel groups tasks by working direct"
-  },
-  {
    "repo": "ice5kysl/dsh-insights",
    "name": "dsh-insights",
    "verdict": "ok",
@@ -79857,6 +79920,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sueqet/dsh-todo-board",
+   "name": "sueqet-dsh-todo-board",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Cross-session TODO board for DeepSeek Harness (dsh): a draggable floating panel groups tasks by working direct"
   },
   {
    "repo": "sunshaobei/dsh-file-mention",
@@ -81831,6 +81901,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "zhang8019/dsh-permission-matrix",
+   "name": "zhang8019-dsh-permission-matrix",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Permission matrix for DeepSeek Harness: 3 sandbox modes x 4 approval strategies = 9 presets, with global and L"
   },
   {
    "repo": "zhengjy01/dsh-task-dispatcher",
@@ -87853,6 +87930,13 @@
    "desc": "Model pricing & capability board for DeepSeek Harness: ~7,250 models across 213 providers, honest lowest-liste"
   },
   {
+   "repo": "wangguan1995/hypermesh-mcp",
+   "name": "wangguan1995-hypermesh-mcp",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "HyperMesh MCP server - STP to HM conversion as a DeepSeek Harness plugin"
+  },
+  {
    "repo": "wanyexin1998/dsh-workbench",
    "name": "wanyexin1998-dsh-workbench",
    "verdict": "ok",
@@ -93474,13 +93558,6 @@
    "desc": "Unit conversion plugin for DeepSeek Harness (DSH): one `convert` tool plus a locale-aware Web view, covering 1"
   },
   {
-   "repo": "starstorm-ai/dsh-embedded-codex",
-   "name": "starstorm-ai-dsh-embedded-codex",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "wesleyel/dsh-plugin-gpt-load",
    "name": "wesleyel-dsh-plugin-gpt-load",
    "verdict": "pending",
@@ -97345,6 +97422,13 @@
    "desc": "Hard break on repeated identical tool calls in DeepSeek Harness (DSH): a synchronous monotonic ctx.tools.guard"
   },
   {
+   "repo": "softspark/dsh-web-search-searxng",
+   "name": "softspark-dsh-web-search-searxng",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Web-search provider for DeepSeek Harness backed by a SearXNG instance: metasearch with no vendor API key and n"
+  },
+  {
    "repo": "SPYfighting/dsh-science-plugin",
    "name": "dsh-science-plugin",
    "verdict": "incompatible",
@@ -97364,6 +97448,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH adapter for Everything Claude Code agents, skills, hooks, and new tool spawn_subagent"
+  },
+  {
+   "repo": "starstorm-ai/dsh-embedded-codex",
+   "name": "starstorm-ai-dsh-embedded-codex",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "svcgv/dsh-debug-mode",
