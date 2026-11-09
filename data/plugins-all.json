@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T15:01:01Z",
+ "generated_at": "2026-11-09T15:16:12Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -78697,13 +78697,6 @@
    "desc": "—"
   },
   {
-   "repo": "zaofan-make/dsh-qqbot",
-   "name": "dsh-qqbot",
-   "verdict": "pending",
-   "stars": 17,
-   "desc": "AI 统管 QQ 群组：审核放行、群发文件、沟通其他 web 会话的 AI！ ；气氛组担当：表情包自动入库、AI 自己决定开口、多预设多人格轮班陪聊！； 远程办公：权限审批、提问卡片转发到 QQ"
-  },
-  {
    "repo": "klarkxy/zhihu-search",
    "name": "klarkxy-zhihu-search",
    "verdict": "ok",
@@ -81418,6 +81411,13 @@
    "verdict": "incompatible",
    "stars": 18,
    "desc": "AI-powered personal news aggregator with LLM scoring, Web console, and push notifications to Feishu/Discord."
+  },
+  {
+   "repo": "zaofan-make/dsh-qqbot",
+   "name": "dsh-qqbot",
+   "verdict": "incompatible",
+   "stars": 17,
+   "desc": "AI 统管 QQ 群组：审核放行、群发文件、沟通其他 web 会话的 AI！ ；气氛组担当：表情包自动入库、AI 自己决定开口、多预设多人格轮班陪聊！； 远程办公：权限审批、提问卡片转发到 QQ"
   },
   {
    "repo": "jiezeng2004-design/dsh-chatgpt-bridge",
