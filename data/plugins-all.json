@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T13:46:36Z",
+ "generated_at": "2026-11-09T14:01:17Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -46777,13 +46777,6 @@
    "desc": "—"
   },
   {
-   "repo": "ShiXiangYu2/dsh-siliconflow-vision",
-   "name": "shixiangyu2-dsh-siliconflow-vision",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "shizhanyu13/dsh-ironbound-policy",
    "name": "shizhanyu13-dsh-ironbound-policy",
    "verdict": "ok",
@@ -61246,6 +61239,13 @@
    "desc": "—"
   },
   {
+   "repo": "ShiXiangYu2/dsh-siliconflow-vision",
+   "name": "shixiangyu2-dsh-siliconflow-vision",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "shuxu-zhao/dsh-image-dscriber",
    "name": "shuxu-zhao-dsh-image-dscriber",
    "verdict": "incompatible",
@@ -73965,13 +73965,6 @@
    "desc": "Zero-config boot-safe wrapper for dsh: auto-disables failing plugins, restores broken configs via --patch over"
   },
   {
-   "repo": "wzz3034026545/dsh-rule-manager",
-   "name": "wzz3034026545-dsh-rule-manager",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "Xnjsir/dsh-plugin-manager",
    "name": "xnjsir-dsh-plugin-manager",
    "verdict": "ok",
@@ -74394,6 +74387,13 @@
   {
    "repo": "starstorm-ai/dsh-file-manager",
    "name": "starstorm-ai-dsh-file-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "wzz3034026545/dsh-rule-manager",
+   "name": "wzz3034026545-dsh-rule-manager",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -76723,13 +76723,6 @@
    "desc": "Runtime data-flow audit log for DeepSeek Harness: who mutated what, in what order - per-plugin, per-fiber attr"
   },
   {
-   "repo": "sunshaobei/dsh-file-mention",
-   "name": "sunshaobei-dsh-file-mention",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "支持dsh @引用文件及文件夹"
-  },
-  {
    "repo": "tengfeizhao1219/dsh-ai-collab",
    "name": "tengfeizhao1219-dsh-ai-collab",
    "verdict": "ok",
@@ -78401,6 +78394,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sunshaobei/dsh-file-mention",
+   "name": "sunshaobei-dsh-file-mention",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "支持dsh @引用文件及文件夹"
   },
   {
    "repo": "swxs/archive-restore",
@@ -85280,13 +85280,6 @@
    "repo": "weopenfire-git/hme-plugin",
    "name": "weopenfire-git-hme-plugin",
    "verdict": "ok",
-   "stars": 3,
-   "desc": "—"
-  },
-  {
-   "repo": "Wongzexu/dsh-git-status",
-   "name": "wongzexu-dsh-git-status",
-   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -93199,6 +93192,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "AiFP 记忆感知系统｜MCP 服务，一套记忆全 AI 共享"
+  },
+  {
+   "repo": "Wongzexu/dsh-git-status",
+   "name": "wongzexu-dsh-git-status",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
   },
   {
    "repo": "xiaoxianyu-office/dsh-skills-manager",
