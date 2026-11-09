@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-09T21:01:07Z",
+ "generated_at": "2026-11-09T21:16:08Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2668,6 +2668,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "An automatic skill router for deepseek harness"
+  },
+  {
+   "repo": "leolee9086/dsh-context-care",
+   "name": "leolee9086-dsh-context-care",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness 的疲劳度、唤醒值与自主上下文压缩 Cordis 插件"
   },
   {
    "repo": "libinyam/dsh-experts",
@@ -10279,6 +10286,13 @@
    "desc": "为 DeepSeek Harness 增加一个直接续跑按钮"
   },
   {
+   "repo": "iptton-ai/dsh-plugin-session-notes",
+   "name": "iptton-ai-dsh-plugin-session-notes",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Highlight & annotate DeepSeek Harness (DSH) conversations with sticky notes — dynamic Cordis plugin"
+  },
+  {
    "repo": "jarvisluk/dsh-projectless-session",
    "name": "jarvisluk-dsh-projectless-session",
    "verdict": "incompatible",
@@ -17167,6 +17181,13 @@
    "desc": "—"
   },
   {
+   "repo": "ikashana/dsh-notify",
+   "name": "ikashana-dsh-notify",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Task-monitoring notification plugin for DeepSeek Harness (dsh): turn/end alerts, human-confirmation with timeo"
+  },
+  {
    "repo": "imissthecat/dsh-plugin-manager",
    "name": "imissthecat-dsh-plugin-manager",
    "verdict": "ok",
@@ -19860,6 +19881,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Local-first role-based collaboration tools for DeepSeek Harness, with an embedded panel and human-confirmed de"
+  },
+  {
+   "repo": "lumoping/dsh-todo-inbox",
+   "name": "lumoping-dsh-todo-inbox",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH web static plugin: global cross-session todo inbox (merge MR / approve work orders / reviews) with sidebar"
   },
   {
    "repo": "lwx071001/dsh-mobile-console",
@@ -25602,25 +25630,11 @@
    "desc": "把本机 Wallpaper Engine 的壁纸变成 DSH 网页界面的背景：Video 动态播放、Web 以 iframe 加载、Scene 壁纸提取主纹理作为静态帧；iOS 液态玻璃设置窗口（配色 / 玻璃颜色 /"
   },
   {
-   "repo": "j2st1n/dsh-version-status",
-   "name": "j2st1n-dsh-version-status",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH core version monitor & upgrade helper: sidebar status badge, npm release checker, and one-click update com"
-  },
-  {
    "repo": "jonah791/dsh-video-studio",
    "name": "jonah791-dsh-video-studio",
    "verdict": "pending",
    "stars": 0,
    "desc": "DSH 视频工作台插件：把视频工厂（TTS/配乐/混音/Remotion 渲染/多级质检/主题脚手架）封装为工具面，支撑创作任意视频"
-  },
-  {
-   "repo": "loommii/dsh-input-history",
-   "name": "loommii-dsh-input-history",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness Web 输入历史插件:↑/↓ 终端式翻查本会话消息,/history 可搜索面板;纯客户端,按会话隔离"
   },
   {
    "repo": "new-256/dsh-session-cleaner",
@@ -29613,6 +29627,13 @@
    "desc": "Configurable conversation statistics row for DeepSeek Harness"
   },
   {
+   "repo": "lffrom0303/dsh-window98-theme",
+   "name": "lffrom0303-dsh-window98-theme",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A faithful Windows 98 skin for the DeepSeek Harness web GUI, derived from the classic 98.css design system."
+  },
+  {
    "repo": "liang7878/deepseek-harness-tui",
    "name": "liang7878-deepseek-harness-tui",
    "verdict": "incompatible",
@@ -29646,6 +29667,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH web plugin: sidebar-embedded DeepSeek balance readout with a black minimalist full-shutdown button."
+  },
+  {
+   "repo": "loommii/dsh-input-history",
+   "name": "loommii-dsh-input-history",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web 输入历史插件:↑/↓ 终端式翻查本会话消息,/history 可搜索面板;纯客户端,按会话隔离"
   },
   {
    "repo": "lrplrplrp/dsh-sidebar-gdhighlight",
@@ -44852,6 +44880,13 @@
    "desc": "DSH plugin: auto reasoning_effort (low/high/max) per turn via MiniMax complexity scorer + token ledger + per-r"
   },
   {
+   "repo": "imkingjh999/dsh-tool-accurate-vision",
+   "name": "imkingjh999-dsh-tool-accurate-vision",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Model-facing accurate_vision tool for DeepSeek Harness: precise spatial reasoning via any OpenAI-compatible vi"
+  },
+  {
    "repo": "InformationDS/DSHAIKanBan",
    "name": "informationds-dshaikanban",
    "verdict": "ok",
@@ -45330,6 +45365,13 @@
   {
    "repo": "KDronin/dsh-folder",
    "name": "kdronin-dsh-folder",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "kevin-zx/dsh-park-notes",
+   "name": "kevin-zx-dsh-park-notes",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -55380,13 +55422,6 @@
    "desc": "—"
   },
   {
-   "repo": "kevin-zx/dsh-park-notes",
-   "name": "kevin-zx-dsh-park-notes",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "msn233/dsh-keymouse-use",
    "name": "msn233-dsh-keymouse-use",
    "verdict": "pending",
@@ -59207,6 +59242,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Enterprise-grade Zero-Trust Authentication, LAN/Public Access Control & Security Gate Plugin for DeepSeek Harn"
+  },
+  {
+   "repo": "linsibin/dsh-task-board",
+   "name": "linsibin-dsh-task-board",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "linz919/dsh-web-pass",
@@ -64522,6 +64564,13 @@
    "desc": "—"
   },
   {
+   "repo": "LBurny/deepseek-harness-desktop",
+   "name": "lburny-deepseek-harness-desktop",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "leolee9086/dsh-computer-use",
    "name": "leolee9086-dsh-computer-use",
    "verdict": "ok",
@@ -64870,13 +64919,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Windows 桌面悬浮窗，实时显示 DeepSeek 官方用量（余额/今日消费/模型 Tokens/请求数）+  本地缓存命中统计"
-  },
-  {
-   "repo": "LBurny/deepseek-harness-desktop",
-   "name": "lburny-deepseek-harness-desktop",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "—"
   },
   {
    "repo": "tr1v3r/dsh-proxy",
@@ -67546,6 +67588,13 @@
    "desc": "—"
   },
   {
+   "repo": "MikotoMyWife/dsh-mcp-loader",
+   "name": "mikotomywife-dsh-mcp-loader",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "minatoAI/dsh-net-proxy-plugin",
    "name": "minatoai-dsh-net-proxy-plugin",
    "verdict": "ok",
@@ -68440,13 +68489,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Windows 系统托盘版 DeepSeek Harness 启动器：双击秒开、异常自动清理旧进程并重启、全程日志排障 \\| Windows tray launcher for DeepSeek Harness: one-"
-  },
-  {
-   "repo": "MikotoMyWife/dsh-mcp-loader",
-   "name": "mikotomywife-dsh-mcp-loader",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "Mlte0907/dsh-remote-x",
@@ -72675,6 +72717,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "AI-powered Game Center plugin for DeepSeek Harness, featuring Texas Holdem with 1–7 agent players.〔📦〕"
+  },
+  {
+   "repo": "p83765295-sys/gamelike-plugin-manage",
+   "name": "p83765295-sys-gamelike-plugin-manage",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 插件管理器：设置→插件管理"
   },
   {
    "repo": "Pappet/dsh-tool-imagegen",
@@ -78653,6 +78702,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness 会话管理插件｜归档与恢复、批量操作、工作区分组、子代理关系、活动详情、记录目录与安全文件清理"
+  },
+  {
+   "repo": "linshuangb347/dsh-memory-fortress",
+   "name": "linshuangb347-dsh-memory-fortress",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Memory Fortress for DeepSeek Harness: 5-track layered memory, self-evolution, knowledge graph (SQLite+FTS5), s"
   },
   {
    "repo": "ltxlong/dsh-session-kit",
@@ -88672,6 +88728,13 @@
    "desc": "—"
   },
   {
+   "repo": "linxsy-code/dsh-plugin-window-input",
+   "name": "linxsy-code-dsh-plugin-window-input",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Windows input plugin for deepseek harness"
+  },
+  {
    "repo": "lispking/dsh-devpanel",
    "name": "lispking-dsh-devpanel",
    "verdict": "ok",
@@ -90828,6 +90891,13 @@
    "desc": "Extensible Codex-style pinned summary panel for DeepSeek Harness Web."
   },
   {
+   "repo": "ice5kysl/dsh-insights-kit",
+   "name": "ice5kysl-dsh-insights-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Insights ecosystem assistant — health scores, scenario picks and ecosystem dynamics inside DeepSeek Harnes"
+  },
+  {
    "repo": "imBlanker/codex-plugin-dsh",
    "name": "imblanker-codex-plugin-dsh",
    "verdict": "ok",
@@ -90854,6 +90924,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "j2st1n/dsh-version-status",
+   "name": "j2st1n-dsh-version-status",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH core version monitor & upgrade helper: sidebar status badge, npm release checker, and one-click update com"
   },
   {
    "repo": "jaco-tech/dsh-web-fetch-crw",
@@ -92900,13 +92977,6 @@
    "desc": "DeepSeek Harness (dsh) Web plugin: with an empty composer, Enter steers the first queued message into the runn"
   },
   {
-   "repo": "ice5kysl/dsh-insights-kit",
-   "name": "ice5kysl-dsh-insights-kit",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH Insights ecosystem assistant — health scores, scenario picks and ecosystem dynamics inside DeepSeek Harnes"
-  },
-  {
    "repo": "nmindz/stupid-comments",
    "name": "nmindz-stupid-comments",
    "verdict": "pending",
@@ -94697,6 +94767,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "SSH sessions, SFTP, terminals, proxies and port forwarding for DeepSeek Harness"
+  },
+  {
+   "repo": "lemonxiny55/dsh-lsp-diagnostics",
+   "name": "lemonxiny55-dsh-lsp-diagnostics",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Real-time LSP diagnostics for DeepSeek Harness — closes the edit → diagnostics → fix loop (TypeScript/JavaScri"
   },
   {
    "repo": "lileikeji/dsh-crosstalk",
