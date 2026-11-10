@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T22:46:03Z",
+ "generated_at": "2026-11-10T23:01:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7017,6 +7017,13 @@
    "desc": "FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller）"
   },
   {
+   "repo": "kuyueliuhun-ctrl/dsh-command-queue",
+   "name": "kuyueliuhun-ctrl-dsh-command-queue",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：让 /compact 等斜杠命令在 agent 忙碌时进入命令队列，空闲后自动执行 \\| Queue slash commands until the agent is idle"
+  },
+  {
    "repo": "lak321/dsh-screen-agent",
    "name": "lak321-dsh-screen-agent",
    "verdict": "ok",
@@ -13595,6 +13602,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules"
+  },
+  {
+   "repo": "starstorm-ai/dsh-context-picker",
+   "name": "starstorm-ai-dsh-context-picker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "striveh/dsh-llm-call-inspector",
@@ -65656,6 +65670,13 @@
    "desc": "时间自我模型 T1 时距注入（距主人上条 / 距自圈 / 今日已醒）——注入坐标，不假装感觉"
   },
   {
+   "repo": "jstudio1024/dsh-office-helper",
+   "name": "jstudio1024-dsh-office-helper",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 办公助手插件：工作时间追踪、空闲检测、喝水提醒、休息提醒与每日统计"
+  },
+  {
    "repo": "JularDepick/dsh-wakatime-plugin",
    "name": "julardepick-dsh-wakatime-plugin",
    "verdict": "incompatible",
@@ -103104,6 +103125,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 本地语义文档系统工具面：semantic_list/get/check/register + D1–D6 drift 判据（单一真源、文档随代码、未验证显式、留白诚实）"
+  },
+  {
+   "repo": "jonah791/dsh-vault-meta",
+   "name": "jonah791-dsh-vault-meta",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "凭据库只读元数据工具：列出 vault 条目与字段名（**只碰非密元数据**，绝不读取或回显任何明文/密文）——把「我有什么凭据」变成一条工具调用，不再手打 PowerShell"
   },
   {
    "repo": "joxmx/dsh-usage",
