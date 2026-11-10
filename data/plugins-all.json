@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T13:32:00Z",
+ "generated_at": "2026-11-10T13:46:55Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -26491,6 +26491,13 @@
    "desc": "DeepSeek Harness (dsh) plugin: browse http(s) pages in the right sidebar, beside the conversation."
   },
   {
+   "repo": "tenyding/dsh-aionui-layout",
+   "name": "tenyding-dsh-aionui-layout",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "AionUi-style two-column right sidebar for the DSH Web GUI, seeded on top of dsh-better-sidebar (preview + file"
+  },
+  {
    "repo": "terrywangcode/dsh-mermaid-web",
    "name": "terrywangcode-dsh-mermaid-web",
    "verdict": "ok",
@@ -26552,6 +26559,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 全家桶定制——All-in-one customization suite for DeepSeek Harness: 3 agent presets (Classic / Pro An"
+  },
+  {
+   "repo": "ttmouse/dsh-drag",
+   "name": "ttmouse-dsh-drag",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Drag a conversation row from the DSH web sidebar onto the chat area to insert it into the composer draft as a"
   },
   {
    "repo": "tumi-huakai/dsh-plugin-meow-speech",
@@ -83238,6 +83252,13 @@
    "verdict": "incompatible",
    "stars": 10,
    "desc": "—"
+  },
+  {
+   "repo": "siqyka/dsh-ssh-workspace",
+   "name": "siqyka-dsh-ssh-workspace",
+   "verdict": "incompatible",
+   "stars": 10,
+   "desc": "通过SSH方式，将远程主机的文件夹当成DSH的工作区，不需要手动同步、不需要挂载驱动、不需要装任何第三方文件系统"
   },
   {
    "repo": "ChuShiZ/dsh-archive-manager",

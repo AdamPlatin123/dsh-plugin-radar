@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2974）
+# 🔌 Web UI 增强（2976）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1896,6 +1896,7 @@
 - 🟩 `[可用]` [tdeluna024-ui-dsh-done-notifier](https://github.com/tdeluna024-ui/dsh-done-notifier) ★0 — 当 DeepSeek Harness 模型完成回复、等待用户输入时，弹出 macOS 通知并播放童声提示音「老板，我干完活儿了！快来！」（纯 JS，零依赖，无需构建）
 - 🟩 `[可用]` [tecfancy-dsh-dock-host](https://github.com/TecFancy/dsh-dock-host) ★0 — —
 - 🟩 `[可用]` [temidayoxyz-deep-browser](https://github.com/temidayoxyz/deep-browser) ★0 — DeepSeek Harness (dsh) plugin: browse http(s) pages in the right sidebar, beside the conversation.
+- 🟩 `[可用]` [tenyding-dsh-aionui-layout](https://github.com/tenyding/dsh-aionui-layout) ★0 — AionUi-style two-column right sidebar for the DSH Web GUI, seeded on top of dsh-better-sidebar (preview + file
 - 🟩 `[可用]` [terrywangcode-dsh-mermaid-web](https://github.com/terrywangcode/dsh-mermaid-web) ★0 — DeepSeek Harness Web UI plugin for rendering Mermaid diagrams with zoom and a fullscreen workspace
 - 🟩 `[可用]` [thanhdz235123-commits-nyx-dsh-plugins](https://github.com/thanhdz235123-commits/nyx-dsh-plugins) ★0 — Nyx plugins for DeepSeek Harness — a right-side file panel and true edit-message, both drawn with the harness'
 - 🟩 `[可用]` [thezavtrak-a11y-dsh-cost-stats](https://github.com/thezavtrak-a11y/dsh-cost-stats) ★0 — Money on the screen for the DeepSeek Harness web GUI: per-turn USD cost in the chat, a Cost tab with charts, r
@@ -1909,6 +1910,7 @@
 - 🟩 `[可用]` [trees163-dsh-customizations](https://github.com/trees163/dsh-customizations) ★0 — DeepSeek Harness 全家桶定制——All-in-one customization suite for DeepSeek Harness: 3 agent presets (Classic / Pro An
 - `[空仓监测]` **triple3h-dsh-input-enhancement** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **trouvaille-xx-dsh-stardewvalley-ui** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [ttmouse-dsh-drag](https://github.com/ttmouse/dsh-drag) ★0 — Drag a conversation row from the DSH web sidebar onto the chat area to insert it into the composer draft as a
 - 🟩 `[可用]` [tumi-huakai-dsh-plugin-meow-speech](https://github.com/tumi-huakai/dsh-plugin-meow-speech) ★0 — 喵语定制：DSH 消息正文显示层文本替换插件（仅界面显示，不改动真实对话内容）
 - 🟩 `[可用]` [tyon-nos-ty90-dsh-mcsm-panel](https://github.com/Tyon-nos-Ty90/dsh-mcsm-panel) ★0 — —
 - 🟩 `[可用]` [uaapple-dsh-ui-cost](https://github.com/uaapple/dsh-ui-cost) ★0 — DeepSeek Harness Web UI plugin for live token usage and estimated cost
