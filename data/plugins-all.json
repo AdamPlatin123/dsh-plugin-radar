@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T09:15:57Z",
+ "generated_at": "2026-11-10T09:31:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5083,6 +5083,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DSH 多角色协作模式插件——人/顾问/总控/执行者四层架构，任务单制度 + 写入域互斥 + 授权模式 + 裁决日志，让大模型协作开发可控、可复用"
+  },
+  {
+   "repo": "tr1v3r/dsh-ltm",
+   "name": "tr1v3r-dsh-ltm",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Local-first long-term memory for DeepSeek Harness, with CJK-aware search and memory lifecycle management."
   },
   {
    "repo": "tsja2001/dsh-token-dashboard",
@@ -21997,6 +22004,13 @@
    "desc": "Personal usage analytics & activity dashboard for the DeepSeek Harness (dsh) web GUI: token totals, contributi"
   },
   {
+   "repo": "wakeup595626-cmyk/dsh-drop-to-path",
+   "name": "wakeup595626-cmyk-dsh-drop-to-path",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把拖入或粘贴进 DSH 的文件转成工作区文件路径，交给纯文本模型 \\| Turn dropped or pasted files into workspace file paths for DeepSeek Harness"
+  },
+  {
    "repo": "wanghehe123/dsh-cite",
    "name": "wanghehe123-dsh-cite",
    "verdict": "ok",
@@ -22331,6 +22345,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "PRO-LONG-style programmatic memory plugin for DeepSeek Harness (DSH): appends every durable session event to a"
+  },
+  {
+   "repo": "yefengliu1/dsh-agent-grid",
+   "name": "yefengliu1-dsh-agent-grid",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Replaces the DeepSeek Harness sidebar with a fixed 2x4 board of eight standing agent seats — each seat shows i"
   },
   {
    "repo": "yellpoliovirusvaccine37/dsh-launcher",
@@ -22786,6 +22807,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "⌘K 命令面板插件，为 DeepSeek Harness Web GUI 提供：会话切换、设置直达、侧边栏页签与插件集成入口，支持自定义快捷键，手不离键盘完成大部分操作"
+  },
+  {
+   "repo": "1959377950-dotcom/dsh-workspace-archive-all",
+   "name": "1959377950-dotcom-dsh-workspace-archive-all",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web plugin: Archive-All action on every workspace folder menu in the sidebar (Ungrouped included)"
   },
   {
    "repo": "1wanganshi/dsh-marketing-toolkit",
@@ -26505,6 +26533,13 @@
    "desc": "—"
   },
   {
+   "repo": "wakeup595626-cmyk/dsh-session-folders",
+   "name": "wakeup595626-cmyk-dsh-session-folders",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web 侧栏会话分组：可嵌套、可自定义颜色图标的文件夹 \\| Session folders for the DeepSeek Harness Web sidebar"
+  },
+  {
    "repo": "Waldsatte/dsh-theme-taojian",
    "name": "waldsatte-dsh-theme-taojian",
    "verdict": "ok",
@@ -28871,6 +28906,13 @@
    "desc": "DeepSeek Harness Web 插件：输入框模型名旁的小星星按钮，一键把草稿改写成结构化的可执行提示词并写回"
   },
   {
+   "repo": "yefengliu1/dsh-theme-songgrid",
+   "name": "yefengliu1-dsh-theme-songgrid",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "Song-dynasty aesthetics x Swiss International Style for the DeepSeek Harness web UI — rice-paper (light) and n"
+  },
+  {
    "repo": "zmm863-commits/dsh-paperclip",
    "name": "zmm863-commits-dsh-paperclip",
    "verdict": "incompatible",
@@ -29961,6 +30003,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "在会话行菜单复制规范 @session mention, 粘贴到输入框即可召回该会话上下文"
+  },
+  {
+   "repo": "banana770/dsh-model-select-collapse",
+   "name": "banana770-dsh-model-select-collapse",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH (DeepSeek Harness) web UI plugin: collapsible per-provider groups in the model selector"
   },
   {
    "repo": "big0lives/dsh-web-window-companion",
@@ -32406,6 +32455,13 @@
    "desc": "DeepSeek Harness 插件的独立交付卡片行：绕开 conversation.chat.turnTail 链被抢占导致的交付卡片消失；11 类文件类型图标、亮暗双主题、零依赖零构建 — DSH plugin:"
   },
   {
+   "repo": "viyu-tech/dsh-input-limit",
+   "name": "viyu-tech-dsh-input-limit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "weibaohui/dsh-plugin-scheduled-items",
    "name": "weibaohui-dsh-plugin-scheduled-items",
    "verdict": "incompatible",
@@ -32705,6 +32761,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "本项目为 DeepSeek Harness web 控制台带来一块 2D 调色盘应用板"
+  },
+  {
+   "repo": "zhxnix/dsh-sidebar-annotations",
+   "name": "zhxnix-dsh-sidebar-annotations",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Codex-style DSH right-sidebar browser preview, element annotations, context notes, and debugging tools."
   },
   {
    "repo": "zmm863-commits/dsh-paopaocat-suite",
@@ -86698,6 +86761,13 @@
    "desc": "A temporary dialogue elf designed specifically for DSH"
   },
   {
+   "repo": "wowyuarm/dsh-channel-gateway",
+   "name": "wowyuarm-dsh-channel-gateway",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A channel gateway for DeepSeek Harness: Telegram and WeChat adapters normalize provider traffic into one messa"
+  },
+  {
    "repo": "WShihan/dsh-macos-notify",
    "name": "wshihan-dsh-macos-notify",
    "verdict": "ok",
@@ -89692,6 +89762,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "x5427876/dsh-opencode-free",
+   "name": "x5427876-dsh-opencode-free",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "Use OpenCode Zen free models in DeepSeek Harness with anonymous access or an optional API key"
   },
   {
    "repo": "xiaobbl/dsh-opencode-go-model-list",
@@ -97483,6 +97560,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Bridge DeepSeek Harness to language servers for read-only code intelligence, with multi-language configuration"
+  },
+  {
+   "repo": "wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+   "name": "wakeup595626-cmyk-dsh-plugin-websearch-tavily",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "为 DSH 接入 Tavily 联网搜索的 provider，注册 tavily-search \\| Tavily-backed web search provider for DeepSeek Harness"
   },
   {
    "repo": "Walvez/dsh-opencodex-usage",
