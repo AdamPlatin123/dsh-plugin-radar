@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T14:01:40Z",
+ "generated_at": "2026-11-10T14:31:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -568,6 +568,13 @@
    "verdict": "pending",
    "stars": 19,
    "desc": "Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watc"
+  },
+  {
+   "repo": "sgzeng/pbfuzz",
+   "name": "sgzeng-pbfuzz",
+   "verdict": "ok",
+   "stars": 19,
+   "desc": "Agentic Directed Fuzzing for PoV Generation"
   },
   {
    "repo": "PerryLink/dsh-skill-pack-security",
@@ -13121,6 +13128,13 @@
    "desc": "可视化管理 DeepSeek Harness Skills 的桌面插件"
   },
   {
+   "repo": "liuxinxing123/dph-emotion-arc",
+   "name": "liuxinxing123-dph-emotion-arc",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Emotion Arc Director: text emotion detection -> explicit state file -> strategy mapping, plus memory ledger an"
+  },
+  {
    "repo": "liuyangdongdong/dsh-session-rerun",
    "name": "liuyangdongdong-dsh-session-rerun",
    "verdict": "incompatible",
@@ -15884,6 +15898,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Third-party DSH WebUI enhancement plugin: custom backgrounds, theme colors, prompt presets, token/context visi"
+  },
+  {
+   "repo": "ltmroberthk915/dsh-computer-use",
+   "name": "ltmroberthk915-dsh-computer-use",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "The most precise Windows computer use for DeepSeek Harness: 19 tools address controls by exact UI Automation i"
   },
   {
    "repo": "Luaphes/dsh-web-attention-badge",
@@ -25875,6 +25896,13 @@
    "desc": "DSH web 插件：把输入框模型选择控件替换为两个独立按钮（供应商 + 模型两级联动，支持推理等级调节）"
   },
   {
+   "repo": "qgynisc/dsh-inline-pastes",
+   "name": "qgynisc-dsh-inline-pastes",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web GUI 插件：粘贴图片即在文字中插入 image-1.png 内联胶囊，悬浮名字预览缩略图，自动编号（文字中插图 / hover 预览）"
+  },
+  {
    "repo": "qingchunnh/dsh-desktop",
    "name": "qingchunnh-dsh-desktop",
    "verdict": "ok",
@@ -27371,6 +27399,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock"
+  },
+  {
+   "repo": "xthreehao/dsh-hidden-session",
+   "name": "xthreehao-dsh-hidden-session",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）隐藏会话插件：把会话从侧边栏隐藏、可随时恢复"
   },
   {
    "repo": "xugulin/dsh-display-panel",
@@ -65479,6 +65514,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "lemoe-technology/dsh-plugins",
+   "name": "lemoe-technology-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Lemoe Technology's deepseek harness plugins"
   },
   {
    "repo": "lengxiaoyu6/dsh-model-extended",
