@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T19:16:01Z",
+ "generated_at": "2026-11-10T19:31:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -47608,6 +47608,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "feely0208/dsh-alert-relay",
+   "name": "feely0208-dsh-alert-relay",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "告警外发：检查告警链路有没有告警、发到哪、有没有把敏感信息一起发出去"
   },
   {
    "repo": "fei-hang/DeepSeekHarnessSDK",
@@ -96323,6 +96330,13 @@
    "desc": "—"
   },
   {
+   "repo": "evan7ang/dsh-agent-hints",
+   "name": "evan7ang-dsh-agent-hints",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Per-request serving-intent hints for DeepSeek Harness (dsh): the X-Agent-Hint HTTP header on an independent ch"
+  },
+  {
    "repo": "evanfang0054/dsh-init",
    "name": "evanfang0054-dsh-init",
    "verdict": "ok",
@@ -96377,6 +96391,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 一键备份按钮 - 浮动按钮备份 DSH 数据到 GitHub Gist"
+  },
+  {
+   "repo": "feely0208/dsh-ai-output-trust",
+   "name": "feely0208-dsh-ai-output-trust",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "AI 输出信任边界：检查代码有没有直接执行 AI 输出（eval/shell/SQL/路径）"
   },
   {
    "repo": "fengbai2233/dsh-pwsh-quoting-guard",
