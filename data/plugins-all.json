@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T10:45:51Z",
+ "generated_at": "2026-11-10T11:00:58Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -17825,6 +17825,13 @@
    "desc": "DSH 桌面快捷方式插件：一键创建/更新/删除 DeepSeek Harness 桌面快捷方式，图标可自定义上传切换（蓝白金鲸鱼悬浮按钮，可拖动）"
   },
   {
+   "repo": "adithyanraj03/dsh-schedule-later",
+   "name": "adithyanraj03-dsh-schedule-later",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Schedule a message into a dsh chat for later: a Schedule button in the message box with a date and time picker"
+  },
+  {
    "repo": "alanpeng/deepseek-harness-desktop",
    "name": "alanpeng-deepseek-harness-desktop",
    "verdict": "ok",
@@ -23892,6 +23899,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DSH bundle: control the DeepSeek Harness web GUI from a phone/tablet on the same LAN"
+  },
+  {
+   "repo": "fly-cat-2015/dsh-quick-input",
+   "name": "fly-cat-2015-dsh-quick-input",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "一个为deepseek-harness提供快捷输入的插件"
   },
   {
    "repo": "fogmodel/dsh-workspace-jump",
@@ -31711,6 +31725,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "frederico-kluser/dsh-tavily-resilient-search",
+   "name": "frederico-kluser-dsh-tavily-resilient-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pesquisa web Tavily para o DeepSeek Harness (plugin Cordis) com rotação atómica e resiliente de um agrupamento"
   },
   {
    "repo": "freespace8/dsh-plugins",
@@ -64116,6 +64137,13 @@
    "desc": "—"
   },
   {
+   "repo": "azazo1/dsh-deep-diving-back",
+   "name": "azazo1-dsh-deep-diving-back",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "把 DSH 0.1.6 及以前那个蓝色流光的深度求索中运行标志加回来, 并保留 steer 是否已并入请求的上下位置语义"
+  },
+  {
    "repo": "B1anker/dsh-ecology",
    "name": "b1anker-dsh-ecology",
    "verdict": "incompatible",
@@ -88336,6 +88364,13 @@
    "desc": "ChatGPT-powered coding, image generation and web search for DeepSeek Harness."
   },
   {
+   "repo": "byx-darwin/dsh-agent-kit",
+   "name": "byx-darwin-dsh-agent-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin kit for always-on agent workers: WebSocket, DingTalk, Claude Code/Codex, Jev."
+  },
+  {
    "repo": "CAI-MH/dsh-feishu-task-recorder",
    "name": "cai-mh-dsh-feishu-task-recorder",
    "verdict": "incompatible",
@@ -95084,6 +95119,13 @@
    "desc": "面向 AI 编程代理的功能链路提取 Skill"
   },
   {
+   "repo": "adithyanraj03/dsh-memory-recall",
+   "name": "adithyanraj03-dsh-memory-recall",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Persistent memory for dsh in the style of Hermes Agent: a memory tool keeping a user profile and the model's o"
+  },
+  {
    "repo": "adrianleb/dsh-tmux-cc",
    "name": "adrianleb-dsh-tmux-cc",
    "verdict": "ok",
@@ -100794,6 +100836,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Host-only DeepSeek Harness (DSH) bundle: remembers the reasoning effort last in effect per (provider, model) a"
+  },
+  {
+   "repo": "dan-ai-studio/dshopencodego",
+   "name": "dan-ai-studio-dshopencodego",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "OpenCode Go provider for DeepSeek Harness: live gateway catalog and per-conversation session header"
   },
   {
    "repo": "danglong0313/dsh-history-sync",
