@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T04:15:49Z",
+ "generated_at": "2026-11-10T04:31:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -939,6 +939,13 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "向模型暴露 sleep 工具，按指定毫秒暂停执行后返回，支持取消/clamp \\| Exposes a sleep tool that pauses for specified ms then returns, with"
+  },
+  {
+   "repo": "tianyaojiudi-prog/dsh-djy-xttsc",
+   "name": "tianyaojiudi-prog-dsh-djy-xttsc",
+   "verdict": "ok",
+   "stars": 9,
+   "desc": "DSH(DeepSeek Harness) 插件：把一段可在设置页随时改写的文字，作为全局系统提示词段注入到所有会话，含子代理与工作流内部子代理；文本与开关即时生效，无需重启"
   },
   {
    "repo": "yoza10635/dsh-argp",
@@ -11721,6 +11728,13 @@
    "desc": "子代理派发规范（吝啬农场主模式）全局化插件 for DeepSeek Harness — syncs cordis-async preset + AGENTS.md dispatch rules"
   },
   {
+   "repo": "shuanzhe/dsh-turn-hard-delete",
+   "name": "shuanzhe-dsh-turn-hard-delete",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Delete a complete turn (question + answer + tool calls) from a DeepSeek Harness session, without deleting the"
+  },
+  {
    "repo": "skitse/dsh-dev-actions",
    "name": "dsh-dev-actions",
    "verdict": "incompatible",
@@ -16976,6 +16990,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "rebornace/dsh-tracescope",
+   "name": "rebornace-dsh-tracescope",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "基于 Git 差异生成功能影响清单，以 Figma / 蓝湖设计稿为真源静态对比 UI 差异，可选 AI 协助分析；能力经 MCP 复用于任意客户端"
   },
   {
    "repo": "remybroun/infographic",
@@ -25140,6 +25161,13 @@
    "desc": "—"
   },
   {
+   "repo": "renshuo/dsh-emacs-keys",
+   "name": "renshuo-dsh-emacs-keys",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "emacs keys binding in deepseek harness web UI"
+  },
+  {
    "repo": "Reseezhang/vizcb-codeblock-visualizer",
    "name": "reseezhang-vizcb-codeblock-visualizer",
    "verdict": "ok",
@@ -30150,6 +30178,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "文件拖拽：把文件拖到 DSH 窗口，真实路径写入输入框"
+  },
+  {
+   "repo": "tomowang/dsh-data-agent",
+   "name": "tomowang-dsh-data-agent",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) plugin for managing database connections, browsing/annotating schemas, and running SQL"
   },
   {
    "repo": "trynewthin/dsh-left-panel",
@@ -50963,6 +50998,13 @@
    "desc": "布隆迪国"
   },
   {
+   "repo": "uckkk/dsh-business-days",
+   "name": "uckkk-dsh-business-days",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "工作日计算"
+  },
+  {
    "repo": "uckkk/dsh-butter-convert",
    "name": "uckkk-dsh-butter-convert",
    "verdict": "ok",
@@ -53763,6 +53805,13 @@
    "desc": "磅转千克"
   },
   {
+   "repo": "uckkk/dsh-lcm",
+   "name": "uckkk-dsh-lcm",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "最小公倍数"
+  },
+  {
    "repo": "uckkk/dsh-leap-year",
    "name": "uckkk-dsh-leap-year",
    "verdict": "ok",
@@ -54167,6 +54216,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "剪指甲周期"
+  },
+  {
+   "repo": "uckkk/dsh-nanoid",
+   "name": "uckkk-dsh-nanoid",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Nano ID 生成器（crypto 安全随机）"
   },
   {
    "repo": "uckkk/dsh-negotiation",
@@ -81392,6 +81448,13 @@
    "desc": "Scheduled tasks plugin for DeepSeek Harness Web Profile"
   },
   {
+   "repo": "shkzhang/dsh-file-link-menu",
+   "name": "shkzhang-dsh-file-link-menu",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "SoMarkAI/dsh-tool-somark",
    "name": "dsh-tool-somark",
    "verdict": "incompatible",
@@ -86570,6 +86633,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "uckkk/dsh-image-uckkk",
+   "name": "uckkk-dsh-image-uckkk",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "@{name=dsh-image-uckkk; version=0.1.0; description=图片处理：读取图片尺寸/格式、缩放与格式转换（内置 ffmpeg，跨平台）; type=module; main=li"
   },
   {
    "repo": "uckkk/dsh-video-creator",
