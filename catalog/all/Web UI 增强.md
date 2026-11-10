@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2961）
+# 🔌 Web UI 增强（2965）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1425,6 +1425,7 @@
 - 🟩 `[可用]` [daha1216-dsh-font-customizer](https://github.com/daha1216/dsh-font-customizer) ★0 — DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化
 - 🟩 `[可用]` [dakeshui123-dsh-pet-frieren](https://github.com/dakeshui123/dsh-pet-frieren) ★0 — A chibi Frieren desktop pet for the DeepSeek Harness Web GUI: install with dsh plugin --profile web add github
 - 🟩 `[可用]` [danhcng3822f-dsh-upload-plugin](https://github.com/danhcng3822f/dsh-upload-plugin) ★0 — DeepSeek Harness plugin providing Add photos, Add files, and Uploaded files in chat UI with vision validation
+- `[未定位]` **daniel92q-dsh-sidebar-footer-stack** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [danieltoraji-dsh-skin-kamisato](https://github.com/Danieltoraji/dsh-skin-kamisato) ★0 — —
 - `[空仓监测]` **darkskyx15-dsh-client-ui-m3-theme** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [dddzzz123-dz-dsh-read-image-plugin](https://github.com/dddzzz123-dz/dsh-read-image-plugin) ★0 — Image input fallback for DeepSeek Harness with native multimodal model detection and Volcengine Ark vision.
@@ -1461,6 +1462,7 @@
 - 🟩 `[可用]` [echan684-dsh-web-verify-panel](https://github.com/EChan684/dsh-web-verify-panel) ★0 — —
 - 🟩 `[可用]` [edelah-quick-model-widget](https://github.com/edelah/quick-model-widget) ★0 — —
 - 🟩 `[可用]` [edwardhamu-dsh-glassmorphism-theme](https://github.com/EdwardHamu/dsh-glassmorphism-theme) ★0 — —
+- 🟩 `[可用]` [eighteentang-dsh-plugin-dev-tools](https://github.com/eighteentang/dsh-plugin-dev-tools) ★0 — DSH 开发工具箱：界面元素定位（Alt+悬浮）、随插件分发的开发经验库、开发模式自检清单注入
 - `[未定位]` **elangan1997-cmyk-dsh-canvas-suite** — 占位待复核，判定暂不展示
 - `[未定位]` **elevator14b-vscode-dsh-sidebar** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [elohia-dsh-plugin-image-input](https://github.com/Elohia/dsh-plugin-image-input) ★0 — —
@@ -2458,6 +2460,7 @@
 - 🟨 `[不兼容]` [wangxueqi00-dsh-client-ui-knowledge-cards](https://github.com/wangxueqi00/dsh-client-ui-knowledge-cards) ★2 — A plugin of Deepseek Harness(DSH),transform your recent chat history into beautifully designed knowledge cards
 - 🟨 `[不兼容]` [webkong-dsh-plugin-sidebar](https://github.com/webkong/dsh-plugin-sidebar) ★2 — 🚀 为 DeepSeek Harness 而生的左右侧栏：左侧按工作区浏览会话（状态点/分组/搜索/移动到文件夹），右侧就地浏览文件 + Git 面板（状态/暂存/diff/提交/历史/分支）—— 会话管理像 IDE 一
 - 🟨 `[不兼容]` [weibaohui-dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) ★2 — dsh 插件全家桶：装一个插件带一批插件（Git 服务器/WebDAV 挂载盘/知识库/定时任务/自动续跑/界面微调/自动复盘）
+- 🟨 `[不兼容]` [weibaohui-dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) ★2 — dsh 插件 · 烟花庆祝引擎：agent 编程时在对话窗口上空放烟花——六类事件 × 30 张属性卡 × 洗牌袋随机变种，token 用量决定大小/高度/绚烂度，WebGL2 GPU 累积拖尾渲染
 - 🟨 `[不兼容]` [whh110112-human-writing-skills](https://github.com/whh110112/human-writing-skills) ★2 — Natural AI-assisted writing: multilingual editing, chunked long-form collaboration and continuity review
 - 🟨 `[不兼容]` [xia-sc-dsh-git](https://github.com/xia-sc/dsh-git) ★2 — DeepSeek Harness Web GUI 的完整 Git 管理插件，形态为一个可折叠的悬浮面板， 实时跟随当前会话的工作区——在侧边栏点击不同的会话/工作区，面板会瞬间 重新绑定到对应仓库
 - 🟨 `[不兼容]` [xiangrui979-foresight](https://github.com/xiangrui979/foresight) ★2 — ForeSight: a temporal-aspect long-term memory plugin for DeepSeek Harness (dsh)
@@ -2681,6 +2684,7 @@
 - 🟨 `[不兼容]` [akvi0921-dsh-console-tap](https://github.com/akvi0921/dsh-console-tap) ★0 — 【已停止维护/归档】旧版控制台显形插件 → 新插件见 akvi0921/dsh-build-progress
 - 🟨 `[不兼容]` [alfonsoferrertorres-cyber-saare-suite](https://github.com/alfonsoferrertorres-cyber/saare-suite) ★0 — Enterprise L7 AI Governance, Ex-Ante PII Redaction (<1.16ms RAM), and Cryptographic Forensic Evidence Vault fo
 - 🟨 `[不兼容]` [alfredhuang211-dsh-ssh-hosts](https://github.com/alfredhuang211/dsh-ssh-hosts) ★0 — DeepSeek Harness 插件：把多台 SSH 服务器存成主机清单，agent 在会话里按主机名引用（命令执行 + 远端文件读写）；设置界面管理，支持密钥/密码登录，会话窗口「+」菜单可选主机
+- `[未定位]` **alicesaikawa-dsh-webui-m3e** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [deepseek-harness-flow](https://github.com/alison-xx/deepseek-harness-flow) ★0 — Visual workflows and multi-model evaluation for DeepSeek Harness
 - `[未定位]` **aliwuer-dsh-process-panel** — 占位待复核，判定暂不展示
 - `[未定位]` **aliww2468-dsh-client-ui-aqua-patched** — 占位待复核，判定暂不展示
