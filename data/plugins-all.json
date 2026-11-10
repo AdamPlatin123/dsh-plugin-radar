@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T10:15:49Z",
+ "generated_at": "2026-11-10T10:30:57Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -19750,6 +19750,13 @@
    "desc": "—"
   },
   {
+   "repo": "baifagg/dsh-plugin-busy-workspace",
+   "name": "baifagg-dsh-plugin-busy-workspace",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) Web GUI plugin: highlight running sessions and pin busy workspaces to the top of the si"
+  },
+  {
    "repo": "baisama-cloud/dsh-conflict-guardian",
    "name": "baisama-cloud-dsh-conflict-guardian",
    "verdict": "ok",
@@ -27791,6 +27798,13 @@
    "verdict": "incompatible",
    "stars": 6994,
    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware re"
+  },
+  {
+   "repo": "dream-num/univer-workspace",
+   "name": "dream-num-univer-workspace",
+   "verdict": "incompatible",
+   "stars": 2271,
+   "desc": "Manage the Office content your agents create"
   },
   {
    "repo": "ningbainb/deepseek-harness-desktop",
@@ -46217,6 +46231,13 @@
    "desc": "My self-used deepseek harness plugins"
   },
   {
+   "repo": "changliang-c/zemingxingxiao-brand-diagnosis",
+   "name": "changliang-c-zemingxingxiao-brand-diagnosis",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "择命行效·品牌五行诊断（开源协作版）"
+  },
+  {
    "repo": "ChaoYuZhang001/dsh-auto-router",
    "name": "chaoyuzhang001-dsh-auto-router",
    "verdict": "ok",
@@ -61960,6 +61981,13 @@
    "desc": "—"
   },
   {
+   "repo": "173787247/dsh-device-bridge",
+   "name": "173787247-dsh-device-bridge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: dsh-device-bridge"
+  },
+  {
    "repo": "173787247/dsh-mac-companion",
    "name": "173787247-dsh-mac-companion",
    "verdict": "incompatible",
@@ -73762,6 +73790,13 @@
    "desc": "—"
   },
   {
+   "repo": "azazo1/dsh-reduce-effects",
+   "name": "azazo1-dsh-reduce-effects",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web 前端特效开关插件: 按分类关闭动画, 毛玻璃, 阴影, 渐变等特效, 降低浏览器渲染负担."
+  },
+  {
    "repo": "azure5100/huahua-dsh-plugin-orchestra",
    "name": "azure5100-huahua-dsh-plugin-orchestra",
    "verdict": "incompatible",
@@ -83693,6 +83728,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "按工作区分组展示会话，支持归档、取消归档与删除"
+  },
+  {
+   "repo": "ecircle6/dsh-prompt-enhance-local",
+   "name": "ecircle6-dsh-prompt-enhance-local",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH composer 一键提示词增强（本地加固 fork）：口语草稿→结构化专业提示词，严格 Origin 栅栏 + 限流 + 零文件写入"
   },
   {
    "repo": "enderzcx/spire-ctl",
@@ -101571,6 +101613,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: one model-facing shell tool whose shell (PowerShell, cmd, Git Bash, WSL, bash, zsh, f"
+  },
+  {
+   "repo": "azazo1/dsh-git-commands",
+   "name": "azazo1-dsh-git-commands",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "把 git 提交, tag, push 与建仓库的工作流规范从 AGENTS.md 搬进 /commit, /commit-fast, /tag, /push, /repo-create 命令: 命令触发时自动附带仓库状"
   },
   {
    "repo": "BackMountainBird/dsh-ultracode",
