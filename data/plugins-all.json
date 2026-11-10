@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T08:16:03Z",
+ "generated_at": "2026-11-10T08:30:58Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12286,6 +12286,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "bvcvb/dsh-baize-session",
+   "name": "bvcvb-dsh-baize-session",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pick messages out of dsh sessions and relocate them into another conversation — a new one in any workspace, or"
   },
   {
    "repo": "CagierAsh123/dsh-obsidian-agent-wiki",
@@ -27821,6 +27828,13 @@
    "desc": "Browser-only build of DeepSeek Harness"
   },
   {
+   "repo": "drscrewdriver/dsh-browser-cdp",
+   "name": "drscrewdriver-dsh-browser-cdp",
+   "verdict": "incompatible",
+   "stars": 30,
+   "desc": "DSH 浏览器插件（原 dsh-ego-browser）：让 Agent 通过 CDP 接入真实 Chrome —— 远程目标序列与激活、实时视频/截图回传、登录导入"
+  },
+  {
    "repo": "10086ggqq/dsh_theme_terraria",
    "name": "10086ggqq-dsh-theme-terraria",
    "verdict": "incompatible",
@@ -30005,6 +30019,27 @@
    "desc": "—"
   },
   {
+   "repo": "drscrewdriver/dsh-docx-sidebar",
+   "name": "drscrewdriver-dsh-docx-sidebar",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH web plugin (dsh-better-sidebar consumer): read .docx documents in the right sidebar — headings, lists, tab"
+  },
+  {
+   "repo": "drscrewdriver/dsh-opensheet-sidebar",
+   "name": "drscrewdriver-dsh-opensheet-sidebar",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH web plugin (dsh-better-sidebar consumer): CSV/TSV/PSV plus xlsx/xlsm workbook preview in the right sidebar"
+  },
+  {
+   "repo": "drscrewdriver/dsh-pptx-sidebar",
+   "name": "drscrewdriver-dsh-pptx-sidebar",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: read .pptx decks in the sidebar — slides in deck order, bullets, speaker notes, inline pictures"
+  },
+  {
    "repo": "dsh-mixxed/dsh-client-ui-settings-skills",
    "name": "dsh-mixxed-dsh-client-ui-settings-skills",
    "verdict": "incompatible",
@@ -31214,6 +31249,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "可移植的 DSH/Cordis 主题插件：内置配色浏览、预览、应用与持久化；DeepSeek Harness Desktop 预装"
+  },
+  {
+   "repo": "chiikin/dsh-glm-quota",
+   "name": "chiikin-dsh-glm-quota",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "GLM Coding Plan quota display plugin for the DeepSeek Harness (DSH) web UI"
   },
   {
    "repo": "ciceroyang/dsh-prompt-library",
@@ -74833,6 +74875,13 @@
    "desc": "—"
   },
   {
+   "repo": "621758/dsh-whale-widget-pet-feed",
+   "name": "621758-dsh-whale-widget-pet-feed",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 余额小鲸鱼挂件非官方衍生版（基于 dsh-whale-widget 0.3.9）：新增摸头、摸头音效、互动统计和投喂按钮，其余功能原样保留"
+  },
+  {
    "repo": "67-68/dsh-music-alert",
    "name": "67-68-dsh-music-alert",
    "verdict": "ok",
@@ -100117,6 +100166,13 @@
    "desc": "DeepSeek Harness（DSH）插件生成工具：AI 自发发现能力缺口，子代理开发、迁移为独立 git 仓库并自动提交、热挂载与装入 profile"
   },
   {
+   "repo": "cup113/dsh-effort-memory",
+   "name": "cup113-dsh-effort-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Host-only DeepSeek Harness (DSH) bundle: remembers the reasoning effort last in effect per (provider, model) a"
+  },
+  {
    "repo": "danglong0313/dsh-history-sync",
    "name": "danglong0313-dsh-history-sync",
    "verdict": "incompatible",
@@ -101102,6 +101158,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "dgagf111/dsh-hydrasearch",
+   "name": "dgagf111-dsh-hydrasearch",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "TinyFish + AnySearch web search and fetch provider for DeepSeek Harness: one failover-chain provider with an o"
   },
   {
    "repo": "dingyiliao/dsh-bundle-pi-ai-auth",
