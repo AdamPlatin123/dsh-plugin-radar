@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2151）
+# 🤖 Agent 能力（2154）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -789,7 +789,6 @@
 - 🟩 `[可用]` [v587d-dsh-multimodal-skill](https://github.com/v587d/dsh-multimodal-skill) ★1 — —
 - 🟩 `[可用]` [dsh-session-html-export](https://github.com/DeltaFROST141/dsh-session-html-export) ★1 — —
 - 🟩 `[可用]` [dsh-skill-lord-serf](https://github.com/ttxl314/dsh-skill-lord-serf) ★1 — —
-- ⬜ `[未测]` [dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) ★1 — 微信 ClawBot 桥接（官方腾讯 iLink / ClawBot）：扫码登录悬浮球把消息桥接到 agent 会话，复用 context_token 支持窗口外主动推送；`lubaiUwU/DSH-WeChatClawBot` 的维护分支（npm `dsh-wechat-clawbot@0.2.0`）
 - 🟩 `[可用]` [1304836815-dsh-auto-memory](https://github.com/1304836815/dsh-auto-memory) ★0 — DSH 会话级记忆插件：收尾提醒 + MEMORY.md 记忆索引维护 + 实时对话日志 + LLM 摘要压缩，配置面板在 设置→插件
 - 🟩 `[可用]` [1710782766-dsh-browser-verify](https://github.com/1710782766/dsh-browser-verify) ★0 — Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots au
 - ⬜ `[待定]` [2092372408-pixel-dsh-roadmap-board](https://github.com/2092372408-pixel/dsh-roadmap-board) ★0 — 人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）
@@ -1240,6 +1239,7 @@
 - 🟩 `[可用]` [uppercrusteve-dsh-plugin-split-and-solve](https://github.com/uppercrusteve/dsh-plugin-split-and-solve) ★0 — DSH plugin: split batch / multi-subproblem research tasks into small questions and solve them with sub-agents
 - 🟩 `[可用]` [vb2250158-dsh-rabiroute-agent](https://github.com/vb2250158/dsh-rabiroute-agent) ★0 — Open-source DSH plugin: dsh-rabiroute-agent
 - 🟩 `[可用]` [vb2250158-dsh-subagent-output-sanitizer](https://github.com/vb2250158/dsh-subagent-output-sanitizer) ★0 — Open-source DSH plugin: dsh-subagent-output-sanitizer
+- `[未定位]` **vderr-echocat-skill-panel-3-0** — 占位待复核，判定暂不展示
 - `[空仓监测]` **wangxiang0605qvq-dsh-auto-compact** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **wangxuexin24-dsh-session-topics** — 占位待复核，判定暂不展示
 - `[未定位]` **wangyong1972-dsh-auto-approval** — 占位待复核，判定暂不展示
@@ -1254,12 +1254,14 @@
 - `[歧义监测]` **windlx-paper-plane-x** — 同名多仓，判定暂不展示
 - 🟩 `[可用]` [windwind110-dsh-skill-manager](https://github.com/Windwind110/dsh-skill-manager) ★0 — —
 - 🟩 `[可用]` [wingsky-1-dsh-skill-explorer](https://github.com/wingsky-1/dsh-skill-explorer) ★0 — DSH skill center plugin: browse loaded skills by source, enable/disable, create and delete
+- `[未定位]` **winrngs-dsh-session-prompt-standalone** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [winyh-dsh-product](https://github.com/winyh/dsh-product) ★0 — dsh-product 是一个“互联网资讯查询 + 本地项目上下文”的 DeepSeek Harness 插件，用于把已经确认的产品机会转化为可验证、可交付、可迭代的产品
 - 🟩 `[可用]` [wo5812-lang-deepseek-harness-desktop](https://github.com/wo5812-lang/deepseek-harness-desktop) ★0 — DeepSeek Harness 官方开源 Agent 框架的 macOS 桌面客户端（Electron 壳）\| macOS desktop client for DeepSeek Harness — 一键启动 dsh
 - 🟩 `[可用]` [wodongx123-dsh-language-control](https://github.com/wodongx123/dsh-language-control) ★0 — DSH plugin: force agent chain-of-thought to stay in Chinese — 让 Agent 的思考过程也自动使用中文
 - ⬜ `[待定]` [wolfsonliu-zotero-skill](https://github.com/wolfsonliu/zotero-skill) ★0 — An agent-usable Zotero skill for AI agent — search, read, and write your local Zotero library through a single
 - `[未定位]` **wonderfuledge-dsh-publish-skill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wpc725562-dotcom-deepfusion](https://github.com/wpc725562-dotcom/deepfusion) ★0 — DeepFusion: DSH x Reasonix 融合 Agent 引擎 (DeepSeek-native 编排 + 前缀缓存优化)
+- 🟩 `[可用]` [wrc093-dsh-agent-graph](https://github.com/wrc093/dsh-agent-graph) ★0 — Graph orchestration for DeepSeek Harness: scoped agent nodes, structured handoffs, bounded rework, and a layer
 - ⬜ `[待定]` [wuwuzhige-sudo-dsh-skill-gsd](https://github.com/wuwuzhige-sudo/dsh-skill-gsd) ★0 — skill比较轻量，缩减上下文占用
 - `[未定位]` **wuxiangru915-dsh-session-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wuxiangru915-dsh-session-navigator](https://github.com/wuxiangru915/dsh-session-navigator) ★0 — Session navigator & turn minimap for DeepSeek Harness: proportional rail, hover preview card, turn stepper.
@@ -2130,6 +2132,7 @@
 - 🟨 `[不兼容]` [young-yyj-dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) ★0 — DeepSeek Harness 的本地只读技能浏览插件
 - `[空仓监测]` **ytmaps-dsh-subagent-flowtext** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —
+- 🟨 `[不兼容]` [yueyexiayu-dsh-jiyi](https://github.com/yueyexiayu/dsh-jiyi) ★0 — DSH desktop plugin: durable cross-session memory, scoped hybrid recall, grounded relevance checks and memory m
 - 🟨 `[不兼容]` [yuluo554-dsh-prompt-polisher](https://github.com/yuluo554/dsh-prompt-polisher) ★0 — Composer prompt-polisher button plugin for DeepSeek Harness (dsh): one-click draft rewrite, style presets, dua
 - 🟨 `[不兼容]` [yummy4727-dsh-context-branch](https://github.com/yummy4727/dsh-context-branch) ★0 — Context-branching conversation tree plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [yuzh1090-dsh-voice-prompt-compressor](https://github.com/yuzh1090/dsh-voice-prompt-compressor) ★0 — DSH plugin: compress verbose voice-dictation text into token-efficient prompts — fully local, zero LLM tokens.
