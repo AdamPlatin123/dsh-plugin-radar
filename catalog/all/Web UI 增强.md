@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2970）
+# 🔌 Web UI 增强（2971）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1609,6 +1609,7 @@
 - 🟩 `[可用]` [jockiller-dsh-translator](https://github.com/jockiller/dsh-translator) ★0 — 基于 DeepSeek Harness (DSH) 插件规范打造的输入框悬浮快捷翻译与历史找回挂件
 - 🟩 `[可用]` [joeytisaly-dsh-client-ui-notify](https://github.com/Joeytisaly/dsh-client-ui-notify) ★0 — —
 - 🟩 `[可用]` [johalqian-deepseek-harness-desktop](https://github.com/johalqian/deepseek-harness-desktop) ★0 — Unofficial macOS desktop wrapper for DeepSeek Harness with automatic local runtime and embedded Web UI.
+- 🟩 `[可用]` [johnsonspirit-ocean-wave-theme](https://github.com/johnsonspirit/ocean-wave-theme) ★0 — Animated ocean waves with a whale swimming behind the page, plus translucent surfaces.
 - 🟩 `[可用]` [jonah791-dsh-panel](https://github.com/jonah791/dsh-panel) ★0 — 独立实时前端面板：宿主托管自包含 HTML + HTTP API，零官方 client 依赖
 - 🟩 `[可用]` [jonah791-dsh-video-studio](https://github.com/jonah791/dsh-video-studio) ★0 — DSH 视频工作台插件：把视频工厂（TTS/配乐/混音/Remotion 渲染/多级质检/主题脚手架）封装为工具面，支撑创作任意视频
 - 🟩 `[可用]` [joshryandavis-dsh-catalog-refresh](https://github.com/joshryandavis/dsh-catalog-refresh) ★0 — DSH plugin to automatically rebuild model catalogues for OpenRouter, OpenCode, Fireworks, etc

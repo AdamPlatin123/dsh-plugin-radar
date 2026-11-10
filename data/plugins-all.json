@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T12:31:20Z",
+ "generated_at": "2026-11-10T12:45:57Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10858,6 +10858,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable r"
+  },
+  {
+   "repo": "cq-guojia/dsh-task-dispatch-table",
+   "name": "cq-guojia-dsh-task-dispatch-table",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "一个 dsh host 层插件：用一张任务定义表驱动周期性任务，按时间窗与依赖把任务派发成独立会话执行（调度层零大模型介入）"
   },
   {
    "repo": "creativedswork/dsh-expmem",
@@ -24739,6 +24746,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Unofficial macOS desktop wrapper for DeepSeek Harness with automatic local runtime and embedded Web UI."
+  },
+  {
+   "repo": "johnsonspirit/ocean-wave-theme",
+   "name": "johnsonspirit-ocean-wave-theme",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Animated ocean waves with a whale swimming behind the page, plus translucent surfaces."
   },
   {
    "repo": "jonah791/dsh-panel",
@@ -41490,6 +41504,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "deepseek-harness 新闻报告插件，用于制作早报等"
+  },
+  {
+   "repo": "danieldu168/dsh-stash",
+   "name": "danieldu168-dsh-stash",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "Dariandai/dsh-starter-pack",
@@ -74280,6 +74301,13 @@
    "desc": "—"
   },
   {
+   "repo": "its0din-ai/harness-accountant",
+   "name": "its0din-ai-harness-accountant",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) Simple Balance Monitor Plugin \\| DSH（DeepSeek Harness）简易余额监视插件"
+  },
+  {
    "repo": "Jesse-njx/dsh-plugin-manager-registry",
    "name": "dsh-plugin-manager-registry",
    "verdict": "incompatible",
@@ -78611,6 +78639,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "xut1021/dsh-plugin-host",
+   "name": "xut1021-dsh-plugin-host",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Windows 外置 DSH 插件托管：官方兼容检查、配置保留、版本切换、插件市场与加密快照"
   },
   {
    "repo": "zoahdev/dsh-subscribe",
@@ -88999,6 +89034,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "williamzhangww/dsh-priceflow",
+   "name": "williamzhangww-dsh-priceflow",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Official DeepSeek peak/off-peak pricing, countdown and off-peak message scheduling for DSH."
   },
   {
    "repo": "winada82/dsh-telegram-bridge",
