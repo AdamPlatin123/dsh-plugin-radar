@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2985）
+# 🔌 Web UI 增强（2986）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1520,6 +1520,7 @@
 - 🟩 `[可用]` [ghbhiee-dsh-plugin-snake](https://github.com/ghbhiee/dsh-plugin-snake) ★0 — Snake game panel for the DeepSeek Harness web UI — a floating game panel in the shell overlay seat
 - ⬜ `[待定]` [gitnohup-macaron-theme](https://github.com/GitNoHup/macaron-theme) ★0 — —
 - 🟩 `[可用]` [godpanzz-dsh-usage](https://github.com/godpanzz/dsh-usage) ★0 — DSH 插件：统计今日 token 用量与费用（按模型价格与峰谷计费），Web 侧栏面板 + /usage 命令
+- `[未定位]` **goldenshit233-offpeak-panel** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [gongyijie85-dsh-design-audit](https://github.com/gongyijie85/dsh-design-audit) ★0 — DeepSeek Harness 的 UI/UX 审查与优化闭环：无头 Chrome 取证 → 确定性判据（WCAG 2.2 / 平台指南）→ 可粘贴修复 → 复测差值验证
 - 🟩 `[可用]` [grstein-dsh-locale-ptbr](https://github.com/grstein/dsh-locale-ptbr) ★0 — Pacote de idioma Português (Brasil) para a GUI Web do DeepSeek Harness
 - 🟩 `[可用]` [guhanfei-ai-dsh-mindmap](https://github.com/guhanfei-ai/dsh-mindmap) ★0 — Markdown-native AI mind maps and visual thinking for DeepSeek Harness.

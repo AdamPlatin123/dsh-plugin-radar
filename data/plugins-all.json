@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T22:01:03Z",
+ "generated_at": "2026-11-10T22:46:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6322,6 +6322,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Global agent skill: create, extend, secure, test and publish Cordis plugins for the DeepSeek Harness (DSH)"
+  },
+  {
+   "repo": "fu827707013/dsh-model-health-probe",
+   "name": "fu827707013-dsh-model-health-probe",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 模型健康检查：会话视图页签，选定供应商/协议/模型/路由后手动发真实裸 HTTP 请求，一屏看耗时、TTFT、状态、token 与三层诊断链"
   },
   {
    "repo": "gangwolf2312-creator/dsh-memory-bridge",
@@ -83959,6 +83966,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DevEco CLI 将 DevEco Studio 工具链统一封装为一个 CLI，内置 ohpm、hvigor、hdc、emulator、hilog，同时集成 HarmonyOS 技能安装、项目脚手架、本地 Harmo"
+  },
+  {
+   "repo": "gongstudent/dsh-models-plus",
+   "name": "gongstudent-dsh-models-plus",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness profile bundle：提供本地路由代理兼容 OpenAI/Anthropic API，并为模型设置页增加搜索、批量取消勾选及防卡顿开关"
   },
   {
    "repo": "Han-Yao94/dsh-filelens",
