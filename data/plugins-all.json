@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T10:01:08Z",
+ "generated_at": "2026-11-10T10:15:49Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -18168,6 +18168,13 @@
    "desc": "Green interrupt button for DeepSeek Harness WebUI: silently stops a running agent, which then summarizes progr"
   },
   {
+   "repo": "harde1/dsh-xcodebuild",
+   "name": "harde1-dsh-xcodebuild",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Xcode build, test, archive, run and log streaming for DeepSeek Harness: build/test/clean/archive/run an iOS or"
+  },
+  {
    "repo": "havingautism/dsh-ultra-ui",
    "name": "dsh-ultra-ui",
    "verdict": "ok",
@@ -22585,6 +22592,13 @@
    "desc": "选中即批注，刷新亦留存 —— DSH 行内批注插件"
   },
   {
+   "repo": "zhang-guo-wen/dsh-ui-beautify",
+   "name": "zhang-guo-wen-dsh-ui-beautify",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Page beautification for DeepSeek Harness: ship open-source CJK webfonts and let the Web GUI pick its body font"
+  },
+  {
    "repo": "zhang-jiazhi/dsh-stats-panel",
    "name": "zhang-jiazhi-dsh-stats-panel",
    "verdict": "ok",
@@ -23817,6 +23831,13 @@
    "desc": "A dynamic Cordis plugin developed for the DeepSeek Harness Web GUI"
   },
   {
+   "repo": "ffyfox/dsh-cua-preview",
+   "name": "ffyfox-dsh-cua-preview",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 浏览器自动化相关插件：点击和提交操作需经 DSH 审批；操作执行前会截取当前屏幕为截图，供用户审阅"
+  },
+  {
    "repo": "fishfromsky/dsh-march7th-skin",
    "name": "fishfromsky-dsh-march7th-skin",
    "verdict": "ok",
@@ -24060,6 +24081,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "gustavofullstack/harness-mac",
+   "name": "gustavofullstack-harness-mac",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Unofficial native macOS app for DeepSeek Harness (dsh): the official web UI in a native window, with a typed S"
   },
   {
    "repo": "hamliy-feng/duhai-vision",
@@ -25460,6 +25488,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "nonmean/dsh-meow",
+   "name": "nonmean-dsh-meow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH web plugin: a synthesized meow sound when the harness needs confirmation, needs input, hits an error, or f"
   },
   {
    "repo": "northern-penguin/dsh-h3-seg-prompt-design",
@@ -61925,6 +61960,13 @@
    "desc": "—"
   },
   {
+   "repo": "173787247/dsh-mac-companion",
+   "name": "173787247-dsh-mac-companion",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: dsh-mac-companion"
+  },
+  {
    "repo": "2501136589/dsh-rewind",
    "name": "2501136589-dsh-rewind",
    "verdict": "incompatible",
@@ -92886,6 +92928,13 @@
    "desc": "中文网页文案断行审查与修复工具：按《中文网页文案断行修复指南》检查孤字行/词组被拆/缺 keep-all 等问题，并自动插入"
   },
   {
+   "repo": "chinazkk/dsh-console",
+   "name": "chinazkk-dsh-console",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 控制台插件：主视图「控制台」标签页，真 PTY 交互终端（iTerm 风格多标签），vim/top/ctrl+c 全支持"
+  },
+  {
    "repo": "Civitasv/dsh-plugin-open-editor",
    "name": "dsh-plugin-open-editor",
    "verdict": "ok",
@@ -100108,6 +100157,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—〔📦〕"
+  },
+  {
+   "repo": "henryxiao709/dsh-pdf",
+   "name": "henryxiao709-dsh-pdf",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH-PDF插件，让 AI 助手读取任意大小的 PDF 文件： 通过 pdfjs-dist 提取完整 Unicode 文本层（中文、英文及其它文字系统），并对扫描件/图片页自动 OCR， 手写笔记也能变成可读文本"
   },
   {
    "repo": "hnlg-coder/dsh-sisyphus-presets",
