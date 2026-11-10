@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T08:30:58Z",
+ "generated_at": "2026-11-10T08:46:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6114,6 +6114,13 @@
    "desc": "Trellis workflow enforcement for the DeepSeek Harness: per-turn workflow state injection and a trellis-start e"
   },
   {
+   "repo": "emiltsoi/dsh-fleet-mesh",
+   "name": "emiltsoi-dsh-fleet-mesh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Session-aware mesh relay for DSH agents - Ed25519-signed receive route, delivery policy, outbound and registry"
+  },
+  {
    "repo": "erya2000/dsh-session-budget-guard",
    "name": "erya2000-dsh-session-budget-guard",
    "verdict": "ok",
@@ -6483,6 +6490,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A DeepSeek Harness plugin + skill that scouts the DSH ecosystem: the core deepseek-harness repo and every dsh-"
+  },
+  {
+   "repo": "idoall/dsh-session-colors",
+   "name": "idoall-dsh-session-colors",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "iHow1/dsh-ihow-memory",
@@ -11432,6 +11446,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Migrate WorkBuddy sessions, memories, MCP drafts, and automation tasks into DSH — preview-first, read-only on"
+  },
+  {
+   "repo": "dymzz/lgtm-dsh",
+   "name": "dymzz-lgtm-dsh",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "lgtm-dsh is a DSH plugin that automatically installs lgtm, reuses the Jev already configured in DSH, and lets"
   },
   {
    "repo": "elliseang0000-lang/dsh-pentest-bugtrace",
@@ -28094,6 +28115,13 @@
    "desc": "Vibe code as a team"
   },
   {
+   "repo": "jackie-cqz/dsh-jev-plugin",
+   "name": "jackie-cqz-dsh-jev-plugin",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "DeepSeek Harness plugin for TypeSafe Jev: typed decisions, configurable guardrails, and Web UI result cards."
+  },
+  {
    "repo": "john-walks-slow/dsh-clear-mind",
    "name": "john-walks-slow-dsh-clear-mind",
    "verdict": "incompatible",
@@ -29275,6 +29303,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "A calm Maid Atelier theme and practical file, preview, Git, and terminal side panel for DeepSeek Harness Web."
+  },
+  {
+   "repo": "hardai520/dsh-mcp-skill-panel",
+   "name": "hardai520-dsh-mcp-skill-panel",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "dsh mcp 和 skill 管理面板"
   },
   {
    "repo": "heiheiha798/dsh-plugin-subagent-delete",
@@ -41296,6 +41331,13 @@
    "desc": "—"
   },
   {
+   "repo": "flandre2233/dsh-recovery-resume",
+   "name": "flandre2233-dsh-recovery-resume",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Resumes DSH turns interrupted by a DeepSeek Harness restart"
+  },
+  {
    "repo": "flaricy/herdr-bridge",
    "name": "flaricy-herdr-bridge",
    "verdict": "ok",
@@ -46833,6 +46875,13 @@
    "desc": "—"
   },
   {
+   "repo": "fatatalia/dsh-shutdown-hook",
+   "name": "fatatalia-dsh-shutdown-hook",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "fei-hang/DeepSeekHarnessSDK",
    "name": "fei-hang-deepseekharnesssdk",
    "verdict": "pending",
@@ -46999,6 +47048,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Clean trajectory view plugin for DeepSeek Harness（DeepSeek Harness 的清洁轨迹视图插件）"
+  },
+  {
+   "repo": "gausszhou/dsh-scavenger",
+   "name": "gausszhou-dsh-scavenger",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "deepseek harness 插件清道夫 🧹🛡️"
   },
   {
    "repo": "gausszhou/dsh-web-search-local",
@@ -47454,6 +47510,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Палочки уровня размышлений для DeepSeek Harness: переключение глубины мышления одним кликом + меню моделей сра"
+  },
+  {
+   "repo": "imiss1314520/dsh-greet-plugin",
+   "name": "imiss1314520-dsh-greet-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A minimal DeepSeek Harness plugin that registers a greet tool."
   },
   {
    "repo": "imkingjh999/dsh-adaptive-effort",
@@ -62051,6 +62114,13 @@
    "desc": "Verified current-source search workflow for DeepSeek Harness"
   },
   {
+   "repo": "fatatalia/dsh-ollama-web-search",
+   "name": "fatatalia-dsh-ollama-web-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Fisfzy/dsh-danus",
    "name": "fisfzy-dsh-danus",
    "verdict": "incompatible",
@@ -64086,6 +64156,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "fatatalia/dsh-credentials-admin",
+   "name": "fatatalia-dsh-credentials-admin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 凭据管理设置页插件：列出/新增/删除 ~/.dsh/.credentials.yaml 的 refs（值只进不出）"
   },
   {
    "repo": "fatatalia/dsh-heartbeat",
@@ -81063,6 +81140,13 @@
    "desc": "A DeepSeek Harness (DSH) conversation 'Files' tab plugin: open, read (Markdown + TOC) and edit (Monaco) worksp"
   },
   {
+   "repo": "exynos967/dsh-request-error-dump",
+   "name": "exynos967-dsh-request-error-dump",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：模型请求报错时，把完整请求体 raw JSON 与上游错误响应 raw JSON 一起落盘 \\| DSH plugin: dump the exact raw request body and the raw"
+  },
+  {
    "repo": "fango19961106-dotcom/dsh-knowledge-graph",
    "name": "fango19961106-dotcom-dsh-knowledge-graph",
    "verdict": "ok",
@@ -95243,6 +95327,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Java 版代码所有权体检：判定 Java 代码是原创还是演绎作品"
+  },
+  {
+   "repo": "ffyfox/dsh-zcode-project-memory",
+   "name": "ffyfox-dsh-zcode-project-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ZCode 项目记忆的 DeepSeek Harness 非官方社区移植：项目级长效记忆插件"
   },
   {
    "repo": "fineven/dsh-zhipu",
