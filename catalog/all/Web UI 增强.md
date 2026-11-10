@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2986）
+# 🔌 Web UI 增强（2987）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -532,6 +532,7 @@
 - 🟩 `[可用]` [weibaohui-dsh-continue](https://github.com/weibaohui/dsh-continue) ★3 — 自动续跑插件 for DeepSeek Harness — 有序规则表：按失败类型路由 继续续跑 / 换模型 / 压缩后继续 / 停止
 - 🟩 `[可用]` [weibaohui-experts-management](https://github.com/weibaohui/experts-management) ★3 — dsh 插件 · 专家市场：ntd 格式专家/专家团队管理与注入（＋专家按钮 / /expert-名称 手势），稀疏检出专家市场
 - 🟩 `[可用]` [whiteplusms-dsh-input-plus](https://github.com/WhitePlusMS/dsh-input-plus) ★3 — —
+- 🟩 `[可用]` [xarleyn-dsh-plugins](https://github.com/xarleyn/dsh-plugins) ★3 — Community plugins, developer tooling, and shared utilities for extending DeepSeek Harness — built as an Nx + p
 - 🟩 `[可用]` [dsh-plugin-conversation-outline](https://github.com/XavierMarquis93/dsh-plugin-conversation-outline) ★3 — DeepSeek Harness conversation outline plugin (对话目录)
 - 🟩 `[可用]` [xiaoyuink-dsh-image-vision](https://github.com/xiaoyuink/dsh-image-vision) ★3 — 图片识别插件 for DeepSeek Harness：自动判断当前模型识图能力，支持多供应商视觉模型管理与检测
 - 🟩 `[可用]` [xizrsams-dsh-gui-hanhua](https://github.com/XIZRSAMS/dsh-gui-hanhua) ★3 — —

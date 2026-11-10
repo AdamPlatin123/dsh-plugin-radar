@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T17:45:59Z",
+ "generated_at": "2026-11-10T18:16:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -17732,6 +17732,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "xarleyn/dsh-plugins",
+   "name": "xarleyn-dsh-plugins",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Community plugins, developer tooling, and shared utilities for extending DeepSeek Harness — built as an Nx + p"
   },
   {
    "repo": "XavierMarquis93/dsh-plugin-conversation-outline",
