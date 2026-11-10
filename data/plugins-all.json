@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T12:01:05Z",
+ "generated_at": "2026-11-10T12:16:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4117,6 +4117,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap"
+  },
+  {
+   "repo": "hbgdjb/dsh-session-shield",
+   "name": "hbgdjb-dsh-session-shield",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Session Shield —— 让 DSH 会话日志永远不会因为一次畸形 tool call（空 id / 空 name / 非法 arguments）而打不开"
   },
   {
    "repo": "hexbee/dsh-skill-panel",
@@ -22676,6 +22683,13 @@
    "desc": "选中即批注，刷新亦留存 —— DSH 行内批注插件"
   },
   {
+   "repo": "zeusxx/dsh-composer-live",
+   "name": "zeusxx-dsh-composer-live",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Type Markdown, see it rendered live — Open-WebUI-style composer for DeepSeek Harness (DSH) web"
+  },
+  {
    "repo": "zhang-guo-wen/dsh-ui-beautify",
    "name": "zhang-guo-wen-dsh-ui-beautify",
    "verdict": "ok",
@@ -25222,6 +25236,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "luckbiao/dsh-markdown-highlighter",
+   "name": "luckbiao-dsh-markdown-highlighter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Rich syntax highlighting for DSH Markdown: activates builtin Shiki theme colors and styles diff codeblocks wit"
   },
   {
    "repo": "lueb386-lgtm/dsh-wallpaper",
@@ -32803,6 +32824,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH LAN reverse proxy plugin for accessing Web GUI from mobile devices"
+  },
+  {
+   "repo": "xianshu-virtuous/dsh-nai-artist",
+   "name": "xianshu-virtuous-dsh-nai-artist",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "NAI Artist for DeepSeek Harness: a paint tool with in-conversation image cards, translate-to-tags, and a full"
   },
   {
    "repo": "xiaoshengliang2002/dsh-prompt-boost-pro",
@@ -40461,6 +40489,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Read-only psql + redis-cli probes."
+  },
+  {
+   "repo": "173787247/dsh-wsl-eventlog",
+   "name": "173787247-dsh-wsl-eventlog",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read recent Windows event log entries from WSL, by log name and level."
   },
   {
    "repo": "173787247/dsh-wsl-glab",
@@ -84430,6 +84465,13 @@
    "desc": "—"
   },
   {
+   "repo": "momasiku/dsh-pilot",
+   "name": "momasiku-dsh-pilot",
+   "verdict": "ok",
+   "stars": 184,
+   "desc": "DeepSeek Harness 的桌面自动化：给整台 Windows 机器装上眼睛和手"
+  },
+  {
    "repo": "omdsh-dev/dsh-annotation",
    "name": "dsh-annotation",
    "verdict": "ok",
@@ -92879,6 +92921,13 @@
    "desc": "DeepSeek Harness tool: safe Git credential hints for Windows GCM from WSL."
   },
   {
+   "repo": "173787247/dsh-wsl-encoding",
+   "name": "173787247-dsh-wsl-encoding",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Diagnose UTF-8 vs Windows code-page issues for cmd/PowerShell."
+  },
+  {
    "repo": "173787247/dsh-wsl-git",
    "name": "173787247-dsh-wsl-git",
    "verdict": "ok",
@@ -97007,6 +97056,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "lyp88997/dsh-browser-service",
+   "name": "lyp88997-dsh-browser-service",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "自建 DSH 浏览器服务：单例 CDP 守护 + DSH ctx.browser provider + 兼容 dsh-univer-office 的可执行包装（非 root 服务器环境）"
   },
   {
    "repo": "lyuwen/dsh-codeact-tools",
