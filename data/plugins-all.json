@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T20:46:01Z",
+ "generated_at": "2026-11-10T21:01:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2479,6 +2479,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Fail-closed export-copy redaction for DeepSeek Harness session telemetry"
+  },
+  {
+   "repo": "1315577677/dsh-dot-plugin",
+   "name": "1315577677-dsh-dot-plugin",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Turn DeepSeek Harness into a personal assistant: one chat that plans, delegates to background workers, reviews"
   },
   {
    "repo": "1622352030/ansys-agent-bridge",
@@ -31634,6 +31641,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Shows the DSH Web GUI access URLs in Settings, including a stable fixed address that survives desktop restarts"
+  },
+  {
+   "repo": "1314521gjy/dsh-wujie-canvas",
+   "name": "1314521gjy-dsh-wujie-canvas",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "无界画布 in DeepSeek Harness: left-sidebar infinite canvas, local workbench lifecycle, and DSH Agent canvas tools."
   },
   {
    "repo": "1jiegejiayouxuewangan1/dsh-desktop-uia",
@@ -73937,6 +73951,13 @@
    "desc": "DeepSeek Harness desktop app〔📦〕"
   },
   {
+   "repo": "13520rygvv/dsh-restart-button",
+   "name": "13520rygvv-dsh-restart-button",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 桌面插件：在设置页加一行「重启」、在账号菜单「退出登录」上方再加一个入口，或者用自定义快捷键，一键重启 DeepSeek Harness"
+  },
+  {
    "repo": "173787247/dsh-wsl-fetch",
    "name": "173787247-dsh-wsl-fetch",
    "verdict": "incompatible",
@@ -83518,6 +83539,13 @@
    "verdict": "incompatible",
    "stars": 128,
    "desc": "Normify · DSH 插件：把项目架构写成归一化的分形模块树，三层校验（写时 / 校验 / 冻结回执）、30 个 normify_* 工具 + normify-gen 技能，一键渲染单文件交互式架构图；支持伴随式开"
+  },
+  {
+   "repo": "01men/ybkkasi",
+   "name": "01men-ybkkasi",
+   "verdict": "incompatible",
+   "stars": 104,
+   "desc": "One control plane for every AI asset — MCP servers, skills, agents, AI apps"
   },
   {
    "repo": "MichengAI/dsh-archive-manager",
