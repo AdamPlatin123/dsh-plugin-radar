@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T13:01:10Z",
+ "generated_at": "2026-11-10T13:16:19Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -14617,6 +14617,13 @@
    "verdict": "ok",
    "stars": 29,
    "desc": "An Electron-based multi-project AI cockpit that orchestrates multiple Claude Code instances with a built-in AI"
+  },
+  {
+   "repo": "zangxx66/dsh-prompt-setting",
+   "name": "zangxx66-dsh-prompt-setting",
+   "verdict": "pending",
+   "stars": 29,
+   "desc": "DeepSeek Harness 默认 System Prompt 管理插件：在 Web GUI「设置」里浏览、检索并覆盖最终装配进每轮会话的系统提示词"
   },
   {
    "repo": "cheshireez/dsh-skill-hub",
@@ -88567,6 +88574,13 @@
    "desc": "—"
   },
   {
+   "repo": "zdjmrq/dsh-better-chat",
+   "name": "zdjmrq-dsh-better-chat",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "给 DeepSeek Harness 的「纯对话」模式：像网页版一样聊天，但会自己多轮思考"
+  },
+  {
    "repo": "zhengjy01/weread-export",
    "name": "zhengjy01-weread-export",
    "verdict": "incompatible",
@@ -101424,6 +101438,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: show DeepSeek API pricing, token usage/cost and account balance inside DeepSeek Harness"
+  },
+  {
+   "repo": "lordraiden/dsh-9router-web-search",
+   "name": "lordraiden-dsh-9router-web-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: 9router-backed web search and web fetch providers"
   },
   {
    "repo": "lovstudio/dsh-video-studio",
