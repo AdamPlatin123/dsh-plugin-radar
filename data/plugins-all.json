@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T12:45:57Z",
+ "generated_at": "2026-11-10T13:01:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3466,6 +3466,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness (DSH) plugin: live task completion time, token & per-model cost estimator in the session head"
+  },
+  {
+   "repo": "121212165/dsh-plugin-fact-vault",
+   "name": "121212165-dsh-plugin-fact-vault",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh plugin: cross-session fact notepad with keyword recall, so a decision made in one window is findable in th"
   },
   {
    "repo": "16480000/dsh-plugin-memory",
@@ -45923,6 +45930,13 @@
    "desc": "—"
   },
   {
+   "repo": "ajia1206/dsh-restart",
+   "name": "ajia1206-dsh-restart",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "One-call restart for the running DSH process, with launchd-aware supervision detection, a detached-supervisor"
+  },
+  {
    "repo": "AKI2253/Sidor_Character",
    "name": "aki2253-sidor-character",
    "verdict": "ok",
@@ -83646,6 +83660,13 @@
    "desc": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库"
   },
   {
+   "repo": "121212165/dsh-plugin-html-report",
+   "name": "121212165-dsh-plugin-html-report",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: renders a session transcript into one self-contained HTML report you can open, archive or forward"
+  },
+  {
    "repo": "aibo204/dsh-plugin-computer-use",
    "name": "aibo204-dsh-plugin-computer-use",
    "verdict": "incompatible",
@@ -91939,6 +91960,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH plugin: generate images and videos via OpenAI-compatible providers, with dedicated settings menu and works"
+  },
+  {
+   "repo": "askdkc/dsh-cli",
+   "name": "askdkc-dsh-cli",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH向けCLI Plugin / DSH CLIplugin — supports easy ai provider setup for codex, claude, opencode, openrouter, her"
   },
   {
    "repo": "baaai123/dsh-memory-protocol",
@@ -100955,6 +100983,20 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "🔍 Ventus 搜索 · DeepSeek Harness 多引擎搜索与正文抓取插件 — Bing/360/Bilibili 并发搜索、评分去重、正文抽取、总开关与测试按钮 / Multi-engine web sea"
+  },
+  {
+   "repo": "121212165/dsh-plugin-pinboard",
+   "name": "121212165-dsh-plugin-pinboard",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: cross-session pinboard - pinned notes ride into every session's system prompt under a token budget"
+  },
+  {
+   "repo": "121212165/dsh-plugin-spend-forecast",
+   "name": "121212165-dsh-plugin-spend-forecast",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: spend forecasting over cost-ledger sidecars - daily burn rate, month-end projection, budget exhaus"
   },
   {
    "repo": "6pofx/dsh-tool-explorer",
