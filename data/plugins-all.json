@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T04:00:50Z",
+ "generated_at": "2026-11-10T04:15:49Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2773,6 +2773,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Source-aware prompt injection protection for DeepSeek Harness"
+  },
+  {
+   "repo": "lpf20200901/dsh-memory-delta",
+   "name": "lpf20200901-dsh-memory-delta",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "给 AI 编码助手的跨会话长期记忆：自动注入、只推变化"
   },
   {
    "repo": "LucienLL/dsh-session-status",
@@ -9726,6 +9733,13 @@
    "desc": "DeepSeek Harness long-term memory & self-evolving plugin: L0 capture -> L1 memory extraction -> L2 scene group"
   },
   {
+   "repo": "mario841859784/dsh-expert-orchestrator",
+   "name": "mario841859784-dsh-expert-orchestrator",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "DSH 专家编排模式 agent preset — PM-first planning, Agency expert delegation, gated delivery, experience pooling"
+  },
+  {
    "repo": "PerryLink/dsh-session-pin",
    "name": "dsh-session-pin",
    "verdict": "incompatible",
@@ -12776,6 +12790,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "neufagents/dsh-healthcheck",
+   "name": "neufagents-dsh-healthcheck",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Runtime health check for DeepSeek Harness: session-library scan + crash-tail inspection"
   },
   {
    "repo": "NexusAgentX/dsh-advisor",
@@ -18299,6 +18320,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "qiqibabyy/dsh-pet-desktop",
+   "name": "qiqibabyy-dsh-pet-desktop",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "A self-contained desktop pet plugin for DeepSeek Harness — Codex-style animated pets with affinity, activity b"
   },
   {
    "repo": "qwert702/dsh-memory",
@@ -24363,6 +24391,13 @@
    "desc": "为 DeepSeek Harness 打造的液态玻璃主题插件：磨砂玻璃、可调色调、动态壁纸，让 DSH 界面焕然一新"
   },
   {
+   "repo": "lolkda/dsh-web-lan",
+   "name": "lolkda-dsh-web-lan",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Make `dsh web` (DeepSeek Harness browser UI) reachable from other machines on a LAN or virtual LAN — no extra"
+  },
+  {
    "repo": "lonelymoon87/dsh-engineering-suite",
    "name": "lonelymoon87-dsh-engineering-suite",
    "verdict": "ok",
@@ -29865,6 +29900,20 @@
    "desc": "实现与 WorkBuddy 高度一致的拖拽/粘贴文件引用体验"
   },
   {
+   "repo": "mingzhicode/dsh-interactive-terminal",
+   "name": "mingzhicode-dsh-interactive-terminal",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Persistent Bash terminals for DeepSeek Harness, letting humans take over and continue model-started sessions t"
+  },
+  {
+   "repo": "misswell/dsh-advanced-provider-settings",
+   "name": "misswell-dsh-advanced-provider-settings",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Advanced provider configuration UI for DeepSeek Harness (DSH): headers, User-Agent, retry policy, timeouts, vi"
+  },
+  {
    "repo": "mizuhara37/dsh-nene-theme",
    "name": "mizuhara37-dsh-nene-theme",
    "verdict": "incompatible",
@@ -31137,6 +31186,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mwilljx-web/dsh-plugin-wallpaper",
+   "name": "mwilljx-web-dsh-plugin-wallpaper",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness web plugin: a cyberpunk skin for the sidebar and icon buttons, plus a custom background image"
   },
   {
    "repo": "n0pe-sled/herdr-themes",
@@ -36555,6 +36611,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "noetion/dsh-jev",
+   "name": "noetion-dsh-jev",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH bundle that registers jev_ask for TypeSafe Jev noul, choice, and score answers."
   },
   {
    "repo": "nononononofish/dsh-region",
@@ -61659,6 +61722,13 @@
    "desc": "—"
   },
   {
+   "repo": "qilin-zhu/dsh-model-relay",
+   "name": "qilin-zhu-dsh-model-relay",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把deepseek harness里已经配好的模型中转出去，让其他项目可以使用"
+  },
+  {
    "repo": "qingkong143/dsh-cli-workspaces",
    "name": "qingkong143-dsh-cli-workspaces",
    "verdict": "incompatible",
@@ -65710,6 +65780,13 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "—"
+  },
+  {
+   "repo": "lubanqihao9875/dsh-figma-mcp",
+   "name": "lubanqihao9875-dsh-figma-mcp",
+   "verdict": "ok",
+   "stars": 10,
+   "desc": "DSH 的 Figma MCP 一键连接插件"
   },
   {
    "repo": "omdsh-dev/awesome-deepseek-harness-desktop",
@@ -79999,6 +80076,13 @@
    "desc": "The small deterministic operations an agent needs mid-task"
   },
   {
+   "repo": "maxesisnclaw/dsh-download-button",
+   "name": "maxesisnclaw-dsh-download-button",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Download button for delivered-file cards in DeepSeek Harness / 给交付物文件卡片加下载按钮"
+  },
+  {
    "repo": "mdikarev/dsh-filetree",
    "name": "mdikarev-dsh-filetree",
    "verdict": "ok",
@@ -81903,6 +81987,13 @@
    "desc": "—"
   },
   {
+   "repo": "liiydong/dsh-workbench",
+   "name": "liiydong-dsh-workbench",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 工作台：把「AI 改 md → 生成 Word/Excel/PDF → 你审这一版」变成一条看得见的时间轴（版本快照、审批、打开某一版、和上一版比正文差异、把漏记的产物收编成记录），产线按最近动过排、目录从「最近"
+  },
+  {
    "repo": "lnyuqian/dsh-restart-plugin",
    "name": "lnyuqian-dsh-restart-plugin",
    "verdict": "incompatible",
@@ -83700,6 +83791,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 插件：给助手消息加头像与名字（App 图标 + 吃白饭的蓝色大肥鱼）\\| Adds app-icon avatar and name to assistant messages"
+  },
+  {
+   "repo": "lifecoder1988/dsh-devspace",
+   "name": "lifecoder1988-dsh-devspace",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DevSpace nodes and remote-directory mirror Workspaces for the DeepSeek Harness: manage N MCP endpoints, adopt"
   },
   {
    "repo": "lilith1257/dsh-plugin-qq-groupmate",
@@ -86292,6 +86390,13 @@
    "desc": "—"
   },
   {
+   "repo": "lifeopsgo/dsh-lark-session-monitor-plugin",
+   "name": "lifeopsgo-dsh-lark-session-monitor-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "飞书会话监听并投递到指定工作区的会话中"
+  },
+  {
    "repo": "loklamlok/dsh-queue-director",
    "name": "loklamlok-dsh-queue-director",
    "verdict": "incompatible",
@@ -88040,6 +88145,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Local code intelligence for DSH: source-backed Context Packs, symbol navigation, and Git-diff Impact X-Ray."
+  },
+  {
+   "repo": "liuhange789/data-asset-inspector",
+   "name": "liuhange789-data-asset-inspector",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "30 DSH plugins \\| data asset registration \\| gov data inspection \\| AML compliance \\| research provenance \\| BIM in"
   },
   {
    "repo": "LoserFox/dsh-git-identity",

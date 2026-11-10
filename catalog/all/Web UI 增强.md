@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2840）
+# 🔌 Web UI 增强（2847）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -702,6 +702,7 @@
 - 🟩 `[可用]` [qichuang321-dsh-workflow-groups](https://github.com/qichuang321/dsh-workflow-groups) ★2 — 分组工作流看板插件：每个分好组的 workflow 在 DSH Web GUI 有独立标签页实时展示状态/阶段/子agent/日志
 - 🟩 `[可用]` [qing9835-dsh-eyes](https://github.com/qing9835/dsh-eyes) ★2 — DSH 视觉模型插件：为无视觉能力的文本模型提供图片识别
 - 🟩 `[可用]` [qinpanwan-dsh-sky-skin](https://github.com/QinpanWan/dsh-sky-skin) ★2 — —
+- 🟩 `[可用]` [qiqibabyy-dsh-pet-desktop](https://github.com/qiqibabyy/dsh-pet-desktop) ★2 — A self-contained desktop pet plugin for DeepSeek Harness — Codex-style animated pets with affinity, activity b
 - 🟩 `[可用]` [qwert702-dsh-memory](https://github.com/qwert702/dsh-memory) ★2 — Long-term memory plugin for the DeepSeek Harness Web GUI: project+global stores, auto extraction/injection, sm
 - 🟩 `[可用]` [r600a-code-dsh-swarm-router](https://github.com/r600a-code/dsh-swarm-router) ★2 — DSH plugin: sub-agent matrix swarm — routes heterogeneous tasks to the most suitable model (OpenRouter-like +
 - 🟩 `[可用]` [raomaiping-hash-dsh-client-ui-mobile](https://github.com/raomaiping-hash/dsh-client-ui-mobile) ★2 — Mobile UI optimizer for the DeepSeek Harness Web GUI — drawer sidebar, full-screen settings, safe areas, touch
@@ -1629,6 +1630,7 @@
 - ⬜ `[待定]` [liupengyang-1008-dsh-plugin-development](https://github.com/liupengyang-1008/dsh-plugin-development) ★0 — Development-time skill for building DSH (DeepSeek Harness) / Cordis plugins end to end - plugin forms, templat
 - 🟩 `[可用]` [liuyun847-dsh-client-ui-turn-chime](https://github.com/liuyun847/dsh-client-ui-turn-chime) ★0 — DSH 客户端插件:AI 回复完成时播放双音提示音 (DeepSeek Harness)
 - 🟩 `[可用]` [lkdxzhxi-dsh-glass-ui-theme](https://github.com/lkdxzhxi/dsh-glass-ui-theme) ★0 — 为 DeepSeek Harness 打造的液态玻璃主题插件：磨砂玻璃、可调色调、动态壁纸，让 DSH 界面焕然一新
+- 🟩 `[可用]` [lolkda-dsh-web-lan](https://github.com/lolkda/dsh-web-lan) ★0 — Make `dsh web` (DeepSeek Harness browser UI) reachable from other machines on a LAN or virtual LAN — no extra
 - 🟩 `[可用]` [lonelymoon87-dsh-engineering-suite](https://github.com/lonelymoon87/dsh-engineering-suite) ★0 — One install for SpecFlow, GitFlow, Guardian, and Code Intel on DeepSeek Harness.
 - 🟩 `[可用]` [long6177-dsh-markdown-input](https://github.com/long6177/dsh-markdown-input) ★0 — a dsh‑plugin for enhancing users' Markdown input experience \| 一个 用于增强用户 markdown 输入体验的 dsh-plugin
 - 🟩 `[可用]` [longisland-icetea-dsh-lan-access](https://github.com/longisland-icetea/dsh-lan-access) ★0 — Open the DeepSeek Harness Web GUI's LAN access fences: serve on all interfaces, trust only the configured LAN
@@ -1669,6 +1671,7 @@
 - ⬜ `[待定]` [metercai-aimail](https://github.com/metercai/aimail) ★0 — AIMail: the native email system for the AI age — purpose-built for human-agent and agent-agent collaboration.
 - ⬜ `[待定]` [mfwtw-dsh-ui-web](https://github.com/MFWTW/dsh-UI-web) ★0 — —
 - 🟩 `[可用]` [mhdfy1988-dsh-skin-platform](https://github.com/mhdfy1988/dsh-skin-platform) ★0 — Independent multi-package skin platform for DeepSeek Harness
+- `[未定位]` **microsharpant-dsh-simple-theme-plugin** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [mikijiyun-dsh-token-rush](https://github.com/mikijiyun/dsh-token-rush) ★0 — DSH Web GUI 悬浮仪表：实时 token 消耗 / 估算金额 / 账户余额，高峰时段自动变橙红色
 - 🟩 `[可用]` [ming6203-dsh-message-navigator](https://github.com/ming6203/dsh-message-navigator) ★0 — DSH Web GUI 插件：会话右侧悬浮消息导航条 —— 收起态短横杠，悬停展开用户消息摘要，点击平滑滚动定位历史消息
 - `[未定位]` **mistyrain-field-dsh-hu-tao-skin** — 占位待复核，判定暂不展示
@@ -2491,6 +2494,8 @@
 - 🟨 `[不兼容]` [mangmax-dsh-themes](https://github.com/MangMax/dsh-themes) ★1 — —
 - 🟨 `[不兼容]` [martinbear1-dsh-realtime-voice](https://github.com/martinbear1/dsh-realtime-voice) ★1 — Realtime full-duplex voice Agent plugin for DeepSeek Harness WebUI and future WeChat Mini Program clients
 - 🟨 `[不兼容]` [miaoxintechnology-dsh-workbuddy-files](https://github.com/miaoxintechnology/dsh-workbuddy-files) ★1 — 实现与 WorkBuddy 高度一致的拖拽/粘贴文件引用体验
+- 🟨 `[不兼容]` [mingzhicode-dsh-interactive-terminal](https://github.com/mingzhicode/dsh-interactive-terminal) ★1 — Persistent Bash terminals for DeepSeek Harness, letting humans take over and continue model-started sessions t
+- 🟨 `[不兼容]` [misswell-dsh-advanced-provider-settings](https://github.com/misswell/dsh-advanced-provider-settings) ★1 — Advanced provider configuration UI for DeepSeek Harness (DSH): headers, User-Agent, retry policy, timeouts, vi
 - 🟨 `[不兼容]` [mizuhara37-dsh-nene-theme](https://github.com/mizuhara37/dsh-nene-theme) ★1 — —
 - 🟨 `[不兼容]` [mldhao-dsh-blue-archive-shiroko](https://github.com/mldhao/dsh-blue-archive-shiroko) ★1 — Blue Archive-inspired DSH theme with a Shiroko desktop companion, Codex-style reply bubbles, petting effects,
 - 🟨 `[不兼容]` [mojiexuan-dsh-git](https://github.com/mojiexuan/dsh-git) ★1 — A VS Code-style Git source control panel plugin for DeepSeek Harness.为 DeepSeek Harness 开发的一个类似 VS Code 的 Git
@@ -2698,6 +2703,7 @@
 - 🟨 `[不兼容]` [momojie-s-dsh-right-dock](https://github.com/Momojie-S/dsh-right-dock) ★0 — —
 - 🟨 `[不兼容]` [moolmool114-dsh-client-ui-recipes](https://github.com/Moolmool114/dsh-client-ui-recipes) ★0 — —
 - `[未定位]` **moritang-dsh-neubrutalism-theme** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [mwilljx-web-dsh-plugin-wallpaper](https://github.com/mwilljx-web/dsh-plugin-wallpaper) ★0 — DeepSeek Harness web plugin: a cyberpunk skin for the sidebar and icon buttons, plus a custom background image
 - 🟨 `[不兼容]` [n0pe-sled-herdr-themes](https://github.com/n0pe-sled/herdr-themes) ★0 — dsh plugin: the 18 herdr themes as Settings > Themes with live swatch cards and persistent selection
 - 🟨 `[不兼容]` [n0pe-sled-system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) ★0 — dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with l
 - 🟨 `[不兼容]` [n0pe-sled-web-search-searxng](https://github.com/n0pe-sled/web-search-searxng) ★0 — dsh plugin: SEARXNG-backed web search provider for the dsh web_search tool (host-only, no Settings UI)
@@ -2709,6 +2715,7 @@
 - 🟨 `[不兼容]` [nkjv2-dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) ★0 — —
 - 🟨 `[不兼容]` [noirbright-dsh-codex-sidebar](https://github.com/NOirBRight/dsh-codex-sidebar) ★0 — —
 - 🟨 `[不兼容]` [noirbright-dsh-llm-providers-ui](https://github.com/NOirBRight/dsh-llm-providers-ui) ★0 — —
+- `[未定位]` **nonshiranai-dshx-tui** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [nothing-is-important-dsh-tui](https://github.com/Nothing-is-important/dsh-tui) ★0 — —
 - 🟨 `[不兼容]` [olympianz-dsh-github-sidebar](https://github.com/Olympianz/dsh-github-sidebar) ★0 — —
 - 🟨 `[不兼容]` [omdsh-dev-dsh-tui](https://github.com/omdsh-dev/dsh-tui) ★0 — Terminal UI front door for DeepSeek Harness (dsh) — Cordis plugin over pi-tui: transcript, tool cards, overlay
