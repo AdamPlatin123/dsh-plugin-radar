@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T08:46:06Z",
+ "generated_at": "2026-11-10T09:00:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4616,6 +4616,13 @@
    "desc": "DeepSeek Harness (dsh) plugin: automatic session handoff when a session keeps hitting 429 TPM rate limits — ca"
   },
   {
+   "repo": "miseryrua/dsh-wb-cron",
+   "name": "miseryrua-dsh-wb-cron",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 无人值守定时任务调度器：cron/固定间隔/一次性三种调度，到点在 web profile 进程内拉起全新 root agent 执行任务指令，每任务可钉模型与 Agent 预设（预设被"
+  },
+  {
    "repo": "MJorgin/dsh-skill-router",
    "name": "mjorgin-dsh-skill-router",
    "verdict": "ok",
@@ -7148,6 +7155,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mengxiaoxian/lookover",
+   "name": "mengxiaoxian-lookover",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "在当前页面提问，把解决经验留给下次：DSH 悬浮气泡、按需页面上下文与个人解决经验插件（dsh-bubble / dsh-look / dsh-expmem）"
   },
   {
    "repo": "menotbobbybrown/create-dsh-app",
@@ -11714,6 +11728,13 @@
    "desc": "—"
   },
   {
+   "repo": "linbin-mk/dsh-workspace-prompt",
+   "name": "linbin-mk-dsh-workspace-prompt",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "deepseek-harness 工作区自定义提示词"
+  },
+  {
    "repo": "lionXiao/dsh-llm-volcengine-plans",
    "name": "lionxiao-dsh-llm-volcengine-plans",
    "verdict": "incompatible",
@@ -12715,6 +12736,13 @@
    "desc": "按职责把工作分派给绑定了不同模型的子代理的 DeepSeek Harness 插件"
   },
   {
+   "repo": "jackchen13755/dsh-jev-kit",
+   "name": "jackchen13755-dsh-jev-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Jev decision toolkit for DeepSeek Harness: 22 named typed judgments (privacy scan, change-scope, memory triage"
+  },
+  {
    "repo": "jimmyzhang219/dsh-plan-and-execute",
    "name": "jimmyzhang219-dsh-plan-and-execute",
    "verdict": "incompatible",
@@ -12804,6 +12832,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "konglong87/dsh-skills-input",
+   "name": "konglong87-dsh-skills-input",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Skill selector and skill browser for browsing user-invocable skills and inserting slash commands into the"
   },
   {
    "repo": "KumarZX/dsh-memory-wrap",
@@ -25084,6 +25119,13 @@
    "desc": "DSH 插件：侧边栏按窗口比例打开（左栏默认 14%、右栏可选），同一父会话组内共享右侧栏面板"
   },
   {
+   "repo": "maxesisnclaw/dsh-force-motion",
+   "name": "maxesisnclaw-dsh-force-motion",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Keep DeepSeek Harness UI animations running despite prefers-reduced-motion / 强制开启 dsh 界面动效"
+  },
+  {
    "repo": "me9rez/dsh-pwsh-style",
    "name": "me9rez-dsh-pwsh-style",
    "verdict": "ok",
@@ -31725,6 +31767,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Standalone, themeable TUI for the official DeepSeek Harness engine — one-command npx, prebuilt runtimes, and a"
+  },
+  {
+   "repo": "linbin-mk/dsh-brand-deepseek",
+   "name": "linbin-mk-dsh-brand-deepseek",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "deepseek-harness 皮肤"
+  },
+  {
+   "repo": "liudapeng0311/dsh-pwa-launcher",
+   "name": "liudapeng0311-dsh-pwa-launcher",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A DSH plugin that turns the browser PWA shortcut you already have on your desktop into a real launcher: double"
   },
   {
    "repo": "Liujie-harsh/heart-health-dsh-suite",
@@ -62485,6 +62541,13 @@
    "desc": "—"
   },
   {
+   "repo": "leolee9086/dsh-tool-gateway",
+   "name": "leolee9086-dsh-tool-gateway",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把 DSH 的工具目录收成 find_tools + call_tool 两个元工具；其余工具仍可调用，只是入口变成这两个"
+  },
+  {
    "repo": "lijx122/dsh-plugin-auth-guard",
    "name": "lijx122-dsh-plugin-auth-guard",
    "verdict": "incompatible",
@@ -64543,6 +64606,13 @@
    "desc": "—"
   },
   {
+   "repo": "jackchen13755/dsh-jev-lens",
+   "name": "jackchen13755-dsh-jev-lens",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Jev quality bench for DeepSeek Harness: shadow-accounted dangerous-command judging, injection screening, canar"
+  },
+  {
    "repo": "JackFGreen/dsh-plugin-minimal-web",
    "name": "jackfgreen-dsh-plugin-minimal-web",
    "verdict": "incompatible",
@@ -65052,6 +65122,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mn288/dsh-vertex-gemini",
+   "name": "mn288-dsh-vertex-gemini",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: Gemini on Google Cloud Vertex AI through Application Default Credentials"
   },
   {
    "repo": "Monicaxixi/dsh-loglens",
@@ -73720,6 +73797,13 @@
    "desc": "DeepSeek Harness plugin that trusts authentication already performed by a reverse proxy (Traefik + Keycloak OI"
   },
   {
+   "repo": "lurejewel/dsh-desktop-notifier",
+   "name": "lurejewel-dsh-desktop-notifier",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "m1452700576/dsh-app-updater",
    "name": "m1452700576-dsh-app-updater",
    "verdict": "incompatible",
@@ -81525,6 +81609,13 @@
    "desc": "Paper review panel for the DeepSeek Harness: PDF to selectable text with figures, equations, and an ask-the-pa"
   },
   {
+   "repo": "lzhphantom/kgraph-plugin",
+   "name": "lzhphantom-kgraph-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）组合包插件：只读扫描任意项目目录，自动构建**模块级 + 文件级知识图谱**，帮助快速理解项目整体架构与设计思路，为后续进化、优化提供依据"
+  },
+  {
    "repo": "lzxcs/archive-vault-pro",
    "name": "lzxcs-archive-vault-pro",
    "verdict": "ok",
@@ -85368,6 +85459,13 @@
    "desc": "—"
   },
   {
+   "repo": "linbin-mk/dsh-notify",
+   "name": "linbin-mk-dsh-notify",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "deepseek-harness macos 通知插件"
+  },
+  {
    "repo": "ljnljn2005/dsh-wecom-notify",
    "name": "ljnljn2005-dsh-wecom-notify",
    "verdict": "ok",
@@ -86941,6 +87039,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "justhalfbit/dsh-plugin-jev-effort-selector",
+   "name": "justhalfbit-dsh-plugin-jev-effort-selector",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One 模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，"
   },
   {
    "repo": "yyyy231209/ai-company-framework",
@@ -101893,6 +101998,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "onepayzk-glitch/dsh-typesafe-ask",
+   "name": "onepayzk-glitch-dsh-typesafe-ask",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Ask TypeSafe (Jev) for structured decisions from inside DeepSeek Harness: typed questions in, calibrated proba"
   },
   {
    "repo": "PaidaxingTuT/dsh-code-runner",

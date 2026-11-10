@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2920）
+# 🔌 Web UI 增强（2923）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1693,6 +1693,7 @@
 - 🟩 `[可用]` [masknull-dsh-delete-session](https://github.com/masknull/dsh-delete-session) ★0 — DSH 插件：在侧栏会话行的 ⋯ 菜单中增加「删除会话」（永久删除，不可恢复），不接管也不禁用任何官方插件行
 - 🟩 `[可用]` [masknull-dsh-sidebar-ratio](https://github.com/masknull/dsh-sidebar-ratio) ★0 — DSH 插件：侧边栏按窗口比例打开（左栏默认 14%、右栏可选），同一父会话组内共享右侧栏面板
 - `[未定位]` **mauit06-dsh-jinhsi-skin** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [maxesisnclaw-dsh-force-motion](https://github.com/maxesisnclaw/dsh-force-motion) ★0 — Keep DeepSeek Harness UI animations running despite prefers-reduced-motion / 强制开启 dsh 界面动效
 - 🟩 `[可用]` [me9rez-dsh-pwsh-style](https://github.com/me9rez/dsh-pwsh-style) ★0 — 修改 DSH 会话回复中 pwsh(PowerShell) 工具卡片的主题、字体与可读性增强
 - 🟩 `[可用]` [mengge237-dsh-legacy-compat](https://github.com/mengge237/dsh-legacy-compat) ★0 — DSH 旧版兼容垫片：给 0.1.2-rc.1 的预设补上 Session.events 别名，并在启动前把损坏的会话日志隔离掉 ｜ Compatibility shim for older DSH builds: ad
 - 🟩 `[可用]` [mercy719-dsh-client-ui-weather](https://github.com/mercy719/dsh-client-ui-weather) ★0 — Weather dashboard plugin for the DeepSeek Harness Web GUI
@@ -2745,7 +2746,9 @@
 - 🟨 `[不兼容]` [lffrom0303-dsh-window98-theme](https://github.com/lffrom0303/dsh-window98-theme) ★0 — A faithful Windows 98 skin for the DeepSeek Harness web GUI, derived from the classic 98.css design system.
 - `[未定位]` **lhenlihai-hub-dsh-voice-input** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [liang7878-deepseek-harness-tui](https://github.com/liang7878/deepseek-harness-tui) ★0 — Standalone, themeable TUI for the official DeepSeek Harness engine — one-command npx, prebuilt runtimes, and a
+- 🟨 `[不兼容]` [linbin-mk-dsh-brand-deepseek](https://github.com/linbin-mk/dsh-brand-deepseek) ★0 — deepseek-harness 皮肤
 - `[未定位]` **liu-zhexi-deepseek-harness-desktop-themes** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [liudapeng0311-dsh-pwa-launcher](https://github.com/liudapeng0311/dsh-pwa-launcher) ★0 — A DSH plugin that turns the browser PWA shortcut you already have on your desktop into a real launcher: double
 - 🟨 `[不兼容]` [liujie-harsh-heart-health-dsh-suite](https://github.com/Liujie-harsh/heart-health-dsh-suite) ★0 — —
 - 🟨 `[不兼容]` [liukj98-dsh-ui-tools](https://github.com/liukj98/dsh-ui-tools) ★0 — deepseek harness tools 插件
 - 🟨 `[不兼容]` [liutian11451-png-dsh-plugin-compact-button](https://github.com/liutian11451-png/dsh-plugin-compact-button) ★0 — Composer compact control for the DeepSeek Harness web UI: a button beside the model selector that runs the dep
