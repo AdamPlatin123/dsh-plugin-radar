@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T09:31:01Z",
+ "generated_at": "2026-11-10T09:46:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -885,6 +885,13 @@
    "desc": "自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复"
   },
   {
+   "repo": "eryajf/dbx-plugin-skill",
+   "name": "eryajf-dbx-plugin-skill",
+   "verdict": "ok",
+   "stars": 10,
+   "desc": "一个用于 DBX 插件开发 的 agent skill（技能包），覆盖从创建到上架官方商店的全链路"
+  },
+  {
    "repo": "EugeneVl/dsh_session_folders",
    "name": "eugenevl-dsh-session-folders",
    "verdict": "pending",
@@ -1667,6 +1674,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the loc"
+  },
+  {
+   "repo": "exoticknight/dsh-plugin-template",
+   "name": "exoticknight-dsh-plugin-template",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "One sentence to an AI agent: create, release and list a DeepSeek Harness plugin"
   },
   {
    "repo": "fan56/dsh-subagent-registry",
@@ -9467,13 +9481,6 @@
    "desc": "DSH 的子代理模型管控：由 Jev 判定本轮任务类别，再把子代理自身的请求改写为该类别对应的 provider、model 与推理强度；会话内可用继承/自动/手动三种方式指定模型，每个角色可带一条先于任务注入的前置提示词，并记录最近的派发流水。bundle 形态（host + client 双半，`dsh.bundle.patch` → `./cordis.patch.yml`），npm 已发布 0.1.1，MIT，仓库 topics 含 `dsh-plugin`"
   },
   {
-   "repo": "exoticknight/dsh-system1",
-   "name": "dsh-system1",
-   "verdict": "untested",
-   "stars": null,
-   "desc": "通过统一接口接入 TypeSafe/Jev、Cloudflare/Clef、Nace/Drex、本地 Laya 和兼容的自定义决策提供商，供 Agent 与插件进行分类、筛选、评分或图片目标定位，并返回结构化结果。"
-  },
-  {
    "repo": "janeickholt/dsh-warm",
    "name": "dsh-warm",
    "verdict": "untested",
@@ -11796,6 +11803,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "lycheelink/dsh-workbench",
+   "name": "lycheelink-dsh-workbench",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Enterprise Agent Workbench for DeepSeek Harness (DSH)"
   },
   {
    "repo": "meisam2236/agent-board",
@@ -17181,6 +17195,13 @@
    "desc": "—"
   },
   {
+   "repo": "lemonmmice/dsh-agent-toolchain",
+   "name": "lemonmmice-dsh-agent-toolchain",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Evidence over claims for coding agents: 55 DSH/MCP tools (23 read-only) that build, drive, capture and profile"
+  },
+  {
    "repo": "lhh010/dsh-input-history",
    "name": "dsh-input-history",
    "verdict": "pending",
@@ -19715,6 +19736,13 @@
    "desc": "DSH plugin: auto-detect and configure model capabilities (reasoningEfforts + input modalities) for llm-pi-ai"
   },
   {
+   "repo": "banana770/dsh-work-badge",
+   "name": "banana770-dsh-work-badge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside"
+  },
+  {
    "repo": "baobaolaodie/flow-comet",
    "name": "baobaolaodie-flow-comet",
    "verdict": "ok",
@@ -21183,6 +21211,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Deliverable evidence-chain & conformance checks for DSH — turn requirements into an executable spec, trace eve"
+  },
+  {
+   "repo": "minivv/dsh-activity-bell",
+   "name": "minivv-dsh-activity-bell",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 侧边栏活动铃铛：会话完成给角标，一键切换最近活动列表"
   },
   {
    "repo": "mjn96/dsh-rhine-theme",
@@ -30584,6 +30619,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin for cross-session token usage statistics (/usage command + Web GUI Token 用量 panel)"
+  },
+  {
+   "repo": "loyalchiiina/dsh-lobsterai-daddy",
+   "name": "loyalchiiina-dsh-lobsterai-daddy",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "LobsterAIDaddy — draggable floating ball + slide-in drawer embedding the LobsterDaddy multi-account console in"
   },
   {
    "repo": "lwy521/dsh-remote-mcp-manager",
@@ -65075,6 +65117,13 @@
    "desc": "DSH web_search 工具的可配置化增强版：model/baseURL/auth 全可配"
   },
   {
+   "repo": "lphuxhuq/dsh-vietnamese-lang",
+   "name": "lphuxhuq-dsh-vietnamese-lang",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "lsLs-kid/dsh-tasklist",
    "name": "lsls-kid-dsh-tasklist",
    "verdict": "incompatible",
@@ -68111,6 +68160,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH插件市场，自动更新，热重载插件，多种排序方案，快速管理和安装插件"
+  },
+  {
+   "repo": "davidtan2008/deepseek-harness-desktop",
+   "name": "davidtan2008-deepseek-harness-desktop",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "deepseek-harness-desktop"
   },
   {
    "repo": "dlssjdyka0019/dsh-launcher",
@@ -73235,6 +73291,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jackovibe/dsh-settings-order",
+   "name": "jackovibe-dsh-settings-order",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH Web 设置左列自由排序插件：拖动 / Alt+↑↓ / ↑↓ 按钮，宿主持久，跨浏览器生效（Free ordering for the DeepSeek Harness Web Settings navigat"
   },
   {
    "repo": "januory/dsh-remote-workspaces",
@@ -95980,6 +96043,13 @@
    "desc": "DSH core version monitor & upgrade helper: sidebar status badge, npm release checker, and one-click update com"
   },
   {
+   "repo": "jackchen13755/dsh-jev-core",
+   "name": "jackchen13755-dsh-jev-core",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Shared kernel for the Jev DSH plugins: transport, retry/breaker/limiter, verdict cache, service shims"
+  },
+  {
    "repo": "jaco-tech/dsh-web-fetch-crw",
    "name": "jaco-tech-dsh-web-fetch-crw",
    "verdict": "ok",
@@ -99494,6 +99564,13 @@
    "desc": "Remote execution worlds for DeepSeek Harness: run the agent's Bash, terminals, LSP and file tools inside a con"
   },
   {
+   "repo": "ginkgonine/dsh-server-hub",
+   "name": "ginkgonine-dsh-server-hub",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "A persistent multi-server switcher for DeepSeek Harness Web"
+  },
+  {
    "repo": "greyoak111/siyuan-codex-bridge",
    "name": "greyoak111-siyuan-codex-bridge",
    "verdict": "incompatible",
@@ -100768,6 +100845,13 @@
    "desc": "DSH 插件：审计仓库的文档-代码一致性——版本号/更新记录表/结构树/模块清单/测试计数/文档间引用漂移检测，按严重度输出修复建议，全程只读"
   },
   {
+   "repo": "luxus0946/dsh-uuyc",
+   "name": "luxus0946-dsh-uuyc",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "UU Remote (uuyc-cli) Windows remote-control plugin for DeepSeek Harness - device management & remote terminal"
+  },
+  {
    "repo": "lwklbb/dsh-worktrees",
    "name": "lwklbb-dsh-worktrees",
    "verdict": "incompatible",
@@ -101550,6 +101634,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness（dsh）的 Matrix agent 桥接插件：把 Matrix 房间桥接到 harness agent 会话，每个房间一个会话，支持在聊天里远程监控、审批和追加指令；多分身架构 + 媒"
+  },
+  {
+   "repo": "exoticknight/dsh-system1",
+   "name": "exoticknight-dsh-system1",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Unifies Jev/TypeSafe, Clef/Cloudflare, Drex/Nace, Decider/meraGPT, self-hosted Laya, and custom decision provi"
   },
   {
    "repo": "fancyboi999/dsh-newwindows",
