@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T05:16:06Z",
+ "generated_at": "2026-11-10T05:31:13Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -6926,6 +6926,13 @@
    "desc": "Ultra-light dsh login gate: shared key or master/guest keys, ACL-filtered session list, owner-only share/unsha"
   },
   {
+   "repo": "lucagiftzek/dsh-mail",
+   "name": "lucagiftzek-dsh-mail",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: mail client and agent mail tools for DSH: IMAP, POP3, SMTP and OAuth2 accounts, reading tab, sched"
+  },
+  {
    "repo": "LucienLL/dsh-session-id",
    "name": "lucienll-dsh-session-id",
    "verdict": "ok",
@@ -13259,6 +13266,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wywincl/data-analysis-agent",
+   "name": "wywincl-data-analysis-agent",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "data analysis agent for everyone"
   },
   {
    "repo": "xarleyn/dsh-sleev",
@@ -24405,6 +24419,13 @@
    "desc": "DSH Web client plugin: a corner pill showing live connection state for the DeepSeek Harness Web UI"
   },
   {
+   "repo": "libre-webui/dsh-native-provider",
+   "name": "libre-webui-dsh-native-provider",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Use DeepSeek Harness providers in Libre WebUI over a private local connection."
+  },
+  {
    "repo": "licheng-ma/dsh-wechat-skin",
    "name": "licheng-ma-dsh-wechat-skin",
    "verdict": "ok",
@@ -26895,6 +26916,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Floating GPU monitor (nvidia-smi) for the DSH Web UI — live per-GPU utilization, VRAM, temperature, power and"
+  },
+  {
+   "repo": "zhuchuovo/dsh-swarm-orchestrator",
+   "name": "zhuchuovo-dsh-swarm-orchestrator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：并行子代理集群 —— 母代理把目标拆成切片，并发驱动多个独立子代理写代码，输入框上方实时显示每个子代理此刻在做什么，并发数与各切片模型可在设置页配置"
   },
   {
    "repo": "zhuifengqug/dsh-quick-restart",
@@ -30306,6 +30334,13 @@
    "desc": "Wishes that outlive the session — turn a DeepSeek Harness agent's runtime plugins into permanently installed o"
   },
   {
+   "repo": "szh1007/dsh-changes-panel",
+   "name": "szh1007-dsh-changes-panel",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "TheMcSwift/DeepSeek-TUI",
    "name": "themcswift-deepseek-tui",
    "verdict": "incompatible",
@@ -31774,6 +31809,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "自定义参数provider面板"
+  },
+  {
+   "repo": "tcgbp/dock-flash",
+   "name": "tcgbp-dock-flash",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Extensible quick-control panel for DSH Web — switch registry, skin manager, standalone or with dock-base."
   },
   {
    "repo": "termanli/dsh-fulltext-search",
@@ -41884,6 +41926,13 @@
    "desc": "—"
   },
   {
+   "repo": "lldois/dsh-jev",
+   "name": "lldois-dsh-jev",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "TypeSafe Jev System One semantic tool routing and typed decisions for DeepSeek Harness (DSH)"
+  },
+  {
    "repo": "LLYlab/DSHEssentialTools",
    "name": "llylab-dshessentialtools",
    "verdict": "ok",
@@ -42925,6 +42974,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "samecorner/dsh-token-usage",
+   "name": "dsh-token-usage",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH (DeepSeek Harness) web plugin — Token usage analytics tab for the conversati"
   },
   {
    "repo": "SC0321/harnessbay",
@@ -44521,13 +44577,6 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "samecorner/dsh-token-usage",
-   "name": "dsh-token-usage",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "DSH (DeepSeek Harness) web plugin — Token usage analytics tab for the conversati"
   },
   {
    "repo": "shaoyi1991/dsh-restart-web",
@@ -49148,6 +49197,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "rinttt233/dsh-peak-brief",
+   "name": "rinttt233-dsh-peak-brief",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）峰谷调度插件：高峰前 N 分钟自动生成仅供 AI 恢复用的简报并停自动续跑，高峰硬挡模型请求（带一键逃生），闲时自动注入简报继续任务"
   },
   {
    "repo": "rm-Vstar/web-search-tinyfish",
@@ -61176,6 +61232,13 @@
    "desc": "—"
   },
   {
+   "repo": "curtainsmall/dsh-reckoner",
+   "name": "curtainsmall-dsh-reckoner",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Formula-driven calculation engine for the DeepSeek Harness"
+  },
+  {
    "repo": "CyBerKitTen0009/dsh-quota-dashboard",
    "name": "cyberkitten0009-dsh-quota-dashboard",
    "verdict": "incompatible",
@@ -65339,6 +65402,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wwwort/dsh-win-computer-use",
+   "name": "wwwort-dsh-win-computer-use",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Windows-native computer use for DeepSeek Harness: one batch tool runs a whole find/click/type/wait/screenshot"
   },
   {
    "repo": "wyStars/dsh-parallel-pool",
@@ -69581,6 +69651,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "dipertq/dsh-openviking-status",
+   "name": "dipertq-dsh-openviking-status",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Minimalist OpenViking status chip and popover for DeepSeek Harness (DSH Desktop / Web)"
   },
   {
    "repo": "dmz2922990/dsh-mcp-list",
@@ -80545,6 +80622,13 @@
    "desc": "Opt-in per-step turn metadata for DeepSeek Harness — a minimal first-plugin template (dsh-plugin)"
   },
   {
+   "repo": "rezon-aki/dsh-memory-steward",
+   "name": "rezon-aki-dsh-memory-steward",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "记忆管家：为 dsh-memory-evolve 补上记忆入库之后的生命周期闭环——预算看门狗、整理到期提醒、待审批队列与审批 Tab、带备份执行"
+  },
+  {
    "repo": "rjn32s/dsh-whois-plugin",
    "name": "rjn32s-dsh-whois-plugin",
    "verdict": "ok",
@@ -83637,6 +83721,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "opencamel/dsh-wx-archive",
+   "name": "opencamel-dsh-wx-archive",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH (DeepSeek Harness) tool plugin: archive & read WeChat Official Account articles via 2100laike WeChat Archi"
   },
   {
    "repo": "QQQW114/dsh-model-proxy",
@@ -90163,6 +90254,13 @@
    "desc": "Lifecycle conformance testing for DeepSeek Harness plugins"
   },
   {
+   "repo": "ireza7/dsh-persian-rtl",
+   "name": "ireza7-dsh-persian-rtl",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Persian (Farsi) RTL fix for DeepSeek Harness: automatic per-paragraph direction for assistant answers, thinkin"
+  },
+  {
    "repo": "irisnb/dsh-credentials-keyring",
    "name": "irisnb-dsh-credentials-keyring",
    "verdict": "ok",
@@ -92898,6 +92996,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "ylw-a/dsh-desktop",
+   "name": "ylw-a-dsh-desktop",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "使用Electron把dsh包裹起来，打包为桌面端的项目，编译后开箱即用"
   },
   {
    "repo": "yongshuai0314/dsh-i-have-adhd",
@@ -96274,6 +96379,13 @@
    "desc": "Unofficial community plugin: automatic review of sandbox escalation requests for DeepSeek Harness (Codex Guard"
   },
   {
+   "repo": "xswt442-cmd/dsh-unsandboxed-winbash",
+   "name": "xswt442-cmd-dsh-unsandboxed-winbash",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 dsh 在 Windows 上使用用户自安装的 Git Bash，并绕过其沙箱限制 \\| Enable dsh to use a user-installed Git Bash on Windows by bypass"
+  },
+  {
    "repo": "xusuyang030218/dsh-code-workbench",
    "name": "xusuyang030218-dsh-code-workbench",
    "verdict": "ok",
@@ -96335,6 +96447,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Session management for DeepSeek Harness: archive/restore/delete persisted sessions, per-workspace retention po"
+  },
+  {
+   "repo": "yangdongzhen590/dsh-knj-version-control",
+   "name": "yangdongzhen590-dsh-knj-version-control",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "KNJ version-control workbench for DSH: local changes, per-file and multi-file staging, confirmed commit/update"
   },
   {
    "repo": "yangfei222666-9/dsh-paper-trade",
@@ -100535,6 +100654,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "senyayume/dsh-edit-diff",
+   "name": "senyayume-dsh-edit-diff",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：在文件变更工具卡片上重绘行级 diff（相同行只渲染一次 + 行内字符高亮），覆盖 run_code(PTC) 与 str_replace_editor，轮末给出改动汇总卡，并可在资源管理器中定位或复制路径"
   },
   {
    "repo": "shaomingbo/dsh-codex-auth-bridge",
