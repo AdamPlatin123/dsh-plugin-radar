@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T08:01:05Z",
+ "generated_at": "2026-11-10T08:16:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3452,6 +3452,20 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Hard-stop DeepSeek Harness tool use after a per-session call budget"
+  },
+  {
+   "repo": "173787247/dsh-wsl-terraform",
+   "name": "173787247-dsh-wsl-terraform",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Terraform/OpenTofu plan summary + state list (never apply)."
+  },
+  {
+   "repo": "173787247/dsh-wsl-vecmem",
+   "name": "173787247-dsh-wsl-vecmem",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem."
   },
   {
    "repo": "17861102832/fleet-os",
@@ -30964,6 +30978,13 @@
    "desc": "Shows the DSH Web GUI access URLs in Settings, including a stable fixed address that survives desktop restarts"
   },
   {
+   "repo": "1jiegejiayouxuewangan1/dsh-desktop-uia",
+   "name": "1jiegejiayouxuewangan1-dsh-desktop-uia",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Windows desktop control for DeepSeek Harness (DSH) through UI Automation: read a window's control tree instead"
+  },
+  {
    "repo": "1MLightyears/dsh-theme-synthwave",
    "name": "1mlightyears-dsh-theme-synthwave",
    "verdict": "incompatible",
@@ -39945,6 +39966,20 @@
    "desc": "DeepSeek Harness tool: launch allowlisted Windows apps from WSL."
   },
   {
+   "repo": "173787247/dsh-wsl-mail",
+   "name": "173787247-dsh-wsl-mail",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Mail list/search via himalaya / notmuch (no send)."
+  },
+  {
+   "repo": "173787247/dsh-wsl-obsidian",
+   "name": "173787247-dsh-wsl-obsidian",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness WSL bridge to a Windows Obsidian vault (status/open/read/write/search)."
+  },
+  {
    "repo": "173787247/dsh-wsl-path",
    "name": "173787247-dsh-wsl-path",
    "verdict": "ok",
@@ -39952,11 +39987,53 @@
    "desc": "DeepSeek Harness tool: convert WSL Linux and Windows paths with /mnt/c caveats."
   },
   {
+   "repo": "173787247/dsh-wsl-pkg",
+   "name": "173787247-dsh-wsl-pkg",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Dependency tree summaries: npm / pip / cargo."
+  },
+  {
+   "repo": "173787247/dsh-wsl-playwright",
+   "name": "173787247-dsh-wsl-playwright",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Headless Playwright fetch (title + body text) in WSL."
+  },
+  {
    "repo": "173787247/dsh-wsl-port",
    "name": "173787247-dsh-wsl-port",
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool: diagnose WSL port listening and Windows localhost forwarding."
+  },
+  {
+   "repo": "173787247/dsh-wsl-secret",
+   "name": "173787247-dsh-wsl-secret",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness WSL plugin: read-only pass/age secrets"
+  },
+  {
+   "repo": "173787247/dsh-wsl-systemd",
+   "name": "173787247-dsh-wsl-systemd",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only systemd --user list / show / journal."
+  },
+  {
+   "repo": "173787247/dsh-wsl-tmux",
+   "name": "173787247-dsh-wsl-tmux",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only tmux list + capture-pane."
+  },
+  {
+   "repo": "173787247/dsh-wsl-vllm",
+   "name": "173787247-dsh-wsl-vllm",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "OpenAI-compatible vLLM client (default :8000)."
   },
   {
    "repo": "1HelloMan1/dsh-vision-fallback",
@@ -68288,11 +68365,32 @@
    "desc": "Read-only kubectl get / describe / logs for dsh on WSL."
   },
   {
+   "repo": "173787247/dsh-wsl-llamacpp",
+   "name": "173787247-dsh-wsl-llamacpp",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "OpenAI-compatible client for llama.cpp / Unsloth Desktop (default :8080)."
+  },
+  {
    "repo": "173787247/dsh-wsl-obscura",
    "name": "173787247-dsh-wsl-obscura",
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tools: drive Obscura headless browser from WSL."
+  },
+  {
+   "repo": "173787247/dsh-wsl-rclone",
+   "name": "173787247-dsh-wsl-rclone",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only rclone listremotes / lsf / about."
+  },
+  {
+   "repo": "173787247/dsh-wsl-search",
+   "name": "173787247-dsh-wsl-search",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Sandboxed ripgrep / fd / ast-grep under allowRoots."
   },
   {
    "repo": "2h0n/dsh-web-notification",
@@ -80202,6 +80300,20 @@
    "desc": "DeepSeek Harness 全局 Token 用量统计插件 \\| Real usage tracking, durable ledger, cost estimation (OpenRouter pricing),"
   },
   {
+   "repo": "173787247/dsh-wsl-media",
+   "name": "173787247-dsh-wsl-media",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif."
+  },
+  {
+   "repo": "173787247/dsh-wsl-struct",
+   "name": "173787247-dsh-wsl-struct",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Sandboxed jq / yq / read-only sqlite3."
+  },
+  {
    "repo": "240xu/verdict-engine",
    "name": "240xu-verdict-engine",
    "verdict": "ok",
@@ -84715,6 +84827,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool: Windows MessageBox notification from WSL."
+  },
+  {
+   "repo": "173787247/dsh-wsl-ollama",
+   "name": "173787247-dsh-wsl-ollama",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Local Ollama status / list / chat / embed for dsh on WSL."
   },
   {
    "repo": "2522669008-zcy/dsh-time-prefix",
@@ -99235,11 +99354,25 @@
    "desc": "Hard-stop consecutive identical DeepSeek Harness tool calls after a configurable streak."
   },
   {
+   "repo": "2333hutao/dsh-ls125-uv-probe",
+   "name": "2333hutao-dsh-ls125-uv-probe",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "LinShang LS125 UV meter + UVALED-X3 probe: the reverse-engineered 9600 8N1 protocol as a DSH skill, with captu"
+  },
+  {
    "repo": "88514205-oss/dsh-ryoshu-slash",
    "name": "88514205-oss-dsh-ryoshu-slash",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH plugin: 天殺拔刀斬——带斩击特效的文件删除工具，强制审查防误删；official bundle, install via `dsh plugin --profile web add` github:885"
+  },
+  {
+   "repo": "979569650/dsh-typesafe",
+   "name": "979569650-dsh-typesafe",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "TypeSafe Jev (System One decision model) as a decision layer for DeepSeek Harness: typed decisions, confidence"
   },
   {
    "repo": "a554878526/dsh-debug-mode",
