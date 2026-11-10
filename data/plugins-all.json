@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T11:15:49Z",
+ "generated_at": "2026-11-10T11:31:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7771,6 +7771,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "shiliumu/dsh-prompt-enhancer",
+   "name": "shiliumu-dsh-prompt-enhancer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 双引擎插件：✨ 提示词增强（草稿改写+方向选项）+ 🧭 参谋方向引擎（局势模型为核心 / 续研增量更新 / 缩进树为视图）"
   },
   {
    "repo": "shujiTech/dsh-plugin-wepre",
@@ -25966,6 +25973,13 @@
    "desc": "—"
   },
   {
+   "repo": "s1lverex/dsh-plugin-blender",
+   "name": "s1lverex-dsh-plugin-blender",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Blender for DeepSeek Harness: headless render/convert tools for 3D models plus a three.js viewer panel in the"
+  },
+  {
    "repo": "salathleizhang/dsh-agent-sdk",
    "name": "dsh-agent-sdk",
    "verdict": "ok",
@@ -26034,6 +26048,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH ????:??????? + ??/???? + ??/??????"
+  },
+  {
+   "repo": "shangheweibao/dsh-theme-gallery",
+   "name": "shangheweibao-dsh-theme-gallery",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A community theme gallery for DeepSeek Harness: JSON-defined skins with full-screen coverage and sidebar scene"
   },
   {
    "repo": "ShanHaiFish/dsh-theme-brick",
@@ -65964,6 +65985,13 @@
    "desc": "Community DSH plugin: OpenAI-compatible gateway adapter and dialect fixes (not an official DeepSeek package)"
   },
   {
+   "repo": "snylonue/dsh-direnv",
+   "name": "snylonue-dsh-direnv",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "direnv support for dsh"
+  },
+  {
    "repo": "SodaZheng/dsh-more",
    "name": "sodazheng-dsh-more",
    "verdict": "incompatible",
@@ -87886,6 +87914,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "A real Red Alert 2 AI battlefield plugin for DeepSeek Harness with fog-safe control, live DSH Chat, and post-m"
+  },
+  {
+   "repo": "xmwpoi/dsh-approval-center",
+   "name": "xmwpoi-dsh-approval-center",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 0.1.7-rc.2 的 Windows 审批与主对话通知插件：批准/拒绝、本轮完成与异常提醒、SQLite 审计；子代理通知关闭"
   },
   {
    "repo": "yuyi2439/dsh-1bot",
