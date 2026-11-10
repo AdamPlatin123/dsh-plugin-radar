@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T07:46:09Z",
+ "generated_at": "2026-11-10T08:01:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -9369,13 +9369,6 @@
    "desc": "—"
   },
   {
-   "repo": "Yogioo/dsh-agentmemory",
-   "name": "yogioo-dsh-agentmemory",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "zzy2210/dsh-subagent-status",
    "name": "dsh-subagent-status",
    "verdict": "untested",
@@ -13585,6 +13578,13 @@
   {
    "repo": "Yicijiuhaobala/dsh-session-delete",
    "name": "yicijiuhaobala-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "Yogioo/dsh-agentmemory",
+   "name": "yogioo-dsh-agentmemory",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -22408,6 +22408,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness Token 用量统计面板：模型/渠道聚合、余额配额、精确归档与费用估算"
+  },
+  {
+   "repo": "zhanghao3693/dsh-client-ui-model-clock",
+   "name": "zhanghao3693-dsh-client-ui-model-clock",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Model usage clock for DeepSeek Harness — see which model is cheapest right now: off-peak windows, tiered disco"
   },
   {
    "repo": "zhangshaobo608/dsh-cost-widget",
@@ -39901,6 +39908,34 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool: read/write the Windows clipboard from WSL."
+  },
+  {
+   "repo": "173787247/dsh-wsl-db",
+   "name": "173787247-dsh-wsl-db",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only psql + redis-cli probes."
+  },
+  {
+   "repo": "173787247/dsh-wsl-glab",
+   "name": "173787247-dsh-wsl-glab",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only glab MR / issue / ci status."
+  },
+  {
+   "repo": "173787247/dsh-wsl-helm",
+   "name": "173787247-dsh-wsl-helm",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only Helm list / status / history."
+  },
+  {
+   "repo": "173787247/dsh-wsl-jev",
+   "name": "173787247-dsh-wsl-jev",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness WSL plugin: TypeSafe Jev / OpenRouter System One (jev_ask / check / rank)"
   },
   {
    "repo": "173787247/dsh-wsl-launch",
@@ -68232,11 +68267,25 @@
    "desc": "DeepSeek Harness tool: open http(s) URLs in the Windows default browser from WSL."
   },
   {
+   "repo": "173787247/dsh-wsl-compose",
+   "name": "173787247-dsh-wsl-compose",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Docker Compose ps/logs; up/down double-gated."
+  },
+  {
    "repo": "173787247/dsh-wsl-distro",
    "name": "173787247-dsh-wsl-distro",
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: current WSL distro facts and multi-distro warnings."
+  },
+  {
+   "repo": "173787247/dsh-wsl-k8s",
+   "name": "173787247-dsh-wsl-k8s",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only kubectl get / describe / logs for dsh on WSL."
   },
   {
    "repo": "173787247/dsh-wsl-obscura",
@@ -84591,6 +84640,13 @@
    "desc": "DeepSeek Harness 微信通道插件：手机微信直接对话 DSH agent \\| WeChat channel plugin for DSH"
   },
   {
+   "repo": "wg5759/dsh-pager",
+   "name": "wg5759-dsh-pager",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DeepSeek Harness 的手机寻呼机：33 KB 安卓 App + DSH 插件"
+  },
+  {
    "repo": "withlovehub/dsh-webfetch",
    "name": "withlovehub-dsh-webfetch",
    "verdict": "ok",
@@ -91883,6 +91939,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool: safe Git credential hints for Windows GCM from WSL."
+  },
+  {
+   "repo": "173787247/dsh-wsl-git",
+   "name": "173787247-dsh-wsl-git",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Capped Git status / diff --stat (no full patches)."
   },
   {
    "repo": "173787247/dsh-wsl-github",
@@ -102208,6 +102271,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Configurable Git commit and pull request prompt instructions for DeepSeek Harness"
+  },
+  {
+   "repo": "zfdx123/dsh-atelier",
+   "name": "zfdx123-dsh-atelier",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件工坊：7 个可独立安装的 DeepSeek Harness 插件（MCP 管理器 / 技能管理器 / 跨会话记忆 / 代码图谱 / 钩子排序 / 会话清理 / Superpowers）"
   },
   {
    "repo": "zhangmiao03/dsh-cloak",
