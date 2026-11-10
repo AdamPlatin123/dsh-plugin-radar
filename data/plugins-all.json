@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T11:45:54Z",
+ "generated_at": "2026-11-10T12:01:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7696,6 +7696,13 @@
    "desc": "A progress bar for your agent conversations — in-session turn navigation with hover previews, scrub, playhead,"
   },
   {
+   "repo": "rickwindman/dsh-destinywind-memory",
+   "name": "rickwindman-dsh-destinywind-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：长期记忆库，注入每个会话的系统提示，设置页增删，HTTP API 改数 · Durable long-term memory bank plugin for DeepSeek Ha"
+  },
+  {
    "repo": "rouyiemei/dsh-plugin-safe-install",
    "name": "rouyiemei-dsh-plugin-safe-install",
    "verdict": "ok",
@@ -13770,6 +13777,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yoggu/dsh-new-session",
+   "name": "yoggu-dsh-new-session",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Adds a /new command to start and open a new Session in the current Workspace."
   },
   {
    "repo": "Yogioo/dsh-agentmemory",
@@ -32469,6 +32483,13 @@
    "desc": "给 DeepSeek Harness 的 Web 界面换字体"
   },
   {
+   "repo": "rickwindman/dsh-destinywind-mcp",
+   "name": "rickwindman-dsh-destinywind-mcp",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：MCP 可视化管理（服务器/工具开关/环境变量/凭据托管）· Visual MCP manager UI plugin for DeepSeek Harness"
+  },
+  {
    "repo": "rockeymen/dsh-plugins",
    "name": "rockeymen-dsh-plugins",
    "verdict": "incompatible",
@@ -32915,6 +32936,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yoggu/dsh-git-graph",
+   "name": "yoggu-dsh-git-graph",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Git history and working-tree diff graph for the DeepSeek Harness web sidebar."
   },
   {
    "repo": "youli42/dsh_BetterInput",
@@ -66818,6 +66846,13 @@
    "desc": "Durable heartbeat and cron automations for DeepSeek Harness"
   },
   {
+   "repo": "yoggu/dsh-restart",
+   "name": "yoggu-dsh-restart",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Adds /dsh-restart to restart the DeepSeek Harness process."
+  },
+  {
    "repo": "youngyangvip/dsh-diagon-alley",
    "name": "youngyangvip-dsh-diagon-alley",
    "verdict": "incompatible",
@@ -73361,6 +73396,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "把 DeepSeek Harness 装进口袋：手机扫码同步操控电脑端 DSH（局域网/公网直连 + 移动端抽屉布局）"
+  },
+  {
+   "repo": "hanbernate/dsh-save-button",
+   "name": "hanbernate-dsh-save-button",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Adds a Download button to DSH delivery cards, so files delivered with present save straight from the browser."
   },
   {
    "repo": "jingzhao-l/iterate-plugin",
@@ -102175,6 +102217,13 @@
    "desc": "DSH plugin: turn advisor evaluates error turns via LLM and renders a harmonious blue card"
   },
   {
+   "repo": "hasan007-sudo/dsh-terminal-pane",
+   "name": "hasan007-sudo-dsh-terminal-pane",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Inline terminal panel docked under the DeepSeek Harness web composer, backed by a real PTY on the host"
+  },
+  {
    "repo": "hccccc01333/dsh-report-card",
    "name": "hccccc01333-dsh-report-card",
    "verdict": "incompatible",
@@ -103237,6 +103286,27 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "在 DeepSeek Harness (DSH) 侧边栏底部显示 OpenCode Go 用量徽章"
+  },
+  {
+   "repo": "yoggu/dsh-brave-search-provider",
+   "name": "yoggu-dsh-brave-search-provider",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Brave-backed ctx.web search provider and settings card for the DeepSeek Harness."
+  },
+  {
+   "repo": "yoggu/dsh-codex-account",
+   "name": "yoggu-dsh-codex-account",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "User your OpenAI Codex subscription inside the DeepSeek Harness."
+  },
+  {
+   "repo": "yoggu/dsh-qr-phone-login",
+   "name": "yoggu-dsh-qr-phone-login",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "QR-code phone login for a DeepSeek Harness over its configured public HTTPS origin."
   },
   {
    "repo": "yoshino-xiao7/dsh-codex",
