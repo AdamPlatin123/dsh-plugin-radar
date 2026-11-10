@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2210）
+# 🤖 Agent 能力（2214）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1428,12 +1428,14 @@
 - `[未定位]` **yaya716-dsh-user-prompts** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [yidien-dsh-session-sight](https://github.com/Yidien/dsh-session-sight) ★0 — —
 - 🟩 `[可用]` [yihefeikong-rgb-dsh-cc-haha-dream](https://github.com/yihefeikong-rgb/dsh-cc-haha-dream) ★0 — DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harnes
+- `[未定位]` **ymrwithnoworry-dsh-global-system-prompt** — 占位待复核，判定暂不展示
 - `[空仓监测]` **ypipaq-dsh-skills-mcp-cli-manager** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [yrracowl-dsh-subagent-conductor](https://github.com/YrracOwl/dsh-subagent-conductor) ★0 — —
 - 🟩 `[可用]` [yu-xin-c-dsh-evolution-console](https://github.com/yu-xin-c/dsh-evolution-console) ★0 — Offline evaluation and guarded self-evolution loop for DeepSeek Harness
 - `[空仓监测]` **yuanyou299-dsh-memory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [yuloong07-star-dsh-prompt-system](https://github.com/yuloong07-star/dsh-prompt-system) ★0 — dsh-prompt-system提示词优化系统——根据工作区，当前会话，优化提示词
 - 🟩 `[可用]` [yustillrain-dsh-plugin-tool-repository](https://github.com/yustillrain/dsh-plugin-tool-repository) ★0 — DSH 插件仓库 第三方插件 让你可视化管理已安装的 skill/插件 对skill/插件功能进行介绍和分类
+- `[未定位]` **yuuyuko-uu-dsh-fish-memory** — 占位待复核，判定暂不展示
 - `[空仓监测]` **yuxuanliang-dev-dsh-plugin-adaptive-agent-pol** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-plugin-context-compressor](https://github.com/YYTbit/dsh-plugin-context-compressor) ★0 — Context compression skill for DeepSeek Harness
 - ⬜ `[待定]` [dsh-plugin-vision-toolkit](https://github.com/YYTbit/dsh-plugin-vision-toolkit) ★0 — Vision toolkit for DeepSeek Harness -- give text-only agents eyes
@@ -1481,7 +1483,6 @@
 - ⬜ `[待定]` [dsh-bg-wallpaper](https://github.com/roseplanetb613/dsh-bg-wallpaper) ★0 — DeepSeek Harness Web GUI wallpaper plugin bundle: serve a local image as the pag
 - 🟩 `[可用]` [shijunan126-creator-dsh-subagent-effort](https://github.com/shijunan126-creator/dsh-subagent-effort) ★0 — —
 - `[空仓监测]` **wxxb789-dsh-j-space** — GitHub 无此仓库，判定暂不展示
-- 🟩 `[可用]` [yogioo-dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) ★0 — —
 - `[歧义监测]` **agent-plaza** — 同名多仓，判定暂不展示
 - `[歧义监测]` **agentvest** — 同名多仓，判定暂不展示
 - `[歧义监测]` **dsh-agent-sdk** — 同名多仓，判定暂不展示
@@ -2152,6 +2153,7 @@
 - `[空仓监测]` **wantosure-dsh-plugin-browser-memory** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [warmwine-dsh-memoryleak](https://github.com/warmwine/dsh-memoryleak) ★0 — 基于dsh的知识库和待办管理工具
 - 🟨 `[不兼容]` [wccong1213-dsh-auto-memory](https://github.com/WCCong1213/dsh-auto-memory) ★0 — —
+- `[未定位]` **weilaisun-dsh-hindsight-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [weixshaw-dsh-plugin-task-runner](https://github.com/weixshaw/dsh-plugin-task-runner) ★0 — Task Runner 任务拆解模式：主代理拆解任务、子代理（默认本地模型）并行执行再综合结果，并发/模型可按机器配置
 - `[未定位]` **westfox-awa-dsh-prompt-optimizer** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [wig123-dsh-thread-tools](https://github.com/wig123/dsh-thread-tools) ★0 — Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live
@@ -2182,7 +2184,9 @@
 - 🟨 `[不兼容]` [y2zyyr-smart-session-title](https://github.com/y2zyyr/smart-session-title) ★0 — Automatic session titles for DeepSeek Harness, using the conversation model
 - 🟨 `[不兼容]` [yangyizhu8-dsh-unread-mark](https://github.com/yangyizhu8/dsh-unread-mark) ★0 — Session-row unread mark for DeepSeek Harness (dsh): Mark unread / Unmark in the session menu pins a red dot th
 - `[空仓监测]` **yangzhe1991-dsh-project-session-store** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **yhprime-dsh-session-delete** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [yicijiuhaobala-dsh-session-delete](https://github.com/Yicijiuhaobala/dsh-session-delete) ★0 — —
+- 🟨 `[不兼容]` [yogioo-dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) ★0 — —
 - 🟨 `[不兼容]` [young-yyj-dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) ★0 — DeepSeek Harness 的本地只读技能浏览插件
 - `[空仓监测]` **ytmaps-dsh-subagent-flowtext** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —

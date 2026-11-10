@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2910）
+# 🔌 Web UI 增强（2911）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1257,6 +1257,7 @@
 - 🟩 `[可用]` [zemanzhang809-dsh-stt-plugin](https://github.com/zemanzhang809/dsh-stt-plugin) ★1 — A speech-to-text (voice input) plugin for DeepSeek Harness.
 - 🟩 `[可用]` [zenvertao-dsh-inline-comments](https://github.com/zenvertao/dsh-inline-comments) ★1 — 选中即批注，刷新亦留存 —— DSH 行内批注插件
 - 🟩 `[可用]` [zhang-jiazhi-dsh-stats-panel](https://github.com/zhang-jiazhi/dsh-stats-panel) ★1 — DeepSeek Harness Token 用量统计面板：模型/渠道聚合、余额配额、精确归档与费用估算
+- 🟩 `[可用]` [zhanghao3693-dsh-client-ui-model-clock](https://github.com/zhanghao3693/dsh-client-ui-model-clock) ★1 — Model usage clock for DeepSeek Harness — see which model is cheapest right now: off-peak windows, tiered disco
 - 🟩 `[可用]` [zhangshaobo608-dsh-cost-widget](https://github.com/zhangshaobo608/dsh-cost-widget) ★1 — DSH Web GUI 悬浮面板：当天 V4-Flash/Pro 每百万 token 平均费用与缓存命中率
 - 🟩 `[可用]` [zhangyang-crazy-one-dsh-tui](https://github.com/zhangyang-crazy-one/dsh-tui) ★1 — DeepSeek Harness terminal user interface (TUI)
 - 🟩 `[可用]` [zhaoxuejie-dsh-plugin-session-export](https://github.com/zhaoxuejie/dsh-plugin-session-export) ★1 — DeepSeek Harness 会话黑匣子插件：全量旁路采集会话事件，一键导出美化 Markdown / HTML 复盘报告，内置 Web 统计面板
