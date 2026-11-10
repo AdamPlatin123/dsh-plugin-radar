@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T14:45:55Z",
+ "generated_at": "2026-11-10T15:01:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6420,6 +6420,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Web 插件：强制折叠每一轮的工作过程，答案照常显示，历史轮次与上下文注入行一并折叠"
+  },
+  {
+   "repo": "guzhou079-arch/dsh-plugin-android-vscreen",
+   "name": "guzhou079-arch-dsh-plugin-android-vscreen",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin — let an agent drive an Android phone on a virtual display, so your own screen stays u"
   },
   {
    "repo": "GY-Bai/dsh-anchored-subagent",
