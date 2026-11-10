@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2830）
+# 🔌 Web UI 增强（2832）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -876,6 +876,7 @@
 - 🟩 `[可用]` [delock-dsh-whats-up](https://github.com/delock/dsh-whats-up) ★1 — What's up for DeepSeek Harness: a zero-maintenance todo board that scans your DSH sessions, extracts goal + on
 - `[空仓监测]` **developerprit-dsh-new-ui** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-snapshot](https://github.com/DfsyJian/dsh-snapshot) ★1 — DeepSeek Harness plugin: automatic file snapshots with a sidebar timeline and settings card
+- 🟩 `[可用]` [dingchenhui0618-arch-dsh-imagegen-skill](https://github.com/dingchenhui0618-arch/dsh-imagegen-skill) ★1 — Bundled imagegen skill for DeepSeek Harness: generate or edit raster images from the agent through any OpenAI-
 - 🟩 `[可用]` [dingdongji-hub-dsh-atom-commune-skin](https://github.com/dingdongji-hub/dsh-atom-commune-skin) ★1 — 原子朋克风格的共产主义公社
 - 🟩 `[可用]` [dingyi580-dsh-plugin-gemini-theme](https://github.com/dingyi580/dsh-plugin-gemini-theme) ★1 — A Gemini-styled skin for the DeepSeek Harness web client
 - 🟩 `[可用]` [dsh-refined](https://github.com/djh2203/dsh-refined) ★1 — DeepSeek-Refined 的 DeepSeek Harness 移植版 为 DeepSeek Harness（DSH）前端注入 Obsidian Border 风格的 Markdown 美化与多主题配色
@@ -1419,6 +1420,7 @@
 - ⬜ `[待定]` [dxc-dxc-deepseek-harness-desktop](https://github.com/dxc-dxc/deepseek-harness-desktop) ★0 — DeepSeek Harness 桌面启动器（macOS）：一键安装包，把 dsh Web GUI 变成原生桌面应用
 - 🟩 `[可用]` [dxsdyhm-dsh-adb-logcat](https://github.com/dxsdyhm/dsh-adb-logcat) ★0 — Android Studio-style ADB logcat viewer for the DSH Web GUI
 - 🟩 `[可用]` [dy395769511-star-dsh-pdf-to-word](https://github.com/dy395769511-star/dsh-pdf-to-word) ★0 — PDF to Word conversion plugin for DeepSeek Harness (dsh): PyMuPDF/PaddleOCR pipeline + LLM visual style verifi
+- 🟩 `[可用]` [dytom18-dsh-plugin-voice-dictation](https://github.com/dytom18/dsh-plugin-voice-dictation) ★0 — 说话即任务：给 DSH Web GUI 加语音听写，说完自动发送给 Agent（纯前端，无需 API Key）
 - 🟩 `[可用]` [dzf-code-dsh-paste-doc](https://github.com/dzf-code/dsh-paste-doc) ★0 — 粘贴长文本
 - ⬜ `[待定]` [eachsheep-dsh-valley-pixel-skin](https://github.com/EachSheep/dsh-valley-pixel-skin) ★0 — —
 - 🟩 `[可用]` [easytz-dsh-ui-balance](https://github.com/EasyTZ/dsh-ui-balance) ★0 — —

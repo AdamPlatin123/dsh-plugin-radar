@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2128）
+# 🤖 Agent 能力（2132）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -889,6 +889,7 @@
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
+- 🟩 `[可用]` [elmersky-dsh-plugin-trellis-workflow](https://github.com/elmersky/dsh-plugin-trellis-workflow) ★0 — Trellis workflow enforcement for the DeepSeek Harness: per-turn workflow state injection and a trellis-start e
 - `[未定位]` **emotiong-dsh-prompt-optimizer** — 占位待复核，判定暂不展示
 - `[未定位]` **epiphany-leon-dsh-skill-forge** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [erya2000-dsh-session-budget-guard](https://github.com/erya2000/dsh-session-budget-guard) ★0 — dsh-session-budget-guard
@@ -918,7 +919,10 @@
 - 🟩 `[可用]` [gongyuancaiji-dsh-claude-skills](https://github.com/GongYuanCaiJi/dsh-claude-skills) ★0 — —
 - `[未定位]` **gongyuancaiji-dsh-mattpocock-skills** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [goodandready-dsh-agent-loop-guard](https://github.com/GooDAnDReaDY/dsh-agent-loop-guard) ★0 — —
+- `[未定位]` **goodandready-dsh-agent-orchestrator** — 占位待复核，判定暂不展示
+- `[未定位]` **goodandready-dsh-approval-gate** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [goodandready-dsh-session-control](https://github.com/GooDAnDReaDY/dsh-session-control) ★0 — —
+- `[未定位]` **goodandready-dsh-session-search** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-context-lens](https://github.com/gordonlu/dsh-context-lens) ★0 — Request Context Profiler for DeepSeek Harness — see what changed between model requests, and how cache reuse c
 - `[空仓监测]` **greatwhitesharklab-dsh-plugin-subagent-manage** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [guazixiong-dsh-coding-mode-preset](https://github.com/guazixiong/dsh-coding-mode-preset) ★0 — 为本地 DeepSeek Harness（`@deepseek-ai/dsh`）追加一个**编码模式** Agent Preset：门禁式工程交付流水线，包含三条独立流程——**需求开发**、**Bug 修复**、**功
