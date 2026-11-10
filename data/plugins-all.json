@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T23:16:14Z",
+ "generated_at": "2026-11-10T23:31:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -31438,6 +31438,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Git worktree-aware workspace browser for the DeepSeek Harness Web sidebar: repositories group their worktrees,"
+  },
+  {
+   "repo": "ufiredong/dsh-interviewer",
+   "name": "ufiredong-dsh-interviewer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 模拟面试面板 + 技能：真实模型当面试官，读简历层层追问、按证据打分并推导薪资区间"
   },
   {
    "repo": "VioletScar-Hui/dsh-chat-history",
@@ -67273,6 +67280,13 @@
    "desc": "—"
   },
   {
+   "repo": "wupup/dsh-custom-style",
+   "name": "wupup-dsh-custom-style",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh web custom style plugin"
+  },
+  {
    "repo": "Wuxie233/dsh-plugin-kanban",
    "name": "wuxie233-dsh-plugin-kanban",
    "verdict": "incompatible",
@@ -76448,6 +76462,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "reisen-ww/dsh-bonk-pet",
+   "name": "reisen-ww-dsh-bonk-pet",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "敲盆宠物 · DSH 悬浮小鲸鱼插件：出错掉钢管、敲铁盆、讨白饭"
   },
   {
    "repo": "Retr67/dsh-desk-pet-yami",
