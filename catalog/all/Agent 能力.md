@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2259）
+# 🤖 Agent 能力（2263）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -342,6 +342,7 @@
 - 🟩 `[可用]` [songofhawk-dsh-alpha](https://github.com/songofhawk/dsh-alpha) ★3 — Multi-machine, multi-agent orchestration and control platform for DSH: route tasks across devices, workspaces,
 - 🟩 `[可用]` [styxnether-dsh-auto-approval-plugin](https://github.com/StyxNether/dsh-auto-approval-plugin) ★3 — —
 - 🟩 `[可用]` [trueriscoacnt-maa-dsh-skill](https://github.com/trueRISCOacnt/maa-dsh-skill) ★3 — —
+- 🟩 `[可用]` [ventisyn-dsh-approval-gate](https://github.com/ventisyn/dsh-approval-gate) ★3 — 适配 DSH 0.2.1-rc.5 的自动审批门控：判定模型判断不可回补操作，安全自动批准、危险转人工
 - 🟩 `[可用]` [vlln-dsh-autofork](https://github.com/vlln/dsh-autofork) ★3 — Agent 忙时自动分叉会话：你新发的指令立刻在新会话里得到响应，旧会话留在后台跑完并把结果回注（DeepSeek Harness 插件）
 - 🟩 `[可用]` [warrenop-open-preset-harness](https://github.com/warrenop/open-preset-harness) ★3 — DSH Memory plugin (dsh-tool-project-memory): shared project organizational memory across presets — recall, rem
 - 🟩 `[可用]` [weilantianhai-dsh-command-skill-list](https://github.com/weilantianhai/dsh-command-skill-list) ★3 — /skills command for DSH — list skills with auto-translated descriptions (zh↔en)
@@ -899,6 +900,7 @@
 - 🟩 `[可用]` [dsh-pi-adapter](https://github.com/cyzlmh/dsh-pi-adapter) ★0 — Run pi coding-agent extensions (ExtensionAPI) inside DeepSeek Harness via a cordis plugin bridge
 - 🟩 `[可用]` [d3vmeh-dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) ★0 — DeepSeek Harness plugin: keep a local model's context at a size your GPU handles well (measured prefill speed,
 - 🟩 `[可用]` [da-beda-dsh-lockstep](https://github.com/da-beda/dsh-lockstep) ★0 — Pin-aware updater for DeepSeek Harness
+- 🟩 `[可用]` [daha1216-dsh-watcher](https://github.com/daha1216/dsh-watcher) ★0 — DeepSeek Harness 只读观测插件：把会话折成可折叠的工作路径，统计模型耗时与估算费用
 - 🟩 `[可用]` [daoing-dsh-daoing-memory](https://github.com/daoing/dsh-daoing-memory) ★0 — deepseek harness  memory plugin
 - 🟩 `[可用]` [davidgereb-dsh-plugin-prompt-guard](https://github.com/davidgereb/dsh-plugin-prompt-guard) ★0 — Prompt visibility and notification plugin for DeepSeek Harness.
 - 🟩 `[可用]` [dawei008-dsh-session-telemetry-otlp-trace](https://github.com/dawei008/dsh-session-telemetry-otlp-trace) ★0 — OpenTelemetry GenAI trace plugin for DeepSeek Harness
@@ -1901,6 +1903,7 @@
 - 🟨 `[不兼容]` [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) ★1 — AI turns repeated dev commands, prompts, and habits into one-click DeepSeek Harness actions.
 - 🟨 `[不兼容]` [snail30xx-dsh-graph-runtime](https://github.com/snail30xx/dsh-graph-runtime) ★1 — Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g
 - 🟨 `[不兼容]` [suanniniu-dsh-standard-toolkit](https://github.com/suanniniu/dsh-standard-toolkit) ★1 — DeepSeek Harness 标准工具插件(Standard ToolKit):工具管家——平时工具不占位,会话按需自动装载/用完自动收纳,省token;支持 load_tool / register_new_too
+- 🟨 `[不兼容]` [thissensen-dsh-harden](https://github.com/thissensen/dsh-harden) ★1 — DSH 运行时看护层：API 调用失败自动续接重试、工具调用失败被吞自动拉回、只输出思考的回合自动重试、新增对接 pwsh 的后台 job 工具、一键修复异常会话日志、区分子Agent并且可自定义内容的上下文自动压缩
 - 🟨 `[不兼容]` [tinger-x-dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) ★1 — —
 - 🟨 `[不兼容]` [troytse-dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) ★1 — DeepSeek Harness - Subagent Roles Plugin
 - 🟨 `[不兼容]` [trynewthin-dsh-subagent-roles](https://github.com/trynewthin/dsh-subagent-roles) ★1 — Role-based model routing for DeepSeek Harness subagent delegation.
@@ -2152,6 +2155,7 @@
 - 🟨 `[不兼容]` [royenheart-dsh-plugin-skills-manager](https://github.com/royenheart/dsh-plugin-skills-manager) ★0 — deepseek harness plugin skill manager
 - 🟨 `[不兼容]` [runfali-dsh-mem0-plugins](https://github.com/runfali/dsh-mem0-plugins) ★0 — dsh 持久化记忆插件 - 依托自建的 mem0‑graph 服务器实现自动回忆与回写
 - `[未定位]` **ryuu-64-dsh-session-tools** — 占位待复核，判定暂不展示
+- `[未定位]` **s3k926-dsh-memory-board** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [satan9394-dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) ★0 — 199 DSH skill plugins in one monorepo - comprehensive collection for DeepSeek Harness
 - 🟨 `[不兼容]` [sdegongzuo-dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) ★0 — DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页
 - 🟨 `[不兼容]` [seeingrain-dsh-upload-file](https://github.com/seeingrain/dsh-upload-file) ★0 — DSH plugin: paperclip file library with per-session isolation, thumbnails and re-download.
