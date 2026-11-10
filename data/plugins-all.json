@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T06:46:11Z",
+ "generated_at": "2026-11-10T07:01:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -18392,6 +18392,13 @@
    "desc": "A floating one-click restart button for the DeepSeek Harness web GUI — self-contained, cross-platform."
   },
   {
+   "repo": "mikugui/dsh-session-eater",
+   "name": "mikugui-dsh-session-eater",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "把不要的会话拖到侧栏底部的小胖鱼嘴边，它张嘴吃掉（移入回收站，可撤销）"
+  },
+  {
    "repo": "MM071022/dsh-ui-background",
    "name": "dsh-ui-background",
    "verdict": "ok",
@@ -21183,6 +21190,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DSH plugin (#dsh-plugin): DeepSeek usage & balance meter for the DSH settings panel — account balance, today's"
+  },
+  {
+   "repo": "pinzza/dsh-git-statusline",
+   "name": "pinzza-dsh-git-statusline",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web 侧边栏底部的紧凑 Git 状态插件，参考 ccstatusline-zh 的 Git widgets"
   },
   {
    "repo": "pmorgan3/deep-tui",
@@ -25735,6 +25749,13 @@
    "desc": "AI coding agent core for building DeepSeek Harness plugins that keep working as DSH evolves"
   },
   {
+   "repo": "skyzhao1223/dsh-plugin-sops-vault",
+   "name": "skyzhao1223-dsh-plugin-sops-vault",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: sops+age+git credential vault as a sidebar panel — agents see structure only, plainte"
+  },
+  {
    "repo": "sly7783/lively-wallpaper-guide",
    "name": "sly7783-lively-wallpaper-guide",
    "verdict": "pending",
@@ -26384,6 +26405,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Provider-owned virtual session groups for the DeepSeek Harness Web sidebar."
+  },
+  {
+   "repo": "why-did/dsh-tailscale-access",
+   "name": "why-did-dsh-tailscale-access",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Remote access for the DeepSeek Harness Web GUI via Tailscale or cloudflared — early-stage, read the notice fir"
   },
   {
    "repo": "willwang0098/dsh-side-chat",
@@ -30572,6 +30600,13 @@
    "desc": "—"
   },
   {
+   "repo": "wanghuiym123/dsh-cherry-kb",
+   "name": "wanghuiym123-dsh-cherry-kb",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Knowledge-base and memory switch for dsh web — two composer controls and two settings pages, backed by 22 /dsh"
+  },
+  {
    "repo": "wangxing-git/dsh-tool-session",
    "name": "wangxing-git-dsh-tool-session",
    "verdict": "incompatible",
@@ -31935,6 +31970,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sqzssg12138/dsh-service-runner",
+   "name": "sqzssg12138-dsh-service-runner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "为 DSH (DeepSeek Harness) 加上 IDEA 风格的工作区服务启停面板：多工作区隔离、Node/Java/Python/Docker 自动探测、实时日志与端口占用者处置"
   },
   {
    "repo": "STARDUSTLC666/dsh-suite",
@@ -67658,6 +67700,13 @@
    "desc": "DeepSeek Harness — Custom Windows Tray Launcher"
   },
   {
+   "repo": "nzl153/dsh-preflight",
+   "name": "nzl153-dsh-preflight",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH 插件安装前预演冲突、出问题后读日志定位根因，并给出可直接执行的修复命令"
+  },
+  {
    "repo": "Octo-o-o-o/dsh-plugin-deploy",
    "name": "octo-o-o-o-dsh-plugin-deploy",
    "verdict": "ok",
@@ -73564,6 +73613,13 @@
    "verdict": "pending",
    "stars": 198,
    "desc": "—"
+  },
+  {
+   "repo": "universe-st/dsh-game-material-master",
+   "name": "universe-st-dsh-game-material-master",
+   "verdict": "ok",
+   "stars": 156,
+   "desc": "dsh游戏素材大师插件"
   },
   {
    "repo": "PerryLink/dsh-memento",
@@ -87342,6 +87398,13 @@
    "desc": "ChatGPT/Codex authorization plugin for DeepSeek Harness"
   },
   {
+   "repo": "mia-wong1016/dsh-codex-plus",
+   "name": "mia-wong1016-dsh-codex-plus",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Codex（ChatGPT Plus/Pro）订阅接入 DSH：展示 5 小时与一周额度、重置时间与重置券并支持一键重置；读取额度时自动把订阅模型接进模型选择器；access token 到期前自动续期"
+  },
+  {
    "repo": "mintgao/dsh-desktop",
    "name": "mintgao-dsh-desktop",
    "verdict": "incompatible",
@@ -89580,6 +89643,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "nanami-0713/dsh-jev-decide",
+   "name": "nanami-0713-dsh-jev-decide",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH plugin: register TypeSafe Jev (System One decision model) as an agent tool — jev_decide returns calibrated"
   },
   {
    "repo": "Nothree-code/folder-tree-sh",
@@ -93241,6 +93311,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: a council tool that asks several models on different providers the same question, the"
+  },
+  {
+   "repo": "vlln/evo-engineering",
+   "name": "vlln-evo-engineering",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "让 agent 把任意产物（文档、代码、skill）一轮轮改得更好：先定标准，再自动改进与独立评审，人类随时能看、能喊停、能回滚（DeepSeek Harness 插件）"
   },
   {
    "repo": "vpromise/dsh-memory",
@@ -98619,6 +98696,13 @@
    "desc": "DeepSeek Harness bundle for one-shot Claude Code and GitHub Copilot Gemini delegation through native subscript"
   },
   {
+   "repo": "steven-stack-s/dsh-memos-local",
+   "name": "steven-stack-s-dsh-memos-local",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill r"
+  },
+  {
    "repo": "uckkk/dsh-live-data",
    "name": "uckkk-dsh-live-data",
    "verdict": "incompatible",
@@ -99051,6 +99135,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "自主覆盖与调整第三方模型的思考等级，修复工具内置预设缺失或不匹配的问题"
+  },
+  {
+   "repo": "nightosong/gord-dsh-worktree",
+   "name": "nightosong-gord-dsh-worktree",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Git worktrees for DeepSeek Harness — isolate parallel work in its own directory and branch"
   },
   {
    "repo": "omdsh-dev/dsh-paddle-ocr",
