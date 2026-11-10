@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T07:01:12Z",
+ "generated_at": "2026-11-10T07:16:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1151,6 +1151,13 @@
    "desc": "an heterogeneous multi-agent collaboration skill designed for dsh"
   },
   {
+   "repo": "yangyu666/dsh-jev-prune",
+   "name": "yangyu666-dsh-jev-prune",
+   "verdict": "ok",
+   "stars": 7,
+   "desc": "Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compa"
+  },
+  {
    "repo": "yindf/taskfold",
    "name": "yindf-taskfold",
    "verdict": "ok",
@@ -1345,6 +1352,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "模型信息补全：按模型名自动补全上下文、输出上限、思考档位和图片能力"
+  },
+  {
+   "repo": "7starsseeker/dsh-fact-check",
+   "name": "7starsseeker-dsh-fact-check",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "Fact-checking skill for DeepSeek Harness: multi-source verification against the open web, domestic and interna"
   },
   {
    "repo": "863683348/dsh-plugin-finance-data",
@@ -11271,6 +11285,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH bundle: slot-pool wrapper for concurrent browser sessions｜并发浏览器会话槽位池插件"
+  },
+  {
+   "repo": "bojansandhaus/jev-lcm-dsh-compaction",
+   "name": "bojansandhaus-jev-lcm-dsh-compaction",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Calibrated Jev ranking before lossless context condensation"
   },
   {
    "repo": "caopu16/dsh-local-memory",
@@ -26813,6 +26834,13 @@
    "desc": "DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl"
   },
   {
+   "repo": "xydijkkk/dsh-voredteam",
+   "name": "xydijkkk-dsh-voredteam",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-voredteam｜DSH 插件形态的单模式安全作战系统：黑板（Fact/Intent/Hint）+ 六阶段六矩阵作业法 + 总控与 12 个专业子 agent + 作战面板（八泳道实时图 / 覆盖矩阵 / 按会"
+  },
+  {
    "repo": "xzxtan/dsh-desktop",
    "name": "xzxtan-dsh-desktop",
    "verdict": "pending",
@@ -32152,6 +32180,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \\| 会话区 \\| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放"
+  },
+  {
+   "repo": "wowyuarm/dsh-context-continuity",
+   "name": "wowyuarm-dsh-context-continuity",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "The context-continuity engine for DeepSeek Harness: a subject's context lived as one continuous timeline acros"
   },
   {
    "repo": "wwwangzilin/dsh-role-cards",
@@ -63185,6 +63220,13 @@
    "desc": "—"
   },
   {
+   "repo": "alexzshl/dsh-settings-size",
+   "name": "alexzshl-dsh-settings-size",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "config dsh settings size"
+  },
+  {
    "repo": "AlgoVaultLabs/dsh-algovault",
    "name": "algovaultlabs-dsh-algovault",
    "verdict": "incompatible",
@@ -72264,6 +72306,13 @@
    "desc": "Blaxel sandbox execution plugin for DeepSeek Harness"
   },
   {
+   "repo": "cinderzhan/dsh-media-workbench",
+   "name": "cinderzhan-dsh-media-workbench",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH Desktop 内容运营工作台：选题、达人、排期与数据分析"
+  },
+  {
    "repo": "daha1216/dsh-pocket",
    "name": "daha1216-dsh-pocket",
    "verdict": "incompatible",
@@ -76028,6 +76077,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Workflow-net runtime for DeepSeek Harness: resource-aware concurrency, native loops and fan-out, static soundn"
+  },
+  {
+   "repo": "5101good/amoji",
+   "name": "5101good-amoji",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "AI 原生表情 · AI-native expressions for dsh: images for people, fixed text semantics for AI."
   },
   {
    "repo": "CanaryJing/dsh-big-fat-whale-maid-adaptive",
@@ -85256,6 +85312,13 @@
    "desc": "deepseek harness web notify plugin"
   },
   {
+   "repo": "chenweigao/dsh-perch-notify",
+   "name": "chenweigao-dsh-perch-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Webhook notifications for DeepSeek Harness sessions — POST on approval requests and turn ends (ntfy / Bark / g"
+  },
+  {
    "repo": "chenxin105/dsh-lark-bridge",
    "name": "chenxin105-dsh-lark-bridge",
    "verdict": "ok",
@@ -85996,6 +86059,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "zhangnan/dsh-chatgpt-oauth",
+   "name": "zhangnan-dsh-chatgpt-oauth",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ChatGPT OAuth login and Codex usage for DeepSeek Harness"
   },
   {
    "repo": "zhaoxuejie/dsh-plugin-desktop-notice",
@@ -89251,6 +89321,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "—"
+  },
+  {
+   "repo": "chenweigao/perch",
+   "name": "chenweigao-perch",
+   "verdict": "pending",
+   "stars": 5,
+   "desc": "A native macOS workspace for local and remote coding agents"
   },
   {
    "repo": "d3vmeh/dsh-fetch-timeouts",
@@ -100061,6 +100138,13 @@
    "desc": "Operate chat.deepseek.com as a programmable agent from inside DeepSeek Harness: sessions, shares, digest"
   },
   {
+   "repo": "wjw99830/dsh-plugin-noema",
+   "name": "wjw99830-dsh-plugin-noema",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Focus code review on complexity changes after each coding task."
+  },
+  {
    "repo": "WODE25500/dsh-codex",
    "name": "wode25500-dsh-codex",
    "verdict": "incompatible",
@@ -101746,6 +101830,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness desktop workspace file editor plugin"
+  },
+  {
+   "repo": "yueyexiayu/dsh-shengcheng",
+   "name": "yueyexiayu-dsh-shengcheng",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH desktop plugin: generate images with logged-in Grok/GPT accounts, and videos with Grok"
   },
   {
    "repo": "yueyexiayu/dsh-sousuo",

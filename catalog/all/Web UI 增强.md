@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2905）
+# 🔌 Web UI 增强（2907）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1999,6 +1999,7 @@
 - 🟩 `[可用]` [xtd1145-dsh-deepseek-cost-live](https://github.com/xtd1145/dsh-deepseek-cost-live) ★0 — Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock
 - 🟩 `[可用]` [xugulin-dsh-display-panel](https://github.com/xugulin/dsh-display-panel) ★0 — A display tab for the DeepSeek Harness Web UI: watch — and drive — the AI's own headless test display
 - 🟩 `[可用]` [xusuyang030218-dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) ★0 — DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl
+- 🟩 `[可用]` [xydijkkk-dsh-voredteam](https://github.com/xydijkkk/dsh-voredteam) ★0 — dsh-voredteam｜DSH 插件形态的单模式安全作战系统：黑板（Fact/Intent/Hint）+ 六阶段六矩阵作业法 + 总控与 12 个专业子 agent + 作战面板（八泳道实时图 / 覆盖矩阵 / 按会
 - ⬜ `[待定]` [xzxtan-dsh-desktop](https://github.com/xzxtan/dsh-desktop) ★0 — Lightweight Windows desktop shell for DeepSeek Harness - a native WPF + WebView2 window around the official we
 - 🟩 `[可用]` [yakoylp-dsh-localnotify](https://github.com/yakoylp/dsh-localnotify) ★0 — DSH 本地通知栏插件：侧边栏【通知】入口 + 全屏通知中心（时间筛选/搜索/未读已读/删除/详情一键复制），notify_add agent 工具 + CLI 写入，JSON 持久化，实时刷新，界面跟随 dsh web
 - 🟩 `[可用]` [yangatc-dsh-theme](https://github.com/YangAtC/dsh-theme) ★0 — —
@@ -2840,6 +2841,7 @@
 - `[未定位]` **windrover-dsh-minimal-ui-panels** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [wizzy-yang-dsh-updater](https://github.com/wizzy-yang/dsh-updater) ★0 — DSH auto-update plugin — detects official deepseek-ai/deepseek-harness releases, one-click npm upgrade + auto
 - 🟨 `[不兼容]` [wjx-ai-dsh-md-reader](https://github.com/wjx-ai/dsh-md-reader) ★0 — DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \| 会话区 \| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放
+- 🟨 `[不兼容]` [wowyuarm-dsh-context-continuity](https://github.com/wowyuarm/dsh-context-continuity) ★0 — The context-continuity engine for DeepSeek Harness: a subject's context lived as one continuous timeline acros
 - 🟨 `[不兼容]` [wwwangzilin-dsh-role-cards](https://github.com/wwwangzilin/dsh-role-cards) ★0 — DSH Web 插件：新建会话界面上的角色卡 + 工作区卡选择器（毛玻璃卡片墙 / 横向滚动 / 角色主题色 / 入场动画）
 - 🟨 `[不兼容]` [xchannel1987-dsh-reverse-proxy-xc](https://github.com/xchannel1987/dsh-reverse-proxy-xc) ★0 — DSH LAN reverse proxy plugin for accessing Web GUI from mobile devices
 - `[未定位]` **xian-jl-dsh-kinich-theme** — 占位待复核，判定暂不展示
