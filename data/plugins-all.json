@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T11:00:58Z",
+ "generated_at": "2026-11-10T11:15:49Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6945,6 +6945,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "leolee9086/dsh-better-session-query",
+   "name": "leolee9086-dsh-better-session-query",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: block-level parallel index over session history"
   },
   {
    "repo": "liangminhua/agent-notes-toolkit",
@@ -18028,6 +18035,13 @@
    "desc": "「鲸蓝戏水」macOS theme + swimming whale aquarium background for the DeepSeek Harness Web GUI (dsh-plugin)"
   },
   {
+   "repo": "datit309/dsh-live-inspector",
+   "name": "datit309-dsh-live-inspector",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Auto-monitor and reveal active file operations and changes in DeepSeek Harness (DSH) right sidebar"
+  },
+  {
    "repo": "dawsondx/dsh-token-data",
    "name": "dawsondx-dsh-token-data",
    "verdict": "ok",
@@ -28066,6 +28080,13 @@
    "desc": "把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 \\| Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to"
   },
   {
+   "repo": "xbzbing/dsh-git-panel",
+   "name": "xbzbing-dsh-git-panel",
+   "verdict": "incompatible",
+   "stars": 45,
+   "desc": "Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、AI 生成提交信息、文件浏览、代码与图片新旧差异对照、输入框分支标记、针对移动端优化 \\| an IDE-style Git"
+  },
+  {
    "repo": "PerryLink/dsh-plugin-guide",
    "name": "perrylink-dsh-plugin-guide",
    "verdict": "incompatible",
@@ -30460,6 +30481,13 @@
    "desc": "Native sidebar conversations for DeepSeek Harness: fork turns, start independent chats, and follow source refe"
   },
   {
+   "repo": "guooo1380/dsh-team-panel",
+   "name": "guooo1380-dsh-team-panel",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "haichangcharles/dsh-context-map",
    "name": "haichangcharles-dsh-context-map",
    "verdict": "incompatible",
@@ -31788,6 +31816,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Classic, dependable DeepSeek Harness TUI with session, provider, and model management."
+  },
+  {
+   "repo": "hbgdjb/dsh-mimo-quota",
+   "name": "hbgdjb-dsh-mimo-quota",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "MIMO Quota Panel —— DeepSeek Harness 的模型额度面板：会话日志逐调用自动记账，一屏展示 Token 用量、消费金额、请求次数、趋势波形、模型构成，支持按模型/粒度/时间范围/项目·对话"
   },
   {
    "repo": "HenryHwong/dsh-ui-billing",
