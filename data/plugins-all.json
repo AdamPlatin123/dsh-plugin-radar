@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T18:46:16Z",
+ "generated_at": "2026-11-10T19:16:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -46733,6 +46733,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "chengyingshe/dsh-client-app",
+   "name": "chengyingshe-dsh-client-app",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Authenticated DeepSeek Harness Web client with Tauri 2, dsh-auth, and optional Cloudflare Tunnel plugins."
   },
   {
    "repo": "chenjunda0018-sketch/A-persona-plugin-for-DeepSeek-Harness",
