@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T03:16:01Z",
+ "generated_at": "2026-11-10T03:30:50Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -5958,6 +5958,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl"
+  },
+  {
+   "repo": "elmersky/dsh-plugin-trellis-workflow",
+   "name": "elmersky-dsh-plugin-trellis-workflow",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Trellis workflow enforcement for the DeepSeek Harness: per-turn workflow state injection and a trellis-start e"
   },
   {
    "repo": "erya2000/dsh-session-budget-guard",
@@ -19428,6 +19435,13 @@
    "desc": "DeepSeek Harness plugin: automatic file snapshots with a sidebar timeline and settings card"
   },
   {
+   "repo": "dingchenhui0618-arch/dsh-imagegen-skill",
+   "name": "dingchenhui0618-arch-dsh-imagegen-skill",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Bundled imagegen skill for DeepSeek Harness: generate or edit raster images from the agent through any OpenAI-"
+  },
+  {
    "repo": "dingdongji-hub/dsh-atom-commune-skin",
    "name": "dingdongji-hub-dsh-atom-commune-skin",
    "verdict": "ok",
@@ -22968,6 +22982,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "PDF to Word conversion plugin for DeepSeek Harness (dsh): PyMuPDF/PaddleOCR pipeline + LLM visual style verifi"
+  },
+  {
+   "repo": "dytom18/dsh-plugin-voice-dictation",
+   "name": "dytom18-dsh-plugin-voice-dictation",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "说话即任务：给 DSH Web GUI 加语音听写，说完自动发送给 Agent（纯前端，无需 API Key）"
   },
   {
    "repo": "dzf-code/dsh-paste-doc",
@@ -40309,6 +40330,13 @@
    "desc": "—"
   },
   {
+   "repo": "fflow2023/dsh-usage-cost",
+   "name": "fflow2023-dsh-usage-cost",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Fiker1203/dsh-plugin-renamer",
    "name": "fiker1203-dsh-plugin-renamer",
    "verdict": "ok",
@@ -44047,13 +44075,6 @@
    "desc": "deepseek-harness客户端模式"
   },
   {
-   "repo": "fflow2023/dsh-usage-cost",
-   "name": "fflow2023-dsh-usage-cost",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "Fiennes4590/dsh-token-usage-calendar",
    "name": "fiennes4590-dsh-token-usage-calendar",
    "verdict": "ok",
@@ -45949,6 +45970,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "ganningniang/dsh-offpeak-job",
+   "name": "ganningniang-dsh-offpeak-job",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的谷时调度插件——把任务留到谷时再运行"
   },
   {
    "repo": "GanymedeNil/dsh-plugins",
