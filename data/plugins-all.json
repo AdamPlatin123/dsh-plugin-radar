@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T03:01:06Z",
+ "generated_at": "2026-11-10T03:16:01Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2514,6 +2514,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH plugin: estimated DeepSeek API cost per session in the web GUI stats strip"
+  },
+  {
+   "repo": "cloudbywu/dshchem",
+   "name": "cloudbywu-dshchem",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH (DeepSeek Harness) 化学科研 Agent 预设与插件：24 个 chem_* 工具，RDKit / ASE / xtb / AutoDock Vina / admet_ai 后端"
   },
   {
    "repo": "directwire/culmen",
@@ -10496,6 +10503,13 @@
    "desc": "dsh plugin to run DeepSeek Harness (dsh) agents in Zed’s Agent Panel."
   },
   {
+   "repo": "datuloar/dsh-computer-use-win",
+   "name": "datuloar-dsh-computer-use-win",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Windows computer use for DeepSeek Harness agents  screenshot, click, type, scroll, with an on-screen indicator"
+  },
+  {
    "repo": "DDDFXYqiming/dsh-vision-skill",
    "name": "dddfxyqiming-dsh-vision-skill",
    "verdict": "incompatible",
@@ -12013,6 +12027,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh定时任务插件，支持延迟、固定间隔、cron表达式，支持执行shell命令，支持发起Agent会话"
+  },
+  {
+   "repo": "chaserchan/dsh-browser-harness",
+   "name": "chaserchan-dsh-browser-harness",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: drive a real Chrome from your dsh agent via the browser-use Browser Harness (local, no API key)."
   },
   {
    "repo": "chen-zz20/dsh-skill-stats",
@@ -19111,6 +19132,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Multi-language UI plugin for DeepSeek Harness: 繁體中文 / 日本語 / 한국어 / Français / Deutsch / Español language option"
+  },
+  {
+   "repo": "asxiuxiu/dsh-quick-open",
+   "name": "asxiuxiu-dsh-quick-open",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web GUI plugin: VSCode-style Ctrl+P quick open — indexed workspace file search, sidebar editor open, conve"
   },
   {
    "repo": "autumnshiu009-ship-it/dsh-mobile-ui",
@@ -30444,6 +30472,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "可移植的 DSH/Cordis 主题插件：内置配色浏览、预览、应用与持久化；DeepSeek Harness Desktop 预装"
+  },
+  {
+   "repo": "ciceroyang/dsh-prompt-library",
+   "name": "ciceroyang-dsh-prompt-library",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 常用指令库：一份写好中文提示词的清单，搜一下、点一下就能填进输入框，给不熟悉怎么写提示词的人用"
   },
   {
    "repo": "Cinnamobot/dsh-nothing-skin",
@@ -45034,6 +45069,20 @@
    "desc": "再dsh里面可以使用图片api"
   },
   {
+   "repo": "ciceroyang/dsh-followup-actions",
+   "name": "ciceroyang-dsh-followup-actions",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 追问快捷键：回答下面多一排按钮（翻译、说人话、缩成三句、找漏洞…），点一下就填好追问，给不知道怎么接着问的人用"
+  },
+  {
+   "repo": "ciceroyang/dsh-privacy-guard",
+   "name": "ciceroyang-dsh-privacy-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 发送前隐私检查：在你把手机号、身份证号、银行卡号或 API 密钥发给模型之前提醒你，并支持一键打码"
+  },
+  {
    "repo": "ckk-09/dsh-refix",
    "name": "ckk-09-dsh-refix",
    "verdict": "pending",
@@ -58388,6 +58437,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "DSH 计算器工具插件：安全的数学表达式求值器，零依赖递归下降解析器 〔PR〕"
+  },
+  {
+   "repo": "peng456/dsh-plugin-mesh",
+   "name": "peng456-dsh-plugin-mesh",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "DSH 局域网 Mesh 插件：自动发现同网段的其他 DSH 实例，提供对端操作页面，支持跨机双向派发任务"
   },
   {
    "repo": "RiemannRe3/DSH-RolePlay",
@@ -85326,6 +85382,13 @@
    "desc": "Use multiple coding-plan subscriptions (ChatGPT/Codex, Claude, Gemini, …) inside DeepSeek Harness via native O"
   },
   {
+   "repo": "picsky/dsh-pocket-console",
+   "name": "picsky-dsh-pocket-console",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "不把整台机器交出去，只送出挡路的决定和下一步：DeepSeek Harness 的审批、ask_user_question 提问与结果回复，以飞书卡片发到手机——桌面优先、只出站；执行过程实时可见，下一段任务一键即开"
+  },
+  {
    "repo": "shaobeichen/dsh-im-bridge",
    "name": "shaobeichen-dsh-im-bridge",
    "verdict": "incompatible",
@@ -89120,6 +89183,13 @@
    "desc": "—"
   },
   {
+   "repo": "camplus360/agent-memory-bridge",
+   "name": "camplus360-agent-memory-bridge",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "One bridge"
+  },
+  {
    "repo": "chenhw7/dsh-memory",
    "name": "chenhw7-dsh-memory",
    "verdict": "ok",
@@ -90399,6 +90469,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Strict checker for dsh: verify code and commands with real checkers - Lean 4 kernel checking, language compile"
+  },
+  {
+   "repo": "cccc12138/dsh-read-aloud",
+   "name": "cccc12138-dsh-read-aloud",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A speaker button beside the Like button: read any DeepSeek Harness reply aloud with the browser's own speech e"
   },
   {
    "repo": "chang416/deepsee",
@@ -92800,6 +92877,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "cningan/dsh-startup-check",
+   "name": "cningan-dsh-startup-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Pre-flight check for a DeepSeek Harness profile's plugin tree: static checks + optional isolated real-boot and"
   },
   {
    "repo": "codeh007/mtmdsh",
@@ -98799,6 +98883,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Production-ready plugins for DeepSeek Harness (DSH): remote SSH agent execution, integrated terminal & file tr"
+  },
+  {
+   "repo": "athif23/dsh-shell-select",
+   "name": "athif23-dsh-shell-select",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: one model-facing shell tool whose shell (PowerShell, cmd, Git Bash, WSL, bash, zsh, f"
   },
   {
    "repo": "BackMountainBird/dsh-ultracode",

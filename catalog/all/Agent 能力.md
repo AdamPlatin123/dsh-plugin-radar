@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2123）
+# 🤖 Agent 能力（2128）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -368,6 +368,7 @@
 - 🟩 `[可用]` [cckyros-goal-acceptance](https://github.com/cckyros/goal-acceptance) ★2 — Acceptance-criteria-driven goal completion for autonomous agents — core library, MCP server, and Cordis plugin
 - 🟩 `[可用]` [ch1bug-dsh-wsl-bridge](https://github.com/ch1bug/dsh-wsl-bridge) ★2 — Windows access tools for WSL agents: win_ls/win_read/win_write/win_run/win_open/win_path/win_drives as a DeepS
 - 🟩 `[可用]` [dsh-session-cost](https://github.com/ChengChe106/dsh-session-cost) ★2 — DSH plugin: estimated DeepSeek API cost per session in the web GUI stats strip
+- ⬜ `[待定]` [cloudbywu-dshchem](https://github.com/cloudbywu/dshchem) ★2 — DSH (DeepSeek Harness) 化学科研 Agent 预设与插件：24 个 chem_* 工具，RDKit / ASE / xtb / AutoDock Vina / admet_ai 后端
 - `[空仓监测]` **dsh-command-opt** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [directwire-culmen](https://github.com/directwire/culmen) ★2 — persona/v1 — 通用智能体人格格式：定义有记忆、会成长、有关系的 AI 如何落盘、迁移、在任意实现（Claude CLI / OpenClaw / Hermes / 自建运行时）间互换
 - 🟩 `[可用]` [djasdh-interest-memory](https://github.com/djasdh/interest-memory) ★2 — Low-footprint memory backend for AI agents — single binary, ~50MB RAM, verify-augmented accuracy
@@ -838,6 +839,7 @@
 - 🟩 `[可用]` [boomzikazita-dsh-memory](https://github.com/boomzikazita/dsh-memory) ★0 — DSH memory plugin: RRF multi-lane recall / confirm-based writes / Fernet vault / session harvest
 - 🟩 `[可用]` [boomzikazita-dsh-skill-authoring](https://github.com/boomzikazita/dsh-skill-authoring) ★0 — DSH skill authoring toolkit: scaffold + 9-gate quality audit for skills
 - 🟩 `[可用]` [boomzikazita-dsh-skill-lazy](https://github.com/boomzikazita/dsh-skill-lazy) ★0 — DSH skill catalog lazy loading: name+one-line summary injection, on-demand search (~500 tokens)
+- `[未定位]` **bowluna-dsh-prompt-hub** — 占位待复核，判定暂不展示
 - `[未定位]` **bptumbleweed-dsh-pin-session** — 占位待复核，判定暂不展示
 - `[未定位]` **bptumbleweed-dsh-session-retitle** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [byxhuster-dsh-paper-highlighting-agent](https://github.com/ByxHuster/DSH-Paper-Highlighting-Agent) ★0 — —
@@ -1077,6 +1079,7 @@
 - 🟩 `[可用]` [nattocb-dsh-web-search-session-follow](https://github.com/NattoCB/dsh-web-search-session-follow) ★0 — —
 - 🟩 `[可用]` [navid-kianfar-dsh-voice](https://github.com/navid-kianfar/dsh-voice) ★0 — Dictate prompts into the DeepSeek Harness Web Client — a microphone in the composer, with swappable transcript
 - 🟩 `[可用]` [nb4747-dsh-session-sync](https://github.com/NB4747/dsh-session-sync) ★0 — —
+- `[未定位]` **nbagent-dev-metaflywheel** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [nekomona-dsh-plugin-zai-mcp](https://github.com/nekomona/dsh-plugin-zai-mcp) ★0 — 1-click Deepseek Harness plugin for Z.ai coding plan MCPs
 - 🟩 `[可用]` [neorrrr-dsh-project-skill-paths](https://github.com/NeoRrrr/dsh-project-skill-paths) ★0 — —
 - ⬜ `[待定]` [neumannzc-dsh-native-session-split](https://github.com/Neumannzc/dsh-native-session-split) ★0 — —
@@ -1637,6 +1640,7 @@
 - 🟨 `[不兼容]` [cryonnan-gatecraft-math-modeling-skills](https://github.com/Cryonnan/GateCraft-math-modeling-skills) ★2 — —
 - `[空仓监测]` **dsh-schedule** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [dangpangch-dsh-acp](https://github.com/dangpangch/dsh-acp) ★2 — dsh plugin to run DeepSeek Harness (dsh) agents in Zed’s Agent Panel.
+- 🟨 `[不兼容]` [datuloar-dsh-computer-use-win](https://github.com/datuloar/dsh-computer-use-win) ★2 — Windows computer use for DeepSeek Harness agents  screenshot, click, type, scroll, with an on-screen indicator
 - 🟨 `[不兼容]` [dddfxyqiming-dsh-vision-skill](https://github.com/DDDFXYqiming/dsh-vision-skill) ★2 — —
 - 🟨 `[不兼容]` [deepforce-dsh-balance](https://github.com/deepforce/dsh-balance) ★2 — DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate
 - 🟨 `[不兼容]` [dpskh-dsh-rewind](https://github.com/dpskh/dsh-rewind) ★2 — Fold everything since the last checkpoint mark into an auto-generated report, replacing it in context while ke
@@ -1864,6 +1868,7 @@
 - 🟨 `[不兼容]` [cagierash123-dsh-obsidian-agent-wiki](https://github.com/CagierAsh123/dsh-obsidian-agent-wiki) ★0 — —
 - 🟨 `[不兼容]` [cardclown-dsh-sims-agent](https://github.com/cardclown/dsh-sims-agent) ★0 — DSH SIMS 单工具助手：连接配置、凭据管理与用户模板（开发候选）
 - 🟨 `[不兼容]` [changyinliangbaikai-dsh-b2us-schedule](https://github.com/changyinliangbaikai/dsh-b2us-schedule) ★0 — dsh定时任务插件，支持延迟、固定间隔、cron表达式，支持执行shell命令，支持发起Agent会话
+- 🟨 `[不兼容]` [chaserchan-dsh-browser-harness](https://github.com/chaserchan/dsh-browser-harness) ★0 — DSH plugin: drive a real Chrome from your dsh agent via the browser-use Browser Harness (local, no API key).
 - 🟨 `[不兼容]` [chen-zz20-dsh-skill-stats](https://github.com/chen-zz20/dsh-skill-stats) ★0 — —
 - `[未定位]` **chenneyzhuang-context-budget** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [chenqg618-compliance-skills](https://github.com/chenqg618/compliance-skills) ★0 — 150+ deterministic, fully-offline MCP tools & free AI-agent skills for cross-industry monthly checks (payroll,
