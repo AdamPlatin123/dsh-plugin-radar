@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T15:16:04Z",
+ "generated_at": "2026-11-10T15:31:15Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -30339,6 +30339,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "dsh像素风皮肤"
+  },
+  {
+   "repo": "123wansui-989/dsh-flight-compare",
+   "name": "123wansui-989-dsh-flight-compare",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: registers flight_compare, fetches Travelpayouts fares, groups by flight and date, marks lowest pri"
   },
   {
    "repo": "21hbguo/dsh-session-batch-manager",
@@ -64090,6 +64097,13 @@
   {
    "repo": "YuLee-314/dsh-vision-bridge",
    "name": "yulee-314-dsh-vision-bridge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "yuqiguang/dsh-nexus",
+   "name": "yuqiguang-dsh-nexus",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
