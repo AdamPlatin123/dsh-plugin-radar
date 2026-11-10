@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T01:46:20Z",
+ "generated_at": "2026-11-10T02:01:07Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2556,6 +2556,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH plugin: agent-managed procedural memory — a skill_manage tool that lets the agent write, patch, disable an"
+  },
+  {
+   "repo": "gezi-wen/dsh-skill-authoring",
+   "name": "gezi-wen-dsh-skill-authoring",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH plugin that ships a skill for writing, reviewing and verifying DSH skills: SKILL.md frontmatter, trigger s"
   },
   {
    "repo": "GooDAnDReaDY/dsh-context-lens",
@@ -5736,6 +5743,13 @@
    "desc": "Cloudflare D1 tools for the DeepSeek Harness (dsh): read-only first, approval-gated writes, zero runtime depen"
   },
   {
+   "repo": "cnkids/dsh-palimpsest",
+   "name": "cnkids-dsh-palimpsest",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 宿主插件：让 AI 智能体在新会话里按需检索同一工作目录下的历史会话记忆（只读、不落盘、不注入）｜ DSH host plugin: on-demand recall of past sessions in th"
+  },
+  {
    "repo": "CooperZhuang/dsh-context-window",
    "name": "cooperzhuang-dsh-context-window",
    "verdict": "ok",
@@ -6044,6 +6058,20 @@
    "desc": "Peak/off-peak pricing indicator for DeepSeek Harness — live composer pill with countdown, plus a status tool f"
   },
   {
+   "repo": "gezi-wen/dsh-repair",
+   "name": "gezi-wen-dsh-repair",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin that ships a skill for diagnosing and repairing a broken DeepSeek Harness install: boot failures, d"
+  },
+  {
+   "repo": "gezi-wen/dsh-subagent-delegation",
+   "name": "gezi-wen-dsh-subagent-delegation",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin that ships a skill on when to delegate to subagents, how many to fan out in parallel, and how to ve"
+  },
+  {
    "repo": "gjnzsu/dsh-companion",
    "name": "gjnzsu-dsh-companion",
    "verdict": "ok",
@@ -6105,6 +6133,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: offload bulky tool logs to refs/*.md, keep a Mermaid canvas, recall by node_id"
+  },
+  {
+   "repo": "gurio-wine/dsh-fold-it-up",
+   "name": "gurio-wine-dsh-fold-it-up",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web 插件：强制折叠每一轮的工作过程，答案照常显示，历史轮次与上下文注入行一并折叠"
   },
   {
    "repo": "GY-Bai/dsh-anchored-subagent",
@@ -10986,6 +11021,13 @@
    "desc": "DSH（DeepSeek Harness）本地跨会话记忆插件：捕获每轮对话摘要、注入最近几天记忆，并提供 memory_search 工具按需检索全部历史记忆"
   },
   {
+   "repo": "chaochaokongbai/dsh-beginner-hub",
+   "name": "chaochaokongbai-dsh-beginner-hub",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "🧭 DSH新手台：大白话输入需求 → 路由成可直接用的方案（话术/技能/进阶玩法），一键填入新会话"
+  },
+  {
    "repo": "chihy525/dsh-mcp-skill-manager",
    "name": "chihy525-dsh-mcp-skill-manager",
    "verdict": "incompatible",
@@ -11894,6 +11936,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "cardclown/dsh-sims-agent",
+   "name": "cardclown-dsh-sims-agent",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH SIMS 单工具助手：连接配置、凭据管理与用户模板（开发候选）"
   },
   {
    "repo": "changyinliangbaikai/dsh-b2us-schedule",
@@ -22522,6 +22571,13 @@
    "desc": "🥧 Developer-first terminal coding agent rebuilt on Cordis (v4.0.1) microkernel with an \"Everything is a plugin"
   },
   {
+   "repo": "clevebitr/dsh-base16-skins",
+   "name": "clevebitr-dsh-base16-skins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "配色方案，作为 DSH Web GUI 皮肤（ 的 v2 纯资产皮肤目录）"
+  },
+  {
    "repo": "Couioly/plugin-audio-alert",
    "name": "couioly-plugin-audio-alert",
    "verdict": "ok",
@@ -28995,6 +29051,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "devacc8/dsh-billing-badge",
+   "name": "devacc8-dsh-billing-badge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Billing season and account balance chip for the DeepSeek Harness web GUI: a native-looking pill after the cach"
   },
   {
    "repo": "difimim/dsh-voice-input-npm",
@@ -80559,6 +80622,13 @@
    "desc": "DeepSeek Harness plugin: render GeoJSON/vector data into an interactive GeoLibre map and let agents operate th"
   },
   {
+   "repo": "better-er/dsh-remote-file-system",
+   "name": "better-er-dsh-remote-file-system",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "「DSH·远程文件系统」：给模型提供 read_remote、write_remote、edit_remote 三个工具，经 ssh 读写远程主机文件；write_remote 只允许新建"
+  },
+  {
    "repo": "caizhihaoczh/dsh-profile-multica",
    "name": "caizhihaoczh-dsh-profile-multica",
    "verdict": "incompatible",
@@ -84855,6 +84925,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "better-er/dsh-notify-ding",
+   "name": "better-er-dsh-notify-ding",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "「DSH·通知叮咚」：agent 提问或跑完一轮时弹出系统通知并让宿主播放 Windows 内置提示音"
   },
   {
    "repo": "blooming-fang/dsh-feishu-notifier",
@@ -90413,6 +90490,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH web plugin: per-model thinking-intensity tiers, modalities and gateway compat switches for custom llm-pi-a"
+  },
+  {
+   "repo": "fyisgod/dsh-selection-tools",
+   "name": "fyisgod-dsh-selection-tools",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：任意 Windows 应用里划词，用 DeepSeek Harness 自己的 agent 解释/翻译，结果落在原生置顶浮窗（GDI+，零依赖、零额外进程）"
   },
   {
    "repo": "G1en-114/dsh-codex-import",
@@ -97574,6 +97658,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin and MCP adapter for deterministic diePi quantitative backtesting."
+  },
+  {
+   "repo": "eteced/memoplus4dsh",
+   "name": "eteced-memoplus4dsh",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "一个 Agent，一整份记忆——不拆散，不分割，如人的记忆一般完整连续"
   },
   {
    "repo": "flg1217/dsh-subagent-codebuddy",
