@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T05:31:13Z",
+ "generated_at": "2026-11-10T05:46:12Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2430,6 +2430,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "alanzhao0128/dsh-memory-lite",
+   "name": "alanzhao0128-dsh-memory-lite",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Lightweight zero-dependency long-term memory for DeepSeek Harness: Markdown memory store, L0 catalog injection"
   },
   {
    "repo": "AlloyPlane/kic-ai-cn",
@@ -11070,6 +11077,13 @@
    "desc": "—"
   },
   {
+   "repo": "7starsseeker/dsh-jev-guard",
+   "name": "7starsseeker-dsh-jev-guard",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness (DSH) 执行前安全阀门:bash/pwsh 真正执行前先经静态规则 + TypeSafe Jev 语义判定,破坏性操作按 允许/修正/拦截/上报人工 四态处置,含额度降级与审计日志"
+  },
+  {
    "repo": "863683348/dsh-memory-setup",
    "name": "863683348-dsh-memory-setup",
    "verdict": "incompatible",
@@ -15121,6 +15135,13 @@
    "verdict": "ok",
    "stars": 7,
    "desc": "Bring open-mcp-apps into deepseek-harness: apps as sidebar containers with their own sessions, an agent status"
+  },
+  {
+   "repo": "alaliqing/dsh-annotate",
+   "name": "alaliqing-dsh-annotate",
+   "verdict": "ok",
+   "stars": 7,
+   "desc": "Visual annotation plugin for DeepSeek Harness: select elements in local app previews and send structured UI fe"
   },
   {
    "repo": "bilbillm/deepseek-harness-angelina-themes",
@@ -23766,6 +23787,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "The child-scoped report tool for continuable in-process subagents on DeepSeek Harness: installs `report` plus"
+  },
+  {
+   "repo": "hzhgino/dsh-caonima",
+   "name": "hzhgino-dsh-caonima",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "核动力草泥马 - DSH Web GUI desktop pet plugin for DeepSeek Harness"
   },
   {
    "repo": "iasiv5/skins",
@@ -38489,6 +38517,13 @@
    "desc": "—"
   },
   {
+   "repo": "neuneed/dsh-shuorenhua",
+   "name": "neuneed-dsh-shuorenhua",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "dsh-shuorenhua"
+  },
+  {
    "repo": "nicearrack/dsh-translator",
    "name": "nicearrack-dsh-translator",
    "verdict": "ok",
@@ -43284,6 +43319,13 @@
    "desc": "—"
   },
   {
+   "repo": "stone100010/dsh-token-gauge",
+   "name": "stone100010-dsh-token-gauge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh-token-gauge"
+  },
+  {
    "repo": "Sttrevens/dsh-cost-meter",
    "name": "sttrevens-dsh-cost-meter",
    "verdict": "ok",
@@ -45993,6 +46035,13 @@
    "desc": "—"
   },
   {
+   "repo": "doremifaso12345/dsh-token-ledger",
+   "name": "doremifaso12345-dsh-token-ledger",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "a dsh plugin for token surveillance"
+  },
+  {
    "repo": "DosterBool/dsh-balance-guard",
    "name": "dosterbool-dsh-balance-guard",
    "verdict": "ok",
@@ -46381,6 +46430,13 @@
    "repo": "fonlan/dsh-apply-patch",
    "name": "fonlan-dsh-apply-patch",
    "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "fonlan/dsh-model-router",
+   "name": "fonlan-dsh-model-router",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -56822,6 +56878,13 @@
    "desc": "—"
   },
   {
+   "repo": "x102201/dsh-helper-plugin-command-ask",
+   "name": "x102201-dsh-helper-plugin-command-ask",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-helper plugin: a Cursor-style /ask mode for DeepSeek Harness — /ask <question> answers read-only for one t"
+  },
+  {
    "repo": "xbyzzZ/dsh_design",
    "name": "xbyzzz-dsh-design",
    "verdict": "ok",
@@ -57951,13 +58014,6 @@
   {
    "repo": "dingge001/dsh-redact",
    "name": "dingge001-dsh-redact",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "fonlan/dsh-model-router",
-   "name": "fonlan-dsh-model-router",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -64303,6 +64359,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mrbeandev/dsh-reconnect",
+   "name": "mrbeandev-dsh-reconnect",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "English DeepSeek Harness retry plugin with exponential backoff and gateway recovery"
   },
   {
    "repo": "MrLukezy/dsh-cloud-gateway",
@@ -71718,6 +71781,13 @@
    "desc": "DeepSeek Harness 插件：一键 OAuth 授权连接企查查（Qichacha）MCP 服务 / One-click OAuth connect to Qichacha MCP services for De"
   },
   {
+   "repo": "gaoqiaoliangjie666/dsh-qwen-connect",
+   "name": "gaoqiaoliangjie666-dsh-qwen-connect",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "将 QwenWork 桌面 App 包含的模型自动接入 DeepSeek Harness，零配置使用"
+  },
+  {
    "repo": "hunter118/dsh-s7r",
    "name": "hunter118-dsh-s7r",
    "verdict": "incompatible",
@@ -72815,6 +72885,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "deepseek harness远程访问插件"
+  },
+  {
+   "repo": "lukepoo101/dsh-trusted-proxy-auth",
+   "name": "lukepoo101-dsh-trusted-proxy-auth",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin that trusts authentication already performed by a reverse proxy (Traefik + Keycloak OI"
   },
   {
    "repo": "m1452700576/dsh-app-updater",
@@ -75386,6 +75463,13 @@
    "desc": "DeepSeek Harness 增加古法编程模式，让模型监督你写代码！"
   },
   {
+   "repo": "konglong87/dsh-input-list",
+   "name": "konglong87-dsh-input-list",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH prompt library and reusable snippets plugin for saving, editing, and inserting prompts from the composer."
+  },
+  {
    "repo": "syy-shark/dsh-music-plugin",
    "name": "dsh-music-plugin",
    "verdict": "incompatible",
@@ -75692,6 +75776,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Pi and DSH plugins for stock market"
+  },
+  {
+   "repo": "mpetruc/dsh-model-sync",
+   "name": "mpetruc-dsh-model-sync",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Auto-populate and auto-update the list of llm-pi-ai providers' models"
   },
   {
    "repo": "saya-ch/dsh-amadeus",
@@ -76562,6 +76653,13 @@
    "desc": "Zero-dependency health-check CLI for DeepSeek Harness (dsh) plugins: manifest/npm/repo/docs checks + read-only"
   },
   {
+   "repo": "juzikexue/dsh-paper-digest",
+   "name": "juzikexue-dsh-paper-digest",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Mason-1011/dsh-schematic",
    "name": "mason-1011-dsh-schematic",
    "verdict": "incompatible",
@@ -77001,6 +77099,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jacket-sikaha/dsh-market-gist-autosync",
+   "name": "jacket-sikaha-dsh-market-gist-autosync",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh-market-gist-autosync"
   },
   {
    "repo": "jilian-dsh/dsh-rules-manager",
@@ -82344,6 +82449,13 @@
    "desc": "The most reliable read-only Excel analysis toolkit for DeepSeek Harness (dsh)"
   },
   {
+   "repo": "hesixian/dsh-data-migration",
+   "name": "hesixian-dsh-data-migration",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 本地迁移插件：把 DSH 配置、插件清单、skills、presets、storages 与 .credentials.yaml 打包成密码保护的 .dsh-migrate 文件"
+  },
+  {
    "repo": "honyKing/dsh-session-archive-plugin",
    "name": "honyking-dsh-session-archive-plugin",
    "verdict": "incompatible",
@@ -84988,6 +85100,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jolaaa999/dsh-section-nav",
+   "name": "jolaaa999-dsh-section-nav",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: section navigation rail and local chapter bookmarks for DeepSeek Harness chat answers"
   },
   {
    "repo": "JxaMe/dsh-telegram-bridge",
@@ -91787,6 +91906,13 @@
    "desc": "—"
   },
   {
+   "repo": "hawkongz/dsh-chat-locator",
+   "name": "hawkongz-dsh-chat-locator",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Turn-rail settings for DSH Web: tick thickness, rail side, a curved length gradient anchored on the hovered ti"
+  },
+  {
    "repo": "HazenSun/dsh-codex-bridge",
    "name": "hazensun-dsh-codex-bridge",
    "verdict": "ok",
@@ -95208,6 +95334,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugins that connect agents to calendar providers: iCloud Calendar over CalDAV, with recurring events expa"
+  },
+  {
+   "repo": "mrbeandev/dsh-short-tool-ids",
+   "name": "mrbeandev-dsh-short-tool-ids",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin that shortens tool-call IDs over 64 characters for OpenAI-compatible Chat Completions"
   },
   {
    "repo": "muen-collective/muen-plugins",
