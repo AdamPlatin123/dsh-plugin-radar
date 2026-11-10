@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T21:01:04Z",
+ "generated_at": "2026-11-10T22:01:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -20140,6 +20140,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "🥧 AI Coding Agent matching 80%+ Pi capabilities on Cordis microkernel & 100% official DeepSeek Harness (DSH) e"
+  },
+  {
+   "repo": "cn-scuo-oo/dsh-session-auto-title",
+   "name": "cn-scuo-oo-dsh-session-auto-title",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: re-title a session after every turn in the MMDD｜类型｜主题 convention"
   },
   {
    "repo": "cnskycn/deepseek-harness-desktop",
@@ -42106,6 +42113,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "frederico-kluser/dsh-goal-pause-guard",
+   "name": "frederico-kluser-dsh-goal-pause-guard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Plugin do DeepSeek Harness (DSH): modal de confirmação antes de pausar uma atividade rodando — pausar interrom"
   },
   {
    "repo": "freerpa/Hrequest",
@@ -69933,6 +69947,13 @@
    "desc": "ego lite browser automation for dsh that remembers — recall a site's learned tools, promote a working script i"
   },
   {
+   "repo": "DuckLing-IO/dsh-desktop",
+   "name": "duckling-io-dsh-desktop",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Eddie0521/turn-deepseek-into-desktop",
    "name": "turn-deepseek-into-desktop",
    "verdict": "ok",
@@ -70978,13 +70999,6 @@
   {
    "repo": "AyaXshiN/dsh-desktop",
    "name": "ayaxshin-dsh-desktop",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "DuckLing-IO/dsh-desktop",
-   "name": "duckling-io-dsh-desktop",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -101018,6 +101032,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Multi-backend web_search provider for DeepSeek Harness (DSH): Exa + Firecrawl with automatic failover, key-fre"
+  },
+  {
+   "repo": "frederico-kluser/dsh-worktree-jump",
+   "name": "frederico-kluser-dsh-worktree-jump",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin: a New-Conversation trigger that creates a git worktree — or starts inside an existing"
   },
   {
    "repo": "Funnyvalentine00/dsh-github-push",
