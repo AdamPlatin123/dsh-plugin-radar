@@ -1,7 +1,14 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T05:46:12Z",
+ "generated_at": "2026-11-10T06:00:49Z",
  "plugins": [
+  {
+   "repo": "ranxianglei/billion-context",
+   "name": "ranxianglei-billion-context",
+   "verdict": "pending",
+   "stars": 5677,
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100"
+  },
   {
    "repo": "superdesigndev/treg",
    "name": "superdesigndev-treg",
@@ -11959,6 +11966,13 @@
    "desc": "Routes the first DSH prompt to Standard, PTC, Minimal, or Cordis with DeepSeek V4 Flash."
   },
   {
+   "repo": "yunxiyang/dsh-stepwise-distill",
+   "name": "yunxiyang-dsh-stepwise-distill",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Solidify DSH session history step by step: rewrite tool results in place to the facts the model actually kept,"
+  },
+  {
    "repo": "zaimokuza-yoshiteru/dsh-agent-teams-office",
    "name": "zaimokuza-yoshiteru-dsh-agent-teams-office",
    "verdict": "incompatible",
@@ -11971,6 +11985,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Compact a session and continue the work in a new one"
+  },
+  {
+   "repo": "zhangyy0423/veripipe",
+   "name": "zhangyy0423-veripipe",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "An anti-false-positive verification pipeline for AI agents that test web/HTTP products."
   },
   {
    "repo": "zhourenke/dsh-agent-rate-limit",
@@ -13469,6 +13490,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Context-branching conversation tree plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "yuyuyyyyyyyyyyyy/dsh-project-memory",
+   "name": "yuyuyyyyyyyyyyyy-dsh-project-memory",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Host-plane cross-session engineering memory for coding agents on DeepSeek Harness: durable per-project records"
   },
   {
    "repo": "yuzh1090/dsh-voice-prompt-compressor",
@@ -18264,6 +18292,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "16 theme skins for the DeepSeek Harness (DSH) Web GUI - Catppuccin/Gruvbox/Everforest/Rose Pine/Solarized/Kana"
+  },
+  {
+   "repo": "meimiaoji-creator/meow-dsh-workflow",
+   "name": "meimiaoji-creator-meow-dsh-workflow",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "meow-dsh-workflow 是一个双面（node + browser）DSH 插件：内置一套可编辑的 Agent 角色库（研发链路 / 头脑风暴 ），把角色定义编译成系统提示词与工具白名单"
   },
   {
    "repo": "Meredith2328/dsh-sidebar-mode",
@@ -23663,6 +23698,13 @@
    "desc": "—"
   },
   {
+   "repo": "harmless0819-dev/dsh-self-built-plugins",
+   "name": "harmless0819-dev-dsh-self-built-plugins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Index of self-built DSH plugins, grouped by purpose: appearance, control, collaboration."
+  },
+  {
    "repo": "haveanote06/dsh-llm-kimi",
    "name": "haveanote06-dsh-llm-kimi",
    "verdict": "ok",
@@ -24368,6 +24410,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Mobile layout adaptation for the DeepSeek Harness Web UI — no overflow on phones: overlay sidebar, bottom-shee"
+  },
+  {
+   "repo": "lantiosity/dsh-token-fee",
+   "name": "lantiosity-dsh-token-fee",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Real-time per-session token cost for the DeepSeek Harness web GUI, with per-provider pricing and configurable"
   },
   {
    "repo": "lcb522/DSH-Aqua-Theme",
@@ -26629,6 +26678,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock"
+  },
+  {
+   "repo": "xugulin/dsh-display-panel",
+   "name": "xugulin-dsh-display-panel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A display tab for the DeepSeek Harness Web UI: watch — and drive — the AI's own headless test display"
   },
   {
    "repo": "xusuyang030218/dsh-preview-ui",
@@ -57466,6 +57522,13 @@
    "desc": "—"
   },
   {
+   "repo": "yzsnstotz/hanamesh-usage",
+   "name": "yzsnstotz-hanamesh-usage",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "HanaMesh MOD-11 activity plugin (activity)"
+  },
+  {
    "repo": "z7ping/narratica",
    "name": "z7ping-narratica",
    "verdict": "ok",
@@ -65593,6 +65656,13 @@
    "desc": "在 dsh Web 对话底部（token 统计前）显示 DeepSeek 账户余额的精简插件"
   },
   {
+   "repo": "yzsnstotz/hanamesh-plugin-app-host",
+   "name": "yzsnstotz-hanamesh-plugin-app-host",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "HanaMesh MOD-04 application host DSH plugin (app-host)"
+  },
+  {
    "repo": "Z-6354/dsh-local-hanaccount",
    "name": "z-6354-dsh-local-hanaccount",
    "verdict": "incompatible",
@@ -67628,6 +67698,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "xbzbing/dsh-hub-desktop",
+   "name": "xbzbing-dsh-hub-desktop",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH multi-instance manager — unified control of local, SSH-tunnel and remote HTTP dsh instances, with dsh-auth"
   },
   {
    "repo": "xiaoge200/dsh-desktop",
@@ -79404,6 +79481,13 @@
    "desc": "ARPM-derived local hybrid RAG plugin for DeepSeek Harness"
   },
   {
+   "repo": "sqs404/dsh-web-search-bing",
+   "name": "sqs404-dsh-web-search-bing",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DeepSeek Harness 搜索切换插件：一个开关切换 Bing 免密钥抓取 / DeepSeek 官方联网搜索，配套 web_fetch 直连抓取提供商"
+  },
+  {
    "repo": "staff-os/dsh-ragflow",
    "name": "staff-os-dsh-ragflow",
    "verdict": "ok",
@@ -85368,6 +85452,13 @@
    "desc": "例如：Prompt optimization plugin for DeepSeek Harness — adds a button below the composer to rewrite prompts via L"
   },
   {
+   "repo": "sidleo/dsh-chat",
+   "name": "sidleo-dsh-chat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把聊天软件接入 DeepSeek Harness：Chat机器人 设置页 + 飞书/微信渠道插件（会话桥、命令与访问策略、上下文增强、任务过程卡片、主动投递、扫码接入）"
+  },
+  {
    "repo": "Skylarking/dsh-plugin-chat-renderer",
    "name": "skylarking-dsh-plugin-chat-renderer",
    "verdict": "ok",
@@ -85576,6 +85667,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "x102201/dsh-helper-plugin-notify-away",
+   "name": "x102201-dsh-helper-plugin-notify-away",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-helper plugin: Cursor-style system notifications for DeepSeek Harness — silent while you watch the finishi"
   },
   {
    "repo": "xby-skill/xby-oecd-search",
@@ -93901,6 +93999,13 @@
    "desc": "—"
   },
   {
+   "repo": "dashitongzhi/dsh-config-webdav-sync",
+   "name": "dashitongzhi-dsh-config-webdav-sync",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) plugin: bidirectional WebDAV sync for DSH configuration (providers, plugins, prompts, s"
+  },
+  {
    "repo": "DDA-DIGITAL/dsh-deepseek-peak-indicator",
    "name": "dda-digital-dsh-deepseek-peak-indicator",
    "verdict": "ok",
@@ -101286,11 +101391,25 @@
    "desc": "DSH desktop search provider: AnySearch with rotating API keys on HTTP 402"
   },
   {
+   "repo": "yueyexiayu/dsh-zhanshi",
+   "name": "yueyexiayu-dsh-zhanshi",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH desktop plugin: show this-turn images and videos inline in the conversation"
+  },
+  {
    "repo": "yushuosun/dsh-cost-governor",
    "name": "yushuosun-dsh-cost-governor",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Cost governance & budget enforcement for DeepSeek Harness: per-model token-cost accounting, multi-provider pri"
+  },
+  {
+   "repo": "yzsnstotz/hanamesh-core",
+   "name": "yzsnstotz-hanamesh-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "HanaMesh MOD-02 identity client plugin (plugin-identity)"
   },
   {
    "repo": "zeta987/dsh-git-style-zeta",
