@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T18:31:21Z",
+ "generated_at": "2026-11-10T18:46:16Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10641,6 +10641,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DeepSeek Harness peer-consult plugin: talk to a fork of another session without mutating the original"
+  },
+  {
+   "repo": "boogoo619/dsh-noteboard",
+   "name": "boogoo619-dsh-noteboard",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "便签画布 / Noteboard canvas for DeepSeek Harness (DSH)：框选会话内容一键存为便签（可 AI 提炼），便签以结构化引用再次发回 AI；工作区级无限画布"
   },
   {
    "repo": "DDDFXYqiming/dsh-layered-memory",
