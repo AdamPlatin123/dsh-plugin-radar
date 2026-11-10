@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2951）
+# 🔌 Web UI 增强（2955）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -569,6 +569,7 @@
 - 🟩 `[可用]` [a792883583-dsh-cron-panel](https://github.com/a792883583/dsh-cron-panel) ★2 — DSH web GUI scheduled-tasks panel: sidebar management of DSH and system (crontab) tasks with natural-language
 - 🟩 `[可用]` [dsh-width-tiers](https://github.com/aaronlei/dsh-width-tiers) ★2 — A client plugin for the DeepSeek Harness Web GUI that adds chat content width tiers with a floating picker but
 - 🟩 `[可用]` [acebang0303-dsh-quick-launch](https://github.com/acebang0303/dsh-quick-launch) ★2 — DSH 桌面快捷方式插件：一键创建/更新/删除 DeepSeek Harness 桌面快捷方式，图标可自定义上传切换（蓝白金鲸鱼悬浮按钮，可拖动）
+- 🟩 `[可用]` [adithyanraj03-dsh-schedule-later](https://github.com/adithyanraj03/dsh-schedule-later) ★2 — Schedule a message into a dsh chat for later: a Schedule button in the message box with a date and time picker
 - 🟩 `[可用]` [alanpeng-deepseek-harness-desktop](https://github.com/alanpeng/deepseek-harness-desktop) ★2 — Tauri 2 desktop shell for DeepSeek Harness (dsh) — web host sidecar, tray UI, self-update
 - 🟩 `[可用]` [alk233-dsh-wechat-status](https://github.com/alk233/dsh-wechat-status) ★2 — WeChat login watchdog for DSH: surfaces dsh-wechat session loss as a Web UI banner instead of silently droppin
 - ⬜ `[待定]` [annanren-dsh-usage-suite](https://github.com/AnnanRen/dsh-usage-suite) ★2 — —
@@ -1486,6 +1487,7 @@
 - `[未定位]` **floatingfur-dsh-paperpanel** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [flowingboy-dsh-session-manager](https://github.com/flowingboy/dsh-session-manager) ★0 — DSH web GUI session manager plugin: archive (soft-delete) and bulk archive sessions from a sidebar panel
 - ⬜ `[待定]` [flupke91-dsh-phone-control](https://github.com/flupke91/dsh-phone-control) ★0 — DSH bundle: control the DeepSeek Harness web GUI from a phone/tablet on the same LAN
+- 🟩 `[可用]` [fly-cat-2015-dsh-quick-input](https://github.com/fly-cat-2015/dsh-quick-input) ★0 — 一个为deepseek-harness提供快捷输入的插件
 - 🟩 `[可用]` [fogmodel-dsh-workspace-jump](https://github.com/fogmodel/dsh-workspace-jump) ★0 — DSH web plugin: quickly create or switch to a workspace from a directory path via the sidebar Workspace button
 - `[空仓监测]` **foo1moon-dsh-web-visualuiconfig** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [founder987-dsh-dev-ui](https://github.com/founder987/dsh-dev-ui) ★0 — 适合编码研发的UI界面
@@ -1727,6 +1729,7 @@
 - 🟩 `[可用]` [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) ★0 — File tree panel for the DSH Web UI: the right details column shows the current s
 - 🟩 `[可用]` [moonbowterfly-dsh-bio-gem](https://github.com/moonbowterfly/dsh-bio-gem) ★0 — 基因组尺度代谢模型（GEM）构建插件：全基因组(蛋白FASTA)→自动构建+验证+补洞+报告(SBML+模型卡)；dsh-bio-genie 生态域插件 \| Genome-scale metabolic model bu
 - `[空仓监测]` **morinissleeping-dsh-pnc-theme** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **moruteaven-dsh-key-panel** — 占位待复核，判定暂不展示
 - `[未定位]` **moseevision-dsh-quick-archive** — 占位待复核，判定暂不展示
 - `[未定位]` **mosescharm-dsh-sidebar-stack** — 占位待复核，判定暂不展示
 - `[空仓监测]` **mozhuanzuojing-dsh-voice-input** — GitHub 无此仓库，判定暂不展示
@@ -2722,6 +2725,7 @@
 - 🟨 `[不兼容]` [erha2777-dsh-azure-maid-skin](https://github.com/erha2777/dsh-azure-maid-skin) ★0 — 蓝瓷女仆 · Azure Maid —— DSH Web GUI 主题皮肤
 - 🟨 `[不兼容]` [fengbinmov-dsh-git-panel](https://github.com/fengbinmov/dsh-git-panel) ★0 — DSH Web GUI 的 Git 面板插件：在会话界面的标签栏里，紧挨「对话 / 轨迹」再加一个 Git 页， 用来完成日常的查看改动、暂存、提交、看 diff、翻历史、切分支和推拉
 - 🟨 `[不兼容]` [fonlan-dsh-quick-commands](https://github.com/fonlan/dsh-quick-commands) ★0 — —
+- 🟨 `[不兼容]` [frederico-kluser-dsh-tavily-resilient-search](https://github.com/frederico-kluser/dsh-tavily-resilient-search) ★0 — Pesquisa web Tavily para o DeepSeek Harness (plugin Cordis) com rotação atómica e resiliente de um agrupamento
 - 🟨 `[不兼容]` [freespace8-dsh-plugins](https://github.com/freespace8/dsh-plugins) ★0 — DeepSeek Harness (DSH) 插件合集：工具包、守护循环、UI 面板等
 - 🟨 `[不兼容]` [fuchao2pku-dsh-experts](https://github.com/fuchao2pku/dsh-experts) ★0 — DSH Expert Marketplace — browse & install community experts/expert groups from the Web UI Settings
 - 🟨 `[不兼容]` [fusu123fusu-dsh-tui-cron](https://github.com/FUSU123fusu/dsh-tui-cron) ★0 — —
