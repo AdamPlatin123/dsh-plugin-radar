@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2220）
+# 🤖 Agent 能力（2226）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -672,6 +672,7 @@
 - 🟩 `[可用]` [meomeo-dev-dsh-voice](https://github.com/meomeo-dev/dsh-voice) ★1 — Conversation-tone switcher bundle for DeepSeek Harness — ships the 令 (Ling) tone and a create-voice meta-skill
 - 🟩 `[可用]` [dsh-agent-board](https://github.com/MiloMMIN/dsh-agent-board) ★1 — 跨 Agent 工作台:dsh persistent plugin that watches Claude Code / Codex / Kimi Code / Pi / Hermes and continues the
 - 🟩 `[可用]` [minyang2020-dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) ★1 — DeepSeek Harness (dsh) plugin: automatic session handoff when a session keeps hitting 429 TPM rate limits — ca
+- 🟩 `[可用]` [miseryrua-dsh-wb-cron](https://github.com/miseryrua/dsh-wb-cron) ★1 — DeepSeek Harness 无人值守定时任务调度器：cron/固定间隔/一次性三种调度，到点在 web profile 进程内拉起全新 root agent 执行任务指令，每任务可钉模型与 Agent 预设（预设被
 - 🟩 `[可用]` [mjorgin-dsh-skill-router](https://github.com/MJorgin/dsh-skill-router) ★1 — —
 - 🟩 `[可用]` [mjorgin-skill-bartender](https://github.com/MJorgin/skill-bartender) ★1 — —
 - 🟩 `[可用]` [dsh-open-in-finder](https://github.com/moduqishi/dsh-open-in-finder) ★1 — DeepSeek Harness (dsh web) plugin: one-click open-in-Finder icon in the session header.
@@ -1020,6 +1021,7 @@
 - 🟩 `[可用]` [jonah791-dsh-cyber-range](https://github.com/jonah791/dsh-cyber-range) ★0 — OverTheWire 在线靶场攻坚工具集：otw_request（HTTP 直连请求）、otw_blind（通用 SQL 盲注引擎）、otw_ssh（SSH 命令执行）——把 CTF 攻坚的临时脚本能力资产化为可复用工
 - 🟩 `[可用]` [jonah791-dsh-evolution-core](https://github.com/jonah791/dsh-evolution-core) ★0 — 进化核心插件（心脏）：聚合全量进化器官（self-test/emotion/reflection/life-core/evolve/memory/checkpoint/skill-forge）实时状态 → 五环完整性诊断
 - 🟩 `[可用]` [jsdvjx-dsh-passbook](https://github.com/jsdvjx/dsh-passbook) ★0 — 端到端加密的 dsh 密码本：age 密文存私密 gist，人有界面，agent 拿不到明文
+- `[未定位]` **julardepick-agents-md-best-practices** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [julian0zzx-ai-novelist](https://github.com/julian0zzx/ai-novelist) ★0 — DSH Plugin-based AI Web Novel Writer, and Skill
 - 🟩 `[可用]` [justhalfbit-dsh-plugin-show-image](https://github.com/justhalfbit/dsh-plugin-show-image) ★0 — DeepSeek Harness (DSH) 会话内图片渲染插件：全局 show_image 工具 + 点击放大 lightbox
 - 🟩 `[可用]` [jwilson411-dsh-canary](https://github.com/jwilson411/dsh-canary) ★0 — DeepSeek Harness plugin: plant a canary and deny tool args/URLs that echo it (CANARY_TRIP).
@@ -1097,6 +1099,7 @@
 - 🟩 `[可用]` [melt502-dsh-session-reference-ux-patch](https://github.com/melt502/DSH-Session-Reference-UX-Patch) ★0 — —
 - 🟩 `[可用]` [meltartica-dsh-mcp-servers](https://github.com/meltartica/dsh-mcp-servers) ★0 — DeepSeek Harness bundle that exposes Model Context Protocol (MCP) servers as native tools, with a settings UI,
 - 🟩 `[可用]` [memoryit-dsh-trail-plugin](https://github.com/MemoryIt/dsh-trail-plugin) ★0 — —
+- ⬜ `[待定]` [mengxiaoxian-lookover](https://github.com/mengxiaoxian/lookover) ★0 — 在当前页面提问，把解决经验留给下次：DSH 悬浮气泡、按需页面上下文与个人解决经验插件（dsh-bubble / dsh-look / dsh-expmem）
 - 🟩 `[可用]` [menotbobbybrown-create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) ★0 — 1-Line AI Agent Scaffolding Generator for DeepSeek Harness (dsh) — Everything is a Plugin
 - 🟩 `[可用]` [menotbobbybrown-dsh-plugin-browser](https://github.com/menotbobbybrown/dsh-plugin-browser) ★0 — Native Web Browser Automation Agent Plugin for DeepSeek Harness (dsh) — Everything is a Plugin
 - `[未定位]` **meteor-system-mattpocock-skills-for-dsh** — 占位待复核，判定暂不展示
@@ -1838,6 +1841,7 @@
 - 🟨 `[不兼容]` [lco117-dsh-peak-hours](https://github.com/lco117/dsh-peak-hours) ★1 — A DeepSeek Harness plugin that displays a peak-hours status badge in the session header.
 - 🟨 `[不兼容]` [libiwolve-dsh-experience-library](https://github.com/libiwolve/dsh-experience-library) ★1 — dsh-experience-library: 更有经验的 DeepSeek - 经验验证固化层(实时采集/加工/三层检验/技能书/benchmark验证)
 - 🟨 `[不兼容]` [liguanyu-dsh-promptrecall](https://github.com/liguanyu/dsh_PromptRecall) ★1 — —
+- 🟨 `[不兼容]` [linbin-mk-dsh-workspace-prompt](https://github.com/linbin-mk/dsh-workspace-prompt) ★1 — deepseek-harness 工作区自定义提示词
 - 🟨 `[不兼容]` [lionxiao-dsh-llm-volcengine-plans](https://github.com/lionXiao/dsh-llm-volcengine-plans) ★1 — —
 - 🟨 `[不兼容]` [liqiming-whu-dsh-environment-context](https://github.com/liqiming-whu/dsh-environment-context) ★1 — Real-time environment context plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [lizhecome-deepseek-harness-tool-palette](https://github.com/lizhecome/deepseek-harness-tool-palette) ★1 — Progressive tool discovery and per-agent unlocking for DeepSeek Harness
@@ -2020,6 +2024,7 @@
 - 🟨 `[不兼容]` [ivanearisty-dsh-plugin-cmdk](https://github.com/ivanearisty/dsh-plugin-cmdk) ★0 — Command palette for DeepSeek Harness (Cmd+K) — new chat, jump to session, switch model, permissions, slash com
 - 🟨 `[不兼容]` [ivanearisty-dsh-session-search](https://github.com/ivanearisty/dsh-session-search) ★0 — Full-text search across every DeepSeek Harness conversation — MiniSearch host index, Option+K palette, jump st
 - 🟨 `[不兼容]` [ivanon-dsh-dev-crew](https://github.com/ivanon/dsh-dev-crew) ★0 — 按职责把工作分派给绑定了不同模型的子代理的 DeepSeek Harness 插件
+- 🟨 `[不兼容]` [jackchen13755-dsh-jev-kit](https://github.com/jackchen13755/dsh-jev-kit) ★0 — Jev decision toolkit for DeepSeek Harness: 22 named typed judgments (privacy scan, change-scope, memory triage
 - `[未定位]` **jensen-yao-agents-skills** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [jimmyzhang219-dsh-plan-and-execute](https://github.com/jimmyzhang219/dsh-plan-and-execute) ★0 — DeepSeek Harness (dsh) 的 Plan-and-Execute 编排插件
 - 🟨 `[不兼容]` [joao-paulo-santos-dsh-granular-prompt](https://github.com/joao-paulo-santos/dsh-granular-prompt) ★0 — Prompt composition manager for DSH: live census of every system-prompt section with suppress and replace, cust
@@ -2037,6 +2042,7 @@
 - 🟨 `[不兼容]` [dsh-push](https://github.com/kiim-wong/dsh-push) ★0 — Push DeepSeek Harness agent lifecycle notifications to configurable channels
 - 🟨 `[不兼容]` [kirkchinese-dsh-session-move](https://github.com/kirkchinese/DSH-Session-Move) ★0 — —
 - 🟨 `[不兼容]` [kngear-dsh-agenttask](https://github.com/knGear/dsh-AgentTask) ★0 — —
+- 🟨 `[不兼容]` [konglong87-dsh-skills-input](https://github.com/konglong87/dsh-skills-input) ★0 — DSH Skill selector and skill browser for browsing user-invocable skills and inserting slash commands into the
 - 🟨 `[不兼容]` [kumarzx-dsh-memory-wrap](https://github.com/KumarZX/dsh-memory-wrap) ★0 — —
 - 🟨 `[不兼容]` [lance-kanglu-dsh-ssh-bridge](https://github.com/lance-kanglu/dsh-ssh-bridge) ★0 — Local SSH bridge plugin for DeepSeek Harness (DSH) — password via browser page, agent exec via localhost API,
 - 🟨 `[不兼容]` [lasoloryan-dsh-approval-flow-poc](https://github.com/lasoloryan/dsh-approval-flow-poc) ★0 — Non-official fail-closed approval policy PoC for DeepSeek Harness
