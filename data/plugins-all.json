@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T10:30:57Z",
+ "generated_at": "2026-11-10T10:45:51Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4621,6 +4621,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Conversation-tone switcher bundle for DeepSeek Harness — ships the 令 (Ling) tone and a create-voice meta-skill"
+  },
+  {
+   "repo": "mikulo/dsh-prompt-switcher",
+   "name": "mikulo-dsh-prompt-switcher",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness (DSH) plugin: pick a local .md prompt template with / when starting a new conversation; it bi"
   },
   {
    "repo": "MiloMMIN/dsh-agent-board",
@@ -9901,6 +9908,13 @@
    "desc": "长任务，不刷屏：关键进度清晰可见，完成后自动折叠，详情随时展开〔📦〕"
   },
   {
+   "repo": "bonerush/dsh-obsidian-mem",
+   "name": "bonerush-dsh-obsidian-mem",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "DeepSeek Harness host plugin that keeps project documents and long-term memory as plain Markdown in a dedicate"
+  },
+  {
    "repo": "eshmeshek/deepseek-harness-desktop",
    "name": "eshmeshek-deepseek-harness-desktop",
    "verdict": "incompatible",
@@ -13049,6 +13063,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native session token usage reporting and next-step budget admission guards for DeepSeek Harness."
+  },
+  {
+   "repo": "ly6170/dsh-session-title",
+   "name": "ly6170-dsh-session-title",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A DeepSeek Harness plugin that gives the model a tool to set the session title using rules you define"
   },
   {
    "repo": "maci0/dsh-ponytail",
@@ -24573,6 +24594,13 @@
    "desc": "DSH web 背景皮肤插件：将 DSH 界面背景替换为本地图片（半屏居中覆盖对话区域，AI 输出卡片不透明）"
   },
   {
+   "repo": "jipika/dsh-skill-mcp-panel",
+   "name": "jipika-dsh-skill-mcp-panel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh-skill-mcp-panel (local build): 技能与 MCP 管理改为设置窗口分栏，不再占用侧栏与中央主区"
+  },
+  {
    "repo": "jiumengya/dsh-knowledge-suite",
    "name": "jiumengya-dsh-knowledge-suite",
    "verdict": "pending",
@@ -26104,6 +26132,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Set up Lively Wallpaper in minutes with step-by-step guides, performance tips, multi-monitor recipes, and cura"
+  },
+  {
+   "repo": "smallwhitelin/dsh-feishu-bind",
+   "name": "smallwhitelin-dsh-feishu-bind",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "浏览器扫码绑定飞书机器人 for DeepSeek Harness(dsh) — 打开网页出二维码、扫码即绑定并自动接线，无需终端向导与 dsh web 界面"
   },
   {
    "repo": "SnoWinKK/dsh-web-skin",
@@ -30955,6 +30990,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "A selection-quoting plugin for the DeepSeek Harness web GUI: select text inside an AI reply and attach it to y"
+  },
+  {
+   "repo": "smallwhitelin/dsh-memory-md",
+   "name": "smallwhitelin-dsh-memory-md",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Minimal long-term memory plugin for DeepSeek Harness (dsh): CJK-friendly substring search, hand-editable Markd"
   },
   {
    "repo": "sperictao/dsh-pro-max",
@@ -50452,6 +50494,13 @@
    "desc": "—"
   },
   {
+   "repo": "smk-h/dsh-smkit",
+   "name": "smk-h-dsh-smkit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "苏木的dsh自用小插件"
+  },
+  {
    "repo": "SMOKTEA/dsh-chartlab",
    "name": "smoktea-dsh-chartlab",
    "verdict": "ok",
@@ -63248,6 +63297,13 @@
    "desc": "—"
   },
   {
+   "repo": "sevoniva-labs/dsh-cloudflare-access",
+   "name": "sevoniva-labs-dsh-cloudflare-access",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Cloudflare Zero Trust access for DeepSeek Harness (DSH)"
+  },
+  {
    "repo": "sharewiner/dsh-model-management",
    "name": "sharewiner-dsh-model-management",
    "verdict": "incompatible",
@@ -71228,6 +71284,13 @@
    "desc": "—"
   },
   {
+   "repo": "jipika/dsh-lan-loopback-compat",
+   "name": "jipika-dsh-lan-loopback-compat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Treat connections that arrive through a LAN proxy as loopback, so a DeepSeek Harness instance reached over a L"
+  },
+  {
    "repo": "jiumengya/dsh-computer-use",
    "name": "jiumengya-dsh-computer-use",
    "verdict": "pending",
@@ -71576,6 +71639,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mikulo/dsh-plugins",
+   "name": "mikulo-dsh-plugins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "mikulo 的 DSH 插件清单 + 一键安装脚本：node install.mjs --profile web \\[--reinstall\\]"
   },
   {
    "repo": "minatoAI/dsh-net-proxy-plugin",
