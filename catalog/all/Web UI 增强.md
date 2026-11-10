@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2889）
+# 🔌 Web UI 增强（2893）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -636,6 +636,7 @@
 - 🟩 `[可用]` [ink5897-dsh-theme-kit](https://github.com/ink5897/dsh-theme-kit) ★2 — A DeepSeek Harness Web GUI appearance kit: 32 preset themes, animated/static wallpapers, paper textures, per-z
 - 🟩 `[可用]` [inkshadewoods-dsh-tool-visual-primitives](https://github.com/InkshadeWoods/dsh-tool-visual-primitives) ★2 — —
 - 🟩 `[可用]` [dsh-deepseek-usage-dashboard](https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard) ★2 — DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and ba
+- 🟩 `[可用]` [jgao9906-droid-dsh-task-toast](https://github.com/jgao9906-droid/dsh-task-toast) ★2 — Top-right status plate for DeepSeek Harness
 - 🟩 `[可用]` [jiang539-dsh-auth-gate](https://github.com/jiang539/dsh-auth-gate) ★2 — DSH Web UI 的认证门禁插件，提供 SVG 图形验证码与防暴力破解保护
 - 🟩 `[可用]` [jiekesu967-dsh-plugin-opencode-usage](https://github.com/jiekesu967/dsh-plugin-opencode-usage) ★2 — OpenCode Go 订阅用量悬浮面板:DeepSeek Harness Web 侧边栏显示滚动/每周/每月额度、已用与剩余额度
 - 🟩 `[可用]` [jinxlux-xiao-theme-dsh-ui-plugin](https://github.com/jinxlux/xiao-theme-dsh-ui-plugin) ★2 — UI plugin for deepseek harness web
@@ -1058,6 +1059,7 @@
 - ⬜ `[待定]` [maplemoo-deepseek-harness-desktop](https://github.com/maplemoo/deepseek-harness-desktop) ★1 — Unofficial desktop builds of DeepSeek Harness; currently macOS arm64
 - ⬜ `[待定]` [math-lrz-dsh-plugin-meta](https://github.com/math-lrz/dsh-plugin-meta) ★1 — DSH meta-plugin suite: plugin-forge + plugin-auditor + skill-forge — the meta capability layer where everythin
 - 🟩 `[可用]` [me9rez-dsh-workbuddy-experts](https://github.com/me9rez/dsh-workbuddy-experts) ★1 — 在 DeepSeek Harness（dsh）中复用 WorkBuddy 专家市场：Web 输入框内嵌按会话的「专家选择器」，选中专家后将其人设注入该会话的系统提示词、并把该专家捆绑的技能开放给该会话使用（按会话隔离、无
+- 🟩 `[可用]` [mengge237-dsh-model-priority](https://github.com/mengge237/dsh-model-priority) ★1 — DSH 模型列表排序：侧边栏拖拽调整模型与提供方的顺序，宿主的模型选择器按这份顺序返回，写配置前自动备份 ｜ Model and provider ordering for DSH: drag to reorder in
 - 🟩 `[可用]` [mjn96-dsh-rhine-theme](https://github.com/mjn96/dsh-rhine-theme) ★1 — 明日方舟莱茵生命美术风格的deepseek harness皮肤主题
 - 🟩 `[可用]` [mldhao-dsh-conversation-strip](https://github.com/mldhao/dsh-conversation-strip) ★1 — Codex-inspired vertical conversation-turn rail for the DeepSeek Harness web UI.
 - 🟩 `[可用]` [mmmmaru-dsh-vscode-sidebar](https://github.com/MmMmaru/dsh-vscode-sidebar) ★1 — —
@@ -1702,6 +1704,7 @@
 - 🟩 `[可用]` [moonbowterfly-dsh-bio-gem](https://github.com/moonbowterfly/dsh-bio-gem) ★0 — 基因组尺度代谢模型（GEM）构建插件：全基因组(蛋白FASTA)→自动构建+验证+补洞+报告(SBML+模型卡)；dsh-bio-genie 生态域插件 \| Genome-scale metabolic model bu
 - `[空仓监测]` **morinissleeping-dsh-pnc-theme** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **moseevision-dsh-quick-archive** — 占位待复核，判定暂不展示
+- `[未定位]` **mosescharm-dsh-sidebar-stack** — 占位待复核，判定暂不展示
 - `[空仓监测]` **mozhuanzuojing-dsh-voice-input** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **mrmolabs-dsh-yorha-ui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [mrtrujay-dsh-ui-easyfold](https://github.com/MrTrujay/dsh-ui-easyfold) ★0 — —
@@ -2622,6 +2625,7 @@
 - 🟨 `[不兼容]` [alfredhuang211-dsh-ssh-hosts](https://github.com/alfredhuang211/dsh-ssh-hosts) ★0 — DeepSeek Harness 插件：把多台 SSH 服务器存成主机清单，agent 在会话里按主机名引用（命令执行 + 远端文件读写）；设置界面管理，支持密钥/密码登录，会话窗口「+」菜单可选主机
 - 🟨 `[不兼容]` [deepseek-harness-flow](https://github.com/alison-xx/deepseek-harness-flow) ★0 — Visual workflows and multi-model evaluation for DeepSeek Harness
 - `[未定位]` **aliwuer-dsh-process-panel** — 占位待复核，判定暂不展示
+- `[未定位]` **aliww2468-dsh-client-ui-aqua-patched** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [all3ncn-dsh-better-sidebar-n23](https://github.com/All3nCN/dsh-better-sidebar-N23) ★0 — —
 - `[空仓监测]` **an4nsi-dsh-fork-view** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **ancientmoon114-dsh-minitui** — 占位待复核，判定暂不展示
