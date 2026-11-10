@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T13:16:19Z",
+ "generated_at": "2026-11-10T13:32:00Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4971,6 +4971,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "seeseeczl/dsh-sym",
+   "name": "seeseeczl-dsh-sym",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "给 DeepSeek Harness 接的共生体（dsh-sym）：实时会话花费（人民币，按厂商/模型与峰谷时段折算）、每轮费用、账户余额、峰谷时段标记，以及把任一回复作为上下文引用的 @ 按钮"
   },
   {
    "repo": "Selinefieldcrop975/awesome-deepseek-agent",
@@ -29648,6 +29655,13 @@
    "desc": "自动管理 dsh 会话标题，统一成「日期｜类型｜主题」的格式：类型与主题由模型对整段对话总结"
   },
   {
+   "repo": "crease123/dsh-journal-calendar",
+   "name": "crease123-dsh-journal-calendar",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Daily journal for DeepSeek Harness: the agent records what you did and what you plan to do into one JSON file"
+  },
+  {
    "repo": "cyjyyd/dsh-ssh-tui",
    "name": "cyjyyd-dsh-ssh-tui",
    "verdict": "incompatible",
@@ -31872,6 +31886,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "蓝瓷女仆 · Azure Maid —— DSH Web GUI 主题皮肤"
+  },
+  {
+   "repo": "ethanrise/dsh-privacy-gateway",
+   "name": "ethanrise-dsh-privacy-gateway",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 本地隐私网关：对话发给模型前脱敏个人信息，原文只在本机界面还原显示，并可生成 CSV/XLSX 脱敏副本"
   },
   {
    "repo": "fengbinmov/dsh-git-panel",
@@ -41826,6 +41847,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh plugin: multi-surface ask-user routing, first answer wins"
+  },
+  {
+   "repo": "fangweixuan26-hash/dsh-dual-balance",
+   "name": "fangweixuan26-hash-dsh-dual-balance",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: show the signed-in DeepSeek account's Platform wallet next to the DEEPSEEK_API_KEY balance, as one"
   },
   {
    "repo": "FantasyStarry/dsh-token-stats",
