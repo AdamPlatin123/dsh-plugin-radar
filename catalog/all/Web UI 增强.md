@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2907）
+# 🔌 Web UI 增强（2909）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1486,6 +1486,7 @@
 - `[未定位]` **fusu123fusu-dsh-tui-checkpoints** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [fusu123fusu-dsh-tui-herdr](https://github.com/FUSU123fusu/dsh-tui-herdr) ★0 — —
 - 🟩 `[可用]` [fusu123fusu-dsh-tui-jobs](https://github.com/FUSU123fusu/dsh-tui-jobs) ★0 — —
+- `[未定位]` **fusu123fusu-dsh-tui-keys** — 占位待复核，判定暂不展示
 - `[未定位]` **fusu123fusu-dsh-tui-subagents** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [fyhc1-dsh-webui-installer](https://github.com/FYHC1/dsh-webui-installer) ★0 — —
 - 🟩 `[可用]` [gdy01-dsh-token-cost](https://github.com/gdy01/dsh-token-cost) ★0 — DSH plugin: per-project LLM token usage and RMB cost (input / cache-hit / output) based on model standard pric
@@ -2696,6 +2697,7 @@
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-billing](https://github.com/HenryHwong/dsh-ui-billing) ★0 — —
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-turn-rail](https://github.com/HenryHwong/dsh-ui-turn-rail) ★0 — —
 - 🟨 `[不兼容]` [henrytian1998-dsh-doctor](https://github.com/henrytian1998/dsh-doctor) ★0 — DeepSeek Harness 诊断插件：把 home、进程、端口、大 session、版本问题收成一份可粘贴的报告
+- `[未定位]` **heshuren371-dsh-music-player-tui** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [hongbaiqi-dsh-model-account-login](https://github.com/hongbaiqi/dsh-model-account-login) ★0 — Persistent DSH model-account authorization UI for ChatGPT, Claude, and other llm-pi-ai login flows
 - 🟨 `[不兼容]` [honlnk-dsh-input-assist](https://github.com/honlnk/dsh-input-assist) ★0 — Input assistant for DeepSeek Harness Web UI: inline AI completion (FIM) and Chinese-friendly typo checking
 - 🟨 `[不兼容]` [honoriomelo-dsh-model-picker-search](https://github.com/honoriomelo/dsh-model-picker-search) ★0 — DSH Web GUI plugin: adds a live search field inside the model picker menu of the composer, plus the Effort (re

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T07:16:07Z",
+ "generated_at": "2026-11-10T07:30:58Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12657,6 +12657,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Prompt composition manager for DSH: live census of every system-prompt section with suppress and replace, cust"
+  },
+  {
+   "repo": "johnny-ggao/trading-agent",
+   "name": "johnny-ggao-trading-agent",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "trading agent for dsh"
   },
   {
    "repo": "johnx438-hub/dsh-minimal-context",
@@ -73034,6 +73041,13 @@
    "desc": "Experimental DeepSeek Harness plugin for safe, local Siemens NX automation through MCP."
   },
   {
+   "repo": "fatefgo2050/dsh-mcp-scanner",
+   "name": "fatefgo2050-dsh-mcp-scanner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "在 DeepSeek Harness 设置页扫描并管理本地 MCP 服务器与工具"
+  },
+  {
    "repo": "geminiai19811-jpg/dsh-desktop",
    "name": "geminiai19811-jpg-dsh-desktop",
    "verdict": "incompatible",
@@ -76140,6 +76154,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jonah791/dsh-dream-tavern",
+   "name": "jonah791-dsh-dream-tavern",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "基于 DeepSeek Harness 的文字游戏宿主：每次模型请求都产出逐字节可验的上下文装配单（SillyTavern 人物卡/世界书迁移 + 三 Agent 职责互斥 + 原子回退）"
   },
   {
    "repo": "kaiwu/sparkles",
@@ -82804,6 +82825,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "按工作区分组展示会话，支持归档、取消归档与删除"
+  },
+  {
+   "repo": "enderzcx/spire-ctl",
+   "name": "enderzcx-spire-ctl",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Verified control surface for Slay the Spire 2: a JSON state contract, legal actions, and no-replay execution f"
   },
   {
    "repo": "feverZHONG/dsh-liya-archives",
@@ -92361,6 +92389,13 @@
    "desc": "—"
   },
   {
+   "repo": "gzsxy/dsh-plugin-skills-manager",
+   "name": "gzsxy-dsh-plugin-skills-manager",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Desktop 技能管理台：浏览/搜索/安装全部 Agent Skills，内置技能市场（Anthropic 官方 + DSH Desktop 技能管理台：浏览/搜索/安装全部 Agent Skills，内置技能"
+  },
+  {
    "repo": "H-table/dsh-github-tool",
    "name": "h-table-dsh-github-tool",
    "verdict": "ok",
@@ -92534,6 +92569,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Codex-style left message navigation rail for DeepSeek Harness"
+  },
+  {
+   "repo": "icekale/dsh-provider-auto",
+   "name": "icekale-dsh-provider-auto",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Automatically add reasoning-level controls to compatible DeepSeek Harness provider models"
   },
   {
    "repo": "ilovedyou6666-hub/dshtools-sensevoice-input",
@@ -100584,6 +100626,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "OAuth provider-card controls and fallback commands for DeepSeek Harness pi-ai"
+  },
+  {
+   "repo": "dsh-io/identity-sentinel",
+   "name": "dsh-io-identity-sentinel",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Performance-art dsh plugin: the machine inspects its owner; non-Chinese verdicts terminate all workflows"
   },
   {
    "repo": "EasyTZ/dsh-terminal-panel",
