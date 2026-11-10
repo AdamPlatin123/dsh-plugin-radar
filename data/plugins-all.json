@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T11:31:01Z",
+ "generated_at": "2026-11-10T11:45:54Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10188,6 +10188,13 @@
    "desc": "—"
   },
   {
+   "repo": "dxww123/dsh-alphasolve",
+   "name": "dxww123-dsh-alphasolve",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "Session-scoped AlphaSolve workflow for DeepSeek Harness"
+  },
+  {
    "repo": "euuuuuuzer/dsh-loop-dock",
    "name": "euuuuuuzer-dsh-loop-dock",
    "verdict": "incompatible",
@@ -12790,6 +12797,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "This project connects Deepseek Harness and Promptfoo: it launches a real Agent through the official DSH TypeSc"
+  },
+  {
+   "repo": "inrainbws/dsh-vibe-mode",
+   "name": "inrainbws-dsh-vibe-mode",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "omp's vibe mode for DeepSeek Harness"
   },
   {
    "repo": "IriskaDev/dsh-global-memory",
@@ -23775,6 +23789,13 @@
    "desc": "—"
   },
   {
+   "repo": "eighteentang/dsh-plugin-dev-tools",
+   "name": "eighteentang-dsh-plugin-dev-tools",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 开发工具箱：界面元素定位（Alt+悬浮）、随插件分发的开发经验库、开发模式自检清单注入"
+  },
+  {
    "repo": "Elohia/dsh-plugin-image-input",
    "name": "elohia-dsh-plugin-image-input",
    "verdict": "ok",
@@ -30010,6 +30031,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "dsh 插件全家桶：装一个插件带一批插件（Git 服务器/WebDAV 挂载盘/知识库/定时任务/自动续跑/界面微调/自动复盘）"
+  },
+  {
+   "repo": "weibaohui/dsh-fireworks",
+   "name": "weibaohui-dsh-fireworks",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "dsh 插件 · 烟花庆祝引擎：agent 编程时在对话窗口上空放烟花——六类事件 × 30 张属性卡 × 洗牌袋随机变种，token 用量决定大小/高度/绚烂度，WebGL2 GPU 累积拖尾渲染"
   },
   {
    "repo": "whh110112/human-writing-skills",
@@ -63997,6 +64025,13 @@
    "desc": "A live, self-organizing constellation map of your DeepSeek Harness plugin universe — AI-balanced taxonomy, bil"
   },
   {
+   "repo": "aa2246740/dsh-compact-saviour",
+   "name": "aa2246740-dsh-compact-saviour",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Dedicated-model compaction rescue and native manual compression for DeepSeek Harness"
+  },
+  {
    "repo": "aa2246740/dsh-creator-mode-plus",
    "name": "aa2246740-dsh-creator-mode-plus",
    "verdict": "incompatible",
@@ -64870,6 +64905,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "he0119/dsh-aperture",
+   "name": "he0119-dsh-aperture",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "自动发现 Aperture 网关上的模型，并加进 DSH 的模型选择器"
   },
   {
    "repo": "helibeiqi/dsh-dcs-engine",
@@ -92970,6 +93012,13 @@
    "desc": "—"
   },
   {
+   "repo": "ardesp0630/dsh-work-progress",
+   "name": "ardesp0630-dsh-work-progress",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Persistent work-progress row for DeepSeek Harness: task completion, a progress bar, and what the agent is doin"
+  },
+  {
    "repo": "ayahunter/dsh-plugin-clinic",
    "name": "ayahunter-dsh-plugin-clinic",
    "verdict": "ok",
@@ -102684,6 +102733,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH plugin + MATLAB daemon bridging AI and MATLAB R2025b via file IPC — 20 matlab_* tools for editor code and"
+  },
+  {
+   "repo": "rickwindman/dsh-destinywind-tpm",
+   "name": "rickwindman-dsh-destinywind-tpm",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：TPM/DPAPI 封存的凭据提供器，取代明文凭据文件 · TPM/DPAPI-sealed credential provider plugin for DeepSeek Har"
   },
   {
    "repo": "rrrrrredy/intent-loop",
