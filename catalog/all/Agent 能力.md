@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2192）
+# 🤖 Agent 能力（2195）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -167,6 +167,7 @@
 - 🟩 `[可用]` [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) ★7 — Your DeepSeek Harness agent rings your actual phone: it asks out loud, you answer out loud, and what you said
 - 🟩 `[可用]` [starry0214-dsh-memory](https://github.com/Starry0214/dsh-memory) ★7 — —
 - 🟩 `[可用]` [tokentopo-ai-dsh-octo](https://github.com/tokentopo-ai/dsh-octo) ★7 — an heterogeneous multi-agent collaboration skill designed for dsh
+- 🟩 `[可用]` [yangyu666-dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune) ★7 — Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compa
 - 🟩 `[可用]` [yindf-taskfold](https://github.com/yindf/taskfold) ★7 — Context folding for DeepSeek Harness (DSH): wrap work in named tasks, fold finished spans into short summaries
 - 🟩 `[可用]` [zekaishi-evo-subagent](https://github.com/ZekaiShi/dsh-evo-subagent) ★7 — —
 - ⬜ `[待定]` [dsh-acp-plugin](https://github.com/agentic-control-plane/dsh-acp-plugin) ★6 — DeepSeek Harness plugin for Agentic Control Plane: logs and checks tool calls
@@ -196,6 +197,7 @@
 - ⬜ `[待定]` [zzhang82-agent-memory-bridge](https://github.com/zzhang82/Agent-Memory-Bridge) ★6 — —
 - `[空仓监测]` **dsh-spec-loop** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [11zld22-dsh-model-info-fill](https://github.com/11zld22/dsh-model-info-fill) ★5 — 模型信息补全：按模型名自动补全上下文、输出上限、思考档位和图片能力
+- 🟩 `[可用]` [7starsseeker-dsh-fact-check](https://github.com/7starsseeker/dsh-fact-check) ★5 — Fact-checking skill for DeepSeek Harness: multi-source verification against the open web, domestic and interna
 - 🟩 `[可用]` [863683348-dsh-plugin-finance-data](https://github.com/863683348/dsh-plugin-finance-data) ★5 — Finance data toolkit for DeepSeek Harness agents: number/currency formatting (incl
 - 🟩 `[可用]` [arch3rpro-dsh-skills](https://github.com/arch3rPro/dsh-skills) ★5 — —
 - ⬜ `[待定]` [brunhildzhou-dsh-context-zip](https://github.com/brunhildzhou/dsh-context-zip) ★5 — DSH 插件：接管 DeepSeek Harness 的会话压缩，产出结构化交接摘要、可回查分段与检索工具｜A DSH plugin that takes over session compaction.
@@ -1768,6 +1770,7 @@
 - 🟨 `[不兼容]` [dsh-review-skills](https://github.com/ben7am1n/dsh-review-skills) ★1 — —
 - 🟨 `[不兼容]` [bingaha-dsh-live-mcp](https://github.com/bingaha/dsh-live-mcp) ★1 — 给DSH提供会话级的MCP控制能力
 - 🟨 `[不兼容]` [bluechips-zhao-dsh-browser-slotpool](https://github.com/bluechips-zhao/dsh-browser-slotpool) ★1 — DSH bundle: slot-pool wrapper for concurrent browser sessions｜并发浏览器会话槽位池插件
+- 🟨 `[不兼容]` [bojansandhaus-jev-lcm-dsh-compaction](https://github.com/bojansandhaus/jev-lcm-dsh-compaction) ★1 — Calibrated Jev ranking before lossless context condensation
 - 🟨 `[不兼容]` [caopu16-dsh-local-memory](https://github.com/caopu16/dsh-local-memory) ★1 — DSH（DeepSeek Harness）本地跨会话记忆插件：捕获每轮对话摘要、注入最近几天记忆，并提供 memory_search 工具按需检索全部历史记忆
 - 🟨 `[不兼容]` [chaochaokongbai-dsh-beginner-hub](https://github.com/chaochaokongbai/dsh-beginner-hub) ★1 — 🧭 DSH新手台：大白话输入需求 → 路由成可直接用的方案（话术/技能/进阶玩法），一键填入新会话
 - 🟨 `[不兼容]` [chihy525-dsh-mcp-skill-manager](https://github.com/chihy525/dsh-mcp-skill-manager) ★1 — MCP & Skills management panel for DeepSeek Harness — manage MCP servers and the skill library from the Setting
