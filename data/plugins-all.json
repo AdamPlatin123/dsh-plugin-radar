@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T14:31:09Z",
+ "generated_at": "2026-11-10T14:45:55Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1744,6 +1744,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "GLM Mode: fully tuned coding agent preset for zhipuai/glm-5.3-flash in DeepSeek Harness — PTC presentation, gu"
+  },
+  {
+   "repo": "hy-sde/dsh-pi-durable",
+   "name": "hy-sde-dsh-pi-durable",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Durable-agent engine for DeepSeek Harness: host-plane cordis service mounting @earendil-works/pi-durable (conv"
   },
   {
    "repo": "jeremy9682/dsh-skill-pack",
@@ -5281,6 +5288,13 @@
    "desc": "Composer readouts for the DeepSeek Harness: CJK-weighted draft token count, session spend at official peak/idl"
   },
   {
+   "repo": "wuwaka/dsh-rehearsal",
+   "name": "wuwaka-dsh-rehearsal",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Upgrade rehearsal CLI for DeepSeek Harness: static peer-graph pre-flight + keyless real-session migration & wr"
+  },
+  {
    "repo": "wwskills/dsh-long-memory",
    "name": "wwskills-dsh-long-memory",
    "verdict": "ok",
@@ -6567,6 +6581,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Logseq for DeepSeek Harness: host-plane wiki-graph service (ctx.wikiGraph) over the Logseq CLI plus model-faci"
+  },
+  {
+   "repo": "hy-sde/dsh-session-intelligence",
+   "name": "hy-sde-dsh-session-intelligence",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The session_health tool for DeepSeek Harness: per-session health intelligence (outcome classification, tool-he"
   },
   {
    "repo": "hy-sde/dsh-tool-debug",
@@ -20679,6 +20700,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Electron desktop shell for the DeepSeek Harness Web UI"
+  },
+  {
+   "repo": "hy-sde/dsh-tool-library-search",
+   "name": "hy-sde-dsh-tool-library-search",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Model-facing library_search tool for DeepSeek Harness: free cross-ecosystem (npm/crates.io/Maven/Go/PyPI/RubyG"
   },
   {
    "repo": "hyperion2144/dsh-desktop-tauriapp",
