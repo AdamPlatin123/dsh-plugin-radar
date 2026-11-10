@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T15:31:15Z",
+ "generated_at": "2026-11-10T16:31:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -94354,6 +94354,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "kulebbb/dsh-git-tree",
+   "name": "kulebbb-dsh-git-tree",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 桌面端右侧栏 Git 提交图插件"
   },
   {
    "repo": "KYinCode/dsh-project-mcp-bridge",
