@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T09:46:08Z",
+ "generated_at": "2026-11-10T10:01:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5568,6 +5568,13 @@
    "desc": "Security, Trust & Policy Layer for DeepSeek Harness"
   },
   {
+   "repo": "2huy4n/roleplaytimer",
+   "name": "2huy4n-roleplaytimer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "每隔一段时间主动唤醒会话中的AI，以此达到更沉浸式的角色扮演体验"
+  },
+  {
    "repo": "502399493zjw-lgtm/dsh-model-retry",
    "name": "502399493zjw-lgtm-dsh-model-retry",
    "verdict": "ok",
@@ -9845,6 +9852,13 @@
    "desc": "Subagent Director: per-subagent LLM provider/model selection with role templates for DeepSeek Harness (dsh plu"
   },
   {
+   "repo": "pbwheel/dsh-workbuddy-expert",
+   "name": "pbwheel-dsh-workbuddy-expert",
+   "verdict": "incompatible",
+   "stars": 17,
+   "desc": "把 WorkBuddy 专家装进 DSH：专家市场一键导入 · 会话选择器随时切换"
+  },
+  {
    "repo": "qtaik/dsh-noname-kit",
    "name": "qtaik-dsh-noname-kit",
    "verdict": "incompatible",
@@ -12027,6 +12041,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g"
+  },
+  {
+   "repo": "suanniniu/dsh-standard-toolkit",
+   "name": "suanniniu-dsh-standard-toolkit",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 标准工具插件(Standard ToolKit):工具管家——平时工具不占位,会话按需自动装载/用完自动收纳,省token;支持 load_tool / register_new_too"
   },
   {
    "repo": "Tinger-X/dsh-session-enhance",
@@ -19552,6 +19573,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "afa-cloud/desktop-gui-automation-cua",
+   "name": "afa-cloud-desktop-gui-automation-cua",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Cross-platform macOS desktop GUI automation & computer-use skill built on cua-driver: AX→pixel→desktop gracefu"
   },
   {
    "repo": "afterrealism/dsh-conn-dot",
@@ -66517,6 +66545,13 @@
    "desc": "—"
   },
   {
+   "repo": "yixiuzhemu/dsh-redis-plugin",
+   "name": "yixiuzhemu-dsh-redis-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh连接redis插件"
+  },
+  {
    "repo": "ylxmf2005/dsh-scheduled",
    "name": "ylxmf2005-dsh-scheduled",
    "verdict": "incompatible",
@@ -66844,6 +66879,13 @@
    "verdict": "ok",
    "stars": 95,
    "desc": "Shared real browser plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "1475505/miliastra-beyond-simulator",
+   "name": "1475505-miliastra-beyond-simulator",
+   "verdict": "ok",
+   "stars": 94,
+   "desc": "千星沙箱模拟器：Lua 驱动的 2D 奇域外置沙箱 ，支持 DeepSeek Harness、Web 和 MCP"
   },
   {
    "repo": "omdsh-dev/dsh-notification",
@@ -70414,6 +70456,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (dsh) packaged as a Windows desktop application - folder-portable Electron build"
+  },
+  {
+   "repo": "anthony1x6000/dsh-remote",
+   "name": "anthony1x6000-dsh-remote",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "anthonyyu-verkada/dsh-mcp-client-plus",
@@ -86460,6 +86509,13 @@
    "desc": "Add a Cursor passthrough group to the DSH chat model picker."
   },
   {
+   "repo": "mkasoy/dsh-all-notify",
+   "name": "mkasoy-dsh-all-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "deepseek harness notify plugin"
+  },
+  {
    "repo": "Mobai-read/dsh-chat-index-rail",
    "name": "mobai-read-dsh-chat-index-rail",
    "verdict": "ok",
@@ -101228,6 +101284,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Pluggable persistent memory bundle for DeepSeek Harness"
+  },
+  {
+   "repo": "yvhcel888/dsh-slide-gauge",
+   "name": "yvhcel888-dsh-slide-gauge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 滑动测量仪挂件：右下角拖动角色显示状态，边界彩蛋，记住上次位置 · DeepSeek Harness plugin"
   },
   {
    "repo": "ywleeo/dsh-image-preview",

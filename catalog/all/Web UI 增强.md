@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2939）
+# 🔌 Web UI 增强（2941）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -827,6 +827,7 @@
 - 🟩 `[可用]` [aaaaamadeus-dsh-gui](https://github.com/Aaaaamadeus/dsh-gui) ★1 — —
 - 🟩 `[可用]` [aapanel-btpanel-dsh](https://github.com/aaPanel/btpanel-dsh) ★1 — —
 - 🟩 `[可用]` [adamaik-dsh-git-sidebar](https://github.com/Adamaik/dsh-git-sidebar) ★1 — —
+- ⬜ `[待定]` [afa-cloud-desktop-gui-automation-cua](https://github.com/afa-cloud/desktop-gui-automation-cua) ★1 — Cross-platform macOS desktop GUI automation & computer-use skill built on cua-driver: AX→pixel→desktop gracefu
 - 🟩 `[可用]` [afterrealism-dsh-conn-dot](https://github.com/afterrealism/dsh-conn-dot) ★1 — DSH plugin: green/red connection dot beside the sidebar brand showing WebSocket + liveness-probe health of dsh
 - 🟩 `[可用]` [afterrealism-dsh-session-ctxmenu](https://github.com/afterrealism/dsh-session-ctxmenu) ★1 — DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu
 - ⬜ `[待定]` [ahren112-ds-image-skin](https://github.com/ahren112/ds-image-skin) ★1 — Image skin plugin for DeepSeek Harness web UI
@@ -2023,6 +2024,7 @@
 - 🟩 `[可用]` [yanhuifair-dsh-money](https://github.com/yanhuifair/dsh-money) ★0 — 一个显示回复和对话费用的 deepseek harness 插件
 - ⬜ `[待定]` [yebuxiu233-dsh-cost](https://github.com/yebuxiu233/dsh-cost) ★0 — DeepSeek Harness 实时 API 费用统计插件：按模型分高峰/空闲时段计价，/cost 命令汇总全部会话费用，Web 输入框上方实时费用条
 - 🟩 `[可用]` [yicheng-zzz-jarvis-skin-publish-dsh-client-ui](https://github.com/YiCheng-Zzz/jarvis-skin-publish-dsh-client-ui-skin-jarvis-own) ★0 — —
+- `[未定位]` **yijian-quiet-dsh-mol** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [yin52133-dsh-luban](https://github.com/yin52133/dsh-luban) ★0 — 🛠️ Custom workbench plugin suite for DeepSeek Harness (DSH) — LAN auth, task board, SSH + tmux keep-alive, sha
 - ⬜ `[待定]` [ying-c-dsh-browser](https://github.com/ying-c/dsh-browser) ★0 — Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, no vision capabilities requ
 - ⬜ `[待定]` [dsh-plugin-connection-banner](https://github.com/yinren112/dsh-plugin-connection-banner) ★0 — Visible reconnecting banner for the DeepSeek Harness Web UI
