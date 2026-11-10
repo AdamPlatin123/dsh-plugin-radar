@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T23:01:01Z",
+ "generated_at": "2026-11-10T23:16:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1828,6 +1828,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "lsdt45/dsh-workspace-plus",
+   "name": "lsdt45-dsh-workspace-plus",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH web plugin: hierarchical workspace tree + time-bucket view + session pinning"
   },
   {
    "repo": "mantonlove/dsh-conversation-landmarks",
@@ -4210,6 +4217,13 @@
    "desc": "低成本多模型编排插件（Cortex）：大模型规划验收，子agent小模型执行，降本保质"
   },
   {
+   "repo": "iimaguest/dsh-sandbox-escalation-guard",
+   "name": "iimaguest-dsh-sandbox-escalation-guard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: stops the sandbox escalation fields being advertised to a model when the calling sess"
+  },
+  {
    "repo": "imtheolin/ai-keyboard",
    "name": "imtheolin-ai-keyboard",
    "verdict": "pending",
@@ -5489,6 +5503,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Multi-agent dashboard skill for DeepSeek Harness"
+  },
+  {
+   "repo": "zeta987/dsh-roles-zeta",
+   "name": "zeta987-dsh-roles-zeta",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Role-based subagent delegation for DeepSeek Harness: one delegate tool over a folder of role files"
   },
   {
    "repo": "zhaoxuejie/dsh-daily-digest",
@@ -52433,6 +52454,13 @@
    "desc": "减重计划拆解"
   },
   {
+   "repo": "uckkk/dsh-body-care",
+   "name": "uckkk-dsh-body-care",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "身体护理"
+  },
+  {
    "repo": "uckkk/dsh-bohrium",
    "name": "uckkk-dsh-bohrium",
    "verdict": "ok",
@@ -54666,6 +54694,13 @@
    "desc": "汉服形制选择"
   },
   {
+   "repo": "uckkk/dsh-hanfu-wash",
+   "name": "uckkk-dsh-hanfu-wash",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "汉服清洗保养"
+  },
+  {
    "repo": "uckkk/dsh-harmonic",
    "name": "uckkk-dsh-harmonic",
    "verdict": "ok",
@@ -56577,6 +56612,13 @@
    "desc": "红包礼仪"
   },
   {
+   "repo": "uckkk/dsh-refusal",
+   "name": "uckkk-dsh-refusal",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "得体拒绝"
+  },
+  {
    "repo": "uckkk/dsh-regular-polygon",
    "name": "uckkk-dsh-regular-polygon",
    "verdict": "ok",
@@ -56589,6 +56631,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "渲染时间估算"
+  },
+  {
+   "repo": "uckkk/dsh-rent-vs-buy",
+   "name": "uckkk-dsh-rent-vs-buy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "租还是买"
   },
   {
    "repo": "uckkk/dsh-rental-insurance",
@@ -67072,6 +67121,13 @@
   {
    "repo": "wcytjy/dsh-meal-picker",
    "name": "wcytjy-dsh-meal-picker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "we39/dsh-jumpserver",
+   "name": "we39-dsh-jumpserver",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -82764,6 +82820,13 @@
    "desc": "—"
   },
   {
+   "repo": "meihaoyidian/life-workbench",
+   "name": "meihaoyidian-life-workbench",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh插件：个人工作台插件"
+  },
+  {
    "repo": "miqian-nomad/dsh-new-workdir",
    "name": "miqian-nomad-dsh-new-workdir",
    "verdict": "ok",
@@ -86864,6 +86927,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "双色球助手 DSH 插件：百期趋势追踪 / 智能预测 / 胆拖随机选号（单文件 HTML，双击即用）"
+  },
+  {
+   "repo": "visail/dsh-vision-tool",
+   "name": "visail-dsh-vision-tool",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Paste an image into the chat box and text-only DSH models can \"see\" it — auto-rewrite of pasted images + analy"
   },
   {
    "repo": "weisanju/dsh-postgres-backends",
