@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2893）
+# 🔌 Web UI 增强（2895）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2301,6 +2301,7 @@
 - 🟨 `[不兼容]` [dawsondx-dsh-web-open](https://github.com/dawsondx/dsh-web-open) ★3 — DeepSeek Harness (dsh) bundle: when `dsh web` is ready, print the full GUI URL and open it in your default bro
 - 🟨 `[不兼容]` [derekhu0002-archgraph](https://github.com/derekhu0002/archgraph) ★3 — ArchGraph — an architecture-graph driven framework for Agentic Engineering
 - 🟨 `[不兼容]` [dfycaly98931680-dsh-trajectory-governance](https://github.com/dfycaly98931680/dsh-trajectory-governance) ★3 — Agent trajectory governance & anomaly diagnosis plugin for DeepSeek Harness (dsh): multi-branch trajectory tre
+- 🟨 `[不兼容]` [drscrewdriver-dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar) ★3 — —
 - 🟨 `[不兼容]` [fiven577-dsh-whale-widget-sankou](https://github.com/fiven577/dsh-whale-widget-sankou) ★3 — DSH 小鲸鱼余额挂件·三口皮肤版 —— 基于 MeteorNOX/DeepSeek-Balance-Whale-Widget（MIT）的修改版：自定义桌宠“三口”形象/语音/不同状态动画，含余额提醒与菜单修复
 - 🟨 `[不兼容]` [gwsbhqt-dsh-insight](https://github.com/gwsbhqt/dsh-insight) ★3 — 洞察 — read-only insight panel for a DeepSeek Harness profile: where every plugin, service, tool and model came
 - 🟨 `[不兼容]` [hanjixin-dsh-finance-plugins](https://github.com/hanjixin/dsh-finance-plugins) ★3 — DSH Finance Plugin Suite - 金融场景插件套件
@@ -2645,6 +2646,7 @@
 - `[空仓监测]` **ch4acko3-dsh-ui-workspace** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-vscode](https://github.com/chendefine/dsh-sidebar-vscode) ★0 — DSH plugin: a better-sidebar tab embedding the VS Code web workbench at the session workspace; editor selectio
+- 🟨 `[不兼容]` [chenjingchun-dsh-deepseek-balance-badge](https://github.com/chenjingchun/dsh-deepseek-balance-badge) ★0 — DeepSeek account balance badge for the DSH sidebar footer, with a settings card for the refresh period
 - `[未定位]` **chenneyzhuang-estimate-before-build** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [cherrchen-dsh-client-ui-details-host](https://github.com/cherrchen/dsh-client-ui-details-host) ★0 — 可移植 DSH Client Details 栏基础设施，在 AppFrame 详情列承载活动 surface；DeepSeek Harness Desktop 内置
 - 🟨 `[不兼容]` [cherrchen-dsh-theme-studio](https://github.com/cherrchen/dsh-theme-studio) ★0 — 可移植的 DSH/Cordis 主题插件：内置配色浏览、预览、应用与持久化；DeepSeek Harness Desktop 预装
