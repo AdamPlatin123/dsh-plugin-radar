@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T06:31:06Z",
+ "generated_at": "2026-11-10T06:46:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4357,6 +4357,13 @@
    "desc": "在 DeepSeek Harness 中复刻 Pi 工具组的 agent preset，提供 Pi 风格小写核心工具契约并保留 DSH-backed 扩展工具"
   },
   {
+   "repo": "kira905/dsh-session-title-live",
+   "name": "kira905-dsh-session-title-live",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "插件：会话标题实时刷新 + 状态前缀（运行 / 完成），pin 安全、可配置 · DSH plugin: live session titles with state prefixes (running/done), p"
+  },
+  {
    "repo": "kkishapppy/dsh-session-repacker",
    "name": "kkishapppy-dsh-session-repacker",
    "verdict": "ok",
@@ -6329,6 +6336,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hirohana77/dsh-plugin-trajectory-tracker",
+   "name": "hirohana77-dsh-plugin-trajectory-tracker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让你更清楚地了解究竟是什么占据了你的等待耗时 ⏱️ DSH 实时时序轨迹与执行过程追踪插件"
   },
   {
    "repo": "HiSeax/dsh-agent-outputs-reader",
@@ -20478,6 +20492,13 @@
    "desc": "—"
   },
   {
+   "repo": "kira905/dsh-ecosystem-panel",
+   "name": "kira905-dsh-ecosystem-panel",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "插件：只读生态健康面板 —— bundle / patch / skill / 升级 / 解耦体检一屏看完 · DSH plugin: a read-only ecosystem health panel — bundl"
+  },
+  {
    "repo": "kkishapppy/dsh-usage-record",
    "name": "kkishapppy-dsh-usage-record",
    "verdict": "ok",
@@ -24375,6 +24396,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 桌面客户端：连接或启动本机 dsh web 服务，在原生窗口中打开 Web GUI"
+  },
+  {
+   "repo": "kingzhz/dsh-global-rules",
+   "name": "kingzhz-dsh-global-rules",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Global AGENTS-style rules as many independent markdown files, with a settings GUI — fills the gap left by Deep"
   },
   {
    "repo": "kittimzhe/dsh-plugin-authoring-guide",
@@ -28505,6 +28533,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "将code-server（VSCode网页版）打包安装到dsh内的插件，快速实现专业的文件编辑"
+  },
+  {
+   "repo": "kenz1117/dsh-ui-rainbowspeak",
+   "name": "kenz1117-dsh-ui-rainbowspeak",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "Rainbow marquee border for the DeepSeek Harness chat composer"
   },
   {
    "repo": "laoduu/DeepSeek-Harness-yizi-themes",
@@ -66797,6 +66832,13 @@
    "desc": "—"
   },
   {
+   "repo": "iasiv5/dsh-skip-browser-auth",
+   "name": "iasiv5-dsh-skip-browser-auth",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH 插件：（Web Profile 专用）自动跳过 BrowserAuth，访问 Web 地址即可直接使用，无需每次复制启动 URL 中的随机 Token 到浏览器"
+  },
+  {
    "repo": "iyam-x/iyam-dsh-desktop",
    "name": "iyam-x-iyam-dsh-desktop",
    "verdict": "ok",
@@ -74413,6 +74455,13 @@
    "desc": "—"
   },
   {
+   "repo": "ig50-service/ig50-skill",
+   "name": "ig50-service-ig50-skill",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "IG50 官方 Agent Skill：518 个股票数据集本地落盘（A股/港股/美股/基金），行情/K线/F10 查询与量化回测"
+  },
+  {
    "repo": "isirin1131/dsh-easy-galgame",
    "name": "isirin1131-dsh-easy-galgame",
    "verdict": "ok",
@@ -80536,6 +80585,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Everything-class whole-disk file lookup for DeepSeek Harness, backed by the goz engine (MFT filename index)."
+  },
+  {
+   "repo": "hi-wenw/dsh-csv-viewer",
+   "name": "hi-wenw-dsh-csv-viewer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web CSV and TSV table viewer with search, sorting, raw mode, and virtualized rows"
   },
   {
    "repo": "hili986/dshpack",
@@ -87167,6 +87223,13 @@
    "desc": "Side questions (/btw) and ephemeral temporary chat for DeepSeek Harness (dsh) web — ask without interrupting,"
   },
   {
+   "repo": "jack1545/dsh-weixin-reader",
+   "name": "jack1545-dsh-weixin-reader",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "WeChat Official Account article reader for DeepSeek Harness: parses mp.weixin.qq.com article bodies into clean"
+  },
+  {
    "repo": "jackControls/dsh-telegram-control",
    "name": "jackcontrols-dsh-telegram-control",
    "verdict": "incompatible",
@@ -92249,6 +92312,13 @@
    "desc": "—"
   },
   {
+   "repo": "hoyyang/dsh-best-ponytail",
+   "name": "hoyyang-dsh-best-ponytail",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Ponytail lazy-senior-dev ruleset for DeepSeek Harness: 7-rung minimal-code ladder, six skills (review/audit/de"
+  },
+  {
    "repo": "hoyyang/dsh-code-graph",
    "name": "hoyyang-dsh-code-graph",
    "verdict": "ok",
@@ -95238,6 +95308,13 @@
    "desc": "—"
   },
   {
+   "repo": "lijiawei255/dsh-status-chime",
+   "name": "lijiawei255-dsh-status-chime",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Spoken status alerts for DeepSeek Harness where clip LENGTH encodes urgency: a 2s approval chime vs an 8s fail"
+  },
+  {
    "repo": "linanatoly/dsh-chat-history-locator",
    "name": "linanatoly-dsh-chat-history-locator",
    "verdict": "pending",
@@ -95516,6 +95593,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件总仓库：monorepo 开发 + 安装源（本地归档/npm/GitHub/索引）+ 第三方目录"
+  },
+  {
+   "repo": "metabolism-tools/dsh-metabolic-maintenance",
+   "name": "metabolism-tools-dsh-metabolic-maintenance",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Native Cordis skill-provider plugin for DeepSeek Harness: evidence-aware maintenance instructions (packaged fr"
   },
   {
    "repo": "minwoogwak99/side-chat",
