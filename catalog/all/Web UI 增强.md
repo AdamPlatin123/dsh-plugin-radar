@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（2983）
+# 🔌 Web UI 增强（2985）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2488,6 +2488,7 @@
 - 🟨 `[不兼容]` [zhuifengqug-pixel-skin](https://github.com/zhuifengqug/pixel-skin) ★2 — dsh像素风皮肤
 - `[空仓监测]` **modelbus-deepseek-harness-pro** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **mozhuanzuojing-dsh-agent-pill** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [123wansui-989-dsh-flight-compare](https://github.com/123wansui-989/dsh-flight-compare) ★1 — DSH plugin: registers flight_compare, fetches Travelpayouts fares, groups by flight and date, marks lowest pri
 - 🟨 `[不兼容]` [21hbguo-dsh-session-batch-manager](https://github.com/21hbguo/dsh-session-batch-manager) ★1 — DeepSeek Harness (DSH) Web GUI 插件：批量选择会话进行归档、恢复与删除的管理面板
 - 🟨 `[不兼容]` [863683348-dsh-insight](https://github.com/863683348/dsh-insight) ★1 — Plugin insight center — one answer to 哪些值得装: plugin_guide (needs), recipe (environments), plugin_rank (health
 - 🟨 `[不兼容]` [937862061-dsh-project-workbench](https://github.com/937862061/dsh-project-workbench) ★1 — DeepSeek Harness Web 本地项目工作台：按项目、需求组和会话管理原生对话，并以渐进式共享记忆自动衔接组内上下文
@@ -2692,6 +2693,7 @@
 - 🟨 `[不兼容]` [adaning-dsh-pixel-skin](https://github.com/ADAning/dsh-pixel-skin) ★0 — —
 - 🟨 `[不兼容]` [agent-lawyer-dsh-plugin-session-delete](https://github.com/agent-lawyer/dsh-plugin-session-delete) ★0 — DeepSeek Harness plugin: delete sessions from the UI — sidebar context menu item, header trash button, risk-co
 - 🟨 `[不兼容]` [aixlb-dsh-bcc](https://github.com/aixlb/dsh-bcc) ★0 — 包拆拆 for DeepSeek Harness: video to script/storyboard/style guide
+- `[未定位]` **akhyui-dsh-remote-plugin** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [aks1st-dock-media](https://github.com/AKS1st/dock-media) ★0 — —
 - 🟨 `[不兼容]` [akvi0921-dsh-console-tap](https://github.com/akvi0921/dsh-console-tap) ★0 — 【已停止维护/归档】旧版控制台显形插件 → 新插件见 akvi0921/dsh-build-progress
 - 🟨 `[不兼容]` [alfonsoferrertorres-cyber-saare-suite](https://github.com/alfonsoferrertorres-cyber/saare-suite) ★0 — Enterprise L7 AI Governance, Ex-Ante PII Redaction (<1.16ms RAM), and Cryptographic Forensic Evidence Vault fo
