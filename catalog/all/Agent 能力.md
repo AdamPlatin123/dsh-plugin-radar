@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2236）
+# 🤖 Agent 能力（2239）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -815,6 +815,7 @@
 - ⬜ `[待定]` [2092372408-pixel-dsh-roadmap-board](https://github.com/2092372408-pixel/dsh-roadmap-board) ★0 — 人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）
 - 🟩 `[可用]` [2432450223-dsh-image-governor](https://github.com/2432450223/dsh-image-governor) ★0 — Session image payload governor for DeepSeek Harness: audit which images a session still ships, pick the ones t
 - 🟩 `[可用]` [245678000000-dsh-shield](https://github.com/245678000000/dsh-shield) ★0 — Security, Trust & Policy Layer for DeepSeek Harness
+- 🟩 `[可用]` [2huy4n-roleplaytimer](https://github.com/2huy4n/roleplaytimer) ★0 — 每隔一段时间主动唤醒会话中的AI，以此达到更沉浸式的角色扮演体验
 - 🟩 `[可用]` [502399493zjw-lgtm-dsh-model-retry](https://github.com/502399493zjw-lgtm/dsh-model-retry) ★0 — DeepSeek Harness plugin for configuring the global model-request retry budget
 - ⬜ `[待定]` [863683348-dsh-project](https://github.com/863683348/dsh-project) ★0 — DSH - DeepSeek Harness: a lightweight plugin host for DeepSeek agent runs
 - 🟩 `[可用]` [904915452-dsh-specify](https://github.com/904915452/dsh-specify) ★0 — DeepSeek Harness 插件：Spec-Kit 规范驱动开发技能套件（/speckit-* 斜杠命令）
@@ -1569,6 +1570,7 @@
 - 🟨 `[不兼容]` [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) ★18 — 可配置子代理 profile 系统，单一 subagent 工具 + profile 参数，含 Web UI 设置/实时进度/子代理树 \| Configurable subagent profile system: si
 - 🟨 `[不兼容]` [qian-ning-prompt-skill-armory](https://github.com/Qian-Ning/prompt-skill-armory) ★18 — —
 - 🟨 `[不兼容]` [dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) ★18 — Subagent Director: per-subagent LLM provider/model selection with role templates for DeepSeek Harness (dsh plu
+- 🟨 `[不兼容]` [pbwheel-dsh-workbuddy-expert](https://github.com/pbwheel/dsh-workbuddy-expert) ★17 — 把 WorkBuddy 专家装进 DSH：专家市场一键导入 · 会话选择器随时切换
 - 🟨 `[不兼容]` [qtaik-dsh-noname-kit](https://github.com/qtaik/dsh-noname-kit) ★17 — DeepSeek Harness无名杀插件  无名杀扩展开发工坊:AI 按规范写武将技能与卡牌(确认协议/校验门禁/区块化写入)
 - 🟨 `[不兼容]` [ai-shushu-dsh-quota-meter](https://github.com/ai-shushu/dsh-quota-meter) ★16 — Per-session quota meter for DSH: real-token billing, live progress bar, budget blocking, configurable multi-mo
 - 🟨 `[不兼容]` [aa2246740-dsh-skillhub](https://github.com/aa2246740/dsh-skillhub) ★15 — DSH manager for user Skills already on disk in Agent home and DSH home
@@ -1885,6 +1887,7 @@
 - 🟨 `[不兼容]` [shuanzhe-dsh-turn-hard-delete](https://github.com/shuanzhe/dsh-turn-hard-delete) ★1 — Delete a complete turn (question + answer + tool calls) from a DeepSeek Harness session, without deleting the
 - 🟨 `[不兼容]` [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) ★1 — AI turns repeated dev commands, prompts, and habits into one-click DeepSeek Harness actions.
 - 🟨 `[不兼容]` [snail30xx-dsh-graph-runtime](https://github.com/snail30xx/dsh-graph-runtime) ★1 — Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g
+- 🟨 `[不兼容]` [suanniniu-dsh-standard-toolkit](https://github.com/suanniniu/dsh-standard-toolkit) ★1 — DeepSeek Harness 标准工具插件(Standard ToolKit):工具管家——平时工具不占位,会话按需自动装载/用完自动收纳,省token;支持 load_tool / register_new_too
 - 🟨 `[不兼容]` [tinger-x-dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) ★1 — —
 - 🟨 `[不兼容]` [troytse-dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) ★1 — DeepSeek Harness - Subagent Roles Plugin
 - 🟨 `[不兼容]` [trynewthin-dsh-subagent-roles](https://github.com/trynewthin/dsh-subagent-roles) ★1 — Role-based model routing for DeepSeek Harness subagent delegation.
