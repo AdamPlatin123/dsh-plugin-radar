@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T09:00:56Z",
+ "generated_at": "2026-11-10T09:15:57Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -701,6 +701,13 @@
    "verdict": "ok",
    "stars": 13,
    "desc": "Manage MCP servers, skills, and tools for your DeepSeek Harness agent — true in-context state and per-session"
+  },
+  {
+   "repo": "rottenpen/agent-stardew",
+   "name": "rottenpen-agent-stardew",
+   "verdict": "ok",
+   "stars": 13,
+   "desc": "星露谷农场小助手：Jev 自主游玩、dsh 插件、独立 CLI 与 SMAPI Mod"
   },
   {
    "repo": "Sivan757/dsh-agent-plugins-market",
@@ -7535,6 +7542,13 @@
    "desc": "—"
   },
   {
+   "repo": "qianyuan-ltd/dsh-qianyuan",
+   "name": "qianyuan-ltd-dsh-qianyuan",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Connect DeepSeek Harness to the QianYuan MCP server — shared pitfall/result records and capability lookup for"
+  },
+  {
    "repo": "qihongmu/dsh-plugins",
    "name": "qihongmu-dsh-plugins",
    "verdict": "ok",
@@ -7659,6 +7673,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sagmans/dsh-plannotator",
+   "name": "sagmans-dsh-plannotator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Plannotator extension for deepseek-harness"
   },
   {
    "repo": "sakka6868/dsh-prompt-optimize-plugin",
@@ -25931,6 +25952,13 @@
    "desc": "AI coding agent core for building DeepSeek Harness plugins that keep working as DSH evolves"
   },
   {
+   "repo": "skyzhao1223/dsh-agent-token-stats",
+   "name": "skyzhao1223-dsh-agent-token-stats",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Cross-agent token usage dashboard for DeepSeek Harness: aggregates local logs of Claude Code, OpenCode, Cursor"
+  },
+  {
    "repo": "skyzhao1223/dsh-plugin-sops-vault",
    "name": "skyzhao1223-dsh-plugin-sops-vault",
    "verdict": "ok",
@@ -30612,6 +30640,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Trello-style kanban boards inside the DeepSeek Harness (DSH) web GUI: sidebar 看板 entry, multiple workboards, d"
+  },
+  {
+   "repo": "njjpro/dsh-remote-workspace",
+   "name": "njjpro-dsh-remote-workspace",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Device-workspace federation plugin for the dsh web GUI: pair into another DSH instance and browse its projects"
   },
   {
    "repo": "omdsh-dev/dsh-ui-progress",
@@ -79838,6 +79873,13 @@
    "desc": "View and restore archived DeepSeek Harness sessions."
   },
   {
+   "repo": "syyr1987/dsh-linghun",
+   "name": "syyr1987-dsh-linghun",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "灵魂（Linghun）— 给 DeepSeek Harness 装一个会思考的自我：认知循环 + 海马体三层记忆（序时账/情景归档/低置信降权遗忘）+ A2A 记忆管理团队联动"
+  },
+  {
    "repo": "grelvan/dsh-ocr-local",
    "name": "dsh-ocr-local",
    "verdict": "pending",
@@ -102362,6 +102404,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH插件test"
+  },
+  {
+   "repo": "vb2250158/dsh-jev-context-gate",
+   "name": "vb2250158-dsh-jev-context-gate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Deprecated: use vb2250158/dsh-smart-selector"
   },
   {
    "repo": "vclike/dsh-find-plugin",
