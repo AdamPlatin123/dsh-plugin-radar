@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T05:01:07Z",
+ "generated_at": "2026-11-10T05:16:06Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2110,6 +2110,13 @@
    "desc": "—"
   },
   {
+   "repo": "john-walks-slow/dsh-wait-subagent",
+   "name": "john-walks-slow-dsh-wait-subagent",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "wait_subagent tool for DeepSeek Harness: block until a background continuable subagent settles and return its"
+  },
+  {
    "repo": "jonah791/dsh-agent-compact",
    "name": "jonah791-dsh-agent-compact",
    "verdict": "ok",
@@ -2640,6 +2647,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "dsh-awake · 守夜人：在 agent 任务执行期间阻止操作系统休眠"
+  },
+  {
+   "repo": "huxin7735-collab/dsh-maintainer-doc-guard",
+   "name": "huxin7735-collab-dsh-maintainer-doc-guard",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Keeps a long agent turn answerable to the user's actual request: a standing maintainer-document reminder, two"
   },
   {
    "repo": "hytime/dsh-companion",
@@ -6401,6 +6415,13 @@
    "desc": "A watchdog plugin for DeepSeek Harness: on a **quota / rate-limit (HTTP 429)** error, it automatically creates"
   },
   {
+   "repo": "imtokenxinluo/dsh-contract-check",
+   "name": "imtokenxinluo-dsh-contract-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Zero-token contract check for DSH plugins — verifies output.render() / session-event vocabulary, warn-only"
+  },
+  {
    "repo": "iqingyoung/search2chart-mcp",
    "name": "iqingyoung-search2chart-mcp",
    "verdict": "ok",
@@ -6469,6 +6490,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "john-walks-slow/dsh-zen",
+   "name": "john-walks-slow-dsh-zen",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Zen Mode view tab + foreground time tracker for DeepSeek Harness — a calm minimal surface while your agent wor"
   },
   {
    "repo": "johnvictorio/dsh-custom-prompt",
@@ -18259,6 +18287,13 @@
    "desc": "DSH（DeepSeek Harness）插件与皮肤单仓库：ast-edit / browser 工具、插件管理面板、Material You 皮肤"
   },
   {
+   "repo": "mustakimabdullah25-tech/dsh-screen-translator",
+   "name": "mustakimabdullah25-tech-dsh-screen-translator",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Universal on-screen translator for DeepSeek Harness Web UI: translates UI text, attributes, Shadow DOM, and if"
+  },
+  {
    "repo": "nicecx/dsh-relay",
    "name": "nicecx-dsh-relay",
    "verdict": "ok",
@@ -20294,6 +20329,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "karottc/dsh-plugin-workspace-sorted",
+   "name": "karottc-dsh-plugin-workspace-sorted",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "让 DeepSeek Harness 的 **工作区（Workspace）** 按「最近使用」排序的宿主（Host）插件"
   },
   {
    "repo": "kingOfSoySauce/dsh-elon-skin",
@@ -22471,6 +22513,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Ecosystem trend dashboard (行情面板) for dsh plugins: snapshot dsh-plugin topic + awesome list into local history,"
+  },
+  {
+   "repo": "904915452/dsh-keyboard-shortcuts",
+   "name": "904915452-dsh-keyboard-shortcuts",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：可配置键盘快捷键（输入历史 + 审批/计划快捷键）"
   },
   {
    "repo": "988hj7tczd-oss/dsh-a11y-scan",
@@ -31123,6 +31172,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Opens the DeepSeek Harness Web UI in a native window instead of a browser tab."
+  },
+  {
+   "repo": "kksw1024/dsh-my-files",
+   "name": "kksw1024-dsh-my-files",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "为dsh面板添加“我的文件”入口"
   },
   {
    "repo": "kongjianguan/dsh-tokstat",
@@ -46999,6 +47055,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jiawood2006/de-ai-writer",
+   "name": "jiawood2006-de-ai-writer",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Rewrite AI-generated copy into natural human tone"
   },
   {
    "repo": "jiawood2006/ecommerce-material-studio",
@@ -82344,6 +82407,13 @@
    "desc": "—"
   },
   {
+   "repo": "paul-yangmy/dsh-umi-ocr-vision",
+   "name": "paul-yangmy-dsh-umi-ocr-vision",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "penglai-doll/dsh-skills-manager",
    "name": "penglai-doll-dsh-skills-manager",
    "verdict": "incompatible",
@@ -93829,6 +93899,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "把本机已登录的 CodeBuddy / WorkBuddy（腾讯代码助手） 订阅作为 dsh（DeepSeek Harness） 的原生 provider 接入，启用后 CodeBuddy 模型会直接出现在 dsh 的模"
+  },
+  {
+   "repo": "ewoowe/dsh-plugin-dependency-graph-plugin",
+   "name": "ewoowe-dsh-plugin-dependency-graph-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Plugin dependency graph for DeepSeek Harness: which plugin provides the services every other plugin injects, r"
   },
   {
    "repo": "fan56/dsh-llm-stats",
