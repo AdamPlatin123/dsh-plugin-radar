@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T02:31:03Z",
+ "generated_at": "2026-11-10T02:46:02Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2248,6 +2248,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "vlln/dsh-autofork",
+   "name": "vlln-dsh-autofork",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Agent 忙时自动分叉会话：你新发的指令立刻在新会话里得到响应，旧会话留在后台跑完并把结果回注（DeepSeek Harness 插件）"
   },
   {
    "repo": "warrenop/open-preset-harness",
@@ -5188,6 +5195,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Native DeepSeek Harness (dsh) plugin: hybrid local and XMemo cloud memory for Cordis-based agents."
+  },
+  {
+   "repo": "youxi-huang/dsh-gpt-file-discipline",
+   "name": "youxi-huang-dsh-gpt-file-discipline",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A configurable DeepSeek Harness plugin that adds file-reading discipline to selected GPT model prompts."
   },
   {
    "repo": "yuan-source-666/dsh-task-notifier",
@@ -11644,6 +11658,13 @@
    "desc": "—"
   },
   {
+   "repo": "troytse/dsh-plugin-subagent-roles",
+   "name": "troytse-dsh-plugin-subagent-roles",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness - Subagent Roles Plugin"
+  },
+  {
    "repo": "trynewthin/dsh-subagent-roles",
    "name": "trynewthin-dsh-subagent-roles",
    "verdict": "incompatible",
@@ -13189,6 +13210,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "在DeepSeek Hareness中引入Cursor Hareness，获得和Cursor一致的速度与体验"
+  },
+  {
+   "repo": "y2zyyr/smart-session-title",
+   "name": "y2zyyr-smart-session-title",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Automatic session titles for DeepSeek Harness, using the conversation model"
   },
   {
    "repo": "yangyizhu8/dsh-unread-mark",
@@ -16045,6 +16073,13 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "Workspace-level SSH remote development plugin for DeepSeek Harness: transparent seam-routed fs, git & terminal"
+  },
+  {
+   "repo": "ttmouse/dsh-model-picker",
+   "name": "ttmouse-dsh-model-picker",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Enhanced model picker for the dsh web GUI — replaces the composer's model seat"
   },
   {
    "repo": "Visol-456/dsh-llm-fallback",
@@ -21444,6 +21479,20 @@
    "desc": "dsh skill: 截图审阅——模型自己截图、自己看图、自己改代码，迭代优化前端效果"
   },
   {
+   "repo": "whiskey1993/dsh-thermal-monitor",
+   "name": "whiskey1993-dsh-thermal-monitor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Web 左侧栏硬件温度看板：CPU / 内存 / GPU / 固态实时温度，提权失败自动降级"
+  },
+  {
+   "repo": "whw19761006/path-click",
+   "name": "whw19761006-path-click",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Hover file paths and URLs in the DSH Web UI to reveal them in Explorer or open them in the default browser."
+  },
+  {
    "repo": "whyihaveyou/dsh-workstation",
    "name": "whyihaveyou-dsh-workstation",
    "verdict": "pending",
@@ -21589,6 +21638,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Claw Agent governance suite for DeepSeek Harness"
+  },
+  {
+   "repo": "xinmo114514/dsh-prompt-optimizer",
+   "name": "xinmo114514-dsh-prompt-optimizer",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "✨ DSH 持久化 Web 插件：输入框旁一键把模糊需求改写成 AI 智能体可执行的超级提示词"
   },
   {
    "repo": "xjailll/dsh-portfolio-publisher",
@@ -25371,6 +25427,13 @@
    "desc": "Nyx plugins for DeepSeek Harness — a right-side file panel and true edit-message, both drawn with the harness'"
   },
   {
+   "repo": "thezavtrak-a11y/dsh-cost-stats",
+   "name": "thezavtrak-a11y-dsh-cost-stats",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Money on the screen for the DeepSeek Harness web GUI: per-turn USD cost in the chat, a Cost tab with charts, r"
+  },
+  {
    "repo": "thezavtrak-a11y/dsh-locale-ru",
    "name": "thezavtrak-a11y-dsh-locale-ru",
    "verdict": "ok",
@@ -26314,6 +26377,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A Person-of-Interest surveillance-terminal theme for deepseek-harness — the machine is watching."
+  },
+  {
+   "repo": "yuu1111/dsh-ui-cost-meter",
+   "name": "yuu1111-dsh-ui-cost-meter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web GUI plugin: real-time spend for the current session, priced from per-model token rates an"
   },
   {
    "repo": "z-col/dsh-deepseek-peak-valley",
@@ -27959,6 +28029,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "A DeepSeek Harness plugin that allows you to change the reasoning effort of custom models in WebUI."
+  },
+  {
+   "repo": "xyavid/dsh-prompt-polish",
+   "name": "xyavid-dsh-prompt-polish",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DeepSeek Harness Web 插件：输入框模型名旁的小星星按钮，一键把草稿改写成结构化的可执行提示词并写回"
   },
   {
    "repo": "zmm863-commits/dsh-paperclip",
@@ -31265,6 +31342,13 @@
    "desc": "DeepSeek Harness (DSH) web plugin: 盯盘 market-dashboard sidebar tab — three quote strips with hover intraday ch"
   },
   {
+   "repo": "tippykafuu/dsh-client-ui-wallpaper",
+   "name": "tippykafuu-dsh-client-ui-wallpaper",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Changes the wallpaper of the dsh Web GUI."
+  },
+  {
    "repo": "tkwkeven/dsh-tool-github",
    "name": "tkwkeven-dsh-tool-github",
    "verdict": "incompatible",
@@ -31333,6 +31417,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \\| 会话区 \\| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放"
+  },
+  {
+   "repo": "wwwangzilin/dsh-role-cards",
+   "name": "wwwangzilin-dsh-role-cards",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web 插件：新建会话界面上的角色卡 + 工作区卡选择器（毛玻璃卡片墙 / 横向滚动 / 角色主题色 / 入场动画）"
   },
   {
    "repo": "xchannel1987/dsh-reverse-proxy-xc",
@@ -43331,6 +43422,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "xie129716/computer-user-vision",
+   "name": "xie129716-computer-user-vision",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Unofficial fork of computer-user: fixes the silent load failure on DSH >= 0.1.2, and returns screenshots as re"
   },
   {
    "repo": "Xieweikang123/dsh-vision-bridge",
@@ -61769,6 +61867,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "a dsh plugin that helps you to automatically generate, evolve and manage your dsh plugins"
+  },
+  {
+   "repo": "xzy-jason/dsh-chinese-search",
+   "name": "xzy-jason-dsh-chinese-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Chinese full-text search plugin for DeepSeek Harness using jieba segmentation"
   },
   {
    "repo": "y-wi/dsh-deepseek-web",
