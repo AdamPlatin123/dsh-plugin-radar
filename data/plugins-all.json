@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T15:01:04Z",
+ "generated_at": "2026-11-10T15:16:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -25089,6 +25089,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Real-time per-session token cost for the DeepSeek Harness web GUI, with per-provider pricing and configurable"
+  },
+  {
+   "repo": "lbqcgza/dsh-quota-usage",
+   "name": "lbqcgza-dsh-quota-usage",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "在 DSH 侧边栏底部、用户名正上方显示 DeepSeek 账号剩余额度（总余额 + 赠金余额）的 Web 插件"
   },
   {
    "repo": "lcb522/DSH-Aqua-Theme",
@@ -76441,6 +76448,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Remielle desktop pet for DeepSeek Harness — session events drive the pet's animations: working, expecting, cel"
+  },
+  {
+   "repo": "janpauldahlke/dsh-memento",
+   "name": "janpauldahlke-dsh-memento",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: bounded-file memory for local agents"
   },
   {
    "repo": "jokerwen666/dsh-bili-taskmaster",
