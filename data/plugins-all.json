@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T12:16:13Z",
+ "generated_at": "2026-11-10T12:31:20Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2346,6 +2346,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "ventisyn/dsh-approval-gate",
+   "name": "ventisyn-dsh-approval-gate",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "适配 DSH 0.2.1-rc.5 的自动审批门控：判定模型判断不可回补操作，安全自动批准、危险转人工"
   },
   {
    "repo": "vlln/dsh-autofork",
@@ -6028,6 +6035,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Pin-aware updater for DeepSeek Harness"
+  },
+  {
+   "repo": "daha1216/dsh-watcher",
+   "name": "daha1216-dsh-watcher",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 只读观测插件：把会话折成可折叠的工作路径，统计模型耗时与估算费用"
   },
   {
    "repo": "daoing/dsh-daoing-memory",
@@ -12097,6 +12111,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness 标准工具插件(Standard ToolKit):工具管家——平时工具不占位,会话按需自动装载/用完自动收纳,省token;支持 load_tool / register_new_too"
+  },
+  {
+   "repo": "thissensen/dsh-harden",
+   "name": "thissensen-dsh-harden",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 运行时看护层：API 调用失败自动续接重试、工具调用失败被吞自动拉回、只输出思考的回合自动重试、新增对接 pwsh 的后台 job 工具、一键修复异常会话日志、区分子Agent并且可自定义内容的上下文自动压缩"
   },
   {
    "repo": "Tinger-X/dsh-session-enhance",
@@ -82218,6 +82239,13 @@
    "desc": "—"
   },
   {
+   "repo": "miqian-nomad/dsh-new-workdir",
+   "name": "miqian-nomad-dsh-new-workdir",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "一键领一个独立工作目录并开干净会话：目录即沙盒边界，产物不再互相污染"
+  },
+  {
    "repo": "my-dsh/dsh-token-usage-dashboard",
    "name": "my-dsh-dsh-token-usage-dashboard",
    "verdict": "ok",
@@ -102922,6 +102950,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "shinelon/dsh-mermaid-plugin",
+   "name": "shinelon-dsh-mermaid-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Render mermaid code blocks in DSH chat as diagrams - 在 DSH 聊天中将 mermaid 代码块渲染为图形"
   },
   {
    "repo": "shizhanyu13/dsh-waom",
