@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T02:46:02Z",
+ "generated_at": "2026-11-10T03:01:06Z",
  "plugins": [
   {
    "repo": "superdesigndev/treg",
@@ -2717,13 +2717,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Deepseek Harness 的Skill管理插件"
-  },
-  {
-   "repo": "lau4tin1/dsh-skill-router",
-   "name": "lau4tin1-dsh-skill-router",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "An automatic skill router for deepseek harness"
   },
   {
    "repo": "leolee9086/dsh-context-care",
@@ -6814,6 +6807,13 @@
    "desc": "One-click prompt enhancement and structuring plugin for DeepSeek Harness (DSH)"
   },
   {
+   "repo": "lolkda/dsh-skills-manager",
+   "name": "lolkda-dsh-skills-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Manage the DeepSeek Harness skill catalog from Settings: list what DSH actually resolves, enable or disable a"
+  },
+  {
    "repo": "longyu065/dsh-session-index",
    "name": "dsh-session-index",
    "verdict": "ok",
@@ -10615,6 +10615,13 @@
    "desc": "一个dsh的子agent控制插件"
   },
   {
+   "repo": "lau4tin1/dsh-skill-router",
+   "name": "lau4tin1-dsh-skill-router",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "An automatic skill router for deepseek harness"
+  },
+  {
    "repo": "leaveimagination/dsh-qwen-voice",
    "name": "leaveimagination-dsh-qwen-voice",
    "verdict": "incompatible",
@@ -11488,6 +11495,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Prime Agent orchestration for DeepSeek Harness (dsh): delegation engine, prime_agent tool, Web fleet column, s"
+  },
+  {
+   "repo": "mugnimaestra/dsh-browser-use",
+   "name": "mugnimaestra-dsh-browser-use",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness Agent Preset bridge for Open Browser Use WebMCP"
   },
   {
    "repo": "Mutx163/dsh-model-memory",
@@ -15947,6 +15961,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "Searchable workspace subagent manager for DeepSeek Harness Web"
+  },
+  {
+   "repo": "more-nico/dsh-nico-theme",
+   "name": "more-nico-dsh-nico-theme",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Nico glass theme for the DeepSeek Harness web UI - panel glass rendered by nico-glass-kit"
   },
   {
    "repo": "MorGogh/widget-dock",
@@ -24300,6 +24321,13 @@
    "desc": "DeepSeek Harness 壁纸插件：为 Web 界面添加可自定义的壁纸背景——8 款渐变预设、自定义图片 URL、多来源随机壁纸（Bing 每日 / Picsum / LoremFlickr）、自动定时更换与设置"
   },
   {
+   "repo": "luigiinred/dsh-git-status-pill",
+   "name": "luigiinred-dsh-git-status-pill",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Floating git status pill for DeepSeek Harness: live branch, +/- line changes and a Create PR prompt."
+  },
+  {
    "repo": "lurejewel/dsh-usage-plugin",
    "name": "lurejewel-dsh-usage-plugin",
    "verdict": "ok",
@@ -29671,6 +29699,13 @@
   {
    "repo": "lx963/dsh-webui-background",
    "name": "lx963-dsh-webui-background",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "lyingice/dsh-client-ui-mc-skin",
+   "name": "lyingice-dsh-client-ui-mc-skin",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -94109,6 +94144,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：在每个会话的系统提示词最顶部注入自定义提示词，并可在 Web 设置页中即时编辑"
+  },
+  {
+   "repo": "mays-hi/dsh-git-idea",
+   "name": "mays-hi-dsh-git-idea",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "IDEA-style Git VCS inside a DeepSeek Harness session: a branch chip with the pending-change count, a branch sw"
   },
   {
    "repo": "Mengshiming2110/dsh-desktop-codex",
