@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T00:30:56Z",
+ "generated_at": "2026-11-11T00:46:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10832,6 +10832,13 @@
    "desc": "Send files from your DeepSeek Harness agent straight to your phone, and reference what your phone sent back —"
   },
   {
+   "repo": "takboo/dsh-usage-state",
+   "name": "takboo-dsh-usage-state",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH plugin: show account balance (API mode) or coding-plan quota usage (5h/7d) for the model in use"
+  },
+  {
    "repo": "TuringCorp-net/mosaic-memory-compress",
    "name": "turingcorp-net-mosaic-memory-compress",
    "verdict": "incompatible",
@@ -11789,6 +11796,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness（DSH）插件：展示 DeepSeek 账户余额、当前会话预估消耗、历史对话明细（每个对话的 token 与金额），并根据历史会话的平均消耗，估算各模型剩余对话次数"
+  },
+  {
+   "repo": "gorban/dsh-job-stop",
+   "name": "gorban-dsh-job-stop",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) plugin: stop a running background job from the session-header job list, behind a confir"
   },
   {
    "repo": "Harzva/dsh-agent-project-sync",
@@ -20702,6 +20716,13 @@
    "desc": "DSH ctx.web search provider that reuses the conversation model's OpenAI Responses built-in web_search"
   },
   {
+   "repo": "hgp005/dsh-winterskin",
+   "name": "hgp005-dsh-winterskin",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "雪岭皮肤 — 把一张照片变成整个 DeepSeek Harness GUI 的底色，并把面板调成配套的玻璃质感主题"
+  },
+  {
    "repo": "hisaniwo/dsh-ergonomics",
    "name": "dsh-ergonomics",
    "verdict": "ok",
@@ -21638,6 +21659,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "A plugin that adds a search box to the DSH settings panel."
+  },
+  {
+   "repo": "olimc2016/dsh-token-meter-panel",
+   "name": "olimc2016-dsh-token-meter-panel",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH（DeepSeek Harness）Token 用量与花费面板插件：今日消费、预算进度、成本构成、缓存命中省下的钱"
   },
   {
    "repo": "omdsh-plugins/omdsh-basemode",
@@ -24592,6 +24620,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "itchenshi/dsh-gui-last-session",
+   "name": "itchenshi-dsh-gui-last-session",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: reopen the conversation you were last in after a restart, without patching engine fil"
   },
   {
    "repo": "ivvan3016/dsh-ui-pricing",
@@ -30458,6 +30493,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "alllllinnrann/dsh-inapp-browser",
+   "name": "alllllinnrann-dsh-inapp-browser",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 内置浏览器：人机共享网页、鼠标键盘操作与高清截图"
   },
   {
    "repo": "awa-123-cw/dsh-matrix-rain",
@@ -40988,6 +41030,13 @@
    "desc": "—"
   },
   {
+   "repo": "ai4rpg/stage-switch",
+   "name": "ai4rpg-stage-switch",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—〔📦〕"
+  },
+  {
    "repo": "AiLi1337/dsh-plugin-library-search",
    "name": "aili1337-dsh-plugin-library-search",
    "verdict": "ok",
@@ -42057,6 +42106,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh plugin: multi-surface ask-user routing, first answer wins"
+  },
+  {
+   "repo": "fangqian616/dsh-say",
+   "name": "fangqian616-dsh-say",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Give your DSH, speak and report in a voice you like！让你的 DSH 用你喜欢的声音开口说话、汇报内容！"
   },
   {
    "repo": "fangweixuan26-hash/dsh-dual-balance",
@@ -46173,6 +46229,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "ai-written/dsh-usage-badge",
+   "name": "ai-written-dsh-usage-badge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的用量徽标插件"
   },
   {
    "repo": "ai798-Lab/dshwiki-plugin",
@@ -85158,6 +85221,13 @@
    "desc": "让 QQ Bot 接入 DeepSeek Harness（dsh）的官方插件"
   },
   {
+   "repo": "constructive-io/constructive",
+   "name": "constructive-io-constructive",
+   "verdict": "ok",
+   "stars": 59,
+   "desc": "Secure, Modular Postgres for Teams"
+  },
+  {
    "repo": "Clarklevis1995/dsh-plugin-mobile-gateway",
    "name": "clarklevis1995-dsh-plugin-mobile-gateway",
    "verdict": "ok",
@@ -87396,6 +87466,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Tencent Agent Mail (agent.qq.com) workbench plugin for DeepSeek Harness: polling, LLM classification, fullscre"
+  },
+  {
+   "repo": "itchenshi/dsh-keys-setting",
+   "name": "itchenshi-dsh-keys-setting",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: choose whether Enter / Shift+Enter / Ctrl/Cmd+Enter sends the message or inserts a li"
   },
   {
    "repo": "itsnone-liu/dsh-feishu",
@@ -96923,6 +97000,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Computer use plugin for DeepSeek Harness: structure-first browser driving over a Playwright provider"
+  },
+  {
+   "repo": "harmless0819-dev/dsh-whale-emote",
+   "name": "harmless0819-dev-dsh-whale-emote",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Make the whale widget perform emotions: stickers pop out beside it, with sound and a speech bubble"
   },
   {
    "repo": "hatter123/dsh-diffgeom",
