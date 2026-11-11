@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T11:16:02Z",
+ "generated_at": "2026-11-11T11:31:15Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12974,6 +12974,13 @@
    "desc": "—"
   },
   {
+   "repo": "beibeihk/dsh-agent-observability",
+   "name": "beibeihk-dsh-agent-observability",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Community plugin for event-grounded, privacy-first agent observability and reliability analysis in DeepSeek Ha"
+  },
+  {
    "repo": "bf185003/dsh-favicon-status",
    "name": "bf185003-dsh-favicon-status",
    "verdict": "incompatible",
@@ -21353,6 +21360,13 @@
    "desc": "雪岭皮肤 — 把一张照片变成整个 DeepSeek Harness GUI 的底色，并把面板调成配套的玻璃质感主题"
   },
   {
+   "repo": "hiocobueno653-pixel/dsh-ui-polish",
+   "name": "hiocobueno653-pixel-dsh-ui-polish",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH UI 打磨层：毛玻璃浮层修复 + 推理强度滑杆 + 模型选择导航增强（浏览器侧注入插件）"
+  },
+  {
    "repo": "hisaniwo/dsh-ergonomics",
    "name": "dsh-ergonomics",
    "verdict": "ok",
@@ -24529,6 +24543,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "渡劫飞升：DeepSeek Harness 的仙逆·王林修炼伙伴"
+  },
+  {
+   "repo": "d0ublecl1ck/dsh-csdn-theme",
+   "name": "d0ublecl1ck-dsh-csdn-theme",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "CSDN 博文的配色与正文排版主题插件，用于 DeepSeek Harness Web GUI · CSDN-blog typography theme for the DeepSeek Harness web GUI."
   },
   {
    "repo": "dac114514/dsh-theme-center",
