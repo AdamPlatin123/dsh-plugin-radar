@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T00:46:02Z",
+ "generated_at": "2026-11-11T01:00:52Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -18476,6 +18476,13 @@
    "desc": "—"
   },
   {
+   "repo": "hawkongz/dsh-task-reminder",
+   "name": "hawkongz-dsh-task-reminder",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Conversation task-completion reminders for the DeepSeek Harness Web UI: reminder card, four Web Audio chimes,"
+  },
+  {
    "repo": "hi-fangj/dsh-models-radar",
    "name": "hi-fangj-dsh-models-radar",
    "verdict": "ok",
@@ -22345,6 +22352,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Theme, fonts settings for DSH web and desktop."
+  },
+  {
+   "repo": "vianvio/dsh-plugin-drop-path",
+   "name": "vianvio-dsh-plugin-drop-path",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 客户端插件：把一个文件夹拖进 DSH，输入框里出现的是它的本机绝对路径（引用块），而不是一条传不上去的附件"
   },
   {
    "repo": "victorytianyi-dev/dsh-upload-button",
@@ -50942,6 +50956,13 @@
    "desc": "—"
   },
   {
+   "repo": "shenbimicro233/dsh-reasoning-effort-inject",
+   "name": "shenbimicro233-dsh-reasoning-effort-inject",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "shengbinxu/dsh-llm-latency",
    "name": "shengbinxu-dsh-llm-latency",
    "verdict": "ok",
@@ -64270,6 +64291,13 @@
    "desc": "—"
   },
   {
+   "repo": "wangxuewangxue98/dsh-motor-ai-l0",
+   "name": "wangxuewangxue98-dsh-motor-ai-l0",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "wbushihenshuai-design/dsh-error-improvement",
    "name": "wbushihenshuai-design-dsh-error-improvement",
    "verdict": "incompatible",
@@ -66739,6 +66767,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Read-only local capability and community plugin discovery for DeepSeek Harness"
+  },
+  {
+   "repo": "suan2inf/dsh-cockpit",
+   "name": "suan2inf-dsh-cockpit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "SunNull/dsh-relay",
@@ -93299,6 +93334,13 @@
    "desc": "给 DeepSeek Harness（dsh 插件）与 Claude Code（MCP）提供视觉能力：本地 OCR（macOS / Windows）+ 云端 VLM（多供应商，OpenAI 兼容）"
   },
   {
+   "repo": "slow-stack/euthyna",
+   "name": "slow-stack-euthyna",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "⚖️ The audit AI coding agents can't skip — deterministic facts (deleted-code provenance, symbol invocations, d"
+  },
+  {
    "repo": "spirits001/dsh-tokensforce",
    "name": "spirits001-dsh-tokensforce",
    "verdict": "pending",
@@ -95698,6 +95740,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "An agent skill that batch-researches a YouTube channel's latest N videos — captions first, local ASR fallback"
+  },
+  {
+   "repo": "xienda/dsh-jev-verify",
+   "name": "xienda-dsh-jev-verify",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "TypeSafe Jev (System One) for DeepSeek Harness: 7 tools (decide, choose, batch), a two-tier auto-guard with me"
   },
   {
    "repo": "xing666173/dsh-bridge-preview",
@@ -98960,6 +99009,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wpeng77/dsh-llm-trace",
+   "name": "wpeng77-dsh-llm-trace",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Wire-level LLM inspector for DeepSeek Harness: capture the raw HTTP request and response bodies of every model"
   },
   {
    "repo": "writeCasually/dsh-opencode-go-models",
