@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2369）
+# 🤖 Agent 能力（2372）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -938,6 +938,7 @@
 - 🟩 `[可用]` [don738110198-dsh-session-integrity](https://github.com/DON738110198/dsh-session-integrity) ★0 — —
 - 🟩 `[可用]` [dongsheng123132-dsh-policy-waiver-proof](https://github.com/dongsheng123132/dsh-policy-waiver-proof) ★0 — Offline content-addressed proof that temporary DSH policy waivers stayed within approved bounds
 - 🟩 `[可用]` [dongsheng123132-dsh-principal-binding-proof](https://github.com/dongsheng123132/dsh-principal-binding-proof) ★0 — Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces
+- `[未定位]` **dqtz5vpvj9-create-dsh-subagent-mcp** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dreamstof-dsh-prompt-customizer](https://github.com/DreamsTOF/dsh-prompt-customizer) ★0 — —
 - `[未定位]` **drowsy-zn-dsh-skill-notes** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-plugin-evaluation-dsh-agent-observe](https://github.com/dsh-plugin-evaluation/dsh-agent-observe) ★0 — DSH plugin for agent observability and security evaluation
@@ -2121,8 +2122,10 @@
 - 🟨 `[不兼容]` [helibeiqi-dsh-context-aware-search](https://github.com/helibeiqi/dsh-context-aware-search) ★0 — Context-aware web search plugin for DeepSeek Harness (dsh): rewrites queries with session context, reranks + c
 - 🟨 `[不兼容]` [helibeiqi-dsh-cordis-universal-adapter](https://github.com/helibeiqi/dsh-cordis-universal-adapter) ★0 — Universal bridge adapter for DeepSeek Harness: consume external MCP servers & Agent Plugins 1.0 packages, and
 - 🟨 `[不兼容]` [heming-gmh-dsh-capcheck](https://github.com/heming-gmh/dsh-capcheck) ★0 — V0 capability-disclosure scanner for DeepSeek Harness (DSH) cordis plugins -- zero-execution static analysis o
+- `[未定位]` **hewzhew-dsh-agent-rp** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [hollis-openlab-dsh-matt-skills-flow](https://github.com/hollis-openlab/dsh-matt-skills-flow) ★0 — Matt Skills engineering workflow plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [homophonicfate-rpg-maker-mac-skill](https://github.com/HomophonicFate/rpg-maker-mac-skill) ★0 — —
+- `[未定位]` **huaimaocy-dsh-memory-vault** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [huanlinoto-dsh-plugin-better-plan](https://github.com/HuanLinOTO/dsh-plugin-better-plan) ★0 — —
 - 🟨 `[不兼容]` [huanlinoto-dsh-plugin-preface-context](https://github.com/HuanLinOTO/dsh-plugin-preface-context) ★0 — —
 - 🟨 `[不兼容]` [hululuzzzgululu-dsh-evals-promptfoo](https://github.com/hululuzzzgululu/dsh-evals-promptfoo) ★0 — This project connects Deepseek Harness and Promptfoo: it launches a real Agent through the official DSH TypeSc

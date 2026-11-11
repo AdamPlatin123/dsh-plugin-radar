@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3086）
+# 🔌 Web UI 增强（3088）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1528,6 +1528,7 @@
 - 🟩 `[可用]` [fourtow-dsh-theme-win98](https://github.com/FourTow/dsh-theme-win98) ★0 — —
 - 🟩 `[可用]` [foxi-ui-deepseek-harness-desktop](https://github.com/foxi-ui/deepseek-harness-desktop) ★0 — Deepseek Harness 桌面版
 - 🟩 `[可用]` [foxi-ui-dsh-command-vscode](https://github.com/foxi-ui/dsh-command-vscode) ★0 — Deepseek Harness 插件-工作区快速打开编辑器vscode、idea等
+- `[未定位]` **fsnh-dsh-artifact-sidebar** — 占位待复核，判定暂不展示
 - `[空仓监测]` **fthuu-my-skin-for-deepseek-harness** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ftima-w-dsh-plugin-manager](https://github.com/ftima-w/dsh-plugin-manager) ★0 — DSH plugin-manager-ui: MCP/Skills management + plugin stop/enable/delete
 - 🟩 `[可用]` [fubao885522-debug-dsh-wallpaper](https://github.com/fubao885522-debug/dsh-wallpaper) ★0 — DeepSeek Harness Web UI 壁纸插件：图片自适应任意屏幕缩放（CSS cover），并自动跟随深浅色主题
@@ -2264,6 +2265,7 @@
 - 🟨 `[不兼容]` [gzx2211-dsh-visual-workflow](https://github.com/GZX2211/dsh-Visual-Workflow) ★38 — —
 - 🟨 `[不兼容]` [dsh-tui-dsh-tui](https://github.com/dsh-tui/dsh-tui) ★35 — Claude Code-style terminal UI for DeepSeek Harness agents, as an out-of-tree dsh plugin bundle
 - 🟨 `[不兼容]` [rootkiller6788-dsh-flow](https://github.com/rootkiller6788/dsh-flow) ★35 — A pluginized microkernel architecture for building, orchestrating, and extending multi-agent systems in DeepSe
+- 🟨 `[不兼容]` [functy23-dsh-mcp-studio](https://github.com/functy23/dsh-mcp-studio) ★34 — DeepSeek Harness 的 MCP 服务与 Skills 管理器：面板里增删改 MCP 行、扫描导入其他 Agent 配置、管理 Skills（DSH Web 插件）
 - 🟨 `[不兼容]` [agi-fans-oh-my-dsh](https://github.com/agi-fans/oh-my-dsh) ★33 — oh-my-dsh aims to be the best TUI companion for DeepSeek Harness
 - 🟨 `[不兼容]` [chouxiaohuai-dsh-uiskin-theme](https://github.com/chouxiaohuai/dsh-uiskin-theme) ★33 — Blue Glass Theme (ocean fantasy) for DeepSeek Harness Web — static profile bundle
 - 🟨 `[不兼容]` [drscrewdriver-dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp) ★32 — DSH 浏览器插件（原 dsh-ego-browser）：让 Agent 通过 CDP 接入真实 Chrome —— 远程目标序列与激活、实时视频/截图回传、登录导入
