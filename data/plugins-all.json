@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T18:00:58Z",
+ "generated_at": "2026-11-11T18:31:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -106037,6 +106037,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A deepseek Harness persistent Memory Plugin"
+  },
+  {
+   "repo": "guojing6/dsh-deepseek-chat",
+   "name": "guojing6-dsh-deepseek-chat",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "将DeepDeek Harness LOGO改造成可以跳转DeepSeek Chat的按钮，类似于Codex客户端"
   },
   {
    "repo": "gxinxing/dsh-tool-git",
