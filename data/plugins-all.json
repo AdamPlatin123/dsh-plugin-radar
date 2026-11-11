@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T01:00:52Z",
+ "generated_at": "2026-11-11T01:16:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3503,6 +3503,13 @@
    "desc": "dsh plugin: cross-session fact notepad with keyword recall, so a decision made in one window is findable in th"
   },
   {
+   "repo": "1283011852/dsh-plugin-deep-paper-reading",
+   "name": "1283011852-dsh-plugin-deep-paper-reading",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: ships the Deep Paper Reading agent preset for figure-by-figure, experiment-by-experim"
+  },
+  {
    "repo": "16480000/dsh-plugin-memory",
    "name": "16480000-dsh-plugin-memory",
    "verdict": "ok",
@@ -4544,6 +4551,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Automatic context compaction for DeepSeek Harness: token-pressure-driven summarization checkpoints with a LATE"
+  },
+  {
+   "repo": "linbin-mk/dsh-session-sync",
+   "name": "linbin-mk-dsh-session-sync",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "deepseek-harness 会话同步"
   },
   {
    "repo": "LIU20030725/dsh-skill-manager",
@@ -10424,6 +10438,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions"
+  },
+  {
+   "repo": "hongxin/dsh-tvision",
+   "name": "hongxin-dsh-tvision",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "Turbo Vision-style character-cell window manager for DeepSeek Harness agents"
   },
   {
    "repo": "KinomotoMio/dsh-context-lens",
@@ -20163,6 +20184,13 @@
    "desc": "Warp-inspired image-to-theme plugin for DeepSeek Harness: upload a background, extract a palette, and apply a"
   },
   {
+   "repo": "catsenior507/dsh-web-watchdog",
+   "name": "catsenior507-dsh-web-watchdog",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Watchdog for the dsh web GUI: crash logging + exponential-backoff auto-restart supervisor + status panel"
+  },
+  {
    "repo": "changlianxiya-139/dsh-ambiguity-handling",
    "name": "changlianxiya-139-dsh-ambiguity-handling",
    "verdict": "ok",
@@ -25371,6 +25399,13 @@
    "desc": "Paper → academic talk for DeepSeek Harness: reads the real full text, budgets the slot per venue (组会汇报/会议报告/答辩"
   },
   {
+   "repo": "liujianqiao701/dsh-ask-notify",
+   "name": "liujianqiao701-dsh-ask-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH web GUI plugin: a bottom-right reminder card when the agent is blocked waiting for your answer, plus a des"
+  },
+  {
    "repo": "liujuntao123/dsh-mobile-keys",
    "name": "liujuntao123-dsh-mobile-keys",
    "verdict": "ok",
@@ -29562,6 +29597,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH 小鲸鱼余额挂件·三口皮肤版 —— 基于 MeteorNOX/DeepSeek-Balance-Whale-Widget（MIT）的修改版：自定义桌宠“三口”形象/语音/不同状态动画，含余额提醒与菜单修复"
+  },
+  {
+   "repo": "gordan-code/dsh-jev-advisor",
+   "name": "gordan-code-dsh-jev-advisor",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Jev (TypeSafe System One) gives the human a second opinion, not the agent"
   },
   {
    "repo": "gwsbhqt/dsh-insight",
@@ -40771,6 +40813,13 @@
    "desc": "—"
   },
   {
+   "repo": "121212165/dsh-plugin-token-telemetry",
+   "name": "121212165-dsh-plugin-token-telemetry",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh plugin: token throughput telemetry from real harness projections - per-turn cards plus a dual thinking/out"
+  },
+  {
    "repo": "12362566/dsh-exit-bash",
    "name": "12362566-dsh-exit-bash",
    "verdict": "ok",
@@ -40804,6 +40853,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "173787247/dsh-wsl-cal",
+   "name": "173787247-dsh-wsl-cal",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Read-only khal calendar list."
   },
   {
    "repo": "173787247/dsh-wsl-clipboard",
@@ -65299,6 +65355,13 @@
    "desc": "dsh 心跳插件：定时触发 HEARTBEAT.md 检查 + 自动归档，随 dsh web 启停"
   },
   {
+   "repo": "fatatalia/dsh-ollama-quota",
+   "name": "fatatalia-dsh-ollama-quota",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "fengbin01/dsh-team-superflow",
    "name": "fengbin01-dsh-team-superflow",
    "verdict": "incompatible",
@@ -84430,6 +84493,13 @@
    "desc": "DSH 多租户客服平台插件：商家账号/店员Agent/模型档位/限流/知识库RAG/网页客服SDK —— DeepSeek Harness multi-tenant customer-service platform"
   },
   {
+   "repo": "hoyyang/dsh-manage-sessions",
+   "name": "hoyyang-dsh-manage-sessions",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 会话管理插件：批量归档/恢复/永久删除，卡死会话两段式强停（自动复活/离线），工作区行一键复制绝对路径，双击重命名，零配置开箱即用"
+  },
+  {
    "repo": "huanghouchun/dsh-claude-migrator",
    "name": "huanghouchun-dsh-claude-migrator",
    "verdict": "incompatible",
@@ -87165,6 +87235,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "用 Vditor 3.11.3（IR 即时渲染模式）接管 DSH Web 的聊天输入卡片，并把用户消息渲染为完整 Markdown"
+  },
+  {
+   "repo": "zjbc2000/attention-plugins",
+   "name": "zjbc2000-attention-plugins",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 任务完成分级通知：主线完成即响，支线汇总提示；主线/均衡/静音三档，自定义音频、按会话静音、点击直达会话"
   },
   {
    "repo": "zqh260619/dsh-dupguard",
@@ -95994,6 +96071,13 @@
    "desc": "dsh-opencode-go-dashboard"
   },
   {
+   "repo": "1283011852/dsh-plugin-research-charts-mode",
+   "name": "1283011852-dsh-plugin-research-charts-mode",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: registers the research-charts-mode (调研与图表模式) agent preset - evidence-graded clinical"
+  },
+  {
    "repo": "1rsh/deepseek-harness-vscode",
    "name": "1rsh-deepseek-harness-vscode",
    "verdict": "ok",
@@ -101963,6 +102047,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "一个 Agent，一整份记忆——不拆散，不分割，如人的记忆一般完整连续"
+  },
+  {
+   "repo": "fatihtoprakk/scaefy-video-production",
+   "name": "fatihtoprakk-scaefy-video-production",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Code-generated video production skill pack — engine-neutral, free and offline at its core, gated by measuremen"
   },
   {
    "repo": "flg1217/dsh-subagent-codebuddy",
