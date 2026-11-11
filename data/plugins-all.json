@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T05:30:59Z",
+ "generated_at": "2026-11-11T05:46:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6476,6 +6476,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin that ships a skill on when to delegate to subagents, how many to fan out in parallel, and how to ve"
+  },
+  {
+   "repo": "gezi-wen/sage-reminder",
+   "name": "gezi-wen-sage-reminder",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "时间提醒（reminder）— DSH 会话头部的时间模块：现在时间 / 提醒 / 倒计时"
   },
   {
    "repo": "gjnzsu/dsh-companion",
@@ -13233,6 +13240,13 @@
    "desc": "Jev decision toolkit for DeepSeek Harness: 22 named typed judgments (privacy scan, change-scope, memory triage"
   },
   {
+   "repo": "jarvisai615-debug/dsh-plugin-reply-short",
+   "name": "jarvisai615-debug-dsh-plugin-reply-short",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "reply-short: a skill published from Jarvis"
+  },
+  {
    "repo": "jimmyzhang219/dsh-plan-and-execute",
    "name": "jimmyzhang219-dsh-plan-and-execute",
    "verdict": "incompatible",
@@ -13357,6 +13371,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 会话标题插件：在会话菜单中根据对话内容重新总结标题，零运行时依赖"
+  },
+  {
+   "repo": "leolee9086/dsh-viz",
+   "name": "leolee9086-dsh-viz",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 可视化卡面插件：把数据画成会话里的一张图（时间线、关系网、日历、ECharts、图册）"
   },
   {
    "repo": "leonardoxr/dsh-claude-usage",
@@ -14757,6 +14778,13 @@
    "verdict": "pending",
    "stars": 56,
    "desc": "The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, with an in-app plugin st"
+  },
+  {
+   "repo": "ffyfox/dsh-desktop-linux",
+   "name": "ffyfox-dsh-desktop-linux",
+   "verdict": "pending",
+   "stars": 53,
+   "desc": "将官方 DeepSeek Harness 桌面端打包移植到 Linux：AppImage、deb、rpm 和 Arch PKGBUILD，并通过一套补丁系列从上游源码构建"
   },
   {
    "repo": "HeiGeAi/deepseek-harness-skin",
@@ -24734,6 +24762,13 @@
    "desc": "Pacote de idioma Português (Brasil) para a GUI Web do DeepSeek Harness"
   },
   {
+   "repo": "gtbwpkwjnb-alt/dsh-audit-skills",
+   "name": "gtbwpkwjnb-alt-dsh-audit-skills",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让英语不好的用户也能看懂 DSH 插件：把插件的英文标题与说明精炼成中文（保留原包名），写入 locale 使内置插件页原生显示中文；同时一页审查已装插件与技能的版本、更新与冲突"
+  },
+  {
    "repo": "guhanfei-ai/dsh-mindmap",
    "name": "guhanfei-ai-dsh-mindmap",
    "verdict": "ok",
@@ -24921,6 +24956,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "huguangyu666/dsh-plugin-android-emulator",
+   "name": "huguangyu666-dsh-plugin-android-emulator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: port of the ZCode official android-emulator plugin — 23 Android build / emulator / AD"
   },
   {
    "repo": "Huianyuan/dsh-usage-widget",
@@ -42838,6 +42880,13 @@
   {
    "repo": "FantasyStarry/dsh-token-stats",
    "name": "fantasystarry-dsh-token-stats",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "feng-yifan/dsh-plugins",
+   "name": "feng-yifan-dsh-plugins",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -101459,6 +101508,13 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "Claude Pro/Max OAuth model provider for DeepSeek Harness with Google/Gmail login in Settings, auto-token refre"
+  },
+  {
+   "repo": "kangtsang/dsh-worktree-space",
+   "name": "kangtsang-dsh-worktree-space",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "Worktree Space：将一个可包含多个 Git 仓库的工作区任务放进独立的任务空间目录——参与的每个仓库使用同一个任务分支各开一个 worktree；空间自动注册为 DSH 工作区，会话直接在其中开工，多个任务并"
   },
   {
    "repo": "lee259/dsh-workbench",

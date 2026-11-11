@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3072）
+# 🔌 Web UI 增强（3076）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -54,6 +54,7 @@
 - 🟩 `[可用]` [niuhuoshan-launch-wechat-miniprogram](https://github.com/niuhuoshan/launch-wechat-miniprogram) ★69 — 面向完全新手的微信小程序 Agent Skill，从需求确认、原生 UI 和高保真原型，到 AppID、备案、开发测试、腾讯云后台、体验版、提审、发布及版本更新
 - 🟩 `[可用]` [plolpl789-dsh-raw-html-v2](https://github.com/plolpl789/dsh-raw-html-v2) ★56 — VCP visual-synesthesia plugin v2 for DeepSeek Harness (official Slot API): raw-HTML vcp-root cards, streaming
 - ⬜ `[待定]` [whyihaveyou-dsh-suite](https://github.com/whyihaveyou/dsh-suite) ★56 — The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, with an in-app plugin st
+- ⬜ `[待定]` [ffyfox-dsh-desktop-linux](https://github.com/ffyfox/dsh-desktop-linux) ★53 — 将官方 DeepSeek Harness 桌面端打包移植到 Linux：AppImage、deb、rpm 和 Arch PKGBUILD，并通过一套补丁系列从上游源码构建
 - ⬜ `[待定]` [heigeai-deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) ★53 — —
 - 🟩 `[可用]` [dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) ★53 — 为 better-sidebar 提供 Office 三件套预览（.docx/.xlsx/.pptx），独立 bundle 瘦身主体 \| Provides Office-suite preview (.docx/.xls
 - ⬜ `[待定]` [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) ★53 — Open DeepSeek Harness workspace directories in VS Code directly from the web GUI.
@@ -1551,6 +1552,7 @@
 - `[未定位]` **goldenshit233-offpeak-panel** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [gongyijie85-dsh-design-audit](https://github.com/gongyijie85/dsh-design-audit) ★0 — DeepSeek Harness 的 UI/UX 审查与优化闭环：无头 Chrome 取证 → 确定性判据（WCAG 2.2 / 平台指南）→ 可粘贴修复 → 复测差值验证
 - 🟩 `[可用]` [grstein-dsh-locale-ptbr](https://github.com/grstein/dsh-locale-ptbr) ★0 — Pacote de idioma Português (Brasil) para a GUI Web do DeepSeek Harness
+- 🟩 `[可用]` [gtbwpkwjnb-alt-dsh-audit-skills](https://github.com/gtbwpkwjnb-alt/dsh-audit-skills) ★0 — 让英语不好的用户也能看懂 DSH 插件：把插件的英文标题与说明精炼成中文（保留原包名），写入 locale 使内置插件页原生显示中文；同时一页审查已装插件与技能的版本、更新与冲突
 - 🟩 `[可用]` [guhanfei-ai-dsh-mindmap](https://github.com/guhanfei-ai/dsh-mindmap) ★0 — Markdown-native AI mind maps and visual thinking for DeepSeek Harness.
 - `[未定位]` **guidomaxier-dsh-locale-es** — 占位待复核，判定暂不展示
 - `[空仓监测]` **guix4ever-dsh-point** — GitHub 无此仓库，判定暂不展示
@@ -1581,11 +1583,13 @@
 - 🟩 `[可用]` [huangruiteng-loopx](https://github.com/AlexRiver09/huangruiteng-loopx) ★0 — —
 - 🟩 `[可用]` [huanlinoto-dsh-plugin-input-history](https://github.com/HuanLinOTO/dsh-plugin-input-history) ★0 — —
 - 🟩 `[可用]` [huanlinoto-dsh-plugin-sidebar-brand-text](https://github.com/HuanLinOTO/dsh-plugin-sidebar-brand-text) ★0 — —
+- 🟩 `[可用]` [huguangyu666-dsh-plugin-android-emulator](https://github.com/huguangyu666/dsh-plugin-android-emulator) ★0 — DeepSeek Harness plugin: port of the ZCode official android-emulator plugin — 23 Android build / emulator / AD
 - 🟩 `[可用]` [huianyuan-dsh-usage-widget](https://github.com/Huianyuan/dsh-usage-widget) ★0 — —
 - `[未定位]` **hwayn-pixel-dsh-image-skin** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [dsh-desktop-window](https://github.com/hxwi1/dsh-desktop-window) ★0 — Desktop window for the DeepSeek Harness WebUI (Cordis plugin)
 - 🟩 `[可用]` [hy-sde-dsh-tool-subagent-report](https://github.com/hy-sde/dsh-tool-subagent-report) ★0 — The child-scoped report tool for continuable in-process subagents on DeepSeek Harness: installs `report` plus
 - 🟩 `[可用]` [hzhgino-dsh-caonima](https://github.com/hzhgino/dsh-caonima) ★0 — 核动力草泥马 - DSH Web GUI desktop pet plugin for DeepSeek Harness
+- `[未定位]` **iambatman1928-dsh-lawagent-ui** — 占位待复核，判定暂不展示
 - `[未定位]` **iambatman1928-dsh-lawkb-ui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [iasiv5-skins](https://github.com/iasiv5/skins) ★0 — DSH 插件：DeepSeek Harness 界面主题与皮肤管理组件，可自由切换多款界面视觉风格
 - 🟩 `[可用]` [ice-ai-lab-dsh-plugin-codex-ui](https://github.com/ice-ai-lab/dsh-plugin-codex-ui) ★0 — Codex-style sidebar skin for the DeepSeek Harness Web GUI: a Projects + Recents browser, a New chat row that s
