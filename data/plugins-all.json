@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T02:01:05Z",
+ "generated_at": "2026-11-11T02:16:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12519,6 +12519,20 @@
    "desc": "鱼先生模块化OB"
   },
   {
+   "repo": "1317209322/calorie-deficit-tracker",
+   "name": "1317209322-calorie-deficit-tracker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "豆包任务模式技能：本地食物库 + 脚本计算，固化热量与缺口计算流程"
+  },
+  {
+   "repo": "1317209322/qwen-image-skill",
+   "name": "1317209322-qwen-image-skill",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Agent skill for generating and editing images with Alibaba Bailian Qwen-Image-3.0"
+  },
+  {
    "repo": "13680672459-alt/dsh-mobile",
    "name": "13680672459-alt-dsh-mobile",
    "verdict": "incompatible",
@@ -17921,6 +17935,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DSH Web UI 增强插件:思维链默认展开、官方 API 会话价格统计、文件用系统程序打开、跑完提醒 \\| DSH (DeepSeek Harness) Web UI plugin: thinking-chain de"
+  },
+  {
+   "repo": "yicun0316/dsh-claude-slider",
+   "name": "yicun0316-dsh-claude-slider",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH / DeepSeek Harness 推理强度滑块插件：Claude 风格拖拽滑块 + 23 种 Canvas 粒子动效 + 客制动效自由组合 + 配色与图标自定义"
   },
   {
    "repo": "yingjunnan/dsh-deepseek-quota",
@@ -27121,6 +27142,13 @@
    "desc": "远程 VPS 上部署 DSH 并通过 HTTPS 安全开放外网访问 \\| Deploy DSH on a remote VPS and expose it securely over HTTPS"
   },
   {
+   "repo": "virzs/dsh-plugin-data-mask",
+   "name": "virzs-dsh-plugin-data-mask",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Paste-time data masking plugin for DeepSeek Harness: sensitive values are masked before they reach the compose"
+  },
+  {
    "repo": "Vithrive/dsh-livebench-panel",
    "name": "vithrive-dsh-livebench-panel",
    "verdict": "ok",
@@ -27448,6 +27476,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH Web mobile UI adaptation plugin with overlay drawer, safe-area support, and canary version detection"
+  },
+  {
+   "repo": "xchannel1987/dsh-sdd-progress-xc",
+   "name": "xchannel1987-dsh-sdd-progress-xc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH web plugin: right-sidebar tab showing SDD task progress (todos) and ledger (sdd/progress.md) for the curre"
   },
   {
    "repo": "xdongHo/dsh-wechat-mobile-skin",
@@ -33307,6 +33342,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "NAI Artist for DeepSeek Harness: a paint tool with in-conversation image cards, translate-to-tags, and a full"
+  },
+  {
+   "repo": "xianyu9n/dsh-exp-ops",
+   "name": "xianyu9n-dsh-exp-ops",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Remote experiment operations for DeepSeek Harness (dsh): a credential-reference server registry, signal/GPU/ro"
   },
   {
    "repo": "xiaoshengliang2002/dsh-prompt-boost-pro",
@@ -99716,6 +99758,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "A reusable agent skill that turns user ideas into DeepSeek Harness plugins."
+  },
+  {
+   "repo": "zhang-guo-wen/dsh-worktree",
+   "name": "zhang-guo-wen-dsh-worktree",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Git worktree isolation for DeepSeek Harness: create a worktree, register it as its own project, and start the"
   },
   {
    "repo": "zhangliang0115/ai-plugin",
