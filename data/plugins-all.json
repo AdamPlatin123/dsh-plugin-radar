@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T04:00:57Z",
+ "generated_at": "2026-11-11T04:16:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1044,6 +1044,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "toddpan/dsh-webapi",
+   "name": "toddpan-dsh-webapi",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "DSH plugin — drive DeepSeek Harness over HTTP: 47 REST + SSE routes (workspaces, sessions, streaming, stats, t"
   },
   {
    "repo": "xiaoxiaosrm/dsh-mattpocock-skills",
@@ -13954,6 +13961,13 @@
    "desc": "Task Runner 任务拆解模式：主代理拆解任务、子代理（默认本地模型）并行执行再综合结果，并发/模型可按机器配置"
   },
   {
+   "repo": "whding110/dsh-dev-progress-memory",
+   "name": "whding110-dsh-dev-progress-memory",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "wig123/dsh-thread-tools",
    "name": "wig123-dsh-thread-tools",
    "verdict": "incompatible",
@@ -17076,6 +17090,13 @@
    "desc": "Русский язык для DeepSeek Harness web UI — one-command install, 1061 строка, 100% покрытие"
   },
   {
+   "repo": "weibaohui/dsh-gaokao",
+   "name": "weibaohui-dsh-gaokao",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "dsh 插件 · 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按 学科/分类 放 md 即自动加载，支持关联跳转/收藏/重点学科/导入自己的知识库"
+  },
+  {
    "repo": "weibaohui/dsh-smart-title",
    "name": "weibaohui-dsh-smart-title",
    "verdict": "ok",
@@ -17872,6 +17893,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Shopify plugin for DeepSeek Harness: 213 model-facing shopify_* tools over the Shopify Admin REST + GraphQL AP"
+  },
+  {
+   "repo": "sequoiayunus-hue/dsh-subagent-model-config",
+   "name": "sequoiayunus-hue-dsh-subagent-model-config",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Configure per-teammate model & reasoning effort for DeepSeek Harness native agent teams — settings UI, zero of"
   },
   {
    "repo": "shimingming520/dsh-audiogen",
@@ -24335,6 +24363,13 @@
    "desc": "—"
   },
   {
+   "repo": "etony668/dsh-balance",
+   "name": "etony668-dsh-balance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek API 余额常驻显示（侧边栏「设置」旁）· DeepSeek API balance badge beside Settings in the DSH sidebar"
+  },
+  {
    "repo": "evanfang0054/dsh-mermaid-zoom",
    "name": "evanfang0054-dsh-mermaid-zoom",
    "verdict": "ok",
@@ -25791,6 +25826,13 @@
    "desc": "DSH voice input plugin: local offline Vosk speech-to-text with real-time streaming"
   },
   {
+   "repo": "lyaoliu/dsh-approval-core",
+   "name": "lyaoliu-dsh-approval-core",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 自动审批决策管道：例行沙箱越界自动放行，危险/拿不准/失败一律转人工（fail-safe）；学习受约束可一键清空；含分级配置 UI 与块级撤销审查视图"
+  },
+  {
    "repo": "lyke-61/dsh-custom-instructions",
    "name": "lyke-61-dsh-custom-instructions",
    "verdict": "ok",
@@ -25873,6 +25915,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "a minimal emergency maintenance tui used when web ui is broken"
+  },
+  {
+   "repo": "martyartem/dsh-plannotator",
+   "name": "martyartem-dsh-plannotator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Review a file, a folder or a web page in the Plannotator browser UI from DeepSeek Harness, and get the annotat"
   },
   {
    "repo": "MashedPotato817/dsh-tui",
@@ -62954,6 +63003,13 @@
    "desc": "—"
   },
   {
+   "repo": "qikairo7/dsh-gemini-pool",
+   "name": "qikairo7-dsh-gemini-pool",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "多账号 Google Gemini 提供商（DSH 插件）：订阅额度即用即扣，账号池自动调度；主模型没有视觉也能贴图看图（池内 Gemini 自动转述），另有生图工具与中英双语设置页"
+  },
+  {
    "repo": "qjf44/dsh-plugin-thinking-api",
    "name": "qjf44-dsh-plugin-thinking-api",
    "verdict": "incompatible",
@@ -64485,6 +64541,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "refkitjs/dsh-plugin",
+   "name": "refkitjs-dsh-plugin",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) plugin for refkit: license-normalized creative reference search across 23 sources, a st"
   },
   {
    "repo": "Retr67/dsh-model-fix",
@@ -66508,6 +66571,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Smarter exponential retry rules for DeepSeek Harness"
+  },
+  {
+   "repo": "leolee9086/dsh-tool-websearch",
+   "name": "leolee9086-dsh-tool-websearch",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH metasearch plugin: 200+ engines, no API key"
   },
   {
    "repo": "leonardoxr/dsh-coding-tools",
@@ -83401,6 +83471,13 @@
    "desc": "DeepSeek Harness 用量统计插件：本地 SQLite 账本，按天 / 服务商 / 模型统计 token 用量"
   },
   {
+   "repo": "leolee9086/dsh-tool-everything",
+   "name": "leolee9086-dsh-tool-everything",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: instant file search via the Everything HTTP API"
+  },
+  {
    "repo": "leonardoxr/dsh-companion",
    "name": "leonardoxr-dsh-companion",
    "verdict": "ok",
@@ -93817,6 +93894,13 @@
    "desc": "—"
   },
   {
+   "repo": "mattcarvercom/dsh-unified-memory",
+   "name": "mattcarvercom-dsh-unified-memory",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Long-term memory for DeepSeek Harness in Claude Code's format: private, overlay, or shared with Claude Code, w"
+  },
+  {
    "repo": "memories-coder/DSH-plugin-android-apk",
    "name": "memories-coder-dsh-plugin-android-apk",
    "verdict": "ok",
@@ -93910,6 +93994,13 @@
   {
    "repo": "NeoXider/neoxider-agent-deck",
    "name": "neoxider-neoxider-agent-deck",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "ninglovegithub/dsh-workspace-combiner",
+   "name": "ninglovegithub-dsh-workspace-combiner",
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
@@ -94340,13 +94431,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
-  },
-  {
-   "repo": "qikairo7/dsh-gemini-pool",
-   "name": "dsh-gemini-pool",
-   "verdict": "untested",
-   "stars": 2,
-   "desc": "多账号 Google Gemini 提供商：按剩余额度挑选账号，遇 429 指数退避切换，后台探活已禁用账号；声明 dsh.bundle.patch（仓库根 cordis.patch.yml），`dsh plugin add github:qikairo7/dsh-gemini-pool` 可装，MIT"
   },
   {
    "repo": "040822/dsh-codex-approval",
