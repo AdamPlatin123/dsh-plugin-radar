@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T10:00:55Z",
+ "generated_at": "2026-11-11T10:15:58Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -25880,6 +25880,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "kongbai-chao/dsh-plugin-whale-skin",
+   "name": "kongbai-chao-dsh-plugin-whale-skin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Deep-sea whale-girl theme for the DeepSeek Harness desktop client: deep-blue palette (light/dark) plus two cor"
   },
   {
    "repo": "kongbai-shike/dsh-drop-path",
@@ -64690,6 +64697,13 @@
    "desc": "—"
   },
   {
+   "repo": "gmleong/dsh-img",
+   "name": "gmleong-dsh-img",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Give text-only models eyes: analyze_image tool for DeepSeek Harness, backed by free Chinese vision APIs (GLM-4"
+  },
+  {
    "repo": "guoPhineas/dsh-weather-sky",
    "name": "guophineas-dsh-weather-sky",
    "verdict": "incompatible",
@@ -67110,6 +67124,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "heureux831/deepseek-harness-design",
+   "name": "heureux831-deepseek-harness-design",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Community DeepSeek Harness plugin for live HTML prototypes, element selection, and revision comparison"
   },
   {
    "repo": "hezi2020/dsh-plugin-wiki",
@@ -83310,6 +83331,13 @@
    "desc": "—"
   },
   {
+   "repo": "mike-sl-ig/dsh-agent-bridge",
+   "name": "mike-sl-ig-dsh-agent-bridge",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Data-driven agent bridge plugin for DeepSeek Harness: JSON recipes, cross-platform launcher, recipe wizard, se"
+  },
+  {
    "repo": "Pasumao/dsh-plugin-dev-kb",
    "name": "pasumao-dsh-plugin-dev-kb",
    "verdict": "ok",
@@ -97098,6 +97126,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH Review Mode plugin: multi-dimension code health scoring + radar chart + review history (DSH 审查模式插件)"
+  },
+  {
+   "repo": "moazzamak/dsh-code-review",
+   "name": "moazzamak-dsh-code-review",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Code-review pack for DeepSeek Harness (dsh): the /review shortcut over the pinned Changes page, plus the dsh-c"
   },
   {
    "repo": "moduqishi/dsh-opencode-usage",
