@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T15:31:20Z",
+ "generated_at": "2026-11-11T16:16:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -102789,6 +102789,13 @@
    "verdict": "incompatible",
    "stars": 20,
    "desc": "Terminal-native frontend for DeepSeek Harness with real scrollback; a direct, in-process consumer of Harness c"
+  },
+  {
+   "repo": "xintaofei/deepseek-acp",
+   "name": "xintaofei-deepseek-acp",
+   "verdict": "incompatible",
+   "stars": 20,
+   "desc": "把 DeepSeek Harness 接成一个面向编辑器的完整编码 Agent， 通过 Agent Client Protocol（ACP）与客户端通话"
   },
   {
    "repo": "xlight/deepseek-visionary",
