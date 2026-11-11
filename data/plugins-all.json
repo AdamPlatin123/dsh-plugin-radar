@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T13:16:51Z",
+ "generated_at": "2026-11-11T13:31:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -33351,6 +33351,13 @@
    "desc": "—"
   },
   {
+   "repo": "dgmico/dsh-workspace-recency-order",
+   "name": "dgmico-dsh-workspace-recency-order",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：按工作区内最新会话活动时间自动重排左侧工作区顺序（Host 侧，写入官方持久工作区顺序，不覆盖官方 UI）"
+  },
+  {
    "repo": "difimim/dsh-voice-input",
    "name": "difimim-dsh-voice-input",
    "verdict": "incompatible",
@@ -48336,6 +48343,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "cfyofjackie/dsh-selection-quote",
+   "name": "cfyofjackie-dsh-selection-quote",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH client plugin: select text in a conversation and attach it to the composer as an atomic quote reference."
   },
   {
    "repo": "changguo1998/dsh-toolset",
@@ -78242,6 +78256,13 @@
    "desc": "像素风蓝发鲸鱼女仆桌面宠物 · DSH Agent 桌面入口 · Electron + TypeScript"
   },
   {
+   "repo": "doitian/dsh-music",
+   "name": "doitian-dsh-music",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "NetEase Cloud Music (music.163.com) player and AI DJ bundle for DeepSeek Harness"
+  },
+  {
    "repo": "Entaum/dsh-free-games",
    "name": "entaum-dsh-free-games",
    "verdict": "ok",
@@ -92578,6 +92599,13 @@
    "desc": "While vibe coding, save an answer you may need later, use Side Chat for a question that suddenly comes up, or"
   },
   {
+   "repo": "copylee711/dsh-office",
+   "name": "copylee711-dsh-office",
+   "verdict": "ok",
+   "stars": 24,
+   "desc": "DeepSeek Harness 插件：AI 直接在你打开的 Word / Excel / PowerPoint 里改文档，改动实时可见，可以一起编辑（Windows）"
+  },
+  {
    "repo": "morluto/leantoken",
    "name": "morluto-leantoken",
    "verdict": "pending",
@@ -96232,6 +96260,13 @@
    "desc": "Zero-dependency CLI that scaffolds a content-automation DSH plugin (Dev.to/GitHub/Bluesky/Mastodon)"
   },
   {
+   "repo": "buguoshixc/dsh-thinking-effort",
+   "name": "buguoshixc-dsh-thinking-effort",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Adjustable thinking intensity (reasoning effort) for third-party API-key providers in DeepSeek Harness (dsh)"
+  },
+  {
    "repo": "caisiyang123/dsh-tick-rail",
    "name": "caisiyang123-dsh-tick-rail",
    "verdict": "ok",
@@ -98631,6 +98666,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin and OpenCode MCP server: local PP-OCRv6 Medium OCR (PaddleOCR on ONNX Runtime, CPU) fo"
+  },
+  {
+   "repo": "bauerelizabeth07139/plan-guardian-skill",
+   "name": "bauerelizabeth07139-plan-guardian-skill",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: the plan-guardian skill — a mandatory 7-step plan with binary acceptance criteria, ex"
+  },
+  {
+   "repo": "bauerelizabeth07139/simple-plan",
+   "name": "bauerelizabeth07139-simple-plan",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: the simple-plan skill — plan 2-7 steps, execute with worker subagents, verify every d"
   },
   {
    "repo": "bigstyle777/dshp",
