@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T14:16:01Z",
+ "generated_at": "2026-11-11T14:31:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6539,6 +6539,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "为 DeepSeek Harness (DSH) 定制的 User-Agent 与请求头插件：按模型匹配改写 UA / 合并自定义请求头，遵循 dsh-ecosystem-spec 生态规范"
+  },
+  {
+   "repo": "fred-chen/dsh-subagent-model-director",
+   "name": "fred-chen-dsh-subagent-model-director",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: smart subagent model assignment - model profiles (intelligence/speed/tags), tag-first"
   },
   {
    "repo": "frederico-kluser/dsh-plugin-dev-agent-skill",
@@ -21022,6 +21029,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Find DSH plugins by asking in plain language, then security-scan them before install"
+  },
+  {
+   "repo": "du460138504/dsh-dual-balance",
+   "name": "du460138504-dsh-dual-balance",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "在 DSH 侧栏底部同时显示 DeepSeek 官方余额与 WorkBuddy 积分余额 — show DeepSeek balance and WorkBuddy credits in the DeepSeek Har"
   },
   {
    "repo": "dushaobindoudou/dsh-plugin",
@@ -73741,6 +73755,13 @@
    "desc": "An Electron-based desktop wrapper for deepseek-harness."
   },
   {
+   "repo": "flycucu/dsh-icon-changer",
+   "name": "flycucu-dsh-icon-changer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "用于切换deepseek harness桌面端图标的插件"
+  },
+  {
    "repo": "flymysql/dsh-browser-client",
    "name": "flymysql-dsh-browser-client",
    "verdict": "ok",
@@ -97049,6 +97070,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "haoxuanjng-lang/kaggle-solutions-skills",
+   "name": "haoxuanjng-lang-kaggle-solutions-skills",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Maintained Kaggle solution research skill: evidence, transfer experiments, archive retrieval and decision card"
   },
   {
    "repo": "hawkongz/dsh-chat-locator",
