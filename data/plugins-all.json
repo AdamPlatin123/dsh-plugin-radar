@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T04:16:01Z",
+ "generated_at": "2026-11-11T04:30:59Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -9537,6 +9537,13 @@
    "desc": "DSH host plugin for maestro-flow: guard, context, KG sync, delegate/team/coordinator runtime"
   },
   {
+   "repo": "zhaoguoqiang-hub/dsh-soul-engine",
+   "name": "zhaoguoqiang-hub-dsh-soul-engine",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "可审计的明文 Markdown 记忆账本插件（DSH / DeepSeek Harness）：14 个 soul_* 工具 + 轮首账本注入 + 零 token 自维护 + 心跳唤醒"
+  },
+  {
    "repo": "zhaoyilun/dsh-preset-flash-director",
    "name": "zhaoyilun-dsh-preset-flash-director",
    "verdict": "ok",
@@ -10200,6 +10207,13 @@
    "verdict": "incompatible",
    "stars": 13,
    "desc": "DeepSeek Harness record macOS desktop workflows by demonstration and turn them into agent skills (open-record-"
+  },
+  {
+   "repo": "xiaozhuyuqing/dsh-repeat-guard",
+   "name": "xiaozhuyuqing-dsh-repeat-guard",
+   "verdict": "incompatible",
+   "stars": 13,
+   "desc": "Tell your deepseek-v4.1-flash: \"shut up! Stop looping!\""
   },
   {
    "repo": "chunsi-w/dsh-trajectory-governor",
@@ -18740,6 +18754,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness plugin: a sidebar tab that takes over the whole page with another DSH instance's Web GUI, plu"
+  },
+  {
+   "repo": "huzhengbang2007/dsh-orca-glass",
+   "name": "huzhengbang2007-dsh-orca-glass",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Liquid-glass SVG refraction layer for DeepSeek Harness Web + orca-scene skin"
   },
   {
    "repo": "hytime/dsh-client-ui-shortcuts",
@@ -47428,6 +47449,13 @@
    "desc": "—"
   },
   {
+   "repo": "chenpengfei/dsh-daily-brief",
+   "name": "chenpengfei-dsh-daily-brief",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "每日简报的 DeepSeek Harness 插件"
+  },
+  {
    "repo": "chenshutian9610/deepseek-harness-plugin-list",
    "name": "chenshutian9610-deepseek-harness-plugin-list",
    "verdict": "ok",
@@ -71592,6 +71620,13 @@
    "desc": "deepseek harness desktop"
   },
   {
+   "repo": "windwhiterain/dsh-model-proxy",
+   "name": "windwhiterain-dsh-model-proxy",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Per-model outbound proxy routing for DeepSeek Harness: send only the models you name through a proxy, with a d"
+  },
+  {
    "repo": "wo115889-stack/DeepSeekHarness-Desktop",
    "name": "wo115889-stack-deepseekharness-desktop",
    "verdict": "pending",
@@ -75986,6 +76021,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 桌面插件：在桌面角落常驻一个置顶小窗，实时显示 DeepSeek API 余额与本次开机消耗的 token"
+  },
+  {
+   "repo": "x102201/dsh-helper-plugin-workspace-browser",
+   "name": "x102201-dsh-helper-plugin-workspace-browser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：为当前工作区单独启动一个 Chrome，在右侧栏看画面，并用 workspace_browser_* 让模型阅读和操作页面"
   },
   {
    "repo": "xiaosenho/dsh-plugin-remote-access",
