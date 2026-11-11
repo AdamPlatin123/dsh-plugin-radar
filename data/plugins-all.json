@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T18:31:09Z",
+ "generated_at": "2026-11-11T19:16:17Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -78156,6 +78156,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Animated deepseek girl desktop pet plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "geoqiao/paseo-stuff",
+   "name": "geoqiao-paseo-stuff",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Independent community plugins for Paseo: readable activity, DeepSeek Harness, math and pets"
   },
   {
    "repo": "julescules/dsh-galgame-localization-reverse",
