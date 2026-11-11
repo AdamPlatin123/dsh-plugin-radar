@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3022）
+# 🔌 Web UI 增强（3028）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1106,6 +1106,7 @@
 - 🟩 `[可用]` [ostar999-ostar-dsh-left-sidebar](https://github.com/ostar999/ostar-dsh-left-sidebar) ★1 — DeepSeek Harness left sidebar \| DeepSeek Harness 左侧边栏增强版
 - 🟩 `[可用]` [dsh-plugin-minimax-usage](https://github.com/owen-si-zhou/dsh-plugin-minimax-usage) ★1 — DeepSeek Harness plugin: MiniMax Coding Plan quota monitor with progress bars in sidebar
 - 🟩 `[可用]` [overact-dsh-peak-indicator](https://github.com/overact/dsh-peak-indicator) ★1 — Moved to overact/dsh-statusline-plus — DeepSeek peak/off-peak indicator for DSH Web GUI (no longer maintained)
+- 🟩 `[可用]` [paul-xing-dsh-paperclip-upload](https://github.com/paul-xing/dsh-paperclip-upload) ★1 — Paperclip upload button for the DeepSeek Harness Web UI: upload a desktop file into the session workspace uplo
 - 🟩 `[可用]` [pbadgpmeb22791-sketch-dsh-we-wallpaper](https://github.com/pbadgpmeb22791-sketch/dsh-we-wallpaper) ★1 — Use your Wallpaper Engine library as the DeepSeek Harness (DSH) GUI background: video, web and scene wallpaper
 - 🟩 `[可用]` [peach0x33a-dsh-deep-sleep](https://github.com/peach0x33a/dsh-deep-sleep) ★1 — DSH plugin: swap the official web UI's in-progress status label "Deep diving..." for "Deep sleep...".
 - 🟩 `[可用]` [peng-huiyang-cronjob-dsh-plugin](https://github.com/peng-huiyang/cronjob-dsh-plugin) ★1 — 尝试开发适配deepseek harness的定时任务插件，支持在前端页面直接设置定时任务，实现内部驱动的定时请求，满足一定程度上的脱手需求
@@ -1401,6 +1402,7 @@
 - 🟩 `[可用]` [biubiu23333333-dsh-memorix-panel](https://github.com/biubiu23333333/dsh-memorix-panel) ★0 — Memorix memory panel for the DSH Web GUI: browse every project and memory, read full details, archive/restore
 - 🟩 `[可用]` [biyuhao-dsh-model-proxy](https://github.com/biyuhao/dsh-model-proxy) ★0 — DSH plugin: per-model proxy routing (http/https/socks5) with a settings UI — e.g
 - 🟩 `[可用]` [black970-dsh-quota-viewer](https://github.com/black970/dsh-quota-viewer) ★0 — DSH 侧边栏额度面板：DeepSeek 官方余额、jojo code、SCNet、方舟 Coding Plan 用量窗口，含 90 天本地历史与趋势图
+- `[未定位]` **blooming-fang-dsh-ui-interaction** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [bpc-oss-dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) ★0 — Fork any DeepSeek Harness session into a different agent preset — a UI button with preset picker in the conver
 - 🟩 `[可用]` [bpz0726-dsh-bestui](https://github.com/BPZ0726/dsh-bestui) ★0 — —
 - 🟩 `[可用]` [breaker505-dsh-aurora-skin](https://github.com/breaker505/dsh-aurora-skin) ★0 — Three hand-tuned skins for DeepSeek Harness (DSH): Aurora (deep navy + electric cyan + warm coral), Paper (coo
@@ -1430,6 +1432,7 @@
 - 🟩 `[可用]` [couioly-plugin-audio-alert](https://github.com/Couioly/plugin-audio-alert) ★0 — —
 - 🟩 `[可用]` [cstarc-dsh-skill-mcp-bridge](https://github.com/cstarc/dsh-skill-mcp-bridge) ★0 — dsh 项目桥接插件：自动导入 .claude/.agents/.trae skills 并桥接 MCP 服务器（HTTP/SSE + stdio），GUI 开关控制、状态持久化
 - 🟩 `[可用]` [cw1999mm-dsh-annotator](https://github.com/cw1999mm/dsh-annotator) ★0 — —
+- 🟩 `[可用]` [cx2002302-lang-dsh-chat-collapse](https://github.com/cx2002302-lang/dsh-chat-collapse) ★0 — DSH Web GUI plugin — one-click collapse for the chat composer, with a floating restore ball
 - `[未定位]` **cynicismboyjyd-dsh-protect-eyes-skin** — 占位待复核，判定暂不展示
 - `[空仓监测]` **czhzz-dsh-input-history** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [czhzz-dsh-net-access](https://github.com/czhzz/dsh-net-access) ★0 — Control how the DeepSeek Harness Web GUI is reachable: local only, Tailscale, all local networks, or off.
@@ -2748,6 +2751,7 @@
 - 🟨 `[不兼容]` [bg8lng-dsh-openlist-sync](https://github.com/bg8lng/dsh-openlist-sync) ★0 — DeepSeek Harness 文件同步插件：交付文件自动上传 OpenList + 目录全读写工具 + 设置面板 + 按工作区布局
 - 🟨 `[不兼容]` [blueriverlhr-dsh-better-webui](https://github.com/bLueriVerLHR/dsh-better-webui) ★0 — —
 - 🟨 `[不兼容]` [bobobo2026-dsh-workspace-promote](https://github.com/bobobo2026/dsh-workspace-promote) ★0 — DSH host plugin: promote the workspace you just submitted a task in to the top of the sidebar — once per submi
+- 🟨 `[不兼容]` [boyl-dsh-sidebar-pins](https://github.com/boyl/dsh-sidebar-pins) ★0 — Codex-style pinned/recent sidebar panes for DeepSeek Harness, with one full row menu on every row (pins, unrea
 - 🟨 `[不兼容]` [caijiachen34-dsh-sophnet-balance](https://github.com/caijiachen34/dsh-sophnet-balance) ★0 — SophNet balance and usage monitor for DeepSeek Harness Web GUI
 - `[空仓监测]` **ch4acko3-dsh-ui-workspace** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
@@ -2789,6 +2793,7 @@
 - `[未定位]` **fusu123fusu-dsh-tui-model-switch** — 占位待复核，判定暂不展示
 - `[未定位]` **fusu123fusu-dsh-tui-webhook** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ghbhiee-dsh-plugin-tui](https://github.com/ghbhiee/dsh-plugin-tui) ★0 — Claude Code-style terminal UI plugin for DeepSeek Harness (dsh): streaming REPL, collapsed thinking, interacti
+- `[未定位]` **gnatnaituy-dsh-sidebar-browser** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [guhanfei-ai-dsh-searchops](https://github.com/guhanfei-ai/dsh-searchops) ★0 — Deterministic search, log and evidence acquisition for AI agents
 - 🟨 `[不兼容]` [gydmsg-dsh-plugin](https://github.com/gydmsg/dsh-plugin) ★0 — Out-of-tree plugin collection for DeepSeek Harness (DSH) Web UI — Space workspace file explorer (browse / Mark
 - `[未定位]` **gzxingr-pi-desktop-genui** — 占位待复核，判定暂不展示
@@ -2855,6 +2860,7 @@
 - 🟨 `[不兼容]` [lzyuan549-dsh-plugin-auth](https://github.com/lzyuan549/dsh-plugin-auth) ★0 — Username/password authentication gate for the DeepSeek Harness Web UI
 - `[未定位]` **mantou-kaya-dsh-voice-input** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [marcemira-dsh-theme-nier-automata](https://github.com/marcemira/dsh-theme-nier-automata) ★0 — NieR:Automata-inspired YoRHa theme for DeepSeek Harness web
+- 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-folder](https://github.com/mastereal/dsh-sidebar-enhancement-folder) ★0 — Reveal the containing folder of any file open in a dsh-better-sidebar editor tab (one button per tab)
 - 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-search](https://github.com/mastereal/dsh-sidebar-enhancement-search) ★0 — Codex-style file search inside the built-in dsh-better-sidebar Explorer tab + per-file-type icons/badges
 - `[未定位]` **meowrium-dsh-sidebar-image-zoom** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [mikegabyte-dsh-vn-biz](https://github.com/mikegabyte/dsh-vn-biz) ★0 — Vietnam business toolkit for DeepSeek Harness (dsh): VietQR quick-link, tax-code (MST) lookup, amount-to-Vietn
