@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T09:31:04Z",
+ "generated_at": "2026-11-11T09:46:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3419,6 +3419,13 @@
    "desc": "—"
   },
   {
+   "repo": "yorelog/dsh-omarchy-agent",
+   "name": "yorelog-dsh-omarchy-agent",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Help DeepSeek Harness to use your Omarchy desktop."
+  },
+  {
    "repo": "YTyangtao666/dsh-skills-bridge",
    "name": "ytyangtao666-dsh-skills-bridge",
    "verdict": "ok",
@@ -5419,6 +5426,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "windwhiterain/dsh-history-access",
+   "name": "windwhiterain-dsh-history-access",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Agent-facing recall of a session's own pre-compaction history for DeepSeek Harness: an outline, a paginated tr"
   },
   {
    "repo": "Wisdoverse/dsh-skills-manager-plugin",
@@ -12657,6 +12671,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "windwhiterain/dsh-llm-quota-retry",
+   "name": "windwhiterain-dsh-llm-quota-retry",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Answers an exhausted DeepSeek Harness account quota: move the session to another route of its pool when one st"
   },
   {
    "repo": "Witchwarren2344/dsh-mnemosyne-memory",
@@ -29254,6 +29275,13 @@
    "verdict": "incompatible",
    "stars": 93,
    "desc": "一款主打安全且更尊重开发者的开源 DeepSeek Harness 桌面客户端"
+  },
+  {
+   "repo": "guzhou079-arch/deepseek-harness-android",
+   "name": "guzhou079-arch-deepseek-harness-android",
+   "verdict": "incompatible",
+   "stars": 90,
+   "desc": "把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配电脑，读屏/点按/虚拟屏/定时任务和整套技能都随包；它还能在手机上自己编译、打包、签名、发布"
   },
   {
    "repo": "mistnest/dsh-cuigengji-plugin",
@@ -62163,6 +62191,13 @@
    "desc": "—"
   },
   {
+   "repo": "mrzturn/dsh-switchman",
+   "name": "mrzturn-dsh-switchman",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "dsh-switchman who is a plugin for deepseek harness"
+  },
+  {
    "repo": "omdsh-dev/dsh-tool-calculator",
    "name": "dsh-tool-calculator",
    "verdict": "incompatible",
@@ -68736,6 +68771,13 @@
    "desc": "—"
   },
   {
+   "repo": "wedfrgt/dsh-workspace-sync",
+   "name": "wedfrgt-dsh-workspace-sync",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "weekitmo/dsh-trace",
    "name": "weekitmo-dsh-trace",
    "verdict": "incompatible",
@@ -68790,6 +68832,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wind342/dsh-gfg",
+   "name": "wind342-dsh-gfg",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Lightweight generation-fact graphs for tracing actual DeepSeek Harness tool formation"
   },
   {
    "repo": "Windsland52/dsh-auto-retry",
@@ -93901,6 +93950,13 @@
    "desc": "Startup auto-updater for DeepSeek Harness (dsh): checks the npm registry once on boot and optionally installs"
   },
   {
+   "repo": "functy23/dsh-fullscreen-settings",
+   "name": "functy23-dsh-fullscreen-settings",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "把 DSH 的设置弹窗改成 Codex 风格整页全屏设置页 — Codex-style full-page settings for DeepSeek Harness"
+  },
+  {
    "repo": "GrayCodeTeam/graycode-for-dsh",
    "name": "graycodeteam-graycode-for-dsh",
    "verdict": "ok",
@@ -101445,6 +101501,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Structured AMDGPU code-object and ISA inspection for DeepSeek Harness."
+  },
+  {
+   "repo": "yuluo554/dsh-pipeline",
+   "name": "yuluo554-dsh-pipeline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Multi-node agent pipeline orchestration plugin for DeepSeek Harness (dsh) — JSON-defined workflows, per-node m"
   },
   {
    "repo": "YYTbit/dsh-plugin-code-review",
