@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3131）
+# 🔌 Web UI 增强（3132）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2985,6 +2985,7 @@
 - 🟨 `[不兼容]` [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) ★0 — DeepSeek Harness 事件流审计面板插件：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部
 - 🟨 `[不兼容]` [qipenglin-dsh-theme-spectrum](https://github.com/qipenglin/dsh-theme-spectrum) ★0 — Light and dark theme presets for DeepSeek Harness Web
 - 🟨 `[不兼容]` [quicksandznzn-dsh-session-share](https://github.com/quicksandznzn/dsh-session-share) ★0 — Share and import complete DeepSeek Harness Session trees as validated, offline Capsules with local ZIP transfe
+- `[未定位]` **quimos-m-dsh-sidebar-size** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [qvsix-dsh-antigravity-bridge](https://github.com/qvsix/dsh-antigravity-bridge) ★0 — Google Antigravity conversations for DeepSeek Harness — list, read and import local Antigravity SQLite session
 - 🟨 `[不兼容]` [qwertyuiop314-dsh-recycle-bin](https://github.com/qwertyuiop314/dsh-recycle-bin) ★0 — DSH recycle bin plugin: archive trash, batch restore/purge, sidebar batch archive
 - 🟨 `[不兼容]` [raktim-mondol-dsh-tui-en](https://github.com/raktim-mondol/dsh-tui-en) ★0 — English-only fork of dsh-TUI — Claude Code-style terminal UI for DeepSeek Harness
