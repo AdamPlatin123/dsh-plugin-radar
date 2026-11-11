@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2368）
+# 🤖 Agent 能力（2369）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2027,6 +2027,7 @@
 - 🟨 `[不兼容]` [alexchen5-research-epic-manager](https://github.com/alexchen5/research-epic-manager) ★0 — Agent skills for running research projects end-to-end using a plain-file epic→issues→comments tracker.
 - 🟨 `[不兼容]` [allentnetus-dsh-job-hunting](https://github.com/allentnetus/dsh-job-hunting) ★0 — DeepSeek Harness job hunting plugin and runtime skill for local job intelligence workflows.〔📦〕
 - `[未定位]` **anywhere-labs-agents-anywhere** — 占位待复核，判定暂不展示
+- `[未定位]` **argszero-cordis-plugin-turn-budget-guard** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [arkfishinglab-dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) ★0 — —
 - `[未定位]` **artlexyang-dsh-super-agent** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [autonomous-ai-deepseek-harness-cli](https://github.com/autonomous-ai/deepseek-harness-cli) ★0 — —

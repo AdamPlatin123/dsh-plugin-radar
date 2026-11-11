@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3084）
+# 🔌 Web UI 增强（3086）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1436,6 +1436,7 @@
 - 🟩 `[可用]` [chunkithwang-craft-mermaid](https://github.com/chunkithwang/craft-mermaid) ★0 — Portable Craft-style Mermaid generation, rendering, and visual review skill for AI coding agents
 - 🟩 `[可用]` [civaapple-alt-pi-cordis](https://github.com/civaapple-alt/pi-cordis) ★0 — 🥧 Developer-first terminal coding agent rebuilt on Cordis (v4.0.1) microkernel with an "Everything is a plugin
 - ⬜ `[待定]` [clevebitr-dsh-base16-skins](https://github.com/clevebitr/dsh-base16-skins) ★0 — 配色方案，作为 DSH Web GUI 皮肤（ 的 v2 纯资产皮肤目录）
+- `[未定位]` **cnayu-dsh-glass-theme** — 占位待复核，判定暂不展示
 - `[空仓监测]` **cnsmaple-dsh-client-ui-skill-fuzzy** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **collapsey-xiaokui-pet** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **condathinker-dsh-webui-market-plugin-plus** — 占位待复核，判定暂不展示
@@ -2369,6 +2370,7 @@
 - 🟨 `[不兼容]` [alex04130-dsh-forge](https://github.com/alex04130/dsh-forge) ★5 — DeepSeek Harness 扩展套件：运行时注入器、子代理派发与模型路由策略、插件市场/技能/插件管理面板、浏览器桥与 MCP 集成
 - 🟨 `[不兼容]` [alone-tree-dsh-skill-mcp-manager](https://github.com/alone-tree/dsh-skill-mcp-manager) ★5 — 能力库 (Capability) — one-stop visual management of DSH Skills & MCP: on-demand MCP loading, in-session hot reloa
 - 🟨 `[不兼容]` [anneheartrecord-dsh-desk-pet](https://github.com/anneheartrecord/dsh-desk-pet) ★5 — macOS desk pet for DeepSeek Harness: a real always-on-top window that clears fullscreen Spaces, six states dri
+- 🟨 `[不兼容]` [boyingliu01-xp-gate](https://github.com/boyingliu01/xp-gate) ★5 — Deterministic quality gates for AI-generated code: 12 checks, Delphi review, requirement-test alignment
 - 🟨 `[不兼容]` [cheesehaqi-dsh-qq-onebot-bridge](https://github.com/cheesehaqi/dsh-qq-onebot-bridge) ★5 — 尝试为您自己搭建属于自己的QQ小助手吧 / Try building your own QQ assistant for yourself
 - 🟨 `[不兼容]` [geekjourneyx-dsh-md2wechat](https://github.com/geekjourneyx/dsh-md2wechat) ★5 — DSH 一站式公众号创作插件，集成写作润色、标题优化、主题与高级模块排版、智能配图，支持预览、导出及保存到公众号草稿箱
 - 🟨 `[不兼容]` [guoxiucai-dsh-code](https://github.com/guoxiucai/dsh-code) ★5 — pi tui  style code agent base on deepseek harness
