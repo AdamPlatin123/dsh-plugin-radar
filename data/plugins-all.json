@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T10:46:04Z",
+ "generated_at": "2026-11-11T11:01:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -84318,6 +84318,13 @@
    "desc": "Archived: development and releases moved to geoqiao/paseo-stuff/plugins/deepseek-harness"
   },
   {
+   "repo": "gh-gongjin/dsh-plugin-sysops",
+   "name": "gh-gongjin-dsh-plugin-sysops",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) 本机系统运维插件：实时监控 + 两段式 C 盘清理 + 全盘文件搜索"
+  },
+  {
    "repo": "GroupWork888/dsh-plugin-archived-sessions",
    "name": "groupwork888-dsh-plugin-archived-sessions",
    "verdict": "ok",
@@ -89377,6 +89384,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "gh-gongjin/dsh-plugin-modelwatch",
+   "name": "gh-gongjin-dsh-plugin-modelwatch",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) OpenRouter 模型监控插件：新上模型 / 热门周榜 / 变化流水"
   },
   {
    "repo": "GoldenZqqq/dsh-model-collapse",
