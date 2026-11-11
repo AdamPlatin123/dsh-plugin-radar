@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-10T23:31:11Z",
+ "generated_at": "2026-11-11T00:30:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -85450,6 +85450,13 @@
    "verdict": "ok",
    "stars": 7,
    "desc": "折叠对话当中众多的“无用消息”，例如Think、Bash等"
+  },
+  {
+   "repo": "chanyuenpang/dsh-cindy-host",
+   "name": "chanyuenpang-dsh-cindy-host",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "DSH ⇄ Cindy 手机客户端桥接插件（Host 侧）：会话/消息/审批/todo/goal 的手机通道，含实测定案与项目记忆"
   },
   {
    "repo": "HiQ-AI/dingtalk-dsh-assistant",
