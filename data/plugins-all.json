@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T10:15:58Z",
+ "generated_at": "2026-11-11T10:30:57Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2157,6 +2157,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Scaffold a battle-tested DeepSeek Harness plugin (bundle, tool, skill, tests, CI) in one command"
+  },
+  {
+   "repo": "cspyz/dsh-terse-mode",
+   "name": "cspyz-dsh-terse-mode",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Four terse levels plus independent reasoning-effort, web-search and subagent switches, on the conversation hea"
   },
   {
    "repo": "cxdyun/dsh-skills-marketplace",
@@ -20086,6 +20093,13 @@
    "desc": "Deprecated"
   },
   {
+   "repo": "xiaoweiqianluo/dsh-pardofelis-widget",
+   "name": "xiaoweiqianluo-dsh-pardofelis-widget",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "给 DeepSeek Harness 做的《崩坏3》帕朵菲莉丝（Pardofelis）主题挂件"
+  },
+  {
    "repo": "ximisi/dsh-quick-attach",
    "name": "ximisi-dsh-quick-attach",
    "verdict": "ok",
@@ -22401,6 +22415,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "DSH plugin (#dsh-plugin): DeepSeek usage & balance meter for the DSH settings panel — account balance, today's"
+  },
+  {
+   "repo": "piaobo123/dsh-memory-evolve",
+   "name": "piaobo123-dsh-memory-evolve",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 分层记忆与自我进化插件：记忆/技能/待办/通知/COI 调度/会话广播/书签/记忆同步/无限画板/Advisor 评审，带 WebUI 管理界面"
   },
   {
    "repo": "pinzza/dsh-git-statusline",
@@ -34476,6 +34497,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "OpenClaw Enterprise AI Team bridge for DeepSeek Harness"
+  },
+  {
+   "repo": "yryd/dafy-whale-theme",
+   "name": "yryd-dafy-whale-theme",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 蓝色大肥鱼主题插件：海洋蓝配色、游动鱼群、上升气泡、输入框上方的「每日鱼语」，以及左上角品牌区替换；「设置 → 海洋主题」提供 7 组 32 项可调"
   },
   {
    "repo": "yth1120/deepseek-harness",
@@ -77983,6 +78011,13 @@
    "desc": "dsh pet-plugin of nailong"
   },
   {
+   "repo": "chupeter854-lang/dsh-approval-autofocus",
+   "name": "chupeter854-lang-dsh-approval-autofocus",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Make Enter approve a pending DSH approval without clicking — DeepSeek Harness client plugin (审批卡自动聚焦，Enter 批准"
+  },
+  {
    "repo": "ct188579/dsh-a-stock-select",
    "name": "ct188579-dsh-a-stock-select",
    "verdict": "ok",
@@ -102740,6 +102775,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "Multi-provider web search for DeepSeek Harness: SearXNG, Brave, Tavily, Gemini, and Wikipedia with per-convers"
+  },
+  {
+   "repo": "ccll/dsh-advisor-flow",
+   "name": "ccll-dsh-advisor-flow",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "DeepSeek Harness plugin: on-demand executor/advisor workflow ported from pi-advisor-flow — ask_advisor, review"
   },
   {
    "repo": "CHplus0/dsh-shell-command",
