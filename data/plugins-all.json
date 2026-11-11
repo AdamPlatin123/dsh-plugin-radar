@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T17:01:06Z",
+ "generated_at": "2026-11-11T17:46:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3410,6 +3410,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Recall and re-run the current session's command history with ↑/↓ keys in the DSH Web composer."
+  },
+  {
+   "repo": "yamingmou/dsh-log-contract",
+   "name": "yamingmou-dsh-log-contract",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "日志契约守护 — DSH session log contract guard: offline health check (CLI) + pre-write validation for DeepSeek Harnes"
   },
   {
    "repo": "yang208691-source/dsh-nutstore-backup",
@@ -47307,6 +47314,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "deepseek harness的每轮token消费预估以及余额查询小插件"
+  },
+  {
+   "repo": "zyf2492313716-cloud/dsh-auto-image-optimizer",
+   "name": "zyf2492313716-cloud-dsh-auto-image-optimizer",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Auto downscale large Retina/4K screenshots for DeepSeek Harness (DSH) to bypass 2000px limit"
   },
   {
    "repo": "ZZZjf13960/dsh-onfail",
