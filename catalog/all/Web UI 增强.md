@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3166）
+# 🔌 Web UI 增强（3167）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2889,6 +2889,7 @@
 - 🟨 `[不兼容]` [dao-awa-dsh-computer-use-native](https://github.com/dao-awa/dsh-computer-use-native) ★0 — Windows computer use for DeepSeek Harness, built for a vision model: screenshot the real desktop, read the int
 - 🟨 `[不兼容]` [ddowbnac-dsh-claude-auth-proxy](https://github.com/ddowbnac/dsh-claude-auth-proxy) ★0 — LLM provider plugin for the DeepSeek Harness (dsh): streams Claude through your Claude Code subscription (clau
 - 🟨 `[不兼容]` [dee3526-dsh-plugin-voice-input-demo](https://github.com/Dee3526/dsh-plugin-voice-input-demo) ★0 — —
+- 🟨 `[不兼容]` [dgmico-dsh-workspace-recency-order](https://github.com/dgmico/dsh-workspace-recency-order) ★0 — DSH 插件：按工作区内最新会话活动时间自动重排左侧工作区顺序（Host 侧，写入官方持久工作区顺序，不覆盖官方 UI）
 - 🟨 `[不兼容]` [difimim-dsh-voice-input](https://github.com/difimim/dsh-voice-input) ★0 — 语音输入插件 for Deepseek Harness
 - `[空仓监测]` **dingpenghui-good-dsh-plugin-manager** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [doer1296-dsh-plugin-voice](https://github.com/doer1296/dsh-plugin-voice) ★0 — DeepSeek Harness 语音插件：火山 seed-tts 云端 TTS（自动回退 SAPI/Huihui 离线）+ 桌面通知 + 场景化 WAV 提示音 + 提问自动呼叫
