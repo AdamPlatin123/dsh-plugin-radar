@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T12:16:49Z",
+ "generated_at": "2026-11-11T12:31:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -86530,6 +86530,13 @@
    "desc": "DeepSeek Harness plugin: a project task board kept with the project as a queryable SQLite file, with a kanban/"
   },
   {
+   "repo": "ntesicn/dsh-screenshot-xn",
+   "name": "ntesicn-dsh-screenshot-xn",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Full-screen screenshot panel for DSH: marquee select, annotate, insert/copy/save, with offline OCR and transla"
+  },
+  {
    "repo": "qingmumingyang/dsh-doc-toolkit",
    "name": "qingmumingyang-dsh-doc-toolkit",
    "verdict": "incompatible",
@@ -99893,6 +99900,13 @@
    "desc": "DSH-native persistent memory and safe session-aware retrieval plugin"
   },
   {
+   "repo": "leolee9086/dsh-bazaar",
+   "name": "leolee9086-dsh-bazaar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin bazaar with GitHub discovery and official plugin installation"
+  },
+  {
    "repo": "leonardoxr/dsh-workspace-git",
    "name": "leonardoxr-dsh-workspace-git",
    "verdict": "ok",
@@ -103400,6 +103414,13 @@
    "desc": "Bridge your pi extension, codex plugin or claude code plugin to dsh (DeepSeek Harness)"
   },
   {
+   "repo": "overact/dsh-statusline-plus",
+   "name": "overact-dsh-statusline-plus",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Statusline for DeepSeek Harness Web: quotas, Git, context, API reference costs, Subagents and streaming speed"
+  },
+  {
    "repo": "pharaohnie/dsh-context-mode",
    "name": "pharaohnie-dsh-context-mode",
    "verdict": "incompatible",
@@ -105995,6 +106016,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 宿主插件:注册 auto 模型,按有序回退链在多条 provider+model 间静默切换 (DeepSeek Harness)"
+  },
+  {
+   "repo": "liyuqian/dsh-flutter-sandbox",
+   "name": "liyuqian-dsh-flutter-sandbox",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh plugin: let Flutter and Dart run inside DeepSeek Harness's workspace-write sandbox"
   },
   {
    "repo": "lovstudio/dsh-plugin-marketplace",
