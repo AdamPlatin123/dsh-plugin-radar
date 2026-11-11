@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T01:46:04Z",
+ "generated_at": "2026-11-11T02:01:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13707,6 +13707,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sweet-boby/dsh-session-isolation",
+   "name": "sweet-boby-dsh-session-isolation",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin for per-session working directories: keep parallel agent sessions from overwriting each other."
   },
   {
    "repo": "SYMlp/dsh-markdown-memory",
