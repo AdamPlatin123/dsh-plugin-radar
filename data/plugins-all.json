@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T14:45:55Z",
+ "generated_at": "2026-11-11T15:00:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -21953,6 +21953,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "linke-e/dsh-opening-animation",
+   "name": "linke-e-dsh-opening-animation",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness Web 的开场动画插件：每次 dsh web 页面加载时，在全屏遮罩上播放你选择的开场内容——图片动画或视频——结束后以可配置的过渡效果把画面交还主界面"
   },
   {
    "repo": "liqiming-whu/dsh-status-card",
