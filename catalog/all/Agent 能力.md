@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2307）
+# 🤖 Agent 能力（2310）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1305,10 +1305,12 @@
 - 🟩 `[可用]` [uckkk-dsh-gift-budget](https://github.com/uckkk/dsh-gift-budget) ★0 — 送礼预算
 - 🟩 `[可用]` [uckkk-dsh-inst-plan](https://github.com/uckkk/dsh-inst-plan) ★0 — 学琴规划
 - 🟩 `[可用]` [uckkk-dsh-insur-plan](https://github.com/uckkk/dsh-insur-plan) ★0 — 家庭保险配置
+- `[未定位]` **uckkk-dsh-knife-skill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [uckkk-dsh-laundry-room](https://github.com/uckkk/dsh-laundry-room) ★0 — 洗衣房规划
 - 🟩 `[可用]` [uckkk-dsh-meal-plan](https://github.com/uckkk/dsh-meal-plan) ★0 — 减脂餐搭配
 - 🟩 `[可用]` [uckkk-dsh-menu-plan](https://github.com/uckkk/dsh-menu-plan) ★0 — 菜单规划
 - 🟩 `[可用]` [uckkk-dsh-move-plan](https://github.com/uckkk/dsh-move-plan) ★0 — 搬家计划
+- `[未定位]` **uckkk-dsh-order-plan** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [uckkk-dsh-pack-skill](https://github.com/uckkk/dsh-pack-skill) ★0 — 打包技巧
 - 🟩 `[可用]` [uckkk-dsh-pest-plan](https://github.com/uckkk/dsh-pest-plan) ★0 — 病虫害诊断
 - 🟩 `[可用]` [uckkk-dsh-practice-plan](https://github.com/uckkk/dsh-practice-plan) ★0 — 练琴计划
@@ -2220,6 +2222,7 @@
 - 🟨 `[不兼容]` [sujingkpo-dsh-auto-pass](https://github.com/sujingkpo/dsh-auto-pass) ★0 — 本项目只解决「自动审批通过」，不解决无人值守问题
 - `[未定位]` **sunshiner04-dsh-session-manager** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [superpaigu-dsh-session-manager](https://github.com/SuperPaiGu/dsh-session-manager) ★0 — —
+- 🟨 `[不兼容]` [sweet-boby-dsh-session-isolation](https://github.com/sweet-boby/dsh-session-isolation) ★0 — DSH plugin for per-session working directories: keep parallel agent sessions from overwriting each other.
 - 🟨 `[不兼容]` [symlp-dsh-markdown-memory](https://github.com/SYMlp/dsh-markdown-memory) ★0 — —
 - 🟨 `[不兼容]` [tabilet-tabilet-skills](https://github.com/tabilet/tabilet-skills) ★0 — Agentic Engineering Harness for Small to Large Projects
 - 🟨 `[不兼容]` [temoa-dsh-sessions-rm](https://github.com/Temoa/dsh-sessions-rm) ★0 — —

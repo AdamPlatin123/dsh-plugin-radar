@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3015）
+# 🔌 Web UI 增强（3016）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1938,6 +1938,7 @@
 - 🟩 `[可用]` [uachargg-dsh-ui-chime](https://github.com/uAcharGG/dsh-ui-chime) ★0 — —
 - ⬜ `[待定]` [ubik-dsh-deepseek-mods](https://github.com/ubik-dsh/deepseek-mods) ★0 — Mods and skills for DeepSeek Harness: an editable system prompt in the chat header, full Russian localization,
 - 🟩 `[可用]` [uckkk-dsh-biscuit-recipe](https://github.com/uckkk/dsh-biscuit-recipe) ★0 — 饼干配方
+- `[未定位]` **uckkk-dsh-circuit-plan** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [uckkk-dsh-context-dashboard](https://github.com/uckkk/dsh-context-dashboard) ★0 — DSH 会话上下文统计面板：每会话消息/轮次/工具调用/预估 token + 全局与按项目报告
 - 🟩 `[可用]` [uckkk-dsh-cpr-guide](https://github.com/uckkk/dsh-cpr-guide) ★0 — CPR急救
 - 🟩 `[可用]` [uckkk-dsh-cuid](https://github.com/uckkk/dsh-cuid) ★0 — CUID 生成
