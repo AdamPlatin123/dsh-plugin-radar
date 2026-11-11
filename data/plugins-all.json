@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T08:16:12Z",
+ "generated_at": "2026-11-11T08:31:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -17153,6 +17153,13 @@
    "desc": "DSH 插件:在侧边栏使用 GitHub —— 仓库目录树 + Issues/PR/Actions 页签,支持建 Issue/PR、评论、合并、重跑 CI;better-sidebar 页签与独立面板双形态"
   },
   {
+   "repo": "mingdui/dsh-growth-workbench",
+   "name": "mingdui-dsh-growth-workbench",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "面向普通用户的AI个人成长工作台：画像 → 能力模型 → 90 天计划 → 今日执行 → 证据 → 考核复盘"
+  },
+  {
    "repo": "miuzel/dsh-subagent-ui",
    "name": "miuzel-dsh-subagent-ui",
    "verdict": "ok",
@@ -21402,6 +21409,13 @@
    "desc": "DeepSeek Harness 的 Windows x64 桌面安装版，内置运行环境、中文界面、PowerShell 工具和 one2api-gpt"
   },
   {
+   "repo": "jeffreyren1/dsh-custom-js",
+   "name": "jeffreyren1-dsh-custom-js",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Customize DeepSeek Harness without forking it—load, edit, manage, and hot-reload trusted JavaScript and TypeSc"
+  },
+  {
    "repo": "jerryqx/dsh-xiaoyuzhou",
    "name": "jerryqx-dsh-xiaoyuzhou",
    "verdict": "ok",
@@ -22044,6 +22058,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Deliverable evidence-chain & conformance checks for DSH — turn requirements into an executable spec, trace eve"
+  },
+  {
+   "repo": "mimajiushi/dsh-plugins",
+   "name": "mimajiushi-dsh-plugins",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) community plugins: AgentTeams approval switch and limits card, compaction model picker,"
   },
   {
    "repo": "minivv/dsh-activity-bell",
@@ -30831,6 +30852,13 @@
    "desc": "DSH Web Plugin: 工作区底部开辟一个迷你面板，当AI帮你工作时，不要荒废大脑，来一把掼蛋游戏"
   },
   {
+   "repo": "john-walks-slow/dsh-live2d-voice",
+   "name": "john-walks-slow-dsh-live2d-voice",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Live2D companion for DeepSeek Harness (DSH): realtime TTS voice, continuous speech input, subtitle translation"
+  },
+  {
    "repo": "jypjypjypjyp/dsh-guardrail",
    "name": "jypjypjypjyp-dsh-guardrail",
    "verdict": "incompatible",
@@ -38022,6 +38050,13 @@
   {
    "repo": "Jolly-J/dsh-deepseek-billing",
    "name": "jolly-j-dsh-deepseek-billing",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "—"
+  },
+  {
+   "repo": "kaminn/dsh-web-fetch-fakeip",
+   "name": "kaminn-dsh-web-fetch-fakeip",
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
@@ -64970,6 +65005,13 @@
    "desc": "DeepSeek Harness Image2 生图插件（gpt-image-2，OpenAI Images 兼容中转）· 社区维护分支，含网关兼容性修复"
   },
   {
+   "repo": "oiuv/dsh-achievements",
+   "name": "oiuv-dsh-achievements",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Usage statistics and achievements for DeepSeek Harness — track your progress, explore capabilities, and level"
+  },
+  {
    "repo": "omdsh-dev/dsh-essential",
    "name": "omdsh-dev-dsh-essential",
    "verdict": "incompatible",
@@ -82904,6 +82946,13 @@
    "desc": "Pragmatic Anti-Wheel-Reinvention Protocol for AI Coding Agents: Research First, Open-Source Ethics, and Tokeno"
   },
   {
+   "repo": "jetformat/dsh-plugin",
+   "name": "jetformat-dsh-plugin",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin for Jetformat: Office to PDF and PDF tools via the local CLI"
+  },
+  {
    "repo": "jiaoqsh/dsh-document",
    "name": "jiaoqsh-dsh-document",
    "verdict": "ok",
@@ -99571,6 +99620,13 @@
    "desc": "Native Cordis skill-provider plugin for DeepSeek Harness: evidence-aware maintenance instructions (packaged fr"
   },
   {
+   "repo": "mic1on/dsh-read",
+   "name": "mic1on-dsh-read",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Read local EPUB / MOBI / text books inside DeepSeek Harness: /read streams the text into the conversation like"
+  },
+  {
    "repo": "minwoogwak99/side-chat",
    "name": "minwoogwak99-side-chat",
    "verdict": "ok",
@@ -105176,6 +105232,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Self-hosted SearXNG web search provider for DeepSeek Harness (dsh)"
+  },
+  {
+   "repo": "koinrokka/dsh-plugins",
+   "name": "koinrokka-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh (DeepSeek Harness) extension bundles for Koinrokka: sandbox runtime providers, IDE tools, LLM adapters"
   },
   {
    "repo": "leechengwei/dsh-session-intelligence",
