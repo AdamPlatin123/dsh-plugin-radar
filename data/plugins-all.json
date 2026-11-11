@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T11:31:15Z",
+ "generated_at": "2026-11-11T11:46:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -26680,6 +26680,13 @@
    "desc": "DSH 动态插件：桥接 CanMV K230 开发板（悬浮面板 + 串口运行脚本与预览）"
   },
   {
+   "repo": "nikitafedorov008/dsh-flutter-tools",
+   "name": "nikitafedorov008-dsh-flutter-tools",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Flutter panel for the DeepSeek Harness sidebar: devices, launch, VM Service controls, debug toggles, embedded"
+  },
+  {
    "repo": "njuptlzf/dsh-dynamic-background",
    "name": "njuptlzf-dsh-dynamic-background",
    "verdict": "ok",
@@ -33804,6 +33811,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Codex-style file search inside the built-in dsh-better-sidebar Explorer tab + per-file-type icons/badges"
+  },
+  {
+   "repo": "mikazuhe13-ui/dsh-hook",
+   "name": "mikazuhe13-ui-dsh-hook",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) lifecycle hooks settings panel plugin — 7-event coverage, guard rules with live toggles"
   },
   {
    "repo": "mikegabyte/dsh-vn-biz",
@@ -63780,6 +63794,13 @@
    "desc": "—"
   },
   {
+   "repo": "littlefish04/dsh-turn-price",
+   "name": "littlefish04-dsh-turn-price",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness (dsh) plugin: shows the CNY cost of every completed turn under the turn"
+  },
+  {
    "repo": "LiZheng1992123/dsh-llm-kiro",
    "name": "lizheng1992123-dsh-llm-kiro",
    "verdict": "incompatible",
@@ -76828,6 +76849,13 @@
    "desc": "—"
   },
   {
+   "repo": "moxiaoren/dsh-xiaoyiwork-connect",
+   "name": "moxiaoren-dsh-xiaoyiwork-connect",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: reuse the signed-in XiaoyiWork desktop app's local model proxy"
+  },
+  {
    "repo": "MrYangyt/dsh-k8s",
    "name": "mryangyt-dsh-k8s",
    "verdict": "incompatible",
@@ -76907,6 +76935,13 @@
   {
    "repo": "QuantaBricks/deepseek-harness-desktop",
    "name": "quantabricks-deepseek-harness-desktop",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "realjhen123/dsh-totp-proxy",
+   "name": "realjhen123-dsh-totp-proxy",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -77939,6 +77974,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "pokerface-1224/deepseek-whale-girl-pet",
+   "name": "pokerface-1224-deepseek-whale-girl-pet",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness 鲸鱼娘桌宠插件：透明 Windows 桌宠、五种动作立绘与互动菜单"
   },
   {
    "repo": "qinyuehuan/dsh-whale-status",
@@ -80876,6 +80918,13 @@
   {
    "repo": "HuanLinOTO/dsh-plugin-mcp-manager",
    "name": "huanlinoto-dsh-plugin-mcp-manager",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "—"
+  },
+  {
+   "repo": "lpf0404/dsh-compat-market",
+   "name": "lpf0404-dsh-compat-market",
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
