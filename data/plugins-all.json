@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T19:46:06Z",
+ "generated_at": "2026-11-11T20:01:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5223,6 +5223,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "snailium/dsh-command-context-trim",
+   "name": "snailium-dsh-command-context-trim",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Model-free /trim command for DeepSeek Harness — drop the oldest, least valuable span of context so a session c"
   },
   {
    "repo": "SongMiao-tech/dsh-prompt-optimizer",
