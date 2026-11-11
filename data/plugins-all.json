@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T15:00:56Z",
+ "generated_at": "2026-11-11T15:16:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13847,6 +13847,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "markelayan/billion-context-relief",
+   "name": "markelayan-billion-context-relief",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Agent-requested context export & delete for DSH — companion to billion-context-dsh (ACP)"
   },
   {
    "repo": "masknull/dsh-workspace-default-path",
@@ -74404,6 +74411,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "maxwell234smith/dsh-desktop-update-entry",
+   "name": "maxwell234smith-dsh-desktop-update-entry",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 桌面版插件：在侧栏常驻一个「检查更新」入口（官方指示器只在有更新时才出现）"
   },
   {
    "repo": "MikotoMyWife/dsh-mcp-loader",
