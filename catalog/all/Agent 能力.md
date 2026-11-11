@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2335）
+# 🤖 Agent 能力（2338）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -152,6 +152,7 @@
 - 🟩 `[可用]` [featherhunter-dsh-chinese-skill-patch](https://github.com/FeatherHunter/dsh-chinese-skill-patch) ★8 — —
 - ⬜ `[待定]` [haiting202-web-jiufeng-invest](https://github.com/haiting202-web/jiufeng-invest) ★8 — 玖峰金融工作台 (Jiufeng FinBox) - 把散落的金融工具装进一个桌面端 \| Finance workbench plugin set for DeepSeek Harness: 7 workflows, 1
 - 🟩 `[可用]` [hootandy321-dsh-agentlink](https://github.com/hootandy321/dsh-Agentlink) ★8 — —
+- 🟩 `[可用]` [toddpan-dsh-webapi](https://github.com/toddpan/dsh-webapi) ★8 — DSH plugin — drive DeepSeek Harness over HTTP: 47 REST + SSE routes (workspaces, sessions, streaming, stats, t
 - 🟩 `[可用]` [dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) ★8 — Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a DeepSeek Harness bu
 - 🟩 `[可用]` [zzzzkd-dsh-prompt-rail](https://github.com/Zzzzkd/dsh-prompt-rail) ★8 — —
 - 🟩 `[可用]` [1321928757-dsh-mysql](https://github.com/1321928757/dsh-mysql) ★7 — MySQL connector plugin for DeepSeek Harness: configure connections in settings, switch per session from the co
@@ -1134,6 +1135,7 @@
 - 🟩 `[可用]` [lvdao-dsh-exec-extension](https://github.com/LvDAO/dsh-exec-extension) ★0 — —
 - 🟩 `[可用]` [lyuwen-dsh-steer-button](https://github.com/lyuwen/dsh-steer-button) ★0 — Queue, Steer, and Backlog for DSH
 - `[空仓监测]` **lywusichen-dsh-skill-panel** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **lyxx999-automatic-session-renaming-for-dsh** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [lzmw-dsh-memory](https://github.com/LZMW/dsh-memory) ★0 — —
 - 🟩 `[可用]` [lzxcs-btw-pro](https://github.com/lzxcs/btw-pro) ★0 — /btw 旁路问答：不打断当前会话（含流式输出中），基于当前上下文回答一个问题；答案以「旁答」命令结果行显示在主会话里，不进入主模型上下文
 - 🟩 `[可用]` [malevrigns-dsh-session-stars](https://github.com/malevrigns/dsh-session-stars) ★0 — Favorite DeepSeek Harness Sessions and reopen them from a global cross-Workspace center.
@@ -2270,6 +2272,7 @@
 - `[未定位]` **weilaisun-dsh-hindsight-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [weixshaw-dsh-plugin-task-runner](https://github.com/weixshaw/dsh-plugin-task-runner) ★0 — Task Runner 任务拆解模式：主代理拆解任务、子代理（默认本地模型）并行执行再综合结果，并发/模型可按机器配置
 - `[未定位]` **westfox-awa-dsh-prompt-optimizer** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [whding110-dsh-dev-progress-memory](https://github.com/whding110/dsh-dev-progress-memory) ★0 — —
 - 🟨 `[不兼容]` [wig123-dsh-thread-tools](https://github.com/wig123/dsh-thread-tools) ★0 — Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live
 - 🟨 `[不兼容]` [wsjwu58-cmd-dsh-session-doctor](https://github.com/wsjwu58-cmd/dsh-session-doctor) ★0 — Community Session Doctor integration for DeepSeek Harness〔📦〕
 - 🟨 `[不兼容]` [wuxie233-dsh-plugin-agent-teams](https://github.com/Wuxie233/dsh-plugin-agent-teams) ★0 — —

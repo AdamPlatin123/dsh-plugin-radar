@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3048）
+# 🔌 Web UI 增强（3054）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -399,6 +399,7 @@
 - ⬜ `[待定]` [dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) ★4 — DeepSeek Harness 回退链插件：主模型失败自动切换备用 provider，带 Web UI 配置面板 \| Provider fallback chains for DeepSeek Harness
 - 🟩 `[可用]` [wangkaxds-dsh-aurora-wallpaper](https://github.com/wangkaxds/dsh-aurora-wallpaper) ★4 — 🔥 Wallpaper Engine 动态壁纸 × DeepSeek Harness：场景壁纸浏览器原生渲染（HLSL→GLSL 转译），视频壁纸零转码直连 —— 你的 AI 界面背景活起来
 - 🟩 `[可用]` [warment-deepseek-harness-locale-ru](https://github.com/warment/deepseek-harness-locale-ru) ★4 — Русский язык для DeepSeek Harness web UI — one-command install, 1061 строка, 100% покрытие
+- 🟩 `[可用]` [weibaohui-dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) ★4 — dsh 插件 · 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按 学科/分类 放 md 即自动加载，支持关联跳转/收藏/重点学科/导入自己的知识库
 - 🟩 `[可用]` [weibaohui-dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) ★4 — dsh 插件 · 会话智能标题：LLM 总结改写会话标题，每轮对话后自动更新
 - 🟩 `[可用]` [wesky820-dsh-law](https://github.com/wesky820/dsh-law) ★4 — 深法：DeepSeek Harness 本地法律工作台插件，提供法律模式原生对话、案件看板、日程期限、可调分栏与多套法律主题
 - ⬜ `[待定]` [wishesl-dsh-launcher](https://github.com/wishesl/dsh-launcher) ★4 — Manage DSH plugins & runtime without launching it: plugin market, per-instance masking, version install
@@ -517,6 +518,7 @@
 - ⬜ `[待定]` [remybroun-infographic](https://github.com/remybroun/infographic) ★3 — A Claude Code skill that turns a document or a topic into a designed visual explainer
 - 🟩 `[可用]` [renjianxin929-ux-deepseek-harness-desktop](https://github.com/renjianxin929-ux/deepseek-harness-desktop) ★3 — Unofficial desktop wrapper for DeepSeek Harness with themes, wallpapers and safer long-running session recover
 - 🟩 `[可用]` [sakthiveltofficial-dsh-shopify-plugins](https://github.com/sakthiveltofficial/dsh-shopify-plugins) ★3 — Shopify plugin for DeepSeek Harness: 213 model-facing shopify_* tools over the Shopify Admin REST + GraphQL AP
+- 🟩 `[可用]` [sequoiayunus-hue-dsh-subagent-model-config](https://github.com/sequoiayunus-hue/dsh-subagent-model-config) ★3 — Configure per-teammate model & reasoning effort for DeepSeek Harness native agent teams — settings UI, zero of
 - 🟩 `[可用]` [shimingming520-dsh-audiogen](https://github.com/shimingming520/dsh-audiogen) ★3 — AI audio generation plugin for the DeepSeek Harness web GUI: multi-vendor TTS, music, sound effects and voice
 - 🟩 `[可用]` [shuimo07-xiaoliuren](https://github.com/shuimo07/xiaoliuren) ★3 — 小六壬占卜 + DeepSeek Harness 插件（时间/报数/随机起卦，结论优先）
 - 🟩 `[可用]` [dsh-conversation-indicator](https://github.com/smanx/dsh-conversation-indicator) ★3 — Conversation indicator plugin for the DeepSeek Harness web GUI: a compact rail beside the scrollbar marks each
@@ -1492,6 +1494,7 @@
 - 🟩 `[可用]` [dsh-update-radar](https://github.com/Equinox7379/dsh-update-radar) ★0 — Update radar for DSH: checks installed plugins against git upstreams.
 - 🟩 `[可用]` [erick0412-dev-dsh-agy-ui](https://github.com/Erick0412-dev/dsh-agy-ui) ★0 — —
 - 🟩 `[可用]` [esperi-dsh-uispec](https://github.com/Esperi/dsh-uispec) ★0 — —
+- 🟩 `[可用]` [etony668-dsh-balance](https://github.com/etony668/dsh-balance) ★0 — DeepSeek API 余额常驻显示（侧边栏「设置」旁）· DeepSeek API balance badge beside Settings in the DSH sidebar
 - 🟩 `[可用]` [evanfang0054-dsh-mermaid-zoom](https://github.com/evanfang0054/dsh-mermaid-zoom) ★0 — Mermaid diagram zoom/pan/reset/PNG-copy enhancement plugin for DeepSeek Harness (DSH) web GUI
 - 🟩 `[可用]` [ewbang-dsh-deepseek-balance](https://github.com/ewbang/dsh-deepseek-balance) ★0 — DeepSeek Harness 插件：在 Web GUI 的侧边栏底部实时显示 DeepSeek 账户余额
 - `[未定位]` **f-0426-dsh-theme-dishuhai** — 占位待复核，判定暂不展示
@@ -1642,6 +1645,7 @@
 - ⬜ `[待定]` [juliye2025-dsh-butler-atelier](https://github.com/juliye2025/dsh-butler-atelier) ★0 — DeepSeek Harness Web GUI 深海男仆工坊主题皮肤
 - 🟩 `[可用]` [junhongchashui-dsh-plugin-web-access](https://github.com/junhongchashui/dsh-plugin-web-access) ★0 — 纯本地的 DSH 按需网页访问插件：web_fetch 命令行抓取 + 无头浏览器（open/snapshot/eval/screenshot）双通道，免费、无需 API Key \| Local-first web ac
 - 🟩 `[可用]` [junhousheng-serena-celtic-adventure-skin](https://github.com/Junhousheng-Serena/celtic-adventure-skin) ★0 — —
+- `[未定位]` **jwe24-code-dsh-tui-app** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [jwilson411-dsh-loop-brake](https://github.com/jwilson411/dsh-loop-brake) ★0 — DeepSeek Harness plugin: identical tool+args circuit breaker (LOOP_BRAKE)
 - ⬜ `[待定]` [jyshangguan-dsh-gui](https://github.com/jyshangguan/dsh-gui) ★0 — A Chrome launcher of Deepseek Harness
 - 🟩 `[可用]` [k12u-dsh-client-ui-pending-sound](https://github.com/k12u/dsh-client-ui-pending-sound) ★0 — —
@@ -1724,6 +1728,7 @@
 - 🟩 `[可用]` [lurejewel-dsh-usage-plugin](https://github.com/lurejewel/dsh-usage-plugin) ★0 — Lightweight, native sidebar usage panel for DeepSeek Harness: official balance + token usage history from sess
 - 🟩 `[可用]` [luxueliu-luxueliu-dsh-story](https://github.com/luxueliu/luxueliu-dsh-story) ★0 — DSH 写小说缺的四件事一次配齐！世界书角色卡拖进输入框，正文整篇进上下文；剧情断了 /gemini-sum 一键交接新窗；/out 导出干净成稿；/sum 一句话成角色卡/世界书；\[论坛体\]\[第二人称\] 打字即展开 —
 - 🟩 `[可用]` [lwb919191-dsh-voice-input](https://github.com/lwb919191/dsh-voice-input) ★0 — DSH voice input plugin: local offline Vosk speech-to-text with real-time streaming
+- 🟩 `[可用]` [lyaoliu-dsh-approval-core](https://github.com/lyaoliu/dsh-approval-core) ★0 — DeepSeek Harness 自动审批决策管道：例行沙箱越界自动放行，危险/拿不准/失败一律转人工（fail-safe）；学习受约束可一键清空；含分级配置 UI 与块级撤销审查视图
 - 🟩 `[可用]` [lyke-61-dsh-custom-instructions](https://github.com/lyke-61/dsh-custom-instructions) ★0 — Codex-style custom instructions for DeepSeek Harness: edit ~/.dsh/AGENTS.md from a settings panel - applies to
 - 🟩 `[可用]` [lylarcher-dsh-model-capabilities](https://github.com/lylarcher/dsh-model-capabilities) ★0 — 一个DSH插件，为自定义模型配置输入类型(input)、推理模式（reasoningEfforts）
 - 🟩 `[可用]` [lyuwen-dsh-tui](https://github.com/lyuwen/dsh-tui) ★0 — \[WIP\] TUI for DeepSeeh-Harness
@@ -1739,6 +1744,7 @@
 - 🟩 `[可用]` [mario03690-dsh-duizhang](https://github.com/mario03690/dsh-duizhang) ★0 — Reconciliation: statements, invoices and ledgers that have to balance
 - `[未定位]` **mariomly-dsh-schedule-panel** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [marshfolx-dsh-rescue-tui](https://github.com/marshfolx/dsh-rescue-tui) ★0 — a minimal emergency maintenance tui used when web ui is broken
+- 🟩 `[可用]` [martyartem-dsh-plannotator](https://github.com/martyartem/dsh-plannotator) ★0 — Review a file, a folder or a web page in the Plannotator browser UI from DeepSeek Harness, and get the annotat
 - 🟩 `[可用]` [mashedpotato817-dsh-tui](https://github.com/MashedPotato817/dsh-tui) ★0 — —
 - 🟩 `[可用]` [masknull-dsh-delete-session](https://github.com/masknull/dsh-delete-session) ★0 — DSH 插件：在侧栏会话行的 ⋯ 菜单中增加「删除会话」（永久删除，不可恢复），不接管也不禁用任何官方插件行
 - 🟩 `[可用]` [masknull-dsh-sidebar-ratio](https://github.com/masknull/dsh-sidebar-ratio) ★0 — DSH 插件：侧边栏按窗口比例打开（左栏默认 14%、右栏可选），同一父会话组内共享右侧栏面板
