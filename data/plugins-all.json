@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T21:46:07Z",
+ "generated_at": "2026-11-11T22:16:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -80172,6 +80172,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A polished local-first DSH Web teahouse: curated mini-games, resumable breaks, and Lanyin companion."
+  },
+  {
+   "repo": "cny1230/deskpet-guard",
+   "name": "cny1230-deskpet-guard",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "fxxg023/dsh-stock-assistant",
