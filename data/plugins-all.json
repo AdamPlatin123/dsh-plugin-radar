@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T12:45:50Z",
+ "generated_at": "2026-11-11T13:01:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -24242,6 +24242,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a"
+  },
+  {
+   "repo": "apherchin/dsh-session-rewind",
+   "name": "apherchin-dsh-session-rewind",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "（已合并进 dsh-wonder-tools）重新生成（从这里重来）：把某轮及之后从模型视野作废、原提示词回填输入框，支持分支找回"
   },
   {
    "repo": "aqiane/dsh-client-ui-period-hint",
@@ -85592,6 +85599,13 @@
    "desc": "DSH plugin: one-shot test coverage flow — run tests with coverage, compress with covtrim, return compact TSV t"
   },
   {
+   "repo": "yfwu2020/dsh-full-view",
+   "name": "yfwu2020-dsh-full-view",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 完整视图插件：展开文件与网页，保留原会话为可移动、缩放和收起的聊天小窗"
+  },
+  {
    "repo": "YYTbit/dsh-plugin-rag",
    "name": "dsh-plugin-rag",
    "verdict": "pending",
@@ -103566,6 +103580,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DSH Skills 管理器：设置页系统/用户技能分类，用户技能开关/编辑/删除/新建"
+  },
+  {
+   "repo": "yintaocheng/dsh-github-harness",
+   "name": "yintaocheng-dsh-github-harness",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Minimal single-agent GitHub task loop for DeepSeek Harness"
   },
   {
    "repo": "yishengjun8/dsh-workspace-studio",
