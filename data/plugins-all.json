@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T04:46:02Z",
+ "generated_at": "2026-11-11T05:00:54Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4126,6 +4126,13 @@
    "desc": "DSH（DeepSeek Harness） Web 插件：在任意对话中配置一次性（或每日重复）任务——一个绝对时间加上要执行的提示词"
   },
   {
+   "repo": "ggfgfgf-on/dsh-trajectory-anchor",
+   "name": "ggfgfgf-on-dsh-trajectory-anchor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A DeepSeek Harness plugin that stops agents from drifting off-task: it locks in the good first-round behavior,"
+  },
+  {
    "repo": "GLFzr/dsh-hermes-memory-bridge",
    "name": "glfzr-dsh-hermes-memory-bridge",
    "verdict": "pending",
@@ -4516,6 +4523,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "krimvp/dsh-otel",
+   "name": "krimvp-dsh-otel",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "OpenTelemetry plugin for DeepSeek Harness (dsh) — traces and metrics for agent runs, tools, and model calls"
   },
   {
    "repo": "lavenleo/dsh-web-summary",
@@ -6331,6 +6345,13 @@
    "desc": "Session usage view: tokens, wall time and cache share per model and per turn, as a conversation view."
   },
   {
+   "repo": "fan56/dsh-approval-policy",
+   "name": "fan56-dsh-approval-policy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh plugin: unattended approval gate — bounded answer window for subagent/scheduled/cron approvals, fail-close"
+  },
+  {
    "repo": "fan56/dsh-cron",
    "name": "fan56-dsh-cron",
    "verdict": "ok",
@@ -6392,6 +6413,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 模型健康检查：会话视图页签，选定供应商/协议/模型/路由后手动发真实裸 HTTP 请求，一屏看耗时、TTFT、状态、token 与三层诊断链"
+  },
+  {
+   "repo": "fzy3232/dsh-chinese-language",
+   "name": "fzy3232-dsh-chinese-language",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Keep DeepSeek Harness agents thinking and answering in Simplified Chinese: a token-lean system-prompt section"
   },
   {
    "repo": "gangwolf2312-creator/dsh-memory-bridge",
@@ -12874,6 +12902,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "小双 for DeepSeek Harness — 六层记忆人格插件 + 浮动视频形象（跟随 agent 状态表演 + TTS）"
+  },
+  {
+   "repo": "damlys99/dsh-morning-paper",
+   "name": "damlys99-dsh-morning-paper",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A computed front page for a session you left running: what happened, what broke, and what is waiting on you —"
   },
   {
    "repo": "davidgereb/dsh-plugin-watchdog",
@@ -24125,6 +24160,13 @@
    "desc": "—"
   },
   {
+   "repo": "davidgereb/dsh-plugin-better-mobile-ui",
+   "name": "davidgereb-dsh-plugin-better-mobile-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Better UI for DeepSeek Harness's web view on mobile."
+  },
+  {
    "repo": "dddzzz123-dz/dsh-read-image-plugin",
    "name": "dddzzz123-dz-dsh-read-image-plugin",
    "verdict": "pending",
@@ -25341,6 +25383,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "kahomesl/dsh-client-ui-job-stats",
+   "name": "kahomesl-dsh-client-ui-job-stats",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的会话后台任务统计：右侧边栏的一个标签页，累计记录本会话跑过的每一个任务"
   },
   {
    "repo": "karenepitaya/dsh-tui",
@@ -64046,6 +64095,13 @@
    "desc": "—"
   },
   {
+   "repo": "jghwwnq/dsh-model-audit",
+   "name": "jghwwnq-dsh-model-audit",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Unofficial local plugin for DeepSeek Harness: compares the requested model with the model the upstream respons"
+  },
+  {
    "repo": "Jiaoyc224/dsh-plugin-dedupe",
    "name": "jiaoyc224-dsh-plugin-dedupe",
    "verdict": "incompatible",
@@ -90233,6 +90289,13 @@
    "desc": "—"
   },
   {
+   "repo": "deskomor/dsh-sub-providers",
+   "name": "deskomor-dsh-sub-providers",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Clean-room DSH plugin: use Claude and ChatGPT (Codex) subscriptions as LLM provider routes — OAuth login, stre"
+  },
+  {
    "repo": "exoticknight/dsh-just-chat",
    "name": "exoticknight-dsh-just-chat",
    "verdict": "incompatible",
@@ -98311,6 +98374,13 @@
    "desc": "Codex-inspired managed approval for DeepSeek Harness"
   },
   {
+   "repo": "janpauldahlke/dsh-slot-health",
+   "name": "janpauldahlke-dsh-slot-health",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (dsh) plugin: live local LLM endpoint health in the web rightbar"
+  },
+  {
    "repo": "jesongit/dsh-plugin",
    "name": "jesongit-dsh-plugin",
    "verdict": "pending",
@@ -104175,6 +104245,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Inline terminal panel docked under the DeepSeek Harness web composer, backed by a real PTY on the host"
+  },
+  {
+   "repo": "havoc-rao/dsh-git-commit-agent",
+   "name": "havoc-rao-dsh-git-commit-agent",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: a dedicated agent that plans exact Git commits from real repo state, binds approval to an immutabl"
   },
   {
    "repo": "hccccc01333/dsh-report-card",
