@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3040）
+# 🔌 Web UI 增强（3042）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2786,6 +2786,7 @@
 - 🟨 `[不兼容]` [doer1296-dsh-plugin-voice](https://github.com/doer1296/dsh-plugin-voice) ★0 — DeepSeek Harness 语音插件：火山 seed-tts 云端 TTS（自动回退 SAPI/Huihui 离线）+ 桌面通知 + 场景化 WAV 提示音 + 提问自动呼叫
 - `[未定位]` **dsh-eac-dsh-ui-skin-loader** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [dsh-publish-dsh-pair-quick](https://github.com/dsh-publish/dsh-pair-quick) ★0 — dsh ???????????:??????????????????
+- 🟨 `[不兼容]` [dshapp-dsh-claude-subscription](https://github.com/dshapp/dsh-claude-subscription) ★0 — DeepSeek Harness bundle: run the built-in Anthropic provider on a Claude Code (Pro/Max/Team) subscription cred
 - 🟨 `[不兼容]` [dujar-dsh-restart](https://github.com/dujar/dsh-restart) ★0 — DeepSeek Harness web-GUI plugin: restart dsh web in one click, toggle installed plugins, git panel for local c
 - 🟨 `[不兼容]` [eivmosn-dsh-pets](https://github.com/eivmosn/dsh-pets) ★0 — Codex Pets integration for the DeepSeek Harness Web GUI
 - 🟨 `[不兼容]` [enernitylune-dsh-luvian-ui-wallpaper](https://github.com/EnernityLune/dsh-luvian-ui-wallpaper) ★0 — —
@@ -2814,6 +2815,7 @@
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-billing](https://github.com/HenryHwong/dsh-ui-billing) ★0 — —
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-turn-rail](https://github.com/HenryHwong/dsh-ui-turn-rail) ★0 — —
 - 🟨 `[不兼容]` [henrytian1998-dsh-doctor](https://github.com/henrytian1998/dsh-doctor) ★0 — DeepSeek Harness 诊断插件：把 home、进程、端口、大 session、版本问题收成一份可粘贴的报告
+- `[未定位]` **hercules-debug-huixuan-assistant** — 占位待复核，判定暂不展示
 - `[未定位]` **heshuren371-dsh-music-player-tui** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [hongbaiqi-dsh-model-account-login](https://github.com/hongbaiqi/dsh-model-account-login) ★0 — Persistent DSH model-account authorization UI for ChatGPT, Claude, and other llm-pi-ai login flows
 - 🟨 `[不兼容]` [honlnk-dsh-input-assist](https://github.com/honlnk/dsh-input-assist) ★0 — Input assistant for DeepSeek Harness Web UI: inline AI completion (FIM) and Chinese-friendly typo checking
