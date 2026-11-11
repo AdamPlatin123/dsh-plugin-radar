@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T06:30:57Z",
+ "generated_at": "2026-11-11T06:46:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -29786,6 +29786,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "macOS desk pet for DeepSeek Harness: a real always-on-top window that clears fullscreen Spaces, six states dri"
+  },
+  {
+   "repo": "boyingliu01/xp-gate",
+   "name": "boyingliu01-xp-gate",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "Deterministic quality gates for AI-generated code: 12 checks, Delphi review, requirement-test alignment"
   },
   {
    "repo": "cheesehaqi/dsh-qq-onebot-bridge",
@@ -74735,6 +74742,13 @@
    "desc": "—"
   },
   {
+   "repo": "copylee711/dsh-proxy",
+   "name": "copylee711-dsh-proxy",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "Configure proxy for deepseek harness"
+  },
+  {
    "repo": "springbrand-lab/dsh-oauth-mcp-client",
    "name": "dsh-oauth-mcp-client",
    "verdict": "incompatible",
@@ -75083,6 +75097,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness (cordis) plugin: self-update for the harness launcher - checks npm for a newer @deepseek-ai/d"
+  },
+  {
+   "repo": "aexachao/dsh-balance-tracker",
+   "name": "aexachao-dsh-balance-tracker",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "dsh插件，预算监控"
   },
   {
    "repo": "alanzhao0128/dsh-balance-monitor",
@@ -88355,6 +88376,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 缓存命中率与请求活动可视化插件（默认完整版）：请求详情、对话定位、类型翻面与历史回看"
+  },
+  {
+   "repo": "5havv/dsh-weixin",
+   "name": "5havv-dsh-weixin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "WeChat channel plugin for DeepSeek Harness, over Tencent's iLink Bot API"
   },
   {
    "repo": "alaxrpg/dsh-chatgpt-pip",
