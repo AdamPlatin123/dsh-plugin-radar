@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T23:16:08Z",
+ "generated_at": "2026-11-11T23:31:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -36128,6 +36128,13 @@
    "verdict": "ok",
    "stars": 26,
    "desc": "—"
+  },
+  {
+   "repo": "buberlo/dsh-jev",
+   "name": "buberlo-dsh-jev",
+   "verdict": "ok",
+   "stars": 24,
+   "desc": "Jev-powered decision layer for DeepSeek Harness"
   },
   {
    "repo": "Likenttt/garmin-connect-plugin-for-dsh",
