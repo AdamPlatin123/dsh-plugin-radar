@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T05:16:02Z",
+ "generated_at": "2026-11-11T05:30:59Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4187,6 +4187,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap"
+  },
+  {
+   "repo": "having5548/dsh-backup",
+   "name": "having5548-dsh-backup",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Backup & restore plugin for DeepSeek Harness: workspace, full conversations (byte-exact), attachments, setting"
   },
   {
    "repo": "hbgdjb/dsh-session-shield",
@@ -26274,6 +26281,13 @@
    "desc": "一个DeepSeekHarness插件，用于让模型在DeepSeekHarness中生成符合H3视频生成模型规范的提示词"
   },
   {
+   "repo": "notf0und/dsh-opencode-sounds",
+   "name": "notf0und-dsh-opencode-sounds",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: opencode's notification sound pack for the DSH Web UI (fork of @ai-galaxy/dsh-sound)"
+  },
+  {
    "repo": "oa1mgo/dshplugin",
    "name": "oa1mgo-dshplugin",
    "verdict": "ok",
@@ -30992,6 +31006,13 @@
    "desc": "DSH plugin: registers flight_compare, fetches Travelpayouts fares, groups by flight and date, marks lowest pri"
   },
   {
+   "repo": "18569663yz-web/dsh-plugin-crypto-ticker",
+   "name": "18569663yz-web-dsh-plugin-crypto-ticker",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 侧边栏左下角的实时加密货币行情卡片：BTC / ETH / SOL / JUP 的价格、24h 涨跌幅与 24 点迷你走势图，价格跳动带脉冲反馈，零依赖、免密钥"
+  },
+  {
    "repo": "21hbguo/dsh-session-batch-manager",
    "name": "21hbguo-dsh-session-batch-manager",
    "verdict": "incompatible",
@@ -33958,6 +33979,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH web client plugin: pins the conversation column to a configurable percentage of its width (default full wi"
+  },
+  {
+   "repo": "yusufameri/dsh-t3-new-session-screen",
+   "name": "yusufameri-dsh-t3-new-session-screen",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "T3 Code's New Session screen for DeepSeek Harness: the \"What should we build in <project>?\" headline with an i"
   },
   {
    "repo": "yuzhou1227/dsh-session-manager",
@@ -46313,6 +46341,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "yuanzukun/dsh-plugin-cards",
+   "name": "yuanzukun-dsh-plugin-cards",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) 设置卡片 + 对话节点插件 \\| Settings cards + conversation node plugin"
   },
   {
    "repo": "Yuki-takuya-kun/dsh-engine-switch",
@@ -74091,6 +74126,13 @@
    "desc": "—"
   },
   {
+   "repo": "youbuwei/dsh-zhipu-mcp",
+   "name": "youbuwei-dsh-zhipu-mcp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "智谱 BigModel MCP（联网搜索/网页读取/开源仓库）的 DeepSeek Harness 独立插件 · Zhipu BigModel MCP as a standalone DeepSeek Harness p"
+  },
+  {
    "repo": "yousj666/deepseek-harness-desktop",
    "name": "yousj666-deepseek-harness-desktop",
    "verdict": "pending",
@@ -99443,6 +99485,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "deepseek-harness-desktop〔📦〕"
+  },
+  {
+   "repo": "pomelotea-yuzu/dsh-updater",
+   "name": "pomelotea-yuzu-dsh-updater",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (dsh) update checker plugin: check the latest release from GitHub right inside the Settings p"
   },
   {
    "repo": "princeofdream/dsh-codebase-memory-mcp",
