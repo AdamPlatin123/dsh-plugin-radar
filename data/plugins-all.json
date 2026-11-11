@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T11:01:02Z",
+ "generated_at": "2026-11-11T11:16:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6898,6 +6898,13 @@
    "desc": "Turn any DeepSeek Harness article into an editable Excalidraw canvas—structure from the agent, refinement in y"
   },
   {
+   "repo": "janpauldahlke/dsh-agent-processes",
+   "name": "janpauldahlke-dsh-agent-processes",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: host-owned process & port lifecycle for local agents"
+  },
+  {
    "repo": "Jesse-njx/dsh-tmuxctl",
    "name": "dsh-tmuxctl",
    "verdict": "ok",
@@ -11019,6 +11026,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "便签画布 / Noteboard canvas for DeepSeek Harness (DSH)：框选会话内容一键存为便签（可 AI 提炼），便签以结构化引用再次发回 AI；工作区级无限画布"
+  },
+  {
+   "repo": "copylee711/dsh-remote-control",
+   "name": "copylee711-dsh-remote-control",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DeepSeek Harness 远程控制插件：手机扫码、电脑确认后，用手机浏览器继续会话、审批和管理设置"
   },
   {
    "repo": "DDDFXYqiming/dsh-layered-memory",
@@ -30920,6 +30934,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH companion for GitHub Copilot sign-in, account-aware model profiles, tool compatibility, and provider-hoste"
+  },
+  {
+   "repo": "copylee711/dsh-image-gen",
+   "name": "copylee711-dsh-image-gen",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness 生图插件：侧边栏绘画页与图库，对话中生图和改图，可自定义服务商端点与代理"
   },
   {
    "repo": "cq-guojia/dsh-session-title-pattern",
@@ -79621,6 +79642,13 @@
    "desc": "AI-powered Game Center plugin for DeepSeek Harness, featuring Texas Holdem with 1–7 agent players.〔📦〕"
   },
   {
+   "repo": "moon-partner/dsh-anime25d-pets-v2",
+   "name": "moon-partner-dsh-anime25d-pets-v2",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH0.2.0compatible anime 2.5D desktop pet"
+  },
+  {
    "repo": "p83765295-sys/gamelike-plugin-manage",
    "name": "p83765295-sys-gamelike-plugin-manage",
    "verdict": "incompatible",
@@ -105904,6 +105932,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH (DeepSeek Harness) web plugin: floating widget showing real-time OpenCode Go subscription usage (rolling /"
+  },
+  {
+   "repo": "mvalentsev/dsh-wsl-projects",
+   "name": "mvalentsev-dsh-wsl-projects",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "One DeepSeek Harness web server per project, inside WSL2 — started, stopped and opened from a panel in the Win"
   },
   {
    "repo": "nateEc/dsh-gitLens",
