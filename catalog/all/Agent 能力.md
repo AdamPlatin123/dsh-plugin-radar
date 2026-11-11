@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2455）
+# 🤖 Agent 能力（2459）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -860,6 +860,7 @@
 - `[未定位]` **9ashwin-dsh-session-rename** — 占位待复核，判定暂不展示
 - `[空仓监测]` **abccgh-dsh-agent-studio** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ac0033-dsh-ctm](https://github.com/ac0033/dsh-ctm) ★0 — DeepSeek Harness 上下文管理插件：上下文可视化、token 用量、编辑、回退与快照恢复
+- `[未定位]` **adkun-dsh-subagent-mgm** — 占位待复核，判定暂不展示
 - `[未定位]` **aenotr-local-imagegen-skill** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [afisht-dsh-plan-mode-enhanced](https://github.com/afisht/dsh-plan-mode-enhanced) ★0 — —
 - `[空仓监测]` **agents365-ai-dsh-vision-plugin** — GitHub 无此仓库，判定暂不展示
@@ -1346,6 +1347,7 @@
 - ⬜ `[待定]` [tianjiqx-dsh-agentobs](https://github.com/tianjiqx/dsh-agentobs) ★0 — dsh 可观测解决方案
 - `[未定位]` **timebro9999-dsh-session-deck** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [tkliuxing-dsh-hypatia](https://github.com/tkliuxing/dsh-hypatia) ★0 — \[DEPRECATED\] Long-term memory for DSH backed by Hypatia
+- `[未定位]` **tleon-h-dsh-prompt-prefill** — 占位待复核，判定暂不展示
 - `[未定位]` **top1wu-dsh-session-isolation** — 占位待复核，判定暂不展示
 - `[未定位]` **towzai-dsh-memory-jev** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [tsietsi123-dsh-chat-outline](https://github.com/tsietsi123/dsh-chat-outline) ★0 — DSH 对话大纲插件：右侧悬停展开「提问+回答首句」两级索引，直读会话记录 \| DSH conversation outline plugin: hover the right edge for a two-level
@@ -1398,6 +1400,7 @@
 - 🟩 `[可用]` [vb2250158-dsh-subagent-output-sanitizer](https://github.com/vb2250158/dsh-subagent-output-sanitizer) ★0 — Open-source DSH plugin: dsh-subagent-output-sanitizer
 - `[未定位]` **vcpr0j3k7-dsh-skill-manager** — 占位待复核，判定暂不展示
 - `[未定位]` **vderr-echocat-skill-panel-3-0** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [verdana-dsh-session-purge](https://github.com/verdana/dsh-session-purge) ★0 — A recycle bin for DSH session deletion: deleting a session moves it to a bin where it can be restored, and spa
 - `[空仓监测]` **wangxiang0605qvq-dsh-auto-compact** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **wangxuexin24-dsh-session-topics** — 占位待复核，判定暂不展示
 - `[未定位]` **wangyong1972-dsh-auto-approval** — 占位待复核，判定暂不展示
@@ -2435,6 +2438,7 @@
 - 🟨 `[不兼容]` [zhm20001-dsh-usage-board](https://github.com/zhm20001/dsh-usage-board) ★0 — dsh-usage-board 是专为 DSH (DeepSeek Harness) 设计的用量与成本可视化看板插件
 - `[未定位]` **ziyuan258-dsh-skill-router** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
+- 🟨 `[不兼容]` [zzzxxxxxxxxxx-dsh-dcp](https://github.com/zzzxxxxxxxxxx/dsh-dcp) ★0 — Dynamic context pruning for DeepSeek Harness — model-driven compaction and duplicate-output pruning.
 - `[未定位]` **azazo1-dsh-copy-session-ref** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [liushutan-dsh-skills-manager](https://github.com/liushutan/dsh-skills-manager) ★0 — 可视化管理 DeepSeek Harness Skills 的桌面插件
 - `[未定位]` **ljcscp-dsh-session-cost** — 占位待复核，判定暂不展示
