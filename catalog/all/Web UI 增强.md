@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3130）
+# 🔌 Web UI 增强（3131）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1043,6 +1043,7 @@
 - 🟩 `[可用]` [linfengyu94-dsh-balance-panel](https://github.com/linfengyu94/dsh-balance-panel) ★1 — DeepSeek 充值余额悬浮面板 - DSH 插件：悬浮显示充值余额，带可视化进度条与动态按钮动画
 - 🟩 `[可用]` [linfunss-dsh-win-notify](https://github.com/linfunss/dsh-win-notify) ★1 — Windows 11 system notification bridge plugin for DeepSeek Harness: branded toasts (name + whale icon + sound)
 - 🟩 `[可用]` [linglambda-dsh-logger-panel](https://github.com/LingLambda/dsh-logger-panel) ★1 — —
+- 🟩 `[可用]` [linke-e-dsh-opening-animation](https://github.com/linke-e/dsh-opening-animation) ★1 — DeepSeek Harness Web 的开场动画插件：每次 dsh web 页面加载时，在全屏遮罩上播放你选择的开场内容——图片动画或视频——结束后以可配置的过渡效果把画面交还主界面
 - 🟩 `[可用]` [liqiming-whu-dsh-status-card](https://github.com/liqiming-whu/dsh-status-card) ★1 — Dynamic dsh-ui status cards for DeepSeek Harness agent replies
 - 🟩 `[可用]` [lispking-dsh-qq-skin](https://github.com/lispking/dsh-qq-skin) ★1 — A QQ NT messenger skin for DeepSeek Harness (dsh)
 - 🟩 `[可用]` [little-traincar-dsh-imagegen](https://github.com/little-traincar/dsh-imagegen) ★1 — Image generation plugin for DeepSeek Harness: Doubao Seedream 5.0 Pro and Aliyun qwen built in, plus any OpenA
