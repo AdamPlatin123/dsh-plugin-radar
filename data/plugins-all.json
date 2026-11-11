@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T06:46:08Z",
+ "generated_at": "2026-11-11T07:01:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -29065,6 +29065,13 @@
    "verdict": "incompatible",
    "stars": 35,
    "desc": "A pluginized microkernel architecture for building, orchestrating, and extending multi-agent systems in DeepSe"
+  },
+  {
+   "repo": "functy23/dsh-mcp-studio",
+   "name": "functy23-dsh-mcp-studio",
+   "verdict": "incompatible",
+   "stars": 34,
+   "desc": "DeepSeek Harness 的 MCP 服务与 Skills 管理器：面板里增删改 MCP 行、扫描导入其他 Agent 配置、管理 Skills（DSH Web 插件）"
   },
   {
    "repo": "agi-fans/oh-my-dsh",
@@ -103349,6 +103356,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: auto-tiles oversized chat images into labelled grid tiles for DeepSeek v4Flash vision, with Python"
+  },
+  {
+   "repo": "drscrewdriver/dsh-bash-terminal-ts",
+   "name": "drscrewdriver-dsh-bash-terminal-ts",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "EasyTZ/dsh-git",
