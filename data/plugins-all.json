@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T07:16:12Z",
+ "generated_at": "2026-11-11T07:30:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -28843,6 +28843,13 @@
    "desc": "Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi"
   },
   {
+   "repo": "modelstudioai/cli",
+   "name": "modelstudioai-cli",
+   "verdict": "incompatible",
+   "stars": 370,
+   "desc": "Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and wo"
+  },
+  {
    "repo": "saya-ch/dsh-mobile",
    "name": "saya-ch-dsh-mobile",
    "verdict": "incompatible",
@@ -44437,6 +44444,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "malko/dsh-malko-prefs",
+   "name": "malko-dsh-malko-prefs",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Add some settings to make deepseek harness more comfortable to use, compaction thinking mode and tresholds, ll"
   },
   {
    "repo": "mapan0424/deepseek-harness-insights",
@@ -88047,6 +88061,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "mishiqian/lan-im",
+   "name": "mishiqian-lan-im",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "让局域网内所有安装本插件的 DeepSeek Harness 实例以账号身份互相发现、可靠地互发消息聊天"
   },
   {
    "repo": "MoztraCG/dsh-feishu-bridge",

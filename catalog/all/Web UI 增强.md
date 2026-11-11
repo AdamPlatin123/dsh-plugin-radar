@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3088）
+# 🔌 Web UI 增强（3089）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2233,6 +2233,7 @@
 - 🟨 `[不兼容]` [kelai141-dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) ★588 — dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为dsh本地运行设计的高性能方案
 - 🟨 `[不兼容]` [oxbshw-watch-skill](https://github.com/oxbshw/watch-skill) ★568 — Give AI agents eyes, ears, and verifiable results
 - 🟨 `[不兼容]` [yogsoth-ai-de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) ★503 — Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi
+- 🟨 `[不兼容]` [modelstudioai-cli](https://github.com/modelstudioai/cli) ★370 — Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and wo
 - 🟨 `[不兼容]` [saya-ch-dsh-mobile](https://github.com/saya-ch/dsh-mobile) ★349 — DeepSeek Harness 的安全移动访问插件与 Android App，支持局域网和多种远程通道、iPhone/iPad 主屏幕 Web App 与网页推送，并提供移动界面适配、设备管理和自定义扩展
 - 🟨 `[不兼容]` [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) ★326 — 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验
 - 🟨 `[不兼容]` [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) ★285 — 在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations
