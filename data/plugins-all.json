@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T12:31:56Z",
+ "generated_at": "2026-11-11T12:45:50Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5370,6 +5370,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "LangGraph-style adaptive Planner→Executor→Reviewer pipeline for DSH (DeepSeek Harness)"
+  },
+  {
+   "repo": "ventisyn/dsh-agent-control",
+   "name": "ventisyn-dsh-agent-control",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 整合插件，包含功能：删除会话，删除单独一轮对话，重启及关闭实例"
   },
   {
    "repo": "vibeinging/dsh-agent-budget",
@@ -22928,6 +22935,13 @@
    "desc": "—"
   },
   {
+   "repo": "syc67169-source/dsh-team-employees",
+   "name": "syc67169-source-dsh-team-employees",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 DeepSeek Harness 变成多员工协同团队：员工花名册、内容流水线、一道人工闸门，外加一个会动的办公室界面"
+  },
+  {
    "repo": "syOPV/dsh-theme-background-center",
    "name": "syopv-dsh-theme-background-center",
    "verdict": "ok",
@@ -27408,6 +27422,13 @@
    "desc": "dsh-docker 是 DeepSeek Harness Web 的 Docker 管理面板插件：支持本机 CLI 与 SSH 远端多目标一键切换，统一管理 Docker MCP（部署/移除/搜索官方 Catalog/"
   },
   {
+   "repo": "songwenhao/onedark-dsh-theme",
+   "name": "songwenhao-onedark-dsh-theme",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "One Dark Pro themes for DeepSeek Harness (dsh) - Desktop / Web GUI / dsh-TUI"
+  },
+  {
    "repo": "sqs404/dsh-client-ui-beautify",
    "name": "sqs404-dsh-client-ui-beautify",
    "verdict": "ok",
@@ -27597,11 +27618,25 @@
    "desc": "Money on the screen for the DeepSeek Harness web GUI: per-turn USD cost in the chat, a Cost tab with charts, r"
   },
   {
+   "repo": "thezavtrak-a11y/dsh-image-annotate",
+   "name": "thezavtrak-a11y-dsh-image-annotate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Draw on a pasted screenshot in the DeepSeek Harness web GUI: pen, arrow, rectangle, ellipse and text stamps, f"
+  },
+  {
    "repo": "thezavtrak-a11y/dsh-locale-ru",
    "name": "thezavtrak-a11y-dsh-locale-ru",
    "verdict": "ok",
    "stars": 0,
    "desc": "Russian language pack for the DeepSeek Harness web UI - a community DSH client plugin adding ru to Settings ->"
+  },
+  {
+   "repo": "thezavtrak-a11y/dsh-session-tabs",
+   "name": "thezavtrak-a11y-dsh-session-tabs",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web UI plugin: browser-style tabs for open Sessions - switch, close, reorder by drag, and tea"
   },
   {
    "repo": "thooy/dsh-client-ui-theme-manager",
@@ -28267,6 +28302,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xdr531955724/dsh-prompt-manager",
+   "name": "xdr531955724-dsh-prompt-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）提示词管理器：按标签分组管理提示词，一键写进输入框；并用大模型优化输入框里正在写的东西"
   },
   {
    "repo": "xgone/dsh-netshell",
@@ -32791,6 +32833,13 @@
    "desc": "DeepSeek Harness static Cordis plugin: bind the Web GUI to 0.0.0.0 for LAN access + crypto.randomUUID polyfill"
   },
   {
+   "repo": "xfpuls/dsh-usage-suite",
+   "name": "xfpuls-dsh-usage-suite",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 用量与费用统计 + 提问置顶：本轮花费、今日 token 与消费、空闲/高峰时段，并钉住最新提问"
+  },
+  {
    "repo": "xiaoyuink/dsh-image-create",
    "name": "xiaoyuink-dsh-image-create",
    "verdict": "incompatible",
@@ -34168,6 +34217,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 中管理股票持仓的插件"
+  },
+  {
+   "repo": "shuqingyang666/dsh-github-adapted",
+   "name": "shuqingyang666-dsh-github-adapted",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Adapted build of @perrylink/dsh-github 0.7.15 for DeepSeek Harness 0.2.0-rc.2 — classic-script client registra"
   },
   {
    "repo": "sidleo/skill-filesystem-plus",
@@ -63346,6 +63402,13 @@
    "desc": "—"
   },
   {
+   "repo": "yuanstarstar/dsh-maid",
+   "name": "yuanstarstar-dsh-maid",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH 女仆模式插件"
+  },
+  {
    "repo": "zilliztech/dsh-milvus",
    "name": "zilliztech-dsh-milvus",
    "verdict": "incompatible",
@@ -85212,6 +85275,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "vi0let-dev/dsh-session-trash",
+   "name": "vi0let-dev-dsh-session-trash",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给 DeepSeek Harness 补上会话删除：删除先进回收站可还原，彻底删除会清干净日志、工作区记账、归档标记与宿主会话表"
   },
   {
    "repo": "vv5v5/dsh-memory-archive",
