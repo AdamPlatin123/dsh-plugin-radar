@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T03:01:04Z",
+ "generated_at": "2026-11-11T03:16:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -25084,6 +25084,13 @@
    "desc": "dsh-skill-mcp-panel (local build): 技能与 MCP 管理改为设置窗口分栏，不再占用侧栏与中央主区"
   },
   {
+   "repo": "jipika/dsh-workspace-files",
+   "name": "jipika-dsh-workspace-files",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Left-sidebar file switch: hover a workspace row, click the folder icon, and its session list becomes a lazy fi"
+  },
+  {
    "repo": "jiumengya/dsh-knowledge-suite",
    "name": "jiumengya-dsh-knowledge-suite",
    "verdict": "pending",
@@ -29401,6 +29408,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "DSH 插件：在 DeepSeek Harness Web 界面（对话/轨迹）顶部新增「终端」Tab，内置 xterm.js + node-pty 交互式终端，让你在编码完成后即时在终端执行指令调试"
+  },
+  {
+   "repo": "idoall/dsh-lan-guard",
+   "name": "idoall-dsh-lan-guard",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "把桌面 DeepSeek Harness 的官方 Web 界面**安全地**开放到局域网"
   },
   {
    "repo": "john-walks-slow/dsh-im-humanize",
@@ -69422,6 +69436,13 @@
    "desc": "DSH compatibility plugin for redundant same-mode sandbox escalation requests"
   },
   {
+   "repo": "173787247/dsh-remote-ssh",
+   "name": "173787247-dsh-remote-ssh",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin: dsh-remote-ssh"
+  },
+  {
    "repo": "aaroncarry/deepseek-harness-desktop",
    "name": "aaroncarry-deepseek-harness-desktop",
    "verdict": "ok",
@@ -70635,6 +70656,13 @@
   {
    "repo": "HOWILLMAKEIT/football-mcp",
    "name": "howillmakeit-football-mcp",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "iceice666/dsh-desktop",
+   "name": "iceice666-dsh-desktop",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -76779,6 +76807,13 @@
    "desc": "《牛来》 meme sound board for DeepSeek Harness Web: plays the movie 妈妈 when you send a message and 牛来 when a task"
   },
   {
+   "repo": "jypjypjypjyp/dsh-music-studio",
+   "name": "jypjypjypjyp-dsh-music-studio",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Music composition for DeepSeek Harness: the model writes a score against a bundled composing skill, and a play"
+  },
+  {
    "repo": "keeshakulbida948-tech/dsh-plugin-sticker",
    "name": "keeshakulbida948-tech-dsh-plugin-sticker",
    "verdict": "ok",
@@ -77295,6 +77330,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: bounded-file memory for local agents"
+  },
+  {
+   "repo": "jipika/dsh-todo-float",
+   "name": "jipika-dsh-todo-float",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Float the conversation to-do list as a collapsible card in the top-right corner of the session, switchable bac"
   },
   {
    "repo": "jokerwen666/dsh-bili-taskmaster",
@@ -92088,6 +92130,13 @@
    "desc": "DSH（DeepSeek Harness）插件管理器：在 Web 设置页中按官方/社区分组管理已安装插件（中文描述、一键启停、详情、卸载），并内置 GitHub 插件市场（高收藏/增长最快榜单 + 搜索 + 一键安装）"
   },
   {
+   "repo": "feiwell/dsh-enhance-prompt",
+   "name": "feiwell-dsh-enhance-prompt",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "在 DeepSeek-Harness 桌面版的输入栏一键把草稿改写成更清晰、更具体的提示词：日常办公 / 代码开发 / 设计创意三种收束模式，支持一键还原原文"
+  },
+  {
    "repo": "fsrmqi/dsh-research-kit",
    "name": "fsrmqi-dsh-research-kit",
    "verdict": "ok",
@@ -92506,6 +92555,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Usage statistics for DeepSeek Harness (dsh) — lifetime token dashboard: 52-week activity heatmap (daily/weekly"
+  },
+  {
+   "repo": "hunan36/dsh-git-flow",
+   "name": "hunan36-dsh-git-flow",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Workspace git branch switcher, commit composer with AI-written messages, and push for DeepSeek Harness"
   },
   {
    "repo": "iamaanahmad/everything-codex",
@@ -94783,6 +94839,13 @@
    "desc": "—"
   },
   {
+   "repo": "funcpn/volens",
+   "name": "funcpn-volens",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Keeps a project's design doc in step with its decisions instead of letting it drift: an append-only decision l"
+  },
+  {
    "repo": "fuzz1og/dsh-model-capabilities",
    "name": "fuzz1og-dsh-model-capabilities",
    "verdict": "ok",
@@ -94872,6 +94935,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool for finding and verifying community DSH plugins on GitHub"
+  },
+  {
+   "repo": "greyhackintoch-dev/dsh-month-tokens",
+   "name": "greyhackintoch-dev-dsh-month-tokens",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: a calendar-month token counter for this DSH home and opencode, from local data only,"
   },
   {
    "repo": "grloper/dsh-deep-research",
@@ -95068,6 +95138,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Codex-style left message navigation rail for DeepSeek Harness"
+  },
+  {
+   "repo": "iceice666/dsh-locale-zh-tw",
+   "name": "iceice666-dsh-locale-zh-tw",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 繁體中文（臺灣）語言包，以 zhtw-mcp 校正，可直接從 GitHub 安裝"
   },
   {
    "repo": "icekale/dsh-provider-auto",
@@ -97835,6 +97912,13 @@
    "desc": "Xcode AI integration mode for DeepSeek Harness (dsh) — an agent preset + installer that gives your DSH session"
   },
   {
+   "repo": "jipika/dsh-computer-use-compat",
+   "name": "jipika-dsh-computer-use-compat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Backfill prompt-section order keys that DSH core 0.1.5-rc.2 lacks, so the official DeepSeek Harness computer-u"
+  },
+  {
    "repo": "joao-paulo-santos/dsh-approval-diff",
    "name": "joao-paulo-santos-dsh-approval-diff",
    "verdict": "ok",
@@ -99996,6 +100080,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh plugin: snapshot your workspace every turn and restore the files to any earlier point"
+  },
+  {
+   "repo": "zzh799/dsh-opencode-usage",
+   "name": "zzh799-dsh-opencode-usage",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "nmindz/stupid-comments",
