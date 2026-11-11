@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T11:46:03Z",
+ "generated_at": "2026-11-11T12:01:17Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -69772,6 +69772,13 @@
    "desc": "DeepSeek Harness（DSH）第三方插件精选目录：一键安装，条目均指向插件作者原仓库"
   },
   {
+   "repo": "sayho-pm/dsh-locale-pack",
+   "name": "sayho-pm-dsh-locale-pack",
+   "verdict": "ok",
+   "stars": 16,
+   "desc": "29-language locale pack for the DeepSeek Harness desktop app"
+  },
+  {
    "repo": "SimonMedy/DSH-Mobile",
    "name": "simonmedy-dsh-mobile",
    "verdict": "ok",
@@ -101494,6 +101501,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) plugin: marketplace dashboard for the GitHub dsh-plugin topic - 2815 repos with stats,"
+  },
+  {
+   "repo": "xiaocxiaohai666/dsh-plugin-selfcheck",
+   "name": "xiaocxiaohai666-dsh-plugin-selfcheck",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Terminal-first self-check for a DeepSeek Harness install"
   },
   {
    "repo": "xiaokaizhou/dsh-media-preview",
