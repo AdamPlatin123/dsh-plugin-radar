@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3186）
+# 🔌 Web UI 增强（3187）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2218,6 +2218,7 @@
 - `[未定位]` **zink-ning-lkr-dsh-chat-width** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zjuatri-dsh-browser-plugin](https://github.com/zjuatri/dsh-browser-plugin) ★0 — A DSH browser sidebar plugin with an isolated Chrome profile for every conversation, live interaction, and age
 - 🟩 `[可用]` [zlqd123-dsh-composer-keys](https://github.com/zlqd123/dsh-composer-keys) ★0 — 为 DeepSeek Harness Web 聊天输入框自定义「发送」与「换行」键位：任意组合键自由分配、双预设一键切换、用户设置文档持久化、深浅色主题自适应
+- 🟩 `[可用]` [zmm863-commits-dsh-client-ui-paopaocat](https://github.com/zmm863-commits/dsh-client-ui-paopaocat) ★0 — 🐱 泡泡猫的奇幻之境主题 — 月光森林、彼岸花、流云与睡着的小猫，为 DSH Web 界面打造的奇幻玻璃拟态皮肤
 - 🟩 `[可用]` [zong-technology-dsh-desktop](https://github.com/zong-technology/dsh-desktop) ★0 — DSH Desktop - ?? DeepSeek Harness Web GUI ??????:???? / ????? / ????
 - 🟩 `[可用]` [zoyluoblue-deepseek-harness-billing](https://github.com/zoyluoblue/deepseek-harness-billing) ★0 — DeepSeek Harness (dsh) plugin for DeepSeek API account balance — sidebar indicator, Settings page, and /balanc
 - 🟩 `[可用]` [zpliao123-dsh-ark-quota](https://github.com/zpliao123/dsh-ark-quota) ★0 — Volcengine Ark Coding Plan / Agent Plan quota plugin for DeepSeek Harness (DSH) Web GUI: side float widget + s
