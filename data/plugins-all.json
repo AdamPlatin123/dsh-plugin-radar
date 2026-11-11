@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T22:16:03Z",
+ "generated_at": "2026-11-11T22:31:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10228,6 +10228,13 @@
    "verdict": "incompatible",
    "stars": 62,
    "desc": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills."
+  },
+  {
+   "repo": "thissensen/dsh-agent-studio",
+   "name": "thissensen-dsh-agent-studio",
+   "verdict": "incompatible",
+   "stars": 45,
+   "desc": "可视化地自定义配置 Agent 的提示词（prompt）、工具（tools）、可见技能（skills）、子代理、备用模型，轻松创建团队"
   },
   {
    "repo": "Contexera/dsh-agent-team",
