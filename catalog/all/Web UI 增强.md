@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3054）
+# 🔌 Web UI 增强（3055）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -641,6 +641,7 @@
 - 🟩 `[可用]` [hucj09-dsh-file-mention](https://github.com/hucj09/dsh-file-mention) ★2 — DSH (DeepSeek Harness) Web GUI 插件：输入 @ 引用工作区文件，体验类似 Claude Code 的 @file
 - 🟩 `[可用]` [hucj09-dsh-move-session](https://github.com/hucj09/dsh-move-session) ★2 — DSH Web GUI 跨工作区会话迁移插件： 一键迁移原会话到其他工作区，保留完整上下文、会话历史、Agent 预设与模型选择等，支持保留或归档原会话
 - 🟩 `[可用]` [hutao562-dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) ★2 — DeepSeek Harness plugin: a sidebar tab that takes over the whole page with another DSH instance's Web GUI, plu
+- 🟩 `[可用]` [huzhengbang2007-dsh-orca-glass](https://github.com/huzhengbang2007/dsh-orca-glass) ★2 — Liquid-glass SVG refraction layer for DeepSeek Harness Web + orca-scene skin
 - 🟩 `[可用]` [hytime-dsh-client-ui-shortcuts](https://github.com/hytime/dsh-client-ui-shortcuts) ★2 — Profile-aware keyboard shortcuts for the DeepSeek Harness Web Client
 - 🟩 `[可用]` [icedwatermelonjuice-dsh-provider-veark](https://github.com/IcedWatermelonJuice/dsh-provider-veark) ★2 — —
 - 🟩 `[可用]` [ikashana-dsh-notify](https://github.com/ikashana/dsh-notify) ★2 — Task-monitoring notification plugin for DeepSeek Harness (dsh): turn/end alerts, human-confirmation with timeo
