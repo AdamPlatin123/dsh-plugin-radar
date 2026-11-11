@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3153）
+# 🔌 Web UI 增强（3155）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1834,6 +1834,7 @@
 - 🟩 `[可用]` [nianchen8-dsh-mcp-panel](https://github.com/nianchen8/dsh-mcp-panel) ★0 — Unified MCP server management panel for the DeepSeek Harness web app
 - `[未定位]` **nicholaskin-vision-exp-tile** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [nienieai-dsh-canmv-k230-bridge](https://github.com/nienieai/dsh-canmv-k230-bridge) ★0 — DSH 动态插件：桥接 CanMV K230 开发板（悬浮面板 + 串口运行脚本与预览）
+- 🟩 `[可用]` [nikitafedorov008-dsh-flutter-tools](https://github.com/nikitafedorov008/dsh-flutter-tools) ★0 — Flutter panel for the DeepSeek Harness sidebar: devices, launch, VM Service controls, debug toggles, embedded
 - 🟩 `[可用]` [njuptlzf-dsh-dynamic-background](https://github.com/njuptlzf/dsh-dynamic-background) ★0 — DeepSeek Harness (DSH) 动态背景切换插件：上传 GIF/静态图与内置 12 色纯色调色板，定时丝滑交叉淡入淡出切换页面背景，聊天区自动叠加主题色保护层
 - 🟩 `[可用]` [noexcs-dsh-skin-glass](https://github.com/noexcs/dsh-skin-glass) ★0 — Frosted-glass skin for the DeepSeek Harness web UI: pick any image as background, theme colors extracted from
 - 🟩 `[可用]` [nonchalantludens-dsh-skin-collection](https://github.com/flyingludens/dsh-skin-collection) ★0 — —
@@ -2974,6 +2975,7 @@
 - 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-folder](https://github.com/mastereal/dsh-sidebar-enhancement-folder) ★0 — Reveal the containing folder of any file open in a dsh-better-sidebar editor tab (one button per tab)
 - 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-search](https://github.com/mastereal/dsh-sidebar-enhancement-search) ★0 — Codex-style file search inside the built-in dsh-better-sidebar Explorer tab + per-file-type icons/badges
 - `[未定位]` **meowrium-dsh-sidebar-image-zoom** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [mikazuhe13-ui-dsh-hook](https://github.com/mikazuhe13-ui/dsh-hook) ★0 — DSH (DeepSeek Harness) lifecycle hooks settings panel plugin — 7-event coverage, guard rules with live toggles
 - 🟨 `[不兼容]` [mikegabyte-dsh-vn-biz](https://github.com/mikegabyte/dsh-vn-biz) ★0 — Vietnam business toolkit for DeepSeek Harness (dsh): VietQR quick-link, tax-code (MST) lookup, amount-to-Vietn
 - 🟨 `[不兼容]` [minglink-dsh-better-sidebar](https://github.com/Minglink/dsh-better-sidebar) ★0 — —
 - 🟨 `[不兼容]` [miragelyu-dsh-tui](https://github.com/MirageLyu/dsh-tui) ★0 — —
