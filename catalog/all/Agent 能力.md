@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2326）
+# 🤖 Agent 能力（2330）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -829,6 +829,7 @@
 - 🟩 `[可用]` [dsh-session-html-export](https://github.com/DeltaFROST141/dsh-session-html-export) ★1 — —
 - 🟩 `[可用]` [dsh-skill-lord-serf](https://github.com/ttxl314/dsh-skill-lord-serf) ★1 — —
 - 🟩 `[可用]` [1304836815-dsh-auto-memory](https://github.com/1304836815/dsh-auto-memory) ★0 — DSH 会话级记忆插件：收尾提醒 + MEMORY.md 记忆索引维护 + 实时对话日志 + LLM 摘要压缩，配置面板在 设置→插件
+- 🟩 `[可用]` [1622352030-dsh-session-rescue](https://github.com/1622352030/dsh-session-rescue) ★0 — Session-stall watchdog for DeepSeek Harness: releases a hung turn in place instead of restarting the app.
 - 🟩 `[可用]` [1710782766-dsh-browser-verify](https://github.com/1710782766/dsh-browser-verify) ★0 — Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots au
 - ⬜ `[待定]` [2092372408-pixel-dsh-roadmap-board](https://github.com/2092372408-pixel/dsh-roadmap-board) ★0 — 人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）
 - 🟩 `[可用]` [2432450223-dsh-image-governor](https://github.com/2432450223/dsh-image-governor) ★0 — Session image payload governor for DeepSeek Harness: audit which images a session still ships, pick the ones t
@@ -1959,6 +1960,7 @@
 - 🟨 `[不兼容]` [vibeinging-dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) ★1 — Per-agent on-demand tool discovery and progressive schema disclosure for DeepSeek Harness
 - 🟨 `[不兼容]` [vilicvane-dsh-plugin-turn-memory](https://github.com/vilicvane/dsh-plugin-turn-memory) ★1 — Turn-granular context memory for DeepSeek Harness.
 - 🟨 `[不兼容]` [vinzelles-dsh-prompt-enhancer](https://github.com/Vinzelles/dsh-prompt-enhancer) ★1 — —
+- 🟨 `[不兼容]` [vtxf-dsh-session-delete](https://github.com/vtxf/dsh-session-delete) ★1 — —
 - 🟨 `[不兼容]` [weiyang742-dsh-cross-session-messaging](https://github.com/Weiyang742/dsh-cross-session-messaging) ★1 — —
 - 🟨 `[不兼容]` [witchwarren2344-dsh-mnemosyne-memory](https://github.com/Witchwarren2344/dsh-mnemosyne-memory) ★1 — —
 - 🟨 `[不兼容]` [wr-web-dsh-context-tree](https://github.com/wr-web/dsh-context-tree) ★1 — Reusable trajectory-tree context, exact-turn forks, and bounded cross-session recall for DeepSeek Harness
@@ -2233,6 +2235,7 @@
 - 🟨 `[不兼容]` [sskkde-dsh-oh-my-agent](https://github.com/sskkde/dsh-oh-my-agent) ★0 — oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules
 - 🟨 `[不兼容]` [starstorm-ai-dsh-context-picker](https://github.com/starstorm-ai/dsh-context-picker) ★0 — —
 - 🟨 `[不兼容]` [striveh-dsh-llm-call-inspector](https://github.com/striveh/dsh-llm-call-inspector) ★0 — Local request and response inspector for session-associated DeepSeek Harness LLM calls
+- 🟨 `[不兼容]` [sujalmandal-dsh-tab-plan-toggle](https://github.com/sujalmandal/dsh-tab-plan-toggle) ★0 — Toggle DeepSeek Harness plan mode with Tab in the composer
 - 🟨 `[不兼容]` [sujingkpo-dsh-auto-pass](https://github.com/sujingkpo/dsh-auto-pass) ★0 — 本项目只解决「自动审批通过」，不解决无人值守问题
 - `[未定位]` **sunshiner04-dsh-session-manager** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [superpaigu-dsh-session-manager](https://github.com/SuperPaiGu/dsh-session-manager) ★0 — —
@@ -2305,6 +2308,7 @@
 - 🟨 `[不兼容]` [yummy4727-dsh-context-branch](https://github.com/yummy4727/dsh-context-branch) ★0 — Context-branching conversation tree plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [yuyuyyyyyyyyyyyy-dsh-project-memory](https://github.com/yuyuyyyyyyyyyyyy/dsh-project-memory) ★0 — Host-plane cross-session engineering memory for coding agents on DeepSeek Harness: durable per-project records
 - 🟨 `[不兼容]` [yuzh1090-dsh-voice-prompt-compressor](https://github.com/yuzh1090/dsh-voice-prompt-compressor) ★0 — DSH plugin: compress verbose voice-dictation text into token-efficient prompts — fully local, zero LLM tokens.
+- `[未定位]` **yxsj245-dsh-ob-agent** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [zachshi-ai-newmind](https://github.com/zachshi-ai/newmind) ★0 — 老思想 × 新智能 实验室：每门经典思想精确解决一个 AI 真实问题
 - 🟨 `[不兼容]` [zergtant-dsh-remote-access](https://github.com/zergtant/dsh-remote-access) ★0 — DeepSeek Harness (dsh) 和 Desktop 远程访问插件：提供 TLS、登录认证、会话保护和 HTTP/WebSocket 透明反代，支持局域网及 FRP ，cloudflare隧道等远程访问
 - 🟨 `[不兼容]` [zhang-guo-wen-dsh-claude-compat](https://github.com/zhang-guo-wen/dsh-claude-compat) ★0 — deepseek harness 插件，兼容claude的skill、rules加载规则，mcp配置

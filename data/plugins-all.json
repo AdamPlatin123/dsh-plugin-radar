@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T03:16:02Z",
+ "generated_at": "2026-11-11T03:31:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5664,6 +5664,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 会话级记忆插件：收尾提醒 + MEMORY.md 记忆索引维护 + 实时对话日志 + LLM 摘要压缩，配置面板在 设置→插件"
+  },
+  {
+   "repo": "1622352030/dsh-session-rescue",
+   "name": "1622352030-dsh-session-rescue",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Session-stall watchdog for DeepSeek Harness: releases a hung turn in place instead of restarting the app."
   },
   {
    "repo": "1710782766/dsh-browser-verify",
@@ -12400,6 +12407,13 @@
    "desc": "—"
   },
   {
+   "repo": "vtxf/dsh-session-delete",
+   "name": "vtxf-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "Weiyang742/dsh-cross-session-messaging",
    "name": "weiyang742-dsh-cross-session-messaging",
    "verdict": "incompatible",
@@ -13749,6 +13763,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Local request and response inspector for session-associated DeepSeek Harness LLM calls"
+  },
+  {
+   "repo": "sujalmandal/dsh-tab-plan-toggle",
+   "name": "sujalmandal-dsh-tab-plan-toggle",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Toggle DeepSeek Harness plan mode with Tab in the composer"
   },
   {
    "repo": "sujingkpo/dsh-auto-pass",
@@ -17137,6 +17158,13 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "One-click portable launcher for DeepSeek Harness (dsh) Web UI on Windows"
+  },
+  {
+   "repo": "1azybug/dsh-real-time-computer-use",
+   "name": "1azybug-dsh-real-time-computer-use",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "A plugin used for the real-device evaluation in “On the Capability Boundaries of Turn-Based GUI Agents in Real"
   },
   {
    "repo": "3911ee/dsh-workspace-explorer",
@@ -25364,6 +25392,13 @@
    "desc": "DeepSeek Harness (dsh) plugin: install/remove profile plugins straight from the web GUI (Settings → Plugins →"
   },
   {
+   "repo": "kviiinh/dsh-whale-particles-bg",
+   "name": "kviiinh-dsh-whale-particles-bg",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Animated whale particle background for the DeepSeek Harness (dsh) Web UI - assembling from its scattered shell"
+  },
+  {
    "repo": "lak321/dsh-voice-chat",
    "name": "lak321-dsh-voice-chat",
    "verdict": "ok",
@@ -28029,6 +28064,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Standalone DeepSeek Harness plugin: preview .drawio (mxGraph XML) diagrams in the Web Sidebar.侧边栏预览流程图  .drawi"
+  },
+  {
+   "repo": "zhang-guo-wen/dsh-web-design",
+   "name": "zhang-guo-wen-dsh-web-design",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Web design for DeepSeek Harness: preview and edit HTML elements in the Sidebar"
   },
   {
    "repo": "zhangguiping-xydt/dsh-session-lab",
@@ -32649,6 +32691,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 用量页：本机跨会话 Token 使用统计（Codex 风格），纯只读、不出本机 \\| Local cross-session token usage statistics for the DSH Web GUI"
+  },
+  {
+   "repo": "kahomesl/dsh-chat-diff-summary-legacy",
+   "name": "kahomesl-dsh-chat-diff-summary-legacy",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "输入框上方的本轮改动统计条：一轮对话改了哪些文件、增删多少行 —— 专为 DSH Desktop 2.0.13 / DeepSeek Harness 0.1.5-rc.2 编写"
   },
   {
    "repo": "kimirong/dsher-bbs-plugin",
@@ -74196,6 +74245,13 @@
    "desc": "A deepseek harness plugin for tensorlake sandbox"
   },
   {
+   "repo": "yembors64632/dsh-workbuddy-connect",
+   "name": "yembors64632-dsh-workbuddy-connect",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "把 WorkBuddy / WorkBuddy AI 桌面 App 的订阅模型接入 DeepSeek Harness（个人自用方案）"
+  },
+  {
    "repo": "ywleeo/browser-mcp",
    "name": "ywleeo-browser-mcp",
    "verdict": "incompatible",
@@ -75013,6 +75069,20 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: local routing proxy with a Web settings page — only blocked domains use the upstream proxy, everyt"
+  },
+  {
+   "repo": "yembors64632/dsh-qoder-connect",
+   "name": "yembors64632-dsh-qoder-connect",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把 Qoder CN 桌面 App 的订阅模型接入 DeepSeek Harness（个人自用方案）"
+  },
+  {
+   "repo": "yembors64632/dsh-trae-connect",
+   "name": "yembors64632-dsh-trae-connect",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把 Trae (SOLO CN) 桌面 App 的订阅模型接入 DeepSeek Harness（个人自用方案）"
   },
   {
    "repo": "yijigao/deepseek-harness-desktop",
@@ -83723,6 +83793,13 @@
    "desc": "DSH 插件：网址足迹 — 自动记录从 DSH 打开过的网址（常用排序/最近/收藏/搜索），数据全在本机 · A DeepSeek Harness plugin: local-only URL history."
   },
   {
+   "repo": "wu81313-lab/dsh-company-kb",
+   "name": "wu81313-lab-dsh-company-kb",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH local-folder knowledge base: manual-sync SQLite FTS5 index, Chinese hybrid retrieval (BM25 + CJK bigram +"
+  },
+  {
    "repo": "wuenna/dsh-obsidian-bridge",
    "name": "wuenna-dsh-obsidian-bridge",
    "verdict": "ok",
@@ -88175,6 +88252,13 @@
    "desc": "通过飞书机器人应用，使用飞书客户端，实现其他设备控制dsh"
   },
   {
+   "repo": "ptrel1/dsh-postapi-bridge",
+   "name": "ptrel1-dsh-postapi-bridge",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) 官方标准双半侧扩展插件：为外部机器人（MaiBot / 飞书 / 微信）及 CI/CD 系统提供开箱即用的轻量 HTTP POST / RESTful 任务调度、会话管理与"
+  },
+  {
    "repo": "qgx1992/dsh-notify",
    "name": "qgx1992-dsh-notify",
    "verdict": "ok",
@@ -90161,6 +90245,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wanjiaju3108/dsh-feishu-assistant",
+   "name": "wanjiaju3108-dsh-feishu-assistant",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "飞书私聊机器人就是你的 DSH 助理：配对码绑管理员、审批卡放行、串行排队、回答成卡片回到飞书"
   },
   {
    "repo": "whoisDDD/dsh-approval-notify",
@@ -93997,6 +94088,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Native memory plugin for DeepSeek Harness — auditable facts with evidence chains, powered by StateCore"
+  },
+  {
+   "repo": "yusufameri/dsh-t3-model-picker",
+   "name": "yusufameri-dsh-t3-model-picker",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "T3 Code's model picker for the DeepSeek Harness composer: provider rail, grouped search, favorites and Cmd/Ctr"
   },
   {
    "repo": "YYTbit/dsh-plugin-codex-bridge",
