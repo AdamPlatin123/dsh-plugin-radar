@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T06:01:10Z",
+ "generated_at": "2026-11-11T06:16:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -26904,6 +26904,13 @@
    "desc": "DSH plugin: weather tool + immersive weather theming + FishLogo whale pet (theme/ambient/sound/HUD)"
   },
   {
+   "repo": "shiyan688/dsh-paperdesk",
+   "name": "shiyan688-dsh-paperdesk",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH paper workbench: arXiv search → local library (metadata/PDF/full text) → L1/L2/L3 three-layer reading note"
+  },
+  {
    "repo": "shukookie/dsh-plugin-wallpaper",
    "name": "shukookie-dsh-plugin-wallpaper",
    "verdict": "ok",
@@ -32054,6 +32061,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "s-huizhuy-u/dsh-github-sync",
+   "name": "s-huizhuy-u-dsh-github-sync",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Publish a DeepSeek Harness workspace to GitHub: create the repo, initialize git, commit, and push — with the t"
   },
   {
    "repo": "s1lencewill/dsh-markdown-reader",
@@ -51003,6 +51017,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "noahchalifour/dsh-anthropic-image-clamp",
+   "name": "noahchalifour-dsh-anthropic-image-clamp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: downscale images on Claude requests so many-image requests never hit the 2000px limit"
   },
   {
    "repo": "NormalFix/deepseek-harness-cli",
@@ -78011,6 +78032,13 @@
    "desc": "豹纹守宫旅行桌宠小插件：一只会自己出门旅行、寄回明信片、带回特产的守宫"
   },
   {
+   "repo": "mpetruc/dsh-vcc",
+   "name": "mpetruc-dsh-vcc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Deterministic VCC compaction for DSH"
+  },
+  {
    "repo": "npc-dao/dsh-pet",
    "name": "npc-dao-dsh-pet",
    "verdict": "ok",
@@ -104975,6 +105003,13 @@
    "desc": "Hermes-style persistent memory + self-learning for DeepSeek Harness: MEMORY.md/USER.md stores injected as a sy"
   },
   {
+   "repo": "pgnqukezrdxmhjso/dsh-llm-codebuddy-power",
+   "name": "pgnqukezrdxmhjso-dsh-llm-codebuddy-power",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "功能齐全的 CodeBuddy（WorkBuddy）提供者插件"
+  },
+  {
    "repo": "phoenixyun/dsh-plugin-live-diff",
    "name": "phoenixyun-dsh-plugin-live-diff",
    "verdict": "incompatible",
@@ -105183,6 +105218,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Web-search provider for DeepSeek Harness backed by a SearXNG instance: metasearch with no vendor API key and n"
+  },
+  {
+   "repo": "sozercaniekosmosa/dsh-plugin-npm-run-shell",
+   "name": "sozercaniekosmosa-dsh-plugin-npm-run-shell",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "SPYfighting/dsh-science-plugin",
