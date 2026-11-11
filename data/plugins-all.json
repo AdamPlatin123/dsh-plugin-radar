@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T07:01:01Z",
+ "generated_at": "2026-11-11T07:16:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -49689,6 +49689,20 @@
    "desc": "安全工具面封装：把 WSL 成熟渗透工具（nmap/sqlmap/hashcat 等）封装为结构化 DSH 工具，spawnWsl 模式，窄而深可组合"
   },
   {
+   "repo": "jooey/dsh-usage-kimi-cn",
+   "name": "jooey-dsh-usage-kimi-cn",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "jooey/dsh-usage-openrouter",
+   "name": "jooey-dsh-usage-openrouter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "jorinyang/dsh-hermit",
    "name": "jorinyang-dsh-hermit",
    "verdict": "ok",
@@ -61533,6 +61547,13 @@
    "desc": "—"
   },
   {
+   "repo": "lovezi0/dsh-workspace-acl-allow",
+   "name": "lovezi0-dsh-workspace-acl-allow",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "处理沟槽的dsh Windows 的 DACL（Discretionary Access Control List，自主访问控制列表）必须显式授予的问题"
+  },
+  {
    "repo": "Ramenne/DeepSeek-Harness-Gov",
    "name": "ramenne-deepseek-harness-gov",
    "verdict": "incompatible",
@@ -63106,6 +63127,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Three insurance expert plugins for DeepSeek Harness (DSH) — ops analyst, company analyst, product analyst"
+  },
+  {
+   "repo": "lakeofsky347/dsh-oauth",
+   "name": "lakeofsky347-dsh-oauth",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "一个适用于dsh的通过oauth认证实现模型注入的插件"
   },
   {
    "repo": "lehhair/dsh-html-artifact",
@@ -66823,6 +66851,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jyb114/pocket-bridge",
+   "name": "jyb114-pocket-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A lightweight, encrypted phone interface for DeepSeek Harness on your Windows PC, with an optional DSH Setting"
   },
   {
    "repo": "Jyjays/dsh-websearch-custom",
