@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T08:31:05Z",
+ "generated_at": "2026-11-11T08:45:56Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7752,6 +7752,13 @@
    "desc": "DSH large-session performance plugin: zero-copy fork + projection warmup + chunked materialize"
   },
   {
+   "repo": "pandarayc/dsh-skill-tier",
+   "name": "pandarayc-dsh-skill-tier",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Progressive disclosure for DSH skill collections: one generated index skill stays in the catalog, every member"
+  },
+  {
    "repo": "pbwheel/dsh-agency-market",
    "name": "pbwheel-dsh-agency-market",
    "verdict": "ok",
@@ -7932,6 +7939,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "rajpaulsingh6-stack/dsh-genoffice-captain",
+   "name": "rajpaulsingh6-stack-dsh-genoffice-captain",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: launch GenOffice for GenOffice task-list skills, or designate a Captain session to or"
   },
   {
    "repo": "randerous/dsh-turn-budget",
@@ -8191,6 +8205,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "穷鬼模式 Poor Mode — 供应商感知的分时省钱 DSH agent preset：复杂任务可选「立即执行」或「闲时执行」（DeepSeek 峰谷半价；其他平台可自定义规则）"
+  },
+  {
+   "repo": "sviktor75/dsh-sound-notification",
+   "name": "sviktor75-dsh-sound-notification",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness Web plugin: plays a chime when any session's response finishes (rising tone) or a question/ap"
   },
   {
    "repo": "syroezhkin/dsh-routerai",
@@ -26713,6 +26734,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI"
+  },
+  {
+   "repo": "qingyou002/dsh-git-commit",
+   "name": "qingyou002-dsh-git-commit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH slash command /commit: stages all changes, summarizes the staged diff with the session model, and commits;"
   },
   {
    "repo": "qiqiangvae/dsh-input-enhancer",
@@ -100073,6 +100101,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Google Jules as a DeepSeek Harness capability — delegate coding tasks to the remote agent, watch them in the b"
+  },
+  {
+   "repo": "rezon-aki/dsh-doc-kit",
+   "name": "rezon-aki-dsh-doc-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "文档体系体检：只读工具 doc_lint（注入层配额 / 被禁措辞 / 索引路径 / 是否进 git）+ 随包 doc-governance 技能"
   },
   {
    "repo": "Richardcoder849/flomo-dsh-plugin",
