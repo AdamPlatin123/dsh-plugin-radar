@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T01:16:12Z",
+ "generated_at": "2026-11-11T01:31:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8025,6 +8025,13 @@
    "desc": "Unofficial thin, source-driven Agent Skill for DeepSeek Harness plugin development"
   },
   {
+   "repo": "sunwindy91/spa-api-extract",
+   "name": "sunwindy91-spa-api-extract",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Agent Skill: extract data from JS single-page apps via curl+grep+python when WebFetch fails (timeout / obfusca"
+  },
+  {
    "repo": "sunzeJAVA/dsh-session-importer",
    "name": "sunzejava-dsh-session-importer",
    "verdict": "ok",
@@ -10886,6 +10893,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "xueccci/dsh-prompt-lab",
+   "name": "xueccci-dsh-prompt-lab",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Agent-structured prompt optimizer for DeepSeek Harness (dsh)"
   },
   {
    "repo": "yimeng-dev/dsh-traffic-light",
@@ -18994,6 +19008,13 @@
    "desc": "Universal on-screen translator for DeepSeek Harness Web UI: translates UI text, attributes, Shadow DOM, and if"
   },
   {
+   "repo": "nabin-qq273274877/dsh-database-manager",
+   "name": "nabin-qq273274877-dsh-database-manager",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH Web GUI 数据库管理面板：统一管理 SQLite / MySQL / Redis，并提供受审批保护的 agent 工具"
+  },
+  {
    "repo": "nicecx/dsh-relay",
    "name": "nicecx-dsh-relay",
    "verdict": "ok",
@@ -22879,6 +22900,13 @@
    "desc": "为手掌重做 DeepSeek Harness · A mobile shell for DSH — not a scaled-down desktop."
   },
   {
+   "repo": "yueyexiayu/dsh-chrome",
+   "name": "yueyexiayu-dsh-chrome",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH Chrome扩展桥：复用当前浏览器及登录态，在后台会话分组中读取、操作和截图；不通过CDP另开专用窗口"
+  },
+  {
    "repo": "Yugitan/dsh-skin",
    "name": "yugitan-dsh-skin",
    "verdict": "ok",
@@ -22926,6 +22954,20 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "为 DeepSeek Harness 的 Web GUI 加一道账号密码门：每次打开 DSH Web 都必须先登录；登录令牌有效期 12 小时；令牌过期被登出时，后台正在运行的任务完全不受影响，重新登录后一切还在"
+  },
+  {
+   "repo": "zanechen6/dsh-assistant-skin",
+   "name": "zanechen6-dsh-assistant-skin",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 助理/秘书/女友皮肤：黑蓝暗调主题 + 会话区助理形象（静图 / 无缝循环片段）+ 形象切换与动作调度"
+  },
+  {
+   "repo": "zdz6215591/dsh-theme-doubao",
+   "name": "zdz6215591-dsh-theme-doubao",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "豆包主题 — DeepSeek Harness Web 客户端主题插件"
   },
   {
    "repo": "zemanzhang809/dsh-stt-plugin",
@@ -27072,6 +27114,13 @@
    "desc": "DSH Web 侧栏会话分组：可嵌套、可自定义颜色图标的文件夹 \\| Session folders for the DeepSeek Harness Web sidebar"
   },
   {
+   "repo": "wakeup595626-cmyk/dsh-token-ledger",
+   "name": "wakeup595626-cmyk-dsh-token-ledger",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 全局累积 token 用量账本：实时捕获 + 历史回填，悬浮面板与 HTTP API \\| Provider-agnostic cumulative token usage ledger for DeepSeek"
+  },
+  {
    "repo": "Waldsatte/dsh-theme-taojian",
    "name": "waldsatte-dsh-theme-taojian",
    "verdict": "ok",
@@ -30418,6 +30467,13 @@
    "desc": "Run configuration management for DeepSeek Harness (DSH) — IDEA-style run control for the web GUI: reusable LLM"
   },
   {
+   "repo": "xingzhen199186/dsh-mini-remote",
+   "name": "xingzhen199186-dsh-mini-remote",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "本插件适应多种使用场景，将注意力支配权交还给用户"
+  },
+  {
    "repo": "xinspark/DSH-Basic-Right-Sidebar",
    "name": "xinspark-dsh-basic-right-sidebar",
    "verdict": "incompatible",
@@ -32182,6 +32238,13 @@
    "desc": "DSH Web GUI 的 Git 面板插件：在会话界面的标签栏里，紧挨「对话 / 轨迹」再加一个 Git 页， 用来完成日常的查看改动、暂存、提交、看 diff、翻历史、切分支和推拉"
   },
   {
+   "repo": "fengchang618gmail/dsh-course-subtitles",
+   "name": "fengchang618gmail-dsh-course-subtitles",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: fetch course/video captions (DeepLearning.AI, YouTube, Bilibili, Coursera), rebuild whole sentence"
+  },
+  {
    "repo": "fonlan/dsh-quick-commands",
    "name": "fonlan-dsh-quick-commands",
    "verdict": "incompatible",
@@ -33447,6 +33510,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Codex-style DSH right-sidebar browser preview, element annotations, context notes, and debugging tools."
+  },
+  {
+   "repo": "zhxnix/dsh-wx-preview",
+   "name": "zhxnix-dsh-wx-preview",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Portable DSH plugin for native WeChat Mini Program discovery, local preview, debugging, source mapping, and si"
   },
   {
    "repo": "zmm863-commits/dsh-paopaocat-suite",
@@ -38445,6 +38515,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "webkubor/dsh-env-inspector",
+   "name": "webkubor-dsh-env-inspector",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH 环境自检与端口运维插件：看清电脑装了什么，一键释放残留占用开发端口的进程"
   },
   {
    "repo": "weien666/dsh-conversation-density-map",
@@ -69742,13 +69819,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Native Tauri v2 desktop shell for the DeepSeek Harness web GUI · 基于 Tauri v2 的 D"
-  },
-  {
-   "repo": "xingzhen199186/dsh-mini-remote",
-   "name": "dsh-mini-remote",
-   "verdict": "untested",
-   "stars": 2,
-   "desc": "极简手机遥控：把电脑上的 DSH 会话遥控到手机上，手机端只显示用户发出的指令和 AI 最后的结论，工具调用与读写操作、思考过程都留在电脑；内网 / Tailscale / Cloudflare 隧道三条连接路径并存，各配二维码与密码"
   },
   {
    "repo": "1727533196/deepseek-harness-desktop",
@@ -103160,6 +103230,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "fufuyin/dsh-prompt-workbench",
+   "name": "fufuyin-dsh-prompt-workbench",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Prompt rewrite workbench for DeepSeek Harness: four rewrite modes, cancellable streaming output, and a token-l"
   },
   {
    "repo": "gao-gao-zai/dsh-tool-web-search",
