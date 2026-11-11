@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3129）
+# 🔌 Web UI 增强（3130）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1000,6 +1000,7 @@
 - 🟩 `[可用]` [jonah791-dsh-growth-profile](https://github.com/jonah791/dsh-growth-profile) ★1 — 养成档案：聚合当前状态/技能/里程碑/周目/主人反馈/生命核心为自我呈现视图（30s 实时轮询 + 精致面板；只读，被动哲学）
 - 🟩 `[可用]` [jsdvjx-dshn](https://github.com/jsdvjx/dshn) ★1 — DeepSeek Harness Network — public forwarding for a local dsh web UI over *.ds.hn: a dsh plugin + self-hosted W
 - 🟩 `[可用]` [jueming2049-deepseek-skin-studio](https://github.com/JueMing2049/deepseek-skin-studio) ★1 — —
+- 🟩 `[可用]` [juliankang4-dsh-locale-ko](https://github.com/juliankang4/dsh-locale-ko) ★1 — Korean (한국어) language pack for the DeepSeek Harness (dsh) Web UI and desktop app
 - 🟩 `[可用]` [jungeer-dsh-theme-stardew](https://github.com/jungeer/dsh-theme-stardew) ★1 — —
 - ⬜ `[待定]` [kaerf15-dsh-geek-ui](https://github.com/kaerf15/dsh-geek-ui) ★1 — DSH Geek UI — dsh web 极客增强插件集合（页头重排 / 极客侧栏 / 归档管理）
 - 🟩 `[可用]` [kaixinbaba-dsh-session-activity](https://github.com/kaixinbaba/dsh-session-activity) ★1 — DSH sidebar session organization by activity, attention state, and Focus mode

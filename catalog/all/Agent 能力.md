@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2461）
+# 🤖 Agent 能力（2463）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1045,6 +1045,7 @@
 - 🟩 `[可用]` [hiseax-dsh-agent-outputs-reader](https://github.com/HiSeax/dsh-agent-outputs-reader) ★0 — —
 - 🟩 `[可用]` [hjj588-dsh-memory-vault](https://github.com/hjj588/dsh-memory-vault) ★0 — —
 - 🟩 `[可用]` [hmlyx-dsh-memory](https://github.com/hmlyx/dsh-memory) ★0 — 简单的插件，让你的每个 AI 记录经验和记忆
+- 🟩 `[可用]` [hoshino114-dsh-skill-hub](https://github.com/hoshino114/dsh-skill-hub) ★0 — DSH Skill Hub - browse and manage local Agent Skills, and browse/download skills from ClawHub, ModelScope and
 - ⬜ `[待定]` [houyongsheng-deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) ★0 — The coding agent that grows its own tools
 - 🟩 `[可用]` [hrxspace-dsh-session-sweeper](https://github.com/HrxSpace/dsh-session-sweeper) ★0 — —
 - `[未定位]` **huaimaocy-dsh-agent-hub** — 占位待复核，判定暂不展示
@@ -1078,6 +1079,7 @@
 - 🟩 `[可用]` [dsh-tmuxctl](https://github.com/Jesse-njx/dsh-tmuxctl) ★0 — dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run
 - 🟩 `[可用]` [jhlee111-dsh-agent-browser](https://github.com/jhlee111/dsh-agent-browser) ★0 — —
 - 🟩 `[可用]` [jianghu-lao-yao-sh-volume-knob](https://github.com/jianghu-lao-yao/sh-volume-knob) ★0 — Read the agent's newest reply aloud and control volume from the DSH composer.
+- 🟩 `[可用]` [jianyuepei-dsh-session-mindmap](https://github.com/jianyuepei/dsh-session-mindmap) ★0 — DSH plugin: turn a session into a self-contained interactive HTML mind map.
 - ⬜ `[待定]` [jiawood2006-construction-project-management](https://github.com/jiawood2006/construction-project-management) ★0 — Generic construction/engineering project full-lifecycle management skill (ITO-OTR, PMBOK)
 - ⬜ `[待定]` [jiumengya-dsh-prompt-refine](https://github.com/jiumengya/dsh-prompt-refine) ★0 — DeepSeek Harness prompt-engineering plugin (dsh-prompt-refine): refine vague requests into precise instruction
 - 🟩 `[可用]` [joao-paulo-santos-dsh-granular-settings](https://github.com/joao-paulo-santos/dsh-granular-settings) ★0 — Granular settings platform: one Granular Settings page (Workspace/Session/Plugin tabs) where other DSH plugins

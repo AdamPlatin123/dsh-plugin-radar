@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T14:31:07Z",
+ "generated_at": "2026-11-11T14:45:55Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6814,6 +6814,13 @@
    "desc": "简单的插件，让你的每个 AI 记录经验和记忆"
   },
   {
+   "repo": "hoshino114/dsh-skill-hub",
+   "name": "hoshino114-dsh-skill-hub",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Skill Hub - browse and manage local Agent Skills, and browse/download skills from ClawHub, ModelScope and"
+  },
+  {
    "repo": "houyongsheng/deepseek-harness-molt",
    "name": "houyongsheng-deepseek-harness-molt",
    "verdict": "pending",
@@ -6994,6 +7001,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Read the agent's newest reply aloud and control volume from the DSH composer."
+  },
+  {
+   "repo": "jianyuepei/dsh-session-mindmap",
+   "name": "jianyuepei-dsh-session-mindmap",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: turn a session into a self-contained interactive HTML mind map."
   },
   {
    "repo": "jiawood2006/construction-project-management",
@@ -21638,6 +21652,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "juliankang4/dsh-locale-ko",
+   "name": "juliankang4-dsh-locale-ko",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Korean (한국어) language pack for the DeepSeek Harness (dsh) Web UI and desktop app"
   },
   {
    "repo": "jungeer/dsh-theme-stardew",
@@ -44563,6 +44584,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "lihanhong2002/dsh-minimax-multimodal",
+   "name": "lihanhong2002-dsh-minimax-multimodal",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "MiniMax multimodal tools for DeepSeek Harness: image understanding, image generation, speech synthesis, and tr"
   },
   {
    "repo": "limochaishang/crash-guard-dsh",
@@ -77085,6 +77113,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH(DeepSeek Harness)插件仓库:增强主页、模型选择器增强、费用预估等插件与一键安装脚本"
+  },
+  {
+   "repo": "ladyya0306/dsh-office-plugin",
+   "name": "ladyya0306-dsh-office-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH办公程序复用与精确填报插件；当前rc7，提供Windows离线安装方式"
   },
   {
    "repo": "Lanzgale/dsh-repo-browser",
