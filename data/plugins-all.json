@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T12:01:17Z",
+ "generated_at": "2026-11-11T12:16:49Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3389,6 +3389,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Recall and re-run the current session's command history with ↑/↓ keys in the DSH Web composer."
+  },
+  {
+   "repo": "yang208691-source/dsh-nutstore-backup",
+   "name": "yang208691-source-dsh-nutstore-backup",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "en: 'Backs up DeepSeek Harness sessions, plugin config and workspace memory to Nutstore (Jianguoyun) over WebD"
   },
   {
    "repo": "yangdongzhen590/dsh-knj-scheduler",
@@ -28626,6 +28633,13 @@
    "desc": "A source-first Windows desktop shell for DeepSeek Harness, built with WPF and WebView2."
   },
   {
+   "repo": "yunliya-cuter/dsh-warm-ui",
+   "name": "yunliya-cuter-dsh-warm-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web GUI 暖色主题 + 液态玻璃材质 + 输入栏工具行整形（客户端插件包）"
+  },
+  {
    "repo": "yuqisun/dsh-theme-machine",
    "name": "yuqisun-dsh-theme-machine",
    "verdict": "ok",
@@ -33239,6 +33253,13 @@
    "desc": "DSH plugin: declare whether a configured third-party model accepts image (multimodal) input"
   },
   {
+   "repo": "d0ublecl1ck/dsh-session-radar",
+   "name": "d0ublecl1ck-dsh-session-radar",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 侧边栏的未读 + 待办 + 状态读数中枢：跨重启也不丢的未读，⌘⇧J / ⌘⇧I 顺序定位，⌘⇧K 弹出未读与待决策总览；六项会话状态读数每个图标可点，点了跳到下一个同类会话"
+  },
+  {
    "repo": "damlys99/dsh-queue-reorder",
    "name": "damlys99-dsh-queue-reorder",
    "verdict": "incompatible",
@@ -33384,6 +33405,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "gh-gongjin/dsh-plugin-appearance",
+   "name": "gh-gongjin-dsh-plugin-appearance",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH (DeepSeek Harness) 外观插件：8 张内置配色皮肤走宿主官方主题通道，brand slot 换侧栏/首屏标志与名称行（内置六枚或用户自己的图片）"
   },
   {
    "repo": "ghbhiee/dsh-plugin-tui",
