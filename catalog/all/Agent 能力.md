@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2298）
+# 🤖 Agent 能力（2299）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2138,6 +2138,7 @@
 - 🟨 `[不兼容]` [maci0-dsh-ponytail](https://github.com/maci0/dsh-ponytail) ★0 — Ponytail (lazy senior dev mode) for DeepSeek Harness: six skills, an always-on anti-over-engineering ruleset,
 - 🟨 `[不兼容]` [makechange-dsh-session-note](https://github.com/makechange/dsh-session-note) ★0 — —
 - `[未定位]` **manoloremiddi-dsh-prompt-library** — 占位待复核，判定暂不展示
+- `[未定位]` **marquez807-dsh-experience-memory** — 占位待复核，判定暂不展示
 - `[空仓监测]` **martinkot9336299-cell-dsh-session-atlas** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [masknull-dsh-workspace-default-path](https://github.com/masknull/dsh-workspace-default-path) ★0 — DSH 插件：添加工作区时记住上次使用的目录，下次打开浏览对话框直接定位（预填 + 自动记忆，官方流程不动）
 - `[未定位]` **meliodascz89-dsh-agent-voice** — 占位待复核，判定暂不展示
