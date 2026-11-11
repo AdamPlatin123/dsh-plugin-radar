@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T20:16:04Z",
+ "generated_at": "2026-11-11T21:46:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -29107,6 +29107,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "为 DeepSeek Harness Web 聊天输入框自定义「发送」与「换行」键位：任意组合键自由分配、双预设一键切换、用户设置文档持久化、深浅色主题自适应"
+  },
+  {
+   "repo": "zmm863-commits/dsh-client-ui-paopaocat",
+   "name": "zmm863-commits-dsh-client-ui-paopaocat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "🐱 泡泡猫的奇幻之境主题 — 月光森林、彼岸花、流云与睡着的小猫，为 DSH Web 界面打造的奇幻玻璃拟态皮肤"
   },
   {
    "repo": "zong-technology/dsh-desktop",
