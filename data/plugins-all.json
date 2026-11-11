@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T06:16:05Z",
+ "generated_at": "2026-11-11T06:30:57Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -14073,6 +14073,27 @@
    "desc": "Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live"
   },
   {
+   "repo": "win10ogod/dsh-agent-browser",
+   "name": "win10ogod-dsh-agent-browser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "win10ogod/dsh-fount-memory",
+   "name": "win10ogod-dsh-fount-memory",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Fount-inspired memory plugin for DeepSeek Harness with in-turn recall and no autonomous conversation turns"
+  },
+  {
+   "repo": "win10ogod/dsh-fount-reality",
+   "name": "win10ogod-dsh-fount-reality",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Autonomous screen attention and private background Agent loop for DeepSeek Harness"
+  },
+  {
    "repo": "wjingshan/dsh-plan-guard",
    "name": "wjingshan-dsh-plan-guard",
    "verdict": "incompatible",
@@ -14169,6 +14190,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "一个用于M/M/1和M/M/c队列系统模拟和分析的Model Context Protocol服务器，提供全面的资源、工具和提示"
+  },
+  {
+   "repo": "xbzbing/dsh-decision-layer",
+   "name": "xbzbing-dsh-decision-layer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A structured decision layer for the DeepSeek Harness agent loop, backed by a pluggable adjudication model (dev"
   },
   {
    "repo": "xianshu-virtuous/dsh-whale-companion",
@@ -18159,6 +18187,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "xlxs123/dsh-session-multiselect",
+   "name": "xlxs123-dsh-session-multiselect",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH Desktop 插件：会话多选面板 —— 搜索/分组/筛选、批量删除（回收站 7 天可恢复）、恢复、置顶/归档、键盘操作、复制清单"
   },
   {
    "repo": "xulelenlp/dsh-web-artifact-designer",
@@ -77262,6 +77297,13 @@
    "desc": "—"
   },
   {
+   "repo": "yvhcel888/slide-gauge-pygame",
+   "name": "yvhcel888-slide-gauge-pygame",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "滑动测量仪 pygame 原版：拖动角色显示状态，边界彩蛋 · DSH 插件的源游戏"
+  },
+  {
    "repo": "ZhanboHua/dsh-pet",
    "name": "zhanbohua-dsh-pet",
    "verdict": "ok",
@@ -78107,6 +78149,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Conversation-aware TRAE Bao digital pet for DeepSeek Harness Desktop"
+  },
+  {
+   "repo": "sutrasky/dsh-whale-sensei",
+   "name": "sutrasky-dsh-whale-sensei",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "鲸师：把课程包变成可教的课程页 + 知识星图 —— 装进 DeepSeek Harness 工具面的教学插件（17 个能力模块 / 15 个工具 / 零运行时依赖 · MIT）"
   },
   {
    "repo": "syfun/dsh-dogpet",
@@ -85730,6 +85779,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Vault observation plugin for DeepSeek Harness: Obsidian vault metadata snapshot + edit stats + observation pan"
+  },
+  {
+   "repo": "1497105876/dsh-text-inject",
+   "name": "1497105876-dsh-text-inject",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh 插件：在官方设置页把文字注入系统提示词 / 会话上下文，独立文件存储，热加载 + 历史备份 · Inject text into the DSH system prompt or session context"
   },
   {
    "repo": "666emmm/dsh-file-upload",
@@ -105449,6 +105505,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "win10ogod/dsh-evidence-first-knowledge-work",
+   "name": "win10ogod-dsh-evidence-first-knowledge-work",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Evidence-first knowledge work skill packaged as a DeepSeek Harness plugin"
   },
   {
    "repo": "winyh/dsh-idea",
