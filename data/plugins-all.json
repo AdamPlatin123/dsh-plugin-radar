@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T08:01:04Z",
+ "generated_at": "2026-11-11T08:16:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4364,6 +4364,13 @@
    "desc": "—"
   },
   {
+   "repo": "jipika/dsh-preset-hotswap",
+   "name": "jipika-dsh-preset-hotswap",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Switch the agent preset (standard / PTC / cordis) of an already-started conversation from the session header"
+  },
+  {
    "repo": "JJXjustin/dsh-session-rewind",
    "name": "jjxjustin-dsh-session-rewind",
    "verdict": "ok",
@@ -6084,6 +6091,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "catsenior507/dsh-command-center",
+   "name": "catsenior507-dsh-command-center",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Command center for DeepSeek Harness: watch running background jobs in one panel, tell a long silence apart fro"
   },
   {
    "repo": "cayan0x/dsh-fold-context",
@@ -9633,6 +9647,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Daily session report generator for DeepSeek Harness with one-click flomo sync: AI-narrated daily/weekly/monthl"
+  },
+  {
+   "repo": "zhengjy01/dsh-mcp-manager",
+   "name": "zhengjy01-dsh-mcp-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "MCP server manager for DeepSeek Harness: add, edit, enable and test stdio / Streamable HTTP MCP servers from t"
   },
   {
    "repo": "zhengjy01/dsh-restart",
@@ -16957,6 +16978,13 @@
    "desc": "Unofficial community fork of the Aqua glassmorphism theme for the DeepSeek Harness web UI (upstream: WYH666666"
   },
   {
+   "repo": "b8yg7vjstj-ctrl/dsh-llamacpp-bridge",
+   "name": "b8yg7vjstj-ctrl-dsh-llamacpp-bridge",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DeepSeek Harness plugin: local llama.cpp (llama-server) as a first-class model provider — process/router manag"
+  },
+  {
    "repo": "BeiZi6/dsh-theme-plugin",
    "name": "dsh-theme-plugin",
    "verdict": "ok",
@@ -23761,6 +23789,13 @@
    "desc": "DSH web 插件：在 dsh-better-sidebar 侧边栏内把 Markdown 富渲染为预览（代码高亮 / 目录 / 一键复制）"
   },
   {
+   "repo": "2211431960/dsh-wallpaper-theme",
+   "name": "2211431960-dsh-wallpaper-theme",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Wallpaper + liquid glass theme for DeepSeek Harness"
+  },
+  {
    "repo": "2275803244-cpu/dsh-model-switcher",
    "name": "2275803244-cpu-dsh-model-switcher",
    "verdict": "ok",
@@ -23780,6 +23815,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Personal usage analytics & activity dashboard for the DeepSeek Harness (dsh) web GUI: token totals, contributi"
+  },
+  {
+   "repo": "240xu/dsh-session-search",
+   "name": "240xu-dsh-session-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH web plugin: cross-session full-text search — incremental index of all session logs, fenced API, agent tool"
   },
   {
    "repo": "241793/DSH-Win-GUI",
@@ -24256,6 +24298,20 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "配色方案，作为 DSH Web GUI 皮肤（ 的 v2 纯资产皮肤目录）"
+  },
+  {
+   "repo": "cnyc6n/dsh-uia-agent",
+   "name": "cnyc6n-dsh-uia-agent",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Windows UI Automation agent for DeepSeek Harness: enumerate/snapshot/find/click/set_text/scroll/drag/swipe/scr"
+  },
+  {
+   "repo": "cnyc6n/uia-agent",
+   "name": "cnyc6n-uia-agent",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Windows UI Automation agent - single C++ exe (enumerate/snapshot/find/click/set_text/scroll/drag/swipe/screens"
   },
   {
    "repo": "Couioly/plugin-audio-alert",
@@ -25502,6 +25558,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin to automatically rebuild model catalogues for OpenRouter, OpenCode, Fireworks, etc"
+  },
+  {
+   "repo": "jr-create/dsh-prompt-wisp",
+   "name": "jr-create-dsh-prompt-wisp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "提示词精灵 — 在 DeepSeek Harness 输入框旁一键把草稿优化成结构化提示词 / One-click prompt optimization button for the DeepSeek Harness"
   },
   {
    "repo": "jsoncode/dsh-get-balance",
@@ -65768,6 +65831,13 @@
    "desc": "A DeepSeek Harness plugin for Windows: writes a self-contained one-click launcher, and refuses to start a seco"
   },
   {
+   "repo": "643048695/dsh-compaction-route",
+   "name": "643048695-dsh-compaction-route",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pick the DeepSeek Harness conversation-compaction summarizer in the Web settings page, and give it a fallback"
+  },
+  {
    "repo": "863683348/dsh-plugin-quality-hub",
    "name": "863683348-dsh-plugin-quality-hub",
    "verdict": "incompatible",
@@ -71212,6 +71282,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "deepseek-harness desktop极简多功能桌面客户端"
+  },
+  {
+   "repo": "crossoverthere/dsh-whale-desktop",
+   "name": "crossoverthere-dsh-whale-desktop",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "桌面级鲸鱼娘桌宠：基于dsh-whale-widget（DSH 插件版），做成透明置顶、可点击穿透的 Windows 桌面挂件（Electron）"
   },
   {
    "repo": "csthinker/deepseek-harness-desktop",
@@ -81481,13 +81558,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A plugin marketplace next to the composer + button in the DeepSeek Harness Web G"
-  },
-  {
-   "repo": "zhengjy01/dsh-mcp-manager",
-   "name": "dsh-mcp-manager",
-   "verdict": "untested",
-   "stars": 0,
-   "desc": "DSH 的 MCP 服务器管理器：在 Web 设置页或通过 Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，连接与断开都在运行时完成、无需重启"
   },
   {
    "repo": "cheeri020/dsh-lineup-manager",
@@ -98122,6 +98192,13 @@
    "desc": "Inline local image preview for DeepSeek Harness - img_serve tool + img fence, renders PNG/JPG/WebP/GIF/AVIF/BM"
   },
   {
+   "repo": "dianziboluo/dsh-cost-meter-bai-credits",
+   "name": "dianziboluo-dsh-cost-meter-bai-credits",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Show your B.AI Credits balance inside dsh-cost-meter"
+  },
+  {
    "repo": "Diluka/dsh-side-session",
    "name": "diluka-dsh-side-session",
    "verdict": "ok",
@@ -101466,6 +101543,13 @@
    "verdict": "incompatible",
    "stars": 75,
    "desc": "—"
+  },
+  {
+   "repo": "aa2246740/dsh-model-fusion",
+   "name": "aa2246740-dsh-model-fusion",
+   "verdict": "incompatible",
+   "stars": 74,
+   "desc": "Fusion for DeepSeek Harness: a frontier Lead plans and reviews, a much cheaper Sidekick writes the code — fron"
   },
   {
    "repo": "chiphoton/DeepSeek-Harness-Video-Director",
