@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T07:30:56Z",
+ "generated_at": "2026-11-11T07:46:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3781,6 +3781,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek balance & model cost for DSH: official peak/off-peak pricing, per-model and per-session stats."
+  },
+  {
+   "repo": "borgez/dsh-project-mcp",
+   "name": "borgez-dsh-project-mcp",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Per-project MCP servers for DeepSeek Harness — project-declared MCP mounts, scoped to sessions working in that"
   },
   {
    "repo": "BrambleXu/dsh-prompt-profile",
@@ -10746,6 +10753,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "Local personal memory and knowledge management for DeepSeek Harness"
+  },
+  {
+   "repo": "windwhiterain/dsh-compaction-threshold",
+   "name": "windwhiterain-dsh-compaction-threshold",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "Per-session automatic compaction threshold for DeepSeek Harness: a compaction backend whose trigger percentage"
   },
   {
    "repo": "YeqingTang/dsh-session-flow",
@@ -22634,6 +22648,13 @@
    "desc": "在 DSH 侧边栏（dsh-better-sidebar）连接远程主机的 SSH 终端：逐步查看 agent 命令与输出，内置 ssh_connect / ssh_exec 等工具，记录本机持久化"
   },
   {
+   "repo": "sunzphy/dsh-sidebar-status",
+   "name": "sunzphy-dsh-sidebar-status",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek account wallet balance and the live peak/off-peak billing period, in a fixed status region at the sid"
+  },
+  {
    "repo": "sutanna233/dsh-voice-input",
    "name": "sutanna233-dsh-voice-input",
    "verdict": "ok",
@@ -30222,6 +30243,13 @@
    "desc": "—"
   },
   {
+   "repo": "ethanwong-hk/dsh-thinking-guard",
+   "name": "ethanwong-hk-dsh-thinking-guard",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Circuit breaker for pure-thinking idle loops in DSH agent turns — triple fusing on timeout, reasoning volume,"
+  },
+  {
    "repo": "fiven577/dsh-whale-widget-sankou",
    "name": "fiven577-dsh-whale-widget-sankou",
    "verdict": "incompatible",
@@ -33694,6 +33722,13 @@
    "desc": "—"
   },
   {
+   "repo": "shuiiiiimu/dsh-selfharness",
+   "name": "shuiiiiimu-dsh-selfharness",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 上的 Harness 层自我改进插件"
+  },
+  {
    "repo": "shuiiiiimu/dsh-stock-portfolio",
    "name": "shuiiiiimu-dsh-stock-portfolio",
    "verdict": "incompatible",
@@ -33881,6 +33916,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "weibaohui/dsh-matrix",
+   "name": "weibaohui-dsh-matrix",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh 插件 · 黑客帝国数字雨：对话窗口铺上经典字符雨背景，token 原文掺进雨里，雨势随 agent 活跃度起伏"
   },
   {
    "repo": "weibaohui/dsh-plugin-scheduled-items",
@@ -90546,6 +90588,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "ChatGPT Codex OAuth authentication center for DeepSeek Harness 0.1.1-rc.2"
+  },
+  {
+   "repo": "3289192-bot/dsh-adaptive-max-tokens",
+   "name": "3289192-bot-dsh-adaptive-max-tokens",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 动态输出额度插件：随上下文增长调整 maxTokens，压缩后恢复额度"
   },
   {
    "repo": "4t145/dsh-lark-connector",
