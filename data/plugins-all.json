@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T09:01:05Z",
+ "generated_at": "2026-11-11T09:16:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6224,6 +6224,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Run pi coding-agent extensions (ExtensionAPI) inside DeepSeek Harness via a cordis plugin bridge"
+  },
+  {
+   "repo": "d0ublecl1ck/dsh-skill-dollar",
+   "name": "d0ublecl1ck-dsh-skill-dollar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Invoke DeepSeek Harness skills with a $name gesture — conflict-free with / commands, with composer completion"
   },
   {
    "repo": "d3vmeh/dsh-context-budget",
@@ -32399,6 +32406,13 @@
    "desc": "DSH Web GUI full-screen Markdown reader with GFM, outline, KaTeX, Mermaid, and relative resource navigation."
   },
   {
+   "repo": "shinelon/dsh-workspace-group-plugin",
+   "name": "shinelon-dsh-workspace-group-plugin",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Custom workspace groups for the DSH sidebar: group directories, drag to regroup/reorder, inline search and ses"
+  },
+  {
    "repo": "siruignaw-sys/dsh-tool-bandit-search",
    "name": "siruignaw-sys-dsh-tool-bandit-search",
    "verdict": "incompatible",
@@ -33069,6 +33083,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Reorder queued messages inside the DeepSeek Harness Web GUI queue dock: grip-and-drag plus move buttons, witho"
+  },
+  {
+   "repo": "dao-awa/dsh-computer-use-native",
+   "name": "dao-awa-dsh-computer-use-native",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Windows computer use for DeepSeek Harness, built for a vision model: screenshot the real desktop, read the int"
   },
   {
    "repo": "ddowbnac/dsh-claude-auth-proxy",
@@ -46798,6 +46819,13 @@
    "desc": "A DeepSeek Harness (dsh) plugin that greets you at the start of every session with varied wording, and remembe"
   },
   {
+   "repo": "yonchicy/dsh-composer-modenter",
+   "name": "yonchicy-dsh-composer-modenter",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness web plugin: Enter for newline, Cmd/Ctrl+Enter to send"
+  },
+  {
    "repo": "YooRarely/dsh-open-explorer",
    "name": "yoorarely-dsh-open-explorer",
    "verdict": "ok",
@@ -60453,6 +60481,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yzlin499/dsh-yzlin499-easy-plugins",
+   "name": "yzlin499-dsh-yzlin499-easy-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "非常好的小工具，毛坯房DSH可以看看"
   },
   {
    "repo": "yzsnstotz/hanamesh-usage",
@@ -83065,6 +83100,13 @@
    "desc": "Draggable animated floating companion plugin for DeepSeek Harness (dsh web)"
   },
   {
+   "repo": "feihong-li/dsh-abaqus",
+   "name": "feihong-li-dsh-abaqus",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin: drive Abaqus CAE modelling from a declarative JSON spec, with a verified free Calculi"
+  },
+  {
    "repo": "Fisfzy/zotero-wave-rag",
    "name": "zotero-wave-rag",
    "verdict": "pending",
@@ -83770,6 +83812,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 的引注插件：@ 历史会话、圈选前文加批注、打开这一轮写出的文件"
+  },
+  {
+   "repo": "winditer/dsh-paste-spill",
+   "name": "winditer-dsh-paste-spill",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Inbound large-paste handling for the DeepSeek Harness composer: each 4-50 KB paste folds into one chip, a >=50"
   },
   {
    "repo": "ylwl1997/noatmark-dsh-plugin",
@@ -85898,6 +85947,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "dsh plugin: renders a session transcript into one self-contained HTML report you can open, archive or forward"
+  },
+  {
+   "repo": "798645706/dsh-strawberry-data-hub",
+   "name": "798645706-dsh-strawberry-data-hub",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Strawberry research tools for DeepSeek Harness"
   },
   {
    "repo": "aibo204/dsh-plugin-computer-use",
