@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T03:31:04Z",
+ "generated_at": "2026-11-11T03:46:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1197,6 +1197,13 @@
    "name": "zekaishi-evo-subagent",
    "verdict": "ok",
    "stars": 7,
+   "desc": "—"
+  },
+  {
+   "repo": "37chengshan/agent-mcp",
+   "name": "37chengshan-agent-mcp",
+   "verdict": "pending",
+   "stars": 6,
    "desc": "—"
   },
   {
@@ -11649,6 +11656,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Cap how long one DSH tool call may wait: a global default wait limit in Settings, plus a per-session raise the"
+  },
+  {
+   "repo": "azazo1/dsh-reveal-context",
+   "name": "azazo1-dsh-reveal-context",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Show DSH's hidden injected-context rows (AGENTS.md notices, skill catalogs, recalled sessions, runtime snapsho"
   },
   {
    "repo": "beartackler/dsh-bridge",
@@ -32397,6 +32411,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh ???????????:??????????????????"
+  },
+  {
+   "repo": "dshapp/dsh-claude-subscription",
+   "name": "dshapp-dsh-claude-subscription",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness bundle: run the built-in Anthropic provider on a Claude Code (Pro/Max/Team) subscription cred"
   },
   {
    "repo": "dujar/dsh-restart",
@@ -63346,6 +63367,13 @@
    "desc": "—"
   },
   {
+   "repo": "blueberrymaid/dsh-midtalk",
+   "name": "blueberrymaid-dsh-midtalk",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "给正在跑的回合插话：/say 无损，/cut 中止当前步并留下恢复卡"
+  },
+  {
    "repo": "BLueMooneer/dsh-tracelens",
    "name": "bluemooneer-dsh-tracelens",
    "verdict": "incompatible",
@@ -85361,6 +85389,13 @@
    "desc": "Publish local single-file HTML to shareable html.run links as a DeepSeek Harness model tool (wraps the zero-de"
   },
   {
+   "repo": "jr-create/dsh-session-vault",
+   "name": "jr-create-dsh-session-vault",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Browse, export, import and carry DeepSeek Harness sessions as portable archives"
+  },
+  {
    "repo": "kagurazakayashi/dsh-startup-command",
    "name": "kagurazakayashi-dsh-startup-command",
    "verdict": "incompatible",
@@ -88670,6 +88705,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "QQ Mail (and any IMAP/SMTP mailbox) for DeepSeek Harness — qqmail_* agent tools, a qqmail CLI, a qqmail-mcp st"
+  },
+  {
+   "repo": "zijinggong/fastgithub-accelerate",
+   "name": "zijinggong-fastgithub-accelerate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "zootguru/dsh-vpn-ops",
@@ -97618,6 +97660,13 @@
    "desc": "—"
   },
   {
+   "repo": "goatliamia/dsh-observable-reversibility",
+   "name": "goatliamia-dsh-observable-reversibility",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "让插件卸载不再静默：相对声明观察面的可逆性判定定理（Lean 4 形式化）+ 三态判决（verified-reversible / declared-irreversible / unknown）"
+  },
+  {
    "repo": "Gordonynh/dsh-plugin-codex-import",
    "name": "dsh-plugin-codex-import",
    "verdict": "ok",
@@ -102740,6 +102789,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "规则透镜（RuleScope Lens）— DSH 本地插件：AGENTS.md/rules 加载可视化、预算治理、硬拦截、Lint、遵守率 \\| Rule visibility, budget governance &"
+  },
+  {
+   "repo": "jide315/dsh-reasoning-language",
+   "name": "jide315-dsh-reasoning-language",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Choose the language used for DSH reasoning and expand thinking rows by default."
   },
   {
    "repo": "jidekaixin2dian/dsh-team-flow",
