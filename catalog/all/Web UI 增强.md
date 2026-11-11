@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3042）
+# 🔌 Web UI 增强（3048）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1282,6 +1282,7 @@
 - 🟩 `[可用]` [zanechen6-dsh-assistant-skin](https://github.com/zanechen6/dsh-assistant-skin) ★1 — DSH 助理/秘书/女友皮肤：黑蓝暗调主题 + 会话区助理形象（静图 / 无缝循环片段）+ 形象切换与动作调度
 - 🟩 `[可用]` [zdz6215591-dsh-theme-doubao](https://github.com/zdz6215591/dsh-theme-doubao) ★1 — 豆包主题 — DeepSeek Harness Web 客户端主题插件
 - 🟩 `[可用]` [zemanzhang809-dsh-stt-plugin](https://github.com/zemanzhang809/dsh-stt-plugin) ★1 — A speech-to-text (voice input) plugin for DeepSeek Harness.
+- 🟩 `[可用]` [zeng6125-rgb-dsh-usage-heatmap](https://github.com/zeng6125-rgb/dsh-usage-heatmap) ★1 — DSH 模型用量统计面板：9宫指标卡 + GitHub 风格 Token 热力图（日/周/累计）+ 活动洞察 + 删会话归档不丢数（@dsh-external/dsh-usage-heatmap）
 - 🟩 `[可用]` [zenvertao-dsh-inline-comments](https://github.com/zenvertao/dsh-inline-comments) ★1 — 选中即批注，刷新亦留存 —— DSH 行内批注插件
 - 🟩 `[可用]` [zeusxx-dsh-composer-live](https://github.com/zeusxx/dsh-composer-live) ★1 — Type Markdown, see it rendered live — Open-WebUI-style composer for DeepSeek Harness (DSH) web
 - 🟩 `[可用]` [zhang-guo-wen-dsh-ui-beautify](https://github.com/zhang-guo-wen/dsh-ui-beautify) ★1 — Page beautification for DeepSeek Harness: ship open-source CJK webfonts and let the Web GUI pick its body font
@@ -2014,6 +2015,7 @@
 - 🟩 `[可用]` [why-did-dsh-tailscale-access](https://github.com/why-did/dsh-tailscale-access) ★0 — Remote access for the DeepSeek Harness Web GUI via Tailscale or cloudflared — early-stage, read the notice fir
 - 🟩 `[可用]` [willwang0098-dsh-side-chat](https://github.com/willwang0098/dsh-side-chat) ★0 — Codex-style independent side chat for DeepSeek Harness Better Sidebar
 - 🟩 `[可用]` [wilson-lai-ab-dsh-genui](https://github.com/Wilson-Lai-Ab/dsh-genui) ★0 — —
+- 🟩 `[可用]` [windf1y-dsh-ocg-used](https://github.com/windf1y/dsh-ocg-used) ★0 — A plugin that displays OCG usage in real time in the DSH input box.
 - `[未定位]` **witherwithwinter-dsh-codinput** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wjinxuan-dsh-ai-ui-studio](https://github.com/wjinxuan/dsh-ai-ui-studio) ★0 — —
 - 🟩 `[可用]` [wjnct55555-dsh-crt-theme](https://github.com/WJNCT55555/dsh-crt-theme) ★0 — —
@@ -2500,6 +2502,7 @@
 - 🟨 `[不兼容]` [solknight48-dsh-memoryhub](https://github.com/solknight48/dsh-memoryhub) ★2 — MemoryHub (mh) plugin for DeepSeek Harness (dsh): auto-loads checkpoint memory on session start, adds mh_* too
 - 🟨 `[不兼容]` [dash](https://github.com/songqikong/dash) ★2 — DASH — Deepseek Agentic Service Harness, a TUI Plugin of Deepseek Harness
 - 🟨 `[不兼容]` [songyang0603-dsh-codex](https://github.com/songyang0603/dsh-codex) ★2 — Rebuilding OpenAI Codex as exact, independently installable DeepSeek Harness plugins without invoking the Code
+- 🟨 `[不兼容]` [sunsun320-dsh-peak-chip](https://github.com/sunsun320/dsh-peak-chip) ★2 — DeepSeek 峰谷指示灯：会话头部一个圆点，面板显示本日消耗与余额
 - 🟨 `[不兼容]` [thirsty5034-dsh-ssh-tunnel](https://github.com/thirsty5034/dsh-ssh-tunnel) ★2 — DSH community plugin: multi-host SSH tunnel + SSHManager (better-sidebar)
 - 🟨 `[不兼容]` [tieveto666-code-dsh-client-ui-trace-graph](https://github.com/tieveto666-code/dsh-client-ui-trace-graph) ★2 — DSH Web GUI plugin: interactive ReactFlow DAG for the official trajectory ledger — sequence + structure edges,
 - 🟨 `[不兼容]` [tzy168-dsh-web-theme-packs](https://github.com/tzy168/dsh-web-theme-packs) ★2 — This is a dsh-pulgin for change theme by yourself.
@@ -2548,6 +2551,7 @@
 - 🟨 `[不兼容]` [big0lives-dsh-web-window-companion](https://github.com/big0lives/dsh-web-window-companion) ★1 — DSH Web 窗口伴侣插件：App 模式窗口打开 Web GUI，关窗即优雅停服
 - 🟨 `[不兼容]` [blaczz-dsh-deck-builder](https://github.com/Blaczz/dsh-deck-builder) ★1 — —
 - 🟨 `[不兼容]` [boboozeng-dsh-annotation-plugin](https://github.com/boboozeng/dsh-annotation-plugin) ★1 — —
+- 🟨 `[不兼容]` [btsd321-dsh-oh-my-terminal](https://github.com/btsd321/dsh-oh-my-terminal) ★1 — A bottom terminal panel plugin for DSH GUI
 - 🟨 `[不兼容]` [buguoshixc-dsh-user-message-navigator](https://github.com/buguoshixc/dsh-user-message-navigator) ★1 — Codex-style user-message navigation sidebar for DeepSeek Harness Web
 - 🟨 `[不兼容]` [cdxdnrf-dsh-wishadel-theme](https://github.com/cdxDNRF/dsh-wishadel-theme) ★1 — —
 - 🟨 `[不兼容]` [dsh-claude-theme](https://github.com/chajiuqqq/dsh-claude-theme) ★1 — dsh的claude风格界面
@@ -2686,6 +2690,7 @@
 - 🟨 `[不兼容]` [wanghuiym123-dsh-cherry-kb](https://github.com/wanghuiym123/dsh-cherry-kb) ★1 — Knowledge-base and memory switch for dsh web — two composer controls and two settings pages, backed by 22 /dsh
 - 🟨 `[不兼容]` [wangxing-git-dsh-tool-session](https://github.com/wangxing-git/dsh-tool-session) ★1 — DeepSeek Harness 会话管理工具插件，为模型提供会话创建/重命名/归档/切换/列表/查询工具，支持沙箱提权审批与 UI 会话切换
 - 🟨 `[不兼容]` [wangzhanchao883-dsh-screenshot-capture](https://github.com/wangzhanchao883/dsh-screenshot-capture) ★1 — Point-and-shoot screenshot capture for DeepSeek Harness: floating window → Obsidian note with comments, key-po
+- 🟨 `[不兼容]` [wanjiaju3108-dsh-feishu-cui](https://github.com/wanjiaju3108/dsh-feishu-cui) ★1 — 用飞书私聊远程操作 DSH：消息与卡片走机器人长连接，不用公网入口、不用证书、不用内网穿透
 - 🟨 `[不兼容]` [washington5533-guid-traince](https://github.com/Washington5533/Guid-traince) ★1 — —
 - 🟨 `[不兼容]` [weibaohui-dsh-git-server](https://github.com/weibaohui/dsh-git-server) ★1 — —
 - 🟨 `[不兼容]` [weibaohui-dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) ★1 — dsh 插件 · WebDAV 服务器：把一个目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的服务（令牌认证/只读模式/热更新配置）
@@ -2942,6 +2947,7 @@
 - 🟨 `[不兼容]` [stardustlc666-dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) ★0 — —
 - `[空仓监测]` **statem-li-dsh-webui** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [stayhear0722-dev-deepseek-harness-skin](https://github.com/stayhear0722-dev/deepseek-harness-skin) ★0 — —〔📦〕
+- `[未定位]` **stolyarovmn-dsh-client-ui-plugin-market** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [suibbinggan-dsh-cn-plugin-center](https://github.com/SuiBbinggan/dsh-cn-plugin-center) ★0 — —
 - 🟨 `[不兼容]` [suixin04-dsh-session-migrator](https://github.com/Suixin04/dsh-session-migrator) ★0 — —
 - 🟨 `[不兼容]` [sujiu222-dsh-one-click-archive](https://github.com/sujiu222/dsh-one-click-archive) ★0 — One-click time-based conversation archiving for the DeepSeek Harness Web GUI

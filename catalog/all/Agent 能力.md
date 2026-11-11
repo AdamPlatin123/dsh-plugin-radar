@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2332）
+# 🤖 Agent 能力（2335）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1271,7 +1271,9 @@
 - 🟩 `[可用]` [spike-faye-lei-spike-faye-lei-dsh-skills](https://github.com/spike-faye-lei/spike-faye-lei-dsh-skills) ★0 — spike-faye-lei/dsh-skills
 - 🟩 `[可用]` [spyfree-dsh-media-guard](https://github.com/spyfree/dsh-media-guard) ★0 — Deterministic aggregate media budgets and safe request projections for DeepSeek Harness (dsh)
 - 🟩 `[可用]` [stark-l-1-skill](https://github.com/stark-L-1/skill) ★0 — —
+- 🟩 `[可用]` [stone-brick-dsh-report-ledger](https://github.com/stone-brick/dsh-report-ledger) ★0 — DSH 插件：把「汇报」做成代理之间的一等交互原语 —— 可追溯的传递路径账本、回执/结案/修正，以及一个会话时间线标签页
 - 🟩 `[可用]` [striveh-dsh-plugin-development](https://github.com/striveh/dsh-plugin-development) ★0 — Unofficial thin, source-driven Agent Skill for DeepSeek Harness plugin development
+- 🟩 `[可用]` [stuga-dev-dsh-plugin](https://github.com/stuga-dev/dsh-plugin) ★0 — Connect a DeepSeek Harness profile to a Stuga workspace: Stuga's MCP tools, the workspace's conventions in the
 - `[未定位]` **sugarfatfree-dsh-agent-extension** — 占位待复核，判定暂不展示
 - `[未定位]` **sunlitcrack-dsh-skills-mcp-manager** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [sunwindy91-spa-api-extract](https://github.com/sunwindy91/spa-api-extract) ★0 — Agent Skill: extract data from JS single-page apps via curl+grep+python when WebFetch fails (timeout / obfusca
@@ -1708,6 +1710,7 @@
 - 🟨 `[不兼容]` [toustifer-agentflow](https://github.com/toustifer/agentflow) ★4 — Lightweight task state machine engine with MCP stdio interface
 - 🟨 `[不兼容]` [twoyoung91-dsh-memoknow](https://github.com/twoyoung91/dsh-memoknow) ★4 — Local personal memory and knowledge management for DeepSeek Harness
 - 🟨 `[不兼容]` [yeqingtang-dsh-session-flow](https://github.com/YeqingTang/dsh-session-flow) ★4 — —
+- 🟨 `[不兼容]` [yfwu2020-dsh-selection-explain](https://github.com/yfwu2020/dsh-selection-explain) ★4 — DSH 划词解读：选中文字浮出按钮，点击弹窗流式显示专业中英翻译 + 该文字在当前上下文中的含义详解
 - 🟨 `[不兼容]` [yiipu-dsh-agentmemory](https://github.com/Yiipu/dsh-agentmemory) ★4 — —
 - 🟨 `[不兼容]` [dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) ★4 — Structured long-term memory system for DeepSeek Harness
 - 🟨 `[不兼容]` [zenjibad-skill-injector-plugin](https://github.com/Zenjibad/skill-injector-plugin) ★4 — —
