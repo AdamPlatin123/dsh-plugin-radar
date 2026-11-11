@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T14:01:27Z",
+ "generated_at": "2026-11-11T14:16:01Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8704,6 +8704,13 @@
    "desc": "Open-source DSH plugin: dsh-subagent-output-sanitizer"
   },
   {
+   "repo": "verdana/dsh-session-purge",
+   "name": "verdana-dsh-session-purge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A recycle bin for DSH session deletion: deleting a session moves it to a bin where it can be restored, and spa"
+  },
+  {
    "repo": "wbj0256/dsh-agent-handoff-deliberation",
    "name": "wbj0256-dsh-agent-handoff-deliberation",
    "verdict": "ok",
@@ -14668,6 +14675,13 @@
    "desc": "Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit"
   },
   {
+   "repo": "zzzxxxxxxxxxx/dsh-dcp",
+   "name": "zzzxxxxxxxxxx-dsh-dcp",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Dynamic context pruning for DeepSeek Harness — model-driven compaction and duplicate-output pruning."
+  },
+  {
    "repo": "liushutan/dsh-skills-manager",
    "name": "liushutan-dsh-skills-manager",
    "verdict": "incompatible",
@@ -17396,6 +17410,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "smj-1680/dsh-plugin-liquid-glass",
+   "name": "smj-1680-dsh-plugin-liquid-glass",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "适用于 DSH 桌面端的液态玻璃美化插件：输入框、消息气泡、侧栏与顶栏等主要界面元素改为液态玻璃材质，可搭配各类壁纸插件使用（需深色模式）"
   },
   {
    "repo": "sunyuhuirong/shl-session-history",
@@ -24305,6 +24326,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: per-model proxy routing (http/https/socks5) with a settings UI — e.g"
+  },
+  {
+   "repo": "bjpd6/dsh-client-ui-usage-hud",
+   "name": "bjpd6-dsh-client-ui-usage-hud",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness sidebar HUD: account balance, gifted balance, cumulative spend and token usage."
   },
   {
    "repo": "black970/dsh-quota-viewer",
@@ -74929,6 +74957,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "使用 deepseek-harness 生成"
+  },
+  {
+   "repo": "windrover/dsh-plugin-update-checker",
+   "name": "windrover-dsh-plugin-update-checker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A DeepSeek Harness plugin that adds a Check-updates button to the Plugins settings: scans every installed bund"
   },
   {
    "repo": "wo5812-lang/deepseek-harness-desktop",
