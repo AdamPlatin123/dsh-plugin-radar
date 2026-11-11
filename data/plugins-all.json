@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T02:16:08Z",
+ "generated_at": "2026-11-11T02:45:58Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -11600,6 +11600,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "一个deepseek-harness插件，用来做agent轨迹回放"
+  },
+  {
+   "repo": "azazo1/dsh-approve-prefix",
+   "name": "azazo1-dsh-approve-prefix",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "按单命令前缀自动放行 DSH 沙箱提权请求, 含管道与链式的命令一律转人工审批."
   },
   {
    "repo": "azazo1/dsh-limit-timeout",
@@ -23887,6 +23894,13 @@
    "desc": "—"
   },
   {
+   "repo": "cx2002302-lang/dsh-chat-collapse",
+   "name": "cx2002302-lang-dsh-chat-collapse",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web GUI plugin — one-click collapse for the chat composer, with a floating restore ball"
+  },
+  {
    "repo": "czhzz/dsh-net-access",
    "name": "czhzz-dsh-net-access",
    "verdict": "ok",
@@ -32131,6 +32145,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH host plugin: promote the workspace you just submitted a task in to the top of the sidebar — once per submi"
+  },
+  {
+   "repo": "boyl/dsh-sidebar-pins",
+   "name": "boyl-dsh-sidebar-pins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Codex-style pinned/recent sidebar panes for DeepSeek Harness, with one full row menu on every row (pins, unrea"
   },
   {
    "repo": "caijiachen34/dsh-sophnet-balance",
@@ -41464,6 +41485,13 @@
    "desc": "—"
   },
   {
+   "repo": "anthony1x6000/dsh-searxng-search",
+   "name": "anthony1x6000-dsh-searxng-search",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "anxinyuanshiyu/dsh-plugin-zh-inventory",
    "name": "anxinyuanshiyu-dsh-plugin-zh-inventory",
    "verdict": "ok",
@@ -42377,6 +42405,13 @@
    "repo": "FEOH333/dsh-delegate",
    "name": "dsh-delegate",
    "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Fiennes4590/dsh-token-usage-calendar",
+   "name": "fiennes4590-dsh-token-usage-calendar",
+   "verdict": "ok",
    "stars": 1,
    "desc": "—"
   },
@@ -46166,13 +46201,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "deepseek-harness客户端模式"
-  },
-  {
-   "repo": "Fiennes4590/dsh-token-usage-calendar",
-   "name": "fiennes4590-dsh-token-usage-calendar",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "ilimei/dsh-zenmux-oauth",
@@ -63332,6 +63360,13 @@
    "desc": "Content-addressed readiness proof for sanitized DeepSeek Harness observations on managed Windows hosts"
   },
   {
+   "repo": "dpwgc/dsh-coding-workflow",
+   "name": "dpwgc-dsh-coding-workflow",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "一个 DeepSeek Harness 编程工作流模式预设(Preset)，用于更好地约束LLM进行编程工作"
+  },
+  {
    "repo": "DTSFO/dsh-conversation-rewind",
    "name": "dsh-conversation-rewind",
    "verdict": "incompatible",
@@ -65311,6 +65346,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "chenhz01/dsh-sample-plugin",
+   "name": "chenhz01-dsh-sample-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Verified sample plugins for DeepSeek Harness: hash_sum tool + tools/result hook (8/8 checks)"
   },
   {
    "repo": "chenjieya/dsh-runbook-ops",
@@ -87564,6 +87606,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "飞书智能体桥接deepseek-harness插件"
+  },
+  {
+   "repo": "chintoleung/dsh-ping",
+   "name": "chintoleung-dsh-ping",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Telegram pings when your DeepSeek Harness agent needs you — question asked, approval requested, turn done"
   },
   {
    "repo": "chou109/dsh-msgrail",
