@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T16:16:07Z",
+ "generated_at": "2026-11-11T17:01:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -35456,6 +35456,13 @@
    "verdict": "ok",
    "stars": 55,
    "desc": "—"
+  },
+  {
+   "repo": "zhoujianbin/dsh-team-hub",
+   "name": "zhoujianbin-dsh-team-hub",
+   "verdict": "ok",
+   "stars": 52,
+   "desc": "Turn a single-user DeepSeek Harness instance into a secure, workspace-isolated team service"
   },
   {
    "repo": "chaos-03x/dsh-agy",
