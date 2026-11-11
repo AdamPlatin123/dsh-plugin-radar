@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T10:30:57Z",
+ "generated_at": "2026-11-11T10:46:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -26531,6 +26531,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "File tree panel for the DSH Web UI: the right details column shows the current s"
+  },
+  {
+   "repo": "moonbowterfly/dsh-bio-galatea",
+   "name": "moonbowterfly-dsh-bio-galatea",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "蛋白结构预测与设计域插件（dsh-bio-genie 生态）：ProteinMPNN/SolubleMPNN/LigandMPNN 序列设计 + 区域重设计 + ESMFold 折叠/复折叠 + 界面分析 + 共识排序/"
   },
   {
    "repo": "moonbowterfly/dsh-bio-gem",
@@ -104014,6 +104021,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Plugin health audit for DeepSeek Harness: sync the GitHub dsh-plugin topic into a local catalog, probe npm, st"
+  },
+  {
+   "repo": "86cloudyun-afk/dsh-gungnir",
+   "name": "86cloudyun-afk-dsh-gungnir",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "GUNGNIR - DSH 红队战役指挥框架：攻击路径合成的工程化〔📦〕"
   },
   {
    "repo": "a179-sanae/dsh-code-check",
