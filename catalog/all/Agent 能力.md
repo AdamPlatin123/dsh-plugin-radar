@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2426）
+# 🤖 Agent 能力（2427）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1728,6 +1728,7 @@
 - 🟨 `[不兼容]` [dxww123-dsh-alphasolve](https://github.com/dxww123/dsh-alphasolve) ★6 — Session-scoped AlphaSolve workflow for DeepSeek Harness
 - 🟨 `[不兼容]` [euuuuuuzer-dsh-loop-dock](https://github.com/euuuuuuzer/dsh-loop-dock) ★6 — A loop dock for DeepSeek Harness: one harness, multiple agent loops.
 - 🟨 `[不兼容]` [gengdapeng-dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) ★6 — —
+- 🟨 `[不兼容]` [hoyyang-dsh-project-manager](https://github.com/hoyyang/dsh-project-manager) ★6 — Project board, task schedule (gantt) and project memory for DeepSeek Harness: sessions opened from a card auto
 - 🟨 `[不兼容]` [ht719-dsh-session-categories](https://github.com/ht719/dsh-session-categories) ★6 — Session categories plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [jason-skd-dsh-session-fork](https://github.com/Jason-skd/dsh-session-fork) ★6 — —
 - 🟨 `[不兼容]` [john-walks-slow-dsh-set-model](https://github.com/john-walks-slow/dsh-set-model) ★6 — Through Jev or through its own tool calls, the agent switches model presets and thinking depth on its own

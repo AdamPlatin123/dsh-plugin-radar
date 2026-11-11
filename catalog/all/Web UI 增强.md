@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3140）
+# 🔌 Web UI 增强（3141）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3062,6 +3062,7 @@
 - 🟨 `[不兼容]` [wizzy-yang-dsh-updater](https://github.com/wizzy-yang/dsh-updater) ★0 — DSH auto-update plugin — detects official deepseek-ai/deepseek-harness releases, one-click npm upgrade + auto
 - 🟨 `[不兼容]` [wjx-ai-dsh-md-reader](https://github.com/wjx-ai/dsh-md-reader) ★0 — DSH Markdown 阅读插件：点击会话中的 MD/图片链接，在浏览器右侧以真三栏布局（侧边栏 \| 会话区 \| 文档）直接阅读 —— 目录 TOC、自动跟随磁盘变更、图片内联预览、复制原文、字号缩放
 - 🟨 `[不兼容]` [wowyuarm-dsh-context-continuity](https://github.com/wowyuarm/dsh-context-continuity) ★0 — The context-continuity engine for DeepSeek Harness: a subject's context lived as one continuous timeline acros
+- `[未定位]` **wtstarmark-dsh-myskin** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [wwwangzilin-dsh-role-cards](https://github.com/wwwangzilin/dsh-role-cards) ★0 — DSH Web 插件：新建会话界面上的角色卡 + 工作区卡选择器（毛玻璃卡片墙 / 横向滚动 / 角色主题色 / 入场动画）
 - 🟨 `[不兼容]` [xchannel1987-dsh-reverse-proxy-xc](https://github.com/xchannel1987/dsh-reverse-proxy-xc) ★0 — DSH LAN reverse proxy plugin for accessing Web GUI from mobile devices
 - `[未定位]` **xian-jl-dsh-kinich-theme** — 占位待复核，判定暂不展示
