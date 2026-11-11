@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T09:46:06Z",
+ "generated_at": "2026-11-11T10:00:55Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10634,6 +10634,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "—"
+  },
+  {
+   "repo": "hoyyang/dsh-project-manager",
+   "name": "hoyyang-dsh-project-manager",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "Project board, task schedule (gantt) and project memory for DeepSeek Harness: sessions opened from a card auto"
   },
   {
    "repo": "ht719/dsh-session-categories",
@@ -49374,6 +49381,13 @@
    "desc": "Give DeepSeek Harness eyes: one-click install the dsh-plugin-deepeye vision plugin with the free Zhipu GLM-4V-"
   },
   {
+   "repo": "gst20060726/dsh-partition-board",
+   "name": "gst20060726-dsh-partition-board",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Interactive partition board the AI opens when it needs a human to draw the boundaries (DSH plugin)"
+  },
+  {
    "repo": "guannan1031/yanxu-dsh-plugin",
    "name": "guannan1031-yanxu-dsh-plugin",
    "verdict": "ok",
@@ -75211,6 +75225,13 @@
    "desc": "—"
   },
   {
+   "repo": "harrylabsj/kiwi",
+   "name": "harrylabsj-kiwi",
+   "verdict": "incompatible",
+   "stars": 21,
+   "desc": "A2A commerce negotiation runtime + DeepSeek Harness (dsh) plugin"
+  },
+  {
    "repo": "MochiNek0/dsh-desktop",
    "name": "mochinek0-dsh-desktop",
    "verdict": "incompatible",
@@ -79362,6 +79383,13 @@
    "desc": "—"
   },
   {
+   "repo": "drfai/dsh-whale-pet",
+   "name": "drfai-dsh-whale-pet",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness 桌宠插件：内置 Coopanion 鲸鱼娘分层精灵，随模型峰谷计价自动更换女仆装发带颜色，并常驻显示时段倒计时"
+  },
+  {
    "repo": "kentleenot/dsh-trading-toolkit",
    "name": "kentleenot-dsh-trading-toolkit",
    "verdict": "incompatible",
@@ -81467,6 +81495,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A public plugin manager for DeepSeek Harness (DSH)"
+  },
+  {
+   "repo": "imtokenxinluo/dsh-hardening",
+   "name": "imtokenxinluo-dsh-hardening",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH hardening tooling: workspace backup, kernel patch reapply, restore verification"
   },
   {
    "repo": "JasperGuWP/dsh-plugin-market",
@@ -96554,6 +96589,13 @@
    "desc": "Compare multiple coding models side by side in DeepSeek Harness with isolated Git worktrees, live traces, and"
   },
   {
+   "repo": "huanglianqi/dsh-math-render",
+   "name": "huanglianqi-dsh-math-render",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Render LaTeX in the DSH web chat: formulas inside your own message bubble and a live preview of the composer d"
+  },
+  {
    "repo": "Huasfan/dsh-tool-git",
    "name": "dsh-tool-git",
    "verdict": "ok",
@@ -99268,6 +99310,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Модельный пикер с поиском и фильтрами по провайдеру для DeepSeek Harness и DSH Desktop"
+  },
+  {
+   "repo": "imtokenxinluo/dsh-fixture-bad-plugin",
+   "name": "imtokenxinluo-dsh-fixture-bad-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Negative test fixture for DSH plugin contract checks (intentionally bad plugin, do not use as a real plugin)"
   },
   {
    "repo": "Islulua/dsh-code-navigator",
@@ -102194,6 +102243,13 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "Clickable file paths in DSH replies: Codex-style inline open, 📂 reveal in file manager, mentioned-files chip l"
+  },
+  {
+   "repo": "elegant01/dsh-codearts",
+   "name": "elegant01-dsh-codearts",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "dsh-plugin, 在DSH中使用华为codearts的积分，token,"
   },
   {
    "repo": "Lenonss/DSH_VsCodeMode",
