@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T13:46:03Z",
+ "generated_at": "2026-11-11T14:01:27Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13917,6 +13917,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Self-hosted Browser Bridge plugin for dsh Desktop: expose a local workspace to web AI agents through protected"
+  },
+  {
+   "repo": "mubaid/dsh-linkedin-agent",
+   "name": "mubaid-dsh-linkedin-agent",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Eleven LinkedIn agent skills for DeepSeek Harness (port of Jakeschincariol/linkedin-agent-skill), MIT."
   },
   {
    "repo": "NecromanAlbert/dsh-skill-slash-fuzzy",
@@ -78662,6 +78669,13 @@
    "desc": "DSH 中国象棋消遣插件：卡通小宠物邀请你在 AI 思考间隙下棋，内置引擎 + 中文记谱 + LLM 点评"
   },
   {
+   "repo": "panando/dsh-quote-sidechat",
+   "name": "panando-dsh-quote-sidechat",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH plugin: turn any selected reply snippet into an atomic reference chip — delete as one unit, click to jump"
+  },
+  {
    "repo": "peterliucius/dsh-prompt-optimize",
    "name": "peterliucius-dsh-prompt-optimize",
    "verdict": "ok",
@@ -106359,6 +106373,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Options plate on the DeepSeek Harness composer's + button — pick files and folders from the project or anywher"
+  },
+  {
+   "repo": "nedzen/dsh-web-search-brave",
+   "name": "nedzen-dsh-web-search-brave",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Brave Search provider for DeepSeek Harness (dsh) — independent dsh plugin hardened against web_search hangs, m"
   },
   {
    "repo": "nirvanaslash/dsh-bat2exe",
