@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T13:01:06Z",
+ "generated_at": "2026-11-11T13:16:51Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5958,6 +5958,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Omnipotent agent preset for DeepSeek Harness: Standard/PTC/Minimal + routing modes"
+  },
+  {
+   "repo": "apherchin/dsh-wonder-tools",
+   "name": "apherchin-dsh-wonder-tools",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 工具箱（装配包）：一个插件装好五个功能 —— 删除对话 / 重新生成 / 队友命令 / 跨会话提醒 / 首轮结束自动命名"
   },
   {
    "repo": "argszero/cordis-plugin-tool-deadline-guard",
@@ -76618,6 +76625,13 @@
    "desc": "—"
   },
   {
+   "repo": "bauerelizabeth07139/mcp-simple-image",
+   "name": "bauerelizabeth07139-mcp-simple-image",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin and MCP server: text-to-image through a StepFun-compatible /images/generations endpoin"
+  },
+  {
    "repo": "Bestbbb/deepseek-harness-desktop",
    "name": "bestbbb-deepseek-harness-desktop",
    "verdict": "incompatible",
@@ -98605,6 +98619,20 @@
    "desc": "DeepSeek Harness 的 Codex 式长任务进度汇报插件：按时间和有意义的工作状态沟通，不按工具调用次数报数"
   },
   {
+   "repo": "bauerelizabeth07139/image-gen-mcp",
+   "name": "bauerelizabeth07139-image-gen-mcp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin and Codex plugin: configurable, provider-agnostic image generation over MCP, plus a bu"
+  },
+  {
+   "repo": "bauerelizabeth07139/opencode-ppocr-mcp",
+   "name": "bauerelizabeth07139-opencode-ppocr-mcp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin and OpenCode MCP server: local PP-OCRv6 Medium OCR (PaddleOCR on ONNX Runtime, CPU) fo"
+  },
+  {
    "repo": "bigstyle777/dshp",
    "name": "bigstyle777-dshp",
    "verdict": "ok",
@@ -105421,6 +105449,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "bauerelizabeth07139/opencode-eyes",
+   "name": "bauerelizabeth07139-opencode-eyes",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin and OpenCode MCP server: describe an image with StepFun step-3.7-flash, so a text-only"
+  },
+  {
+   "repo": "bauerelizabeth07139/opencode-eyes-nvidia",
+   "name": "bauerelizabeth07139-opencode-eyes-nvidia",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin and OpenCode MCP server: describe an image with any of seven NVIDIA NIM vision models,"
   },
   {
    "repo": "biyuhao/dsh-web-searxng",
