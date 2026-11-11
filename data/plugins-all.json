@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T08:45:56Z",
+ "generated_at": "2026-11-11T09:01:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2418,6 +2418,13 @@
    "desc": "适配 DSH 0.2.1-rc.5 的自动审批门控：判定模型判断不可回补操作，安全自动批准、危险转人工"
   },
   {
+   "repo": "viyiviyi/dsh-tree-task-flow",
+   "name": "viyiviyi-dsh-tree-task-flow",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "树形任务流 · DeepSeek Harness 插件：把多步任务组织成目标→任务→子任务三级树，节点完成时由 AI 提交结果，插件随即把该节点的执行过程从上下文里折叠掉"
+  },
+  {
    "repo": "vlln/dsh-autofork",
    "name": "vlln-dsh-autofork",
    "verdict": "ok",
@@ -3564,6 +3571,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Hard-stop DeepSeek Harness tool use after a per-session call budget"
+  },
+  {
+   "repo": "173787247/dsh-wsl-docker",
+   "name": "173787247-dsh-wsl-docker",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Report Docker Desktop vs WSL docker context confusion."
   },
   {
    "repo": "173787247/dsh-wsl-terraform",
@@ -9390,6 +9404,13 @@
    "desc": "输入一张图像，输出图像中所有识别到的野生动物的检测框、置信度及标签"
   },
   {
+   "repo": "xianshu-virtuous/dsh-story-mode",
+   "name": "xianshu-virtuous-dsh-story-mode",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Story mode for DeepSeek Harness: a session switch that roleplays in the current persona and loads workspace st"
+  },
+  {
    "repo": "xiaoboren0-hub/dsh-plugin-eval",
    "name": "dsh-plugin-eval",
    "verdict": "pending",
@@ -9437,6 +9458,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) plugin: 30 production AI-agent skills (Caveman token compression, Ponytail minimalism,"
+  },
+  {
+   "repo": "xinshang777/dsh-turn-cost",
+   "name": "xinshang777-dsh-turn-cost",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：在每轮 AI 回复后面显示这一轮花了多少钱（¥）和上下文占用百分比，点百分比即可压缩上下文"
   },
   {
    "repo": "xiuyuan18/dsh-engram-session",
@@ -14003,6 +14031,13 @@
    "desc": "Local request and response inspector for session-associated DeepSeek Harness LLM calls"
   },
   {
+   "repo": "stuga-dev/agent-plugins",
+   "name": "stuga-dev-agent-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Packages that connect coding agents to Stuga: DeepSeek Harness and Pi."
+  },
+  {
    "repo": "sujalmandal/dsh-tab-plan-toggle",
    "name": "sujalmandal-dsh-tab-plan-toggle",
    "verdict": "incompatible",
@@ -14358,6 +14393,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Automatic session titles for DeepSeek Harness, using the conversation model"
+  },
+  {
+   "repo": "yang101and/dsh-cyber-muyu",
+   "name": "yang101and-dsh-cyber-muyu",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Cyber wooden fish (muyu) plugin for DeepSeek Harness: every agent tool call earns merit, failed calls count as"
   },
   {
    "repo": "yangyizhu8/dsh-unread-mark",
@@ -28220,6 +28262,13 @@
    "desc": "Manage DeepSeek Harness skills from Settings: list, disable without editing SKILL.md, and install/uninstall us"
   },
   {
+   "repo": "xinshang777/dsh-skill-manager",
+   "name": "xinshang777-dsh-skill-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：给设置页加上「技能管理」——用图形界面登记、开关、改名、删除技能，不用再手改 SKILL.md 和配置文件"
+  },
+  {
    "repo": "xiyue718/dsh-ui-external-vision",
    "name": "xiyue718-dsh-ui-external-vision",
    "verdict": "ok",
@@ -30124,6 +30173,13 @@
    "desc": "VS Code-style workspace keyword search for DeepSeek Harness: a Search tab in dsh-better-sidebar"
   },
   {
+   "repo": "wbb316/dsh-novel",
+   "name": "wbb316-dsh-novel",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "DSH 插件：小说创作台 —— 给 agent 5 个 novel_* 工具 + 一个开书向导 / 设定表单 / 关系图 / 剧情任务栏 / 一键续写流式直播的面板（宿主原生席位，入口在左侧栏）"
+  },
+  {
    "repo": "XanthanL/dsh-plugin-uisfx",
    "name": "xanthanl-dsh-plugin-uisfx",
    "verdict": "incompatible",
@@ -30605,6 +30661,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DeepSeek Harness plugin for image upload, in-chat rendering, and vision analysis with cloud or local models"
+  },
+  {
+   "repo": "weibaohui/dsh-dashboard",
+   "name": "weibaohui-dsh-dashboard",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "dsh 插件 · 使用量仪表盘：离线扫描会话日志的统计分析与可编排 Dashboard（gridstack + ECharts）"
   },
   {
    "repo": "Wulabalabo/dsh-sidebar-Explorer-Plus",
@@ -41506,6 +41569,13 @@
    "desc": "—"
   },
   {
+   "repo": "xiaohanqing/dsh-relay",
+   "name": "xiaohanqing-dsh-relay",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "手机随时访问你自己的 DSH —— 流量走你自己的服务端，不依赖任何第三方云"
+  },
+  {
    "repo": "xiaohj233/dsh-keepalive",
    "name": "xiaohj233-dsh-keepalive",
    "verdict": "ok",
@@ -41905,11 +41975,25 @@
    "desc": "DeepSeek Harness tool: read/write the Windows clipboard from WSL."
   },
   {
+   "repo": "173787247/dsh-wsl-clock",
+   "name": "173787247-dsh-wsl-clock",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Detect WSL2 clock drift that breaks TLS and tokens after sleep."
+  },
+  {
    "repo": "173787247/dsh-wsl-db",
    "name": "173787247-dsh-wsl-db",
    "verdict": "ok",
    "stars": 1,
    "desc": "Read-only psql + redis-cli probes."
+  },
+  {
+   "repo": "173787247/dsh-wsl-dns",
+   "name": "173787247-dsh-wsl-dns",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Compare WSL vs Windows DNS resolution for common endpoints."
   },
   {
    "repo": "173787247/dsh-wsl-eventlog",
@@ -52615,6 +52699,13 @@
    "desc": "—"
   },
   {
+   "repo": "toddpan/dsh-feyagate",
+   "name": "toddpan-dsh-feyagate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 DeepSeek Harness AI 助手直接控制你家里的智能设备：米家（小米）、涂鸦、美的、易微联（Sonoff）、华为智慧生活"
+  },
+  {
    "repo": "tofe98/dsh-undo",
    "name": "tofe98-dsh-undo",
    "verdict": "ok",
@@ -59279,6 +59370,13 @@
    "desc": "—"
   },
   {
+   "repo": "upcyan/dsh-mimo-extension",
+   "name": "upcyan-dsh-mimo-extension",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "MiMo (Xiaomi) quota ring and usage detail tab for DeepSeek Harness"
+  },
+  {
    "repo": "uruana33/dsh-adaptive-anchored-standard",
    "name": "uruana33-dsh-adaptive-anchored-standard",
    "verdict": "ok",
@@ -59748,6 +59846,13 @@
    "desc": "DeepSeek Harness 多插件开发仓库"
   },
   {
+   "repo": "wxlei2004/dsh-plugins",
+   "name": "wxlei2004-dsh-plugins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugins collection"
+  },
+  {
    "repo": "wyq09/dsh-rewind",
    "name": "wyq09-dsh-rewind",
    "verdict": "ok",
@@ -59921,6 +60026,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xinshang777/dsh-restart-button",
+   "name": "xinshang777-dsh-restart-button",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：网页上一键重启 dsh web 服务，页面自动带新 token 恢复登录，不用回命令行 Ctrl+C 再启动"
   },
   {
    "repo": "xiongqiang521/dsh-plugin",
@@ -62319,6 +62431,13 @@
   {
    "repo": "upJiang/dsh-ccswitch",
    "name": "upjiang-dsh-ccswitch",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
+  },
+  {
+   "repo": "webxiaobaiyu-droid/dsh-local-usage",
+   "name": "webxiaobaiyu-droid-dsh-local-usage",
    "verdict": "incompatible",
    "stars": 5,
    "desc": "—"
@@ -83156,6 +83275,20 @@
    "desc": "DeepSeek Harness 全局 Token 用量统计插件 \\| Real usage tracking, durable ledger, cost estimation (OpenRouter pricing),"
   },
   {
+   "repo": "173787247/dsh-wsl-defender",
+   "name": "173787247-dsh-wsl-defender",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Windows security posture from WSL: Defender antivirus status and firewall profile state."
+  },
+  {
+   "repo": "173787247/dsh-wsl-download",
+   "name": "173787247-dsh-wsl-download",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Copy a file from the Windows Downloads folder into the WSL workspace."
+  },
+  {
    "repo": "173787247/dsh-wsl-media",
    "name": "173787247-dsh-wsl-media",
    "verdict": "ok",
@@ -89631,6 +89764,13 @@
    "desc": "DSH (DeepSeek Harness) 插件：将 Agent 会话消息自动同步到 \\[OpenViking\\](https://github.com/volcengine/OpenViking) 会话记忆库，由 Ope"
   },
   {
+   "repo": "yoggu/dsh-telegram-bridge",
+   "name": "yoggu-dsh-telegram-bridge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Host-only DSH plugin for a pre-authorized private Telegram chat"
+  },
+  {
    "repo": "ZenHatesCoding/feishu-local-agent-bridge-windows",
    "name": "feishu-local-agent-bridge-windows",
    "verdict": "ok",
@@ -95292,6 +95432,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness tool: safe Git credential hints for Windows GCM from WSL."
+  },
+  {
+   "repo": "173787247/dsh-wsl-editor",
+   "name": "173787247-dsh-wsl-editor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Open a WSL Linux path in Windows Cursor/VS Code/Notepad."
   },
   {
    "repo": "173787247/dsh-wsl-encoding",
