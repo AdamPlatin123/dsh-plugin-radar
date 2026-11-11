@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T05:46:06Z",
+ "generated_at": "2026-11-11T06:01:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7234,6 +7234,13 @@
    "desc": "DeepSeek Harness Litefuse Plugin for Agent Observability and Evals"
   },
   {
+   "repo": "liuyun847/dsh-host-restart",
+   "name": "liuyun847-dsh-host-restart",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 宿主插件:给模型一个 restart_dsh 工具,重启 dsh 后自动恢复原会话续跑 (DeepSeek Harness)"
+  },
+  {
    "repo": "liyixuan201211/ctx-budget",
    "name": "liyixuan201211-ctx-budget",
    "verdict": "ok",
@@ -7465,6 +7472,13 @@
    "desc": "—"
   },
   {
+   "repo": "miseryrua/dsh-wb-memory",
+   "name": "miseryrua-dsh-wb-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给 DSH 里的 Agent 一份跨会话长期记忆：真值源是工作区里的纯 Markdown，无向量库、无外部服务、零运行时依赖；每回合按预算分层注入 systemPrompt，后台自动流水 → 提炼 → 整理 → 治理"
+  },
+  {
    "repo": "MisRightW/dsh-agent-teams",
    "name": "misrightw-dsh-agent-teams",
    "verdict": "ok",
@@ -7474,6 +7488,13 @@
   {
    "repo": "Modole/dsh-plugin-skills-laoboshi",
    "name": "modole-dsh-plugin-skills-laoboshi",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "moesnow/dsh-session-billing",
+   "name": "moesnow-dsh-session-billing",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -21738,6 +21759,13 @@
    "desc": "DeepSeek Harness WebUI 的右侧边文件管理以及变更审查界面插件"
   },
   {
+   "repo": "longgege-cd/dsh-skin-pixel-anime",
+   "name": "longgege-cd-dsh-skin-pixel-anime",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Pixel-anime skin plugin for DeepSeek Harness web UI: palettes, pixel fonts (incl"
+  },
+  {
    "repo": "longyu065/dsh-theme-ti",
    "name": "dsh-theme-ti",
    "verdict": "ok",
@@ -25833,6 +25861,13 @@
    "desc": "Development-time skill for building DSH (DeepSeek Harness) / Cordis plugins end to end - plugin forms, templat"
   },
   {
+   "repo": "liuyun847/dsh-client-ui-session-rail",
+   "name": "liuyun847-dsh-client-ui-session-rail",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 客户端插件:侧边栏收起时在左侧空白区竖排显示活跃会话横条 (DeepSeek Harness)"
+  },
+  {
    "repo": "liuyun847/dsh-client-ui-turn-chime",
    "name": "liuyun847-dsh-client-ui-turn-chime",
    "verdict": "ok",
@@ -28871,6 +28906,13 @@
    "desc": "一款主打安全且更尊重开发者的开源 DeepSeek Harness 桌面客户端"
   },
   {
+   "repo": "mistnest/dsh-cuigengji-plugin",
+   "name": "mistnest-dsh-cuigengji-plugin",
+   "verdict": "incompatible",
+   "stars": 80,
+   "desc": "催更姬：给大肥鱼一个小说工作台"
+  },
+  {
    "repo": "AITabby/dockyard-dsh",
    "name": "aitabby-dockyard-dsh",
    "verdict": "incompatible",
@@ -30185,6 +30227,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "linanbuan/dsh-usage",
+   "name": "linanbuan-dsh-usage",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "用量 · Usage — DSH 设置面板：当日与累计 token 用量（账本在每用户数据目录，卸载插件或重装 DSH 后仍在）、缓存命中、历史用量热力图，以及 kimi-coding / commandcode / o"
   },
   {
    "repo": "loguhan/dsh-workshop",
@@ -94235,6 +94284,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "miqian-nomad/dsh-browser-playwright-codex",
+   "name": "miqian-nomad-dsh-browser-playwright-codex",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH 的浏览器：登录一次，它就用你的账号替你办事（查后台/填表/抓列表/多标签）；要登录、验证码、弹框会停下来等你，绝不替你点「确定」；你最小化它就不吵你，AI 在哪动手你随时看得见"
   },
   {
    "repo": "misterbig5222-oss/dsh-highlighter",
