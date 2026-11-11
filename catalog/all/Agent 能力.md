@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2291）
+# 🤖 Agent 能力（2293）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -865,6 +865,7 @@
 - ⬜ `[待定]` [auggie246-dsh-mattpocock-skills](https://github.com/auggie246/dsh-mattpocock-skills) ★0 — Install Matt Pocock's skills into DeepSeek Harness (DSH) — download fresh, patch for DSH, copy as real directo
 - 🟩 `[可用]` [auuduu-dsh-timem-memory](https://github.com/auuduu/dsh-timem-memory) ★0 — TiMEM 长期记忆的 DeepSeek Harness 插件：MCP 桥（凭证走 ctx.credentials）+ 内置 5 个记忆 skill
 - 🟩 `[可用]` [auuduu-dsh-zai-coding-models](https://github.com/auuduu/dsh-zai-coding-models) ★0 — DeepSeek Harness bridge plugin: newest Zhipu/Z.AI coding-plan models (glm-5.3) on zai-coding-cn before the bun
+- `[未定位]` **awoodwhale-dsh-agent-persona** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [axel286137079-dot-dsh-skill-matcher](https://github.com/axel286137079-dot/dsh-skill-matcher) ★0 — Skill & Expert Matcher for DeepSeek Harness (dsh plugin)
 - 🟩 `[可用]` [bailong-hakuryu-dsh-engineering-control-plane](https://github.com/bailong-Hakuryu/dsh-engineering-control-plane) ★0 — —
 - 🟩 `[可用]` [barry-liu-001-dsh-ark-plan-usage](https://github.com/Barry-Liu-001/dsh_ark_plan_usage) ★0 — —
@@ -2008,6 +2009,7 @@
 - 🟨 `[不兼容]` [coffee-man666-dsh-lens](https://github.com/coffee-man666/dsh-lens) ★0 — Repository and agent-runtime analysis skills as an installable DeepSeek Harness (dsh) plugin
 - `[未定位]` **csy656-dsh-skill-remote** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ct-jaryn-dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) ★0 — Optional community BaizhiCloud Agent Toolkit MCP configuration bundle for DeepSeek Harness
+- `[未定位]` **ctl456-dsh-skills-manager** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [cutesamurai24-dsh-md-memory](https://github.com/CuteSamurai24/dsh-md-memory) ★0 — —
 - 🟨 `[不兼容]` [czerror-dsh-plugin-prompt-tool](https://github.com/Czerror/dsh-plugin-prompt-tool) ★0 — —
 - 🟨 `[不兼容]` [daixin315-dsh-xiaoshuang](https://github.com/daixin315/dsh-xiaoshuang) ★0 — 小双 for DeepSeek Harness — 六层记忆人格插件 + 浮动视频形象（跟随 agent 状态表演 + TTS）
