@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2428）
+# 🤖 Agent 能力（2429）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -917,6 +917,7 @@
 - 🟩 `[可用]` [cayan0x-dsh-fold-context](https://github.com/cayan0x/dsh-fold-context) ★0 — Auto-fold context/system messages in DSH — collapse think blocks, tool calls, and tool results into grouped ex
 - `[空仓监测]` **cczzyy-cn-subagent-model-picker** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-fork](https://github.com/cestbon0309/dsh-fork) ★0 — A plugin that allows you to fork your session in DSH (Deepseek Harness).
+- `[未定位]` **charlesliuzc-dsh-voice-context** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [chenchen913-dsh-session-cleaner-cli](https://github.com/ChenChen913/dsh-session-cleaner-cli) ★0 — —
 - 🟩 `[可用]` [chenkezhen480-dsh-semantic-memory](https://github.com/chenkezhen480/dsh-semantic-memory) ★0 — 为deepseek-harness添加向量化跨会话记忆插件
 - `[未定位]` **chenneyzhuang-agent-skills-cn** — 占位待复核，判定暂不展示
