@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T22:31:01Z",
+ "generated_at": "2026-11-11T23:16:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -11012,6 +11012,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "zhang-guo-wen/dsh-mcp-manager",
+   "name": "zhang-guo-wen-dsh-mcp-manager",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "MCP server management for DeepSeek Harness: author composition rows, choose when an allowed server loads, and"
   },
   {
    "repo": "antonio-mastropaolo/dsh-anthropic-membership",
