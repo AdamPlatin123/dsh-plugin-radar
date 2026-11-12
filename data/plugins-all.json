@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T10:16:28Z",
+ "generated_at": "2026-11-12T10:31:23Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4462,6 +4462,13 @@
    "desc": "dsh插件，基于session的画布，可进行多session汇总"
   },
   {
+   "repo": "janpauldahlke/dsh-local-long-horizon",
+   "name": "janpauldahlke-dsh-local-long-horizon",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: host-owned long-horizon task board for local coding agents"
+  },
+  {
    "repo": "Jason-Liao/dsh-memory-tdai",
    "name": "jason-liao-dsh-memory-tdai",
    "verdict": "ok",
@@ -6156,6 +6163,13 @@
    "desc": "—"
   },
   {
+   "repo": "artorias-zj/dsh-cc-switch-skills",
+   "name": "artorias-zj-dsh-cc-switch-skills",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: load every skill from the current user's .cc-switch\\skills into DeepSeek Harness at startup"
+  },
+  {
    "repo": "Asteroid0449/dsh-agent-plugin-research",
    "name": "asteroid0449-dsh-agent-plugin-research",
    "verdict": "ok",
@@ -6259,6 +6273,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "bjzkhy/dsh-multiplatform-balance",
+   "name": "bjzkhy-dsh-multiplatform-balance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness skill plugin for multi-platform model account balances."
   },
   {
    "repo": "blairlaird/dsh-agent-mailbox",
@@ -25371,6 +25392,13 @@
    "desc": "DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化"
   },
   {
+   "repo": "dajie2014/dsh-dictation-turbo",
+   "name": "dajie2014-dsh-dictation-turbo",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Dictation for DSH: double-tap Control and speak — Chinese and English work with DSH alone; the free VoiceStudi"
+  },
+  {
    "repo": "dakeshui123/dsh-pet-frieren",
    "name": "dakeshui123-dsh-pet-frieren",
    "verdict": "ok",
@@ -34784,6 +34812,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "探奇 (Tanqi) plugin for the dsh web GUI: AI-generated curiosity & trivia with layered deep-dives"
+  },
+  {
+   "repo": "lccc233/dsh-opencode-go-usage",
+   "name": "lccc233-dsh-opencode-go-usage",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "OpenCode Go plan quota rings for the DeepSeek Harness web GUI"
   },
   {
    "repo": "ldystudy0913-jpg/dsh-pet",
@@ -100243,6 +100278,13 @@
    "desc": "only my DSH plugins — monorepo of DeepSeek Harness plugin bundles"
   },
   {
+   "repo": "xuanke66/dsh-thinking-slider",
+   "name": "xuanke66-dsh-thinking-slider",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 DeepSeek 的推理档位 off/low/high/max 做成一根滑杆的 DSH 插件（滑动变祖器）"
+  },
+  {
    "repo": "xuboboo/dsh-xiaohongshu-viral-note",
    "name": "xuboboo-dsh-xiaohongshu-viral-note",
    "verdict": "ok",
@@ -106760,6 +106802,13 @@
    "desc": "\\[DEPRECATED\\] Unmaintained — use shatyuka/dsh-llm-codebuddy or corrinehu/dsh-workbuddy-connect"
   },
   {
+   "repo": "ch1bug/dsh-shell-host",
+   "name": "ch1bug-dsh-shell-host",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH bundle: native MSYS2 (UCRT64) bash for the DSH shell seam — fork of @deepseek-ai/dsh-bash-local with confi"
+  },
+  {
    "repo": "chengganping-ship-it/dsh-tool-codereview",
    "name": "chengganping-ship-it-dsh-tool-codereview",
    "verdict": "incompatible",
@@ -107516,6 +107565,13 @@
    "desc": "DeepSeek Harness plugin: provider sign-in, model catalog, and selection routing over a loopback-only /model-hu"
   },
   {
+   "repo": "yijiezhong/dsh-output-setting",
+   "name": "yijiezhong-dsh-output-setting",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH output settings plugin: auto-expand reasoning/tool nodes, code block font size & line height, model output"
+  },
+  {
    "repo": "yingzaicc/dsh-editor-selection",
    "name": "yingzaicc-dsh-editor-selection",
    "verdict": "incompatible",
@@ -107941,6 +107997,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "d0ublecl1ck/dsh-search-enhance",
+   "name": "d0ublecl1ck-dsh-search-enhance",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Search inside the DeepSeek Harness New-Session workspace picker: pinyin initials, full pinyin spelling and sub"
   },
   {
    "repo": "ddowbnac/dsh-web-search-local",
