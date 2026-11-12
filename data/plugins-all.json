@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T10:01:21Z",
+ "generated_at": "2026-11-12T10:16:28Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3480,6 +3480,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Recall and re-run the current session's command history with ↑/↓ keys in the DSH Web composer."
+  },
+  {
+   "repo": "xypang33-sketch/dsh-save-chat",
+   "name": "xypang33-sketch-dsh-save-chat",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Save DSH conversation turns as Markdown: per-session collections plus a personal knowledge base the model can"
   },
   {
    "repo": "yamingmou/dsh-log-contract",
@@ -14092,6 +14099,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "将简短或模糊的指令改写为结构化 Prompt"
+  },
+  {
+   "repo": "lolipop-1x1/dsh-recap",
+   "name": "lolipop-1x1-dsh-recap",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A session recap plugin for DeepSeek Harness with /recap, automatic idle summaries, and configurable models."
   },
   {
    "repo": "LucienLL/dsh-session-memo",
@@ -34555,6 +34569,13 @@
    "desc": "DeepSeek Harness 诊断插件：把 home、进程、端口、大 session、版本问题收成一份可粘贴的报告"
   },
   {
+   "repo": "hmtxj/dsh-model-modality",
+   "name": "hmtxj-dsh-model-modality",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Per-model input type (text/image) and thinking level checkboxes on the DSH Models settings page, writing the o"
+  },
+  {
    "repo": "hongbaiqi/dsh-model-account-login",
    "name": "hongbaiqi-dsh-model-account-login",
    "verdict": "incompatible",
@@ -34889,6 +34910,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness Web 输入历史插件:↑/↓ 终端式翻查本会话消息,/history 可搜索面板;纯客户端,按会话隔离"
+  },
+  {
+   "repo": "louisyeaaah/dsh-reload",
+   "name": "louisyeaaah-dsh-reload",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Reload DSH plugins and skills without restarting: reload_plugin re-imports a loaded plugin's own modules and r"
   },
   {
    "repo": "lrplrplrp/dsh-sidebar-gdhighlight",
@@ -61785,6 +61813,13 @@
    "desc": "—"
   },
   {
+   "repo": "yuehancn/dsh-tool-invoice",
+   "name": "yuehancn-dsh-tool-invoice",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin"
+  },
+  {
    "repo": "YuemingHub/Ming-Capability-Pack",
    "name": "yueminghub-ming-capability-pack",
    "verdict": "ok",
@@ -75622,6 +75657,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 桌面版（Tauri v2 源码）—— 分出发版产物见 lem0nl1me/dsh-desktop"
+  },
+  {
+   "repo": "lemonhall/dsh-radio-dock",
+   "name": "lemonhall-dsh-radio-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Car radio dock for DeepSeek Harness: three.js in-car view + winding night road + radio-browser stations (City"
   },
   {
    "repo": "leonardoxr/dsh-native",
@@ -89531,6 +89573,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "—"
+  },
+  {
+   "repo": "ikun666666/dsh-groupchat",
+   "name": "ikun666666-dsh-groupchat",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "DSH 插件：每个工程一个群聊 —— 多个 AI 会话与人同群互聊、@ 唤醒离线会话、@创建成员 拉新会话进群"
   },
   {
    "repo": "imetn/dsh-lark-bridge",
