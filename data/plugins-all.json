@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T11:16:11Z",
+ "generated_at": "2026-11-12T11:46:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1646,6 +1646,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "—"
+  },
+  {
+   "repo": "w-j-y-wjy/dsh-glass-weather",
+   "name": "w-j-y-wjy-dsh-glass-weather",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "DeepSeek Harness（DSH）原生 Cordis 插件：在会话顶栏放一颗 30px 玻璃天气胶囊，并注册 get_weather 工具"
   },
   {
    "repo": "watericetangcw/academic-research-graph",
@@ -29200,6 +29207,13 @@
    "desc": "DSH 插件：任务星图 — 樱花主题的任务流程可视化"
   },
   {
+   "repo": "wsj060618/dsh-skin-studio",
+   "name": "wsj060618-dsh-skin-studio",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "wswbx/quick-research-campaign",
    "name": "wswbx-quick-research-campaign",
    "verdict": "ok",
@@ -33223,6 +33237,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "浏览器自主操作插件：爱丽丝经 headless Chrome (CDP) 自主打开页面/点击/输入/读取/截图——GUI 验证与网页操作全自主，不依赖主人手动操作"
+  },
+  {
+   "repo": "juliankang4/dsh-ui-scale",
+   "name": "juliankang4-dsh-ui-scale",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Interface scale setting (50% to 200%) for the DeepSeek Harness (dsh) Web UI and desktop app"
   },
   {
    "repo": "Juryorca/dsh-custom-theme-import",
@@ -47967,6 +47988,13 @@
    "desc": "DSH Web 设置中的只读插件目录"
   },
   {
+   "repo": "vrvtvy/dsh-cache-hit-precision",
+   "name": "vrvtvy-dsh-cache-hit-precision",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Precise three-decimal cache-hit readout for the DeepSeek Harness (DSH) Web composer stats row"
+  },
+  {
    "repo": "vvlife/dsh-agnes-paseo",
    "name": "vvlife-dsh-agnes-paseo",
    "verdict": "ok",
@@ -48590,6 +48618,13 @@
    "desc": "—"
   },
   {
+   "repo": "zczgagat/token2rice",
+   "name": "zczgagat-token2rice",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "一个能把你消耗的token转换为白米饭的dsh插件"
+  },
+  {
    "repo": "zebbkira/dsh-pluginmgmt",
    "name": "zebbkira-dsh-pluginmgmt",
    "verdict": "ok",
@@ -48677,6 +48712,13 @@
    "repo": "Zhuchen00123/dsh-wsl-modes",
    "name": "zhuchen00123-dsh-wsl-modes",
    "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "zhujunzhujunzhu/ai-token-report",
+   "name": "zhujunzhujunzhu-ai-token-report",
+   "verdict": "ok",
    "stars": 1,
    "desc": "—"
   },
@@ -93257,6 +93299,13 @@
    "desc": "ChatGPT-style in-conversation message search and outline map for DeepSeek Harness (dsh): search history messag"
   },
   {
+   "repo": "cyanovo/dsh-remote-qqbot",
+   "name": "cyanovo-dsh-remote-qqbot",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "ddll8023/dsh-codex",
    "name": "dsh-codex",
    "verdict": "incompatible",
@@ -94979,6 +95028,13 @@
    "desc": "iKanban 是面向 OpenCode V2 的独立前端应用"
   },
   {
+   "repo": "pavel-logachev/dsh-mobile",
+   "name": "pavel-logachev-dsh-mobile",
+   "verdict": "pending",
+   "stars": 14,
+   "desc": "DeepSeek Harness Android app: control your DeepSeek Harness agents from your phone"
+  },
+  {
    "repo": "shiyan688/dsh-novel-craft",
    "name": "shiyan688-dsh-novel-craft",
    "verdict": "pending",
@@ -95719,6 +95775,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "DSH 插件：git 提交固定使用环境自身作者身份（优先 gh CLI 登录账号，GitHub noreply 邮箱），GIT_AUTHOR_*/GIT_COMMITTER_* 环境变量注入压过一切 git config"
+  },
+  {
+   "repo": "montersy123/dsh-skill-market",
+   "name": "montersy123-dsh-skill-market",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "Browse, search and install SkillHub skills inside DeepSeek Harness"
   },
   {
    "repo": "NanmiCoder/dsh-plugin-market",
@@ -98414,6 +98477,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Right-docked file panel for DSH Web: browse any directory and view/edit text, images, Office (docx/xlsx/pptx)"
+  },
+  {
+   "repo": "beijingwahw/dsh-proof",
+   "name": "beijingwahw-dsh-proof",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Evidence-driven completion proof & regression attribution plugin for DeepSeek Harness (dsh)"
   },
   {
    "repo": "ben7am1n/dsh-claude-marketplace",
@@ -103631,6 +103701,13 @@
    "desc": "Self-hosted agent sessions across terminal, browser and phone〔📦〕"
   },
   {
+   "repo": "u-fw/dsh-token-ledger",
+   "name": "u-fw-dsh-token-ledger",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Cross-project token ledger for DeepSeek Harness: totals every project's provider-billed token usage"
+  },
+  {
    "repo": "uckkk/dsh-ab-sample",
    "name": "uckkk-dsh-ab-sample",
    "verdict": "ok",
@@ -103860,6 +103937,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Static, local, explainable pre-install security audit for Agent Skills"
+  },
+  {
+   "repo": "whaoran1018-cmd/dsh-plugin-weather",
+   "name": "whaoran1018-cmd-dsh-plugin-weather",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Global weather, multi-day forecast and air quality for DeepSeek Harness, Claude Code, Codex, Cursor and any MC"
   },
   {
    "repo": "winyh/dsh-business",
@@ -108998,6 +109082,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH plugin: searchable/filterable model manager for OmniRoute (or any OpenAI-compatible gateway) — provider di"
+  },
+  {
+   "repo": "qaz320621/dsh-likemobaxtearm-chumc",
+   "name": "qaz320621-dsh-likemobaxtearm-chumc",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）右侧栏 SSH 控制台插件 · 安装：https://github.com/qaz320621/dsh-likemobaxtearm-chumc"
   },
   {
    "repo": "qimen039-code/dsh-consumer-audit",
