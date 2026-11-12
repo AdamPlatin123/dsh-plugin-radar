@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2571）
+# 🤖 Agent 能力（2573）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2202,6 +2202,7 @@
 - 🟨 `[不兼容]` [chaserchan-dsh-browser-harness](https://github.com/chaserchan/dsh-browser-harness) ★0 — DSH plugin: drive a real Chrome from your dsh agent via the browser-use Browser Harness (local, no API key).
 - 🟨 `[不兼容]` [chen-zz20-dsh-skill-stats](https://github.com/chen-zz20/dsh-skill-stats) ★0 — —
 - `[未定位]` **chenneyzhuang-context-budget** — 占位待复核，判定暂不展示
+- `[未定位]` **chenyueqi2024-dsh-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **chip-philo-gh-dsh-session-search** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [chr003-dsh-subagent-model-picker](https://github.com/chr003/dsh-subagent-model-picker) ★0 — Separate per-session model and reasoning effort controls for DeepSeek Harness subagents.
 - 🟨 `[不兼容]` [chuxindd-dsh-context-enhancement](https://github.com/chuxindd/dsh-context-enhancement) ★0 — 适用于 DeepSeek Harness 的单会话上下文增强工具，力求化解会话在触发 /compact 上下文压缩后损失信息过多，导致前后表现“判若两人”的技术困境
@@ -2210,6 +2211,7 @@
 - `[未定位]` **cloudto1-dsh-approval-chime** — 占位待复核，判定暂不展示
 - `[未定位]` **cn-hang-dsh-context-actions** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [coffee-man666-dsh-lens](https://github.com/coffee-man666/dsh-lens) ★0 — Repository and agent-runtime analysis skills as an installable DeepSeek Harness (dsh) plugin
+- `[未定位]` **coinsoundsbetter-dsh-agents-md-switch** — 占位待复核，判定暂不展示
 - `[未定位]` **crazypighead-dsh-plugin-agents-loader** — 占位待复核，判定暂不展示
 - `[未定位]` **csy656-dsh-skill-remote** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [ct-jaryn-dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) ★0 — Optional community BaizhiCloud Agent Toolkit MCP configuration bundle for DeepSeek Harness
