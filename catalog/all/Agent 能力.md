@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2567）
+# 🤖 Agent 能力（2568）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2344,6 +2344,7 @@
 - 🟨 `[不兼容]` [liuyangdongdong-dsh-session-rerun](https://github.com/liuyangdongdong/dsh-session-rerun) ★0 — DeepSeek Harness plugin for inspecting and replaying completed main-agent and subagent session steps
 - `[未定位]` **lixiuxiu559-agentforge** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [lizhi00001-dsh-tools-plugins](https://github.com/lizhi00001/dsh-tools-plugins) ★0 — 将简短或模糊的指令改写为结构化 Prompt
+- `[未定位]` **ljh-snow-dsh-tool-context7** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [lolipop-1x1-dsh-recap](https://github.com/lolipop-1x1/dsh-recap) ★0 — A session recap plugin for DeepSeek Harness with /recap, automatic idle summaries, and configurable models.
 - `[未定位]` **lolkda-dsh-ctf-prompt** — 占位待复核，判定暂不展示
 - `[未定位]` **losecher-dsh-context-doctor** — 占位待复核，判定暂不展示
