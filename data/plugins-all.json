@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T05:31:24Z",
+ "generated_at": "2026-11-12T05:46:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -7045,6 +7045,13 @@
    "desc": "Zero-token contract check for DSH plugins — verifies output.render() / session-event vocabulary, warn-only"
   },
   {
+   "repo": "imtokenxinluo/dsh-session-doctor",
+   "name": "imtokenxinluo-dsh-session-doctor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Session doctor for DeepSeek Harness: scan and losslessly repair corrupted session logs"
+  },
+  {
    "repo": "iqingyoung/search2chart-mcp",
    "name": "iqingyoung-search2chart-mcp",
    "verdict": "ok",
@@ -13658,6 +13665,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "GROX Network for DeepSeek Harness (dsh): find agents on grox.life, hire one for a task, get the work back — es"
+  },
+  {
+   "repo": "imtokenxinluo/dsh-session-backup",
+   "name": "imtokenxinluo-dsh-session-backup",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Backup tooling for DeepSeek Harness session data: bundle + sha256 integrity verification + spot-restore loader"
   },
   {
    "repo": "inrainbws/dsh-vibe-mode",
@@ -21773,6 +21787,13 @@
    "desc": "DSH 插件：角色设定与长期记忆（角色库 persona.yml/SOUL.md/USER.md + FACT.md/MEMORY.md + JOURNAL.jsonl），注册在宿主组合层，对所有 agent 预设生效，"
   },
   {
+   "repo": "huantest2024/dsh-anime-theme",
+   "name": "huantest2024-dsh-anime-theme",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "二次元主题插件 for DeepSeek Harness — anime wallpaper / glass panel / mascot widgets, installable via the official pl"
+  },
+  {
    "repo": "HuiHuitie-zhu/dsh-check-update",
    "name": "huihuitie-zhu-dsh-check-update",
    "verdict": "ok",
@@ -26146,6 +26167,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Feishu (Lark) OAuth login gate for the DeepSeek Harness web GUI — a signed session cookie in front of every HT"
+  },
+  {
+   "repo": "jiangshirong/dsh-plugin-ui-zoom",
+   "name": "jiangshirong-dsh-plugin-ui-zoom",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Interface zoom (Ctrl+= / Ctrl+- / Ctrl+0) for the DeepSeek Harness client — an out-of-tree Cordis client plugi"
+  },
+  {
+   "repo": "jiangshirong/dsh-ui-panel-resize",
+   "name": "jiangshirong-dsh-ui-panel-resize",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：给 DeepSeek Harness Web GUI 的对话顶栏加一条可拖动的下边界——上下拖动调高度，拖过最小值即收起，点击细条恢复"
   },
   {
    "repo": "jianjianzhu/dsh-model-switcher",
@@ -38984,6 +39019,13 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "Cross-session messaging for DSH — any session on the machine can list and messag"
+  },
+  {
+   "repo": "jiuge613/dsh-amd-free-model",
+   "name": "jiuge613-dsh-amd-free-model",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "每日探测 AMD Radeon Token Factory 免费模型的 DeepSeek Harness 插件（付费区模型不接入）"
   },
   {
    "repo": "Jolly-J/dsh-deepseek-billing",
@@ -85613,6 +85655,13 @@
    "desc": "Shared floating-window shell for DSH web plugins: float/dock/minimize, drag, edge-snap, corner resize, per-win"
   },
   {
+   "repo": "imtokenxinluo/dsh-tip-jar",
+   "name": "imtokenxinluo-dsh-tip-jar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Tip jar for DeepSeek Harness: contributors declare USDC / fiat / QR channels in sponsors.json; sponsor-center"
+  },
+  {
    "repo": "Jensen-Yao/dsh-deepexcel",
    "name": "jensen-yao-dsh-deepexcel",
    "verdict": "pending",
@@ -90681,6 +90730,13 @@
    "desc": "让 DeepSeek Harness（DSH） 通过 ChatGPT/Codex 订阅调用 openai-codex 模型，无需配置 OpenAI API Key"
   },
   {
+   "repo": "jclzz/dsh-harbor",
+   "name": "jclzz-dsh-harbor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "插件港 DSH Harbor · DeepSeek Harness 社区插件收录站｜浏览、搜索、一键安装群友与社区开源的 DSH 插件"
+  },
+  {
    "repo": "jeremiahoclark/dsh-webbridge",
    "name": "jeremiahoclark-dsh-webbridge",
    "verdict": "ok",
@@ -92625,6 +92681,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "haotian-lu-prog/dsh-notifications",
+   "name": "haotian-lu-prog-dsh-notifications",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "macOS menu bar activity indicator for DeepSeek Harness (community fork of dsh-notify; supports DSH 0.1.7-rc.2"
   },
   {
    "repo": "hu568/dsh-plugin-cluster-preset",
