@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T17:01:23Z",
+ "generated_at": "2026-11-12T17:31:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -102924,13 +102924,6 @@
    "desc": "DeepSeek Harness (dsh) plugin: live local LLM endpoint health in the web rightbar"
   },
   {
-   "repo": "jasonjiang9527/dsh-plugins",
-   "name": "jasonjiang9527-dsh-plugins",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "自研 dsh 插件合集 · dsh-btw: 划选引用 / btw 临时会话 / 新上下文 / Provider 高级配置"
-  },
-  {
    "repo": "jesongit/dsh-plugin",
    "name": "jesongit-dsh-plugin",
    "verdict": "pending",
@@ -109306,6 +109299,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jasonjiang9527/dsh-plugins",
+   "name": "jasonjiang9527-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "自研 dsh 插件合集 · dsh-btw: 划选引用 / btw 临时会话 / 新上下文 / Provider 高级配置"
   },
   {
    "repo": "JesmonX/dsh-web-shell",
