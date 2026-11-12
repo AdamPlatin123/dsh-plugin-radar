@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T03:31:14Z",
+ "generated_at": "2026-11-12T03:46:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -19092,6 +19092,13 @@
    "desc": "Maintainer PR review queue board for DeepSeek Harness: five-state tracking (waiting on me / waiting on author"
   },
   {
+   "repo": "demxyuanli/dsh-canvas",
+   "name": "demxyuanli-dsh-canvas",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness project-board plugin —— 适配 DeepSeek Harness 的项目看板插件：agent 写的 .canvas.tsx 看板实时编译渲染到右栏，面板决定可回流给"
+  },
+  {
    "repo": "dorisaimpatient855/awesome-dsh-plugin",
    "name": "dorisaimpatient855-awesome-dsh-plugin",
    "verdict": "pending",
@@ -25453,6 +25460,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Pacote de idioma Português (Brasil) para a GUI Web do DeepSeek Harness"
+  },
+  {
+   "repo": "gst20060726/dsh-auto-translate",
+   "name": "gst20060726-dsh-auto-translate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Zero-token on-demand translation for the DeepSeek Harness Web GUI — hover a block or drag-select text to trans"
   },
   {
    "repo": "gtbwpkwjnb-alt/dsh-audit-skills",
@@ -86992,6 +87006,13 @@
    "desc": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库"
   },
   {
+   "repo": "121212165/dsh-plugin-cost-ledger",
+   "name": "121212165-dsh-plugin-cost-ledger",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: bills every model call into a monthly JSONL cost ledger - token buckets, cache reads, off-peak rul"
+  },
+  {
    "repo": "121212165/dsh-plugin-html-report",
    "name": "121212165-dsh-plugin-html-report",
    "verdict": "incompatible",
@@ -87004,6 +87025,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "dsh plugin: pushes archived session transcripts into an Obsidian vault as Markdown with YAML frontmatter, dedu"
+  },
+  {
+   "repo": "121212165/dsh-plugin-session-insights",
+   "name": "121212165-dsh-plugin-session-insights",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: cross-session activity stats from per-call token records - daily trend, priciest sessions, model m"
   },
   {
    "repo": "798645706/dsh-strawberry-data-hub",
@@ -92254,6 +92282,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hu568/dsh-plugin-cluster-preset",
+   "name": "hu568-dsh-plugin-cluster-preset",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH「集群模式」agent preset：主控智能体自主编排 5 个具名专家子智能体，附「智能体寿命论」阶段提示器"
   },
   {
    "repo": "Huauauaa/dsh-chatbi",
@@ -104996,6 +105031,20 @@
    "desc": "dsh plugin: spend forecasting over cost-ledger sidecars - daily burn rate, month-end projection, budget exhaus"
   },
   {
+   "repo": "121212165/dsh-plugin-transcript",
+   "name": "121212165-dsh-plugin-transcript",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: archives every session turn to monthly JSONL sidecars and exports Markdown - the transcript layer"
+  },
+  {
+   "repo": "121212165/dsh-plugin-transcript-search",
+   "name": "121212165-dsh-plugin-transcript-search",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: full-text search across archived session transcripts, reading the JSONL sidecars written by dsh-pl"
+  },
+  {
    "repo": "6pofx/dsh-tool-explorer",
    "name": "6pofx-dsh-tool-explorer",
    "verdict": "incompatible",
@@ -106291,6 +106340,13 @@
    "desc": "Performance-art dsh plugin: the machine inspects its owner; non-Chinese verdicts terminate all workflows"
   },
   {
+   "repo": "dzwalker/dsh-session-keepwarm",
+   "name": "dzwalker-dsh-session-keepwarm",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Keep the most recently used sessions resident in the browser, so switching back reuses the loaded history inst"
+  },
+  {
    "repo": "EasyTZ/dsh-terminal-panel",
    "name": "easytz-dsh-terminal-panel",
    "verdict": "incompatible",
@@ -106443,6 +106499,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Structured cross-model peer review for DeepSeek Harness — blind reasoning, anonymous critique, revision, and d"
+  },
+  {
+   "repo": "gosomea/dsh-opencode-go",
+   "name": "gosomea-dsh-opencode-go",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "OpenCode Go and Zen live model discovery, pricing and session routing for DeepSeek Harness"
   },
   {
    "repo": "gpapadak42/dsh-memory",
