@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3318）
+# 🔌 Web UI 增强（3323）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1110,7 +1110,9 @@
 - 🟩 `[可用]` [longgege-cd-dsh-skin-pixel-anime](https://github.com/longgege-cd/dsh-skin-pixel-anime) ★1 — Pixel-anime skin plugin for DeepSeek Harness web UI: palettes, pixel fonts (incl
 - 🟩 `[可用]` [dsh-theme-ti](https://github.com/longyu065/dsh-theme-ti) ★1 — —
 - ⬜ `[待定]` [loong-wql-build-hos-mcp](https://github.com/Loong-wql/Build-HOS-mcp) ★1 — —
+- 🟩 `[可用]` [loubaji083-rgb-dsh-plugin-aivideo-shotkit](https://github.com/loubaji083-rgb/dsh-plugin-aivideo-shotkit) ★1 — 把 AI 生成的视频（或录屏）自动切成能直接投喂人物替换工具的片段：识别并裁掉播放器 UI 覆盖层、按场景分镜、逐镜头量运动量、超长镜头再切子段
 - 🟩 `[可用]` [louiscanbe-dsh-plugin-ollama-monitor](https://github.com/LouisCanBe/dsh-plugin-ollama-monitor) ★1 — —
+- 🟩 `[可用]` [lov0vo-dsh-composer-autopair](https://github.com/lov0vo/dsh-composer-autopair) ★1 — DSH 聊天输入框的括号/引号自动配对插件 —— Auto-pair brackets and quotes in the DeepSeek Harness chat composer
 - 🟩 `[可用]` [lovejavacore-dsh-minecraft-pet](https://github.com/lovejavacore/dsh-minecraft-pet) ★1 — DeepSeek Harness（DSH）网页界面的桌面宠物——Steve、Creeper 和 Ultraman 会根据代理的工作状态做出反应
 - 🟩 `[可用]` [loyalchiiina-dsh-todo-float-ball](https://github.com/loyalchiiina/dsh-todo-float-ball) ★1 — Floating todo progress ball for DSH: live done/total + active task, status colours, draggable, Shadow-DOM isol
 - 🟩 `[可用]` [lsxblh-dsh-todo-dock](https://github.com/lsxblh/dsh-todo-dock) ★1 — DeepSeek Harness Web GUI 插件：把 todo 面板停靠到右上角并跨轮常驻（CSS 注入 + 机制级重放），可热调样式，零依赖
@@ -1307,6 +1309,7 @@
 - 🟩 `[可用]` [xmnathan-dsh-skin-galactic-opera](https://github.com/xmnathan/dsh-skin-galactic-opera) ★1 — Unofficial cinematic space-opera dark skin bundle for the DSH Web GUI.
 - 🟩 `[可用]` [xp266-dsh-tui](https://github.com/xp266/dsh-tui) ★1 — ink-based terminal UI plugin for DeepSeek Harness
 - 🟩 `[可用]` [xujian519-dsh-annotator](https://github.com/xujian519/dsh-annotator) ★1 — 对DSH的交付物进行标注的插件，人工标注后，DSH会根据标注执行
+- 🟩 `[可用]` [xulianglong-akk-dsh-whale-intro](https://github.com/xulianglong-akk/dsh-whale-intro) ★1 — 鲸鱼娘开场：DSH 启动时她先出现，挥手、眨眼，然后连贯地沉回界面里
 - ⬜ `[待定]` [xuruitian-deepseek-harness-desktop](https://github.com/XuRuitian/deepseek-harness-desktop) ★1 — —
 - 🟩 `[可用]` [xyz10088-dsh-quick-restart](https://github.com/Xyz10088/dsh-quick-restart) ★1 — —
 - 🟩 `[可用]` [xzyonline-dsh-chat-files](https://github.com/xzyonline/dsh-chat-files) ★1 — Session-bound file attachments for DeepSeek Harness: drag, paste, or select files into the chat; the agent rea
@@ -1847,6 +1850,7 @@
 - 🟩 `[可用]` [lurejewel-dsh-usage-plugin](https://github.com/lurejewel/dsh-usage-plugin) ★0 — Lightweight, native sidebar usage panel for DeepSeek Harness: official balance + token usage history from sess
 - 🟩 `[可用]` [luxueliu-luxueliu-dsh-story](https://github.com/luxueliu/luxueliu-dsh-story) ★0 — DSH 写小说缺的四件事一次配齐！世界书角色卡拖进输入框，正文整篇进上下文；剧情断了 /gemini-sum 一键交接新窗；/out 导出干净成稿；/sum 一句话成角色卡/世界书；\[论坛体\]\[第二人称\] 打字即展开 —
 - 🟩 `[可用]` [lwb919191-dsh-voice-input](https://github.com/lwb919191/dsh-voice-input) ★0 — DSH voice input plugin: local offline Vosk speech-to-text with real-time streaming
+- 🟩 `[可用]` [lxl8182-dsh-llm-error-classify](https://github.com/lxl8182/dsh-llm-error-classify) ★0 — DSH 错误分类修正插件：把适配器一律判成 AUTH 的提供方失败改写为 PROVIDER_ERROR，让网关原文原样显示，而不是被 UI 替换成「API 密钥无效」
 - 🟩 `[可用]` [lyaoliu-dsh-approval-core](https://github.com/lyaoliu/dsh-approval-core) ★0 — DeepSeek Harness 自动审批决策管道：例行沙箱越界自动放行，危险/拿不准/失败一律转人工（fail-safe）；学习受约束可一键清空；含分级配置 UI 与块级撤销审查视图
 - 🟩 `[可用]` [lyjsyyds-dsh-quick-reload](https://github.com/lyjsyyds/dsh-quick-reload) ★0 — A one-click page refresh for the DeepSeek Harness Web UI: it reboots the page against the freshly published mo
 - 🟩 `[可用]` [lyke-61-dsh-custom-instructions](https://github.com/lyke-61/dsh-custom-instructions) ★0 — Codex-style custom instructions for DeepSeek Harness: edit ~/.dsh/AGENTS.md from a settings panel - applies to
@@ -2007,6 +2011,7 @@
 - 🟩 `[可用]` [ryzezhou-dsh-ui-mobile-layout](https://github.com/RyzeZhou/dsh-ui-mobile-layout) ★0 — —
 - `[未定位]` **s11phere-dsh-btw-sidebar** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [s1lverex-dsh-plugin-blender](https://github.com/s1lverex/dsh-plugin-blender) ★0 — Blender for DeepSeek Harness: headless render/convert tools for 3D models plus a three.js viewer panel in the
+- 🟩 `[可用]` [sailoflight-dsh-tui-compact-carry](https://github.com/sailoflight/dsh-tui-compact-carry) ★0 — TUI-only DeepSeek Harness plugin: compaction count/progress in the status line + /carry to bring a cached comp
 - `[未定位]` **saknutella-dsh-thinking-quips** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-agent-sdk](https://github.com/salathleizhang/dsh-agent-sdk) ★0 — Embeddable, plugin-based coding-agent runtime built on DeepSeek Harness
 - 🟩 `[可用]` [sandersyao-dsh-plugin-ui-session-fork](https://github.com/sandersyao/dsh-plugin-ui-session-fork) ★0 — deepseek harness 插件 增加会话分组方式“树形”
