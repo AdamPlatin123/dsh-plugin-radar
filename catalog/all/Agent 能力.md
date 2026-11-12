@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2565）
+# 🤖 Agent 能力（2567）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -883,6 +883,7 @@
 - ⬜ `[待定]` [863683348-dsh-project](https://github.com/863683348/dsh-project) ★0 — DSH - DeepSeek Harness: a lightweight plugin host for DeepSeek agent runs
 - 🟩 `[可用]` [904915452-dsh-keyboard-shortcuts](https://github.com/904915452/dsh-keyboard-shortcuts) ★0 — DeepSeek Harness 插件：可配置键盘快捷键（输入历史 + 审批/计划快捷键）
 - 🟩 `[可用]` [904915452-dsh-specify](https://github.com/904915452/dsh-specify) ★0 — DeepSeek Harness 插件：Spec-Kit 规范驱动开发技能套件（/speckit-* 斜杠命令）
+- 🟩 `[可用]` [962599627-agent-development-constraints](https://github.com/962599627/agent-development-constraints) ★0 — Intelligent agent development constraints
 - `[未定位]` **9ashwin-dsh-session-rename** — 占位待复核，判定暂不展示
 - `[空仓监测]` **abccgh-dsh-agent-studio** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [abdounasser202-dsh-deepseek-budget](https://github.com/abdounasser202/dsh-deepseek-budget) ★0 — Track your DeepSeek spent budget into DeepSeek Harness
@@ -1873,6 +1874,7 @@
 - 🟨 `[不兼容]` [dddfxyqiming-dsh-layered-memory](https://github.com/DDDFXYqiming/dsh-layered-memory) ★3 — —
 - 🟨 `[不兼容]` [drscrewdriver-dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) ★3 — —
 - 🟨 `[不兼容]` [fashionmascherine-svg-dsh-polymarket-knowhow](https://github.com/fashionmascherine-svg/dsh-polymarket-knowhow) ★3 — DeepSeek Harness plugin (dsh-plugin): complete Polymarket superpowers — 31 verified tools across Gamma/CLOB/Da
+- 🟨 `[不兼容]` [he0119-dsh-session-manager](https://github.com/he0119/dsh-session-manager) ★3 — 把 DSH 的会话库管起来：迁移工作区与会话到新目录，导出 / 导入 .dshsess 会话包，用 WebDAV 在多台机器之间同步
 - 🟨 `[不兼容]` [interpss-project-ipss-agent](https://github.com/InterPSS-Project/ipss-agent) ★3 — —
 - 🟨 `[不兼容]` [dsh-think-any-lang](https://github.com/lco117/dsh-think-any-lang) ★3 — DeepSeek Harness (DSH) plugin: a "Thinking Language" selector under Settings → General that tells the model wh
 - 🟨 `[不兼容]` [lizhecome-deepseek-harness-prompt-optimizer](https://github.com/lizhecome/deepseek-harness-prompt-optimizer) ★3 — LLM-backed prompt optimization bundle for DeepSeek Harness

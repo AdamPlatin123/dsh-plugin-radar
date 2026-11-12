@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3313）
+# 🔌 Web UI 增强（3317）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -874,6 +874,7 @@
 - ⬜ `[待定]` [afa-cloud-desktop-gui-automation-cua](https://github.com/afa-cloud/desktop-gui-automation-cua) ★1 — Cross-platform macOS desktop GUI automation & computer-use skill built on cua-driver: AX→pixel→desktop gracefu
 - 🟩 `[可用]` [afterrealism-dsh-conn-dot](https://github.com/afterrealism/dsh-conn-dot) ★1 — DSH plugin: green/red connection dot beside the sidebar brand showing WebSocket + liveness-probe health of dsh
 - 🟩 `[可用]` [afterrealism-dsh-session-ctxmenu](https://github.com/afterrealism/dsh-session-ctxmenu) ★1 — DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu
+- 🟩 `[可用]` [ahian-lee-dsh-bliss-glass](https://github.com/ahian-lee/dsh-bliss-glass) ★1 — XP scenery wallpapers x frosted-glass UI for DeepSeek Harness
 - ⬜ `[待定]` [ahren112-ds-image-skin](https://github.com/ahren112/ds-image-skin) ★1 — Image skin plugin for DeepSeek Harness web UI
 - 🟩 `[可用]` [ai-yucheng-dsh-audio-copilot](https://github.com/ai-yucheng/dsh-audio-copilot) ★1 — Audio Copilot for DeepSeek Harness — transcribe audio (ASR) , with an in-composer voice-input mic button
 - 🟩 `[可用]` [ai-yucheng-dsh-composer-image-tools](https://github.com/ai-yucheng/dsh-composer-image-tools) ★1 — DSH 聊天输入框图片工具(自研):上传图片 + 区域截图,注入草稿图片轨
@@ -1465,6 +1466,7 @@
 - `[空仓监测]` **dsh-plugin-ui-turnav** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **avalonskyafar-mahotsukainoyoru-dsh-skin** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [avery-liu88-dsh-skin-plugin](https://github.com/Avery-LIU88/dsh-skin-plugin) ★0 — —
+- 🟩 `[可用]` [averyzhoux-dsh-session-balance](https://github.com/averyzhoux/dsh-session-balance) ★0 — ⚖️ Quietly to display the balance.
 - `[未定位]` **azchui-dsh-buddy-spike** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [aze0695-dsh-crimson-theme](https://github.com/aze0695/dsh-crimson-theme) ★0 — —
 - 🟩 `[可用]` [baikangwang-dsh-ide-ui](https://github.com/baikangwang/dsh-ide-ui) ★0 — —
@@ -1546,6 +1548,7 @@
 - 🟩 `[可用]` [demigod-cyber-dsh-angelina-theme](https://github.com/Demigod-cyber/dsh-angelina-theme) ★0 — —
 - 🟩 `[可用]` [destined-at-dawn-dsh-visual-workbench](https://github.com/Destined-at-Dawn/dsh-visual-workbench) ★0 — —
 - 🟩 `[可用]` [devacc8-dsh-file-explorer](https://github.com/devacc8/dsh-file-explorer) ★0 — Vendored, hardened fork of dsh-file-explorer (DSH web file explorer): workspace confinement, argv-only launchi
+- 🟩 `[可用]` [dgmico-dsh-markdown-composer](https://github.com/dgmico/dsh-markdown-composer) ★0 — 让 DSH 的输入框支持 Markdown：草稿实时渲染预览 + 格式化工具栏 + 语法快捷键（保留官方 composer 的附件、模型、权限、斜杠命令等全部能力）
 - ⬜ `[待定]` [diegodblr-dsh-desktop](https://github.com/diegodblr/dsh-desktop) ★0 — DSH Desktop: native macOS desktop access to the DeepSeek Harness GUI, with AI-refined voice dictation + Avatar
 - `[未定位]` **dingchenhui0618-arch-dsh-taskwatch** — 占位待复核，判定暂不展示
 - `[未定位]` **dingpenghui-good-dsh-obsidian-sync** — 占位待复核，判定暂不展示
@@ -3045,6 +3048,7 @@
 - `[未定位]` **han-1413141-dsh-visual-edit** — 占位待复核，判定暂不展示
 - `[未定位]` **handsye-dsh-input-history** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [hanlinlibham-dsh-native-tui](https://github.com/hanlinlibham/dsh-native-tui) ★0 — Classic, dependable DeepSeek Harness TUI with session, provider, and model management.
+- 🟨 `[不兼容]` [having5548-dsh-downloader](https://github.com/having5548/dsh-downloader) ★0 — DeepSeek Harness 下载代理插件：模型下载境外文件时自动走插件自带的代理内核（订阅自包含，不依赖本机 Clash），境内直连，带 sha256 / 大小上限 / 停滞检测与「设置 -> 下载代理」管理面板
 - 🟨 `[不兼容]` [hbgdjb-dsh-mimo-quota](https://github.com/hbgdjb/dsh-mimo-quota) ★0 — MIMO Quota Panel —— DeepSeek Harness 的模型额度面板：会话日志逐调用自动记账，一屏展示 Token 用量、消费金额、请求次数、趋势波形、模型构成，支持按模型/粒度/时间范围/项目·对话
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-billing](https://github.com/HenryHwong/dsh-ui-billing) ★0 — —
 - 🟨 `[不兼容]` [henryhwong-dsh-ui-turn-rail](https://github.com/HenryHwong/dsh-ui-turn-rail) ★0 — —

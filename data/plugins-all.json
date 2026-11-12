@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T12:01:14Z",
+ "generated_at": "2026-11-12T12:16:06Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6044,6 +6044,13 @@
    "desc": "DeepSeek Harness 插件：Spec-Kit 规范驱动开发技能套件（/speckit-* 斜杠命令）"
   },
   {
+   "repo": "962599627/agent-development-constraints",
+   "name": "962599627-agent-development-constraints",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Intelligent agent development constraints"
+  },
+  {
    "repo": "abdounasser202/dsh-deepseek-budget",
    "name": "abdounasser202-dsh-deepseek-budget",
    "verdict": "ok",
@@ -11418,6 +11425,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "DeepSeek Harness plugin (dsh-plugin): complete Polymarket superpowers — 31 verified tools across Gamma/CLOB/Da"
+  },
+  {
+   "repo": "he0119/dsh-session-manager",
+   "name": "he0119-dsh-session-manager",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "把 DSH 的会话库管起来：迁移工作区与会话到新目录，导出 / 导入 .dshsess 会话包，用 WebDAV 在多台机器之间同步"
   },
   {
    "repo": "InterPSS-Project/ipss-agent",
@@ -21192,6 +21206,13 @@
    "desc": "DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu"
   },
   {
+   "repo": "ahian-lee/dsh-bliss-glass",
+   "name": "ahian-lee-dsh-bliss-glass",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "XP scenery wallpapers x frosted-glass UI for DeepSeek Harness"
+  },
+  {
    "repo": "ahren112/ds-image-skin",
    "name": "ahren112-ds-image-skin",
    "verdict": "pending",
@@ -25147,6 +25168,13 @@
    "desc": "—"
   },
   {
+   "repo": "averyzhoux/dsh-session-balance",
+   "name": "averyzhoux-dsh-session-balance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "⚖️ Quietly to display the balance."
+  },
+  {
    "repo": "aze0695/dsh-crimson-theme",
    "name": "aze0695-dsh-crimson-theme",
    "verdict": "ok",
@@ -25544,6 +25572,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Vendored, hardened fork of dsh-file-explorer (DSH web file explorer): workspace confinement, argv-only launchi"
+  },
+  {
+   "repo": "dgmico/dsh-markdown-composer",
+   "name": "dgmico-dsh-markdown-composer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 DSH 的输入框支持 Markdown：草稿实时渲染预览 + 格式化工具栏 + 语法快捷键（保留官方 composer 的附件、模型、权限、斜杠命令等全部能力）"
   },
   {
    "repo": "diegodblr/dsh-desktop",
@@ -34674,6 +34709,13 @@
    "desc": "Classic, dependable DeepSeek Harness TUI with session, provider, and model management."
   },
   {
+   "repo": "having5548/dsh-downloader",
+   "name": "having5548-dsh-downloader",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 下载代理插件：模型下载境外文件时自动走插件自带的代理内核（订阅自包含，不依赖本机 Clash），境内直连，带 sha256 / 大小上限 / 停滞检测与「设置 -> 下载代理」管理面板"
+  },
+  {
    "repo": "hbgdjb/dsh-mimo-quota",
    "name": "hbgdjb-dsh-mimo-quota",
    "verdict": "incompatible",
@@ -43562,6 +43604,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh plugin: scans the dsh plugin ecosystem - stars, npm weekly downloads, release-asset downloads - segments n"
+  },
+  {
+   "repo": "121212165/dsh-plugin-family-cards",
+   "name": "121212165-dsh-plugin-family-cards",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness client plugin: rich toolview cards for the 121212165 family plugins — registers per-tool rend"
   },
   {
    "repo": "121212165/dsh-plugin-token-telemetry",
@@ -68314,6 +68363,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "can-dy-jack/dsh-models-usage",
+   "name": "can-dy-jack-dsh-models-usage",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 模型清单与余额管理"
   },
   {
    "repo": "CanGeng/yolo-mode",
@@ -105981,6 +106037,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "A persistent multi-server switcher for DeepSeek Harness Web"
+  },
+  {
+   "repo": "gosomea/dsh-task-supervisor",
+   "name": "gosomea-dsh-task-supervisor",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH task supervision with DAG progress, plan review, persistent control and stage/completion checks."
   },
   {
    "repo": "greyoak111/siyuan-codex-bridge",
