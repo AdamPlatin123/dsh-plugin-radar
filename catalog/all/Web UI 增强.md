@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3202）
+# 🔌 Web UI 增强（3204）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1281,6 +1281,7 @@
 - 🟩 `[可用]` [xjailll-dsh-portfolio-publisher](https://github.com/xjailll/dsh-portfolio-publisher) ★1 — DeepSeek Harness 插件：GitHub 求职仓库一键发布助手（LLM README + Web 面板 + 一键推送）
 - 🟩 `[可用]` [xmnathan-dsh-skin-galactic-opera](https://github.com/xmnathan/dsh-skin-galactic-opera) ★1 — Unofficial cinematic space-opera dark skin bundle for the DSH Web GUI.
 - 🟩 `[可用]` [xp266-dsh-tui](https://github.com/xp266/dsh-tui) ★1 — ink-based terminal UI plugin for DeepSeek Harness
+- 🟩 `[可用]` [xujian519-dsh-annotator](https://github.com/xujian519/dsh-annotator) ★1 — 对DSH的交付物进行标注的插件，人工标注后，DSH会根据标注执行
 - ⬜ `[待定]` [xuruitian-deepseek-harness-desktop](https://github.com/XuRuitian/deepseek-harness-desktop) ★1 — —
 - 🟩 `[可用]` [xyz10088-dsh-quick-restart](https://github.com/Xyz10088/dsh-quick-restart) ★1 — —
 - 🟩 `[可用]` [xzyonline-dsh-chat-files](https://github.com/xzyonline/dsh-chat-files) ★1 — Session-bound file attachments for DeepSeek Harness: drag, paste, or select files into the chat; the agent rea
@@ -3157,6 +3158,7 @@
 - 🟨 `[不兼容]` [yryd-dafy-whale-theme](https://github.com/yryd/dafy-whale-theme) ★0 — DeepSeek Harness 蓝色大肥鱼主题插件：海洋蓝配色、游动鱼群、上升气泡、输入框上方的「每日鱼语」，以及左上角品牌区替换；「设置 → 海洋主题」提供 7 组 32 项可调
 - 🟨 `[不兼容]` [yth1120-deepseek-harness](https://github.com/yth1120/deepseek-harness) ★0 — DeepSeek Harness source with the dsh-web-workbench plugin suite (right workbench, terminal, timeline, review,〔📦〕
 - 🟨 `[不兼容]` [yudaxia1-dsh-sidebar-file-menu](https://github.com/yudaxia1/dsh-sidebar-file-menu) ★0 — 为 DeepSeek Harness Web UI 右侧栏文件树提供 VS Code 风格右键菜单：复制绝对/相对路径与名称、在资源管理器或 Finder 中显示、用默认程序打开
+- 🟨 `[不兼容]` [yuhhhong-dsh-skill-status](https://github.com/yuhhhong/dsh-skill-status) ★0 — DeepSeek Harness（DSH）的会话技能状态插件
 - 🟨 `[不兼容]` [yuikizj2026-dsh-slot-homestead](https://github.com/YuiKiZJ2026/dsh-slot-homestead) ★0 — —
 - 🟨 `[不兼容]` [yunxiyang-dsh-wide-conversation](https://github.com/yunxiyang/dsh-wide-conversation) ★0 — DSH web client plugin: pins the conversation column to a configurable percentage of its width (default full wi
 - 🟨 `[不兼容]` [yusufameri-dsh-t3-new-session-screen](https://github.com/yusufameri/dsh-t3-new-session-screen) ★0 — T3 Code's New Session screen for DeepSeek Harness: the "What should we build in <project>?" headline with an i
