@@ -30,5 +30,5 @@ const short = computed(() => (meta.runId ? meta.runId.slice(0, 13) : ''))
 .pulse { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
 .rid { font-size: 11px; opacity: 0.8; }
 
-@media (max-width: 640px) { .rid { display: none; } }
+@media (max-width: 860px) { .rid { display: none; } }
 </style>

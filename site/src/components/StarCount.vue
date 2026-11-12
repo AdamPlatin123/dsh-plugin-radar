@@ -13,6 +13,9 @@ defineProps<{ stars: number | null }>()
 </template>
 
 <style scoped>
-.stars { display: inline-flex; align-items: center; gap: 4px; color: var(--warn); font-size: 13px; }
+.stars {
+  display: inline-flex; align-items: center; gap: 4px; flex: none;
+  color: var(--warn); font-size: 13px; white-space: nowrap; line-height: 1;
+}
 .star-ic { width: 13px; height: 13px; fill: var(--warn); }
 </style>

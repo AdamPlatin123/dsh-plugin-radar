@@ -14,11 +14,19 @@ a:hover { text-decoration: underline; }
 .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 h1, h2, h3 { line-height: 1.25; }
 button { font: inherit; color: inherit; }
-.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* 列向 flex 子项默认 min-width:auto，会被精选横滑的最小内容宽度撑到 max-width。
+     归零后容器才能随视口收缩，横滑留在轨道内部。 */
+  min-width: 0;
+}
 
 @media (max-width: 640px) {
   body { font-size: 14px; }
-  .container { padding: 0 12px; }
+  .container { padding: 0 16px; }
 }
 
 .chip.dormant { color: var(--fg-faint); border-color: var(--line-soft); opacity: 0.85; }
