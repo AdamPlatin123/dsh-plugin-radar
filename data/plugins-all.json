@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T16:46:16Z",
+ "generated_at": "2026-11-12T17:01:23Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -45391,13 +45391,6 @@
    "desc": "Minimal, secret-scrubbed, replayable problem bundles for DeepSeek Harness sessio"
   },
   {
-   "repo": "Exception-H/dsh-gpt56-ptc",
-   "name": "exception-h-dsh-gpt56-ptc",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "F1shn/dsh-token-stats",
    "name": "f1shn-dsh-token-stats",
    "verdict": "ok",
@@ -66932,6 +66925,13 @@
   {
    "repo": "EvieHe/dsh-resume-headless",
    "name": "eviehe-dsh-resume-headless",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Exception-H/dsh-gpt56-ptc",
+   "name": "exception-h-dsh-gpt56-ptc",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -97772,13 +97772,6 @@
    "desc": "⚡ DeepSeek Harness 自定义模型增强插件：在配置第三方提供商时，自动从权威模型库补齐上下文大小、Token 上限、视觉多模态输入与思考强度档位"
   },
   {
-   "repo": "clclyzybzjsq/dsh-btw",
-   "name": "clclyzybzjsq-dsh-btw",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "enables /btw commands in deepseek-harness (similar to /btw in claude code)"
-  },
-  {
    "repo": "coderstory/dsh-desktop",
    "name": "coderstory-dsh-desktop",
    "verdict": "pending",
@@ -107108,6 +107101,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH 上下文智能压缩插件：分层记忆、可逆压缩、按会话阶段规划的水位控制"
+  },
+  {
+   "repo": "clclyzybzjsq/dsh-btw",
+   "name": "clclyzybzjsq-dsh-btw",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "enables /btw commands in deepseek-harness (similar to /btw in claude code)"
   },
   {
    "repo": "coderHeJiyu/dsh-setting-manager",
