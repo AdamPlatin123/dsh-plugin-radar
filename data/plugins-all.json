@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T12:16:06Z",
+ "generated_at": "2026-11-12T12:31:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -26489,6 +26489,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "jazhu/dsh-hillstone-cli-ops",
+   "name": "jazhu-dsh-hillstone-cli-ops",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Hillstone / StoneOS 设备运维插件：右侧栏「设备运维」标签页（设备管理 + SSH 终端 + 连接审计 + 执行策略），并给 agent 注册 9 个 hillstone_* 运维工具"
   },
   {
    "repo": "jcaiagent7143-ui/linkdigest-mcp",
@@ -102782,6 +102789,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "One scaffold, five agent harnesses — portable coding-agent plugins for Claude Code, Codex, OpenCode, Antigravi"
+  },
+  {
+   "repo": "luoyukun3-oss/gh-my-posts",
+   "name": "luoyukun3-oss-gh-my-posts",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Local dashboard for your own GitHub discussions, issues and inbox (read-only; single Node file, no git needed)"
   },
   {
    "repo": "luxueliu/luxueliu-agent-discipline-skills",
