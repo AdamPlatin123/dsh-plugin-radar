@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T04:45:54Z",
+ "generated_at": "2026-11-12T05:01:03Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -974,6 +974,13 @@
    "verdict": "pending",
    "stars": 9,
    "desc": "AI-assisted Minecraft for DeepSeek Harness: drive an autonomous Mineflayer agent (survival, mining, chat, live"
+  },
+  {
+   "repo": "hoyyang/dsh-smart-compact",
+   "name": "hoyyang-dsh-smart-compact",
+   "verdict": "ok",
+   "stars": 9,
+   "desc": "Context window auto-management for DeepSeek Harness: lossless zero-model rollover, budget reminders, notes."
   },
   {
    "repo": "HuanLinOTO/dsh-plugin-sleep",
@@ -7344,6 +7351,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Host-only peer session relay tools for DeepSeek Harness"
+  },
+  {
+   "repo": "kmagwenzi/dsh-ai-suplex",
+   "name": "kmagwenzi-dsh-ai-suplex",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The 7-7-7 execution loop for DeepSeek Harness — plan, run, capture, close, compound, with a human gate."
   },
   {
    "repo": "knowz-io/deepseek-knowz-plugin",
@@ -16017,6 +16031,13 @@
    "verdict": "ok",
    "stars": 12,
    "desc": "DSH Web skin plugin with built-in themes and custom image skins"
+  },
+  {
+   "repo": "jaychang1989/dsh-webchat",
+   "name": "jaychang1989-dsh-webchat",
+   "verdict": "ok",
+   "stars": 12,
+   "desc": "Opens the official chat.deepseek.com web app inside DeepSeek Harness: one sidebar entry renders the real page"
   },
   {
    "repo": "JohnnyTing/dsh-official-homepage-theme",
@@ -31172,6 +31193,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "jafewff/dsh-vdesktop",
+   "name": "jafewff-dsh-vdesktop",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Run GUI apps on an invisible Win32 virtual desktop: an LLM agent drives them via vdesk_* tools, while you watc"
   },
   {
    "repo": "kusesad-1122/dsh-context-compactor",
@@ -51523,6 +51551,13 @@
    "desc": "DSH 宿主插件:轮末自动派发需求合规检查子智能体 (DeepSeek Harness)"
   },
   {
+   "repo": "liweidong1722/dsh-work-list",
+   "name": "liweidong1722-dsh-work-list",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "deepseek harness工作台"
+  },
+  {
    "repo": "Liyuk/dsh-quota-router",
    "name": "liyuk-dsh-quota-router",
    "verdict": "ok",
@@ -53005,6 +53040,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sandyyst/dsh-plugin-mermaid-gb-svg",
+   "name": "sandyyst-dsh-plugin-mermaid-gb-svg",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：Mermaid 流程图 → GB/T 1526-1989（ISO 5807）国标流程图 SVG，符号合规、正交走线、超 A4/A3 自动分页"
   },
   {
    "repo": "sANDzER0/dsh-hippocampus",
@@ -76665,6 +76707,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "FreeDSH — free-first multi-model routing, safe core updates and pt-BR/Windows support for DeepSeek Harness"
+  },
+  {
+   "repo": "namehousiqi/dsh-ssh-manager",
+   "name": "namehousiqi-dsh-ssh-manager",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "适配DeepSeek Harness 官方桌面端 - SSH管理插件"
   },
   {
    "repo": "Nayuta-die/deepseek-harness-desktop",
