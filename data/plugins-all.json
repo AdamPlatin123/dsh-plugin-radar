@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T14:01:14Z",
+ "generated_at": "2026-11-12T14:16:24Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -24013,6 +24013,13 @@
    "desc": "dsh 插件 · 用户管理：dsh web 登录门禁 + 用户/角色/登录记录/访问记录管理，首个注册者即管理员"
   },
   {
+   "repo": "weiiiiis/dsh-cost-plugins",
+   "name": "weiiiiis-dsh-cost-plugins",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "看住你在 DeepSeek Harness 上花的钱：侧边栏余额 + 每条回答的花费｜Per-answer cost & balance for DeepSeek Harness"
+  },
+  {
    "repo": "weijianguizhou/dsh-matlab",
    "name": "weijianguizhou-dsh-matlab",
    "verdict": "ok",
@@ -29809,6 +29816,13 @@
    "desc": "Erii (Sakura) themed boot splash animation for the DeepSeek Harness Web UI: falling sakura petals, a mint mons"
   },
   {
+   "repo": "yangwenjie1231/dsh-zhuang-fangyi",
+   "name": "yangwenjie1231-dsh-zhuang-fangyi",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "庄方宜主题 for DeepSeek Harness —— 8 套风格预设（明度/色度/边框/材质/排版）× 浅色深色完整适配，附官方素材壁纸、观测台（官方右栏标签页）与强调色色相自选"
+  },
+  {
    "repo": "yanhuifair/dsh-money",
    "name": "yanhuifair-dsh-money",
    "verdict": "ok",
@@ -33988,6 +34002,13 @@
    "desc": "—"
   },
   {
+   "repo": "tenebris173/dsh-skin-prts",
+   "name": "tenebris173-dsh-skin-prts",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "PRTS —— DSH (DeepSeek Harness) UI 皮肤：罗德岛终端风格，直角切角 + 黑色发丝线 + 黄黑警示条，纸面/终端两套底"
+  },
+  {
    "repo": "TheMcSwift/DeepSeek-TUI",
    "name": "themcswift-deepseek-tui",
    "verdict": "incompatible",
@@ -34070,6 +34091,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "wbdxy/dsh-tabbit-brain",
+   "name": "wbdxy-dsh-tabbit-brain",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness subagent provider: delegate reasoning to Tabbit-served models through a local gateway"
   },
   {
    "repo": "weibaohui/dsh-git-server",
@@ -35820,6 +35848,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Extensible quick-control panel for DSH Web — switch registry, skin manager, standalone or with dock-base."
+  },
+  {
+   "repo": "tenebris173/dsh-skin-abyssal",
+   "name": "tenebris173-dsh-skin-abyssal",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "深渊 ABYSSAL —— DSH (DeepSeek Harness) UI 皮肤：近黑深海底 + 单一生物荧光光源 + 玻璃面板"
   },
   {
    "repo": "termanli/dsh-fulltext-search",
@@ -54855,6 +54890,13 @@
    "desc": "deepseek harness 财务分析插件"
   },
   {
+   "repo": "toposferapro/dsh-status-beacon",
+   "name": "toposferapro-dsh-status-beacon",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek API availability traffic light for DeepSeek Harness (DSH)"
+  },
+  {
    "repo": "Townrain/dsh-fetch-models-unselect-all",
    "name": "townrain-dsh-fetch-models-unselect-all",
    "verdict": "ok",
@@ -72761,6 +72803,13 @@
    "desc": "Install or report a Windows tray/shortcut launcher for dsh web in WSL."
   },
   {
+   "repo": "3450892121/dsh-task-monitor",
+   "name": "3450892121-dsh-task-monitor",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "aaroncarry/deepseek-harness-desktop",
    "name": "aaroncarry-deepseek-harness-desktop",
    "verdict": "ok",
@@ -81138,6 +81187,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "starwithfox/dsh-pet-seen",
+   "name": "starwithfox-dsh-pet-seen",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Bridge between DeepSeek Harness and a local desktop pet: session event push, per-session progress buckets, and"
   },
   {
    "repo": "susirial/dsh-traebao",
