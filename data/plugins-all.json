@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T06:16:10Z",
+ "generated_at": "2026-11-12T06:31:16Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12099,6 +12099,13 @@
    "desc": "Literal Hermes Agent → DeepSeek Harness bridge: shared memory, skills, live tools, MCP, and full-agent delegat"
   },
   {
+   "repo": "adsikito/dsh-study-steward",
+   "name": "adsikito-dsh-study-steward",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness agent preset: a study-and-execution steward persona on the full Standard tool surface, shippe"
+  },
+  {
    "repo": "aerince/dsh-active-context-pruning",
    "name": "aerince-dsh-active-context-pruning",
    "verdict": "incompatible",
@@ -22228,6 +22235,13 @@
    "desc": "deepseek herness 计费实时查询，在 DeepSeek Harness 左下角（输入框工具行左端）显示一个小字余额条 ¥ 110.00 + ↻ 刷新按钮，定时自动刷新；设置页可配置刷新间隔与低余额告警阈值（"
   },
   {
+   "repo": "kxdyh/dsh-usage-meter",
+   "name": "kxdyh-dsh-usage-meter",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Dsh用量与余额仪表Live token usage and account balance meter for the DeepSeek Harness sidebar"
+  },
+  {
    "repo": "kyya/dsh-deepseek-balance",
    "name": "kyya-dsh-deepseek-balance",
    "verdict": "ok",
@@ -25973,6 +25987,13 @@
    "desc": "Mobile in-flow composer for the DeepSeek Harness (dsh) Web UI — the input bar and AI confirmation cards scroll"
   },
   {
+   "repo": "imtokenxinluo/dsh-plugin-guide",
+   "name": "imtokenxinluo-dsh-plugin-guide",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin developer guidelines"
+  },
+  {
    "repo": "inxups/dsh-user-plugins",
    "name": "inxups-dsh-user-plugins",
    "verdict": "ok",
@@ -26594,6 +26615,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Real-time per-session token cost for the DeepSeek Harness web GUI, with per-provider pricing and configurable"
+  },
+  {
+   "repo": "laojingwei/agent-preset-graph-xww",
+   "name": "laojingwei-agent-preset-graph-xww",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ComfyUI-style node graph of a DSH Agent preset — shows what the agent is made of and highlights live which nod"
   },
   {
    "repo": "lbqcgza/dsh-quota-usage",
@@ -51516,6 +51544,13 @@
    "desc": "—"
   },
   {
+   "repo": "lengmodkx/dsh-mimo-tts",
+   "name": "lengmodkx-dsh-mimo-tts",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "MiMo voice for DeepSeek Harness: auto-read answers aloud, click-to-talk composer mic, voice cloning"
+  },
+  {
    "repo": "leogottadothebest/dsh-settings-beautify",
    "name": "leogottadothebest-dsh-settings-beautify",
    "verdict": "ok",
@@ -74824,6 +74859,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "imtokenxinluo/dsh-sponsors",
+   "name": "imtokenxinluo-dsh-sponsors",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Contributor support registry spec for DeepSeek Harness: manifest spec, donation ethics, ecosystem risks, valid"
   },
   {
    "repo": "itsVicOC/deepseek-harness-desktop",
