@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T14:46:28Z",
+ "generated_at": "2026-11-12T15:01:24Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13114,6 +13114,13 @@
    "desc": "Graph runtime capabilities for the DeepSeek Harness: register LangGraph compiled graphs as DSH tools, plus a g"
   },
   {
+   "repo": "stansz/dsh-session-delete",
+   "name": "stansz-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "suanniniu/dsh-standard-toolkit",
    "name": "suanniniu-dsh-standard-toolkit",
    "verdict": "incompatible",
@@ -20499,6 +20506,13 @@
    "desc": "dsh-gmail: Gmail plugin suite for DeepSeek Harness — 61 model-facing tools + 2 polling triggers over the Gmail"
   },
   {
+   "repo": "sdynasty/dsh-ui-progress",
+   "name": "sdynasty-dsh-ui-progress",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "Seryta/dsh-node-nav",
    "name": "dsh-node-nav",
    "verdict": "ok",
@@ -21232,6 +21246,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Translation toolkit for DeepSeek Harness agents: sentence segmentation, term/glossary extraction, source-targe"
+  },
+  {
+   "repo": "a2580vb/dsh-llm-opencode-go",
+   "name": "a2580vb-dsh-llm-opencode-go",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "OpenCode Go (opencode.ai/zen/go) as a DeepSeek Harness model provider: model discovery, three wire protocols,"
   },
   {
    "repo": "Aaaaamadeus/dsh-gui",
@@ -54694,6 +54715,13 @@
    "desc": "—"
   },
   {
+   "repo": "summmmerz/dsh-spend-guard",
+   "name": "summmmerz-dsh-spend-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 宿主插件：滚动 10 分钟花费熔断（¥1 弹窗提醒 / ¥2 结束当前轮），弥补 dsh 核心没有花费上限的空白"
+  },
+  {
    "repo": "sun603/dsh-setup",
    "name": "sun603-dsh-setup",
    "verdict": "pending",
@@ -67481,6 +67509,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "orfeomorello/dsh-localforge",
+   "name": "orfeomorello-dsh-localforge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Connects DSH to local AI models"
   },
   {
    "repo": "Oscar-Williams/dsh-deepatlas",
