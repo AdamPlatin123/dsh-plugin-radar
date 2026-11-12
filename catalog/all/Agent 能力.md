@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2546）
+# 🤖 Agent 能力（2549）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1306,6 +1306,7 @@
 - 🟩 `[可用]` [qihongmu-dsh-plugins](https://github.com/qihongmu/dsh-plugins) ★0 — External plugins for DeepSeek Harness (dsh): Scheduled Tasks (run agent instructions on a schedule) and Token
 - 🟩 `[可用]` [qiqiangvae-dsh-my-favorites](https://github.com/qiqiangvae/dsh-my-favorites) ★0 — dsh 收藏夹插件，可以收藏网址和会话，支持快捷键切换会话
 - 🟩 `[可用]` [qiqiangvae-dsh-newbe-plugins](https://github.com/qiqiangvae/dsh-newbe-plugins) ★0 — 个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能
+- 🟩 `[可用]` [qiuyiwu1989-star-dsh-canvas](https://github.com/qiuyiwu1989-star/dsh-canvas) ★0 — 把 DeepSeek Harness 会话铺成可缩放地图，让意图、工具动作和结果都能回溯来源
 - ⬜ `[待定]` [qiuyongjin-dsh-plugin-development](https://github.com/qiuyongjin/dsh-plugin-development) ★0 — Self-contained development skill for dsh (Deepseek Harness) Cordis plugins — tools, services, events, capabili
 - 🟩 `[可用]` [qtimy-dsh-usage-stats](https://github.com/qtimy/dsh-usage-stats) ★0 — Local-session token usage statistics plugin for DeepSeek Harness
 - 🟩 `[可用]` [qwe13-art-dsh-skill-folder](https://github.com/QWE13-ART/dsh-skill-folder) ★0 — —
@@ -1358,6 +1359,7 @@
 - 🟩 `[可用]` [smiletao-dsh-plugin-dev-skill](https://github.com/SmileTao/dsh-plugin-dev-skill) ★0 — —
 - `[未定位]` **smwhff-dsh-delete-session** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [snow-the-dsh-ark-plan](https://github.com/snow-The/dsh-ark-plan) ★0 — —
+- `[未定位]` **snroman-dsh-agent-group** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [sparrived-dsh-plugin-workspace-skill](https://github.com/Sparrived/dsh-plugin-workspace-skill) ★0 — —
 - 🟩 `[可用]` [spike-faye-lei-spike-faye-lei-dsh-skills](https://github.com/spike-faye-lei/spike-faye-lei-dsh-skills) ★0 — spike-faye-lei/dsh-skills
 - `[未定位]` **spookywaste-dsh-plan-compact-execute** — 占位待复核，判定暂不展示
@@ -2369,6 +2371,7 @@
 - 🟨 `[不兼容]` [mouzhengsama-dsh-browser-bridge](https://github.com/mouzhengsama/dsh-browser-bridge) ★0 — Self-hosted Browser Bridge plugin for dsh Desktop: expose a local workspace to web AI agents through protected
 - `[空仓监测]` **mozhuanzuojing-dsh-agent-pill** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [mubaid-dsh-linkedin-agent](https://github.com/mubaid/dsh-linkedin-agent) ★0 — Eleven LinkedIn agent skills for DeepSeek Harness (port of Jakeschincariol/linkedin-agent-skill), MIT.
+- `[未定位]` **myremme-dsh-loop-guard** — 占位待复核，判定暂不展示
 - `[未定位]` **n0pe-sled-clear-session-history** — 占位待复核，判定暂不展示
 - `[未定位]` **n0pe-sled-configurable-subagents** — 占位待复核，判定暂不展示
 - `[未定位]` **n0pe-sled-context-before-user** — 占位待复核，判定暂不展示
