@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T11:46:09Z",
+ "generated_at": "2026-11-12T12:01:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -20485,6 +20485,13 @@
    "desc": "—"
   },
   {
+   "repo": "spix18/dsh-ghidra",
+   "name": "spix18-dsh-ghidra",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Ghidra bridge plugin for DeepSeek Harness (DSH): 218 reverse-engineering tools, single-JVM unified mode, in-tr"
+  },
+  {
    "repo": "spix18/dsh-mobilecode",
    "name": "spix18-dsh-mobilecode",
    "verdict": "ok",
@@ -28680,6 +28687,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Drag a conversation row from the DSH web sidebar onto the chat area to insert it into the composer draft as a"
+  },
+  {
+   "repo": "ttmouse/dsh-recent",
+   "name": "ttmouse-dsh-recent",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The dsh web GUI sidebar gains a Codex-style 最近 (Recent) section — every workspace's newest sessions in one jum"
   },
   {
    "repo": "tumi-huakai/dsh-plugin-meow-speech",
@@ -86957,6 +86971,13 @@
    "desc": "一键领一个独立工作目录并开干净会话：目录即沙盒边界，产物不再互相污染"
   },
   {
+   "repo": "moazzamak/dsh-knowledge-dag",
+   "name": "moazzamak-dsh-knowledge-dag",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A DeepSeek Harness plugin that shows a research graph: one JSON node store drawn as a node-link graph, a filte"
+  },
+  {
    "repo": "my-dsh/dsh-token-usage-dashboard",
    "name": "my-dsh-dsh-token-usage-dashboard",
    "verdict": "ok",
@@ -97471,6 +97492,13 @@
    "desc": "OS-keychain credentials provider (Windows Credential Manager / macOS Keychain / Linux Secret Service) for the"
   },
   {
+   "repo": "iuuuuuuuu/dsh-reverse-skill",
+   "name": "iuuuuuuuu-dsh-reverse-skill",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH skill provider bundling the zhaoxuya520/reverse-skill corpus (88 skills), with automated upstream sync."
+  },
+  {
    "repo": "JanEickholt/dsh-inline-diff",
    "name": "janeickholt-dsh-inline-diff",
    "verdict": "ok",
@@ -100178,6 +100206,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "ttmouse/dsh-muse",
+   "name": "ttmouse-dsh-muse",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Muse-like persistence for DSH: durable autonomy across restarts + silent proactive heartbeat"
   },
   {
    "repo": "txy-ucas/dsh-workspace-snapshot",
@@ -103538,6 +103573,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) left-side bookmark dock plugin"
+  },
+  {
+   "repo": "spix18/dsh-auto-continue",
+   "name": "spix18-dsh-auto-continue",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Auto-continue plugin for DeepSeek Harness (DSH): automatically resumes a turn that ended on a 429 rate limit,"
   },
   {
    "repo": "stayhpjinng/dsh-provider-proxy",
