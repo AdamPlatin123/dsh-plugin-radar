@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T09:31:05Z",
+ "generated_at": "2026-11-12T09:46:22Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13282,6 +13282,13 @@
    "desc": "DeepSeek Harness 的安卓壳子 APP - 把家里电脑的 AI 装进口袋,所有插件/技能/工具 100% 保留"
   },
   {
+   "repo": "1497105876/dsh-media-studio",
+   "name": "1497105876-dsh-media-studio",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 0.2.0 插件：在聊天里生成图片/视频并发送到会话（Agnes / OpenAI 兼容，后台任务，内联画廊）"
+  },
+  {
    "repo": "1998moye/dsh-plugin-usage",
    "name": "1998moye-dsh-plugin-usage",
    "verdict": "incompatible",
@@ -19379,6 +19386,13 @@
    "desc": "—〔📦〕"
   },
   {
+   "repo": "daha1216/dsh-update-checker",
+   "name": "daha1216-dsh-update-checker",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "🔔 DeepSeek Harness 第三方插件更新巡检器：一键/后台定时巡检上游版本，Release 变更深度解析，侧边栏角标提醒与一键「让 AI 更新」 (Plugin Update Checker for DSH)"
+  },
+  {
    "repo": "dataizu/dsh-whale-aqua-theme",
    "name": "dataizu-dsh-whale-aqua-theme",
    "verdict": "ok",
@@ -21505,6 +21519,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Persistent wallpaper skin for dsh web: static image or muted looping video background with translucent panels."
+  },
+  {
+   "repo": "deadbushxw/dsh-self-restart",
+   "name": "deadbushxw-dsh-self-restart",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 桌面端插件：改完插件后由 AI 自己触发重启，重启完在同一条会话里接着往下做，并补上打包版桌面端缺失的「刷新界面」入口 \\| DSH (DeepSeek Harness) desktop plugin: resta"
   },
   {
    "repo": "delock/dsh-whats-up",
@@ -24671,6 +24692,13 @@
    "desc": "DSH web 插件：在 dsh-better-sidebar 侧边栏内把 Markdown 富渲染为预览（代码高亮 / 目录 / 一键复制）"
   },
   {
+   "repo": "2123043818/dsh-sidebar-enhance",
+   "name": "2123043818-dsh-sidebar-enhance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "利用 DSH 官方 API，使 AI 可以直接使用 dsh 侧栏功能自主展示成果文件/网页和进行浏览器搜索获取信息"
+  },
+  {
    "repo": "2211431960/dsh-wallpaper-theme",
    "name": "2211431960-dsh-wallpaper-theme",
    "verdict": "ok",
@@ -25082,6 +25110,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "biteainet/dsh-mj-spiderman-plugin",
+   "name": "biteainet-dsh-mj-spiderman-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "MJ 蜘蛛侠彩蛋插件：任意输入框输入 mj 触发透明悬浮窗，视频+json WebGL 合成（DSH 插件）"
   },
   {
    "repo": "bitsmug/dsh-bgjobs",
@@ -28750,6 +28785,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Private blue theme foundation for the DeepSeek Harness web client"
+  },
+  {
+   "repo": "verdana/dsh-nord",
+   "name": "verdana-dsh-nord",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Nord Theme for DSH"
   },
   {
    "repo": "vilicvane/dsh-plugin-web-notify",
@@ -43578,6 +43620,13 @@
    "desc": "—"
   },
   {
+   "repo": "9931666/dsh-plugin-crossfire",
+   "name": "9931666-dsh-plugin-crossfire",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Crossfire (针锋) for DeepSeek Harness: put a settled result on the stand, let red-team experts attack it from ch"
+  },
+  {
    "repo": "A-G-guy/dsh-plus",
    "name": "a-g-guy-dsh-plus",
    "verdict": "ok",
@@ -47745,6 +47794,13 @@
   {
    "repo": "vvlife/dsh-agnes-paseo",
    "name": "vvlife-dsh-agnes-paseo",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "w384/clinkai-dsh-web-search-searxng",
+   "name": "w384-clinkai-dsh-web-search-searxng",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -104889,6 +104945,13 @@
    "verdict": "incompatible",
    "stars": 10,
    "desc": "—"
+  },
+  {
+   "repo": "functy23/dsh-workbuddy-connect-functy",
+   "name": "functy23-dsh-workbuddy-connect-functy",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "【已归档】上游风控持续加强、UA/请求头格式频繁变动，适配已难以为继"
   },
   {
    "repo": "grloper/dsh-claude-oauth",
