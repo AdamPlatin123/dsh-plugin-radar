@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T05:16:07Z",
+ "generated_at": "2026-11-12T05:31:24Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -25082,6 +25082,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "语音输入插件Voice input plugin for DeepSeek Harness Web UI."
+  },
+  {
+   "repo": "deepseekharness-dsh/agent-mode-change",
+   "name": "deepseekharness-dsh-agent-mode-change",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Agent-mode floating window for DeepSeek Harness (dsh): a draggable Web-UI panel that switches a session's syst"
   },
   {
    "repo": "delphuy/dsh-cost",
@@ -87391,6 +87398,13 @@
    "desc": "DSH 对话报告化分享插件：生成带封面、摘要统计与章节排版的精美报告，导出为 PNG 图片 / 单 HTML 文件 / PDF"
   },
   {
+   "repo": "deepseekharness-dsh/dsh-local-file-share",
+   "name": "deepseekharness-dsh-dsh-local-file-share",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Local File Share / 本地文件共享: let the dsh agent list, read and write files on the machine running your browser ov"
+  },
+  {
    "repo": "dongsheng123132/dsh-profile-lock-proof",
    "name": "dongsheng123132-dsh-profile-lock-proof",
    "verdict": "incompatible",
@@ -97772,6 +97786,13 @@
    "desc": "—"
   },
   {
+   "repo": "gqallen931/paper-gogo-plugin",
+   "name": "gqallen931-paper-gogo-plugin",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin for the Paper-gogo evidence-first paper workflow: 18 Phases, G0-G6 gates and four-stat"
+  },
+  {
    "repo": "graceen2331-prog/find-plugin",
    "name": "graceen2331-prog-find-plugin",
    "verdict": "ok",
@@ -97798,6 +97819,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "gxpppp/dsh-computer-use",
+   "name": "gxpppp-dsh-computer-use",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Windows Computer Use plugin for DeepSeek Harness - drives Codex native helper (codex-computer-use.exe) over st"
   },
   {
    "repo": "gzsxy/dsh-plugin-skills-manager",
@@ -103932,6 +103960,13 @@
    "desc": "将 DeepSeek Harness 桥接到已配置其它 Harness Agent 的项目"
   },
   {
+   "repo": "devbitsxyz/devbits-web-search",
+   "name": "devbitsxyz-devbits-web-search",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "Web search for local models in DeepSeek Harness"
+  },
+  {
    "repo": "icanfinish11/dsh-context-mode",
    "name": "icanfinish11-dsh-context-mode",
    "verdict": "incompatible",
@@ -104847,6 +104882,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "copylee711/dsh-free-search",
+   "name": "copylee711-dsh-free-search",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Free web search provider for DeepSeek Harness, no API key needed"
   },
   {
    "repo": "DDDFXYqiming/dsh-side-panel-patched",
@@ -106604,6 +106646,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Record MCP once"
+  },
+  {
+   "repo": "blibilijojo/dsh-plugin-opencode-go-quota",
+   "name": "blibilijojo-dsh-plugin-opencode-go-quota",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: shows the three OpenCode Go quota windows (5-hour, weekly, monthly) in the composer d"
   },
   {
    "repo": "canadaeee/dsh-douyin",
