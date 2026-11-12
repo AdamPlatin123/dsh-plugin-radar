@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2555）
+# 🤖 Agent 能力（2559）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -650,6 +650,7 @@
 - 🟩 `[可用]` [iimaguest-dsh-sandbox-escalation-guard](https://github.com/iimaguest/dsh-sandbox-escalation-guard) ★1 — DeepSeek Harness plugin: stops the sandbox escalation fields being advertised to a model when the calling sess
 - ⬜ `[待定]` [imtheolin-ai-keyboard](https://github.com/imtheolin/ai-keyboard) ★1 — Putting prompts at your fingertips
 - 🟩 `[可用]` [jackyoung022-dsh-session-canvas](https://github.com/jackyoung022/dsh-session-canvas) ★1 — dsh插件，基于session的画布，可进行多session汇总
+- 🟩 `[可用]` [janpauldahlke-dsh-local-long-horizon](https://github.com/janpauldahlke/dsh-local-long-horizon) ★1 — DeepSeek Harness plugin: host-owned long-horizon task board for local coding agents
 - 🟩 `[可用]` [jason-liao-dsh-memory-tdai](https://github.com/Jason-Liao/dsh-memory-tdai) ★1 — —
 - 🟩 `[可用]` [jax629321-dsh-agent-hub](https://github.com/jax629321/dsh-agent-hub) ★1 — —
 - 🟩 `[可用]` [jaxxchen003-foliodrop-dsh-publish](https://github.com/jaxxchen003/foliodrop-dsh-publish) ★1 — Publish DeepSeek Harness agent output as a shareable FolioDrop URL
@@ -911,6 +912,7 @@
 - 🟩 `[可用]` [argszero-cordis-plugin-tool-deadline-guard](https://github.com/argszero/cordis-plugin-tool-deadline-guard) ★0 — Deployment-level deadlines for dsh tool calls that declare none: mounted on the tools/execute waterfall, it tu
 - 🟩 `[可用]` [arthu77-dsh-memory](https://github.com/Arthu77/dsh-memory) ★0 — —
 - 🟩 `[可用]` [artificialnotimbecile-dsh-context-taxonomy](https://github.com/ArtificialNotImbecile/dsh-context-taxonomy) ★0 — —
+- 🟩 `[可用]` [artorias-zj-dsh-cc-switch-skills](https://github.com/artorias-zj/dsh-cc-switch-skills) ★0 — DSH plugin: load every skill from the current user's .cc-switch\skills into DeepSeek Harness at startup
 - `[未定位]` **asktheway-dsh-auto-memory** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [asteroid0449-dsh-agent-plugin-research](https://github.com/Asteroid0449/dsh-agent-plugin-research) ★0 — —
 - 🟩 `[可用]` [atinyfurina-dsh-memory-triage](https://github.com/AtinyFurina/dsh-memory-triage) ★0 — —
@@ -929,6 +931,7 @@
 - 🟩 `[可用]` [biking567-dsh-subagent-panel](https://github.com/BiKing567/dsh-subagent-panel) ★0 — —
 - ⬜ `[待定]` [birdmanhj-dsh-mv-session](https://github.com/birdmanhj/dsh-mv-session) ★0 — A plug-in for Deepseek Harness that easy to move/rename session from old workspace to new workspace.
 - ⬜ `[待定]` [bistu-guheihei-dsh-sessionmanager](https://github.com/BISTU-guheihei/DSH-SessionManager) ★0 — —
+- 🟩 `[可用]` [bjzkhy-dsh-multiplatform-balance](https://github.com/bjzkhy/dsh-multiplatform-balance) ★0 — DeepSeek Harness skill plugin for multi-platform model account balances.
 - 🟩 `[可用]` [blairlaird-dsh-agent-mailbox](https://github.com/blairlaird/dsh-agent-mailbox) ★0 — Durable agent-to-agent messaging for DeepSeek Harness: threads, receipts, search, broadcast, attachments, pres
 - 🟩 `[可用]` [bleakbelladonnals-dsh-artifact-harbor](https://github.com/bleakbelladonnals/dsh-artifact-harbor) ★0 — Artifact Harbor — secure, session-aware artifact previews for DeepSeek Harness Web
 - `[未定位]` **bojansandhaus-tool-repair-skill-for-hermes-an** — 占位待复核，判定暂不展示
@@ -2164,6 +2167,7 @@
 - 🟨 `[不兼容]` [arkfishinglab-dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) ★0 — —
 - `[未定位]` **artlexyang-dsh-super-agent** — 占位待复核，判定暂不展示
 - `[未定位]` **asun-labs-dsh-plugin-agent-deck** — 占位待复核，判定暂不展示
+- `[未定位]` **ausertdream-travelplanner** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [autonomous-ai-deepseek-harness-cli](https://github.com/autonomous-ai/deepseek-harness-cli) ★0 — —
 - 🟨 `[不兼容]` [avaritiachaos-dsh-plugin-memory](https://github.com/avaritiachaos/dsh-plugin-memory) ★0 — —
 - 🟨 `[不兼容]` [awol2005ex3-dsh-user-manager](https://github.com/awol2005ex3/dsh-user-manager) ★0 — DeepSeek Harness（`dsh`）插件：为单机的 harness 增加**用户管理**与**会话按用户隔离**

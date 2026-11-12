@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3295）
+# 🔌 Web UI 增强（3298）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1525,6 +1525,7 @@
 - 🟩 `[可用]` [d0ublecl1ck-dsh-csdn-theme](https://github.com/d0ublecl1ck/dsh-csdn-theme) ★0 — CSDN 博文的配色与正文排版主题插件，用于 DeepSeek Harness Web GUI · CSDN-blog typography theme for the DeepSeek Harness web GUI.
 - 🟩 `[可用]` [dac114514-dsh-theme-center](https://github.com/dac114514/dsh-theme-center) ★0 — DeepSeek Harness 主题中心 · Theme Center for dsh web UI：精选主题画廊（浅色/深色分组）、一键切换、自定义壁纸、dsh-theme 导入导出
 - 🟩 `[可用]` [daha1216-dsh-font-customizer](https://github.com/daha1216/dsh-font-customizer) ★0 — DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化
+- 🟩 `[可用]` [dajie2014-dsh-dictation-turbo](https://github.com/dajie2014/dsh-dictation-turbo) ★0 — Dictation for DSH: double-tap Control and speak — Chinese and English work with DSH alone; the free VoiceStudi
 - 🟩 `[可用]` [dakeshui123-dsh-pet-frieren](https://github.com/dakeshui123/dsh-pet-frieren) ★0 — A chibi Frieren desktop pet for the DeepSeek Harness Web GUI: install with dsh plugin --profile web add github
 - 🟩 `[可用]` [danhcng3822f-dsh-upload-plugin](https://github.com/danhcng3822f/dsh-upload-plugin) ★0 — DeepSeek Harness plugin providing Add photos, Add files, and Uploaded files in chat UI with vision validation
 - `[未定位]` **daniel92q-dsh-sidebar-footer-stack** — 占位待复核，判定暂不展示
@@ -2241,6 +2242,7 @@
 - ⬜ `[待定]` [ying-c-dsh-browser](https://github.com/ying-c/dsh-browser) ★0 — Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, no vision capabilities requ
 - ⬜ `[待定]` [dsh-plugin-connection-banner](https://github.com/yinren112/dsh-plugin-connection-banner) ★0 — Visible reconnecting banner for the DeepSeek Harness Web UI
 - 🟩 `[可用]` [yizhixiaokong-dsh-compose-panel](https://github.com/yizhixiaokong/dsh-compose-panel) ★0 — —
+- `[未定位]` **yizhoulouislu-dsh-math-copy** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [yjm110517-visual-to-editable-ppt-skill](https://github.com/yjm110517/visual-to-editable-ppt-skill) ★0 — —
 - 🟩 `[可用]` [yonglun-deepseek-harness-themes](https://github.com/yonglun/deepseek-harness-themes) ★0 — 74 non-invasive DeepSeek Harness themes generated from awesome-design-md
 - `[未定位]` **youhui1-dsh-image-skin** — 占位待复核，判定暂不展示
@@ -3068,6 +3070,7 @@
 - 🟨 `[不兼容]` [kumanana66-dsh-automation](https://github.com/kumanana66/dsh-automation) ★0 — RPA-style scheduled web automation for DeepSeek Harness: record browser operations -> requirements doc -> LLM
 - 🟨 `[不兼容]` [laoqianwocao-dsh-client-ui-board](https://github.com/LaoQianwocao/dsh-client-ui-board) ★0 — —
 - 🟨 `[不兼容]` [lastplayer82-dsh-tanqi](https://github.com/lastplayer82/dsh-tanqi) ★0 — 探奇 (Tanqi) plugin for the dsh web GUI: AI-generated curiosity & trivia with layered deep-dives
+- 🟨 `[不兼容]` [lccc233-dsh-opencode-go-usage](https://github.com/lccc233/dsh-opencode-go-usage) ★0 — OpenCode Go plan quota rings for the DeepSeek Harness web GUI
 - 🟨 `[不兼容]` [ldystudy0913-jpg-dsh-pet](https://github.com/ldystudy0913-jpg/dsh-pet) ★0 — Desk pet for the DSH Web UI: an orange desk cat that reacts to the live agent session state.
 - 🟨 `[不兼容]` [leeseo39-dsh-we-wallpaper](https://github.com/leeseo39/dsh-we-wallpaper) ★0 — Wallpaper Engine assets as DeepSeek Harness dynamic background — upstream skin-center 0.3.14 source snapshot +
 - 🟨 `[不兼容]` [leonardoxr-dsh-plugin-manager](https://github.com/leonardoxr/dsh-plugin-manager) ★0 — Safe loopback-only Web UI for managing DeepSeek Harness profile plugins
