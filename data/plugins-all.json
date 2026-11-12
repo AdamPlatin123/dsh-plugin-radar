@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T13:16:15Z",
+ "generated_at": "2026-11-12T13:47:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -6156,6 +6156,13 @@
    "desc": "—"
   },
   {
+   "repo": "anneqaq/dsh-embedded-kit",
+   "name": "anneqaq-dsh-embedded-kit",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "芯片与工具链中立的嵌入式固件工具包（DSH 插件，32 工具 + 11 技能）：体积/构建/总线协议/时序/功耗/异常分诊"
+  },
+  {
    "repo": "aorucshiea/dsh-omnipotent-preset",
    "name": "aorucshiea-dsh-omnipotent-preset",
    "verdict": "ok",
@@ -11194,6 +11201,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "jiangzeyuan/dsh-rivermind",
+   "name": "jiangzeyuan-dsh-rivermind",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "RiverMind：基于 DeepSeek Harness 的德州扑克 AI 陪练，支持双人对局、长期公开行为记忆与可追溯的决策复盘"
   },
   {
    "repo": "kolawong/fast-compaction-dsh",
@@ -24853,6 +24867,13 @@
    "desc": "DSH Web plugin: Archive-All action on every workspace folder menu in the sidebar (Ungrouped included)"
   },
   {
+   "repo": "19north/dsh-shot",
+   "name": "19north-dsh-shot",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Composer screenshot control for DeepSeek Harness: box-select and annotate a capture in an in-window overlay, o"
+  },
+  {
    "repo": "1wanganshi/dsh-marketing-toolkit",
    "name": "1wanganshi-dsh-marketing-toolkit",
    "verdict": "ok",
@@ -26902,6 +26923,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH web sidebar usage card: 7d/30d tokens, spend, and remaining DeepSeek balance"
+  },
+  {
+   "repo": "kbaynes/dsh-exploration-kit",
+   "name": "kbaynes-dsh-exploration-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A hands-on, nine-lesson curriculum for learning DeepSeek Harness by building real plugins."
   },
   {
    "repo": "kc0ed/dsh-claude-theme",
@@ -31153,6 +31181,13 @@
    "desc": "以\"零额外安装\"为设计原则：仅凭一个官方插件与 Windows 原生机制，让 DeepSeek Harness Web UI 获得桌面 App 式的一键启动体验"
   },
   {
+   "repo": "jackxiao17/dsh-session-cleaner",
+   "name": "jackxiao17-dsh-session-cleaner",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "DSH 会话清理：把会话连子代理整棵树搬进真回收站，删除即清干净（记账/置顶/归档/投影缓存行/定时任务），恢复回侧栏原位；已在 DSH 0.2.2-rc.1 复核 \\| DSH session cleaner: move"
+  },
+  {
    "repo": "jarvis-intelligence/jarvis-index",
    "name": "jarvis-intelligence-jarvis-index",
    "verdict": "incompatible",
@@ -32427,6 +32462,13 @@
    "desc": "Cat-themed DeepSeek Harness Web UI plugin with three original themes and a calm interactive companion"
   },
   {
+   "repo": "m-rui001/dsh-mate-companion",
+   "name": "m-rui001-dsh-mate-companion",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Persisto Mate companion as a DeepSeek Harness (dsh) bundle"
+  },
+  {
    "repo": "maxmilian/dsh-sonarqube",
    "name": "maxmilian-dsh-sonarqube",
    "verdict": "incompatible",
@@ -33405,6 +33447,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Zhihu (知乎) dashboard for DeepSeek Harness: hot list with trends, follow feed, post tracking, and app-idea dist"
+  },
+  {
+   "repo": "kjx-talesofai/dsh-plugin-tailscale-remote",
+   "name": "kjx-talesofai-dsh-plugin-tailscale-remote",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Open your DeepSeek Harness desktop Web UI from your phone over your own Tailscale tailnet — one switch, no por"
   },
   {
    "repo": "kkishapppy/dsh-opencode-go-usage",
@@ -49549,6 +49598,13 @@
    "desc": "—"
   },
   {
+   "repo": "ara-hwang/dsh-ko-locale",
+   "name": "ara-hwang-dsh-ko-locale",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "ariesy/dsh-vision",
    "name": "ariesy-dsh-vision",
    "verdict": "ok",
@@ -61265,6 +61321,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "wajotary/dsh-turn-model",
+   "name": "wajotary-dsh-turn-model",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：在每轮对话上方显示当前使用的模型"
   },
   {
    "repo": "WAlucktechniqueAN/dsh-setting-layout",
@@ -81938,6 +82001,13 @@
    "desc": "Workflow-net runtime for DeepSeek Harness: resource-aware concurrency, native loops and fan-out, static soundn"
   },
   {
+   "repo": "zhouwu97/ds-pet",
+   "name": "zhouwu97-ds-pet",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "若叶睦形态大肥鱼，欢迎提交 PR 或者加入修改"
+  },
+  {
    "repo": "5101good/amoji",
    "name": "5101good-amoji",
    "verdict": "incompatible",
@@ -93978,6 +94048,13 @@
    "desc": "Telegram bot channel plugin for DeepSeek Harness — one DSH agent session per chat, zero npm dependencies"
   },
   {
+   "repo": "fufu1437/dsh-delete-chat",
+   "name": "fufu1437-dsh-delete-chat",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Gum97/dsh-telegram",
    "name": "gum97-dsh-telegram",
    "verdict": "incompatible",
@@ -100957,6 +101034,13 @@
    "desc": "Restore Host-persisted settings in dsh web behind a reverse proxy — marks the page connection as host-owning s"
   },
   {
+   "repo": "7771sd/dsh-text-guard",
+   "name": "7771sd-dsh-text-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: neutralize configured code-point sequences before they reach the session log"
+  },
+  {
    "repo": "863683348/dsh-plugin-gate",
    "name": "863683348-dsh-plugin-gate",
    "verdict": "ok",
@@ -101963,6 +102047,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：会话输入框内绘制 Mermaid 流程图，实时生成标准 Mermaid 代码，一键复制/插入 dsh 会话"
+  },
+  {
+   "repo": "fufu1437/dsh-model-commands",
+   "name": "fufu1437-dsh-model-commands",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) plugin: declare shell commands in Settings, and every one becomes a tool the model can"
   },
   {
    "repo": "FuWenLianggit/dsh-goal-auto",
