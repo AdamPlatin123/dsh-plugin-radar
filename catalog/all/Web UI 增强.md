@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3308）
+# 🔌 Web UI 增强（3311）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1444,6 +1444,7 @@
 - 🟩 `[可用]` [andregoncalves-dsh-balance](https://github.com/andregoncalves/dsh-balance) ★0 — Provider-aware balance chip for the DeepSeek Harness web sidebar: DeepSeek, OpenRouter, Moonshot/Kimi, Zhipu/G
 - 🟩 `[可用]` [andrepontesmelo-dsh-suite](https://github.com/andrepontesmelo/dsh-suite) ★0 — The DSH productivity suite: plugins + agent skills for the DeepSeek Harness, installable in one command.
 - 🟩 `[可用]` [andrepontesmelo-dsh-wayfinder-ui](https://github.com/andrepontesmelo/dsh-wayfinder-ui) ★0 — DSH plugin: spawns one live session per ready Wayfinder task and draws the dependency map in the chat GUI
+- `[未定位]` **andy-scy-harmonyos-ui-icons** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [anitman-dsh-plugin-md-preview](https://github.com/anitman/dsh-plugin-md-preview) ★0 — DSH Markdown 预览器 / DSH Markdown Previewer — web GUI 侧栏 Markdown 浏览、渲染与编辑保存（原子写入 + mtime 冲突检测）
 - 🟩 `[可用]` [ankye-dsh-image-generation](https://github.com/ankye/dsh-image-generation) ★0 — Give your DeepSeek Harness agent a paintbrush
 - 🟩 `[可用]` [ant404-dsh-session-delete-ui](https://github.com/ant404/dsh-session-delete-ui) ★0 — DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a
@@ -2174,6 +2175,7 @@
 - 🟩 `[可用]` [worksassistant-dsh-quickref](https://github.com/worksAssistant/dsh-quickref) ★0 — —
 - 🟩 `[可用]` [wplleo-deepseek-harness-desktop](https://github.com/wplleo/deepseek-harness-desktop) ★0 — DeepSeek Harness Desktop - Electron 封装的 dsh web GUI 桌面应用 (NSIS 安装包)
 - 🟩 `[可用]` [wqy-cell-dsh-task-flow](https://github.com/wqy-cell/dsh-task-flow) ★0 — DSH 插件：任务星图 — 樱花主题的任务流程可视化
+- 🟩 `[可用]` [wsj060618-dsh-skin-studio](https://github.com/wsj060618/dsh-skin-studio) ★0 — —
 - 🟩 `[可用]` [wswbx-quick-research-campaign](https://github.com/wswbx/quick-research-campaign) ★0 — —
 - `[未定位]` **wu-hins-dsh-webui-oauth** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [wuenna-dsh-deepseek-cost](https://github.com/wuenna/dsh-deepseek-cost) ★0 — DSH plugin: DeepSeek-official cost accounting (session total + current turn) added to the built-in Token usage
@@ -2806,6 +2808,7 @@
 - 🟨 `[不兼容]` [jiong-w-ang-dsh-preview-panel](https://github.com/Jinn-Wu/dsh-preview-panel) ★1 — —
 - 🟨 `[不兼容]` [joeseesun-qiaomu-radio-dsh](https://github.com/joeseesun/qiaomu-radio-dsh) ★1 — 乔木电台 DeepSeek Harness 插件 \| Live radio with themed players, mood channels and local listening history
 - 🟨 `[不兼容]` [jonah791-dsh-agent-webops](https://github.com/jonah791/dsh-agent-webops) ★1 — 浏览器自主操作插件：爱丽丝经 headless Chrome (CDP) 自主打开页面/点击/输入/读取/截图——GUI 验证与网页操作全自主，不依赖主人手动操作
+- 🟨 `[不兼容]` [juliankang4-dsh-ui-scale](https://github.com/juliankang4/dsh-ui-scale) ★1 — Interface scale setting (50% to 200%) for the DeepSeek Harness (dsh) Web UI and desktop app
 - 🟨 `[不兼容]` [juryorca-dsh-custom-theme-import](https://github.com/Juryorca/dsh-custom-theme-import) ★1 — —
 - 🟨 `[不兼容]` [kamilhzn-dsh-file-upload](https://github.com/kamilhzn/dsh-file-upload) ★1 — dsh的文件上传解析插件：把本地文件 （txt、md、各类代码文件、Word、Excel、PDF）上传到对话框，解析为文本后随下一条消息 注入给模型，并在输入框上方以可删除的条带展示
 - 🟨 `[不兼容]` [kanchengw-dsh-mindseye](https://github.com/kanchengw/dsh-mindseye) ★1 — Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, an
