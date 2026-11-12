@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T14:16:24Z",
+ "generated_at": "2026-11-12T14:31:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -35017,6 +35017,13 @@
    "desc": "—"
   },
   {
+   "repo": "jamesct/dsh-file-manager",
+   "name": "jamesct-dsh-file-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "a dsh plugin for file manager in current sidebar"
+  },
+  {
    "repo": "jasper-zsh/dsh-plugin-file-manager",
    "name": "dsh-plugin-file-manager",
    "verdict": "incompatible",
@@ -38545,6 +38552,13 @@
    "desc": "Rust SDK for DSH(Deepseek Harness)"
   },
   {
+   "repo": "ai4rpg/tavern-content",
+   "name": "ai4rpg-tavern-content",
+   "verdict": "pending",
+   "stars": 8,
+   "desc": "—"
+  },
+  {
    "repo": "Ceelog/dsh-plugins",
    "name": "ceelog-dsh-plugins",
    "verdict": "ok",
@@ -41618,6 +41632,13 @@
    "desc": "—"
   },
   {
+   "repo": "ahian-lee/dsh-attention-notifier",
+   "name": "ahian-lee-dsh-attention-notifier",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "AikenFra/dsh-alive",
    "name": "aikenfra-dsh-alive",
    "verdict": "ok",
@@ -44129,6 +44150,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—〔📦〕"
+  },
+  {
+   "repo": "ai4rpg/tavern-stages",
+   "name": "ai4rpg-tavern-stages",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "AiLi1337/dsh-plugin-library-search",
@@ -69219,6 +69247,13 @@
    "desc": "—"
   },
   {
+   "repo": "hoshino114/dsh-server-box",
+   "name": "hoshino114-dsh-server-box",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH ????:???????? + ???? + SFTP ????(? dsh-server-deck ??)"
+  },
+  {
    "repo": "huaxiren6/DSH-QrPairing",
    "name": "huaxiren6-dsh-qrpairing",
    "verdict": "incompatible",
@@ -78107,6 +78142,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Proxy-aware web_fetch for WSL: official web_fetch through Windows HTTP_PROXY instead of a DNS-pinned public IP"
+  },
+  {
+   "repo": "alenjdl/dsh-chrome-operation",
+   "name": "alenjdl-dsh-chrome-operation",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH desktop plugin — local Chrome bridge exposing browser actions as DSH tools"
   },
   {
    "repo": "Andiii208/dsh-harness-remote",
@@ -104646,6 +104688,13 @@
    "desc": "Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP f"
   },
   {
+   "repo": "xinvxueyuan/cordis-plugin-local-dream",
+   "name": "xinvxueyuan-cordis-plugin-local-dream",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (L"
+  },
+  {
    "repo": "xiong18166089606-design/dsh-trade-assistant",
    "name": "xiong18166089606-design-dsh-trade-assistant",
    "verdict": "ok",
@@ -106037,6 +106086,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "ACP server for DeepSeek Harness — bridges Zed and other IDEs to dsh agents"
+  },
+  {
+   "repo": "dannndouglas/dsh-antigravity-acp",
+   "name": "dannndouglas-dsh-antigravity-acp",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "Official Antigravity ACP primary provider for DeepSeek Harness, with DSH-owned tools over MCP and automatic se"
   },
   {
    "repo": "dhicoc/dsh-codex-web-search-mcp",
