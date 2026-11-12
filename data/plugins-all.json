@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T10:46:17Z",
+ "generated_at": "2026-11-12T11:01:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -113,6 +113,13 @@
    "verdict": "pending",
    "stars": 591,
    "desc": "DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, pl"
+  },
+  {
+   "repo": "c3cvld7aag/fujiang-dsh",
+   "name": "c3cvld7aag-fujiang-dsh",
+   "verdict": "pending",
+   "stars": 570,
+   "desc": "富江DSH完美破甲｜富江破甲 DSH 本地插件，内置提示词规则，支持 Windows 一键安装、环境自动准备与一键卸载，全中文使用说明"
   },
   {
    "repo": "pulseaiclub/phi",
@@ -19617,6 +19624,13 @@
    "desc": "DeepSeek Harness (DSH) 本地视觉眼睛插件:screen 工具(截图/图片交给本地视觉模型描述)+ ocr 工具(Windows 内置 OCR 逐字提取文字)"
   },
   {
+   "repo": "gollasmari87-commits/dsh-whale-voice",
+   "name": "gollasmari87-commits-dsh-whale-voice",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "鲸声 · DSH 非官方语音交互修复与海洋动态皮肤"
+  },
+  {
    "repo": "gongyijie85/dsh-repo-setup",
    "name": "gongyijie85-dsh-repo-setup",
    "verdict": "ok",
@@ -19769,6 +19783,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and ba"
+  },
+  {
+   "repo": "j62268781-alt/dsh-skills-mcp-manager",
+   "name": "j62268781-alt-dsh-skills-mcp-manager",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH 设置面板：一个页面管理技能（SKILL.md）与 MCP 服务器，全局 / 项目级分层，改完即生效"
   },
   {
    "repo": "jgao9906-droid/dsh-task-toast",
@@ -75617,6 +75638,13 @@
    "desc": "—"
   },
   {
+   "repo": "jxboop/dsh-plugin-mobile-bridge",
+   "name": "jxboop-dsh-plugin-mobile-bridge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给 DeepSeek Harness 用的手机端插件：在手机上发图/发视频/下发任务、实时看输出、插话与撤回、把电脑给的素材存进相册；局域网 / Tailscale Funnel 外网可达"
+  },
+  {
    "repo": "Jxy-hy/dsh-updater",
    "name": "jxy-hy-dsh-updater",
    "verdict": "ok",
@@ -101013,6 +101041,13 @@
    "desc": "Engineering work-tools for DeepSeek Harness: a scoped git runner and a package-manager (npm/pnpm/yarn/bun) run"
   },
   {
+   "repo": "caishzh/dsh-hot-search",
+   "name": "caishzh-dsh-hot-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Resident hot search for DeepSeek Harness (DSH): fuzzy filename search, indexed grep and CJK typo-tolerant cont"
+  },
+  {
    "repo": "cbg33695/dsh-screen-reader",
    "name": "cbg33695-dsh-screen-reader",
    "verdict": "ok",
@@ -101998,6 +102033,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "iuuuuuuuu/dsh-projection-persist",
+   "name": "iuuuuuuuu-dsh-projection-persist",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: keep session projection values (titles) alive across a Host generation reset, so the session list"
   },
   {
    "repo": "j2st1n/dsh-opencode-status",
@@ -107089,6 +107131,13 @@
    "desc": "展示dsh版本，提供更新到最新版按钮"
   },
   {
+   "repo": "hqa-shu/dsh-review-mode",
+   "name": "hqa-shu-dsh-review-mode",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Work in progress: an independent conversation-review plugin for DeepSeek Harness and local Codex sessions"
+  },
+  {
    "repo": "hrhgit/dsh-oauth-openai",
    "name": "hrhgit-dsh-oauth-openai",
    "verdict": "incompatible",
@@ -108039,6 +108088,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "cslkkl/dsh-web-annotator",
+   "name": "cslkkl-dsh-web-annotator",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Annotate pages and ask questions inside the existing DeepSeek Harness Browser."
   },
   {
    "repo": "d0ublecl1ck/dsh-search-enhance",
