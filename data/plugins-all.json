@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T06:01:12Z",
+ "generated_at": "2026-11-12T06:16:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5594,6 +5594,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Long-term cross-session memory plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "wzqvip/dsh-app",
+   "name": "wzqvip-dsh-app",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "效率导向的 DeepSeek Harness 增强：不打开浏览器也能秒回 agent 提问、随时看到进度"
   },
   {
    "repo": "x118111/prompt-optimizer",
@@ -20800,6 +20807,13 @@
    "desc": "优化输入内容的 DSH 插件（仿 Trae CN）：模型选择器旁的 ✨ 按钮一键把输入想法改写为高质量、忠实原文、可直接执行的提示词，↩ 一键撤销恢复原文"
   },
   {
+   "repo": "07vvvv/memory-eternal-ui-restyle",
+   "name": "07vvvv-memory-eternal-ui-restyle",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "UI restyle of EternalNight996/memory-eternal — DSH 记忆插件界面重构（衍生版，原作者 EternalNight996，MIT License）"
+  },
+  {
    "repo": "0928OYX/dsh-free-skins",
    "name": "0928oyx-dsh-free-skins",
    "verdict": "ok",
@@ -33414,6 +33428,13 @@
    "desc": "—"
   },
   {
+   "repo": "xieluyang912/dsh-live2d-widget",
+   "name": "xieluyang912-dsh-live2d-widget",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "给 DeepSeek Harness Web 界面加一只 Live2D 桌宠：打开 DSH 就能看到可爱的二次元角色站在聊天界面角落"
+  },
+  {
    "repo": "xingyingyuzhui/dsh-vision-bench",
    "name": "xingyingyuzhui-dsh-vision-bench",
    "verdict": "incompatible",
@@ -35218,6 +35239,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Real-time host performance monitoring for the DeepSeek Harness right Sidebar: CPU / memory / swap gauges plus"
+  },
+  {
+   "repo": "xuechengzou/dsh-file-drop",
+   "name": "xuechengzou-dsh-file-drop",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Gap-only extension for the DSH web composer attachment intake: a dropped folder is expanded into its individua"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -80993,6 +81021,13 @@
    "desc": "—"
   },
   {
+   "repo": "weizhida/dsh-voice-danmaku",
+   "name": "weizhida-dsh-voice-danmaku",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "这是dsh的插件，语音发送弹幕"
+  },
+  {
    "repo": "wwen28694-oss/dsh-desktop-pet",
    "name": "wwen28694-oss-dsh-desktop-pet",
    "verdict": "incompatible",
@@ -86605,6 +86640,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Bubble navigation for DSH (DeepSeek Harness): a draggable accelerator ball listing all of your questions (numb"
+  },
+  {
+   "repo": "xfqz86/dsh-web-fetch-allowlist",
+   "name": "xfqz86-dsh-web-fetch-allowlist",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 网页抓取白名单插件：复用官方传输链路，仅对可配置 CIDR（如 Clash fake-ip 段）放行，其余 SSRF 校验全部保留"
   },
   {
    "repo": "xiaoxingdelabi1/dsh-profile-pack",
@@ -99144,6 +99186,13 @@
    "desc": "—"
   },
   {
+   "repo": "windwhiterain/dsh-skill-gate",
+   "name": "windwhiterain-dsh-skill-gate",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Hide the model-facing skill loader for the agents of the preset that mounts it, so a session can load a skill"
+  },
+  {
    "repo": "withlovehub/harness-code",
    "name": "harness-code",
    "verdict": "ok",
@@ -106331,6 +106380,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "viztor/dsh-tinyfish",
+   "name": "viztor-dsh-tinyfish",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "TinyFish-backed search and fetch providers for the DeepSeek Harness web capability seam (ctx.web) — $0 SERP an"
   },
   {
    "repo": "Wanbinyu/dsh-provider-probe",
