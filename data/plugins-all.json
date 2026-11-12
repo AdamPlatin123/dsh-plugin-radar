@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T08:01:10Z",
+ "generated_at": "2026-11-12T08:16:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -21192,6 +21192,20 @@
    "desc": "An automated execution engine that turns AI coding discipline into a verifiable state machine, built for Claud"
   },
   {
+   "repo": "bauerelizabeth07139/nai",
+   "name": "bauerelizabeth07139-nai",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Nai (奶蛙) mascot appearance layer for the DeepSeek Harness Web GUI: chat wallpaper with opacity, blur and scrim"
+  },
+  {
+   "repo": "bauerelizabeth07139/tangsan",
+   "name": "bauerelizabeth07139-tangsan",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "TangSan mascot appearance layer for the DeepSeek Harness Web GUI: chat wallpaper with opacity, blur and scrim"
+  },
+  {
    "repo": "beafreey/dsh-plugin-manager",
    "name": "beafreey-dsh-plugin-manager",
    "verdict": "ok",
@@ -24179,6 +24193,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 助理/秘书/女友皮肤：黑蓝暗调主题 + 会话区助理形象（静图 / 无缝循环片段）+ 形象切换与动作调度"
+  },
+  {
+   "repo": "zcr-133/dsh-follow-edits",
+   "name": "zcr-133-dsh-follow-edits",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Cline-style follow-along for DeepSeek Harness: open the file the agent just changed in the right Sidebar, jump"
   },
   {
    "repo": "zdz6215591/dsh-theme-doubao",
@@ -28666,6 +28687,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Metric-driven autonomous experiment loop for DeepSeek Harness: the agent proposes, benchmarks, keeps or discar"
+  },
+  {
+   "repo": "vowa-antilamer/dsh-locale-ru",
+   "name": "vowa-antilamer-dsh-locale-ru",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Russian localization (ru) for the DeepSeek Harness web GUI — 58 message namespaces, 3674 strings"
   },
   {
    "repo": "Vuitier/dsh-sound-notify",
@@ -35080,6 +35108,13 @@
    "desc": "—"
   },
   {
+   "repo": "songshuhuoban/dsh-next-input",
+   "name": "songshuhuoban-dsh-next-input",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "sqzssg12138/dsh-service-runner",
    "name": "sqzssg12138-dsh-service-runner",
    "verdict": "incompatible",
@@ -35141,6 +35176,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "SupaNexus platform core: branding, OAuth quick setup, dual-line model provider, and app plugin market"
+  },
+  {
+   "repo": "swiftlc/dsh-annotation",
+   "name": "swiftlc-dsh-annotation",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Text annotation tools for the dsh web composer"
   },
   {
    "repo": "tappat225/dsh-provider-hub",
@@ -78375,6 +78417,13 @@
    "desc": "基于 DeepSeek 官方 Harness 深度定制的桌面端，使用tauri框架〔📦〕"
   },
   {
+   "repo": "songshuhuoban/dsh-environment-tray",
+   "name": "songshuhuoban-dsh-environment-tray",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "SpringNyan/dsh-public-proxy",
    "name": "springnyan-dsh-public-proxy",
    "verdict": "incompatible",
@@ -85184,6 +85233,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH plugin: neutralize tool calls with invalid JSON arguments on the wire — so one malformed model generation"
+  },
+  {
+   "repo": "anneqaq/dsh-widget",
+   "name": "anneqaq-dsh-widget",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：把模型编写的 SVG/HTML 片段渲染成对话中的内联可视化卡片（图表、流程图、时间线、对比表格），沙箱隔离、无网络、无依赖"
   },
   {
    "repo": "birdman1992/dsh-birdman-plugins",
@@ -100283,6 +100339,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "astral-code session-memory system ported to DeepSeek Harness (dsh): sidechain summary extraction + boundary-tr"
+  },
+  {
+   "repo": "ayst-z/dsh-history-migration",
+   "name": "ayst-z-dsh-history-migration",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "把 MiMo Studio / VS Code Copilot Chat 的历史对话迁移进 DeepSeek Harness 的技能与工具链"
   },
   {
    "repo": "ayumedaze/dsh-git",
