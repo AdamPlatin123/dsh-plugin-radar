@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T13:47:04Z",
+ "generated_at": "2026-11-12T14:01:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -27604,6 +27604,13 @@
    "desc": "DSH 旧版兼容垫片：给 0.1.2-rc.1 的预设补上 Session.events 别名，并在启动前把损坏的会话日志隔离掉 ｜ Compatibility shim for older DSH builds: ad"
   },
   {
+   "repo": "mengjiemy/dsh-dynamic-bg",
+   "name": "mengjiemy-dsh-dynamic-bg",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给 DSH 铺整屏动态背景：静态图 / GIF / 视频三种都支持，配可调蒙版、模糊、不透明度与面板半透明"
+  },
+  {
    "repo": "mercy719/dsh-client-ui-weather",
    "name": "mercy719-dsh-client-ui-weather",
    "verdict": "ok",
@@ -27639,6 +27646,13 @@
    "desc": "Independent multi-package skin platform for DeepSeek Harness"
   },
   {
+   "repo": "miao-ge/dsh-sidebar-context-menu",
+   "name": "miao-ge-dsh-sidebar-context-menu",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: right-click menu on the left sidebar workspace rows - rename, delete workspace, open in VS Code, r"
+  },
+  {
    "repo": "mikijiyun/dsh-token-rush",
    "name": "mikijiyun-dsh-token-rush",
    "verdict": "ok",
@@ -27651,6 +27665,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH Web GUI 插件：会话右侧悬浮消息导航条 —— 收起态短横杠，悬停展开用户消息摘要，点击平滑滚动定位历史消息"
+  },
+  {
+   "repo": "mingxuanzi/dsh-plugins",
+   "name": "mingxuanzi-dsh-plugins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Three DeepSeek Harness plugins: desktop pet, consistent global wallpaper, and Open In… with the desktop-build"
   },
   {
    "repo": "MKibera/dsh-show-image",
@@ -28043,6 +28064,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Web GUI 插件：粘贴图片即在文字中插入 image-1.png 内联胶囊，悬浮名字预览缩略图，自动编号（文字中插图 / hover 预览）"
+  },
+  {
+   "repo": "qin839/dsh-visual-system",
+   "name": "qin839-dsh-visual-system",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Wallpaper-driven visual system for the DeepSeek Harness Web GUI — one preset.json swaps the whole colour syste"
   },
   {
    "repo": "qingchunnh/dsh-desktop",
@@ -87188,6 +87216,13 @@
    "desc": "dsh插件：个人工作台插件"
   },
   {
+   "repo": "miao-ge/dsh-project-tabs",
+   "name": "miao-ge-dsh-project-tabs",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: browser-style project tabs in the window title bar - one tab per session, running / finished / wai"
+  },
+  {
    "repo": "miqian-nomad/dsh-new-workdir",
    "name": "miqian-nomad-dsh-new-workdir",
    "verdict": "ok",
@@ -103132,6 +103167,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "IDEA-style Git VCS inside a DeepSeek Harness session: a branch chip with the pending-change count, a branch sw"
+  },
+  {
+   "repo": "mengjiemy/dsh-plugin-devkit",
+   "name": "mengjiemy-dsh-plugin-devkit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件开发四件套：冒烟测试 / 副本漂移检测 / 版本对齐检测 / CSS 变量冲突扫描"
   },
   {
    "repo": "Mengshiming2110/dsh-desktop-codex",
