@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T09:46:22Z",
+ "generated_at": "2026-11-12T10:01:21Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -14507,6 +14507,13 @@
    "desc": "DSH plugin: 'reveal in file manager' row for the Workspace context menu (Windows/WSL Explorer, macOS Finder)"
   },
   {
+   "repo": "spidu-lee/dsh-session-delete",
+   "name": "spidu-lee-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "sskkde/dsh-oh-my-agent",
    "name": "sskkde-dsh-oh-my-agent",
    "verdict": "incompatible",
@@ -22781,6 +22788,13 @@
    "desc": "DSH web static plugin: global cross-session todo inbox (merge MR / approve work orders / reviews) with sidebar"
   },
   {
+   "repo": "lux09947-cmyk/dsh-re",
+   "name": "lux09947-cmyk-dsh-re",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Adds a refresh button to the DeepSeek Harness desktop title bar next to the Edit menu; reloads the UI without"
+  },
+  {
    "repo": "lwx071001/dsh-mobile-console",
    "name": "lwx071001-dsh-mobile-console",
    "verdict": "ok",
@@ -27905,6 +27919,13 @@
    "desc": "DSH 文档解析插件：用 MinerU 把 PDF/Word/PPT/Excel/图片/HTML 转成干净 Markdown 供 Agent 阅读，内置拖拽上传面板，免费 Agent API 快速模式 + Token 精"
   },
   {
+   "repo": "ramuzes/dsharp",
+   "name": "ramuzes-dsharp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A self required working plugins of DeepseekHarness"
+  },
+  {
    "repo": "raosay/dsh-kanban",
    "name": "raosay-dsh-kanban",
    "verdict": "ok",
@@ -29464,6 +29485,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Lightweight Windows desktop shell for DeepSeek Harness - a native WPF + WebView2 window around the official we"
+  },
+  {
+   "repo": "ya123-4/archify-skill-dsh",
+   "name": "ya123-4-archify-skill-dsh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Archify 3.0.1 skill 的 DeepSeek Harness 插件包：把架构、工作流、时序、数据流和生命周期图生成可交互 HTML，支持暗/亮主题与导出"
   },
   {
    "repo": "yakoylp/dsh-localnotify",
@@ -34175,6 +34203,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Codex-style pinned/recent sidebar panes for DeepSeek Harness, with one full row menu on every row (pins, unrea"
+  },
+  {
+   "repo": "bvbhu/dsh-quilt-compact",
+   "name": "bvbhu-dsh-quilt-compact",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "替代 DSH 默认的 compaction-basic：用指定的模型压缩对话内容，按需分块摘要再合并"
   },
   {
    "repo": "caijiachen34/dsh-sophnet-balance",
@@ -76359,6 +76394,13 @@
    "desc": "Crash-resilient remote execution world for DeepSeek Harness: ctx.fs/ctx.subprocess over an E2B sandbox with he"
   },
   {
+   "repo": "wenxiuncle/dsh-offpeak-alert",
+   "name": "wenxiuncle-dsh-offpeak-alert",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：DeepSeek API 峰谷时段角标，显示当前高峰/低谷与倒计时 适配Deepseek Harness 桌面版 \\| Peak/off-peak badge for DeepSeek Harness"
+  },
+  {
    "repo": "whaizaixiang/paipan-mcp",
    "name": "whaizaixiang-paipan-mcp",
    "verdict": "ok",
@@ -88595,6 +88637,13 @@
    "desc": "DSH plugin: cold-start context — distills your first prompts into one goal paragraph injected into every new s"
   },
   {
+   "repo": "archcra/dsh-plugin-project-monitor",
+   "name": "archcra-dsh-plugin-project-monitor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：事项进度看板"
+  },
+  {
    "repo": "awol2005ex3/dsh-md-table-export",
    "name": "awol2005ex3-dsh-md-table-export",
    "verdict": "incompatible",
@@ -95012,6 +95061,13 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "DSH bash 输出编码自动识别插件：替换 ctx.bash，自管 spawn 收集原始字节，自动检测 UTF-16LE/UTF-8/GBK 等编码并正确解码，修复 WSL/Windows 下 bash 工具的中文乱码"
+  },
+  {
+   "repo": "liuxing7954/paseo-dsh",
+   "name": "liuxing7954-paseo-dsh",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "Paseo 原生 provider 插件 + DSH 桥接，把 DeepSeek Harness 接成一等公民：提问卡片、计划模式、思考档位、插话、用量"
   },
   {
    "repo": "shaoshi20/dshscan",
@@ -102420,6 +102476,13 @@
    "desc": "Pasting non-image files into the web composer inserts their paths as @file references (host-side clipboard rea"
   },
   {
+   "repo": "mad-zero-mess/dsh-enter-approve",
+   "name": "mad-zero-mess-dsh-enter-approve",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Codex-style global Enter to approve a pending DeepSeek Harness authorization request."
+  },
+  {
    "repo": "mafeis/dsh-image-guard",
    "name": "mafeis-dsh-image-guard",
    "verdict": "ok",
@@ -103629,6 +103692,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH web plugin: left-side message navigation rail — one numbered tick per user message, click to jump, hover p"
+  },
+  {
+   "repo": "ww692877928-code/dsh-shell-restart",
+   "name": "ww692877928-code-dsh-shell-restart",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Windows 上让 agent 一句话重启 DSH 桌面端：任务计划程序排定、WMI 无黑窗口拉起、按 PID 定位宿主（零依赖）"
   },
   {
    "repo": "wxjgit/permission-popup",
@@ -107684,6 +107754,13 @@
    "desc": "Production-ready plugins for DeepSeek Harness (DSH): remote SSH agent execution, integrated terminal & file tr"
   },
   {
+   "repo": "ashllll/dsh-open-code-review",
+   "name": "ashllll-dsh-open-code-review",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: deterministic code-review scope and rule resolution from alibaba/open-code-review, ju"
+  },
+  {
    "repo": "athif23/dsh-shell-select",
    "name": "athif23-dsh-shell-select",
    "verdict": "incompatible",
@@ -108739,6 +108816,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH speech-to-text provider that runs SenseVoiceSmall on the Intel NPU via OpenVINO"
+  },
+  {
+   "repo": "scccy/dsh-enterworktree",
+   "name": "scccy-dsh-enterworktree",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 宿主插件：创建(或复用) git worktree 并自动开隔离 session，等价于 Claude Code /enterworktree"
   },
   {
    "repo": "seantan1983/dsh-qr-toolkit",
