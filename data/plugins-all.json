@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T06:31:16Z",
+ "generated_at": "2026-11-12T06:49:28Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12736,6 +12736,13 @@
    "desc": "—"
   },
   {
+   "repo": "nilesh32236/dsh-squad",
+   "name": "nilesh32236-dsh-squad",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Cross-workspace AI worker fleets for DeepSeek Harness: spawn named worker sessions in other projects, queue or"
+  },
+  {
    "repo": "NinjaSln-labs/dsh-subagent-router",
    "name": "ninjasln-labs-dsh-subagent-router",
    "verdict": "incompatible",
@@ -23374,6 +23381,20 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 实时技能显示小插件 🌟 输入框下方的可爱小徽章，实时显示当前技能，悬停看历史"
+  },
+  {
+   "repo": "stefanohe/dsh-prefill-speed-stats",
+   "name": "stefanohe-dsh-prefill-speed-stats",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Show prefill speed directly in the status bar."
+  },
+  {
+   "repo": "stefanohe/dsh-show-balance",
+   "name": "stefanohe-dsh-show-balance",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Show account balance directly in the status bar."
   },
   {
    "repo": "stuarthu/dsh-update-notifier",
@@ -34450,6 +34471,13 @@
    "desc": "Composer compact control for the DeepSeek Harness web UI: a button beside the model selector that runs the dep"
   },
   {
+   "repo": "liyang52520/dsh-web-login",
+   "name": "liyang52520-dsh-web-login",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Password gate for the DeepSeek Harness Web GUI: first-run setup, brute-force lockout, audit log, and a managem"
+  },
+  {
    "repo": "liyu1314-lmyc/dsh-archive-browser",
    "name": "liyu1314-lmyc-dsh-archive-browser",
    "verdict": "incompatible",
@@ -42162,6 +42190,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "sevastopol36/dsh-plugin-scihub",
+   "name": "sevastopol36-dsh-plugin-scihub",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "a sci-hub search plugin for deepseek harness"
   },
   {
    "repo": "SH-9999/what-was-that",
@@ -51873,6 +51908,13 @@
    "desc": "—"
   },
   {
+   "repo": "lovezi0/dsh-open-in-app-base",
+   "name": "lovezi0-dsh-open-in-app-base",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh \"Open In...\"控件底座，提供一个开放的可由同类插件补充的插槽以解决原生\"Open In...\"缺少在某些软件中打开"
+  },
+  {
    "repo": "lovstudio/dsh-account-balance",
    "name": "lovstudio-dsh-account-balance",
    "verdict": "ok",
@@ -53390,6 +53432,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "① 自定义 hero 标题文案，② 从背景自动取色/莫奈式动态配色"
+  },
+  {
+   "repo": "shine-yu-student/dsh-pen",
+   "name": "shine-yu-student-dsh-pen",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Enable Deepseek Harness to paint (literally)."
   },
   {
    "repo": "ShiXiangYu2/dsh-greet-plugin",
@@ -91164,6 +91213,13 @@
    "desc": "Browser-side attention reminders for DeepSeek Harness — desktop notification, tab-title dot and PWA badge when"
   },
   {
+   "repo": "sakuraboy9128-cmd/dsh-approval-notify",
+   "name": "sakuraboy9128-cmd-dsh-approval-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Desktop notification when DSH is waiting for your approval of a tool call, with click-to-focus on the DSH wind"
+  },
+  {
    "repo": "scubiry-glitch/dsh-plugin-feishu-chat",
    "name": "scubiry-glitch-dsh-plugin-feishu-chat",
    "verdict": "ok",
@@ -91799,6 +91855,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "sj244/dsh-qq-bridge",
+   "name": "sj244-dsh-qq-bridge",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "把已存在的固定 DSH大肥鱼 会话接到 QQ（OneBot/NapCat）并保留原上下文：白名单 + @/昵称必唤醒 + 概率唤醒，其余只记录，让大肥鱼成为你的群友；也可以把 agent 扔进群里当群友玩（不建议公共群）"
   },
   {
    "repo": "yyyy231209/ai-company-framework",
@@ -96799,6 +96862,13 @@
    "desc": "—〔📦〕"
   },
   {
+   "repo": "sevastopol36/dsh-plugin-ghproxy",
+   "name": "sevastopol36-dsh-plugin-ghproxy",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek Harness native plugin: fetch GitHub files, release assets, archives, gists and api.github.com JSON th"
+  },
+  {
    "repo": "severin-ye/uagent-sync",
    "name": "severin-ye-uagent-sync",
    "verdict": "ok",
@@ -96867,6 +96937,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Herdr control-plane plugin for DeepSeek Harness (DSH): observe and drive Herdr — a terminal workspace manager"
+  },
+  {
+   "repo": "syyr1987/dsh-linghun-assembler",
+   "name": "syyr1987-dsh-linghun-assembler",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "灵魂的记忆提取侧·认知循环团队版：判断→捞取→组装→被判定→校准五步闭环，判官/史官/辩手/编辑/书记角色化子智能体承载，BM25 检索 + 时序素材 + LLM 组装「有用素材包」注入 linghun"
   },
   {
    "repo": "tabsp/dsh-web-search-chrome",
@@ -99058,6 +99135,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "CLI provider switcher for coding agents: manage OpenAI/Anthropic-protocol providers in one place and sync them"
+  },
+  {
+   "repo": "temidayoxyz/deep-opencode",
+   "name": "temidayoxyz-deep-opencode",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "OpenCode's free-tier models for DeepSeek Harness: a local opencode serve makes the free models resolve, so no"
   },
   {
    "repo": "temotee2103/dsh-ci-co-pilot",
@@ -102091,6 +102175,13 @@
    "desc": "DeepSeek Harness (dsh) update checker plugin: check the latest release from GitHub right inside the Settings p"
   },
   {
+   "repo": "positer/newmark2dsh",
+   "name": "positer-newmark2dsh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Newmark Core for DeepSeek Harness: persistent MemoryLab, cross-platform ComputerUse, Agent API, NewMate compan"
+  },
+  {
    "repo": "princeofdream/dsh-codebase-memory-mcp",
    "name": "princeofdream-dsh-codebase-memory-mcp",
    "verdict": "ok",
@@ -104828,6 +104919,13 @@
    "desc": "Give DeepSeek (text-only) models **vision** in Claude Code and Codex by routing image files to any OpenAI-comp"
   },
   {
+   "repo": "lingyingaojue/dsh-dev-mode",
+   "name": "lingyingaojue-dsh-dev-mode",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "开发者模式：新手几句大白话讲需求，AI 自动走完「写计划 → 子代理审计划 → 极简模式后台会话写代码并编译 → 子代理 QA → 修 bug → 复测 → 交付」的 DSH 插件（agent preset）"
+  },
+  {
    "repo": "lizhouai/dsh-provider-usage",
    "name": "lizhouai-dsh-provider-usage",
    "verdict": "incompatible",
@@ -106149,6 +106247,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: 9router-backed web search and web fetch providers"
+  },
+  {
+   "repo": "lovezi0/dsh-open-in-codebuddy",
+   "name": "lovezi0-dsh-open-in-codebuddy",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "按钮与菜单由底座 `dsh-open-in-app-base` 统一渲染，本插件只负责「目标软件」这一半：注册一条目标记录，并在自己的宿主半边实现「是否可用」与「怎么打开」"
   },
   {
    "repo": "lovstudio/dsh-video-studio",
@@ -107850,6 +107955,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native DeepSeek Harness plugin: a turn that states a verdict without evidence is held back and steered for pro"
+  },
+  {
+   "repo": "sakuraboy9128-cmd/dsh-sensevoice-npu",
+   "name": "sakuraboy9128-cmd-dsh-sensevoice-npu",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH speech-to-text provider that runs SenseVoiceSmall on the Intel NPU via OpenVINO"
   },
   {
    "repo": "seantan1983/dsh-qr-toolkit",

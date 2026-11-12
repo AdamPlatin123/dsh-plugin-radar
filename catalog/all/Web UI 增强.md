@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3234）
+# 🔌 Web UI 增强（3237）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1220,6 +1220,8 @@
 - 🟩 `[可用]` [smilebuild-dsh-planchart](https://github.com/SmileBuild/dsh-planchart) ★1 — —
 - 🟩 `[可用]` [sogoodayo-dsh-code-ui](https://github.com/sogoodayo/dsh-code-ui) ★1 — Cursor 风格的 AI 代码编辑器工作台插件（DSH）：文件树、多标签页编辑、引用/备注/翻译、内嵌 AI 输入框、语法高亮
 - 🟩 `[可用]` [spritebbb-dsh-skill-usage](https://github.com/spritebbb/dsh-skill-usage) ★1 — DSH 实时技能显示小插件 🌟 输入框下方的可爱小徽章，实时显示当前技能，悬停看历史
+- 🟩 `[可用]` [stefanohe-dsh-prefill-speed-stats](https://github.com/stefanohe/dsh-prefill-speed-stats) ★1 — Show prefill speed directly in the status bar.
+- 🟩 `[可用]` [stefanohe-dsh-show-balance](https://github.com/stefanohe/dsh-show-balance) ★1 — Show account balance directly in the status bar.
 - 🟩 `[可用]` [stuarthu-dsh-update-notifier](https://github.com/stuarthu/dsh-update-notifier) ★1 — Hourly checks npm for newer versions of your installed dsh plugins and pops an approval bubble asking which to
 - 🟩 `[可用]` [dsh-cost-ledger](https://github.com/suimi8/dsh-cost-ledger) ★1 — Cross-session persistent cost ledger for DeepSeek Harness: logs every LLM token usage to SQLite and exposes re
 - 🟩 `[可用]` [suntianc-dsh-ui-settings-icons](https://github.com/suntianc/dsh-ui-settings-icons) ★1 — DeepSeek Harness UI plugin that adds custom navigation icons and a keyed settings.section.icon slot
@@ -3029,6 +3031,7 @@
 - 🟨 `[不兼容]` [liukj98-dsh-ui-tools](https://github.com/liukj98/dsh-ui-tools) ★0 — deepseek harness tools 插件
 - 🟨 `[不兼容]` [liutian11451-png-dsh-plugin-compact-button](https://github.com/liutian11451-png/dsh-plugin-compact-button) ★0 — Composer compact control for the DeepSeek Harness web UI: a button beside the model selector that runs the dep
 - `[未定位]` **liuzwzyw-dsh-pwa-ui** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [liyang52520-dsh-web-login](https://github.com/liyang52520/dsh-web-login) ★0 — Password gate for the DeepSeek Harness Web GUI: first-run setup, brute-force lockout, audit log, and a managem
 - 🟨 `[不兼容]` [liyu1314-lmyc-dsh-archive-browser](https://github.com/liyu1314-lmyc/dsh-archive-browser) ★0 — Browse archived DSH sessions and re-invoke them: view the transcript, restore to the sidebar, inject into the
 - 🟨 `[不兼容]` [llyyhh0487-dsh-input-polish](https://github.com/llyyhh0487/dsh-input-polish) ★0 — —
 - 🟨 `[不兼容]` [lnetrit-alt-dsh-system-control](https://github.com/lnetrit-alt/dsh-system-control) ★0 — DSH web plugin: sidebar-embedded DeepSeek balance readout with a black minimalist full-shutdown button.
