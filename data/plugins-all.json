@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T09:16:04Z",
+ "generated_at": "2026-11-12T09:31:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8184,6 +8184,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能"
+  },
+  {
+   "repo": "qiuyiwu1989-star/dsh-canvas",
+   "name": "qiuyiwu1989-star-dsh-canvas",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把 DeepSeek Harness 会话铺成可缩放地图，让意图、工具动作和结果都能回溯来源"
   },
   {
    "repo": "qiuyongjin/dsh-plugin-development",
@@ -18336,6 +18343,13 @@
    "desc": "—"
   },
   {
+   "repo": "floydc-sz/dsh-serial-debugger",
+   "name": "floydc-sz-dsh-serial-debugger",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "dsh-serial-debugger串口调试插件，在 DeepSeek Harness 界面内提供一个完整的串口监视/调试面板：串口参数设置、实时接收并显示数据、发送数据"
+  },
+  {
    "repo": "fuyao606/dsh-plugin-manager",
    "name": "fuyao606-dsh-plugin-manager",
    "verdict": "ok",
@@ -20259,6 +20273,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Require fresh, file-bound verification evidence before coding agents declare completion."
+  },
+  {
+   "repo": "ruanimal/dsh-sidebar-panel-buttons",
+   "name": "ruanimal-dsh-sidebar-panel-buttons",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "dsh 侧边栏顶部的全局面板菜单从「竖向文字列表」 收起为一排横向图标按钮"
   },
   {
    "repo": "ruijiaang-lab/dsh-wallpaper-engine",
@@ -62646,13 +62667,6 @@
    "desc": "—"
   },
   {
-   "repo": "ouones/dsh-tavily-search",
-   "name": "dsh-tavily-search",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Tavily-backed search provider plugin for DeepSeek Harness (DSH) web seam - direc"
-  },
-  {
    "repo": "paul-yangmy/dsh-tavily-web-search",
    "name": "dsh-tavily-web-search",
    "verdict": "ok",
@@ -69420,6 +69434,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "ouones/dsh-tavily-search",
+   "name": "dsh-tavily-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Tavily-backed search provider plugin for DeepSeek Harness (DSH) web seam - direc"
   },
   {
    "repo": "pakgrou-porg/yardmaster",
@@ -99625,6 +99646,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "scottzx/feature-blueprint",
+   "name": "scottzx-feature-blueprint",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Mind maps and Excalidraw canvas for DeepSeek Harness, with local-file previews, standalone editors and CLIs"
   },
   {
    "repo": "sd1g1/dsh-minimal-bash-fix",

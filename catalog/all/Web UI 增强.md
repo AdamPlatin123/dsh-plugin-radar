@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3277）
+# 🔌 Web UI 增强（3280）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -470,6 +470,7 @@
 - 🟩 `[可用]` [faith1688-dsh-usage-meter-harness](https://github.com/faith1688/dsh-usage-meter-harness) ★3 — 专为 DeepSeek API 打造的实时用量 / 费用 / 余额计量插件 —— 在聊天输入框旁直接看到 tokens、花费与真实余额
 - 🟩 `[可用]` [fallen0543-dsh-sidebar-files](https://github.com/Fallen0543/dsh-sidebar-files) ★3 — —
 - 🟩 `[可用]` [favktoxic-dsh-theme-liquid-glass](https://github.com/FAVKTOXIC/dsh-theme-liquid-glass) ★3 — —
+- 🟩 `[可用]` [floydc-sz-dsh-serial-debugger](https://github.com/floydc-sz/dsh-serial-debugger) ★3 — dsh-serial-debugger串口调试插件，在 DeepSeek Harness 界面内提供一个完整的串口监视/调试面板：串口参数设置、实时接收并显示数据、发送数据
 - 🟩 `[可用]` [fuyao606-dsh-plugin-manager](https://github.com/fuyao606/dsh-plugin-manager) ★3 — DeepSeek Harness Web GUI plugin manager
 - 🟩 `[可用]` [fwfuuu-design-dsh-desktop](https://github.com/fwfuuu-design/dsh-desktop) ★3 — A DeepSeek Harness desktop client for Apple Silicon Macs with a built-in plugin marketplace
 - 🟩 `[可用]` [g1998815-dsh-workspace-tools](https://github.com/g1998815/dsh-workspace-tools) ★3 — DSH(DeepSeek Harness) 右侧原生工具侧边栏插件：文件系统浏览器 / Git 变更与 diff / 会话变更 采用·撤回 / PTY 控制台
@@ -750,6 +751,7 @@
 - 🟩 `[可用]` [dsh-web-speech-input](https://github.com/Richard-Yang0130/dsh-web-speech-input) ★2 — Voice input plugin for DeepSeek Harness using the browser Web Speech API
 - 🟩 `[可用]` [ririv-dsh-lan-access](https://github.com/ririv/dsh-lan-access) ★2 — 让局域网设备通过明文 HTTP 正常访问 dsh 网页版（crypto.randomUUID polyfill）
 - 🟩 `[可用]` [rrrrrredy-beforedone](https://github.com/rrrrrredy/beforedone) ★2 — Require fresh, file-bound verification evidence before coding agents declare completion.
+- 🟩 `[可用]` [ruanimal-dsh-sidebar-panel-buttons](https://github.com/ruanimal/dsh-sidebar-panel-buttons) ★2 — dsh 侧边栏顶部的全局面板菜单从「竖向文字列表」 收起为一排横向图标按钮
 - 🟩 `[可用]` [ruijiaang-lab-dsh-wallpaper-engine](https://github.com/ruijiaang-lab/dsh-wallpaper-engine) ★2 — 一个插件让你的dsh可以自由切换你的wallpaper engine里面的壁纸资源，还可以通过多个滑动条来控制壁纸的模糊程度、亮度、边框，以及对话框的液态玻璃效果
 - 🟩 `[可用]` [sailoumili-dsh-sidebar-plus](https://github.com/sailoumili/dsh-sidebar-plus) ★2 — 基于 DSH 官方侧边栏的文件视图增强插件，提供源码视图、原位编辑、行号显示、搜索和字体缩放功能
 - 🟩 `[可用]` [sakka6868-dsh-skin](https://github.com/sakka6868/dsh-skin) ★2 — DSH skin plugin: Alphacoders popular wallpapers as the DeepSeek Harness Web GUI background — gallery, search,
@@ -1953,6 +1955,7 @@
 - 🟩 `[可用]` [quicksandznzn-dsh-session-html](https://github.com/quicksandznzn/dsh-session-html) ★0 — Offline Pi-style HTML exports for DeepSeek Harness Session trees, subagents, context, tools, Markdown, and med
 - `[未定位]` **quimos-m-dsh-turn-cost** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [qwertyuiop314-dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) ★0 — Enhanced DSH workspace directory picker plugin
+- `[未定位]` **qxingyshu-dsh-comfyui-image** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [ragnarpitla-dsh-field-guide](https://github.com/RagnarPitla/dsh-field-guide) ★0 — —
 - `[空仓监测]` **rainpomelo-deepseek-harness-liquid-glass-them** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ramouse-mineru-plug-for-ds](https://github.com/ramouse/mineru-plug-for-ds) ★0 — DSH 文档解析插件：用 MinerU 把 PDF/Word/PPT/Excel/图片/HTML 转成干净 Markdown 供 Agent 阅读，内置拖拽上传面板，免费 Agent API 快速模式 + Token 精
