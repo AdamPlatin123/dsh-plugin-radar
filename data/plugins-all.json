@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T04:31:11Z",
+ "generated_at": "2026-11-12T04:45:54Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1051,6 +1051,13 @@
    "verdict": "pending",
    "stars": 8,
    "desc": "玖峰金融工作台 (Jiufeng FinBox) - 把散落的金融工具装进一个桌面端 \\| Finance workbench plugin set for DeepSeek Harness: 7 workflows, 1"
+  },
+  {
+   "repo": "hongweifei/dsh-memory",
+   "name": "hongweifei-dsh-memory",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "—"
   },
   {
    "repo": "hootandy321/dsh-Agentlink",
@@ -5321,6 +5328,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "HarmonyOS NEXT / ArkTS development skills plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "sredevopsorg/dsh-plugins",
+   "name": "sredevopsorg-dsh-plugins",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Our Deepseek Harness custom plugins, skills and tools"
   },
   {
    "repo": "staff-os/dsh-dify",
@@ -21740,6 +21754,20 @@
   {
    "repo": "huilin66/dsh-token-cost",
    "name": "huilin66-dsh-token-cost",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "huimingli666/dsh-session-delete",
+   "name": "huimingli666-dsh-session-delete",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "huimingli666/dsh-workspace-auto-sort",
+   "name": "huimingli666-dsh-workspace-auto-sort",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -40496,6 +40524,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "52baihehhh-ai/dsh-splash-screen",
+   "name": "52baihehhh-ai-dsh-splash-screen",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH（DeepSeek Harness）开屏动画插件：可跳过的全屏启动动画，纯插件实现、可在插件库开关"
   },
   {
    "repo": "54singa/dsh-account-meter",
@@ -79397,6 +79432,13 @@
    "desc": "Per-turn execution folding for stock DeepSeek Harness Chat"
   },
   {
+   "repo": "9527ccccccc/dsh-xiangqi",
+   "name": "9527ccccccc-dsh-xiangqi",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "中国象棋：棋规引擎 + DSH 插件（右栏棋盘 + 会话可直接调用的工具）"
+  },
+  {
    "repo": "a1297424439/dsh-quote-panel",
    "name": "a1297424439-dsh-quote-panel",
    "verdict": "ok",
@@ -87846,6 +87888,13 @@
    "desc": "—"
   },
   {
+   "repo": "luckamuu/dsh-sessions-plugin",
+   "name": "luckamuu-dsh-sessions-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：提供删除已归档会话的入口（可以彻底删除不会再次出现）"
+  },
+  {
    "repo": "lvguqingyou/dsh-xmap",
    "name": "lvguqingyou-dsh-xmap",
    "verdict": "incompatible",
@@ -88334,6 +88383,13 @@
    "verdict": "ok",
    "stars": 13,
    "desc": "DeepSeek Harness (dsh) transport plugin: chat with your agents on WeChat via official Tencent iLink bot API —"
+  },
+  {
+   "repo": "zxmqq1234/dsh-auto-retry",
+   "name": "zxmqq1234-dsh-auto-retry",
+   "verdict": "ok",
+   "stars": 13,
+   "desc": "DeepSeek Harness（dsh）自动重试插件：报错自动重试、中断自动继续、挂起自动唤醒、 每一步右上角弹窗告诉你，不用再手动发\"继续\"，数据看板还原每一次重试的真相"
   },
   {
    "repo": "610la/dsh-notification-center",
@@ -99226,6 +99282,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Hot-toggle any installed plugin in DeepSeek Harness from the Web settings — instant apply, no restart, persist"
+  },
+  {
+   "repo": "6mt/dsh-plugin-loopback-trust",
+   "name": "6mt-dsh-plugin-loopback-trust",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Restore Host-persisted settings in dsh web behind a reverse proxy — marks the page connection as host-owning s"
   },
   {
    "repo": "863683348/dsh-plugin-gate",
