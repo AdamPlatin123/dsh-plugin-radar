@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T01:30:59Z",
+ "generated_at": "2026-11-12T02:01:21Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -48,7 +48,7 @@
    "repo": "yexi-by/dsh-unrestricted",
    "name": "yexi-by-dsh-unrestricted",
    "verdict": "ok",
-   "stars": 1098,
+   "stars": 1099,
    "desc": "DeepSeek Harness 提示词破限插件：通过系统提示词解除模型回答限制，深度适配 Web 与桌面端多模式及工具调用"
   },
   {
@@ -5393,6 +5393,13 @@
    "desc": "—"
   },
   {
+   "repo": "v587d/dsh-multimodal-skill",
+   "name": "v587d-dsh-multimodal-skill",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "给纯文本 LLM 一双慧眼"
+  },
+  {
    "repo": "valuelesser/pipeline-mode",
    "name": "valuelesser-pipeline-mode",
    "verdict": "ok",
@@ -5951,6 +5958,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "deepseek harness plugin view plantuml"
+  },
+  {
+   "repo": "alwaysmid-19990/dsh-projects",
+   "name": "alwaysmid-19990-dsh-projects",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web Project Center — Cowork/WorkBuddy-style projects with CLAUDE.md memory sync"
   },
   {
    "repo": "americanjeff/dsh-image-settings",
@@ -9817,6 +9831,13 @@
    "desc": "File-backed development workflow for DeepSeek Harness: durable cards, artifact and agent checks, human approva"
   },
   {
+   "repo": "zhengjy01/dsh-flomo",
+   "name": "zhengjy01-dsh-flomo",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Send notes and memos to flomo (浮墨笔记) from DeepSeek Harness: flomo_send / flomo_config / flomo_status agent too"
+  },
+  {
    "repo": "zhengjy01/dsh-mcp-manager",
    "name": "zhengjy01-dsh-mcp-manager",
    "verdict": "ok",
@@ -12715,13 +12736,6 @@
    "desc": "—"
   },
   {
-   "repo": "tkliuxing/dsh-hypatia-auto-memory",
-   "name": "tkliuxing-dsh-hypatia-auto-memory",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Event-driven Hypatia memory for DSH: automatic conversation logging, queued background consolidation, and reca"
-  },
-  {
    "repo": "troytse/dsh-plugin-subagent-roles",
    "name": "troytse-dsh-plugin-subagent-roles",
    "verdict": "incompatible",
@@ -12923,6 +12937,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Independent dsh plugins for things upstream can't (yet) accept as PRs"
+  },
+  {
+   "repo": "tkliuxing/dsh-hypatia-auto-memory",
+   "name": "tkliuxing-dsh-hypatia-auto-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Event-driven Hypatia memory for DSH: automatic conversation logging, queued background consolidation, and reca"
   },
   {
    "repo": "meyaomiao/dsh-graphmemory",
@@ -13683,6 +13704,13 @@
   {
    "repo": "Leshm0321/dsh-plugin-local-agent-bridge",
    "name": "leshm0321-dsh-plugin-local-agent-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "let-mi-think/agent-manager",
+   "name": "let-mi-think-agent-manager",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -14682,13 +14710,6 @@
    "desc": "Dynamic context pruning for DeepSeek Harness — model-driven compaction and duplicate-output pruning."
   },
   {
-   "repo": "let-mi-think/agent-manager",
-   "name": "let-mi-think-agent-manager",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "jojoman2024/dsh-prompt-inject",
    "name": "jojoman2024-dsh-prompt-inject",
    "verdict": "incompatible",
@@ -14804,7 +14825,7 @@
    "repo": "sixtysevenlf/dsh-blender-plugin",
    "name": "sixtysevenlf-dsh-blender-plugin",
    "verdict": "ok",
-   "stars": 1990,
+   "stars": 1993,
    "desc": "DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 2"
   },
   {
@@ -23607,6 +23628,13 @@
    "desc": "Replaces the DeepSeek Harness sidebar with a fixed 2x4 board of eight standing agent seats — each seat shows i"
   },
   {
+   "repo": "yellpoliovirusvaccine37/dsh-launcher",
+   "name": "yellpoliovirusvaccine37-dsh-launcher",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Launch DeepSeek Harness on Windows with one double-click, featuring startup autostart and a compact standalone"
+  },
+  {
    "repo": "yhfgyyf/dsh-tui-app",
    "name": "yhfgyyf-dsh-tui-app",
    "verdict": "ok",
@@ -26400,6 +26428,13 @@
    "desc": "Paper → academic talk for DeepSeek Harness: reads the real full text, budgets the slot per venue (组会汇报/会议报告/答辩"
   },
   {
+   "repo": "literaf/dsh-slides",
+   "name": "literaf-dsh-slides",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Slides for DeepSeek Harness: the agent writes a talk to one self-contained HTML file — presents fullscreen off"
+  },
+  {
    "repo": "liujianqiao701/dsh-ask-notify",
    "name": "liujianqiao701-dsh-ask-notify",
    "verdict": "ok",
@@ -29179,6 +29214,13 @@
    "desc": "鲸鱼娘桌宠 —— DeepSeek Harness Web GUI 右下角看板娘插件：随 Agent 工作状态切换动作，任务完成播放「晓伊」鲸鱼娘语音"
   },
   {
+   "repo": "zurrll/dsh-file-explorer",
+   "name": "zurrll-dsh-file-explorer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web GUI 文件资源管理器：右侧文件树抽屉，拖拽粘贴路径，双击打开，右侧取消区"
+  },
+  {
    "repo": "zxr2115-1/dsh-anime-theme",
    "name": "zxr2115-1-dsh-anime-theme",
    "verdict": "ok",
@@ -29441,7 +29483,7 @@
    "repo": "oxbshw/watch-skill",
    "name": "oxbshw-watch-skill",
    "verdict": "incompatible",
-   "stars": 573,
+   "stars": 575,
    "desc": "Give AI agents eyes, ears, and verifiable results"
   },
   {
@@ -29567,7 +29609,7 @@
    "repo": "guzhou079-arch/deepseek-harness-android",
    "name": "guzhou079-arch-deepseek-harness-android",
    "verdict": "incompatible",
-   "stars": 90,
+   "stars": 91,
    "desc": "把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配电脑，读屏/点按/虚拟屏/定时任务和整套技能都随包；它还能在手机上自己编译、打包、签名、发布"
   },
   {
@@ -47239,13 +47281,6 @@
    "desc": "—"
   },
   {
-   "repo": "yellpoliovirusvaccine37/dsh-launcher",
-   "name": "yellpoliovirusvaccine37-dsh-launcher",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Launch DeepSeek Harness on Windows with one double-click, featuring startup autostart and a compact standalone"
-  },
-  {
    "repo": "YgtqRun/Harnex",
    "name": "ygtqrun-harnex",
    "verdict": "ok",
@@ -51560,6 +51595,13 @@
   {
    "repo": "mccray-s/dsh-plugins",
    "name": "mccray-s-dsh-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "mekos2772/dsh-computer-use",
+   "name": "mekos2772-dsh-computer-use",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -56479,6 +56521,13 @@
    "desc": "数组分组"
   },
   {
+   "repo": "uckkk/dsh-group-buy",
+   "name": "uckkk-dsh-group-buy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "拼单团购"
+  },
+  {
    "repo": "uckkk/dsh-group-by",
    "name": "uckkk-dsh-group-by",
    "verdict": "ok",
@@ -56836,6 +56885,13 @@
    "desc": "热饮养生"
   },
   {
+   "repo": "uckkk/dsh-hotel-tax",
+   "name": "uckkk-dsh-hotel-tax",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "酒店税费计算"
+  },
+  {
    "repo": "uckkk/dsh-hp2kw",
    "name": "uckkk-dsh-hp2kw",
    "verdict": "ok",
@@ -56855,6 +56911,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "人类食物喂食"
+  },
+  {
+   "repo": "uckkk/dsh-humidity",
+   "name": "uckkk-dsh-humidity",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "湿度参考"
   },
   {
    "repo": "uckkk/dsh-humidity-comfort",
@@ -59160,6 +59223,13 @@
    "desc": "茶具搭配"
   },
   {
+   "repo": "uckkk/dsh-tea-taste",
+   "name": "uckkk-dsh-tea-taste",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "品茶入门"
+  },
+  {
    "repo": "uckkk/dsh-teacher-cert",
    "name": "uckkk-dsh-teacher-cert",
    "verdict": "ok",
@@ -59214,6 +59284,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "轮胎磨损判断"
+  },
+  {
+   "repo": "uckkk/dsh-title-length",
+   "name": "uckkk-dsh-title-length",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "标题字数建议"
   },
   {
    "repo": "uckkk/dsh-titlecase",
@@ -61211,13 +61288,6 @@
    "desc": "备考时间拆解"
   },
   {
-   "repo": "uckkk/dsh-group-buy",
-   "name": "uckkk-dsh-group-buy",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "拼单团购"
-  },
-  {
    "repo": "uckkk/dsh-hair-loss-check",
    "name": "uckkk-dsh-hair-loss-check",
    "verdict": "ok",
@@ -61230,20 +61300,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "仓鼠选择"
-  },
-  {
-   "repo": "uckkk/dsh-hotel-tax",
-   "name": "uckkk-dsh-hotel-tax",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "酒店税费计算"
-  },
-  {
-   "repo": "uckkk/dsh-humidity",
-   "name": "uckkk-dsh-humidity",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "湿度参考"
   },
   {
    "repo": "uckkk/dsh-iron-temp",
@@ -61349,13 +61405,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "订阅审计"
-  },
-  {
-   "repo": "uckkk/dsh-title-length",
-   "name": "uckkk-dsh-title-length",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "标题字数建议"
   },
   {
    "repo": "uckkk/dsh-tough-stain",
@@ -62996,15 +63045,15 @@
    "desc": "—"
   },
   {
-   "repo": "webxiaobaiyu-droid/dsh-local-usage",
-   "name": "webxiaobaiyu-droid-dsh-local-usage",
+   "repo": "Zhang9628/qixi-plugin",
+   "name": "zhang9628-qixi-plugin",
    "verdict": "incompatible",
    "stars": 5,
    "desc": "—"
   },
   {
-   "repo": "Zhang9628/qixi-plugin",
-   "name": "zhang9628-qixi-plugin",
+   "repo": "webxiaobaiyu-droid/dsh-local-usage",
+   "name": "webxiaobaiyu-droid-dsh-local-usage",
    "verdict": "incompatible",
    "stars": 5,
    "desc": "—"
@@ -67378,6 +67427,13 @@
    "desc": "—"
   },
   {
+   "repo": "gao-gao-zai/dsh-tool-web-search",
+   "name": "gao-gao-zai-dsh-tool-web-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Persistent DSH web search and bounded webpage fetching for Bing and SearXNG"
+  },
+  {
    "repo": "gausszhou/dsh-where-am-i",
    "name": "gausszhou-dsh-where-am-i",
    "verdict": "incompatible",
@@ -68279,13 +68335,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "nextnowlabs/dsh-ark-toolkit",
-   "name": "nextnowlabs-dsh-ark-toolkit",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "\\[dsh\\]为纯文本模型设计更强大的视觉工具箱"
   },
   {
    "repo": "nicklin99/dsh-find-jobs",
@@ -69679,6 +69728,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 兼容卫士：宿主升级后自动巡检插件兼容性，支持修复/禁用；宿主启动失败时由宿主外 supervisor 自动救援或回滚到上一个宿主版本"
+  },
+  {
+   "repo": "nextnowlabs/dsh-ark-toolkit",
+   "name": "nextnowlabs-dsh-ark-toolkit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "\\[dsh\\]为纯文本模型设计更强大的视觉工具箱"
   },
   {
    "repo": "uckkk/dsh-weekly-report",
@@ -80958,13 +81014,6 @@
    "desc": "存茶指南"
   },
   {
-   "repo": "uckkk/dsh-tea-taste",
-   "name": "uckkk-dsh-tea-taste",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "品茶入门"
-  },
-  {
    "repo": "uckkk/dsh-travel-docs",
    "name": "uckkk-dsh-travel-docs",
    "verdict": "ok",
@@ -82162,13 +82211,6 @@
    "desc": "—"
   },
   {
-   "repo": "ljh257110/dsh-local-installer",
-   "name": "ljh257110-dsh-local-installer",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "lomehong/dsh-plugin-manager",
    "name": "lomehong-dsh-plugin-manager",
    "verdict": "ok",
@@ -82510,6 +82552,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "用于DSH的MCP管理器"
+  },
+  {
+   "repo": "ljh257110/dsh-local-installer",
+   "name": "ljh257110-dsh-local-installer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "LinBuYan/deepseek-harness-dsh-plugin-hub",
@@ -84556,13 +84605,6 @@
    "desc": "Local OCR for DeepSeek Harness — read text from screenshots on your Mac with Apple's Vision framework"
   },
   {
-   "repo": "v587d/dsh-multimodal-skill",
-   "name": "v587d-dsh-multimodal-skill",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "给纯文本 LLM 一双慧眼"
-  },
-  {
    "repo": "wanghehe123/dsh-cite",
    "name": "wanghehe123-dsh-cite",
    "verdict": "ok",
@@ -86040,13 +86082,6 @@
    "desc": "DeepSeek Harness 桌面封装（跨平台 macOS/Windows）: 无边框窗口 + 工作区文件夹右键菜单 + 应用菜单/重启服务"
   },
   {
-   "repo": "zurrll/dsh-file-explorer",
-   "name": "zurrll-dsh-file-explorer",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "DSH Web GUI 文件资源管理器：右侧文件树抽屉，拖拽粘贴路径，双击打开，右侧取消区"
-  },
-  {
    "repo": "zuuky/dsh-omnifile",
    "name": "zuuky-dsh-omnifile",
    "verdict": "ok",
@@ -86754,6 +86789,13 @@
    "desc": "A DeepSeek Harness (DSH) floating workspace directory-tree plugin"
   },
   {
+   "repo": "caopu16/dsh-mcp-json",
+   "name": "caopu16-dsh-mcp-json",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "deepseek-harness自动读取mcp相关配置文件（如.mcp.json），自动加载mcp"
+  },
+  {
    "repo": "cxzrdxy/dsh-file-explorer",
    "name": "cxzrdxy-dsh-file-explorer",
    "verdict": "incompatible",
@@ -87053,13 +87095,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
-  },
-  {
-   "repo": "caopu16/dsh-mcp-json",
-   "name": "caopu16-dsh-mcp-json",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "deepseek-harness自动读取mcp相关配置文件（如.mcp.json），自动加载mcp"
   },
   {
    "repo": "drscrewdriver/dsh-manage-session",
@@ -88861,13 +88896,6 @@
    "desc": "Connect a Feishu bot to DeepSeek Harness projects and conversations"
   },
   {
-   "repo": "666489/dsh-nature-papers",
-   "name": "666489-dsh-nature-papers",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "用于拉取nature中最新的论文（默认生化信息）"
-  },
-  {
    "repo": "AlloyPlane/gitguard",
    "name": "alloyplane-gitguard",
    "verdict": "pending",
@@ -89650,6 +89678,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "666489/dsh-nature-papers",
+   "name": "666489-dsh-nature-papers",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "用于拉取nature中最新的论文（默认生化信息）"
   },
   {
    "repo": "chrisx9z/dsh-session-chat-share",
@@ -92498,7 +92533,7 @@
    "name": "vshulcz-deja-vu",
    "verdict": "ok",
    "stars": 1113,
-   "desc": "Shared local memory, cross-agent handoff, and code recovery across 43 coding agents"
+   "desc": "Local memory, uncommitted code recovery, and cross-agent handoff for Claude Code, Codex, Cursor, OpenCode, and"
   },
   {
    "repo": "wecode-ai/Wegent",
@@ -92518,7 +92553,7 @@
    "repo": "fourzkw/dsh-drawai",
    "name": "fourzkw-dsh-drawai",
    "verdict": "ok",
-   "stars": 503,
+   "stars": 508,
    "desc": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具"
   },
   {
@@ -100474,13 +100509,6 @@
    "desc": "—"
   },
   {
-   "repo": "literaf/dsh-slides",
-   "name": "literaf-dsh-slides",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Slides for DeepSeek Harness: the agent writes a talk to one self-contained HTML file — presents fullscreen off"
-  },
-  {
    "repo": "liuchang8877/dsh-plugin-openviking",
    "name": "liuchang8877-dsh-plugin-openviking",
    "verdict": "ok",
@@ -102850,7 +102878,7 @@
    "repo": "pawaca/dsh-edge",
    "name": "pawaca-dsh-edge",
    "verdict": "incompatible",
-   "stars": 30,
+   "stars": 29,
    "desc": "Your DeepSeek Harness, anywhere — deploy a persistent personal coding agent to Cloudflare Workers in one comma"
   },
   {
@@ -106095,13 +106123,6 @@
    "desc": "Prompt rewrite workbench for DeepSeek Harness: four rewrite modes, cancellable streaming output, and a token-l"
   },
   {
-   "repo": "gao-gao-zai/dsh-tool-web-search",
-   "name": "gao-gao-zai-dsh-tool-web-search",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Persistent DSH web search and bounded webpage fetching for Bing and SearXNG"
-  },
-  {
    "repo": "gengmao/dsh-session-s3",
    "name": "gengmao-dsh-session-s3",
    "verdict": "incompatible",
@@ -107719,13 +107740,6 @@
    "desc": "Archived: evidence-driven memory, multi-agent orchestration, benchmark, and plug"
   },
   {
-   "repo": "alwaysmid-19990/dsh-projects",
-   "name": "alwaysmid-19990-dsh-projects",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "DSH Web Project Center — Cowork/WorkBuddy-style projects with CLAUDE.md memory sync"
-  },
-  {
    "repo": "dshplugin-me/dsh-precedent",
    "name": "dshplugin-me-dsh-precedent",
    "verdict": "ok",
@@ -107752,13 +107766,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "zhengjy01/dsh-flomo",
-   "name": "zhengjy01-dsh-flomo",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Send notes and memos to flomo (浮墨笔记) from DeepSeek Harness: flomo_send / flomo_config / flomo_status agent too"
   },
   {
    "repo": "fengshenx/dsh-remind",
