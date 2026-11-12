@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2495）
+# 🤖 Agent 能力（2498）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -153,6 +153,7 @@
 - 🟩 `[可用]` [fan56-dsh-dcp](https://github.com/fan56/dsh-dcp) ★8 — dsh plugin: deterministic context compression backend — zero LLM calls, reproducible compression
 - 🟩 `[可用]` [featherhunter-dsh-chinese-skill-patch](https://github.com/FeatherHunter/dsh-chinese-skill-patch) ★8 — —
 - ⬜ `[待定]` [haiting202-web-jiufeng-invest](https://github.com/haiting202-web/jiufeng-invest) ★8 — 玖峰金融工作台 (Jiufeng FinBox) - 把散落的金融工具装进一个桌面端 \| Finance workbench plugin set for DeepSeek Harness: 7 workflows, 1
+- 🟩 `[可用]` [hongweifei-dsh-memory](https://github.com/hongweifei/dsh-memory) ★8 — —
 - 🟩 `[可用]` [hootandy321-dsh-agentlink](https://github.com/hootandy321/dsh-Agentlink) ★8 — —
 - 🟩 `[可用]` [toddpan-dsh-webapi](https://github.com/toddpan/dsh-webapi) ★8 — DSH plugin — drive DeepSeek Harness over HTTP: 47 REST + SSE routes (workspaces, sessions, streaming, stats, t
 - 🟩 `[可用]` [dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) ★8 — Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a DeepSeek Harness bu
@@ -774,6 +775,7 @@
 - 🟩 `[可用]` [songmiao-tech-dsh-prompt-optimizer](https://github.com/SongMiao-tech/dsh-prompt-optimizer) ★1 — —
 - `[空仓监测]` **songoao25-dsh-contract-drafting-agent** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [spike-faye-lei-dsh-harmonyos-arkts](https://github.com/spike-faye-lei/dsh-harmonyos-arkts) ★1 — HarmonyOS NEXT / ArkTS development skills plugin for DeepSeek Harness
+- ⬜ `[待定]` [sredevopsorg-dsh-plugins](https://github.com/sredevopsorg/dsh-plugins) ★1 — Our Deepseek Harness custom plugins, skills and tools
 - 🟩 `[可用]` [staff-os-dsh-dify](https://github.com/staff-os/dsh-dify) ★1 — Dify agent and knowledge-base capability for the DeepSeek Harness
 - `[空仓监测]` **statem-li-dsh-usage-skill** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [sugarxl-dsh-safety](https://github.com/sugarxl/dsh-safety) ★1 — Safety harness plugin for DeepSeek Harness (DSH): execution-time guard, trash-based safe_delete, composition s
@@ -2362,6 +2364,7 @@
 - 🟨 `[不兼容]` [satan9394-dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) ★0 — 199 DSH skill plugins in one monorepo - comprehensive collection for DeepSeek Harness
 - 🟨 `[不兼容]` [sdegongzuo-dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) ★0 — DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页
 - 🟨 `[不兼容]` [seeingrain-dsh-upload-file](https://github.com/seeingrain/dsh-upload-file) ★0 — DSH plugin: paperclip file library with per-session isolation, thumbnails and re-download.
+- `[未定位]` **shay-ckm-dsh-skill-softcopyright** — 占位待复核，判定暂不展示
 - `[空仓监测]` **shenhuanageshei-dsh-session-link-pro** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [shenhuanageshei-dsh-vision-bridge](https://github.com/shenhuanageshei/dsh-vision-bridge) ★0 — DeepSeek Harness plugin - session screenshots route by model capability: inline for vision models, VLM-read fo
 - 🟨 `[不兼容]` [shenzhantu-dsh-subagent-model](https://github.com/shenzhantu/dsh-subagent-model) ★0 — 通过模型插件用来修改subagent所使用的模型和Agent预设/Use model plugins to modify the model used by the subagent and the agent pres

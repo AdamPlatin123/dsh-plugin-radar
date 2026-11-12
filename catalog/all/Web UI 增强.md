@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3207）
+# 🔌 Web UI 增强（3211）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -993,6 +993,8 @@
 - 🟩 `[可用]` [hu568-dsh-plugin-persona-memory](https://github.com/hu568/dsh-plugin-persona-memory) ★1 — DSH 插件：角色设定与长期记忆（角色库 persona.yml/SOUL.md/USER.md + FACT.md/MEMORY.md + JOURNAL.jsonl），注册在宿主组合层，对所有 agent 预设生效，
 - 🟩 `[可用]` [huihuitie-zhu-dsh-check-update](https://github.com/HuiHuitie-zhu/dsh-check-update) ★1 — —
 - 🟩 `[可用]` [huilin66-dsh-token-cost](https://github.com/huilin66/dsh-token-cost) ★1 — —
+- 🟩 `[可用]` [huimingli666-dsh-session-delete](https://github.com/huimingli666/dsh-session-delete) ★1 — —
+- 🟩 `[可用]` [huimingli666-dsh-workspace-auto-sort](https://github.com/huimingli666/dsh-workspace-auto-sort) ★1 — —
 - ⬜ `[待定]` [hunbs-1-dsh-codepect](https://github.com/hunbs-1/dsh-codepect) ★1 — dsh-codepect is a DSH plugin generating OpenAPI 3.0 from TS/JS
 - ⬜ `[待定]` [hux-hx-deepseek-harness-gui](https://github.com/hux-hx/DeepSeek-Harness-GUI) ★1 — —
 - 🟩 `[可用]` [huyang218-dsh-plugins](https://github.com/huyang218/dsh-plugins) ★1 — Plugins for DeepSeek Harness (dsh) — 18 build-free ESM bundles: model-facing tools, runtime wrappers and web U
@@ -1777,6 +1779,8 @@
 - 🟩 `[可用]` [liuyun847-dsh-client-ui-session-rail](https://github.com/liuyun847/dsh-client-ui-session-rail) ★0 — DSH 客户端插件:侧边栏收起时在左侧空白区竖排显示活跃会话横条 (DeepSeek Harness)
 - 🟩 `[可用]` [liuyun847-dsh-client-ui-turn-chime](https://github.com/liuyun847/dsh-client-ui-turn-chime) ★0 — DSH 客户端插件:AI 回复完成时播放双音提示音 (DeepSeek Harness)
 - 🟩 `[可用]` [lkdxzhxi-dsh-glass-ui-theme](https://github.com/lkdxzhxi/dsh-glass-ui-theme) ★0 — 为 DeepSeek Harness 打造的液态玻璃主题插件：磨砂玻璃、可调色调、动态壁纸，让 DSH 界面焕然一新
+- `[未定位]` **ln1m-dsh-host-suite** — 占位待复核，判定暂不展示
+- `[未定位]` **ln1m-dsh-pane-suite** — 占位待复核，判定暂不展示
 - `[未定位]` **ln1m-dsh-vk-suite** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [lolkda-dsh-web-lan](https://github.com/lolkda/dsh-web-lan) ★0 — Make `dsh web` (DeepSeek Harness browser UI) reachable from other machines on a LAN or virtual LAN — no extra
 - 🟩 `[可用]` [lonelymoon87-dsh-engineering-suite](https://github.com/lonelymoon87/dsh-engineering-suite) ★0 — One install for SpecFlow, GitFlow, Guardian, and Code Intel on DeepSeek Harness.
