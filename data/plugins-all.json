@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T00:16:05Z",
+ "generated_at": "2026-11-12T00:31:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -75797,6 +75797,13 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "—"
+  },
+  {
+   "repo": "btsd321/dsh-remote-explorer",
+   "name": "btsd321-dsh-remote-explorer",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "Remote development launcher: install dsh on a remote host and use it from your local browser"
   },
   {
    "repo": "copylee711/dsh-proxy",
