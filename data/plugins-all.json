@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T12:31:03Z",
+ "generated_at": "2026-11-12T12:46:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12953,6 +12953,13 @@
    "desc": "—"
   },
   {
+   "repo": "panando/dsh-prompt-optimizer",
+   "name": "panando-dsh-prompt-optimizer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "One button prompt optimizer with configurable strategy."
+  },
+  {
    "repo": "phoenixlucky/chrome-mcp-bridge-2026-skill",
    "name": "phoenixlucky-chrome-mcp-bridge-2026-skill",
    "verdict": "incompatible",
@@ -22844,11 +22851,25 @@
    "desc": "—"
   },
   {
+   "repo": "loubaji083-rgb/dsh-plugin-aivideo-shotkit",
+   "name": "loubaji083-rgb-dsh-plugin-aivideo-shotkit",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 AI 生成的视频（或录屏）自动切成能直接投喂人物替换工具的片段：识别并裁掉播放器 UI 覆盖层、按场景分镜、逐镜头量运动量、超长镜头再切子段"
+  },
+  {
    "repo": "LouisCanBe/dsh-plugin-ollama-monitor",
    "name": "louiscanbe-dsh-plugin-ollama-monitor",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "lov0vo/dsh-composer-autopair",
+   "name": "lov0vo-dsh-composer-autopair",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 聊天输入框的括号/引号自动配对插件 —— Auto-pair brackets and quotes in the DeepSeek Harness chat composer"
   },
   {
    "repo": "lovejavacore/dsh-minecraft-pet",
@@ -24200,6 +24221,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "对DSH的交付物进行标注的插件，人工标注后，DSH会根据标注执行"
+  },
+  {
+   "repo": "xulianglong-akk/dsh-whale-intro",
+   "name": "xulianglong-akk-dsh-whale-intro",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "鲸鱼娘开场：DSH 启动时她先出现，挥手、眨眼，然后连贯地沉回界面里"
   },
   {
    "repo": "XuRuitian/deepseek-harness-desktop",
@@ -27373,6 +27401,13 @@
    "desc": "DSH voice input plugin: local offline Vosk speech-to-text with real-time streaming"
   },
   {
+   "repo": "lxl8182/dsh-llm-error-classify",
+   "name": "lxl8182-dsh-llm-error-classify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 错误分类修正插件：把适配器一律判成 AUTH 的提供方失败改写为 PROVIDER_ERROR，让网关原文原样显示，而不是被 UI 替换成「API 密钥无效」"
+  },
+  {
    "repo": "lyaoliu/dsh-approval-core",
    "name": "lyaoliu-dsh-approval-core",
    "verdict": "ok",
@@ -28218,6 +28253,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Blender for DeepSeek Harness: headless render/convert tools for 3D models plus a three.js viewer panel in the"
+  },
+  {
+   "repo": "sailoflight/dsh-tui-compact-carry",
+   "name": "sailoflight-dsh-tui-compact-carry",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "TUI-only DeepSeek Harness plugin: compaction count/progress in the status line + /carry to bring a cached comp"
   },
   {
    "repo": "salathleizhang/dsh-agent-sdk",
@@ -86103,6 +86145,13 @@
    "desc": "—"
   },
   {
+   "repo": "meowyuho/dsh-session-archive",
+   "name": "meowyuho-dsh-session-archive",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "mmyhj/dsh-tool-hermes-web",
    "name": "mmyhj-dsh-tool-hermes-web",
    "verdict": "ok",
@@ -103071,6 +103120,13 @@
    "desc": "DSH plugins that connect agents to calendar providers: iCloud Calendar over CalDAV, with recurring events expa"
   },
   {
+   "repo": "mrbeandev/dsh-image-edge-cap",
+   "name": "mrbeandev-dsh-image-edge-cap",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin that limits the images sent to chosen providers or models: cap the longest side and th"
+  },
+  {
    "repo": "mrbeandev/dsh-short-tool-ids",
    "name": "mrbeandev-dsh-short-tool-ids",
    "verdict": "ok",
@@ -104294,6 +104350,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：在聊天记录中自动将本地音视频路径渲染为可播放的预览组件"
+  },
+  {
+   "repo": "xiaoshuai1024/dsh-brief",
+   "name": "xiaoshuai1024-dsh-brief",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: one tool (brief_fetch) that feeds Hacker News + new high-star GitHub entries to your"
   },
   {
    "repo": "xieshuaix/dsh-deepseek-balance",
@@ -109698,6 +109761,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Adds a Delete-session action to the DeepSeek Harness sidebar three-dot menu (dsh 0.1.0-rc.6)"
+  },
+  {
+   "repo": "wuqingzhong2020/dsh-multi-git-repo-manager",
+   "name": "wuqingzhong2020-dsh-multi-git-repo-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "多git代码仓管理"
   },
   {
    "repo": "wuyh/dsh-workspace-toolbox",
