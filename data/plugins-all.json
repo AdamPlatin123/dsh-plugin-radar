@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T04:16:07Z",
+ "generated_at": "2026-11-12T04:31:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12589,6 +12589,13 @@
    "desc": "DSH Web plugin: Usage Center with Hub snapshots and cost analytics, coding-plan OAuth, and optional loopback O"
   },
   {
+   "repo": "lrqiisrom/dsh-jev-memory",
+   "name": "lrqiisrom-dsh-jev-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "luca3xxvsoo/dsh-extra-plan",
    "name": "luca3xxvsoo-dsh-extra-plan",
    "verdict": "incompatible",
@@ -12615,6 +12622,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH 断档自动接着跑：max-tokens 截断、429 限流、上下文压缩吞轮三种中断各补一枪，不用手动点继续 ｜ Keeps a DSH turn going across three kinds of stall:"
+  },
+  {
+   "repo": "menghuanshiguang/devctl-dsh",
+   "name": "menghuanshiguang-devctl-dsh",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "devctl 家族 · 从另一台设备用 CLI 控制 DSH 会话"
   },
   {
    "repo": "mill413/dsh-session-resume",
@@ -18306,6 +18320,13 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "DSH Web 输入历史插件：Ctrl+Up / Ctrl+Down 像终端一样召回与切换已发送消息，零核心改动"
+  },
+  {
+   "repo": "lildanger/dsh-skin-win2000",
+   "name": "lildanger-dsh-skin-win2000",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Windows 2000 skin for the DSH Web GUI: metric-accurate grey chrome, two-tone gradient title bars, 1px bevels,"
   },
   {
    "repo": "linxuhao/Deepseek-Continuity",
@@ -62772,6 +62793,13 @@
    "desc": "—"
   },
   {
+   "repo": "eghrhegpe/dsh-connect-qoder",
+   "name": "eghrhegpe-dsh-connect-qoder",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "Bridge local Qoder / Qoder CN models into DeepSeek Harness"
+  },
+  {
    "repo": "hibays/DSHL",
    "name": "hibays-dshl",
    "verdict": "incompatible",
@@ -74222,6 +74250,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "dougen/dsh-cdp",
+   "name": "dougen-dsh-cdp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 DSH 通过 CDP 驱动本机已开启调试的 Chromium 内核浏览器：常驻连接只授权一次，零新增工具 schema，零运行时依赖"
   },
   {
    "repo": "Dream5205/dsh-desktop",
