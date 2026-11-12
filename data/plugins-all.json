@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T07:31:10Z",
+ "generated_at": "2026-11-12T07:46:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -9773,6 +9773,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Action-State Memory Engine: typed time-series memory (states + actions) with trend/anomaly/causal analysis for"
+  },
+  {
+   "repo": "xqtx9527/dsh-live-pricing",
+   "name": "xqtx9527-dsh-live-pricing",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 实时价格条：高峰/空闲时段、中国法定节假日、当前单价与会话花费 \\| Live pricing widget for DSH"
   },
   {
    "repo": "xrj/dsh-plugin-registry",
@@ -28906,6 +28913,13 @@
    "desc": "ConceptNet intent classification plugin for DeepSeek Harness"
   },
   {
+   "repo": "wuyad/dsh-client-ui-cat",
+   "name": "wuyad-dsh-client-ui-cat",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "A little tabby cat that wanders around the DeepSeek Harness UI — walking, hopping, napping and getting petted"
+  },
+  {
    "repo": "ww2186874-cyber/dsh-archived-sessions",
    "name": "ww2186874-cyber-dsh-archived-sessions",
    "verdict": "ok",
@@ -29877,13 +29891,6 @@
    "verdict": "untested",
    "stars": null,
    "desc": "定时发送与定时提醒：`/later` 到点以本人身份把输入框内容发出，`/schedule` 到点生成提醒；时间写法支持 `+1h30m`、`明天9点`、`15:32` 与重复序列（`+1h*3`、`9:00+1d`）；面板设时间，输入框上方显示倒计时条，每条任务可单独取消、编辑或一键清空；服务端调度，关掉网页也到点触发；npm `dsh-later` 1.8.0"
-  },
-  {
-   "repo": "achenjins/dsh-runninghub-plugin",
-   "name": "dsh-runninghub-plugin",
-   "verdict": "untested",
-   "stars": null,
-   "desc": "RunningHub 云端 ComfyUI 工作流接入：runninghub_search / runninghub_call 两个模型工具，AI 按工作流链接或 ID 辅助配置输入节点（也可在「插件」→「dsh-runninghub-plugin」配置面板手动导入编辑），后台运行生成图片、视频和音频并把结果带回对话；多 API Key 按国内站 / 海外站分池、余额不足换用下一把，可查余额与排队；npm `dsh-runninghub-plugin`"
   },
   {
    "repo": "cccodder/dsh-remote-console",
@@ -33384,6 +33391,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Workspace file tree and multi-tab editor in DeepSeek Harness — browse, edit, and preview files without leaving"
+  },
+  {
+   "repo": "supergameboy/dsh-chat-focus",
+   "name": "supergameboy-dsh-chat-focus",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh web conversation plugin: fold runtime activity into expandable boxes, chat bubbles, deep customization (fo"
   },
   {
    "repo": "swaylq/dsh-genie",
@@ -38585,6 +38599,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "—"
+  },
+  {
+   "repo": "achenjins/dsh-runninghub-plugin",
+   "name": "achenjins-dsh-runninghub-plugin",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "一个dsh插件，用于让ai在dsh内调用runninghub在线工作流"
   },
   {
    "repo": "Aeternus123/dsh-rtk-filter",
@@ -71368,6 +71389,13 @@
    "desc": "DeepSeek Harness (dsh) 全局 HTTP 代理插件：undici setGlobalDispatcher + EnvHttpProxyAge"
   },
   {
+   "repo": "yybai25/dsh-ssh-desktop",
+   "name": "yybai25-dsh-ssh-desktop",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "Windows desktop shell for a DeepSeek Harness (DSH) running on a remote server over system ssh — multi-server,"
+  },
+  {
    "repo": "BB-84C/deepseek-harness-mobile-solution",
    "name": "bb-84c-deepseek-harness-mobile-solution",
    "verdict": "ok",
@@ -85522,6 +85550,13 @@
    "desc": "Inbound large-paste handling for the DeepSeek Harness composer: each 4-50 KB paste folds into one chip, a >=50"
   },
   {
+   "repo": "xuhan242/deliverable-qa",
+   "name": "xuhan242-deliverable-qa",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "交付物质检:排版 / AI 腔 / 敏感内容三线检查,面向 AI 协作产出的中文文档"
+  },
+  {
    "repo": "ylwl1997/noatmark-dsh-plugin",
    "name": "noatmark-dsh-plugin",
    "verdict": "ok",
@@ -88096,6 +88131,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Vault observation plugin for DeepSeek Harness: Obsidian vault metadata snapshot + edit stats + observation pan"
+  },
+  {
+   "repo": "1497105876/dsh-mimotts",
+   "name": "1497105876-dsh-mimotts",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "MiMo TTS speech synthesis for DeepSeek Harness: a configuration card on the Plugins page, a speak button under"
   },
   {
    "repo": "1497105876/dsh-text-inject",
@@ -91365,6 +91407,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Browser-side attention reminders for DeepSeek Harness — desktop notification, tab-title dot and PWA badge when"
+  },
+  {
+   "repo": "robin421/dsh-html-inspector",
+   "name": "robin421-dsh-html-inspector",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Selection mode for DeepSeek Harness: click any element in a local HTML demo, locator auto-written to chat inpu"
   },
   {
    "repo": "sakuraboy9128-cmd/dsh-approval-notify",
@@ -95047,6 +95096,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "AtomGit plugin bundle for DeepSeek Harness (dsh): atomgit-skills workflows + ag CLI + platform-hosted AtomGit/"
+  },
+  {
+   "repo": "xiseliuli/dsh-as-mcp",
+   "name": "xiseliuli-dsh-as-mcp",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "Expose a running DeepSeek Harness as an MCP server, so Claude Code, Codex or any MCP client can drive its work"
   },
   {
    "repo": "Xizhi1024/deepseek-harness-dsh-for-vscode",
@@ -99898,6 +99954,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness web plugin: persistent message ruler on the transcript edge — small clickable lines per user"
+  },
+  {
+   "repo": "506058115-cmd/dsh-document-editor",
+   "name": "506058115-cmd-dsh-document-editor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH MCP server for reading, creating, editing, and verifying PDF, Word, Excel, and PowerPoint files."
   },
   {
    "repo": "5102a/dsh-plugin-hot-toggle",
@@ -105283,6 +105346,13 @@
    "desc": "DeepSeek Harness 的独立双面插件，用于把产品的原始需求澄清为研发和开发 AI 可直接理解的 Ready Spec"
   },
   {
+   "repo": "121212165/dsh-plugin-ide-hub",
+   "name": "121212165-dsh-plugin-ide-hub",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "dsh plugin: one hub over your coding IDEs (Trae/Qoder/ZCode/CatPaw/Codex/Claude Code/OpenCode/dsh) - session i"
+  },
+  {
    "repo": "173787247/dsh-repeat-stop",
    "name": "173787247-dsh-repeat-stop",
    "verdict": "incompatible",
@@ -108522,6 +108592,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Evidence-first knowledge work skill packaged as a DeepSeek Harness plugin"
+  },
+  {
+   "repo": "win10ogod/dsh-knowledge-work",
+   "name": "win10ogod-dsh-knowledge-work",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Persistent knowledge-work Agent workflows, evidence capture, review and reports for DSH"
   },
   {
    "repo": "winyh/dsh-idea",

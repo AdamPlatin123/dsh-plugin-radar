@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2529）
+# 🤖 Agent 能力（2532）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1332,6 +1332,7 @@
 - 🟩 `[可用]` [sakka6868-dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) ★0 — —
 - 🟩 `[可用]` [sam-midlight-dsh-loop-rescue](https://github.com/sam-midlight/dsh-loop-rescue) ★0 — DRAFT — DeepSeek Harness guard that breaks an agent out of a tool-call loop and escalates to a stronger model
 - `[空仓监测]` **savageops-dsh-rich-context** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **schrei5-dsh-plugin-session-project** — 占位待复核，判定暂不展示
 - `[未定位]` **screamingmaggot-rcs-context** — 占位待复核，判定暂不展示
 - `[未定位]` **sdf-jkl-gh-dsh-memory-panel** — 占位待复核，判定暂不展示
 - `[未定位]` **seekerwxy-dsh-session-tabs** — 占位待复核，判定暂不展示
@@ -1581,6 +1582,7 @@
 - 🟩 `[可用]` [xiuyuan18-dsh-engram-session](https://github.com/xiuyuan18/dsh-engram-session) ★0 — Unofficial community plugin: per-session Engram memory for DeepSeek Harness — spawns an engram MCP child per a
 - 🟩 `[可用]` [xiyuepcl-dsh-approval-translator](https://github.com/xiyuepcl/dsh-approval-translator) ★0 — DSH审批汉化 — DeepSeek 驱动的 dsh 审批弹窗自动汉化插件（approval dialog auto-translation for DeepSeek Harness）
 - 🟩 `[可用]` [dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) ★0 — Action-State Memory Engine: typed time-series memory (states + actions) with trend/anomaly/causal analysis for
+- 🟩 `[可用]` [xqtx9527-dsh-live-pricing](https://github.com/xqtx9527/dsh-live-pricing) ★0 — DeepSeek Harness 实时价格条：高峰/空闲时段、中国法定节假日、当前单价与会话花费 \| Live pricing widget for DSH
 - ⬜ `[待定]` [xrj-dsh-plugin-registry](https://github.com/xrj/dsh-plugin-registry) ★0 — An open registry snapshot for DeepSeek Harness plugins, skills, and related tools
 - ⬜ `[待定]` [xujiping-dsh-plugins](https://github.com/xujiping/dsh-plugins) ★0 — DeepSeek Harness 自研插件全家桶（monorepo）：dsh-memory 全局记忆等
 - 🟩 `[可用]` [xuviga-dsh-plugin-mnemosyne](https://github.com/xuviga/dsh-plugin-mnemosyne) ★0 — Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r
@@ -2487,6 +2489,7 @@
 - `[未定位]` **yixiuzhemu-skills-manager** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [yoggu-dsh-new-session](https://github.com/yoggu/dsh-new-session) ★0 — Adds a /new command to start and open a new Session in the current Workspace.
 - 🟨 `[不兼容]` [yogioo-dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) ★0 — —
+- `[未定位]` **yottameta-yotta-skills-plugin** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [young-yyj-dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) ★0 — DeepSeek Harness 的本地只读技能浏览插件
 - `[空仓监测]` **ytmaps-dsh-subagent-flowtext** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —
