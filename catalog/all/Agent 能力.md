@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2474）
+# 🤖 Agent 能力（2477）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1847,6 +1847,7 @@
 - 🟨 `[不兼容]` [yjh051108-dsh-engram-relay](https://github.com/yjh051108/dsh-engram-relay) ★3 — dsh-engram-relay 公开镜像（上游：dsh-external/dsh-engram-relay）：跨会话分层记忆 + 哈希×语义×因果超稀疏唤醒，13 个 engram_* 工具，BSD-3-Clause
 - 🟨 `[不兼容]` [zem17-dsh-subagent-agy](https://github.com/ZEM17/dsh-subagent-agy) ★3 — —
 - `[空仓监测]` **statem-li-dsh-triad** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [133563825as-ai-oha-whale-session-manager](https://github.com/133563825as-ai/oha-whale-session-manager) ★2 — 哦鲸鲸会话管理插件
 - 🟨 `[不兼容]` [1569126506-sudo-dsh-team-cost](https://github.com/1569126506-sudo/dsh-team-cost) ★2 — DeepSeek Harness 团队成本管家:按成员/项目计量 token 与费用(含子代理),预算告警与超支拦截,成本看板与报表
 - 🟨 `[不兼容]` [173787247-dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) ★2 — Inject WSL/Windows path and shell facts into the DeepSeek Harness system prompt.
 - 🟨 `[不兼容]` [21hbguo-dsh-thinking-counter](https://github.com/21hbguo/dsh-thinking-counter) ★2 — DSH「大胖鲸智商检测器」：Thinking 短语检测统计 · 全会话 reasoning 短语命中/分组/聪明程度判定
@@ -2003,6 +2004,7 @@
 - 🟨 `[不兼容]` [kelemiao-dsh-api](https://github.com/kelemiao/dsh-api) ★1 — Local HTTP API for DeepSeek Harness: let other agents control DSH sessions through official ApiProxy routes.
 - 🟨 `[不兼容]` [keman-ai-dsh-pocket](https://github.com/keman-ai/dsh-pocket) ★1 — Watch and steer your DSH agent from a phone browser: approve tool calls, send a message, stop a turn
 - 🟨 `[不兼容]` [kk112222-dsh-chat-index](https://github.com/kk112222/dsh-chat-index) ★1 — DSH (DeepSeek Harness) web plugin: per-session question index — rail + chain panel over main & branch sessions
+- 🟨 `[不兼容]` [knopki-dsh-prompt-profiles](https://github.com/knopki/dsh-prompt-profiles) ★1 — Per-session prompt profiles for DeepSeek Harness: reusable system-prompt sections, grouped into named profiles
 - 🟨 `[不兼容]` [kovey-dsh-memory](https://github.com/kovey/dsh-memory) ★1 — Layered memory plugin for DeepSeek Harness: strictly separated project/global memory, host-driven recall befor
 - 🟨 `[不兼容]` [kyrielrving11-loopforge](https://github.com/kyrielrving11/LoopForge) ★1 — —
 - 🟨 `[不兼容]` [lco117-dsh-peak-hours](https://github.com/lco117/dsh-peak-hours) ★1 — A DeepSeek Harness plugin that displays a peak-hours status badge in the session header.
@@ -2070,6 +2072,7 @@
 - 🟨 `[不兼容]` [xuanyuanluoxue-computer-use-vision](https://github.com/xuanyuanluoxue/computer-use-vision) ★1 — Windows computer-use capability for DSH: screenshot, vision, simulated input, self-evolving knowledge base
 - 🟨 `[不兼容]` [yeyuan98-bioresearcher-skills](https://github.com/yeyuan98/bioresearcher-skills) ★1 — Agent Skills/Plugins/Connectors for biomedical research with the biomcp-ts MCP server.
 - 🟨 `[不兼容]` [yhfgyyf-dsh-auto-preset-router](https://github.com/yhfgyyf/dsh-auto-preset-router) ★1 — Routes the first DSH prompt to Standard, PTC, Minimal, or Cordis with DeepSeek V4 Flash.
+- 🟨 `[不兼容]` [yoggu-dsh-cache-warmer](https://github.com/yoggu/dsh-cache-warmer) ★1 — Estimated cache time and opt-in, cost-aware prompt-cache warming for DeepSeek Harness.
 - 🟨 `[不兼容]` [yunxiyang-dsh-stepwise-distill](https://github.com/yunxiyang/dsh-stepwise-distill) ★1 — Solidify DSH session history step by step: rewrite tool results in place to the facts the model actually kept,
 - 🟨 `[不兼容]` [zaimokuza-yoshiteru-dsh-agent-teams-office](https://github.com/zaimokuza-yoshiteru/dsh-agent-teams-office) ★1 — Office views for DSH Agent Teams.
 - 🟨 `[不兼容]` [zeropointnine-dsh-compact-and-branch](https://github.com/zeropointnine/dsh-compact-and-branch) ★1 — Compact a session and continue the work in a new one

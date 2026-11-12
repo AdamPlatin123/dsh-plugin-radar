@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T02:46:43Z",
+ "generated_at": "2026-11-12T03:01:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -11357,6 +11357,13 @@
    "desc": "—"
   },
   {
+   "repo": "133563825as-ai/oha-whale-session-manager",
+   "name": "133563825as-ai-oha-whale-session-manager",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "哦鲸鲸会话管理插件"
+  },
+  {
    "repo": "1569126506-sudo/dsh-team-cost",
    "name": "1569126506-sudo-dsh-team-cost",
    "verdict": "incompatible",
@@ -12442,6 +12449,13 @@
    "desc": "DSH (DeepSeek Harness) web plugin: per-session question index — rail + chain panel over main & branch sessions"
   },
   {
+   "repo": "knopki/dsh-prompt-profiles",
+   "name": "knopki-dsh-prompt-profiles",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Per-session prompt profiles for DeepSeek Harness: reusable system-prompt sections, grouped into named profiles"
+  },
+  {
    "repo": "kovey/dsh-memory",
    "name": "kovey-dsh-memory",
    "verdict": "incompatible",
@@ -12909,6 +12923,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Routes the first DSH prompt to Standard, PTC, Minimal, or Cordis with DeepSeek V4 Flash."
+  },
+  {
+   "repo": "yoggu/dsh-cache-warmer",
+   "name": "yoggu-dsh-cache-warmer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Estimated cache time and opt-in, cost-aware prompt-cache warming for DeepSeek Harness."
   },
   {
    "repo": "yunxiyang/dsh-stepwise-distill",
@@ -32560,6 +32581,13 @@
    "desc": "dsh-vision-toggle 是一个为 DeepSeek Harness (dsh) 提供「支持图片」开关的插件，让你在设置页按模型一键启用/禁用图片输入"
   },
   {
+   "repo": "likhonmain/voice-input",
+   "name": "likhonmain-voice-input",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "🎙️ Voice Input plugin for DeepSeek Harness — record, pause, playback review, and transcribe speech directly in"
+  },
+  {
    "repo": "linqunxun/dsh-plugins",
    "name": "linqunxun-dsh-plugins",
    "verdict": "incompatible",
@@ -45410,6 +45438,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "mattcarvercom/dsh-no-phone-home",
+   "name": "mattcarvercom-dsh-no-phone-home",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Stop DeepSeek Harness (dsh) from phoning home: a patch-only bundle that disables every telemetry, diagnostics-"
   },
   {
    "repo": "Max-Null/dsh-guardian",
@@ -87585,6 +87620,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness ecommerce plugin: CSV batch review replies, reproducible product scoring, Chinese skills, sto"
+  },
+  {
+   "repo": "pgnqukezrdxmhjso/dsh-prompt-file-injector",
+   "name": "pgnqukezrdxmhjso-dsh-prompt-file-injector",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "把指定的文件注入 DeepSeek Harness（dsh）的模型上下文"
   },
   {
    "repo": "PICNO/dsh-file-mention",
