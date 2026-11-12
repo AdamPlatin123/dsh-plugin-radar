@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T06:49:28Z",
+ "generated_at": "2026-11-12T07:01:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3319,6 +3319,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "awesome skills for any agent"
+  },
+  {
+   "repo": "wangyuanchuan2022/dsh-agents",
+   "name": "wangyuanchuan2022-dsh-agents",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
   },
   {
    "repo": "Way2LOose4/dsh-agent-pricing",
@@ -8865,6 +8872,13 @@
    "desc": "A recycle bin for DSH session deletion: deleting a session moves it to a bin where it can be restored, and spa"
   },
   {
+   "repo": "wangzhanchao883/dsh-no-long-sit",
+   "name": "wangzhanchao883-dsh-no-long-sit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Sit-and-water reminder for DeepSeek Harness: a 30-90 min focus cycle ends in a centered popup + triple chime;"
+  },
+  {
    "repo": "wbj0256/dsh-agent-handoff-deliberation",
    "name": "wbj0256-dsh-agent-handoff-deliberation",
    "verdict": "ok",
@@ -12986,6 +13000,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Answers an exhausted DeepSeek Harness account quota: move the session to another route of its pool when one st"
+  },
+  {
+   "repo": "windwhiterain/dsh-subagent-templates",
+   "name": "windwhiterain-dsh-subagent-templates",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Named subagent templates for DeepSeek Harness: a template fixes a starting route (or the route pool it resolve"
   },
   {
    "repo": "Witchwarren2344/dsh-mnemosyne-memory",
@@ -20350,6 +20371,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Wallpaper Engine bridge for DeepSeek Harness (DSH) on Windows"
+  },
+  {
+   "repo": "verneuil/dsh-opencode-go-usage",
+   "name": "verneuil-dsh-opencode-go-usage",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DeepSeek balance and OpenCode Go usage (5-hour / weekly / monthly) merged into one floating pill, with a match"
   },
   {
    "repo": "victor10035445/dsh-v-skill-links",
@@ -79635,6 +79663,13 @@
    "desc": "DeepSeek Harness 极简常用片段/命令工具箱：JSONL 存储，5 个工具，零依赖"
   },
   {
+   "repo": "tianyiming1/dsh-plugin-local-prompt-bridge",
+   "name": "tianyiming1-dsh-plugin-local-prompt-bridge",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Stock-safe DSH community plugin: local tokenize pressure + overflow to CONTEXT_WINDOW_EXCEEDED compact-retry"
+  },
+  {
    "repo": "ToBeWin/DSH-Pet-Companion",
    "name": "tobewin-dsh-pet-companion",
    "verdict": "ok",
@@ -81138,6 +81173,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "基于akshare-one的MCP服务器，提供中国股票市场数据的全面接口，包括历史数据、实时数据、新闻数据和财务报表等金融信息"
+  },
+  {
+   "repo": "yangyiqun747/dsh-plugin-whale-maid",
+   "name": "yangyiqun747-dsh-plugin-whale-maid",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A chibi whale-maid companion plugin for DeepSeek Harness"
   },
   {
    "repo": "youzhoujiMrLiu/dsh-codex-compatible-pet",
@@ -99471,6 +99513,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "ygzhang-lab/dsh-plugin-git-commit-push",
+   "name": "ygzhang-lab-dsh-plugin-git-commit-push",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "One-call Conventional-Commits git workflow for DSH: survey + commit + optional tag + push, plus a /commit-push"
   },
   {
    "repo": "yihefeikong-rgb/dsh-cc-haha-memory",
