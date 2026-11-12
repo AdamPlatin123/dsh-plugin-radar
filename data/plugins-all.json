@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T08:31:02Z",
+ "generated_at": "2026-11-12T08:46:25Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -31580,6 +31580,13 @@
    "desc": "DSH plugin porting thincoder self-discipline suite: advisor convergent review / engineering mode / escalate /"
   },
   {
+   "repo": "shuiqian520/dsh-session-delete",
+   "name": "shuiqian520-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH plugin: permanently delete a session from the sidebar menu, and retry a user message or an assistant reply"
+  },
+  {
    "repo": "stars2022/dsh-ui-concise",
    "name": "stars2022-dsh-ui-concise",
    "verdict": "incompatible",
@@ -33813,6 +33820,13 @@
    "desc": "Shows the DSH Web GUI access URLs in Settings, including a stable fixed address that survives desktop restarts"
   },
   {
+   "repo": "1274623767/dsh-workspace-open",
+   "name": "1274623767-dsh-workspace-open",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：从侧边栏打开工作区文件夹"
+  },
+  {
    "repo": "1314521gjy/dsh-wujie-canvas",
    "name": "1314521gjy-dsh-wujie-canvas",
    "verdict": "incompatible",
@@ -35127,6 +35141,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Configurable skill discovery provider for DeepSeek Harness (DSH): cwd/project/ancestors/global layers with edi"
+  },
+  {
+   "repo": "skillre/dsh-plugin-pomodoro",
+   "name": "skillre-dsh-plugin-pomodoro",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pomodoro focus clock plugin for the DeepSeek Harness Web UI: ambient timer under the composer, daily rounds, l"
   },
   {
    "repo": "Skylarking/dsh-sidebar",
@@ -61575,6 +61596,13 @@
    "desc": "—"
   },
   {
+   "repo": "yumemowo/dsh-plugins",
+   "name": "yumemowo-dsh-plugins",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "yumoii789/dsh-auto-continue",
    "name": "yumoii789-dsh-auto-continue",
    "verdict": "ok",
@@ -70157,6 +70185,20 @@
    "desc": "—"
   },
   {
+   "repo": "wangjiezhe/dsh-jp-translate",
+   "name": "wangjiezhe-dsh-jp-translate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "「日语翻译」模式"
+  },
+  {
+   "repo": "wangjiezhe/dsh-md-linebreak",
+   "name": "wangjiezhe-dsh-md-linebreak",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "将软换行视为硬换行"
+  },
+  {
    "repo": "wangyaominde/dsh-llm-grok-oauth",
    "name": "wangyaominde-dsh-llm-grok-oauth",
    "verdict": "incompatible",
@@ -71492,6 +71534,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "DeepSeek Plugin that supports MCP Apps"
+  },
+  {
+   "repo": "wbb316/dsh-profile-sync",
+   "name": "wbb316-dsh-profile-sync",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "profile 间插件迁移：把网页版（web）的插件集安全牵引到桌面端（desktop）—— 算差异、预检、生成退出后执行的脚本、重启后核对"
   },
   {
    "repo": "wings1848/dsh-mcp-lazy",
@@ -77173,6 +77222,13 @@
   {
    "repo": "Wike-CHI/dsh-mobile",
    "name": "wike-chi-dsh-mobile",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "—"
+  },
+  {
+   "repo": "wlxyxykj/dsh-phone-remote",
+   "name": "wlxyxykj-dsh-phone-remote",
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
@@ -88810,6 +88866,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.〔📦〕"
+  },
+  {
+   "repo": "xiaoxingyuemiao/dsh-session-delete",
+   "name": "xiaoxingyuemiao-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 会话删除插件：会话行「…」菜单里的浅红色删除项 + 二次确认弹窗，确认后连同全部子会话移入可恢复的回收站（DSH 官方只支持归档）"
   },
   {
    "repo": "Yiklek/dsh-archived-list",
@@ -106004,6 +106067,13 @@
    "desc": "—"
   },
   {
+   "repo": "ricardochen1996/dsh-browser-use",
+   "name": "ricardochen1996-dsh-browser-use",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness browser provider: read a page as an indexed action space, then run one guarded operation at a"
+  },
+  {
    "repo": "saitamahang/dsh-skill-importer",
    "name": "dsh-skill-importer",
    "verdict": "incompatible",
@@ -106247,6 +106317,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH（DeepSeek Harness）技能与 MCP 管理控制台插件：按来源分级浏览全部已加载技能，独立开关模型/用户调用，创建/编辑/删除技能（可恢复回收站），从 GitHub 多选批量安装；增删改 MCP 服务器"
+  },
+  {
+   "repo": "781316853/dsh-provider-quota",
+   "name": "781316853-dsh-provider-quota",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "7dgroup-ai/dsh-skill-7d-git-commit",
@@ -108531,6 +108608,13 @@
    "desc": "—〔📦〕"
   },
   {
+   "repo": "skillre/dsh-plugin-tavily-firecrawl",
+   "name": "skillre-dsh-plugin-tavily-firecrawl",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Tavily search and Firecrawl fetch providers for the DeepSeek Harness web seam, with a rotating multi-key crede"
+  },
+  {
    "repo": "skyyyyyk/dsh-szg-hint",
    "name": "skyyyyyk-dsh-szg-hint",
    "verdict": "incompatible",
@@ -109082,6 +109166,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh profile bundle: git init every newly registered DSH workspace, with one empty commit, so git-aware plugins"
+  },
+  {
+   "repo": "zhuoxiaoshuai/dsh-database",
+   "name": "zhuoxiaoshuai-dsh-database",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "MySQL, Oracle, Redis and Kafka inside DeepSeek Harness"
   },
   {
    "repo": "zpda88888a88888-debug/dsh-progress-secretary",
