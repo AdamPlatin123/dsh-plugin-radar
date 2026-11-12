@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T03:46:02Z",
+ "generated_at": "2026-11-12T04:01:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10809,6 +10809,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "—"
+  },
+  {
+   "repo": "orangeofcarl0-sys/dsh-epistemic-fold",
+   "name": "orangeofcarl0-sys-dsh-epistemic-fold",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "A contract-preserving context runtime for long-horizon agents on DeepSeek Harness"
   },
   {
    "repo": "pan17/dsh-tool-manager",
@@ -23663,6 +23670,13 @@
    "desc": "ink-based terminal UI plugin for DeepSeek Harness"
   },
   {
+   "repo": "xujian519/dsh-annotator",
+   "name": "xujian519-dsh-annotator",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "对DSH的交付物进行标注的插件，人工标注后，DSH会根据标注执行"
+  },
+  {
    "repo": "XuRuitian/deepseek-harness-desktop",
    "name": "xuruitian-deepseek-harness-desktop",
    "verdict": "pending",
@@ -35052,6 +35066,13 @@
    "desc": "为 DeepSeek Harness Web UI 右侧栏文件树提供 VS Code 风格右键菜单：复制绝对/相对路径与名称、在资源管理器或 Finder 中显示、用默认程序打开"
   },
   {
+   "repo": "yuhhhong/dsh-skill-status",
+   "name": "yuhhhong-dsh-skill-status",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness（DSH）的会话技能状态插件"
+  },
+  {
    "repo": "YuiKiZJ2026/dsh-slot-homestead",
    "name": "yuikizj2026-dsh-slot-homestead",
    "verdict": "incompatible",
@@ -40244,6 +40265,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Publish articles from DeepSeek Harness to CSDN / Juejin / CNBlog"
+  },
+  {
+   "repo": "yanwenzong1-pixel/xinlan-dsh-plugin",
+   "name": "yanwenzong1-pixel-xinlan-dsh-plugin",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DSH 扩展坞｜给 DeepSeek Harness 插上更多接口：快速追加、PTC 派活、中断报警与自用桌宠"
   },
   {
    "repo": "YaoaY/dsh-conversation-accents",
@@ -84906,6 +84934,13 @@
    "desc": "—"
   },
   {
+   "repo": "zhang66633/dsh-memvault",
+   "name": "zhang66633-dsh-memvault",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 插件：把 MemVault 的核心记忆块注入 system prompt（每步可见、无需工具调用），并把每个完成的回合交给 MemVault 的抽取/向量化管线"
+  },
+  {
    "repo": "zhaoxuejie/dsh-plugin-vault-memory",
    "name": "zhaoxuejie-dsh-plugin-vault-memory",
    "verdict": "ok",
@@ -105024,6 +105059,13 @@
    "desc": "dsh plugin: cross-session pinboard - pinned notes ride into every session's system prompt under a token budget"
   },
   {
+   "repo": "121212165/dsh-plugin-prompt-vault",
+   "name": "121212165-dsh-plugin-prompt-vault",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: personal prompt library inside the harness - import tagged templates, browse them, and fire one in"
+  },
+  {
    "repo": "121212165/dsh-plugin-spend-forecast",
    "name": "121212165-dsh-plugin-spend-forecast",
    "verdict": "incompatible",
@@ -107689,6 +107731,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 独立工作台窗口插件：VSCode 风格的文件树 / 编辑器 / 终端 / Git / 浏览器，按会话隔离"
+  },
+  {
+   "repo": "xurunxin/dsh-llm-model-tuning",
+   "name": "xurunxin-dsh-llm-model-tuning",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Per-model reasoning-effort levels and multimodal input settings for custom providers in the DeepSeek Harness M"
   },
   {
    "repo": "yangbobo2021/relay-dsh-plugin-events",
