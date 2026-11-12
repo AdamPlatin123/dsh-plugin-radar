@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T13:01:07Z",
+ "generated_at": "2026-11-12T13:16:15Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -14050,6 +14050,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Skill selector and skill browser for browsing user-invocable skills and inserting slash commands into the"
+  },
+  {
+   "repo": "kslamph/pi-dsh-adviser",
+   "name": "kslamph-pi-dsh-adviser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pi extension that turns a DeepSeek Harness runtime into an external adviser, with per-project adviser sessions"
   },
   {
    "repo": "KumarZX/dsh-memory-wrap",
@@ -33169,6 +33176,13 @@
    "desc": "Prompt building & enhancement toolkit for DeepSeek Harness: Studio + QuickEnhancer"
   },
   {
+   "repo": "fugui6688661/glom-continuity",
+   "name": "fugui6688661-glom-continuity",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Recaloom (formerly glom-continuity): local project checkpoints and reviewable handoffs for AI assistants"
+  },
+  {
    "repo": "gdgfd22/deepseek-harness-ssh",
    "name": "gdgfd22-deepseek-harness-ssh",
    "verdict": "incompatible",
@@ -51416,6 +51430,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hugefiver/ocmm",
+   "name": "hugefiver-ocmm",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "An alternative of omo."
   },
   {
    "repo": "hun1315/dsh-msi-icons",
@@ -101543,6 +101564,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "daoyu1993-lab/dsh-plugin-composer-expand",
+   "name": "daoyu1993-lab-dsh-plugin-composer-expand",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH composer plugin: an expand button that turns the input into an immersive overlay writing surface where Ent"
   },
   {
    "repo": "dashitongzhi/dsh-config-webdav-sync",

@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2573）
+# 🤖 Agent 能力（2576）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -999,6 +999,7 @@
 - 🟩 `[可用]` [dreamstof-dsh-prompt-customizer](https://github.com/DreamsTOF/dsh-prompt-customizer) ★0 — —
 - `[未定位]` **drowsy-zn-dsh-skill-notes** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-plugin-evaluation-dsh-agent-observe](https://github.com/dsh-plugin-evaluation/dsh-agent-observe) ★0 — DSH plugin for agent observability and security evaluation
+- `[未定位]` **dshcorrectover-agent-runtime-guard** — 占位待复核，判定暂不展示
 - `[未定位]` **du-u-uck-dsh-prompt-optimization** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dubeno-dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) ★0 — 将符合Agent Plugin规范的插件适配到DSH生态
 - 🟩 `[可用]` [dusbin-dsh-memory-view](https://github.com/dusbin/dsh-memory-view) ★0 — 查看 dsh 的 memory
@@ -2240,6 +2241,7 @@
 - `[未定位]` **epcn-fla-dsh-observational-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [esonx-dsh-project-j4agent](https://github.com/esonx/dsh-project-j4agent) ★0 — Agent-native Software Development Lifecycle Management for DeepSeek Harness
 - `[未定位]` **ewoowe-session-messages-plugin** — 占位待复核，判定暂不展示
+- `[未定位]` **expertkt-dsh-agent-team-patch** — 占位待复核，判定暂不展示
 - `[未定位]` **f0909172434-dsh-second-agent-kit** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [fan969690-dsh-web-plugins](https://github.com/fan969690/dsh-web-plugins) ★0 — 🧩 DSH 模块中心开源框架:右侧模块化桌面,宫格排布任意模块,自定义尺寸 1x1~2x6,长按拖动换位,开放模块协议(插件注册即显示)+ 插件社区 + Agent 社区(270 中文预设)
 - 🟨 `[不兼容]` [fatatalia-dsh-dreaming](https://github.com/fatatalia/dsh-dreaming) ★0 — dsh 梦境记忆整合插件：凌晨随机窗口把记忆梦境化（裸上下文 narrative 纯梦写作）+ 信号驱动洞察晋升 + MEMORY.md 预算管理，随 dsh web 启停
@@ -2325,6 +2327,7 @@
 - `[未定位]` **kkutysllb-dsh-kylin-memory** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [kngear-dsh-agenttask](https://github.com/knGear/dsh-AgentTask) ★0 — —
 - 🟨 `[不兼容]` [konglong87-dsh-skills-input](https://github.com/konglong87/dsh-skills-input) ★0 — DSH Skill selector and skill browser for browsing user-invocable skills and inserting slash commands into the
+- 🟨 `[不兼容]` [kslamph-pi-dsh-adviser](https://github.com/kslamph/pi-dsh-adviser) ★0 — Pi extension that turns a DeepSeek Harness runtime into an external adviser, with per-project adviser sessions
 - 🟨 `[不兼容]` [kumarzx-dsh-memory-wrap](https://github.com/KumarZX/dsh-memory-wrap) ★0 — —
 - 🟨 `[不兼容]` [lance-kanglu-dsh-ssh-bridge](https://github.com/lance-kanglu/dsh-ssh-bridge) ★0 — Local SSH bridge plugin for DeepSeek Harness (DSH) — password via browser page, agent exec via localhost API,
 - 🟨 `[不兼容]` [lasoloryan-dsh-approval-flow-poc](https://github.com/lasoloryan/dsh-approval-flow-poc) ★0 — Non-official fail-closed approval policy PoC for DeepSeek Harness

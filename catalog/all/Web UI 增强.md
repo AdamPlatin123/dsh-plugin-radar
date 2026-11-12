@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3326）
+# 🔌 Web UI 增强（3328）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1661,6 +1661,7 @@
 - 🟩 `[可用]` [guo6x-dsh-shipcheck](https://github.com/guo6x/dsh-shipcheck) ★0 — Evidence-first frontend release checks for DeepSeek Harness: real browser inspection, visual baselines, and re
 - ⬜ `[待定]` [guoan1tang-deepseek-ui-agent-sky](https://github.com/guoan1tang/deepseek-ui-agent-sky) ★0 — —
 - ⬜ `[待定]` [gustavofullstack-harness-mac](https://github.com/gustavofullstack/harness-mac) ★0 — Unofficial native macOS app for DeepSeek Harness (dsh): the official web UI in a native window, with a typed S
+- `[未定位]` **h2co3w-dsh-theme-frost** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [hamliy-feng-duhai-vision](https://github.com/hamliy-feng/duhai-vision) ★0 — Visual model adapter for Codex and DeepSeek Harness, powered by PaddleOCR-VL and Qwen.
 - ⬜ `[待定]` [hanhan1137-theme-coach-dsh](https://github.com/hanhan1137/theme-coach-dsh) ★0 — theme-coach-dsh: DSH (DeepSeek Harness) adapted UI theme coach - Q&A guided theme design, official-asset wayfi
 - 🟩 `[可用]` [hanyi7867069-create-dsh-moonrise](https://github.com/hanyi7867069-create/dsh-moonrise) ★0 — 月升 Moonrise — a warm amber-on-midnight theme for the DeepSeek Harness Web UI.
@@ -2796,6 +2797,7 @@
 - 🟨 `[不兼容]` [fomogoman-dsh-serena-guide](https://github.com/FomoGoMan/dsh-serena-guide) ★1 — —
 - 🟨 `[不兼容]` [frankxxxxue-dsh-photo-skins](https://github.com/frankxxxxue/dsh-photo-skins) ★1 — A DeepSeek Harness plugin that turns your photos into Web GUI skins — auto-extracted accent colors, all files
 - 🟨 `[不兼容]` [fsrmqi-dsh-promptkit](https://github.com/fsrmqi/dsh-promptkit) ★1 — Prompt building & enhancement toolkit for DeepSeek Harness: Studio + QuickEnhancer
+- 🟨 `[不兼容]` [fugui6688661-glom-continuity](https://github.com/fugui6688661/glom-continuity) ★1 — Recaloom (formerly glom-continuity): local project checkpoints and reviewable handoffs for AI assistants
 - 🟨 `[不兼容]` [gdgfd22-deepseek-harness-ssh](https://github.com/gdgfd22/deepseek-harness-ssh) ★1 — Safety-gated SSH development plugin for DeepSeek Harness and MCP, built for GPU and offline laboratory servers
 - 🟨 `[不兼容]` [gmh13552-dsh-longrun-suite](https://github.com/GMH13552/dsh-longrun-suite) ★1 — —
 - 🟨 `[不兼容]` [gosomea-dsh-sidecar-conversation](https://github.com/gosomea/dsh-sidecar-conversation) ★1 — Native sidebar conversations for DeepSeek Harness: fork turns, start independent chats, and follow source refe
