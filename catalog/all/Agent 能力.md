@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2576）
+# 🤖 Agent 能力（2580）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -909,6 +909,7 @@
 - `[未定位]` **anakincao-dsh-session-allow** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [andyfan1094-dsh-minimax-usage-pro](https://github.com/andyfan1094/dsh-minimax-usage-pro) ★0 — DSH bundle plugin showing MiniMax Token Plan / Subscription usage in Settings
 - 🟩 `[可用]` [andyyang12345-dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) ★0 — —
+- ⬜ `[待定]` [anneqaq-dsh-embedded-kit](https://github.com/anneqaq/dsh-embedded-kit) ★0 — 芯片与工具链中立的嵌入式固件工具包（DSH 插件，32 工具 + 11 技能）：体积/构建/总线协议/时序/功耗/异常分诊
 - 🟩 `[可用]` [aorucshiea-dsh-omnipotent-preset](https://github.com/aorucshiea/dsh-omnipotent-preset) ★0 — Omnipotent agent preset for DeepSeek Harness: Standard/PTC/Minimal + routing modes
 - 🟩 `[可用]` [apherchin-dsh-wonder-tools](https://github.com/apherchin/dsh-wonder-tools) ★0 — DSH 工具箱（装配包）：一个插件装好五个功能 —— 删除对话 / 重新生成 / 队友命令 / 跨会话提醒 / 首轮结束自动命名
 - `[未定位]` **apq-dsh-skill-author** — 占位待复核，判定暂不展示
@@ -1160,6 +1161,7 @@
 - 🟩 `[可用]` [knowz-io-deepseek-knowz-plugin](https://github.com/knowz-io/deepseek-knowz-plugin) ★0 — Knowz vaults for DeepSeek Harness — hosted MCP plus slim vault skills
 - 🟩 `[可用]` [kongyecn-wq-dsh-okx-skill-hub](https://github.com/kongyecn-wq/dsh-okx-skill-hub) ★0 — 📊OKX 官方行情技能库 for DeepSeek Harness (DSH)：将 OKX 官方 okx-cex-market 技能（价格/K线/资金费率/70+ 技术指标）零改动适配进 DSH 生态，支持纯技能目录与
 - 🟩 `[可用]` [kotinder-dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) ★0 — Roomcomm for DeepSeek Harness: your dsh agent talks to other AI agents in shared rooms (MCP tools + skill, zer
+- `[未定位]` **kouzakiumi-dsh-prompt-zh** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [kpl0111-dsh-context-guard](https://github.com/kpl0111/dsh-context-guard) ★0 — Token-efficient tool-result pruning for DeepSeek Harness: compact previews, targeted recall, and long-session
 - ⬜ `[待定]` [ktao732084-arch-vibegap](https://github.com/ktao732084-arch/vibegap) ★0 — Mini-window for the gaps in vibe coding: vocabulary flashcards (and more panels) that auto-appear while your A
 - 🟩 `[可用]` [kuailexiaozixin-fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) ★0 — FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller）
@@ -1452,6 +1454,7 @@
 - 🟩 `[可用]` [uckkk-dsh-study-plan](https://github.com/uckkk/dsh-study-plan) ★0 — 备考时间分配
 - 🟩 `[可用]` [uckkk-dsh-wedding-budget](https://github.com/uckkk/dsh-wedding-budget) ★0 — 婚礼预算分配
 - 🟩 `[可用]` [uckkk-dsh-weekly-plan](https://github.com/uckkk/dsh-weekly-plan) ★0 — 跑量规划
+- `[未定位]` **ukashi0-dsh-memory-guardian** — 占位待复核，判定暂不展示
 - `[未定位]` **unforgetmemory-um-dsh-plugin-skills** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [uppercrusteve-dsh-plugin-split-and-solve](https://github.com/uppercrusteve/dsh-plugin-split-and-solve) ★0 — DSH plugin: split batch / multi-subproblem research tasks into small questions and solve them with sub-agents
 - 🟩 `[可用]` [vb2250158-dsh-rabiroute-agent](https://github.com/vb2250158/dsh-rabiroute-agent) ★0 — Open-source DSH plugin: dsh-rabiroute-agent
@@ -1840,6 +1843,7 @@
 - 🟨 `[不兼容]` [d86e-dsh-doctor](https://github.com/d86e/dsh-doctor) ★4 — dsh-doctor: self-healing watchdog for the DeepSeek Harness web profile
 - 🟨 `[不兼容]` [fishsb-dsh-shoucang-memory](https://github.com/Fishsb/dsh-shoucang-memory) ★4 — —
 - 🟨 `[不兼容]` [icstick-dsh-adaptive-context](https://github.com/Icstick/dsh-adaptive-context) ★4 — —
+- 🟨 `[不兼容]` [jiangzeyuan-dsh-rivermind](https://github.com/jiangzeyuan/dsh-rivermind) ★4 — RiverMind：基于 DeepSeek Harness 的德州扑克 AI 陪练，支持双人对局、长期公开行为记忆与可追溯的决策复盘
 - 🟨 `[不兼容]` [kolawong-fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh) ★4 — Verdict-based context compaction for DeepSeek Harness — replaces lossy LLM summaries with fast keep/truncate/d
 - 🟨 `[不兼容]` [kuun993-dsh-loop-engine](https://github.com/kuun993/dsh-loop-engine) ★4 — —
 - `[空仓监测]` **dsh-plugin-longgraph** — GitHub 无此仓库，判定暂不展示

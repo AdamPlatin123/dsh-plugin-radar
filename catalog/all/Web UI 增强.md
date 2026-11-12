@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3328）
+# 🔌 Web UI 增强（3335）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1406,6 +1406,7 @@
 - 🟩 `[可用]` [123twtd-dsh-skin-manager](https://github.com/123twtd/dsh-skin-manager) ★0 — DeepSeek Harness (dsh) 可切换皮肤包管理器：皮肤包发现/激活/ZIP 导入，适配 0.1.x，含爱弥斯示例皮肤
 - 🟩 `[可用]` [1921622004-dsh-command-palette](https://github.com/1921622004/dsh-command-palette) ★0 — ⌘K 命令面板插件，为 DeepSeek Harness Web GUI 提供：会话切换、设置直达、侧边栏页签与插件集成入口，支持自定义快捷键，手不离键盘完成大部分操作
 - 🟩 `[可用]` [1959377950-dotcom-dsh-workspace-archive-all](https://github.com/1959377950-dotcom/dsh-workspace-archive-all) ★0 — DSH Web plugin: Archive-All action on every workspace folder menu in the sidebar (Ungrouped included)
+- 🟩 `[可用]` [19north-dsh-shot](https://github.com/19north/dsh-shot) ★0 — Composer screenshot control for DeepSeek Harness: box-select and annotate a capture in an in-window overlay, o
 - 🟩 `[可用]` [1wanganshi-dsh-marketing-toolkit](https://github.com/1wanganshi/dsh-marketing-toolkit) ★0 — DSH 营销工具箱插件：侧边栏一键进入封面图生成 / 朋友圈文案 / 短视频脚本 / 开头黄金3秒检验四个营销 Agent 通道
 - 🟩 `[可用]` [2017java-dsh-md-viewer](https://github.com/2017java/dsh-md-viewer) ★0 — DSH web 插件：在 dsh-better-sidebar 侧边栏内把 Markdown 富渲染为预览（代码高亮 / 目录 / 一键复制）
 - 🟩 `[可用]` [2123043818-dsh-sidebar-enhance](https://github.com/2123043818/dsh-sidebar-enhance) ★0 — 利用 DSH 官方 API，使 AI 可以直接使用 dsh 侧栏功能自主展示成果文件/网页和进行浏览器搜索获取信息
@@ -1770,6 +1771,7 @@
 - 🟩 `[可用]` [karenepitaya-dsh-tui](https://github.com/karenepitaya/dsh-tui) ★0 — Cordis-mountable terminal UI plugin for DeepSeek Harness
 - ⬜ `[待定]` [karuisawa-mrs-dsh-plugins](https://github.com/Karuisawa-Mrs/dsh-plugins) ★0 — —
 - 🟩 `[可用]` [kazma258-dsh-usage-card](https://github.com/kazma258/dsh-usage-card) ★0 — DSH web sidebar usage card: 7d/30d tokens, spend, and remaining DeepSeek balance
+- 🟩 `[可用]` [kbaynes-dsh-exploration-kit](https://github.com/kbaynes/dsh-exploration-kit) ★0 — A hands-on, nine-lesson curriculum for learning DeepSeek Harness by building real plugins.
 - 🟩 `[可用]` [kc0ed-dsh-claude-theme](https://github.com/kc0ed/dsh-claude-theme) ★0 — —
 - 🟩 `[可用]` [kehao-dsh-client-ui-weather](https://github.com/Kehao/dsh-client-ui-weather) ★0 — —
 - 🟩 `[可用]` [kelearns-dsh-build-diff](https://github.com/KeLearns/dsh-build-diff) ★0 — —
@@ -2074,6 +2076,7 @@
 - ⬜ `[待定]` [suyukun-dsh-tech-selection](https://github.com/suyukun/dsh-tech-selection) ★0 — Stop letting your AI guess — a research protocol for tech decisions that any AI agent (DSH/Claude/Cursor/Codex
 - 🟩 `[可用]` [suzuran520yyz-dsh-more-message-actions](https://github.com/suzuran520yyz/dsh-more-message-actions) ★0 — DSH Web GUI 插件，用于对会话消息进行编辑、重试、高级重试和删除等功能的实现
 - 🟩 `[可用]` [sweetcandy-gift-dsh-beige-theme](https://github.com/SweetCandy-gift/dsh-beige-theme) ★0 — —
+- `[未定位]` **syruph-dot-dsh-webui-annotateskk** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [syx2bzd-dsh-ricewhale](https://github.com/syx2bzd/dsh-ricewhale) ★0 — DSH Web 界面的「鲸鱼女仆」物理挂件：拖拽投掷、撞边回弹、撒币吃分连击，每吃满 500 个 token 冒一碗白饭
 - 🟩 `[可用]` [tacssen-deepseek-harness-desktop](https://github.com/tacssen/deepseek-harness-desktop) ★0 — Third-party Windows Agent Desktop built on the official DeepSeek Harness web profile
 - 🟩 `[可用]` [tangkui-dsh-photo-pet](https://github.com/tangkui/dsh-photo-pet) ★0 — dsh-photo-pet: turn any uploaded photo into a floating pet inside the DeepSeek Harness Web GUI (照片宠物插件)
@@ -2151,6 +2154,7 @@
 - ⬜ `[待定]` [vlozg-dsh-autoresearch](https://github.com/vlozg/dsh-autoresearch) ★0 — Metric-driven autonomous experiment loop for DeepSeek Harness: the agent proposes, benchmarks, keeps or discar
 - `[未定位]` **volta-ln-dsh-quick-ask** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [vowa-antilamer-dsh-locale-ru](https://github.com/vowa-antilamer/dsh-locale-ru) ★0 — Russian localization (ru) for the DeepSeek Harness web GUI — 58 message namespaces, 3674 strings
+- `[未定位]` **vsworder-deepseek-harness-visual-studio** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [vuitier-dsh-sound-notify](https://github.com/Vuitier/dsh-sound-notify) ★0 — —
 - 🟩 `[可用]` [w384-clinkai-dsh-web-search-fallback](https://github.com/w384/clinkai-dsh-web-search-fallback) ★0 — DeepSeek Harness plugin: SearXNG-first web search with automatic fallback to the built-in DeepSeek search
 - 🟩 `[可用]` [wakeup595626-cmyk-dsh-session-folders](https://github.com/wakeup595626-cmyk/dsh-session-folders) ★0 — DSH Web 侧栏会话分组：可嵌套、可自定义颜色图标的文件夹 \| Session folders for the DeepSeek Harness Web sidebar
@@ -2504,6 +2508,7 @@
 - 🟨 `[不兼容]` [dat-lequoc-dsh-kiro](https://github.com/dat-lequoc/dsh-kiro) ★7 — Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls
 - 🟨 `[不兼容]` [gameswu-dsh-plugin-vscode-sidebar](https://github.com/gameswu/dsh-plugin-vscode-sidebar) ★7 — 提供vscode风格和功能的侧栏
 - 🟨 `[不兼容]` [ingleav626-art-dsh-native-launcher](https://github.com/ingleav626-art/dsh-native-launcher) ★7 — 以"零额外安装"为设计原则：仅凭一个官方插件与 Windows 原生机制，让 DeepSeek Harness Web UI 获得桌面 App 式的一键启动体验
+- 🟨 `[不兼容]` [jackxiao17-dsh-session-cleaner](https://github.com/jackxiao17/dsh-session-cleaner) ★7 — DSH 会话清理：把会话连子代理整棵树搬进真回收站，删除即清干净（记账/置顶/归档/投影缓存行/定时任务），恢复回侧栏原位；已在 DSH 0.2.2-rc.1 复核 \| DSH session cleaner: move
 - 🟨 `[不兼容]` [jarvis-intelligence-jarvis-index](https://github.com/jarvis-intelligence/jarvis-index) ★7 — Public distribution surface for jarvis — local-first code intelligence MCP server (SCIP navigation + Zoekt sea
 - 🟨 `[不兼容]` [jasonrale-dsh-archive-manager](https://github.com/jasonrale/dsh-archive-manager) ★7 — Archived-session manager for DSH Web UI: reopen an archived session and keep chatting, unarchive it back in pl
 - 🟨 `[不兼容]` [jiaererw-dsh-plugin-chrome](https://github.com/jiaererw/dsh-plugin-chrome) ★7 — DeepSeek Harness browser visualization plugin: a visible Chrome window per session, 16 chrome_* agent tools, l
@@ -2688,6 +2693,7 @@
 - 🟨 `[不兼容]` [lqhl-dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) ★2 — —
 - 🟨 `[不兼容]` [lsjspl-dsh-reel](https://github.com/lsjspl/dsh-reel) ★2 — 基于 dsh 内置 Web 服务管理、浏览与播放本地媒体库，完美适配 PC 与移动端，支持滑动刷视频、即时拖拽秒播与实时转码
 - 🟨 `[不兼容]` [dsh-catnap-studio](https://github.com/luoyan96/dsh-catnap-studio) ★2 — Cat-themed DeepSeek Harness Web UI plugin with three original themes and a calm interactive companion
+- 🟨 `[不兼容]` [m-rui001-dsh-mate-companion](https://github.com/m-rui001/dsh-mate-companion) ★2 — Persisto Mate companion as a DeepSeek Harness (dsh) bundle
 - 🟨 `[不兼容]` [maxmilian-dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) ★2 — Read-only SonarQube Community Build tools for DeepSeek Harness
 - 🟨 `[不兼容]` [megatronyy-dsh-skin-background](https://github.com/megatronyy/dsh-skin-background) ★2 — Image-background skin plugin for DeepSeek Harness (dsh): shipped + user wallpapers, custom image URLs, live di
 - 🟨 `[不兼容]` [mingzeng21-dsh-stock-mentions](https://github.com/mingzeng21/dsh-stock-mentions) ★2 — 你在 DSH 对话中提到的股票名称或股票代码，会自动变成可点击按钮——点一下，行情和资讯就在右侧侧边栏展开
@@ -2830,6 +2836,7 @@
 - 🟨 `[不兼容]` [kanchengw-dsh-mindseye](https://github.com/kanchengw/dsh-mindseye) ★1 — Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, an
 - 🟨 `[不兼容]` [kee0012-dsh-sidebar-panel](https://github.com/kee0012/dsh-sidebar-panel) ★1 — DSH 右侧栏页签插件：注册一个右栏页签（概览 / 文件 / 改动 / 工具），与内置的文件、文档预览、引导页签并存
 - 🟨 `[不兼容]` [kexuejin-dsh-zhihu-dashboard](https://github.com/kexuejin/dsh-zhihu-dashboard) ★1 — Zhihu (知乎) dashboard for DeepSeek Harness: hot list with trends, follow feed, post tracking, and app-idea dist
+- 🟨 `[不兼容]` [kjx-talesofai-dsh-plugin-tailscale-remote](https://github.com/kjx-talesofai/dsh-plugin-tailscale-remote) ★1 — Open your DeepSeek Harness desktop Web UI from your phone over your own Tailscale tailnet — one switch, no por
 - 🟨 `[不兼容]` [kkishapppy-dsh-opencode-go-usage](https://github.com/kkishapppy/dsh-opencode-go-usage) ★1 — OpenCode Go 订阅用量悬浮小部件：滚动/周/月用量与重置倒计时（DSH WebUI）
 - 🟨 `[不兼容]` [kuanfu0430-dsh-sidebar-branch-chat](https://github.com/kuanfu0430/dsh-sidebar-branch-chat) ★1 — Adds a Branch Chat tab to dsh-better-sidebar: independent archived sessions with a context digest and the same
 - 🟨 `[不兼容]` [kvuvuv-ecg-research-skill](https://github.com/kvuvuv/ecg-research-skill) ★1 — A DeepSeek Harness research skill for ECG signal processing, experiment design, reproducibility, scientific vi
