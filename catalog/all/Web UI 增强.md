@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3187）
+# 🔌 Web UI 增强（3188）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -542,6 +542,7 @@
 - 🟩 `[可用]` [whiteplusms-dsh-input-plus](https://github.com/WhitePlusMS/dsh-input-plus) ★3 — —
 - 🟩 `[可用]` [xarleyn-dsh-plugins](https://github.com/xarleyn/dsh-plugins) ★3 — Community plugins, developer tooling, and shared utilities for extending DeepSeek Harness — built as an Nx + p
 - 🟩 `[可用]` [dsh-plugin-conversation-outline](https://github.com/XavierMarquis93/dsh-plugin-conversation-outline) ★3 — DeepSeek Harness conversation outline plugin (对话目录)
+- 🟩 `[可用]` [xbzbing-dsh-openviking-manager](https://github.com/xbzbing/dsh-openviking-manager) ★3 — OpenViking 的 DSH 配置管理 UI：连接与用户 Key 配置、本机诊断、会话级记忆开关，以及记忆隔离与召回调优（分数阈值 / 注入条数 / 查询扩写 / 排除 URI）
 - 🟩 `[可用]` [xiaoxiaohaigui-dsh-tui-find](https://github.com/xiaoxiaohaigui/dsh-tui-find) ★3 — dsh-TUI 的跨会话全文搜索插件 —— 用 /find 检索本机全部 dsh 会话日志（zstd 帧链与明文 JSONL 双格式），全程只读
 - 🟩 `[可用]` [xiaoyuink-dsh-image-vision](https://github.com/xiaoyuink/dsh-image-vision) ★3 — 图片识别插件 for DeepSeek Harness：自动判断当前模型识图能力，支持多供应商视觉模型管理与检测
 - 🟩 `[可用]` [xizrsams-dsh-gui-hanhua](https://github.com/XIZRSAMS/dsh-gui-hanhua) ★3 — —
