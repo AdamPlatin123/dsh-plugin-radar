@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T09:01:07Z",
+ "generated_at": "2026-11-12T09:16:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3116,6 +3116,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "DSH plugin: subagent_model tool — delegate to a subagent with a per-call selected model route (minimal fork of"
+  },
+  {
+   "repo": "mpinaev/dsh-context-governor",
+   "name": "mpinaev-dsh-context-governor",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Context chip for DeepSeek Harness: cost per step, cache-hit, bands, compaction threshold, balance, tariff"
   },
   {
    "repo": "muretai/muretai-dsh-skill",
@@ -28780,6 +28787,13 @@
    "desc": "—"
   },
   {
+   "repo": "w384/clinkai-dsh-web-search-fallback",
+   "name": "w384-clinkai-dsh-web-search-fallback",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: SearXNG-first web search with automatic fallback to the built-in DeepSeek search"
+  },
+  {
    "repo": "wakeup595626-cmyk/dsh-session-folders",
    "name": "wakeup595626-cmyk-dsh-session-folders",
    "verdict": "ok",
@@ -38774,6 +38788,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "—"
+  },
+  {
+   "repo": "a961282799-crypto/dsh-timeband",
+   "name": "a961282799-crypto-dsh-timeband",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "DeepSeek Harness 头像旁的峰谷时段、倒计时与 24 小时时间轴插件"
   },
   {
    "repo": "AbcdefgXW/dsh-msg-hub",
@@ -62723,13 +62744,6 @@
    "desc": "DSH web search plugin with a Console Go-safe tool name."
   },
   {
-   "repo": "xingzhen199186/dsh-jev-ultrafast",
-   "name": "dsh-jev-ultrafast",
-   "verdict": "untested",
-   "stars": null,
-   "desc": "给 DeepSeek Harness 一句话目标，插件驱动真实浏览器把事办完——每一步操作与目标由决策服务从带编号的控件表里选定，一趟多步任务只花一次工具调用；移植自 jev-ultrafast（MIT，© 2026 Browser Use），npm `dsh-jev-ultrafast`@0.1.0，MIT"
-  },
-  {
    "repo": "popu2do/dsh-call-session",
    "name": "dsh-call-session",
    "verdict": "untested",
@@ -81266,6 +81280,13 @@
    "desc": "Nailong (奶龙) desktop-pet plugin for DeepSeek Harness"
   },
   {
+   "repo": "aigisx/dsh-plugin-whale-girl",
+   "name": "aigisx-dsh-plugin-whale-girl",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "修改应用内的图标，并调整尺寸大小"
+  },
+  {
    "repo": "ALKAERR/dsh-pet",
    "name": "alkaerr-dsh-pet",
    "verdict": "incompatible",
@@ -90968,6 +90989,13 @@
    "desc": "QQ notifications via local NapCat for DeepSeek Harness: qq_send / qq_status / qq_napcat / qq_deploy native too"
   },
   {
+   "repo": "wqty123/dsh-bot",
+   "name": "wqty123-dsh-bot",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Resident agent entity for DeepSeek Harness: bots that live outside any session, with file-based memory you can"
+  },
+  {
    "repo": "xchannel1987/dsh-notify-xc",
    "name": "xchannel1987-dsh-notify-xc",
    "verdict": "ok",
@@ -97819,6 +97847,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 插件：在 DeepSeek Harness 会话之间保存 / 加载开发交接文档（/handoff save \\| load，含确定性脱敏与 Git 状态捕获）"
+  },
+  {
+   "repo": "121212165/dsh-plugin-deep-scan",
+   "name": "121212165-dsh-plugin-deep-scan",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh plugin: iterative GitHub deep search - exact-phrase, broad-match, README-body and topic-expansion channels"
   },
   {
    "repo": "123dbl/dsh-side-session",
@@ -106375,6 +106410,13 @@
    "desc": "dsh plugin: spend forecasting over cost-ledger sidecars - daily burn rate, month-end projection, budget exhaus"
   },
   {
+   "repo": "121212165/dsh-plugin-task-forge",
+   "name": "121212165-dsh-plugin-task-forge",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: compiles a rough need into a versioned task book, then hands it to any AI window losslessly via a"
+  },
+  {
    "repo": "121212165/dsh-plugin-transcript",
    "name": "121212165-dsh-plugin-transcript",
    "verdict": "incompatible",
@@ -109089,6 +109131,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness LLM provider plugin for OpenCode Go (zen-go route)"
+  },
+  {
+   "repo": "xingzhen199186/dsh-jev-ultrafast",
+   "name": "xingzhen199186-dsh-jev-ultrafast",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "jev-ultrafast 的 DeepSeek Harness 插件实现，在dhs对话中用自然语言驱动真实浏览器，利用jev模型实现浏览器操控"
   },
   {
    "repo": "xuan666-lab/dsh-openrouter-provider-advisor",
