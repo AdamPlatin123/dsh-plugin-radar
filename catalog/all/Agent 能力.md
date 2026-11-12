@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2477）
+# 🤖 Agent 能力（2479）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -794,6 +794,7 @@
 - 🟩 `[可用]` [ventisyn-dsh-agent-control](https://github.com/ventisyn/dsh-agent-control) ★1 — DSH 整合插件，包含功能：删除会话，删除单独一轮对话，重启及关闭实例
 - ⬜ `[待定]` [dsh-agent-budget](https://github.com/vibeinging/dsh-agent-budget) ★1 — Native Harness agent-tree token budget plugin
 - 🟩 `[可用]` [victortomaili-agent-cli](https://github.com/VictorTomaili/agent-cli) ★1 — —
+- 🟩 `[可用]` [vitas-dsh-jev-subagent-dispatch](https://github.com/vitas/dsh-jev-subagent-dispatch) ★1 — Cut LLM costs: route routine tasks to cheap subagent models (DeepSeek Harness plugin)
 - `[空仓监测]` **w210548735-art-dsh-session-collaboration** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [wang-xudong-dsh-plugin-undo](https://github.com/wang-xudong/dsh-plugin-undo) ★1 — DSH 会话撤回插件：在当前会话内原地撤销最后 n 轮对话，不 fork、不新建会话 \| Undo the last n turns in-place in the current DSH session
 - 🟩 `[可用]` [wangcong1137-hash-dsh-geoserver](https://github.com/wangcong1137-hash/dsh-geoserver) ★1 — DSH 平台 GeoServer 交互插件，实现可视化配置与会话内地图图像输出
@@ -2152,6 +2153,7 @@
 - 🟨 `[不兼容]` [davidgereb-dsh-plugin-watchdog](https://github.com/davidgereb/dsh-plugin-watchdog) ★0 — Restart your ongoing agent sessions once on server restart in DeepSeek Harness.
 - `[未定位]` **dd2673-dsh-cross-session-agent** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [dm-odyssey-dsh-session-manager](https://github.com/DM-Odyssey/dsh-session-manager) ★0 — —
+- 🟨 `[不兼容]` [dn4hjtcr9s-del-dsh-wait-guard](https://github.com/dn4hjtcr9s-del/dsh-wait-guard) ★0 — Keep an Agent's turn open until every descendant subagent settles — a pure Host-plane completion gate for Deep
 - `[未定位]` **drscrewdriver-dsh-context-compression-improve** — 占位待复核，判定暂不展示
 - `[空仓监测]` **drscrewdriver-dsh-session-search-toggle** — GitHub 无此仓库，判定暂不展示
 - `[未定位]` **drscrewdriver-dsh-session-steward** — 占位待复核，判定暂不展示

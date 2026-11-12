@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3197）
+# 🔌 Web UI 增强（3198）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1400,6 +1400,7 @@
 - 🟩 `[可用]` [aga-j-dsh-mini-games](https://github.com/aga-j/dsh-mini-games) ★0 — DeepSeek Harness details 面板的纯前端小游戏合集：猜数字 / 2048 / 扫雷
 - `[未定位]` **age10-moyu-dsh-adiv-theme** — 占位待复核，判定暂不展示
 - `[未定位]` **ahui-lab-dsh-usage-widget** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [aiyacharley-dsh-at-sider](https://github.com/aiyacharley/dsh-at-sider) ★0 — 给原生侧边栏文件树补上「@ 引用 · 修改时间 · 大小 · 排序 · 快速定位」：右侧栏仍是原生标签页，每一行多了紧跟文件名的 @文件 引用按钮，行尾多了 大小 / 修改时间 两列（宽度自适应、可排序）， 页头多了 全
 - ⬜ `[待定]` [akvi0921-dsh-build-progress](https://github.com/akvi0921/dsh-build-progress) ★0 — DSH 构建进度条推送插件:构建 APK 时在会话流折叠工具条标题处原地刷新显示 Gradle 进度条
 - 🟩 `[可用]` [alanpaul1969-dsh-agent-sticky-note](https://github.com/alanpaul1969/dsh-agent-sticky-note) ★0 — 📌 Sticky-note plugin for DeepSeek Harness — agent notices & pending decisions visible in the Web GUI (Tailscal
 - 🟩 `[可用]` [alexfengrui-dsh-client-ui-skin-real-madrid](https://github.com/alexfengrui/dsh-client-ui-skin-real-madrid) ★0 — Real Madrid dual-mode skin for DeepSeek Harness: Bernabeu night stadium (dark) and white-kit pinstripes (light

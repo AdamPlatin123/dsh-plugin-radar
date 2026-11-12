@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T03:01:13Z",
+ "generated_at": "2026-11-12T03:16:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5454,6 +5454,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "vitas/dsh-jev-subagent-dispatch",
+   "name": "vitas-dsh-jev-subagent-dispatch",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Cut LLM costs: route routine tasks to cheap subagent models (DeepSeek Harness plugin)"
   },
   {
    "repo": "wang-xudong/dsh-plugin-undo",
@@ -13287,6 +13294,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "dn4hjtcr9s-del/dsh-wait-guard",
+   "name": "dn4hjtcr9s-del-dsh-wait-guard",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Keep an Agent's turn open until every descendant subagent settles — a pure Host-plane completion gate for Deep"
   },
   {
    "repo": "dsh-plugins/dsh-network-settings",
@@ -24389,6 +24403,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness details 面板的纯前端小游戏合集：猜数字 / 2048 / 扫雷"
+  },
+  {
+   "repo": "aiyacharley/dsh-at-sider",
+   "name": "aiyacharley-dsh-at-sider",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给原生侧边栏文件树补上「@ 引用 · 修改时间 · 大小 · 排序 · 快速定位」：右侧栏仍是原生标签页，每一行多了紧跟文件名的 @文件 引用按钮，行尾多了 大小 / 修改时间 两列（宽度自适应、可排序）， 页头多了 全"
   },
   {
    "repo": "akvi0921/dsh-build-progress",
@@ -49647,6 +49668,13 @@
    "desc": "—"
   },
   {
+   "repo": "fan56/dsh-jev-core",
+   "name": "fan56-dsh-jev-core",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Shared TypeSafe Jev decision-model client for the dsh ecosystem: strict response validation, keychain-first ke"
+  },
+  {
    "repo": "fanfan6/dsh-model-search",
    "name": "fanfan6-dsh-model-search",
    "verdict": "ok",
@@ -66944,6 +66972,13 @@
    "desc": "—"
   },
   {
+   "repo": "asun-labs/dsh-plugin-token-dashboard",
+   "name": "asun-labs-dsh-plugin-token-dashboard",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin for generating a self-contained token usage dashboard"
+  },
+  {
    "repo": "Atman-Angle/dsh-evolve",
    "name": "atman-angle-dsh-evolve",
    "verdict": "incompatible",
@@ -77785,6 +77820,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness Desktop shell"
+  },
+  {
+   "repo": "yueyexiayu/dsh-huoqu",
+   "name": "yueyexiayu-dsh-huoqu",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH desktop plugin: capture a rendered webpage into a local offline HTML and MHTML copy."
   },
   {
    "repo": "zhenyong97/dsh-plugin-atlassian",
@@ -105155,6 +105197,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "OpenAI Responses API web search provider for dsh (web_search tool) + Web settings card"
+  },
+  {
+   "repo": "framecy/dsh-ssh-shell",
+   "name": "framecy-dsh-ssh-shell",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: password SSH into a remote host — a natural-language tool over a persistent ControlMaster session,"
   },
   {
    "repo": "fulander0301/dsh-tool-read-tiff",
