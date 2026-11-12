@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2466）
+# 🤖 Agent 能力（2471）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -528,6 +528,9 @@
 - 🟩 `[可用]` [16480000-dsh-plugin-memory](https://github.com/16480000/dsh-plugin-memory) ★1 — —
 - 🟩 `[可用]` [173787247-dsh-tool-budget](https://github.com/173787247/dsh-tool-budget) ★1 — Hard-stop DeepSeek Harness tool use after a per-session call budget
 - 🟩 `[可用]` [173787247-dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) ★1 — Report Docker Desktop vs WSL docker context confusion.
+- 🟩 `[可用]` [173787247-dsh-wsl-perf](https://github.com/173787247/dsh-wsl-perf) ★1 — Windows host performance counters from WSL: CPU, memory, disk and top processes.
+- 🟩 `[可用]` [173787247-dsh-wsl-power](https://github.com/173787247/dsh-wsl-power) ★1 — Windows power state from WSL: active power plan, battery status and sleep settings.
+- 🟩 `[可用]` [173787247-dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) ★1 — Hint how to forward Windows OpenSSH agent into WSL.
 - 🟩 `[可用]` [173787247-dsh-wsl-terraform](https://github.com/173787247/dsh-wsl-terraform) ★1 — Terraform/OpenTofu plan summary + state list (never apply).
 - 🟩 `[可用]` [173787247-dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) ★1 — Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem.
 - ⬜ `[待定]` [17861102832-fleet-os](https://github.com/17861102832/fleet-os) ★1 — Fleet OS · 舰队模式 — 生产级多 Agent 协同引擎：WS 黑板 + 事件溯源 + 盲评对抗 + 跨舰队接力 + 上下文压缩 + 多厂商负载均衡 + 自进化
@@ -973,6 +976,7 @@
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
+- `[未定位]` **eightfs-dsh-session-conductor** — 占位待复核，判定暂不展示
 - `[未定位]` **elari39-dsh-session-insight** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [elmersky-dsh-plugin-trellis-workflow](https://github.com/elmersky/dsh-plugin-trellis-workflow) ★0 — Trellis workflow enforcement for the DeepSeek Harness: per-turn workflow state injection and a trellis-start e
 - 🟩 `[可用]` [emiltsoi-dsh-fleet-mesh](https://github.com/emiltsoi/dsh-fleet-mesh) ★0 — Session-aware mesh relay for DSH agents - Ed25519-signed receive route, delivery policy, outbound and registry
@@ -1204,6 +1208,7 @@
 - 🟩 `[可用]` [minglink-dsh-plugin-agent-workflow](https://github.com/Minglink/dsh-plugin-agent-workflow) ★0 — —
 - 🟩 `[可用]` [miseryrua-dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) ★0 — 给 DSH 里的 Agent 一份跨会话长期记忆：真值源是工作区里的纯 Markdown，无向量库、无外部服务、零运行时依赖；每回合按预算分层注入 systemPrompt，后台自动流水 → 提炼 → 整理 → 治理
 - 🟩 `[可用]` [misrightw-dsh-agent-teams](https://github.com/MisRightW/dsh-agent-teams) ★0 — —
+- `[未定位]` **missher12-dsh-session-bridge** — 占位待复核，判定暂不展示
 - `[未定位]` **miyamiz39-mihaji-memory** — 占位待复核，判定暂不展示
 - `[未定位]` **mncstudio-dsh-prompt-star** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [modole-dsh-plugin-skills-laoboshi](https://github.com/Modole/dsh-plugin-skills-laoboshi) ★0 — —
