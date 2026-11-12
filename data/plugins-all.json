@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T11:01:02Z",
+ "generated_at": "2026-11-12T11:16:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -13735,6 +13735,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hanfengcan/dsh-viewer-kit",
+   "name": "hanfengcan-dsh-viewer-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "一个增强deepseek harness会话内容显示效果的插件"
   },
   {
    "repo": "HanneLEE/dsh-agent-state",
@@ -28871,6 +28878,13 @@
    "desc": "为 DSH Web 对话区提供回到顶部 / 上一条 / 下一条 / 回到底部的圆形导航按钮，自动处理更早历史分页"
   },
   {
+   "repo": "uniwell9797/dsh-voice-f9",
+   "name": "uniwell9797-dsh-voice-f9",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Global hold-to-talk voice input for Windows, driven by a local SenseVoice model via sherpa-onnx"
+  },
+  {
    "repo": "unsiscon/dsh-novel-launcher",
    "name": "unsiscon-dsh-novel-launcher",
    "verdict": "ok",
@@ -33652,6 +33666,13 @@
    "desc": "—"
   },
   {
+   "repo": "ruodongyu/dsh-sidebar-browser-control",
+   "name": "ruodongyu-dsh-sidebar-browser-control",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Lightweight, controlled browser tools for the native DeepSeek Harness desktop sidebar"
+  },
+  {
    "repo": "s-huizhuy-u/dsh-github-sync",
    "name": "s-huizhuy-u-dsh-github-sync",
    "verdict": "incompatible",
@@ -35547,6 +35568,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Text annotation tools for the dsh web composer"
+  },
+  {
+   "repo": "t2094308-star/dsh-agent-contract",
+   "name": "t2094308-star-dsh-agent-contract",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 多智能体契约工作流引擎：契约注入 / 按角色委派 / 台账与审计 / 文档治理与索引 / 面板"
   },
   {
    "repo": "tappat225/dsh-provider-hub",
@@ -54141,6 +54169,13 @@
    "desc": "—"
   },
   {
+   "repo": "spidu-lee/dsh-refresh",
+   "name": "spidu-lee-dsh-refresh",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "sssueason/dsh-pwsh-progress",
    "name": "sssueason-dsh-pwsh-progress",
    "verdict": "ok",
@@ -69994,6 +70029,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "direnv support for dsh"
+  },
+  {
+   "repo": "snylonue/dsh-spawn",
+   "name": "snylonue-dsh-spawn",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A tool to enable bashless dsh"
   },
   {
    "repo": "SodaZheng/dsh-more",

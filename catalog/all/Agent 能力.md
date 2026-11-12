@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2563）
+# 🤖 Agent 能力（2564）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2258,6 +2258,7 @@
 - 🟨 `[不兼容]` [guanzhw-agentsession](https://github.com/Guanzhw/AgentSession) ★0 — —
 - 🟨 `[不兼容]` [guytogay-dsh-addon-kit](https://github.com/guytogay/dsh-addon-kit) ★0 — DSH addon kit: reusable MCP servers (desktop/browsers), A2A agent bridge, skill, plugins and mobile-remote kit
 - 🟨 `[不兼容]` [hakunm-dsh-approve-for-me](https://github.com/Hakunm/dsh-approve-for-me) ★0 — —
+- 🟨 `[不兼容]` [hanfengcan-dsh-viewer-kit](https://github.com/hanfengcan/dsh-viewer-kit) ★0 — 一个增强deepseek harness会话内容显示效果的插件
 - 🟨 `[不兼容]` [hannelee-dsh-agent-state](https://github.com/HanneLEE/dsh-agent-state) ★0 — —
 - `[未定位]` **hanochhu-dsh-context-offload** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [hansjone-netxops](https://github.com/hansjone/netxops) ★0 — DeepSeek Harness Netx Ops agent preset (UME alarms, NE, managed CLI)
