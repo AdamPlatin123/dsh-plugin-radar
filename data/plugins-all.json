@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T03:16:10Z",
+ "generated_at": "2026-11-12T03:31:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -22212,6 +22212,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness Web 的开场动画插件：每次 dsh web 页面加载时，在全屏遮罩上播放你选择的开场内容——图片动画或视频——结束后以可配置的过渡效果把画面交还主界面"
+  },
+  {
+   "repo": "linzimu666/dsh-intent-suggest",
+   "name": "linzimu666-dsh-intent-suggest",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "替你思考还没打完的那半句：输入框上方实时长出三条能直接发的任务候选，点一下只填回输入框"
   },
   {
    "repo": "liqiming-whu/dsh-status-card",
@@ -51229,6 +51236,13 @@
    "desc": "—"
   },
   {
+   "repo": "liggest/dsh-alt-enter-newline",
+   "name": "liggest-dsh-alt-enter-newline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "在  dsh 中拯救 Alt+Enter 换行选手"
+  },
+  {
    "repo": "Lilien-xu/dsh-meego",
    "name": "lilien-xu-dsh-meego",
    "verdict": "ok",
@@ -63332,6 +63346,13 @@
    "desc": "DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖 〔PR〕"
   },
   {
+   "repo": "omoinoki/dsh-sekaisync-connect",
+   "name": "omoinoki-dsh-sekaisync-connect",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "DeepSeek Harness direct-connect module for a local SekaiSync knowledge base — 10 compact tools, zero dependenc"
+  },
+  {
    "repo": "piaobo123/dafeiyu-buchibaifan",
    "name": "piaobo123-dafeiyu-buchibaifan",
    "verdict": "incompatible",
@@ -64835,6 +64856,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "121212165/dsh-plugin-relay-quota",
+   "name": "121212165-dsh-plugin-relay-quota",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: reads remaining quota and usage from any OpenAI-compatible relay's billing surface (/quota, quota_"
   },
   {
    "repo": "173787247/dsh-device-bridge",
@@ -68104,6 +68132,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "laa1991/dsh-health",
+   "name": "laa1991-dsh-health",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Declarative health readout for DSH: declare where to read, what counts as healthy, and which verdict each read"
   },
   {
    "repo": "LambdaJoker/DeepSeek-Harness-Core",
@@ -77612,6 +77647,13 @@
    "desc": "—〔📦〕"
   },
   {
+   "repo": "shinelon/dsh-mcp-plugin",
+   "name": "shinelon-dsh-mcp-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Short-Arm-Ape/dsh-browser-unified",
    "name": "short-arm-ape-dsh-browser-unified",
    "verdict": "incompatible",
@@ -86957,6 +86999,13 @@
    "desc": "dsh plugin: renders a session transcript into one self-contained HTML report you can open, archive or forward"
   },
   {
+   "repo": "121212165/dsh-plugin-obsidian-push",
+   "name": "121212165-dsh-plugin-obsidian-push",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: pushes archived session transcripts into an Obsidian vault as Markdown with YAML frontmatter, dedu"
+  },
+  {
    "repo": "798645706/dsh-strawberry-data-hub",
    "name": "798645706-dsh-strawberry-data-hub",
    "verdict": "incompatible",
@@ -92223,6 +92272,13 @@
   {
    "repo": "jackControls/dsh-telegram-control",
    "name": "jackcontrols-dsh-telegram-control",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "jiangdunchun/dsh-feishu-beacon",
+   "name": "jiangdunchun-dsh-feishu-beacon",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -100962,6 +101018,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：在每个会话的系统提示词最顶部注入自定义提示词，并可在 Web 设置页中即时编辑"
+  },
+  {
+   "repo": "mattlennon/jev-harness-router",
+   "name": "mattlennon-jev-harness-router",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Budget-aware Jev routing plugin for DeepSeek Harness with multi-provider reasoning, SSE, and cancellation reco"
   },
   {
    "repo": "mays-hi/dsh-git-idea",
