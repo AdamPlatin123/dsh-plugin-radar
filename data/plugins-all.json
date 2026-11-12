@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T15:01:24Z",
+ "generated_at": "2026-11-12T15:16:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -70964,6 +70964,13 @@
   {
    "repo": "vINyLogY/dsh-bluebubbles",
    "name": "vinylogy-dsh-bluebubbles",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "vitaliy-bobrov/dsh-plugin-bmad-sprint-board",
+   "name": "vitaliy-bobrov-dsh-plugin-bmad-sprint-board",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
