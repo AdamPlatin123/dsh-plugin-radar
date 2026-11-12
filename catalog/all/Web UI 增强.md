@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3245）
+# 🔌 Web UI 增强（3248）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1400,6 +1400,7 @@
 - 🟩 `[可用]` [43456-awa-dsh-notepad](https://github.com/43456-awa/dsh-notepad) ★0 — DSH Web GUI ???????:??/?????????????????Agent ????
 - 🟩 `[可用]` [483218131-dsh-composer-collapse](https://github.com/483218131/dsh-composer-collapse) ★0 — Three-mode height manager for the DSH Web composer: auto / pinned open / pinned collapsed
 - 🟩 `[可用]` [6jeffr3y-dsh-burpsuite-mcp](https://github.com/6jeffr3y/dsh-burpsuite-mcp) ★0 — Native Burp Suite MCP tools and live settings for DeepSeek Harness
+- `[未定位]` **760403-create-dsh-endfield-theme** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [863683348-dsh-plugin-education](https://github.com/863683348/dsh-plugin-education) ★0 — Education toolkit for DeepSeek Harness agents: lesson-plan skeletons by grade band, quiz scaffolding and answe
 - 🟩 `[可用]` [863683348-dsh-trend-radar](https://github.com/863683348/dsh-trend-radar) ★0 — Ecosystem trend dashboard (行情面板) for dsh plugins: snapshot dsh-plugin topic + awesome list into local history,
 - 🟩 `[可用]` [988hj7tczd-oss-dsh-a11y-scan](https://github.com/988hj7tczd-oss/dsh-a11y-scan) ★0 — DSH native accessibility (WCAG) scanner: runs axe-core over local HTML files / build output / URLs and reports
@@ -2044,6 +2045,7 @@
 - `[空仓监测]` **thirsty5034-dsh-floor-nav** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [thooy-dsh-client-ui-theme-manager](https://github.com/thooy/dsh-client-ui-theme-manager) ★0 — —
 - `[空仓监测]` **tiger3807861189-j-space-cognition-suite-v3-7** — GitHub 无此仓库，判定暂不展示
+- `[未定位]` **tim5613-dsh-homepage-palette-skin** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [timsok-shit-dsh-conversation-tracker](https://github.com/timsok-shit/dsh-conversation-tracker) ★0 — DSH Web Conversation Navigator（对话追踪导航条）- 节点直接来自当前 conversation 完整 messages 数据
 - 🟩 `[可用]` [timsok-shit-dsh-quick-resume](https://github.com/timsok-shit/dsh-quick-resume) ★0 — One-click resume button for interrupted DSH agents: a continue button in the assistant message action row that
 - 🟩 `[可用]` [tkliuxing-dsh-hypatia-ui](https://github.com/tkliuxing/dsh-hypatia-ui) ★0 — Hypatia knowledge console for the DeepSeek Harness Web GUI: a sidebar entry that opens shelf browsing, JSE sea
@@ -2141,6 +2143,7 @@
 - 🟩 `[可用]` [wuenna-dsh-deepseek-cost](https://github.com/wuenna/dsh-deepseek-cost) ★0 — DSH plugin: DeepSeek-official cost accounting (session total + current turn) added to the built-in Token usage
 - 🟩 `[可用]` [wuruihi-dsh-memory-loader](https://github.com/wuruihi/dsh-memory-loader) ★0 — DSH plugin: deterministic two-level memory injection (global + project MEMORY.md + today's notes) at session s
 - 🟩 `[可用]` [wushu75-conceptnet-dsh-plugin](https://github.com/wushu75/conceptnet-dsh-plugin) ★0 — ConceptNet intent classification plugin for DeepSeek Harness
+- ⬜ `[待定]` [wuyad-dsh-client-ui-cat](https://github.com/wuyad/dsh-client-ui-cat) ★0 — A little tabby cat that wanders around the DeepSeek Harness UI — walking, hopping, napping and getting petted
 - 🟩 `[可用]` [ww2186874-cyber-dsh-archived-sessions](https://github.com/ww2186874-cyber/dsh-archived-sessions) ★0 — 面向 DeepSeek Harness Web 的已归档会话管理与恢复界面插件
 - 🟩 `[可用]` [wx-yss-dsh-composer-enter](https://github.com/wx-yss/dsh-composer-enter) ★0 — 让 DSH Web 输入框 Enter 换行、Cmd/Ctrl+Enter 发送（无配置项）
 - 🟩 `[可用]` [wyzh0117-dsh-notebook](https://github.com/wyzh0117/dsh-notebook) ★0 — DSH sidebar notebook: titles + bodies, inline images (videos rejected), click a title to copy its body, @-refe
@@ -2329,7 +2332,6 @@
 - ⬜ `[未测]` [dsh-composer-predictions](https://github.com/stijnus/dsh-composer-predictions) — 输入框 Tab 补全：回复结束后在空输入框流式建议「下一句话」，打字停顿后在光标处续写草稿。Tab 采纳为可编辑草稿（不自动发送），Alt+↓/↑ 切换最多 3 个候选，Esc 关闭；SSE 流式返回，走会话自身模型，按会话序列与草稿缓存；设置 → 通用可开关预测，Tab 只采纳已完成的候选；npm `dsh-composer-predictions` 1.2.5，MIT
 - ⬜ `[未测]` [dsh-workspace-status](https://github.com/stijnus/dsh-workspace-status) — 侧边栏工作区状态标记 + 置顶会话区 + 仅置顶通知：等待/运行/完成、按工作区分组、持久化；npm `dsh-workspace-status`@0.3.0
 - ⬜ `[未测]` [dsh-later](https://github.com/dsh-plugin-collection/dsh-later) — 定时发送与定时提醒：`/later` 到点以本人身份把输入框内容发出，`/schedule` 到点生成提醒；时间写法支持 `+1h30m`、`明天9点`、`15:32` 与重复序列（`+1h*3`、`9:00+1d`）；面板设时间，输入框上方显示倒计时条，每条任务可单独取消、编辑或一键清空；服务端调度，关掉网页也到点触发；npm `dsh-later` 1.8.0
-- ⬜ `[未测]` [dsh-runninghub-plugin](https://github.com/achenjins/dsh-runninghub-plugin) — RunningHub 云端 ComfyUI 工作流接入：runninghub_search / runninghub_call 两个模型工具，AI 按工作流链接或 ID 辅助配置输入节点（也可在「插件」→「dsh-runninghub-plugin」配置面板手动导入编辑），后台运行生成图片、视频和音频并把结果带回对话；多 API Key 按国内站 / 海外站分池、余额不足换用下一把，可查余额与排队；npm `dsh-runninghub-plugin`
 - ⬜ `[未测]` [dsh-remote-console](https://github.com/cccodder/dsh-remote-console) — DSH 右侧栏 SSH 远程终端（DSH SSH 插件）：人和 agent 共用一个 PTY，命令、退出码与统一日志同源；16 个工具（终端 / 文件传输 / 端口转发 / 审计 / 主机管理）；单文件传输默认 256 MB、可调 2048 MB；审计按会话隔离；npm `dsh-remote-console`
 - ⬜ `[未测]` [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) — 更清爽、更合理的 DeepSeek Harness 左边栏，支持插件自定义多个小组件。
 - 🟨 `[不兼容]` [wanshuiyin-auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) ★16875 — —
@@ -2837,6 +2839,7 @@
 - 🟨 `[不兼容]` [sunyuhuirong-deepseek-account](https://github.com/sunyuhuirong/deepseek-account) ★1 — —
 - 🟨 `[不兼容]` [suomir1995-dsh-link-collect](https://github.com/suomir1995/dsh-link-collect) ★1 — DSH bundle（DeepSeek Harness 插件）：链接收藏 —— 把收藏的链接（标题/简介/图标/标签/正文）持久化为本地 Markdown 收藏夹，带 Web 侧栏页面
 - 🟨 `[不兼容]` [supanexus-dsh-plugin-file-explorer](https://github.com/supanexus/dsh-plugin-file-explorer) ★1 — Workspace file tree and multi-tab editor in DeepSeek Harness — browse, edit, and preview files without leaving
+- 🟨 `[不兼容]` [supergameboy-dsh-chat-focus](https://github.com/supergameboy/dsh-chat-focus) ★1 — dsh web conversation plugin: fold runtime activity into expandable boxes, chat bubbles, deep customization (fo
 - 🟨 `[不兼容]` [swaylq-dsh-genie](https://github.com/swaylq/dsh-genie) ★1 — Wishes that outlive the session — turn a DeepSeek Harness agent's runtime plugins into permanently installed o
 - 🟨 `[不兼容]` [szh1007-dsh-changes-panel](https://github.com/szh1007/dsh-changes-panel) ★1 — —
 - 🟨 `[不兼容]` [themcswift-deepseek-tui](https://github.com/TheMcSwift/DeepSeek-TUI) ★1 — —
