@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-11T23:31:03Z",
+ "generated_at": "2026-11-12T00:16:05Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -18488,6 +18488,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness conversation outline plugin (对话目录)"
+  },
+  {
+   "repo": "xbzbing/dsh-openviking-manager",
+   "name": "xbzbing-dsh-openviking-manager",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "OpenViking 的 DSH 配置管理 UI：连接与用户 Key 配置、本机诊断、会话级记忆开关，以及记忆隔离与召回调优（分数阈值 / 注入条数 / 查询扩写 / 排除 URI）"
   },
   {
    "repo": "xiaoxiaohaigui/dsh-tui-find",
