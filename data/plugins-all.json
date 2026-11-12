@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T16:16:45Z",
+ "generated_at": "2026-11-12T16:31:19Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5424,13 +5424,6 @@
    "repo": "PolinniZhong/dsh-skill-intelligence",
    "name": "polinnizhong-dsh-skill-trace",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "POWERRRRRRRR/dsh-live-loop",
-   "name": "powerrrrrrrr-dsh-live-loop",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -13198,6 +13191,13 @@
    "desc": "—"
   },
   {
+   "repo": "POWERRRRRRRR/dsh-live-loop",
+   "name": "powerrrrrrrr-dsh-live-loop",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "QinpanWan/dsh-prompt-antivirus",
    "name": "qinpanwan-dsh-prompt-antivirus",
    "verdict": "incompatible",
@@ -16141,13 +16141,6 @@
    "repo": "LAN-TINA-WS/dsh-gui-customization",
    "name": "lan-tina-ws-dsh-gui-customization",
    "verdict": "ok",
-   "stars": 18,
-   "desc": "—"
-  },
-  {
-   "repo": "TFboy1/dsh-minecraft-ui",
-   "name": "tfboy1-dsh-minecraft-ui",
-   "verdict": "pending",
    "stars": 18,
    "desc": "—"
   },
@@ -31447,6 +31440,13 @@
    "desc": "—〔📦〕"
   },
   {
+   "repo": "TFboy1/dsh-minecraft-ui",
+   "name": "tfboy1-dsh-minecraft-ui",
+   "verdict": "incompatible",
+   "stars": 18,
+   "desc": "—"
+  },
+  {
    "repo": "yxy050208/multisim-mcp",
    "name": "yxy050208-multisim-mcp",
    "verdict": "incompatible",
@@ -39651,13 +39651,6 @@
    "desc": "—"
   },
   {
-   "repo": "KannaKuron/dsh-ptc-cordis-preset",
-   "name": "kannakuron-dsh-ptc-cordis-preset",
-   "verdict": "pending",
-   "stars": 5,
-   "desc": "—"
-  },
-  {
    "repo": "KirschBluteX/engineer-software",
    "name": "kirschblutex-engineer-software",
    "verdict": "pending",
@@ -42755,13 +42748,6 @@
    "repo": "lsq-dsh-plugins/dsh-windows-notifications",
    "name": "lsq-dsh-plugins-dsh-windows-notifications",
    "verdict": "ok",
-   "stars": 2,
-   "desc": "—"
-  },
-  {
-   "repo": "LuckVd/dsh-btw",
-   "name": "luckvd-dsh-btw",
-   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -48002,13 +47988,6 @@
    "desc": "—"
   },
   {
-   "repo": "Smith-yue/harness-plugin",
-   "name": "smith-yue-harness-plugin",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "SnoWinKK/dsh-background",
    "name": "snowinkk-dsh-background",
    "verdict": "ok",
@@ -52944,13 +52923,6 @@
    "desc": "DeepSeek API 余额监视器：DSH 右下角悬浮徽章 + 7天/30天用量费用图表"
   },
   {
-   "repo": "LinHuanTanLy/dsh-spend-meter",
-   "name": "linhuantanly-dsh-spend-meter",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "linktao159357/dsh-plugin-local-vision",
    "name": "linktao159357-dsh-plugin-local-vision",
    "verdict": "ok",
@@ -53859,13 +53831,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: downscale images on Claude requests so many-image requests never hit the 2000px limit"
-  },
-  {
-   "repo": "NOirBRight/dsh-llm-assistant",
-   "name": "noirbright-dsh-llm-assistant",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "NormalFix/deepseek-harness-cli",
@@ -54886,13 +54851,6 @@
    "repo": "STARDUSTLC666/dsh-dream",
    "name": "stardustlc666-dsh-dream",
    "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "Starlight-bananice/dsh-zhushou",
-   "name": "starlight-bananice-dsh-zhushou",
-   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -64907,6 +64865,13 @@
    "desc": "—"
   },
   {
+   "repo": "KannaKuron/dsh-ptc-cordis-preset",
+   "name": "kannakuron-dsh-ptc-cordis-preset",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "—"
+  },
+  {
    "repo": "kevinforge/orbit",
    "name": "kevinforge-orbit",
    "verdict": "incompatible",
@@ -66092,6 +66057,13 @@
   {
    "repo": "Lsc-91-69/dsh-brain-compaction",
    "name": "lsc-91-69-dsh-brain-compaction",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
+   "repo": "LuckVd/dsh-btw",
+   "name": "luckvd-dsh-btw",
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
@@ -67926,6 +67898,13 @@
   {
    "repo": "Smallxuan23/dsh-plugin-organizer",
    "name": "smallxuan23-dsh-plugin-organizer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "Smith-yue/harness-plugin",
+   "name": "smith-yue-harness-plugin",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
@@ -69842,6 +69821,13 @@
    "desc": "—"
   },
   {
+   "repo": "LinHuanTanLy/dsh-spend-meter",
+   "name": "linhuantanly-dsh-spend-meter",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "liugu2023/dsh-knowledge-sync",
    "name": "liugu2023-dsh-knowledge-sync",
    "verdict": "incompatible",
@@ -70124,6 +70110,13 @@
   {
    "repo": "Nico0713520/dsh-plugin-guardian",
    "name": "nico0713520-dsh-plugin-guardian",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "NOirBRight/dsh-llm-assistant",
+   "name": "noirbright-dsh-llm-assistant",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -70558,6 +70551,13 @@
   {
    "repo": "SoyMeng/dsh-plugin-template",
    "name": "soymeng-dsh-plugin-template",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "Starlight-bananice/dsh-zhushou",
+   "name": "starlight-bananice-dsh-zhushou",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -82939,13 +82939,6 @@
    "desc": "—"
   },
   {
-   "repo": "SUJIElearning/dsh-trashbin",
-   "name": "sujielearning-dsh-trashbin",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "teresalu2024/dsh-qual",
    "name": "teresalu2024-dsh-qual",
    "verdict": "pending",
@@ -83193,6 +83186,13 @@
   {
    "repo": "Mason-1011/dsh-schematic",
    "name": "mason-1011-dsh-schematic",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "SUJIElearning/dsh-trashbin",
+   "name": "sujielearning-dsh-trashbin",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -91710,13 +91710,6 @@
    "desc": "短剧剧本蜂群进化实验 — 蜂群 vs 单模型持续对比网站（GitHub Pages，定时自动更新剧本）"
   },
   {
-   "repo": "RyensX/dsh-message-navigation",
-   "name": "ryensx-dsh-message-navigation",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "Saded-bot/dsh-session-export",
    "name": "saded-bot-dsh-session-export",
    "verdict": "ok",
@@ -94095,6 +94088,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Automatically migrate dsh plugins to the new version."
+  },
+  {
+   "repo": "RyensX/dsh-message-navigation",
+   "name": "ryensx-dsh-message-navigation",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "Sevncz/dsh-task-notify",
