@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T12:46:10Z",
+ "generated_at": "2026-11-12T13:01:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -21472,6 +21472,13 @@
    "desc": "DeepSeek Harness Web UI background customization plugin"
   },
   {
+   "repo": "bsfcxz/dsh-ui-ux-pro-max",
+   "name": "bsfcxz-dsh-ui-ux-pro-max",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 插件：当请求涉及 UI/UX 时自动加载 ui-ux-pro-max 设计智能技能（内置 7 个技能包，开箱即用）"
+  },
+  {
    "repo": "c-ling/dsh-plugin-request-retry",
    "name": "c-ling-dsh-plugin-request-retry",
    "verdict": "ok",
@@ -24291,6 +24298,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Launch DeepSeek Harness on Windows with one double-click, featuring startup autostart and a compact standalone"
+  },
+  {
+   "repo": "yfwu2020/dsh-recent-sessions",
+   "name": "yfwu2020-dsh-recent-sessions",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH sidebar plugin: a floating recent-sessions sheet that blends into the sidebar"
   },
   {
    "repo": "yhfgyyf/dsh-tui-app",
@@ -80111,6 +80125,13 @@
    "desc": "—"
   },
   {
+   "repo": "yezisorft/dsh-netease-island",
+   "name": "yezisorft-dsh-netease-island",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH 灵动岛风格的网易云音乐状态挂件：顶部胶囊显示封面/歌名/歌手/进度，支持播放暂停、上下首与进度跳转"
+  },
+  {
    "repo": "yvhcel888/slide-gauge-pygame",
    "name": "yvhcel888-slide-gauge-pygame",
    "verdict": "pending",
@@ -96575,6 +96596,13 @@
    "desc": "—"
   },
   {
+   "repo": "artorias-zj/dsh-opencode-free-model",
+   "name": "artorias-zj-dsh-opencode-free-model",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Key-free OpenCode Zen free model lane for DeepSeek Harness — Host-only cordis plugin with three-wire streaming"
+  },
+  {
    "repo": "asdf17128/dshp",
    "name": "asdf17128-dshp",
    "verdict": "ok",
@@ -110034,6 +110062,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "为 DSH 模型选择器加供应商启停开关、模型搜索与重命名 / Provider on/off switches, model search, and inline provider renaming for DeepSe"
+  },
+  {
+   "repo": "zzzxxxxxxxxxx/dsh-balance",
+   "name": "zzzxxxxxxxxxx-dsh-balance",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Live DeepSeek API balance and time-to-empty for the composer dock — projects spend from this machine's own tok"
   },
   {
    "repo": "pure01fx/dsh-openai-codex-auth",

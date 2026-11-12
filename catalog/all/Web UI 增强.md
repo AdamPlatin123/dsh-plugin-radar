@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3323）
+# 🔌 Web UI 增强（3326）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -911,6 +911,7 @@
 - 🟩 `[可用]` [dsh-client-shortcuts](https://github.com/blue-a11y/dsh-client-shortcuts) ★1 — Global keyboard shortcuts for the DeepSeek Harness web GUI: ctx.shortcuts registry, rebindable settings, and d
 - 🟩 `[可用]` [bobnemimimmi-dsh-always-status-bar](https://github.com/Bobnemimimmi/dsh-always-status-bar) ★1 — —
 - 🟩 `[可用]` [dsh-web-background](https://github.com/BruceWu1126/dsh-web-background) ★1 — DeepSeek Harness Web UI background customization plugin
+- 🟩 `[可用]` [bsfcxz-dsh-ui-ux-pro-max](https://github.com/bsfcxz/dsh-ui-ux-pro-max) ★1 — DeepSeek Harness 插件：当请求涉及 UI/UX 时自动加载 ui-ux-pro-max 设计智能技能（内置 7 个技能包，开箱即用）
 - 🟩 `[可用]` [c-ling-dsh-plugin-request-retry](https://github.com/c-ling/dsh-plugin-request-retry) ★1 — DeepSeek Harness 请求重试插件：模型请求失败且错误信息命中关键词时，在内置重试策略耗尽后继续自动追加重试；设置面板可管理关键词与退避参数
 - 🟩 `[可用]` [c-v-c-v-dsh-chat-nav](https://github.com/c-v-c-v/dsh-chat-nav) ★1 — DeepSeek Harness 聊天快捷导航插件（ChatGPT 式悬停滑出）· A DeepSeek Harness chat quick-nav plugin (ChatGPT-style hover slide-
 - 🟩 `[可用]` [caisiyang123-dsh-theme-dodger-17](https://github.com/caisiyang123/dsh-theme-dodger-17) ★1 — Dodger-blue ballpark theme plugin for DeepSeek Harness — day & night palettes with baseball-stitch red accents
@@ -1319,6 +1320,7 @@
 - 🟩 `[可用]` [ycr40-dsh-prolong-memory](https://github.com/ycr40/dsh-prolong-memory) ★1 — PRO-LONG-style programmatic memory plugin for DeepSeek Harness (DSH): appends every durable session event to a
 - 🟩 `[可用]` [yefengliu1-dsh-agent-grid](https://github.com/yefengliu1/dsh-agent-grid) ★1 — Replaces the DeepSeek Harness sidebar with a fixed 2x4 board of eight standing agent seats — each seat shows i
 - ⬜ `[待定]` [yellpoliovirusvaccine37-dsh-launcher](https://github.com/yellpoliovirusvaccine37/dsh-launcher) ★1 — Launch DeepSeek Harness on Windows with one double-click, featuring startup autostart and a compact standalone
+- 🟩 `[可用]` [yfwu2020-dsh-recent-sessions](https://github.com/yfwu2020/dsh-recent-sessions) ★1 — DSH sidebar plugin: a floating recent-sessions sheet that blends into the sidebar
 - 🟩 `[可用]` [yhfgyyf-dsh-tui-app](https://github.com/yhfgyyf/dsh-tui-app) ★1 — Readline-based interactive terminal profile bundle for DeepSeek Harness.
 - 🟩 `[可用]` [yhprime-dsh-theme-picker](https://github.com/yhPrime/dsh-theme-picker) ★1 — —
 - 🟩 `[可用]` [yichangyaoyue-dsh-client-ui-mermaid](https://github.com/yichangyaoyue/dsh-client-ui-mermaid) ★1 — dsh plugin that renders Mermaid fenced code blocks as SVG diagrams in the web UI
@@ -1483,6 +1485,7 @@
 - 🟩 `[可用]` [bigfurma-bot-dsh-todos](https://github.com/bigfurma-bot/dsh-todos) ★0 — Persistent shared to-do list for DeepSeek Harness: web UI tab + agent tools over one JSON store, writable from
 - 🟩 `[可用]` [bigfurma-bot-dsh-web-restart](https://github.com/bigfurma-bot/dsh-web-restart) ★0 — One-click restart for DeepSeek Harness Web UI — arm-to-confirm button pinned to the Settings › General corner,
 - 🟩 `[可用]` [biletian-deepseek-harness-desktop](https://github.com/biletian/deepseek-harness-desktop) ★0 — 把 DeepSeek Harness 的 Web 界面包装成 macOS 桌面应用（双击打开、关窗退出）
+- `[未定位]` **bilibiliuid1480494301-dsh-relayhub-bridge** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [billikroetzlyr43-eng-obsidian-dsh](https://github.com/billikroetzlyr43-eng/obsidian-dsh) ★0 — Obsidian plugin: embed dsh (DeepSeek Harness) Web UI in your vault
 - 🟩 `[可用]` [biobuilder-ai-dsh-plugin-ui-toggle](https://github.com/Biobuilder-ai/dsh-plugin-ui-toggle) ★0 — —
 - 🟩 `[可用]` [biteainet-dsh-mj-spiderman-plugin](https://github.com/biteainet/dsh-mj-spiderman-plugin) ★0 — MJ 蜘蛛侠彩蛋插件：任意输入框输入 mj 触发透明悬浮窗，视频+json WebGL 合成（DSH 插件）
