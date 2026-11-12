@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2559）
+# 🤖 Agent 能力（2562）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -573,6 +573,7 @@
 - 🟩 `[可用]` [ayato233-dsh-agent-manage](https://github.com/Ayato233/dsh-agent-manage) ★1 — —
 - 🟩 `[可用]` [bass1125-imemory](https://github.com/bass1125/imemory) ★1 — —
 - ⬜ `[待定]` [bbaz123-novel-writing-plugin](https://github.com/bbaz123/novel-writing-plugin) ★1 — DeepSeek Harness plugin for long-form Chinese AI novel writing: layered context, foreshadowing ledger, anti-AI
+- 🟩 `[可用]` [bdydgz114514-dsh-free-media](https://github.com/bdydgz114514/dsh-free-media) ★1 — DSH 免费多模态三件套：零 Key 文生图 + 零 Key 视频理解 + 免费文生视频/图生视频
 - 🟩 `[可用]` [beijingwahw-dsh-companion-dev](https://github.com/beijingwahw/dsh-companion-dev) ★1 — DeepSeek Companion 开发者版 — DeepSeek Harness 官方伴侣插件完整功能集：A–J 九大模块（对话导出/交接摘要/成本优化/全局检索 + 执行轨迹分析、Prompt 工程工作台、多模型竞
 - 🟩 `[可用]` [dsh-effort-config](https://github.com/benzhoupo/dsh-effort-config) ★1 — dsh plugin: configure reasoning-effort levels (wire spellings), route default level and Anthropic token budget
 - 🟩 `[可用]` [biubiu23333333-dsh-memory](https://github.com/biubiu23333333/dsh-memory) ★1 — dsh-memory
@@ -924,6 +925,7 @@
 - 🟩 `[可用]` [bailong-hakuryu-dsh-engineering-control-plane](https://github.com/bailong-Hakuryu/dsh-engineering-control-plane) ★0 — —
 - 🟩 `[可用]` [barry-liu-001-dsh-ark-plan-usage](https://github.com/Barry-Liu-001/dsh_ark_plan_usage) ★0 — —
 - `[未定位]` **bay-zeddie-dsh-agent-instructions** — 占位待复核，判定暂不展示
+- `[未定位]` **bb0027-dsh-skillbox** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) ★0 — Context-cheap lazy MCP access for DeepSeek Harness
 - 🟩 `[可用]` [bene-2020-plane-dsh-plugin](https://github.com/Bene-2020/plane-dsh-plugin) ★0 — —
 - 🟩 `[可用]` [bhorse-dsh-session-sync](https://github.com/bHorse/dsh-session-sync) ★0 — —
@@ -975,6 +977,7 @@
 - 🟩 `[可用]` [da-beda-dsh-lockstep](https://github.com/da-beda/dsh-lockstep) ★0 — Pin-aware updater for DeepSeek Harness
 - 🟩 `[可用]` [daha1216-dsh-watcher](https://github.com/daha1216/dsh-watcher) ★0 — DeepSeek Harness 只读观测插件：把会话折成可折叠的工作路径，统计模型耗时与估算费用
 - 🟩 `[可用]` [daoing-dsh-daoing-memory](https://github.com/daoing/dsh-daoing-memory) ★0 — deepseek harness  memory plugin
+- 🟩 `[可用]` [daoyu1993-lab-dsh-plugin-composer-align](https://github.com/daoyu1993-lab/dsh-plugin-composer-align) ★0 — Pin the New Session composer to the exact place the conversation composer occupies, so the input box stops jum
 - 🟩 `[可用]` [davidgereb-dsh-plugin-prompt-guard](https://github.com/davidgereb/dsh-plugin-prompt-guard) ★0 — Prompt visibility and notification plugin for DeepSeek Harness.
 - 🟩 `[可用]` [dawei008-dsh-session-telemetry-otlp-trace](https://github.com/dawei008/dsh-session-telemetry-otlp-trace) ★0 — OpenTelemetry GenAI trace plugin for DeepSeek Harness
 - `[未定位]` **dddmuc-dsh-delete-session** — 占位待复核，判定暂不展示
