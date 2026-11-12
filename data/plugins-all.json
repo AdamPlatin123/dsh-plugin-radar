@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T00:31:05Z",
+ "generated_at": "2026-11-12T01:16:16Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -76035,6 +76035,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "🐋 All you need is oh-my-dsh ｜ DeepSeek Harness 社区插件索引与精选（自动更新）"
+  },
+  {
+   "repo": "argszero/cordis-plugin-sandbox-grant-advisor",
+   "name": "argszero-cordis-plugin-sandbox-grant-advisor",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DeepSeek Harness plugin: turns the Windows sandbox ACL provisioning failure (SetNamedSecurityInfoW Win32 5) in"
   },
   {
    "repo": "Chhlafiu4312/dsh-mcp-bridge",
