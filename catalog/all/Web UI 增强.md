@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3287）
+# 🔌 Web UI 增强（3292）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1114,6 +1114,7 @@
 - 🟩 `[可用]` [lucagiftzek-dsh-artifacts](https://github.com/lucagiftzek/dsh-artifacts) ★1 — An Artifacts tab for the DSH (DeepSeek Harness) web GUI sidebar: lists the files an agent produced and preview
 - 🟩 `[可用]` [lumi-lei-interchange-plugin](https://github.com/lumi-lei/interchange-plugin) ★1 — Local-first role-based collaboration tools for DeepSeek Harness, with an embedded panel and human-confirmed de
 - 🟩 `[可用]` [lumoping-dsh-todo-inbox](https://github.com/lumoping/dsh-todo-inbox) ★1 — DSH web static plugin: global cross-session todo inbox (merge MR / approve work orders / reviews) with sidebar
+- 🟩 `[可用]` [lux09947-cmyk-dsh-re](https://github.com/lux09947-cmyk/dsh-re) ★1 — Adds a refresh button to the DeepSeek Harness desktop title bar next to the Edit menu; reloads the UI without
 - 🟩 `[可用]` [lwx071001-dsh-mobile-console](https://github.com/lwx071001/dsh-mobile-console) ★1 — Open this DeepSeek Harness (DSH) on a phone: one QR code, a LAN bridge that runs only while it is on, no --hos
 - 🟩 `[可用]` [lyaxz-dsh-quick-toc](https://github.com/LyaxZ/dsh-quick-toc) ★1 — —
 - 🟩 `[可用]` [lyjsyyds-dsh-novel-studio](https://github.com/lyjsyyds/dsh-novel-studio) ★1 — A dedicated novel-writing partition for DeepSeek Harness: books, characters, worldbuilding, outline, chapters,
@@ -1942,6 +1943,7 @@
 - 🟩 `[可用]` [pureexe-dsh-mobile-topbar](https://github.com/pureexe/dsh-mobile-topbar) ★0 — DeepSeek Harness plugin: turns the sidebar into a compact top bar on mobile screens to save space
 - 🟩 `[可用]` [qgx1992-dsh-model-select-style](https://github.com/qgx1992/dsh-model-select-style) ★0 — DSH web 插件：把输入框模型选择控件替换为两个独立按钮（供应商 + 模型两级联动，支持推理等级调节）
 - 🟩 `[可用]` [qgynisc-dsh-inline-pastes](https://github.com/qgynisc/dsh-inline-pastes) ★0 — DeepSeek Harness Web GUI 插件：粘贴图片即在文字中插入 image-1.png 内联胶囊，悬浮名字预览缩略图，自动编号（文字中插图 / hover 预览）
+- `[未定位]` **qin-smart-dsh-sidebar-marks** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [qingchunnh-dsh-desktop](https://github.com/qingchunnh/dsh-desktop) ★0 — DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI
 - 🟩 `[可用]` [qingyou002-dsh-git-commit](https://github.com/qingyou002/dsh-git-commit) ★0 — DSH slash command /commit: stages all changes, summarizes the staged diff with the session model, and commits;
 - 🟩 `[可用]` [qiqiangvae-dsh-input-enhancer](https://github.com/qiqiangvae/dsh-input-enhancer) ★0 — 一个输入框增强工具，可以锁住发送按钮、暂存输入框内容
@@ -1964,6 +1966,7 @@
 - ⬜ `[待定]` [ragnarpitla-dsh-field-guide](https://github.com/RagnarPitla/dsh-field-guide) ★0 — —
 - `[空仓监测]` **rainpomelo-deepseek-harness-liquid-glass-them** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [ramouse-mineru-plug-for-ds](https://github.com/ramouse/mineru-plug-for-ds) ★0 — DSH 文档解析插件：用 MinerU 把 PDF/Word/PPT/Excel/图片/HTML 转成干净 Markdown 供 Agent 阅读，内置拖拽上传面板，免费 Agent API 快速模式 + Token 精
+- 🟩 `[可用]` [ramuzes-dsharp](https://github.com/ramuzes/dsharp) ★0 — A self required working plugins of DeepseekHarness
 - 🟩 `[可用]` [raosay-dsh-kanban](https://github.com/raosay/dsh-kanban) ★0 — A minimal DeepSeek Harness (DSH) web GUI kanban board with per-task model selection
 - 🟩 `[可用]` [rayfalling-dsh-tool-visibility](https://github.com/rayfalling/dsh-tool-visibility) ★0 — DSH plugin: control which tool schemas are injected into the DeepSeek Harness model context — settings UI + to
 - 🟩 `[可用]` [reachforstar-dsh-client-ui-polish](https://github.com/ReachForStar/dsh-client-ui-polish) ★0 — —
@@ -2224,6 +2227,7 @@
 - 🟩 `[可用]` [xusuyang030218-dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) ★0 — DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl
 - 🟩 `[可用]` [xydijkkk-dsh-voredteam](https://github.com/xydijkkk/dsh-voredteam) ★0 — dsh-voredteam｜DSH 插件形态的单模式安全作战系统：黑板（Fact/Intent/Hint）+ 六阶段六矩阵作业法 + 总控与 12 个专业子 agent + 作战面板（八泳道实时图 / 覆盖矩阵 / 按会
 - ⬜ `[待定]` [xzxtan-dsh-desktop](https://github.com/xzxtan/dsh-desktop) ★0 — Lightweight Windows desktop shell for DeepSeek Harness - a native WPF + WebView2 window around the official we
+- 🟩 `[可用]` [ya123-4-archify-skill-dsh](https://github.com/ya123-4/archify-skill-dsh) ★0 — Archify 3.0.1 skill 的 DeepSeek Harness 插件包：把架构、工作流、时序、数据流和生命周期图生成可交互 HTML，支持暗/亮主题与导出
 - 🟩 `[可用]` [yakoylp-dsh-localnotify](https://github.com/yakoylp/dsh-localnotify) ★0 — DSH 本地通知栏插件：侧边栏【通知】入口 + 全屏通知中心（时间筛选/搜索/未读已读/删除/详情一键复制），notify_add agent 工具 + CLI 写入，JSON 持久化，实时刷新，界面跟随 dsh web
 - 🟩 `[可用]` [yangatc-dsh-theme](https://github.com/YangAtC/dsh-theme) ★0 — —
 - `[空仓监测]` **yangeyu-deepseek-harness-tui** — GitHub 无此仓库，判定暂不展示
@@ -2964,6 +2968,7 @@
 - 🟨 `[不兼容]` [blueriverlhr-dsh-better-webui](https://github.com/bLueriVerLHR/dsh-better-webui) ★0 — —
 - 🟨 `[不兼容]` [bobobo2026-dsh-workspace-promote](https://github.com/bobobo2026/dsh-workspace-promote) ★0 — DSH host plugin: promote the workspace you just submitted a task in to the top of the sidebar — once per submi
 - 🟨 `[不兼容]` [boyl-dsh-sidebar-pins](https://github.com/boyl/dsh-sidebar-pins) ★0 — Codex-style pinned/recent sidebar panes for DeepSeek Harness, with one full row menu on every row (pins, unrea
+- 🟨 `[不兼容]` [bvbhu-dsh-quilt-compact](https://github.com/bvbhu/dsh-quilt-compact) ★0 — 替代 DSH 默认的 compaction-basic：用指定的模型压缩对话内容，按需分块摘要再合并
 - 🟨 `[不兼容]` [caijiachen34-dsh-sophnet-balance](https://github.com/caijiachen34/dsh-sophnet-balance) ★0 — SophNet balance and usage monitor for DeepSeek Harness Web GUI
 - `[空仓监测]` **ch4acko3-dsh-ui-workspace** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [chendefine-dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) ★0 — DSH web plugin: open and edit .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE
