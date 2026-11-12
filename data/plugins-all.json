@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T04:01:13Z",
+ "generated_at": "2026-11-12T04:16:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1023,6 +1023,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "eghrhegpe/dsh-connect-sensenova-token-plan",
+   "name": "eghrhegpe-dsh-connect-sensenova-token-plan",
+   "verdict": "ok",
+   "stars": 8,
+   "desc": "\\[DSH Plugins\\] 商汤接入 DSH 的全家桶：查看积分额度、接入API与商汤小浣熊桌面端，429重试"
   },
   {
    "repo": "fan56/dsh-dcp",
@@ -3195,6 +3202,13 @@
    "desc": "—"
   },
   {
+   "repo": "seventeenlyc/agent-relay",
+   "name": "seventeenlyc-agent-relay",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "—"
+  },
+  {
    "repo": "SeverusZh/dsh-skills-mcp-group-manager",
    "name": "severuszh-dsh-skills-mcp-group-manager",
    "verdict": "ok",
@@ -3585,6 +3599,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness (DSH) plugin: live task completion time, token & per-model cost estimator in the session head"
+  },
+  {
+   "repo": "121212165/dsh-plugin-cache-guard",
+   "name": "121212165-dsh-plugin-cache-guard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh plugin: prefix-cache health guard - separates real prefix rewrites from ordinary context growth, prices th"
   },
   {
    "repo": "121212165/dsh-plugin-fact-vault",
@@ -5680,6 +5701,13 @@
    "desc": "—"
   },
   {
+   "repo": "yiyunet/dsh-learn-skills",
+   "name": "yiyunet-dsh-learn-skills",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "一个跑在 DeepSeek Harness 输入区的学习插件：把「收集 → 提炼 → 关联 → 升级 → 沉淀 → 复用」做成有交互引导、预设管理、审核入库与体系体检的运行时能力"
+  },
+  {
    "repo": "ynymhrb/long-horizon-runtime",
    "name": "ynymhrb-long-horizon-runtime",
    "verdict": "ok",
@@ -5923,6 +5951,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 插件：Spec-Kit 规范驱动开发技能套件（/speckit-* 斜杠命令）"
+  },
+  {
+   "repo": "abdounasser202/dsh-deepseek-budget",
+   "name": "abdounasser202-dsh-deepseek-budget",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Track your DeepSeek spent budget into DeepSeek Harness"
   },
   {
    "repo": "ac0033/dsh-ctm",
@@ -8851,6 +8886,13 @@
    "desc": "DSH plugin: force agent chain-of-thought to stay in Chinese — 让 Agent 的思考过程也自动使用中文"
   },
   {
+   "repo": "wojiao42/dsh-space-optimizer",
+   "name": "wojiao42-dsh-space-optimizer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 侧栏空间账本：看清每个任务占了多少磁盘、按项回收无主垃圾；会话日志绝不被裁剪 · Per-task disk-space ledger for DeepSeek Harness"
+  },
+  {
    "repo": "wolfsonliu/zotero-skill",
    "name": "wolfsonliu-zotero-skill",
    "verdict": "pending",
@@ -9752,6 +9794,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harnes"
+  },
+  {
+   "repo": "youmu129/dsh-plugin-chat-presets",
+   "name": "youmu129-dsh-plugin-chat-presets",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：提供「搜索模式」「纯净模式」两个会话预设"
   },
   {
    "repo": "YrracOwl/dsh-subagent-conductor",
@@ -14087,6 +14136,13 @@
    "desc": "Per-session advisory locks that stop two dsh processes from corrupting one session log"
   },
   {
+   "repo": "qingyou002/dsh-auto-handoff",
+   "name": "qingyou002-dsh-auto-handoff",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: hands a long session over to a fresh session in the same workspace on /handoff or at a token thres"
+  },
+  {
    "repo": "Re-s/dsh-memory-s3",
    "name": "re-s-dsh-memory-s3",
    "verdict": "incompatible",
@@ -17662,6 +17718,13 @@
    "verdict": "pending",
    "stars": 4,
    "desc": "Manage DSH plugins & runtime without launching it: plugin market, per-instance masking, version install"
+  },
+  {
+   "repo": "wqx11235/dsh-upgrade-guard",
+   "name": "wqx11235-dsh-upgrade-guard",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Upgrade guard for DeepSeek Harness — pre-flight compatibility inventory, offline contract scan, boot smoke, pl"
   },
   {
    "repo": "wycto/dsh-balance-panel",
@@ -33230,6 +33293,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "File-based layered memory skill pack for DeepSeek Harness and skill-driven agent runtimes: 11-layer directory"
+  },
+  {
+   "repo": "yfwu2020/dsh-reply-visual",
+   "name": "yfwu2020-dsh-reply-visual",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 回复可视化（图解）：把 AI 回复变成立即看得懂的单页图解——模型写单文件 HTML + 内联 SVG，右侧栏沙箱 iframe 渲染"
   },
   {
    "repo": "yhbd-top/dsh-plugin-top",
@@ -74287,6 +74357,13 @@
    "desc": "—"
   },
   {
+   "repo": "geokkjer/dsh-selfup",
+   "name": "geokkjer-dsh-selfup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Self-update and deployment tools for DeepSeek Harness — status, update, install, and systemd management as an"
+  },
+  {
    "repo": "giz-wq/deepseek-harness-desktop",
    "name": "giz-wq-deepseek-harness-desktop",
    "verdict": "ok",
@@ -79129,6 +79206,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "smellgamed3/dsh-plugin-list-sync",
+   "name": "smellgamed3-dsh-plugin-list-sync",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Sync DeepSeek Harness plugin lists across clients via any S3-compatible endpoint (AWS S3 / MinIO / RustFS / R2"
   },
   {
    "repo": "sorry123maker/dsh-salary-cat",
@@ -87069,6 +87153,13 @@
    "desc": "dsh plugin: cross-session activity stats from per-call token records - daily trend, priciest sessions, model m"
   },
   {
+   "repo": "121212165/dsh-plugin-tool-trace",
+   "name": "121212165-dsh-plugin-tool-trace",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh plugin: per-tool-call telemetry - duration, argument and result sizes - into monthly JSONL, with /tools-st"
+  },
+  {
    "repo": "798645706/dsh-strawberry-data-hub",
    "name": "798645706-dsh-strawberry-data-hub",
    "verdict": "incompatible",
@@ -88915,6 +89006,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "🧭 DeepSeek Harness 会话时光机：消息撤回 · 原地编辑重发 · 重新生成 · 对话与产物版本化回退 (Session Time Machine: Recall, Edit-Resend, Artifac"
+  },
+  {
+   "repo": "drscrewdriver/dsh-tidy-display",
+   "name": "drscrewdriver-dsh-tidy-display",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "整洁显示 Tidy Display — reading view + message rail for DeepSeek Harness 0.1.7, merged from dsh-better-display × d"
   },
   {
    "repo": "echo-lgtm/dsh-plugin-wechat-official",
@@ -92954,6 +93052,13 @@
    "verdict": "ok",
    "stars": 256,
    "desc": "ACRYL - Agent Context Relay Yielding Lifecycles"
+  },
+  {
+   "repo": "yannicksong0106/dsh-550c-boot",
+   "name": "yannicksong0106-dsh-550c-boot",
+   "verdict": "ok",
+   "stars": 233,
+   "desc": "550C 开机动画 for DeepSeek Harness — 首帧由宿主半边注入，DSH 的 Loading 卡片不露脸；桌面原生标题栏按钮收编成终端配色 \\| 550C boot splash plugin for"
   },
   {
    "repo": "PerryLink/dsh-auto-review",
