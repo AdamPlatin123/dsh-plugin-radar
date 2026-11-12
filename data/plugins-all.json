@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T07:16:08Z",
+ "generated_at": "2026-11-12T07:31:10Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4705,6 +4705,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "OpenTelemetry plugin for DeepSeek Harness (dsh) — traces and metrics for agent runs, tools, and model calls"
+  },
+  {
+   "repo": "kxdyh/dsh-agent-governor",
+   "name": "kxdyh-dsh-agent-governor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Two interception layers for DeepSeek Harness agents - DOL communication semantics and Sentinel tool execution"
   },
   {
    "repo": "lavenleo/dsh-web-summary",
@@ -11805,6 +11812,13 @@
    "desc": "—"
   },
   {
+   "repo": "longhao666666/dsh-ask-mode",
+   "name": "longhao666666-dsh-ask-mode",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness 插件：会话内一键切换咨询模式——只读问答，仅可新建 txt/md/docx 产出"
+  },
+  {
    "repo": "lynx-gt/dsh-subagent-cwd",
    "name": "dsh-subagent-cwd",
    "verdict": "incompatible",
@@ -12650,6 +12664,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Real-time environment context plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "liuyuhao1122/dsh-hermes-memory",
+   "name": "liuyuhao1122-dsh-hermes-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Lightweight layered memory plugin for DeepSeek Harness with automatic distillation and compaction."
   },
   {
    "repo": "lizhecome/deepseek-harness-tool-palette",
@@ -13973,6 +13994,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH上下文压缩插件"
+  },
+  {
+   "repo": "liuqingman/dsh-somni",
+   "name": "liuqingman-dsh-somni",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Sleep-consolidated long-term memory for DeepSeek Harness (DSH) agents"
   },
   {
    "repo": "liushutan/dsh-skills-manager",
@@ -33015,6 +33043,13 @@
    "desc": "DSH 插件（Web 版 / 桌面版通用）：输入框上方常驻快捷条 + 闪电笔弹层，点选预设提示词追加到原有内容之后（不清空），可按条开启自动发送、可设序号排序，支持 MD 导入导出；数据存全局 ~/.dsh/quick-"
   },
   {
+   "repo": "longhao666666/dsh-element-context",
+   "name": "longhao666666-dsh-element-context",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 插件：对话中圈选/关联 UI 元素，把选择器、源码位置、盒模型与计算样式注入模型提示词"
+  },
+  {
    "repo": "lovedheart/dsh-plugin-token-usage",
    "name": "lovedheart-dsh-plugin-token-usage",
    "verdict": "incompatible",
@@ -33139,6 +33174,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Device-workspace federation plugin for the dsh web GUI: pair into another DSH instance and browse its projects"
+  },
+  {
+   "repo": "novaschai7/dsh-plugin-balance-ui",
+   "name": "novaschai7-dsh-plugin-balance-ui",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek account balance, today's token usage and estimated spend in the dsh Web client sidebar"
   },
   {
    "repo": "omdsh-dev/dsh-ui-progress",
@@ -79446,6 +79488,13 @@
    "desc": "—"
   },
   {
+   "repo": "huanglianqi/dsh-math-snippets",
+   "name": "huanglianqi-dsh-math-snippets",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "LaTeX snippet expansion in the DSH web composer: Tab expands a trigger into a formula template with the caret"
+  },
+  {
    "repo": "ig50-service/ig50-skill",
    "name": "ig50-service-ig50-skill",
    "verdict": "pending",
@@ -87517,6 +87566,13 @@
    "desc": "Memory Fortress for DeepSeek Harness: 5-track layered memory, self-evolution, knowledge graph (SQLite+FTS5), s"
   },
   {
+   "repo": "longhao666666/dsh-session-delete",
+   "name": "longhao666666-dsh-session-delete",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness 插件：侧栏一键删除会话（先归档再清理磁盘日志，运行中的会话受保护）"
+  },
+  {
    "repo": "ltxlong/dsh-session-kit",
    "name": "ltxlong-dsh-session-kit",
    "verdict": "incompatible",
@@ -88341,6 +88397,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "xmap Excel schema-map tools for DeepSeek Harness (7 tools: sheets/headers/hash/extract/verify/save-spec/aggreg"
+  },
+  {
+   "repo": "lxl8182/dsh-session-ops",
+   "name": "lxl8182-dsh-session-ops",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web 会话管理插件：设置 → 会话管理，一键归档 / 一键还原 / 一键删除（删除移入回收目录，可手工恢复）"
   },
   {
    "repo": "mervyn-teo/dsh-plugin-rag",
@@ -93103,6 +93166,13 @@
    "desc": "DSH web plugin: reorder queued messages (up / down / top / bottom) before the agent processes them."
   },
   {
+   "repo": "lxl8182/dsh-message-edit",
+   "name": "lxl8182-dsh-message-edit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web 用户消息编辑重发插件：改掉某一轮提问重发，该轮之后的内容丢弃，原会话归档（新会话继承逐字节相同前缀以保住 prompt 缓存）"
+  },
+  {
    "repo": "lzylyd/multi-channel-notify",
    "name": "lzylyd-multi-channel-notify",
    "verdict": "incompatible",
@@ -93997,6 +94067,13 @@
    "verdict": "ok",
    "stars": 21,
    "desc": "File explorer plugin for DeepSeek Harness: file tree, preview, markdown, syntax highlighting, in-panel editing"
+  },
+  {
+   "repo": "linner1224/dsh-video-coursemap",
+   "name": "linner1224-dsh-video-coursemap",
+   "verdict": "ok",
+   "stars": 21,
+   "desc": "视频课程知识地图 Agent（DeepSeek Harness 插件）"
   },
   {
    "repo": "PerryLink/dsh-github",
@@ -104357,6 +104434,13 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "Worktree Space：将一个可包含多个 Git 仓库的工作区任务放进独立的任务空间目录——参与的每个仓库使用同一个任务分支各开一个 worktree；空间自动注册为 DSH 工作区，会话直接在其中开工，多个任务并"
+  },
+  {
+   "repo": "kyle123740/dsh-zcode-cli-proxy",
+   "name": "kyle123740-dsh-zcode-cli-proxy",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "dsh-zcode cli反代 —— 把 ZCode CLI（客户端 agent）接入 DeepSeek Harness：app-server 常驻通道、Start Plan 额度直连、真流式、图片输入、工具委派"
   },
   {
    "repo": "lee259/dsh-workbench",
