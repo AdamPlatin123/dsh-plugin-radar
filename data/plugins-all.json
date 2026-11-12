@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T10:31:23Z",
+ "generated_at": "2026-11-12T10:46:17Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3937,6 +3937,13 @@
    "desc": "DeepSeek Harness plugin for long-form Chinese AI novel writing: layered context, foreshadowing ledger, anti-AI"
   },
   {
+   "repo": "bdydgz114514/dsh-free-media",
+   "name": "bdydgz114514-dsh-free-media",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 免费多模态三件套：零 Key 文生图 + 零 Key 视频理解 + 免费文生视频/图生视频"
+  },
+  {
    "repo": "beijingwahw/dsh-companion-dev",
    "name": "beijingwahw-dsh-companion-dev",
    "verdict": "ok",
@@ -6490,6 +6497,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "deepseek harness  memory plugin"
+  },
+  {
+   "repo": "daoyu1993-lab/dsh-plugin-composer-align",
+   "name": "daoyu1993-lab-dsh-plugin-composer-align",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Pin the New Session composer to the exact place the conversation composer occupies, so the input box stops jum"
   },
   {
    "repo": "davidgereb/dsh-plugin-prompt-guard",
@@ -25014,6 +25028,13 @@
    "desc": "DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a"
   },
   {
+   "repo": "apherchin/dsh-photo2dsh-by-lan",
+   "name": "apherchin-dsh-photo2dsh-by-lan",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "手机拍照经局域网一键进 PC 文件夹，DSH 插件面板可配落地目录 \\| DSH plugin: one-tap photo transfer from phone to a configurable folder on"
+  },
+  {
    "repo": "apherchin/dsh-session-rewind",
    "name": "apherchin-dsh-session-rewind",
    "verdict": "ok",
@@ -25418,6 +25439,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "daoyu1993-lab/dsh-plugin-sidebar-polish",
+   "name": "daoyu1993-lab-dsh-plugin-sidebar-polish",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Polish the DSH left sidebar: drop the brand row, redraw New Session as a panel row, unify row heights, tune th"
   },
   {
    "repo": "davidgereb/dsh-plugin-better-mobile-ui",
@@ -86215,6 +86243,13 @@
    "desc": "—"
   },
   {
+   "repo": "als3453/dsh-docs-reader",
+   "name": "als3453-dsh-docs-reader",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 的开发文档阅读器插件(文档浏览 + 知识图谱)"
+  },
+  {
    "repo": "amazing-fish/dsh-plugins",
    "name": "amazing-fish-dsh-plugins",
    "verdict": "pending",
@@ -101095,6 +101130,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH-native web-fiction writing skill pack (from oh-story-claudecode): scan, teardown analysis, writing, de-AI,"
+  },
+  {
+   "repo": "citrusli2026/dsh-verified-plugins",
+   "name": "citrusli2026-dsh-verified-plugins",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Execution-verified plugin reports for DeepSeek Harness — install it, load it, run it, measure it"
   },
   {
    "repo": "cKNKSnd/dsh-model-provider-badge",

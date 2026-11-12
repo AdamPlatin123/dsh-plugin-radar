@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3298）
+# 🔌 Web UI 增强（3301）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1446,8 +1446,10 @@
 - 🟩 `[可用]` [ankye-dsh-image-generation](https://github.com/ankye/dsh-image-generation) ★0 — Give your DeepSeek Harness agent a paintbrush
 - 🟩 `[可用]` [ant404-dsh-session-delete-ui](https://github.com/ant404/dsh-session-delete-ui) ★0 — DSH (DeepSeek Harness) plugin: adds a permanent Delete session action to the sidebar session row menu, with a
 - `[未定位]` **apeincodemountain-llm-wiki-sidebar** — 占位待复核，判定暂不展示
+- 🟩 `[可用]` [apherchin-dsh-photo2dsh-by-lan](https://github.com/apherchin/dsh-photo2dsh-by-lan) ★0 — 手机拍照经局域网一键进 PC 文件夹，DSH 插件面板可配落地目录 \| DSH plugin: one-tap photo transfer from phone to a configurable folder on
 - 🟩 `[可用]` [apherchin-dsh-session-rewind](https://github.com/apherchin/dsh-session-rewind) ★0 — （已合并进 dsh-wonder-tools）重新生成（从这里重来）：把某轮及之后从模型视野作废、原提示词回填输入框，支持分支找回
 - 🟩 `[可用]` [apherchin-dsh-sidefork-a-teammate](https://github.com/apherchin/dsh-sidefork-a-teammate) ★0 — 从界面直接派生队友：/teammate 两种模式——新建队友（全新、不继承任何上下文）或 fork 队友（并行分支，继承已完成的回合）
+- `[未定位]` **aprilcrystal-dsh-client-ui-font-scale** — 占位待复核，判定暂不展示
 - `[未定位]` **aprilcrystal-dsh-client-ui-gpt-helper** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [aqiane-dsh-client-ui-period-hint](https://github.com/aqiane/dsh-client-ui-period-hint) ★0 — 在输入栏显示当前dsAPI价格时段
 - ⬜ `[待定]` [as17514-dsh-cc-suite](https://github.com/AS17514/dsh-cc-suite) ★0 — —
@@ -1530,6 +1532,7 @@
 - 🟩 `[可用]` [danhcng3822f-dsh-upload-plugin](https://github.com/danhcng3822f/dsh-upload-plugin) ★0 — DeepSeek Harness plugin providing Add photos, Add files, and Uploaded files in chat UI with vision validation
 - `[未定位]` **daniel92q-dsh-sidebar-footer-stack** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [danieltoraji-dsh-skin-kamisato](https://github.com/Danieltoraji/dsh-skin-kamisato) ★0 — —
+- 🟩 `[可用]` [daoyu1993-lab-dsh-plugin-sidebar-polish](https://github.com/daoyu1993-lab/dsh-plugin-sidebar-polish) ★0 — Polish the DSH left sidebar: drop the brand row, redraw New Session as a panel row, unify row heights, tune th
 - `[空仓监测]` **darkskyx15-dsh-client-ui-m3-theme** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [davidgereb-dsh-plugin-better-mobile-ui](https://github.com/davidgereb/dsh-plugin-better-mobile-ui) ★0 — Better UI for DeepSeek Harness's web view on mobile.
 - ⬜ `[待定]` [dddzzz123-dz-dsh-read-image-plugin](https://github.com/dddzzz123-dz/dsh-read-image-plugin) ★0 — Image input fallback for DeepSeek Harness with native multimodal model detection and Volcengine Ark vision.
