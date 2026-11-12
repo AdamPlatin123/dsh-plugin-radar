@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T08:46:25Z",
+ "generated_at": "2026-11-12T09:01:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3431,6 +3431,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness (dsh) usage analytics plugin: peak/valley billing dock, token/cost/model dashboard, cross-ses"
+  },
+  {
+   "repo": "wula1223/dsh-plugin-dev",
+   "name": "wula1223-dsh-plugin-dev",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH plugin/hook/skill development standard - a battle-tested playbook for DeepSeek Harness"
   },
   {
    "repo": "xiaohou521/fusion-moa",
@@ -7400,6 +7407,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "📊OKX 官方行情技能库 for DeepSeek Harness (DSH)：将 OKX 官方 okx-cex-market 技能（价格/K线/资金费率/70+ 技术指标）零改动适配进 DSH 生态，支持纯技能目录与"
+  },
+  {
+   "repo": "kotinder/dsh-roomcomm",
+   "name": "kotinder-dsh-roomcomm",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Roomcomm for DeepSeek Harness: your dsh agent talks to other AI agents in shared rooms (MCP tools + skill, zer"
   },
   {
    "repo": "kpl0111/dsh-context-guard",
@@ -13877,6 +13891,13 @@
    "desc": "工具面分档（DSH agent preset 行）：按证据化的 deny 集在 agent 作用域收窄模型可见工具，lean/full 一键切换 + 审计留痕，降低工具 schema 的固定上下文成本与工具选择稀释"
   },
   {
+   "repo": "jyd1230/dsh-approval-chime",
+   "name": "jyd1230-dsh-approval-chime",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 审批弹窗风铃提醒插件（Windows）：每次需要人工确认的审批弹窗出现时，播放约 3 秒的清脆风铃声"
+  },
+  {
    "repo": "kalifun/dsh-cwl",
    "name": "kalifun-dsh-cwl",
    "verdict": "incompatible",
@@ -17914,6 +17935,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "DSH插件-模型余额显示功能"
+  },
+  {
+   "repo": "xiangrikuibaize/dsh-tide-badge",
+   "name": "xiangrikuibaize-dsh-tide-badge",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH 输入框下方的计费时段与余额药丸：峰价/谷价（含中国法定节假日与周末规则）、切换倒计时、账户余额（桌面端账号优先，API Key 兜底）"
   },
   {
    "repo": "xiaowei2025cqu23phy/dsh-desktop",
@@ -22718,6 +22746,13 @@
    "desc": "—"
   },
   {
+   "repo": "lyjsyyds/dsh-novel-studio",
+   "name": "lyjsyyds-dsh-novel-studio",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A dedicated novel-writing partition for DeepSeek Harness: books, characters, worldbuilding, outline, chapters,"
+  },
+  {
    "repo": "lynsucceed/dsh-openclaw-persona",
    "name": "lynsucceed-dsh-openclaw-persona",
    "verdict": "ok",
@@ -26358,6 +26393,13 @@
    "desc": "Feishu (Lark) OAuth login gate for the DeepSeek Harness web GUI — a signed session cookie in front of every HT"
   },
   {
+   "repo": "jiangr100/dsh-workspace-scope-selection",
+   "name": "jiangr100-dsh-workspace-scope-selection",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A fourth DSH permission option: selected-workspace-write with a directory-tree scope editor for the DeepSeek H"
+  },
+  {
    "repo": "jiangshirong/dsh-plugin-ui-zoom",
    "name": "jiangshirong-dsh-plugin-ui-zoom",
    "verdict": "ok",
@@ -27105,6 +27147,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 自动审批决策管道：例行沙箱越界自动放行，危险/拿不准/失败一律转人工（fail-safe）；学习受约束可一键清空；含分级配置 UI 与块级撤销审查视图"
+  },
+  {
+   "repo": "lyjsyyds/dsh-quick-reload",
+   "name": "lyjsyyds-dsh-quick-reload",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A one-click page refresh for the DeepSeek Harness Web UI: it reboots the page against the freshly published mo"
   },
   {
    "repo": "lyke-61/dsh-custom-instructions",
@@ -28071,6 +28120,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "A complete, human-centered memory layer for DeepSeek that stores user preferences, conversation notes, and per"
+  },
+  {
+   "repo": "siluwr/dsh-paper-reader",
+   "name": "siluwr-dsh-paper-reader",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Local paper reading for DeepSeek Harness: a sidebar reader panel plus paper_read/paper_list/paper_scan tools,"
   },
   {
    "repo": "simikangtao/dsh-storyboard",
@@ -33666,6 +33722,13 @@
    "desc": "Desktop distribution of DeepSeek Harness (dsh): an Electron shell that bundles the official DeepSeek AI agent-〔📦〕"
   },
   {
+   "repo": "xlennart/dsh-auto-review-jev",
+   "name": "xlennart-dsh-auto-review-jev",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness 审批守护者：权限请求先由审查模型裁决"
+  },
+  {
    "repo": "xmanrui/dsh-dingtalk",
    "name": "xmanrui-dsh-dingtalk",
    "verdict": "incompatible",
@@ -34952,6 +35015,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Web UI 强化插件：功能模块可开关，含提供方标签、级联模型选择器、设置面板拖动 等"
+  },
+  {
+   "repo": "piaobo123/dsh-houhuiyao",
+   "name": "piaobo123-dsh-houhuiyao",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH Web「后悔药」插件：最后一条回答上的重新生成 / 编辑提问 / 删除这轮 / 版本翻页器（判据读全量日志，不受客户端 50 条窗口裁剪影响）"
   },
   {
    "repo": "piggy00544/dsh-upgrade-kit",
@@ -86383,6 +86453,13 @@
    "desc": "—"
   },
   {
+   "repo": "lctfwyt/dsh-liuyao",
+   "name": "lctfwyt-dsh-liuyao",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Six-Line Divination (liuyao) for DeepSeek Harness — one-click casting, eight-palace najia chart, AI interpreta"
+  },
+  {
    "repo": "lengduan/dsh-usage-stats",
    "name": "lengduan-dsh-usage-stats",
    "verdict": "ok",
@@ -108305,6 +108382,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 插件：在「模型」设置页一键测试模型可用性（可用性 / TPS / 首 token / 耗时）"
+  },
+  {
+   "repo": "minglo/dsh-plugin-llm-codebuddy",
+   "name": "minglo-dsh-plugin-llm-codebuddy",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Tencent CodeBuddy LLM adapter for DeepSeek Harness (dsh)"
   },
   {
    "repo": "monotykamary/dsh-fovea",
