@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T07:01:13Z",
+ "generated_at": "2026-11-12T07:16:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2129,6 +2129,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "aujurd22/dsh-flymemory",
+   "name": "aujurd22-dsh-flymemory",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Structural long-term memory for DeepSeek Harness: supersede/decay/entity-state store, 15 MCP memory tools, aut"
   },
   {
    "repo": "azazo1/dsh-fork-inbox-guard",
@@ -34030,6 +34037,13 @@
    "desc": "DeepSeek Harness 语音插件：火山 seed-tts 云端 TTS（自动回退 SAPI/Huihui 离线）+ 桌面通知 + 场景化 WAV 提示音 + 提问自动呼叫"
   },
   {
+   "repo": "dongshan1999/dsh-toolkit",
+   "name": "dongshan1999-dsh-toolkit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh 插件: 1"
+  },
+  {
    "repo": "dsh-publish/dsh-pair-quick",
    "name": "dsh-publish-dsh-pair-quick",
    "verdict": "incompatible",
@@ -34091,6 +34105,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 本地隐私网关：对话发给模型前脱敏个人信息，原文只在本机界面还原显示，并可生成 CSV/XLSX 脱敏副本"
+  },
+  {
+   "repo": "f1426912008/dsh-stock-ticker",
+   "name": "f1426912008-dsh-stock-ticker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness（DSH）Web GUI 的实时股票盯盘插件：A 股自选股迷你窗口，含分时曲线、悬停详情卡与自选股设置页"
+  },
+  {
+   "repo": "fanyongbing/dsh-mcp-native",
+   "name": "fanyongbing-dsh-mcp-native",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "MCP server manager for DeepSeek Harness — manage this machine's MCP servers as native Loader rows, from a Sett"
   },
   {
    "repo": "fengbinmov/dsh-git-panel",
@@ -63381,6 +63409,13 @@
    "desc": "—"
   },
   {
+   "repo": "copylee711/dsh-better-display",
+   "name": "copylee711-dsh-better-display",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "让 DeepSeek Harness Web 的回答图文并茂，并为联网搜索内容加上 GPT 式引用角标"
+  },
+  {
    "repo": "Haniubub/seo-toolkit",
    "name": "haniubub-seo-toolkit",
    "verdict": "incompatible",
@@ -67957,6 +67992,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "LLM model fallback plugin for DeepSeek Harness — automatically switch to the next configured model when a requ"
+  },
+  {
+   "repo": "f-e-n-g-0531/dsh-vcs",
+   "name": "f-e-n-g-0531-dsh-vcs",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "f-infinite-z/dsh-plugin-ops",
@@ -81616,6 +81658,13 @@
    "desc": "—"
   },
   {
+   "repo": "ethanrise/dsh-model-deploy",
+   "name": "ethanrise-dsh-model-deploy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Inspect ONNX models and benchmark them with ONNX Runtime on the local machine or over SSH, with PASS/FAIL depl"
+  },
+  {
    "repo": "fengyufengzi/dsh-learning-plugin",
    "name": "fengyufengzi-dsh-learning-plugin",
    "verdict": "ok",
@@ -94363,6 +94412,13 @@
    "desc": "—"
   },
   {
+   "repo": "f-e-n-g-0531/dsh-code-review",
+   "name": "f-e-n-g-0531-dsh-code-review",
+   "verdict": "ok",
+   "stars": 9,
+   "desc": "—"
+  },
+  {
    "repo": "hackerFish/dsh-video-studio",
    "name": "hackerfish-dsh-video-studio",
    "verdict": "ok",
@@ -100143,6 +100199,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "面向 Agent 的 DeepSeek Harness 插件升级与排障工具：分析版本差异、迁移代码、验证构建与运行，并诊断 profile、依赖和配置问题"
+  },
+  {
+   "repo": "bwndlct/dsh-codex-bridge",
+   "name": "bwndlct-dsh-codex-bridge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Delegate Codex tasks to a running official DeepSeek Harness Desktop Host over MCP + loopback plugin"
   },
   {
    "repo": "bycall/dsh-code-collector",
@@ -106093,6 +106156,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: password SSH into a remote host — a natural-language tool over a persistent ControlMaster session,"
+  },
+  {
+   "repo": "frederico-kluser/dsh-orquestrator",
+   "name": "frederico-kluser-dsh-orquestrator",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: pick the model your subagents run on — with a reasoning-effort ceiling and an output-"
   },
   {
    "repo": "fulander0301/dsh-tool-read-tiff",
