@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T16:31:19Z",
+ "generated_at": "2026-11-12T16:46:16Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -19225,6 +19225,13 @@
    "desc": "—"
   },
   {
+   "repo": "wyzh0117/dsh-skill-select",
+   "name": "wyzh0117-dsh-skill-select",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DSH web plugin: pick skills from a sidebar and inject them into the current session."
+  },
+  {
    "repo": "xarleyn/dsh-plugins",
    "name": "xarleyn-dsh-plugins",
    "verdict": "ok",
@@ -22149,6 +22156,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH 插件：可拖拽余额饼图 / 真实消耗 / 历史热力图 — balance pie with real spending & monthly heatmap for DeepSeek Harness."
+  },
+  {
+   "repo": "fazhu4/dsh-usage-insights",
+   "name": "fazhu4-dsh-usage-insights",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "dsh的本地用量面板，统计 Token、请求、Agent 活动、工具调用和性能"
   },
   {
    "repo": "fendouai/deepseek-harness-skin",
@@ -32546,13 +32560,6 @@
    "desc": "—"
   },
   {
-   "repo": "wyzh0117/dsh-skill-select",
-   "name": "wyzh0117-dsh-skill-select",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "DSH web plugin: pick skills from a sidebar and inject them into the current session."
-  },
-  {
    "repo": "y2zyyr/dsh-token-usage-sidebar",
    "name": "y2zyyr-dsh-token-usage-sidebar",
    "verdict": "incompatible",
@@ -33587,13 +33594,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "dsh plugin: switch named model profiles (default model, think level, per-subagent models) interactively via th"
-  },
-  {
-   "repo": "fazhu4/dsh-usage-insights",
-   "name": "fazhu4-dsh-usage-insights",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "dsh的本地用量面板，统计 Token、请求、Agent 活动、工具调用和性能"
   },
   {
    "repo": "FlameTN7/dsh-tui-browser-use",
@@ -43804,7 +43804,7 @@
   {
    "repo": "Zenjibad/dsh-any-attachment",
    "name": "zenjibad-dsh-any-attachment",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "—"
   },
@@ -53756,13 +53756,6 @@
    "desc": "deepseek harness的插件库"
   },
   {
-   "repo": "NetMind-AI/dsh-narra-channel",
-   "name": "netmind-ai-dsh-narra-channel",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "netori/dsh-imagegen-zhenzhen",
    "name": "netori-dsh-imagegen-zhenzhen",
    "verdict": "ok",
@@ -62044,13 +62037,6 @@
    "desc": "—"
   },
   {
-   "repo": "WSYXIUBA/dsh-plugin-starmap",
-   "name": "wsyxiuba-dsh-plugin-starmap",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "dsh-plugin-collection/dsh-herdr-site",
    "name": "wujiaojue-dsh-herdr-site",
    "verdict": "ok",
@@ -62217,13 +62203,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "enterprise-compliance"
-  },
-  {
-   "repo": "XiaoWind/dsh-btw",
-   "name": "xiaowind-dsh-btw",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "XiaoWind/dsh-cron",
@@ -62952,13 +62931,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Independent one-click restart for DeepSeek Harness web (Settings page)"
-  },
-  {
-   "repo": "zhouStar7/dsh-kanban",
-   "name": "zhoustar7-dsh-kanban",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "zhulianxing/dsh-clawpay",
@@ -70101,6 +70073,13 @@
    "desc": "—"
   },
   {
+   "repo": "NetMind-AI/dsh-narra-channel",
+   "name": "netmind-ai-dsh-narra-channel",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "nicklin99/dsh-find-jobs",
    "name": "nicklin99-dsh-find-jobs",
    "verdict": "incompatible",
@@ -71214,6 +71193,13 @@
    "desc": "Community plugins for DeepSeek Harness (dsh)"
   },
   {
+   "repo": "WSYXIUBA/dsh-plugin-starmap",
+   "name": "wsyxiuba-dsh-plugin-starmap",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "wupup/dsh-custom-style",
    "name": "wupup-dsh-custom-style",
    "verdict": "incompatible",
@@ -71268,6 +71254,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-plugin-eval"
+  },
+  {
+   "repo": "XiaoWind/dsh-btw",
+   "name": "xiaowind-dsh-btw",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "XiaoWind/dsh-vault",
@@ -71447,6 +71440,13 @@
   {
    "repo": "ZhijiangTang/dsh-plugin-template",
    "name": "zhijiangtang-dsh-plugin-template",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "zhouStar7/dsh-kanban",
+   "name": "zhoustar7-dsh-kanban",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -101216,13 +101216,6 @@
    "desc": "DeepSeek Harness 颜色预览插件：按需预览对话中提到的十六进制颜色"
   },
   {
-   "repo": "zclDragon/dsh-side-chat",
-   "name": "zcldragon-dsh-side-chat",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "zdjmrq/dsh-text-open-source",
    "name": "zdjmrq-dsh-text-open-source",
    "verdict": "pending",
@@ -108568,6 +108561,13 @@
   {
    "repo": "ZChenW/dsh-codex-switch",
    "name": "zchenw-dsh-codex-switch",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "zclDragon/dsh-side-chat",
+   "name": "zcldragon-dsh-side-chat",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"

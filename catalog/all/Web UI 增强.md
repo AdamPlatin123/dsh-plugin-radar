@@ -574,6 +574,7 @@
 - 🟩 `[可用]` [weibaohui-experts-management](https://github.com/weibaohui/experts-management) ★3 — dsh 插件 · 专家市场：ntd 格式专家/专家团队管理与注入（＋专家按钮 / /expert-名称 手势），稀疏检出专家市场
 - 🟩 `[可用]` [westanke-dsh-desktop-deepin](https://github.com/westanke/dsh-desktop-deepin) ★3 — Deepin/UOS Linux build of the DeepSeek Harness desktop shell — community fork with Linux packaging (deb/AppIma
 - 🟩 `[可用]` [whiteplusms-dsh-input-plus](https://github.com/WhitePlusMS/dsh-input-plus) ★3 — —
+- ⬜ `[待定]` [wyzh0117-dsh-skill-select](https://github.com/wyzh0117/dsh-skill-select) ★3 — DSH web plugin: pick skills from a sidebar and inject them into the current session.
 - 🟩 `[可用]` [xarleyn-dsh-plugins](https://github.com/xarleyn/dsh-plugins) ★3 — Community plugins, developer tooling, and shared utilities for extending DeepSeek Harness — built as an Nx + p
 - 🟩 `[可用]` [dsh-plugin-conversation-outline](https://github.com/XavierMarquis93/dsh-plugin-conversation-outline) ★3 — DeepSeek Harness conversation outline plugin (对话目录)
 - 🟩 `[可用]` [xbzbing-dsh-openviking-manager](https://github.com/xbzbing/dsh-openviking-manager) ★3 — OpenViking 的 DSH 配置管理 UI：连接与用户 Key 配置、本机诊断、会话级记忆开关，以及记忆隔离与召回调优（分数阈值 / 注入条数 / 查询扩写 / 排除 URI）
@@ -1001,6 +1002,7 @@
 - 🟩 `[可用]` [eternalnight996-dsh-ui-three-body](https://github.com/EternalNight996/dsh-ui-three-body) ★1 — —
 - 🟩 `[可用]` [extension-hunter-dsh-pip](https://github.com/extension-hunter/dsh-pip) ★1 — Detach the DeepSeek Harness Web GUI into a Document Picture-in-Picture window (dsh bundle plugin)
 - 🟩 `[可用]` [f1yan9-dsh-balance-pie](https://github.com/f1yan9/dsh-balance-pie) ★1 — DSH 插件：可拖拽余额饼图 / 真实消耗 / 历史热力图 — balance pie with real spending & monthly heatmap for DeepSeek Harness.
+- ⬜ `[待定]` [fazhu4-dsh-usage-insights](https://github.com/fazhu4/dsh-usage-insights) ★1 — dsh的本地用量面板，统计 Token、请求、Agent 活动、工具调用和性能
 - 🟩 `[可用]` [fendouai-deepseek-harness-skin](https://github.com/fendouai/deepseek-harness-skin) ★1 — —
 - 🟩 `[可用]` [feng78-boop-dsh-thirteen-bg](https://github.com/feng78-boop/dsh-thirteen-bg) ★1 — Animated and video live wallpaper for the DeepSeek Harness Web GUI - GIF, animated WebP/APNG images plus MP4/W
 - 🟩 `[可用]` [fengb3-dsh-theme-aurum](https://github.com/fengb3/dsh-theme-aurum) ★1 — DSH 鎏金主题插件:金粉奢华皮肤,htm 恒等映射流水,原型驱动的逐节移植
@@ -2706,7 +2708,6 @@
 - 🟨 `[不兼容]` [u9521-dsh-session-settings](https://github.com/u9521/dsh-session-settings) ★3 — Session settings, MCP servers, and Skill management plugin for DeepSeek Harness (DSH) Web GUI.
 - 🟨 `[不兼容]` [wang-bool-visual-review](https://github.com/wang-bool/visual-review) ★3 — DeepSeek Harness plugin for image upload, in-chat rendering, and vision analysis with cloud or local models
 - 🟨 `[不兼容]` [wulabalabo-dsh-sidebar-explorer-plus](https://github.com/Wulabalabo/dsh-sidebar-Explorer-Plus) ★3 — —
-- 🟨 `[不兼容]` [wyzh0117-dsh-skill-select](https://github.com/wyzh0117/dsh-skill-select) ★3 — DSH web plugin: pick skills from a sidebar and inject them into the current session.
 - 🟨 `[不兼容]` [y2zyyr-dsh-token-usage-sidebar](https://github.com/y2zyyr/dsh-token-usage-sidebar) ★3 — Persistent local token usage sidebar and settings page for DeepSeek Harness (DSH), with automatic history disc
 - 🟨 `[不兼容]` [yangdongzhen590-dsh-knj-workflow](https://github.com/yangdongzhen590/dsh-knj-workflow) ★3 — Config-driven development-task orchestration plugin for DeepSeek Harness: workflows + task management + stage
 - 🟨 `[不兼容]` [dsh-project-wiki](https://github.com/yu-xin-c/dsh-project-wiki) ★3 — Auditable workspace-local project Wiki with a native Web UI for DeepSeek Harness
@@ -2857,7 +2858,6 @@
 - 🟨 `[不兼容]` [exoticknight-dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) ★1 — A paper-and-ink client-side theme for DeepSeek Harness with Balanced and Immersive modes.
 - 🟨 `[不兼容]` [fallow5-dsh-pin-sessions](https://github.com/fallow5/dsh-pin-sessions) ★1 — DSH (DeepSeek Harness) web plugin: pin sessions to the top of the sidebar for quick access to recurring workfl
 - 🟨 `[不兼容]` [fan56-dsh-profile-switch](https://github.com/fan56/dsh-profile-switch) ★1 — dsh plugin: switch named model profiles (default model, think level, per-subagent models) interactively via th
-- 🟨 `[不兼容]` [fazhu4-dsh-usage-insights](https://github.com/fazhu4/dsh-usage-insights) ★1 — dsh的本地用量面板，统计 Token、请求、Agent 活动、工具调用和性能
 - 🟨 `[不兼容]` [flametn7-dsh-tui-browser-use](https://github.com/FlameTN7/dsh-tui-browser-use) ★1 — —
 - 🟨 `[不兼容]` [fomogoman-dsh-serena-guide](https://github.com/FomoGoMan/dsh-serena-guide) ★1 — —
 - 🟨 `[不兼容]` [frankxxxxue-dsh-photo-skins](https://github.com/frankxxxxue/dsh-photo-skins) ★1 — A DeepSeek Harness plugin that turns your photos into Web GUI skins — auto-extracted accent colors, all files
