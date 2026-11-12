@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T08:16:08Z",
+ "generated_at": "2026-11-12T08:31:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -10475,6 +10475,13 @@
    "desc": "GEML is a lightweight markup language with uniform, addressable blocks and standard verbs"
   },
   {
+   "repo": "joeseesun/qiaomu-home-dsh",
+   "name": "joeseesun-qiaomu-home-dsh",
+   "verdict": "incompatible",
+   "stars": 28,
+   "desc": "乔木 Home：让 Harness 成为一天的起点"
+  },
+  {
    "repo": "drscrewdriver/dsh-prime-memory",
    "name": "drscrewdriver-dsh-prime-memory",
    "verdict": "incompatible",
@@ -11588,6 +11595,13 @@
    "desc": "Cap how long one DSH tool call may wait: a global default wait limit in Settings, plus a per-session raise the"
   },
   {
+   "repo": "better-er/dsh-mobile-drawer",
+   "name": "better-er-dsh-mobile-drawer",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "「DSH·手机适配」：窄屏下把侧栏收成悬浮小方块，点会话自动收起，并压掉切会话时的自动聚焦，免得软键盘把页面顶起"
+  },
+  {
    "repo": "boyun-zhang/better-session-management",
    "name": "boyun-zhang-better-session-management",
    "verdict": "incompatible",
@@ -12461,6 +12475,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "he0119/dsh-tailnet-admin",
+   "name": "he0119-dsh-tailnet-admin",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "把 Tailnet / 反向代理页面当作「本机」来用：启用 host 持久化设置，并按需关闭浏览器会话校验（Host/Origin 栅栏保持不动）"
   },
   {
    "repo": "Heeweelee/dsh-session-plugin",
@@ -32833,6 +32854,13 @@
    "desc": "Read-only DeepSeek Harness Web version status and release-channel guidance plugin"
   },
   {
+   "repo": "invoker-bandit/dsh-history-up",
+   "name": "invoker-bandit-dsh-history-up",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "一个 DeepSeek Harness 插件：记录每个会话里你提交过的输入，支持用 <kbd>↑</kbd> 方向键逐条回溯，也可以用 <kbd>/</kbd> 菜单挑一条填进输入框"
+  },
+  {
    "repo": "ising-tech/isingq-toolkit",
    "name": "ising-tech-isingq-toolkit",
    "verdict": "incompatible",
@@ -32908,6 +32936,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "joeseesun/qiaomu-radio-dsh",
+   "name": "joeseesun-qiaomu-radio-dsh",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "乔木电台 DeepSeek Harness 插件 \\| Live radio with themed players, mood channels and local listening history"
   },
   {
    "repo": "jonah791/dsh-agent-webops",
@@ -34352,6 +34387,13 @@
    "desc": "DSH Web GUI plugin: adds a live search field inside the model picker menu of the composer, plus the Effort (re"
   },
   {
+   "repo": "huguangyu666/dsh-plugin-better-folders",
+   "name": "huguangyu666-dsh-plugin-better-folders",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：更好的 DSH 文件夹 —— 自动整理工作区，把同一上级目录下的工作区汇合成可折叠的文件夹节点（复用内置「按工作区树」视图，不覆盖官方 UI）"
+  },
+  {
    "repo": "hwangjunjie/dsh-session-move",
    "name": "hwangjunjie-dsh-session-move",
    "verdict": "incompatible",
@@ -34749,6 +34791,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "moazzamak/dsh-voice-input",
+   "name": "moazzamak-dsh-voice-input",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Offline local speech-to-text for the DeepSeek Harness composer: a microphone button that records, transcribes"
   },
   {
    "repo": "Momojie-S/dsh-right-dock",
@@ -87356,6 +87405,13 @@
    "desc": "One upload button plus drag-and-drop files into the conversation as local paths: save to project uploads/, pat"
   },
   {
+   "repo": "joeseesun/qiaomu-reader-dsh",
+   "name": "joeseesun-qiaomu-reader-dsh",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "乔木阅读：在 DeepSeek Harness 中阅读 EPUB、PDF、TXT，划线批注、导出阅读笔记与 AI 伴读"
+  },
+  {
    "repo": "siqyka/dsh-ssh-workspace",
    "name": "siqyka-dsh-ssh-workspace",
    "verdict": "incompatible",
@@ -91045,6 +91101,13 @@
    "desc": "Telegram pings when your DeepSeek Harness agent needs you — question asked, approval requested, turn done"
   },
   {
+   "repo": "chongyi/dsh-notify",
+   "name": "chongyi-dsh-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness notify plugin"
+  },
+  {
    "repo": "chou109/dsh-msgrail",
    "name": "chou109-dsh-msgrail",
    "verdict": "ok",
@@ -93423,6 +93486,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Securely connect your ChatGPT account to Codex in DeepSeek Harness"
+  },
+  {
+   "repo": "praystring/dsh-send-debounce",
+   "name": "praystring-dsh-send-debounce",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "把聊天框里连发的几条短消息合并成一轮后再唤醒模型（DSH 插件）"
   },
   {
    "repo": "qqc0821/dsh-plugin-wallpaper",
