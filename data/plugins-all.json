@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T05:01:03Z",
+ "generated_at": "2026-11-12T05:16:07Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -17041,6 +17041,13 @@
    "desc": "DSH WebUI 侧栏短视频插件：原生播放器、系列导航、直链解析与精确历史回放"
   },
   {
+   "repo": "asdnmy123/dsh-prompt-optimizer",
+   "name": "asdnmy123-dsh-prompt-optimizer",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "给 DSH 对话输入框加一个 ♂harden 按钮：一键把草稿锻造成硬邦邦、雷霆炫酷、肌肉集团味的提示词 —— 事实一条不丢，废话一句不留"
+  },
+  {
    "repo": "askman-dev/dsh-canvas-design-harness",
    "name": "askman-dev-dsh-canvas-design-harness",
    "verdict": "ok",
@@ -24669,6 +24676,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "（已合并进 dsh-wonder-tools）重新生成（从这里重来）：把某轮及之后从模型视野作废、原提示词回填输入框，支持分支找回"
+  },
+  {
+   "repo": "apherchin/dsh-sidefork-a-teammate",
+   "name": "apherchin-dsh-sidefork-a-teammate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "从界面直接派生队友：/teammate 两种模式——新建队友（全新、不继承任何上下文）或 fork 队友（并行分支，继承已完成的回合）"
   },
   {
    "repo": "aqiane/dsh-client-ui-period-hint",
@@ -34968,6 +34982,13 @@
    "desc": "A skill manager for the DeepSeek Harness web GUI"
   },
   {
+   "repo": "wenhongquan/dsh-open-file-viewer",
+   "name": "wenhongquan-dsh-open-file-viewer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Open File Viewer preview for DSH — PDF, Office, images, archives, CAD/3D/GIS preview inside the sidebar"
+  },
+  {
    "repo": "wizzy-yang/dsh-updater",
    "name": "wizzy-yang-dsh-updater",
    "verdict": "incompatible",
@@ -35113,6 +35134,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 用量统计插件：按工作区/会话/时段/模型统计 token 用量与 DeepSeek 费用"
+  },
+  {
+   "repo": "xmwengxing/dsh-client-ui-sidebar-perfmon",
+   "name": "xmwengxing-dsh-client-ui-sidebar-perfmon",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Real-time host performance monitoring for the DeepSeek Harness right Sidebar: CPU / memory / swap gauges plus"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -48553,6 +48581,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Declarative task-DAG orchestration plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "apherchin/dsh-websearch-tavily-keys-select",
+   "name": "apherchin-dsh-websearch-tavily-keys-select",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH（DeepSeek Harness）的 Web 搜索链路插件：源 → key → 额度 三级模型，一个源可放多把 key 各自限流；内置腾讯元宝搜索（SearchPro）、Tavily、DeepSeek 搜索 AP"
   },
   {
    "repo": "Apkawa/dsh-plugins",
@@ -84605,6 +84640,13 @@
    "desc": "DeepSeek Harness 全局 Token 用量统计插件 \\| Real usage tracking, durable ledger, cost estimation (OpenRouter pricing),"
   },
   {
+   "repo": "121212165/dsh-plugin-error-radar",
+   "name": "121212165-dsh-plugin-error-radar",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh plugin: tool reliability radar over tool-trace data - error rate, failure streaks and p95 latency per tool"
+  },
+  {
    "repo": "173787247/dsh-wsl-defender",
    "name": "173787247-dsh-wsl-defender",
    "verdict": "ok",
@@ -85275,6 +85317,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "apherchin/dsh-session-delete",
+   "name": "apherchin-dsh-session-delete",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "会话行菜单「删除对话」：永久删除会话（磁盘日志、投影缓存、归档/置顶记账），级联删除它派生的子代理会话，运行中一律拒绝；同菜单还能复制原始会话 ID"
   },
   {
    "repo": "awol2005ex3/dsh-export-session",
@@ -90315,6 +90364,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "apherchin/dsh-windows-session-notification",
+   "name": "apherchin-dsh-windows-session-notification",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "跨会话「需要接手」提醒（仅 Windows）：会话完成／等待审批／向你提问、而你没在看它时，弹出可点击跳回的 Windows 通知 + 分档提示音 + 任务栏角标"
   },
   {
    "repo": "AtomerCore/dsh-qq-agent-mail",
@@ -99529,6 +99585,13 @@
    "desc": "—"
   },
   {
+   "repo": "apherchin/dsh-rename-title-after-first-turn",
+   "name": "apherchin-dsh-rename-title-after-first-turn",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "主会话跑完第一轮后自动命名一次（首轮 Q+A；子代理/队友不受影响）"
+  },
+  {
    "repo": "ARCJ137442/dsh-plugin-custom-provider-raw-key",
    "name": "arcj137442-dsh-plugin-custom-provider-raw-key",
    "verdict": "ok",
@@ -103638,6 +103701,13 @@
    "desc": "PicoAide Harness：企业级 DeepSeek Harness 一体化平台〔📦〕"
   },
   {
+   "repo": "yh4922/dsh-workspace",
+   "name": "yh4922-dsh-workspace",
+   "verdict": "incompatible",
+   "stars": 14,
+   "desc": "A remote workspace plugin for DeepSeek Harness (DSH)"
+  },
+  {
    "repo": "zxlishixian/deepseek-harness-for-vscode",
    "name": "zxlishixian-deepseek-harness-for-vscode",
    "verdict": "incompatible",
@@ -106205,6 +106275,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Controlled A/B comparisons and evidence-backed reports for DeepSeek Harness plugins and presets."
+  },
+  {
+   "repo": "yourtion/dsh-decision",
+   "name": "yourtion-dsh-decision",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Extensible judgment layer for DeepSeek Harness and Pi: structured probability providers, shared tool-risk poli"
   },
   {
    "repo": "yuan-source-666/dsh-github-manager",
