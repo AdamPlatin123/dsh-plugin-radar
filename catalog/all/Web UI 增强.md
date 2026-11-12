@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3223）
+# 🔌 Web UI 增强（3227）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -277,6 +277,7 @@
 - 🟩 `[可用]` [dsh-lan](https://github.com/moxisuki/dsh-lan) ★6 — DeepSeek Harness（dsh）的局域网插件：一条 overlay 把 dsh web 绑定到局域网，并通过 index tap 注入 crypto.randomUUID    │ polyfill 修复非安全
 - 🟩 `[可用]` [mrdevlorx-dsh-model-garden](https://github.com/mrdevlorx/dsh-model-garden) ★6 — A searchable, sortable model picker for the DeepSeek Harness Web UI — provider groups, favorites, models.dev p
 - 🟩 `[可用]` [mrelysium-dsh-md-quiz](https://github.com/MrElysium/dsh-md-quiz) ★6 — —
+- 🟩 `[可用]` [muze63096-dsh-draw-plugin](https://github.com/muze63096/dsh-draw-plugin) ★6 — DeepSeek Harness 画图插件：侧边栏整页面板，写提示词即出图，Q版/正常两档画风，三引擎可选（免费 Pollinations / 硅基流动 Kolors / 任意 OpenAI 兼容）
 - 🟩 `[可用]` [nishuoyang-dsh-wallpaper-bg](https://github.com/nishuoyang/dsh-wallpaper-bg) ★6 — DeepSeek Harness 网页 UI 独立壁纸背景插件：三种来源，包括内置壁纸、自定义上传和 Wallpaper Engine 库（只读）
 - ⬜ `[待定]` [oitsukiii-deepseek-harness-lan](https://github.com/oitsukiii/deepseek-harness-lan) ★6 — Run DeepSeek Harness Web UI on your home LAN — 4 minimal patches + one-click apply/revert scripts \| 让 DeepSeek
 - 🟩 `[可用]` [omdsh-dev-dsh-gal](https://github.com/omdsh-dev/dsh-gal) ★6 — Galgame / visual-novel UI plugin for the DeepSeek Harness: a whale-girl companion with animated expressions, s
@@ -516,6 +517,7 @@
 - 🟩 `[可用]` [dsh-ui-quote-selection](https://github.com/nekogpt/dsh-ui-quote-selection) ★3 — Codex-style select-to-quote for DeepSeek Harness Web: quote any chat text into the composer as a native refere
 - 🟩 `[可用]` [nianpangzhi233-dsh-billing](https://github.com/nianpangzhi233/dsh-billing) ★3 — DSH web GUI realtime billing monitor: token/cost metering, DeepSeek v4 peak pricing, balance anchoring, sideba
 - 🟩 `[可用]` [nimustudio-nimuqdock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) ★3 — —
+- 🟩 `[可用]` [ns-zzj-dsh-scrcpy-core](https://github.com/ns-zzj/dsh-scrcpy-core) ★3 — DSH 投屏控制的共用核心：界面、设备列表、投屏面板与 AI 工具（配合其他 provider 使用）
 - 🟩 `[可用]` [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) ★3 — DSH knowledge-base plugin: build audit-able KB packs (references + SQLite FTS5) from md/txt/docx/pdf, determin
 - 🟩 `[可用]` [oxgbl-dsh-deepseek-price](https://github.com/oxgbl/dsh-deepseek-price) ★3 — ⏱️ DeepSeek 价格区间计时工具 \| DeepSeek Harness 插件：侧边栏高峰/空闲定价徽标 + 距半价倒计时 + 点击详情面板 + /price 命令
 - 🟩 `[可用]` [ph4310822-dsh-edex-jarvis-ui](https://github.com/ph4310822/dsh-edex-jarvis-ui) ★3 — DeepSeek Harness eDEX-UI shell plugin — JARVIS variant: electric cyan HUD with VITAL SIGNS / RT-MONITOR / RT-L
@@ -2807,6 +2809,8 @@
 - 🟨 `[不兼容]` [qinluza-dsh-rollback-visual](https://github.com/QinLuza/dsh-rollback-visual) ★1 — —
 - 🟨 `[不兼容]` [qiuyiwu1989-star-dsh-k12-substrate](https://github.com/qiuyiwu1989-star/dsh-k12-substrate) ★1 — 让 Agent 查询课程能力、清单知识点和本地学习者档案，辅助判断下一步学习
 - 🟨 `[不兼容]` [radicalgitter-dsh-ui-translate](https://github.com/RadicalGitter/dsh-ui-translate) ★1 — —
+- 🟨 `[不兼容]` [railgun52-dsh-mcp-servers](https://github.com/railgun52/dsh-mcp-servers) ★1 — MCP servers settings page for the dsh web GUI: a JSON editor over a profile-config namespace that mounts live
+- 🟨 `[不兼容]` [railgun52-dsh-user-rules](https://github.com/railgun52/dsh-user-rules) ★1 — User rules settings page for the dsh web GUI: a list editor over a profile-config namespace whose rules are in
 - 🟨 `[不兼容]` [rain02333z-spec-dsh-plugin-sidebar-manager](https://github.com/rain02333z-spec/dsh-plugin-sidebar-manager) ★1 — Installable DSH Web sidebar plugin manager with search, categories, and runtime toggles
 - 🟨 `[不兼容]` [rbelem-dsh-tui](https://github.com/rbelem/dsh-tui) ★1 — —
 - 🟨 `[不兼容]` [realchenwenqiao-dash](https://github.com/realchenwenqiao/dash) ★1 — DASH — a pi-tui terminal front door for DeepSeek Harness, installed as a dsh bundle plugin

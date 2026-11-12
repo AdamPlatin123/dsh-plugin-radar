@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-12T05:46:02Z",
+ "generated_at": "2026-11-12T06:01:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8233,6 +8233,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A progress bar for your agent conversations — in-session turn navigation with hover previews, scrub, playhead,"
+  },
+  {
+   "repo": "rezon-aki/dsh-compaction-effort-inherit",
+   "name": "rezon-aki-dsh-compaction-effort-inherit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "上下文压缩沿用会话思考档位：DeepSeek 前缀缓存按档位分桶，不修就会在每次压缩时把整个上下文按未缓存价重算一遍"
   },
   {
    "repo": "rickwindman/dsh-destinywind-memory",
@@ -16873,6 +16880,13 @@
    "desc": "—"
   },
   {
+   "repo": "muze63096/dsh-draw-plugin",
+   "name": "muze63096-dsh-draw-plugin",
+   "verdict": "ok",
+   "stars": 6,
+   "desc": "DeepSeek Harness 画图插件：侧边栏整页面板，写提示词即出图，Q版/正常两档画风，三引擎可选（免费 Pollinations / 硅基流动 Kolors / 任意 OpenAI 兼容）"
+  },
+  {
    "repo": "nishuoyang/dsh-wallpaper-bg",
    "name": "nishuoyang-dsh-wallpaper-bg",
    "verdict": "ok",
@@ -18509,6 +18523,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "ns-zzj/dsh-scrcpy-core",
+   "name": "ns-zzj-dsh-scrcpy-core",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH 投屏控制的共用核心：界面、设备列表、投屏面板与 AI 工具（配合其他 provider 使用）"
   },
   {
    "repo": "omdsh-dev/dsh-kb-sieve",
@@ -33113,6 +33134,20 @@
    "desc": "—"
   },
   {
+   "repo": "railgun52/dsh-mcp-servers",
+   "name": "railgun52-dsh-mcp-servers",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "MCP servers settings page for the dsh web GUI: a JSON editor over a profile-config namespace that mounts live"
+  },
+  {
+   "repo": "railgun52/dsh-user-rules",
+   "name": "railgun52-dsh-user-rules",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "User rules settings page for the dsh web GUI: a list editor over a profile-config namespace whose rules are in"
+  },
+  {
    "repo": "rain02333z-spec/dsh-plugin-sidebar-manager",
    "name": "rain02333z-spec-dsh-plugin-sidebar-manager",
    "verdict": "incompatible",
@@ -45769,6 +45804,13 @@
    "desc": "—"
   },
   {
+   "repo": "maxwell234smith/dsh-cost-meter",
+   "name": "maxwell234smith-dsh-cost-meter",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：实时统计并显示你自己的 DeepSeek API 费用（按官方闲时/忙时价，人民币计价）"
+  },
+  {
    "repo": "MayBeTheWorld/dsh-inherit",
    "name": "maybetheworld-dsh-inherit",
    "verdict": "ok",
@@ -51171,6 +51213,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "keenableai/dsh-keenable",
+   "name": "keenableai-dsh-keenable",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Keenable web search and page fetch for DeepSeek Harness, no API key needed"
   },
   {
    "repo": "kevin-zx/dsh-park-notes",
@@ -73172,6 +73221,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "对DSH里的OpenCode的Go套餐，以及DeepSeek官方API的额度监控"
+  },
+  {
+   "repo": "muqing-kg/dsh-window-state",
+   "name": "muqing-kg-dsh-window-state",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness Desktop plugin: remembers the main window's size, position and maximized state · 记住 DSH 桌面版主窗"
   },
   {
    "repo": "nexsjournal/dsh-desktop-app",
@@ -98591,6 +98647,13 @@
    "desc": "DeepSeek Harness 技能安装管理器:从 GitHub 安装/更新/卸载 Skills,分组展示已加载技能,可选兼容 Claude Code .claude/skills"
   },
   {
+   "repo": "mydsp/dsh-branchman",
+   "name": "mydsp-dsh-branchman",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Tree-branching engineering directions for DeepSeek Harness: one action = a git worktree + a child session that"
+  },
+  {
    "repo": "nanshanyi/dsh-mcp-xcode",
    "name": "nanshanyi-dsh-mcp-xcode",
    "verdict": "ok",
@@ -98715,6 +98778,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Long tasks shouldn't cost like they need a frontier model"
+  },
+  {
+   "repo": "psychiiii/dsh-three-window",
+   "name": "psychiiii-dsh-three-window",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Three-window workbench plugin for DeepSeek Harness (dsh): chat, construct, and review side by side, with an an"
   },
   {
    "repo": "pureexe/dsh-image-base64",
