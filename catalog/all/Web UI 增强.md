@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3408）
+# 🔌 Web UI 增强（3422）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -397,6 +397,7 @@
 - 🟩 `[可用]` [kexin8-dsh-composer-keys](https://github.com/kexin8/dsh-composer-keys) ★4 — ⌨️ Keyboard shortcuts for the DSH chat composer — ↑↓ cycle history, Ctrl+C clear input
 - 🟩 `[可用]` [kipozannaki-dsh-gui](https://github.com/kipozannaki/dsh-gui) ★4 — Deepseek Harness GUI图形化界面，兼容mac和windows 开箱即用
 - ⬜ `[待定]` [dsh-skin-claude-code](https://github.com/le-soleil-se-couche/dsh-skin-claude-code) ★4 — 完美复刻 Claude Code 皮肤，纪念我的 Vibe Coding 白月光
+- 🟩 `[可用]` [lemonhall-dsh-media-dock](https://github.com/lemonhall/dsh-media-dock) ★4 — DSH 右侧栏媒体台：抖音/YouTube 链接进来，本机 yt-dlp 下载 + ffmpeg 转码 + 官方 speechToText（SenseVoice）本地转写，字幕进面板，一键让 Agent 总结
 - 🟩 `[可用]` [lesliechowsh-dsh-weniger-theme](https://github.com/lesliechowsh/dsh-weniger-theme) ★4 — "Weniger" — less, but better: a Dieter Rams-inspired theme for the DeepSeek Harness Web GUI
 - 🟩 `[可用]` [liancha22-dsh-puzzle-mode](https://github.com/liancha22/dsh-puzzle-mode) ★4 — DSH 插件｜拼图模式：把项目拆成主文档 + 若干模块文档，AI 主动提问把不确定项变成已定项，用五维算项目健康性
 - ⬜ `[待定]` [dsh-attachment-formats](https://github.com/linkingoscar/dsh-attachment-formats) ★4 — Codex-style attachment formats for the DeepSeek Harness Web GUI: PDF text-layer extraction, Office text extrac
@@ -904,12 +905,14 @@
 - 🟩 `[可用]` [07vvvv-memory-eternal-ui-restyle](https://github.com/07vvvv/memory-eternal-ui-restyle) ★1 — UI restyle of EternalNight996/memory-eternal — DSH 记忆插件界面重构（衍生版，原作者 EternalNight996，MIT License）
 - 🟩 `[可用]` [0928oyx-dsh-free-skins](https://github.com/0928OYX/dsh-free-skins) ★1 — —
 - 🟩 `[可用]` [1052326311-dsh-goal-quiescence](https://github.com/1052326311/dsh-goal-quiescence) ★1 — Completion evidence gate for DeepSeek Harness goal-mode subagents
+- 🟩 `[可用]` [1134478268-dev-dsh-peak-clock](https://github.com/1134478268-dev/dsh-peak-clock) ★1 — DeepSeek Harness 峰谷时段 + 用量/费用指示器 · Peak/off-peak timing with token usage and spend tracking for the DSH Web UI
 - 🟩 `[可用]` [1499501762-dsh-web-fetch-proxy](https://github.com/1499501762/dsh-web-fetch-proxy) ★1 — DSH plugin: route the built-in web_fetch through a local proxy so TUN fake-ip addresses stop tripping the SSRF
 - 🟩 `[可用]` [165555979-dsh-desktop](https://github.com/165555979/dsh-desktop) ★1 — DeepSeek Harness 液态玻璃桌面外壳 · A liquid-glass desktop shell for DeepSeek Harness
 - 🟩 `[可用]` [173787247-dsh-wsl-uia](https://github.com/173787247/dsh-wsl-uia) ★1 — Windows UI Automation observation from WSL: enumerate top-level windows and read a bounded element tree with p
 - 🟩 `[可用]` [173787247-dsh-wsl-wininput](https://github.com/173787247/dsh-wsl-wininput) ★1 — Targeted Windows input from WSL: invoke a UI Automation element, or send keys and clicks to a chosen window wi
 - ⬜ `[待定]` [18569663yz-web-dsh-plugin-crypto-ticker](https://github.com/18569663yz-web/dsh-plugin-crypto-ticker) ★1 — DSH 侧边栏左下角的实时加密货币行情卡片：BTC / ETH / SOL / JUP 的价格、24h 涨跌幅与 24 点迷你走势图，价格跳动带脉冲反馈，零依赖、免密钥
 - 🟩 `[可用]` [2017java-dsh-md-overlay](https://github.com/2017java/dsh-md-overlay) ★1 — DSH web 插件：可悬浮 / 可停靠的多标签 Markdown 预览面板 + md_preview 模型工具，会话里一键预览报告
+- 🟩 `[可用]` [49zr664rb8-hue-dsh-codex-effort](https://github.com/49zr664rb8-hue/dsh-codex-effort) ★1 — 把 DSH 输入框的「模型·推理等级」菜单换成 Codex 那样的横向滑动滑条
 - 🟩 `[可用]` [4sa1ary9-dockyard-dsh](https://github.com/4sa1ary9/dockyard-dsh) ★1 — Windows fork of Dockyard DSH: composer provider picker for Codex / Grok / Claude / Cursor / Antigravity
 - 🟩 `[可用]` [863683348-dsh-need-finder](https://github.com/863683348/dsh-need-finder) ★1 — Requirement-driven dsh plugin discovery (点菜, not 逛超市): plugin_guide tool matches natural-language needs to a c
 - 🟩 `[可用]` [863683348-dsh-plugin-translation](https://github.com/863683348/dsh-plugin-translation) ★1 — Translation toolkit for DeepSeek Harness agents: sentence segmentation, term/glossary extraction, source-targe
@@ -1282,6 +1285,7 @@
 - 🟩 `[可用]` [ruiyukirin-dsh-douyin-oem-touliu-report](https://github.com/ruiyukirin/dsh-douyin-oem-touliu-report) ★1 — 抖音本地推 OEM 投流日报/周报自动化插件 - Douyin OEM ad daily/weekly report automation plugin for DeepSeek Harness (Author: Kir
 - ⬜ `[待定]` [s-huizhuy-u-dsh-github-sync](https://github.com/s-huizhuy-u/dsh-github-sync) ★1 — Publish a DeepSeek Harness workspace to GitHub: create the repo, initialize git, commit, and push — with the t
 - 🟩 `[可用]` [sa998aaron-deepseek-harness-matt-plugin](https://github.com/sa998aaron/deepseek-harness-matt-plugin) ★1 — DeepSeek Harness 插件：内置 Matt Pocock 技能集 + 侧边栏可视化流水线面板（Idea→Triage→Grill→Spec→Tickets→Implement→Review），一键把 /技能
+- 🟩 `[可用]` [sailoumili-dsh-file-opener](https://github.com/sailoumili/dsh-file-opener) ★1 — DSH 插件：对话里的文件与目录路径点一下就打开——可预览的在右侧侧边栏显示，其余用系统默认程序打开
 - 🟩 `[可用]` [schumchanvi-dsh-voice-input-cn](https://github.com/Schumchanvi/dsh-voice-input-cn) ★1 — —
 - 🟩 `[可用]` [secyborg-dsh-find-bar](https://github.com/secyborg/dsh-find-bar) ★1 — DSH web plugin: a Cmd/Ctrl+F find bar (like the browser's built-in find) for the desktop Electron shell, which
 - 🟩 `[可用]` [sg88-dsh-proxy-switch](https://github.com/sg88/dsh-proxy-switch) ★1 — DSH 网络代理开关：直连失败自动回退到 HTTP/SOCKS5 代理，设置面板可配置代理地址
@@ -1900,6 +1904,15 @@
 - 🟩 `[可用]` [leamonac0823-dsh-cornell-classic-theme](https://github.com/leamonac0823/dsh-cornell-classic-theme) ★0 — Cornell notebook workspace for DeepSeek Harness Web UI
 - ⬜ `[待定]` [lee9501-coder-dsh-tui](https://github.com/lee9501-coder/dsh-tui) ★0 — 转为DeepSeek Harness设计的terminal UI
 - 🟩 `[可用]` [leilei3167-dsh-bookmark](https://github.com/leilei3167/dsh-bookmark) ★0 — Codex-style conversation navigator for the DeepSeek Harness web UI
+- 🟩 `[可用]` [lemonhall-dsh-calorie-dock](https://github.com/lemonhall/dsh-calorie-dock) ★0 — DSH 右侧栏卡路里日记：内置食物热量表，选食物+克数自动算 kcal（calorie_panel）
+- ⬜ `[待定]` [lemonhall-dsh-dock-batch](https://github.com/lemonhall/dsh-dock-batch) ★0 — DSH 右侧栏十个插件的总文与面板拼图（RSS/日历/账本/卡路里/待办/番茄/IRC/QQ邮箱 + 车载电台/金融终端）
+- 🟩 `[可用]` [lemonhall-dsh-finance-dock](https://github.com/lemonhall/dsh-finance-dock) ★0 — DSH right-sidebar finance terminal: cross-asset quotes, 3D globe, risk-appetite gauge, Chinese glossary, bilin
+- 🟩 `[可用]` [lemonhall-dsh-irc-dock](https://github.com/lemonhall/dsh-irc-dock) ★0 — DSH 右侧栏 IRC 客户端：node tls 直连或走 HTTP CONNECT 隧道，SASL、自签证书、限次重连（irc_panel）
+- 🟩 `[可用]` [lemonhall-dsh-ledger-dock](https://github.com/lemonhall/dsh-ledger-dock) ★0 — DSH 右侧栏记账本：记一笔、本月结余、分类统计；金额按分存整数（ledger_panel）
+- 🟩 `[可用]` [lemonhall-dsh-lucy-companion](https://github.com/lemonhall/dsh-lucy-companion) ★0 — Lucy 伴侣插件：复用 dsh-whale-widget 的数据管线，把余额/今日/峰谷/每轮消耗念给左侧 Lucy 的气泡
+- 🟩 `[可用]` [lemonhall-dsh-pomodoro-dock](https://github.com/lemonhall/dsh-pomodoro-dock) ★0 — DSH 右侧栏番茄闹钟：专注/休息循环，计时只存 endsAt、切 tab 不中断（pomodoro_panel）
+- ⬜ `[待定]` [lemonhall-dsh-skin-crt](https://github.com/lemonhall/dsh-skin-crt) ★0 — 磷光 CRT —— DSH Web GUI 皮肤：P1 磷光绿、点阵中文字体、扫描线与余晖辉光
+- ⬜ `[待定]` [lemonhall-dsh-skin-lucy](https://github.com/lemonhall/dsh-skin-lucy) ★0 — —
 - `[未定位]` **lenandy-dsh-glass-skin** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [lengduan-dsh-815-skin](https://github.com/lengduan/dsh-815-skin) ★0 — 1945-08-15 世界名画 dsh皮肤
 - 🟩 `[可用]` [leolee9086-dsh-fetch-router](https://github.com/leolee9086/dsh-fetch-router) ★0 — DSH plugin: route and rewrite outbound HTTP requests by host and path, with a native right-sidebar monitor
@@ -3090,6 +3103,7 @@
 - `[未定位]` **arcaneorion-dsh-tui** — 占位待复核，判定暂不展示
 - `[未定位]` **argszero-cordis-plugin-job-id-guidance** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [asymptotee-dsh-terminal](https://github.com/asymptotee/dsh-terminal) ★0 — Claude Code-style terminal UI plugin for DeepSeek Harness
+- 🟨 `[不兼容]` [atlas5301-dsh-remote-sessions](https://github.com/atlas5301/dsh-remote-sessions) ★0 — DSH plugin: run remote DSH agent sessions through the unchanged native UI — strict-SSH resident lifecycle, ses
 - 🟨 `[不兼容]` [awol2005ex3-dsh-logo-custom](https://github.com/awol2005ex3/dsh-logo-custom) ★0 — DeepSeek Harness 自定义 Logo 插件 — 上传图片替换侧边栏左上角的品牌图标和文字
 - 🟨 `[不兼容]` [aytacbilgisayar-hub-dsh-locale-tr](https://github.com/aytacbilgisayar-hub/dsh-locale-tr) ★0 — Turkish (Türkçe) language pack for DeepSeek Harness (dsh) — client plugin registering the tr UI locale.
 - 🟨 `[不兼容]` [azizemreozturk-dsh-locale-tr](https://github.com/azizemreozturk/dsh-locale-tr) ★0 — Turkish language pack for DeepSeek Harness web UI (42 namespaces, 1278 strings)
