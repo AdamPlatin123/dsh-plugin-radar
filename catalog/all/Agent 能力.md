@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2668）
+# 🤖 Agent 能力（2669）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1477,6 +1477,7 @@
 - `[未定位]` **smwhff-dsh-delete-session** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [snow-the-dsh-ark-plan](https://github.com/snow-The/dsh-ark-plan) ★0 — —
 - `[未定位]` **snroman-dsh-agent-group** — 占位待复核，判定暂不展示
+- `[未定位]` **soh4c4759-dsh-plugin-skill-autoroute** — 占位待复核，判定暂不展示
 - `[未定位]` **solidifact-dsh-session-list-cache** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [sparrived-dsh-plugin-workspace-skill](https://github.com/Sparrived/dsh-plugin-workspace-skill) ★0 — —
 - ⬜ `[待定]` [spidu-lee-dsh-session-delete](https://github.com/spidu-lee/dsh-session-delete) ★0 — —
