@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3377）
+# 🔌 Web UI 增强（3378）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3253,6 +3253,7 @@
 - 🟨 `[不兼容]` [slohmaier-dsh-a11y-announcer](https://github.com/slohmaier/dsh-a11y-announcer) ★0 — Accessibility plugin for DeepSeek Harness web UI: announces tool calls and finished assistant messages via ari
 - 🟨 `[不兼容]` [slymaster-dsh-theme-lab](https://github.com/Slymaster/dsh-theme-lab) ★0 — —
 - `[未定位]` **snow-the-dsh-plugin-guide** — 占位待复核，判定暂不展示
+- `[未定位]` **snow-the-dsh-ui-shim** — 占位待复核，判定暂不展示
 - `[空仓监测]` **snzhi000-sys-harness-macos-desktop-plugin-sui** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [songshuhuoban-dsh-next-input](https://github.com/songshuhuoban/dsh-next-input) ★0 — —
 - 🟨 `[不兼容]` [sqzssg12138-dsh-service-runner](https://github.com/sqzssg12138/dsh-service-runner) ★0 — 为 DSH (DeepSeek Harness) 加上 IDEA 风格的工作区服务启停面板：多工作区隔离、Node/Java/Python/Docker 自动探测、实时日志与端口占用者处置
