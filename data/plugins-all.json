@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T15:31:23Z",
+ "generated_at": "2026-11-13T15:46:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -30131,6 +30131,13 @@
    "desc": "The dsh web GUI sidebar gains a Codex-style 最近 (Recent) section — every workspace's newest sessions in one jum"
   },
   {
+   "repo": "tuibe/dsh-deepseek-theme-studio",
+   "name": "tuibe-dsh-deepseek-theme-studio",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web GUI client theme plugin — frosted glass / fluid / quantised effects in DeepSeek's visual language"
+  },
+  {
    "repo": "tumi-huakai/dsh-plugin-meow-speech",
    "name": "tumi-huakai-dsh-plugin-meow-speech",
    "verdict": "ok",
@@ -30430,6 +30437,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Metric-driven autonomous experiment loop for DeepSeek Harness: the agent proposes, benchmarks, keeps or discar"
+  },
+  {
+   "repo": "vowa-antilamer/dsh-copilot-quota",
+   "name": "vowa-antilamer-dsh-copilot-quota",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "GitHub Copilot quota indicator for the DeepSeek Harness web GUI: the remaining chat, completion and AI-credit"
   },
   {
    "repo": "vowa-antilamer/dsh-locale-ru",
@@ -71676,6 +71690,13 @@
    "desc": "A better model picker for Deepseek Harness"
   },
   {
+   "repo": "tcgbp/dsh-flash-ctx-mon",
+   "name": "tcgbp-dsh-flash-ctx-mon",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "teckyuen/dsh-autocount-cloud",
    "name": "teckyuen-dsh-autocount-cloud",
    "verdict": "incompatible",
@@ -80624,6 +80645,13 @@
   {
    "repo": "syncended/deepseek-harness-browser-use",
    "name": "syncended-deepseek-harness-browser-use",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "tcgbp/dsh-flash-proxy",
+   "name": "tcgbp-dsh-flash-proxy",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -106431,6 +106459,13 @@
    "desc": "Bridge DeepSeek Harness to language servers for read-only code intelligence, with multi-language configuration"
   },
   {
+   "repo": "w32394045-dotcom/dsh-github",
+   "name": "w32394045-dotcom-dsh-github",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的 GitHub 接入插件：设置里登录账号，agent 用它真实干活（12 个工具 + 云计算与成本护栏）"
+  },
+  {
    "repo": "wakeup595626-cmyk/dsh-plugin-websearch-tavily",
    "name": "wakeup595626-cmyk-dsh-plugin-websearch-tavily",
    "verdict": "ok",
@@ -111660,6 +111695,13 @@
    "desc": "Local-first, traceable current-intent state for Codex and DeepSeek Harness."
   },
   {
+   "repo": "ryukeilee/dsh-evolution",
+   "name": "ryukeilee-dsh-evolution",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek DSH 的独立 Evolution bundle 预发布；promotion 的 host 代码不是安全沙箱"
+  },
+  {
    "repo": "sagetta1/dsh-verdict-guard",
    "name": "sagetta1-dsh-verdict-guard",
    "verdict": "incompatible",
@@ -112694,6 +112736,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH provider preset for the Memorax DeepSeek V4 Flash gateway"
+  },
+  {
+   "repo": "tcgbp/dsh-flash-mem-mon",
+   "name": "tcgbp-dsh-flash-mem-mon",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   }
  ]
 }
