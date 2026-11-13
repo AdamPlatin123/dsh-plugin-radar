@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T06:01:18Z",
+ "generated_at": "2026-11-13T06:35:26Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -31410,6 +31410,13 @@
    "verdict": "incompatible",
    "stars": 20,
    "desc": "An open-source terminal front door for DeepSeek Harness (dsh)."
+  },
+  {
+   "repo": "woxihejinghao/pi-web",
+   "name": "woxihejinghao-pi-web",
+   "verdict": "incompatible",
+   "stars": 19,
+   "desc": "Local web UI for the pi coding agent — one directory per workspace, interface ported from deepseek-harness"
   },
   {
    "repo": "XMoon/dsh-pi-tui",
