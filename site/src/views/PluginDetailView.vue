@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useRows, enrichAt, findRow, rowIndex, meta } from '../lib/data'
+import { useRows, enrichAt, gateRequiresAt, findRow, rowIndex, meta } from '../lib/data'
 import LazyOgImage from '../components/LazyOgImage.vue'
 import VerdictBadge from '../components/VerdictBadge.vue'
 import StarCount from '../components/StarCount.vue'
@@ -14,6 +14,7 @@ onMounted(ensureRows)
 
 const row = computed(() => findRow(props.owner, props.name))
 const enrich = computed(() => (row.value ? enrichAt(rowIndex(row.value)) : null))
+const gateRequires = computed(() => (row.value?.versionGate ? gateRequiresAt(rowIndex(row.value)) : null))
 const domainTitle = computed(() =>
   meta.domains.find((d) => d.slug === row.value?.domain)?.title ?? '')
 const installCmd = computed(() => `dsh plugin add ${row.value?.repo ?? `${props.owner}/${props.name}`}`)
@@ -40,6 +41,7 @@ const fmtDate = (iso: string) => (iso ? iso.slice(0, 10) : '—')
           <span v-if="row.bundle" class="chip">📦 {{ t('card.bundle') }}</span>
           <span v-if="row.pr" class="chip">{{ t('card.pr') }}</span>
           <span v-if="row.dormant" class="chip dormant">😴 {{ t('card.dormant') }}</span>
+          <span v-if="row.versionGate" class="chip gate">🔒 {{ t('card.versionGate') }}</span>
           <router-link class="chip link" :to="`/browse?domain=${row.domain}`">{{ domainTitle }}</router-link>
         </div>
         <div class="metrics">
@@ -69,6 +71,10 @@ const fmtDate = (iso: string) => (iso ? iso.slice(0, 10) : '—')
       </ul>
       <p class="note">{{ t('detail.notCurated') }}</p>
       <p v-if="row.dormant" class="note">😴 {{ t('detail.dormantNote') }}</p>
+      <p v-if="row.versionGate" class="note">
+        🔒 {{ t('detail.versionGateNote') }}
+        <template v-if="gateRequires">{{ t('detail.versionGateRange') }} <code class="num">{{ gateRequires }}</code></template>
+      </p>
     </aside>
   </article>
 </template>

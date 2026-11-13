@@ -36,6 +36,7 @@ function setQ(v: string) {
     <select class="sel" :value="modelValue.verdict" @change="set({ verdict: ($event.target as HTMLSelectElement).value })">
       <option value="all">{{ t('filter.verdict') }} · {{ t('filter.any') }}</option>
       <option v-for="v in VERDICTS" :key="v" :value="v">{{ t(`stat.${v}`) }}</option>
+      <option value="version-gate">{{ t('stat.incompatible') }} · {{ t('card.versionGate') }}</option>
     </select>
     <select class="sel" :value="modelValue.stars" @change="set({ stars: ($event.target as HTMLSelectElement).value })">
       <option value="all">{{ t('filter.stars') }} · {{ t('filter.any') }}</option>

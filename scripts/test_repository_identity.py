@@ -128,6 +128,28 @@ class RepositoryIdentityTests(unittest.TestCase):
             self.assertEqual(result[0]['verdict'], '⚠️ 待定')
             self.assertTrue(result[0]['bundle'])
 
+    def test_fail_detail_follows_the_final_verdict(self):
+        bad, good, wait = '❌ 运行级不兼容', '✅ 运行级可用', '⏳ 未测'
+        gate = {'fail_kind': 'version-gate', 'dsh_requires': '>=0.1.0 <0.2.0'}
+        base = {'name': 'dsh-desktop', 'url': 'https://github.com/a/dsh-desktop'}
+        # 判定取自更旧轮次时，细分原因一并带上
+        merged = canonical.merge_entry({**base, 'verdict': wait}, {**base, 'verdict': bad, **gate})
+        self.assertEqual((merged['verdict'], merged['fail_kind'], merged['dsh_requires']),
+                         (bad, 'version-gate', '>=0.1.0 <0.2.0'))
+        # 较新轮次自己是不兼容：不拿更旧轮次的原因覆盖
+        merged = canonical.merge_entry({**base, 'verdict': bad}, {**base, 'verdict': bad, **gate})
+        self.assertNotIn('fail_kind', merged)
+        merged = canonical.merge_entry({**base, 'verdict': bad, **gate}, {**base, 'verdict': wait})
+        self.assertEqual(merged['fail_kind'], 'version-gate')
+        # 最终不是不兼容（冲突降待定、较新轮次已通过）时不残留
+        for newer, older in [({'verdict': bad, **gate}, {'verdict': good}),
+                             ({'verdict': good}, {'verdict': bad, **gate}),
+                             ({'verdict': wait, **gate}, {'verdict': wait})]:
+            merged = canonical.merge_entry({**base, **newer}, {**base, **older})
+            self.assertNotEqual(merged['verdict'], bad)
+            self.assertNotIn('fail_kind', merged)
+            self.assertNotIn('dsh_requires', merged)
+
     def test_actual_build_merges_before_catalog_stats_and_export(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

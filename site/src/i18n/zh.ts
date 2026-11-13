@@ -10,7 +10,7 @@ export const zh = {
     ok: '运行级可用', incompatible: '需适配', pending: '待定', untested: '未测',
     gone: '空仓监测', ambiguous: '歧义监测', unlocated: '未定位', total: '收录仓库',
     fresh: '数据截至快照', runner: '实测基线', browsable: '运行级可用总数',
-    runnerSource: '测试版本源', unavailable: '不可用',
+    runnerSource: '测试版本源', unavailable: '不可用', versionGate: '其中版本门禁 {n}',
   },
   filter: {
     all: '全部分类', verdict: '判定', stars: '星数', search: '搜索名称 / 仓库 / 描述…',
@@ -22,7 +22,8 @@ export const zh = {
     defaultNote: '默认筛选 DSH 命名且「运行级可用」的项目；全量索引共 {n} 个仓库',
   },
   curated: { noRecord: '暂无判定详情', recorded: '雷达记录：{status}' },
-  card: { view: '详情', bundle: '整合包', pr: 'PR 登记', stars: '星', dormant: '休眠' },
+  card: { view: '详情', bundle: '整合包', pr: 'PR 登记', stars: '星', dormant: '休眠',
+    versionGate: '版本门禁', versionGateTip: '插件声明的 dsh 版本范围不含测试版本，安装被拒绝' },
   detail: {
     install: '安装', noInstall: '暂无安装命令（见仓库 README）',
     updated: '最近更新', language: '语言', license: '许可证', topics: '话题',
@@ -30,6 +31,8 @@ export const zh = {
     curated: '策展档案', risk: '风险披露', network: '网络访问', fs: '文件系统',
     creds: '凭据接触', testedAt: '实测于', source: '数据溯源', snapshot: '快照',
     openRepo: '打开仓库', dormantNote: '该仓库超过 30 天未更新且与近期 DSH 版本不兼容——已暂停重测，待其下次更新后自动恢复。',
+    versionGateNote: '版本门禁：该插件声明的 dsh 版本范围不包含本轮测试所用的 dsh 版本，dsh 在安装阶段拒绝，测试未进入运行。这不代表插件运行出错——作者放宽版本声明后会自动重测。',
+    versionGateRange: '声明范围：',
   },
   featured: { title: '精选榜', desc: '人工策选的 50+ 必装插件（11 类）' },
   bundles: { title: '整合包', desc: '开箱即用的插件合集' },
