@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T15:01:09Z",
+ "generated_at": "2026-11-13T15:16:45Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -5090,6 +5090,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "插件：自维护任务看板 —— 一张卡 = 一次真实 DSH 会话，跑完由人验收才算完成 · DSH plugin: a self-maintained task board where a card is a real D"
+  },
+  {
+   "repo": "kkaporn/dsh-session-composer",
+   "name": "kkaporn-dsh-session-composer",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "无限画布插件仓库：把第三方插件拖入画布脱离全局、组装成组合、开启后重新加入全局响应"
   },
   {
    "repo": "KKL08/dsh-plastic-memory",
@@ -15830,6 +15837,13 @@
    "desc": "DeepSeek Harness 表情包插件：输入框一键发图、文字 token 斗图、情绪主动发图、AI 自动学图，图库市场一键安装"
   },
   {
+   "repo": "huaizhuanghub/dsh-persona-dafeiyu",
+   "name": "huaizhuanghub-dsh-persona-dafeiyu",
+   "verdict": "ok",
+   "stars": 116,
+   "desc": "Persona library plugin for DeepSeek Harness: built-in personas, import your own, switch without restart."
+  },
+  {
    "repo": "yi-yezhiqiu/dsh-prompt-market",
    "name": "yi-yezhiqiu-dsh-prompt-market",
    "verdict": "ok",
@@ -20597,6 +20611,13 @@
    "desc": "File explorer plugin for the dsh Web GUI: non-modal side panel, file preview, right-click delete / add-to-chat"
   },
   {
+   "repo": "lcy0121/dsh-plugin-compat-check",
+   "name": "lcy0121-dsh-plugin-compat-check",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "检查已安装 DSH 插件与静态升级风险，提供源码依据、覆盖限制、多语言界面、agent 工具、依赖视图、人工复核和本地报告历史"
+  },
+  {
    "repo": "LeemanCheung/dsh-skin-studio",
    "name": "leemancheung-dsh-skin-studio",
    "verdict": "ok",
@@ -23327,6 +23348,13 @@
    "desc": "deepseek herness 计费实时查询，在 DeepSeek Harness 左下角（输入框工具行左端）显示一个小字余额条 ¥ 110.00 + ↻ 刷新按钮，定时自动刷新；设置页可配置刷新间隔与低余额告警阈值（"
   },
   {
+   "repo": "kuixiu/dsh-pet",
+   "name": "kuixiu-dsh-pet",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A Q-style kitten overlay for the DeepSeek Harness Web UI, with a live peak/off-peak pricing badge and per-turn"
+  },
+  {
    "repo": "kxdyh/dsh-usage-meter",
    "name": "kxdyh-dsh-usage-meter",
    "verdict": "ok",
@@ -23724,6 +23752,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH web static plugin: global cross-session todo inbox (merge MR / approve work orders / reviews) with sidebar"
+  },
+  {
+   "repo": "luoyuejun9/dsh-skin-rotation",
+   "name": "luoyuejun9-dsh-skin-rotation",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Random skin rotation for DeepSeek Harness: a different installed skin on every launch, with an on/off switch i"
   },
   {
    "repo": "lux09947-cmyk/dsh-re",
@@ -27245,6 +27280,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Kimi (Moonshot AI) LLM adapter plugin for DeepSeek Harness — three routes: kimi-code (Kimi Code subscription),"
+  },
+  {
+   "repo": "hbgdjb/dsh-entry-transition",
+   "name": "hbgdjb-dsh-entry-transition",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Entry Transition —— 打开工作台时的一次性入场动画：标识逐字擦出，退场时反色色块扫过全屏"
   },
   {
    "repo": "hbgdjb/dsh-mimo-quota",
@@ -52580,6 +52622,13 @@
    "desc": "—"
   },
   {
+   "repo": "hireseeker/hireseeker-cli",
+   "name": "hireseeker-hireseeker-cli",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Клиент для сайта https://hireseeker.ru позволяет искать вакансии на платформе с помощью собственной среды разр"
+  },
+  {
    "repo": "HiSeax/dsh-better-model-setting",
    "name": "hiseax-dsh-better-model-setting",
    "verdict": "pending",
@@ -70516,6 +70565,13 @@
   {
    "repo": "JoeeLiu/dsh-super-subscriptions",
    "name": "joeeliu-dsh-super-subscriptions",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "johnlam1968/dsh-system1-observer",
+   "name": "johnlam1968-dsh-system1-observer",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -97464,6 +97520,13 @@
    "desc": "DeepSeek Harness plugin: import claude-code / codex / reasonix / zcode sessions"
   },
   {
+   "repo": "ishanshmalviya5/dsh-local-plugins",
+   "name": "ishanshmalviya5-dsh-local-plugins",
+   "verdict": "pending",
+   "stars": 7,
+   "desc": "Keeps edited dsh plugins as local git repos; deploys committed snapshots via atomic symlink swap."
+  },
+  {
    "repo": "JayZz210l/deepseek-harness-for-ide",
    "name": "jayzz210l-deepseek-harness-for-ide",
    "verdict": "pending",
@@ -111273,6 +111336,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Real-time DeepSeek token usage and cost meter for DSH: status-bar capsule plus detail panel, local-only persis"
+  },
+  {
+   "repo": "lhpaul/dsh-harness",
+   "name": "lhpaul-dsh-harness",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin + runtime patch: per-session multi-folder workspace roots from .code-workspace files,"
   },
   {
    "repo": "liutian11451-png/dsh-plugin-model-config",
