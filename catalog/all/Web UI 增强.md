@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3347）
+# 🔌 Web UI 增强（3348）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3298,6 +3298,7 @@
 - 🟨 `[不兼容]` [yoggu-dsh-git-graph](https://github.com/yoggu/dsh-git-graph) ★0 — Git history and working-tree diff graph for the DeepSeek Harness web sidebar.
 - 🟨 `[不兼容]` [youli42-dsh-betterinput](https://github.com/youli42/dsh_BetterInput) ★0 — —
 - 🟨 `[不兼容]` [youwenkui-dsh-openclaw-enterprise-team](https://github.com/youwenkui/dsh-openclaw-enterprise-team) ★0 — OpenClaw Enterprise AI Team bridge for DeepSeek Harness
+- 🟨 `[不兼容]` [yq1930-dsh-skin-asuka-p01](https://github.com/yq1930/dsh-skin-asuka-p01) ★0 — —
 - 🟨 `[不兼容]` [yryd-dafy-whale-theme](https://github.com/yryd/dafy-whale-theme) ★0 — DeepSeek Harness 蓝色大肥鱼主题插件：海洋蓝配色、游动鱼群、上升气泡、输入框上方的「每日鱼语」，以及左上角品牌区替换；「设置 → 海洋主题」提供 7 组 32 项可调
 - 🟨 `[不兼容]` [yth1120-deepseek-harness](https://github.com/yth1120/deepseek-harness) ★0 — DeepSeek Harness source with the dsh-web-workbench plugin suite (right workbench, terminal, timeline, review,〔📦〕
 - 🟨 `[不兼容]` [yudaxia1-dsh-sidebar-file-menu](https://github.com/yudaxia1/dsh-sidebar-file-menu) ★0 — 为 DeepSeek Harness Web UI 右侧栏文件树提供 VS Code 风格右键菜单：复制绝对/相对路径与名称、在资源管理器或 Finder 中显示、用默认程序打开
