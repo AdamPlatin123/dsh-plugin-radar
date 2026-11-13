@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T07:16:11Z",
+ "generated_at": "2026-11-13T07:31:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -20924,6 +20924,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "theme plugin for deepseek harness by victor"
+  },
+  {
+   "repo": "victorygod/dsh-tavern-fengyue",
+   "name": "victorygod-dsh-tavern-fengyue",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "活用工具的酒馆agent，支持ST卡、FY卡直接导入，直接在叙事中调用自定义tool call，告别掉面板、瞎执行逻辑等问题，让模型专注于讲故事"
   },
   {
    "repo": "victorzhong0110/dsh-code-reference",

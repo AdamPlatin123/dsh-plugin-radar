@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3349）
+# 🔌 Web UI 增强（3351）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -821,6 +821,7 @@
 - 🟩 `[可用]` [verneuil-dsh-opencode-go-usage](https://github.com/verneuil/dsh-opencode-go-usage) ★2 — DeepSeek balance and OpenCode Go usage (5-hour / weekly / monthly) merged into one floating pill, with a match
 - 🟩 `[可用]` [victor10035445-dsh-v-skill-links](https://github.com/victor10035445/dsh-v-skill-links) ★2 — let dsh use your skills.quick command and diy buttons.
 - 🟩 `[可用]` [victor10035445-dsh-v-theme](https://github.com/victor10035445/dsh-v-theme) ★2 — theme plugin for deepseek harness by victor
+- 🟩 `[可用]` [victorygod-dsh-tavern-fengyue](https://github.com/victorygod/dsh-tavern-fengyue) ★2 — 活用工具的酒馆agent，支持ST卡、FY卡直接导入，直接在叙事中调用自定义tool call，告别掉面板、瞎执行逻辑等问题，让模型专注于讲故事
 - 🟩 `[可用]` [victorzhong0110-dsh-code-reference](https://github.com/victorzhong0110/dsh-code-reference) ★2 — DeepSeek Harness (DSH) 代码参考检索与复用调查插件：开发前检索本地代码库与 GitHub/npm 开源项目，评估复用/改造/引入依赖/自制并询问用户，支持架构级复用
 - 🟩 `[可用]` [viyiviyi-dsh-quiet-mode](https://github.com/viyiviyi/dsh-quiet-mode) ★2 — 少点废话
 - 🟩 `[可用]` [waknow-dsh-web-icon-indicator](https://github.com/waknow/dsh-web-icon-indicator) ★2 — DSH browser tab favicon reflecting session state: idle / running / asking / done
@@ -3202,6 +3203,7 @@
 - 🟨 `[不兼容]` [qvsix-dsh-antigravity-bridge](https://github.com/qvsix/dsh-antigravity-bridge) ★0 — Google Antigravity conversations for DeepSeek Harness — list, read and import local Antigravity SQLite session
 - 🟨 `[不兼容]` [qwertyuiop314-dsh-recycle-bin](https://github.com/qwertyuiop314/dsh-recycle-bin) ★0 — DSH recycle bin plugin: archive trash, batch restore/purge, sidebar batch archive
 - 🟨 `[不兼容]` [raktim-mondol-dsh-tui-en](https://github.com/raktim-mondol/dsh-tui-en) ★0 — English-only fork of dsh-TUI — Claude Code-style terminal UI for DeepSeek Harness
+- `[未定位]` **reluckylucy-dsh-rhine-lab-theme** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [rhczz-dsh-plugin-ui-font-family](https://github.com/rhczz/dsh-plugin-ui-font-family) ★0 — 给 DeepSeek Harness 的 Web 界面换字体
 - 🟨 `[不兼容]` [rickwindman-dsh-destinywind-mcp](https://github.com/rickwindman/dsh-destinywind-mcp) ★0 — DeepSeek Harness 插件：MCP 可视化管理（服务器/工具开关/环境变量/凭据托管）· Visual MCP manager UI plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [rockeymen-dsh-plugins](https://github.com/rockeymen/dsh-plugins) ★0 — Bilingual directory of 600+ DeepSeek Harness plugins, Agent Skills, MCP tools, model adapters and themes, rank
