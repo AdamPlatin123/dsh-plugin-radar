@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T20:31:16Z",
+ "generated_at": "2026-11-13T21:16:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12554,6 +12554,13 @@
    "desc": "—"
   },
   {
+   "repo": "linshenyuan/dsh-memory",
+   "name": "linshenyuan-dsh-memory",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 的跨会话长期记忆插件"
+  },
+  {
    "repo": "lynx-gt/dsh-subagent-cwd",
    "name": "dsh-subagent-cwd",
    "verdict": "incompatible",
@@ -20777,6 +20784,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Liquid-glass billing overlay for the DeepSeek Harness Web GUI: provider balances, session cost, daily spend an"
+  },
+  {
+   "repo": "linshufan21/dsh-boot-compass",
+   "name": "linshufan21-dsh-boot-compass",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH boot splash: covers the loading card before the first paint, plays a seven-beat compass sequence, then han"
   },
   {
    "repo": "linshufan21/dsh-ui-font",
@@ -43632,6 +43646,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "lance808/dsh-image-tool",
+   "name": "lance808-dsh-image-tool",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "给 DeepSeek Harness 补上生图能力：把任意 OpenAI 兼容的生图服务接成平台工具，模型在对话里直接出图"
   },
   {
    "repo": "laplaceliu/UnWr",

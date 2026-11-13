@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2674）
+# 🤖 Agent 能力（2676）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1259,6 +1259,7 @@
 - 🟩 `[可用]` [lemonhall-dsh-calendar-dock](https://github.com/lemonhall/dsh-calendar-dock) ★0 — DSH 右侧栏通用日历：月视图 + 当天事件 + 接下来；本地存储，Agent 也能加删勾（calendar_panel）
 - 🟩 `[可用]` [lemonhall-dsh-rss-dock](https://github.com/lemonhall/dsh-rss-dock) ★0 — DSH 右侧栏 RSS 阅读器：订阅源在配置里，未读/收藏双向状态，Agent 也能读（rss_panel 工具）
 - `[未定位]` **lemonorangeapple-juneagent** — 占位待复核，判定暂不展示
+- `[未定位]` **leo-sail-dsh-plugin-agent-collaboration** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [leolee9086-dsh-better-session-query](https://github.com/leolee9086/dsh-better-session-query) ★0 — DSH plugin: block-level parallel index over session history
 - `[未定位]` **lesliewylie-dsh-context-badge** — 占位待复核，判定暂不展示
 - `[未定位]` **li-mingshuang-dsh-secure-context-fix** — 占位待复核，判定暂不展示
@@ -2087,6 +2088,7 @@
 - 🟨 `[不兼容]` [lhdrc-dsh-df-memory](https://github.com/lhdrc/dsh-df-memory) ★2 — —
 - 🟨 `[不兼容]` [li3nga-dhs-multi-agent-plugin](https://github.com/Li3NGa/DHS-multi-agent-plugin) ★2 — —
 - 🟨 `[不兼容]` [liangzhipengdamon-maker-governloop-dsh](https://github.com/liangzhipengdamon-maker/GovernLoop-DSH) ★2 — —
+- 🟨 `[不兼容]` [linshenyuan-dsh-memory](https://github.com/linshenyuan/dsh-memory) ★2 — DSH 的跨会话长期记忆插件
 - 🟨 `[不兼容]` [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) ★2 — DeepSeek Harness subagent delegation enhancement
 - 🟨 `[不兼容]` [dsh-subagent-tools](https://github.com/lynx-gt/dsh-subagent-tools) ★2 — DeepSeek Harness subagent delegation enhancement
 - 🟨 `[不兼容]` [moononnn-deepseek-harness-hanako-memory](https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory) ★2 — —
