@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T06:35:26Z",
+ "generated_at": "2026-11-13T06:46:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
