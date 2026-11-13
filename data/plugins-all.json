@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T11:46:13Z",
+ "generated_at": "2026-11-13T12:01:02Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4187,6 +4187,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Web Push notifications for DeepSeek Harness tasks, approvals, and questions."
+  },
+  {
+   "repo": "blugart-dev/dsh-superpowers",
+   "name": "blugart-dev-dsh-superpowers",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Superpowers (obra/superpowers) for DeepSeek Harness: full skill library, session-start bootstrap, optional wor"
   },
   {
    "repo": "boooooooer/dsh-balance-and-cost",
@@ -11420,6 +11427,13 @@
    "desc": "The Self-Hosted Control Plane for DeepSeek-Harness"
   },
   {
+   "repo": "deepseekv41flash/dsh-context-truth",
+   "name": "deepseekv41flash-dsh-context-truth",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "给 DSH 模型每轮回填宿主实测的上下文占用，并阻止\"上下文快用尽\"的错判被压缩摘要继承"
+  },
+  {
    "repo": "john-walks-slow/dsh-set-model",
    "name": "john-walks-slow-dsh-set-model",
    "verdict": "incompatible",
@@ -15863,6 +15877,13 @@
    "verdict": "pending",
    "stars": 46,
    "desc": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务"
+  },
+  {
+   "repo": "copylee711/dsh-computer-use",
+   "name": "copylee711-dsh-computer-use",
+   "verdict": "ok",
+   "stars": 44,
+   "desc": "DeepSeek Harness 的 Windows 电脑控制插件：截图、鼠标、键盘、窗口与剪贴板工具，按应用授权，Esc 暂停"
   },
   {
    "repo": "Ewnscat-ya/dsh-client-ui-skin-denia",
@@ -23502,6 +23523,13 @@
    "desc": "Adds a refresh button to the DeepSeek Harness desktop title bar next to the Edit menu; reloads the UI without"
   },
   {
+   "repo": "lwx071001/dsh-account-meter",
+   "name": "lwx071001-dsh-account-meter",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Live account balance + usage meter for the DSH Harness composer: balance, tokens, running time, tokens/sec, pl"
+  },
+  {
    "repo": "lwx071001/dsh-mobile-console",
    "name": "lwx071001-dsh-mobile-console",
    "verdict": "ok",
@@ -28689,6 +28717,13 @@
    "desc": "Grok Build written in DSH form: the grok-build tool surface re-registered as native DeepSeek Harness tools."
   },
   {
+   "repo": "orphiczhou/dsh-region-probe",
+   "name": "orphiczhou-dsh-region-probe",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Read-only Cordis Inspect provider for DeepSeek Harness: which UI regions the running shell actually rendered,"
+  },
+  {
    "repo": "pan17/dsh-minimax-usage",
    "name": "pan17-dsh-minimax-usage",
    "verdict": "ok",
@@ -29081,6 +29116,13 @@
    "desc": "—"
   },
   {
+   "repo": "ruanimal/dsh-bash-env",
+   "name": "ruanimal-dsh-bash-env",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "为 dsh 的每条 shell 命令按工作目录解析环境（PATH / venv / mise），并带一个独立的 Web UI 设置分区"
+  },
+  {
    "repo": "Ruiming-cn/dsh-turn-notify",
    "name": "ruiming-cn-dsh-turn-notify",
    "verdict": "ok",
@@ -29380,6 +29422,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "sodakitten/dsh-bg",
+   "name": "sodakitten-dsh-bg",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Local-only background plugin for DeepSeek Harness: visual framing, interface transparency, background carousel"
   },
   {
    "repo": "sologuy/dsh-llm-bailian-kimi",
@@ -70437,6 +70486,13 @@
    "desc": "—"
   },
   {
+   "repo": "mubaid/dsh-fluent-korean",
+   "name": "mubaid-dsh-fluent-korean",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin that makes the model write fluent, natural Korean"
+  },
+  {
    "repo": "muyuanjin/dsh-element-inspector",
    "name": "muyuanjin-dsh-element-inspector",
    "verdict": "incompatible",
@@ -72983,6 +73039,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "chickmat/dsh-system-net",
+   "name": "chickmat-dsh-system-net",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Make DeepSeek Harness follow your system network settings - route through the OS proxy and trust its certifica"
   },
   {
    "repo": "devLythen/dsh-docker",
@@ -108125,6 +108188,13 @@
    "desc": "自主覆盖与调整第三方模型的思考等级，修复工具内置预设缺失或不匹配的问题"
   },
   {
+   "repo": "nexmoe/dsh-monitor-pro",
+   "name": "nexmoe-dsh-monitor-pro",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Real-time host resource monitoring for DeepSeek Harness, adapted from VS Code Monitor Pro"
+  },
+  {
    "repo": "omdsh-dev/dsh-paddle-ocr",
    "name": "dsh-paddle-ocr",
    "verdict": "incompatible",
@@ -110349,6 +110419,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Tencent CodeBuddy LLM adapter for DeepSeek Harness (dsh)"
+  },
+  {
+   "repo": "moeform-re/dsh-review-md-preview",
+   "name": "moeform-re-dsh-review-md-preview",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "monotykamary/dsh-fovea",
