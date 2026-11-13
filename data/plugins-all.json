@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T08:16:19Z",
+ "generated_at": "2026-11-13T09:01:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -27931,6 +27931,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH skill library browser: floating ball, two-level categories, Chinese descriptions, realtime search, full-te"
+  },
+  {
+   "repo": "lucagiftzek/dsh-note-keeper",
+   "name": "lucagiftzek-dsh-note-keeper",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: Obsidian-compatible Markdown notes in the DSH sidebar with search, graph, audio notes and transcri"
   },
   {
    "repo": "LucasleeCN/dsh-client-ui-pet",
