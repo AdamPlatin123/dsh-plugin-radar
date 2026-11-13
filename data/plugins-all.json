@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T15:16:45Z",
+ "generated_at": "2026-11-13T15:31:23Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8396,6 +8396,13 @@
    "desc": "Session attention overlay plugin for DeepSeek Harness: character dance animation while any session awaits user〔📦〕"
   },
   {
+   "repo": "myh2026/dsh-plugin-org",
+   "name": "myh2026-dsh-plugin-org",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: mount the org agent harness (team dispatch / task queue / tools) into dsh as callable"
+  },
+  {
    "repo": "naitoupi/prompt-optimizer-plugin",
    "name": "naitoupi-prompt-optimizer-plugin",
    "verdict": "ok",
@@ -8947,6 +8954,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "simonwen-oss/windows-context-menu-cleanup",
+   "name": "simonwen-oss-windows-context-menu-cleanup",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "可靠地删除不需要的 Windows 资源管理器右键菜单项（百度网盘、迅雷、搜狗输入法），支持验证和回滚"
   },
   {
    "repo": "SJCLZ/MixlabLz-dsh-skills",
@@ -19463,6 +19477,13 @@
    "desc": "Unofficial desktop wrapper for DeepSeek Harness with themes, wallpapers and safer long-running session recover"
   },
   {
+   "repo": "sailoumili/dsh-session-remover",
+   "name": "sailoumili-dsh-session-remover",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH 插件：侧栏会话行菜单增加「删除对话」与「批量删除」，把对话及其子代理会话移入 Windows 回收站，可从回收站还原"
+  },
+  {
    "repo": "sakthiveltofficial/dsh-shopify-plugins",
    "name": "sakthiveltofficial-dsh-shopify-plugins",
    "verdict": "ok",
@@ -29513,6 +29534,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "rongqingwen/dsh-approval-sound",
+   "name": "rongqingwen-dsh-approval-sound",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Audible alert for the DSH Web GUI the moment a prompt is waiting for you — approval panels and ask-user-questi"
   },
   {
    "repo": "ruanimal/dsh-bash-env",
@@ -70962,6 +70990,13 @@
    "desc": "—"
   },
   {
+   "repo": "melosic/dsh-dev-workflow",
+   "name": "melosic-dsh-dev-workflow",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "menantonio83-hue/tnt-house",
    "name": "menantonio83-hue-tnt-house",
    "verdict": "incompatible",
@@ -77834,6 +77869,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Unified, non-intrusive SSH control center for DeepSeek Harness (DSH)"
+  },
+  {
+   "repo": "praisethefacts/dsh-plugin-google-classroom",
+   "name": "praisethefacts-dsh-plugin-google-classroom",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Google Classroom MCP bundle for DeepSeek Harness: read-only courses, coursework, due dates, announcements, ros"
   },
   {
    "repo": "qerio/deepseek-harness-desktop",
@@ -105612,6 +105654,13 @@
    "desc": "—"
   },
   {
+   "repo": "pengin69/configure-network-proxy",
+   "name": "pengin69-configure-network-proxy",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Windows git/Node layered proxy configuration skill for AI agents: probe endpoints, configure per layer, verify"
+  },
+  {
    "repo": "pengkodam/dsh-lab",
    "name": "pengkodam-dsh-lab",
    "verdict": "pending",
@@ -110111,6 +110160,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "shuxidemosheng/dsh-plan-mode-plus",
+   "name": "shuxidemosheng-dsh-plan-mode-plus",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "ZCode-style plan mode for DeepSeek Harness: model-initiated enter_plan_mode, hard read-only enforcement, four-"
   },
   {
    "repo": "Simidas/dsh-compat",
