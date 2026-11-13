@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T12:46:15Z",
+ "generated_at": "2026-11-13T13:01:15Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8249,6 +8249,13 @@
    "desc": "—"
   },
   {
+   "repo": "misaka15527/dsh-prompt-enhancer",
+   "name": "misaka15527-dsh-prompt-enhancer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "miseryrua/dsh-wb-memory",
    "name": "miseryrua-dsh-wb-memory",
    "verdict": "ok",
@@ -11628,6 +11635,13 @@
    "verdict": "incompatible",
    "stars": 5,
    "desc": "携手skillhub，快捷安装启用丰富的skill，一键装配方便快捷"
+  },
+  {
+   "repo": "lolipop-1x1/dsh-you-should-know",
+   "name": "lolipop-1x1-dsh-you-should-know",
+   "verdict": "incompatible",
+   "stars": 5,
+   "desc": "A DeepSeek Harness plugin that surfaces important facts, trade-offs, and useful context while your AI agent wo"
   },
   {
    "repo": "nickkkkkk123123/dsh-whale-girl",
@@ -26491,6 +26505,13 @@
    "desc": "Path registry for DSH (DeepSeek Harness) plugins: inventory all installed plugins/presets/skills with real pat"
   },
   {
+   "repo": "dreamtao2199/dsh-colors",
+   "name": "dreamtao2199-dsh-colors",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness theme plugin: 22 light-only palettes (Pantone / Chinese traditional / Morandi) and 14 composa"
+  },
+  {
    "repo": "drmi5446/dsh-wallpaper-engine",
    "name": "drmi5446-dsh-wallpaper-engine",
    "verdict": "ok",
@@ -28416,6 +28437,20 @@
    "desc": "Workspace file explorer docked in the DeepSeek Harness sidebar — lazy file tree, Settings toggle, drag-to-resi"
   },
   {
+   "repo": "maboloshi/dsh-ask-template",
+   "name": "maboloshi-dsh-ask-template",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 客户端插件 + 配套 skill：/ask 直接把五段结构化空白模板写进输入框草稿（零模型调用）"
+  },
+  {
+   "repo": "majinggui/dsh-plugin-skill-manager",
+   "name": "majinggui-dsh-plugin-skill-manager",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Skill management for the DeepSeek Harness Web client: scan user-level skill roots, list source and precedence,"
+  },
+  {
    "repo": "MannixHu/dsh-statusbar-config",
    "name": "mannixhu-dsh-statusbar-config",
    "verdict": "ok",
@@ -28521,6 +28556,13 @@
    "desc": "DSH 版本号徽标插件：侧边栏设置按钮上方显示 dsh 版本，带检查更新与一键部署"
   },
   {
+   "repo": "metaone01/dsh-easy-hotkey",
+   "name": "metaone01-dsh-easy-hotkey",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Window-local shortcut guide for DeepSeek Harness Desktop: hold-to-open overlay, keycap search, temporary pinni"
+  },
+  {
    "repo": "metercai/aimail",
    "name": "metercai-aimail",
    "verdict": "pending",
@@ -28617,6 +28659,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "基因组尺度代谢模型（GEM）构建插件：全基因组(蛋白FASTA)→自动构建+验证+补洞+报告(SBML+模型卡)；dsh-bio-genie 生态域插件 \\| Genome-scale metabolic model bu"
+  },
+  {
+   "repo": "mostkia/dsh-launcher",
+   "name": "mostkia-dsh-launcher",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Power controls (shutdown / restart) for the DSH sidebar plus a Windows tray launcher with start-at-logon."
   },
   {
    "repo": "MrTrujay/dsh-ui-easyfold",
@@ -54440,6 +54489,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "oopsdoes/dsh-welcome-back",
+   "name": "oopsdoes-dsh-welcome-back",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A DSH plugin that welcomes users back to today's active conversations after a configurable idle period."
   },
   {
    "repo": "oopsylol/dsh-waaagh-ork",
@@ -90800,6 +90856,13 @@
    "desc": "One-click restart of the DSH service from Settings → General"
   },
   {
+   "repo": "ckanner/dsh-plugin-chatgpt",
+   "name": "ckanner-dsh-plugin-chatgpt",
+   "verdict": "ok",
+   "stars": 20,
+   "desc": "Use your ChatGPT subscription as a model provider in DeepSeek Harness (dsh)"
+  },
+  {
    "repo": "DingTalk-Real-AI/dsh-dingtalk",
    "name": "dingtalk-real-ai-dsh-dingtalk",
    "verdict": "ok",
@@ -92373,6 +92436,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness desktop notifications: turn done, approval and question pings；任务进度提醒插件，在别的页面工作时,若DSH需要审批，回答，或"
+  },
+  {
+   "repo": "ltmroberthk915/dsh-session-telecom",
+   "name": "ltmroberthk915-dsh-session-telecom",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "跨目录 / 跨项目的 DSH 会话内置通话：任意两条会话直接收发消息、工具级唤醒、只读查看与用量"
   },
   {
    "repo": "mario841859784/dsh-onebot",
@@ -104644,6 +104714,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "mixx993/dsh-forcnfps",
+   "name": "mixx993-dsh-forcnfps",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "ForCNFps: pixel-art FPS warm-up arcade for DeepSeek Harness (dsh) — Schulte / Aim trainer / CS angle-holding,"
   },
   {
    "repo": "MkaliezZ/dsh-evidence-task-board",
