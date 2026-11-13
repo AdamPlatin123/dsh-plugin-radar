@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T09:31:19Z",
+ "generated_at": "2026-11-13T09:46:04Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -12566,6 +12566,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "一个deepseek-harness插件，用来做agent轨迹回放"
+  },
+  {
+   "repo": "aymidasing/dsh-thinking-lang",
+   "name": "aymidasing-dsh-thinking-lang",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin: set the agent's reasoning language (Settings → General)"
   },
   {
    "repo": "azazo1/dsh-approve-prefix",
@@ -41945,6 +41952,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness 对话使用情况记录超市小票插件：按模型统计的令牌使用量、调用次数、耗时和成本 \\| Conversation usage receipt plugin for DeepSeek Harnes"
+  },
+  {
+   "repo": "blueziii/dsh-peakvalley",
+   "name": "blueziii-dsh-peakvalley",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH 插件：输入栏下方最右侧显示峰谷时段徽标，空闲价格为高峰一半；仅 DeepSeek 模型可见，点击可切换 7 档显示内容"
   },
   {
    "repo": "bpc-oss/dsh-verification",
@@ -79908,6 +79922,13 @@
    "desc": "会跟着 Claude Code 干活的鲸鱼娘桌宠（PetPet / dsh 双版本，Windows x64）"
   },
   {
+   "repo": "ayst-z/music-code-mv",
+   "name": "ayst-z-music-code-mv",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "DSH plugin: render code-driven music videos (music-code-mv) — deterministic Canvas2D/Three.js shots, headless-"
+  },
+  {
    "repo": "dhb861832993-star/pbr-render",
    "name": "dhb861832993-star-pbr-render",
    "verdict": "ok",
@@ -86283,6 +86304,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Community plugins for DeepSeek Harness (DSH): model metadata autofill and workspace artifacts view."
+  },
+  {
+   "repo": "blazar-source/dsh-r7-office",
+   "name": "blazar-source-dsh-r7-office",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "R7-Office document processing plugin and MCP server for DeepSeek Harness (DOCX, XLSX, PPTX, PDF)"
   },
   {
    "repo": "brickmaker/dsh-workspace-files",
