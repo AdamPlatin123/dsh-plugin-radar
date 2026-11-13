@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3373）
+# 🔌 Web UI 增强（3377）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1605,6 +1605,7 @@
 - 🟩 `[可用]` [czhzz-dsh-net-access](https://github.com/czhzz/dsh-net-access) ★0 — Control how the DeepSeek Harness Web GUI is reachable: local only, Tailscale, all local networks, or off.
 - 🟩 `[可用]` [d-ouyang-dsh-plugin-ascension](https://github.com/d-ouyang/dsh-plugin-ascension) ★0 — 渡劫飞升：DeepSeek Harness 的仙逆·王林修炼伙伴
 - 🟩 `[可用]` [d0ublecl1ck-dsh-csdn-theme](https://github.com/d0ublecl1ck/dsh-csdn-theme) ★0 — CSDN 博文的配色与正文排版主题插件，用于 DeepSeek Harness Web GUI · CSDN-blog typography theme for the DeepSeek Harness web GUI.
+- 🟩 `[可用]` [d0ublecl1ck-dsh-hide-empty-workspace](https://github.com/d0ublecl1ck/dsh-hide-empty-workspace) ★0 — DSH Web 插件：最后一个未归档会话被归档的瞬间自动隐藏该工作区行，并在工作区行自带的「…」菜单里追加「隐藏工作区」，另配侧栏底部恢复入口；不归档、不删除、不改写任何工作区注册与会话数据
 - 🟩 `[可用]` [dac114514-dsh-theme-center](https://github.com/dac114514/dsh-theme-center) ★0 — DeepSeek Harness 主题中心 · Theme Center for dsh web UI：精选主题画廊（浅色/深色分组）、一键切换、自定义壁纸、dsh-theme 导入导出
 - 🟩 `[可用]` [daha1216-dsh-font-customizer](https://github.com/daha1216/dsh-font-customizer) ★0 — DeepSeek Harness 字体定制插件：自定义界面/代码字体与正文字号，支持本机字体扫描与持久化
 - 🟩 `[可用]` [dajie2014-dsh-dictation-turbo](https://github.com/dajie2014/dsh-dictation-turbo) ★0 — Dictation for DSH: double-tap Control and speak — Chinese and English work with DSH alone; the free VoiceStudi
@@ -2411,6 +2412,7 @@
 - 🟩 `[可用]` [zhang-guo-wen-dsh-web-design](https://github.com/zhang-guo-wen/dsh-web-design) ★0 — Web design for DeepSeek Harness: preview and edit HTML elements in the Sidebar
 - 🟩 `[可用]` [zhangguiping-xydt-dsh-session-lab](https://github.com/zhangguiping-xydt/dsh-session-lab) ★0 — DeepSeek Harness session teaching, evidence capsules, and controlled trajectory comparison
 - 🟩 `[可用]` [zhangguiping-xydt-dsh-skin-studio](https://github.com/zhangguiping-xydt/dsh-skin-studio) ★0 — A visual, local-first skin authoring studio for DeepSeek Harness Web.
+- `[未定位]` **zhanghao3693-dsh-client-ui-route-badge** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zhangxingong-dsh-polish](https://github.com/zhangxingong/dsh-polish) ★0 — 需要你做的 UI 验收（重启后逐项过一遍）  1
 - 🟩 `[可用]` [zhangyuzhangyu233-dsh-rgb-input-glow](https://github.com/zhangyuzhangyu233/dsh-rgb-input-glow) ★0 — DeepSeek Harness Web 插件：「光污染」RGB 流光皮肤（输入框/侧栏/hero 等 WebGL bloom + CSS 光效，独立皮肤不修改任何原皮肤）
 - 🟩 `[可用]` [zhangzhimou78-code-deepseek-visual-plugin](https://github.com/zhangzhimou78-code/deepseek-visual-plugin) ★0 — dsh-plugin
@@ -2619,6 +2621,7 @@
 - 🟨 `[不兼容]` [jarvis-intelligence-jarvis-index](https://github.com/jarvis-intelligence/jarvis-index) ★7 — Public distribution surface for jarvis — local-first code intelligence MCP server (SCIP navigation + Zoekt sea
 - 🟨 `[不兼容]` [jasonrale-dsh-archive-manager](https://github.com/jasonrale/dsh-archive-manager) ★7 — Archived-session manager for DSH Web UI: reopen an archived session and keep chatting, unarchive it back in pl
 - 🟨 `[不兼容]` [jiaererw-dsh-plugin-chrome](https://github.com/jiaererw/dsh-plugin-chrome) ★7 — DeepSeek Harness browser visualization plugin: a visible Chrome window per session, 16 chrome_* agent tools, l
+- 🟨 `[不兼容]` [liceses-dsh-cosplay](https://github.com/liceses/dsh-cosplay) ★7 — DSH 角色扮演插件：角色卡（系统提示词注入 + 用户提示词改写）、可分享的单文件卡包、复刻原版 UI 的角色页签与首轮选角 chip
 - 🟨 `[不兼容]` [lijian-ui-dsh-im-gateway](https://github.com/lijian-ui/dsh-im-gateway) ★7 — 为 DeepSeek Harness 提供多 IM 通道接入的网关插件：钉钉 / QQ / 个人微信，支持扫码绑定与流式回复
 - 🟨 `[不兼容]` [lilyblessing-dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) ★7 — MCP 与技能管理面板：设置页展示 MCP 服务器与 Skill 目录，随时启停释放上下文占用
 - 🟨 `[不兼容]` [linhut-dsh-stock-terminal](https://github.com/linhut/dsh-stock-terminal) ★7 — 股市行情皮肤+功能插件：DSH Web GUI 全局交易终端视觉 + 实时行情面板（A股/港股/美股/加密/外汇），自选跑马灯、首字母模糊搜索、持仓盈亏管理
@@ -3198,6 +3201,7 @@
 - 🟨 `[不兼容]` [n0pe-sled-system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) ★0 — dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with l
 - 🟨 `[不兼容]` [n0pe-sled-web-search-searxng](https://github.com/n0pe-sled/web-search-searxng) ★0 — dsh plugin: SEARXNG-backed web search provider for the dsh web_search tool (host-only, no Settings UI)
 - 🟨 `[不兼容]` [nan1010082085-dsh-chat-sync](https://github.com/nan1010082085/dsh-chat-sync) ★0 — DSH plugin: browse & live-sync local Claude Code / Codex CLI / Cursor Agent conversations inside the dsh web G
+- `[未定位]` **nana7mi0721-dsh-comfyui-agent** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [new-256-dsh-session-cleaner](https://github.com/new-256/dsh-session-cleaner) ★0 — DSH 会话清理宿主插件：侧边栏原生「移入回收站」+ 回收站管理页 + HTTP API（两级可恢复删除、同名防删错、活跃会话保护）
 - 🟨 `[不兼容]` [nguyenduclong-ict-dsh-better-uiux](https://github.com/nguyenduclong-ict/dsh-better-uiux) ★0 — Better UIUX for DeepSeek Harness: one Settings section with switches for live terminal output streaming and cu
 - 🟨 `[不兼容]` [nightsvesa-dsh-input-history](https://github.com/NightsVesa/dsh-input-history) ★0 — —
