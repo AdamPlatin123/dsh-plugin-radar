@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2628）
+# 🤖 Agent 能力（2632）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1419,6 +1419,7 @@
 - `[空仓监测]` **realalexandreai-dsh-noc-memory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [realpkuasule-dsh-session-id](https://github.com/realpkuasule/dsh-session-id) ★0 — —
 - 🟩 `[可用]` [renat3u-dsh-upgrade-skill](https://github.com/renat3u/dsh-upgrade-skill) ★0 — dsh 插件升级适配skill
+- `[未定位]` **reverse-pai-dsh-session-delete** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [rex178178-dsh-turnbar](https://github.com/rex178178/dsh-turnbar) ★0 — A progress bar for your agent conversations — in-session turn navigation with hover previews, scrub, playhead,
 - 🟩 `[可用]` [rezon-aki-dsh-compaction-effort-inherit](https://github.com/rezon-aki/dsh-compaction-effort-inherit) ★0 — 上下文压缩沿用会话思考档位：DeepSeek 前缀缓存按档位分桶，不修就会在每次压缩时把整个上下文按未缓存价重算一遍
 - 🟩 `[可用]` [rickwindman-dsh-destinywind-memory](https://github.com/rickwindman/dsh-destinywind-memory) ★0 — DeepSeek Harness 插件：长期记忆库，注入每个会话的系统提示，设置页增删，HTTP API 改数 · Durable long-term memory bank plugin for DeepSeek Ha
@@ -1698,6 +1699,7 @@
 - `[空仓监测]` **xinyu-lumos-dsh-session-manager** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [xiuyuan18-dsh-engram-session](https://github.com/xiuyuan18/dsh-engram-session) ★0 — Unofficial community plugin: per-session Engram memory for DeepSeek Harness — spawns an engram MCP child per a
 - 🟩 `[可用]` [xiyuepcl-dsh-approval-translator](https://github.com/xiyuepcl/dsh-approval-translator) ★0 — DSH审批汉化 — DeepSeek 驱动的 dsh 审批弹窗自动汉化插件（approval dialog auto-translation for DeepSeek Harness）
+- 🟩 `[可用]` [xk150424-dsh-agent-ping](https://github.com/xk150424/dsh-agent-ping) ★0 — 跨会话 @ 呼叫同伴：先经用户当场授权，再唤醒并投递给另一个 DSH 会话
 - 🟩 `[可用]` [dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) ★0 — Action-State Memory Engine: typed time-series memory (states + actions) with trend/anomaly/causal analysis for
 - 🟩 `[可用]` [xqtx9527-dsh-live-pricing](https://github.com/xqtx9527/dsh-live-pricing) ★0 — DeepSeek Harness 实时价格条：高峰/空闲时段、中国法定节假日、当前单价与会话花费 \| Live pricing widget for DSH
 - ⬜ `[待定]` [xrj-dsh-plugin-registry](https://github.com/xrj/dsh-plugin-registry) ★0 — An open registry snapshot for DeepSeek Harness plugins, skills, and related tools
@@ -1743,6 +1745,7 @@
 - 🟩 `[可用]` [zc679087-dsh-skill-preferences](https://github.com/zc679087/dsh-skill-preferences) ★0 — 一个可以管理DSH上安装的skill的插件，可以动态开关skill来防止误触发
 - 🟩 `[可用]` [zeros335882878-dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) ★0 — Literature survey agent for DeepSeek Harness (dsh): interpret-first workflow, 3 skills (paper-survey / paper-i
 - `[未定位]` **zeyu-j-centricmem-skill** — 占位待复核，判定暂不展示
+- `[未定位]` **zf-666888-dsh-session-id-for-desktop** — 占位待复核，判定暂不展示
 - `[未定位]` **zglinus-for-agent-dsh-meili-search** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [zhang-guo-wen-dsh-memory](https://github.com/zhang-guo-wen/dsh-memory) ★0 — Claude-compatible memory for DeepSeek Harness: a user-chosen memory directory with MEMORY.md index and topic f
 - 🟩 `[可用]` [zhao-wuyan-dsh-maestro-runtime](https://github.com/zhao-wuyan/dsh-maestro-runtime) ★0 — DSH host plugin for maestro-flow: guard, context, KG sync, delegate/team/coordinator runtime
@@ -2557,6 +2560,7 @@
 - 🟨 `[不兼容]` [win10ogod-dsh-fount-memory](https://github.com/win10ogod/dsh-fount-memory) ★0 — Fount-inspired memory plugin for DeepSeek Harness with in-turn recall and no autonomous conversation turns
 - 🟨 `[不兼容]` [win10ogod-dsh-fount-reality](https://github.com/win10ogod/dsh-fount-reality) ★0 — Autonomous screen attention and private background Agent loop for DeepSeek Harness
 - 🟨 `[不兼容]` [wjingshan-dsh-plan-guard](https://github.com/wjingshan/dsh-plan-guard) ★0 — DSH 的规划 skill + 写时断言插件：前者让模型动手前想清楚，后者在它重踩旧坑时当场拦住
+- 🟨 `[不兼容]` [wojiao42-dsh-token-cost](https://github.com/wojiao42/dsh-token-cost) ★0 — DSH 侧栏用量与费用账本：全部会话合计、当前任务、逐会话与逐轮明细；不调用模型、不加提示词 · Token usage and estimated cost ledger for DeepSeek Harness
 - 🟨 `[不兼容]` [wsjwu58-cmd-dsh-session-doctor](https://github.com/wsjwu58-cmd/dsh-session-doctor) ★0 — Community Session Doctor integration for DeepSeek Harness〔📦〕
 - 🟨 `[不兼容]` [wuxie233-dsh-plugin-agent-teams](https://github.com/Wuxie233/dsh-plugin-agent-teams) ★0 — —
 - 🟨 `[不兼容]` [wywincl-data-analysis-agent](https://github.com/wywincl/data-analysis-agent) ★0 — data analysis agent for everyone
