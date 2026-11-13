@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T09:46:04Z",
+ "generated_at": "2026-11-13T10:01:16Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2950,6 +2950,13 @@
    "desc": "Claude Code plugin que delega code reviews y tareas a endpoints LLM alternativos (Ollama, gateways custom) usa"
   },
   {
+   "repo": "eryi-lab/dsh-gsap",
+   "name": "eryi-lab-dsh-gsap",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "GSAP skills plugin for DeepSeek Harness: registers the eight official GSAP AI skills."
+  },
+  {
    "repo": "falling-ts/dsh-web-ding",
    "name": "falling-ts-dsh-web-ding",
    "verdict": "ok",
@@ -4376,6 +4383,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "dhdbvcg/dsh-workbuddy-console",
+   "name": "dhdbvcg-dsh-workbuddy-console",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "WorkBuddy multi-account console for DeepSeek Harness: batch check-in for every account, pending growth tasks,"
   },
   {
    "repo": "dmsobtl/dsh-test-workbench",
@@ -14253,6 +14267,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Non-official fail-closed approval policy PoC for DeepSeek Harness"
+  },
+  {
+   "repo": "lc69282940/dsh-desktop-context",
+   "name": "lc69282940-dsh-desktop-context",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "纠正DeepSeek Harness桌面端沿用的 Web 环境说明"
   },
   {
    "repo": "leolee9086/dsh-session-title-refresh",
@@ -50914,6 +50935,13 @@
    "desc": "—"
   },
   {
+   "repo": "dong2007-png/dsh-imagegen",
+   "name": "dong2007-png-dsh-imagegen",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH plugin: generate images via a New API relay (tools: generate_image, list_image_models)"
+  },
+  {
    "repo": "dongsheng123132/dsh-artifact-promotion-proof",
    "name": "dongsheng123132-dsh-artifact-promotion-proof",
    "verdict": "ok",
@@ -67005,6 +67033,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "gjy1992/dsh-diagram",
+   "name": "gjy1992-dsh-diagram",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh (DeepSeek Harness) 架构图生成与 draw.io 导出插件：YAML DSL -> ELK 布局 -> 明文 .drawio"
   },
   {
    "repo": "gmleong/dsh-img",
@@ -87069,6 +87104,13 @@
    "desc": "DSH (DeepSeek Harness) 本机系统运维插件：实时监控 + 两段式 C 盘清理 + 全盘文件搜索"
   },
   {
+   "repo": "godchen520/collab-canvas",
+   "name": "godchen520-collab-canvas",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 协作画布插件（话布）：人和 AI 共写的 Markdown 文档面"
+  },
+  {
    "repo": "GroupWork888/dsh-plugin-archived-sessions",
    "name": "groupwork888-dsh-plugin-archived-sessions",
    "verdict": "ok",
@@ -88530,6 +88572,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "DSH 文档阅读模式"
+  },
+  {
+   "repo": "feely0208/deepwhale-desktop",
+   "name": "feely0208-deepwhale-desktop",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "已归档：源码迁至私有仓；公开插件、技能与文档见 feely0208/deepwhale-public"
   },
   {
    "repo": "jorinyang/dsh-doctor",
@@ -93948,6 +93997,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Maestro Notifier — pluggable notifier service for DeepSeek Harness (Telegram first; registry open to further p"
+  },
+  {
+   "repo": "deadbushxw/dsh-task-ask-notify",
+   "name": "deadbushxw-dsh-task-ask-notify",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 桌面端插件：任务完成或模型向你提问时，弹出 Windows 系统通知并播放提示音，提示音可自定义 \\| DSH (DeepSeek Harness) desktop plugin: pops up a Window"
   },
   {
    "repo": "dusbin/dsh-chat-fold",
@@ -100038,6 +100094,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "jacksong-sourse/dsh-world-engine",
+   "name": "jacksong-sourse-dsh-world-engine",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A DeepSeek Harness plugin that compiles a described world into declarative rules and lets agents, subjectivity"
   },
   {
    "repo": "jasonliu119/find-image-prompt-skill",
@@ -108193,6 +108256,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH plugin: 9router-backed web search and web fetch providers"
+  },
+  {
+   "repo": "lorsabyan/dsh-file-download",
+   "name": "lorsabyan-dsh-file-download",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Download files and recursive folder ZIP archives from DeepSeek Harness file rows and preview mode."
   },
   {
    "repo": "lovezi0/dsh-open-in-codebuddy",
