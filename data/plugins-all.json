@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T10:46:15Z",
+ "generated_at": "2026-11-13T11:01:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -1121,6 +1121,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a DeepSeek Harness bu"
+  },
+  {
+   "repo": "xrn1997/dsh-session-delete",
+   "name": "xrn1997-dsh-session-delete",
+   "verdict": "pending",
+   "stars": 8,
+   "desc": "deepseek harness 会话回收站"
   },
   {
    "repo": "Zzzzkd/dsh-prompt-rail",
@@ -6448,6 +6455,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "anne43983959/dsh-audio-cue",
+   "name": "anne43983959-dsh-audio-cue",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 宿主插件：审批询问与一轮对话结束时播放声音提示（含两次实测事故复盘）"
   },
   {
    "repo": "anneqaq/dsh-embedded-kit",
@@ -13462,6 +13476,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Agents Anywhere bridge and Web status plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "xkjxziochu/dsh-input-optimizer",
+   "name": "xkjxziochu-dsh-input-optimizer",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Standalone dsh plugin: rewrite the composer draft into a better prompt through the harness's own LLM routes, w"
   },
   {
    "repo": "xuanyuanluoxue/computer-use-vision",
@@ -21738,6 +21759,13 @@
    "desc": "Multi-language UI plugin for DeepSeek Harness: 繁體中文 / 日本語 / 한국어 / Français / Deutsch / Español language option"
   },
   {
+   "repo": "ashareapi/ashareapi-dsh-plugin",
+   "name": "ashareapi-ashareapi-dsh-plugin",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A股数据 API 官方 DeepSeek Harness 插件 —— 桌面端 / Web UI 输个包名即装，31 个 A股工具（行情 / K线 / 分时 / 财务 / 资金 / 龙虎榜 / 板块 / 选股 / 量化回测"
+  },
+  {
    "repo": "asxiuxiu/dsh-quick-open",
    "name": "asxiuxiu-dsh-quick-open",
    "verdict": "ok",
@@ -25803,6 +25831,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "baom1ng/dsh-desktop-archive-manager",
+   "name": "baom1ng-dsh-desktop-archive-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Manage the archived Sessions of DeepSeek Harness: browse, restore and delete them permanently from an Archives"
   },
   {
    "repo": "bbboy31/dsh-terminal-tabs",
@@ -34651,6 +34686,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions"
+  },
+  {
+   "repo": "yuehancn/dsh-tool-comfyui",
+   "name": "yuehancn-dsh-tool-comfyui",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Let DeepSeek Harness generate images: call local or LAN ComfyUI workers directly from chat (status, generate,"
   },
   {
    "repo": "yuzh2001/dsh-zotero",
@@ -62793,6 +62835,20 @@
    "desc": "DeepSeek Harness plugin"
   },
   {
+   "repo": "yuehancn/dsh-tool-media",
+   "name": "yuehancn-dsh-tool-media",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin"
+  },
+  {
+   "repo": "yuehancn/dsh-tool-subtitle",
+   "name": "yuehancn-dsh-tool-subtitle",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin"
+  },
+  {
    "repo": "YuemingHub/Ming-Capability-Pack",
    "name": "yueminghub-ming-capability-pack",
    "verdict": "ok",
@@ -83814,6 +83870,13 @@
    "desc": "Enumerate and control Windows top-level windows from WSL: activate, minimize, restore, move and resize."
   },
   {
+   "repo": "a23842/dsh-waste-market",
+   "name": "a23842-dsh-waste-market",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "AAA-STM32XinPianPiFaWangGe/DSH-Workshop",
    "name": "aaa-stm32xinpianpifawangge-dsh-workshop",
    "verdict": "ok",
@@ -92123,6 +92186,13 @@
    "desc": "DSH 编辑器选区桥接扩展:把 VS Code 的主选区(路径+行区间,不含任何文件内容)推送给本地 DeepSeek Harness,使对话自动聚焦你正在看的代码"
   },
   {
+   "repo": "yuehancn/dsh-tool-gzh-publisher",
+   "name": "yuehancn-dsh-tool-gzh-publisher",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "WeChat Official Account (公众号) pipeline for DeepSeek Harness: validate a draft against the publish gate, then p"
+  },
+  {
    "repo": "zal572199088-creator/dsh-notify",
    "name": "zal572199088-creator-dsh-notify",
    "verdict": "ok",
@@ -94417,6 +94487,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Eyes for text-only DeepSeek: view_image tool (local Ollama or any OpenAI-compatible VLM) + chat image-attachme"
+  },
+  {
+   "repo": "xubin0628/dsh-task-notifier",
+   "name": "xubin0628-dsh-task-notifier",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH 任务通知插件：任务完成 / 需要批准 / 需要回答 / 出错时的横幅、提示音与系统通知，并在设置里提供「通知」页自由配置"
   },
   {
    "repo": "Yunqingqingxi/dsh-plugin-qqbot",
@@ -105003,6 +105080,13 @@
    "desc": "—"
   },
   {
+   "repo": "vitas/dsh-codex-review",
+   "name": "vitas-dsh-codex-review",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A deterministic /review command for DeepSeek Harness: a reviewer subagent pinned to a subscription-backed Code"
+  },
+  {
    "repo": "voidmind26/dsh-lsp-bridge",
    "name": "voidmind26-dsh-lsp-bridge",
    "verdict": "ok",
@@ -105610,6 +105694,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "yuehancn/dsh-tool-ocr",
+   "name": "yuehancn-dsh-tool-ocr",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Extract text from images and PDFs in DeepSeek Harness: read a born-digital text layer, or OCR a scan with any"
   },
   {
    "repo": "yueyexiayu/dsh-bianji",
