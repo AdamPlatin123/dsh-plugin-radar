@@ -1,0 +1,60 @@
+name: entry-precheck
+
+# Scheduled, self-invoked producer for the `static` evidence axis.
+#
+# Only the published npm tarball is inspected. The source repository is never
+# cloned (a source checkout often lacks the built lib/ the entry check needs),
+# the tarball is never installed, and nothing in it is executed.
+#
+# No commit and no write token: this workflow uploads the cache and the run
+# report as artifacts. It does not modify normalize.py or aggregate.py, and it
+# does not change admission or ordering. No workflow runs the aggregation
+# today (ADR-0004 keeps the canonical public output separate), so this runs as
+# a scheduled, self-contained producer; wiring the artifact into the pipeline
+# is a separate decision for the maintainer.
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: entry-precheck
+  cancel-in-progress: true
+
+jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Entry static precheck (non-blocking)
+        # The script exits 0 on every path and leaves the cache untouched when
+        # the checker cannot be installed — a failed install is not a finding.
+        continue-on-error: true
+        run: python3 scripts/entry-precheck.py
+
+      - name: Upload the cache and run report
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: entry-precheck-${{ github.run_id }}
+          path: |
+            data/entry-cache.json
+            reports/entry-precheck/
+          if-no-files-found: warn
+          retention-days: 90
