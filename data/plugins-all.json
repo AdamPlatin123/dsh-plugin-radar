@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T13:01:15Z",
+ "generated_at": "2026-11-13T13:46:15Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -995,6 +995,13 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "一个用于 DBX 插件开发 的 agent skill（技能包），覆盖从创建到上架官方商店的全链路"
+  },
+  {
+   "repo": "chunsi-w/dsh-ctxopt-compaction",
+   "name": "chunsi-w-dsh-ctxopt-compaction",
+   "verdict": "ok",
+   "stars": 9,
+   "desc": "DeepSeek Harness 的上下文压缩插件"
   },
   {
    "repo": "ciyuan1234/MCM_skills",
@@ -4152,6 +4159,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "bauerelizabeth07139/math-rigor",
+   "name": "bauerelizabeth07139-math-rigor",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Auditable mathematical proving for DeepSeek Harness: a local stdio MCP server (23 tools), a bundled workflow s"
   },
   {
    "repo": "bbaz123/novel-writing-plugin",
@@ -7913,6 +7927,20 @@
    "desc": "—"
   },
   {
+   "repo": "lemonhall/dsh-calendar-dock",
+   "name": "lemonhall-dsh-calendar-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏通用日历：月视图 + 当天事件 + 接下来；本地存储，Agent 也能加删勾（calendar_panel）"
+  },
+  {
+   "repo": "lemonhall/dsh-rss-dock",
+   "name": "lemonhall-dsh-rss-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏 RSS 阅读器：订阅源在配置里，未读/收藏双向状态，Agent 也能读（rss_panel 工具）"
+  },
+  {
    "repo": "leolee9086/dsh-better-session-query",
    "name": "leolee9086-dsh-better-session-query",
    "verdict": "ok",
@@ -10690,6 +10718,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Personal longevity harness for DeepSeek Harness: dispatch longevity-skills from one person's Mirobody record,"
+  },
+  {
+   "repo": "zws20070309/dsh-dispatch-agent-team",
+   "name": "zws20070309-dsh-dispatch-agent-team",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "调度模式（dispatch-mode）agent preset + 智能体团队插件 for DeepSeek Harness：12 类队员角色、共享队员卡（缓存友好）、report_result 结构化汇报、wake_t"
   },
   {
    "repo": "zzy-cl/dsh-prompt-optimizer",
@@ -18217,6 +18252,13 @@
    "desc": "完美复刻 Claude Code 皮肤，纪念我的 Vibe Coding 白月光"
   },
   {
+   "repo": "lemonhall/dsh-media-dock",
+   "name": "lemonhall-dsh-media-dock",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH 右侧栏媒体台：抖音/YouTube 链接进来，本机 yt-dlp 下载 + ffmpeg 转码 + 官方 speechToText（SenseVoice）本地转写，字幕进面板，一键让 Agent 总结"
+  },
+  {
    "repo": "lesliechowsh/dsh-weniger-theme",
    "name": "lesliechowsh-dsh-weniger-theme",
    "verdict": "ok",
@@ -21682,6 +21724,13 @@
    "desc": "Completion evidence gate for DeepSeek Harness goal-mode subagents"
   },
   {
+   "repo": "1134478268-dev/dsh-peak-clock",
+   "name": "1134478268-dev-dsh-peak-clock",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 峰谷时段 + 用量/费用指示器 · Peak/off-peak timing with token usage and spend tracking for the DSH Web UI"
+  },
+  {
    "repo": "1499501762/dsh-web-fetch-proxy",
    "name": "1499501762-dsh-web-fetch-proxy",
    "verdict": "ok",
@@ -21722,6 +21771,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH web 插件：可悬浮 / 可停靠的多标签 Markdown 预览面板 + md_preview 模型工具，会话里一键预览报告"
+  },
+  {
+   "repo": "49zr664rb8-hue/dsh-codex-effort",
+   "name": "49zr664rb8-hue-dsh-codex-effort",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 DSH 输入框的「模型·推理等级」菜单换成 Codex 那样的横向滑动滑条"
   },
   {
    "repo": "4sa1ary9/dockyard-dsh",
@@ -24291,6 +24347,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 插件：内置 Matt Pocock 技能集 + 侧边栏可视化流水线面板（Idea→Triage→Grill→Spec→Tickets→Implement→Review），一键把 /技能"
+  },
+  {
+   "repo": "sailoumili/dsh-file-opener",
+   "name": "sailoumili-dsh-file-opener",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：对话里的文件与目录路径点一下就打开——可预览的在右侧侧边栏显示，其余用系统默认程序打开"
   },
   {
    "repo": "Schumchanvi/dsh-voice-input-cn",
@@ -28015,6 +28078,69 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Codex-style conversation navigator for the DeepSeek Harness web UI"
+  },
+  {
+   "repo": "lemonhall/dsh-calorie-dock",
+   "name": "lemonhall-dsh-calorie-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏卡路里日记：内置食物热量表，选食物+克数自动算 kcal（calorie_panel）"
+  },
+  {
+   "repo": "lemonhall/dsh-dock-batch",
+   "name": "lemonhall-dsh-dock-batch",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 右侧栏十个插件的总文与面板拼图（RSS/日历/账本/卡路里/待办/番茄/IRC/QQ邮箱 + 车载电台/金融终端）"
+  },
+  {
+   "repo": "lemonhall/dsh-finance-dock",
+   "name": "lemonhall-dsh-finance-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH right-sidebar finance terminal: cross-asset quotes, 3D globe, risk-appetite gauge, Chinese glossary, bilin"
+  },
+  {
+   "repo": "lemonhall/dsh-irc-dock",
+   "name": "lemonhall-dsh-irc-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏 IRC 客户端：node tls 直连或走 HTTP CONNECT 隧道，SASL、自签证书、限次重连（irc_panel）"
+  },
+  {
+   "repo": "lemonhall/dsh-ledger-dock",
+   "name": "lemonhall-dsh-ledger-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏记账本：记一笔、本月结余、分类统计；金额按分存整数（ledger_panel）"
+  },
+  {
+   "repo": "lemonhall/dsh-lucy-companion",
+   "name": "lemonhall-dsh-lucy-companion",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Lucy 伴侣插件：复用 dsh-whale-widget 的数据管线，把余额/今日/峰谷/每轮消耗念给左侧 Lucy 的气泡"
+  },
+  {
+   "repo": "lemonhall/dsh-pomodoro-dock",
+   "name": "lemonhall-dsh-pomodoro-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏番茄闹钟：专注/休息循环，计时只存 endsAt、切 tab 不中断（pomodoro_panel）"
+  },
+  {
+   "repo": "lemonhall/dsh-skin-crt",
+   "name": "lemonhall-dsh-skin-crt",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "磷光 CRT —— DSH Web GUI 皮肤：P1 磷光绿、点阵中文字体、扫描线与余晖辉光"
+  },
+  {
+   "repo": "lemonhall/dsh-skin-lucy",
+   "name": "lemonhall-dsh-skin-lucy",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "lengduan/dsh-815-skin",
@@ -35225,6 +35351,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Claude Code-style terminal UI plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "atlas5301/dsh-remote-sessions",
+   "name": "atlas5301-dsh-remote-sessions",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: run remote DSH agent sessions through the unchanged native UI — strict-SSH resident lifecycle, ses"
   },
   {
    "repo": "awol2005ex3/dsh-logo-custom",
@@ -70409,6 +70542,13 @@
    "desc": "Lemoe Technology's deepseek harness plugins"
   },
   {
+   "repo": "lemonhall/dsh-tts-reader",
+   "name": "lemonhall-dsh-tts-reader",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：用小艺（Edge TTS）边写边念助手的回答，并可重读任意一条历史回答"
+  },
+  {
    "repo": "lengxiaoyu6/dsh-model-extended",
    "name": "lengxiaoyu6-dsh-model-extended",
    "verdict": "incompatible",
@@ -73109,6 +73249,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "—"
+  },
+  {
+   "repo": "gaoyian7251/dsh-window-state",
+   "name": "gaoyian7251-dsh-window-state",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "在 DSH 桌面客户端「设置 → 通用设置」中选择启动窗口状态（默认 / 最大化 / 全屏）"
   },
   {
    "repo": "iasiv5/dsh-skip-browser-auth",
@@ -78478,6 +78625,13 @@
    "verdict": "incompatible",
    "stars": 12,
    "desc": "—"
+  },
+  {
+   "repo": "drscrewdriver/dsh-mcp-registry",
+   "name": "drscrewdriver-dsh-mcp-registry",
+   "verdict": "incompatible",
+   "stars": 11,
+   "desc": "DeepSeek Harness 插件：MCP 连接器受治理注册表（stdio / streamable-http）——四级 fail-closed 授权、mcpServers 导入大声报错、凭据全程脱敏、review-"
   },
   {
    "repo": "Hyna-hla/dsh-remote",
@@ -87699,6 +87853,13 @@
    "desc": "DSH web plugin: two-step inline archive on workspace sidebar rows — one click arms a red confirm, the second a"
   },
   {
+   "repo": "bauerelizabeth07139/dsh-plugin-dxpdf",
+   "name": "bauerelizabeth07139-dsh-plugin-dxpdf",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: convert Word .docx to PDF with the dxpdf Rust/Skia engine — no Microsoft Office, no L"
+  },
+  {
    "repo": "ben7am1n/dsh-memory",
    "name": "ben7am1n-dsh-memory",
    "verdict": "ok",
@@ -90618,6 +90779,13 @@
    "desc": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.〔📦〕"
   },
   {
+   "repo": "xs1023/dsh-memory-vault",
+   "name": "xs1023-dsh-memory-vault",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 外置记忆库插件（修复分支）— SQLite 长期记忆、分层压缩、搜索与归档"
+  },
+  {
    "repo": "Yiklek/dsh-archived-list",
    "name": "yiklek-dsh-archived-list",
    "verdict": "incompatible",
@@ -93362,6 +93530,13 @@
    "desc": "DeepSeek Harness QQ bot plugin with OneBot 11 and QQ Official Platform support"
   },
   {
+   "repo": "lemonhall/dsh-qqmail-dock",
+   "name": "lemonhall-dsh-qqmail-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏 QQ 邮箱：读最近邮件、看正文、发纯文本；凭据只读私有文件，发送要 confirm（qqmail_panel）"
+  },
+  {
    "repo": "lifeopsgo/dsh-lark-session-monitor-plugin",
    "name": "lifeopsgo-dsh-lark-session-monitor-plugin",
    "verdict": "pending",
@@ -96013,6 +96188,13 @@
    "verdict": "ok",
    "stars": 97,
    "desc": "—"
+  },
+  {
+   "repo": "lemonhall/asd-ste100-skill-zh",
+   "name": "lemonhall-asd-ste100-skill-zh",
+   "verdict": "pending",
+   "stars": 96,
+   "desc": "受控中文技术写作技能：ASD-STE100 的中文对应物，含 stdlib-only 确定性 linter"
   },
   {
    "repo": "labring/sealos-skills",
@@ -104315,6 +104497,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH-native persistent memory and safe session-aware retrieval plugin"
+  },
+  {
+   "repo": "lemonhall/birefnet-cutout-skill",
+   "name": "lemonhall-birefnet-cutout-skill",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "抠人物的方法与实测边界：模型代际、rembg 的 1024 陷阱、官方 2048 HR-matting 的软 alpha、8GB 显卡跑不了 2048 的原因，以及用「半透明像素占比」客观量发丝"
   },
   {
    "repo": "leolee9086/dsh-bazaar",
