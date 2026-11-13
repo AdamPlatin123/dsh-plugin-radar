@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T03:46:18Z",
+ "generated_at": "2026-11-13T04:01:08Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -73039,6 +73039,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "管理多个隔离的 DeepSeek Harness (DSH) 实例的 Windows 桌面工具"
+  },
+  {
+   "repo": "drfccv/dsh-mcp-center",
+   "name": "drfccv-dsh-mcp-center",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Connect any MCP server to your DeepSeek Harness — point, click, done."
   },
   {
    "repo": "ethan0084/dsh-cockpit",
