@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T21:46:09Z",
+ "generated_at": "2026-11-13T22:01:21Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -4014,6 +4014,13 @@
    "desc": "DSH 开机动画：声音不需要全屏"
   },
   {
+   "repo": "20genesis14-sys/dsh-max-compact",
+   "name": "20genesis14-sys-dsh-max-compact",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: compact model input via a lazy tool surface (mc_discover), deployment-level prompt la"
+  },
+  {
    "repo": "2472786266-spec/deepseek-hsrness-devkit",
    "name": "2472786266-spec-deepseek-hsrness-devkit",
    "verdict": "pending",
@@ -6436,11 +6443,25 @@
    "desc": "Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots au"
   },
   {
+   "repo": "2090003781/bridge",
+   "name": "2090003781-bridge",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Bridge: one plugin with two halves — an Obsidian plugin that exposes Obsidian capabilities over loopback HTTP,"
+  },
+  {
    "repo": "2092372408-pixel/dsh-roadmap-board",
    "name": "2092372408-pixel-dsh-roadmap-board",
    "verdict": "pending",
    "stars": 0,
    "desc": "人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）"
+  },
+  {
+   "repo": "20zxknk/dsh-session-hub",
+   "name": "20zxknk-dsh-session-hub",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: one searchable, timeline-grouped list of every Session across every Workspace."
   },
   {
    "repo": "240xu/dsh-session-lazy-view",
@@ -16803,6 +16824,13 @@
    "desc": "—"
   },
   {
+   "repo": "1015677515/dsh-theme-holo",
+   "name": "1015677515-dsh-theme-holo",
+   "verdict": "ok",
+   "stars": 12,
+   "desc": "为 DeepSeek Harness 打造的《狼与香辛料》赫萝主题：12 秒开场动画、浮动字标、偷看的她、动态档案卡、侧栏麦田、记录板、右栏待机画面与小鲸鱼联动——其中多个组件可以单独关掉"
+  },
+  {
    "repo": "better-er/dsh-tool-autoexpand",
    "name": "better-er-dsh-tool-autoexpand",
    "verdict": "ok",
@@ -25929,6 +25957,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH web 插件：在 dsh-better-sidebar 侧边栏内把 Markdown 富渲染为预览（代码高亮 / 目录 / 一键复制）"
+  },
+  {
+   "repo": "2095945715a-source/dsh-basketball-pet",
+   "name": "2095945715a-source-dsh-basketball-pet",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A basketball desktop pet for the DSH Web UI — drag the hoop anywhere, flick the ball in, bouncy physics and a"
   },
   {
    "repo": "2123043818/dsh-sidebar-enhance",
@@ -50548,6 +50583,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (dsh) 模型视觉开关插件：为自定义模型声明图像输入能力（写入 llm-pi-ai 配置），适配 0.1.x"
+  },
+  {
+   "repo": "208c/dsh-mica",
+   "name": "208c-dsh-mica",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "2128627267/dsh-qknowledge-base",

@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2677）
+# 🤖 Agent 能力（2680）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -584,6 +584,7 @@
 - ⬜ `[待定]` [17861102832-fleet-os](https://github.com/17861102832/fleet-os) ★1 — Fleet OS · 舰队模式 — 生产级多 Agent 协同引擎：WS 黑板 + 事件溯源 + 盲评对抗 + 跨舰队接力 + 上下文压缩 + 多厂商负载均衡 + 自进化
 - ⬜ `[待定]` [1while1-dsh-whale-subagent](https://github.com/1while1/dsh-whale-subagent) ★1 — A whale-girl themed subagent nest for the DeepSeek Harness, featuring pixel-animated subagent cards, real-time
 - 🟩 `[可用]` [2034126171-dsh-boot-animation-sound](https://github.com/2034126171/dsh-boot-animation-sound) ★1 — DSH 开机动画：声音不需要全屏
+- 🟩 `[可用]` [20genesis14-sys-dsh-max-compact](https://github.com/20genesis14-sys/dsh-max-compact) ★1 — DeepSeek Harness plugin: compact model input via a lazy tool surface (mc_discover), deployment-level prompt la
 - ⬜ `[待定]` [2472786266-spec-deepseek-hsrness-devkit](https://github.com/2472786266-spec/deepseek-hsrness-devkit) ★1 — DSH DevKit: multimodal gallery + multi-agent supervision console (DeepSeek Harness dynamic Cordis plugin)
 - 🟩 `[可用]` [27aaron-agent-toolkit](https://github.com/27Aaron/skills) ★1 — —
 - 🟩 `[可用]` [33moren33-dsh-memory-pyramid](https://github.com/33moren33/dsh-memory-pyramid) ★1 — Timeline memory for DeepSeek Harness (dsh): append-only fact log + agent-maintained summary pyramid, fixed rea
@@ -939,7 +940,9 @@
 - ⬜ `[待定]` [13680672459-alt-dsh-mobile](https://github.com/13680672459-alt/dsh-mobile) ★0 — DeepSeek Harness 的安卓壳子 APP - 把家里电脑的 AI 装进口袋,所有插件/技能/工具 100% 保留
 - 🟩 `[可用]` [1622352030-dsh-session-rescue](https://github.com/1622352030/dsh-session-rescue) ★0 — Session-stall watchdog for DeepSeek Harness: releases a hung turn in place instead of restarting the app.
 - 🟩 `[可用]` [1710782766-dsh-browser-verify](https://github.com/1710782766/dsh-browser-verify) ★0 — Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots au
+- ⬜ `[待定]` [2090003781-bridge](https://github.com/2090003781/bridge) ★0 — Bridge: one plugin with two halves — an Obsidian plugin that exposes Obsidian capabilities over loopback HTTP,
 - ⬜ `[待定]` [2092372408-pixel-dsh-roadmap-board](https://github.com/2092372408-pixel/dsh-roadmap-board) ★0 — 人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）
+- 🟩 `[可用]` [20zxknk-dsh-session-hub](https://github.com/20zxknk/dsh-session-hub) ★0 — DeepSeek Harness plugin: one searchable, timeline-grouped list of every Session across every Workspace.
 - 🟩 `[可用]` [240xu-dsh-session-lazy-view](https://github.com/240xu/dsh-session-lazy-view) ★0 — DSH web plugin: read-only lazy session viewer — lists sessions (stat-only) and peeks at the last N zstd frames
 - 🟩 `[可用]` [2432450223-dsh-image-governor](https://github.com/2432450223/dsh-image-governor) ★0 — Session image payload governor for DeepSeek Harness: audit which images a session still ships, pick the ones t
 - 🟩 `[可用]` [245678000000-dsh-shield](https://github.com/245678000000/dsh-shield) ★0 — Security, Trust & Policy Layer for DeepSeek Harness
