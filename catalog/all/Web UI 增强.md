@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3370）
+# 🔌 Web UI 增强（3373）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -932,6 +932,7 @@
 - 🟩 `[可用]` [aorucshiea-dsh-safe-tui](https://github.com/aorucshiea/dsh-safe-tui) ★1 — DeepSeek Harness safe-mode recovery console: minimal TUI, history, repair, model/provider management
 - 🟩 `[可用]` [asakumizy-dsh-local-skills](https://github.com/asakumizy/dsh-local-skills) ★1 — DSH plugin: local SKILL browser with a Notion-style web UI (live watch, Use-button guide, bundled starter skil
 - 🟩 `[可用]` [asd13006-dsh-multi-lang-ui](https://github.com/asd13006/dsh-multi-lang-ui) ★1 — Multi-language UI plugin for DeepSeek Harness: 繁體中文 / 日本語 / 한국어 / Français / Deutsch / Español language option
+- 🟩 `[可用]` [ashareapi-ashareapi-dsh-plugin](https://github.com/ashareapi/ashareapi-dsh-plugin) ★1 — A股数据 API 官方 DeepSeek Harness 插件 —— 桌面端 / Web UI 输个包名即装，31 个 A股工具（行情 / K线 / 分时 / 财务 / 资金 / 龙虎榜 / 板块 / 选股 / 量化回测
 - 🟩 `[可用]` [asxiuxiu-dsh-quick-open](https://github.com/asxiuxiu/dsh-quick-open) ★1 — DSH Web GUI plugin: VSCode-style Ctrl+P quick open — indexed workspace file search, sidebar editor open, conve
 - 🟩 `[可用]` [autumnshiu009-ship-it-dsh-mobile-ui](https://github.com/autumnshiu009-ship-it/dsh-mobile-ui) ★1 — dsh profile bundle: mobile adaptations for the DeepSeek Harness Web GUI
 - 🟩 `[可用]` [awa-123-cw-better-deepseek-harness](https://github.com/awa-123-cw/better-deepseek-harness) ★1 — DSH 图片/音视频托管插件：自动拉起 8899 静态服务 + 3080 /files/ 路由（HTTP Range 流式）+ WebUI 内点击即播（视频静音/音频 20% 音量/互斥懒加载）
@@ -1540,6 +1541,7 @@
 - 🟩 `[可用]` [aze0695-dsh-crimson-theme](https://github.com/aze0695/dsh-crimson-theme) ★0 — —
 - 🟩 `[可用]` [baikangwang-dsh-ide-ui](https://github.com/baikangwang/dsh-ide-ui) ★0 — —
 - 🟩 `[可用]` [baobao1996121-dsh-restart-ui](https://github.com/BaoBao1996121/dsh-restart-ui) ★0 — —
+- 🟩 `[可用]` [baom1ng-dsh-desktop-archive-manager](https://github.com/baom1ng/dsh-desktop-archive-manager) ★0 — Manage the archived Sessions of DeepSeek Harness: browse, restore and delete them permanently from an Archives
 - `[未定位]` **barneyzhaoooo-dsh-theme-native** — 占位待复核，判定暂不展示
 - `[空仓监测]` **baroncyrus-dsh-ugui-preset** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [bbboy31-dsh-terminal-tabs](https://github.com/bbboy31/dsh-terminal-tabs) ★0 — Terminals view tab for DeepSeek Harness web UI — live background job count, streaming output, one-click kill
@@ -3006,6 +3008,7 @@
 - 🟨 `[不兼容]` [yhbd-top-dsh-plugin-top](https://github.com/yhbd-top/dsh-plugin-top) ★1 — yhbd.top 插件雷达 for DeepSeek Harness：侧边栏大面板浏览 5500+ 插件目录（搜索 / 21 分类 / 五榜单 / 榜单联动分类），安装引导语一键写入会话输入框；进程内同源反代，零配置；附
 - 🟨 `[不兼容]` [yingzaicc-dsh-gitland](https://github.com/yingzaicc/dsh-gitland) ★1 — DeepSeek Harness（DSH）的 Git 面板插件：在 Web GUI 中呈现 GoLand 风格的 Git 工具窗口 —— 提交日志时间线（彩色泳道图）、分支管理、worktree 管理，以及工作区状态摘要
 - 🟨 `[不兼容]` [dsh-workspace-enhance](https://github.com/yuanzehui313/dsh-workspace-enhance) ★1 — DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions
+- 🟨 `[不兼容]` [yuehancn-dsh-tool-comfyui](https://github.com/yuehancn/dsh-tool-comfyui) ★1 — Let DeepSeek Harness generate images: call local or LAN ComfyUI workers directly from chat (status, generate,
 - 🟨 `[不兼容]` [dsh-zotero](https://github.com/yuzh2001/dsh-zotero) ★1 — 在 DeepSeek Harness 中浏览、搜索并引用你的 Zotero 文献库（侧边栏文件树 + & 与 /zotero 快速引用）
 - 🟨 `[不兼容]` [zengrz-dsh-matrix-theme](https://github.com/zengrz/dsh-matrix-theme) ★1 — The Matrix movie theme for the DeepSeek Harness (dsh) web GUI — installable dsh plugin: green-on-black palette
 - 🟨 `[不兼容]` [zhangguiping-xydt-dsh-possibility-space](https://github.com/zhangguiping-xydt/dsh-possibility-space) ★1 — Explore AI outputs as a steerable semantic possibility space for DeepSeek Harness.
