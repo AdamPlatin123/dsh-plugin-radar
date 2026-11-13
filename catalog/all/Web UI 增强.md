@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3422）
+# 🔌 Web UI 增强（3426）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1631,6 +1631,7 @@
 - 🟩 `[可用]` [davidgereb-dsh-plugin-better-mobile-ui](https://github.com/davidgereb/dsh-plugin-better-mobile-ui) ★0 — Better UI for DeepSeek Harness's web view on mobile.
 - ⬜ `[待定]` [dddzzz123-dz-dsh-read-image-plugin](https://github.com/dddzzz123-dz/dsh-read-image-plugin) ★0 — Image input fallback for DeepSeek Harness with native multimodal model detection and Volcengine Ark vision.
 - ⬜ `[待定]` [dddzzz123-dz-dsh-voice-input-plugin](https://github.com/dddzzz123-dz/dsh-voice-input-plugin) ★0 — 语音输入插件Voice input plugin for DeepSeek Harness Web UI.
+- `[未定位]` **deanyu148-dsh-balance-inquiry** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [deepseekharness-dsh-agent-mode-change](https://github.com/deepseekharness-dsh/agent-mode-change) ★0 — Agent-mode floating window for DeepSeek Harness (dsh): a draggable Web-UI panel that switches a session's syst
 - 🟩 `[可用]` [delphuy-dsh-cost](https://github.com/delphuy/dsh-cost) ★0 — DSH cost badge plugin — sidebar footer balance label + hover popover for the DeepSeek Harness web GUI.
 - 🟩 `[可用]` [demigod-cyber-dsh-angelina-theme](https://github.com/Demigod-cyber/dsh-angelina-theme) ★0 — —
@@ -1769,6 +1770,7 @@
 - 🟩 `[可用]` [hfyydd-dsh-cua](https://github.com/hfyydd/dsh-cua) ★0 — Computer Use for DeepSeek Harness, backed by the cua-driver daemon (trycua): UIA element-level targeting, back
 - 🟩 `[可用]` [hhb1028-dsh-client-ui-timeline](https://github.com/hhb1028/dsh-client-ui-timeline) ★0 — DSH Web GUI 会话问题导航条：聊天区左缘一问一杠，随滚动高亮当前问题、悬停显示问答预览气泡、点击把该问平滑滚到视口顶（未渲染的更早历史自动翻页加载），无需改动 dsh 本体源码
 - 🟩 `[可用]` [hhy66-dsh-balance-stats](https://github.com/hhy66/dsh-balance-stats) ★0 — DSH 余额与消耗面板（dsh-balance-stats）
+- 🟩 `[可用]` [himoew-dsh-user-style](https://github.com/himoew/dsh-user-style) ★0 — 让 AI 记住「你喜欢怎么被对待」：可编辑的用户工作风格档案，在每次对话开始前注入系统提示词
 - 🟩 `[可用]` [hj01857655-dsh-theme-studio](https://github.com/hj01857655/dsh-theme-studio) ★0 — 已迁移到 monorepo：https://github.com/hj01857655/dsh-plugins（packages/dsh-theme-studio，后续版本从那里发布）
 - 🟩 `[可用]` [hmlyx-dsh-notify](https://github.com/hmlyx/dsh-notify) ★0 — 在输入框右边加了一个泡泡窗口，你可以接入插件或者告诉 AI 什么时候使用它
 - 🟩 `[可用]` [hoemr-dsh-quicklook](https://github.com/Hoemr/dsh-quicklook) ★0 — —
@@ -1883,6 +1885,7 @@
 - 🟩 `[可用]` [kogisune-dsh-skin-koi-pond](https://github.com/Kogisune/dsh-skin-koi-pond) ★0 — —
 - 🟩 `[可用]` [kongbai-chao-dsh-plugin-whale-skin](https://github.com/kongbai-chao/dsh-plugin-whale-skin) ★0 — Deep-sea whale-girl theme for the DeepSeek Harness desktop client: deep-blue palette (light/dark) plus two cor
 - 🟩 `[可用]` [kongbai-shike-dsh-drop-path](https://github.com/kongbai-shike/dsh-drop-path) ★0 — 对于Deepseek-Harness，桌面版来说，只有图片才能直接接收，对于用惯了claudecode的人来说很不习惯，所以我依靠ai完成了一个可以直接在文件管理器页面，把需要上传的文件拖拽到对应的DSH桌面端界面，就能
+- `[未定位]` **kouzakiumi-dsh-hindsight-gui** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [kristol07-dsh-version-inventory](https://github.com/kristol07/dsh-version-inventory) ★0 — Show the running DeepSeek Harness version and every mounted plugin's package version inside the dsh web UI.
 - 🟩 `[可用]` [ktao732084-arch-dsh-vibegap](https://github.com/ktao732084-arch/dsh-vibegap) ★0 — Vocabulary flashcards inside the dsh web UI - appear while your agent runs, retreat when it finishes
 - 🟩 `[可用]` [kuailexiaozixin-tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) ★0 — Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller）
@@ -2970,6 +2973,7 @@
 - 🟨 `[不兼容]` [louisyeaaah-dsh-doctor](https://github.com/louisyeaaah/dsh-doctor) ★1 — Read-only diagnostics for DeepSeek Harness: why a plugin row is not running, why a skill is invisible, whether
 - 🟨 `[不兼容]` [lovedheart-dsh-plugin-token-usage](https://github.com/lovedheart/dsh-plugin-token-usage) ★1 — DSH plugin for cross-session token usage statistics (/usage command + Web GUI Token 用量 panel)
 - 🟨 `[不兼容]` [loyalchiiina-dsh-lobsterai-daddy](https://github.com/loyalchiiina/dsh-lobsterai-daddy) ★1 — LobsterAIDaddy — draggable floating ball + slide-in drawer embedding the LobsterDaddy multi-account console in
+- 🟨 `[不兼容]` [lucky01222-dsh-workbench-theme](https://github.com/lucky01222/dsh-workbench-theme) ★1 — Light/dark theme with APTX logo and optional artwork panels for official DeepSeek Harness Web
 - 🟨 `[不兼容]` [lwy521-dsh-remote-mcp-manager](https://github.com/lwy521/dsh-remote-mcp-manager) ★1 — DSH 插件：远程 MCP 服务器管理器，支持在 DSH Web GUI 设置面板中配置和管理远程 MCP Server
 - 🟨 `[不兼容]` [lx963-dsh-webui-background](https://github.com/lx963/dsh-webui-background) ★1 — —
 - 🟨 `[不兼容]` [lyingice-dsh-client-ui-mc-skin](https://github.com/lyingice/dsh-client-ui-mc-skin) ★1 — —

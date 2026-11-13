@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2655）
+# 🤖 Agent 能力（2658）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -443,6 +443,7 @@
 - 🟩 `[可用]` [goodandready-dsh-context-lens](https://github.com/GooDAnDReaDY/dsh-context-lens) ★2 — —
 - 🟩 `[可用]` [dsh-skillradar](https://github.com/hellosky983/dsh-skillradar) ★2 — DSH plugin: scans session-visible skills and ranks them by relevance to the recent conversation.
 - 🟩 `[可用]` [highland0971-dsh-native-memory](https://github.com/highland0971/dsh-native-memory) ★2 — Native, per-workspace long-term memory for DeepSeek Harness: approval-gated writes, cited provenance, FTS cros
+- 🟩 `[可用]` [himi-li-dsh-reasoning-loop-guard](https://github.com/himi-li/dsh-reasoning-loop-guard) ★2 — Detects verbatim reasoning loops in DSH LLM streams and cuts them early
 - 🟩 `[可用]` [hoyyang-dsh-concise](https://github.com/hoyyang/dsh-concise) ★2 — Concise output style for dsh: per-session toggle + digest card with clickable files
 - 🟩 `[可用]` [htfc786-dsh-awake](https://github.com/htfc786/dsh-awake) ★2 — dsh-awake · 守夜人：在 agent 任务执行期间阻止操作系统休眠
 - 🟩 `[可用]` [huangxp12-dsh-recent-sessions](https://github.com/huangxp12/dsh-recent-sessions) ★2 — Recent sessions across every workspace in one panel for DeepSeek Harness (DSH) - plus deferred notes that come
@@ -1182,6 +1183,7 @@
 - `[未定位]` **jaylor-wang-dsh-awesome-agent-preset** — 占位待复核，判定暂不展示
 - `[未定位]` **jeffreysuen-x-dsh-skill-dossier** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [dsh-tmuxctl](https://github.com/Jesse-njx/dsh-tmuxctl) ★0 — dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run
+- `[未定位]` **jessenreinhart-dsh-time-context** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [jhlee111-dsh-agent-browser](https://github.com/jhlee111/dsh-agent-browser) ★0 — —
 - 🟩 `[可用]` [jianghu-lao-yao-sh-volume-knob](https://github.com/jianghu-lao-yao/sh-volume-knob) ★0 — Read the agent's newest reply aloud and control volume from the DSH composer.
 - 🟩 `[可用]` [jianyuepei-dsh-session-mindmap](https://github.com/jianyuepei/dsh-session-mindmap) ★0 — DSH plugin: turn a session into a self-contained interactive HTML mind map.
@@ -1931,6 +1933,7 @@
 - 🟨 `[不兼容]` [wilburli-onlymemory-plugin](https://github.com/wilburli/onlyMemory-plugin) ★8 — —
 - 🟨 `[不兼容]` [boe1900-owndsh](https://github.com/boe1900/owndsh) ★7 — The Self-Hosted Control Plane for DeepSeek-Harness
 - 🟨 `[不兼容]` [deepseekv41flash-dsh-context-truth](https://github.com/deepseekv41flash/dsh-context-truth) ★7 — 给 DSH 模型每轮回填宿主实测的上下文占用，并阻止"上下文快用尽"的错判被压缩摘要继承
+- 🟨 `[不兼容]` [jiuaiwo-dsh-expert](https://github.com/jiuaiwo/dsh-expert) ★7 — T专家 — DeepSeek Harness 插件：22 分类 / 636 位专家名册（中文名与简介全量覆盖），@ 菜单召唤子代理
 - 🟨 `[不兼容]` [john-walks-slow-dsh-set-model](https://github.com/john-walks-slow/dsh-set-model) ★7 — Through Jev or through its own tool calls, the agent switches model presets and thinking depth on its own
 - 🟨 `[不兼容]` [nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) ★7 — One memory layer for every AI tool and agent, packaged for DeepSeek Harness
 - 🟨 `[不兼容]` [pwnky-dsh-session-link](https://github.com/PwnKY/dsh-session-link) ★7 — —

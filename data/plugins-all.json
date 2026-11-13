@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T14:16:20Z",
+ "generated_at": "2026-11-13T14:31:14Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -3032,6 +3032,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Native, per-workspace long-term memory for DeepSeek Harness: approval-gated writes, cited provenance, FTS cros"
+  },
+  {
+   "repo": "himi-li/dsh-reasoning-loop-guard",
+   "name": "himi-li-dsh-reasoning-loop-guard",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Detects verbatim reasoning loops in DSH LLM streams and cuts them early"
   },
   {
    "repo": "hoyyang/dsh-concise",
@@ -11516,6 +11523,13 @@
    "verdict": "incompatible",
    "stars": 7,
    "desc": "给 DSH 模型每轮回填宿主实测的上下文占用，并阻止\"上下文快用尽\"的错判被压缩摘要继承"
+  },
+  {
+   "repo": "jiuaiwo/dsh-expert",
+   "name": "jiuaiwo-dsh-expert",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "T专家 — DeepSeek Harness 插件：22 分类 / 636 位专家名册（中文名与简介全量覆盖），@ 菜单召唤子代理"
   },
   {
    "repo": "john-walks-slow/dsh-set-model",
@@ -27226,6 +27240,13 @@
    "desc": "DSH 余额与消耗面板（dsh-balance-stats）"
   },
   {
+   "repo": "himoew/dsh-user-style",
+   "name": "himoew-dsh-user-style",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 AI 记住「你喜欢怎么被对待」：可编辑的用户工作风格档案，在每次对话开始前注入系统提示词"
+  },
+  {
    "repo": "hj01857655/dsh-theme-studio",
    "name": "hj01857655-dsh-theme-studio",
    "verdict": "ok",
@@ -34574,6 +34595,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "LobsterAIDaddy — draggable floating ball + slide-in drawer embedding the LobsterDaddy multi-account console in"
+  },
+  {
+   "repo": "lucky01222/dsh-workbench-theme",
+   "name": "lucky01222-dsh-workbench-theme",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Light/dark theme with APTX logo and optional artwork panels for official DeepSeek Harness Web"
   },
   {
    "repo": "lwy521/dsh-remote-mcp-manager",
@@ -80174,6 +80202,13 @@
    "desc": "更新dsh客户端"
   },
   {
+   "repo": "marsma-101/dsh-qoder-connect",
+   "name": "marsma-101-dsh-qoder-connect",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Bring Qoder CN desktop-app models into DeepSeek Harness: decrypt the OSCrypt local sign-in, sign requests with"
+  },
+  {
    "repo": "mengxingGG/dsh-desktop",
    "name": "mengxinggg-dsh-desktop",
    "verdict": "incompatible",
@@ -81957,6 +81992,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "adwhispr/dsh-plugin-adwhispr",
+   "name": "adwhispr-dsh-plugin-adwhispr",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "AdWhispr for DeepSeek Harness: competitor ad research, winning-ad cloning, and Meta / Google / TikTok ad launc"
   },
   {
    "repo": "alvinunreal/openpets",
@@ -93528,6 +93570,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness 编辑器插件：在「+」按钮右侧新增 Skill 选择按钮，为下一条消息选择 Skill（不选/单选/多选），并支持把本地 md/txt 文件注册为仅当前会话可用的临时 Skill"
+  },
+  {
+   "repo": "jiuaiwo/dsh-helper",
+   "name": "jiuaiwo-dsh-helper",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "辅助补丁 — DeepSeek Harness 插件：任意会话把文件投递到微信、cron 定时任务、活动呼吸灯、完成提示音、一键重启"
   },
   {
    "repo": "JNan-QQ/dsh-public-access",
@@ -109684,6 +109733,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "按钮与菜单由底座 `dsh-open-in-app-base` 统一渲染，本插件只负责「目标软件」这一半：注册一条目标记录，并在自己的宿主半边实现「是否可用」与「怎么打开」"
+  },
+  {
+   "repo": "lucky01222/dsh-workbench-shell",
+   "name": "lucky01222-dsh-workbench-shell",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Conversation and plugin navigation for official DeepSeek Harness Web"
   },
   {
    "repo": "lucky8197/dsh-code-smell",
