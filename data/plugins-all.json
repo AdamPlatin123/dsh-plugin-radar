@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T10:01:16Z",
+ "generated_at": "2026-11-13T10:16:19Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -8100,6 +8100,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Unofficial DSH plugin: long-term, cross-project memory for coding agents — embedded project-portfolio skill +"
+  },
+  {
+   "repo": "mcf171/dsh-session-delete",
+   "name": "mcf171-dsh-session-delete",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "melt502/DSH-Session-Reference-UX-Patch",
@@ -28127,6 +28134,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Reconciliation: statements, invoices and ledgers that have to balance"
+  },
+  {
+   "repo": "marselarts/dsh-theme-studio",
+   "name": "marselarts-dsh-theme-studio",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Theme Studio for the DeepSeek Harness Web UI: edit the design-system color tokens and fonts per light/dark sch"
   },
   {
    "repo": "marshfolx/dsh-rescue-tui",
@@ -53742,6 +53756,13 @@
    "desc": "—"
   },
   {
+   "repo": "naletko/dsh-quote",
+   "name": "naletko-dsh-quote",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Quote the text you selected in the conversation into the composer as a markdown block quote, without losing th"
+  },
+  {
    "repo": "NaNExist/dsh-win-launchscript",
    "name": "nanexist-dsh-win-launchscript",
    "verdict": "pending",
@@ -70120,6 +70141,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-element-inspector：识别 DSH 页面元素的插件归属，导出所选元素，并隐藏不需要的界面元素"
+  },
+  {
+   "repo": "naletko/dsh-image-studio",
+   "name": "naletko-dsh-image-studio",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "An Images workspace for DeepSeek Harness: generate with fal.ai, browse every result, compare candidates, anima"
   },
   {
    "repo": "Nath-Vikky/dsh-fisher",
@@ -104086,6 +104114,13 @@
    "desc": "SOUL.md-backed living persona for DeepSeek Harness: injects a trusted SOUL.md as a system-prompt section refre"
   },
   {
+   "repo": "philipho01/dsh-llm-fidelity",
+   "name": "philipho01-dsh-llm-fidelity",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：模型服务明确拒绝参数（400/422）时自动修正重发，对话不中断；用量统计防清零、防重复，如实可信"
+  },
+  {
    "repo": "phoenixlucky/business-data-analyst-skill",
    "name": "phoenixlucky-business-data-analyst-skill",
    "verdict": "ok",
@@ -104749,6 +104784,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DSH Web plugin: copy a DSH session id, or hand the whole session over to codex so `codex resume <id>` restores"
+  },
+  {
+   "repo": "valing1837/dsh-plugin-github",
+   "name": "valing1837-dsh-plugin-github",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Host-only GitHub integration for DeepSeek Harness: 29 agent tools for repositories, pull requests, issues and"
   },
   {
    "repo": "veermetri05/dsh-plugins",
