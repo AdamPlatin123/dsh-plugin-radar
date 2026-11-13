@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T11:31:07Z",
+ "generated_at": "2026-11-13T11:46:13Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -2164,6 +2164,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "DeepSeek Harness 会话时间轴插件：横短横线波浪、当前消息定位、点击跳转、圆角预览 tooltip、可收起/展开"
+  },
+  {
+   "repo": "ybh1291747665/dsh-peer-bus",
+   "name": "ybh1291747665-dsh-peer-bus",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "Cross-session message bus for DeepSeek Harness: let independent sessions address and wake each other."
   },
   {
    "repo": "yohanchen1/MathModelingAgent",
@@ -9453,6 +9460,13 @@
    "desc": "dsh-product 是一个“互联网资讯查询 + 本地项目上下文”的 DeepSeek Harness 插件，用于把已经确认的产品机会转化为可验证、可交付、可迭代的产品"
   },
   {
+   "repo": "wjvalue/dsh-mac-keep-awake",
+   "name": "wjvalue-dsh-mac-keep-awake",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Keep macOS awake (no idle system sleep) while a DeepSeek Harness session is running · 会话进行时不让 Mac 空闲休眠的 DSH 插件"
+  },
+  {
    "repo": "wo5812-lang/deepseek-harness-desktop",
    "name": "wo5812-lang-deepseek-harness-desktop",
    "verdict": "ok",
@@ -11040,6 +11054,13 @@
    "verdict": "incompatible",
    "stars": 30,
    "desc": "🐋 鲸鱼记事本 — 你的 Agent 年度报告：从会话事件日志生成日报/周报/月报/年报，任意区间、只读不改写"
+  },
+  {
+   "repo": "yinhong-zhou/jevdo",
+   "name": "yinhong-zhou-jevdo",
+   "verdict": "incompatible",
+   "stars": 29,
+   "desc": "Just Jev it"
   },
   {
    "repo": "geml-spec/geml",
@@ -15296,6 +15317,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-usage-board 是专为 DSH (DeepSeek Harness) 设计的用量与成本可视化看板插件"
+  },
+  {
+   "repo": "zywnb-2/dsh-prompt-studio",
+   "name": "zywnb-2-dsh-prompt-studio",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "提示词优化工坊 —— DSH 插件的多风格一键优化与发送前自动优化"
   },
   {
    "repo": "zzzxxxxxxxxxx/dsh-dcp",
@@ -79145,6 +79173,13 @@
    "desc": "DeepSeek Harness (dsh) 的 Windows 桌面壳"
   },
   {
+   "repo": "zywnb-2/dsh-donevoice",
+   "name": "zywnb-2-dsh-donevoice",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "dsh桌面任务提醒，点击桌面提醒可快速回到dsh页面"
+  },
+  {
    "repo": "dshapp/dsh-mobile-bridge",
    "name": "dshapp-dsh-mobile-bridge",
    "verdict": "incompatible",
@@ -79892,6 +79927,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness Desktop shell"
+  },
+  {
+   "repo": "yuehancn/dsh-tool-browser",
+   "name": "yuehancn-dsh-tool-browser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin"
   },
   {
    "repo": "yueyexiayu/dsh-huoqu",
@@ -88315,6 +88357,13 @@
    "desc": "DSH host plugin that resolves the original local path of files uploaded to .dsh-uploads by matching name, size"
   },
   {
+   "repo": "wojiao42/dsh-memory-file",
+   "name": "wojiao42-dsh-memory-file",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "文件型长期记忆：每个会话注入你自己的 Markdown 记忆文件，提供读写工具，并能查出 DSH_HOME 漂移；不读对话、不联网 · File-backed memory for DeepSeek Harness, w"
+  },
+  {
    "repo": "wqy-cell/dsh-url-trace",
    "name": "wqy-cell-dsh-url-trace",
    "verdict": "ok",
@@ -90238,6 +90287,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Session manager for DeepSeek Harness (dsh-v0.1.2-alpha.5): permanently delete cold sessions and manage archive"
+  },
+  {
+   "repo": "yuehancn/dsh-tool-archive",
+   "name": "yuehancn-dsh-tool-archive",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin"
   },
   {
    "repo": "yzhangjy/dsh-pattern-search",
@@ -93281,6 +93337,13 @@
    "repo": "ttmouse/dsh-chat-history",
    "name": "ttmouse-dsh-chat-history",
    "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "tttwh/dsh-feishu-doc-saver",
+   "name": "tttwh-dsh-feishu-doc-saver",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -110671,6 +110734,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Evidence-based delivery acceptance for DeepSeek Harness."
+  },
+  {
+   "repo": "tinchak0207/dsh-emu-workbench",
+   "name": "tinchak0207-dsh-emu-workbench",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Emu 影像工作台 for DeepSeek Harness — 多供应商生图/改图/模型可用性探测 + Emu 独家 opencode 许愿 Agent"
   },
   {
    "repo": "tristan-mcinnis/dsh-browser-vision",
