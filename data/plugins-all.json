@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T04:16:00Z",
+ "generated_at": "2026-11-13T05:16:11Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -36247,6 +36247,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "OpenClaw Enterprise AI Team bridge for DeepSeek Harness"
+  },
+  {
+   "repo": "yq1930/dsh-skin-asuka-p01",
+   "name": "yq1930-dsh-skin-asuka-p01",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "yryd/dafy-whale-theme",
