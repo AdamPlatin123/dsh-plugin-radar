@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T21:31:12Z",
+ "generated_at": "2026-11-13T21:46:09Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -49122,6 +49122,13 @@
    "desc": "—"
   },
   {
+   "repo": "swyc520/dsh-plugin-model-whitelist",
+   "name": "swyc520-dsh-plugin-model-whitelist",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness (dsh) 插件：在「设置 → 模型」里逐个勾选要显示的模型，未勾选的从模型选择器菜单中隐藏"
+  },
+  {
    "repo": "T-MKT/dsh-customization-settings",
    "name": "t-mkt-dsh-customization-settings",
    "verdict": "ok",
@@ -84022,6 +84029,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Bilingual tutorials for DeepSeek Harness: getting started, architecture, plugin development, pre-publish self-"
+  },
+  {
+   "repo": "1010231693/dsh-auto-compaction",
+   "name": "1010231693-dsh-auto-compaction",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Idle-time handoff compaction for DeepSeek Harness: ratio-based trigger, handoff checkpoint, no full re-prefill"
   },
   {
    "repo": "B-TQ/dsh-wallpaper",
