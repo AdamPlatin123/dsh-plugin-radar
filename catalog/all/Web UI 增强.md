@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（3438）
+# 🔌 Web UI 增强（3441）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -564,6 +564,7 @@
 - 🟩 `[可用]` [rebornace-dsh-tracescope](https://github.com/rebornace/dsh-tracescope) ★3 — 基于 Git 差异生成功能影响清单，以 Figma / 蓝湖设计稿为真源静态对比 UI 差异，可选 AI 协助分析；能力经 MCP 复用于任意客户端
 - ⬜ `[待定]` [remybroun-infographic](https://github.com/remybroun/infographic) ★3 — A Claude Code skill that turns a document or a topic into a designed visual explainer
 - 🟩 `[可用]` [renjianxin929-ux-deepseek-harness-desktop](https://github.com/renjianxin929-ux/deepseek-harness-desktop) ★3 — Unofficial desktop wrapper for DeepSeek Harness with themes, wallpapers and safer long-running session recover
+- 🟩 `[可用]` [sailoumili-dsh-session-remover](https://github.com/sailoumili/dsh-session-remover) ★3 — DSH 插件：侧栏会话行菜单增加「删除对话」与「批量删除」，把对话及其子代理会话移入 Windows 回收站，可从回收站还原
 - 🟩 `[可用]` [sakthiveltofficial-dsh-shopify-plugins](https://github.com/sakthiveltofficial/dsh-shopify-plugins) ★3 — Shopify plugin for DeepSeek Harness: 213 model-facing shopify_* tools over the Shopify Admin REST + GraphQL AP
 - 🟩 `[可用]` [sequoiayunus-hue-dsh-subagent-model-config](https://github.com/sequoiayunus-hue/dsh-subagent-model-config) ★3 — Configure per-teammate model & reasoning effort for DeepSeek Harness native agent teams — settings UI, zero of
 - 🟩 `[可用]` [shimingming520-dsh-audiogen](https://github.com/shimingming520/dsh-audiogen) ★3 — AI audio generation plugin for the DeepSeek Harness web GUI: multi-vendor TTS, music, sound effects and voice
@@ -2061,6 +2062,7 @@
 - 🟩 `[可用]` [nienieai-dsh-canmv-k230-bridge](https://github.com/nienieai/dsh-canmv-k230-bridge) ★0 — DSH 动态插件：桥接 CanMV K230 开发板（悬浮面板 + 串口运行脚本与预览）
 - 🟩 `[可用]` [nikitafedorov008-dsh-flutter-tools](https://github.com/nikitafedorov008/dsh-flutter-tools) ★0 — Flutter panel for the DeepSeek Harness sidebar: devices, launch, VM Service controls, debug toggles, embedded
 - `[未定位]` **nimoxie15-dsh-ui-tweaks** — 占位待复核，判定暂不展示
+- `[未定位]` **nishikinov-dsh-sidebar-settings-button** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [njuptlzf-dsh-dynamic-background](https://github.com/njuptlzf/dsh-dynamic-background) ★0 — DeepSeek Harness (DSH) 动态背景切换插件：上传 GIF/静态图与内置 12 色纯色调色板，定时丝滑交叉淡入淡出切换页面背景，聊天区自动叠加主题色保护层
 - 🟩 `[可用]` [noexcs-dsh-skin-glass](https://github.com/noexcs/dsh-skin-glass) ★0 — Frosted-glass skin for the DeepSeek Harness web UI: pick any image as background, theme colors extracted from
 - 🟩 `[可用]` [nonchalantludens-dsh-skin-collection](https://github.com/flyingludens/dsh-skin-collection) ★0 — —
@@ -2150,6 +2152,7 @@
 - `[未定位]` **rio-promax-dsh-voice-input** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [rocklau-dsh-ui-digest](https://github.com/rocklau/dsh-ui-digest) ★0 — Turn-digest overview tab for the DeepSeek Harness (dsh) Web UI: what you asked, a one-sentence summary of what
 - 🟩 `[可用]` [rogueservitor-495-dsh-plugin-voice-input](https://github.com/RogueServitor-495/dsh-plugin-voice-input) ★0 — —
+- 🟩 `[可用]` [rongqingwen-dsh-approval-sound](https://github.com/rongqingwen/dsh-approval-sound) ★0 — Audible alert for the DSH Web GUI the moment a prompt is waiting for you — approval panels and ask-user-questi
 - 🟩 `[可用]` [ruanimal-dsh-bash-env](https://github.com/ruanimal/dsh-bash-env) ★0 — 为 dsh 的每条 shell 命令按工作目录解析环境（PATH / venv / mise），并带一个独立的 Web UI 设置分区
 - 🟩 `[可用]` [ruiming-cn-dsh-turn-notify](https://github.com/Ruiming-cn/dsh-turn-notify) ★0 — —
 - `[未定位]` **ruisenbai-dsh-turn-fold** — 占位待复核，判定暂不展示
