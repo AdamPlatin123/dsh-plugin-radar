@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2632）
+# 🤖 Agent 能力（2637）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -689,6 +689,7 @@
 - 🟩 `[可用]` [hua1q1ng-dsh-prompt-self](https://github.com/Hua1Q1nG/dsh-prompt-self) ★1 — —
 - 🟩 `[可用]` [hufang360-dsh-sticky-notes](https://github.com/hufang360/dsh-sticky-notes) ★1 — 记下想法，让agent落盘！
 - 🟩 `[可用]` [hw-cola-dsh-dynamic-agents](https://github.com/hw-cola/dsh-dynamic-agents) ★1 — DSH插件，动态AGENTS.md
+- 🟩 `[可用]` [hy-sde-dsh-graph](https://github.com/hy-sde/dsh-graph) ★1 — Agent Graph for DeepSeek Harness (durable supervisor): control plane, operator executor, stream layer, project
 - 🟩 `[可用]` [iguowz-dsh-cortex](https://github.com/iguowz/dsh-cortex) ★1 — 低成本多模型编排插件（Cortex）：大模型规划验收，子agent小模型执行，降本保质
 - 🟩 `[可用]` [iimaguest-dsh-sandbox-escalation-guard](https://github.com/iimaguest/dsh-sandbox-escalation-guard) ★1 — DeepSeek Harness plugin: stops the sandbox escalation fields being advertised to a model when the calling sess
 - ⬜ `[待定]` [imtheolin-ai-keyboard](https://github.com/imtheolin/ai-keyboard) ★1 — Putting prompts at your fingertips
@@ -1058,6 +1059,7 @@
 - 🟩 `[可用]` [dubeno-dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) ★0 — 将符合Agent Plugin规范的插件适配到DSH生态
 - 🟩 `[可用]` [dusbin-dsh-memory-view](https://github.com/dusbin/dsh-memory-view) ★0 — 查看 dsh 的 memory
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
+- `[未定位]` **earthpretender-dsh-session-delete** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
 - `[未定位]` **eightfs-dsh-session-conductor** — 占位待复核，判定暂不展示
@@ -2177,6 +2179,7 @@
 - 🟨 `[不兼容]` [nilesh32236-dsh-squad](https://github.com/nilesh32236/dsh-squad) ★1 — Cross-workspace AI worker fleets for DeepSeek Harness: spawn named worker sessions in other projects, queue or
 - 🟨 `[不兼容]` [ninjasln-labs-dsh-subagent-router](https://github.com/NinjaSln-labs/dsh-subagent-router) ★1 — —
 - 🟨 `[不兼容]` [noirbright-dsh-external-agents](https://github.com/NOirBRight/dsh-external-agents) ★1 — —
+- 🟨 `[不兼容]` [nydsg-dsh-mindmap](https://github.com/nydsg/dsh-mindmap) ★1 — 把 DSH 的对话轨迹渲染成一张横向层级树：最左侧是唯一的起始总标题（内容就是这场会话的第一个提问），之后每一轮从它向右逐层展开，卡片上只显示你的提问
 - 🟨 `[不兼容]` [oh-my-engine-dsh-plugin-oh-my-engine](https://github.com/oh-my-engine/dsh-plugin-oh-my-engine) ★1 — Approval-gated OME engineering delivery Agent Preset for DeepSeek Harness
 - 🟨 `[不兼容]` [omdsh-dev-dsh-skill-stats](https://github.com/omdsh-dev/dsh-skill-stats) ★1 — Skill usage statistics plugin for DSH (community mirror)
 - 🟨 `[不兼容]` [ottotheagent-otto-dsh](https://github.com/ottotheagent/otto-dsh) ★1 — Book real flights, hotels & cars with Otto from DeepSeek Harness (dsh) — the otto-travel MCP connector as a ds
@@ -2436,6 +2439,7 @@
 - `[未定位]` **lolkda-dsh-ctf-prompt** — 占位待复核，判定暂不展示
 - `[未定位]` **losecher-dsh-context-doctor** — 占位待复核，判定暂不展示
 - `[未定位]` **lovedolove-project-memory-agent** — 占位待复核，判定暂不展示
+- 🟨 `[不兼容]` [lovezi0-dsh-open-in-androidstudio](https://github.com/lovezi0/dsh-open-in-androidstudio) ★0 — dsh第三方插件：向会话（Session）头部工具栏的 **"Open In..."** 按钮组注册 **Android Studio** 目标，一键用本机 Android Studio打开当前会话的 workspace
 - 🟨 `[不兼容]` [lucienll-dsh-session-memo](https://github.com/LucienLL/dsh-session-memo) ★0 — —
 - 🟨 `[不兼容]` [lumogress-dsh-skill-navigator](https://github.com/LUMOGRESS/dsh-skill-navigator) ★0 — —
 - `[未定位]` **lunfengchen-dsh-skills-manager** — 占位待复核，判定暂不展示
@@ -2597,6 +2601,7 @@
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —
 - 🟨 `[不兼容]` [yuluo554-dsh-prompt-polisher](https://github.com/yuluo554/dsh-prompt-polisher) ★0 — Composer prompt-polisher button plugin for DeepSeek Harness (dsh): one-click draft rewrite, style presets, dua
 - 🟨 `[不兼容]` [yummy4727-dsh-context-branch](https://github.com/yummy4727/dsh-context-branch) ★0 — Context-branching conversation tree plugin for DeepSeek Harness
+- `[未定位]` **yumo-233-dsh-subagent-model-switch** — 占位待复核，判定暂不展示
 - 🟨 `[不兼容]` [yuyuyyyyyyyyyyyy-dsh-project-memory](https://github.com/yuyuyyyyyyyyyyyy/dsh-project-memory) ★0 — Host-plane cross-session engineering memory for coding agents on DeepSeek Harness: durable per-project records
 - 🟨 `[不兼容]` [yuzh1090-dsh-voice-prompt-compressor](https://github.com/yuzh1090/dsh-voice-prompt-compressor) ★0 — DSH plugin: compress verbose voice-dictation text into token-efficient prompts — fully local, zero LLM tokens.
 - `[未定位]` **yxsj245-dsh-ob-agent** — 占位待复核，判定暂不展示
