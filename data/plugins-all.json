@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T21:16:09Z",
+ "generated_at": "2026-11-13T21:31:12Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -211,6 +211,13 @@
    "verdict": "pending",
    "stars": 293,
    "desc": "—"
+  },
+  {
+   "repo": "savinglighting/dsh-sd-bridge-guard",
+   "name": "savinglighting-dsh-sd-bridge-guard",
+   "verdict": "ok",
+   "stars": 270,
+   "desc": "dsh-sd-bridge-guard插件已发布，可以帮你完善提示词，提高图片质量，并做到dsh无限制生图"
   },
   {
    "repo": "agent-earth/deepseek-harness-desktop",
@@ -36851,6 +36858,13 @@
    "desc": "Visual conversation canvas for DeepSeek Harness."
   },
   {
+   "repo": "sunrulin123/dsh-community-web-ui",
+   "name": "sunrulin123-dsh-community-web-ui",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Unofficial responsive remote Web UI bundle for DeepSeek Harness with native Desktop isolation."
+  },
+  {
    "repo": "sunyuhuirong/fsviewer",
    "name": "sunyuhuirong-fsviewer",
    "verdict": "incompatible",
@@ -55912,6 +55926,13 @@
    "desc": "—"
   },
   {
+   "repo": "sqslm/dsh-pinpu",
+   "name": "sqslm-dsh-pinpu",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Audio-reactive turn rail for DeepSeek Harness: the transcript's own turn marks dance to whatever the system is"
+  },
+  {
    "repo": "sssueason/dsh-pwsh-progress",
    "name": "sssueason-dsh-pwsh-progress",
    "verdict": "ok",
@@ -65808,6 +65829,13 @@
    "verdict": "incompatible",
    "stars": 7,
    "desc": "—"
+  },
+  {
+   "repo": "songzhiyin/dsh-local-model",
+   "name": "songzhiyin-dsh-local-model",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "让 DeepSeek Harness 直连本地模型：兼容 OpenAI 协议（llama.cpp / LM Studio / vLLM / Ollama 的 /v1）与 Ollama 原生 API"
   },
   {
    "repo": "WongYuYe/dsh-appshots",
