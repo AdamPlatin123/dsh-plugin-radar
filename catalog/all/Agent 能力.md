@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2586）
+# 🤖 Agent 能力（2588）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -990,6 +990,7 @@
 - `[未定位]` **bptumbleweed-dsh-pin-session** — 占位待复核，判定暂不展示
 - `[未定位]` **bptumbleweed-dsh-session-retitle** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [byxhuster-dsh-paper-highlighting-agent](https://github.com/ByxHuster/DSH-Paper-Highlighting-Agent) ★0 — —
+- `[未定位]` **c-s-n-y-dsh-session-cleaner** — 占位待复核，判定暂不展示
 - `[未定位]` **cai-mh-dsh-agent-bridge** — 占位待复核，判定暂不展示
 - `[未定位]` **cai-mh-dsh-agent-group-panel** — 占位待复核，判定暂不展示
 - `[未定位]` **cancertin-dsh-set-session-title** — 占位待复核，判定暂不展示
@@ -2064,6 +2065,7 @@
 - 🟨 `[不兼容]` [amphilagus-dsh-literature](https://github.com/amphilagus/dsh-literature) ★1 — Out-of-tree DSH bundle for scientific literature search and tracking, with a 文献跟踪助理 agent preset.
 - 🟨 `[不兼容]` [anweat-dsh-assistant-message-forge](https://github.com/anweat/dsh-assistant-message-forge) ★1 — Deprecated: superseded by dsh-context-console; 0.1.1 remains available for rollback
 - 🟨 `[不兼容]` [apoexia-dsh-trajectory-replay](https://github.com/apoexia/dsh-trajectory-replay) ★1 — 一个deepseek-harness插件，用来做agent轨迹回放
+- 🟨 `[不兼容]` [aymidasing-dsh-thinking-lang](https://github.com/aymidasing/dsh-thinking-lang) ★1 — DSH plugin: set the agent's reasoning language (Settings → General)
 - 🟨 `[不兼容]` [azazo1-dsh-approve-prefix](https://github.com/azazo1/dsh-approve-prefix) ★1 — 按单命令前缀自动放行 DSH 沙箱提权请求, 含管道与链式的命令一律转人工审批.
 - 🟨 `[不兼容]` [azazo1-dsh-reveal-context](https://github.com/azazo1/dsh-reveal-context) ★1 — Show DSH's hidden injected-context rows (AGENTS.md notices, skill catalogs, recalled sessions, runtime snapsho
 - 🟨 `[不兼容]` [beartackler-dsh-bridge](https://github.com/beartackler/dsh-bridge) ★1 — Your harness muscle memory, verified and installed into DeepSeek Harness - familiar commands, connectors flow,
