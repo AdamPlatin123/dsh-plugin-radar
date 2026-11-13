@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2586）
+# 🤖 Agent 能力（2587）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -74,6 +74,7 @@
 - 🟩 `[可用]` [weirdsky924-agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) ★29 — —
 - 🟩 `[可用]` [rezon-aki-dsh-streamfold](https://github.com/rezon-aki/dsh-streamfold) ★27 — 流式折叠：运行中只留最新思考小窗，其余过程行折成一条摘要，跑完滑回你的提问；逐帧推进，折叠内容 Ctrl+F 可搜
 - 🟩 `[可用]` [mombrane-dsh-subagent-monitor](https://github.com/Mombrane/dsh-subagent-monitor) ★26 — —
+- ⬜ `[待定]` [zmm863-commits-dsh-agnes-studio](https://github.com/zmm863-commits/dsh-agnes-studio) ★26 — 🎬 泡泡猫的影视工具 — AI 影视创作工作站：文生图、图生图、文生视频、图生视频、短剧剧本拆解与提示词专家
 - ⬜ `[待定]` [ed-marcavage-awesome-security-agent-harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) ★25 — —
 - 🟩 `[可用]` [king-bcolor-dsh-multi-tenant-projects](https://github.com/king-bcolor/dsh-multi-tenant-projects) ★24 — Multi-tenant projects & users plugin for DeepSeek Harness (DSH): per-user symlinked workspaces, login gate, se
 - ⬜ `[待定]` [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) ★24 — Advisor - Pair a second model that passively reviews each turn with notes and predicts your next prompt

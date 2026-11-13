@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-13T03:16:33Z",
+ "generated_at": "2026-11-13T03:46:18Z",
  "plugins": [
   {
    "repo": "ranxianglei/billion-context",
@@ -498,6 +498,13 @@
    "verdict": "ok",
    "stars": 26,
    "desc": "—"
+  },
+  {
+   "repo": "zmm863-commits/dsh-agnes-studio",
+   "name": "zmm863-commits-dsh-agnes-studio",
+   "verdict": "pending",
+   "stars": 26,
+   "desc": "🎬 泡泡猫的影视工具 — AI 影视创作工作站：文生图、图生图、文生视频、图生视频、短剧剧本拆解与提示词专家"
   },
   {
    "repo": "Ed-Marcavage/awesome-security-agent-harnesses",
