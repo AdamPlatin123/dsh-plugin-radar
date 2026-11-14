@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T05:16:50Z",
+ "generated_at": "2026-11-14T05:31:17Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -16773,6 +16773,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Out-of-tree DeepSeek Harness plugin for workspace-scoped Cordis configuration, agent presets, and MCP routing"
+  },
+  {
+   "repo": "vianvio/dsh-assistant",
+   "name": "vianvio-dsh-assistant",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH小助手：原生 Swift 悬浮窗 + DSH 会话状态驱动，含素材管线与日报"
   },
   {
    "repo": "vibeinging/dsh-tool-search",
@@ -43457,6 +43464,13 @@
    "verdict": "incompatible",
    "stars": 51,
    "desc": "Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、AI 生成提交信息、文件浏览、代码与图片新旧差异对照、输入框分支标记、针对移动端优化 \\| an IDE-style Git"
+  },
+  {
+   "repo": "gulagala001/oh-my-dsh",
+   "name": "gulagala001-trisoul-x",
+   "verdict": "incompatible",
+   "stars": 50,
+   "desc": "DeepSeek Harness 增强插件：上下文压缩与 Dream 记忆、Ultra 多智能体、OpenCU 电脑操作、代码理解、扩展管理、人格和主题"
   },
   {
    "repo": "alingalingling/ui-status-label",
@@ -110286,6 +110300,13 @@
    "verdict": "ok",
    "stars": 22,
    "desc": "Official Pencil (pen.dev) canvas inside DeepSeek Harness: conversation-bound workspaces, live agent edits, and"
+  },
+  {
+   "repo": "SpookyWaste/dsh-bash-native",
+   "name": "spookywaste-dsh-bash-native",
+   "verdict": "pending",
+   "stars": 22,
+   "desc": "Rust 实现的 Windows 原生 POSIX bash 执行器：给 DSH 提供一个真正原生的 bash（不依赖 WSL 或 MSYS兼容层），支持 DSH 的三档权限策略、提供持久化终端工具"
   },
   {
    "repo": "StvLi/dsh-ros2",
