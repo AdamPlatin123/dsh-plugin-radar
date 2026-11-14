@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3604）
+# 🤖 Agent 能力（3608）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -41,6 +41,7 @@
 - ⬜ `[待定]` [yuuyuko-uu-dsh-tts-bridge](https://github.com/Yuuyuko-uu/dsh-tts-bridge) ★252 — DSH 朗读桥：会话里的话自动交给 DeepSeek 网页端朗读，声音从你自己的电脑里出来
 - ⬜ `[待定]` [deepseek-harness-desktop](https://github.com/agent-earth/deepseek-harness-desktop) ★244 — Minimal desktop wrapper for DeepSeek Harness 极简 Deespeek Harness 桌面端，跨平台，免配置，开箱即用
 - 🟩 `[可用]` [wssfk12138-dsh-damage-pulse](https://github.com/wssfk12138/dsh-damage-pulse) ★237 — DeepSeek Harness Token 余额监控插件：鲸鱼娘待机/扣费/复苏动画、峰谷计费、连续扣费飘字与会话费用统计
+- 🟩 `[可用]` [poco-ai-agentero-dsh-plugin](https://github.com/poco-ai/agentero-dsh-plugin) ★220 — 给 DeepSeek Harness 用的科研文献库插件：搜论文、带出处、审批入库、把笔记线索交给同会话其他插件
 - ⬜ `[待定]` [himovo-movo](https://github.com/himovo/movo) ★209 — Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content gene
 - ⬜ `[待定]` [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) ★207 — Import conversation history from 25+ AI coding agents into DeepSeek Harness as resumable sessions — tool calls
 - 🟩 `[可用]` [perrylink-dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) ★197 — Industry and company research domain pack for DeepSeek Harness: methodology skills, industry chain mapping, pu
@@ -2025,10 +2026,12 @@
 - 🟩 `[可用]` [pgjh-dsh-model-metadata](https://github.com/pgjh/dsh-model-metadata) ★0 — DSH plugin: fill in custom-gateway model metadata by bare model name — context window, output cap, reasoning l
 - 🟩 `[可用]` [phocinae-dsh-phocinae](https://github.com/Phocinae/dsh-phocinae) ★0 — Phocinae decision plugin bundle for DeepSeek Harness (dsh): phocinae_ask tool + approval gate
 - 🟩 `[可用]` [phoenixlucky-business-data-analyst-skill](https://github.com/phoenixlucky/business-data-analyst-skill) ★0 — Business analysis skill for evidence-based reporting, market research, decision models, and end-to-end operating frameworks.
+- 🟩 `[可用]` [phoenixlucky-dsh-session-norms](https://github.com/phoenixlucky/dsh-session-norms) ★0 — DeepSeek Harness plugin: a normalized session view that renders every turn, message and tool call in one consi
 - 🟩 `[可用]` [phoenixlucky-family-lovers-skill](https://github.com/phoenixlucky/family-lovers-skill) ★0 — ❤️ 家庭关怀技能 · 走出原生家庭 — 觉察、疗愈、陪伴。内置八大历史人物文化原型（长孙皇后/诸葛亮/孟母等），自动匹配最佳回应身份
 - 🟩 `[可用]` [phoenixlucky-weiliaozi-skill](https://github.com/phoenixlucky/weiliaozi-skill) ★0 — 尉缭子分析法 - 融汇黄帝、太公望、孙武、吴起、齐桓公五位先贤思想，按本质、条件、得失、先后、对手进行结构化分析的五栏框架。
 - ⬜ `[待定]` [pikaaq-dsh-enforce](https://github.com/pikaaQ/dsh-enforce) ★0 — deepseek harness plugins and agents.
 - ⬜ `[待定]` [pixellover1433-dsh-plugin-dev-skills](https://github.com/pixellover1433/dsh-plugin-dev-skills) ★0 — This set of skills allows your agent to create plugins for Deepseek Harness.
+- 🟩 `[可用]` [planetpai-dsh-worth-check](https://github.com/Planetpai/dsh-worth-check) ★0 — —
 - `[空仓监测]` **plyflai-dsh-skills** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [po-et-dsh-session-rescue](https://github.com/po-et/dsh-session-rescue) ★0 — Fix 'corrupt session log' in DeepSeek Harness: diagnose, safely repair, and salvage broken dsh sessions. Zero dependencies.
 - 🟩 `[可用]` [polinnizhong-dsh-acceptance](https://github.com/PolinniZhong/dsh-acceptance) ★0 — Agent 交付验收台：任务级的凭证工作台 —— 逐条原始需求 ↔ 证据的映射，证据的版本绑定与过期
@@ -3449,6 +3452,7 @@
 - 🟨 `[不兼容]` [ozongo-dsh-background-compaction](https://github.com/OZONGO/dsh-background-compaction) ★0 — Background context compaction for DeepSeek Harness: summarize ahead of the threshold, swap in on the next turn
 - `[空仓监测]` **pastsheep-dsh-agent-shell** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [penglai-doll-dsh-memory](https://github.com/penglai-doll/dsh-memory) ★0 — —
+- 🟨 `[不兼容]` [perrylink-dsh-dida](https://github.com/PerryLink/dsh-dida) ★0 — TickTick / Dida365 task bridge for DeepSeek Harness: Session-header task panel, agent tools and settings card.
 - 🟨 `[不兼容]` [phm-audit-dsh-action-guard](https://github.com/PHM-Audit/dsh-action-guard) ★0 — Deterministic pre-execution tool-call guard plugin for DeepSeek Harness (dsh) - monotonic guard seam, operator
 - 🟨 `[不兼容]` [piaohua-dsh-schedule-command](https://github.com/piaohua/dsh-schedule-command) ★0 — DeepSeek Harness 的 /schedule 定时任务命令 —— 一句话创建会话内单次/周期任务，⏰ 标识自动识别定时会话
 - 🟨 `[不兼容]` [po-et-dsh-session-guard](https://github.com/po-et/dsh-session-guard) ★0 — Per-session advisory locks that stop two dsh processes from corrupting one session log. Companion to dsh-session-rescue.
