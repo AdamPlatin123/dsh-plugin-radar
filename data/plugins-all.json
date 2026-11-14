@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T06:46:24Z",
+ "generated_at": "2026-11-14T07:01:28Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -4404,6 +4404,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness 项目级 Skill 开关：一键屏蔽/恢复、全局删除、有效性判定"
+  },
+  {
+   "repo": "TwinsEarth/dsh-windows2macos",
+   "name": "twinsearth-dsh-windows2macos",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "W2M是一个开源（MIT）的 AI 智能体舰队编排工具——用同一个 DeepSeek 、豆包、WorkBuddy账号把\"你自己的多台机器\"（Windows/Mac）编成一个舰队，统一派发命令、协作&协同开发"
   },
   {
    "repo": "UllrAI/dsh-mqtt",
@@ -33540,6 +33547,13 @@
    "desc": "DeepSeek Harness 移动端访问插件 —— 让手机 / 平板通过局域网或 VPN 访问 DeepSeek Harness Web GUI，并内置 PC 端审批门禁、LAN / VPN / 公网自动识别 与 网"
   },
   {
+   "repo": "tony1duan/builder-hud",
+   "name": "tony1duan-builder-hud",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Unofficial third-party vitals-cluster skins for the DSH sidebar — three bars, an engraved covenant medallion,"
+  },
+  {
    "repo": "Trouvaille-xx/dsh-Simple-UI",
    "name": "trouvaille-xx-dsh-simple-ui",
    "verdict": "ok",
@@ -40638,6 +40652,13 @@
    "desc": "Embeddable, plugin-based coding-agent runtime built on DeepSeek Harness"
   },
   {
+   "repo": "samsam560/chat-share-card",
+   "name": "samsam560-chat-share-card",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "对话截图美化器（分享卡片）：一键把 AI 对话生成精美的分享卡片，支持自定义背景/字体/配色/圆角，导出 PNG"
+  },
+  {
    "repo": "sandersyao/dsh-plugin-ui-session-fork",
    "name": "sandersyao-dsh-plugin-ui-session-fork",
    "verdict": "ok",
@@ -44563,6 +44584,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "DeepSeek Harness Desktop: self-contained Windows desktop shell (Electron) that auto-starts dsh web, plus a sub"
+  },
+  {
+   "repo": "stushansusu/dsh-web-start-ui",
+   "name": "stushansusu-dsh-web-start-ui",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "dsh web start ui - 启动动画 / launch-video plugin for the DSH Web GUI and desktop client: built-in and custom laun"
   },
   {
    "repo": "534119219/chicheng-push",
@@ -50557,6 +50585,13 @@
    "desc": "Insight dock for the DSH Web GUI: an agent parks a short, strictly-bounded side observation while it works; yo"
   },
   {
+   "repo": "PrismScopes/dsh-account-alias",
+   "name": "prismscopes-dsh-account-alias",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 插件：左下角账户入口不再显示手机号前2后3位，改用自定义 id，可在「插件」页配置 \\| DSH plugin: use a custom id instead of the server-masked phone"
+  },
+  {
    "repo": "qewregrfhnm/dsh-session-manager",
    "name": "qewregrfhnm-dsh-session-manager",
    "verdict": "incompatible",
@@ -50984,6 +51019,13 @@
    "desc": "深渊 ABYSSAL —— DSH (DeepSeek Harness) UI 皮肤：近黑深海底 + 单一生物荧光光源 + 玻璃面板"
   },
   {
+   "repo": "tenebris173/dsh-skin-strata",
+   "name": "tenebris173-dsh-skin-strata",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "STRATA · 地层 — DSH UI 皮肤：工业网格 + 等高线背景，浅色纸面 / 深色终端两套底"
+  },
+  {
    "repo": "termanli/dsh-fulltext-search",
    "name": "termanli-dsh-fulltext-search",
    "verdict": "incompatible",
@@ -51068,6 +51110,13 @@
    "desc": "DSH plugin: add a \"Delete\" item to the sidebar session menu with a confirmation dialog."
   },
   {
+   "repo": "uio-o/dsh-plugin-operation-log",
+   "name": "uio-o-dsh-plugin-operation-log",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 会话面板插件：按轮次/步骤统计 Skill、MCP 调用与文件读写，含失败详情、按来源筛选、文件删除标注"
+  },
+  {
    "repo": "UnforgetMemory/um-dsh-azimg",
    "name": "unforgetmemory-um-dsh-azimg",
    "verdict": "incompatible",
@@ -51087,6 +51136,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH literature/knowledge plugin: 文献→证据→知识管理（独立 literatum server + Web UI + agent 工具）"
+  },
+  {
+   "repo": "vb2250158/dsh-speech-service",
+   "name": "vb2250158-dsh-speech-service",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Removable speech enhancements for DeepSeek Harness voice input"
   },
   {
    "repo": "vclike/dsh-delivery-cards",
@@ -55581,6 +55637,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "给办公室文秘/公文写作：按 GB/T 9704 核对党政机关公文的版头、主体、版记与发文字号等格式要素"
+  },
+  {
+   "repo": "PerryLink/dsh-ppap-check",
+   "name": "perrylink-dsh-ppap-check",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "给供应商质量/质量工程师：按 PPAP 手册与提交等级核对生产件批准（PPAP）资料的要素齐备与版本填写"
   },
   {
    "repo": "ph4310822/dsh-x402-wallet",
@@ -65971,6 +66034,34 @@
    "desc": "给安全员/EHS：核对危险化学品（危化品）的储存量与临界量、重大危险源辨识结果是否一致"
   },
   {
+   "repo": "PerryLink/dsh-hidden-risk-map",
+   "name": "perrylink-dsh-hidden-risk-map",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 隐患风险图谱核对：依据《工贸企业重大事故隐患判定标准》（应急管理部令第10号）"
+  },
+  {
+   "repo": "PerryLink/dsh-lc-doc-check",
+   "name": "perrylink-dsh-lc-doc-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给外贸单证员/银行国际业务：按 UCP600 核对信用证（LC/Letter of Credit）单据的种类、份数、期限与不符点"
+  },
+  {
+   "repo": "PerryLink/dsh-origin-rvc-check",
+   "name": "perrylink-dsh-origin-rvc-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 原产地区域价值成分台账核对：依据各自由贸易协定原产地规则（协定文本，本次未取得）"
+  },
+  {
+   "repo": "PerryLink/dsh-permit-report-check",
+   "name": "perrylink-dsh-permit-report-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 许可申请报告核对：依据《中华人民共和国行政许可法》"
+  },
+  {
    "repo": "PerryLink/dsh-personal-directive",
    "name": "perrylink-dsh-personal-directive",
    "verdict": "ok",
@@ -65978,11 +66069,88 @@
    "desc": "—"
   },
   {
+   "repo": "PerryLink/dsh-pleading-draft",
+   "name": "perrylink-dsh-pleading-draft",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 起诉状核对：依据《中华人民共和国民事诉讼法》"
+  },
+  {
+   "repo": "PerryLink/dsh-policy-brief-draft",
+   "name": "perrylink-dsh-policy-brief-draft",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 政策简报核对：依据《党政机关公文处理工作条例》"
+  },
+  {
+   "repo": "PerryLink/dsh-power-loss-split",
+   "name": "perrylink-dsh-power-loss-split",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 线损分摊记录核对：依据《电力网电能损耗计算导则》（DL/T 686-2018、GB/T 8170-2008）"
+  },
+  {
+   "repo": "PerryLink/dsh-power-ticket-check",
+   "name": "perrylink-dsh-power-ticket-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 电力工作票核对：依据《电力安全工作规程 发电厂和变电站电气部分》（GB 26860—2011）"
+  },
+  {
+   "repo": "PerryLink/dsh-railway-window",
+   "name": "perrylink-dsh-railway-window",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 铁路运单与时效核对：依据《铁路营业线施工安全管理办法》"
+  },
+  {
+   "repo": "PerryLink/dsh-repair-order-qc",
+   "name": "perrylink-dsh-repair-order-qc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给汽修厂/售后顾问：核对维修工单的项目金额、配件工时合计与结算总额是否算术自洽"
+  },
+  {
+   "repo": "PerryLink/dsh-safety-brief-check",
+   "name": "perrylink-dsh-safety-brief-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 安全交底记录核对：依据《建筑施工安全技术统一规范》《建设工程安全生产管理条例》（GB 50870-2013、JGJ 59-2011）"
+  },
+  {
    "repo": "PerryLink/dsh-site-log-check",
    "name": "perrylink-dsh-site-log-check",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 插件 — 监理日志核对：依据《建设工程监理规范》《房屋建筑工程施工旁站监理管理办法（试行）》（GB/T 50319-2013、DBJT 13-144-2019）"
+  },
+  {
+   "repo": "PerryLink/dsh-soe-decision-check",
+   "name": "perrylink-dsh-soe-decision-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 三重一大决策记录核对：依据《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》（中办发〔2010〕17号）"
+  },
+  {
+   "repo": "PerryLink/dsh-soilwater-check",
+   "name": "perrylink-dsh-soilwater-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 土壤与地下水调查记录核对：依据《建设用地土壤污染状况调查技术导则》《地下水环境监测技术规范》"
+  },
+  {
+   "repo": "PerryLink/dsh-sop-sync-check",
+   "name": "perrylink-dsh-sop-sync-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 作业规程（SOP）核对：依据IATF 16949／汽车行业核心工具手册"
+  },
+  {
+   "repo": "PerryLink/dsh-spc-gbt-adapter",
+   "name": "perrylink-dsh-spc-gbt-adapter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给质量/工艺工程师：按 GB/T 4091 控制图常数表核对 SPC 控制图（常规控制图）的控制限与 CPK/CP 过程能力指数"
   },
   {
    "repo": "Perseus-Computing-LLC/perseus-vault-dsh",
@@ -88518,6 +88686,20 @@
    "desc": "\\[FROZEN 2026-10-31\\] Read-only MCP server over the dsh-plugin-certification registry: get_certification, list_c"
   },
   {
+   "repo": "PerryLink/dsh-lawcite-adapter",
+   "name": "perrylink-dsh-lawcite-adapter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给律师/法务：核对法条（法律条文）引用的名称、条号、原文与效力状态，覆盖起诉状/代理词等文书"
+  },
+  {
+   "repo": "PerryLink/dsh-tender-matrix",
+   "name": "perrylink-dsh-tender-matrix",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给评标专家/招标代理：核对评标（评标办法/评分矩阵）的因素、分值、权重与合计是否自洽"
+  },
+  {
    "repo": "PinBoDHua/DeepSeekHarnessDesktop",
    "name": "pinbodhua-deepseekharnessdesktop",
    "verdict": "ok",
@@ -95756,6 +95938,27 @@
    "desc": "—"
   },
   {
+   "repo": "PerryLink/dsh-learning-gap-check",
+   "name": "perrylink-dsh-learning-gap-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 学情差距分析核对：依据《质量管理 能力管理和人员发展指南》"
+  },
+  {
+   "repo": "PerryLink/dsh-nsfc-form-check",
+   "name": "perrylink-dsh-nsfc-form-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给申请人/科研秘书：按当年项目指南核对国自然（国家自然科学基金/NSFC）申请书的形式要件、匿名化与依托单位信息"
+  },
+  {
+   "repo": "PerryLink/dsh-paper-doc-adapter",
+   "name": "perrylink-dsh-paper-doc-adapter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "试卷结构核对：按题型、答案、分值与标识核对试卷结构自洽，仅提示差异，不作出定性结论"
+  },
+  {
    "repo": "retc1/DeepSeek-Harness-Tutorial-Notes",
    "name": "ret-c1-deepseek-harness-tutorial-notes",
    "verdict": "pending",
@@ -97056,6 +97259,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "PerryLink/dsh-warranty-calc",
+   "name": "perrylink-dsh-warranty-calc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 家用汽车三包台账核对：依据《家用汽车产品修理更换退货责任规定》（市场监管总局令第43号）"
   },
   {
    "repo": "qudayan92/dsh-market",
@@ -100831,11 +101041,25 @@
    "desc": "DeepSeek Harness 插件 — 归档登记表核对：依据《归档文件整理规则》《机关文件材料归档范围和文书档案保管期限规定》（DA/T 22—2015、国务院令第772号）"
   },
   {
+   "repo": "PerryLink/dsh-pipeline-check",
+   "name": "perrylink-dsh-pipeline-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给项目经理/内审：核对项目全流程（项目文件链条）的环节先后、文件齐备与金额口径是否自洽"
+  },
+  {
    "repo": "PerryLink/dsh-rulefile-check",
    "name": "perrylink-dsh-rulefile-check",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 插件 — 规则库自身核对：依据本插件家族的条款引用纪律（自定纪律，非国家标准）、本插件家族的检查引擎契约（自定纪律，非国家标准）"
+  },
+  {
+   "repo": "PerryLink/dsh-tender-extract",
+   "name": "perrylink-dsh-tender-extract",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 招标文件实质性要求核对：依据《中华人民共和国招标投标法》（1999年8月30日通过，2017年12月27日修正）"
   },
   {
    "repo": "Phragmund/dsh-plugin-market",
@@ -101249,6 +101473,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh 插件：文件交付协议——send_artifact 工具经 tool/result meta 携带结构化描述子，任意客户端可渲染"
+  },
+  {
+   "repo": "WindFromKadath/dsh-plugin-workspace-archive",
+   "name": "windfromkadath-dsh-plugin-workspace-archive",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 插件：工作区文件夹被删/移走后自动归档其中的会话，文件夹放回来时带回该工作区 —— 含把成员挂回分组、把「无项目」里的孤会话归位；只走官方 API、零依赖"
   },
   {
    "repo": "Windwind110/dsh-skill-manager",
@@ -102362,6 +102593,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Read-only Grafana metrics and alert tools for DeepSeek Harness (PromQL via datasource proxy)."
+  },
+  {
+   "repo": "NIRVANA-APOC/dsh-api-cost",
+   "name": "nirvana-apoc-dsh-api-cost",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness plugin: real-time API cost with peak / off-peak rates — a composer pill, /cost, a session_cos"
   },
   {
    "repo": "oldHan2423/dsh-everything-find",
@@ -108755,6 +108993,13 @@
    "desc": "Codex-style /btw command for DeepSeek Harness: side questions answered in a conversation-seeded subagent conte"
   },
   {
+   "repo": "sh1robana/dsh-plugin-message-edit",
+   "name": "sh1robana-dsh-plugin-message-edit",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DSH 桌面端消息编辑：原地保存、附件编辑、分支重生成与版本时间线"
+  },
+  {
    "repo": "Shiyuedong-Jade/DM-inspect",
    "name": "shiyuedong-jade-dm-inspect",
    "verdict": "incompatible",
@@ -110328,6 +110573,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "飞书私聊机器人就是你的 DSH 助理：配对码绑管理员、审批卡放行、串行排队、回答成卡片回到飞书"
+  },
+  {
+   "repo": "Wepoi9/dsh-web-notify",
+   "name": "wepoi9-dsh-web-notify",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Community DSH plugin for browser and OS notifications on session completion, errors, and pending interactions."
   },
   {
    "repo": "whoisDDD/dsh-approval-notify",
@@ -115900,6 +116152,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "OpenCode GO subscription usage widget for DeepSeek Harness: rolling / weekly / monthly usage with reset countd"
+  },
+  {
+   "repo": "ShuangWang-cn/workbuddy-shared-model",
+   "name": "shuangwang-cn-workbuddy-shared-model",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Share your WorkBuddy credits with DeepSeek Harness, OpenCode, Cursor and other AI tools"
   },
   {
    "repo": "slow-stack/euthyna",
@@ -123579,6 +123838,55 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness 插件 — 预测偏差与考核台账核对：依据《表示货币的代码》（电力市场考核办法与并网调度协议（无国家标准））"
+  },
+  {
+   "repo": "PerryLink/dsh-hs-classify",
+   "name": "perrylink-dsh-hs-classify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给报关员/关务：核对 HS 编码（商品编码/商品归类）的章、品目、子目与商品编号层级是否一致，报关单与归类依据能否对上"
+  },
+  {
+   "repo": "PerryLink/dsh-icd-rule-check",
+   "name": "perrylink-dsh-icd-rule-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给病案编码员/质控科：核对 ICD-10 编码的合并编码、星剑号配对与主要诊断选择"
+  },
+  {
+   "repo": "PerryLink/dsh-medrec-qc",
+   "name": "perrylink-dsh-medrec-qc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给病案室/质控科：核对病案首页（住院病案首页）的形式要件、逻辑矛盾与主要诊断/编码一致性"
+  },
+  {
+   "repo": "PerryLink/dsh-nurse-record-check",
+   "name": "perrylink-dsh-nurse-record-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给护理部/护士长：核对护理记录（护理文书/护理记录单）的时限、签名与评估表完整性"
+  },
+  {
+   "repo": "PerryLink/dsh-ota-review-check",
+   "name": "perrylink-dsh-ota-review-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给酒店运营/客服主管：核对 OTA（在线点评/酒店点评）回复的时限、问题分类与整改状态是否闭环"
+  },
+  {
+   "repo": "PerryLink/dsh-protest-deadline",
+   "name": "perrylink-dsh-protest-deadline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 质疑与投诉期限台账核对：依据《政府采购质疑和投诉办法》（财政部令第94号）"
+  },
+  {
+   "repo": "PerryLink/dsh-review-reply-check",
+   "name": "perrylink-dsh-review-reply-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件 — 评审意见回复核对：依据《中国高校科技期刊编排规范》"
   },
   {
    "repo": "philipho01/dsh-llm-fidelity",
@@ -131540,6 +131848,13 @@
    "desc": "Self-hosted SearXNG web search provider for DeepSeek Harness (dsh)"
   },
   {
+   "repo": "KKYZD/dsh-model-fold",
+   "name": "kkyzd-dsh-model-fold",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "ZCode-style model picker for DeepSeek Harness: provider submenus that open upward, reasoning-effort selection,"
+  },
+  {
    "repo": "KL3jd/handwritten-ocr",
    "name": "kl3jd-handwritten-ocr",
    "verdict": "incompatible",
@@ -131993,6 +132308,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "在deepseek harness聊天框加入VS code和文件管理器按钮"
+  },
+  {
+   "repo": "PrismScopes/dsh-prompt-studio-compat",
+   "name": "prismscopes-dsh-prompt-studio-compat",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 0.2.x 兼容分支：Prompt Studio 插件（可视化编辑/覆盖运行时系统提示词并实时预览）"
   },
   {
    "repo": "publieople/dsh-omniroute-models",
