@@ -1,54 +1,46 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T10:16:22Z",
- "snapshot_run_id": "20261114T101501Z",
+ "generated_at": "2026-11-14T10:31:22Z",
+ "snapshot_run_id": "20261114T103002Z",
  "stats": {
-  "ok": 12029,
-  "incompatible": 5418,
-  "pending": 2646,
+  "ok": 11893,
+  "incompatible": 5331,
+  "pending": 2216,
   "untested": 40,
-  "gone": 453,
+  "gone": 1099,
   "ambiguous": 102,
-  "unlocated": 356
+  "unlocated": 17
  },
- "total_listed": 20133,
+ "total_listed": 19480,
  "runner_versions": {
   "schema": "dsh-radar/runner-versions/v1",
-  "generated_at": "2026-10-15T16:00:11Z",
-  "total": 13628,
-  "latest": "0.2.0-rc.2",
+  "generated_at": "2026-11-14T09:10:38Z",
+  "total": 18170,
+  "latest": "0.2.2-rc.1",
   "versions": {
+   "0.2.2-rc.1": {
+    "ok": 2990,
+    "inc": 572,
+    "fail": 1806
+   },
+   "0.2.1-rc.5": {
+    "fail": 394,
+    "ok": 464,
+    "inc": 3
+   },
    "0.1.5-rc.1": {
-    "ok": 982,
-    "fail": 1019,
-    "inc": 378
-   },
-   "0.1.1-rc.2": {
-    "inc": 633,
-    "ok": 2612,
-    "fail": 612
-   },
-   "0.1.5-rc.3": {
-    "inc": 176
+    "fail": 1313,
+    "ok": 1325,
+    "inc": 16
    },
    "0.1.2-rc.1": {
-    "ok": 4270,
-    "fail": 1343,
-    "inc": 164
+    "ok": 4504,
+    "fail": 1456
    },
-   "0.1.5-rc.2": {
-    "inc": 201
-   },
-   "0.2.0-rc.2": {
-    "inc": 411,
-    "ok": 327,
-    "fail": 283
-   },
-   "0.1.7-rc.2": {
-    "inc": 100
-   },
-   "latest": {
-    "inc": 117
+   "0.1.1-rc.2": {
+    "ok": 2712,
+    "fail": 598,
+    "inc": 17
    }
   }
  },
