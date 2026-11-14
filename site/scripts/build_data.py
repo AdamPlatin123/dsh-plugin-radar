@@ -22,6 +22,7 @@
   totalIndexed   全量索引数 = len(rows)（plugins-all.json 的 plugins[] 长度）
   totalBrowsable 默认可浏览数 = rows 中 verdict=ok 的行数（浏览页默认筛选口径）
   counts         各域计数，与浏览页默认口径一致（仅统计 verdict=ok 的行）
+  versionGate    不兼容行中属于版本门禁的行数（flags&16；dsh 安装阶段按版本声明拒绝）
   curatedStatus  精选/整合包条目 → 是否进入 rows（indexed）+ 真实 verdict/休眠位；
                  未进入 rows 的给出监测态回退（monitor：unlocated/gone/ambiguous，
                  由 canonical 未定位条目的 search?q=owner-name URL 精确匹配得出）
@@ -118,6 +119,7 @@ def build(root: Path, out_dir: Path | None = None):
 
     # ── 大表（列数组）：[repo, name, verdict, stars, desc, domain, flags] ──
     # flags 位：1=bundle 2=PR 登记 4=有 enrich 元数据 8=休眠（>30天未更新且不兼容，暂停测试）
+    #          16=版本门禁（不兼容的细分：dsh 安装阶段按版本声明拒绝，未进入运行）
     out_rows, missing_domain = [], 0
     for r in rows:
         repo_l = r['repo'].lower()
@@ -126,7 +128,8 @@ def build(root: Path, out_dir: Path | None = None):
         if not e:
             missing_domain += 1
         flags = (1 if e.get('bundle') or repo_l in bundle_repos or '〔📦〕' in r['desc'] else 0) | (2 if r['name'] in pr_names else 0) \
-            | (4 if repo_l in enrich else 0) | (8 if repo_l in skip else 0)
+            | (4 if repo_l in enrich else 0) | (8 if repo_l in skip else 0) \
+            | (16 if r['verdict'] == 'incompatible' and e.get('fail_kind') == 'version-gate' else 0)
         out_rows.append([r['repo'], r['name'], r['verdict'],
                          r['stars'] if r['stars'] is not None else -1,
                          r['desc'], dom, flags])
@@ -139,6 +142,13 @@ def build(root: Path, out_dir: Path | None = None):
             enrich_rows[i] = [en.get('pushed_at') or '', en.get('avatar') or '',
                               en.get('lang') or '', en.get('license') or '',
                               list(en.get('topics') or [])[:5]]
+
+    # ── 版本门禁副表（仅 flags&16 且快照带声明范围的行；键=行序 → engines.dsh 范围）──
+    gate_rows = {}
+    for i, r in enumerate(out_rows):
+        req = (entry_by_repo.get(r[0].lower()) or {}).get('dsh_requires')
+        if r[6] & 16 and req:
+            gate_rows[i] = str(req)
 
     # ── 统计从最终 rows 现算（latest.json 的统计指针是导出侧口径，与本表可能错位，
     #     站点对外数字必须与构建产物逐行可对账）──
@@ -178,6 +188,7 @@ def build(root: Path, out_dir: Path | None = None):
         'stats': {v: verdict_counts.get(v, 0) for v in BROWSABLE_VERDICTS},
         'totalIndexed': total_indexed,
         'totalBrowsable': total_browsable,
+        'versionGate': sum(1 for r in out_rows if r[6] & 16),
         'runnerLatest': (latest.get('runner_versions') or {}).get('latest', '')
         if isinstance(latest.get('runner_versions'), dict) else '',
         'domains': [{'slug': s, 'title': t} for s, t in DOMAINS],
@@ -199,7 +210,9 @@ def build(root: Path, out_dir: Path | None = None):
         'export const ROWS: (string | number)[][] = '
         + json.dumps(out_rows, ensure_ascii=False, separators=(',', ':')) + '\n'
         'export const ENRICH: Record<number, [string, string, string, string, string[]]> = '
-        + json.dumps(enrich_rows, ensure_ascii=False, separators=(',', ':')) + '\n',
+        + json.dumps(enrich_rows, ensure_ascii=False, separators=(',', ':')) + '\n'
+        'export const GATE: Record<number, string> = '
+        + json.dumps(gate_rows, ensure_ascii=False, separators=(',', ':')) + '\n',
         encoding='utf8')
     missing_curated = sum(1 for s in curated_status.values() if not s['indexed'])
     print(f'[build-data] {len(out_rows)} 行（canonical 域命中 {len(out_rows) - missing_domain}，'
