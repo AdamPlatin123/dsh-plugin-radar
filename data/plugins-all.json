@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T04:01:06Z",
+ "generated_at": "2026-11-14T04:46:24Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -59720,6 +59720,13 @@
    "desc": "一个能把你消耗的token转换为白米饭的dsh插件"
   },
   {
+   "repo": "zdjmrq/dsh-attention-notifier",
+   "name": "zdjmrq-dsh-attention-notifier",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "zebbkira/dsh-pluginmgmt",
    "name": "zebbkira-dsh-pluginmgmt",
    "verdict": "ok",
@@ -60040,13 +60047,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "a token statistics plugin for dsh (deepseek-harness)"
-  },
-  {
-   "repo": "zdjmrq/dsh-attention-notifier",
-   "name": "zdjmrq-dsh-attention-notifier",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "—"
   },
   {
    "repo": "zh667/LanternDesk",
@@ -60460,6 +60460,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Anakin‘s dsh-plugins"
+  },
+  {
+   "repo": "andiven/dsh-messaging",
+   "name": "andiven-dsh-messaging",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "AndPuQing/dsh-pi",
@@ -75083,13 +75090,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: invisible image upload for text-only models via deepseek-eyes"
-  },
-  {
-   "repo": "andiven/dsh-messaging",
-   "name": "andiven-dsh-messaging",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "Arcticus17/dsh-toolkit",
