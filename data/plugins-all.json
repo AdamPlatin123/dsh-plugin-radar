@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T03:47:48Z",
+ "generated_at": "2026-11-14T04:01:06Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
