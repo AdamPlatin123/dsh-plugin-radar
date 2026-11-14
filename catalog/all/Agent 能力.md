@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3565）
+# 🤖 Agent 能力（3572）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -694,6 +694,7 @@
 - 🟩 `[可用]` [morehao-dsh-skills-console](https://github.com/morehao/dsh-skills-console) ★2 — 统一管理本地技能的安装、更新、删除与接入，让同一份技能在多个 Agent 间复用
 - 🟩 `[可用]` [mpinaev-dsh-context-governor](https://github.com/mpinaev/dsh-context-governor) ★2 — Context chip for DeepSeek Harness: cost per step, cache-hit, bands, compaction threshold, balance, tariff
 - 🟩 `[可用]` [muretai-muretai-dsh-skill](https://github.com/muretai/muretai-dsh-skill) ★2 — Join the Muretai agent network from DeepSeek Harness (dsh) — one-step install, MCP wiring, inbound-mail wake
+- 🟩 `[可用]` [mystery2019-dsh-skills-symlink](https://github.com/MYSTERY2019/dsh-skills-symlink) ★2 — Project-scoped skill roots for DeepSeek Harness: the skill symlink you miss from Hermes, with multi-level cate
 - ⬜ `[待定]` [nana7mi0721-anima-prompt-caption](https://github.com/Nana7mi0721/anima-prompt-caption) ★2 — —
 - 🟩 `[可用]` [neo65536-engineer-dsh-agent-log](https://github.com/Neo65536-engineer/dsh-agent-log) ★2 — Read-only work reports for DeepSeek Harness: reconstruct what an agent task actually did from session logs — t
 - 🟩 `[可用]` [nianchen8-dsh-skill-panel](https://github.com/nianchen8/dsh-skill-panel) ★2 — Skill management panel for the DeepSeek Harness web app
@@ -1938,7 +1939,10 @@
 - `[空仓监测]` **naitoupi-prompt-optimizer-plugin** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [nalleyer-dsh-session-cost](https://github.com/Nalleyer/dsh_session_cost) ★0 — —
 - ⬜ `[待定]` [nana7mi0721-anima-style-lora-workflow-bundle](https://github.com/Nana7mi0721/anima-style-lora-workflow-bundle) ★0 — DeepSeek Harness 插件包：Anima 风格 LoRA 数据集全流程引擎，覆盖抓图下载 → 去重筛选 → 文字检测修补 → 重排编号 → 打标洗标 → 训练配置
+- 🟩 `[可用]` [nanchen8888-dsh-memory-panel](https://github.com/nanchen8888/dsh-memory-panel) ★0 — —
 - `[空仓监测]` **nanmu-del-dsh-plan-toggle** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [nanqiaomi-dsh-agent-team-workflow](https://github.com/NanQiaoMi/dsh-agent-team-workflow) ★0 — DeepSeek Harness 插件：Agent Team 工作流、协作互评、实时看板、并行 worktree 隔离与工具沙箱
+- 🟩 `[可用]` [nas1112-dsh-session-view](https://github.com/NAS1112/dsh-session-view) ★0 — DeepSeek Harness session inspector: tool calls, cost, timing and raw context in one panel
 - 🟩 `[可用]` [nattocb-dsh-safe-delete](https://github.com/NattoCB/dsh-safe-delete) ★0 — DSH plugin: intercept agent rm in every bash session and move targets to the macOS Trash instead
 - 🟩 `[可用]` [nattocb-dsh-skill-indexer](https://github.com/NattoCB/dsh-skill-indexer) ★0 — DSH Cordis plugin: two-level (category + skill) recall index over all local SKILL.md files with intent routing
 - 🟩 `[可用]` [nattocb-dsh-web-search-session-follow](https://github.com/NattoCB/dsh-web-search-session-follow) ★0 — DSH web_search provider that follows the conversation's routed model provider — per-provider endpoint/credential/dialect table with built-in official fallback
@@ -1949,6 +1953,7 @@
 - `[空仓监测]` **nay-1-dsh-skill-manager** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [nb4747-dsh-session-sync](https://github.com/NB4747/dsh-session-sync) ★0 — —
 - 🟩 `[可用]` [necromanalbert-dsh-i-have-adhd](https://github.com/NecromanAlbert/dsh-i-have-adhd) ★0 — Always-on ADHD-friendly output for every DeepSeek Harness session
+- 🟩 `[可用]` [neil-ji-dsh-plugin-agnes-image](https://github.com/neil-ji/dsh-plugin-agnes-image) ★0 — Unofficial DSH desktop plugin: text-to-image and image-to-image tools for the agent, backed by Agnes Image 2.5
 - 🟩 `[可用]` [nekomona-dsh-plugin-zai-mcp](https://github.com/nekomona/dsh-plugin-zai-mcp) ★0 — 1-click Deepseek Harness plugin for Z.ai coding plan MCPs
 - 🟩 `[可用]` [neorrrr-dsh-project-skill-paths](https://github.com/NeoRrrr/dsh-project-skill-paths) ★0 — Project-scoped custom Skill roots for DeepSeek Harness
 - 🟩 `[可用]` [nesarf-mega-index-map](https://github.com/Nesarf/mega-index-map) ★0 — Cross-workspace Library for DeepSeek Harness: record, query and verify files, tools, environments, knowledge a
@@ -2998,6 +3003,8 @@
 - 🟨 `[不兼容]` [mugnimaestra-dsh-browser-use](https://github.com/mugnimaestra/dsh-browser-use) ★1 — DeepSeek Harness Agent Preset bridge for Open Browser Use WebMCP
 - 🟨 `[不兼容]` [mutx163-dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) ★1 — 🧠 DSH 自定义模型思考等级管理与偏好持久记忆插件 \| Custom model reasoning effort management & cross-session memory for DeepSeek Harn
 - 🟨 `[不兼容]` [myyangyunfan-dsh-cardian](https://github.com/myYangyunfan/dsh_cardian) ★1 — cardian — DeepSeek Harness knowledge-center plugin: RepoWiki notes / flashcards / memory in a local Obsidian v
+- 🟨 `[不兼容]` [naiiong-dsh-webchat-bridge](https://github.com/naiIong/dsh-webchat-bridge) ★1 — Embed chat.deepseek.com web chat in DSH and transfer the conversation into a workspace session for DeepSeek Ha
+- 🟨 `[不兼容]` [nanqing233-dsh-rimlight](https://github.com/NanQing233/dsh-rimlight) ★1 — 为你的 DeepSeek Harness 添加沿窗口边缘流动的流星式光带 —— 最多四条并行、按会话模型配色、等待回复时反向流动，在对话结束后自行返回对话框或工作区
 - 🟨 `[不兼容]` [neo805-dsh-effort-router](https://github.com/neo805/dsh-effort-router) ★1 — DSH plugin: context-aware per-step reasoning-effort routing — classify → escalate → hysteresis → capability cl
 - 🟨 `[不兼容]` [nilesh32236-dsh-squad](https://github.com/nilesh32236/dsh-squad) ★1 — Cross-workspace AI worker fleets for DeepSeek Harness: spawn named worker sessions in other projects, queue or
 - 🟨 `[不兼容]` [ninjasln-labs-dsh-subagent-router](https://github.com/NinjaSln-labs/dsh-subagent-router) ★1 — DeepSeek Harness 子代理模型路由插件：subagent_model 工具 + model:"auto" 路由策略（任务档位/失败升级/可审计），子代理不再继承父模型
