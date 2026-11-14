@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3319）
+# 🤖 Agent 能力（3326）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -965,6 +965,7 @@
 - 🟩 `[可用]` [jiangdl0220-dsh-skills-manager](https://github.com/Jiangdl0220/dsh-skills-manager) ★1 — Manage installed DeepSeek Harness skills from Settings: disable/enable without uninstalling, restorable trash
 - ⬜ `[待定]` [jijiwu3526-dsh-preset-studio](https://github.com/jijiwu3526/dsh-toolsmith) ★1 — Cut the DSH tool set to the job: minimal, task-specific agent presets (117→14 tools) + self-authenticating loc
 - ⬜ `[待定]` [jinhanghe126-dsh-compact](https://github.com/JinhangHE126/dsh-compact) ★1 — Local proxy for DeepSeek Harness: keep recent turns verbatim and summarize older context.
+- 🟩 `[可用]` [jinshuxuan-dsh-context-budget](https://github.com/JinShuXuan/dsh-context-budget) ★1 — Per-step context ledger for DeepSeek Harness with opt-in gates: lean tool table, long-tail externalization, du
 - 🟩 `[可用]` [jipika-dsh-preset-hotswap](https://github.com/jipika/dsh-preset-hotswap) ★1 — Switch the agent preset (standard / PTC / cordis) of an already-started conversation from the session header
 - ⬜ `[待定]` [jli658942-web-dsh-market-skill](https://github.com/jli658942-web/dsh-market-skill) ★1 — DSH Market 全局 skill：教 Agent 发现、评估、安装 DeepSeek Harness 插件/技能
 - 🟩 `[可用]` [jmxsxwyzjdwl-dsh-mmroute](https://github.com/jmxsxwyzjdwl/dsh-mmroute) ★1 — 为 DeepSeek Harness（DSH）里的每一条模型路由做图片模态调度，并且贯穿整个 agent
@@ -1612,8 +1613,11 @@
 - ⬜ `[待定]` [dsh-routines](https://github.com/Jesse-njx/dsh-routines) ★0 — dsh-routines — scheduled agents for DSH: run a prompt on a cron, get the digest where you already are (file di
 - 🟩 `[可用]` [dsh-tmuxctl](https://github.com/Jesse-njx/dsh-tmuxctl) ★0 — dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run, and watch the panes you alre
 - 🟩 `[可用]` [jessenreinhart-dsh-time-context](https://github.com/JessenReinhart/dsh-time-context) ★0 — Temporal grounding for DSH models: injects exact current local time and previous-message recency into every pr
+- 🟩 `[可用]` [jhees-dsh-unattended](https://github.com/JHees/dsh-unattended) ★0 — Unattended mode for DSH Auto review: reviewer denials become final with no human approval prompt
+- 🟩 `[可用]` [jhhjy-dsh-ai-bridge](https://github.com/jhhjy/dsh-ai-bridge) ★0 — AI 接线板：让别的 AI 通过本机 HTTP 把提示词递进 DeepSeek Harness 会话，我的回复也同步到 outbox 供对方读取（双向）
 - 🟩 `[可用]` [jhlee111-dsh-agent-browser](https://github.com/jhlee111/dsh-agent-browser) ★0 — —
 - 🟩 `[可用]` [jianghu-lao-yao-sh-volume-knob](https://github.com/jianghu-lao-yao/sh-volume-knob) ★0 — Read the agent's newest reply aloud and control volume from the DSH composer.
+- ⬜ `[待定]` [jiangluoyiyi-dsh-quota-pill](https://github.com/jiangluoyiyi/dsh-quota-pill) ★0 — DSH plugin: DeepSeek account balance and per-Session spend in the composer dock
 - 🟩 `[可用]` [jianyuepei-dsh-session-mindmap](https://github.com/jianyuepei/dsh-session-mindmap) ★0 — DSH plugin: turn a session into a self-contained interactive HTML mind map.
 - ⬜ `[待定]` [jiawood2006-construction-project-management](https://github.com/jiawood2006/construction-project-management) ★0 — Generic construction/engineering project full-lifecycle management skill (ITO-OTR, PMBOK)
 - `[空仓监测]` **jingkun05-dsh-session-delete-native** — GitHub 无此仓库，判定暂不展示
@@ -2759,6 +2763,7 @@
 - 🟨 `[不兼容]` [j62268781-alt-dsh-hindsight-bank-router](https://github.com/j62268781-alt/dsh-hindsight-bank-router) ★1 — 把 Hindsight 编码插件的 bank 身份锚定到远程仓库名，而不是本地目录名
 - 🟨 `[不兼容]` [jayyuen666-dsh-session-rescue](https://github.com/JayYuen666/dsh-session-rescue) ★1 — —
 - 🟨 `[不兼容]` [jazzulu-find-dsh-plugins](https://github.com/JazzuLu/find-dsh-plugins) ★1 — 对话式查找 DSH 插件的增强版 skill：语义检索 × 四源聚合 × 安全审计
+- 🟨 `[不兼容]` [jisiyong-a-dsh-plugin-background-compaction](https://github.com/Jisiyong-A/dsh-plugin-background-compaction) ★1 — Zero-latency compaction for DeepSeek Harness: background speculative summaries cut the compaction stall from 1
 - `[空仓监测]` **johnxu22786-memory-standard** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [johnxu22786-net-debug](https://github.com/JohnXu22786/net-debug) ★1 — HTTP network debugging toolset for DeepSeek Harness (dsh): general-purpose HTTP client with SSRF/private-netwo
 - `[空仓监测]` **johnxu22786-skill-framework** — GitHub 无此仓库，判定暂不展示
@@ -3080,10 +3085,12 @@
 - 🟨 `[不兼容]` [jasun0925-dsh-skills-manager](https://github.com/Jasun0925/dsh-skills-manager) ★0 — —
 - 🟨 `[不兼容]` [jemius-dsh-session-admin](https://github.com/Jemius/dsh-session-admin) ★0 — —
 - `[空仓监测]` **jensen-yao-agents-skills** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [jiangzhenguo-dsh-safebox](https://github.com/jiangzhenguo/dsh-safebox) ★0 — DSH Safebox: local secret management with agent-safe references
 - 🟨 `[不兼容]` [jiewiw-dsh-derive-watcher](https://github.com/JiewiW/dsh-derive-watcher) ★0 — Semantic watcher plugin for DSH (L3): journey ledger, flash summarizer, MinHash novelty, milestone fold, conte
 - 🟨 `[不兼容]` [jimmyzhang219-dsh-plan-and-execute](https://github.com/jimmyzhang219/dsh-plan-and-execute) ★0 — DeepSeek Harness (dsh) 的 Plan-and-Execute 编排插件
 - 🟨 `[不兼容]` [jingzechen-dsh-beacon](https://github.com/JingzeChen/dsh-beacon) ★0 — Attention and handoff workspace for concurrent DeepSeek Harness Sessions
 - 🟨 `[不兼容]` [jingzhao-l-iterate-skill](https://github.com/jingzhao-l/iterate-skill) ★0 — —
+- 🟨 `[不兼容]` [jiuan-9-dsh-hole](https://github.com/jiuan-9/dsh-hole) ★0 — DSH 授权渗透技能包：三层结构 guard(中国法律门禁+目标槽位) / break(提示词装配) / hunt(漏洞挖掘) + 14 项报告模板
 - 🟨 `[不兼容]` [joao-paulo-santos-dsh-granular-prompt](https://github.com/joao-paulo-santos/dsh-granular-prompt) ★0 — Prompt composition manager for DSH: live census of every system-prompt section with suppress and replace, cust
 - 🟨 `[不兼容]` [johnny-ggao-trading-agent](https://github.com/johnny-ggao/trading-agent) ★0 — trading agent for dsh
 - 🟨 `[不兼容]` [johnx438-hub-dsh-minimal-context](https://github.com/johnx438-hub/dsh-minimal-context) ★0 — —
