@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2881）
+# 🤖 Agent 能力（2882）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2485,6 +2485,7 @@
 - 🟨 `[不兼容]` [troytse-dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) ★1 — DeepSeek Harness - Subagent Roles Plugin
 - 🟨 `[不兼容]` [trynewthin-dsh-subagent-roles](https://github.com/trynewthin/dsh-subagent-roles) ★1 — Role-based model routing for DeepSeek Harness subagent delegation.
 - 🟨 `[不兼容]` [tttpob-dsh-workspace-overlay](https://github.com/TTTPOB/dsh-workspace-overlay) ★1 — Out-of-tree DeepSeek Harness plugin for workspace-scoped Cordis configuration, agent presets, and MCP routing
+- 🟨 `[不兼容]` [vianvio-dsh-assistant](https://github.com/vianvio/dsh-assistant) ★1 — DSH小助手：原生 Swift 悬浮窗 + DSH 会话状态驱动，含素材管线与日报
 - 🟨 `[不兼容]` [vibeinging-dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) ★1 — Per-agent on-demand tool discovery and progressive schema disclosure for DeepSeek Harness
 - 🟨 `[不兼容]` [vilicvane-dsh-plugin-turn-memory](https://github.com/vilicvane/dsh-plugin-turn-memory) ★1 — Turn-granular context memory for DeepSeek Harness.
 - 🟨 `[不兼容]` [weiyang742-dsh-cross-session-messaging](https://github.com/Weiyang742/dsh-cross-session-messaging) ★1 — Cross-session relay for DeepSeek Harness: peer discovery and text delivery between independent dsh processes.

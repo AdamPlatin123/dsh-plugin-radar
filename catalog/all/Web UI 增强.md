@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（4604）
+# 🔌 Web UI 增强（4605）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3488,6 +3488,7 @@
 - 🟨 `[不兼容]` [vlln-plugin-registry](https://github.com/vlln/plugin-registry) ★58 — DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导
 - 🟨 `[不兼容]` [sagirimo-biodsh](https://github.com/sagirimo/BioDSH) ★52 — The bioinformatics agent desktop for clinicians and wet-lab scientists — built on DeepSeek Harness
 - 🟨 `[不兼容]` [xbzbing-dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) ★51 — Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、AI 生成提交信息、文件浏览、代码与图片新旧差异对照、输入框分支标记、针对移动端优化 \| an IDE-style Git
+- 🟨 `[不兼容]` [gulagala001-trisoul-x](https://github.com/gulagala001/oh-my-dsh) ★50 — DeepSeek Harness 增强插件：上下文压缩与 Dream 记忆、Ultra 多智能体、OpenCU 电脑操作、代码理解、扩展管理、人格和主题
 - 🟨 `[不兼容]` [ui-status-label](https://github.com/alingalingling/ui-status-label) ★49 — 把你鲸鱼娘思考时的 deep diving 自定义成任意你想要的样子
 - 🟨 `[不兼容]` [zhuiyueya-dsh-im-gateway](https://github.com/zhuiyueya/dsh-im-gateway) ★48 — 把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 \| Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to
 - 🟨 `[不兼容]` [superwheel-cliworker-now](https://github.com/SuperWheel/dsh-cliworker-now) ★44 — DeepSeek Harness 多 CLI 智能体侧栏插件：独立对话、账号管理、角色预设与任务续聊
