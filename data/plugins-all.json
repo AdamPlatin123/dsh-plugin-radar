@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T05:46:12Z",
+ "generated_at": "2026-11-14T06:01:06Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -15275,6 +15275,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "Windows Junction-based global Skill switcher for DeepSeek Harness Web."
+  },
+  {
+   "repo": "IKEASven69/dsh-takeover",
+   "name": "ikeasven69-dsh-baton",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "会话接管插件：拉取九家外部 agent 会话（/resume-*）、把当前会话按 handoff: 1 开放协议寄存进 ~/.handoff/pending/、开局取件接着干"
   },
   {
    "repo": "inmny/dsh-continue",
@@ -45986,6 +45993,13 @@
    "desc": "DeepSeek Harness Dream Skin，DSH theme plugin: Dream Skin color presets with a settings-page switcher."
   },
   {
+   "repo": "ns-zzj/dsh-android-scrcpy",
+   "name": "ns-zzj-dsh-android-scrcpy",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DSH 的安卓投屏 provider —— 通过 adb（USB 调试或已配对的无线调试）把安卓设备接进对话： 多设备实时投屏、鼠标点按滑动、返回/主页与音量电源按键、控件树读取、UHID 虚拟外接键盘（PC 键盘直接变"
+  },
+  {
    "repo": "OctKwong30/dsh-upload-file",
    "name": "octkwong30-dsh-upload-file",
    "verdict": "incompatible",
@@ -48182,6 +48196,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DeepSeek Harness TUI port〔📦〕"
+  },
+  {
+   "repo": "YangShen-SWE/dsh-plugin-simple-pet",
+   "name": "yangshen-swe-dsh-plugin-simple-pet",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Windows desktop pet with DeepSeek billing, Codex subscription quotas, opt-in automatic Codex warm-up, six skin"
   },
   {
    "repo": "yehuioc/dsh-memory-pack",
@@ -88964,6 +88985,13 @@
    "verdict": "incompatible",
    "stars": 10,
    "desc": "SSH remote workspaces for DeepSeek Harness — run bash, file, and search tools on any remote machine."
+  },
+  {
+   "repo": "molly-ovo/dsh-workbuddy-oauth",
+   "name": "molly-ovo-dsh-workbuddy-oauth",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "把 WorkBuddy 的模型接入 DeepSeek Harness：自带 OAuth 设备码登录，不依赖桌面 App，支持多账号轮转与失败冷却"
   },
   {
    "repo": "btsd321/dsh-remote-explorer",

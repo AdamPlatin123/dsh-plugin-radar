@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（2882）
+# 🤖 Agent 能力（2886）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1140,6 +1140,7 @@
 - 🟩 `[可用]` [962599627-agent-development-constraints](https://github.com/962599627/agent-development-constraints) ★0 — Intelligent agent development constraints
 - `[空仓监测]` **abccgh-dsh-agent-studio** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [abdounasser202-dsh-deepseek-budget](https://github.com/abdounasser202/dsh-deepseek-budget) ★0 — Track your DeepSeek spent budget into DeepSeek Harness
+- `[未定位]` **adkun-adg-multi-agent** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [afisht-dsh-plan-mode-enhanced](https://github.com/afisht/dsh-plan-mode-enhanced) ★0 — —
 - `[空仓监测]` **agents365-ai-dsh-vision-plugin** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [agoraio-community-dsh-agora](https://github.com/AgoraIO-Community/dsh-agora) ★0 — DSH skill plugin: Agora skill (RTC, RTM, ConvoAI, CLI, Cloud Recording, tokens) synced verbatim from AgoraIO/s
@@ -1482,6 +1483,7 @@
 - `[空仓监测]` **lywusichen-dsh-skill-panel** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [lyxx999-automatic-session-renaming-for-dsh](https://github.com/lyxx999/Automatic-session-renaming-for-dsh) ★0 — —
 - 🟩 `[可用]` [lzxcs-btw-pro](https://github.com/lzxcs/btw-pro) ★0 — /btw 旁路问答：不打断当前会话（含流式输出中），基于当前上下文回答一个问题；答案以「旁答」命令结果行显示在主会话里，不进入主模型上下文
+- `[未定位]` **lzyyzznl-dsh-prompt-tuner** — 占位待复核，判定暂不展示
 - 🟩 `[可用]` [macorreag-dsh-monitor](https://github.com/Macorreag/dsh-monitor) ★0 — Monitor plugin for DeepSeek Harness: background bash watchers that steer the agent loop, with a live dock stat
 - 🟩 `[可用]` [malevrigns-dsh-session-stars](https://github.com/malevrigns/dsh-session-stars) ★0 — Favorite DeepSeek Harness Sessions and reopen them from a global cross-Workspace center.
 - 🟩 `[可用]` [mangshe3-0-dsh-plugin-guard](https://github.com/MangShe3-0/dsh-plugin-guard) ★0 — Offline-first security scanner for DeepSeek Harness plugins: prompt injection, ransomware, exfiltration, and s
@@ -1535,6 +1537,7 @@
 - 🟩 `[可用]` [nattocb-dsh-safe-delete](https://github.com/NattoCB/dsh-safe-delete) ★0 — DSH plugin: intercept agent rm in every bash session and move targets to the macOS Trash instead
 - 🟩 `[可用]` [nattocb-dsh-skill-indexer](https://github.com/NattoCB/dsh-skill-indexer) ★0 — DSH Cordis plugin: two-level (category + skill) recall index over all local SKILL.md files with intent routing
 - 🟩 `[可用]` [navid-kianfar-dsh-voice](https://github.com/navid-kianfar/dsh-voice) ★0 — Dictate prompts into the DeepSeek Harness Web Client — a microphone in the composer, with swappable transcript
+- `[未定位]` **nay-1-dsh-session-share** — 占位待复核，判定暂不展示
 - `[未定位]` **nay-1-dsh-share-session** — 占位待复核，判定暂不展示
 - ⬜ `[待定]` [nay-1-dsh-skill-manage](https://github.com/Nay-1/dsh-skill-manage) ★0 — —
 - `[未定位]` **nay-1-dsh-skill-manager** — 占位待复核，判定暂不展示
@@ -2271,6 +2274,7 @@
 - 🟨 `[不兼容]` [greenlv-dsh-context-guard](https://github.com/GreenLv/dsh-completion-guard) ★2 — Task-contract and completion-certification layer for DeepSeek Harness
 - 🟨 `[不兼容]` [hccccc01333-dsh-eval](https://github.com/hccccc01333/dsh-eval) ★2 — Agent evaluation platform for DeepSeek Harness: benchmark YAML, headless dsh orchestration, trace-based metric
 - 🟨 `[不兼容]` [hzthzt-dsh-skill-switch](https://github.com/hzthzt/dsh-skill-switch) ★2 — Windows Junction-based global Skill switcher for DeepSeek Harness Web.
+- 🟨 `[不兼容]` [ikeasven69-dsh-baton](https://github.com/IKEASven69/dsh-takeover) ★2 — 会话接管插件：拉取九家外部 agent 会话（/resume-*）、把当前会话按 handoff: 1 开放协议寄存进 ~/.handoff/pending/、开局取件接着干
 - 🟨 `[不兼容]` [inmny-dsh-continue](https://github.com/inmny/dsh-continue) ★2 — 为 DeepSeek Harness 增加一个直接续跑按钮
 - 🟨 `[不兼容]` [jarvisluk-dsh-projectless-session](https://github.com/jarvisluk/dsh-projectless-session) ★2 — Projectless sessions for DeepSeek Harness with isolated date-organized working directories
 - 🟨 `[不兼容]` [johnxu22786-spec-driven](https://github.com/JohnXu22786/spec-driven) ★2 — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防过度工程与范围蔓延，为 dsh 等插件化 harness 提供技能+工具+模板
