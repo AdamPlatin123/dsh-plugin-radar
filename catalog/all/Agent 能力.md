@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3231）
+# 🤖 Agent 能力（3235）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -345,6 +345,7 @@
 - ⬜ `[待定]` [cjxiao0718-dsh-plugin-session-share](https://github.com/CJXIAO0718/dsh-plugin-session-share) ★4 — 一个能够让你的dsh分享聊天对话记录的插件
 - 🟩 `[可用]` [dsh-session-management](https://github.com/cokiscarazo-rgb/dsh-session-management) ★4 — —
 - 🟩 `[可用]` [dingminhua-dsh-subagent-default-model](https://github.com/dingminhua/dsh-subagent-default-model) ★4 — Configurable default model for subagent delegations via settings.yaml, with single-model and multi-model round
+- 🟩 `[可用]` [dinjufen-dsh-suggest](https://github.com/dinjufen/dsh-suggest) ★4 — DeepSeek Harness plugin: predicts your next prompt after each turn — press Tab to accept
 - 🟩 `[可用]` [dygin-dsh-recover-context](https://github.com/dygin/dsh-recover-context) ★4 — dsh agent context make recover or reedit
 - 🟩 `[可用]` [el4cteo-roblox-devforum-mcp](https://github.com/EL4CTEO/roblox-devforum-mcp) ★4 — Give your AI coding agent the Roblox DevForum and official creator docs — check if a bug is already known, rea
 - 🟩 `[可用]` [elementor-i-dsh-agentmemory](https://github.com/elementor-i/dsh-agentmemory) ★4 — agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the loc
@@ -856,6 +857,7 @@
 - 🟩 `[可用]` [dddpg-dsh-plugins](https://github.com/DDDPG/dsh-plugins) ★1 — personal developed deepseek-harness plugins: Workspace Memory--Cross-session Call--CLI Cmd--Key-Comb Sheet--Ta
 - ⬜ `[待定]` [delaynoomore-dsh-plugin-session-trash](https://github.com/DelayNooMore/dsh-plugin-session-trash) ★1 — DSH (DeepSeek Harness) 会话回收站插件：移入回收站、恢复、永久删除，设置页管理
 - 🟩 `[可用]` [dev-wiki-dev-harness-runtime](https://github.com/Dev-Wiki/dev-harness-runtime) ★1 — dev-harness skill runtime
+- 🟩 `[可用]` [devilzyl-dsh-enhance-prompt](https://github.com/devilzyl/dsh-enhance-prompt) ★1 — Composer plugin for DeepSeek Harness that rewrites your chat draft into a clearer, more specific prompt with y
 - 🟩 `[可用]` [devmom-dsh-session-import](https://github.com/devmom/dsh-session-import) ★1 — —
 - 🟩 `[可用]` [devtarlow-dsh-chrome-devtools](https://github.com/DevTarlow/dsh-chrome-devtools) ★1 — Give your DeepSeek Harness Agent a real Chrome browser to drive and inspect.
 - 🟩 `[可用]` [diaryofuranus-dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) ★1 — DeepSeek Harness（DSH）第二大脑载入器：把有硬上限、带时间戳的脑快照（身份＋状态指纹＋未决项＋指针与边界）注入每个新会话；只读、零写入、fail-loud、零依赖
@@ -1406,6 +1408,7 @@
 - 🟩 `[可用]` [deluo-dsh-usage-display](https://github.com/deluo/dsh-usage-display) ★0 — 在 dsh（DeepSeek Harness）会话头部展示模型厂商余额/用量徽标的插件：内置 DeepSeek 余额、MiniMax Token Plan 与智谱 GLM Coding Plan 配额，适配器架构支持接入
 - 🟩 `[可用]` [diligencelai-dsh-memory-ga](https://github.com/DiligenceLai/dsh-memory-ga) ★0 — Gated GA-style layered memory for DeepSeek Harness: hard-injected L1 index + RULES, session working checkpoint
 - 🟩 `[可用]` [dingxin-tech-dsh-maxcompute](https://github.com/dingxin-tech/dsh-maxcompute) ★0 — DSH (DeepSeek Harness) plugin for MaxCompute (ODPS): metadata browsing, cost-gated SQL execution, background j
+- 🟩 `[可用]` [dongasai-running-sessions-float](https://github.com/dongasai/running-sessions-float) ★0 — —
 - 🟩 `[可用]` [dongsheng123132-dsh-policy-waiver-proof](https://github.com/dongsheng123132/dsh-policy-waiver-proof) ★0 — Offline content-addressed proof that temporary DSH policy waivers stayed within approved bounds
 - 🟩 `[可用]` [dongsheng123132-dsh-principal-binding-proof](https://github.com/dongsheng123132/dsh-principal-binding-proof) ★0 — Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces
 - 🟩 `[可用]` [dqtz5vpvj9-create-dsh-subagent-mcp](https://github.com/dqtz5vpvj9-create/dsh-subagent-mcp) ★0 — —
@@ -2532,6 +2535,7 @@
 - 🟨 `[不兼容]` [dangpangch-dsh-acp](https://github.com/dangpangch/dsh-acp) ★2 — dsh plugin to run DeepSeek Harness (dsh) agents in Zed’s Agent Panel.
 - 🟨 `[不兼容]` [datuloar-dsh-computer-use-win](https://github.com/datuloar/dsh-computer-use-win) ★2 — Windows computer use for DeepSeek Harness agents  screenshot, click, type, scroll, with an on-screen indicator
 - 🟨 `[不兼容]` [deepforce-dsh-balance](https://github.com/deepforce/dsh-balance) ★2 — DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate
+- 🟨 `[不兼容]` [dialling-dsh-galaxy-view](https://github.com/dialling/dsh-galaxy-view) ★2 — Cinematic 3D galaxy view for DeepSeek Harness — workspaces as suns, conversations as stars, plus a memory libr
 - 🟨 `[不兼容]` [dpskh-dsh-rewind](https://github.com/dpskh/dsh-rewind) ★2 — Fold everything since the last checkpoint mark into an auto-generated report, replacing it in context while ke
 - 🟨 `[不兼容]` [epcn-fla-dsh-observational-memory](https://github.com/EPCN-fla/dsh-observational-memory) ★2 — Observational memory for DeepSeek Harness: background observers distill session work into observations and dur
 - 🟨 `[不兼容]` [fanethedivine-dsh-plugin-om](https://github.com/FanetheDivine/dsh-plugin-om) ★2 — DSH插件，以Observational Memory方式管理上下文
