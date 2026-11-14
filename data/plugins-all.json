@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T02:31:14Z",
+ "generated_at": "2026-11-14T02:46:16Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -1158,6 +1158,13 @@
    "desc": "自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复"
   },
   {
+   "repo": "perrylink/dsh-translate",
+   "name": "dsh-translate",
+   "verdict": "untested",
+   "stars": 11,
+   "desc": "厂商参数翻译与确定性 JSON 修复：/translate 命令映射 11 家厂商的 13 个规范参数；post-execute 修复层 + fix_json 工具修复工具输出中的坏 JSON（转义/去尾逗号/截断闭合/null 占位补全），绝不编造数据"
+  },
+  {
    "repo": "Co-Engram/Co-Engram",
    "name": "co-engram-co-engram",
    "verdict": "ok",
@@ -1826,13 +1833,6 @@
    "repo": "zzhang82/Agent-Memory-Bridge",
    "name": "zzhang82-agent-memory-bridge",
    "verdict": "pending",
-   "stars": 6,
-   "desc": "—"
-  },
-  {
-   "repo": "KLRSL/dsh-memory-layer",
-   "name": "klrsl-dsh-biomemory",
-   "verdict": "ok",
    "stars": 6,
    "desc": "—"
   },
@@ -2663,13 +2663,6 @@
    "desc": "Complete mobile PWA for DeepSeek Harness (DSH): secure remote access gateway + install-to-homescreen + offline"
   },
   {
-   "repo": "LeslieWylie/dsh-session-search-pro",
-   "name": "lesliewylie-dsh-session-search-pro",
-   "verdict": "ok",
-   "stars": 4,
-   "desc": "—"
-  },
-  {
    "repo": "444136347/dsh-capability-discovery",
    "name": "444136347-dsh-capability-discovery",
    "verdict": "ok",
@@ -3354,13 +3347,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Loom (织机) — external coach / second verifier for DeepSeek Harness: silently evolves your agent's tools, skills"
-  },
-  {
-   "repo": "cxdyun/dsh-skills-marketplace",
-   "name": "cxdyun-dsh-skills-marketplace",
-   "verdict": "ok",
-   "stars": 3,
-   "desc": "DeepSeek Harness 版本的类 CodeX 插件市场"
   },
   {
    "repo": "sikwoxy/dsh-tool-memory",
@@ -4700,6 +4686,13 @@
    "desc": "个人 DeepSeek Harness 桌面操作插件：零审批自动提权，后台优先三级投递链，Windows 深度实测"
   },
   {
+   "repo": "goatliamia/dsh-trajectory-query",
+   "name": "goatliamia-dsh-trajectory-query",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "把 DSH 已保存的会话轨迹重新可达:3 个查询工具 + 1 条纪律的极薄历史查询层(不是 Memory)"
+  },
+  {
    "repo": "0231071/llm-as-a-verifier",
    "name": "0231071-llm-as-a-verifier",
    "verdict": "ok",
@@ -5258,13 +5251,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Local Markdown wiki as long-term memory for DeepSeek Harness — RRF-fused retrieval (keyword + wikilink graph +"
-  },
-  {
-   "repo": "chaochaokongbai/dsh-beginner-hub",
-   "name": "chaochaokongbai-dsh-beginner-hub",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "🧭 DSH新手台：大白话输入需求 → 路由成可直接用的方案（话术/技能/进阶玩法），一键填入新会话"
   },
   {
    "repo": "chaserchan/dsh-plugin-global-prompt",
@@ -15921,6 +15907,13 @@
    "desc": "DSH（DeepSeek Harness）本地跨会话记忆插件：捕获每轮对话摘要、注入最近几天记忆，并提供 memory_search 工具按需检索全部历史记忆"
   },
   {
+   "repo": "chaochaokongbai/dsh-beginner-hub",
+   "name": "chaochaokongbai-dsh-beginner-hub",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "🧭 DSH新手台：大白话输入需求 → 路由成可直接用的方案（话术/技能/进阶玩法），一键填入新会话"
+  },
+  {
    "repo": "Cheng-xiu/dsh-auto-scheduler",
    "name": "cheng-xiu-dsh-auto-scheduler",
    "verdict": "incompatible",
@@ -17013,11 +17006,11 @@
    "desc": "Independent dsh plugins for things upstream can't (yet) accept as PRs"
   },
   {
-   "repo": "ddtcorex/dsh-maestro-memory",
-   "name": "ddtcorex-dsh-maestro-memory",
+   "repo": "raktim-mondol/dsh-researchcraft",
+   "name": "raktim-mondol-dsh-researchcraft",
    "verdict": "incompatible",
    "stars": 1,
-   "desc": "DSH plugin for durable cross-session memory and todos: five tracks (global, user, project, key, daily), confir"
+   "desc": "ResearchCraft as a DeepSeek Harness (DSH) profile plugin: research persona, scientific skills catalogue, livin"
   },
   {
    "repo": "0xEryx/clustr-trading-console",
@@ -34464,13 +34457,6 @@
    "desc": "Explain failed DeepSeek Harness agent runs locally, then produce a redacted recovery plan"
   },
   {
-   "repo": "Bobnemimimmi/dsh-always-status-bar",
-   "name": "bobnemimimmi-dsh-always-status-bar",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "yishengdaxiaonengjihui/dsh-poor-router",
    "name": "yishengdaxiaonengjihui-dsh-poor-router",
    "verdict": "ok",
@@ -38601,13 +38587,6 @@
    "desc": "DSH 客户端插件:AI 回复完成时播放双音提示音 (DeepSeek Harness)"
   },
   {
-   "repo": "liyu1314-lmyc/dsh-archive-browser",
-   "name": "liyu1314-lmyc-dsh-archive-browser",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Browse archived DSH sessions and re-invoke them: view the transcript, restore to the sidebar, inject into the"
-  },
-  {
    "repo": "ljsysfurryACE/dsh-agentframe-plugins",
    "name": "ljsysfurryace-dsh-agentframe-plugins",
    "verdict": "ok",
@@ -40407,13 +40386,6 @@
    "desc": "DSH 插件：主输入框 ✨ 一键把草稿润色成清晰、可执行的提示词，经 better-sidebar 侧栏对话多轮打磨后回填"
   },
   {
-   "repo": "shenkonghui/dsh-worktree-manager",
-   "name": "shenkonghui-dsh-worktree-manager",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "shenmy-git/dsh-weather-plugin",
    "name": "shenmy-git-dsh-weather-plugin",
    "verdict": "ok",
@@ -42045,13 +42017,6 @@
    "desc": "Hacker-terminal skin for the dsh web GUI: pure black, high-contrast green, right-angle geometry, monospace fon"
   },
   {
-   "repo": "xiaoshengliang2002/dsh-prompt-boost-pro",
-   "name": "xiaoshengliang2002-dsh-prompt-boost-pro",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Enhance the composer draft before sending: a sparkle button in the DSH web GUI rewrites your prompt in a struc"
-  },
-  {
    "repo": "xiaoxianasd/dsh-liquid-glass-ui",
    "name": "xiaoxianasd-dsh-liquid-glass-ui",
    "verdict": "ok",
@@ -42955,11 +42920,11 @@
    "desc": "Visual Web manager for local DSH project and global Skills"
   },
   {
-   "repo": "AlexRiver09/huangruiteng-loopx",
-   "name": "huangruiteng-loopx",
+   "repo": "sarfarazstark/dsh-material-file-icons",
+   "name": "sarfarazstark-dsh-material-file-icons",
    "verdict": "ok",
    "stars": 0,
-   "desc": "—"
+   "desc": "Material Icon Theme file & folder icons for the DeepSeek Harness web GUI (dsh-better-sidebar) - 349 authentic"
   },
   {
    "repo": "cestbon0309/dsh-auth",
@@ -49661,6 +49626,13 @@
    "desc": "Password gate for the DeepSeek Harness Web GUI: first-run setup, brute-force lockout, audit log, and a managem"
   },
   {
+   "repo": "liyu1314-lmyc/dsh-archive-browser",
+   "name": "liyu1314-lmyc-dsh-archive-browser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Browse archived DSH sessions and re-invoke them: view the transcript, restore to the sidebar, inject into the"
+  },
+  {
    "repo": "llyyhh0487/dsh-input-polish",
    "name": "llyyhh0487-dsh-input-polish",
    "verdict": "incompatible",
@@ -50235,6 +50207,13 @@
    "desc": "Periodic prompt injection for the DeepSeek Harness Web GUI: every N model invocations (conversation turns and"
   },
   {
+   "repo": "shenkonghui/dsh-worktree-manager",
+   "name": "shenkonghui-dsh-worktree-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "ShineFree7/dsh-daily-log",
    "name": "shinefree7-dsh-daily-log",
    "verdict": "incompatible",
@@ -50739,6 +50718,13 @@
    "desc": "Render settled ```mermaid fences in the dsh Web GUI chat as SVG diagrams — hardened output, source toggle, and"
   },
   {
+   "repo": "xiaoshengliang2002/dsh-prompt-boost-pro",
+   "name": "xiaoshengliang2002-dsh-prompt-boost-pro",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Enhance the composer draft before sending: a sparkle button in the DSH web GUI rewrites your prompt in a struc"
+  },
+  {
    "repo": "xingyingyuzhui/dsh-claw-delegate",
    "name": "dsh-claw-delegate",
    "verdict": "incompatible",
@@ -51187,13 +51173,6 @@
    "desc": "DSH 输入框旁的一键提示词增强：把口语化的一句话改写成目标明确、细节完整的任务说明，可一键撤销；五种改写风格、模型可跟随或固定，含 @引用/命令芯片时自动置灰保护"
   },
   {
-   "repo": "Cinnamobot/dsh-nothing-skin",
-   "name": "cinnamobot-dsh-nothing-skin",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "DuJunxi1993/DSH-Shell",
    "name": "dujunxi1993-dsh-swiftui",
    "verdict": "incompatible",
@@ -51290,13 +51269,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Custom CSS injection for DeepSeek Harness: a Settings section with an on/off toggle and a live CSS textarea"
-  },
-  {
-   "repo": "sarfarazstark/dsh-material-file-icons",
-   "name": "sarfarazstark-dsh-material-file-icons",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Material Icon Theme file & folder icons for the DeepSeek Harness web GUI (dsh-better-sidebar) - 349 authentic"
   },
   {
    "repo": "waspqj/dsh-study-mode",
@@ -51929,6 +51901,13 @@
    "desc": "量子计算最佳实践 Quantum Algorithms Best Practices"
   },
   {
+   "repo": "FeatherHunter/dsh-im-companion",
+   "name": "featherhunter-dsh-im-companion",
+   "verdict": "pending",
+   "stars": 17,
+   "desc": "🤖dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行"
+  },
+  {
    "repo": "PerryLink/dsh-local-ai",
    "name": "perrylink-dsh-local-ai",
    "verdict": "ok",
@@ -52148,13 +52127,6 @@
   {
    "repo": "xx-hub/dsh-craft-your-textbook",
    "name": "xx-hub-dsh-craft-your-textbook",
-   "verdict": "ok",
-   "stars": 11,
-   "desc": "—"
-  },
-  {
-   "repo": "PerryLink/dsh-translate",
-   "name": "perrylink-dsh-translate",
    "verdict": "ok",
    "stars": 11,
    "desc": "—"
@@ -54171,13 +54143,6 @@
   {
    "repo": "zoahdev/dsh-unplug",
    "name": "zoahdev-dsh-unplug",
-   "verdict": "ok",
-   "stars": 3,
-   "desc": "—"
-  },
-  {
-   "repo": "KLRSL/dsh-packer",
-   "name": "klrsl-dsh-packer",
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
@@ -59884,13 +59849,6 @@
    "repo": "zl99103/dsh-answer-sound",
    "name": "zl99103-dsh-answer-sound",
    "verdict": "ok",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
-   "repo": "zlforward/dsh-agnes-media",
-   "name": "zlforward-dsh-agnes-media",
-   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -75106,39 +75064,11 @@
    "desc": "DeepSeek balance and session cost plugin for the dsh web GUI"
   },
   {
-   "repo": "Innocent-children/dev-flow-orchestrator",
-   "name": "innocent-children-dev-flow",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "Liu-ty/dsh-balance-display",
    "name": "dsh-balance-display",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek API balance overlay for DeepSeek Harness"
-  },
-  {
-   "repo": "bon3less/maxwell-feng_dsh-searxng-web",
-   "name": "maxwell-feng-dsh-searxng-web",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "lilCnid/deepseek-rlm",
-   "name": "opencnid-deepseek-rlm",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "lilCnid/recursus",
-   "name": "opencnid-recursus",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "—"
   },
   {
    "repo": "AAAsangyu/dsh-unfocus-reminder",
@@ -75617,13 +75547,6 @@
    "desc": "Connect DeepSeek Harness (dsh) to a local Obsidian vault: search, read, write, move, and trash notes."
   },
   {
-   "repo": "FeatherHunter/dsh-im-companion",
-   "name": "featherhunter-dsh-im-companion",
-   "verdict": "incompatible",
-   "stars": 17,
-   "desc": "🤖dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行"
-  },
-  {
    "repo": "ai-daming/clickvibe",
    "name": "ai-daming-clickvibe",
    "verdict": "incompatible",
@@ -75636,6 +75559,13 @@
    "verdict": "incompatible",
    "stars": 16,
    "desc": "A curated distribution of DeepSeek Harness"
+  },
+  {
+   "repo": "FeatherHunter/dsh-im",
+   "name": "featherhunter-dsh-im",
+   "verdict": "incompatible",
+   "stars": 16,
+   "desc": "—"
   },
   {
    "repo": "hanzhangzzz/dsh-diagram",
@@ -78585,6 +78515,13 @@
    "desc": "DeepSeek Harness biomni plugin"
   },
   {
+   "repo": "zlforward/dsh-agnes-media",
+   "name": "zlforward-dsh-agnes-media",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "zongzack/dsh-jev-router",
    "name": "zongzack-dsh-jev-router",
    "verdict": "incompatible",
@@ -79525,13 +79462,6 @@
   {
    "repo": "fatatalia/dsh-heartbeat",
    "name": "fatatalia-dsh-heartbeat",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "FeatherHunter/dsh-im",
-   "name": "featherhunter-dsh-im",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -88329,13 +88259,6 @@
    "desc": "dsh plugin: Settings > MCP 服务 management page for DeepSeek Harness (DSH)"
   },
   {
-   "repo": "wwwwangpengggg/dsh-api-balance",
-   "name": "wwwwangpengggg-dsh-api-balance",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH 桌面插件：在桌面角落常驻一个置顶小窗，实时显示 DeepSeek API 余额与本次开机消耗的 token"
-  },
-  {
    "repo": "wxyzh/dsh-auth-proxy",
    "name": "wxyzh-dsh-auth-proxy",
    "verdict": "ok",
@@ -90980,6 +90903,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "替换 llm-pi-ai 模型配置，主要处理 dsh-llm-pi-ai 厂商和模型更新不及时的问题"
+  },
+  {
+   "repo": "wwwwangpengggg/dsh-api-balance",
+   "name": "wwwwangpengggg-dsh-api-balance",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 桌面插件：在桌面角落常驻一个置顶小窗，实时显示 DeepSeek API 余额与本次开机消耗的 token"
   },
   {
    "repo": "x102201/dsh-helper-plugin-workspace-browser",
@@ -94419,13 +94349,6 @@
    "desc": "ICPC competitive programming training plugin for DeepSeek Harness — sync, analysis, plans, reviews, templates"
   },
   {
-   "repo": "Traveritas/petween",
-   "name": "traveritas-petween",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "walkinglabs/learn-harness-engineering",
    "name": "walkinglabs-learn-harness-engineering",
    "verdict": "ok",
@@ -96776,13 +96699,6 @@
    "verdict": "untested",
    "stars": null,
    "desc": "技能管理器：自带 6 个基础技能与 20 个中文工程流程技能包（拷问需求、拆票、TDD、双轴代码审查、复盘），按「你遇到的问题」分组展示；模型可在对话里直接读写技能库，升级技能包不会覆盖你改过的文件"
-  },
-  {
-   "repo": "raktim-mondol/dsh-researchcraft",
-   "name": "raktim-mondol-dsh-researchcraft",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "ResearchCraft as a DeepSeek Harness (DSH) profile plugin: research persona, scientific skills catalogue, livin"
   },
   {
    "repo": "volcengine/OpenViking",
@@ -102189,18 +102105,18 @@
    "desc": "Fold DSH session logs into clean chat logs: stream fragments merged, nothing else dropped"
   },
   {
-   "repo": "komoai2026/dsh-zpdf",
-   "name": "komoai2026-dsh-zpdf",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Official ZPDF tools for DeepSeek Harness with durable API-key and settings integration."
-  },
-  {
    "repo": "tallahandsome-ux/dsh-fetch-third-party",
    "name": "tallahandsome-ux-dsh-fetch-third-party",
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Safe third-party web fetch for DSH — delegates page crawling to user-configured services with no direct URL ac"
+  },
+  {
+   "repo": "komoai2026/dsh-zpdf",
+   "name": "komoai2026-dsh-zpdf",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Official ZPDF tools for DeepSeek Harness with durable API-key and settings integration."
   },
   {
    "repo": "0mao0/dsh-inline-figures",
@@ -106662,13 +106578,6 @@
    "desc": "通过飞书机器人应用，使用飞书客户端，实现其他设备控制dsh"
   },
   {
-   "repo": "ptrel1/dsh-postapi-bridge",
-   "name": "ptrel1-dsh-postapi-bridge",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness (DSH) 官方标准双半侧扩展插件：为外部机器人（MaiBot / 飞书 / 微信）及 CI/CD 系统提供开箱即用的轻量 HTTP POST / RESTful 任务调度、会话管理与"
-  },
-  {
    "repo": "qgx1992/dsh-notify",
    "name": "qgx1992-dsh-notify",
    "verdict": "ok",
@@ -108734,6 +108643,13 @@
    "desc": "deepseek harness 使用第三方提供者的api时的缺失message_stop导致的重复重试"
   },
   {
+   "repo": "ddtcorex/dsh-maestro-review",
+   "name": "ddtcorex-dsh-maestro-review",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Maestro Review for the DeepSeek Harness web host: GitLab webhook intake, project mappings with local worktrees"
+  },
+  {
    "repo": "16512354554/dsh-chat-navigator",
    "name": "16512354554-dsh-chat-navigator",
    "verdict": "incompatible",
@@ -109224,6 +109140,13 @@
    "desc": "把聊天框里连发的几条短消息合并成一轮后再唤醒模型（DSH 插件）"
   },
   {
+   "repo": "ptrel1/dsh-postapi-bridge",
+   "name": "ptrel1-dsh-postapi-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) 官方标准双半侧扩展插件：为外部机器人（MaiBot / 飞书 / 微信）及 CI/CD 系统提供开箱即用的轻量 HTTP POST / RESTful 任务调度、会话管理与"
+  },
+  {
    "repo": "qqc0821/dsh-plugin-wallpaper",
    "name": "qqc0821-dsh-plugin-wallpaper",
    "verdict": "incompatible",
@@ -109499,13 +109422,6 @@
   {
    "repo": "zsspub/dsh-lark-bot",
    "name": "zsspub-dsh-lark-bot",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
-   "repo": "Cinnamobot/dsh-disclosure-tweaks",
-   "name": "cinnamobot-dsh-disclosure-tweaks",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -113739,11 +113655,11 @@
    "desc": "Local-first file conversion for DeepSeek Harness — images, PDF, data, audio/video & office docs"
   },
   {
-   "repo": "LeslieWylie/review-workflow",
-   "name": "lesliewylie-review-workflow",
+   "repo": "cxdyun/dsh-skills-marketplace",
+   "name": "cxdyun-dsh-skills-marketplace",
    "verdict": "ok",
    "stars": 3,
-   "desc": "—"
+   "desc": "DeepSeek Harness 版本的类 CodeX 插件市场"
   },
   {
    "repo": "morlay/session-persistence-rdb",
@@ -129083,11 +128999,18 @@
    "desc": "Structured, safety-guarded git tools for \\[DeepSeek Harness\\](https://github.com/deepseek-ai/deepseek-harness) a"
   },
   {
-   "repo": "ddtcorex/dsh-maestro-review",
-   "name": "ddtcorex-dsh-maestro-review",
+   "repo": "ywleeo/dsh-image-preview",
+   "name": "ywleeo-dsh-image-preview",
    "verdict": "incompatible",
    "stars": 1,
-   "desc": "Maestro Review for the DeepSeek Harness web host: GitLab webhook intake, project mappings with local worktrees"
+   "desc": "让 DeepSeek Harness (dsh) 对话正文直接显示本地图片的插件：本地路径自动内联为图片 + 可点击的本地地址行"
+  },
+  {
+   "repo": "ddtcorex/dsh-maestro-memory",
+   "name": "ddtcorex-dsh-maestro-memory",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH plugin for durable cross-session memory and todos: five tracks (global, user, project, key, daily), confir"
   },
   {
    "repo": "masquerator-coder/dsh-im-gateway",
@@ -129095,13 +129018,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Deepseek harness im gateway"
-  },
-  {
-   "repo": "ywleeo/dsh-image-preview",
-   "name": "ywleeo-dsh-image-preview",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "让 DeepSeek Harness (dsh) 对话正文直接显示本地图片的插件：本地路径自动内联为图片 + 可点击的本地地址行"
   },
   {
    "repo": "1183877328-sys/dsh-taskboard-plugin",
@@ -129494,6 +129410,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Annotate pages and ask questions inside the existing DeepSeek Harness Browser."
+  },
+  {
+   "repo": "cuddly-guacamole/dsh-orchestrator-preset",
+   "name": "cuddly-guacamole-dsh-orchestrator-preset",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Thin-shell agent preset for DeepSeek Harness: nine lanes with declared tool boundaries, resident routing secti"
   },
   {
    "repo": "d0ublecl1ck/dsh-search-enhance",
@@ -131846,13 +131769,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
-  },
-  {
-   "repo": "goatliamia/dsh-trajectory-query",
-   "name": "goatliamia-dsh-trajectory-query",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "把 DSH 已保存的会话轨迹重新可达:3 个查询工具 + 1 条纪律的极薄历史查询层(不是 Memory)"
   },
   {
    "repo": "LeslieWylie/dsh-ops-kit",
