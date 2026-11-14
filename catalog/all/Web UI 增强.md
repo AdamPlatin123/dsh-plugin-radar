@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（5057）
+# 🔌 Web UI 增强（5065）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1928,6 +1928,8 @@
 - 🟩 `[可用]` [qe2592008-dsh-ui-customizer](https://github.com/qe2592008/dsh-ui-customizer) ★1 — DSH界面定制插件，暂时支持背景图片的自定义操作和主题定制操作，可以随便添加背景图片，并支持保存10个历史图片，主题可以保存无限个
 - 🟩 `[可用]` [qfwycn-dsh-media-serve](https://github.com/qfwycn/dsh-media-serve) ★1 — 用于在deepseek harness上直接暴露工作区的文件，使大肥鱼能够直接显示他想给你显示的图片等信息，解决了大肥鱼老是说自己显示不了图片，要你去看本地文件的问题
 - ⬜ `[待定]` [qi-seven33-dsh-jev-mode](https://github.com/QI-seven33/dsh-jev-mode) ★1 — Optional JEV decision mode for DeepSeek Harness Desktop: deterministic reads, bounded semantic selection, nati
+- 🟩 `[可用]` [qianhuang0721-dsh-model-balance-panel](https://github.com/qianhuang0721/dsh-model-balance-panel) ★1 — Sidebar panel for DeepSeek Harness: account balance and 5-hour / weekly / monthly quotas for every configured
+- ⬜ `[待定]` [qifanai-dsh-startup-elisa](https://github.com/QIFANAI/dsh-startup-elisa) ★1 — DeepSeek Harness 冷启动动画 + 毛玻璃皮肤插件（ELISA · FLOW 0.6.0）：黑幕开幕 / HUD 冷启动 / 交接转场 / 程序化音轨 / 四档皮肤；公开仓库不含第三方人物素材，缺失时按降级
 - 🟩 `[可用]` [qinghui316-dsh-memory](https://github.com/qinghui316/dsh-memory) ★1 — Local single-user long-term memory plugin for DeepSeek Harness
 - 🟩 `[可用]` [qingshanyuluo-dsh-mobile-ux](https://github.com/qingshanyuluo/dsh-mobile-ux) ★1 — DeepSeek Harness mobile: CSS-only UI plugin, password-protected Cloudflare tunnel and a tiny Android WebView a
 - 🟩 `[可用]` [qinpanwan-dsh-doc-quick](https://github.com/QinpanWan/dsh-doc-quick) ★1 — Drag documents into the dsh web chat for direct local-file processing; a right sidebar lists outputs and file paths. 拖拽文档进 Web 对话框快速处理，右侧侧栏展示产出。
@@ -3315,8 +3317,12 @@
 - 🟩 `[可用]` [professorkun-deepseek-harness-desktop](https://github.com/professorkun/deepseek-harness-desktop) ★0 — 把 DeepSeek Harness (dsh) 的 Web 界面打包成 Windows 桌面应用:双击即用,自动启动内置服务,免命令行、免浏览器
 - 🟩 `[可用]` [programmerasahi-dsh-client-ui-tweaks](https://github.com/ProgrammerAsahi/dsh-client-ui-tweaks) ★0 — DSH Desktop UI plugin: edit-and-resend with fork branches, sidebar branch-family grouping, unified titles, and
 - 🟩 `[可用]` [proton1917-dsh-harness-plugin](https://github.com/Proton1917/dsh-harness-plugin) ★0 — Independent TypeScript plugins for DeepSeek Harness: live stats, Web UI customization, and a medical Fable mod
+- 🟩 `[可用]` [ptb-xiaou-dsh-api3d](https://github.com/ptb-xiaou/dsh-api3d) ★0 — 把 api3d 中转站接入 DSH 的插件：站点/模型目录/API Key 配置 + 对话与其客户端 UI
 - 🟩 `[可用]` [pure-serendipity-five-dsh-liquid-glass](https://github.com/pure-serendipity-five/dsh-liquid-glass-studio) ★0 — DSH 液态玻璃主题 + 壁纸库：全透明分层玻璃、可拖动自制控件、自适应设置面板（Liquid glass theme + wallpaper gallery for DeepSeek Harness）
 - 🟩 `[可用]` [pureexe-dsh-mobile-topbar](https://github.com/pureexe/dsh-mobile-topbar) ★0 — DeepSeek Harness plugin: turns the sidebar into a compact top bar on mobile screens to save space
+- 🟩 `[可用]` [puthead-dsh-net-inspector](https://github.com/puthead/dsh-net-inspector) ★0 — DevTools-style network panel for DeepSeek Harness: captures Host fetch, the Web page, the sidebar webview and
+- 🟩 `[可用]` [puyokura-dsh-1tempo](https://github.com/puyokura/dsh-1tempo) ★0 — DSH plugin: convert a request into MiL with Sarashina, review it, then hand it to the model dsh is running (TU
+- 🟩 `[可用]` [qdnbd-dsh-panel-pins](https://github.com/QDNBD/dsh-panel-pins) ★0 — Sidebar panel management for DeepSeek Harness: grouped panels launcher, persistent pin/unpin, compact footer,
 - 🟩 `[可用]` [qgx1992-dsh-model-select-style](https://github.com/qgx1992/dsh-model-select-style) ★0 — DSH web 插件：把输入框模型选择控件替换为两个独立按钮（供应商 + 模型两级联动，支持推理等级调节）
 - 🟩 `[可用]` [qgynisc-dsh-inline-pastes](https://github.com/qgynisc/dsh-inline-pastes) ★0 — DeepSeek Harness Web GUI 插件：粘贴图片即在文字中插入 image-1.png 内联胶囊，悬浮名字预览缩略图，自动编号（文字中插图 / hover 预览）
 - 🟩 `[可用]` [qianrushixiaobai-dsh-agentmonitor](https://github.com/Qianrushixiaobai/dsh-agentmonitor) ★0 — AgentMonitor multi-agent monitoring panel for DeepSeek Harness — sidebar entry serving a self-contained /agent
@@ -3325,6 +3331,7 @@
 - 🟩 `[可用]` [qin839-dsh-visual-system](https://github.com/qin839/dsh-visual-system) ★0 — Wallpaper-driven visual system for the DeepSeek Harness Web GUI — one preset.json swaps the whole colour syste
 - 🟩 `[可用]` [qingchunnh-dsh-desktop](https://github.com/qingchunnh/dsh-desktop) ★0 — DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI
 - `[空仓监测]` **qingli-sketch-dsh-ui-kit** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [qingxingli-dsh-deepseek-webchat](https://github.com/qingxingLi/dsh-deepseek-webchat) ★0 — DeepSeek 网页版面板 + deepseek_web_ask 工具/技能，用于 DeepSeek Harness 桌面端
 - 🟩 `[可用]` [qiqiangvae-dsh-input-enhancer](https://github.com/qiqiangvae/dsh-input-enhancer) ★0 — —
 - 🟩 `[可用]` [qiuchunhuimax-dsh-plugin](https://github.com/qiuchunhuimax/dsh-plugin) ★0 — Local PaddleOCR tool and /ocr command for DeepSeek Harness
 - 🟩 `[可用]` [qlsf-dsh-plugin-manager](https://github.com/qlsf/dsh-plugin-manager) ★0 — DSH Web GUI 插件管理面板：状态页签、中文简述、自定义分组与拖拽、框选批量操作、右键菜单、三种界面风格、启用禁用热生效、导出导入
@@ -4475,6 +4482,7 @@
 - 🟨 `[不兼容]` [popingalex-dsh-reference-render](https://github.com/popingalex/dsh-reference-render) ★1 — 域中立的结构化引用渲染：行内 chip、悬浮预览、打开官方右侧栏
 - 🟨 `[不兼容]` [powerrrrrrrr-dsh-live-loop](https://github.com/POWERRRRRRRR/dsh-live-loop) ★1 — DeepSeek Harness frontend runtime verification plugin — detect, run, preview, interact, visually compare, and
 - 🟨 `[不兼容]` [princefrogdida-ux-dsh-vision-suite](https://github.com/princefrogdida-ux/dsh-vision-suite) ★1 — Windows-first vision suite with image understanding, OCR, screenshot diffing, and multi-provider routing for DeepSeek Harness.
+- 🟨 `[不兼容]` [proglop-dsh-skin-silver-wolf-topic](https://github.com/proglop/dsh-skin-silver-wolf-topic) ★1 — This is a Silver Wolf-themed skin for the DeepSeek Harness.这是一个以银狼为主题的DeepSeek Harness皮肤
 - 🟨 `[不兼容]` [qgx1992-dsh-ui-tools](https://github.com/qgx1992/dsh-ui-tools) ★1 — DSH web 插件：模型选择双按钮（供应商+模型两级联动，含推理等级调节）+ 侧边栏工作区折叠/展开
 - 🟨 `[不兼容]` [qigelunbiya-dsh-ssh-files-sidebar](https://github.com/qigelunbiya/dsh-ssh-files-sidebar) ★1 — Remote SSH workspace & deployment Agent for DeepSeek Harness — SSH Files, terminal, remote editing, zero-to-on
 - 🟨 `[不兼容]` [qinluza-dsh-rollback-visual](https://github.com/QinLuza/dsh-rollback-visual) ★1 — Visual plugin for dsh /rollback: trajectory anchor badges with click-to-rollback. Data layer ready; native-node rendering planned.
