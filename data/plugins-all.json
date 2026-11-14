@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-14T03:01:05Z",
+ "generated_at": "2026-11-14T03:47:48Z",
  "plugins": [
   {
    "repo": "esengine/DeepSeek-Reasonix",
@@ -20280,6 +20280,13 @@
    "verdict": "ok",
    "stars": 44,
    "desc": "Plugin family for the DeepSeek Harness (DSH) Web GUI: a pnpm monorepo with a plugin template, dev kit, and one"
+  },
+  {
+   "repo": "PerryLink/dsh-plugin-guide",
+   "name": "perrylink-dsh-plugin-guide",
+   "verdict": "pending",
+   "stars": 44,
+   "desc": "A practical guide to DSH plugin quality: ENTRY checks, FLOW journeys, and BOOST practices"
   },
   {
    "repo": "Yts1919/dsh-vision-complete",
@@ -43436,13 +43443,6 @@
    "verdict": "incompatible",
    "stars": 48,
    "desc": "把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 \\| Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to"
-  },
-  {
-   "repo": "PerryLink/dsh-plugin-guide",
-   "name": "perrylink-dsh-plugin-guide",
-   "verdict": "incompatible",
-   "stars": 44,
-   "desc": "A practical guide to DSH plugin quality: ENTRY checks, FLOW journeys, and BOOST practices"
   },
   {
    "repo": "SuperWheel/dsh-cliworker-now",
