@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3263）
+# 🤖 Agent 能力（3271）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -909,6 +909,8 @@
 - ⬜ `[待定]` [gorban-dsh-job-stop](https://github.com/gorban/dsh-job-stop) ★1 — DeepSeek Harness (dsh) plugin: stop a running background job from the session-header job list, behind a confir
 - 🟩 `[可用]` [gtbwpkwjnb-alt-skills-summarize-audit-skill](https://github.com/gtbwpkwjnb-alt/skills-summarize-audit-skill) ★1 — Skills Audit — 技能审查·画像·评分·优化 / Universal agent tool auditor — profile, score, optimize
 - 🟩 `[可用]` [gtbwpkwjnb-alt-summarize-skill](https://github.com/gtbwpkwjnb-alt/summarize-skill) ★1 — 会话级全维总结 — 项目·进度·建议·错误，一个命令全清 \| Session-level summary for project/progress/suggestion/error
+- 🟩 `[可用]` [guofug-dsh-fastswitch](https://github.com/guofug/dsh-fastswitch) ★1 — Faster session switching for DeepSeek Harness: smaller first-paint window plus request de-duplication on the c
+- ⬜ `[待定]` [gx18391303625-afk-dsh-douyin-ip-report](https://github.com/gx18391303625-afk/dsh-douyin-ip-report) ★1 — 抖音专利/商标侵权举报技能包：资料预检、专用浏览器执行、历史回执查询（DeepSeek Harness skill plugin）
 - 🟩 `[可用]` [hanice404-dsh-session-state](https://github.com/Hanice404/dsh-Session-State) ★1 — 回答过程中折叠思考过程，直接输出回答内容
 - 🟩 `[可用]` [hanihahaha-dsh-copy-session-id](https://github.com/Hanihahaha/dsh-copy-session-id) ★1 — —
 - 🟩 `[可用]` [hardes11-dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) ★1 — Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks ranges, a cheap
@@ -1502,11 +1504,15 @@
 - ⬜ `[待定]` [grgchain-deepseek-harness-cloud](https://github.com/GrgChain/deepseek-harness-cloud) ★0 — A self-hosted platform for DeepSeek Harness, with browser-based AI agent workspaces, model management, skills,
 - 🟩 `[可用]` [guazixiong-dsh-coding-mode-preset](https://github.com/guazixiong/dsh-coding-mode-preset) ★0 — 为本地 DeepSeek Harness（`@deepseek-ai/dsh`）追加一个**编码模式** Agent Preset：门禁式工程交付流水线，包含三条独立流程——**需求开发**、**Bug 修复**、**功
 - 🟩 `[可用]` [guhanfei-ai-dsh-human-intent](https://github.com/guhanfei-ai/dsh-human-intent) ★0 — Cryptographically bind human authorization to the exact action an AI agent is about to execute.
+- ⬜ `[待定]` [gunjanpatel359-dsh-tool-index](https://github.com/GunjanPatel359/dsh-tool-index) ★0 — Cut MCP token cost in DSH (DeepSeek Harness): send tool definitions as a compact index and load full schemas o
 - 🟩 `[可用]` [guobinmengxiang-rgb-dsh-memory-canvas](https://github.com/guobinmengxiang-rgb/dsh-memory-canvas) ★0 — DSH plugin: offload bulky tool logs to refs/*.md, keep a Mermaid canvas, recall by node_id
 - 🟩 `[可用]` [gurio-wine-dsh-fold-it-up](https://github.com/gurio-wine/dsh-fold-it-up) ★0 — DeepSeek Harness Web 插件：强制折叠每一轮的工作过程，答案照常显示，历史轮次与上下文注入行一并折叠
 - 🟩 `[可用]` [guzhou079-arch-dsh-plugin-android-vscreen](https://github.com/guzhou079-arch/dsh-plugin-android-vscreen) ★0 — DeepSeek Harness plugin — let an agent drive an Android phone on a virtual display, so your own screen stays u
 - 🟩 `[可用]` [gy-bai-dsh-anchored-subagent](https://github.com/GY-Bai/dsh-anchored-subagent) ★0 — DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalo
+- 🟩 `[可用]` [h2298511604-ops-dsh-anatomy](https://github.com/h2298511604-ops/dsh-anatomy) ★0 — Live layered architecture map of the DeepSeek Harness: plugins, services, tools, sessions, models and MCP rend
+- ⬜ `[待定]` [haitang-hub-dsh-3d-director-desk](https://github.com/Haitang-Hub/dsh-3d-director-desk) ★0 — 3D 导演台 —— DSH 桌面端插件，把 3D 场景编排（摆角色、设镜头、时间轴预演、导出视频）暴露为 MCP 工具，供 AI Agent 直接调用，本地数据落盘、开箱即用
 - 🟩 `[可用]` [hajimimaodie8-dsh-session-sync](https://github.com/hajimimaodie8/DSH-Session-Sync) ★0 — —
+- ⬜ `[待定]` [han0han0le0ni-dsh-daughter](https://github.com/han0han0le0ni/dsh-daughter) ★0 — 给 DeepSeek Harness 的长期人格与记忆插件：人格分层、性格演化、长期记忆、技能反射与安全降级
 - 🟩 `[可用]` [hanihahaha-dsh-auto-approve](https://github.com/Hanihahaha/dsh-auto-approve) ★0 — —
 - 🟩 `[可用]` [hanihahaha-dsh-skill-mcp-manager](https://github.com/Hanihahaha/dsh-skill-mcp-manager) ★0 — —
 - 🟩 `[可用]` [haoku123-dsh-budget-guard](https://github.com/haoku123/dsh-budget-guard) ★0 — DeepSeek Harness plugin: LLM cost metering with budget enforcement (deny/warn) and peak-valley pricing
@@ -2491,6 +2497,7 @@
 - 🟨 `[不兼容]` [drscrewdriver-dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) ★3 — —
 - 🟨 `[不兼容]` [fashionmascherine-svg-dsh-polymarket-knowhow](https://github.com/fashionmascherine-svg/dsh-polymarket-knowhow) ★3 — DeepSeek Harness plugin (dsh-plugin): complete Polymarket superpowers — 31 verified tools across Gamma/CLOB/Da
 - 🟨 `[不兼容]` [goodddgrades-dsh-behuman](https://github.com/goodddGrades/dsh-behuman) ★3 — Long-term memory and self-evolving skills for the DeepSeek Harness · DeepSeek Harness 的长期记忆与自我演进能力 —— Plain Ma
+- 🟨 `[不兼容]` [han-1413141-dsh-jev-thinkout](https://github.com/Han-1413141/dsh-jev-thinkout) ★3 — JeV 思维链外显：将 DeepSeek 长思考中的任务规划、执行进度与阶段小结呈现为聊天正文，支持 DSH 原生翻译、轻量摘要和父子任务流程图，保持主模型上下文不变
 - 🟨 `[不兼容]` [he0119-dsh-session-manager](https://github.com/he0119/dsh-session-manager) ★3 — 迁移工作区与会话到新目录，导出 / 导入 .dshsess 会话包，用 WebDAV 在多台机器之间同步
 - 🟨 `[不兼容]` [interpss-project-ipss-agent](https://github.com/InterPSS-Project/ipss-agent) ★3 — InterPSS Agentic Power System Simulation Agent for AC load flow, contingency analysis, and NERC TPL style repo
 - 🟨 `[不兼容]` [kanonouta-dsh-captain](https://github.com/KanoNoUta/dsh-captain) ★3 — Captain plugin for DeepSeek Harness: GPT planning, DeepSeek workers, independent review, adaptive multi-agent
@@ -2978,6 +2985,7 @@
 - 🟨 `[不兼容]` [goodandready-dsh-smart-restart](https://github.com/GooDAnDReaDY/dsh-smart-restart) ★0 — Verified restart for DeepSeek Harness with recovery confirmation and session handoff
 - 🟨 `[不兼容]` [goshawkgggg-dsh-safe-tool](https://github.com/GoshawkGGGG/dsh-safe-tool) ★0 — DeepSeek Harness 的 AI 工具审批插件，使用AI审核AGENT调用工具的合规性并决定是否执行，审核标准可定制
 - 🟨 `[不兼容]` [guanzhw-agentsession](https://github.com/Guanzhw/AgentSession) ★0 — —
+- 🟨 `[不兼容]` [guo120629-dotcom-dsh-send-timestamp](https://github.com/guo120629-dotcom/dsh-send-timestamp) ★0 — Per-conversation timestamp toggle for the dsh Web composer: each submitted message is followed by a hidden con
 - 🟨 `[不兼容]` [guytogay-dsh-addon-kit](https://github.com/guytogay/dsh-addon-kit) ★0 — DSH addon kit: reusable MCP servers (desktop/browsers), A2A agent bridge, skill, plugins and mobile-remote kit
 - 🟨 `[不兼容]` [hakunm-dsh-approve-for-me](https://github.com/Hakunm/dsh-approve-for-me) ★0 — —
 - 🟨 `[不兼容]` [hanfengcan-dsh-viewer-kit](https://github.com/hanfengcan/dsh-viewer-kit) ★0 — 一个增强deepseek harness会话内容显示效果的插件
