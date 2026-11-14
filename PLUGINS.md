@@ -227,6 +227,8 @@
 | dsh-plugin-upgrader | [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) | 插件页「版本」标签：换版本走原位替换（只临时摘掉 manifest 里的那条依赖再装回，bundle 全程不卸载、启用状态不用恢复），升级时显示阶段、pnpm 原始日志、已用时并可取消，列出全部已发布版本并一键回滚，每个版本号都指向真实 release 页，镜像落后上游时标出缺口，安装源可选且写进 profile；五条 HTTP 路由仅接受回环访问 | 待测 |
 | memory-lattice | [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | 会遗忘的记忆插件：短期记忆 48h 自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准；运行时零第三方依赖；npm `memory-lattice`@0.2.10 | 待测 |
 | @youdotcom-oss/dsh-plugin | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) | You.com 联网：把 DSH 原生 web_search 接到 You.com（无 key 时走免费匿名搜索），注册 web_fetch 提供方，并挂载 You.com 研究/金融/发现/docs 四个 MCP 服务器；monorepo，插件在 `packages/dsh-plugin` | 待测 |
+| dsh-connect-agentscope-platform | [summerscar/dsh-plugins](https://github.com/summerscar/dsh-plugins/tree/main/plugins/dsh-connect-agentscope-platform) | 把 AgentScope Platform 接入 DSH：可自行开关的 OpenAI 兼容模型供应商，模型目录可自动获取、手动添加并逐行修改元数据；平台账号池支持手动切换计费账号、按剩余 Credits 自动选号、测活与健康标记，切换只影响新请求、不打断进行中的会话；输入框下方显示可用 Credits 与可兑换贡献值，设置面板含每日签到、额度、贡献值、用量明细与价目表；HTTP 接口在宿主认证不可用时 fail-closed 拒绝；npm `@summerscar/dsh-connect-agentscope-platform` 0.1.4，带 SLSA provenance，声明 dsh.bundle.patch | 待测 |
+| dsh-mnemon-sync | [summerscar/dsh-plugins](https://github.com/summerscar/dsh-plugins/tree/main/plugins/dsh-mnemon-sync) | 把 dsh-mnemon 的记忆与技能备份到 S3 兼容存储或 WebDAV：记忆空间、项目档案、运行时记忆、用户级技能文件四类可任选，支持定时备份与选择性恢复；SQLite 库经 node:sqlite backup() 在线复制，写入方同时写也不会撕开副本；每个文件带 SHA-256，上传前与恢复前各校验一次；恢复默认只做预览，写回数据库前先清理残留的 -wal/-shm；备份名带设备名与时间戳，多机备份可分辨来源；npm `@summerscar/dsh-mnemon-sync` 0.1.16，声明 dsh.bundle.patch | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
