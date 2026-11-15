@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6462）
+# 🔌 Web UI 增强（6466）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1204,6 +1204,7 @@
 - 🟩 `[可用]` [final-lx-dsh-ui-customizer](https://github.com/Final-LX/dsh-ui-customizer) ★2 — DeepSeek Harness自定义主题插件
 - 🟩 `[可用]` [firetruck666-dsh-task-board](https://github.com/FiretrUCK666/dsh-task-board) ★2 — DSH Web GUI 的任务看板插件：侧边栏入口 + 五列看板，任务经 DSH 会话真实执行，host 端持久化并跨设备实时同步
 - 🟩 `[可用]` [five0016-dsh-bubble-fold](https://github.com/FiVE0016/dsh-fold-polish) ★2 — DSH 插件（显示名：UI 美化）：消息与工作步骤自动折叠、输入框与右侧栏可调、折叠内容可搜索｜Display polish for DeepSeek Harness: fold long messages and wo
+- 🟩 `[可用]` [flyxiu-dsh-simple-tps](https://github.com/flyxiu/dsh-simple-tps) ★2 — DSH web GUI plugin: per-turn TTFT/TPS readout in the chat action row
 - 🟩 `[可用]` [dsh-voice-input](https://github.com/forrestahha/dsh-voice-input) ★2 — Voice-to-text input plugin for the DeepSeek Harness Web UI
 - 🟩 `[可用]` [fox4096-dsh-custom-css](https://github.com/FOX4096/dsh-custom-css) ★2 — DSH Web GUI 扩展：在 设置 → 通用 → 外观 下方增加一行自定义 CSS 编辑器（DevTools 风格编辑体验：补全 / 校验 / 规则面板）
 - 🟩 `[可用]` [frankzhan-git-dsh-wf](https://github.com/frankzhan-git/dsh-wf) ★2 — DeepSeek Harness 界面草图插件：画草图自动转 JSONL 语义，嵌入会话输入框随需求发给 agent
@@ -1920,6 +1921,7 @@
 - 🟩 `[可用]` [flyer103-dsh-side-chat](https://github.com/flyer103/dsh-side-chat) ★1 — Side chat for the DeepSeek Harness Web GUI: fork the current session into an ephemeral conversation that can r
 - 🟩 `[可用]` [flykit-cc-dsh-claude-live](https://github.com/flykit-cc/dsh-claude-live) ★1 — Run Claude Code as a subagent inside DeepSeek Harness with its steps streaming live into the session UI
 - 🟩 `[可用]` [focksor-dsh-plugin-mini-dashboard](https://github.com/focksor/dsh-plugin-mini-dashboard) ★1 — A session & token mini dashboard for DSH web
+- 🟩 `[可用]` [fomalhaut1998-dsh-image-hunt](https://github.com/fomalhaut1998/dsh-image-hunt) ★1 — Multi-source image search & download for DeepSeek Harness: 19 engines (Baidu/Bing/360/Duitang/Huaban/DuckDuckG
 - 🟩 `[可用]` [fonlan-dsh-task-kanban](https://github.com/fonlan/dsh-task-kanban) ★1 — DSH web plugin: a task kanban that refines requirements into phased plans, auto-executes them in git worktrees
 - 🟩 `[可用]` [fqsklm-dsh-balance-chart](https://github.com/fqsklm/dsh-balance-chart) ★1 — DSH (DeepSeek Harness) Web GUI 插件：把 DeepSeek 账户余额、当日消费和峰谷时段计价画在会话标题栏上的双层图表
 - 🟩 `[可用]` [frank-fan-818-dsh-f1-skin](https://github.com/frank-fan-818/dsh-f1-skin) ★1 — An F1 Race Control themed skin for the DeepSeek Harness Web UI — Red Bull, Ferrari, McLaren & Mercedes team th
@@ -3488,6 +3490,7 @@
 - 🟩 `[可用]` [foxi-ui-dsh-command-vscode](https://github.com/foxi-ui/dsh-command-vscode) ★0 — Deepseek Harness 插件-工作区快速打开编辑器vscode、idea等
 - 🟩 `[可用]` [fransice-dsh-mchose-battery](https://github.com/Fransice/dsh-mchose-battery) ★0 — DSH 插件：在侧边栏用 WebHID 实时显示迈从（Mchose）鼠标电量与连接模式（2.4G/USB）
 - 🟩 `[可用]` [franzli347-dsh-workspace-colors](https://github.com/FranzLi347/dsh-workspace-colors) ★0 — Workspace color labels for DeepSeek Harness: six colors, browser-local persistence, Chinese/English UI.
+- ⬜ `[待定]` [fredgeoo-creative-matrix](https://github.com/fredgeoO/creative-matrix) ★0 — 格致矩阵：任意两维交叉、逐格穷推的 DSH 推演面板插件
 - 🟩 `[可用]` [frogflaying-dsh-onshelf](https://github.com/FrogFlaying/dsh-onshelf) ★0 — 上架台：扫描本地 DSH 插件、按 awesome-dsh-plugin 规则体检、生成投稿 YAML 与截图清单，并在确认后创建 fork、提交分支、开 PR
 - ⬜ `[待定]` [frontiermindlab-dsh-quick-compact](https://github.com/FrontierMindLab/dsh-quick-compact) ★0 — DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）
 - 🟩 `[可用]` [frost-ra9-dsh-theme-everforest](https://github.com/Frost-rA9/dsh-theme-everforest) ★0 — Six complete Everforest palettes (hard/medium/soft × dark/light) for the DeepSeek Harness Web UI
@@ -5571,6 +5574,7 @@
 - 🟨 `[不兼容]` [fomogoman-dsh-serena-guide](https://github.com/FomoGoMan/dsh-serena-guide) ★1 — A DeepSeek Harness plugin that steers agents to Serena's LSP symbolic tools over built-in code tools.
 - 🟨 `[不兼容]` [frankxxxxue-dsh-photo-skins](https://github.com/frankxxxxue/dsh-photo-skins) ★1 — A DeepSeek Harness plugin that turns your photos into Web GUI skins — auto-extracted accent colors, all files
 - 🟨 `[不兼容]` [fsrmqi-dsh-promptkit](https://github.com/fsrmqi/dsh-promptkit) ★1 — Prompt building & enhancement toolkit for DeepSeek Harness: Studio + QuickEnhancer
+- 🟨 `[不兼容]` [fuguang12123-dsh-theme-inkstone](https://github.com/fuguang12123/dsh-theme-inkstone) ★1 — 墨白 / Inkstone — an independent monochrome DSH community theme inspired by Minimal E-ink.
 - 🟨 `[不兼容]` [fugui6688661-glom-continuity](https://github.com/fugui6688661/glom-continuity) ★1 — Recaloom (formerly glom-continuity): local project checkpoints and reviewable handoffs for AI assistants
 - 🟨 `[不兼容]` [fyzb2020-dsh-voice-doubao](https://github.com/FYZB2020/dsh-voice-doubao) ★1 — Cloud speech recognizers for the DeepSeek Harness voice-input picker (Volcengine Doubao), with an optional LLM
 - 🟨 `[不兼容]` [g1en-114-dsh-failbook](https://github.com/G1en-114/dsh-failbook) ★1 — 失败账本：DeepSeek Harness 工具失败自动记录·签名聚类·跨会话持久化 + 失败感知重试拦截，让 Agent 越用越少犯错，含 Web UI 面板

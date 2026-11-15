@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3995）
+# 🤖 Agent 能力（3997）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -491,6 +491,7 @@
 - 🟩 `[可用]` [egnmosk-dsh-browser-bridge](https://github.com/egnmosk/dsh-browser-bridge) ★3 — DeepSeek Harness plugin + browser extension bridge: browser_* agent tools (navigate, click, type, screenshot,
 - 🟩 `[可用]` [enc-hanted-dsh-pulse](https://github.com/Enc-hanted/dsh-pulse) ★3 — Cross-session usage & cost observatory for the DeepSeek Harness web profile — trend/heatmap dashboards, per-mo
 - ⬜ `[待定]` [fisfzy-dsh-cae-agent](https://github.com/Fisfzy/dsh-cae-agent) ★3 — 让 DeepSeek Harness (DSH) 通过原生工具直接操控本机 Abaqus/CAE 的 Cordis 插件
+- 🟩 `[可用]` [fotor-ai-fotor-agent-plugins](https://github.com/fotor-ai/fotor-agent-plugins) ★3 — Fotor Plugin for Agents
 - 🟩 `[可用]` [gaq152-dsh-credits](https://github.com/Gaq152/dsh-credits) ★3 — DeepSeek Harness额度插件：跟随当前供应商显示余额或订阅用量，支持本会话估算、跨会话累计消耗与可视化设置
 - 🟩 `[可用]` [gongyuancaiji-dsh-chinese-thinking](https://github.com/GongYuanCaiJi/dsh-chinese-thinking) ★3 — DeepSeek Harness 插件：让 agent 默认用中文思考与回复（移植自 superpowers-zh）
 - 🟩 `[可用]` [gongyuancaiji-dsh-understand-anything](https://github.com/GongYuanCaiJi/dsh-understand-anything) ★3 — 理解任何东西技能包（移植自 Understand-Anything）
@@ -1824,6 +1825,7 @@
 - `[空仓监测]` **floatinglifetl-dsh-plugin-session-manager-cus** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [flowfire-dsh-plugin-agent-groups](https://github.com/flowfire/dsh-plugin-agent-groups) ★0 — A DSH (DeepSeek Harness) plugin that pulls multiple live sessions into one collaboration group and relays thei
 - 🟩 `[可用]` [flowleap-ai-flowleap-methods](https://github.com/flowleap-ai/flowleap-methods) ★0 — Patent work methods (skills) for FlowLeap Patent AI agents
+- 🟩 `[可用]` [flyhai-dsh-auto-approval-frame](https://github.com/flyhai/dsh-auto-approval-frame) ★0 — Interception and audit frame for DeepSeek Harness: one approval ladder, hash-chained audit, result redaction.
 - 🟩 `[可用]` [fnnas-labs-fnos-cli-skill](https://github.com/fnnas-labs/fnos-cli-skill) ★0 — —
 - ⬜ `[待定]` [forcemind-dsh-atelier](https://github.com/ForceMind/dsh-atelier) ★0 — Local-first DeepSeek Harness workbench: compact usage and cost metrics, prompt library, activity text, and opt
 - 🟩 `[可用]` [foyonaczy-dsh-kit](https://github.com/FoyonaCZY/dsh-kit) ★0 — DeepSeek Harness plugins for the failures nobody catches: auto-format, generated-file guard, .env drift detect
