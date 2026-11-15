@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3883）
+# 🤖 Agent 能力（3894）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -478,6 +478,7 @@
 - 🟩 `[可用]` [cottins-vanilla-dsh-session-usage](https://github.com/Cottins-Vanilla/dsh-session-usage) ★3 — Session usage dashboard for DeepSeek Harness: price, tokens, per-turn curves, and per-answer cost badges.
 - 🟩 `[可用]` [cresbigb-dsh-oracle-gate](https://github.com/CresBigB/dsh-oracle-gate) ★3 — Freeze the acceptance criteria first, then honor only execution receipts
 - ⬜ `[待定]` [cspyz-dsh-terse-mode](https://github.com/cspyz/dsh-terse-mode) ★3 — Four terse levels plus independent reasoning-effort, web-search and subagent switches, on the conversation hea
+- ⬜ `[待定]` [daimingxing-dsh-session-recycle](https://github.com/daimingxing/dsh-session-recycle) ★3 — Session trash for DeepSeek Harness: move sessions into a recycle bin with view/restore/permanent-delete · DSH
 - ⬜ `[待定]` [dasooul03-dsh-plugin-deepseek-pricing](https://github.com/Dasooul03/dsh-plugin-deepseek-pricing) ★3 — DSH Price Monitor（价格监控）· DeepSeek 实时定价、峰谷自动切换与会话费用监控的 dsh 插件
 - 🟩 `[可用]` [dnalec-dsh-auto-approve](https://github.com/DNAlec/dsh-auto-approve) ★3 — DeepSeek Harness 自动审批插件：关键词 + 审核模型审核表
 - ⬜ `[待定]` [dsh-capability-receipt](https://github.com/dongsheng123132/dsh-capability-receipt) ★3 — Content-addressed receipts for skills actually loaded by DeepSeek Harness
@@ -957,6 +958,7 @@
 - ⬜ `[待定]` [darker2016-dsh-feedetail](https://github.com/darker2016/dsh-feedetail) ★1 — DeepSeek Harness 客户端插件：会话统计行内联显示 DeepSeek API 费用明细（按模型 × 高峰/空闲 × 输入缓存命中/未命中/输出）
 - 🟩 `[可用]` [dddmuc-dsh-rerun-turn](https://github.com/DDDMUC/dsh-rerun-turn) ★1 — Infix rerun for DeepSeek Harness: re-run any earlier turn in place - the reply is regenerated from the same pr
 - 🟩 `[可用]` [dddpg-dsh-plugins](https://github.com/DDDPG/dsh-plugins) ★1 — personal developed deepseek-harness plugins: Workspace Memory--Cross-session Call--CLI Cmd--Key-Comb Sheet--Ta
+- 🟩 `[可用]` [ddl095-dsh-moa-native](https://github.com/DDL095/dsh-moa-native) ★1 — Many models draft, one executes for DeepSeek Harness.
 - ⬜ `[待定]` [delaynoomore-dsh-plugin-session-trash](https://github.com/DelayNooMore/dsh-plugin-session-trash) ★1 — DSH (DeepSeek Harness) 会话回收站插件：移入回收站、恢复、永久删除，设置页管理
 - 🟩 `[可用]` [dev-wiki-dev-harness-runtime](https://github.com/Dev-Wiki/dev-harness-runtime) ★1 — dev-harness skill runtime
 - 🟩 `[可用]` [devilzyl-dsh-enhance-prompt](https://github.com/devilzyl/dsh-enhance-prompt) ★1 — Composer plugin for DeepSeek Harness that rewrites your chat draft into a clearer, more specific prompt with y
@@ -1673,14 +1675,22 @@
 - 🟩 `[可用]` [d3vmeh-dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) ★0 — DeepSeek Harness plugin: keep a local model's context at a size your GPU handles well (measured prefill speed,
 - 🟩 `[可用]` [da-beda-dsh-lockstep](https://github.com/da-beda/dsh-lockstep) ★0 — Pin-aware updater for DeepSeek Harness
 - 🟩 `[可用]` [daha1216-dsh-watcher](https://github.com/daha1216/dsh-watcher) ★0 — DeepSeek Harness 只读观测插件：把会话折成可折叠的工作路径，统计模型耗时与估算费用
+- ⬜ `[待定]` [daiyonglin-dsh-memory-console](https://github.com/daiyonglin/dsh-memory-console) ★0 — Memory Console: 按任务阶段查看、收起、移出并恢复 DeepSeek Harness 的模型上下文
 - ⬜ `[待定]` [danreelkow-hdcs](https://github.com/Danreelkow/HDCS) ★0 — LLM loop that reasons in a dense technical register — mechanical gates + adversarial judge + reverse-translati
 - 🟩 `[可用]` [danzai233-dsh-webask](https://github.com/DanZai233/dsh-webask) ★0 — Send one-liner questions to DeepSeek's web chat instead of burning your DSH context
 - 🟩 `[可用]` [daoing-dsh-daoing-memory](https://github.com/daoing/dsh-daoing-memory) ★0 — deepseek harness  memory plugin
+- 🟩 `[可用]` [daoyan2142-dsh-runtime-kit](https://github.com/daoyan2142/dsh-runtime-kit) ★0 — DSH runtime plugin: context governance, fast path, PTC orchestration, sandbox isolation and audit - zero busin
 - 🟩 `[可用]` [daoyu1993-lab-dsh-plugin-composer-align](https://github.com/daoyu1993-lab/dsh-plugin-composer-align) ★0 — Pin the New Session composer to the exact place the conversation composer occupies, so the input box stops jum
+- 🟩 `[可用]` [daphne999-dsh-fake-call](https://github.com/Daphne999/dsh-fake-call) ★0 — Give your agent a phone: a local fake incoming call with a preset opening line spoken offline by the OS voice
+- 🟩 `[可用]` [daphne999-dsh-safe-restart](https://github.com/Daphne999/dsh-safe-restart) ★0 — Graceful restart for DeepSeek Harness: asks the main window to close, waits for every Electron process to exit
 - 🟩 `[可用]` [davidgereb-dsh-plugin-prompt-guard](https://github.com/davidgereb/dsh-plugin-prompt-guard) ★0 — Prompt visibility and notification plugin for DeepSeek Harness.
 - 🟩 `[可用]` [daviszhou212-dsh-cost-pill](https://github.com/Daviszhou212/dsh-cost-pill) ★0 — DSH web plugin: session API cost + account balance, as a pill merged into the official composer stats row (费用
 - 🟩 `[可用]` [dawei008-dsh-session-telemetry-otlp-trace](https://github.com/dawei008/dsh-session-telemetry-otlp-trace) ★0 — OpenTelemetry GenAI trace plugin for DeepSeek Harness
+- ⬜ `[待定]` [dax233-dsh-preset-hotswitch](https://github.com/Dax233/dsh-preset-hotswitch) ★0 — DSH plugin: hot-switch the calling session to another agent preset after it has started (experimental; uses ag
+- 🟩 `[可用]` [dcd887-dsh-memory-router](https://github.com/dcd887/dsh-memory-router) ★0 — Token-saving interceptor for DSH tool calls: dedupe cache, executable decision graph, live session state, hone
 - 🟩 `[可用]` [dddaniel1-dsh-ref-autofill](https://github.com/dddaniel1/dsh-ref-autofill) ★0 — DeepSeek Harness 插件：在 dsh web 里浏览中文 AI 参考图库，把高清参考图与提示词一键填入对话框
+- 🟩 `[可用]` [dddfuxi-dsh-plugin-usage-budget](https://github.com/dddfuxi/dsh-plugin-usage-budget) ★0 — DeepSeek Harness 的用量费用与预算插件：峰谷时段价目换算 token 费用、会话费用读数、预算守卫、账户余额与逐轮价格
+- 🟩 `[可用]` [dddmuc-dsh-log-trim](https://github.com/DDDMUC/dsh-log-trim) ★0 — 在启动时清理空闲的DSH会话日志（不是上下文压缩）
 - 🟩 `[可用]` [ddll8023-dsh-access-mode](https://github.com/ddll8023/dsh-access-mode) ★0 — Session access-mode plugin (Default / No Edit / Auto) for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [debug-null-dsh-spend-pill](https://github.com/debug-null/dsh-spend-pill) ★0 — DeepSeek Harness plugin: session cost pill in the composer dock, priced with the official CNY peak/off-peak ra
 - 🟩 `[可用]` [deckdco-novel-harness](https://github.com/deckdco/novel-harness) ★0 — DeepSeek Harness plugin for long-form novel writing: context engine, chapter management, checkers, and variant
@@ -3483,6 +3493,7 @@
 - 🟨 `[不兼容]` [cyberfox-lab-dsh-rss](https://github.com/CyberFox-lab/dsh-rss) ★0 — RSS/Atom reader and Agent tools plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [daixin315-dsh-xiaoshuang](https://github.com/daixin315/dsh-xiaoshuang) ★0 — 小双 for DeepSeek Harness — 六层记忆人格插件 + 浮动视频形象（跟随 agent 状态表演 + TTS）
 - 🟨 `[不兼容]` [damlys99-dsh-morning-paper](https://github.com/damlys99/dsh-morning-paper) ★0 — A computed front page for a session you left running: what happened, what broke, and what is waiting on you —
+- 🟨 `[不兼容]` [danie4588e-dsh-clanker-bridge](https://github.com/DANIE4588E/dsh-clanker-bridge) ★0 — Connect Clanker mobile to Harness Desktop with authenticated agent chats, streaming, controls and file transfe
 - 🟨 `[不兼容]` [davidgereb-dsh-plugin-watchdog](https://github.com/davidgereb/dsh-plugin-watchdog) ★0 — Restart your ongoing agent sessions once on server restart in DeepSeek Harness.
 - 🟨 `[不兼容]` [dayi-z-dsh-safety-restart](https://github.com/Dayi-Z/dsh-safety-restart) ★0 — Safe, seamless restart for DeepSeek Harness: the agent can restart the host itself and resume afterwards
 - 🟨 `[不兼容]` [dekurri-dsh-usage-monitor](https://github.com/Dekurri/dsh-usage-monitor) ★0 — DSH 左侧栏 AI 使用量仪表盘：token 用量、成本估算、缓存命中率、分会话/分模型统计、实时 CPU/GPU/内存监控与平台账单对账 · dsh-plugin
