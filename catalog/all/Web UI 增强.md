@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6359）
+# 🔌 Web UI 增强（6369）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -574,6 +574,7 @@
 - 🟩 `[可用]` [dsh-codex-suite](https://github.com/DamonBao/dsh-codex-suite) ★5 — OpenAI Codex provider for DeepSeek Harness with ChatGPT OAuth, native settings, and account usage.
 - 🟩 `[可用]` [deepseekv41flash-dsh-superagent-panel](https://github.com/deepseekv41flash/dsh-superagent-panel) ★5 — DeepSeek Harness (DSH) 插件：在 DSH NEXT 里内嵌 dsh-superagent 的完整管理面板 —— 同源反向代理 iframe、打开主 Session、服务启停重启；配套 dsh-sup
 - 🟩 `[可用]` [devourerm-dsh-naiwa-theme](https://github.com/DevourerM/dsh-naiwa-theme) ★5 — 为deepseek harness构建的奶蛙主题，可是我觉得很神圣呀
+- 🟩 `[可用]` [doreihime-dsh-help-me-to-ask](https://github.com/DoreiHime/dsh-help-me-to-ask) ★5 — 提问引导（dsh-HelpMe-To-Ask）— 在模型动手前先问清楚目标、交付物与验收标准 / Ask before it builds: turn vague requests into a clear task s
 - 🟩 `[可用]` [dpf555-dsh-workbench](https://github.com/Dpf555/dsh-workbench) ★5 — VS Code-style three-column Explorer + Monaco editor plugin for the DeepSeek Harness web GUI
 - ⬜ `[待定]` [dqsjqian-ariaagent](https://github.com/dqsjqian/AriaAgent) ★5 — Industrial-grade C++23 Agent Tooling Framework GUI — provider-agnostic LLM agent with true SSE streaming (Cont
 - 🟩 `[可用]` [dsh-cc-dsh-cc](https://github.com/dsh-cc/dsh-cc) ★5 — A batteries-included coding agent for DeepSeek Harness — Claude Code-style workflows, your choice of models, T
@@ -1176,6 +1177,7 @@
 - 🟩 `[可用]` [dingpenghui-good-dsh-web-search-serper](https://github.com/Dingpenghui-good/dsh-web-search-serper) ★2 — Serper.dev-backed web search provider for DeepSeek Harness (DSH) web capability seam
 - 🟩 `[可用]` [domparent-oledcare](https://github.com/domparent/OLEDCare) ★2 — OLED burn-in care plugin for the DeepSeek Harness Web GUI: true-black nap screensaver, pure-black surfaces, ga
 - ⬜ `[待定]` [dorisaimpatient855-awesome-dsh-plugin](https://github.com/dorisaimpatient855/awesome-dsh-plugin) ★2 — Curated plugins for DeepSeek Harness (dsh) — install, extend, and customize models, tools, sandboxes, UI, and
+- ⬜ `[待定]` [douglarek-dsh-statistics](https://github.com/douglarek/dsh-statistics) ★2 — Token usage, cost, budget, and CPU activity panel for DeepSeek Harness
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-settings-mcp](https://github.com/dsh-mixxed/dsh-client-ui-settings-mcp) ★2 — 在 DeepSeek Harness 设置页管理 MCP 服务器：运行时添加/编辑/启停/重连/删除，实时状态、自动重连，中英双语界面
 - 🟩 `[可用]` [dshmarketplace-dshmarketplace-cli](https://github.com/DshMarketPlace/dshmarketplace-cli) ★2 — Find and install DeepSeek Harness plugins from the command line
 - 🟩 `[可用]` [dugujun3-cloud-dshos-dock](https://github.com/dugujun3-cloud/dshos-dock) ★2 — Workspace-OS status bar for DeepSeek Harness (DSH): task counts, latest run event, checkup date
@@ -1848,6 +1850,7 @@
 - ⬜ `[待定]` [dongce9655-design-dsh-desktop-launcher](https://github.com/dongce9655-design/dsh-desktop-launcher) ★1 — One-click launcher for the DeepSeek Harness Web GUI on Windows
 - 🟩 `[可用]` [dongjinxiang-deepseek-harness-desktop](https://github.com/dongjinxiang/deepseek-harness-desktop) ★1 — Lossless Windows desktop app for DeepSeek Harness with the complete DSH Web UI, plugins, skins, and skill dock
 - ⬜ `[待定]` [dongsheng123132-dsh-workspace-plugins](https://github.com/dongsheng123132/dsh-workspace-plugins) ★1 — Two small DeepSeek Harness (DSH) sidebar plugins: import project directories from your other AI tools, and mov
+- 🟩 `[可用]` [dove222-dsh-screenshot-hotkey](https://github.com/Dove222/dsh-screenshot-hotkey) ★1 — 一个小白制作的DSH截图插件：Alt+A调出截图框，自由选取后点击确定即可自动复制到系统粘贴板，也可点击另存为单独保存为独立图片文件
 - 🟩 `[可用]` [dreamer0323-dsh-desktop](https://github.com/dreamer0323/dsh-desktop) ★1 — 一个dsh桌面端应用，可自定义主题以及桌宠，内置了雾雨魔理沙主题
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-filesystem](https://github.com/dsh-mixxed/dsh-client-ui-filesystem) ★1 — A customized DeepSeek Harness filesystem UI plugin.
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-git-branch](https://github.com/dsh-mixxed/dsh-client-ui-git-branch) ★1 — A customized DeepSeek Harness git branch UI plugin.
@@ -3285,18 +3288,21 @@
 - 🟩 `[可用]` [dogwind221-dw-liveworkbench](https://github.com/Dogwind221/Dw-LiveWorkbench) ★0 — Zero-dependency AI workbench for livestream content: self-built RAG (BM25 + hashed n-gram vectors, recall@5 0.
 - 🟩 `[可用]` [doiiarx-dsh-settings-search-plugin](https://github.com/DoiiarX/dsh-settings-search-plugin) ★0 — Search field for the DSH Web Settings panel: independent candidate list, click to navigate to the owning secti
 - 🟩 `[可用]` [dolacmeo-dsh-restart-and-update](https://github.com/dolacmeo/dsh-restart-and-update) ★0 — Restart DeepSeek Harness and update its plugins from the sidebar: a relaunch that survives the Windows console
+- ⬜ `[待定]` [domush-dsh-plugin-antigravity-agents](https://github.com/Domush/dsh-plugin-antigravity-agents) ★0 — Integrates Google Antigravity agent personas seamlessly into DeepSeek Harness:  Discovers and executes agent s
 - 🟩 `[可用]` [dongbin007-dsh-sidebar-restart](https://github.com/DONGBIN007/dsh-sidebar-restart) ★0 — Adds a Restart row to the desktop app's sidebar foot beside Settings that restarts the app and reloads the pag
 - ⬜ `[待定]` [dongshan1999-dsh-toolkit](https://github.com/dongshan1999/dsh-toolkit) ★0 — dsh 插件: 1
 - 🟩 `[可用]` [dongsheng123132-dsh-build-hermeticity-proof](https://github.com/dongsheng123132/dsh-build-hermeticity-proof) ★0 — Offline hash-only proof that recorded build accesses stayed within a declared closure
 - 🟩 `[可用]` [dongsheng123132-dsh-reproducible-build-proof](https://github.com/dongsheng123132/dsh-reproducible-build-proof) ★0 — Offline content-addressed proof that independent build receipts reproduced byte-identical specified artifacts
 - 🟩 `[可用]` [dongsheng123132-dsh-windows-settlement-proof](https://github.com/dongsheng123132/dsh-windows-settlement-proof) ★0 — Offline content-addressed proof that approved Windows control-plane changes settled across required surfaces
 - 🟩 `[可用]` [doozqoo-dsh-pixel-office](https://github.com/Doozqoo/dsh-pixel-office) ★0 — DeepSeek Harness Web GUI
+- 🟩 `[可用]` [doraasn-dsh-web-chat](https://github.com/doraasn/dsh-web-chat) ★0 — Chat panel for DeepSeek Harness: embeds chat.deepseek.com, keeps the page alive across panel switches, remembe
 - 🟩 `[可用]` [doshinjiu-dsh-ui-boost](https://github.com/DoshinJiu/dsh-ui-boost) ★0 — deepseek harness界面调色插件/RGB滑块调色
 - 🟩 `[可用]` [dosterbool-dsh-zombie-gc](https://github.com/DosterBool/dsh-zombie-gc) ★0 — DSH 插件：开机清理僵尸 agent（已收尾会话仍挂 registry，导致退出重进后输入框卡死）
 - 🟩 `[可用]` [doudoudouhuahua-dsh-copy-file](https://github.com/doudoudouhuahua/dsh-copy-file) ★0 — DSH 文档预览「复制文件」按钮：一键把正在预览的文件放进 Windows 剪贴板，直接粘贴到任意文件夹
 - 🟩 `[可用]` [dougen-dsh-deepseek-usage](https://github.com/dougen/dsh-deepseek-usage) ★0 — DeepSeek Harness sidebar plugin: your account balance, the active model's unit prices and a peak/off-peak indi
 - 🟩 `[可用]` [douglarek-dsh-3d-pinball](https://github.com/douglarek/dsh-3d-pinball) ★0 — Full Tilt! style 3D pinball table as a DeepSeek Harness sidebar panel plugin
 - 🟩 `[可用]` [dove-a-dsh-plugin-registry](https://github.com/dove-a/dsh-plugin-registry) ★0 — Path registry for DSH (DeepSeek Harness) plugins: inventory all installed plugins/presets/skills with real pat
+- 🟩 `[可用]` [dqs-public-dsh-price-chip](https://github.com/DQS-PUBLIC/dsh-price-chip) ★0 — Sidebar price/balance chip for DeepSeek Harness: peak or off-peak period, per-million-token prices, account ba
 - 🟩 `[可用]` [dragonhorizon-xtihc-dsh-connect-workbuddy-mod](https://github.com/DragonHorizon-xtihc/dsh-connect-workbuddy-models) ★0 — 把本机所有 WorkBuddy 登录账号聚合成一个模型池：账号自动发现、签到、积分与到期、临期提醒、自动签到、模型与倍率，并可在输入框下方切换账号与查看剩余总积分
 - 🟩 `[可用]` [dragonk-dsh-locale-pl](https://github.com/Dragonk/dsh-locale-pl) ★0 — Polish (Polski) language pack for the DeepSeek Harness web UI — a community DSH client plugin adding pl to Set
 - 🟩 `[可用]` [dreamaniax-dsh-model-effort-chips](https://github.com/Dreamaniax/dsh-model-effort-chips) ★0 — DeepSeek Harness 的模型/思考强度分体控件：两枚独立 chip + 可拖拽/滚轮的档位滑条 + 小球碰撞池动效
@@ -5902,6 +5908,10 @@
 - 🟨 `[不兼容]` [dogegg-alr-dsh-plugin-installer](https://github.com/DogEgg-alR/dsh-plugin-installer) ★0 — DSH 插件：在 DeepSeek Harness 客户端界面里直接安装和更新插件（Install and update DSH plugins from inside the Harness UI）
 - 🟨 `[不兼容]` [doggyhu-dsh-archive-manager](https://github.com/DoggyHU/dsh-archive-manager) ★0 — 归档对话面板：列出全部已归档的对话，批量选中后一起取消归档或永久删除
 - 🟨 `[不兼容]` [dongfang81-dsh-oil-account](https://github.com/Dongfang81/dsh-oil-account) ★0 — A film-ready oil car vs EV ownership cost demo for DSH Better Sidebar.
+- 🟨 `[不兼容]` [dongkid-dsh-session-settings](https://github.com/dongkid/dsh-session-settings) ★0 — Per-session settings infrastructure for DSH: a native right-sidebar settings page plus a host-side store and H
+- 🟨 `[不兼容]` [dongsheng123132-dsh-move-up](https://github.com/dongsheng123132/dsh-move-up) ★0 — Move a workspace to the top of the DeepSeek Harness sidebar once, from its menu
+- 🟨 `[不兼容]` [doran1110-doran-design](https://github.com/Doran1110/doran-design) ★0 — A DSH skill pack for web design with shadcn/ui, Canvas UI and ThreeUI: three-layer architecture, performance b
+- 🟨 `[不兼容]` [doveli-gu-dsh-dyou-wine](https://github.com/DoveLi-Gu/dsh-dyou-wine) ★0 — D友の酒 · Dyou Wine：让 DSH 界面和鲸鱼娘玩偶按固定节奏 Q 弹，支持满屏飞行、碰墙反弹与内置 BGM
 - 🟨 `[不兼容]` [dsh-publish-dsh-pair-quick](https://github.com/dsh-publish/dsh-pair-quick) ★0 — dsh ???????????:??????????????????
 - 🟨 `[不兼容]` [dujar-dsh-restart](https://github.com/dujar/dsh-restart) ★0 — DeepSeek Harness web-GUI plugin: restart dsh web in one click, toggle installed plugins, git panel for local c
 - 🟨 `[不兼容]` [dzy1571315598-dsh-fritia-pet](https://github.com/dzy1571315598/dsh-fritia-pet) ★0 — Fritia 桌宠 — DeepSeek Harness (DSH) 桌宠插件：右下角待机/走路/抓取/情绪/余额面板
