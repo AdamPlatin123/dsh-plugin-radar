@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3720）
+# 🤖 Agent 能力（3732）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -841,6 +841,7 @@
 - 🟩 `[可用]` [aidulibrary-skillmesh-index](https://github.com/aidulibrary/skillmesh-index) ★1 — SkillMesh / 插台 — 能力通约网络的开放索引层
 - 🟩 `[可用]` [aik358-dsh-memory-fitting](https://github.com/Aik358/dsh-memory-fitting) ★1 — Intent fitting for DSH: the agent predicts a few directions, asks in batches, and converges one — before it ac
 - 🟩 `[可用]` [dsh-yuzuha-prompts-manager](https://github.com/Airrcat/dsh-yuzuha-prompts-manager) ★1 — a plugin for manage prompts in deepseek harness.
+- ⬜ `[待定]` [ajsney764-blip-dsh-session-batch](https://github.com/ajsney764-blip/dsh-session-batch) ★1 — Batch-delete DeepSeek Harness session chat records, optionally with the files each conversation produced
 - 🟩 `[可用]` [alaxrpg-dsh-llm-approve-for-me](https://github.com/alaxrpg/dsh-llm-approve-for-me) ★1 — —
 - 🟩 `[可用]` [alkaid4521-dsh-pixel-art](https://github.com/Alkaid4521/dsh-pixel-art) ★1 — 手写像素画 skill 插件：教 agent 写脚本逐像素画出任意图，不联网、不依赖绘图库、同参数必然复现（DSH / DeepSeek Harness）
 - 🟩 `[可用]` [alloevil-dsh-xray](https://github.com/alloevil/dsh-xray) ★1 — X-ray for your DeepSeek Harness: context-tax attribution, entry inspection, dependency cascades
@@ -1423,10 +1424,19 @@
 - 🟩 `[可用]` [ahacrazy-action-hub](https://github.com/AhaCrazy/action-hub) ★0 — 可移植 Agent Skill 库：DSH、Pi、OMP 原生适配器
 - 🟩 `[可用]` [ahyi8-dsh-agent-recycle-guard](https://github.com/AhYi8/dsh-agent-recycle-guard) ★0 — DSH 删除防护插件：拦截 Agent 的 rm/del/Remove-Item 等删除命令，强制转入 Windows 回收站，fail-closed 无永久删除退路，安装即用零配置
 - 🟩 `[可用]` [aijunjiang-dsh-worklog](https://github.com/aijunjiang/dsh-worklog) ★0 — DSH 工作日志日历：按对话节点切片、自动摘要，日历汇总每日会话并生成日报/周报/月报/半年总结
+- 🟩 `[可用]` [aily-dsh-dsh-peak-guard](https://github.com/Aily-DSH/dsh-peak-guard) ★0 — 按 DeepSeek 峰谷计价时段自动暂停/恢复 DSH 会话：高峰前提醒、到点停止、低谷恢复，支持节假日与调休
+- 🟩 `[可用]` [aily-dsh-dsh-session-usage](https://github.com/Aily-DSH/dsh-session-usage) ★0 — 统计每个 DSH 会话的输入/缓存/输出 token 与估算费用，并把用量直接标在侧栏会话行上
+- 🟩 `[可用]` [aimentalmodel-prompt-manager](https://github.com/AIMentalModel/prompt-manager) ★0 — —
 - `[空仓监测]` **aimfllyys-dsh-operating-context** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [airfloats-dsh-context-selector](https://github.com/airfloats/dsh-context-selector) ★0 — Per-row context checkbox selector + document/selection right-click Ask AI for DeepSeek Harness.
 - 🟩 `[可用]` [ajustdoit-dsh-plan-tasks](https://github.com/Ajustdoit/dsh-plan-tasks) ★0 — —
+- 🟩 `[可用]` [ak-blank-dsh-plugin-auto-answer](https://github.com/AK-blank/dsh-plugin-auto-answer) ★0 — Unofficial DeepSeek Harness plugin: answers ask_user_question with the recommended option when nobody replies
+- 🟩 `[可用]` [akarinliu-dsh-plugin-discourse](https://github.com/AkarinLiu/dsh-plugin-discourse) ★0 — Discourse administration and agent tools for the DeepSeek Harness: 16 tools for reading, posting, moderating,
 - 🟩 `[可用]` [aki2253-sidor-character](https://github.com/AKI2253/Sidor_Character) ★0 — SIDOR 人设卡 —— DeepSeek Harness 附属插件：批量导入人设卡（.persona.md / 酒馆角色卡），自由加载/更换人设，会话内即时应用 + Agent 预设持久化
+- 🟩 `[可用]` [akotap-dsh-layout-memory](https://github.com/AkotaP/dsh-layout-memory) ★0 — —
+- 🟩 `[可用]` [akotap-dsh-model-tweaks](https://github.com/AkotaP/dsh-model-tweaks) ★0 — 一个简单的模型能力管理插件，包括模态选择，上下文/最大输出，以及思考强度设置，支持自定义预设
 - 🟩 `[可用]` [alankhronos-dsh-dispatch-gate](https://github.com/AlanKhronos/dsh-dispatch-gate) ★0 — DSH 插件：在工具调用层强制「先委派给其他模型」——未派发的会话无法执行 pwsh/write/edit
+- 🟩 `[可用]` [alannerfranklin-dsh-relay-isolation](https://github.com/AlannerFranklin/dsh-relay-isolation) ★0 — Provision a separate DSH_HOME for a model relay, so relay traffic never shares your main Harness sessions or c
 - 🟩 `[可用]` [albertzj-dsh-knowledge-work](https://github.com/AlbertZJ/dsh-knowledge-work) ★0 — Knowledge-work role skills for DeepSeek Harness, ported from anthropics/knowledge-work-plugins (22 role plugin
 - 🟩 `[可用]` [aliensweety-dsh-usage-dock](https://github.com/aliensweety/dsh-usage-dock) ★0 — DSH web plugin: per-session CNY cost pill that renders into the composer's shipped statistics row
 - 🟩 `[可用]` [alloevil-agentxray](https://github.com/alloevil/AgentXRay) ★0 — —
@@ -2830,6 +2840,7 @@
 - 🟨 `[不兼容]` [1514100951-dsh-usage-footer](https://github.com/1514100951/dsh-usage-footer) ★3 — DSH web 用量/费用悬浮按钮插件：账户余额、峰谷时段、今日/本会话消费估算与 token 统计（含设置开关）
 - 🟨 `[不兼容]` [2132774831-dsh-memory-plugin](https://github.com/2132774831/dsh-memory-plugin) ★3 — 这是我为 DSH （DeepSeek Harness） 制作的一款插件，可以进行跨对话记忆支持手动导入
 - 🟨 `[不兼容]` [Liltloom](https://github.com/Adkid-Zephyr/Liltloom) ★3 — 语织：中文优先、用户可控的 AI 写作风格记忆层，让 AI 学会你的表达，需要时再调用
+- 🟨 `[不兼容]` [alan-dong-dong-dsh-knowledge-library](https://github.com/Alan-dong-dong/dsh-knowledge-library) ★3 — 拾页：DeepSeek Harness 本地资料库插件，采集网页、文本与字幕，分类检索并供 Agent 引用分析
 - 🟨 `[不兼容]` [asaiuta-reverse-workbench-skill](https://github.com/Asaiuta/reverse-workbench-skill) ★3 — —
 - 🟨 `[不兼容]` [azure5100-huahua-dsh-record-replay](https://github.com/azure5100/huahua-dsh-record-replay) ★3 — DSH Record & Replay plugin: session timeline replay, replay-pack export/import, re-run recorded conversations,
 - 🟨 `[不兼容]` [baaai123-solo-memory](https://github.com/baaai123/solo-memory) ★3 — —
@@ -3251,6 +3262,7 @@
 - `[空仓监测]` **agentsdanceai-deepseek-harness-cloud** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [aiexile-dsh-memory-plugin](https://github.com/AieXile/dsh-memory-plugin) ★0 — DSH 记忆/规则插件：索引式注入 + 本地检索 + 轮末提炼草稿审批 + supersedes 版本链；零依赖、按工作区存储
 - 🟨 `[不兼容]` [aily-dsh-dsh-approval-inbox](https://github.com/Aily-DSH/dsh-approval-inbox) ★0 — 把阻塞式审批变成后台收件箱：Agent 不用干等，排队后继续干活，你有空再批
+- 🟨 `[不兼容]` [aily-dsh-dsh-test-window](https://github.com/Aily-DSH/dsh-test-window) ★0 — 让 Agent 拉起的测试窗口开在你指定的显示器上，不再盖住 DSH 窗口（Windows）
 - 🟨 `[不兼容]` [aimarshalllee-dsh-obsidian-bridge](https://github.com/AIMarshallLee/dsh-obsidian-bridge) ★0 — Bidirectional knowledge bridge between DeepSeek Harness and Obsidian Vault — FTS5 search, draft writing, sessi
 - 🟨 `[不兼容]` [akinoharuka-companion-memory](https://github.com/AkiHaruka/companion-memory) ★0 — Native scoped Riko memory plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [aleleppy-leppy-loop-deepseek](https://github.com/aleleppy/leppy-loop-deepseek) ★0 — Native Leppy Loop bundle for DeepSeek Harness
