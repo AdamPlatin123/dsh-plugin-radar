@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7099）
+# 🔌 Web UI 增强（7116）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2513,12 +2513,15 @@
 - 🟩 `[可用]` [penguin-sama-dsh-conversation-links](https://github.com/Penguin-SAMA/dsh-conversation-links) ★1 — DSH 插件：跨对话引用 —— @ 引用其他对话、从左侧栏拖拽对话进输入框、打开对话勾选消息插入到另一个对话
 - 🟩 `[可用]` [perrylink-dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) ★1 — 读 RequirementsPack 与投标文件，报告哪些要求看起来有响应、哪些没有、哪些根本定位不到
 - 🟩 `[可用]` [perrylink-dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) ★1 — 给环评工程师/EHS：核对环评（环境影响评价/EIA）的要素、导则名称与执行标准是否匹配
+- 🟩 `[可用]` [perrylink-dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) ★1 — Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them a
 - 🟩 `[可用]` [perrylink-dsh-plugin-portal](https://github.com/PerryLink/dsh-plugin-portal) ★1 — Zero-dependency static portal rendering the @perrylink DeepSeek Harness plugin ecosystem as grouped cards: one
 - ⬜ `[待定]` [pgmi-builds-corti](https://github.com/pgmi-builds/corti) ★1 — Persistent memory layer for AI agent swarms
 - ⬜ `[待定]` [phantomsuying-dsh-module-driven-develop](https://github.com/phantomSuying/dsh-module-driven-develop) ★1 — DSH plugin for module-driven development: decompose requirements into a module tree, generate each module with
 - ⬜ `[待定]` [philmingdao-dsh-meter](https://github.com/philmingdao/dsh-meter) ★1 — DSH plugin (#dsh-plugin): DeepSeek usage & balance meter for the DSH settings panel — account balance, today's
 - 🟩 `[可用]` [philomelcc-dsh-ui-design](https://github.com/philomelcc/dsh-ui-design) ★1 — —
+- 🟩 `[可用]` [phoushen-dsh-rea-toggle](https://github.com/phoushen/dsh-rea-toggle) ★1 — A GUI switch for the REA MCP server in DeepSeek Harness — turn its 229 mcp__rea__* tools on or off, so unrelat
 - 🟩 `[可用]` [piaobo123-dsh-memory-evolve](https://github.com/piaobo123/dsh-memory-evolve) ★1 — DSH 分层记忆与自我进化插件：记忆/技能/待办/通知/COI 调度/会话广播/书签/记忆同步/无限画板/Advisor 评审，带 WebUI 管理界面
+- 🟩 `[可用]` [picklerick422-dsh-conv-progress](https://github.com/picklerick422/dsh-conv-progress) ★1 — Live per-turn progress capsule for DeepSeek Harness — empirical ETA table + click-to-open turn history, docked
 - 🟩 `[可用]` [picklerick422-dsh-motion](https://github.com/picklerick422/dsh-motion) ★1 — Liquid-glass popup and overlay motion for DeepSeek Harness: spring clip-morph entrances, coherent hover bubble
 - 🟩 `[可用]` [pinzza-dsh-git-statusline](https://github.com/pinzza/dsh-git-statusline) ★1 — DSH Web 侧边栏底部的紧凑 Git 状态插件，参考 ccstatusline-zh 的 Git widgets
 - ⬜ `[待定]` [plankton12138-dsh-darksoulguide](https://github.com/plankton12138/dsh-darkSoulGuide) ★1 — deepseek harness插件，黑暗之魂游戏攻略助手
@@ -4742,23 +4745,36 @@
 - 🟩 `[可用]` [pauloapoloni-dsh-pr-checks](https://github.com/pauloapoloni/dsh-pr-checks) ★0 — DSH plugin: status and progress of GitHub Actions checks for open PRs, in the sidebar footer.
 - 🟩 `[可用]` [pc2005-cloud-cursorkit](https://github.com/PC2005-cloud/cursorkit) ★0 — 给你的页面装上会呼吸的光标
 - ⬜ `[待定]` [pei-lin-001-dsh-ollama-cloud](https://github.com/pei-lin-001/dsh-ollama-cloud) ★0 — Ollama Cloud for DeepSeek Harness: one API key, auto-pulled model catalog, real thinking levels, hosted web to
+- 🟩 `[可用]` [peilopielo-dsh-visualization](https://github.com/peilopielo/dsh-Visualization) ★0 — 酷酷的没什么用的dsh工作可视化插件/Cool and useless DSH work visualization plugin
 - 🟩 `[可用]` [pekeyteam-dsh-age](https://github.com/pekeyTeam/dsh-AGE) ★0 — dsh-AGE 是一个**无聊插件**，用来在 deepseek-harness 的网页界面里模拟「安全组件扫描时卡顿」的体验
 - 🟩 `[可用]` [penghao73551-dsh-desktop-quick-actions](https://github.com/penghao73551/dsh-desktop-quick-actions) ★0 — Two round buttons at the DSH desktop sidebar foot: restart the app without a console window ever appearing, an
+- 🟩 `[可用]` [pengjunchen-dsh-video-studio](https://github.com/PengJunchen/dsh-video-studio) ★0 — Local video color editing for DeepSeek Harness: DJI Log LUT restoration, highlights and shadows, skin, selecti
 - 🟩 `[可用]` [penglai-doll-dsh-wsl](https://github.com/penglai-doll/dsh-wsl) ★0 — WSL execution for DeepSeek Harness on Windows: minimal-wsl agent preset (non-persistent bash + persistent PTY)
 - ⬜ `[待定]` [penguin-oo-dsh-quota-hub](https://github.com/penguin-oo/dsh-quota-hub) ★0 — —
 - 🟩 `[可用]` [penguinbing-dsh-alk-pet](https://github.com/penguinbing/dsh-alk-pet) ★0 — —
 - ⬜ `[待定]` [penguinistrator-01-deepseek-harness-tui](https://github.com/Penguinistrator-01/deepseek-harness-tui) ★0 — deepseek-harness-tui，来自gpt5.6sol
+- 🟩 `[可用]` [pepperfm-dsh-russian-ui](https://github.com/pepperfm/dsh-russian-ui) ★0 — Russian language pack for DeepSeek Harness: native locale API, 63 namespaces, no runtime dependencies
+- 🟩 `[可用]` [pepperfm-dsh-whale-locale-ru](https://github.com/pepperfm/dsh-whale-locale-ru) ★0 — Russian translation and responsive UI companion for DeepSeek Whale Widget 0.4.2; no bundled artwork
 - 🟩 `[可用]` [perederey-dsh-mobile-ui](https://github.com/Perederey/dsh-mobile-ui) ★0 — Mobile-UI responsive layout plugin for DeepSeek Harness Web GUI: viewport detection, touch-friendly controls,
 - 🟩 `[可用]` [perrylink-dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) ★0 — DeepSeek Harness 插件 — 水产养殖投入品记录核对：依据《水产养殖质量安全管理规定》《绿色食品 渔药使用准则》
+- 🟩 `[可用]` [perrylink-dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) ★0 — One-command installer for the 53-checker PerryLink compliance suite for DeepSeek Harness.
+- 🟩 `[可用]` [perrylink-dsh-contract-suite](https://github.com/PerryLink/dsh-contract-suite) ★0 — Contract suite: one-command install for dsh-legal-intake and dsh-legal-clause.
+- 🟩 `[可用]` [perrylink-dsh-finops-suite](https://github.com/PerryLink/dsh-finops-suite) ★0 — Finance Ops suite: one-command install for dsh-einvoice, dsh-bankrec, dsh-ap-three-way and dsh-travel-recon.
+- 🟩 `[可用]` [perrylink-dsh-irb](https://github.com/PerryLink/dsh-irb) ★0 — Ethics-application checklist for DeepSeek Harness: 18-item keyword checklist (title, PI, purpose, design, part
+- 🟩 `[可用]` [perrylink-dsh-pim-lint](https://github.com/PerryLink/dsh-pim-lint) ★0 — \[FROZEN 2026-10-31\] PIM catalog lint: required fields, duplicate SKU, GTIN check digit and price.
 - 🟩 `[可用]` [perrylink-dsh-plugin-spec](https://github.com/PerryLink/dsh-plugin-spec) ★0 — Low-level DSH plugin rule text and clause source
 - 🟩 `[可用]` [perrylink-dsh-primer](https://github.com/PerryLink/dsh-primer) ★0 — A practical primer for building DeepSeek Harness plugins.
+- 🟩 `[可用]` [perrylink-dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) ★0 — 从招标文件抽取关键信息：前附表的时间与保证金、投标文件组成与份数，并逐项报告是否检索到
 - 🟩 `[可用]` [petenka315-dsh-locale-ko-extra](https://github.com/Petenka315/dsh-locale-ko-extra) ★0 — Korean language pack for the DeepSeek Harness web UI - full dictionaries plus extra strings, standalone or lay
 - 🟩 `[可用]` [ph4310822-dsh-edex-xry-ui](https://github.com/ph4310822/dsh-edex-xry-ui) ★0 — —
 - 🟩 `[可用]` [philmingdao-anno-dsh-native](https://github.com/philmingdao/anno-dsh-native) ★0 — Native DeepSeek Harness plugin for local-first HTML review, editing, and annotation
+- 🟩 `[可用]` [phoeky-dsh-refresh-plugin](https://github.com/Phoeky/dsh-refresh-plugin) ★0 — DSH desktop refresh plugin: binds F5 / Ctrl+R to reload the app page (F5 does not work in production builds by
 - ⬜ `[待定]` [phoenixlucky-dsh-plugin-doc](https://github.com/phoenixlucky/dsh-plugin-doc) ★0 — Chinese and English guide to authoring, packaging, installing, and publishing DeepSeek Harness (DSH) plugins.
 - 🟩 `[可用]` [phungthien269-dsh-token-stats](https://github.com/phungthien269/dsh-token-stats) ★0 — Token usage dashboard for the DeepSeek Harness web GUI - today/week/month totals, per-model breakdown, 4-langu
 - ⬜ `[待定]` [piaobo123-dsh-houhuiyao](https://github.com/piaobo123/dsh-houhuiyao) ★0 — DSH Web「后悔药」插件：最后一条回答上的重新生成 / 编辑提问 / 删除这轮 / 版本翻页器（判据读全量日志，不受客户端 50 条窗口裁剪影响）
 - 🟩 `[可用]` [pidongqianqian-dsh-mermaid-plus](https://github.com/pidongqianqian/dsh-mermaid-plus) ★0 — Mermaid diagrams for DeepSeek Harness — on-demand rendering, compact ELK layout by default, theme-aware, copy
+- 🟩 `[可用]` [pierrotto12138-code-dsh-workstation-spec](https://github.com/pierrotto12138-code/dsh-workstation-spec) ★0 — 把「Chrome 工作站 UI 规范」做成 DSH 工具：workbench_spec 读规范，workbench_starter 取起步模板
+- 🟩 `[可用]` [pigman18-dsh-openai-gateway](https://github.com/pigman18/dsh-openai-gateway) ★0 — Expose every model of every provider configured in DeepSeek Harness as an OpenAI-compatible endpoint on a fixe
 - ⬜ `[待定]` [pilahito-dsh-locale-es](https://github.com/pilahito/dsh-locale-es) ★0 — Paquete de idioma español para la GUI web de DeepSeek Harness (DSH): 42 namespaces y 1257 cadenas traducidas
 - 🟩 `[可用]` [pimili-app-dsh-jira](https://github.com/pimili-app/dsh-jira) ★0 — Jira tickets inside DeepSeek Harness: configurable visible spaces, multi-space and status filters, ticket deta
 - 🟩 `[可用]` [pimili-app-dsh-maestro-progress](https://github.com/pimili-app/dsh-maestro-progress) ★0 — Maestro UI test runs inside DeepSeek Harness: live flow and step progress, composed scenarios, target devices,
@@ -6876,6 +6892,7 @@
 - 🟨 `[不兼容]` [pgnqukezrdxmhjso-dsh-ui-fortifier](https://github.com/pgnqukezrdxmhjso/dsh-ui-fortifier) ★0 — DSH Web UI 强化插件：功能模块可开关，含提供方标签、级联模型选择器、设置面板拖动 等
 - 🟨 `[不兼容]` [phoenixlucky-dsh-theme](https://github.com/phoenixlucky/dsh-theme) ★0 — Optional DSH Web profile bundle with six selectable wallpaper themes, including VIP Golden Radiance styling, p
 - 🟨 `[不兼容]` [pidan-workshop-dsh-godot-play](https://github.com/Pidan-Workshop/dsh-godot-play) ★0 — 在 DSH Web GUI 一键构建并试玩 Godot Web 导出
+- 🟨 `[不兼容]` [pingfanfan-dsh-astryx-studio](https://github.com/pingfanfan/dsh-astryx-studio) ★0 — DeepSeek Harness plugin: build pages with Meta's Astryx design system
 - 🟨 `[不兼容]` [po-et-dsh-session-snapshot](https://github.com/po-et/dsh-session-snapshot) ★0 — Rolling, integrity-verified backups of every dsh session at turn boundaries — corruption costs at most the in-
 - 🟨 `[不兼容]` [popcornboom-dsh-insight-dock](https://github.com/POPCORNBOOM/dsh-insight-dock) ★0 — Insight dock for the DSH Web GUI: an agent parks a short, strictly-bounded side observation while it works; yo
 - 🟨 `[不兼容]` [pridurok-goxa-dsh-tweaks](https://github.com/pridurok-goxa/volna-tweaks) ★0 — Волна: твики DeepSeek Harness — мобильный UI, светофор, очередь, скачивание файлов и хост-твики
