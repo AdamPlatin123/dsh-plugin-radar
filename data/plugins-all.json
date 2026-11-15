@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T21:31:24Z",
+ "generated_at": "2026-11-15T21:46:24Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -3816,6 +3816,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "把 Agent 从对话框搬到一张图上——连线即执行 / Orchestrate AI agents by drawing lines"
+  },
+  {
+   "repo": "nanshine/tunetune",
+   "name": "nanshine-tunetune",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "A human–agent research workbench for training, evaluating, and iterating on small models for specific tasks."
   },
   {
    "repo": "NeoMei/dsh-roundtable",
@@ -51824,6 +51831,13 @@
    "desc": "Game asset postprocess pipeline for DeepSeek Harness: rembg/quick cutout, trim, padding, canvas, sprite sheet,"
   },
   {
+   "repo": "BeckChiang/dsh-cost-meter",
+   "name": "beckchiang-dsh-cost-meter",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 底部会话成本计面板：按每步请求时的峰谷价计价，历史不漂移"
+  },
+  {
    "repo": "BeckChiang/dsh-rsa",
    "name": "beckchiang-dsh-rsa",
    "verdict": "ok",
@@ -74238,6 +74252,13 @@
    "desc": "Glacier-blue glass UI layer for the DeepSeek Harness web client — light-field canvas, frosted panels, flat con"
   },
   {
+   "repo": "BeckChiang/aris-wiki-panel",
+   "name": "beckchiang-aris-wiki-panel",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "ARIS 知识库只读检索面板（DSH 插件，MIT）"
+  },
+  {
    "repo": "BErrybearl/dsh-cli-subagent",
    "name": "dsh-cli-subagent",
    "verdict": "incompatible",
@@ -90352,6 +90373,13 @@
    "desc": "—"
   },
   {
+   "repo": "Apauto-to-all/dsh-no-tools-preset",
+   "name": "apauto-to-all-dsh-no-tools-preset",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "无工具预设：禁掉所有工具，只留模型自己的推理"
+  },
+  {
    "repo": "apheli0os/deepseek-harness-orchestrate",
    "name": "apheli0os-deepseek-harness-orchestrate",
    "verdict": "ok",
@@ -90518,6 +90546,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Live 3h/12h/24h USTC token quota card for DeepSeek Harness and USTC TokenWorks"
+  },
+  {
+   "repo": "awychoi/dsh-cue9-mote",
+   "name": "awychoi-dsh-cue9-mote",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "The connection between DSH and desk companion for cue9"
   },
   {
    "repo": "axingde/dsh-welcome",
@@ -122230,6 +122265,13 @@
    "desc": "DSH plugin for personal server operations: pooled SSH connections, log analysis, and a guard for machine-destr"
   },
   {
+   "repo": "bearman141/dsh-kernel-restart",
+   "name": "bearman141-dsh-kernel-restart",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Restart the running DSH profile in place from a floating button, without closing the desktop window."
+  },
+  {
    "repo": "beck6lee/dsh-desktop",
    "name": "beck6lee-dsh-desktop",
    "verdict": "pending",
@@ -129510,6 +129552,13 @@
    "desc": "一个在DSH上使用的表情包插件，在和agent聊天时让ta自然的插入表情包"
   },
   {
+   "repo": "narrastory/retro-music-toolkit",
+   "name": "narrastory-retro-music-toolkit",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "A deterministic 8/16-bit game music workstation for AI agents"
+  },
+  {
    "repo": "NeoXider/neoxider-agent-deck",
    "name": "neoxider-neoxider-agent-deck",
    "verdict": "ok",
@@ -135432,6 +135481,13 @@
    "desc": "—"
   },
   {
+   "repo": "Baisbt/dsh-session-manager",
+   "name": "baisbt-dsh-seesion-manager",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "bertonhan/dsh-plugin-installer-pkg",
    "name": "bertonhan-dsh-plugin-installer-pkg",
    "verdict": "pending",
@@ -136508,6 +136564,13 @@
    "verdict": "ok",
    "stars": 464,
    "desc": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付"
+  },
+  {
+   "repo": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "name": "lijiaqi-ai-product-manager-dsh-agent-compare",
+   "verdict": "ok",
+   "stars": 425,
+   "desc": "同一需求，2–4 版真跑"
   },
   {
    "repo": "tinqiao-oss/engramory",
@@ -140269,6 +140332,13 @@
    "desc": "一篇论文 PDF → 默认三份产物：中文组会文献汇报 PPT（.pptx）+ 逐页讲解稿（.docx）+ 双色答辩预测问答（.html)"
   },
   {
+   "repo": "AvenYQ/dsh-knowledge",
+   "name": "avenyq-dsh-knowledge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "知识库 — 把本地 Obsidian 库与项目文件夹建成可检索索引，DSH 左侧栏一个入口直接问，回答带文件与行号出处（DeepSeek Harness 插件）"
+  },
+  {
    "repo": "AvenYQ/dsh-vellum",
    "name": "avenyq-dsh-vellum",
    "verdict": "ok",
@@ -140295,6 +140365,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "One command installs four deterministic DeepSeek Harness plugins: 46 offline, bounded tools for JSON/YAML/CSV/"
+  },
+  {
+   "repo": "Azhu9701/dsh-nearby",
+   "name": "azhu9701-dsh-nearby",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "NextSeat 邻座 — DSH 的面对面分享房间：文件、提示词卡片、技能包，访客零安装"
   },
   {
    "repo": "badwoo/dsh-file-extension",

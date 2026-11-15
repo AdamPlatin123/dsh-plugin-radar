@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7078）
+# 🔌 Web UI 增强（7080）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3179,6 +3179,7 @@
 - 🟩 `[可用]` [bauerelizabeth07139-mdsm](https://github.com/bauerelizabeth07139/MDSM) ★0 — MDSM (Male DeepSeek Mascot) appearance layer for the DeepSeek Harness Web GUI: chat wallpaper with opacity, bl
 - 🟩 `[可用]` [bbboy31-dsh-terminal-tabs](https://github.com/bbboy31/dsh-terminal-tabs) ★0 — Terminals view tab for DeepSeek Harness web UI — live background job count, streaming output, one-click kill
 - 🟩 `[可用]` [bbbz123-dsh-imagedit](https://github.com/bbbz123/dsh-imagedit) ★0 — Game asset postprocess pipeline for DeepSeek Harness: rembg/quick cutout, trim, padding, canvas, sprite sheet,
+- 🟩 `[可用]` [beckchiang-dsh-cost-meter](https://github.com/BeckChiang/dsh-cost-meter) ★0 — DSH 底部会话成本计面板：按每步请求时的峰谷价计价，历史不漂移
 - 🟩 `[可用]` [beckchiang-dsh-rsa](https://github.com/BeckChiang/dsh-rsa) ★0 — Configurable startup animation (splash screen) plugin for DeepSeek Harness — real main-process splash, live pr
 - 🟩 `[可用]` [beeasy-l-dsh-qq-panel](https://github.com/Beeasy-L/dsh-qq-panel) ★0 — 给 DeepSeek Harness 上的 QQ 桥接（qq-bridge / OneBot v11）做的设置面板：人格卡编辑与热切换、表情包与备注管理、主动发言参数、运行状态与日志
 - 🟩 `[可用]` [beepflyer-dsh-voice-chat-mode](https://github.com/BeepFlyer/dsh-voice-chat-mode) ★0 — Voice chat mode for DeepSeek Harness: always-on VAD listening, local SenseVoice transcription, auto-submit, Ed
@@ -6450,6 +6451,7 @@
 - 🟨 `[不兼容]` [baigei0710-dsh-remote-frp](https://github.com/baigei0710/dsh-remote-frp) ★0 — Remote access for the DeepSeek Harness Web GUI via your own cloud server: frp reverse tunnel managed as a macO
 - 🟨 `[不兼容]` [bancott-dsh-yexueqing-skin](https://github.com/Bancott/dsh-yexueqing-skin) ★0 — DSH叶雪青皮肤插件
 - 🟨 `[不兼容]` [baoxiaopai-dsh-glacier](https://github.com/BAOXIAOPAI/dsh-glacier) ★0 — Glacier-blue glass UI layer for the DeepSeek Harness web client — light-field canvas, frosted panels, flat con
+- 🟨 `[不兼容]` [beckchiang-aris-wiki-panel](https://github.com/BeckChiang/aris-wiki-panel) ★0 — ARIS 知识库只读检索面板（DSH 插件，MIT）
 - 🟨 `[不兼容]` [dsh-cli-subagent](https://github.com/BErrybearl/dsh-cli-subagent) ★0 — 把本机外部 CLI（Codex、Pi、Qoder、OpenCode、CodeBuddy 等）注册成 dsh 子代理，带运行面板与后端管理
 - 🟨 `[不兼容]` [bestbbb-deepseek-harness-desktop](https://github.com/Bestbbb/deepseek-harness-desktop) ★0 — An unofficial community desktop distribution built on DeepSeek Harness and Tauri 2, with a bundled local agent〔📦〕
 - 🟨 `[不兼容]` [bg8lng-dsh-openlist-sync](https://github.com/bg8lng/dsh-openlist-sync) ★0 — DeepSeek Harness 文件同步插件：交付文件自动上传 OpenList + 目录全读写工具 + 设置面板 + 按工作区布局
