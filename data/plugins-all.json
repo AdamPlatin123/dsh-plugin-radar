@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T09:32:19Z",
+ "generated_at": "2026-11-15T09:46:43Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -6989,6 +6989,13 @@
    "desc": "dsh plugin: during long agent thinking, posts a hot-news or reminder message directly into the conversation st"
   },
   {
+   "repo": "feely0208/dsh-approval-ledger",
+   "name": "feely0208-dsh-approval-ledger",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "审批台账：记录 agent 每次需要审批的操作（风险/决策/结果），gate 模式可拦高危动作"
+  },
+  {
    "repo": "feely0208/dsh-mcp-audit",
    "name": "feely0208-dsh-mcp-audit",
    "verdict": "ok",
@@ -12384,6 +12391,27 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Per-workspace custom system prompts for DeepSeek Harness (DSH): one active prompt per workspace, captured into"
+  },
+  {
+   "repo": "feely0208/dsh-agent-permission-audit",
+   "name": "feely0208-dsh-agent-permission-audit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "feely0208/dsh-agent-policy",
+   "name": "feely0208-dsh-agent-policy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "策略声明 vs 实际执行：说好不干的事干了没，干了的有没有说"
+  },
+  {
+   "repo": "feely0208/dsh-decision-review",
+   "name": "feely0208-dsh-decision-review",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "决策复盘：把审批台账整理成可复盘报告——关键决策、被拒原因、待复审项与复盘问题清单"
   },
   {
    "repo": "fengling375/dsh-nyan-context-progress",
@@ -24242,6 +24270,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh turn-guard plugin: per-step timeout for agent turns (防模型退化死循环)"
+  },
+  {
+   "repo": "fcz20060311/dsh-life-planner",
+   "name": "fcz20060311-dsh-life-planner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "拾光笺 · DSH 生活时间管理插件：待办提醒 / 倒计时 / 日历 / 专注计时 / 热力图"
   },
   {
    "repo": "fengyufengzi/dsh-local-diagnostics",
@@ -50389,11 +50424,32 @@
    "desc": "Right-to-left (Persian/Arabic/Hebrew) text support for the DeepSeek Harness Web UI: per-block bidi direction,"
   },
   {
+   "repo": "fataldeity-lab/dsh-gpu-cleanup",
+   "name": "fataldeity-lab-dsh-gpu-cleanup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web UI plugin: one-click VRAM release — unloads llama-swap models and sweeps stale local engines while kee"
+  },
+  {
    "repo": "Faust-zyb/dsh-models-sort",
    "name": "faust-zyb-dsh-models-sort",
    "verdict": "ok",
    "stars": 0,
    "desc": "给 DSH 设置页的模型供应商列表加 CC Switch 式拖拽排序与隐藏：松手顺序立即生效并写回 cordis.patch.yml（自动备份），可整行隐藏供应商并从聊天框模型选择器移除"
+  },
+  {
+   "repo": "faxble/dsh-open-with-vscode",
+   "name": "faxble-dsh-open-with-vscode",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "在 VS Code 中打开当前工作区：修复内置 open-in-app 因 ELECTRON_RUN_AS_NODE 环境变量泄漏而无法启动 VS Code（HTTP 502）的问题"
+  },
+  {
+   "repo": "fdghdfghdfghd/dsh-balance-pill",
+   "name": "fdghdfghdfghd-dsh-balance-pill",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 常驻余额胶囊：右下角一眼看到 DeepSeek 账户余额，不碰凭据、不需要 API Key"
   },
   {
    "repo": "FeC3-pearlite/bearing-notes",
@@ -50408,6 +50464,41 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Dual-format plugin development guide: DSH static plugin package (dsh plugin --profile add) + Agent Plugins 1.0"
+  },
+  {
+   "repo": "feely0208/dsh-doc-batch",
+   "name": "feely0208-dsh-doc-batch",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸文档批量处理：Word / Excel / PDF 一次处理整目录（替换、提取、合并、拆分、导出），带面板"
+  },
+  {
+   "repo": "feely0208/dsh-ecosystem-radar",
+   "name": "feely0208-dsh-ecosystem-radar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 插件：把生态雷达快照做成面板 —— 近 7 天新增 / 行业供给 / 每日增量报告"
+  },
+  {
+   "repo": "feely0208/dsh-enterprise-suite",
+   "name": "feely0208-dsh-enterprise-suite",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸企业审计套件：审批台账 + 决策复盘 + 审计报告 + 定时复盘，一个授权全部可用（商业授权，14 天试用）"
+  },
+  {
+   "repo": "feely0208/dsh-guard-suite",
+   "name": "feely0208-dsh-guard-suite",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "跑一遍全部适用的检查，出一份按模块分组的总报告"
+  },
+  {
+   "repo": "feely0208/dsh-industry-checkup",
+   "name": "feely0208-dsh-industry-checkup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸行业合规体检：一个面板管五个行业（医疗/财税/招聘/制造/房产）"
   },
   {
    "repo": "feely0208/dsh-legal-cite-check",
@@ -67889,6 +67980,13 @@
    "desc": "MCP server manager for DeepSeek Harness — manage this machine's MCP servers as native Loader rows, from a Sett"
   },
   {
+   "repo": "fdfdfdfgbfdgfdg-star/dsh-terminal-vision",
+   "name": "fdfdfdfgbfdgfdg-star-dsh-terminal-vision",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Terminal semantic vision plugin for DeepSeek Harness: PTY sessions with a structured screen model (text, curso"
+  },
+  {
    "repo": "fengchang618gmail/dsh-course-subtitles",
    "name": "fengchang618gmail-dsh-course-subtitles",
    "verdict": "incompatible",
@@ -77612,6 +77710,13 @@
    "desc": "—"
   },
   {
+   "repo": "feely0208/dsh-cn-compliance",
+   "name": "feely0208-dsh-cn-compliance",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh-cn-compliance · DSH 插件"
+  },
+  {
    "repo": "feely0208/dsh-consent-guard",
    "name": "feely0208-dsh-consent-guard",
    "verdict": "ok",
@@ -84612,6 +84717,13 @@
    "desc": "Reclaim a full row of vertical space in DeepSeek Harness by moving conversation views into the Windows caption"
   },
   {
+   "repo": "faxble/dsh-model-picker",
+   "name": "faxble-dsh-model-picker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "feely0208/dsh-alert-relay",
    "name": "feely0208-dsh-alert-relay",
    "verdict": "ok",
@@ -84666,6 +84778,111 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-cn-pipl-check · DSH 插件"
+  },
+  {
+   "repo": "feely0208/dsh-compliance-doc",
+   "name": "feely0208-dsh-compliance-doc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "一份能交出去的自查表、整改说明和合规证明"
+  },
+  {
+   "repo": "feely0208/dsh-contract-check",
+   "name": "feely0208-dsh-contract-check",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸合同体检：扫描合同文本，检查 10 项必备条款（主体/标的/价款/期限/违约/争议/保密/知识产权/不可抗力/解除）是否缺失"
+  },
+  {
+   "repo": "feely0208/dsh-copyright-kit",
+   "name": "feely0208-dsh-copyright-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "feely0208/dsh-cron-guard",
+   "name": "feely0208-dsh-cron-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "feely0208/dsh-design-line",
+   "name": "feely0208-dsh-design-line",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸工序 —— 给设计师的工序流水线（Photoshop / AutoCAD / 3ds Max）：一个包 = 一份内核 + 三个适配器"
+  },
+  {
+   "repo": "feely0208/dsh-doc-compare",
+   "name": "feely0208-dsh-doc-compare",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "feely0208/dsh-docx-batch",
+   "name": "feely0208-dsh-docx-batch",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Word 批量处理：替换 / 合并 / 提取文本 / 页眉页脚 / 转 Markdown，一次处理整目录"
+  },
+  {
+   "repo": "feely0208/dsh-fix-verify",
+   "name": "feely0208-dsh-fix-verify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "改完到底修没修，同一套规则跑两遍给你看"
+  },
+  {
+   "repo": "feely0208/dsh-image-batch",
+   "name": "feely0208-dsh-image-batch",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "图片批量处理：压缩 / 改尺寸 / 加水印 / 转格式 / 去 EXIF（Pillow）"
+  },
+  {
+   "repo": "feely0208/dsh-industry-education",
+   "name": "feely0208-dsh-industry-education",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "学生信息、备案号、适龄提示，教育 App 的硬杠杠"
+  },
+  {
+   "repo": "feely0208/dsh-industry-finance",
+   "name": "feely0208-dsh-industry-finance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "支付敏感信息、十年留存，金融这条线查得更严"
+  },
+  {
+   "repo": "feely0208/dsh-industry-hr",
+   "name": "feely0208-dsh-industry-hr",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "招聘场景多出来的那几项：简历个人信息、就业歧视用语、背景调查授权，别等投诉才发现"
+  },
+  {
+   "repo": "feely0208/dsh-industry-manufacturing",
+   "name": "feely0208-dsh-industry-manufacturing",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "制造现场多出来的那几项：安全生产培训学时、特种设备登记、产品标识与危化品管理，别等检查才发现"
+  },
+  {
+   "repo": "feely0208/dsh-industry-medical",
+   "name": "feely0208-dsh-industry-medical",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "医疗行业多出来的那几项，别等测评才发现"
+  },
+  {
+   "repo": "feely0208/dsh-industry-realestate",
+   "name": "feely0208-dsh-industry-realestate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "房产销售多出来的那几项：广告承诺、学区表述、明码标价与预售资金监管，别等处罚才发现"
   },
   {
    "repo": "feely0208/dsh-legal-damages",
@@ -100213,6 +100430,13 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "An OAuth adapter for DSH"
+  },
+  {
+   "repo": "fbbDirge/dsh-xiaoheihe",
+   "name": "fbbdirge-dsh-xiaoheihe",
+   "verdict": "incompatible",
+   "stars": 6,
+   "desc": "dhs插件自动刷小黑盒插件"
   },
   {
    "repo": "feeling6667/dsh-purge-pro",
@@ -123903,6 +124127,13 @@
    "desc": "DeepSeek Harness MCP 管理插件"
   },
   {
+   "repo": "feely0208/dsh-cn-appstore-preflight",
+   "name": "feely0208-dsh-cn-appstore-preflight",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh-cn-appstore-preflight · DSH 插件"
+  },
+  {
    "repo": "fishlikewater/dsh-mcp-manager",
    "name": "fishlikewater-dsh-mcp-manager",
    "verdict": "ok",
@@ -127585,11 +127816,25 @@
    "desc": "数据分类分级：查数据有没有分级标注与资产清单（数据安全法 21 条）"
   },
   {
+   "repo": "feely0208/dsh-data-lifecycle",
+   "name": "feely0208-dsh-data-lifecycle",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "数据留存期限检查：数据不该永远躺着，该删的删了没"
+  },
+  {
    "repo": "feely0208/dsh-data-rights",
    "name": "feely0208-dsh-data-rights",
    "verdict": "ok",
    "stars": 1,
    "desc": "个人信息权利：查查阅/复制/删除权有没有真的实现（个保法 45/47/50 条）"
+  },
+  {
+   "repo": "feely0208/dsh-env-audit",
+   "name": "feely0208-dsh-env-audit",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "配置文件审计：.env 有没有被提交、权限对不对、里面是不是明文"
   },
   {
    "repo": "flyhigao/dsh-produced-file-paths",
@@ -129209,11 +129454,95 @@
    "desc": "DeepSeek Harness plugin: browse, export (Markdown/JSON/HTML), tidy up and safely delete session histories"
   },
   {
+   "repo": "feely0208/archive-ai-labeling-dup",
+   "name": "feely0208-archive-ai-labeling-dup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "已合并进 dsh-cn-ai-labeling v0.2.0，本仓库作废（改名脱离市场扫描范围）"
+  },
+  {
    "repo": "feely0208/dsh-agent-scope",
    "name": "feely0208-dsh-agent-scope",
    "verdict": "ok",
    "stars": 0,
    "desc": "Agent 权限边界：查 agent 的工具/文件/网络权限有没有声明、是不是过宽"
+  },
+  {
+   "repo": "feely0208/dsh-badge",
+   "name": "feely0208-dsh-badge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "给用深鲸桌面产出的文档/PR 加「powered by dwh」署名徽章的 DSH skill 插件"
+  },
+  {
+   "repo": "feely0208/dsh-csv-lab",
+   "name": "feely0208-dsh-csv-lab",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "CSV 数据工具箱：切分 / 去重 / 字段校验 / 清洗 / 合并 / 转 Excel，自动识别编码与分隔符"
+  },
+  {
+   "repo": "feely0208/dsh-deliverable-pack",
+   "name": "feely0208-dsh-deliverable-pack",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸交付包：把产出物打成一个可核对、可追溯的交付物（zip + 文件清单 + SHA256 校验）"
+  },
+  {
+   "repo": "feely0208/dsh-deliverable-verify",
+   "name": "feely0208-dsh-deliverable-verify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸交付验收包：按 MANIFEST.json 与 SHA256 校验交付包是否完整、是否被改动"
+  },
+  {
+   "repo": "feely0208/dsh-doc-outline",
+   "name": "feely0208-dsh-doc-outline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸文档结构：检查 Markdown 标题层级跳跃/重复标题/无结构"
+  },
+  {
+   "repo": "feely0208/dsh-doc-qc",
+   "name": "feely0208-dsh-doc-qc",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸文档质检：交付前查占位符/重复段落/超长段落/半角标点/编号断档"
+  },
+  {
+   "repo": "feely0208/dsh-file-organizer",
+   "name": "feely0208-dsh-file-organizer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸文件整理：按类型/年月归档、同名自动加序号、找重复、清空目录（默认只看不动）"
+  },
+  {
+   "repo": "feely0208/dsh-file-rename",
+   "name": "feely0208-dsh-file-rename",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸批量改名：按替换/前缀/后缀/编号规则批量重命名文件，先预览再执行，不覆盖"
+  },
+  {
+   "repo": "feely0208/dsh-guard-core",
+   "name": "feely0208-dsh-guard-core",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸守护 · 通用检查引擎：扫描目录 → 执行规则 → 生成报告（文本/HTML/JSON）"
+  },
+  {
+   "repo": "feely0208/dsh-industry-archive",
+   "name": "feely0208-dsh-industry-archive",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "档案行业专项体检：保管期限、电子档案四性检测、销毁审批、迁移留痕"
+  },
+  {
+   "repo": "feely0208/dsh-industry-construction",
+   "name": "feely0208-dsh-industry-construction",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "工程/建筑行业专项体检：施工资料归档、验收签认、特种作业持证、材料复检，别等验收才发现"
   },
   {
    "repo": "feely0208/dsh-session-artifacts",
@@ -138911,6 +139240,13 @@
    "desc": "给陪伴型 agent 的日记 / 叙事记忆插件（DSH plugin）：每天写几句自己的话，每句能回指当天的消息；只读日记页 + 简笔画/照片 + 接地审计，纯本地不联网"
   },
   {
+   "repo": "Favio8/dsh-plugin-task-notify",
+   "name": "favio8-dsh-plugin-task-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) task-completion notifications: fast native desktop card, exact session jump, in-app toa"
+  },
+  {
    "repo": "fdghdfghdfghd/dsh-github-publish-skill",
    "name": "fdghdfghdfghd-dsh-github-publish-skill",
    "verdict": "pending",
@@ -142647,6 +142983,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Sign in with ChatGPT on deepseek harness"
+  },
+  {
+   "repo": "FanFFF/dsh-qqbot-plus",
+   "name": "fanfff-dsh-qqbot-plus",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "One-install DSH QQ bot bundle: gateway + vision + TTS + Bilibili"
   },
   {
    "repo": "fatatalia/dsh-imessage",
@@ -157937,6 +158280,13 @@
    "desc": "AI 输出信任边界：检查代码有没有直接执行 AI 输出（eval/shell/SQL/路径）"
   },
   {
+   "repo": "feely0208/dsh-capability-audit",
+   "name": "feely0208-dsh-capability-audit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "深鲸能力清单：静态扫描代码，列出执行命令/网络/写文件/读凭据等能力分布与高风险文件"
+  },
+  {
    "repo": "feely0208/dsh-ci-guard",
    "name": "feely0208-dsh-ci-guard",
    "verdict": "ok",
@@ -157963,6 +158313,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "深鲸表格对比：两份 CSV 按关键列比较，列出新增、删除、修改的行"
+  },
+  {
+   "repo": "feely0208/dsh-git-guard",
+   "name": "feely0208-dsh-git-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Git 提交前检查：密钥 / 大文件 / 冲突标记 / 调试残留 / commit 信息规范，可挂 pre-commit"
   },
   {
    "repo": "feely0208/dsh-shell-canvas",
