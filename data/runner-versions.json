@@ -1,13 +1,13 @@
 {
  "schema": "dsh-radar/runner-versions/v1",
- "generated_at": "2026-11-14T19:52:30Z",
- "total": 20467,
+ "generated_at": "2026-11-15T19:54:42Z",
+ "total": 25522,
  "latest": "0.2.2-rc.1",
  "versions": {
   "0.2.2-rc.1": {
-   "ok": 4453,
-   "inc": 826,
-   "fail": 2386
+   "inc": 1399,
+   "ok": 7742,
+   "fail": 3579
   },
   "0.2.1-rc.5": {
    "fail": 394,
