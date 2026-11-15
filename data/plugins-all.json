@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T10:16:33Z",
+ "generated_at": "2026-11-15T10:31:32Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -3396,6 +3396,13 @@
    "verdict": "pending",
    "stars": 3,
    "desc": "让 DeepSeek Harness (DSH) 通过原生工具直接操控本机 Abaqus/CAE 的 Cordis 插件"
+  },
+  {
+   "repo": "fotor-ai/fotor-agent-plugins",
+   "name": "fotor-ai-fotor-agent-plugins",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Fotor Plugin for Agents"
   },
   {
    "repo": "Gaq152/dsh-credits",
@@ -12524,6 +12531,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Patent work methods (skills) for FlowLeap Patent AI agents"
+  },
+  {
+   "repo": "flyhai/dsh-auto-approval-frame",
+   "name": "flyhai-dsh-auto-approval-frame",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Interception and audit frame for DeepSeek Harness: one approval ladder, hash-chained audit, result redaction."
   },
   {
    "repo": "fnnas-labs/fnos-cli-skill",
@@ -35276,6 +35290,13 @@
    "desc": "DSH 插件（显示名：UI 美化）：消息与工作步骤自动折叠、输入框与右侧栏可调、折叠内容可搜索｜Display polish for DeepSeek Harness: fold long messages and wo"
   },
   {
+   "repo": "flyxiu/dsh-simple-tps",
+   "name": "flyxiu-dsh-simple-tps",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH web GUI plugin: per-turn TTFT/TPS readout in the chat action row"
+  },
+  {
    "repo": "forrestahha/dsh-voice-input",
    "name": "dsh-voice-input",
    "verdict": "ok",
@@ -40244,6 +40265,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "A session & token mini dashboard for DSH web"
+  },
+  {
+   "repo": "fomalhaut1998/dsh-image-hunt",
+   "name": "fomalhaut1998-dsh-image-hunt",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Multi-source image search & download for DeepSeek Harness: 19 engines (Baidu/Bing/360/Duitang/Huaban/DuckDuckG"
   },
   {
    "repo": "fonlan/dsh-task-kanban",
@@ -51045,6 +51073,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Workspace color labels for DeepSeek Harness: six colors, browser-local persistence, Chinese/English UI."
+  },
+  {
+   "repo": "fredgeoO/creative-matrix",
+   "name": "fredgeoo-creative-matrix",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "格致矩阵：任意两维交叉、逐格穷推的 DSH 推演面板插件"
   },
   {
    "repo": "FrogFlaying/dsh-onshelf",
@@ -65255,6 +65290,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Prompt building & enhancement toolkit for DeepSeek Harness: Studio + QuickEnhancer"
+  },
+  {
+   "repo": "fuguang12123/dsh-theme-inkstone",
+   "name": "fuguang12123-dsh-theme-inkstone",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "墨白 / Inkstone — an independent monochrome DSH community theme inspired by Minimal E-ink."
   },
   {
    "repo": "fugui6688661/glom-continuity",
@@ -85557,6 +85599,13 @@
    "desc": "—"
   },
   {
+   "repo": "fongap-labs/dsh-plugin",
+   "name": "fongap-labs-dsh-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "fonlan/dsh-apply-patch",
    "name": "fonlan-dsh-apply-patch",
    "verdict": "ok",
@@ -85569,6 +85618,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "foolfu86/dsh-agnes-image",
+   "name": "foolfu86-dsh-agnes-image",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Agnes Image 2.5 Flash image generation and editing for DeepSeek Harness"
   },
   {
    "repo": "ForeverYoungPp/dsh-gentle-engram",
@@ -110055,6 +110111,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "Francesco149/dsh-deep-research",
+   "name": "francesco149-dsh-deep-research",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "A deep-research swarm for DeepSeek Harness that runs on your own consumer GPUs: lanes across local model serve"
   },
   {
    "repo": "fuyue521/dsh-desktop-shortcut",
@@ -159323,11 +159386,25 @@
    "desc": "Command Code 订阅（Go/GOAT/Pro/Max）接入 DeepSeek Harness：档位过滤不隐藏任何模型、可视化配置 API Key、底部用量环、图片输入"
   },
   {
+   "repo": "fuchen9/dsh-token-usage",
+   "name": "fuchen9-dsh-token-usage",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Token-usage panel for DeepSeek Harness: totals every stored session's token spend, broken down per model, prov"
+  },
+  {
    "repo": "fufu1437/dsh-model-commands",
    "name": "fufu1437-dsh-model-commands",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) plugin: declare shell commands in Settings, and every one becomes a tool the model can"
+  },
+  {
+   "repo": "full-aigc-plugins/deckcraft-plugin",
+   "name": "full-aigc-plugins-deckcraft-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Author, inspect, and export editable presentation decks one slide at a time."
   },
   {
    "repo": "full-aigc-plugins/dreamina-design-plugin",
