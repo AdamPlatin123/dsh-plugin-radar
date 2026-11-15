@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3709）
+# 🤖 Agent 能力（3719）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1269,11 +1269,14 @@
 - 🟩 `[可用]` [uckkk-dsh-log-analyzer](https://github.com/uckkk/dsh-log-analyzer) ★1 — 日志分析：解析日志文件，按签名聚合错误/异常/告警并返回结构化清单与上下文
 - 🟩 `[可用]` [uckkk-dsh-session-search](https://github.com/uckkk/dsh-session-search) ★1 — —
 - ⬜ `[待定]` [unknownfish125-dsh-deepmemory](https://github.com/UnKnownFish125/dsh-deepmemory) ★1 — DeepSeek Harness 主体长期记忆插件：语义召回、实体图谱、状态卡、presets、可配置嵌入；任务看板已独立为 dsh-livetaskboard。
+- ⬜ `[待定]` [uos1231234-dsh-plugin-virtuoso-layout](https://github.com/uos1231234/dsh-plugin-virtuoso-layout) ★1 — An AI agent that drives Cadence Virtuoso to draw layout: 12 host-only DeepSeek-Harness tools
+- 🟩 `[可用]` [usermbzlj-dsh-retro-dock](https://github.com/usermbzlj/dsh-retro-dock) ★1 — Instrument dials for DeepSeek Harness: live tokens/sec, context pressure and cache hit.
 - 🟩 `[可用]` [v587d-dsh-multimodal-skill](https://github.com/v587d/dsh-multimodal-skill) ★1 — —
 - 🟩 `[可用]` [valuelesser-pipeline-mode](https://github.com/valuelesser/pipeline-mode) ★1 — LangGraph-style adaptive Planner→Executor→Reviewer pipeline for DSH (DeepSeek Harness)
 - 🟩 `[可用]` [ventisyn-dsh-agent-control](https://github.com/ventisyn/dsh-agent-control) ★1 — DSH 整合插件，包含功能：删除会话，删除单独一轮对话，重启及关闭实例
 - ⬜ `[待定]` [dsh-agent-budget](https://github.com/vibeinging/dsh-agent-budget) ★1 — Native Harness agent-tree token budget plugin
 - 🟩 `[可用]` [victortomaili-agent-cli](https://github.com/VictorTomaili/agent-cli) ★1 — —
+- 🟩 `[可用]` [vincent-chk-dsh-ponytail](https://github.com/Vincent-chk/dsh-ponytail) ★1 — Ponytail (lazy senior dev mode) for DeepSeek Harness: always-on smallest-complete-change rules and six ponytai
 - 🟩 `[可用]` [vitas-dsh-jev-subagent-dispatch](https://github.com/vitas/dsh-jev-subagent-dispatch) ★1 — Cut LLM costs: route routine tasks to cheap subagent models (DeepSeek Harness plugin)
 - ⬜ `[待定]` [vtxf-dsh-session-delete](https://github.com/vtxf/dsh-session-delete) ★1 — —
 - `[空仓监测]` **w210548735-art-dsh-session-collaboration** — GitHub 无此仓库，判定暂不展示
@@ -2241,6 +2244,7 @@
 - 🟩 `[可用]` [turambarr-subagent-orchestrator-dsh](https://github.com/turambarr/subagent-orchestrator-dsh) ★0 — —
 - 🟩 `[可用]` [turanbuturan-dsh-agent-whale-girl](https://github.com/Turanbuturan/dsh-agent-whale-girl) ★0 — —
 - 🟩 `[可用]` [tusharcora-dsh-agent-crew](https://github.com/tusharcora/dsh-agent-crew) ★0 — Agent orchestrator plugin for DeepSeek Harness — a Chief of staff that delegates to specialist subagents
+- 🟩 `[可用]` [twoweeks1995-dsh-subagent-setup](https://github.com/twoweeks1995/dsh-subagent-setup) ★0 — —
 - 🟩 `[可用]` [uckkk-dsh-air-plant](https://github.com/uckkk/dsh-air-plant) ★0 — —
 - 🟩 `[可用]` [uckkk-dsh-api-budget](https://github.com/uckkk/dsh-api-budget) ★0 — 接口延迟预算
 - 🟩 `[可用]` [uckkk-dsh-backup-plan](https://github.com/uckkk/dsh-backup-plan) ★0 — 备份策略
@@ -2281,6 +2285,7 @@
 - 🟩 `[可用]` [uckkk-dsh-study-plan](https://github.com/uckkk/dsh-study-plan) ★0 — —
 - 🟩 `[可用]` [uckkk-dsh-wedding-budget](https://github.com/uckkk/dsh-wedding-budget) ★0 — 婚礼预算分配
 - 🟩 `[可用]` [uckkk-dsh-weekly-plan](https://github.com/uckkk/dsh-weekly-plan) ★0 — 跑量规划
+- 🟩 `[可用]` [ugg-ki-dsh-skill-manager](https://github.com/ugg-ki/dsh-skill-manager) ★0 — Standalone Skills page for DeepSeek Harness: every skill listed with an enable switch at global, project and s
 - 🟩 `[可用]` [ukashi0-dsh-memory-guardian](https://github.com/Ukashi0/dsh-memory-guardian) ★0 — Local-first memory governance for DeepSeek Harness: scoped recall, provenance, conflict review, and a Web dash
 - 🟩 `[可用]` [uloboros-dsh-design-ledger](https://github.com/Uloboros/dsh-design-ledger) ★0 — Turn design documents into a live development progress tree and inject it into DSH session context, so new sessions can pick up where the last one left off.
 - 🟩 `[可用]` [umialpha-dsh-session-groups](https://github.com/umialpha/dsh-session-groups) ★0 — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview)
@@ -2288,6 +2293,7 @@
 - 🟩 `[可用]` [uppercrusteve-dsh-plugin-split-and-solve](https://github.com/uppercrusteve/dsh-plugin-split-and-solve) ★0 — DSH plugin: split batch / multi-subproblem research tasks into small questions and solve them with sub-agents
 - ⬜ `[待定]` [usersx-dsh-automation-center](https://github.com/usersx/dsh-automation-center) ★0 — Root-level automation center for DeepSeek Harness: scheduled tasks, fresh Result Sessions, and cross-workspace
 - 🟩 `[可用]` [ushio155-dsh-verify-cheap](https://github.com/Ushio155/dsh-verify-cheap) ★0 — Ships the verify-cheap skill for DeepSeek Harness: pick the cheapest check that still yields a definite answer
+- ⬜ `[待定]` [vansnc-dsh-feiyu-life](https://github.com/Vansnc/dsh-feiyu-life) ★0 — 大肥鱼的生活线（DSH 插件）：按校历、课表、作息算出现在在干什么，注入两行上下文，带设置页
 - 🟩 `[可用]` [vb2250158-dsh-rabiroute-agent](https://github.com/vb2250158/dsh-rabiroute-agent) ★0 — Open-source DSH plugin: dsh-rabiroute-agent
 - 🟩 `[可用]` [vb2250158-dsh-subagent-output-sanitizer](https://github.com/vb2250158/dsh-subagent-output-sanitizer) ★0 — Open-source DSH plugin: dsh-subagent-output-sanitizer
 - 🟩 `[可用]` [vb2250158-dsh-turn-continuation](https://github.com/vb2250158/dsh-turn-continuation) ★0 — Continue an unfinished interrupted DSH Web agent turn from its saved session context
@@ -3174,6 +3180,8 @@
 - 🟨 `[不兼容]` [trustbaselab-vigiliae](https://github.com/Trustbaselab/vigiliae) ★1 — Vigiliae (更柝) — a self-hosted AI agent team on your own VPS
 - 🟨 `[不兼容]` [trynewthin-dsh-subagent-roles](https://github.com/trynewthin/dsh-subagent-roles) ★1 — Role-based model routing for DeepSeek Harness subagent delegation.
 - 🟨 `[不兼容]` [tttpob-dsh-workspace-overlay](https://github.com/TTTPOB/dsh-workspace-overlay) ★1 — Out-of-tree DeepSeek Harness plugin for workspace-scoped Cordis configuration, agent presets, and MCP routing
+- 🟨 `[不兼容]` [ububwudb-dsh-memory-agent](https://github.com/ububwudb/dsh-memory-agent) ★1 — File-based long-term memory plugin for DeepSeek Harness: fixed read budget, BM25 search, confirmation gate, al
+- 🟨 `[不兼容]` [uruz123321-dsh-plugin-classes](https://github.com/Uruz123321/dsh-plugin-classes) ★1 — Plugin classes for DeepSeek Harness: split installed plugins into mutually invisible classes, so a session mou
 - 🟨 `[不兼容]` [vibeinging-dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) ★1 — Per-agent on-demand tool discovery and progressive schema disclosure for DeepSeek Harness
 - 🟨 `[不兼容]` [vilicvane-dsh-plugin-turn-memory](https://github.com/vilicvane/dsh-plugin-turn-memory) ★1 — Turn-granular context memory for DeepSeek Harness.
 - 🟨 `[不兼容]` [vinzelles-dsh-prompt-enhancer](https://github.com/Vinzelles/dsh-prompt-enhancer) ★1 — DSH 提示词增强插件:输入框强化/还原图标,隔离子会话 agent 重写提示词
@@ -3617,8 +3625,10 @@
 - 🟨 `[不兼容]` [tungpeng-dsh-offpeak-inbox](https://github.com/Tungpeng/dsh-offpeak-inbox) ★0 — Off-peak inbox for DeepSeek Harness: capture thoughts and todos whenever they occur, and the host launches eac
 - 🟨 `[不兼容]` [uabulajiql-dsh-skill-manager](https://github.com/UABULAJIQL/dsh-skill-manager) ★0 — DSH Skill manager plugin
 - 🟨 `[不兼容]` [unintendedz-dsh-session-workspace](https://github.com/Unintendedz/dsh-session-workspace) ★0 — Move cold DeepSeek Harness sessions between registered workspaces
+- 🟨 `[不兼容]` [upxianyu-dsh-approval-latency](https://github.com/UPxianyu/dsh-approval-latency) ★0 — —
 - `[空仓监测]` **urbanrook-agent-project-manager** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [useorgx-orgx-deepseek-harness-plugin](https://github.com/useorgx/orgx-deepseek-harness-plugin) ★0 — OrgX Work Ledger, MCP tools, skills, proof, and governed execution for DeepSeek Harness
+- 🟨 `[不兼容]` [vastplan-dsh-model-team](https://github.com/vastplan/dsh-model-team) ★0 — —
 - 🟨 `[不兼容]` [vb2250158-dsh-jev-context-gate](https://github.com/vb2250158/dsh-jev-context-gate) ★0 — Deprecated: use vb2250158/dsh-smart-selector. Existing versions remain available.
 - 🟨 `[不兼容]` [wang122818-dsh-command-delete](https://github.com/wang122818/dsh-command-delete) ★0 — DSH plugin: slash commands to delete sessions and workspaces (projects)
 - 🟨 `[不兼容]` [wangzhanchao883-dsh-disk-manager](https://github.com/wangzhanchao883/dsh-disk-manager) ★0 — DeepSeek Harness plugin: scan the whole C drive, classify every big item (safe cache / relocatable / junction-
