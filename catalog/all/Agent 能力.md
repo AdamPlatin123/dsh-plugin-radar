@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4409）
+# 🤖 Agent 能力（4413）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -772,6 +772,7 @@
 - 🟩 `[可用]` [dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) ★2 — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS / ASSE) and tax law lookup, plus a sk
 - 🟩 `[可用]` [noct2vis-dsh-mastery-loop](https://github.com/Noct2vis/dsh-mastery-loop) ★2 — An exam-revision loop for DeepSeek Harness: drill until every knowledge point reaches your target accuracy
 - 🟩 `[可用]` [nukum1zumeigu-dsh-whale-memory](https://github.com/Nukum1zuMeigu/dsh-whale-memory) ★2 — 给 DeepSeek Harness 的记忆骨架：人格注入 + 纯 Markdown 记忆系统（长期记忆 / 日记 / 灵感 / 任务卡），自带检索与看图工具
+- 🟩 `[可用]` [oblivionis7999-dsh-session-stats-panel](https://github.com/Oblivionis7999/dsh-session-stats-panel) ★2 — DSH（DeepSeek Harness）Web 侧栏「会话统计」插件：Token/成本估算（按各厂商原厂官方价目）、DSH 运行状态实时采样、按模型分色的每日堆叠柱与环形图
 - 🟩 `[可用]` [oioiphainon-dsh-widget](https://github.com/oioiphainon/dsh-widget) ★2 — 大肥鱼桌面挂件 · 打开 DSH 就出现的任务进度悬浮鱼（透明置顶窗；可选开机自启、可选 DSH 退出后保留；右键可一键隐藏；含审批提醒）
 - 🟩 `[可用]` [session-teleport](https://github.com/omdsh-dev/session-teleport) ★2 — —
 - ⬜ `[待定]` [openagfs-dsh-agfs](https://github.com/openAGFS/dsh-agfs) ★2 — Agent FileBrowser for DeepSeek Harness
@@ -1302,6 +1303,7 @@
 - 🟩 `[可用]` [null5069-dsh-better-stats](https://github.com/null5069/dsh-better-stats) ★1 — DSH Web composer stats strip: official CNY pricing with auto-synced peak/off-peak tiers, per-model accounting,
 - 🟩 `[可用]` [nunchakus888-dsh-turn-budget](https://github.com/Nunchakus888/dsh-turn-budget) ★1 — —
 - 🟩 `[可用]` [nzssm1-dsh-strategy-deployment-review](https://github.com/Nzssm1/dsh-strategy-deployment-review) ★1 — DSH agent preset for rigorous strategy live-deployment testing/evaluation
+- ⬜ `[待定]` [oak-liuhj-dsh-session-rollover](https://github.com/Oak-liuhj/dsh-session-rollover) ★1 — 解决"一个会话聊到几万 token 越来越笨"的问题—按用户轮次自动把长会话"分卷"，像书一样分成第 1 卷、第 2 卷，旧卷留档、新卷带着交接摘要继续干
 - 🟩 `[可用]` [ok541151-cwk](https://github.com/Ok541151/cwk) ★1 — Agent mode picker for DSH: choose an external Agent CLI as the session's default executor, with automatic disc
 - 🟩 `[可用]` [olalaye-dsh-layered-memory](https://github.com/Olalaye/dsh-layered-memory) ★1 — DeepSeek Harness 分层长期记忆插件：瞬时/情景/语义三层记忆，自动捕获、AI 提炼、跨会话召回与可视化管理
 - 🟩 `[可用]` [oldmanding-dsh-ledger-watch](https://github.com/OldManDing/dsh-ledger-watch) ★1 — Session-level lesson ledger watch for DeepSeek Harness: did this session actually consult the ledger and recor
@@ -2546,6 +2548,7 @@
 - 🟩 `[可用]` [oahzob-dsh-blank-handoff](https://github.com/OahzOb/dsh-blank-handoff) ★0 — DeepSeek Harness plugin: a blank Session left behind by a previous connection hands off to a fresh one instead
 - 🟩 `[可用]` [octkwong30-dsh-conversation-jump](https://github.com/OctKwong30/dsh-conversation-jump) ★0 — 让 DeepSeek Harness 在会话内支持对话节点快捷跳转
 - 🟩 `[可用]` [octo-o-o-o-dsh-plugin-prune](https://github.com/Octo-o-o-o/dsh-plugin-prune) ★0 — Prune dead plugins in DeepSeek Harness: real usage telemetry per plugin (calls, error rate, latency, sessions)
+- 🟩 `[可用]` [ogidimitrov-dsh-peak-cost](https://github.com/ogidimitrov/dsh-peak-cost) ★0 — DeepSeek Harness plugin: live peak-hours status and estimated USD spend for the current session, under the com
 - 🟩 `[可用]` [okaditya84-dsh-agent-sentinel](https://github.com/okaditya84/dsh-agent-sentinel) ★0 — Security guard plugin for DeepSeek Harness: secret redaction, a shell command denylist, prompt-injection scann
 - 🟩 `[可用]` [dsh-liao-usage](https://github.com/oliblue-evan/dsh-liao-usage) ★0 — DSH 用量与余额：会话用量、按每笔实际发生时刻与模型计价的费用（峰谷/档位）、账户余额；账号登录无需 API Key
 - ⬜ `[待定]` [olina1ye-internal-skill-workshop-plugin](https://github.com/Olina1Ye/internal-skill-workshop-plugin) ★0 — Team Skill Hub · 团队 Skill 中心：连接 Skill Base，浏览团队共享技能并一键安装到 DeepSeek Harness Web
@@ -4228,6 +4231,7 @@
 - 🟨 `[不兼容]` [nwasvsad-dsh-task-digest](https://github.com/nwasvsad/dsh-task-digest) ★0 — DSH plugin: nightly per-task token, cost, and result digest for the previous day's Sessions
 - 🟨 `[不兼容]` [nwasvsad-dsh-task-plan](https://github.com/nwasvsad/dsh-task-plan) ★0 — DSH plugin: off-peak task plan table that runs pending tasks as concurrent Sessions
 - 🟨 `[不兼容]` [o-oii-dsh-planner-executor](https://github.com/O-OII/dsh-planner-executor) ★0 — DSH 主从协作：主代理规划、决策与验收，支持通用 API 子代理执行、活动视图和安全模型接入
+- 🟨 `[不兼容]` [o-oii-dsh-session-alerts](https://github.com/O-OII/dsh-session-alerts) ★0 — DSH 会话提醒：逐会话未读角标与原生侧栏已完成会话筛选，帮助快速找回已结束的主会话
 - 🟨 `[不兼容]` [octidote-dsh-memory](https://github.com/Octidote/dsh-memory) ★0 — Shared local memory pool for DeepSeek Harness conversations
 - 🟨 `[不兼容]` [oierxjn-dsh-skills-mcp-group-manager](https://github.com/oierxjn/dsh-skills-mcp-group-manager) ★0 — —
 - 🟨 `[不兼容]` [olympianz-dsh-xiaomili](https://github.com/Olympianz/dsh-xiaomili) ★0 — 小米粒（dsh-xiaomili）—— 常驻 chatbox 右侧的金毛秘书插件：实时旁听对话、识别意图、提取关键词/概念、自动生成秘书简报，记忆可持久化

@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7080）
+# 🔌 Web UI 增强（7084）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -630,6 +630,7 @@
 - 🟩 `[可用]` [dsh-theme-taffy](https://github.com/Misaki14987/dsh-theme-taffy) ★5 — 我不是雏草姬（自用
 - 🟩 `[可用]` [molanxuan-del-dsh-voxpolish](https://github.com/molanxuan-del/DSH-VoxPolish) ★5 — 「声琢」VoxPolish —— 把说出来的话打磨成清晰表达：原话/整理后双通道，先说、先改、再发送，全程不碰输入框
 - 🟩 `[可用]` [more-nico-dsh-nico-theme](https://github.com/more-nico/dsh-nico-theme) ★5 — Nico glass theme for the DeepSeek Harness web UI - panel glass rendered by nico-glass-kit
+- 🟩 `[可用]` [oldzhang82-dsh-tps-ttft](https://github.com/oldzhang82/dsh-tps-ttft) ★5 — 每轮对话的 TPS / TTFT 统计：模型耗时、工具耗时、首 token 延迟、输出速度，显示在「本轮用量」面板
 - 🟩 `[可用]` [omdsh-dev-dsh-web-ui-notify](https://github.com/omdsh-dev/dsh-web-ui-notify) ★5 — DeepSeek Harness plugin: dsh-web-ui-notify
 - 🟩 `[可用]` [omsociety-dsh-fishpai](https://github.com/OMSociety/dsh-fishpai) ★5 — DSH 插件：公众号排版工作台，侧栏改字加批注，模型用块级 diff 读懂改动，成品粘贴进公众号编辑器
 - 🟩 `[可用]` [paicat1-dsh-screenshot](https://github.com/paicat1/dsh-screenshot) ★5 — DSH 轻量截图插件：轻 ： 纯 PowerShell 实现，零依赖、零二进制；截图能力独立维护，不随任何上游更新而失效
@@ -995,6 +996,7 @@
 - 🟩 `[可用]` [nonemin-dsh-sidebar-panels](https://github.com/NONEMIN/dsh-sidebar-panels) ★3 — Manage the left global panel list in DeepSeek Harness: show or hide entries, drag to reorder, two-way sync wit
 - 🟩 `[可用]` [nothree-code-voco-input-sh](https://github.com/Nothree-code/voco-input-sh) ★3 — DeepSeek Harness (dsh web) 语音输入插件：集成 VocoType 本地离线识别，识别结果自动插入聊天输入框（自动部署/防重复/持续输入）
 - 🟩 `[可用]` [ns-zzj-dsh-scrcpy-core](https://github.com/ns-zzj/dsh-scrcpy-core) ★3 — DSH 投屏控制的共用核心：界面、设备列表、投屏面板与 AI 工具（配合其他 provider 使用）
+- 🟩 `[可用]` [oghong-dsh-ascii-sharks](https://github.com/OGHong/dsh-ascii-sharks) ★3 — An ASCII ocean behind the New Session screen of DeepSeek Harness — fish schools that flee, orcas that hunt, th
 - 🟩 `[可用]` [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) ★3 — DSH knowledge-base plugin: build audit-able KB packs (references + SQLite FTS5) from md/txt/docx/pdf, determin
 - 🟩 `[可用]` [oxgbl-dsh-deepseek-price](https://github.com/oxgbl/dsh-deepseek-price) ★3 — ⏱️ DeepSeek 价格区间计时工具 \| DeepSeek Harness 插件：侧边栏高峰/空闲定价徽标 + 距半价倒计时 + 点击详情面板 + /price 命令
 - ⬜ `[待定]` [penglai-doll-localwhale](https://github.com/penglai-doll/LocalWhale) ★3 — A Fluent Windows 11 desktop shell for the official DeepSeek Harness WebUI.
@@ -4699,7 +4701,9 @@
 - 🟩 `[可用]` [odelbos-dsh-models-filter](https://github.com/odelbos/dsh-models-filter) ★0 — DeepSeek Harness plugin used to add an input filed to filter the models menu
 - 🟩 `[可用]` [okinging-dsh-running](https://github.com/Okinging/dsh-running) ★0 — 在 DeepSeek Harness（DSH）左侧栏新增「跑步」页面：丹尼尔斯 VDOT 跑力与 E/M/T/I/R 五区配速
 - 🟩 `[可用]` [okra-juice-dsh-rheostat](https://github.com/Okra-juice/dsh-rheostat) ★0 — 把 DSH 模型菜单里的推理等级变成一条滑动变阻器：颜色由灰到蓝，米饭越吃越少
+- 🟩 `[可用]` [oliblue-evan-dsh-liao-sidebar](https://github.com/oliblue-evan/dsh-liao-sidebar) ★0 — 侧栏管家：整理 DeepSeek Harness 侧栏入口、快捷键和自定义链接
 - 🟩 `[可用]` [oliblue-evan-dsh-model-organizer](https://github.com/oliblue-evan/dsh-liao-models) ★0 — 模型菜单整理器：按厂商折叠、悬浮滑出模型面板，支持置顶、最近、厂商内搜索、别名与隐藏
+- 🟩 `[可用]` [olivine13-dsh-image-scope](https://github.com/olivine13/dsh-image-scope) ★0 — Pixel-coordinate readout and one adjustable measuring rectangle for the DeepSeek Harness sidebar image preview
 - 🟩 `[可用]` [omorisunn-dsh-vibrancy](https://github.com/omorisunn/dsh-vibrancy) ★0 — Frosted-glass (acrylic) surfaces for the DeepSeek Harness Desktop app - a plugin-only wallpaper blur, no shell
 - 🟩 `[可用]` [onchainyaotoshi-dsh-plugins](https://github.com/onchainyaotoshi/dsh-plugins) ★0 — Monorepo plugin DeepSeek Harness: dsh-file-explorer — panel file tree + viewer workspace di Web UI
 - 🟩 `[可用]` [oneirictouch-dsh-explorer-editor](https://github.com/oneirictouch/dsh-explorer-editor) ★0 — 讨厌工作区被过度分割的“资料浏览器”+“文本编辑器”，页签方式展示于左侧边栏和主工作区
