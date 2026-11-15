@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3778）
+# 🤖 Agent 能力（3791）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -880,6 +880,7 @@
 - 🟩 `[可用]` [awesomehou-dsh-doudizhu](https://github.com/AwesomeHou/dsh-doudizhu) ★1 — DSH 斗地主插件：在 DeepSeek Harness 里等回复时来一把（PVP → DSH Agent）
 - 🟩 `[可用]` [ayf-master-dsh-worklog](https://github.com/ayf-master/dsh-worklog) ★1 — 将 DSH 会话日志转换为按工作目录分组的每日、每周和每月 Markdown 工作报告
 - 🟩 `[可用]` [az-666316-dsh-prompt-optimizer-button](https://github.com/AZ-666316/dsh-prompt-optimizer-button) ★1 — Prompt optimizer button for the DeepSeek Harness composer
+- 🟩 `[可用]` [baixiaoyin666-dsh-long-memory](https://github.com/baixiaoyin666/dsh-long-memory) ★1 — Automatic long-term memory plugin for DeepSeek Harness · DeepSeek Harness 自动长期记忆插件
 - 🟩 `[可用]` [bass1125-imemory](https://github.com/bass1125/imemory) ★1 — —
 - 🟩 `[可用]` [bauerelizabeth07139-math-rigor](https://github.com/bauerelizabeth07139/math-rigor) ★1 — Auditable mathematical proving for DeepSeek Harness: a local stdio MCP server (23 tools), a bundled workflow s
 - ⬜ `[待定]` [bear0117-dsh-plan-checkup](https://github.com/Bear0117/dsh-plan-checkup) ★1 — Plan Checkup for DeepSeek Harness: checks each step of a plan before you approve it and marks the results on t
@@ -1518,9 +1519,19 @@
 - ⬜ `[待定]` [baihawhite-dsh-plugins-list](https://github.com/BaihaWhite/dsh-plugins-list) ★0 — 个人 DSH（DeepSeek Harness）插件清单：记录 web profile 已安装插件、版本与一键恢复提示词
 - ⬜ `[待定]` [baihejiangnan-dsh-plugin-pack-ai-share-templa](https://github.com/baihejiangnan/dsh-plugin-pack-ai-share-template) ★0 — 用于生成、验证并发布 DSH 插件包的严谨 AI 提示词模板
 - 🟩 `[可用]` [bailong-hakuryu-dsh-engineering-control-plane](https://github.com/bailong-Hakuryu/dsh-engineering-control-plane) ★0 — DeepSeek Harness 工程任务编排与发布门禁插件，支持 /mission 指令、任务路由、计划执行、验证和状态跟踪
+- 🟩 `[可用]` [baizhu66018-dsh-pitfall-memory](https://github.com/baizhu66018/dsh-pitfall-memory) ★0 — Long-term failure memory for DeepSeek Harness: captures tool failures, folds them into reusable lessons with s
+- 🟩 `[可用]` [baldovinmarques391-design-dsh-ban-wait](https://github.com/baldovinmarques391-design/dsh-ban-wait) ★0 — 拒绝会把智能体循环钉住的工具参数：阻塞等待、临场延长超时，以及可选的同步长任务
+- 🟩 `[可用]` [baldovinmarques391-design-dsh-compact](https://github.com/baldovinmarques391-design/dsh-compact) ★0 — 按路由模型上下文窗口的比例触发自动压缩：比例精确可控，不预留固定余量
+- 🟩 `[可用]` [baldovinmarques391-design-dsh-qoder-subagent](https://github.com/baldovinmarques391-design/dsh-qoder-subagent) ★0 — 让 Qoder CN 的免费模型（Qwen3.8-Flash 等）当 DSH 的子代理：逐次选模型、逐次传权限、零提示词注入、全程留痕
+- ⬜ `[待定]` [baldovinmarques391-design-dsh-qwen-mode](https://github.com/baldovinmarques391-design/dsh-qwen-mode) ★0 — 会话模式：Qwen 出主意，工具由 DSH 真执行
 - 🟩 `[可用]` [baobao1994-dsh-skill-cards](https://github.com/baobao1994/dsh-skill-cards) ★0 — —
+- 🟩 `[可用]` [barrierfly-approval-detail-plugin](https://github.com/BarrierFly/approval-detail-plugin) ★0 — 显示申请权限的详细信息
 - 🟩 `[可用]` [basaltfold-douyin-expert](https://github.com/basaltfold/douyin-expert) ★0 — 抖音专家 — 22 个抖音/多平台/海外内容创作与数据分析技能的 DeepSeek Harness 宿主插件
+- 🟩 `[可用]` [basaltfold-xiaohongshu-expert](https://github.com/basaltfold/xiaohongshu-expert) ★0 — 小红书专家 — 11 个小红书内容创作与数据分析技能的 DeepSeek Harness 宿主插件
 - 🟩 `[可用]` [bauerelizabeth07139-dsh-math-rigor](https://github.com/bauerelizabeth07139/dsh-math-rigor) ★0 — DeepSeek Harness plugin: auditable mathematical proving — a local stdio MCP server with 23 tools, a bundled wo
+- 🟩 `[可用]` [bbaz123-dsh-auto-plan-executor](https://github.com/bbaz123/dsh-auto-plan-executor) ★0 — DSH 自动方案执行插件：四条件触发、方案冻结、任务图与步骤账本、门禁预算、完整度闸门与八部分报告
+- 🟩 `[可用]` [bbaz123-dsh-operation-security](https://github.com/bbaz123/dsh-operation-security) ★0 — DSH 操作安全插件：工具 pre-execute 分类、单调 guard、插件生命周期 DPIP 门禁与审计留痕
+- 🟩 `[可用]` [bbo777-dsh-baseline](https://github.com/bbo777/dsh-baseline) ★0 — A fail-closed security baseline plugin for DeepSeek Harness (DSH): policy-gated network egress, a monotonic su
 - 🟩 `[可用]` [beatapi-beatapi-agent-plugin](https://github.com/BeatAPI/beatapi-agent-plugin) ★0 — Cross-host Agent plugin for BeatAPI, the Agent Router for Everything across Model, Data, Tool, and Workspace.
 - 🟩 `[可用]` [belowthetree-dsh-openjev-browser](https://github.com/belowthetree/dsh-openjev-browser) ★0 — Native DSH (cordis) plugin port of the openjev-browser MCP stdio tool: model-driven browser control with a tin
 - 🟩 `[可用]` [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) ★0 — Context-cheap lazy MCP access for DeepSeek Harness
@@ -3331,7 +3342,9 @@
 - 🟨 `[不兼容]` [ayelsh-dsh-zhipu-plan](https://github.com/Ayelsh/dsh-zhipu-plan) ★0 — A DeepSeek Harness plugin: Zhipu coding-plan sign-in, quota and usage panel.
 - 🟨 `[不兼容]` [bai-ziyi-dsh-image-relay](https://github.com/Bai-Ziyi/dsh-image-relay) ★0 — Generate images from a text prompt through any OpenAI-compatible relay and attach them to the DeepSeek Harness
 - 🟨 `[不兼容]` [bakacirno233-dsh-session-delete](https://github.com/BakaCirno233/dsh-session-delete) ★0 — DSH plugin: permanently delete cold sessions from a Settings page (会话管理)
+- 🟨 `[不兼容]` [baldovinmarques391-design-dsh-subagent-gate](https://github.com/baldovinmarques391-design/dsh-subagent-gate) ★0 — 关掉后关于子代理的提示词整块消失，「子智能体」卡片也不再显示；打开后卡片回来，提示词只在会话里确实有子代理时才注入
 - 🟨 `[不兼容]` [bandersnatch0x-amber-protocol](https://github.com/Bandersnatch0x/amber-protocol) ★0 — Amber Protocol: repository-local governance for coding agents, including a DeepSeek Harness (dsh) patch overla
+- 🟨 `[不兼容]` [bbaz123-dsh-openviking-autostart](https://github.com/bbaz123/dsh-openviking-autostart) ★0 — DSH OpenViking 自动启动与恢复插件：会话前确保本机记忆服务可用
 - 🟨 `[不兼容]` [beibeihk-dsh-agent-observability](https://github.com/beibeihk/dsh-agent-observability) ★0 — Community plugin for event-grounded, privacy-first agent observability and reliability analysis in DeepSeek Ha
 - 🟨 `[不兼容]` [bf185003-dsh-favicon-status](https://github.com/bf185003/dsh-favicon-status) ★0 — Browser tab status indicator plugin for DeepSeek Harness (dsh web): paints the document favicon from the sessi
 - 🟨 `[不兼容]` [bigstyle777-dsh-tool-arxiv](https://github.com/bigstyle777/dsh-tool-arxiv) ★0 — arXiv preprint search tool for DeepSeek Harness agents — abstracts only, token-bounded
