@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3984）
+# 🤖 Agent 能力（3995）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1811,11 +1811,18 @@
 - 🟩 `[可用]` [feely0208-dsh-memory-doctor](https://github.com/feely0208/dsh-memory-doctor) ★0 — 深鲸记忆：跨会话热记忆 + 记忆体检/瘦身/记忆包
 - 🟩 `[可用]` [fengling375-dsh-nyan-context-progress](https://github.com/fengling375/dsh-nyan-context-progress) ★0 — dsh-nyan-context-progress plugin project
 - 🟩 `[可用]` [fengshenx-dsh-leader-agent](https://github.com/fengshenx/dsh-leader-agent) ★0 — DSH leader/worker orchestration bundle: project tree, delivery board, worker sessions
+- 🟩 `[可用]` [fengxiforcy-dsh-surrogate-guard](https://github.com/fengxiforcy/dsh-surrogate-guard) ★0 — Neutralize lone UTF-16 surrogates in tool results before they reach the session log — prevents permanent 400 I
 - ⬜ `[待定]` [fenzhenhua-dsh-balance-meter](https://github.com/FenZhenHua/dsh-balance-meter) ★0 — DeepSeek Harness plugin: API 余额与本次会话费用（官方计费）
 - `[空仓监测]` **dsh-agent-arcade** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **dsh-prompt-presets** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [fffengmjl-dsh-workspace-browser](https://github.com/FFFengMJL/dsh-workspace-browser) ★0 — A workspace-first browser for DSH sessions
+- ⬜ `[待定]` [ffffffcn-dsh-intent-translator](https://github.com/FFFFFFcn/dsh-intent-translator) ★0 — Intent Translator for DeepSeek Harness: turn plain-language drafts into structured prompts with a plain-to-pro
+- 🟩 `[可用]` [fireawa-dsh-convo-tally](https://github.com/Fireawa/dsh-convo-tally) ★0 — DSH 侧栏会话记账：本对话的今日 / 累计花费，人民币与美元双币，按官方峰谷价目表在每次模型调用时结算
+- ⬜ `[待定]` [firehuzi-scalpel-downloadx](https://github.com/firehuzi/scalpel-downloadx) ★0 — 刃研社-DownloadX：本地优先、无广告、可被 Agent 调用的下载器（多连接断点续传 / SHA-256 / 视频站点分流）
+- 🟩 `[可用]` [flashsoft-dsh-magpie-skillsmap](https://github.com/flashsoft/dsh-magpie-skillsmap) ★0 — Pick Magpie skills by scene and inject their instructions into the current DSH conversation.
 - 🟩 `[可用]` [fleey-dsh-workspace-capabilities](https://github.com/Fleey/dsh-workspace-capabilities) ★0 — DeepSeek Harness plugin: choose which skills and MCP servers each workspace may use
 - `[空仓监测]` **floatinglifetl-dsh-plugin-session-manager-cus** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [flowfire-dsh-plugin-agent-groups](https://github.com/flowfire/dsh-plugin-agent-groups) ★0 — A DSH (DeepSeek Harness) plugin that pulls multiple live sessions into one collaboration group and relays thei
 - 🟩 `[可用]` [flowleap-ai-flowleap-methods](https://github.com/flowleap-ai/flowleap-methods) ★0 — Patent work methods (skills) for FlowLeap Patent AI agents
 - 🟩 `[可用]` [fnnas-labs-fnos-cli-skill](https://github.com/fnnas-labs/fnos-cli-skill) ★0 — —
 - ⬜ `[待定]` [forcemind-dsh-atelier](https://github.com/ForceMind/dsh-atelier) ★0 — Local-first DeepSeek Harness workbench: compact usage and cost metrics, prompt library, activity text, and opt
@@ -3609,13 +3616,17 @@
 - 🟨 `[不兼容]` [fengyufengzi-dsh-local-diagnostics](https://github.com/fengyufengzi/dsh-local-diagnostics) ★0 — Privacy-first in-memory diagnostics for DeepSeek Harness
 - 🟨 `[不兼容]` [fentz26-dsh-goodjob](https://github.com/fentz26/dsh-goodjob) ★0 — Multi-agent operations workspace for DeepSeek Harness.
 - 🟨 `[不兼容]` [ferien-sein-dsh-dajiangjun](https://github.com/Ferien-sein/dsh-dajiangjun) ★0 — 大管家 — DeepSeek Harness 的会话接力：写档 / 建会话 / 投递，让新会话自己开工
+- 🟨 `[不兼容]` [feverzhong-dsh-liya-skills](https://github.com/feverZHONG/dsh-liya-skills) ★0 — dsh-liya-skills v0.2.0 · 技能库接入 DSH + 设置页技能管理（本地浏览/markdown 预览/适配稿同步）· 适配 DSH 0.2.1-rc.2
+- 🟨 `[不兼容]` [fffengmjl-dsh-plan-execute](https://github.com/FFFengMJL/dsh-plan-execute) ★0 — Same-session DSH plan approval extension: model and reasoning-effort selection, safe pre-plan compaction, and
 - 🟨 `[不兼容]` [crystra-execution](https://github.com/firestige/crystra-execution) ★0 — —
 - 🟨 `[不兼容]` [crystra-dsh](https://github.com/firestige/crystra-dsh) ★0 — The single dsh-crystra plugin for DeepSeek Harness: workflow execution, analysis and deterministic initializat〔📦〕
 - 🟨 `[不兼容]` [fireworksss-leisuretimequeue](https://github.com/fireworksss/LeisureTimeQueue) ★0 — leisure-time-queue是一个基于 DeepSeek Harness 的本地闲时任务队列插件
 - 🟨 `[不兼容]` [fishsb-dsh-mana](https://github.com/Fishsb/DSH-Mana) ★0 — Mana（末那识）：认知架构模拟与长期 AI 助手 —— 基于人类记忆架构的认知内核（DSH 插件集）
 - 🟨 `[不兼容]` [fjzzwxp-dsh-mnemosyne-memory](https://github.com/fjzzwxp/dsh-mnemosyne-memory) ★0 — Mnemosyne 永久记忆插件 - 为 DSH 提供长期记忆、向量搜索和 LLM 反思功能，对标 Hindsight Coding Agents
+- 🟨 `[不兼容]` [flaukowski-dsh-plugin-kannaka](https://github.com/flaukowski/dsh-plugin-kannaka) ★0 — Kannaka memory, swarm and KAX compute tools for DeepSeek Harness (dsh-plugin)
 - 🟨 `[不兼容]` [flowingboy-dsh-local-perf](https://github.com/flowingboy/dsh-local-perf) ★0 — Durable DeepSeek Harness bundle: local-model performance tuning as a re-installable plugin layer (compaction,
 - 🟨 `[不兼容]` [fnckerpoi-dsh-plugin-nexus-sdlc](https://github.com/Fnckerpoi/dsh-plugin-nexus-sdlc) ★0 — Nexus spec-driven development agent preset for DeepSeek Harness
+- 🟨 `[不兼容]` [fomalhaut1998-dsh-ai-research](https://github.com/fomalhaut1998/dsh-ai-research) ★0 — AI research toolkit for DeepSeek Harness: model release radar, model benchmark & community report, AI news dig
 - `[空仓监测]` **frank-nf-dsh-memory-nexus** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [friendshl-dsh-agent-evolution](https://github.com/FriendsHL/dsh-agent-evolution) ★0 — Preset-composed Agent experiments and evolution primitives for DeepSeek Harness
 - 🟨 `[不兼容]` [frozo-ai-dsh-budget](https://github.com/frozo-ai/dsh-budget) ★0 — Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback
