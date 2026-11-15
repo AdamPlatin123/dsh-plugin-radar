@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4408）
+# 🤖 Agent 能力（4409）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -551,6 +551,7 @@
 - 🟩 `[可用]` [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) ★3 — dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, and lifecycle for temp
 - 🟩 `[可用]` [mrbeandev-dsh-hypercompact](https://github.com/mrbeandev/dsh-hypercompact) ★3 — Deterministic, zero-LLM, byte-budget context compaction for DeepSeek Harness, with byte-exact recall of compac
 - 🟩 `[可用]` [mrmaii-knotline](https://github.com/MrMaii/knotline) ★3 — 把 Agent 从对话框搬到一张图上——连线即执行 / Orchestrate AI agents by drawing lines
+- ⬜ `[待定]` [nanshine-tunetune](https://github.com/nanshine/tunetune) ★3 — A human–agent research workbench for training, evaluating, and iterating on small models for specific tasks.
 - 🟩 `[可用]` [neomei-dsh-roundtable](https://github.com/NeoMei/dsh-roundtable) ★3 — Roundtable (圆桌讨论) multi-agent discussion plugin for DeepSeek Harness
 - 🟩 `[可用]` [neutronslime-dsh-preset-switcher-fork](https://github.com/neutronslime/dsh-preset-switcher-fork) ★3 — Fork of jeffcwj/dsh-preset-switcher updated for DSH 0.2.1: switch the current session agent preset (mode) at a
 - 🟩 `[可用]` [neutronstar714-dsh-budget-watcher](https://github.com/NeutronStar714/dsh-budget-watcher) ★3 — 适配 DeepSeek Harness 的预算监视器插件，让 API 花费变透明
