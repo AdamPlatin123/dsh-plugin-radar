@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4290）
+# 🤖 Agent 能力（4302）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -749,6 +749,7 @@
 - 🟩 `[可用]` [mingbing-get-holdrein](https://github.com/Mingbing-get/holdRein) ★2 — Hold Rein 是一个本地优先、模型无关、可通过插件扩展的 AI Agent 工作台
 - 🟩 `[可用]` [mirelconstantin-dsh-ponytail-sync](https://github.com/mirelconstantin/dsh-ponytail-sync) ★2 — Ponytail lazy-senior-dev mode as a native DeepSeek Harness skill, system-prompt section and six slash commands
 - 🟩 `[可用]` [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) ★2 — DeepSeek Harness (DSH) host plugin wrapping the Playwright CLI: install browsers, run tests, open the HTML rep
+- 🟩 `[可用]` [mnemosyneos-dsh-agent-llm](https://github.com/MnemosyneOS/dsh-agent-llm) ★2 — DeepSeek Harness 插件：把本机已登录的 WorkBuddy / WorkBuddy AI / Hermes Agent 大模型接入 DSH 模型库，显示与 Agent 一致的模型名称、积分倍率与免费额度
 - 🟩 `[可用]` [moeblack-dsh-minimal-web](https://github.com/Moeblack/dsh-minimal-web) ★2 — DSH 插件：极简模式（网络）preset——极简双工具编码 Agent + 网络搜索 + AGENTS.md 加载 \| Minimal-mode agent preset with web search and AGE
 - ⬜ `[待定]` [dsh-subagent-model](https://github.com/Momojie-S/dsh-subagent-model) ★2 — DSH plugin: subagent_model tool — delegate to a subagent with a per-call selected model route (minimal fork of
 - ⬜ `[待定]` [moonquake-9-dsh-feiyu-desktop](https://github.com/Moonquake-9/dsh-feiyu-desktop) ★2 — Desktop companion for DeepSeek Harness / DeepSeek Harness 桌面小鲸鱼挂件：跟随心情、免开窗口聊天、情绪与温层记忆
@@ -1259,10 +1260,13 @@
 - 🟩 `[可用]` [mihomooo-dsh-persona-panel](https://github.com/mihomooo/dsh-persona-panel) ★1 — Per-workspace persona, user profile, event and diary memory for DeepSeek Harness, with a panel to review and r
 - 🟩 `[可用]` [mikulo-dsh-prompt-switcher](https://github.com/mikulo/dsh-prompt-switcher) ★1 — DeepSeek Harness (DSH) plugin: pick a local .md prompt template with / when starting a new conversation; it bi
 - ⬜ `[待定]` [milestone-17-dsh-bao](https://github.com/milestone-17/dsh-bao) ★1 — DSH 宝 — TRAE-宝-style personal assistant for DeepSeek Harness: cross-session long-term memory, a dedicated assi
+- 🟩 `[可用]` [minggle-dsh-token-breakdown-stats](https://github.com/Minggle/dsh-token-breakdown-stats) ★1 — dsh plugin: replaces the composer-dock stats pill so a session's token total covers the main agent plus every
+- 🟩 `[可用]` [minghuanyue-dsh-iter-memory](https://github.com/MingHuanYue/dsh-iter-memory) ★1 — 记的不是事，是我自己的状态——会自己退回基线的那种
 - 🟩 `[可用]` [minyang2020-dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) ★1 — DeepSeek Harness (dsh) plugin: automatic session handoff when a session keeps hitting 429 TPM rate limits — ca
 - 🟩 `[可用]` [miseryrua-dsh-wb-cron](https://github.com/miseryrua/dsh-wb-cron) ★1 — DeepSeek Harness 无人值守定时任务调度器：cron/固定间隔/一次性三种调度，到点在 web profile 进程内拉起全新 root agent 执行任务指令，每任务可钉模型与 Agent 预设（预设被
 - ⬜ `[待定]` [mizumic-dsh-system-fingerprint](https://github.com/Mizumic/dsh-system-fingerprint) ★1 — 会话头部的模型检查点徽标：探测 system_fingerprint / 网关请求级溯源 / 响应元数据存证（原始字节默认不落盘）
 - 🟩 `[可用]` [mjorgin-skill-bartender](https://github.com/MJorgin/skill-bartender) ★1 — Task-to-skill pairing for DeepSeek Harness — pours the minimal set (usually one; zero when plain tools suffice
+- 🟩 `[可用]` [mkoalade-dsh-icloud-sync](https://github.com/mkoalade/dsh-icloud-sync) ★1 — Sync DSH profiles, plugin manifests, and skills between Macs through iCloud Drive.
 - 🟩 `[可用]` [dsh-open-in-finder](https://github.com/moduqishi/dsh-open-in-finder) ★1 — DeepSeek Harness (dsh web) plugin: one-click open-in-Finder icon in the session header.
 - 🟩 `[可用]` [moonlin1213-dsh-agent-sound-alert](https://github.com/moonlin1213/dsh-agent-sound-alert) ★1 — macOS sound alerts for DeepSeek Harness agent lifecycle events
 - 🟩 `[可用]` [mrelysium-convoport](https://github.com/MrElysium/convoport) ★1 — Capture AI conversations from any web chat, keep them 100% local, and port them into any agent as live session
@@ -2394,20 +2398,25 @@
 - 🟩 `[可用]` [mikumikudaifans-privateagentskills](https://github.com/MikumikuDAIFans/PrivateAgentSkills) ★0 — —
 - 🟩 `[可用]` [milaro001-dsh-chat-source-tracer](https://github.com/Milaro001/dsh-chat-source-tracer) ★0 — DSH 对话溯源助手：核对 AI 回答依据，跨会话搜索，保存摘录并引用原文追问
 - `[空仓监测]` **milbaxter-dsh-critique-loop** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [milliontimes-dsh-preset-route](https://github.com/Milliontimes/dsh-preset-route) ★0 — DSH agent preset: reads the live agent-preset roster, picks the preset a task should go to, and drafts a paste
+- ⬜ `[待定]` [mindie-agent-mindie-agent-dsh](https://github.com/mindie-agent/mindie-agent-dsh) ★0 — MindIE Agent for DeepSeek Harness: Ascend NPU knowledge and remote-dev tools composed from stable DSH plugins.
 - `[空仓监测]` **ming-14-download-by-mirror-skill** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-vuln-search-skill** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-weather-skill** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [minglink-dsh-community](https://github.com/Minglink/dsh-community) ★0 — DeepSeek Harness (DSH) 官方与开源生态「插件与 Skill 双生态市场」一键安装与资产管理中心 (Plugins & Skills Market)
 - 🟩 `[可用]` [minglink-dsh-plugin-agent-workflow](https://github.com/Minglink/dsh-plugin-agent-workflow) ★0 — DeepSeek Harness Agent Workflow 工作流引擎插件
 - 🟩 `[可用]` [mingshi350-kiwix-wiki](https://github.com/MingShi350/kiwix-wiki) ★0 — DSH Host 插件：通过本地 kiwix-serve + ZIM 离线查询维基百科，给无网/内网环境的 Agent 补上事实检索能力
 - `[空仓监测]` **minhaoli-dsh-session-manager** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [minhaoli-dsh-session-query-vector](https://github.com/minhaoli/dsh-session-query-vector) ★0 — Semantic session search backend for DSH, backed by Ollama or any OpenAI-compatible embedding endpoint.
 - 🟩 `[可用]` [misaka15527-dsh-prompt-enhancer](https://github.com/misaka15527/dsh-prompt-enhancer) ★0 — —
 - 🟩 `[可用]` [misakalemon-dsh-session-backup](https://github.com/misakalemon/dsh-session-backup) ★0 — DSH 会话远程备份插件：把会话日志、附件与元数据增量备份到 WebDAV 或本地目录（mirror/zip 双形态、版本保留、排除规则、限速重试、SHA-256 校验、一键恢复）
+- 🟩 `[可用]` [misakiy1333-dsh-prompt-optimizer](https://github.com/Misakiy1333/dsh-prompt-optimizer) ★0 — A composer button for DeepSeek Harness: rewrites your draft into a structured prompt and puts it back in the i
 - 🟩 `[可用]` [miseryrua-dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) ★0 — 给 DSH 里的 Agent 一份跨会话长期记忆：真值源是工作区里的纯 Markdown，无向量库、无外部服务、零运行时依赖；每回合按预算分层注入 systemPrompt，后台自动流水 → 提炼 → 整理 → 治理
 - 🟩 `[可用]` [misrightw-dsh-agent-teams](https://github.com/MisRightW/dsh-agent-teams) ★0 — —
 - 🟩 `[可用]` [missher12-dsh-session-bridge](https://github.com/Missher12/Missher-DSH-Session-Bridge) ★0 — Independent Missher plugin: current source, installable bundle and documentation.；桌面入口与其他插件见主页链接
 - ⬜ `[待定]` [missher12-missher-mse-learning](https://github.com/Missher12/Missher-MSE-Learning) ★0 — Missher MSE Learning: standalone learning product for DSH and other agents; no personal learning data.；桌面入口与其他
 - ⬜ `[待定]` [mknecar-dsh-hudv1-0-0](https://github.com/Mknecar/dsh_HUDV1.0.0) ★0 — 做了一个DeepSeek Harness 的右上角悬浮任务台，它能够实时显示当前时段是波峰（贵/红）还是波谷（便宜/绿），还提供了模型、工具、Agent、定价与 24 小时的峰谷轨迹
+- 🟩 `[可用]` [mkpoli-dsh-session-rename](https://github.com/mkpoli/dsh-session-rename) ★0 — DeepSeek Harness tool: rename the current session from the agent.
 - 🟩 `[可用]` [mkterxiaov-dsh-pharma-review](https://github.com/MKTerXiaoV/dsh-pharma-review) ★0 — 市场部体检 · DeepSeek Harness 插件：证据、分析、洞察、关键信息、活动五个医药市场体检 skill，加五关总体检和体检档案
 - 🟩 `[可用]` [mlte0907-dsh-brake](https://github.com/Mlte0907/dsh-brake) ★0 — DSH 死循环刹车器：检测 agent 会话中的方法循环（同类工具高频调用），注入警告或拒绝执行
 - 🟩 `[可用]` [modole-dsh-plugin-skills-laoboshi](https://github.com/Modole/dsh-plugin-skills-laoboshi) ★0 — 在 DSH Web 中管理项目级与用户级 Agent Skills
@@ -3594,6 +3603,7 @@
 - 🟨 `[不兼容]` [mkt-agents-dsh-desktop](https://github.com/mkt-agents/dsh-desktop) ★1 — 基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端
 - 🟨 `[不兼容]` [mm998li-dsh-dock-vitals](https://github.com/MM998LI/dsh-dock-vitals) ★1 — Live CPU, memory and GPU readout in the DeepSeek Harness composer status bar.
 - 🟨 `[不兼容]` [modesthub-dsh-sensenova-vision-aid](https://github.com/modesthub/dsh-sensenova-vision-aid) ★1 — Unofficial DeepSeek Harness vision plugin: when the main model receives an image-recognition request, it spawn
+- 🟨 `[不兼容]` [mola-maker-dsh-kit](https://github.com/Mola-maker/dsh-kit) ★1 — DeepSeek Harness kit: multi-channel deep search, workflow skills, memory-plugin benchmark
 - 🟨 `[不兼容]` [mr-elk-dsh-composer-assistant](https://github.com/Mr-Elk/dsh-composer-assistant) ★1 — DSH 输入助手：下一句预测、输入续写、提示词优化
 - 🟨 `[不兼容]` [mrevenger-dsh-skillhub-market](https://github.com/MRevenger/dsh-skillhub-market) ★1 — Skillhub skill market for DeepSeek Harness — search, filter, download and manage Skillhub skills.
 - 🟨 `[不兼容]` [mrme000m-dsh-prime-orchestrator](https://github.com/mrme000m/dsh-prime-orchestrator) ★1 — Prime Agent orchestration for DeepSeek Harness (dsh): delegation engine, prime_agent tool, Web fleet column, s
@@ -4092,7 +4102,9 @@
 - 🟨 `[不兼容]` [meliodascz89-dsh-agent-voice](https://github.com/meliodascz89/dsh-agent-voice) ★0 — —
 - 🟨 `[不兼容]` [mentho7-dsh-route](https://github.com/mentho7/dsh-route) ★0 — Bounded agent-team orchestration for DeepSeek Harness, with attempt isolation and a local dashboard
 - 🟨 `[不兼容]` [miaoxingyunduo-dsh-session-cost](https://github.com/miaoxingyunduo/dsh-session-cost) ★0 — DSH plugin: per-conversation token and money accounting — session_cost / list_session_costs tools, the /cost c
+- 🟨 `[不兼容]` [miketako3-dsh-fracture](https://github.com/miketako3/dsh-fracture) ★0 — A DSH plugin that watches its own sessions, keeps what it learns, and changes the harness it runs in — but onl
 - 🟨 `[不兼容]` [mingyuemiss-dsh-memory](https://github.com/mingyuemiss/dsh-memory) ★0 — 给 DSH 里的陪伴角色一条不会断的记忆线：近两天快速回忆、艾宾浩斯遗忘曲线、分类检索、分层压缩与 D 盘人生镜像
+- 🟨 `[不兼容]` [minhaoli-dsh-session-search](https://github.com/minhaoli/dsh-session-search) ★0 — Find bar for the DSH conversation body: a header button opens a search panel that lists matches and scrolls to
 - 🟨 `[不兼容]` [minyin51-dsh-memory-palace](https://github.com/minyin51/dsh-memory-palace) ★0 — —
 - 🟨 `[不兼容]` [missher12-dsh-context-manager](https://github.com/Missher12/Missher-DSH-Context-Manager) ★0 — Independent Missher plugin: current source, installable bundle and documentation.；桌面入口与其他插件见主页链接
 - 🟨 `[不兼容]` [Missher-DSH-Memory](https://github.com/Missher12/Missher-DSH-Memory) ★0 — —
