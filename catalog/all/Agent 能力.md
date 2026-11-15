@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3974）
+# 🤖 Agent 能力（3979）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1009,6 +1009,7 @@
 - 🟩 `[可用]` [fanls05-dsh-desktop-notifications](https://github.com/FANLS05/dsh-desktop-notifications) ★1 — Windows toast notifications for DeepSeek Harness (dsh): approvals, questions, run completion, errors and sign-
 - 🟩 `[可用]` [fantastyqaq-dsh-doxygen](https://github.com/FantastyQAQ/dsh-doxygen) ★1 — Doxygen comment workflow for C/C++ (including Qt) sources: file headers, functions, module groups, trailing an
 - 🟩 `[可用]` [faukwaa-dsh-gap-feed](https://github.com/faukwaa/dsh-gap-feed) ★1 — dsh plugin: during long agent thinking, posts a hot-news or reminder message directly into the conversation st
+- 🟩 `[可用]` [feely0208-dsh-approval-ledger](https://github.com/feely0208/dsh-approval-ledger) ★1 — 审批台账：记录 agent 每次需要审批的操作（风险/决策/结果），gate 模式可拦高危动作
 - 🟩 `[可用]` [feely0208-dsh-mcp-audit](https://github.com/feely0208/dsh-mcp-audit) ★1 — MCP 服务安全：审计 MCP 配置里的未锁定远端包、明文端点、可执行本地服务
 - 🟩 `[可用]` [fflow2023-dsh-usage-cost](https://github.com/fflow2023/dsh-usage-cost) ★1 — Lightweight DeepSeek Harness plugin: per-session + global API cost stats (peak/off-peak pricing)
 - 🟩 `[可用]` [findshan-dsh-agent-memory](https://github.com/findshan/dsh-agent-memory) ★1 — Self-evolving memory for DeepSeek Harness: capture → dream consolidation → retrieval injection → evolve
@@ -1801,6 +1802,9 @@
 - 🟩 `[可用]` [fatatalia-dsh-ledger](https://github.com/fatatalia/dsh-ledger) ★0 — dsh 只读记账仪表盘插件：会话页「记账」Tab 展示 beancount 账本月度快照（收支总览/资产结构动态分组/支出分类/最近交易），只读，复用 ledger.py，Fava 保留做深度分析
 - 🟩 `[可用]` [fatherplus-dsh-superpowers-zh](https://github.com/fatherplus/dsh-superpowers-zh) ★0 — Core Superpowers-zh engineering skills for DeepSeek Harness
 - ⬜ `[待定]` [fayelin12-dsh-workspace-prompts](https://github.com/Fayelin12/dsh-workspace-prompts) ★0 — Per-workspace custom system prompts for DeepSeek Harness (DSH): one active prompt per workspace, captured into
+- 🟩 `[可用]` [feely0208-dsh-agent-permission-audit](https://github.com/feely0208/dsh-agent-permission-audit) ★0 — —
+- 🟩 `[可用]` [feely0208-dsh-agent-policy](https://github.com/feely0208/dsh-agent-policy) ★0 — 策略声明 vs 实际执行：说好不干的事干了没，干了的有没有说
+- 🟩 `[可用]` [feely0208-dsh-decision-review](https://github.com/feely0208/dsh-decision-review) ★0 — 决策复盘：把审批台账整理成可复盘报告——关键决策、被拒原因、待复审项与复盘问题清单
 - 🟩 `[可用]` [fengling375-dsh-nyan-context-progress](https://github.com/fengling375/dsh-nyan-context-progress) ★0 — dsh-nyan-context-progress plugin project
 - 🟩 `[可用]` [fengshenx-dsh-leader-agent](https://github.com/fengshenx/dsh-leader-agent) ★0 — DSH leader/worker orchestration bundle: project tree, delivery board, worker sessions
 - ⬜ `[待定]` [fenzhenhua-dsh-balance-meter](https://github.com/FenZhenHua/dsh-balance-meter) ★0 — DeepSeek Harness plugin: API 余额与本次会话费用（官方计费）
@@ -3596,6 +3600,7 @@
 - 🟨 `[不兼容]` [fan969690-dsh-web-plugins](https://github.com/fan969690/dsh-web-plugins) ★0 — 🧩 DSH 模块中心开源框架:右侧模块化桌面,宫格排布任意模块,自定义尺寸 1x1~2x6,长按拖动换位,开放模块协议(插件注册即显示)+ 插件社区 + Agent 社区(270 中文预设)
 - 🟨 `[不兼容]` [fatatalia-dsh-dreaming](https://github.com/fatatalia/dsh-dreaming) ★0 — dsh 梦境记忆整合插件：凌晨随机窗口把记忆梦境化（裸上下文 narrative 纯梦写作）+ 信号驱动洞察晋升 + MEMORY.md 预算管理，随 dsh web 启停
 - 🟨 `[不兼容]` [fatatalia-dsh-turn-guard](https://github.com/fatatalia/dsh-turn-guard) ★0 — dsh turn-guard plugin: per-step timeout for agent turns (防模型退化死循环)
+- 🟨 `[不兼容]` [fcz20060311-dsh-life-planner](https://github.com/fcz20060311/dsh-life-planner) ★0 — 拾光笺 · DSH 生活时间管理插件：待办提醒 / 倒计时 / 日历 / 专注计时 / 热力图
 - 🟨 `[不兼容]` [fengyufengzi-dsh-local-diagnostics](https://github.com/fengyufengzi/dsh-local-diagnostics) ★0 — Privacy-first in-memory diagnostics for DeepSeek Harness
 - 🟨 `[不兼容]` [fentz26-dsh-goodjob](https://github.com/fentz26/dsh-goodjob) ★0 — Multi-agent operations workspace for DeepSeek Harness.
 - 🟨 `[不兼容]` [ferien-sein-dsh-dajiangjun](https://github.com/Ferien-sein/dsh-dajiangjun) ★0 — 大管家 — DeepSeek Harness 的会话接力：写档 / 建会话 / 投递，让新会话自己开工

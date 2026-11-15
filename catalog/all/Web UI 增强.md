@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6416）
+# 🔌 Web UI 增强（6425）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3413,9 +3413,17 @@
 - 🟩 `[可用]` [farchanjo-caveman-plugin-dsh](https://github.com/farchanjo/caveman-plugin-dsh) ★0 — Caveman voice for DSH (terminal and web): terse replies via bundled skills, a /caveman toggle and a TUI badge
 - ⬜ `[待定]` [faruzancn-dsh-memory-cloud](https://github.com/faruzanCN/dsh-memory-cloud) ★0 — Visualize all DSH session memories as an interactive 3D nebula.
 - 🟩 `[可用]` [farzin-cs-deepseek-harness-rtl](https://github.com/Farzin-CS/DeepSeek-Harness-RTL) ★0 — Right-to-left (Persian/Arabic/Hebrew) text support for the DeepSeek Harness Web UI: per-block bidi direction,
+- 🟩 `[可用]` [fataldeity-lab-dsh-gpu-cleanup](https://github.com/fataldeity-lab/dsh-gpu-cleanup) ★0 — DSH Web UI plugin: one-click VRAM release — unloads llama-swap models and sweeps stale local engines while kee
 - 🟩 `[可用]` [faust-zyb-dsh-models-sort](https://github.com/Faust-zyb/dsh-models-sort) ★0 — 给 DSH 设置页的模型供应商列表加 CC Switch 式拖拽排序与隐藏：松手顺序立即生效并写回 cordis.patch.yml（自动备份），可整行隐藏供应商并从聊天框模型选择器移除
+- ⬜ `[待定]` [faxble-dsh-open-with-vscode](https://github.com/faxble/dsh-open-with-vscode) ★0 — 在 VS Code 中打开当前工作区：修复内置 open-in-app 因 ELECTRON_RUN_AS_NODE 环境变量泄漏而无法启动 VS Code（HTTP 502）的问题
+- 🟩 `[可用]` [fdghdfghdfghd-dsh-balance-pill](https://github.com/fdghdfghdfghd/dsh-balance-pill) ★0 — DeepSeek Harness 常驻余额胶囊：右下角一眼看到 DeepSeek 账户余额，不碰凭据、不需要 API Key
 - 🟩 `[可用]` [fec3-pearlite-bearing-notes](https://github.com/FeC3-pearlite/bearing-notes) ★0 — DeepSeek Harness 文献笔记插件：笔记汇总到一个 Word，右侧栏调用模型审阅并提示相关知识（轴承钢滚动接触疲劳）
 - 🟩 `[可用]` [fectivnfy112357-dsh-dual-plugin-guide](https://github.com/Fectivnfy112357/dsh-dual-plugin-guide) ★0 — Dual-format plugin development guide: DSH static plugin package (dsh plugin --profile add) + Agent Plugins 1.0
+- 🟩 `[可用]` [feely0208-dsh-doc-batch](https://github.com/feely0208/dsh-doc-batch) ★0 — 深鲸文档批量处理：Word / Excel / PDF 一次处理整目录（替换、提取、合并、拆分、导出），带面板
+- 🟩 `[可用]` [feely0208-dsh-ecosystem-radar](https://github.com/feely0208/dsh-ecosystem-radar) ★0 — DSH 插件：把生态雷达快照做成面板 —— 近 7 天新增 / 行业供给 / 每日增量报告
+- 🟩 `[可用]` [feely0208-dsh-enterprise-suite](https://github.com/feely0208/dsh-enterprise-suite) ★0 — 深鲸企业审计套件：审批台账 + 决策复盘 + 审计报告 + 定时复盘，一个授权全部可用（商业授权，14 天试用）
+- 🟩 `[可用]` [feely0208-dsh-guard-suite](https://github.com/feely0208/dsh-guard-suite) ★0 — 跑一遍全部适用的检查，出一份按模块分组的总报告
+- 🟩 `[可用]` [feely0208-dsh-industry-checkup](https://github.com/feely0208/dsh-industry-checkup) ★0 — 深鲸行业合规体检：一个面板管五个行业（医疗/财税/招聘/制造/房产）
 - 🟩 `[可用]` [feely0208-dsh-legal-cite-check](https://github.com/feely0208/dsh-legal-cite-check) ★0 — 深鲸引用核验：离线核验法律文书里的法条/司法解释/案号引用——失效旧法、越界条号、被取代解释直接标红；随包 1513 部现行法规索引，带 DSH 面板
 - 🟩 `[可用]` [feihe027-dsh-client-ui-quickfill](https://github.com/feihe027/dsh-client-ui-quickfill) ★0 — —
 - 🟩 `[可用]` [feiyang-dev-dsh-mobile-remote](https://github.com/feiyang-dev/dsh-mobile-remote) ★0 — DeepSeek Harness 移动端远程控制插件（Mobile Remote Control Plugin）：设置页内置扫码连接二维码、一键开启远程控制与在线设备数统计，并提供手机端界面优化，实现局域网内手机远程操控
@@ -5973,6 +5981,7 @@
 - 🟨 `[不兼容]` [fablertan-obsidian-dsh](https://github.com/FablerTan/obsidian-dsh) ★0 — 在 Obsidian 右侧面板用原生 React UI 与 DeepSeek Harness 聊天；插件托管独立 dsh 服务（obsidian profile / 端口 3081 / cwd=vault）
 - 🟨 `[不兼容]` [fanch-hui-dsh-workbuddy-manager](https://github.com/Fanch-hui/dsh-workbuddy-manager) ★0 — 一个将 WorkBuddy 订阅反代到 DeepSeek Harness 使用的 DSH 插件
 - 🟨 `[不兼容]` [fanyongbing-dsh-mcp-native](https://github.com/fanyongbing/dsh-mcp-native) ★0 — MCP server manager for DeepSeek Harness — manage this machine's MCP servers as native Loader rows, from a Sett
+- 🟨 `[不兼容]` [fdfdfdfgbfdgfdg-star-dsh-terminal-vision](https://github.com/fdfdfdfgbfdgfdg-star/dsh-terminal-vision) ★0 — Terminal semantic vision plugin for DeepSeek Harness: PTY sessions with a structured screen model (text, curso
 - 🟨 `[不兼容]` [fengchang618gmail-dsh-course-subtitles](https://github.com/fengchang618gmail/dsh-course-subtitles) ★0 — DSH plugin: fetch course/video captions (DeepLearning.AI, YouTube, Bilibili, Coursera), rebuild whole sentence
 - 🟨 `[不兼容]` [fishofouc-dsh-price-monitor](https://github.com/fishOfOUC/dsh-price-monitor) ★0 — Session cost monitor for DeepSeek Harness — a dsh-better-sidebar tab (that sidebar is required; this package s
 - 🟨 `[不兼容]` [fishofouc-dsh-self-analyze](https://github.com/fishOfOUC/dsh-self-analyze) ★0 — AI自我总结开销,无gui还没做
