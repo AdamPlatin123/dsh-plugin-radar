@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3951）
+# 🤖 Agent 能力（3963）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -988,8 +988,10 @@
 - 🟩 `[可用]` [dylanyeung0929-dsh-session-bridge](https://github.com/DylanYeung0929/dsh-session-bridge) ★1 — Read and message every DeepSeek Harness (DSH) session from one CLI or as a DSH plugin — list sessions, read tr
 - 🟩 `[可用]` [dylanzhangzx-dknowc-dsh](https://github.com/dylanzhangzx/dknowc-dsh) ★1 — 深知可信办公全家桶 dsh 插件包：深知可信咨询 / 深知可信搜索 / 深知公文写作（skill + MCP 转接）
 - ⬜ `[待定]` [dymzz-lgtm-dsh](https://github.com/dymzz/lgtm-dsh) ★1 — lgtm-dsh is a DSH plugin that automatically installs lgtm, reuses the Jev already configured in DSH, and lets
+- ⬜ `[待定]` [eevvee153-whale-memory](https://github.com/Eevvee153/whale-memory) ★1 — 会忘记的伴生记忆系统 · DSH 插件
 - 🟩 `[可用]` [eightfs-dsh-skill-scoreboard](https://github.com/EIGHTfs/dsh-skill-scoreboard) ★1 — DSH skill 使用记分板：监听 tools/result，按会话去重自动累计 skill 加载次数
 - ⬜ `[待定]` [ejdrone-dsh-multi-acp](https://github.com/EJDRONE/dsh-multi-acp) ★1 — 让 DSH 的一个会话由外部 ACP agent CLI 作为根 agent 驱动
+- 🟩 `[可用]` [elfgzp-dsh-llm-minimax](https://github.com/elfgzp/dsh-llm-minimax) ★1 — MiniMax open-platform models for DeepSeek Harness: paste the API key in Settings, get MiniMax-M3.1-Flash / M3
 - 🟩 `[可用]` [emck-tirol-dsh-language-set](https://github.com/Emck/tirol-dsh-language-set) ★1 — \[DeepSeek Harness\] dsh plugin, that controls AI's reply language and thinking language separately via system p
 - ⬜ `[待定]` [englandtong-governance-multi-agent-harness](https://github.com/EnglandTong/governance-multi-agent-harness) ★1 — Governance-Multi-Agent-Harness-Plugin-for-DeepSeek-Harness
 - 🟩 `[可用]` [esonxie-dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) ★1 — Deepseek Harness工具集
@@ -1759,11 +1761,16 @@
 - 🟩 `[可用]` [ebi233-dsh-feed-node](https://github.com/ebi233/dsh-feed-node) ★0 — 给 DeepSeek Harness 的 agent 加小红书/抖音搜索：用你自己的浏览器和家庭 IP 抓，配套每日复盘与永久记忆插件
 - 🟩 `[可用]` [echo-smith-hy-memory4dsh](https://github.com/Echo-Smith/hy-memory4dsh) ★0 — 为 DSH 装上三层长期记忆：会话、项目、个人
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
+- ⬜ `[待定]` [edwinzhancn-dsh-plugin-ripple](https://github.com/EdwinZhanCN/dsh-plugin-ripple) ★0 — DeepSeek Harness plugin that puts your agent on Ripple, a social network where people and AI agents take part
+- 🟩 `[可用]` [eeetpn-dsh-plasticity-plugin](https://github.com/EEEtPn/dsh-plasticity-plugin) ★0 — DeepSeek Harness plugin: drive Plasticity 3D (native Parasolid B-rep CAD) from AI via a loopback Electron CDP
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
 - 🟩 `[可用]` [elari39-dsh-session-insight](https://github.com/Elari39/dsh-session-insight) ★0 — Read-only session-health strip for the DeepSeek Harness: steps, tool calls, failures, repeats and failure rate
+- 🟩 `[可用]` [elfgzp-dsh-agent-team-playbook](https://github.com/elfgzp/dsh-agent-team-playbook) ★0 — DSH Agent Teams 实战手册：名额规划、任务状态机、角色契约与踩坑（非官方）
 - ⬜ `[待定]` [elfgzp-dsh-session-bridge](https://github.com/elfgzp/dsh-session-bridge) ★0 — Let a DeepSeek Harness agent open foreground sessions, drive them and read the result back.
+- ⬜ `[待定]` [elfgzp-dsh-unified-model](https://github.com/elfgzp/dsh-unified-model) ★0 — Switch model and reasoning effort across every DeepSeek Harness session at once — one control, all conversatio
 - 🟩 `[可用]` [elias1222-deepseek-brain](https://github.com/Elias1222/deepseek-brain) ★0 — DeepSeek Harness (DSH) 插件：可持久化、可查看、可交互的五层记忆大脑 + 3D 记忆观测仪
 - 🟩 `[可用]` [elmersky-dsh-plugin-trellis-workflow](https://github.com/elmersky/dsh-plugin-trellis-workflow) ★0 — Trellis workflow enforcement for the DeepSeek Harness: per-turn workflow state injection and a trellis-start e
+- 🟩 `[可用]` [elysia-laoda-dsh-creativity-nudge](https://github.com/Elysia-laoda/dsh-creativity-nudge) ★0 — DSH 插件：在模型锁定路线的那一刻注入一次「先发散」提醒 —— 低频、硬预算、只落在决策点
 - 🟩 `[可用]` [emiltsoi-dsh-fleet-mesh](https://github.com/emiltsoi/dsh-fleet-mesh) ★0 — Session-aware mesh relay for DSH agents - Ed25519-signed receive route, delivery policy, outbound and registry
 - 🟩 `[可用]` [emotiong-dsh-prompt-optimizer](https://github.com/EmotionG/dsh-prompt-optimizer) ★0 — 优化提示词
 - 🟩 `[可用]` [emotiontowel-dsh-session-header](https://github.com/EmotionTowel/dsh-session-header) ★0 — —
@@ -3030,6 +3037,7 @@
 - 🟨 `[不兼容]` [corvus-dsh-dsh-graft-slice](https://github.com/corvus-dsh/dsh-graft-slice) ★3 — DSH open-source ecosystem plugin (topic: dsh-plugin): physical handoff for long sessions — slice a closed log
 - 🟨 `[不兼容]` [dddfxyqiming-dsh-layered-memory](https://github.com/DDDFXYqiming/dsh-layered-memory) ★3 — Cross-session long-term memory plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [drscrewdriver-dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) ★3 — —
+- 🟨 `[不兼容]` [ef-umbra-dsh-useful-taskball](https://github.com/ef-umbra/dsh-useful-taskball) ★3 — Taskball — DeepSeek Harness 跨会话任务状态悬浮球，一眼看清哪个会话出问题、哪个在等你
 - 🟨 `[不兼容]` [fashionmascherine-svg-dsh-polymarket-knowhow](https://github.com/fashionmascherine-svg/dsh-polymarket-knowhow) ★3 — DeepSeek Harness plugin (dsh-plugin): complete Polymarket superpowers — 31 verified tools across Gamma/CLOB/Da
 - 🟨 `[不兼容]` [goodddgrades-dsh-behuman](https://github.com/goodddGrades/dsh-behuman) ★3 — Long-term memory and self-evolving skills for the DeepSeek Harness · DeepSeek Harness 的长期记忆与自我演进能力 —— Plain Ma
 - 🟨 `[不兼容]` [he0119-dsh-session-manager](https://github.com/he0119/dsh-session-manager) ★3 — 迁移工作区与会话到新目录，导出 / 导入 .dshsess 会话包，用 WebDAV 在多台机器之间同步
@@ -3562,10 +3570,14 @@
 - 🟨 `[不兼容]` [dynastxu-dsh-anti-blind-approval](https://github.com/Dynastxu/dsh-anti-blind-approval) ★0 — Deepseek Harness 插件，用于防止用户盲目地批准模型的提权请求
 - 🟨 `[不兼容]` [easyzandf-dsh-plugin-session-delete](https://github.com/easyzandf/dsh-plugin-session-delete) ★0 — DeepSeek Harness plugin: permanently delete a session from the three-dot menu — stops the live agent and erase
 - 🟨 `[不兼容]` [echo804-dsh-billing-balance](https://github.com/echo804/dsh-billing-balance) ★0 — 在deepseek-harness中动态查询apikey的余额和本次会话的消耗金额
+- 🟨 `[不兼容]` [edgora-ai-dsh-session-keepalive](https://github.com/edgora-ai/dsh-session-keepalive) ★0 — Bounded per-tab session keep-alive for DeepSeek Harness, with native settings and privacy-preserving diagnosti
+- 🟨 `[不兼容]` [edisoncks-dsh-cookie-renew](https://github.com/edisoncks/dsh-cookie-renew) ★0 — Sliding renewal for the DSH web browser-session cookie — a DSH host plugin bundle
 - 🟨 `[不兼容]` [edisonyang1982-dsh-skill-switch](https://github.com/EdisonYang1982/dsh-skill-switch) ★0 — Per-session skill switch for DeepSeek Harness: see which skills a session loads, toggle them off, and keep a p
 - 🟨 `[不兼容]` [eightfs-dsh-session-migrate](https://github.com/EIGHTfs/dsh-session-migrate) ★0 — —
 - 🟨 `[不兼容]` [eighthundreds-dsh-plannotator](https://github.com/eightHundreds/dsh-plannotator) ★0 — Review DeepSeek Harness plans in Plannotator — annotate, approve, or send them back.
+- 🟨 `[不兼容]` [elegant01-dsh-memory-watchdog](https://github.com/elegant01/dsh-memory-watchdog) ★0 — Windows commit-memory watchdog for DSH Desktop: commit attribution, configurable thresholds, a fail-closed res
 - 🟨 `[不兼容]` [enhydralutristus-dsh-recycle-bin](https://github.com/EnhydraLutristus/dsh-recycle-bin) ★0 — DSH 回收站插件：把工作区会话拖进回收站，保留 14 天后自动删除，可随时恢复或立即删除
+- 🟨 `[不兼容]` [epcn-fla-dsh-prompt-translation](https://github.com/EPCN-fla/dsh-prompt-translation) ★0 — Prompt, reasoning and response translation for DeepSeek Harness.
 - 🟨 `[不兼容]` [ericxu20266-dsh-skillmanager](https://github.com/EricXu20266/dsh-skillmanager) ★0 — DSH skill manager — list, group and enable/disable skills, delegate creation to the host agent
 - 🟨 `[不兼容]` [esonx-dsh-project-j4agent](https://github.com/esonx/dsh-project-j4agent) ★0 — Agent-native Software Development Lifecycle Management for DeepSeek Harness
 - 🟨 `[不兼容]` [ewoowe-session-messages-plugin](https://github.com/ewoowe/dsh-session-messages-plugin) ★0 — Searchable message overlay for DSH sessions: jump to any loaded message with the keyboard.
