@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T21:46:24Z",
+ "generated_at": "2026-11-15T22:01:37Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -5351,6 +5351,13 @@
    "desc": "给 DeepSeek Harness 的记忆骨架：人格注入 + 纯 Markdown 记忆系统（长期记忆 / 日记 / 灵感 / 任务卡），自带检索与看图工具"
   },
   {
+   "repo": "Oblivionis7999/dsh-session-stats-panel",
+   "name": "oblivionis7999-dsh-session-stats-panel",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH（DeepSeek Harness）Web 侧栏「会话统计」插件：Token/成本估算（按各厂商原厂官方价目）、DSH 运行状态实时采样、按模型分色的每日堆叠柱与环形图"
+  },
+  {
    "repo": "oioiphainon/dsh-widget",
    "name": "oioiphainon-dsh-widget",
    "verdict": "ok",
@@ -9024,6 +9031,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DSH agent preset for rigorous strategy live-deployment testing/evaluation"
+  },
+  {
+   "repo": "Oak-liuhj/dsh-session-rollover",
+   "name": "oak-liuhj-dsh-session-rollover",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "解决\"一个会话聊到几万 token 越来越笨\"的问题—按用户轮次自动把长会话\"分卷\"，像书一样分成第 1 卷、第 2 卷，旧卷留档、新卷带着交接摘要继续干"
   },
   {
    "repo": "Ok541151/cwk",
@@ -17354,6 +17368,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Prune dead plugins in DeepSeek Harness: real usage telemetry per plugin (calls, error rate, latency, sessions)"
+  },
+  {
+   "repo": "ogidimitrov/dsh-peak-cost",
+   "name": "ogidimitrov-dsh-peak-cost",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: live peak-hours status and estimated USD spend for the current session, under the com"
   },
   {
    "repo": "okaditya84/dsh-agent-sentinel",
@@ -28563,6 +28584,13 @@
    "desc": "DSH 主从协作：主代理规划、决策与验收，支持通用 API 子代理执行、活动视图和安全模型接入"
   },
   {
+   "repo": "O-OII/dsh-session-alerts",
+   "name": "o-oii-dsh-session-alerts",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 会话提醒：逐会话未读角标与原生侧栏已完成会话筛选，帮助快速找回已结束的主会话"
+  },
+  {
    "repo": "Octidote/dsh-memory",
    "name": "octidote-dsh-memory",
    "verdict": "incompatible",
@@ -34149,6 +34177,13 @@
    "desc": "Nico glass theme for the DeepSeek Harness web UI - panel glass rendered by nico-glass-kit"
   },
   {
+   "repo": "oldzhang82/dsh-tps-ttft",
+   "name": "oldzhang82-dsh-tps-ttft",
+   "verdict": "ok",
+   "stars": 5,
+   "desc": "每轮对话的 TPS / TTFT 统计：模型耗时、工具耗时、首 token 延迟、输出速度，显示在「本轮用量」面板"
+  },
+  {
    "repo": "omdsh-dev/dsh-web-ui-notify",
    "name": "omdsh-dev-dsh-web-ui-notify",
    "verdict": "ok",
@@ -36681,6 +36716,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DSH 投屏控制的共用核心：界面、设备列表、投屏面板与 AI 工具（配合其他 provider 使用）"
+  },
+  {
+   "repo": "OGHong/dsh-ascii-sharks",
+   "name": "oghong-dsh-ascii-sharks",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "An ASCII ocean behind the New Session screen of DeepSeek Harness — fish schools that flee, orcas that hunt, th"
   },
   {
    "repo": "omdsh-dev/dsh-kb-sieve",
@@ -62240,11 +62282,25 @@
    "desc": "把 DSH 模型菜单里的推理等级变成一条滑动变阻器：颜色由灰到蓝，米饭越吃越少"
   },
   {
+   "repo": "oliblue-evan/dsh-liao-sidebar",
+   "name": "oliblue-evan-dsh-liao-sidebar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "侧栏管家：整理 DeepSeek Harness 侧栏入口、快捷键和自定义链接"
+  },
+  {
    "repo": "oliblue-evan/dsh-liao-models",
    "name": "oliblue-evan-dsh-model-organizer",
    "verdict": "ok",
    "stars": 0,
    "desc": "模型菜单整理器：按厂商折叠、悬浮滑出模型面板，支持置顶、最近、厂商内搜索、别名与隐藏"
+  },
+  {
+   "repo": "olivine13/dsh-image-scope",
+   "name": "olivine13-dsh-image-scope",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Pixel-coordinate readout and one adjustable measuring rectangle for the DeepSeek Harness sidebar image preview"
   },
   {
    "repo": "omorisunn/dsh-vibrancy",
@@ -97968,6 +98024,13 @@
    "desc": "DeepSeek 平台用量仪表盘插件 \\| DeepSeek usage dashboard plugin for DeepSeek Harness"
   },
   {
+   "repo": "oday0311/dsh-v2ex-client",
+   "name": "oday0311-dsh-v2ex-client",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "ohtokaah-sys/dsh-plugins",
    "name": "ohtokaah-sys-dsh-plugins",
    "verdict": "ok",
@@ -97982,11 +98045,25 @@
    "desc": "A DeepSeek Harness (DSH) plugin that shows the account balance and, after every conversation turn, that turn's"
   },
   {
+   "repo": "oliblue-evan/dsh-liao-peakclock",
+   "name": "oliblue-evan-dsh-liao-peakclock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "峰谷倒计时：在 DSH 模型名称中显示 DeepSeek 峰谷状态与倒计时，支持实时预览与紧凑设置"
+  },
+  {
    "repo": "olimc2016/dsh-worktodo",
    "name": "olimc2016-dsh-worktodo",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "oliverkim5017/dsh-oliver-qol",
+   "name": "oliverkim5017-dsh-oliver-qol",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Personal quality-of-life features for the DeepSeek Harness"
   },
   {
    "repo": "omdsh-dev/dsh-trace-waterfall",
@@ -110841,6 +110918,13 @@
    "desc": "单身汉播放器，适配DeepSeek harness web的播放器，支持多平台聚合"
   },
   {
+   "repo": "omdsh-dev/dsh-better-goal",
+   "name": "omdsh-dev-dsh-better-goal",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "更好的Goal实现 \\| Better goal tool for DSH"
+  },
+  {
    "repo": "omdsh-dev/dsh-daily-progress",
    "name": "dsh-daily-progress",
    "verdict": "incompatible",
@@ -118807,6 +118891,13 @@
    "desc": "DeepSeek Harness Desktop 小鲸鱼：手绘转轮、五套换装、白饭互动，摸头显示余额与今日用量"
   },
   {
+   "repo": "ohlygod/dsh-jiuling-remote-android",
+   "name": "ohlygod-dsh-jiuling-remote-android",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "DSH 远程目录（安卓端）：6 位配对码接入电脑端 dsh-jiuling-remote-desktop，凭据只留在引擎进程，提供 RPC / SSE 桥接与设置页"
+  },
+  {
    "repo": "ouyinai/dsh-tray",
    "name": "dsh-tray",
    "verdict": "ok",
@@ -124363,6 +124454,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Touch-device comfort fixes for the DeepSeek Harness web client: ghost tooltip suppression + touch-action polic"
+  },
+  {
+   "repo": "olegedly/dsh-plugin-brave-cdp",
+   "name": "olegedly-dsh-plugin-brave-cdp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH tools that drive your running Brave browser over the Chrome DevTools Protocol"
+  },
+  {
+   "repo": "ollamadou/dsh-downloader",
+   "name": "ollamadou-dsh-downloader",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Resumable multi-connection downloader for DeepSeek Harness with China mirror and proxy presets, plus DeepSeek-"
   },
   {
    "repo": "omdsh-dev/dsh-tool-browser",
@@ -150272,6 +150377,13 @@
    "desc": "DeepSeek Harness 插件：用 ChatGPT Pro 网页会话做无人值守的多轮调研与设计（设计阶段）"
   },
   {
+   "repo": "Octo-o-o-o/gpt-image-design",
+   "name": "octo-o-o-o-gpt-image-design",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件：ChatGPT 网页图片与 HTML demo；OpenAI 兼容 API 生图"
+  },
+  {
    "repo": "omdsh-dev/dsh-feishu-notify",
    "name": "omdsh-dev-dsh-feishu-notify",
    "verdict": "ok",
@@ -155534,6 +155646,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Task-aware message admission and scoped recovery handoffs for DeepSeek Harness."
+  },
+  {
+   "repo": "OldSchool686/dsh-gigaam-stt",
+   "name": "oldschool686-dsh-gigaam-stt",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Local Russian speech-to-text for the DeepSeek Harness chat: GigaAM v3 on CPU via sherpa-onnx, offline, ~320 MB"
   },
   {
    "repo": "only-one-over/robocasa-control",
