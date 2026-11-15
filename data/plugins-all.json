@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T11:16:32Z",
+ "generated_at": "2026-11-15T11:31:26Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -39950,6 +39950,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "一个dsh桌面端应用，可自定义主题以及桌宠，内置了雾雨魔理沙主题"
+  },
+  {
+   "repo": "ds-hu/dsh-collaborative-clarity",
+   "name": "ds-hu-dsh-collaborative-clarity",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Artifact rounds for DeepSeek Harness: the agent shows a decision in the right sidebar, you annotate and choose"
   },
   {
    "repo": "dsh-mixxed/dsh-client-ui-filesystem",

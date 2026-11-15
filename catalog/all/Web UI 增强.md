@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6488）
+# 🔌 Web UI 增强（6489）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1862,6 +1862,7 @@
 - ⬜ `[待定]` [dongsheng123132-dsh-workspace-plugins](https://github.com/dongsheng123132/dsh-workspace-plugins) ★1 — Two small DeepSeek Harness (DSH) sidebar plugins: import project directories from your other AI tools, and mov
 - 🟩 `[可用]` [dove222-dsh-screenshot-hotkey](https://github.com/Dove222/dsh-screenshot-hotkey) ★1 — 一个小白制作的DSH截图插件：Alt+A调出截图框，自由选取后点击确定即可自动复制到系统粘贴板，也可点击另存为单独保存为独立图片文件
 - 🟩 `[可用]` [dreamer0323-dsh-desktop](https://github.com/dreamer0323/dsh-desktop) ★1 — 一个dsh桌面端应用，可自定义主题以及桌宠，内置了雾雨魔理沙主题
+- 🟩 `[可用]` [ds-hu-dsh-collaborative-clarity](https://github.com/ds-hu/dsh-collaborative-clarity) ★1 — Artifact rounds for DeepSeek Harness: the agent shows a decision in the right sidebar, you annotate and choose
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-filesystem](https://github.com/dsh-mixxed/dsh-client-ui-filesystem) ★1 — A customized DeepSeek Harness filesystem UI plugin.
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-git-branch](https://github.com/dsh-mixxed/dsh-client-ui-git-branch) ★1 — A customized DeepSeek Harness git branch UI plugin.
 - ⬜ `[待定]` [dsh-mixxed-dsh-client-ui-settings-skills](https://github.com/dsh-mixxed/dsh-client-ui-settings-skills) ★1 — A customized DeepSeek Harness skill setting UI plugin.
