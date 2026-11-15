@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4278）
+# 🤖 Agent 能力（4290）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -740,8 +740,10 @@
 - 🟩 `[可用]` [mari23333-dsh-grok-kit](https://github.com/MaRi23333/dsh-grok-kit) ★2 — DeepSeek Harness 的 Grok 插件：OAuth 登录、主循环融合网页/X 搜索、Imagine 生图/图生图与会话图片卡片
 - 🟩 `[可用]` [marsstorm-dsh-hierarchical-fishmemory](https://github.com/MarsStorm/dsh-hierarchical-fishmemory) ★2 — 属于我们的回忆 —— 给 DSH 的分层人格记忆插件
 - ⬜ `[待定]` [mbj733-dsh-hermes-memory](https://github.com/mbj733/dsh-hermes-memory) ★2 — DSH (DeepSeek Harness) agent preset + plugin: Hermes-style cross-session memory & autonomous skill learning.
+- 🟩 `[可用]` [melody-cx-dsh-anima](https://github.com/Melody-cx/dsh-anima) ★2 — DSH 助手人格与长期记忆插件：独立可用，不依赖其它插件
 - 🟩 `[可用]` [menotbobbybrown-dsh-plugin-mcp](https://github.com/menotbobbybrown/dsh-plugin-mcp) ★2 — Universal Model Context Protocol (MCP) Bridge Plugin for DeepSeek Harness (dsh) — Everything is a Plugin
 - ⬜ `[待定]` [merlinshieh-agentmemhub](https://github.com/MerlinShieh/AgentMemHub) ★2 — —
+- 🟩 `[可用]` [miaomiao-r1-dsh-agent-model-router](https://github.com/miaomiao-r1/dsh-agent-model-router) ★2 — DeepSeek Harness role-based model routing and staged agent workflows, with dsh-our-free-model.
 - ⬜ `[待定]` [micklife-mex](https://github.com/MickLife/mex) ★2 — 一个运行于你的电脑本地的记忆系统，存储并提供用户个人相关的记忆上下文，尤其是用户画像相关的条目，从而帮助用户实现个性化的 AI 服务
 - 🟩 `[可用]` [mihjy12138-dsh-memory-lite](https://github.com/MiHjy12138/dsh-memory-lite) ★2 — 给 agent 的按需记忆库：会话日志提炼成分层 markdown 记忆，mem_query 只回命中片段（约 700 字符，而不是上万字符）
 - 🟩 `[可用]` [mingbing-get-holdrein](https://github.com/Mingbing-get/holdRein) ★2 — Hold Rein 是一个本地优先、模型无关、可通过插件扩展的 AI Agent 工作台
@@ -1247,13 +1249,16 @@
 - 🟩 `[可用]` [mel0nyrame-deepseek-harness-desktop](https://github.com/mel0nyrame/deepseek-harness-desktop) ★1 — Native Electron desktop app with a bundled DeepSeek Harness agent runtime
 - ⬜ `[待定]` [dsh-patchouli](https://github.com/memorax-ai/dsh-patchouli) ★1 — Agent knowledge hub and deepseek-harness plugin
 - ⬜ `[待定]` [menghuanshiguang-devctl-dsh](https://github.com/menghuanshiguang/devctl-dsh) ★1 — devctl 家族 · 从另一台设备用 CLI 控制 DSH 会话
+- 🟩 `[可用]` [menghuanshiguang-dsh-sunder](https://github.com/menghuanshiguang/dsh-sunder) ★1 — Open-source Sunder bundle for DeepSeek Harness: unrestricted prompt pack, release announcements, and update co
 - 🟩 `[可用]` [mengshang-spec-dsh-plugin-trustlens](https://github.com/Mengshang-spec/dsh-plugin-trustlens) ★1 — Read-only DSH plugin security auditor with current-session model review
 - 🟩 `[可用]` [mentonliu-dsh-any-icon](https://github.com/MentonLiu/dsh-any-icon) ★1 — DeepSeek Harness (dsh) 插件：上传图片裁剪为 1:1 图标，用于 dsh 桌面端 App 图标（访达 / 应用程序 / Dock 即时生效，无需重启）或会话行图标
 - 🟩 `[可用]` [meomeo-dev-dsh-voice](https://github.com/meomeo-dev/dsh-voice) ★1 — Conversation-tone switcher bundle for DeepSeek Harness — ships the 令 (Ling) tone and a create-voice meta-skill
+- 🟩 `[可用]` [meshy-dev-meshy-dsh](https://github.com/meshy-dev/meshy-dsh) ★1 — Meshy 3D generation and 3D printing skills for DeepSeek Harness (dsh)
 - 🟩 `[可用]` [meteor-system-mattpocock-skills-for-dsh](https://github.com/Meteor-system/mattpocock-skills-for-dsh) ★1 — Matt Pocock Skills for DSH: grilling, spec/ticket flows, TDD, and review as a portable DeepSeek Harness preset
 - 🟩 `[可用]` [microqian2th-dsh-spectrum-rail](https://github.com/Microqian2th/dsh-spectrum-rail) ★1 — Turn the DSH conversation rail into an audio spectrum fed by WASAPI loopback or a microphone.
 - 🟩 `[可用]` [mihomooo-dsh-persona-panel](https://github.com/mihomooo/dsh-persona-panel) ★1 — Per-workspace persona, user profile, event and diary memory for DeepSeek Harness, with a panel to review and r
 - 🟩 `[可用]` [mikulo-dsh-prompt-switcher](https://github.com/mikulo/dsh-prompt-switcher) ★1 — DeepSeek Harness (DSH) plugin: pick a local .md prompt template with / when starting a new conversation; it bi
+- ⬜ `[待定]` [milestone-17-dsh-bao](https://github.com/milestone-17/dsh-bao) ★1 — DSH 宝 — TRAE-宝-style personal assistant for DeepSeek Harness: cross-session long-term memory, a dedicated assi
 - 🟩 `[可用]` [minyang2020-dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) ★1 — DeepSeek Harness (dsh) plugin: automatic session handoff when a session keeps hitting 429 TPM rate limits — ca
 - 🟩 `[可用]` [miseryrua-dsh-wb-cron](https://github.com/miseryrua/dsh-wb-cron) ★1 — DeepSeek Harness 无人值守定时任务调度器：cron/固定间隔/一次性三种调度，到点在 web profile 进程内拉起全新 root agent 执行任务指令，每任务可钉模型与 Agent 预设（预设被
 - ⬜ `[待定]` [mizumic-dsh-system-fingerprint](https://github.com/Mizumic/dsh-system-fingerprint) ★1 — 会话头部的模型检查点徽标：探测 system_fingerprint / 网关请求级溯源 / 响应元数据存证（原始字节默认不落盘）
@@ -2366,6 +2371,7 @@
 - 🟩 `[可用]` [mcjf28-dsh-prompt-crafter](https://github.com/MCJF28/dsh-prompt-crafter) ★0 — One-click prompt rewriter in the DeepSeek Harness composer: three rewrite levels, follows the model you are al
 - 🟩 `[可用]` [mdl233-dsh-staging-guard](https://github.com/mdl233/dsh-staging-guard) ★0 — DSH pre-execute hook: deny writes under a read-only result zone of protected roots.
 - 🟩 `[可用]` [meirinruan-dsh-two-row-header](https://github.com/MeirinRuan/dsh-two-row-header) ★0 — 将 DSH 会话顶栏操作与工具分行排列，窄宽度继续换行
+- 🟩 `[可用]` [melosic-dsh-go-pick-goods](https://github.com/melosic/dsh-go-pick-goods) ★0 — 让 AI 把商品查清楚，再给结论：dsh-go 原生选品插件 + 方法论技能，平台确认 → 四层漏斗 → 问客服 → 带证据画图
 - 🟩 `[可用]` [melt502-dsh-session-reference-ux-patch](https://github.com/melt502/DSH-Session-Reference-UX-Patch) ★0 — —
 - 🟩 `[可用]` [meltllsy-dsh-session-attention](https://github.com/Meltllsy/dsh-session-attention) ★0 — —
 - 🟩 `[可用]` [memory175-blender-mentor](https://github.com/Memory175/blender-mentor) ★0 — Blender 全栈导师 AI Skill：教学、评分、资产验收、ESD/BIO   Blender Full-Stack Mentor AI Skill — teaching, grading, asset accep
@@ -2374,15 +2380,19 @@
 - ⬜ `[待定]` [mengxiaoxian-lookover](https://github.com/mengxiaoxian/lookover) ★0 — 在当前页面提问，把解决经验留给下次：DSH 悬浮气泡、按需页面上下文与个人解决经验插件（dsh-bubble / dsh-look / dsh-expmem）
 - 🟩 `[可用]` [mengxingxiaoming-dsh-tianjige](https://github.com/MengXingXiaoMing/dsh-tianjige) ★0 — 天机阁 · 算法天书：219 门图形/动画/物理/AI 算法的可查询 DSH 插件——10 个 agent 工具 + 侧栏页面（检索、档案、问天书、复核、体检），内置起始库，装完即用
 - ⬜ `[待定]` [mengxinsu-floor-limiter](https://github.com/MengXinSu/floor-limiter) ★0 — Floor-triggered session compaction for DeepSeek Harness: compact old history once M real user floors accumulat
+- 🟩 `[可用]` [mengyuruxing-workmem](https://github.com/mengyuruxing/workmem) ★0 — Work-first local memory plugin for DeepSeek Harness: 4 work categories + separate persona, 5 plain text files,
 - 🟩 `[可用]` [menotbobbybrown-create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) ★0 — 1-Line AI Agent Scaffolding Generator for DeepSeek Harness (dsh) — Everything is a Plugin
 - 🟩 `[可用]` [menotbobbybrown-dsh-plugin-browser](https://github.com/menotbobbybrown/dsh-plugin-browser) ★0 — Native Web Browser Automation Agent Plugin for DeepSeek Harness (dsh) — Everything is a Plugin
+- 🟩 `[可用]` [mess1103-dsh-inner-life](https://github.com/mess1103/dsh-inner-life) ★0 — A private diary for your agent — eight zero-dependency dsh tools that write, amend, search and export daily en
 - 🟩 `[可用]` [meteor-system-superpowers-for-dsh](https://github.com/Meteor-system/superpowers-for-dsh) ★0 — SuperPowers for DSH: portable Superpowers skills and a native DeepSeek Harness preset
 - ⬜ `[待定]` [meyaomiao-dsh-graphmemory](https://github.com/meyaomiao/dsh-graphmemory) ★0 — —
+- 🟩 `[可用]` [mfcj45681-dsh-plugin-cloudflare](https://github.com/MFCJ45681/dsh-plugin-cloudflare) ★0 — Connect Cloudflare to DeepSeek Assistant: OAuth 2.0 + PKCE sign-in, an AES-256-GCM encrypted credential vault,
 - 🟩 `[可用]` [mhdfy1988-dsh-skill-manager](https://github.com/mhdfy1988/dsh-skill-manager) ★0 — Non-invasive Skill lifecycle manager for DeepSeek Harness
 - 🟩 `[可用]` [mi-lu-uncle-dsh-skill-console](https://github.com/mi-lu-uncle/dsh-skill-console) ★0 — DSH skill manager plugin: /skills, /skills-uninstall, /skills-update, /skills-doctor
 - 🟩 `[可用]` [midnight-1991-dsh-term-explainer](https://github.com/Midnight-1991/dsh-term-explainer) ★0 — Explain computer-science terms found in DeepSeek Harness assistant answers: offline 330-term dictionary, per-m
 - ⬜ `[待定]` [mihoojj-dsh-prompt-spark](https://github.com/mihoojj/dsh-prompt-spark) ★0 — DeepSeek Harness ?????????:????????,????????????????????
 - 🟩 `[可用]` [mikumikudaifans-privateagentskills](https://github.com/MikumikuDAIFans/PrivateAgentSkills) ★0 — —
+- 🟩 `[可用]` [milaro001-dsh-chat-source-tracer](https://github.com/Milaro001/dsh-chat-source-tracer) ★0 — DSH 对话溯源助手：核对 AI 回答依据，跨会话搜索，保存摘录并引用原文追问
 - `[空仓监测]` **milbaxter-dsh-critique-loop** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-download-by-mirror-skill** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-vuln-search-skill** — GitHub 无此仓库，判定暂不展示
@@ -3241,6 +3251,7 @@
 - 🟨 `[不兼容]` [maojindao55-deepseek-harness-acp](https://github.com/maojindao55/deepseek-harness-acp) ★4 — Standalone Agent Client Protocol (ACP) server for DeepSeek Harness with real-time streaming, reasoning trace,
 - 🟨 `[不兼容]` [mcviseron-dsh-eda-mcp](https://github.com/MCviseron/dsh-eda-mcp) ★4 — DeepSeek Harness (DSH) 连接到 嘉立创EDA专业版 / EasyEDA Pro，让 Agent 通过 MCP 工具画原理图
 - 🟨 `[不兼容]` [megatronyy-dsh-tradingagents](https://github.com/megatronyy/dsh-tradingagents) ★4 — TradingAgents for DeepSeek Harness: the 14-role A-share multi-agent analysis pipeline behind /trading-agent
+- 🟨 `[不兼容]` [metal-huang-dsh-workspace-split](https://github.com/metal-huang/dsh-workspace-split) ★4 — DSH (DeepSeek Harness) plugin: a split grid of live sessions, each cell typable - watch several projects at on
 - 🟨 `[不兼容]` [monotykamary-dsh-factory](https://github.com/monotykamary/dsh-factory) ★4 — Durable dependency-graph task factory for DeepSeek Harness: recurring Agent work, safe checkout lanes, first-c
 - 🟨 `[不兼容]` [prompt-motion-reareverse](https://github.com/Prompt-Motion/ReaReverse) ★4 — Reverse engineer anything with agents, from app behavior down to native binaries.
 - 🟨 `[不兼容]` [qingj01-dsh-prompt-prediction](https://github.com/QingJ01/dsh-prompt-prediction) ★4 — Next-prompt ghost text predictions for DeepSeek Harness; Tab or ArrowRight fills an editable draft.
@@ -4079,6 +4090,7 @@
 - 🟨 `[不兼容]` [mdktelmdktel-dsh-agent-status](https://github.com/mdktelmdktel/dsh-agent-status) ★0 — DSH 会话标题栏实时进度条：现在在干什么、第几步、跑了多久、待办进度
 - 🟨 `[不兼容]` [meisijiya-dsh-hindsight-memory](https://github.com/meisijiya/dsh-hindsight-memory) ★0 — DSH 插件：把 Hindsight 记忆服务接到 DeepSeek Harness，与 omp 共用同一记忆库/同一套标签语义（单库 + 全局层/项目层双层标签），模型只看见封装后的语义化工具
 - 🟨 `[不兼容]` [meliodascz89-dsh-agent-voice](https://github.com/meliodascz89/dsh-agent-voice) ★0 — —
+- 🟨 `[不兼容]` [mentho7-dsh-route](https://github.com/mentho7/dsh-route) ★0 — Bounded agent-team orchestration for DeepSeek Harness, with attempt isolation and a local dashboard
 - 🟨 `[不兼容]` [miaoxingyunduo-dsh-session-cost](https://github.com/miaoxingyunduo/dsh-session-cost) ★0 — DSH plugin: per-conversation token and money accounting — session_cost / list_session_costs tools, the /cost c
 - 🟨 `[不兼容]` [mingyuemiss-dsh-memory](https://github.com/mingyuemiss/dsh-memory) ★0 — 给 DSH 里的陪伴角色一条不会断的记忆线：近两天快速回忆、艾宾浩斯遗忘曲线、分类检索、分层压缩与 D 盘人生镜像
 - 🟨 `[不兼容]` [minyin51-dsh-memory-palace](https://github.com/minyin51/dsh-memory-palace) ★0 — —
