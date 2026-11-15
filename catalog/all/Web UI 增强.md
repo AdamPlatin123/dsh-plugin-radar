@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6489）
+# 🔌 Web UI 增强（6498）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1925,12 +1925,14 @@
 - 🟩 `[可用]` [focksor-dsh-plugin-mini-dashboard](https://github.com/focksor/dsh-plugin-mini-dashboard) ★1 — A session & token mini dashboard for DSH web
 - 🟩 `[可用]` [fomalhaut1998-dsh-image-hunt](https://github.com/fomalhaut1998/dsh-image-hunt) ★1 — Multi-source image search & download for DeepSeek Harness: 19 engines (Baidu/Bing/360/Duitang/Huaban/DuckDuckG
 - 🟩 `[可用]` [fonlan-dsh-task-kanban](https://github.com/fonlan/dsh-task-kanban) ★1 — DSH web plugin: a task kanban that refines requirements into phased plans, auto-executes them in git worktrees
+- 🟩 `[可用]` [forget6610-dsh-pet-clove](https://github.com/forget6610/dsh-pet-clove) ★1 — Interactive desktop pet for the DeepSeek Harness web GUI: wanders, can be dragged, reacts to clicks, sleeps, a
 - 🟩 `[可用]` [fqsklm-dsh-balance-chart](https://github.com/fqsklm/dsh-balance-chart) ★1 — DSH (DeepSeek Harness) Web GUI 插件：把 DeepSeek 账户余额、当日消费和峰谷时段计价画在会话标题栏上的双层图表
 - 🟩 `[可用]` [frank-fan-818-dsh-f1-skin](https://github.com/frank-fan-818/dsh-f1-skin) ★1 — An F1 Race Control themed skin for the DeepSeek Harness Web UI — Red Bull, Ferrari, McLaren & Mercedes team th
 - 🟩 `[可用]` [dsh-plugin-devecocli](https://github.com/frankq007/dsh-plugin-devecocli) ★1 — HarmonyOS development tools for DeepSeek Harness: device/emulator management, UI automation, build & deploy, l
 - ⬜ `[待定]` [frankshi2024-dsh-web-app](https://github.com/frankshi2024/dsh-web-app) ★1 — AI 交付给人类的可交互产物：单文件 HTML 小工具/小游戏/面板住 Git 仓库，/webapp 对话内嵌打开，交互结果一键回传驱动模型 \| DSH plugin
 - ⬜ `[待定]` [frankstanmonster-dsh-overlay-companion](https://github.com/frankstanmonster/dsh-overlay_companion) ★1 — 动态女仆桌面悬浮窗Floating desktop overlay for Deepseek Harness(dsh):  A floating, skinnable Waifu widget for Deepseek
 - 🟩 `[可用]` [fridaykoi-dsh-lessons-md](https://github.com/FridayKoi/dsh-lessons-md) ★1 — Your AI agent keeps repeating the same mistakes? Give it a LESSONS.md notebook — it records its own failures i
+- ⬜ `[待定]` [fromluli-dsh-advisor-mode](https://github.com/fromluli/dsh-advisor-mode) ★1 — DSH 第三方 bundle：顾问模式 —— 主模型在决策点调用 consult_advisor，由第二个（更强的）模型读完整会话，返回 verdict / guidance / risks
 - 🟩 `[可用]` [frozo-ai-dsh-teams](https://github.com/frozo-ai/dsh-teams) ★1 — Team access for the DeepSeek Harness (dsh) web UI — login wall + HTTP/WebSocket reverse proxy
 - 🟩 `[可用]` [fthuu-my-skin-for-deepseek-harness](https://github.com/EphoReal/my-skin-for-DeepSeek-Harness) ★1 — DeepSeek Harness 皮肤扩展插件 Skin plugin
 - 🟩 `[可用]` [fuguangbeta-dsh-mounts](https://github.com/fuguangbeta/dsh-mounts) ★1 — DeepSeek Harness 只读“挂载”面板——快速查看指南、技能、MCP服务器及代理预设 Read-only "mounts" panel for DeepSeek Harness — instructions,
@@ -3491,18 +3493,23 @@
 - 🟩 `[可用]` [fogggy-chao-dsh-plugin-hub](https://github.com/Fogggy-Chao/dsh-plugin-hub) ★0 — Minimal jelly Plugin Hub and equipment sidebar for DeepSeek Harness
 - 🟩 `[可用]` [fogmodel-dsh-workspace-jump](https://github.com/fogmodel/dsh-workspace-jump) ★0 — DSH web plugin: quickly create or switch to a workspace from a directory path via the sidebar Workspace button
 - `[空仓监测]` **foo1moon-dsh-web-visualuiconfig** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [forge-131-dsh-lan-pair](https://github.com/FORGE-131/dsh-lan-pair) ★0 — Expose the DeepSeek Harness web GUI to phones: LAN pairing plus tunnel-based remote access, with automatic LAN
 - 🟩 `[可用]` [founder987-dsh-dev-ui](https://github.com/founder987/dsh-dev-ui) ★0 — 适合编码研发的UI界面
 - 🟩 `[可用]` [fourtow-dsh-theme-win98](https://github.com/FourTow/dsh-theme-win98) ★0 — Windows 98 theme plugin for DeepSeek Harness web
 - 🟩 `[可用]` [foxi-ui-deepseek-harness-desktop](https://github.com/foxi-ui/deepseek-harness-desktop) ★0 — Deepseek Harness 桌面版
 - 🟩 `[可用]` [foxi-ui-dsh-command-vscode](https://github.com/foxi-ui/dsh-command-vscode) ★0 — Deepseek Harness 插件-工作区快速打开编辑器vscode、idea等
+- 🟩 `[可用]` [fragrantlotus-dsh-sidebar-entries](https://github.com/FragrantLotus/dsh-sidebar-entries) ★0 — DeepSeek Harness 侧边栏增强：面板拖拽排序、整行高度上限、置顶会话区（含实时状态）、顶部视图标签拖拽、归档会话归拢、分叉子会话跟进、页脚入口提升
+- 🟩 `[可用]` [frankieew-dsh-panel-folders](https://github.com/FrankieeW/dsh-panel-folders) ★0 — Collapsible groups for DeepSeek Harness sidebar launchers
 - 🟩 `[可用]` [fransice-dsh-mchose-battery](https://github.com/Fransice/dsh-mchose-battery) ★0 — DSH 插件：在侧边栏用 WebHID 实时显示迈从（Mchose）鼠标电量与连接模式（2.4G/USB）
 - 🟩 `[可用]` [franzli347-dsh-workspace-colors](https://github.com/FranzLi347/dsh-workspace-colors) ★0 — Workspace color labels for DeepSeek Harness: six colors, browser-local persistence, Chinese/English UI.
 - ⬜ `[待定]` [fredgeoo-creative-matrix](https://github.com/fredgeoO/creative-matrix) ★0 — 格致矩阵：任意两维交叉、逐格穷推的 DSH 推演面板插件
 - 🟩 `[可用]` [frogflaying-dsh-onshelf](https://github.com/FrogFlaying/dsh-onshelf) ★0 — 上架台：扫描本地 DSH 插件、按 awesome-dsh-plugin 规则体检、生成投稿 YAML 与截图清单，并在确认后创建 fork、提交分支、开 PR
 - ⬜ `[待定]` [frontiermindlab-dsh-quick-compact](https://github.com/FrontierMindLab/dsh-quick-compact) ★0 — DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）
 - 🟩 `[可用]` [frost-ra9-dsh-theme-everforest](https://github.com/Frost-rA9/dsh-theme-everforest) ★0 — Six complete Everforest palettes (hard/medium/soft × dark/light) for the DeepSeek Harness Web UI
+- ⬜ `[待定]` [frzzaxszz-dsh-skill-catalog](https://github.com/frzzaxszz/dsh-skill-catalog) ★0 — DSH Web GUI 技能面板（dsh-skill-picker 的个人 fork）：全量技能发现 + 全中文备注 + 8 类分类筛选 + 技能管理（置顶/关闭/定位/卸载可撤回），自带维护技能
 - ⬜ `[待定]` [fsnh-dsh-artifact-sidebar](https://github.com/FSNH/dsh-artifact-sidebar) ★0 — —
 - 🟩 `[可用]` [ftima-w-dsh-plugin-manager](https://github.com/ftima-w/dsh-plugin-manager) ★0 — DSH plugin-manager-ui: MCP/Skills management + plugin stop/enable/delete
+- 🟩 `[可用]` [fu-silent-dsh-sidebar-home](https://github.com/fu-silent/dsh-sidebar-home) ★0 — Workspace Home for DeepSeek Harness: pick a workspace from the sidebar, focus its chats, and get the shipped s
 - 🟩 `[可用]` [fubao885522-debug-dsh-wallpaper](https://github.com/fubao885522-debug/dsh-wallpaper) ★0 — DeepSeek Harness Web UI 壁纸插件：图片自适应任意屏幕缩放（CSS cover），并自动跟随深浅色主题
 - ⬜ `[待定]` [fuchao2pku-dsh-experts](https://github.com/fuchao2pku/dsh-experts) ★0 — DSH Expert Marketplace — browse & install community experts/expert groups from the Web UI Settings
 - 🟩 `[可用]` [fuguier001-dsh-imgnav](https://github.com/fuguier001/dsh-imgnav) ★0 — Click-to-zoom lightbox with arrow-key paging for DSH conversation images: ← prev / → next / Esc close, edge hi
@@ -6052,6 +6059,8 @@
 - 🟨 `[不兼容]` [flyingbamboo-dsh-pkg-atlas](https://github.com/FlyingBamboo/dsh-pkg-atlas) ★0 — DSH 本机代码包依赖图谱（开发工具）：把已安装的 @deepseek-ai/* 包与第三方插件的依赖、挂载关系画成区-组-包三层交互图，支持聚焦、拖拽布局与中英切换
 - 🟨 `[不兼容]` [flyinghouse-ma-dsh-pet-android-community](https://github.com/flyinghouse-ma/dsh-pet-android-community) ★0 — 修复安卓桌宠输入框无法输入、聊天发不出去、回复看不见的社区补丁版（dsh-pet 插件 + 自签名壳 APK）
 - 🟨 `[不兼容]` [fonlan-dsh-quick-commands](https://github.com/fonlan/dsh-quick-commands) ★0 — —
+- 🟨 `[不兼容]` [foreee-dsh-app-restart](https://github.com/foreee/dsh-app-restart) ★0 — DeepSeek Harness desktop plugin: restart the whole application from Settings (graceful quit + automatic relaun
+- 🟨 `[不兼容]` [foreee-dsh-net-dashboard](https://github.com/foreee/dsh-net-dashboard) ★0 — 网络巡检看板：DSH 侧边栏实时呈现本机网络质量（IP/MAC、流量速率、会话数、延迟曲线），3 秒自动刷新｜Live network inspection dashboard for DeepSeek Harness.
 - 🟨 `[不兼容]` [foreveryoungpp-dsh-web-search](https://github.com/ForeverYoungPp/dsh-web-search) ★0 — dsh-web-search — Multi-provider web search for DeepSeek Harness: routes the native web_search tool through a c
 - 🟨 `[不兼容]` [frank6892103-dsh-wutheringwaves](https://github.com/frank6892103/dsh-WutheringWaves) ★0 — dsh鸣潮主题插件
 - 🟨 `[不兼容]` [frederico-kluser-dsh-tavily-resilient-search](https://github.com/frederico-kluser/dsh-tavily-resilient-search) ★0 — Pesquisa web Tavily para o DeepSeek Harness (plugin Cordis) com rotação atómica e resiliente de um agrupamento

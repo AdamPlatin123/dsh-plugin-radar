@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4010）
+# 🤖 Agent 能力（4016）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1833,8 +1833,11 @@
 - ⬜ `[待定]` [forcemind-dsh-atelier](https://github.com/ForceMind/dsh-atelier) ★0 — Local-first DeepSeek Harness workbench: compact usage and cost metrics, prompt library, activity text, and opt
 - 🟩 `[可用]` [foyonaczy-dsh-kit](https://github.com/FoyonaCZY/dsh-kit) ★0 — DeepSeek Harness plugins for the failures nobody catches: auto-format, generated-file guard, .env drift detect
 - 🟩 `[可用]` [fplj-fplj-dsh-ua-headers](https://github.com/fplj-fplj/dsh-ua-headers) ★0 — 为 DeepSeek Harness (DSH) 定制的 User-Agent 与请求头插件：按模型匹配改写 UA / 合并自定义请求头，遵循 dsh-ecosystem-spec 生态规范
+- 🟩 `[可用]` [fqingwan-dsh-soul-forging](https://github.com/Fqingwan/dsh-soul-forging) ★0 — 给 AI 的可迁移长期记忆，外加一套「铸魂」流程
 - 🟩 `[可用]` [fred-chen-dsh-subagent-model-director](https://github.com/fred-chen/dsh-subagent-model-director) ★0 — DeepSeek Harness plugin: smart subagent model assignment - model profiles (intelligence/speed/tags), tag-first
 - ⬜ `[待定]` [frederico-kluser-dsh-plugin-dev-agent-skill](https://github.com/frederico-kluser/dsh-plugin-dev-agent-skill) ★0 — Global agent skill: create, extend, secure, test and publish Cordis plugins for the DeepSeek Harness (DSH)
+- 🟩 `[可用]` [frogflaying-dsh-deskresume](https://github.com/FrogFlaying/dsh-deskresume) ★0 — 桌面续开 (DeskResume): snapshot the Windows desktop session and restore open apps, documents, folders and window p
+- 🟩 `[可用]` [frostnova04-dsh-permission-guard](https://github.com/frostnova04/dsh-permission-guard) ★0 — A Permission Settings page for DSH: one button makes every new session default to full access, and existing se
 - 🟩 `[可用]` [fu827707013-dsh-model-health-probe](https://github.com/fu827707013/dsh-model-health-probe) ★0 — DSH 模型健康检查：会话视图页签，选定供应商/协议/模型/路由后手动发真实裸 HTTP 请求，一屏看耗时、TTFT、状态、token 与三层诊断链
 - 🟩 `[可用]` [full-aigc-plugins-image-factory-plugin](https://github.com/full-aigc-plugins/image-factory-plugin) ★0 — Plan, batch-generate, and evaluate images with approved spend and hash-verified receipts.
 - 🟩 `[可用]` [full626-dsh-session-trash-90d](https://github.com/Full626/dsh-session-trash-90d) ★0 — To manage sessions  of dsh desktop
@@ -3293,6 +3296,7 @@
 - 🟨 `[不兼容]` [feiertu-dsh-input-rewriter](https://github.com/feiertu/dsh-input-rewriter) ★1 — 一个用于实时改写提示词的deepseek harness插件
 - 🟨 `[不兼容]` [fenrircait-dsh-fail-guard](https://github.com/FenrirCait/dsh-fail-guard) ★1 — DSH plugin: stop the agent after N consecutive failures on the same tool, pushing a four-part stop instruction
 - 🟨 `[不兼容]` [fisfzy-dsh-danus](https://github.com/Fisfzy/dsh-danus) ★1 — Verifier-gated multi-agent mathematical proof-search orchestration, native to DeepSeek Harness: content-addres
+- 🟨 `[不兼容]` [fleey-dsh-plugin-autoreview](https://github.com/Fleey/dsh-plugin-autoreview) ★1 — DSH 插件：按风险自动审查 Agent 工具调用，高风险或涉及敏感信息时才请你确认；可选审查模型与思考程度
 - 🟨 `[不兼容]` [fore-vip-skills](https://github.com/fore-vip/skills) ★1 — ForeVIP for AI Agent skills
 - 🟨 `[不兼容]` [forsakendelusion-dsh-branchnest](https://github.com/ForsakenDelusion/dsh-branchnest) ★1 — BranchNest for DSH — project canvas and non-linear session management for DeepSeek Harness.
 - 🟨 `[不兼容]` [franklinzanedurant-agent-discipline](https://github.com/FranklinZaneDurant/agent-discipline) ★1 — 给 AI 编码 Agent 的仓库工作纪律插件（DeepSeek Harness bundle）：方法论提示段 + 工件脚手架（AGENTS.md/特性清单/验证门）+ 合规审计
@@ -3641,6 +3645,8 @@
 - 🟨 `[不兼容]` [flowingboy-dsh-local-perf](https://github.com/flowingboy/dsh-local-perf) ★0 — Durable DeepSeek Harness bundle: local-model performance tuning as a re-installable plugin layer (compaction,
 - 🟨 `[不兼容]` [fnckerpoi-dsh-plugin-nexus-sdlc](https://github.com/Fnckerpoi/dsh-plugin-nexus-sdlc) ★0 — Nexus spec-driven development agent preset for DeepSeek Harness
 - 🟨 `[不兼容]` [fomalhaut1998-dsh-ai-research](https://github.com/fomalhaut1998/dsh-ai-research) ★0 — AI research toolkit for DeepSeek Harness: model release radar, model benchmark & community report, AI news dig
+- 🟨 `[不兼容]` [fotlim-dsh-plugin-offline-reasoning-translato](https://github.com/fotlim/dsh-plugin-offline-reasoning-translator) ★0 — Local, offline English-to-Chinese translation for the reasoning text of DSH sessions (ONNX NMT, model download
+- 🟨 `[不兼容]` [fpm0312-dsh-auto-compact](https://github.com/fpm0312/dsh-auto-compact) ★0 — DeepSeek Harness 插件：上下文超过 45% 且静默 3 分钟时自动压缩会话历史
 - `[空仓监测]` **frank-nf-dsh-memory-nexus** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [friendshl-dsh-agent-evolution](https://github.com/FriendsHL/dsh-agent-evolution) ★0 — Preset-composed Agent experiments and evolution primitives for DeepSeek Harness
 - 🟨 `[不兼容]` [frozo-ai-dsh-budget](https://github.com/frozo-ai/dsh-budget) ★0 — Spend enforcement for DeepSeek Harness: hard budget caps, auto-downgrade, chargeback
