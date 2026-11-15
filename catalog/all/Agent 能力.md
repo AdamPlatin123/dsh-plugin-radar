@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3697）
+# 🤖 Agent 能力（3705）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -560,7 +560,9 @@
 - 🟩 `[可用]` [1dadidi-dsh-memory-brain-plugin](https://github.com/1DAdidi/dsh-memory-brain-plugin) ★2 — DSH记忆星脑插件，3D神经元记忆图谱，记忆分区管理
 - 🟩 `[可用]` [2039108952x-lab-image-scout](https://github.com/2039108952x-lab/image-scout) ★2 — Give your agent eyes: search Wikimedia Commons and Openverse, download real images, and verify magic bytes and
 - 🟩 `[可用]` [27synthesis-dsh-companion-one](https://github.com/27Synthesis/dsh-companion-one) ★2 — 自包含 DSH 陪伴插件：五区可塑人格、七层记忆、上下文压缩、记忆合并、B 站文风学习、陪伴分寸与心声；零额外模型调用，省 token
+- 🟩 `[可用]` [66rapper-dsh-model-auto-enricher](https://github.com/66rapper/dsh-model-auto-enricher) ★2 — ⚡ DSH 模型补齐助手：解决添加新渠道后还要把几十个模型一个个手动点开调上下文（1M）、勾多模态发图、配思考强度档位（low/high/max）的繁琐痛点，新增模型保存即自动搞定！
 - 🟩 `[可用]` [778672151-dsh-session-turn-eta](https://github.com/778672151/dsh-session-turn-eta) ★2 — Live remaining-time estimate for the current DeepSeek Harness turn, shown as a progress bar with a percentage
+- 🟩 `[可用]` [7gzgn-dsh-restart-planner](https://github.com/7gzgn/dsh-restart-planner) ★2 — Let the agent restart its own DSH host: schedule a self-restart, finish the turn first, then a detached helper
 - ⬜ `[待定]` [7starsseeker-dsh-jev-guard](https://github.com/7starsseeker/dsh-jev-guard) ★2 — DeepSeek Harness (DSH) 执行前安全阀门:bash/pwsh 真正执行前先经静态规则 + TypeSafe Jev 语义判定,破坏性操作按 允许/修正/拦截/上报人工 四态处置,含额度降级与审计日志
 - 🟩 `[可用]` [863683348-dsh-plugin-academic-writing](https://github.com/863683348/dsh-plugin-academic-writing) ★2 — Academic writing toolkit for DeepSeek Harness agents: paper outlines, title/abstract skeletons, GB/T 7714 / AP
 - ⬜ `[待定]` [abab996-dsh-plugin-dev](https://github.com/abab996/dsh-plugin-dev) ★2 — DSH 插件开发规范 Skill：教模型安全开发 DeepSeek Harness 插件的完整避坑指南，防止操作失误把整个 DSH 搞崩溃
@@ -819,6 +821,7 @@
 - 🟩 `[可用]` [33moren33-dsh-memory-pyramid](https://github.com/33moren33/dsh-memory-pyramid) ★1 — Timeline memory for DeepSeek Harness (dsh): append-only fact log + agent-maintained summary pyramid, fixed rea
 - 🟩 `[可用]` [342949145-dsh-vision-bridge](https://github.com/342949145/dsh-vision-bridge) ★1 — DSH 识图桥接插件：让 DeepSeek 等纯文本模型会话也能发送图片，图片自动经视觉模型识图转文字（识图桥接，read_image 工具兼容）
 - 🟩 `[可用]` [4399accelerator-dsh-study-planner](https://github.com/4399Accelerator/dsh-study-planner) ★1 — DSH（DeepSeek Harness）学习计划插件：会话视图里的「学习计划」标签，显示每日计划、课后题与打卡进度可视化，计划由对话生成
+- 🟩 `[可用]` [456erddgr-dsh-lag-guard](https://github.com/456erddgr/dsh-lag-guard) ★1 — 长会话一打开就卡死？这个插件把历史窗口收到 120 条，并在几兆的工具 schema 撑爆 React 之前丢掉它们
 - 🟩 `[可用]` [5ysy-dsh-jingle-notch](https://github.com/5ysy/dsh-jingle-notch) ★1 — 鲸铃 Jingle · macOS notch companion for DeepSeek Harness: tool approvals, plan reviews, structured questions and
 - 🟩 `[可用]` [a574676848-dsh-compaction-sticky-window](https://github.com/a574676848/dsh-compaction-sticky-window) ★1 — Sticky-note plus sliding-window context handling for DeepSeek Harness: a compaction backend that carries a det
 - 🟩 `[可用]` [abab996-dsh-autonomy](https://github.com/abab996/dsh-autonomy) ★1 — DSH 自主性切换器：五档滑块按会话调节模型自主性（严格遵循 → 天马行空），提示词注入即时生效、每会话独立记忆
@@ -1387,7 +1390,11 @@
 - 🟩 `[可用]` [879745uhjun-dsh-approval-zh](https://github.com/879745uhjun/dsh-approval-zh) ★0 — Automatically translate DeepSeek Harness approval prompt text to Chinese without changing approval decisions.
 - 🟩 `[可用]` [904915452-dsh-specify](https://github.com/904915452/dsh-specify) ★0 — DeepSeek Harness 插件：Spec-Kit 规范驱动开发技能套件（/speckit-* 斜杠命令）
 - 🟩 `[可用]` [911319534-dsh-preset-bridge](https://github.com/911319534/dsh-preset-bridge) ★0 — 把 SillyTavern 的预设与角色卡接进 DeepSeek Harness 的普通会话｜DeepSeek V4.1 生成 · 仅单机测试
+- ⬜ `[待定]` [919703505hackiv-boop-dsh-session-dispatch](https://github.com/919703505hackiv-boop/dsh-session-dispatch) ★0 — DSH plugin: model-facing tools that create workspace conversations, send prompts, wait for turns and read repl
 - 🟩 `[可用]` [962599627-agent-development-constraints](https://github.com/962599627/agent-development-constraints) ★0 — Intelligent agent development constraints
+- 🟩 `[可用]` [991206772-debug-dsh-share](https://github.com/991206772-debug/dsh-share) ★0 — Turns the current conversation into a shareable analysis: overview, prompts, conclusion, todos, tools, files,
+- ⬜ `[待定]` [a404670637-ch-dsh-session-prompt](https://github.com/a404670637-ch/dsh-session-prompt) ★0 — Per-conversation pinned prompt for DeepSeek Harness (DSH) Web: sent as a system-prompt section, never folded b
+- 🟩 `[可用]` [a766513648-lgtm-dsh-skill-center](https://github.com/a766513648-lgtm/dsh-skill-center) ★0 — DSH 技能中心：查看、开关、新建、按链接安装、删除（进回收站可恢复）DSH 技能
 - 🟩 `[可用]` [aawef-dsh-time-watchdog](https://github.com/aawef/dsh-time-watchdog) ★0 — Turn timer for DeepSeek Harness: elapsed tool + /set-time wrap-up prompt injection + run-time cards
 - `[空仓监测]` **abccgh-dsh-agent-studio** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [abdounasser202-dsh-deepseek-budget](https://github.com/abdounasser202/dsh-deepseek-budget) ★0 — Track your DeepSeek spent budget into DeepSeek Harness
@@ -2772,6 +2779,7 @@
 - 🟨 `[不兼容]` [yjltf-dsh-animation-studio](https://github.com/YJLTF/dsh-animation-studio) ★5 — 给 DeepSeek Harness（DSH）做的教学动画制作工作台插件：一套内置在教学会话里的"教学视频 agent"
 - 🟨 `[不兼容]` [zhaofeng130-dsh-rea](https://github.com/zhaofeng130/dsh-rea) ★5 — DeepSeek Harness adapter for REA (rea-agents): registers the reverse-engineer-anything skill plus the rea / re
 - 🟨 `[不兼容]` [zoramoris-amoris-agent](https://github.com/Zoramoris/Amoris-agent) ★5 — 喵梦agent系列插件
+- 🟨 `[不兼容]` [5aaee9-pi-agent-extensions](https://github.com/5aaee9/pi-agent-extensions) ★4 — —〔📦〕
 - 🟨 `[不兼容]` [a740411040-dsh-assist](https://github.com/a740411040/dsh-assist) ★4 — Personas, memory and opt-in proactive chat that resumes after restart for DeepSeek Harness Desktop
 - 🟨 `[不兼容]` [alpacachen-dsh-automation](https://github.com/alpacachen/dsh-automation) ★4 — Schedule and manage one-time and recurring Agent tasks in DeepSeek Harness
 - 🟨 `[不兼容]` [baikai23333-dsh-skills-manager](https://github.com/BAIKAI23333/dsh-skills-manager) ★4 — 一个方便管理skills的deepseekharness插件
