@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3669）
+# 🤖 Agent 能力（3678）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -543,6 +543,7 @@
 - ⬜ `[待定]` [skkjkk-dsh-usage-dashboard](https://github.com/skkjkk/dsh-usage-dashboard) ★3 — DSH (DeepSeek Harness) usage statistics dashboard plugin: token / cost / duration / session aggregation with t
 - 🟩 `[可用]` [songofhawk-dsh-alpha](https://github.com/songofhawk/dsh-alpha) ★3 — Multi-machine, multi-agent orchestration and control platform for DSH: route tasks across devices, workspaces,
 - 🟩 `[可用]` [ssshooter-dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) ★3 — DSH 实时思维导图插件：Agent 与你共编同一棵树，改动即时互相同步，支持停靠分屏与全屏专注两种视图
+- 🟩 `[可用]` [starriv-dsh-session-dashboard](https://github.com/starriv/dsh-session-dashboard) ★3 — DeepSeek Harness session stats dashboard: token usage, cost, composition, ranking and runtime health.
 - 🟩 `[可用]` [styxnether-dsh-auto-approval-plugin](https://github.com/StyxNether/dsh-auto-approval-plugin) ★3 — Auto-Approval: a middle permission tier for DeepSeek Harness between workspace-write and danger-full-access, a
 - ⬜ `[待定]` [sunrisepeak-dsh-index](https://github.com/Sunrisepeak/dsh-index) ★3 — DeepSeek Harness Plugin and Agent Profile Package Index - Install dsh-plugin with just one command
 - 🟩 `[可用]` [trueriscoacnt-maa-dsh-skill](https://github.com/trueRISCOacnt/maa-dsh-skill) ★3 — 基于 MaaAssistantArknights (MAA) 官方命令行工具 maa-cli 构建的 DeepSeek Harness Skill：让 DeepSeek Harness 直接驱动 MaaCore，自动化完
@@ -1226,6 +1227,7 @@
 - 🟩 `[可用]` [staff-os-dsh-dify](https://github.com/staff-os/dsh-dify) ★1 — Dify agent and knowledge-base capability for the DeepSeek Harness
 - ⬜ `[待定]` [stansz-dsh-session-delete](https://github.com/stansz/dsh-session-delete) ★1 — —
 - 🟩 `[可用]` [startermonk-dsh-adhd-session-mode](https://github.com/StarterMonk/dsh-adhd-session-mode) ★1 — DeepSeek Harness plugin converted from ayghri/i-have-adhd: ADHD-friendly output shaping that takes effect in a
+- 🟩 `[可用]` [stickyfinger7-dsh-quote-annotation](https://github.com/stickyfinger7/dsh-quote-annotation) ★1 — Quote conversation text with optional annotations and send it to the model as structured reference context in
 - 🟩 `[可用]` [stmol-dsh-rub-cost](https://github.com/Stmol/dsh-rub-cost) ★1 — DSH plugin: session cost in RUB in the conversation dock
 - 🟩 `[可用]` [stultuss-dsh-clear-tool-results](https://github.com/stultuss/dsh-clear-tool-results) ★1 — 在工具结果进入上下文之前做准入过滤。超过阈值的纯文本结果全文落盘到会话目录，模型只收到「收据 + 有界预览 + 绝对路径」；需要原文时 read 归档路径（分页）或 grep 检索取回，也可用插件提供的 read_tool_result_log 按轮/步/时间取回。
 - ⬜ `[待定]` [suanlv-dsh-local-compute-pool](https://github.com/suanlv/dsh-local-compute-pool) ★1 — DSH plugin: pool several local inference endpoints and spread delegated subagents across them
@@ -2182,6 +2184,7 @@
 - 🟩 `[可用]` [stephenlstrange2-dsh-remote-dashboard](https://github.com/stephenlstrange2/dsh-remote-dashboard) ★0 — Read-only wall dashboard for DeepSeek Harness sessions across several machines: pull or push, one hub, tablet
 - 🟩 `[可用]` [stijnus-dsh-ds-ponytail](https://github.com/Stijnus/dsh-ds-ponytail) ★0 — Lazy senior dev mode for DeepSeek Harness: ponytail skill family (ponytail, review, audit, debt, gain, help) a
 - 🟩 `[可用]` [striveh-dsh-plugin-development](https://github.com/striveh/dsh-plugin-development) ★0 — Unofficial thin, source-driven Agent Skill for DeepSeek Harness plugin development
+- 🟩 `[可用]` [studentlanily-dsh-context-dial](https://github.com/studentlanily/dsh-context-dial) ★0 — DSH plugin: set a model's context window from a settngs page; applied on the next DSH start.
 - 🟩 `[可用]` [stuga-dev-dsh-plugin](https://github.com/stuga-dev/dsh-plugin) ★0 — Connect a DeepSeek Harness profile to a Stuga workspace: Stuga's MCP tools, the workspace's conventions in the
 - 🟩 `[可用]` [sugarfatfree-dsh-agent-extension](https://github.com/SugarFatFree/dsh-agent-extension) ★0 — DeepSeek Harness plugin for workspace commands, skills, and path-scoped rules.
 - 🟩 `[可用]` [sunlitcrack-dsh-skills-mcp-manager](https://github.com/SunlitCrack/dsh-skills-mcp-manager) ★0 — DSH 插件：设置页统一管理技能 / MCP 服务器 / 指令文件（AGENTS.md 家族）
@@ -3555,11 +3558,17 @@
 - 🟨 `[不兼容]` [sojo-negai-dsh-prompt-refine](https://github.com/sojo-negai/dsh-prompt-refine) ★0 — DSH 提示词优化插件 —— 发送前点一下 ✨,模型结合上下文给出「补丁式」建议,勾选回填,不抢发送权。
 - 🟨 `[不兼容]` [sol87-dsh-workspace-reveal](https://github.com/sol87/dsh-workspace-reveal) ★0 — DSH plugin: 'reveal in file manager' row for the Workspace context menu (Windows/WSL Explorer, macOS Finder)
 - 🟨 `[不兼容]` [sole373-dsh-agent-checkin](https://github.com/sole373/dsh-agent-checkin) ★0 — DeepSeek Harness 插件：聚合各 AI 客户端每日签到 + 余额看板，并把本机客户端模型接入 DSH（中文）
+- 🟨 `[不兼容]` [sskkde-dsh-goal-guard](https://github.com/sskkde/dsh-goal-guard) ★0 — DeepSeek Harness plugin: hold back goal auto-continuation while background subagents are still running (in-pro
 - 🟨 `[不兼容]` [sskkde-dsh-oh-my-agent](https://github.com/sskkde/dsh-oh-my-agent) ★0 — oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules
+- 🟨 `[不兼容]` [star-kz-dsh-subagent-model-switcher](https://github.com/star-kz/dsh-subagent-model-switcher) ★0 — —
 - 🟨 `[不兼容]` [starstorm-ai-dsh-context-picker](https://github.com/starstorm-ai/dsh-context-picker) ★0 — —
 - 🟨 `[不兼容]` [stelliaf0x-dsh-better-subagent](https://github.com/STEllIAF0X/dsh-better-subagent) ★0 — —
 - 🟨 `[不兼容]` [stephenevenson-dsh-plugin-elevenlabs-callback](https://github.com/StephenEvenson/dsh-plugin-elevenlabs-callback) ★0 — DeepSeek Harness plugin: when a run finishes or needs approval, get a link on your phone, hear the result from
+- 🟨 `[不兼容]` [stevenzhao07-medxpert-reg-hub](https://github.com/stevenzhao07/medxpert-reg-hub) ★0 — Medical-device global regulatory compliance skill hub (Agent Skills): NMPA/FDA/MDR/PMDA pathways & classificat
+- 🟨 `[不兼容]` [stitchmaps-dsh-todolist](https://github.com/stitchmaps/dsh-todolist) ★0 — A DeepSeek Harness (DSH) To-do List plugin: collapsible task cards with due dates and workspace-session bindin
+- 🟨 `[不兼容]` [stopning-dsh-usage-stats](https://github.com/Stopning/dsh-usage-stats) ★0 — DSH 插件：会话 token 用量、成本估算、月度预算（鲸鱼水位）与宿主 CPU 监控仪表盘
 - 🟨 `[不兼容]` [striveh-dsh-llm-call-inspector](https://github.com/striveh/dsh-llm-call-inspector) ★0 — Local request and response inspector for session-associated DeepSeek Harness LLM calls
+- 🟨 `[不兼容]` [striver8-dsh-context-effort](https://github.com/striver8/dsh-context-effort) ★0 — DeepSeek Harness (DSH) plugin: composer context meter + one-click reasoning effort switcher
 - 🟨 `[不兼容]` [stuga-dev-agent-plugins](https://github.com/stuga-dev/agent-plugins) ★0 — Packages that connect coding agents to Stuga: DeepSeek Harness and Pi.
 - 🟨 `[不兼容]` [sujalmandal-dsh-tab-plan-toggle](https://github.com/sujalmandal/dsh-tab-plan-toggle) ★0 — Toggle DeepSeek Harness plan mode with Tab in the composer
 - 🟨 `[不兼容]` [sujingkpo-dsh-auto-pass](https://github.com/sujingkpo/dsh-auto-pass) ★0 — 本项目只解决「自动审批通过」，不解决无人值守问题。
