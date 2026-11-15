@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3940）
+# 🤖 Agent 能力（3951）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -634,6 +634,7 @@
 - 🟩 `[可用]` [dshworks-dsh-watch](https://github.com/dshworks/dsh-watch) ★2 — Put a watch on a stream: background listeners that wake the DeepSeek Harness agent with new matching lines — a
 - 🟩 `[可用]` [duhu2000-dsh-form-fill-agent](https://github.com/duhu2000/dsh-form-fill-agent) ★2 — AI form filling and spreadsheet autofill for XLSX in DeepSeek Harness, using authorized Qichacha MCP facts wit
 - 🟩 `[可用]` [dushudou-dsh-wallet](https://github.com/dushudou/dsh-web3) ★2 — Agent-safe EVM wallet for DeepSeek Harness (DSH): encrypted local keys, signing policy and spending limits, pr
+- 🟩 `[可用]` [dwjz-dsh-annotate](https://github.com/DWJZ/dsh-annotate) ★2 — DSH 回答标注插件：选中回答里的文字写备注，攒够了一次性发给 agent / Annotate a DSH answer and send the whole set as one message
 - 🟩 `[可用]` [einsai-dsh-heart](https://github.com/EinsAI/dsh-heart) ★2 — 给 dsh 的主智能体一颗心：她想被你喜欢、被你需要，想了解你，让你过得更好
 - 🟩 `[可用]` [elmaxid-gateway-agent](https://github.com/elmaxid/gateway-agent) ★2 — —
 - 🟩 `[可用]` [eryi-lab-dsh-gsap](https://github.com/eryi-lab/dsh-gsap) ★2 — GSAP skills plugin for DeepSeek Harness: registers the eight official GSAP AI skills.
@@ -983,6 +984,8 @@
 - ⬜ `[待定]` [ds-hu-dsh-auto-task-center](https://github.com/ds-hu/dsh-auto-task-center) ★1 — Task Center for DeepSeek Harness: scheduled and webhook tasks that deliver into a session, plus a 任务管理 agent p
 - 🟩 `[可用]` [dshworks-dsh-meter](https://github.com/dshworks/dsh-meter) ★1 — The DeepSeek time-of-use meter for dsh: what this session cost, which tariff is running, when it flips, and th
 - 🟩 `[可用]` [dtxovo-dsh-plugin-session-spend](https://github.com/dtxovo/dsh-plugin-session-spend) ★1 — DeepSeek Harness plugin: shows the current session's spend, priced by DeepSeek's peak and off-peak rate window
+- 🟩 `[可用]` [duahcim-dsh-lessons](https://github.com/duahciM/dsh-lessons) ★1 — 让Agent自动反思的实验品
+- 🟩 `[可用]` [dylanyeung0929-dsh-session-bridge](https://github.com/DylanYeung0929/dsh-session-bridge) ★1 — Read and message every DeepSeek Harness (DSH) session from one CLI or as a DSH plugin — list sessions, read tr
 - 🟩 `[可用]` [dylanzhangzx-dknowc-dsh](https://github.com/dylanzhangzx/dknowc-dsh) ★1 — 深知可信办公全家桶 dsh 插件包：深知可信咨询 / 深知可信搜索 / 深知公文写作（skill + MCP 转接）
 - ⬜ `[待定]` [dymzz-lgtm-dsh](https://github.com/dymzz/lgtm-dsh) ★1 — lgtm-dsh is a DSH plugin that automatically installs lgtm, reuses the Jev already configured in DSH, and lets
 - 🟩 `[可用]` [eightfs-dsh-skill-scoreboard](https://github.com/EIGHTfs/dsh-skill-scoreboard) ★1 — DSH skill 使用记分板：监听 tools/result，按会话去重自动累计 skill 加载次数
@@ -1743,10 +1746,17 @@
 - ⬜ `[待定]` [dshmarketplace-dshmarketplace-py](https://github.com/DshMarketPlace/dshmarketplace-py) ★0 — Find and install DeepSeek Harness (DSH) plugins from Python
 - 🟩 `[可用]` [du-u-uck-dsh-prompt-optimization](https://github.com/du-u-uck/DSH-Prompt-Optimization) ★0 — DSH的提示词优化插件，帮助优化对话框中输入的提示词与项目要求
 - 🟩 `[可用]` [dubeno-dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) ★0 — 将符合Agent Plugin规范的插件适配到DSH生态
+- ⬜ `[待定]` [duroey-dsh-study-tree](https://github.com/duroey/dsh-study-tree) ★0 — Learn through real DeepSeek Harness session forks, a tree navigator, and native Agent chat
 - 🟩 `[可用]` [dusbin-dsh-memory-view](https://github.com/dusbin/dsh-memory-view) ★0 — 查看 dsh 的 memory
 - 🟩 `[可用]` [dusktin71-lang-dsh-lessons](https://github.com/dusktin71-lang/dsh-lessons) ★0 — DSH (DeepSeek Harness) 插件：记录 AI 的愚蠢时刻与被纠正之处，沉淀成教训清单，并在后续每次对话中自动注入系统提示词，让本地模型不再重复犯同样的错
+- 🟩 `[可用]` [dusty-dustin55-dsh-file-context-menu](https://github.com/Dusty-Dustin55/dsh-file-context-menu) ★0 — —
+- 🟩 `[可用]` [duwenlong2-dsh-login-gate](https://github.com/duwenlong2/dsh-login-gate) ★0 — DSH 登录门禁插件：网页内首次设置密码、scrypt + DPAPI 存储、会话与限流
 - 🟩 `[可用]` [duyanta123-dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) ★0 — DeepSeek Harness Agent 预设：从零搭建标准化、可运行、可验证的项目骨架（架构师人设 + 六套模板资产 + 严格初始化流程）
+- 🟩 `[可用]` [dx12xyz-dsh-escape-pod](https://github.com/DX12xyz/dsh-escape-pod) ★0 — 逃生舱：让命令活在 DeepSeek Harness 之外——DSH 重启 / 崩溃后命令与输出继续运行（pod_run / pod_exec / pod_output / pod_kill / pod_freeze /
+- 🟩 `[可用]` [dxc-dxc-dsh-mcp-session-catalog](https://github.com/dxc-dxc/dsh-mcp-session-catalog) ★0 — Session-isolated, on-demand MCP manager plus by-name skill loading for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [dyf-zs-dsh-qboson-ising-solver](https://github.com/DYF-zs/dsh-qboson-ising-solver) ★0 — A DeepSeek Harness Agent Tool for solving Ising problems with QBoson Kaiwu/SPQC.
+- 🟩 `[可用]` [dyrcjqlgcj-dsh-hindsight-local](https://github.com/dyrcjqlgcj/dsh-hindsight-local) ★0 — 本地 Hindsight 长期记忆插件：自带 daemon 管理、10 个 hindsight_local_* 工具、会话注入与回写，数据留本机
+- 🟩 `[可用]` [ebi233-dsh-feed-node](https://github.com/ebi233/dsh-feed-node) ★0 — 给 DeepSeek Harness 的 agent 加小红书/抖音搜索：用你自己的浏览器和家庭 IP 抓，配套每日复盘与永久记忆插件
 - 🟩 `[可用]` [echo-smith-hy-memory4dsh](https://github.com/Echo-Smith/hy-memory4dsh) ★0 — 为 DSH 装上三层长期记忆：会话、项目、个人
 - 🟩 `[可用]` [edgeseeker7-dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) ★0 — Live subagent progress dock for DeepSeek Harness — npm: dsh-subagent-progress
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
@@ -3091,6 +3101,7 @@
 - 🟨 `[不兼容]` [deepforce-dsh-balance](https://github.com/deepforce/dsh-balance) ★2 — DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate
 - 🟨 `[不兼容]` [dialling-dsh-galaxy-view](https://github.com/dialling/dsh-galaxy-view) ★2 — Cinematic 3D galaxy view for DeepSeek Harness — workspaces as suns, conversations as stars, plus a memory libr
 - 🟨 `[不兼容]` [dpskh-dsh-rewind](https://github.com/dpskh/dsh-rewind) ★2 — Fold everything since the last checkpoint mark into an auto-generated report, replacing it in context while ke
+- 🟨 `[不兼容]` [dyikai-dsh-hogwarts-loop](https://github.com/dyikai/dsh-hogwarts-loop) ★2 — Hogwarts-loop as a DeepSeek Harness plugin: per-role subagents on configurable models, with a client settings
 - 🟨 `[不兼容]` [epcn-fla-dsh-observational-memory](https://github.com/EPCN-fla/dsh-observational-memory) ★2 — Observational memory for DeepSeek Harness: background observers distill session work into observations and dur
 - 🟨 `[不兼容]` [fanethedivine-dsh-plugin-om](https://github.com/FanetheDivine/dsh-plugin-om) ★2 — DSH插件，以Observational Memory方式管理上下文
 - 🟨 `[不兼容]` [fireopalus-dsh-workbuddy2api](https://github.com/FireOpalus/dsh-workbuddy2api) ★2 — DSH 插件：用本机多个 WorkBuddy 账号共同提供模型（账号池 / 加权轮换 / 会话粘性 / 冷却熔断）
