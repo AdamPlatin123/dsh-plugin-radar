@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6189）
+# 🔌 Web UI 增强（6200）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1122,6 +1122,7 @@
 - 🟩 `[可用]` [byh819-png-dsh-client-ui-notify](https://github.com/byh819-png/dsh-client-ui-notify) ★2 — Ringtone notifications for DeepSeek Harness: alerts are triggered when the conversation ends and when authoriz
 - 🟩 `[可用]` [dsh-plugin-peak-pricing](https://github.com/c-ling/dsh-plugin-peak-pricing) ★2 — DeepSeek 峰谷定价时段徽章（DSH 双面插件，纯 UI、无状态、无网络请求）
 - 🟩 `[可用]` [c-ling-dsh-plugin-toolbox](https://github.com/c-ling/dsh-plugin-toolbox) ★2 — DeepSeek Harness Web GUI 工具箱插件：打开工作区目录并置顶会话
+- 🟩 `[可用]` [c347087870-dsh-live-browser](https://github.com/c347087870/dsh-live-browser) ★2 — Drive DSH's own sidebar browser: real webview rendering plus an injected command surface so the agent can clic
 - 🟩 `[可用]` [canye-zdm-dsh-serial](https://github.com/Canye-zdm/dsh-serial) ★2 — 把电脑串口接进 DeepSeek Harness——让 AI 能看见 Arduino/STM32/ESP32 的运行时输出（面板 + AI 工具双通道）
 - 🟩 `[可用]` [caoning3212-dsh-plugin-image-wallpaper](https://github.com/CaoNing3212/dsh-plugin-image-wallpaper) ★2 — 自定义Deepseek Harness webUI主题
 - ⬜ `[待定]` [caozeal-dsh-plugins](https://github.com/caozeal/dsh-plugins) ★2 — DSH 插件集：侧栏 Git 管理面板（分支/暂存/提交/推送 + AI 写提交信息 + SVG 提交图 + diff），已发布 npm
@@ -1714,9 +1715,12 @@
 - 🟩 `[可用]` [c-ling-dsh-plugin-request-retry](https://github.com/c-ling/dsh-plugin-request-retry) ★1 — DeepSeek Harness 请求重试插件：模型请求失败且错误信息命中关键词时，在内置重试策略耗尽后继续自动追加重试；设置面板可管理关键词与退避参数
 - 🟩 `[可用]` [c-v-c-v-dsh-chat-nav](https://github.com/c-v-c-v/dsh-chat-nav) ★1 — DeepSeek Harness 聊天快捷导航插件（ChatGPT 式悬停滑出）· A DeepSeek Harness chat quick-nav plugin (ChatGPT-style hover slide-
 - 🟩 `[可用]` [cainiaono1-dsh-better-display](https://github.com/cainiaoNO1/dsh-better-display) ★1 — DeepSeek Harness Web GUI 的「阅读」视图插件自用维护版：过程折叠、实时思考卡片、最终回答聚焦；已脱离官方 DSHX 工具链，改用 esbuild + lightningcss 自建可复现构建
+- 🟩 `[可用]` [cairunze3-deepseek-harness-memory-core](https://github.com/cairunze3/deepseek-harness-memory-core) ★1 — Zero-dependency memory core for DeepSeek Harness: pointer/core preloading, BM25/hybrid retrieval, auditable co
+- 🟩 `[可用]` [caishengshuo-beforewrite](https://github.com/caishengshuo/beforewrite) ★1 — Every file, one version before it breaks
 - 🟩 `[可用]` [caisiyang123-dsh-theme-dodger-17](https://github.com/caisiyang123/dsh-theme-dodger-17) ★1 — Dodger-blue ballpark theme plugin for DeepSeek Harness — day & night palettes with baseball-stitch red accents
 - 🟩 `[可用]` [callqh-dsh-project-summary](https://github.com/callqh/dsh-project-summary) ★1 — Compact floating Git project summary for DeepSeek Harness: branch, changes, commits and GitHub PR
 - 🟩 `[可用]` [canye-zdm-dsh-skin-aurora](https://github.com/Canye-zdm/dsh-skin-aurora) ★1 — Deepseek Harness aurora theme skin
+- 🟩 `[可用]` [canyuey-dsh-anime-guide](https://github.com/canyueY/dsh-anime-guide) ★1 — DeepSeek Harness 番剧插件：yuc 新番表 + 番库/Bangumi/MAL 评分榜，搜索推荐与国内外差异对照
 - 🟩 `[可用]` [dsh-image-theme](https://github.com/Carpon39038/dsh-image-theme) ★1 — Warp-inspired image-to-theme plugin for DeepSeek Harness: upload a background, extract a palette, and apply a
 - 🟩 `[可用]` [catsenior507-dsh-web-watchdog](https://github.com/catsenior507/dsh-web-watchdog) ★1 — Watchdog for the dsh web GUI: crash logging + exponential-backoff auto-restart supervisor + status panel
 - 🟩 `[可用]` [ch4acko3-bites-the-dsh](https://github.com/memorax-ai/bites-the-dsh) ★1 — Read-only, scriptable session playback for the DeepSeek Harness WebUI
@@ -3004,7 +3008,13 @@
 - ⬜ `[待定]` [byxhuster-dsh-paper-highlighting-agent](https://github.com/ByxHuster/DSH-Paper-Highlighting-Agent) ★0 — An interactive and customized paper highlighting tool built upon Deepseek Harness (DSH), still under developme
 - 🟩 `[可用]` [bzsang-dsh-turn-quote](https://github.com/bzsang/dsh-turn-quote) ★0 — 引用上文：在 DSH 输入框用 @ 按轮次引用本次对话前文（单轮 / 整轮问答 / 最近多轮，支持正文搜索）
 - 🟩 `[可用]` [caesarjue-dsh-audio-visualizer](https://github.com/caesarjue/dsh-audio-visualizer) ★0 — System-audio driven UI visualizer for DeepSeek Harness (dsh web / DSH Desktop): a draggable 48-band spectrum c
+- 🟩 `[可用]` [caho1-dsh-component-picker](https://github.com/Caho1/dsh-component-picker) ★0 — Claude-style element picker for the dsh built-in Browser: hover-highlight, pick, and send the element/componen
+- 🟩 `[可用]` [caichangzhan-dsh-topic-wall](https://github.com/caichangzhan/dsh-topic-wall) ★0 — 多会话对话墙 DSH 插件：置顶/进行中/集合卡片、真实历史、卡内回复、审批、模型切换、三主题
+- 🟩 `[可用]` [caigou114-dsh-teleagent-skill-builder](https://github.com/caigou114/dsh-teleagent-skill-builder) ★0 — —
+- 🟩 `[可用]` [callaumyan-design-dshx-session-delete](https://github.com/callaumyan-design/dshx-session-delete) ★0 — Permanently delete a DSH conversation 鈥?sidebar menu item plus the removal endpoint the harness itself does no
 - 🟩 `[可用]` [calvin451970353-dsh-vmic](https://github.com/Calvin451970353/dsh-vmic) ★0 — Voice input plugin for DeepSeek Harness: mic button, 16kHz WAV recording, ASR via Xiaomi MiMo / Volcengine Dou
+- 🟩 `[可用]` [caly250-dsh-page-reload](https://github.com/caly250/dsh-page-reload) ★0 — DSH plugin: whole-page reload shortcut (Ctrl+Shift+R) - the recovery key for a wedged or white-screened DeepSe
+- 🟩 `[可用]` [camik86-dsh-minimal-balance](https://github.com/camik86/dsh-minimal-balance) ★0 — Minimal DeepSeek balance badge for the DSH Web sidebar, with peak/off-peak pricing indicator
 - 🟩 `[可用]` [canary-builds-dhs-connect](https://github.com/canarybuilds/dhs-connect) ★0 — DSH Connect — ChatGPT model connector for DeepSeek Harness, powered by the Codex app-server.
 - 🟩 `[可用]` [canary-builds-dsh-mobile-ui](https://github.com/canarybuilds/dsh-mobile-ui) ★0 — Mobile and PWA interface enhancements for DeepSeek Harness, inside your existing web UI.
 - 🟩 `[可用]` [canary-builds-dsh-web-search-zai](https://github.com/canarybuilds/dsh-web-search-zai) ★0 — Z.AI (GLM) web search provider for DeepSeek Harness — native web_search via the Anthropic-compatible Messages
@@ -5281,6 +5291,7 @@
 - 🟨 `[不兼容]` [btsd321-dsh-oh-my-terminal](https://github.com/btsd321/dsh-oh-my-terminal) ★1 — A bottom terminal panel plugin for DSH GUI
 - 🟨 `[不兼容]` [btspoony-dsh-keys-manager](https://github.com/btspoony/dsh-keys-manager) ★1 — A DSH plugin that turns one provider API key into a managed pool + more built-in LLM Providers
 - 🟨 `[不兼容]` [buguoshixc-dsh-user-message-navigator](https://github.com/buguoshixc/dsh-user-message-navigator) ★1 — Codex-style user-message navigation sidebar for DeepSeek Harness Web
+- 🟨 `[不兼容]` [c10ck-p-dsh-checkpoint-dock](https://github.com/c10ck-p/dsh-checkpoint-dock) ★1 — Per-turn, per-file checkpoints for DeepSeek Harness: keep, undo, redo, and revert to here from a dock above th
 - 🟨 `[不兼容]` [cavan-ou-dsh-flash-godmode](https://github.com/Cavan-Ou/dsh-flash-godmode) ★1 — V4 Flash "god mode" for DeepSeek Harness: w7 persona anchoring + first-turn tool anchoring + complexity-dispat
 - 🟨 `[不兼容]` [cdxdnrf-dsh-wishadel-theme](https://github.com/cdxDNRF/dsh-wishadel-theme) ★1 — —
 - 🟨 `[不兼容]` [dsh-claude-theme](https://github.com/chajiuqqq/dsh-claude-theme) ★1 — dsh的claude风格界面
