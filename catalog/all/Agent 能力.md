@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4426）
+# 🤖 Agent 能力（4432）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2586,14 +2586,18 @@
 - 🟩 `[可用]` [pasumao-dsh-plugin-windows-guard](https://github.com/Pasumao/dsh-plugin-windows-guard) ★0 — DeepSeek Harness (dsh) Windows 环境防坑插件：防坑 skill + 三层主动防护（乱码检测提示 / 危险写拦截 / 编码诊断修复工具）
 - 🟩 `[可用]` [pbwheel-dsh-agency-market](https://github.com/pbwheel/dsh-agency-market) ★0 — 把 agency-agents 中的 273 个专业智能体装进 DeepSeek Harness，类似 workbuddy 中的专家
 - ⬜ `[待定]` [pedromarcioap-dsh-approval-notifier](https://github.com/pedromarcioap/dsh-approval-notifier) ★0 — Notificacao nativa no Chrome/Windows quando o DeepSeek Harness espera sua aprovacao
+- ⬜ `[待定]` [pelucoola-dsh-plugin-remote-ssh](https://github.com/pelucoola/dsh-plugin-remote-ssh) ★0 — DSH plugin: control remote hosts over SSH (agent tools + Settings host manager, connection reuse, adaptive tim
+- 🟩 `[可用]` [penghao73551-dsh-prompt-balance](https://github.com/penghao73551/dsh-prompt-balance) ★0 — Measure what your system prompt is made of, and put the operating protocol ahead of the rule block.
 - 🟩 `[可用]` [pennchong95-dsh-cost-meter](https://github.com/PennChong95/dsh-cost-meter) ★0 — DeepSeek Harness 插件：在上下文用量右侧显示本会话 token 用量与人民币费用（按 DeepSeek 官方价目折算）
 - 🟩 `[可用]` [dsh-prompt-edit](https://github.com/perdakovich/dsh-prompt-edit) ★0 — The pencil DSH forgot to ship: suckless prompt editing, engineered to feel like it was always there.
 - 🟩 `[可用]` [perinchiang-dsh-memory-dashboard](https://github.com/perinchiang/dsh-memory-dashboard) ★0 — DeepSeek Harness embedded read-only viewer for TencentDB Agent Memory's four-layer local memory
 - 🟩 `[可用]` [perrylink-dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) ★0 — DeepSeek Harness 插件 — 应急预案核对：依据《生产经营单位生产安全事故应急预案编制导则》《生产安全事故应急预案管理办法》（GB/T 29639-2020、国家安全生产监督管理总局令第88号）
 - 🟩 `[可用]` [perrylink-dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) ★0 — 劳保用品配置核对：按公开配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论
 - 🟩 `[可用]` [perrylink-dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) ★0 — 给工艺安全/HAZOP 主席：核对 HAZOP（危险与可操作性分析）分析表的节点、偏差、原因、后果与建议措施是否齐备一致
+- 🟩 `[可用]` [perrylink-dsh-security-pack](https://github.com/PerryLink/dsh-security-pack) ★0 — Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness: eight bilingual skills and a pr
 - 🟩 `[可用]` [pgjh-dsh-model-metadata](https://github.com/pgjh/dsh-model-metadata) ★0 — DSH plugin: fill in custom-gateway model metadata by bare model name — context window, output cap, reasoning l
 - 🟩 `[可用]` [philmingdao-anno](https://github.com/philmingdao/anno) ★0 — Local-first HTML review and annotation for AI coding agents〔📦〕
+- 🟩 `[可用]` [phocinae-dsh-context-verdict](https://github.com/Phocinae/dsh-context-verdict) ★0 — DeepSeek Harness plugin: one session-level verdict on whether compaction would lose unlanded state
 - 🟩 `[可用]` [phocinae-dsh-phocinae](https://github.com/Phocinae/dsh-phocinae) ★0 — Phocinae decision plugin bundle for DeepSeek Harness (dsh): phocinae_ask tool + approval gate
 - 🟩 `[可用]` [phoenixlucky-dsh-session-norms](https://github.com/phoenixlucky/dsh-session-norms) ★0 — DeepSeek Harness plugin: a normalized session view that renders every turn, message and tool call in one consi
 - 🟩 `[可用]` [phoenixlucky-family-lovers-skill](https://github.com/phoenixlucky/family-lovers-skill) ★0 — ❤️ 家庭关怀技能 · 走出原生家庭 — 觉察、疗愈、陪伴
@@ -2675,6 +2679,7 @@
 - 🟩 `[可用]` [sarsgy-wenjian-dsh-wenjian-team](https://github.com/sarsgy-wenjian/dsh-wenjian-team) ★0 — DSH 文稿创作团队（10 技能）：只读校验→三档建议→作者勾选→定点替换→逐字复核，不自动改稿
 - 🟩 `[可用]` [sauronlee-dsh-token-calendar](https://github.com/SauronLee/dsh-token-calendar) ★0 — DeepSeek Harness 插件：设置里的 Token 用量日历，按天/按模型统计会话 token 消耗（本地、零依赖）
 - 🟩 `[可用]` [dsh-rich-context](https://github.com/svgop/dsh-rich-context) ★0 — Agent instruction manager for DSH — edit and template the AGENTS.md files the harness actually reads (global +
+- ⬜ `[待定]` [scorpioflz-dsh-cbw-memory](https://github.com/Scorpioflz/dsh-cbw-memory) ★0 — —
 - ⬜ `[待定]` [scp-cn-1059-dsh-zhouli](https://github.com/SCP-CN-1059/dsh-zhouli) ★0 — DeepSeek Harness 的《周礼》插件
 - 🟩 `[可用]` [sdf-jkl-gh-dsh-memory-panel](https://github.com/sdf-jkl-gh/dsh-memory-panel) ★0 — —
 - 🟩 `[可用]` [secondlgn-dsh-mail](https://github.com/secondlgn/dsh-mail) ★0 — DSH 邮件通道插件：一台机器一个专属邮箱，邮件即会话入口，回复即续接上下文（零运行时依赖）
@@ -4256,6 +4261,7 @@
 - 🟨 `[不兼容]` [pattianfang-dsh-workflow-fang](https://github.com/PatTianFang/dsh_workflow_fang) ★0 — DSH Workflow ported to DeepSeek Harness 0.2.1-rc.3 - reusable, governed, durable multi-agent workflows
 - 🟨 `[不兼容]` [penglai-doll-dsh-memory](https://github.com/penglai-doll/dsh-memory) ★0 — —
 - 🟨 `[不兼容]` [perrylink-dsh-dida](https://github.com/PerryLink/dsh-dida) ★0 — TickTick / Dida365 task bridge for DeepSeek Harness: Session-header task panel, agent tools and settings card.
+- 🟨 `[不兼容]` [pf-sjtu-dsh-early-stop-guard](https://github.com/pf-sjtu/dsh-early-stop-guard) ★0 — DSH plugin: keep an agent turn open when the model only narrated its next action instead of calling a tool
 - 🟨 `[不兼容]` [phm-audit-dsh-action-guard](https://github.com/PHM-Audit/dsh-action-guard) ★0 — Deterministic pre-execution tool-call guard plugin for DeepSeek Harness (dsh) - monotonic guard seam, operator
 - 🟨 `[不兼容]` [phoenixlucky-dsh-mcp-settings](https://github.com/phoenixlucky/dsh-mcp-settings) ★0 — Optional DeepSeek bundle for MCP server management, Chrome access, and Cognee memory settings in Web and Deskt
 - 🟨 `[不兼容]` [piaohua-dsh-schedule-command](https://github.com/piaohua/dsh-schedule-command) ★0 — DeepSeek Harness 的 /schedule 定时任务命令 —— 一句话创建会话内单次/周期任务，⏰ 标识自动识别定时会话
