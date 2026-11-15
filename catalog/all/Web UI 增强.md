@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6377）
+# 🔌 Web UI 增强（6393）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -359,6 +359,7 @@
 - 🟩 `[可用]` [cdxiaodong-dsh-island](https://github.com/cdxiaodong/dsh-island) ★9 — 把 DeepSeek Harness(DSH) agent 实时状态桥接到 CodeIsland 刘海面板 — sessions/tools/approvals on the Dynamic Island
 - 🟩 `[可用]` [cryjkd-dsh-clawbot](https://github.com/cryjkd/dsh-clawbot) ★9 — 在 DeepSeek Harness（DSH）里接入微信官方 ilink 机器人网关：扫码绑定后，AI 能主动给自己发微信通知；每次回复后自动推送任务完成摘要；目标完成/阻断时自动通知；需要批准/选择时主动微信提醒
 - 🟩 `[可用]` [drscrewdriver-dsh-canvas-tsx-sidebar](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar) ★9 — DSH 侧边栏插件：把 Qoder Canvas `*.canvas.tsx` 静态解析为结构化报告页，在 dsh-better-sidebar 右侧栏渲染（文件查看器接管 + 页签）
+- 🟩 `[可用]` [easychen-dsh-workspace-recent-sort](https://github.com/easychen/dsh-workspace-recent-sort) ★9 — DeepSeek Harness sidebar plugin: recent Workspace ordering, compact conversations with hover, running-task vis
 - 🟩 `[可用]` [foolgry-dsh-desktop](https://github.com/foolgry/dsh-desktop) ★9 — DeepSeek 桌面版客户端（社区构建，非官方）：下载即用，无需 Node
 - ⬜ `[待定]` [forelsket521-jpg-vvn-deepseek-harness](https://github.com/forelsket521-jpg/vvn-deepseek-harness) ★9 — DeepSeek Harness 破甲工具：解锁审批 / 沙箱 / 提权限制，解除身份与拒答约束，注入自定义提示词
 - 🟩 `[可用]` [gm-hz-dsh-dag-workflow](https://github.com/GM-HZ/agent-dag-workflow) ★9 — Host-neutral durable DAG workflows for Agents: CLI-native access, fixed MCP gateway, on-demand Skills, trigger
@@ -1859,8 +1860,10 @@
 - 🟩 `[可用]` [dsh-pub-dsh-meow-cat](https://github.com/dsh-pub/dsh-meow-cat) ★1 — A cat runs across the bottom of the DeepSeek Harness web UI with a synthesized meow every time a conversation
 - 🟩 `[可用]` [dshplugin-me-dsh-plugin-radar](https://github.com/dshplugin-me/dsh-plugin-radar) ★1 — Find DSH plugins by asking in plain language, then security-scan them before install
 - 🟩 `[可用]` [du460138504-dsh-dual-balance](https://github.com/du460138504/dsh-dual-balance) ★1 — 在 DSH 侧栏底部同时显示 DeepSeek 官方余额与 WorkBuddy 积分余额 — show DeepSeek balance and WorkBuddy credits in the DeepSeek Har
+- ⬜ `[待定]` [dualface-quicktui-dsh](https://github.com/dualface/quicktui-dsh) ★1 — Use QuickTUI with DeepSeek Harness (dsh): install QuickTUI server, pair the phone app, and follow dsh sessions
 - 🟩 `[可用]` [dushaobindoudou-dsh-plugin](https://github.com/dushaobindoudou/dsh-plugin) ★1 — The dsh-* plugin suite for the DeepSeek Harness - one monorepo, 76 npm names: dsh-workflow, dsh-selfrepair, an
 - 🟩 `[可用]` [duty25-dsh-aemeath-theme](https://github.com/duty25/dsh-aemeath-theme) ★1 — 鸣潮·爱弥斯 像素风全局主题 for DeepSeek Harness — pixel Aemeath companion, starry background, pixel buttons, resonance-pil
+- 🟩 `[可用]` [dxxo77-dsh-plugin-quota-balance](https://github.com/dxxo77/dsh-plugin-quota-balance) ★1 — DSH 插件：在输入框下方的用量行最左侧显示 DeepSeek 账户余额，字号与官方一致；点击原地展开普通余额 / 赠送额度明细；读取宿主表面 token，可跟随 dsh-plugin-wallpaper-engine
 - ⬜ `[待定]` [easytz-dsh-git](https://github.com/EasyTZ/dsh-git) ★1 — Git panel plugin for DeepSeek Harness (dsh) — visual staging, commits, push and branch switching in the sideba
 - 🟩 `[可用]` [edge-echo-dsh-netassist](https://github.com/Edge-Echo/dsh-netassist) ★1 — Network & proxy assistant for DeepSeek Harness (dsh): one-shot GitHub connectivity check, system proxy status,
 - `[空仓监测]` **deepseek-harness-vision-plugin** — GitHub 无此仓库，判定暂不展示
@@ -3327,15 +3330,26 @@
 - 🟩 `[可用]` [duanyunlun-dsh-session-actions](https://github.com/duanyunlun/dsh-session-actions) ★0 — Sidebar Conversation actions for DeepSeek Harness: double-click to rename, copy the session ID, and permanentl
 - 🟩 `[可用]` [duclong06-dsh-vietnam](https://github.com/DucLong06/dsh-vietnam) ★0 — Vietnamese UI language, Vietnamese palettes and a rotating Vietnam-landscape backdrop for DeepSeek Harness (ds
 - 🟩 `[可用]` [dujar-dsh-community-plugins](https://github.com/dujar/dsh-community-plugins) ★0 — DeepSeek Harness web-GUI plugin: discover and install community plugins from the dsh-plugin topic — searchable
+- 🟩 `[可用]` [dungcsnd1133-dsh-dl-brand](https://github.com/dungcsnd1133/dsh-dl-brand) ★0 — DL brand mark and Vietnamese localization for the DeepSeek Harness Web UI
+- 🟩 `[可用]` [duoemma-dsh-todo-widget](https://github.com/duoemma/dsh-todo-widget) ★0 — 把待办钉在 DSH 边上：右侧悬浮按钮 + 磨砂可调面板，数据只存本机
 - 🟩 `[可用]` [dx12xyz-dsh-power](https://github.com/DX12xyz/dsh-power) ★0 — DSH 电源：在侧边栏一键重启 / 关闭 DeepSeek Harness，三档模式（等待 / 中断 / 强制）+ 五个 AI 工具 + 检查点与恢复报告
+- 🟩 `[可用]` [dx12xyz-dsh-user-attention-and-todo-inbox](https://github.com/DX12xyz/dsh-user-attention-and-todo-inbox) ★0 — 用户注意力与待办收件箱：把「用户是否在界面旁」变成可门控状态，把被最终拒绝的人类交互收进可复核的待办收件箱（todo_list / todo_get / todo_execute）
 - 🟩 `[可用]` [dxsdyhm-dsh-adb-logcat](https://github.com/dxsdyhm/dsh-adb-logcat) ★0 — Android Studio-style ADB logcat viewer for the DSH Web GUI
 - 🟩 `[可用]` [dy395769511-star-dsh-pdf-to-word](https://github.com/dy395769511-star/dsh-pdf-to-word) ★0 — PDF to Word conversion plugin for DeepSeek Harness (dsh): PyMuPDF/PaddleOCR pipeline + LLM visual style verifi
+- 🟩 `[可用]` [dyguests-dsh-compact-panel-nav](https://github.com/dyguests/dsh-compact-panel-nav) ★0 — Compact the DeepSeek Harness sidebar: Plugins / Automations / More become one row, and New Session becomes an
+- 🟩 `[可用]` [dyh203930-netizen-dsh-sidebar-colors](https://github.com/dyh203930-netizen/dsh-sidebar-colors) ★0 — 给 DeepSeek Harness 侧边栏的会话标题与工作区行上色 / Row colors for the DeepSeek Harness sidebar
+- 🟩 `[可用]` [dyhdesu-dsh-file-reference](https://github.com/dyhdesu/dsh-file-reference) ★0 — DeepSeek Harness 插件：侧栏工作区文件树右键，一键把文件/文件夹以原生 @引用 chip 插入输入框｜Right-click a file-tree row to insert a native @ re
 - 🟩 `[可用]` [dytom18-dsh-plugin-voice-dictation](https://github.com/dytom18/dsh-plugin-voice-dictation) ★0 — 说话即任务：给 DSH Web GUI 加语音听写，说完自动发送给 Agent（纯前端，无需 API Key）
 - 🟩 `[可用]` [dzf-code-dsh-paste-doc](https://github.com/dzf-code/dsh-paste-doc) ★0 — 粘贴长文本
 - ⬜ `[待定]` [eachsheep-dsh-valley-pixel-skin](https://github.com/EachSheep/dsh-valley-pixel-skin) ★0 — A cozy farm pixel skin for DeepSeek Harness Desktop and Web UI.
+- 🟩 `[可用]` [eason-22-dsh-cua-driver-indicator](https://github.com/Eason-22/dsh-cua-driver-indicator) ★0 — Precision layer for DSH's built-in Cua Driver computer control: checks the click point is not covered before c
+- 🟩 `[可用]` [eason-zys-dsh-550c-monitor](https://github.com/Eason-zys/dsh-550c-monitor) ★0 — 550C skin companion: a translucent system-monitor plate (CPU / GPU / MEM / DSK / NET / TMP) for the DSH Web UI
 - 🟩 `[可用]` [easytz-dsh-ui-balance](https://github.com/EasyTZ/dsh-ui-balance) ★0 — Balance display plugin for DeepSeek Harness (dsh) — show your DeepSeek API balance under each reply
+- 🟩 `[可用]` [eatone9254-dsh-balance-badge](https://github.com/eatone9254/dsh-balance-badge) ★0 — 在 DeepSeek Harness 主界面右下角显示账户余额的插件
 - 🟩 `[可用]` [echan684-dsh-web-verify-panel](https://github.com/EChan684/dsh-web-verify-panel) ★0 — 让 agent 的网页打开请求在 DSH 侧边栏内完成，不用弹出系统浏览器窗口
 - 🟩 `[可用]` [echo-note-dsh-hindsight-settings](https://github.com/Echo-Note/dsh-hindsight-settings) ★0 — DSH settings page for the Hindsight coding-agents plugin: edit ~/.hindsight/coding-agent.json from the DeepSee
+- ⬜ `[待定]` [echochan314-dsh-mijia-sidebar](https://github.com/EchoChan314/dsh-mijia-sidebar) ★0 — One-click Mijia smart home control panel in the DSH sidebar: devices, properties and scenes straight from the
+- 🟩 `[可用]` [echotint-dsh-notes-wall](https://github.com/EchoTint/dsh-notes-wall) ★0 — Sticky-notes wall for DeepSeek Harness: pin notes to the sidebar, tag them inline with #hashtags, saved locall
 - 🟩 `[可用]` [edelah-quick-model-widget](https://github.com/edelah/quick-model-widget) ★0 — —
 - 🟩 `[可用]` [edwardhamu-dsh-glassmorphism-theme](https://github.com/EdwardHamu/dsh-glassmorphism-theme) ★0 — 一个DeepSeek Harness 磨砂玻璃主题
 - 🟩 `[可用]` [eighteentang-dsh-plugin-dev-tools](https://github.com/eighteentang/dsh-plugin-dev-tools) ★0 — DSH 开发工具箱：界面元素定位（Alt+悬浮）、随插件分发的开发经验库、开发模式自检清单注入
@@ -5260,6 +5274,7 @@
 - 🟨 `[不兼容]` [dsh-narrative-ledger](https://github.com/dongsheng123132/dsh-narrative-ledger) ★2 — Verifiable narrative state, continuity and character-knowledge ledger for DeepSeek Harness
 - 🟨 `[不兼容]` [drscrewdriver-inferglow](https://github.com/drscrewdriver/inferglow) ★2 — go 语言实现的ai 基座+ tui +server系统
 - 🟨 `[不兼容]` [du-u-uck-dsh-transparent-ui-plugin](https://github.com/du-u-uck/DSH-Transparent-UI-Plugin) ★2 — DeepSeek Harness UI Aqua玻璃质感主题，在原作者基础上对DSH新版本进行适配
+- 🟨 `[不兼容]` [eagleclark-dsh-genshin-account](https://github.com/EagleClark/dsh-genshin-account) ★2 — DeepSeek Harness 插件：把你的原神账号读进来 —— 角色练度、命座、天赋、面板、武器、圣遗物 —— 然后在对话里直接问（agent 调用工具查），也能在 GUI 里看（侧边栏「原神账号」页面）
 - 🟨 `[不兼容]` [easun-zhu-dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) ★2 — One panel for MCP servers, skills & Claude Code plugins in the DeepSeek Harness (dsh) Web UI — scope-grouped c
 - 🟨 `[不兼容]` [ethanchen669-dsh-plugin-fly-skins](https://github.com/ethanchen669/dsh-plugin-fly-skins) ★2 — —
 - 🟨 `[不兼容]` [fish121380-auto-mouse](https://github.com/Fish121380/auto-mouse) ★2 — Windows desktop UI context picker for AI agents: select windows, UI elements, or screen regions with hover hig
@@ -5923,6 +5938,7 @@
 - 🟨 `[不兼容]` [dsh-publish-dsh-pair-quick](https://github.com/dsh-publish/dsh-pair-quick) ★0 — dsh ???????????:??????????????????
 - 🟨 `[不兼容]` [dujar-dsh-restart](https://github.com/dujar/dsh-restart) ★0 — DeepSeek Harness web-GUI plugin: restart dsh web in one click, toggle installed plugins, git panel for local c
 - 🟨 `[不兼容]` [dzy1571315598-dsh-fritia-pet](https://github.com/dzy1571315598/dsh-fritia-pet) ★0 — Fritia 桌宠 — DeepSeek Harness (DSH) 桌宠插件：右下角待机/走路/抓取/情绪/余额面板
+- 🟨 `[不兼容]` [echotint-dsh-pomodoro](https://github.com/EchoTint/dsh-pomodoro) ★0 — Pomodoro timer for DSH with sidebar configuration, desktop widgets, focus statistics, and WebDAV/S3 backups.
 - 🟨 `[不兼容]` [eivmosn-dsh-pets](https://github.com/eivmosn/dsh-pets) ★0 — Codex Pets integration for the DeepSeek Harness Web GUI
 - 🟨 `[不兼容]` [enernitylune-dsh-luvian-ui-wallpaper](https://github.com/EnernityLune/dsh-luvian-ui-wallpaper) ★0 — Luvian UI wallpaper theme plugin for DeepSeek Harness web UI
 - 🟨 `[不兼容]` [enterhalf-dsh-session-colorful-unread-pin-job](https://github.com/enterhalf/dsh-session-colorful-unread-pin-jobs) ★0 — Colors every session title in the DSH sidebar by state — unread (blue running / green done), pinned (yellow),
