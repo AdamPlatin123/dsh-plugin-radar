@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4237）
+# 🤖 Agent 能力（4250）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1225,6 +1225,7 @@
 - 🟩 `[可用]` [luoyuejun9-dsh-workstate](https://github.com/luoyuejun9/dsh-workstate) ★1 — Structured work-state checkpoints and safe agent handoffs for DeepSeek Harness
 - ⬜ `[待定]` [luyu020816-droid-skill-dag](https://github.com/luyu020816-droid/skill-dag) ★1 — —
 - ⬜ `[待定]` [lwy0v0-dsh-browser-agent](https://github.com/lwy0v0/dsh-browser-agent) ★1 — 这是一个Deepseek Harness项目
+- ⬜ `[待定]` [lxfebd-agentpilot](https://github.com/lxfebd/AgentPilot) ★1 — AgentPilot — a cross-device agent workbench (Connector/Server/clients)
 - ⬜ `[待定]` [lycheelink-dsh-workbench](https://github.com/lycheelink/dsh-workbench) ★1 — Enterprise Agent Workbench for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [lyfzhixing-dsh-anchor-rail](https://github.com/lyfZhixing/dsh-anchor-rail) ★1 — DSH Web 会话锚点导轨插件：左侧导轨展示当前模型表面全部用户问题，悬浮显示全部锚点名称（与导轨对齐），点击快速跳转
 - 🟩 `[可用]` [lyk308-dsh-token-dashboard](https://github.com/lyk308/dsh-token-dashboard) ★1 — dsh-token-dashboard 是一个 DeepSeek Harness 插件，把「实时账户余额」和「Token 使用量」整合在一个看板里
@@ -2301,12 +2302,18 @@
 - 🟩 `[可用]` [lucifergzsz414-dsh-windows-native](https://github.com/lucifergzsz414/dsh-windows-native) ★0 — Native-Windows (non-WSL) shell/encoding/filesystem gotchas for the DeepSeek Harness system prompt
 - 🟩 `[可用]` [ludiwusi12138-dsh-sqy-rewind](https://github.com/LUDIWUSI12138/dsh-sqy-rewind) ★0 — Rewind a DSH session to before a turn you already sent.
 - 🟩 `[可用]` [lumos-789-guster](https://github.com/Lumos-789/guster) ★0 — Guster — audit and evolve agent context across one project, a group of repos, a hub, or a whole machine.
+- 🟩 `[可用]` [lumos-789-make-it-a-bit-better](https://github.com/Lumos-789/make-it-a-bit-better) ★0 — A skill plugin that runs an autonomous product-polish loop: one small, verified improvement per round, accumul
+- 🟩 `[可用]` [lumos-789-voicetranser](https://github.com/Lumos-789/VoiceTranser) ★0 — 🎙️ Voice input → AI-refined prompt → auto-paste
 - 🟩 `[可用]` [lunarmoon26-dsh-adaptive-loop](https://github.com/lunarmoon26/dsh-adaptive-loop) ★0 — —
 - 🟩 `[可用]` [lunfengchen-dsh-context](https://github.com/LunFengChen/dsh-context) ★0 — —
+- 🟩 `[可用]` [luochang212-godview](https://github.com/luochang212/godview) ★0 — Give your agents a god's eye view: file leases, claim and release records, and a Gantt of who holds what, so p
 - 🟩 `[可用]` [luoghong-dsh-session-recorder](https://github.com/luoghong/dsh-session-recorder) ★0 — 记录和deek Harness对话记录为md格式
+- 🟩 `[可用]` [luohuayeyv-dsh-account-hub](https://github.com/Luohuayeyv/dsh-account-hub) ★0 — Site account manager for DeepSeek Harness: encrypted site accounts (URL + username + password) with a Settings
+- 🟩 `[可用]` [luotaiyu-dsh-worksite-plugin](https://github.com/LuoTaiyu/dsh-worksite-plugin) ★0 — DSH 会话视图插件：拟人化现场工程师与工程进度可视化 / Anthropomorphic worksite session view for DSH
 - ⬜ `[待定]` [luoxin10086-dsh-session-backup](https://github.com/luoxin10086/dsh-session-backup) ★0 — Cold backup for DeepSeek Harness session histories: full + incremental backup with sha256 manifest and loader-
 - 🟩 `[可用]` [luoxin10086-dsh-session-doctor](https://github.com/luoxin10086/dsh-session-doctor) ★0 — Session doctor for DeepSeek Harness: scan/repair/watch stored session logs against loader-mirror validation, p
 - 🟩 `[可用]` [luoye-1026-dsh-agent-hub](https://github.com/Luoye-1026/dsh-agent-hub) ★0 — —
+- 🟩 `[可用]` [luwenjiede-dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) ★0 — VaultX — DSH 终极密码箱：scrypt+AES-256-GCM 信封加密 × $DSH_* shellEnv 带外注入（密钥永不进模型上下文）× 锁定态 fail-open × 哈希链审计
 - 🟩 `[可用]` [luyang950-dsh-desk-listen](https://github.com/luyang950/dsh-desk-listen) ★0 — DeepSeek Harness 插件：在会话里隐藏式听工位股市的一起听、点歌、聊天（老板键、零 token）
 - 🟩 `[可用]` [luyiheng1111-dsh-context-window-picker](https://github.com/luyiheng1111/dsh-context-window-picker) ★0 — Session-scoped context window selector for the DeepSeek Harness model picker
 - 🟩 `[可用]` [lvdao-dsh-exec-extension](https://github.com/LvDAO/dsh-exec-extension) ★0 — —
@@ -2319,6 +2326,11 @@
 - 🟩 `[可用]` [lzxcs-btw-pro](https://github.com/lzxcs/btw-pro) ★0 — /btw 旁路问答：不打断当前会话（含流式输出中），基于当前上下文回答一个问题；答案以「旁答」命令结果行显示在主会话里，不进入主模型上下文
 - `[空仓监测]` **lzyyzznl-dsh-prompt-tuner** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [m1eb0-fatfish-world-dsh](https://github.com/m1eb0/fatfish-world-dsh) ★0 — 大肥鱼世界 MCP tools and portable Skill for DeepSeek Harness
+- 🟩 `[可用]` [m1r0er-dsh-workspace-gate](https://github.com/M1r0er/dsh-workspace-gate) ★0 — 工作区插件门控：插件照常加载，按工作区（目录）把它不该占的提示词前缀摘掉——工具 schema 与提示词段不再进模型上下文
+- ⬜ `[待定]` [m4rkzzz-dsh-decisiontools](https://github.com/M4rkzzz/dsh-decisiontools) ★0 — Optional bounded Decision API assistance for DeepSeek Harness: tool discovery, per-session DecisionBoost and s
+- 🟩 `[可用]` [ma354-dsh-limit-break](https://github.com/Ma354/dsh-limit-break) ★0 — Durable cross-session memory + hostile-network fetch ladder for DeepSeek Harness
+- 🟩 `[可用]` [machine202502-dsh-browser](https://github.com/machine202502/dsh-browser) ★0 — Isolated Playwright browser per session for DeepSeek Harness: tabs, screenshots in chat, per-site proxy
+- 🟩 `[可用]` [macicle77-dsh-approval-notifier](https://github.com/Macicle77/dsh-approval-notifier) ★0 — 「哨兵 / Sentinel」：任意工作区/会话需要确认时，在 DSH 右下角逐条提醒，可配置弹出动画与提示音；点击去处理后左下角反馈“正在处理”
 - 🟩 `[可用]` [macilydots-dsh-image-count-guard](https://github.com/MacilyDots/dsh-image-count-guard) ★0 — DSH 插件：上游网关按图片张数拒绝请求时，把最旧的图片卸载为占位文本并重试，恢复卡死的视觉模型会话（复用官方 image/offload 投影）
 - ⬜ `[待定]` [macilydots-dsh-mobile-access](https://github.com/MacilyDots/dsh-mobile-access) ★0 — DeepSeek Harness 移动访问插件：同一局域网内手机扫码、浏览器访问
 - 🟩 `[可用]` [macorreag-dsh-monitor](https://github.com/Macorreag/dsh-monitor) ★0 — Monitor plugin for DeepSeek Harness: background bash watchers that steer the agent loop, with a live dock stat
@@ -4028,6 +4040,7 @@
 - 🟨 `[不兼容]` [lyuwen-dsh-agent-relay](https://github.com/lyuwen/dsh-agent-relay) ★0 — Relay messages between agent harness's native sessions
 - 🟨 `[不兼容]` [lyxx999-agents-md-management-for-dsh](https://github.com/lyxx999/AGENTS.md-management-for-dsh) ★0 — —
 - 🟨 `[不兼容]` [lz-jun-dsh-session-porter](https://github.com/LZ-jun/dsh-session-porter) ★0 — Export the conversations you pick to a folder you choose (OneDrive works) and import them back on another mach
+- 🟨 `[不兼容]` [mabinogi-cichol-dsh-progress-beat](https://github.com/Mabinogi-Cichol/dsh-progress-beat) ★0 — DeepSeek Harness（DSH）插件：让 agent 在长时间「思考 + 工具调用」中途输出用户可见的进度说明，而不是一路静默到任务结束才说话
 - 🟨 `[不兼容]` [magma27-dsh-calendar](https://github.com/MAGMA27/dsh-calendar) ★0 — dsh-calendar is a DSH Web calendar and Agent task plugin
 - 🟨 `[不兼容]` [makechange-dsh-session-note](https://github.com/makechange/dsh-session-note) ★0 — —
 - 🟨 `[不兼容]` [manoloremiddi-augmentor-agent](https://github.com/ManoloRemiddi/augmentor-agent) ★0 — —
