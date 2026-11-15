@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4443）
+# 🤖 Agent 能力（4458）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1334,10 +1334,12 @@
 - ⬜ `[待定]` [pwangxo-sg-financial-market-analysis](https://github.com/pwangxo-sg/financial-market-analysis) ★1 — DeepSeek Harness 金融市场分析技能：A股/基金/QDII/黄金/亚太指数日报、指标追踪、决策追踪（可配置，零个人硬编码）
 - 🟩 `[可用]` [q35888-dsh-plugin-browser](https://github.com/q35888/dsh-plugin-browser) ★1 — Native browser automation for DeepSeek Harness (DSH): 15 browser_* tools on ctx.tools via Playwright + CDP
 - 🟩 `[可用]` [qbclex-dsh-prompt-injector](https://github.com/qbclex/dsh-prompt-injector) ★1 — DSH 插件：把准备好的提示词注入系统提示词，可随时回退（Prompt injection with rollback for DeepSeek Harness）
+- ⬜ `[待定]` [qbclex-dsh-via-workbuddy](https://github.com/qbclex/dsh-via-workbuddy) ★1 — 把 WorkBuddy 桌面 App 里已登录的模型接入 DeepSeek Harness，修复上游 WAF 11128 对系统提示词的拦截（基于 corrinehu/dsh-workbuddy-connect）
 - 🟩 `[可用]` [qian-dsh-dsh-outer-brain](https://github.com/qian-dsh/dsh-outer-brain) ★1 — A philosopher's way of thinking made executable for AI agents: dialectics and practice-testing to govern hallu
 - 🟩 `[可用]` [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) ★1 — 验证 DSH 插件的 CLI：一条命令跑 mock-llm 完整 agent 循环，检查 waterfall 链与零副作用，产出验证报告
 - ⬜ `[待定]` [qingfengyu153781-star-dsh-approval-popup](https://github.com/qingfengyu153781-star/dsh-approval-popup) ★1 — Native Windows popup dialogs for DeepSeek Harness (DSH) approval requests + turn-finished notifications
 - 🟩 `[可用]` [qingsiweisan-dsh-htb-skills](https://github.com/qingsiweisan/dsh-htb-skills) ★1 — —
+- 🟩 `[可用]` [qinling-melon-farmers-dsh-tutorloop](https://github.com/Qinling-Melon-Farmers/dsh-tutorloop) ★1 — —
 - 🟩 `[可用]` [qiyeren-dsh-eac-popup](https://github.com/qiyeren/dsh-eac-popup) ★1 — DSH plugin: ???? agent ??/?????,EAC ????(??????)+?????5?+??????
 - 🟩 `[可用]` [qschen86-dsh-plantuml](https://github.com/qschen86/dsh-plantuml) ★1 — DSH web plugin: render PlantUML fenced blocks in conversation messages as SVG
 - 🟩 `[可用]` [qtatq233-dsh-jingcha](https://github.com/QTATQ233/dsh-jingcha) ★1 — DSH 运行时监察：工具调用 / 事件循环 / 错误风暴实时体检 + 按调用强制停止 + 右下角红绿灯挂件（0 token）
@@ -2633,12 +2635,22 @@
 - 🟩 `[可用]` [pythonshiyi-dsh-compact-standard](https://github.com/pythonshiyi/dsh-compact-standard) ★0 — DeepSeek Harness agent preset: full Standard tools plus an extreme compact-output expert prompt
 - `[空仓监测]` **q499384877-commits-dsh-agent-dispatch** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [qamar-crypto-dsh-skill](https://github.com/Qamar-crypto/DSH-skill) ★0 — —
+- 🟩 `[可用]` [qcsj777-dsh-process-panel](https://github.com/Qcsj777/dsh-process-panel) ★0 — Per-answer Process drawer for DeepSeek Harness: streams, in Simplified Chinese, the agent thinking, tool calls
+- 🟩 `[可用]` [qcsj777-dsh-stop-that-shit](https://github.com/Qcsj777/dsh-stop-that-shit) ★0 — Explicit per-session scope contract for DeepSeek Harness: arms on a $stop-that-shit directive and audits every
 - `[空仓监测]` **qcsjjjjj-dsh-planner** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [qcy-good-turn-cost-footer](https://github.com/qcy-good/turn-cost-footer) ★0 — Real per-turn CNY cost in the DeepSeek Harness completed-turn footer, folded from the session log with a local
+- ⬜ `[待定]` [qiangweiliu-dsh-context](https://github.com/qiangweiliu/dsh-context) ★0 — dsh上下文控制插件
+- 🟩 `[可用]` [qiangxian-notix-dsh](https://github.com/QiangXian/notix-dsh) ★0 — Notification plugin for DeepSeek Harness (dsh): approvals, questions, long tasks, errors and completions
 - 🟩 `[可用]` [qianyuan-ltd-dsh-qianyuan](https://github.com/qianyuan-ltd/dsh-qianyuan) ★0 — Connect DeepSeek Harness to the QianYuan MCP server — shared pitfall/result records and capability lookup for
 - 🟩 `[可用]` [qiaoyuzhou-dsh-workspace-session-link](https://github.com/qiaoyuzhou/dsh-workspace-session-link) ★0 — DSH plugin: link a session from the current workspace in the composer
 - 🟩 `[可用]` [qibo30-dsh-worklog](https://github.com/qibo30/dsh-worklog) ★0 — DSH plugin: give the agent a cross-session development worklog (worklog_add / worklog_list)
+- 🟩 `[可用]` [qidouzu-dsh-retcon](https://github.com/QiDouZu/dsh-retcon) ★0 — DSH 插件：写记忆时只检查一件事——这条有没有写「什么情况下它是错的」，没写就不许写
+- 🟩 `[可用]` [qigai74-dsh-usage-breakdown](https://github.com/qigai74/dsh-usage-breakdown) ★0 — DSH 插件：按「会话 × 供应商 × 模型」拆解调用次数与 token 用量，数据只读自 dsh-cost-meter 账本
 - 🟩 `[可用]` [qihongmu-dsh-plugins](https://github.com/qihongmu/dsh-plugins) ★0 — External plugins for DeepSeek Harness (dsh): Scheduled Tasks (run agent instructions on a schedule) and Token
+- ⬜ `[待定]` [qingj01-dsh-attention-inbox](https://github.com/QingJ01/dsh-attention-inbox) ★0 — Release candidate: cross-session attention inbox for DeepSeek Harness.
 - ⬜ `[待定]` [qingmingyiyang-incremind](https://github.com/qingmingyiyang/Incremind) ★0 — 通过经历增量积累记忆、修正认识、逐渐形成理解的认知系统（Accumulate memory, revise knowledge and gradually form a cognitive system of under
+- 🟩 `[可用]` [qingying012-dsh-chinese-thinking](https://github.com/qingying012/dsh-chinese-thinking) ★0 — DeepSeek Harness plugin: tell every agent to reason in Simplified Chinese.
+- 🟩 `[可用]` [qinu321-dsh-session-rename](https://github.com/qinu321/dsh-session-rename) ★0 — Lets an AI rename its own session in DeepSeek Harness — a zero-dependency plugin that adds the session_rename
 - 🟩 `[可用]` [qiqiangvae-dsh-my-favorites](https://github.com/qiqiangvae/dsh-my-favorites) ★0 — dsh 收藏夹插件，可以收藏网址和会话，支持快捷键切换会话
 - 🟩 `[可用]` [qiqiangvae-dsh-newbe-plugins](https://github.com/qiqiangvae/dsh-newbe-plugins) ★0 — 个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能
 - 🟩 `[可用]` [qiujiyuantiantian-dsh-vehicle-dynamics](https://github.com/Qiujiyuantiantian/dsh-vehicle-dynamics) ★0 — 把 Gillespie《车辆动力学基础》整本书重写成 164 张可执行工程检查单的 DSH 技能；附约 77 处原文缺陷标注，不复制原文
@@ -3524,6 +3536,7 @@
 - 🟨 `[不兼容]` [pandapolo-dsh-voice-call](https://github.com/PandaPolo/dsh-voice-call) ★2 — Give a DeepSeek Harness agent a voice it owns — offer_call rings the human (接听/拒接/稍后); local-first TTS/STT via
 - 🟨 `[不兼容]` [passingby000-dsh-nl-model-switch](https://github.com/passingby000/dsh-nl-model-switch) ★2 — Switch the current DSH session's model with a natural-language sentence (independent of any IM bridge).
 - 🟨 `[不兼容]` [qiushi-dev-dsh-session-nexus](https://github.com/qiushi-dev/dsh-session-nexus) ★2 — Unofficial DeepSeek Harness plugin — sessions as addressable, first-class citizens: lifecycle controls + cross
+- 🟨 `[不兼容]` [qiyuexue-xiyu-dsh-tool-cost-hint](https://github.com/qiyuexue-xiyu/dsh-tool-cost-hint) ★2 — 不告诉你花了多少钱，只告诉你每个工具往你的上下文里塞了多少东西
 - 🟨 `[不兼容]` [renjianguojinqianfan-dsh-skill-eval](https://github.com/renjianguojinqianfan/dsh-skill-eval) ★2 — DSH 插件：用 LLM judge 评测技能 description 的触发准确率（欠触发/过触发）
 - 🟨 `[不兼容]` [rinai-r-dsh-agent-team-scheduler](https://github.com/dsh-labs/dsh-agent-team-scheduler) ★2 — Dispatch queue and fork-from-teammate for DeepSeek Harness Agent Teams
 - 🟨 `[不兼容]` [rqwj-oh-my-ticket](https://github.com/rqwj/oh-my-ticket) ★2 — a ticket tool for agent
@@ -3745,6 +3758,8 @@
 - 🟨 `[不兼容]` [player-yn-dsh-agent-driver-writehere](https://github.com/Player-YN/dsh-agent-driver-writehere) ★1 — Hierarchical long-form writing for DeepSeek Harness — WriteHERE as an agent driver, not extra ReAct tools.
 - 🟨 `[不兼容]` [polaris-smart-dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) ★1 — dsh (DeepSeek Harness) 跨 agent 信箱插件：mailbox_send/check/reply/list/done/broadcast + task_create/list，桥接 agent-m
 - 🟨 `[不兼容]` [polohot-dsh-adrian-inject-context](https://github.com/polohot/dsh-adrian-inject-context) ★1 — —
+- 🟨 `[不兼容]` [qiaozy-16-dsh-vhcu](https://github.com/qiaozy-16/dsh-vhcu) ★1 — A multimodal Computer Use Agent (CUA) plugin for DSH, featuring on-demand vision, local audio transcription, a
+- 🟨 `[不兼容]` [qinyongliang-dsh-one-gateway](https://github.com/qinyongliang/dsh-one-gateway) ★1 — OpenAI-compatible gateway for every model connected to DeepSeek Harness: groups with failover, aliases, sessio
 - 🟨 `[不兼容]` [academic-harness](https://github.com/raktim-mondol/academic-harness) ★1 — Academic Harness as a DeepSeek Harness (DSH) profile plugin: research persona, scientific skills catalogue, li
 - 🟨 `[不兼容]` [rand0wn-dsh-wrapped](https://github.com/rand0wn/dsh-wrapped) ★1 — DeepSeek Harness (dsh) plugin: /wrapped generates a shareable SVG summary card for the current session
 - 🟨 `[不兼容]` [raphaelutumn-dsh-mood](https://github.com/Raphaelutumn/dsh-mood) ★1 — A tiny behavioral mood ring for your AI coding agent: a four-state session-header status light (GOOD/CONFUSED/
