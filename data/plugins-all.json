@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T11:01:32Z",
+ "generated_at": "2026-11-15T11:16:32Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
