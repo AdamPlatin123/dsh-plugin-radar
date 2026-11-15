@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6145）
+# 🔌 Web UI 增强（6147）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1673,11 +1673,13 @@
 - 🟩 `[可用]` [badai147-dsh-leafy-skin](https://github.com/badai147/dsh-leafy-skin) ★1 — An eye-friendly green skin for DeepSeek Harness.
 - 🟩 `[可用]` [baihawhite-attach-plus](https://github.com/BaihaWhite/attach-plus) ★1 — DSH web-ui plugin: '/' command-button glyph + '+' attach button with separated image/document/other uploads
 - 🟩 `[可用]` [baisama-cloud-dsh-conflict-guardian](https://github.com/baisama-cloud/dsh-conflict-guardian) ★1 — Detects DSH plugin conflicts (duplicate mounts, failed/pending plugins, duplicate config row ids) at startup,
+- 🟩 `[可用]` [baizz-520-dsh-theme-studio](https://github.com/baizz-520/dsh-theme-studio) ★1 — DSH 主题工坊 — 可自定义背景色/背景图、字体、输入框、边栏颜色的 DeepSeek Harness 主题插件（实时生效，43 项测试）
 - 🟩 `[可用]` [baka-world-dsh-sidebar-modes](https://github.com/baka-world/dsh-sidebar-modes) ★1 — —
 - 🟩 `[可用]` [bamboostrip-dsh-llm-capabilities](https://github.com/bamboostrip/dsh-llm-capabilities) ★1 — DSH plugin: auto-detect and configure model capabilities (reasoningEfforts + input modalities) for llm-pi-ai
 - 🟩 `[可用]` [banana770-dsh-work-badge](https://github.com/banana770/dsh-work-badge) ★1 — Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside
 - 🟩 `[可用]` [baobaolaodie-flow-comet](https://github.com/baobaolaodie/flow-comet) ★1 — An automated execution engine that turns AI coding discipline into a verifiable state machine, built for Claud
 - 🟩 `[可用]` [baroncyrus-dsh-grok-subscription](https://github.com/BaronCyrus/dsh-grok-subscription) ★1 — Use a SuperGrok / X Premium Grok Build subscription in DeepSeek Harness
+- 🟩 `[可用]` [basaltfold-dsh-channel-credits](https://github.com/basaltfold/dsh-channel-credits) ★1 — 在 DSH 输入框统计栏常驻显示渠道积分余额，并按账号归因每轮对话的积分消耗
 - 🟩 `[可用]` [bauerelizabeth07139-tangsan](https://github.com/bauerelizabeth07139/tangsan) ★1 — TangSan mascot appearance layer for the DeepSeek Harness Web GUI: chat wallpaper with opacity, blur and scrim
 - 🟩 `[可用]` [beafreey-dsh-plugin-manager](https://github.com/beafreey/dsh-plugin-manager) ★1 — DSH 第三方插件管理器：侧边栏「插件管理」面板，查看 / 检查更新 / 一键更新与删除 web profile 中的第三方插件（含 GitHub 安装的插件）
 - 🟩 `[可用]` [beatther-c-dsh-api-client](https://github.com/Beatther-c/dsh-api-client) ★1 — Agent-native API Client for DeepSeek Harness — Postman 级 API 调试 UI + Agent 原生 HTTP 工具 + Postman Collection 导入的

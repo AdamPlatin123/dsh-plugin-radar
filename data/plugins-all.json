@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-15T04:46:24Z",
+ "generated_at": "2026-11-15T05:01:46Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -6086,6 +6086,13 @@
    "desc": "Prompt optimizer button for the DeepSeek Harness composer"
   },
   {
+   "repo": "baixiaoyin666/dsh-long-memory",
+   "name": "baixiaoyin666-dsh-long-memory",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Automatic long-term memory plugin for DeepSeek Harness · DeepSeek Harness 自动长期记忆插件"
+  },
+  {
    "repo": "bass1125/imemory",
    "name": "bass1125-imemory",
    "verdict": "ok",
@@ -10461,11 +10468,53 @@
    "desc": "DeepSeek Harness 工程任务编排与发布门禁插件，支持 /mission 指令、任务路由、计划执行、验证和状态跟踪"
   },
   {
+   "repo": "baizhu66018/dsh-pitfall-memory",
+   "name": "baizhu66018-dsh-pitfall-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Long-term failure memory for DeepSeek Harness: captures tool failures, folds them into reusable lessons with s"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-ban-wait",
+   "name": "baldovinmarques391-design-dsh-ban-wait",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "拒绝会把智能体循环钉住的工具参数：阻塞等待、临场延长超时，以及可选的同步长任务"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-compact",
+   "name": "baldovinmarques391-design-dsh-compact",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "按路由模型上下文窗口的比例触发自动压缩：比例精确可控，不预留固定余量"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-qoder-subagent",
+   "name": "baldovinmarques391-design-dsh-qoder-subagent",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 Qoder CN 的免费模型（Qwen3.8-Flash 等）当 DSH 的子代理：逐次选模型、逐次传权限、零提示词注入、全程留痕"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-qwen-mode",
+   "name": "baldovinmarques391-design-dsh-qwen-mode",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "会话模式：Qwen 出主意，工具由 DSH 真执行"
+  },
+  {
    "repo": "baobao1994/dsh-skill-cards",
    "name": "baobao1994-dsh-skill-cards",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "BarrierFly/approval-detail-plugin",
+   "name": "barrierfly-approval-detail-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "显示申请权限的详细信息"
   },
   {
    "repo": "basaltfold/douyin-expert",
@@ -10475,11 +10524,39 @@
    "desc": "抖音专家 — 22 个抖音/多平台/海外内容创作与数据分析技能的 DeepSeek Harness 宿主插件"
   },
   {
+   "repo": "basaltfold/xiaohongshu-expert",
+   "name": "basaltfold-xiaohongshu-expert",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "小红书专家 — 11 个小红书内容创作与数据分析技能的 DeepSeek Harness 宿主插件"
+  },
+  {
    "repo": "bauerelizabeth07139/dsh-math-rigor",
    "name": "bauerelizabeth07139-dsh-math-rigor",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: auditable mathematical proving — a local stdio MCP server with 23 tools, a bundled wo"
+  },
+  {
+   "repo": "bbaz123/dsh-auto-plan-executor",
+   "name": "bbaz123-dsh-auto-plan-executor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 自动方案执行插件：四条件触发、方案冻结、任务图与步骤账本、门禁预算、完整度闸门与八部分报告"
+  },
+  {
+   "repo": "bbaz123/dsh-operation-security",
+   "name": "bbaz123-dsh-operation-security",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 操作安全插件：工具 pre-execute 分类、单调 guard、插件生命周期 DPIP 门禁与审计留痕"
+  },
+  {
+   "repo": "bbo777/dsh-baseline",
+   "name": "bbo777-dsh-baseline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A fail-closed security baseline plugin for DeepSeek Harness (DSH): policy-gated network egress, a monotonic su"
   },
   {
    "repo": "BeatAPI/beatapi-agent-plugin",
@@ -22396,11 +22473,25 @@
    "desc": "DSH plugin: permanently delete cold sessions from a Settings page (会话管理)"
   },
   {
+   "repo": "baldovinmarques391-design/dsh-subagent-gate",
+   "name": "baldovinmarques391-design-dsh-subagent-gate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "关掉后关于子代理的提示词整块消失，「子智能体」卡片也不再显示；打开后卡片回来，提示词只在会话里确实有子代理时才注入"
+  },
+  {
    "repo": "Bandersnatch0x/amber-protocol",
    "name": "bandersnatch0x-amber-protocol",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Amber Protocol: repository-local governance for coding agents, including a DeepSeek Harness (dsh) patch overla"
+  },
+  {
+   "repo": "bbaz123/dsh-openviking-autostart",
+   "name": "bbaz123-dsh-openviking-autostart",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH OpenViking 自动启动与恢复插件：会话前确保本机记忆服务可用"
   },
   {
    "repo": "beibeihk/dsh-agent-observability",
@@ -37012,6 +37103,13 @@
    "desc": "Detects DSH plugin conflicts (duplicate mounts, failed/pending plugins, duplicate config row ids) at startup,"
   },
   {
+   "repo": "baizz-520/dsh-theme-studio",
+   "name": "baizz-520-dsh-theme-studio",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 主题工坊 — 可自定义背景色/背景图、字体、输入框、边栏颜色的 DeepSeek Harness 主题插件（实时生效，43 项测试）"
+  },
+  {
    "repo": "baka-world/dsh-sidebar-modes",
    "name": "baka-world-dsh-sidebar-modes",
    "verdict": "ok",
@@ -37045,6 +37143,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Use a SuperGrok / X Premium Grok Build subscription in DeepSeek Harness"
+  },
+  {
+   "repo": "basaltfold/dsh-channel-credits",
+   "name": "basaltfold-dsh-channel-credits",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "在 DSH 输入框统计栏常驻显示渠道积分余额，并按账号归因每轮对话的积分消耗"
   },
   {
    "repo": "bauerelizabeth07139/tangsan",
@@ -73412,6 +73517,13 @@
    "desc": "给小朋友的电脑启蒙插件系列（DeepSeek Harness / Cordis）：7 个插件，一个仓库一个系列"
   },
   {
+   "repo": "BAIYE0303/dsh-ask-first",
+   "name": "baiye0303-dsh-ask-first",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A composer button that asks first, then writes."
+  },
+  {
    "repo": "banlanzs/inkstone",
    "name": "banlanzs-inkstone",
    "verdict": "ok",
@@ -73421,6 +73533,13 @@
   {
    "repo": "BaqiF2/dsh-plugin-precheck",
    "name": "baqif2-dsh-plugin-precheck",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
+   "repo": "bbtnoctrl/dsh-naiwa",
+   "name": "bbtnoctrl-dsh-naiwa",
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
@@ -78823,6 +78942,20 @@
    "desc": "GLM Vision plugin for DSH: image translation for non-multimodal models via GLM-4V-Flash"
   },
   {
+   "repo": "baldovinmarques391-design/dsh-web-fetch-vpn",
+   "name": "baldovinmarques391-design-dsh-web-fetch-vpn",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "修复 VPN 下 web_fetch 被误判非公网地址"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-workspace-menu-rows",
+   "name": "baldovinmarques391-design-dsh-workspace-menu-",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "工作区下拉只显示四行，其余在菜单里上下滑动"
+  },
+  {
    "repo": "Balla1ore/dsh-locale-ru",
    "name": "balla1ore-dsh-locale-ru",
    "verdict": "ok",
@@ -78840,6 +78973,13 @@
    "repo": "Banboosu/dsh-doom",
    "name": "banboosu-dsh-doom",
    "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "bangyu888-cmd/dsh-quota-card",
+   "name": "bangyu888-cmd-dsh-quota-card",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -78884,6 +79024,20 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "BayiHY/dsh-aiyayi",
+   "name": "bayihy-dsh-aiyayi",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "bbaz123/dsh-turn-chime",
+   "name": "bbaz123-dsh-turn-chime",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 回合结束提示音插件：每轮任务结束时在宿主端播放提示音"
   },
   {
    "repo": "bbtssama/dsh-window",
@@ -99438,6 +99592,20 @@
    "desc": "—"
   },
   {
+   "repo": "Barry-1212/dsh-webscout",
+   "name": "barry-1212-dsh-webscout",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Tavily-backed web search (Search) and page fetch (Fetch) for DeepSeek Harness."
+  },
+  {
+   "repo": "bbskye5008/dsh-task-runner",
+   "name": "bbskye5008-dsh-task-runner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness task launcher combining PUA and Completion Guard with frozen acceptance, candidate-bound cert"
+  },
+  {
    "repo": "Bemly/dsh-plug",
    "name": "bemly-dsh-plug",
    "verdict": "incompatible",
@@ -104737,6 +104905,13 @@
    "desc": "—"
   },
   {
+   "repo": "baizhizzl/dsh-network-proxy",
+   "name": "baizhizzl-dsh-network-proxy",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "HTTP proxy preference for DeepSeek Harness (dsh): direct / follow system / custom, applied live without restar"
+  },
+  {
    "repo": "Binaryinject/dsh-tray",
    "name": "binaryinject-dsh-tray",
    "verdict": "pending",
@@ -107663,6 +107838,27 @@
    "desc": "paper design mcp forward for deepseek harness (unofficial port)"
   },
   {
+   "repo": "baldovinmarques391-design/dsh-plugin-hot-reload",
+   "name": "baldovinmarques391-design-dsh-plugin-hot-relo",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "标题、简介、图标和浏览器模块都按磁盘现读现发布：改完立即生效，不用重启 DSH"
+  },
+  {
+   "repo": "bbaz123/dsh-self-plugin-manager",
+   "name": "bbaz123-dsh-self-plugin-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 自管理插件管理器：插件安装、升级、回滚、健康检查与注册表扫描"
+  },
+  {
+   "repo": "bcdws/dsh-ssh-helper",
+   "name": "bcdws-dsh-ssh-helper",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin for personal server operations: pooled SSH connections, log analysis, and a guard for machine-destr"
+  },
+  {
    "repo": "beck6lee/dsh-desktop",
    "name": "beck6lee-dsh-desktop",
    "verdict": "pending",
@@ -108088,13 +108284,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
-  },
-  {
-   "repo": "bayhnf/dsh-remote-client",
-   "name": "dsh-remote-client",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Use the DeepSeek Harness desktop app with DSH running on your own servers over SSH: Settings → Remote servers,"
   },
   {
    "repo": "dsh-remote/protocol",
@@ -112045,6 +112234,13 @@
    "desc": "DeepSeek Harness plugin and MCP server: text-to-image through a StepFun-compatible /images/generations endpoin"
   },
   {
+   "repo": "bayhnf/dsh-remote-client",
+   "name": "dsh-remote-client",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Use the DeepSeek Harness desktop app with DSH running on your own servers over SSH: Settings → Remote servers,"
+  },
+  {
    "repo": "beicause/dsh-workspace-write-extra",
    "name": "beicause-dsh-workspace-write-extra",
    "verdict": "incompatible",
@@ -113499,6 +113695,13 @@
    "verdict": "ok",
    "stars": 8,
    "desc": "—"
+  },
+  {
+   "repo": "bbfang2025-cyber/dsh-pet-voice-fishy",
+   "name": "bbfang2025-cyber-dsh-pet-voice-fishy",
+   "verdict": "ok",
+   "stars": 7,
+   "desc": "大肥鱼语音：让 DSH 桌宠的气泡开口说话（在线 Breeze + 离线 Kokoro 中文女声）"
   },
   {
    "repo": "Edwardpch/maodie-pet",
@@ -120116,6 +120319,13 @@
    "desc": "Manage DeepSeek Harness dynamic plugins: scan local directories, browse, and load with /dyn slash commands"
   },
   {
+   "repo": "Baisbt/dsh-service-manager",
+   "name": "baisbt-baisbt-dsh-service-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "ChasePassion/dsh-plugin-marketplace",
    "name": "chasepassion-dsh-plugin-marketplace",
    "verdict": "incompatible",
@@ -123593,6 +123803,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Durable RAG-Enhanced Agent Memory (DSH-DREAM)"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-ban-strikethrough",
+   "name": "baldovinmarques391-design-dsh-ban-strikethrou",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "不再渲染 Markdown 删除线，并还原被区间号吃掉的 ~ 字符"
+  },
+  {
+   "repo": "baldovinmarques391-design/dsh-file-path-repair",
+   "name": "baldovinmarques391-design-dsh-file-path-repai",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Markdown 转义吃掉路径分隔符时，取文件前把分隔符还原；不管哪个模型、哪个会话写的路径，本地图片都能显示"
   },
   {
    "repo": "bauerelizabeth07139/dsh-plugin-dxpdf",
@@ -129888,6 +130112,13 @@
    "desc": "Devin Connect 反代为 OpenAI Chat Completions 兼容协议的 dsh 插件，服务 glm-5.2 / swe-1.7"
   },
   {
+   "repo": "bamboosir1109/dsh-lanya",
+   "name": "bamboosir1109-dsh-lanya",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "可扩展的 DSH QQ 角色集成包 · NapCatQQ / SnowLuma 双后端 · B站浏览、评论与回复 · GPT-SoVITS 语音 · 可塑记忆与日记 · 自主活动与本地控制台（开发预览，组件需配置）"
+  },
+  {
    "repo": "br1nosense/dsh-wxauto-plugin",
    "name": "br1nosense-dsh-wxauto-plugin",
    "verdict": "ok",
@@ -132646,11 +132877,25 @@
    "desc": "DSH plugin: shows the DeepSeek account's remaining balance in the composer bottom bar."
   },
   {
+   "repo": "baldovinmarques391-design/dsh-composer-hold",
+   "name": "baldovinmarques391-design-dsh-composer-hold",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "运行中按一下只停当前回合，再按一下锁住注入闸门：后台任务、子代理汇报、定时提醒全部扣住，直到你发消息时一起送进模型"
+  },
+  {
    "repo": "Barry-Liu-001/dsh_chat_index",
    "name": "barry-liu-001-dsh-chat-index",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) 对话索引插件：在对话区右边缘显示一列小圆点，每个点代表一条用户发送的消息"
+  },
+  {
+   "repo": "basaltfold/dsh-auto-expand-thinking",
+   "name": "basaltfold-dsh-auto-expand-thinking",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH Web 插件：自动展开 Chat 里折叠的「思考」块，任务跑到哪一步、模型在想什么，当场可见（无需手点）"
   },
   {
    "repo": "bestGi/dsh-rf-toolkit",
@@ -144756,6 +145001,20 @@
    "desc": "Right-docked file panel for DSH Web: browse any directory and view/edit text, images, Office (docx/xlsx/pptx)"
   },
   {
+   "repo": "basaltfold/dsh-tencent-channel-fix",
+   "name": "basaltfold-dsh-tencent-channel-fix",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Repairs dsh-our-free-model at boot: the CodeArts (Huawei Cloud) signed-transport lifetime that broke after a p"
+  },
+  {
+   "repo": "BaxterL/dsh-code-taste",
+   "name": "baxterl-dsh-code-taste",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "让鲸鱼持续学习你的代码品味、审美风格和各种习惯"
+  },
+  {
    "repo": "beijingwahw/dsh-proof",
    "name": "beijingwahw-dsh-proof",
    "verdict": "ok",
@@ -149705,6 +149964,34 @@
    "desc": "DeepSeek Harness 的 Codex 式长任务进度汇报插件：按时间和有意义的工作状态沟通，不按工具调用次数报数"
   },
   {
+   "repo": "baldovinmarques391-design/dsh-qoder-provider",
+   "name": "baldovinmarques391-design-dsh-qoder-provider",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把 Qoder CN 的免费模型接进 DSH（qoder / Qwen3.8-Flash）"
+  },
+  {
+   "repo": "bannerchi/dsh-yiyide-pdf",
+   "name": "bannerchi-dsh-yiyide-pdf",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "一译得（yiyide.cc）PDF 翻译的 DeepSeek Harness 插件：12 个 yiyide_* 工具覆盖授权、上传、页级预检、预览、报价、确认、任务轮询与成品下载"
+  },
+  {
+   "repo": "basaltfold/dsh-ofm-codearts-pin",
+   "name": "basaltfold-dsh-ofm-codearts-pin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把 dsh-our-free-model 钉在 2.5.8（最后一个带可用华为云 CodeArts 渠道的版本）并在每次启动自愈回滚：逐文件 SHA-256 校验、payload 验签失败即弃用、失败整体还原、升级后自动"
+  },
+  {
+   "repo": "Battiatus/dsh-gemini-antigravity-auth",
+   "name": "battiatus-dsh-gemini-antigravity-auth",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Gemini for DeepSeek Harness (DSH) via Google Antigravity OAuth: multi-account quotas, Google Search grounding,"
+  },
+  {
    "repo": "bauerelizabeth07139/image-gen-mcp",
    "name": "bauerelizabeth07139-image-gen-mcp",
    "verdict": "ok",
@@ -149745,6 +150032,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Skill management for DeepSeek Harness: browse every resolved skill and uninstall/restore it reversibly from Se"
+  },
+  {
+   "repo": "bbaz123/dsh-plugin-verification",
+   "name": "bbaz123-dsh-plugin-verification",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 回合验证门插件：变化分析、经验检索、回归、断言、只读审查，含失败修复循环与收尾交接"
   },
   {
    "repo": "BeforeLanding/dsh-done-check",
