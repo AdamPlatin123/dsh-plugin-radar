@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（3894）
+# 🤖 Agent 能力（3904）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -959,10 +959,12 @@
 - 🟩 `[可用]` [dddmuc-dsh-rerun-turn](https://github.com/DDDMUC/dsh-rerun-turn) ★1 — Infix rerun for DeepSeek Harness: re-run any earlier turn in place - the reply is regenerated from the same pr
 - 🟩 `[可用]` [dddpg-dsh-plugins](https://github.com/DDDPG/dsh-plugins) ★1 — personal developed deepseek-harness plugins: Workspace Memory--Cross-session Call--CLI Cmd--Key-Comb Sheet--Ta
 - 🟩 `[可用]` [ddl095-dsh-moa-native](https://github.com/DDL095/dsh-moa-native) ★1 — Many models draft, one executes for DeepSeek Harness.
+- 🟩 `[可用]` [deepseekv41flash-dsh-speed-meter](https://github.com/deepseekv41flash/dsh-speed-meter) ★1 — DSH (DeepSeek Harness) real-time output speed meter: a tok/s pill in the composer dock, self-calibrating per-c
 - ⬜ `[待定]` [delaynoomore-dsh-plugin-session-trash](https://github.com/DelayNooMore/dsh-plugin-session-trash) ★1 — DSH (DeepSeek Harness) 会话回收站插件：移入回收站、恢复、永久删除，设置页管理
 - 🟩 `[可用]` [dev-wiki-dev-harness-runtime](https://github.com/Dev-Wiki/dev-harness-runtime) ★1 — dev-harness skill runtime
 - 🟩 `[可用]` [devilzyl-dsh-enhance-prompt](https://github.com/devilzyl/dsh-enhance-prompt) ★1 — Composer plugin for DeepSeek Harness that rewrites your chat draft into a clearer, more specific prompt with y
 - 🟩 `[可用]` [devmom-dsh-session-import](https://github.com/devmom/dsh-session-import) ★1 — —
+- ⬜ `[待定]` [devourerm-tree-chat](https://github.com/DevourerM/tree-chat) ★1 — 基于deepseek harness构造的可视化树状上下文管理系统
 - 🟩 `[可用]` [devtarlow-dsh-chrome-devtools](https://github.com/DevTarlow/dsh-chrome-devtools) ★1 — Give your DeepSeek Harness Agent a real Chrome browser to drive and inspect.
 - 🟩 `[可用]` [diaryofuranus-dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) ★1 — DeepSeek Harness（DSH）第二大脑载入器：把有硬上限、带时间戳的脑快照（身份＋状态指纹＋未决项＋指针与边界）注入每个新会话；只读、零写入、fail-loud、零依赖
 - ⬜ `[待定]` [djangoailab-dsh-plugins](https://github.com/DjangoAILab/dsh-plugins) ★1 — DeepSeek Harness plugins for browser automation, macOS computer use, external subagents, and guarded SSH opera
@@ -1697,6 +1699,12 @@
 - 🟩 `[可用]` [deeparchi-ai-dsh-deeparchi-skills](https://github.com/deeparchi-ai/dsh-deeparchi-skills) ★0 — DeepArchi methodology skills for DeepSeek Harness (dsh) — enterprise architecture gap analysis against BIAN/TO
 - 🟩 `[可用]` [deepseekmaid-dsh-link-guard](https://github.com/deepseekmaid/dsh-link-guard) ★0 — Cross-session guard for DeepSeek Harness: markdown links must use forward slashes (backslash `\_` escapes sile
 - 🟩 `[可用]` [deluo-dsh-usage-display](https://github.com/deluo/dsh-usage-display) ★0 — 在 dsh（DeepSeek Harness）会话头部展示模型厂商余额/用量徽标的插件：内置 DeepSeek 余额、MiniMax Token Plan 与智谱 GLM Coding Plan 配额，适配器架构支持接入
+- 🟩 `[可用]` [dengsixue-stack-dsh-file-context-menu](https://github.com/dengsixue-stack/dsh-file-context-menu) ★0 — Right-click menu for file links in DeepSeek Harness chat (open with, save as, copy path, copy content, reveal
+- 🟩 `[可用]` [deqinglv-dsh-slash-new](https://github.com/deqingLv/dsh-slash-new) ★0 — DSH plugin: /new starts a blank session in the current workspace and carries the old session's permission pres
+- 🟩 `[可用]` [devbyqin-dsh-active-sessions](https://github.com/DEVbyQIN/dsh-active-sessions) ★0 — Active sessions bell for DeepSeek Harness with running task indicators and recent session filters
+- 🟩 `[可用]` [devbyqin-dsh-back-to-chat](https://github.com/DEVbyQIN/dsh-back-to-chat) ★0 — Return from Plugins, Schedules and Context Insights to the current chat
+- 🟩 `[可用]` [devbyqin-dsh-session-expand](https://github.com/DEVbyQIN/dsh-session-expand) ★0 — DSH session bundle: session tabs, quote-to-chat and session Markdown export, installed once with every compone
+- 🟩 `[可用]` [devtarlow-dsh-response-chime](https://github.com/DevTarlow/dsh-response-chime) ★0 — A DeepSeek Harness plugin that chimes when an agent finishes answering.
 - 🟩 `[可用]` [diligencelai-dsh-memory-ga](https://github.com/DiligenceLai/dsh-memory-ga) ★0 — Gated GA-style layered memory for DeepSeek Harness: hard-injected L1 index + RULES, session working checkpoint
 - 🟩 `[可用]` [dingxin-tech-dsh-maxcompute](https://github.com/dingxin-tech/dsh-maxcompute) ★0 — DSH (DeepSeek Harness) plugin for MaxCompute (ODPS): metadata browsing, cost-gated SQL execution, background j
 - 🟩 `[可用]` [dongasai-running-sessions-float](https://github.com/dongasai/running-sessions-float) ★0 — —
@@ -3497,6 +3505,8 @@
 - 🟨 `[不兼容]` [davidgereb-dsh-plugin-watchdog](https://github.com/davidgereb/dsh-plugin-watchdog) ★0 — Restart your ongoing agent sessions once on server restart in DeepSeek Harness.
 - 🟨 `[不兼容]` [dayi-z-dsh-safety-restart](https://github.com/Dayi-Z/dsh-safety-restart) ★0 — Safe, seamless restart for DeepSeek Harness: the agent can restart the host itself and resume afterwards
 - 🟨 `[不兼容]` [dekurri-dsh-usage-monitor](https://github.com/Dekurri/dsh-usage-monitor) ★0 — DSH 左侧栏 AI 使用量仪表盘：token 用量、成本估算、缓存命中率、分会话/分模型统计、实时 CPU/GPU/内存监控与平台账单对账 · dsh-plugin
+- 🟨 `[不兼容]` [delthin-dsh-agent-roles](https://github.com/Delthin/dsh-agent-roles) ★0 — Role management, per-role models and skills for native DeepSeek Harness Agent Teams
+- 🟨 `[不兼容]` [dev-rookiestar-dsh-sound-plugin](https://github.com/dev-rookiestar/dsh-sound-plugin) ★0 — DeepSeek Harness 插件：回复完成 / 待审批提示音
 - 🟨 `[不兼容]` [dm-odyssey-dsh-session-manager](https://github.com/DM-Odyssey/dsh-session-manager) ★0 — dsh Session Manager（会话管理插件）
 - 🟨 `[不兼容]` [dn4hjtcr9s-del-dsh-wait-guard](https://github.com/dn4hjtcr9s-del/dsh-wait-guard) ★0 — Keep an Agent's turn open until every descendant subagent settles — a pure Host-plane completion gate for Deep
 - 🟨 `[不兼容]` [dsh-plugins-dsh-approve-for-me](https://github.com/dsh-plugins/dsh-approve-for-me) ★0 — —
