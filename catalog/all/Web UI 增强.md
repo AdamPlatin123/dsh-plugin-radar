@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（6403）
+# 🔌 Web UI 增强（6416）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -91,6 +91,7 @@
 - 🟩 `[可用]` [amlyczz-dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) ★92 — Google Antigravity (agy CLI) models for DeepSeek Harness — streaming chat, thinking, tool activity, usage, in-
 - 🟩 `[可用]` [wonderandyou-dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) ★91 — DSH 插件：在对话里调用本机 ComfyUI，用千问 Qwen-Image 2.1 出图
 - ⬜ `[待定]` [jingbiaomei-tokdash](https://github.com/JingbiaoMei/Tokdash) ★84 — Agent Dashboard: Visualization and analytics for Sessions and Quota Usage
+- ⬜ `[待定]` [evermind-ai-everme](https://github.com/EverMind-AI/EverMe) ★81 — Open-source CLI and Agent plugin suite for EverMe — cross-device, cross-Agent personal memory for AI Agents.
 - 🟩 `[可用]` [viy1204-recruiting-copilot](https://github.com/Viy1204/recruiting-copilot) ★80 — 给 HR 和猎头的 AI 招聘工作流：岗位梳理、BOSS 直聘与猎聘双通道寻源初筛、人才盘点、简历评估、面试安排、候选台账与日报
 - 🟩 `[可用]` [laplace-bit-dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) ★78 — DeepSeek Harness Web UI plugin for streaming rendering and scroll handling.
 - 🟩 `[可用]` [plolpl789-dsh-raw-html](https://github.com/plolpl789/dsh-raw-html) ★78 — VCP visual-synesthesia protocol plugin for DeepSeek Harness: render agent HTML output as real UI (cards / KaTe
@@ -1192,6 +1193,7 @@
 - 🟩 `[可用]` [elong16-dsh-skin-xuyuanwu](https://github.com/elong16/dsh-skin-xuyuanwu) ★2 — —
 - 🟩 `[可用]` [enteguo-dsh-plugin-quick-chat](https://github.com/enteguo/dsh-plugin-quick-chat) ★2 — deepseek plugin：quick chat
 - 🟩 `[可用]` [dsh-kanban](https://github.com/Ericwong5021/dsh-kanban) ★2 — Task board plugin for the DeepSeek Harness Web UI
+- ⬜ `[待定]` [ethan741205-dsh-strata-sync](https://github.com/ethan741205/dsh-strata-sync) ★2 — DSH plugin with a UI to synchronize model context and safe compaction budgets with Strata Server.
 - 🟩 `[可用]` [computer-use-plus](https://github.com/Ethanout/computer-use-plus) ★2 — Low-token, low-latency Windows computer-use MCP with learned shortcuts, UIA/CDP/OCR routing, and DeepSeek Harn
 - 🟩 `[可用]` [exoticknight-dsh-labnana](https://github.com/exoticknight/dsh-labnana) ★2 — Labnana image generation for DeepSeek Harness: text-to-image / image-to-image / precise editing — chat image c
 - 🟩 `[可用]` [ez118-dsh-ppt-composer](https://github.com/EZ118/dsh-ppt-composer) ★2 — DeepSeek Harness 的 AI PPT 生成助手 Cordis 插件
@@ -1879,6 +1881,7 @@
 - 🟩 `[可用]` [enderbull-dsh-mist-ink-theme](https://github.com/EnderBull/dsh-mist-ink-theme) ★1 — Mist Ink — a softer graphite dark theme with frosted glass for the DeepSeek Harness Web GUI.
 - 🟩 `[可用]` [engbonuonga-dsh-wordpress-admin](https://github.com/engbonuonga/dsh-wordpress-admin) ★1 — Full WordPress and WooCommerce administration from DeepSeek Harness: posts, pages, products, media, themes, pl
 - ⬜ `[待定]` [equinox7379-dsh-skill-search](https://github.com/Equinox7379/dsh-skill-search) ★1 — On-demand skill search for DSH: zero preloading, keyword-search a shared skill library
+- ⬜ `[待定]` [equityq-dsh-mcp-installer](https://github.com/EquityQ/dsh-mcp-installer) ★1 — Install MCP servers in DeepSeek Harness with a safety review, connection test and backups.
 - 🟩 `[可用]` [erbsen16-dsh-client-ui-dracula](https://github.com/Erbsen16/dsh-client-ui-dracula) ★1 — 把 VS Code 的 Dracula（吸血鬼）配色搬到 DeepSeek Harness 的网页界面，顺带做了一组程序员向的排版调优
 - 🟩 `[可用]` [ericwang1358-dsh-jspace-trigger](https://github.com/EricWang1358/dsh-jspace-trigger) ★1 — Configurable near-field trigger that reminds a DeepSeek Harness agent to load the J-Space Cognition Suite only
 - 🟩 `[可用]` [esch30636-dsh-computer-use](https://github.com/esch30636/dsh-computer-use) ★1 — Codex-style Windows computer use for DeepSeek Harness: UI Automation + screenshots + SendInput, liquid-glass s
@@ -1890,6 +1893,7 @@
 - 🟩 `[可用]` [f1yan9-dsh-balance-pie](https://github.com/f1yan9/dsh-balance-pie) ★1 — DSH 插件：可拖拽余额饼图 / 真实消耗 / 历史热力图 — balance pie with real spending & monthly heatmap for DeepSeek Harness.
 - 🟩 `[可用]` [faith372-dsh-account-glance](https://github.com/faith372/dsh-account-glance) ★1 — DSH Web GUI sidebar glance card: DeepSeek balance, peak / off-peak billing countdown (statutory holidays inclu
 - 🟩 `[可用]` [famuer-dsh-real-fish-pet](https://github.com/FaMuer/dsh-real-fish-pet) ★1 — A 3D whale desktop pet for the dsh web UI: free swimming, attention animations and whale-call sounds on task e
+- 🟩 `[可用]` [fancylear-dsh-workbuddy-credits](https://github.com/fancylear/dsh-workbuddy-credits) ★1 — WorkBuddy credit sidebar panel for DeepSeek Harness: Deepseek Harness插件，查看积分详情最高效、最直观的方式
 - 🟩 `[可用]` [fanjinduo111-dsh-service-board](https://github.com/fanjinduo111/dsh-service-board) ★1 — DSH（DeepSeek Harness）服务面板插件：按会话查看由哪个 Agent 会话启动了哪些服务，三态健康点 + HTTP 码、启动时间与运行时长、礼貌停止、实时日志带、原地重启并重放原命令行
 - ⬜ `[待定]` [fazhu4-dsh-usage-insights](https://github.com/fazhu4/dsh-usage-insights) ★1 — dsh的本地用量面板，统计 Token、请求、Agent 活动、工具调用和性能
 - ⬜ `[待定]` [felixjiashengfu-dsh-recent-deliverables](https://github.com/FelixJiashengFu/dsh-recent-deliverables) ★1 — Claude-style recent deliverables panel for DeepSeek Harness (dsh)
@@ -3373,6 +3377,7 @@
 - 🟩 `[可用]` [en-linkes-dsh-sao-theme](https://github.com/EN-linkes/dsh-sao-theme) ★0 — Sword Art Online / Aincrad style HUD skin for the DeepSeek Harness desktop app — cyan holographic windows, cor
 - 🟩 `[可用]` [endermy-dsh-vim-nav](https://github.com/Endermy/dsh-vim-nav) ★0 — Vim-style keyboard navigation for the DeepSeek Harness Web UI
 - 🟩 `[可用]` [entireyu-dsh-webui-plus](https://github.com/entireyu/dsh-webui-plus) ★0 — DeepSeek Harness Webui 增强插件，自带对话锚点、归档任务等功能
+- ⬜ `[待定]` [entrehuihui-brain-mem-think](https://github.com/entrehuihui/brain-mem-think) ★0 — 会思考的脑子：不存任何原文，只存模型从多次经历里熔出的判断
 - ⬜ `[待定]` [dsh-config-watch](https://github.com/Equinox7379/dsh-config-watch) ★0 — Config drift detective for DSH: snapshots profile/plugin state, records changes.
 - ⬜ `[待定]` [equinox7379-dsh-daily-brief](https://github.com/Equinox7379/dsh-daily-brief) ★0 — Daily activity brief for DSH: per-session turns/messages/tool-call stats
 - 🟩 `[可用]` [equinox7379-dsh-session-repair](https://github.com/Equinox7379/dsh-session-repair) ★0 — Session log repair for DSH: fixes SessionFormatUnsupportedError by marking unknown events ignorable.
@@ -3381,24 +3386,31 @@
 - ⬜ `[待定]` [erha2777-dsh-azure-maid-skin](https://github.com/erha2777/dsh-azure-maid-skin) ★0 — 蓝瓷女仆 · Azure Maid —— DSH Web GUI 主题皮肤
 - 🟩 `[可用]` [erick0412-dev-dsh-agy-ui](https://github.com/Erick0412-dev/dsh-agy-ui) ★0 — DeepSeek Harness Antigravity UI & Experience Enhancement Companion Plugin
 - 🟩 `[可用]` [ericzhouzirui-dsh-session-purge](https://github.com/EricZhouziRui/dsh-session-purge) ★0 — DSH 插件：彻底删除会话并清理转录目录、投影缓存、spill、工作区记账；支持空白会话批量删除、自动收尾和应用内更新
+- 🟩 `[可用]` [errolleefin-dsh-tide-badge](https://github.com/errolleefin/dsh-tide-badge) ★0 — DSH 峰谷计费药丸的修改版：本次对话花费改为按会话 token 用量 × 官方价目表（方案 A）
 - 🟩 `[可用]` [esperi-dsh-uispec](https://github.com/Esperi/dsh-uispec) ★0 — 规格驱动的 UI 原型生成插件（DeepSeek Harness）：解析 .uispec YAML 规格并生成自包含 HTML 预览
 - ⬜ `[待定]` [eternalloveone-dsh-palm](https://github.com/Eternalloveone/dsh-palm) ★0 — Standalone mobile surface for the dsh web GUI: scan-to-pair device trust, /m/ phone UI, realtime SSE mux, task
 - 🟩 `[可用]` [eternity1022-deepseek-harness-desktop](https://github.com/Eternity1022/deepseek-harness-desktop) ★0 — DeepSeek Harness 原生 Windows 桌面应用（官方 Web UI 封装，数据可存 D 盘）
+- 🟩 `[可用]` [ethan1999991231-dsh-sidebar-dock](https://github.com/Ethan1999991231/dsh-sidebar-dock) ★0 — —
 - 🟩 `[可用]` [ethereal-ljq-dsh-prompt-toolkit](https://github.com/Ethereal-ljq/dsh-prompt-toolkit) ★0 — DSH Web 提示词工作台：把输入框里的草稿优化成一条可直接执行的命令（引擎 fork 自 WestFox-AwA/dsh-prompt-optimizer，BSD-3-Clause，署名保留）
 - 🟩 `[可用]` [etony668-dsh-balance](https://github.com/etony668/dsh-balance) ★0 — DeepSeek API 余额常驻显示（侧边栏「设置」旁）· DeepSeek API balance badge beside Settings in the DSH sidebar
 - 🟩 `[可用]` [evan1987-dsh-yestermorrow](https://github.com/Evan1987/dsh-yestermorrow) ★0 — YESTERMORROW / 昨日之明日 — retrofuturist skins for DeepSeek Harness: dusk trains, neon hover taxis and a Space Age
 - 🟩 `[可用]` [evanfang0054-dsh-mermaid-zoom](https://github.com/evanfang0054/dsh-mermaid-zoom) ★0 — Mermaid diagram zoom/pan/reset/PNG-copy enhancement plugin for DeepSeek Harness (DSH) web GUI
 - ⬜ `[待定]` [everglow28-dsh-glm-quota-dock](https://github.com/Everglow28/dsh-glm-quota-dock) ★0 — GLM Coding Plan quota pill for the DeepSeek Harness web GUI - real-time per-window usage in the composer stats
+- 🟩 `[可用]` [eviming-dsh-approval-timeout](https://github.com/EviMing/dsh-approval-timeout) ★0 — 给 DSH 的申请权限加上超时限制，防止没人在的时候一直卡在授权界面
 - ⬜ `[待定]` [ewanice-dsh-herobar-idle](https://github.com/Ewanice/dsh-herobar-idle) ★0 — harnessGamebar — 勇者工坊（DSH 侧边栏对话挂机游戏插件） 对话驱动的文字放置/增量游戏插件：对话消耗的 token 按比率转化为金币，培养可命名的勇者，解锁同伴、装备、成就、转生等系统
 - ⬜ `[待定]` [exagone313-dsh-draft-prompts](https://github.com/Exagone313/dsh-draft-prompts) ★0 — Adds a right-sidebar tab for drafting prompts in DeepSeek Harness
+- 🟩 `[可用]` [exagone313-dsh-subagent-sidebar](https://github.com/Exagone313/dsh-subagent-sidebar) ★0 — A right-sidebar tab for DeepSeek Harness that lists subagents and opens them in one click
 - 🟩 `[可用]` [excitedeven-dsh-titlebar-workspace](https://github.com/ExcitedEven/dsh-titlebar-workspace) ★0 — Workspace switcher for the DeepSeek Harness titlebar — see the current project and jump to the right conversat
 - 🟩 `[可用]` [extreme-russian-dsh-fandom-dsh-clippy-compani](https://github.com/extreme-russian-dsh-fandom/dsh-clippy-companion) ★0 — Clippy (and :godmode:) in your DeepSeek Harness GUI
+- 🟩 `[可用]` [ezerruier-dsh-matlab-feedback](https://github.com/Ezerruier/dsh-matlab-feedback) ★0 — DSH plugin: capture live MATLAB/DPABI/DPARSF/SPM QC window screenshots and command-window text into the DeepSe
 - 🟩 `[可用]` [ezerruier-dsh-mri-workbench](https://github.com/Ezerruier/dsh-mri-workbench) ★0 — DeepSeek Harness plugin + MATLAB GUI workbench for resting-state fMRI preprocessing with DPABI/DPARSF: dataset
 - 🟩 `[可用]` [f-0426-dsh-theme-dishuhai](https://github.com/F-0426/dsh-theme-dishuhai) ★0 — 🐋 给 DeepSeek Harness 做了套双模式主题：「抵数海」  🌙 深色 · 终末地工业风    近黑底 + 信号黄 + 等高线地形纹理    启动页：抵数海三字 → 黄条进度 → 黄块扫屏转场  ☀️ 浅色
+- 🟩 `[可用]` [facai5382-lab-dsh-edge-dock](https://github.com/facai5382-lab/dsh-edge-dock) ★0 — DSH ??:Harness ?????????????,??????????;???????????????????(Windows)
 - 🟩 `[可用]` [fade-4869-dsh-gacha-viz](https://github.com/FADE-4869/dsh-gacha-viz) ★0 — Genshin Impact gacha history visualizer and pity probability calculator for DeepSeek Harness (DSH plugin)
 - 🟩 `[可用]` [fan56-dsh-jev-dispatch](https://github.com/fan56/dsh-agent-dispatch) ★0 — Jev-guided dispatch advice for DeepSeek Harness: before each turn, Jev judges whether to delegate and to which
 - 🟩 `[可用]` [fancyui-dsh-openrouter-imagen-v2](https://github.com/fancyui/dsh-openrouter-imagen-v2) ★0 — dsh plugin: use openrouter models to generate images
 - ⬜ `[待定]` [faqfaqfaqfaq-dsh-sidebar-workspace-groups](https://github.com/faqfaqfaqfaq/dsh-sidebar-workspace-groups) ★0 — DeepSeek Harness sidebar plugin: search workspaces and group sessions into today, yesterday, and earlier.
+- 🟩 `[可用]` [farchanjo-caveman-plugin-dsh](https://github.com/farchanjo/caveman-plugin-dsh) ★0 — Caveman voice for DSH (terminal and web): terse replies via bundled skills, a /caveman toggle and a TUI badge
 - ⬜ `[待定]` [faruzancn-dsh-memory-cloud](https://github.com/faruzanCN/dsh-memory-cloud) ★0 — Visualize all DSH session memories as an interactive 3D nebula.
 - 🟩 `[可用]` [farzin-cs-deepseek-harness-rtl](https://github.com/Farzin-CS/DeepSeek-Harness-RTL) ★0 — Right-to-left (Persian/Arabic/Hebrew) text support for the DeepSeek Harness Web UI: per-block bidi direction,
 - 🟩 `[可用]` [faust-zyb-dsh-models-sort](https://github.com/Faust-zyb/dsh-models-sort) ★0 — 给 DSH 设置页的模型供应商列表加 CC Switch 式拖拽排序与隐藏：松手顺序立即生效并写回 cordis.patch.yml（自动备份），可整行隐藏供应商并从聊天框模型选择器移除
@@ -5513,6 +5525,7 @@
 - 🟨 `[不兼容]` [fallow5-dsh-pin-sessions](https://github.com/fallow5/dsh-pin-sessions) ★1 — DSH (DeepSeek Harness) web plugin: pin sessions to the top of the sidebar for quick access to recurring workfl
 - 🟨 `[不兼容]` [fan56-dsh-profile-switch](https://github.com/fan56/dsh-profile-switch) ★1 — dsh plugin: switch named model profiles (default model, think level, per-subagent models) interactively via th
 - 🟨 `[不兼容]` [fan969690-dsh-module-center](https://github.com/fan969690/dsh-module-center) ★1 — 🧩 DSH 模块中心:开放框架插件——右侧模块化桌面,宫格排布任意模块,自定义尺寸 1x1~2x6,单击改尺寸/长按拖拽换位,开放模块协议(插件注册即显示),内置 2 个演示模块
+- 🟨 `[不兼容]` [fanxingchunshui-dsh-stock](https://github.com/FanXingChunShui/dsh-stock) ★1 — —
 - 🟨 `[不兼容]` [flametn7-dsh-tui-browser-use](https://github.com/FlameTN7/dsh-tui-browser-use) ★1 — Browser automation bridge sub-plugin for dsh-tui
 - 🟨 `[不兼容]` [flynow-harness-dsh-plugin-agent-workflow](https://github.com/flynow-harness/dsh-plugin-agent-workflow) ★1 — DeepSeek Harness Web UI 插件：以用户轮次为入口查看模型请求、响应与工具调用链路（适配 dsh@0.2.2-alpha.2）
 - 🟨 `[不兼容]` [fomogoman-dsh-serena-guide](https://github.com/FomoGoMan/dsh-serena-guide) ★1 — A DeepSeek Harness plugin that steers agents to Serena's LSP symbolic tools over built-in code tools.
