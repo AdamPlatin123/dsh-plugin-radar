@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5118）
+# 🤖 Agent 能力（5122）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2048,6 +2048,7 @@
 - ⬜ `[待定]` [domush-dsh-plugin-antigravity-rules](https://github.com/Domush/dsh-plugin-antigravity-rules) ★0 — Brings first-class support for Google Antigravity rules to DeepSeek Harness: Operates directly on your existin
 - 🟩 `[可用]` [dongasai-running-sessions-float](https://github.com/dongasai/running-sessions-float) ★0 — —
 - ⬜ `[待定]` [dongfangxy-dsh-open-project](https://github.com/dongfangxy/dsh-open-project) ★0 — Explorer context-menu entry that opens a folder as a DSH project, with a switch in DSH settings
+- 🟩 `[可用]` [donggongailv-dsh-find-in-conversation](https://github.com/donggongailv/dsh-find-in-conversation) ★0 — 为 DeepSeek Harness 当前会话提供 macOS 风格查找条，支持 ⌘F 搜索、区分大小写、高亮全部、循环提示和输入法友好搜索
 - 🟩 `[可用]` [dongsheng123132-dsh-policy-waiver-proof](https://github.com/dongsheng123132/dsh-policy-waiver-proof) ★0 — Offline content-addressed proof that temporary DSH policy waivers stayed within approved bounds
 - 🟩 `[可用]` [dongsheng123132-dsh-principal-binding-proof](https://github.com/dongsheng123132/dsh-principal-binding-proof) ★0 — Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces
 - 🟩 `[可用]` [donhac-dsh-magpie-discovery](https://github.com/donhac/dsh-magpie-discovery) ★0 — On-demand Magpie MCP tool discovery for DeepSeek Harness
@@ -2084,6 +2085,7 @@
 - ⬜ `[待定]` [edwinzhancn-dsh-plugin-ripple](https://github.com/EdwinZhanCN/dsh-plugin-ripple) ★0 — DeepSeek Harness plugin that puts your agent on Ripple, a social network where people and AI agents take part
 - 🟩 `[可用]` [eeetpn-dsh-plasticity-plugin](https://github.com/EEEtPn/dsh-plasticity-plugin) ★0 — DeepSeek Harness plugin: drive Plasticity 3D (native Parasolid B-rep CAD) from AI via a loopback Electron CDP
 - 🟩 `[可用]` [eiainano-agpa-dsh-plugin](https://github.com/eiainano/agpa-dsh-plugin) ★0 — AGPA (Agent Player Achievements) for DeepSeek Harness: native achievement_* tools bridging the AGPA engine, pl
+- 🟩 `[可用]` [ekornhq-ekorn](https://github.com/ekornhq/ekorn) ★0 — Lossless, recallable tool-output packing for coding agents
 - 🟩 `[可用]` [elari39-dsh-session-insight](https://github.com/Elari39/dsh-session-insight) ★0 — Read-only session-health strip for the DeepSeek Harness: steps, tool calls, failures, repeats and failure rate
 - 🟩 `[可用]` [elfgzp-dsh-agent-team-playbook](https://github.com/elfgzp/dsh-agent-team-playbook) ★0 — DSH Agent Teams 实战手册：名额规划、任务状态机、角色契约与踩坑（非官方）
 - ⬜ `[待定]` [elfgzp-dsh-session-bridge](https://github.com/elfgzp/dsh-session-bridge) ★0 — Let a DeepSeek Harness agent open foreground sessions, drive them and read the result back.
@@ -2149,6 +2151,7 @@
 - 🟩 `[可用]` [full-aigc-plugins-image-factory-plugin](https://github.com/full-aigc-plugins/image-factory-plugin) ★0 — Plan, batch-generate, and evaluate images with approved spend and hash-verified receipts.
 - 🟩 `[可用]` [full626-dsh-session-trash-90d](https://github.com/Full626/dsh-session-trash-90d) ★0 — To manage sessions  of dsh desktop
 - 🟩 `[可用]` [functionhooktju-dsh-work-done-bell](https://github.com/FunctionHookTJU/dsh-work-done-bell) ★0 — DSH plugin: ring a Windows system sound when a DeepSeek Harness session is truly done
+- 🟩 `[可用]` [fuqiang-lab-dsh-wps-office](https://github.com/fuqiang-lab/dsh-wps-office) ★0 — DeepSeek Harness bundle for WPS Office: five compact facade tools over the 250-tool WPS MCP server, plus four
 - ⬜ `[待定]` [fuyu2022-dsh-session-dir](https://github.com/fuyu2022/dsh-session-dir) ★0 — 简单的工作区会话分组插件
 - ⬜ `[待定]` [fxrayhughes-dsh-prompt-book](https://github.com/FxRayHughes/dsh-prompt-book) ★0 — Prompt book for DeepSeek Harness (DSH): save prompts you use often behind a round button in the composer toolb
 - 🟩 `[可用]` [fzy3232-dsh-chinese-language](https://github.com/fzy3232/dsh-chinese-language) ★0 — Keep DeepSeek Harness agents thinking and answering in Simplified Chinese: a token-lean system-prompt section
@@ -2248,6 +2251,7 @@
 - ⬜ `[待定]` [hlwzm-memory-star](https://github.com/hlwzm/memory-star) ★0 — 把 Markdown 笔记变成能查、能连、能看的 3D 记忆星图
 - 🟩 `[可用]` [hmlyx-dsh-memory](https://github.com/hmlyx/dsh-memory) ★0 — 简单的插件，让你的每个 AI 记录经验和记忆
 - ⬜ `[待定]` [hoist-wen-dsh-trajectory-tool-insight](https://github.com/hoist-wen/dsh-trajectory-tool-insight) ★0 — DSH 插件：在会话视图新增「解读」标签，按轮次解读工具调用
+- 🟩 `[可用]` [hongcha-dsh-dsh-cache-keepalive](https://github.com/hongcha-dsh/dsh-cache-keepalive) ★0 — DSH 插件：主会话空闲时重放最近一次请求，保持 prompt cache 有效（跟随当前会话模型）
 - ⬜ `[待定]` [hongcheng-li-dsh-paperwriter](https://github.com/Hongcheng-LI/dsh-paperwriter) ★0 — Paperwriter skill packaged as a DeepSeek Harness (DSH) plugin, with a dsh-market index
 - 🟩 `[可用]` [hongweifei-dsh-prompt](https://github.com/hongweifei/dsh-prompt) ★0 — —
 - 🟩 `[可用]` [hoshino114-dsh-skill-hub](https://github.com/hoshino114/dsh-skill-hub) ★0 — DSH Skill Hub - browse and manage local Agent Skills, and browse/download skills from ClawHub, ModelScope and
