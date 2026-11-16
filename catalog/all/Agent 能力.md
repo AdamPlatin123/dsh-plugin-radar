@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5105）
+# 🤖 Agent 能力（5107）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1637,6 +1637,7 @@
 - 🟩 `[可用]` [yukitakasama-dsh-wsl-preset](https://github.com/yukitakasama/dsh-wsl-preset) ★1 — DeepSeek Harness plugin: installs the 'wsl' agent preset for Windows WSL
 - 🟩 `[可用]` [yulaiz-dsh-widthkeeper](https://github.com/YuLaiZ/dsh-widthkeeper) ★1 — 会话内容列的守宽人：DeepSeek Harness 宽度控制插件，支持滑杆、精确输入、自动读值和收起控件
 - 🟩 `[可用]` [yunmin311-dsh-universal-palette](https://github.com/yunmin311/dsh-universal-palette) ★1 — Universal Palette for DeepSeek Harness Web — Commands, Models, Sessions and Conversation Hits with determinist
+- 🟩 `[可用]` [yusheng-zhu12-dsh-workspace-memory](https://github.com/yusheng-zhu12/dsh-workspace-memory) ★1 — Workspace-scoped durable memory for DeepSeek Harness
 - 🟩 `[可用]` [yutingzhao1991-dsh-review](https://github.com/yutingzhao1991/dsh-review) ★1 — Let your dsh freely invoke any agent or model to review.
 - ⬜ `[待定]` [ywgatustcbbs-dsh-human-task](https://github.com/ywgATustcbbs/dsh-human-task) ★1 — Human-in-the-loop plugin family for DeepSeek Harness: ctx.humanTasks service, human_task tools, skill, and web
 - 🟩 `[可用]` [yyfather-dsh-memory](https://github.com/YYfather/DSH-memory) ★1 — DSH-memory — DeepSeek Harness 长期记忆/技能/待办/记忆同步插件，基于 csyangwen/dsh-memory-evolve（MIT）的 DSH 0.2.0-rc.2 兼容分支
@@ -3502,6 +3503,7 @@
 - 🟩 `[可用]` [yingmsky-dsh-plugin-microvm](https://github.com/yingmsky/dsh-plugin-microvm) ★0 — Disposable microVM sandbox tools for DeepSeek Harness agents: create, exec, fork, destroy via any E2B-compatib
 - 🟩 `[可用]` [yinguobing-dsh-memory-index](https://github.com/yinguobing/dsh-memory-index) ★0 — —
 - 🟩 `[可用]` [yinling2024-dsh-layered-memory](https://github.com/yinling2024/dsh-layered-memory) ★0 — 给 DeepSeek Harness 的四层记忆插件：核心只读、内隐可塑、外显长期可检索、短期自动遗忘
+- 🟩 `[可用]` [yinshipeng-dsh-token-ledger](https://github.com/yinshipeng/dsh-token-ledger) ★0 — DSH plugin: lifetime token counter in the conversation header, summed across every local session.
 - 🟩 `[可用]` [yixiangtang-dsh-tool-subagent-batch](https://github.com/YixiangTang/dsh-tool-subagent-batch) ★0 — DeepSeek Harness’s plugin for launching agents in parallel
 - `[空仓监测]` **yjm110517-content-to-editable-ppt-skill** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [yknbugs-dsh-manual-approval](https://github.com/yknBugs/dsh-manual-approval) ★0 — A DeepSeek Harness Plugin that add a new permission that every tool call opens an approval card first
