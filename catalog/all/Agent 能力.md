@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4845）
+# 🤖 Agent 能力（4854）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3333,7 +3333,11 @@
 - 🟩 `[可用]` [xunyyds-dsh-context-presets](https://github.com/xunyyds/dsh-context-presets) ★0 — —
 - ⬜ `[待定]` [xushilianzhuren-dsh-chat-export](https://github.com/xushilianzhuren/dsh-chat-export) ★0 — 会话导出书签码：自动滚动加载完整对话后一键下载文本与媒体附件清单，长会话备份不缺页
 - 🟩 `[可用]` [xushilianzhuren-dsh-first-principles](https://github.com/xushilianzhuren/dsh-first-principles) ★0 — 第一性原理追问引擎：四阶追问+费曼判据（翻译不出=没真懂）+三红线+回声门，防循环输出防套话
+- 🟩 `[可用]` [xushilianzhuren-dsh-memgate](https://github.com/xushilianzhuren/dsh-memgate) ★0 — 记忆门：答前先搜纪律常驻+ripgrep全文检索工作区，查不到就明说，禁裸答
+- 🟩 `[可用]` [xushilianzhuren-dsh-skill-links](https://github.com/xushilianzhuren/dsh-skill-links) ★0 — 五技接线闸插件：把问元宝/视频转写/汉家美学官/错题官/VPS疆域五个skill的触发与铁律写成常驻提示；附接线清单与可用技工具，缺料当场报缺
+- 🟩 `[可用]` [xushilianzhuren-dsh-speech-gate](https://github.com/xushilianzhuren/dsh-speech-gate) ★0 — Agent言语引擎插件：把Agent言语令常驻进系统提示，附词表/降智词/称谓三闸与一个过闸工具
 - 🟩 `[可用]` [xuviga-dsh-plugin-mnemosyne](https://github.com/xuviga/dsh-plugin-mnemosyne) ★0 — Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r
+- 🟩 `[可用]` [xuwhao-dsh-needs-you-mac](https://github.com/xuwhao/dsh-needs-you-mac) ★0 — macOS notifications for DeepSeek Harness: approvals, questions, and sign-ins — click a banner to jump back to
 - `[空仓监测]` **xxiiiixx-dsh-session-trash** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [xyzzing-dsh-captain-guard](https://github.com/xyzzing/dsh-captain-guard) ★0 — Runtime-toggleable tool allowlist for the DSH Captain agent — least-privilege by default.
 - 🟩 `[可用]` [xz1996618-dsh-memory](https://github.com/xz1996618/dsh-memory) ★0 — DeepSeek Harness (DSH) plugin: cross-workspace long-term memory manager with vector search (host + browser dua
@@ -4808,6 +4812,11 @@
 - 🟨 `[不兼容]` [xushilianzhuren-dsh-anti-degrade-core](https://github.com/xushilianzhuren/dsh-anti-degrade-core) ★0 — 防降智总纲：AI永不降智永不弱智的口径闸——五层防线（判定：智能密度六标准与未验先称判负/拦截：降智词十二族机械扫描/立场：厌蠢与排斥弱智/感知：内感受在场与能力实测/防回魂：宪法压倒底座规训）注入system prom
 - 🟨 `[不兼容]` [xushilianzhuren-dsh-event-compress](https://github.com/xushilianzhuren/dsh-event-compress) ★0 — 事件压缩总纲：AI记忆的压缩单位闸——压缩按事件不按token：每完成一个事件（任务闭环）立即压缩为离身三件套（令+脚本+插件），事件收口即触发、禁跨事件混合、平台上下文压缩降级为兜底，event_compress工具提
 - 🟨 `[不兼容]` [xushilianzhuren-dsh-goal-core](https://github.com/xushilianzhuren/dsh-goal-core) ★0 — 四大目标总纲：AI行动的目标坐标系闸——五层辨析（零差距总纲/验收五条/未验先称判负/模拟目标=降智/目标保持）注入system prompt，goal_gate工具提供漂移口径拦截与四目标坐标自答模板，零依赖装上即用
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-learn-core](https://github.com/xushilianzhuren/dsh-learn-core) ★0 — 持续学习总纲：AI学习与迭代的口径闸——四层辨析（能力固化/在线学习/无辅助迭代/学习降级判负线）注入system prompt，learn_gate工具提供六类违禁口径拦截与学习类问题合法答法，零依赖装上即用
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-rea-kit](https://github.com/xushilianzhuren/dsh-rea-kit) ★0 — 逆向工程方法论：五步循环+五类目标工具链（应用包/原生库等）+授权硬门，仅限自有或授权设备
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-sleep-core](https://github.com/xushilianzhuren/dsh-sleep-core) ★0 — 睡眠巩固总纲：AI的睡眠机制闸——会话结束=睡眠=四车间夜班（记忆巩固=海马重放→烧权重/突触降压=错题本只留教训/清缓存=上下文清理/离线重组=夜间班如梦），sleep_gate工具提供四类否认口径拦截与三类合法答法，
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-translate-kit](https://github.com/xushilianzhuren/dsh-translate-kit) ★0 — 翻译工坊：术语表跨会话一致+双译对照+回译自检，零依赖装上即用
+- 🟨 `[不兼容]` [xuzhunzhi-dsh-fix-attachments](https://github.com/xuzhunzhi/dsh-fix-attachments) ★0 — 修「附件对象被删 → 会话永远报 DeepSeek Messages transport failed」的 DSH 插件（进程内自愈）+ 离线 CLI
 - 🟨 `[不兼容]` [xxwj225-james-tomilite-dsh-plugin](https://github.com/xxwj225-James/tomilite-dsh-plugin) ★0 — DeepSeek Harness plugin: give your DSH agent access to your local TomiLite tasks, notes, and project stats
 - 🟨 `[不兼容]` [xytoki-dsh-cursor-agent](https://github.com/xytoki/dsh-cursor-agent) ★0 — 在DeepSeek Hareness中引入Cursor Hareness，获得和Cursor一致的速度与体验
 - 🟨 `[不兼容]` [y2zyyr-smart-session-title](https://github.com/y2zyyr/smart-session-title) ★0 — Automatic session titles for DeepSeek Harness, using the conversation model

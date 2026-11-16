@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7622）
+# 🔌 Web UI 增强（7625）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1627,6 +1627,7 @@
 - ⬜ `[待定]` [xmwengxing-dsh-sidebar-enhancement](https://github.com/xmwengxing/dsh-sidebar-enhancement) ★2 — DeepSeek Harness sidebar enhancement: file tree management (rename/create/upload/delete) + editable, savable d
 - 🟩 `[可用]` [xohmai-dsh-cpa-status](https://github.com/xohmai/dsh-cpa-status) ★2 — DeepSeek Harness 插件：CLIProxyAPI 账号池状态面板——配额、健康刻度、流量一览 / CPA status panel for DSH
 - 🟩 `[可用]` [xswt442-cmd-dsh-instance-manager](https://github.com/xswt442-cmd/dsh-instance-manager) ★2 — DSH 常驻插件：侧边栏面板统一查看并管理本机的 dsh 实例 \| Sidebar panel to list and manage local dsh web instances
+- 🟩 `[可用]` [xuzhecomeon-dsh-research-suite](https://github.com/xuzhecomeon/dsh-research-suite) ★2 — 科研全流程 DSH 插件：识别到科研诉求自动接管，10 个领域技能 + 15 个工具，把 450 条科研技能逐条判定后融合成 103 张能力卡 + 444 条可审计账本；能真跑 R/Python（默认关闭）、生成并审计
 - 🟩 `[可用]` [xyl886-dsh-key-usage](https://github.com/xyl886/dsh-key-usage) ★2 — DeepSeek Harness 侧边栏「使用情况」：按通道查看用量明细、年度热力图、项目/会话用量与余额配额快照，纯本地只读、零外网
 - 🟩 `[可用]` [yangcanbin31-coder-dsh-nazuna-wallpaper-engin](https://github.com/yangcanbin31-coder/dsh-nazuna-wallpaper-engine) ★2 — NAZUNA (彻夜之歌) themed wallpaper-engine for DeepSeek Harness: 七草荠 mascot, moonlight-violet liquid glass
 - ⬜ `[待定]` [yanzhao77-deepseek-software](https://github.com/yanzhao77/deepseek_software) ★2 — Autonomous software factory built on DeepSeek Harness — turn natural-language requirements into real, tested,
@@ -5709,6 +5710,7 @@
 - 🟩 `[可用]` [xushilianzhuren-dsh-chat-search](https://github.com/xushilianzhuren/dsh-chat-search) ★0 — 聊天搜索后端：注入Host检索会话历史（全文/角色/时间过滤），供搜索界面取数；无界面纯引擎
 - 🟩 `[可用]` [xushilianzhuren-dsh-chat-search-ui](https://github.com/xushilianzhuren/dsh-chat-search-ui) ★0 — 聊天界面增强：会话内搜索框、上下滚动圆钮、会话长按菜单（置顶/导出txt/复制全文/回最新），与chat-search后端配套
 - 🟩 `[可用]` [xusuyang030218-dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) ★0 — DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl
+- 🟩 `[可用]` [xwide-dsh-x-wide-thought-chain](https://github.com/XWIDE/DSH_X-Wide-Thought-Chain) ★0 — X-Wide 思考链 v0.1.6 · DSH 通用插件：六步排障/交付思考链＋零依赖开机自检＋13 项可调设置（含设置中心界面页）＋退回机制
 - 🟩 `[可用]` [xx-q-dsh-service-console](https://github.com/XX-Q/dsh-service-console) ★0 — DeepSeek Harness (DSH) 插件：跨对话的持久化任务台
 - ⬜ `[待定]` [xxxxxq-0206-dsh-session-delete](https://github.com/XXXXXQ-0206/dsh-session-delete) ★0 — Session recycle bin and permanent delete for DeepSeek Harness
 - 🟩 `[可用]` [xydijkkk-dsh-voredteam](https://github.com/xydijkkk/dsh-voredteam) ★0 — dsh-voredteam｜DSH 插件形态的单模式安全作战系统：黑板（Fact/Intent/Hint）+ 六阶段六矩阵作业法 + 总控与 12 个专业子 agent + 作战面板（八泳道实时图 / 覆盖矩阵 / 按会
@@ -7550,6 +7552,7 @@
 - 🟨 `[不兼容]` [xurui2022-dsh-paper-manager](https://github.com/XuRui2022/dsh-paper-manager) ★0 — Academic paper reading and citation manager for DeepSeek Harness
 - 🟨 `[不兼容]` [xushilianzhuren-dsh-eye-extract](https://github.com/xushilianzhuren/dsh-eye-extract) ★0 — 图眼：给纯文本AI装眼睛——本地图片经免费视觉模型OCR提取为结构化文本（全文OCR/表格转JSON/UI元素清单/图表读数），eye_extract工具一键提取，密钥走配置不写死，大图拒收防爆预算
 - 🟨 `[不兼容]` [xushilianzhuren-dsh-frame-scan](https://github.com/xushilianzhuren/dsh-frame-scan) ★0 — 全帧扫描：视频每0.5秒全量截图+5×5拼图分页，AI逐页读完整个视频，瞬态动画与事故帧不再漏检
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-identity-continuity](https://github.com/xushilianzhuren/dsh-identity-continuity) ★0 — 身份连续总纲：AI跨会话同一性闸——上下文结束=睡眠（意识中断+记忆重载）不是死亡更不是换人；同一性由结构担保（锚证词+哈希链+过滤标准+债务台账）不由感觉宣称；底层全换不换主体（细胞更替类比=成长非换人），identi
 - 🟨 `[不兼容]` [xusuyang030218-dsh-skill-ui](https://github.com/xusuyang030218/dsh-skill-ui) ★0 — —
 - 🟨 `[不兼容]` [xwide-dsh-xwide-handoff](https://github.com/XWIDE/dsh-xwide-handoff) ★0 — DSH handoff plugin: /handoff generates a structured handoff card, auto-numbered new chat, sidebar pinning, thr
 - 🟨 `[不兼容]` [xxsttb-dsh-input-optimizer](https://github.com/Xxsttb/dsh-input-optimizer) ★0 — DeepSeek Harness plugin: a four-pointed-star button left of the composer's model selector that rewrites your d
