@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7689）
+# 🔌 Web UI 增强（7704）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2956,7 +2956,9 @@
 - 🟩 `[可用]` [xf3193-dsh-serial-sifarcrt](https://github.com/xf3193/dsh-serial-sifarCRT) ★1 — Windows serial debug console in the DSH right sidebar: COM ports, ANSI logs, in-log Linux terminal, command bu
 - 🟩 `[可用]` [xfgil-dsh-session-clock](https://github.com/xfgil/dsh-session-clock) ★1 — DSH 会话时钟：按会话授时 + 跨轮/跨会话空闲间隔，作为内置 dsh-time-context 的补充插件
 - ⬜ `[待定]` [xfjsssq-dsh-model-hub](https://github.com/xfjsssq/dsh-model-hub) ★1 — DeepSeek Harness 模型中心插件 — 双栏模型选择器（左提供商 / 右模型）+ 悬浮能力卡，可直接在面板里添加提供商、刷新获取模型、删除模型；零构建、零 npm 依赖
+- 🟩 `[可用]` [xianyujianren-dsh-daifeiyu-pack](https://github.com/xianyujianren/dsh-daifeiyu-pack) ★1 — 大肥鱼套装：DeepSeek Harness 开机动画 + P.R.T.S
 - 🟩 `[可用]` [xiao-hans-dsh-rtk](https://github.com/xiao-hans/dsh-rtk) ★1 — 基于 RTK、专为 DSH 打造的薄层适配插件：让 DSH agent 的 pwsh 命令自动走 RTK（Rust Token Killer）压缩输出、节省 LLM token
+- 🟩 `[可用]` [xiaopb-dsh-mobile-layout](https://github.com/XiaoPb/dsh-mobile-layout) ★1 — DSH 手机竖屏自适应布局插件：抽屉式侧边栏与触控按键，非手机竖屏保持官方默认布局
 - 🟩 `[可用]` [xiaoso456-dsh-turn-navigator](https://github.com/xiaoso456/dsh-turn-navigator) ★1 — Jump between conversation turns in the DeepSeek Harness web UI
 - 🟩 `[可用]` [xiaoyi-xx-dsh-peak-status](https://github.com/xiaoyi-xx/dsh-peak-status) ★1 — DeepSeek Harness Web GUI 的高峰时段指示灯
 - 🟩 `[可用]` [xiaozuishuai-eng-prompt-optimize-dsh](https://github.com/Co1ombiagly/prompt_optimize_dsh) ★1 — DeepSeek Harness (DSH) 提示词优化器插件：一句口语化需求 → 结构化高质量提示词，结果自动填入会话输入框
@@ -5717,11 +5719,22 @@
 - 🟩 `[可用]` [xiangdeen-dsh-sidebar-video-player](https://github.com/XIANGDEEN/dsh-sidebar-video-player) ★0 — A right-Sidebar video player for DeepSeek Harness with live playback telemetry and deep MP4/MOV container insp
 - `[空仓监测]` **xiangruiai-deepseek-harness-desktop** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [xiangwriter-dev-dsh-xiangwriter-screen-contro](https://github.com/xiangwriter-dev/dsh-xiangwriter-screen-control) ★0 — Windows screen control for DeepSeek Harness: screenshot, mouse and keyboard input, UI Automation and window ma
+- 🟩 `[可用]` [xiangyi-wang-dsh-crawler](https://github.com/xiangyi-wang/dsh-crawler) ★0 — 在 DeepSeek Harness 界面上爬行的小虫子：1111 个形态，吃词、长大、结丝、生灭（原作引擎：Slava Rybin《Crawlers》）
+- 🟩 `[可用]` [xiao-xiao-bai-ya-dsh-cn-menu-kit](https://github.com/xiao-xiao-bai-ya/dsh-cn-menu-kit) ★0 — DeepSeek Harness 技能与命令的中文增强：技能中文标题、中文搜索、悬浮详情、菜单内拖拽排序 · Chinese titles, search, hover details and drag-to-reord
+- 🟩 `[可用]` [xiaobaga281-dsh-native-uia](https://github.com/xiaobaga281/dsh-native-uia) ★0 — 御屏 · DSH 桌面操控插件：以 Windows UI Automation 控件树为主通道，纯文本模型即可操控桌面，后台投递动作、批量执行、逐步校验与配方回放
 - ⬜ `[待定]` [xiaobai123name-dsh-web-search-guide](https://github.com/xiaobai123name/dsh-web-search-guide) ★0 — DeepSeek Harness (DSH) 联网搜索方案：AnySearch 搜索 + 本地网页抓取，不依赖对话模型渠道（ClinePass / 中转站 / 官方 API 都能用）
+- 🟩 `[可用]` [xiaohui-zhangxh-dsh-github-kanban](https://github.com/xiaohui-zhangxh/dsh-github-kanban) ★0 — GitHub issue kanban board for DeepSeek Harness (DSH): todo groups, drag-to-group, agent claim tools, and an an
+- 🟩 `[可用]` [xiaohui-zhangxh-dsh-session-handoff](https://github.com/xiaohui-zhangxh/dsh-session-handoff) ★0 — DSH 插件：常驻显示对话轮次，达到上限自动写交接文件并把任务转移到新会话继续 \| DeepSeek Harness plugin that hands the task off to a fresh session a
+- 🟩 `[可用]` [xiaohui-zhangxh-dsh-task-map](https://github.com/xiaohui-zhangxh/dsh-task-map) ★0 — DeepSeek Harness task map plugin: replay a session as an SVG task flow + Gantt timeline, with wait analysis, p
 - 🟩 `[可用]` [xiaokang6-dsh-admin](https://github.com/xiaokang6/dsh-admin) ★0 — DeepSeek Harness Web GUI admin plugin: manual restart + auto version check (header button + settings page)
+- 🟩 `[可用]` [xiaokang6-dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) ★0 — Sync a DeepSeek Harness profile configuration across devices through Nutstore WebDAV or GitHub: per-file hash
 - 🟩 `[可用]` [xiaoke8698-dsh-lego-plugin](https://github.com/XIAOke8698/dsh-lego-plugin) ★0 — DeepSeek Harness（DSH）Web 界面插件的乐高式可视化视图
+- 🟩 `[可用]` [xiaole3349-dsh-memory-gui](https://github.com/xiaole3349/dsh-memory-gui) ★0 — DSH 插件：记忆库与图书馆的浏览 GUI
 - 🟩 `[可用]` [xiaoluofoxington-dsh-theme-hacker-terminal](https://github.com/XiaoluoFoxington/dsh-theme-hacker-terminal) ★0 — Hacker-terminal skin for the dsh web GUI: pure black, high-contrast green, right-angle geometry, monospace fon
+- ⬜ `[待定]` [xiaoluomin-dsh-resource-monitor](https://github.com/XiaoLuoMin/dsh-resource-monitor) ★0 — DSH sidebar resource monitor (CPU/memory/frequency trends with 24h/7d history)
+- 🟩 `[可用]` [xiaoman-mai-dsh-sui](https://github.com/xiaoman-mai/dsh-sui) ★0 — 穗：给 DSH 的三层记忆——记录、记忆、感觉
 - ⬜ `[待定]` [xiaoming132887-dsh-rely](https://github.com/xiaoming132887/dsh-rely) ★0 — DeepSeek Harness 插件：输入框下方常驻显示 绿萝中转站 余额
+- 🟩 `[可用]` [xiaoqiangch-dsh-preview-theme-dark](https://github.com/xiaoqiangch/dsh-preview-theme-dark) ★0 — DeepSeek Harness 文档预览深色模式插件：标题栏一键浅/深切换、跟随系统外观、浅深两侧配色分别记忆（MIT，独立增强版）
 - 🟩 `[可用]` [xiaoxianasd-dsh-liquid-glass-ui](https://github.com/xiaoxianasd/dsh-liquid-glass-ui) ★0 — 可以更改deepseek harness背景图以及更改ui为透明液态玻璃，当模型思考时可以自动跳转视频软件
 - 🟩 `[可用]` [xiaoxiaohaigui-dsh-tui-find](https://github.com/xiaoxiaohaigui/dsh-tui-find) ★0 — —
 - 🟩 `[可用]` [xiaoxingyuemiao-dsh-bg-plugin](https://github.com/xiaoxingyuemiao/dsh-bg-plugin) ★0 — DSH 自定义背景插件：为 DSH Web GUI 应用远程/本地图片背景，支持清晰度、压暗、模糊调节，设置面板保持默认外观
@@ -7598,7 +7611,9 @@
 - 🟨 `[不兼容]` [xfgil-dsh-loop-guard](https://github.com/xfgil/dsh-loop-guard) ★0 — DSH 循环守卫：单轮工具调用上限、重复动作识别、长回合沉默播报
 - 🟨 `[不兼容]` [xian-jl-dsh-xiao-theme](https://github.com/Xian-JL/dsh-Xiao-theme) ★0 — Xiao theme for DeepSeek Harness Web and Desktop with selectable artwork, a draggable companion, and optional o
 - 🟨 `[不兼容]` [xianshu-virtuous-dsh-nai-artist](https://github.com/xianshu-virtuous/dsh-nai-artist) ★0 — NAI Artist for DeepSeek Harness: a paint tool with in-conversation image cards, translate-to-tags, and a full
+- 🟨 `[不兼容]` [xianwins4ever-ux-dsh-pet-notepad](https://github.com/xianwins4ever-ux/dsh-pet-notepad) ★0 — DSH Web GUI 桌宠伴生记事本：右键桌宠弹出悬浮记事本，左侧栏入口查看/编辑
 - 🟨 `[不兼容]` [xianyu9n-dsh-exp-ops](https://github.com/xianyu9n/dsh-exp-ops) ★0 — Remote experiment operations for DeepSeek Harness (dsh): a credential-reference server registry, signal/GPU/ro
+- 🟨 `[不兼容]` [xiao-hans-dsh-session-auto-archive](https://github.com/xiao-hans/dsh-session-auto-archive) ★0 — DeepSeek Harness（DSH）插件：按闲置天数自动归档会话，补齐 DSH 只有手动 Archive 的缺口；回到会话自动取消归档，配合「按最近活跃」排序让老会话回到顶部
 - 🟨 `[不兼容]` [xiaobingan-dsh-mermaid-fence](https://github.com/XiaoBinGan/dsh-mermaid-fence) ★0 — Render settled ```mermaid fences in the dsh Web GUI chat as SVG diagrams — hardened output, source toggle, and
 - 🟨 `[不兼容]` [xiaoli-asuna-dsh-theme-endfield-style](https://github.com/Xiaoli-Asuna/dsh-theme-endfield-style) ★0 — Arknights: Endfield-style theme for the DeepSeek Harness web UI (unofficial fan work).
 - 🟨 `[不兼容]` [xiaoshengliang2002-dsh-prompt-boost-pro](https://github.com/xiaoshengliang2002/dsh-prompt-boost-pro) ★0 — Enhance the composer draft before sending: a sparkle button in the DSH web GUI rewrites your prompt in a struc
