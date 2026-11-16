@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5294）
+# 🤖 Agent 能力（5300）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1230,6 +1230,7 @@
 - 🟩 `[可用]` [feely0208-dsh-phishing-guard](https://github.com/feely0208/dsh-phishing-guard) ★1 — 扫 agent 会读到的文本内容，找里面的可疑指令与社工话术
 - 🟩 `[可用]` [feiteng-0828-dsh-standing-rules](https://github.com/FEITENG-0828/dsh-standing-rules) ★1 — A DeepSeek Harness plugin that appends the rules from AGENTS.md to every incoming user message as a reminder.
 - 🟩 `[可用]` [felixjiashengfu-dsh-haoba-mode](https://github.com/FelixJiashengFu/dsh-haoba-mode) ★1 — 豪霸模式：DeepSeek Harness 插件，一枚土豪金开关把每一步的推理强度与输出预算拉满 · Max-effort mode switch for DeepSeek Harness
+- 🟩 `[可用]` [fenrircait-dsh-tool-hub](https://github.com/FenrirCait/dsh-tool-hub) ★1 — One panel for the plugins and skills a DSH installation runs: per-row switches, groups, presets, rule-based au
 - ⬜ `[待定]` [dsh-delegate](https://github.com/feoh333/dsh-delegate) ★1 — dsh-delegate: model-aware subagent delegation for DeepSeek Harness — per-call models, depends_on dependency ga
 - 🟩 `[可用]` [fflow2023-dsh-usage-cost](https://github.com/fflow2023/dsh-usage-cost) ★1 — Lightweight DeepSeek Harness plugin: per-session + global API cost stats (peak/off-peak pricing)
 - 🟩 `[可用]` [findshan-dsh-agent-memory](https://github.com/findshan/dsh-agent-memory) ★1 — Self-evolving memory for DeepSeek Harness: capture → dream consolidation → retrieval injection → evolve
@@ -1253,6 +1254,7 @@
 - 🟩 `[可用]` [glh5835-dsh-prompt-refiner](https://github.com/glh5835/dsh-prompt-refiner) ★1 — DeepSeek Harness 提示词精炼插件：结构化改写 + 成本路由 + 缓存 + token 统计
 - 🟩 `[可用]` [godlike2020-dsh-mqtt-tools](https://github.com/GodLike2020/dsh-mqtt-tools) ★1 — MQTT client and embedded broker for DeepSeek Harness — one panel, nine mqtt_* agent tools.
 - 🟩 `[可用]` [gongstudent-dsh-quote-to-agent](https://github.com/gongstudent/dsh-quote-to-agent) ★1 — —
+- 🟩 `[可用]` [gongyehuahe-dsh-session-mover](https://github.com/gongyehuahe/dsh-session-mover) ★1 — DSH plugin: move a session to another workspace.
 - 🟩 `[可用]` [goodandready-dsh-cost-meter](https://github.com/GooDAnDReaDY/dsh-cost-meter) ★1 — DeepSeek Harness plugin: a session cost chip in the conversation header - live token usage by bucket, peak/off
 - 🟩 `[可用]` [gooodwei-arcana](https://github.com/GooodWei/arcana) ★1 — DeepSeek Harness 的悬浮命令甲板：把所有斜杠命令列成可执行按钮，并按使用次数排序
 - ⬜ `[待定]` [gorban-dsh-job-stop](https://github.com/gorban/dsh-job-stop) ★1 — DeepSeek Harness (dsh) plugin: stop a running background job from the session-header job list, behind a confir
@@ -2288,6 +2290,7 @@
 - 🟩 `[可用]` [full626-dsh-session-trash-90d](https://github.com/Full626/dsh-session-trash-90d) ★0 — To manage sessions  of dsh desktop
 - 🟩 `[可用]` [functionhooktju-dsh-work-done-bell](https://github.com/FunctionHookTJU/dsh-work-done-bell) ★0 — DSH plugin: ring a Windows system sound when a DeepSeek Harness session is truly done
 - 🟩 `[可用]` [fuqiang-lab-dsh-wps-office](https://github.com/fuqiang-lab/dsh-wps-office) ★0 — DeepSeek Harness bundle for WPS Office: five compact facade tools over the 250-tool WPS MCP server, plus four
+- 🟩 `[可用]` [fuyu1993-dsh-anysearch-quota](https://github.com/fuyu1993/dsh-anysearch-quota) ★0 — DSH 插件：会话标题行的 AnySearch 额度徽章 + 额度视图，优先读取控制台仪表盘的真实剩余额度，回退到本机记账估算
 - ⬜ `[待定]` [fuyu2022-dsh-session-dir](https://github.com/fuyu2022/dsh-session-dir) ★0 — 简单的工作区会话分组插件
 - ⬜ `[待定]` [fxrayhughes-dsh-prompt-book](https://github.com/FxRayHughes/dsh-prompt-book) ★0 — Prompt book for DeepSeek Harness (DSH): save prompts you use often behind a round button in the composer toolb
 - 🟩 `[可用]` [fzy3232-dsh-chinese-language](https://github.com/fzy3232/dsh-chinese-language) ★0 — Keep DeepSeek Harness agents thinking and answering in Simplified Chinese: a token-lean system-prompt section
@@ -3967,6 +3970,7 @@
 - 🟨 `[不兼容]` [burning-frappuccino-dsh-turbo](https://github.com/burning-frappuccino/dsh-turbo) ★9 — DSH OVERDRIVE — Fast/Max execution gears for DeepSeek Harness
 - 🟨 `[不兼容]` [cocofhu-dsh-aio-agent](https://github.com/cocofhu/dsh-aio-agent) ★9 — —
 - 🟨 `[不兼容]` [dsh-plugin-lab-dsh-plugin-debugging](https://github.com/dsh-plugin-lab/dsh-plugin-debugging) ★9 — A DSH plugin debugging toolkit
+- 🟨 `[不兼容]` [finogeeks-finsafe](https://github.com/finogeeks/finsafe) ★9 — Process level sandbox for any AI agents
 - 🟨 `[不兼容]` [liora2050348900-dsh-behavior-enhancer](https://github.com/Zoria-Lind/dsh-behavior-enhancer) ★9 — Behavior-management plugin for DeepSeek Harness: tool-call discipline prompt section, failure-triggered parall
 - 🟨 `[不兼容]` [nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) ★9 — One memory layer for every AI tool and agent, packaged for DeepSeek Harness
 - 🟨 `[不兼容]` [riemannre3-dsh-roleplay](https://github.com/RiemannRe3/DSH-RolePlay) ★9 — DeepSeek Harness 的 Tavern 角色卡兼容与原生 Agent RolePlay 插件
@@ -4770,6 +4774,8 @@
 - 🟨 `[不兼容]` [fatatalia-dsh-dreaming](https://github.com/fatatalia/dsh-dreaming) ★0 — dsh 梦境记忆整合插件：凌晨随机窗口把记忆梦境化（裸上下文 narrative 纯梦写作）+ 信号驱动洞察晋升 + MEMORY.md 预算管理，随 dsh web 启停
 - 🟨 `[不兼容]` [fatatalia-dsh-turn-guard](https://github.com/fatatalia/dsh-turn-guard) ★0 — dsh turn-guard plugin: per-step timeout for agent turns (防模型退化死循环)
 - 🟨 `[不兼容]` [fcz20060311-dsh-life-planner](https://github.com/fcz20060311/dsh-life-planner) ★0 — 拾光笺 · DSH 生活时间管理插件：待办提醒 / 倒计时 / 日历 / 专注计时 / 热力图
+- 🟨 `[不兼容]` [feifandiv-dsh-feifan-life](https://github.com/feifandiv/dsh-feifan-life) ★0 — Feifan Life for DeepSeek Harness: a local life-management workspace (tasks, planning, finance, lists, habits,
+- 🟨 `[不兼容]` [feifandiv-dsh-skill-cn](https://github.com/feifandiv/dsh-skill-cn) ★0 — Chinese skill search for the DeepSeek Harness slash menu: type a Chinese skill name, insert the real skill.
 - 🟨 `[不兼容]` [felixzhang-glitch-dsh-harness-panel](https://github.com/felixzhang-glitch/dsh-harness-panel) ★0 — DeepSeek Harness settings panel: MCP server status + probe, session skills, and hook configs in one native-sty
 - 🟨 `[不兼容]` [fengyufengzi-dsh-local-diagnostics](https://github.com/fengyufengzi/dsh-local-diagnostics) ★0 — Privacy-first in-memory diagnostics for DeepSeek Harness
 - 🟨 `[不兼容]` [fentz26-dsh-goodjob](https://github.com/fentz26/dsh-goodjob) ★0 — Multi-agent operations workspace for DeepSeek Harness.
