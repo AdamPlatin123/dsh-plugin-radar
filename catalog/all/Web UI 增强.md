@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7569）
+# 🔌 Web UI 增强（7575）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5691,13 +5691,18 @@
 - 🟩 `[可用]` [xswt442-cmd-dsh-ballast](https://github.com/xswt442-cmd/dsh-ballast) ★0 — DSH 上下文窗口逐条归因面板——看谁占了窗口 \| Per-message context window attribution for DSH — see what takes up the window
 - 🟩 `[可用]` [xswt442-cmd-dsh-mini-utility-dock](https://github.com/xswt442-cmd/dsh-mini-utility-dock) ★0 — 一个简单的 DSH 工具坞 \| A simple utility dock for DSH
 - 🟩 `[可用]` [xtd1145-dsh-deepseek-cost-live](https://github.com/xtd1145/dsh-deepseek-cost-live) ★0 — Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock
+- 🟩 `[可用]` [xthingillu-sketch-dsh-mnemos-continuity](https://github.com/xthingillu-sketch/dsh-mnemos-continuity) ★0 — Cross-model continuity for DeepSeek Harness: memory, skills and rules in local files
 - 🟩 `[可用]` [xthreehao-dsh-hidden-session](https://github.com/xthreehao/dsh-hidden-session) ★0 — DSH（DeepSeek Harness）隐藏会话插件：把会话从侧边栏隐藏、可随时恢复
+- 🟩 `[可用]` [xtt-xt-dsh-custom-tool-studio](https://github.com/xtt-xt/dsh-custom-tool-studio) ★0 — DSH bundle plugin: author Python tools in the Web UI or through agent tools, register them as first-class DSH
 - 🟩 `[可用]` [xuan25-dsh-timer](https://github.com/xuan25/dsh-timer) ★0 — A systemd.timer equivalent for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [xudongh123-dsh-terminal-run](https://github.com/xudongh123/dsh-terminal-run) ★0 — Run shell code blocks from the DSH conversation in the right sidebar terminal
 - ⬜ `[待定]` [xuezuoys-dsh-prompt-inject](https://github.com/XuezuoYS/dsh-prompt-inject) ★0 — 这是一个适用于 Deepseek Harness 的插件，向用户提供 GUI 下分组的自定义且区分模型的发送 Prompt 注入功能
 - 🟩 `[可用]` [xugulin-dsh-display-panel](https://github.com/xugulin/dsh-display-panel) ★0 — A display tab for the DeepSeek Harness Web UI: watch — and drive — the AI's own headless test display
+- 🟩 `[可用]` [xulei666a-dsh-rules](https://github.com/xulei666a/dsh-rules) ★0 — DSH 统一准则/规则层：把 agent 的所有准则收进一份规则库，支持默认/局部适用面、语义路由、分类树、AGENTS 托管段同步，以及面板内助手（读取规则 / 校准 / 个性化分类 / 问题台账）
 - 🟩 `[可用]` [xulixin1968-dsh-cookie-sync](https://github.com/xulixin1968/dsh-cookie-sync) ★0 — Sync cookies from Edge browser to DSH sidebar browser, avoiding repeated logins on supported sites.
 - 🟩 `[可用]` [xumi0920-dsh-deepseek-chat-mode](https://github.com/Xumi0920/dsh-deepseek-chat-mode) ★0 — DeepSeek Chat / Work mode switch for DeepSeek Harness: full-screen web chat in the right sidebar and one-click
+- 🟩 `[可用]` [xun-prog-dsh-xdpool-billing](https://github.com/Xun-Prog/dsh-xdpool-billing) ★0 — XD Pool (WorkBuddy) 积分计费面板 · Credit meter for DeepSeek Harness
+- 🟩 `[可用]` [xunflash-dsh-grok-build-policy](https://github.com/Xunflash/dsh-grok-build-policy) ★0 — DeepSeek Harness plugin that adds Grok Build working rules when a Grok model is selected.
 - 🟩 `[可用]` [xusuyang030218-dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) ★0 — DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl
 - 🟩 `[可用]` [xx-q-dsh-service-console](https://github.com/XX-Q/dsh-service-console) ★0 — DeepSeek Harness (DSH) 插件：跨对话的持久化任务台
 - ⬜ `[待定]` [xxxxxq-0206-dsh-session-delete](https://github.com/XXXXXQ-0206/dsh-session-delete) ★0 — Session recycle bin and permanent delete for DeepSeek Harness
@@ -7502,6 +7507,7 @@
 - 🟨 `[不兼容]` [xiyue718-dsh-ui-prompt-optimizer](https://github.com/xiyue718/dsh-ui-prompt-optimizer) ★0 — DSH 提示词优化插件：在聊天输入框一键优化未发送的提示词。 / Optimize unsent prompts in the DSH chat composer with the default model.
 - 🟨 `[不兼容]` [xiyue718-dsh-ui-usage-stats](https://github.com/xiyue718/dsh-ui-usage-stats) ★0 — DSH 用量统计插件：按工作区/会话/时段/模型统计 token 用量与 DeepSeek 费用
 - 🟨 `[不兼容]` [xmeowchan-dsh-agent-team-model](https://github.com/XMeowchan/dsh-agent-team-model) ★0 — Visual provider, model and reasoning-effort defaults for DeepSeek Harness Agent Teams.
+- 🟨 `[不兼容]` [xsxll22-dsh-mcu51-plugin](https://github.com/XSXLL22/dsh-mcu51-plugin) ★0 — Standalone Windows x64 DSH 8051 toolbox: built-in STC ISP, serial, options, image buffers and 12 tools.
 - 🟨 `[不兼容]` [xuechengzou-dsh-file-drop](https://github.com/xuechengzou/dsh-file-drop) ★0 — Gap-only extension for the DSH web composer attachment intake: a dropped folder is expanded into its individua
 - 🟨 `[不兼容]` [xusuyang030218-dsh-skill-ui](https://github.com/xusuyang030218/dsh-skill-ui) ★0 — —
 - 🟨 `[不兼容]` [xwide-dsh-xwide-handoff](https://github.com/XWIDE/dsh-xwide-handoff) ★0 — DSH handoff plugin: /handoff generates a structured handoff card, auto-numbered new chat, sidebar pinning, thr
