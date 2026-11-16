@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T15:47:09Z",
+ "generated_at": "2026-11-16T16:02:05Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -5153,6 +5153,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH 专家团插件：把一支多角色专家团队装进当前会话 —— 团队画廊、成员名册、一键召唤，每位专家在独立子会话中并行工作，主会话汇总产出"
+  },
+  {
+   "repo": "kentzjh-cmd/tmem",
+   "name": "kentzjh-cmd-tmem",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "trace based agent memory system"
   },
   {
    "repo": "kevenxz/dsh-desktop",
