@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4567）
+# 🤖 Agent 能力（4572）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1418,9 +1418,12 @@
 - ⬜ `[待定]` [sredevopsorg-deepseek-kubernetes-sandbox](https://github.com/sredevopsorg/deepseek-kubernetes-sandbox) ★1 — Run deepseek-harness (dsh) as a container in Kubernetes with agent-sandbox and gvisor isolation or locally wit
 - ⬜ `[待定]` [sredevopsorg-dsh-plugins](https://github.com/sredevopsorg/dsh-plugins) ★1 — Our Deepseek Harness custom plugins, skills and tools
 - 🟩 `[可用]` [staff-os-dsh-dify](https://github.com/staff-os/dsh-dify) ★1 — Dify agent and knowledge-base capability for the DeepSeek Harness
+- 🟩 `[可用]` [stallenlu-dsh-disk-cleaner](https://github.com/stallenlu/dsh-disk-cleaner) ★1 — Disk Cleaner for DeepSeek Harness: scan known-safe caches, assess what cannot be cleaned, get a ranked plan
+- 🟩 `[可用]` [stansz-dsh-convo-mode](https://github.com/stansz/dsh-convo-mode) ★1 — DeepSeek Harness bundle: a per-session conversation mode (composer chip, /conversation command, conversation p
 - ⬜ `[待定]` [stansz-dsh-session-delete](https://github.com/stansz/dsh-session-delete) ★1 — —
 - 🟩 `[可用]` [star-kz-dsh-auto-continue](https://github.com/star-kz/dsh-auto-continue) ★1 — DSH Web 报错重试与可选自动继续（CONTINUE），仅主会话，带防循环上限
 - 🟩 `[可用]` [startermonk-dsh-adhd-session-mode](https://github.com/StarterMonk/dsh-adhd-session-mode) ★1 — DeepSeek Harness plugin converted from ayghri/i-have-adhd: ADHD-friendly output shaping that takes effect in a
+- 🟩 `[可用]` [startime-ltk-dsh-mimavault](https://github.com/startime-ltk/dsh-mimavault) ★1 — MimaVault bridge for DeepSeek Harness: search passwords / API keys / TOTP without leaking plaintext into the m
 - 🟩 `[可用]` [statedock-statedock-plugins](https://github.com/statedock/statedock-plugins) ★1 — Agents come and go
 - 🟩 `[可用]` [stickyfinger7-dsh-quote-annotation](https://github.com/stickyfinger7/dsh-quote-annotation) ★1 — Quote conversation text with optional annotations and send it to the model as structured reference context in
 - 🟩 `[可用]` [stmol-dsh-rub-cost](https://github.com/Stmol/dsh-rub-cost) ★1 — DSH plugin: session cost in RUB in the conversation dock
@@ -2840,6 +2843,7 @@
 - 🟩 `[可用]` [ssryljrss-dsh-token2biq](https://github.com/SSRYLJRSS/dsh-token2biq) ★0 — Token 2b IQ — a multi-agent orchestration controller for DeepSeek Harness (DSH): tiers, receipts, token ledger
 - 🟩 `[可用]` [ssssnail-agent-live](https://github.com/ssssnail/agent-live) ★0 — —
 - 🟩 `[可用]` [stabcut-dsh-edit-regenerate](https://github.com/StabCut/dsh-edit-regenerate) ★0 — DSH plugin: edit a user message in conversation history and regenerate from the revised prompt in a forked ses
+- 🟩 `[可用]` [starchen-cycler-dsh-ctl](https://github.com/StarChen-Cycler/dsh-ctl) ★0 — Loopback HTTP control plane for a long-running DeepSeek Harness (dsh web) process: list, create, prompt, cance
 - 🟩 `[可用]` [stardustlc666-dsh-dream](https://github.com/STARDUSTLC666/dsh-dream) ★0 — DSH 任务经验记忆：自动整理候选、人工审阅采纳、相关任务召回、来源与范围核查
 - 🟩 `[可用]` [stark-l-1-skill](https://github.com/stark-L-1/skill) ★0 — AI写入的skill
 - ⬜ `[待定]` [starlight-bananice-dsh-gpt-agent-preset](https://github.com/Starlight-bananice/dsh-gpt-agent-preset) ★0 — 为 OpenAI GPT-6 系列调优的 DeepSeek Harness Agent 预设：把'防止空转'做成识别无进展而非限制调用次数 / An execution-first DeepSeek Harness Ag
@@ -4449,6 +4453,7 @@
 - 🟨 `[不兼容]` [sskkde-dsh-goal-guard](https://github.com/sskkde/dsh-goal-guard) ★0 — DeepSeek Harness plugin: hold back goal auto-continuation while background subagents are still running (in-pro
 - 🟨 `[不兼容]` [sskkde-dsh-oh-my-agent](https://github.com/sskkde/dsh-oh-my-agent) ★0 — oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules
 - 🟨 `[不兼容]` [starstorm-ai-dsh-context-picker](https://github.com/starstorm-ai/dsh-context-picker) ★0 — —
+- 🟨 `[不兼容]` [stefanydevitoqz-creatorppp-dsh-edit-resend](https://github.com/stefanydevitoqz-creatorPPP/dsh-edit-resend) ★0 — DSH (DeepSeek Harness) plugin: edit an already-sent user prompt and resend it - forks a child session whose in
 - 🟨 `[不兼容]` [stelliaf0x-dsh-better-subagent](https://github.com/STEllIAF0X/dsh-better-subagent) ★0 — —
 - 🟨 `[不兼容]` [stephenevenson-dsh-plugin-elevenlabs-callback](https://github.com/StephenEvenson/dsh-plugin-elevenlabs-callback) ★0 — DeepSeek Harness plugin: when a run finishes or needs approval, get a link on your phone, hear the result from
 - 🟨 `[不兼容]` [stevenzhao07-medxpert-reg-hub](https://github.com/stevenzhao07/medxpert-reg-hub) ★0 — Medical-device global regulatory compliance skill hub (Agent Skills): NMPA/FDA/MDR/PMDA pathways & classificat
