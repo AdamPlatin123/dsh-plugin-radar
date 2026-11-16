@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4880）
+# 🤖 Agent 能力（4895）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1588,8 +1588,11 @@
 - 🟩 `[可用]` [dsh-session-report](https://github.com/yangyongzhen/dsh-session-report) ★1 — Session cost/usage report cards for DeepSeek Harness: tokens, cache-hit rate, per-turn breakdown, cost estimat
 - 🟩 `[可用]` [yb313-dsh-branch-tree](https://github.com/YB313/dsh-branch-tree) ★1 — Browse DeepSeek Harness conversations as a nested branch tree, and create branches that inherit their parent s
 - 🟩 `[可用]` [ydt-china-dsh-web-search-session](https://github.com/YDT-china/dsh-web-search-session) ★1 — DSH web search using the current session model and a self-hosted retrieval backend
+- 🟩 `[可用]` [yeasen-z-dsh-focusing](https://github.com/yeasen-z/dsh-focusing) ★1 — A DeepSeek Harness plugin that started as a weekly report generator and somehow became an agent context worksp
 - ⬜ `[待定]` [yhprime-dsh-session-delete](https://github.com/yhPrime/dsh-session-delete) ★1 — 会话删除：DeepSeek Harness Web 插件——在会话头部添加红色垃圾桶按钮，二次确认后删除会话
 - 🟩 `[可用]` [yihefeikong-rgb-dsh-cc-haha-memory](https://github.com/yihefeikong-rgb/dsh-cc-haha-memory) ★1 — —
+- 🟩 `[可用]` [yingcai233333-dsh-approval-ledger](https://github.com/yingcai233333/dsh-approval-ledger) ★1 — Batch approvals with a risk gate and an auditable decision ledger for DeepSeek Harness.
+- 🟩 `[可用]` [yingchaoyi-dsh-memory-tier](https://github.com/yingchaoyi/dsh-memory-tier) ★1 — DSH 插件 · 三档记忆：长期/中期/短期，本地检索、按相关度注入，支持锁定底稿与自动记录
 - 🟩 `[可用]` [yiyunet-dsh-learn-skills](https://github.com/yiyunet/dsh-learn-skills) ★1 — 一个跑在 DeepSeek Harness 输入区的学习插件：把「收集 → 提炼 → 关联 → 升级 → 沉淀 → 复用」做成有交互引导、预设管理、审核入库与体系体检的运行时能力
 - 🟩 `[可用]` [ymrwithnoworry-dsh-prompt-optimizer](https://github.com/YMRwithNoworry/dsh-prompt-optimizer) ★1 — A general-purpose prompt optimizer plugin for DeepSeek Harness: turn a casual composer draft into a clear, str
 - 🟩 `[可用]` [ynymhrb-long-horizon-runtime](https://github.com/ynymhrb/long-horizon-runtime) ★1 — Durable long-horizon task runtime for DeepSeek Harness — plan, confirm, track, and resume AI work across sessi
@@ -3374,11 +3377,22 @@
 - 🟩 `[可用]` [yanqd0-dsh-mint](https://github.com/yanqd0/dsh-mint) ★0 — DSH plugin: mint issue tracking integration — session context injection, event reminders, plan binding, mint_q
 - 🟩 `[可用]` [yaya716-dsh-user-prompts](https://github.com/Yaya716/dsh-user-prompts) ★0 — —
 - 🟩 `[可用]` [yearncy-dsh-question-tree](https://github.com/YearnCy/dsh-question-tree) ★0 — DSH Desktop 插件：使用树形结构解决线性对话上下文过长而导致回顾问题、记录问题困难的结症，允许同时记录多个问题，自定义问题深度
+- 🟩 `[可用]` [yeerock-deepseek-harness-remote-control](https://github.com/yeerock/deepseek-harness-remote-control) ★0 — Remote Control for DeepSeek Harness — prompt-only Harness pairing, native remote windows, self-hosted edge〔📦〕
 - 🟩 `[可用]` [yehuoshun-dsh-agent-man](https://github.com/yehuoshun/dsh-agent-man) ★0 — DSH ??????:?????????????
+- 🟩 `[可用]` [yelloooooooow-dsh-steer-anchor](https://github.com/yelloooooooow/dsh-steer-anchor) ★0 — DSH plugin: frame mid-task steering messages so the agent keeps the running task instead of treating an interj
 - `[空仓监测]` **yerenchina-dsh-memory-webdav-sync** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [yesterday06-dsh-brain](https://github.com/yesterday06/dsh-brain) ★0 — DeepSeek Harness 记忆插件：四层记忆、按需检索注入、自动接续与任务封存；目录和卡片格式兼容 sage-mem，可直接接管现有记忆库
+- 🟩 `[可用]` [yezitotempeace-dsh-big-compact](https://github.com/yezitotempeace/dsh-big-compact) ★0 — DSH 超大会话压缩插件：上下文实时监测（窗口×0.85）触发，分块摘要再合并，小会话仍走自带压缩
 - 🟩 `[可用]` [yffo-dsh-engramory-recall](https://github.com/yffo/dsh-engramory-recall) ★0 — Local-first memory for DeepSeek Harness: per-turn BM25 recall you can audit — open-rate ledger, memory report,
+- 🟩 `[可用]` [yffo-tabellio-dsh](https://github.com/yffo/tabellio-dsh) ★0 — tabellio-dsh — memory for DeepSeek Harness: candidates first, you approve, recall with receipts.
+- ⬜ `[待定]` [yfy12306-dsh-session-summary](https://github.com/yfy12306/dsh-session-summary) ★0 — DSH 插件：会话标题用 LLM 全量总结生成，支持 /retitle 手动刷新
+- ⬜ `[待定]` [yhl4466-dsh-veil](https://github.com/yhl4466/dsh-veil) ★0 — Execution-layer credential guard for DeepSeek Harness: redacts real secrets from tool results before they reac
+- 🟩 `[可用]` [yhx888-dsh-quote-context](https://github.com/Yhx888/dsh-quote-context) ★0 — —
 - 🟩 `[可用]` [yigesama-dsh-preset-run](https://github.com/YiGeSama/dsh-preset-run) ★0 — dsh-preset-run: DeepSeek Harness plugin — preset_run tool runs one-shot tasks under any agent preset (router-s
 - 🟩 `[可用]` [yihefeikong-rgb-dsh-cc-haha-dream](https://github.com/yihefeikong-rgb/dsh-cc-haha-dream) ★0 — DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harnes
+- 🟩 `[可用]` [yikangmo-dsh-prompt-enhancer](https://github.com/YiKangMo/dsh-prompt-enhancer) ★0 — DeepSeek Harness 的「增强提示词」按钮：一次辅助 LLM 调用把草稿改写成结构化提示词，支持加载态、失败重试与一键回退
+- 🟩 `[可用]` [yinfoyuan-dsh-cicd](https://github.com/yinfoyuan/dsh-cicd) ★0 — DeepSeek Harness 插件：把每个项目自己的 CI/CD 流水线接进会话——列流水线、触发、跟踪、读日志、取消、看合并冲突
+- 🟩 `[可用]` [yinghan-123-dsh-ask-first](https://github.com/yinghan-123/dsh-ask-first) ★0 — DSH 插件：让 Agent 在替用户做决定前先提问（先问后干）
 - `[空仓监测]` **yjm110517-content-to-editable-ppt-skill** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [yknbugs-dsh-manual-approval](https://github.com/yknBugs/dsh-manual-approval) ★0 — A DeepSeek Harness Plugin that add a new permission that every tool call opens an approval card first
 - 🟩 `[可用]` [ymrwithnoworry-dsh-global-system-prompt](https://github.com/YMRwithNoworry/dsh-global-system-prompt) ★0 — Global prompt for DeepSeek Harness (dsh): one user-editable block injected into every conversation's system pr
@@ -4848,6 +4862,7 @@
 - `[空仓监测]` **yangzhe1991-dsh-project-session-store** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [yanlrx-dsh-memory-v2](https://github.com/Yanlrx/dsh-memory-v2) ★0 — 瑞希的记忆 —— 注重隐私的 DeepSeek Harness 本地长期记忆插件
 - 🟨 `[不兼容]` [yaoguanquan-ai-agent-engine-deepseek](https://github.com/YaoGUanquan/ai-agent-engine-deepseek) ★0 — —
+- 🟨 `[不兼容]` [yhuan416-dsh-remote-agent](https://github.com/yhuan416/dsh-remote-agent) ★0 — —
 - 🟨 `[不兼容]` [yixiuzhemu-skills-manager](https://github.com/yixiuzhemu/Skills-Manager) ★0 — Skills管理
 - 🟨 `[不兼容]` [dsh-token-cost](https://github.com/yoggu/dsh-token-cost) ★0 — Estimated current-session token cost from local pi-ai catalog prices; not a billed amount.
 - 🟨 `[不兼容]` [yogioo-dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) ★0 — dsh plugin bridging agentmemory REST API: memory_search / memory_remember / memory_forget / memory_health
