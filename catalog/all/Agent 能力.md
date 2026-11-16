@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5108）
+# 🤖 Agent 能力（5112）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -639,6 +639,7 @@
 - ⬜ `[待定]` [1a125-dsh-bili-chat-whale](https://github.com/1a125/dsh-bili-chat-whale) ★2 — 聊天鲸：让 DSH 里的 agent 自己找冷清的 B 站直播间，听懂主播说话、看懂画面，再用短弹幕陪聊。
 - 🟩 `[可用]` [1dadidi-dsh-memory-brain-plugin](https://github.com/1DAdidi/dsh-memory-brain-plugin) ★2 — DSH记忆星脑插件，3D神经元记忆图谱，记忆分区管理
 - 🟩 `[可用]` [2039108952x-lab-image-scout](https://github.com/2039108952x-lab/image-scout) ★2 — Give your agent eyes: search Wikimedia Commons and Openverse, download real images, and verify magic bytes and
+- 🟩 `[可用]` [2750599332-art-dsh-inkwell](https://github.com/2750599332-art/dsh-inkwell) ★2 — DeepSeek Harness plugin: one-click prompt enhancement in the composer toolbar, with style keywords and an inde
 - 🟩 `[可用]` [27synthesis-dsh-companion-one](https://github.com/27Synthesis/dsh-companion-one) ★2 — 自包含 DSH 陪伴插件：五区可塑人格、七层记忆、上下文压缩、记忆合并、B 站文风学习、陪伴分寸与心声；零额外模型调用，省 token
 - 🟩 `[可用]` [66rapper-dsh-model-auto-enricher](https://github.com/66rapper/dsh-model-auto-enricher) ★2 — ⚡ DSH 模型补齐助手：解决添加新渠道后还要把几十个模型一个个手动点开调上下文（1M）、勾多模态发图、配思考强度档位（low/high/max）的繁琐痛点，新增模型保存即自动搞定！
 - 🟩 `[可用]` [778672151-dsh-session-turn-eta](https://github.com/778672151/dsh-session-turn-eta) ★2 — Live remaining-time estimate for the current DeepSeek Harness turn, shown as a progress bar with a percentage
@@ -1720,6 +1721,7 @@
 - 🟩 `[可用]` [2503455457-max-dsh-reasoning-translate-zh](https://github.com/2503455457-max/dsh-reasoning-translate-zh) ★0 — 把模型思考过程（reasoning）在显示层翻译成中文：折叠显示中文摘要，展开显示中文正文 + 英文原文
 - 🟩 `[可用]` [290949841-gif-dsh-session-bar](https://github.com/290949841-gif/dsh-session-bar) ★0 — 会话状态条 for DeepSeek Harness — 运行中显示估算进度与流光进度条，完成后整行转橙并保留到你点开为止
 - 🟩 `[可用]` [2huy4n-roleplaytimer](https://github.com/2huy4n/roleplaytimer) ★0 — 每隔一段时间主动唤醒会话中的AI，以此达到更沉浸式的角色扮演体验
+- 🟩 `[可用]` [329604421-agent-todo-plugin](https://github.com/329604421/dsh-agent-todo) ★0 — 四个入口，不用离开会话 —— Agent-ToDo 多项目工作台装进 DeepSeek Harness
 - 🟩 `[可用]` [3493750852-dsh-usage-balance-v2](https://github.com/3493750852/dsh-usage-balance-v2) ★0 — Inline DSH balance/session usage readout: session cost, duration, remaining balance, peak/off-peak, between token usage and context.
 - 🟩 `[可用]` [349840432m-dev-dsh-session-dashboard](https://github.com/349840432m-dev/dsh-session-dashboard) ★0 — DeepSeek Harness plugin: a local, read-only session dashboard — all-session overview plus a per-conversation t
 - 🟩 `[可用]` [382quaii-dsh-layers-hippocampus](https://github.com/382quaii/dsh-Layers-Hippocampus) ★0 — 拒绝热梗洗脑与上下文卡顿
@@ -4417,9 +4419,11 @@
 - 🟨 `[不兼容]` [245678000000-dsh-autopilot](https://github.com/245678000000/dsh-autopilot) ★0 — Acceptance-driven autonomous completion for DeepSeek Harness
 - 🟨 `[不兼容]` [2849236173-tiered-compaction](https://github.com/2849236173/tiered-compaction) ★0 — DSH 分层上下文压缩插件：无损折叠 → 落盘 → 软压力 → 有损摘要四层管线，前三层零 LLM 成本，摘要预算预留杜绝截断
 - 🟨 `[不兼容]` [373831615-dsh-think-level](https://github.com/373831615/dsh-think-level) ★0 — DSH 会话思考档位插件（think-level）：每个会话六档推理开关（关闭/低/中/高/最高/超高），子代理继承，就近收敛到模型支持档位
+- 🟨 `[不兼容]` [384671834-dsh-read-image](https://github.com/384671834/dsh-read-image) ★0 — Read images through a separate multimodal model in DeepSeek Harness: a vision_read tool plus a composer switch
 - 🟨 `[不兼容]` [514koishi-495-dsh-loop-guard](https://github.com/514koishi-495/dsh-loop-guard) ★0 — DSH 插件：每次工具调用前拦一道，认出同一个错误反复出现、两个工具乒乓互指、会话跨轮烧钱到线 —— 并且绝不把 agent 永久锁死
 - 🟨 `[不兼容]` [52sujiu-dsh-context-mode](https://github.com/52sujiu/dsh-context-mode) ★0 — —
 - 🟨 `[不兼容]` [8b-is-deepsiper-enthea](https://github.com/8b-is/deepsiper-enthea) ★0 — Sovereign, agent-driven LLM evaluation harness forked from deepseek-harness (dsh) — Cordis plugin architecture〔📦〕
+- 🟨 `[不兼容]` [a2092776074-collab-dsh-memory-basics](https://github.com/a2092776074-collab/dsh-memory-basics) ★0 — Optional public-knowledge pack for dsh-memory-system: China administrative divisions and the national occupati
 - 🟨 `[不兼容]` [abraxasli-dsh-desktop-capsule](https://github.com/abraxasLi/dsh-desktop-capsule) ★0 — Glass desktop capsule for DeepSeek Harness: always-on-top agent status, approval and answer alerts, click to r
 - 🟨 `[不兼容]` [achi-migo-dsh-dwf](https://github.com/Achi-Migo/dsh-dwf) ★0 — Deterministic dynamic-workflow engine for DeepSeek Harness: TypeScript-checked workflow scripts, SQLite replay journal, deterministic guest sandbox, actor subagents, provider model pool. (non-commercial license)
 - 🟨 `[不兼容]` [achi-migo-dsh-truth-gate](https://github.com/Achi-Migo/dsh-truth-gate) ★0 — TruthGate for DeepSeek Harness: verify agent claims against shell/edit receipts (default shadow mode).
