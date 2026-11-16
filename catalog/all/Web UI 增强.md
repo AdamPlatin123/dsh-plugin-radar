@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7305）
+# 🔌 Web UI 增强（7318）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1522,6 +1522,7 @@
 - ⬜ `[待定]` [southsnowl-dsh-bulletin](https://github.com/southsnowL/dsh-bulletin) ★2 — DeepSeek Harness (DSH) plugins for peer-to-peer AI session collaboration and communication across workspaces o
 - 🟩 `[可用]` [spix18-dsh-mobilecode](https://github.com/spix18/dsh-mobilecode) ★2 — dsh-mobilecode — MobileCode port for DeepSeek Harness: detect iOS/Android projects, run serve-sim/serve-avd pr
 - 🟩 `[可用]` [sshirkit-dsh-matrix-theme](https://github.com/SShiRkiT/dsh-matrix-theme) ★2 — Matrix · 暗色玻璃主题 for DeepSeek Harness — Claude-style chrome, #040405 / #D9FFE2 / #C6FFD5
+- 🟩 `[可用]` [stallenlu-dsh-wsl-suite](https://github.com/stallenlu/dsh-wsl-suite) ★2 — WSL workspaces for DeepSeek Harness: one persistent in-distro agent instead of 9P polling
 - ⬜ `[待定]` [stevenyang37-dsh-gemini-cat-theme](https://github.com/StevenYang37/dsh-gemini-cat-theme) ★2 — DSH 桌面端 Gemini 紫发猫娘主题插件，支持 Windows 与 macOS；附安装包、使用说明和素材授权声明
 - ⬜ `[待定]` [stijnus-dsh-moodboard](https://github.com/Stijnus/dsh-moodboard) ★2 — Visual reference moodboards for DeepSeek Harness: collect images, add tags and notes, and pin a style guide fo
 - ⬜ `[待定]` [stjq12-dsh-remote-control](https://github.com/stjq12/dsh-remote-control) ★2 — 在原生界面中，使用另一台电脑的DeepSeek Harness实例，控件和功能保留完整
@@ -2709,6 +2710,11 @@
 - 🟩 `[可用]` [srelka-dsh-ascii-scenes](https://github.com/Srelka/dsh-ascii-scenes) ★1 — Eight interactive ASCII ambient themes for DeepSeek Harness — 八套可交互的字符场景主题
 - 🟩 `[可用]` [sss-1012-dsh-sidebar-sessions](https://github.com/sss-1012/dsh-sidebar-sessions) ★1 — Recent-first session sidebar for DeepSeek Harness: groups, workspace tree, archive, status dots, drag reorder.
 - 🟩 `[可用]` [stabcut-dsh-plugin-restart-desktop](https://github.com/StabCut/dsh-plugin-restart-desktop) ★1 — DSH Desktop sidebar restart button: orderly relaunch of DSH Desktop from the sidebar settings row (based on de
+- 🟩 `[可用]` [stallenlu-dsh-game-center](https://github.com/stallenlu/dsh-game-center) ★1 — DeepSeek Harness panel plugin: a mini-game library that plays them in the same window
+- 🟩 `[可用]` [stallenlu-dsh-sticky-notes](https://github.com/stallenlu/dsh-sticky-notes) ★1 — Sticky notes plugin for DeepSeek Harness (DSH): draggable floating panel, full sidebar page, Markdown preview,
+- 🟩 `[可用]` [starmoon-win-dsh-restart-plugin](https://github.com/StarMoon-win/dsh-restart-plugin) ★1 — Sidebar restart button for DeepSeek Harness Desktop: one click fully quits and reopens the app.
+- 🟩 `[可用]` [starry-start-dshm-tool-indexquery](https://github.com/starry-start/dshm-tool-indexquery) ★1 — A plugin for managing textbook lookup to save tokens and increase speed
+- 🟩 `[可用]` [starspacepx-dsh-agent-team-roles](https://github.com/StarSpacePX/dsh-agent-team-roles) ★1 — DSH 插件：把 agent team 每个角色做成独立 preset，并在 Web GUI 里可视化管理角色能力（工具/技能/MCP/分组/loop/AGENTS.md）
 - 🟩 `[可用]` [stefanohe-dsh-prefill-speed-stats](https://github.com/stefanohe/dsh-prefill-speed-stats) ★1 — Show prefill speed directly in the status bar.
 - 🟩 `[可用]` [stefanohe-dsh-show-balance](https://github.com/stefanohe/dsh-show-balance) ★1 — Show account balance directly in the status bar.
 - 🟩 `[可用]` [stopperino-dsh-routerai-usage](https://github.com/stopperino/dsh-routerai-usage) ★1 — RouterAI balance and per-request cost for the DeepSeek Harness Web UI (subagents included)
@@ -5146,6 +5152,9 @@
 - 🟩 `[可用]` [sqs404-dsh-client-ui-beautify](https://github.com/sqs404/dsh-client-ui-beautify) ★0 — DeepSeek Harness UI beautify plugin / one-click skin: settings-backed switch, aurora background, glass panels
 - 🟩 `[可用]` [squirrelbullet-dsh-client-ui-vibecontroller](https://github.com/squirrelbullet/dsh-client-ui-vibecontroller) ★0 — Floating controller overlay for DeepSeek Harness with voice input and game-like button layout.
 - 🟩 `[可用]` [squirtipelzig-dsh-locale-ru](https://github.com/SquirtiPelzig/dsh-locale-ru) ★0 — Russian (ru) language pack for the DeepSeek Harness web UI - 63 namespaces, 2730 strings
+- 🟩 `[可用]` [st21a1-dsh-bili-wallpaper](https://github.com/st21a1/dsh-bili-wallpaper) ★0 — Bilibili live-room & video wallpapers for the DeepSeek Harness Web GUI — scan-login, quality picker, blur/scri
+- 🟩 `[可用]` [starry-start-dsh-relationship-graph](https://github.com/starry-start/dsh-relationship-graph) ★0 — An plugin for managing interpersonal relationships，AI-generated, primarily for personal use
+- 🟩 `[可用]` [starsharryzhu-dsh-intelligent-ui](https://github.com/StarsHarryZhu/dsh-intelligent-UI) ★0 — —
 - 🟩 `[可用]` [stellersurgecode-dsh-everyday-plugins](https://github.com/StellerSurgeCode/dsh-everyday-plugins) ★0 — Community DSH plugins: liquid glass, live HTML control, local life shelf.
 - 🟩 `[可用]` [steven-ngle-dsh-elden](https://github.com/steven-ngle/dsh-elden) ★0 — Elden Ring style event overlays for the DeepSeek Harness web UI
 - 🟩 `[可用]` [steven95-dsh-office-suite](https://github.com/steven95/dsh-office-suite) ★0 — —
@@ -6148,6 +6157,7 @@
 - 🟨 `[不兼容]` [dash](https://github.com/songqikong/dash) ★2 — DASH — Deepseek Agentic Service Harness, a TUI Plugin of Deepseek Harness
 - 🟨 `[不兼容]` [songyang0603-dsh-codex](https://github.com/songyang0603/dsh-codex) ★2 — Rebuilding OpenAI Codex as exact, independently installable DeepSeek Harness plugins without invoking the Code
 - 🟨 `[不兼容]` [sovlookup-dsh-cloud-download](https://github.com/SOVLOOKUP/dsh-cloud-download) ★2 — Download delivered, changed, and previewed files from the DSH Web GUI; hide native open controls that cannot w
+- 🟨 `[不兼容]` [starry-sky-blip-dsh-tri-model](https://github.com/starry-sky-blip/dsh-tri-model) ★2 — 多模型分层协同插件 for DeepSeek Harness：规划 → 执行 → 审查 → 自动返工，端点/协议/模型/层级全在设置面板里配
 - 🟨 `[不兼容]` [summersec-dsh-web-auth](https://github.com/SummerSec/dsh-web-auth) ★2 — Transport-level authentication gate for the DeepSeek Harness Web GUI
 - 🟨 `[不兼容]` [sundustyc-dsh-pet](https://github.com/SundustYc/dsh-pet) ★2 — DSH Pet 是一个面向 DeepSeek Harness (DSH) 的持久化桌宠插件
 - 🟨 `[不兼容]` [sunsun320-dsh-peak-chip](https://github.com/sunsun320/dsh-peak-chip) ★2 — DeepSeek 峰谷指示灯：会话头部一个圆点，面板显示本日消耗与余额
@@ -6492,6 +6502,8 @@
 - 🟨 `[不兼容]` [soulize-dsh-identity-override](https://github.com/Soulize/dsh-identity-override) ★1 — A DeepSeek Harness plugin for overriding the built-in HARNESS_IDENTITY prompt without modifying core files.
 - 🟨 `[不兼容]` [sperictao-dsh-pro-max](https://github.com/sperictao/dsh-pro-max) ★1 — DeepSeek Harness desktop launcher — one-click local web UI, Tailscale-secured remote access, plugin marketplac
 - `[空仓监测]` **ssjob123-dsh-file-panel-left** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [steady-sakura-dsh-friend](https://github.com/steady-sakura/dsh-friend) ★1 — 这是一个能聊天、做动作，也能陪你看屏幕的桌宠插件
+- 🟨 `[不兼容]` [steelunion-dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) ★1 — 消息中枢与管家框架，用于 DeepSeek Harness：事件模型、热重载规则、事件存储、可插拔采集器
 - 🟨 `[不兼容]` [dsh-cost-overlay](https://github.com/meat-daemon-404/dsh-cost-overlay) ★1 — DeepSeek API cost overlay for the dsh web GUI: top-center floating bar with current unit prices (yuan/1M token
 - 🟨 `[不兼容]` [sunxiuguo-dsh-a2ui](https://github.com/sunxiuguo/dsh-a2ui) ★1 — A2UI for DeepSeek Harness: official schemas and renderer, bounded actions and non-executing replay
 - 🟨 `[不兼容]` [sunyuhuirong-deepseek-account](https://github.com/sunyuhuirong/deepseek-account) ★1 — —
@@ -7146,6 +7158,7 @@
 - 🟨 `[不兼容]` [sqzssg12138-dsh-service-runner](https://github.com/sqzssg12138/dsh-service-runner) ★0 — 为 DSH (DeepSeek Harness) 加上 IDEA 风格的工作区服务启停面板：多工作区隔离、Node/Java/Python/Docker 自动探测、实时日志与端口占用者处置
 - 🟨 `[不兼容]` [ss206-dsh-sidebar-browser-use](https://github.com/SS206/dsh-sidebar-browser-use) ★0 — A DeepSeek Harness plugin that exposes the built-in right-sidebar browser as a stdio MCP server to DSH agents.
 - 🟨 `[不兼容]` [sshirkit-dsh-quick-backup](https://github.com/SShiRkiT/dsh-quick-backup) ★0 — Local-only backup controls and workflow for DeepSeek Harness
+- 🟨 `[不兼容]` [starash07-dsh-edit-message](https://github.com/starash07/dsh-edit-message) ★0 — 右键最新一条用户消息进行编辑：原文回填输入框，重发后标记上一条用户消息及其回答作废
 - 🟨 `[不兼容]` [stardustlc666-dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) ★0 — DSH 组合包：一次安装 18 个独立插件，覆盖邮件、日历、记忆、媒体与开发工具；更新由用户选择
 - 🟨 `[不兼容]` [starlight-bananice-dsh-zhushou](https://github.com/Starlight-bananice/dsh-zhushou) ★0 — DSH 侧边栏助手插件（dsh-zhushou）：在侧边栏管理/选择助手，选中后在 DSH 会话内直接以助手人设对话；不选则保持原生会话
 - `[空仓监测]` **statem-li-dsh-webui** — GitHub 无此仓库，判定暂不展示
