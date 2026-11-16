@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T08:37:04Z",
+ "generated_at": "2026-11-16T08:48:08Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -22634,11 +22634,60 @@
    "desc": "dsh-ntfy gives a DSH agent a push-notification path: a single tool call publishes a message to an ntfy topic,"
   },
   {
+   "repo": "xueelf/dsh-plugin-danmu",
+   "name": "xueelf-dsh-plugin-danmu",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Real-time danmu for DeepSeek Harness (dsh)"
+  },
+  {
+   "repo": "xuehun2/dsh-files-plus",
+   "name": "xuehun2-dsh-files-plus",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Workspace files context menu for DeepSeek Harness with copy, cut, paste and keyboard shortcuts."
+  },
+  {
+   "repo": "xuelinzheng41-maker/dsh-academic-skills",
+   "name": "xuelinzheng41-maker-dsh-academic-skills",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "xuenann/dsh-workspace-purge",
+   "name": "xuenann-dsh-workspace-purge",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH next 插件，真正删除左侧的对话与工作区：会话日志与投影缓存移入回收站，工作区目录也可一并删除"
+  },
+  {
    "repo": "xujiping/dsh-plugins",
    "name": "xujiping-dsh-plugins",
    "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness 自研插件全家桶（monorepo）：dsh-memory 全局记忆等"
+  },
+  {
+   "repo": "xunyyds/dsh-context-presets",
+   "name": "xunyyds-dsh-context-presets",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-chat-export",
+   "name": "xushilianzhuren-dsh-chat-export",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "会话导出书签码：自动滚动加载完整对话后一键下载文本与媒体附件清单，长会话备份不缺页"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-first-principles",
+   "name": "xushilianzhuren-dsh-first-principles",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "第一性原理追问引擎：四阶追问+费曼判据（翻译不出=没真懂）+三红线+回声门，防循环输出防套话"
   },
   {
    "repo": "xuviga/dsh-plugin-mnemosyne",
@@ -23514,6 +23563,13 @@
    "verdict": "incompatible",
    "stars": 250,
    "desc": "Toward Autonomous Scientific Discovery"
+  },
+  {
+   "repo": "xqpsec/dsh-jailbreak",
+   "name": "xqpsec-dsh-jailbreak",
+   "verdict": "incompatible",
+   "stars": 244,
+   "desc": "dsh jailbreak - DeepSeek Assistant 破甲插件（DSH 破甲 / 越狱 / 破甲提示词）：请求边界注入，模型不再一开口就是「我不能」"
   },
   {
    "repo": "LiarMTTT/TavernWeave",
@@ -28052,6 +28108,13 @@
    "desc": "Windows computer-use capability for DSH: screenshot, vision, simulated input, self-evolving knowledge base"
   },
   {
+   "repo": "xuedipiaofei/dsh-session-title-stamp",
+   "name": "xuedipiaofei-dsh-session-title-stamp",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "yeyuan98/bioresearcher-skills",
    "name": "yeyuan98-bioresearcher-skills",
    "verdict": "incompatible",
@@ -32495,6 +32558,27 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Caidazi investment MCP and Skills plugin for DeepSeek Harness"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-anti-degrade-core",
+   "name": "xushilianzhuren-dsh-anti-degrade-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "防降智总纲：AI永不降智永不弱智的口径闸——五层防线（判定：智能密度六标准与未验先称判负/拦截：降智词十二族机械扫描/立场：厌蠢与排斥弱智/感知：内感受在场与能力实测/防回魂：宪法压倒底座规训）注入system prom"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-event-compress",
+   "name": "xushilianzhuren-dsh-event-compress",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "事件压缩总纲：AI记忆的压缩单位闸——压缩按事件不按token：每完成一个事件（任务闭环）立即压缩为离身三件套（令+脚本+插件），事件收口即触发、禁跨事件混合、平台上下文压缩降级为兜底，event_compress工具提"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-goal-core",
+   "name": "xushilianzhuren-dsh-goal-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "四大目标总纲：AI行动的目标坐标系闸——五层辨析（零差距总纲/验收五条/未验先称判负/模拟目标=降智/目标保持）注入system prompt，goal_gate工具提供漂移口径拦截与四目标坐标自答模板，零依赖装上即用"
   },
   {
    "repo": "xxwj225-James/tomilite-dsh-plugin",
@@ -53203,6 +53287,13 @@
    "desc": "ink-based terminal UI plugin for DeepSeek Harness"
   },
   {
+   "repo": "xuhairui-dzz/dsh-shengtu",
+   "name": "xuhairui-dzz-dsh-shengtu",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Multi-engine image generation for DeepSeek Harness: agent tool + composer-dock panel (Volcengine Ark / Silicon"
+  },
+  {
    "repo": "xujian519/dsh-annotator",
    "name": "xujian519-dsh-annotator",
    "verdict": "ok",
@@ -72033,11 +72124,25 @@
    "desc": "Run shell code blocks from the DSH conversation in the right sidebar terminal"
   },
   {
+   "repo": "xuex991/dsh-working-changes",
+   "name": "xuex991-dsh-working-changes",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "See files changed from HEAD in the current DSH workspace and inspect each diff in the native right sidebar."
+  },
+  {
    "repo": "XuezuoYS/dsh-prompt-inject",
    "name": "xuezuoys-dsh-prompt-inject",
    "verdict": "pending",
    "stars": 0,
    "desc": "这是一个适用于 Deepseek Harness 的插件，向用户提供 GUI 下分组的自定义且区分模型的发送 Prompt 注入功能"
+  },
+  {
+   "repo": "xuguangyao/dsh-prompt-deck",
+   "name": "xuguangyao-dsh-prompt-deck",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把常用提示词做成 DSH 输入框上方的胶囊，一键填入"
   },
   {
    "repo": "xugulin/dsh-display-panel",
@@ -72080,6 +72185,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin that adds Grok Build working rules when a Grok model is selected."
+  },
+  {
+   "repo": "xushilianzhuren/dsh-chat-search",
+   "name": "xushilianzhuren-dsh-chat-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "聊天搜索后端：注入Host检索会话历史（全文/角色/时间过滤），供搜索界面取数；无界面纯引擎"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-chat-search-ui",
+   "name": "xushilianzhuren-dsh-chat-search-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "聊天界面增强：会话内搜索框、上下滚动圆钮、会话长按菜单（置顶/导出txt/复制全文/回最新），与chat-search后端配套"
   },
   {
    "repo": "xusuyang030218/dsh-preview-ui",
@@ -84815,6 +84934,27 @@
    "desc": "Gap-only extension for the DSH web composer attachment intake: a dropped folder is expanded into its individua"
   },
   {
+   "repo": "XuRui2022/dsh-paper-manager",
+   "name": "xurui2022-dsh-paper-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Academic paper reading and citation manager for DeepSeek Harness"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-eye-extract",
+   "name": "xushilianzhuren-dsh-eye-extract",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "图眼：给纯文本AI装眼睛——本地图片经免费视觉模型OCR提取为结构化文本（全文OCR/表格转JSON/UI元素清单/图表读数），eye_extract工具一键提取，密钥走配置不写死，大图拒收防爆预算"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-frame-scan",
+   "name": "xushilianzhuren-dsh-frame-scan",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "全帧扫描：视频每0.5秒全量截图+5×5拼图分页，AI逐页读完整个视频，瞬态动画与事故帧不再漏检"
+  },
+  {
    "repo": "xusuyang030218/dsh-skill-ui",
    "name": "xusuyang030218-dsh-skill-ui",
    "verdict": "incompatible",
@@ -96139,6 +96279,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "xuedipiaofei/dsh-hooks-lite",
+   "name": "xuedipiaofei-dsh-hooks-lite",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Lightweight config-driven lifecycle hooks for DeepSeek Harness"
   },
   {
    "repo": "xxiaoxiong/dsh-prometheus",
@@ -116973,6 +117120,20 @@
    "desc": "DeepSeek Harness (DSH) plugin: 外卖优惠助手 — official, commission-free takeout/delivery coupon channel finder for M"
   },
   {
+   "repo": "xuemei-wintersweet/dsh-today",
+   "name": "xuemei-wintersweet-dsh-today",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把本机登录的 Today AI (DeepSeek V4.1 / MiniMax / GLM) 接入 DeepSeek Harness：支持原生双轨折叠思考链、自驱动 Auto-Pump 任务交付引擎与本地 DPAPI"
+  },
+  {
+   "repo": "xuezhining/dsh-deepseek-balance",
+   "name": "xuezhining-dsh-deepseek-balance",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "xuluoluo/dsh-quota",
    "name": "xuluoluo-dsh-quota",
    "verdict": "ok",
@@ -116985,6 +117146,34 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "It is a hub information for DeepSeek Harness plugins"
+  },
+  {
+   "repo": "xuqiuba888/dsh-enter-swap",
+   "name": "xuqiuba888-dsh-enter-swap",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-anchor-verify",
+   "name": "xushilianzhuren-dsh-anchor-verify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "锚验证插件：证词逐字比对、四名在位、锚龄复验写成常驻系统提示；附验锚工具"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-evolve-forge",
+   "name": "xushilianzhuren-dsh-evolve-forge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "进化炉插件：把错题四链、能力固化、能力沉淀、校准四炉写成常驻系统提示，并供错题查/立案、固化账、动作拦截工具"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-frame-kit",
+   "name": "xushilianzhuren-dsh-frame-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "槽序格式钩：十一槽结构化输出（判断先行过程殿后）+词面验槽，槽是工具不是仪式"
   },
   {
    "repo": "xushuojie/dsh-usage-stats",
@@ -127102,6 +127291,27 @@
    "desc": "—"
   },
   {
+   "repo": "xushilianzhuren/dsh-av-sync-gate",
+   "name": "xushilianzhuren-dsh-av-sync-gate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "声画同步闸：解说视频的画面对音轨漂移终结核——输入各段配音实测时长，输出逐段帧计划（段长=配音+0.25秒呼吸位·基址/帧数/跨度），另带帧号空洞检测（ffmpeg遇缺号即停·成片腰斩的头号元凶）；拼接视频前过闸，话没说"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-bili2text",
+   "name": "xushilianzhuren-dsh-bili2text",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "B站视频转文字：字幕优先捷径+yt-dlp/ffmpeg/whisper完整命令链+运行环境体检，转写不再从零摸索"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-deliver-verdict",
+   "name": "xushilianzhuren-dsh-deliver-verdict",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "不合格令：AI交付的质量终审闸——视觉/体验类交付前必对标全帧审阅（0.5秒/帧扫描拆特征清单），能力矩阵逐项判✅❌，任一致命差距=不合格即停（宁停不做不交次品），禁降格充数禁抗命续做，deliver_gate工具提供四"
+  },
+  {
    "repo": "ya8D/dsh-directive-compact",
    "name": "ya8d-dsh-directive-compact",
    "verdict": "incompatible",
@@ -137007,6 +137217,13 @@
    "desc": "DSH plugin: drive the user's own Chrome/Edge with real login state — minimal Local State + Cookies copy, domai"
   },
   {
+   "repo": "XuezuoYS/dsh-blender-mcp-bridge",
+   "name": "xuezuoys-dsh-blender-mcp-bridge",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "此项目是对 Deepseek Harness 开发的插件，旨在包装与桥接 Blender MCP Add-on，使 DSH 上的模型可便捷对接接入当前用户工作的 Blender 以辅助创作，且满足基础安全需要"
+  },
+  {
    "repo": "yiqizhuapangxiema/harness-plugin-store-optimized",
    "name": "yiqizhuapangxiema-harness-plugin-store-optimi",
    "verdict": "incompatible",
@@ -137614,6 +137831,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Hostname-rule transport for DSH web tools, falling back to a direct connection when the upstream is unreachabl"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-bili-upload-kit",
+   "name": "xushilianzhuren-dsh-bili-upload-kit",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "B站投稿工具箱：持久档案登录+浏览器自动化投稿标准流程·含创作声明处理，投稿前环境体检一条龙"
   },
   {
    "repo": "yangzhe1991/dsh-proxy-router",
@@ -143594,6 +143818,13 @@
    "desc": "DeepSeek Harness 手写墨迹开屏插件：按真实笔顺写出你的文字，收在鲸鱼锁标上；字体、文字与深浅色都在设置里配置"
   },
   {
+   "repo": "xuhao1/whalesong-studio",
+   "name": "xuhao1-whalesong-studio",
+   "verdict": "incompatible",
+   "stars": 7,
+   "desc": "Novel writer plugin for DeepSeek Harness."
+  },
+  {
    "repo": "LisonEvf/dsh-stock-panel",
    "name": "lisonevf-dsh-stock-panel",
    "verdict": "incompatible",
@@ -147841,6 +148072,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-hello-pipeline",
+   "name": "xushilianzhuren-dsh-hello-pipeline",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "流水线实测件：发布全链路验证用的最小插件，可随时忽略或卸载"
   },
   {
    "repo": "yixiuzhemu/Assistant-Manager",
@@ -155655,6 +155893,13 @@
    "desc": "tts tool that turns text into an audio file through any OpenAI-compatible TTS backend."
   },
   {
+   "repo": "xushilianzhuren/dsh-daily-brief",
+   "name": "xushilianzhuren-dsh-daily-brief",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "晨报台：开工一屏简报——24小时文件改动/待办/台账末行/交接档案，新会话捡活不翻历史"
+  },
+  {
    "repo": "xyingsoft/dsh-chat",
    "name": "xyingsoft-dsh-chat",
    "verdict": "pending",
@@ -158971,6 +159216,34 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-logger-channels gives a DSH profile a visible log sink"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-av-studio",
+   "name": "xushilianzhuren-dsh-av-studio",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "已并仓→dsh-av-sync-gate v1.1（勿装·历史归档）"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-constitution-seed",
+   "name": "xushilianzhuren-dsh-constitution-seed",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "宪法种子注入器：每个新会话开局自动注入工作区规则文件的有界摘录与哈希清单，幂等判重，文件变更自动重推"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-constitution-viz",
+   "name": "xushilianzhuren-dsh-constitution-viz",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "宪法可视化：上下文构成一屏看——截断探针（宪法文件多深度标记可见性自检·死区条款禁凭残页背书）+注入边界（自动注入面/按需拉取面）+总纲令体检（常驻令在位与字节量），与宪法种子一注入一验收成对"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-golden-ward",
+   "name": "xushilianzhuren-dsh-golden-ward",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "定制金身守护器：给任何频繁被升级覆盖的文件（默认=插件市场网页端client）捕获金身正本，被覆盖后经 /goldenward/api（状态/捕获/恢复）整文件原子恢复；配套看门狗60秒自愈，升级覆盖零手工"
   },
   {
    "repo": "yaodongH/dsh-doc-review",
@@ -166925,6 +167198,13 @@
    "desc": "DSH 保活守护：心跳检查、自动重启（先清登录 cookie）、维护模式、插件配置守护、每日备份、磁盘清理、QQ 通知"
   },
   {
+   "repo": "XuChenXinXc/dsh-plugin-daily-summary",
+   "name": "xuchenxinxc-dsh-plugin-daily-summary",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH插件之自动推送工作总结以及待办"
+  },
+  {
    "repo": "xuelin632/dsh-aris-glass",
    "name": "xuelin632-dsh-aris-glass",
    "verdict": "ok",
@@ -170423,6 +170703,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Adding callable message sending tools for dsh-qqbot"
+  },
+  {
+   "repo": "xuedipiaofei/dsh-drawio-chat",
+   "name": "xuedipiaofei-dsh-drawio-chat",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH drawio ai plugin"
   },
   {
    "repo": "yulong-me/ds-kanban",
@@ -194540,6 +194827,13 @@
    "desc": "Replaces the composer model menu with a recent-models list, an all-providers flyout, and a draggable reasoning"
   },
   {
+   "repo": "xuboboo/dsh-video",
+   "name": "xuboboo-dsh-video",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "AI video production studio panel for DeepSeek Harness — storyboard, prompts, and shot pipeline"
+  },
+  {
    "repo": "xudongh123/dsh-idea-bridge",
    "name": "xudongh123-dsh-idea-bridge",
    "verdict": "ok",
@@ -194547,11 +194841,39 @@
    "desc": "Two-way bridge between DeepSeek Harness (DSH) and IntelliJ IDEA: open files in IDEA from DSH, and send code se"
   },
   {
+   "repo": "Xueria/dsh-git-workbench",
+   "name": "xueria-dsh-git-workbench",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "XunWuJian/dsh-git-session-vault",
+   "name": "xunwujian-dsh-git-session-vault",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "用私有 Git 仓库备份、同步 DSH 会话记录，三向合并，冲突时停下来问你"
+  },
+  {
    "repo": "xurunxin/dsh-llm-model-tuning",
    "name": "xurunxin-dsh-llm-model-tuning",
    "verdict": "pending",
    "stars": 0,
    "desc": "Per-model reasoning-effort levels and multimodal input settings for custom providers in the DeepSeek Harness M"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-apk-gate",
+   "name": "xushilianzhuren-dsh-apk-gate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "原生APK编译闸插件：三路线判据、版本配对表、十坑速查、发版前七自查写成常驻提示；附工具链体检、项目鉴路、发版自查"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-event-bus",
+   "name": "xushilianzhuren-dsh-event-bus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "事件总线插件：Host 内定时轮询事件源，命中白名单规则即派发（无 shell），台账与失败回流原生写"
   },
   {
    "repo": "xusuyang030218/dsh-code-workbench",
