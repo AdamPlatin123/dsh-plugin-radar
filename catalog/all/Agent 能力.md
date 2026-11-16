@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4719）
+# 🤖 Agent 能力（4724）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -372,6 +372,7 @@
 - 🟩 `[可用]` [wobenshiwomu-dsh-calm](https://github.com/wobenshiwomu/dsh-calm) ★5 — DeepSeek Harness 插件：情绪检查点与修复 —— 安抚、折叠封存争吵段、注入结论，从干净上下文继续任务 \| Emotional checkpoint & repair for DSH
 - 🟩 `[可用]` [ws1234567891011-dsh-interim-narration](https://github.com/ws1234567891011/dsh-interim-narration) ★5 — Makes the DeepSeek Harness agent narrate while it works: an opening about how it reads the request, short note
 - 🟩 `[可用]` [wuchubuzai2018-dsh-ai-prompt-optimizer](https://github.com/wuchubuzai2018/dsh-ai-prompt-optimizer) ★5 — DeepSeek Harness（DSH）Web 聊天页面的提示词优化插件,帮助你把粗略想法整理成更清晰、完整、可直接发送给 AI 的提示词
+- 🟩 `[可用]` [xmtlzzz-dsh-any-agent](https://github.com/xmtlzzz/dsh-any-agent) ★5 — MCP server that drives DeepSeek Harness (DSH) as a long-lived coding agent from any MCP client — resume-aware,
 - 🟩 `[可用]` [yankafei-ascii-h3-director](https://github.com/YanKaFei/ascii-h3-director) ★5 — An ASCII / kinetic-typography director for MiniMax H3, with deterministic preview and seam-checked continuatio
 - 🟩 `[可用]` [yaoshuo530-dsh-prompt-enhancer](https://github.com/yaoshuo530/dsh-prompt-enhancer) ★5 — A prompt-enhancement plugin for DeepSeek Harness: an ✨ Enhance composer button that rewrites prompts with firs
 - 🟩 `[可用]` [dsh-smarthome](https://github.com/YLifeOnlyOnce/dsh-smarthome) ★5 — Home Assistant control for DeepSeek Harness agents — approval-gated lights, switches, climate
@@ -3255,6 +3256,9 @@
 - 🟩 `[可用]` [dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) ★0 — Action-State Memory Engine: typed time-series memory (states + actions) with trend/anomaly/causal analysis for
 - 🟩 `[可用]` [xqtx9527-dsh-live-pricing](https://github.com/xqtx9527/dsh-live-pricing) ★0 — DeepSeek Harness 实时价格条：高峰/空闲时段、中国法定节假日、当前单价与会话花费 \| Live pricing widget for DSH
 - ⬜ `[待定]` [xrj-dsh-plugin-registry](https://github.com/xrj/dsh-plugin-registry) ★0 — An open registry snapshot for DeepSeek Harness plugins, skills, and related tools
+- 🟩 `[可用]` [xsllo425-dsh-work-status](https://github.com/xsllo425/dsh-work-status) ★0 — DeepSeek Harness 插件：把 Agent 的工作状态收进标题栏一行——在做什么、做到哪、失败过没有；点开是目标、当前步、最近记录与上一轮
+- 🟩 `[可用]` [xsnnnnnn-dsh-coros](https://github.com/xsnnnnnn/dsh-coros) ★0 — DeepSeek Harness plugin: bridges the official COROS (高驰) MCP server with a self-contained stdio<->HTTP bridge
+- 🟩 `[可用]` [xsnnnnnn-dsh-endurance-coach](https://github.com/xsnnnnnn/dsh-endurance-coach) ★0 — Endurance Coach (耐力教练) — an Intervals.icu-only endurance-coaching skill bundle for DeepSeek Harness: readiness
 - 🟩 `[可用]` [xuan25-dsh-ntfy](https://github.com/xuan25/dsh-ntfy) ★0 — dsh-ntfy gives a DSH agent a push-notification path: a single tool call publishes a message to an ntfy topic,
 - ⬜ `[待定]` [xujiping-dsh-plugins](https://github.com/xujiping/dsh-plugins) ★0 — DeepSeek Harness 自研插件全家桶（monorepo）：dsh-memory 全局记忆等
 - 🟩 `[可用]` [xuviga-dsh-plugin-mnemosyne](https://github.com/xuviga/dsh-plugin-mnemosyne) ★0 — Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r
@@ -4043,6 +4047,7 @@
 - 🟨 `[不兼容]` [dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) ★1 — DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh
 - 🟨 `[不兼容]` [xipian1216-dsh-aa-bridge](https://github.com/xipian1216/dsh-aa-bridge) ★1 — Agents Anywhere bridge and Web status plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [xkjxziochu-dsh-input-optimizer](https://github.com/xkjxziochu/dsh-input-optimizer) ★1 — Standalone dsh plugin: rewrite the composer draft into a better prompt through the harness's own LLM routes, w
+- 🟨 `[不兼容]` [xsy822-dsh-emotion-memory](https://github.com/xsy822/dsh-emotion-memory) ★1 — 小世炎情绪记忆 0.1：PAD 情绪场 + 带情感指纹的记忆
 - 🟨 `[不兼容]` [xuanyuanluoxue-computer-use-vision](https://github.com/xuanyuanluoxue/computer-use-vision) ★1 — Windows computer-use capability for DSH: screenshot, vision, simulated input, self-evolving knowledge base
 - 🟨 `[不兼容]` [yeyuan98-bioresearcher-skills](https://github.com/yeyuan98/bioresearcher-skills) ★1 — Agent Skills/Plugins/Connectors for biomedical research with the biomcp-ts MCP server.
 - 🟨 `[不兼容]` [yhfgyyf-dsh-auto-preset-router](https://github.com/yhfgyyf/dsh-auto-preset-router) ★1 — Routes the first DSH prompt to Standard, PTC, Minimal, or Cordis with DeepSeek V4 Flash.
