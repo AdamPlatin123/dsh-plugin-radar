@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7614）
+# 🔌 Web UI 增强（7622）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2942,6 +2942,7 @@
 - ⬜ `[待定]` [xmanrui-dsh-weixin](https://github.com/xmanrui/dsh-weixin) ★1 — —
 - 🟩 `[可用]` [xmnathan-dsh-skin-galactic-opera](https://github.com/xmnathan/dsh-skin-galactic-opera) ★1 — Unofficial cinematic space-opera dark skin bundle for the DSH Web GUI.
 - 🟩 `[可用]` [xp266-dsh-tui](https://github.com/xp266/dsh-tui) ★1 — ink-based terminal UI plugin for DeepSeek Harness
+- ⬜ `[待定]` [xuhairui-dzz-dsh-shengtu](https://github.com/xuhairui-dzz/dsh-shengtu) ★1 — Multi-engine image generation for DeepSeek Harness: agent tool + composer-dock panel (Volcengine Ark / Silicon
 - 🟩 `[可用]` [xujian519-dsh-annotator](https://github.com/xujian519/dsh-annotator) ★1 — 对DSH的交付物进行标注的插件，人工标注后，DSH会根据标注执行
 - 🟩 `[可用]` [xulianglong-akk-dsh-whale-intro](https://github.com/xulianglong-akk/dsh-whale-intro) ★1 — 鲸鱼娘开场：DSH 启动时她先出现，挥手、眨眼，然后连贯地沉回界面里
 - ⬜ `[待定]` [xuruitian-deepseek-harness-desktop](https://github.com/XuRuitian/deepseek-harness-desktop) ★1 — DeepSeek Harness Windows desktop app - one-click installer with desktop icon
@@ -5696,13 +5697,17 @@
 - 🟩 `[可用]` [xuanyuanchumo-dsh-anic](https://github.com/xuanyuanchumo/dsh-anic) ★0 — ANIC — AI-Native Iteration Cycle as a standalone DSH plugin (general-purpose workflow visualizer)
 - 🟩 `[可用]` [xubin0628-dsh-inline-trigger](https://github.com/xubin0628/dsh-inline-trigger) ★0 — 让 DSH Web 输入框在已有内容时也能用 / 唤起指令菜单、用 @ 引用对话与文件（含中文后直接输入）
 - 🟩 `[可用]` [xudongh123-dsh-terminal-run](https://github.com/xudongh123/dsh-terminal-run) ★0 — Run shell code blocks from the DSH conversation in the right sidebar terminal
+- ⬜ `[待定]` [xuex991-dsh-working-changes](https://github.com/xuex991/dsh-working-changes) ★0 — See files changed from HEAD in the current DSH workspace and inspect each diff in the native right sidebar.
 - ⬜ `[待定]` [xuezuoys-dsh-prompt-inject](https://github.com/XuezuoYS/dsh-prompt-inject) ★0 — 这是一个适用于 Deepseek Harness 的插件，向用户提供 GUI 下分组的自定义且区分模型的发送 Prompt 注入功能
+- 🟩 `[可用]` [xuguangyao-dsh-prompt-deck](https://github.com/xuguangyao/dsh-prompt-deck) ★0 — 把常用提示词做成 DSH 输入框上方的胶囊，一键填入
 - 🟩 `[可用]` [xugulin-dsh-display-panel](https://github.com/xugulin/dsh-display-panel) ★0 — A display tab for the DeepSeek Harness Web UI: watch — and drive — the AI's own headless test display
 - 🟩 `[可用]` [xulei666a-dsh-rules](https://github.com/xulei666a/dsh-rules) ★0 — DSH 统一准则/规则层：把 agent 的所有准则收进一份规则库，支持默认/局部适用面、语义路由、分类树、AGENTS 托管段同步，以及面板内助手（读取规则 / 校准 / 个性化分类 / 问题台账）
 - 🟩 `[可用]` [xulixin1968-dsh-cookie-sync](https://github.com/xulixin1968/dsh-cookie-sync) ★0 — Sync cookies from Edge browser to DSH sidebar browser, avoiding repeated logins on supported sites.
 - 🟩 `[可用]` [xumi0920-dsh-deepseek-chat-mode](https://github.com/Xumi0920/dsh-deepseek-chat-mode) ★0 — DeepSeek Chat / Work mode switch for DeepSeek Harness: full-screen web chat in the right sidebar and one-click
 - 🟩 `[可用]` [xun-prog-dsh-xdpool-billing](https://github.com/Xun-Prog/dsh-xdpool-billing) ★0 — XD Pool (WorkBuddy) 积分计费面板 · Credit meter for DeepSeek Harness
 - 🟩 `[可用]` [xunflash-dsh-grok-build-policy](https://github.com/Xunflash/dsh-grok-build-policy) ★0 — DeepSeek Harness plugin that adds Grok Build working rules when a Grok model is selected.
+- 🟩 `[可用]` [xushilianzhuren-dsh-chat-search](https://github.com/xushilianzhuren/dsh-chat-search) ★0 — 聊天搜索后端：注入Host检索会话历史（全文/角色/时间过滤），供搜索界面取数；无界面纯引擎
+- 🟩 `[可用]` [xushilianzhuren-dsh-chat-search-ui](https://github.com/xushilianzhuren/dsh-chat-search-ui) ★0 — 聊天界面增强：会话内搜索框、上下滚动圆钮、会话长按菜单（置顶/导出txt/复制全文/回最新），与chat-search后端配套
 - 🟩 `[可用]` [xusuyang030218-dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) ★0 — DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl
 - 🟩 `[可用]` [xx-q-dsh-service-console](https://github.com/XX-Q/dsh-service-console) ★0 — DeepSeek Harness (DSH) 插件：跨对话的持久化任务台
 - ⬜ `[待定]` [xxxxxq-0206-dsh-session-delete](https://github.com/XXXXXQ-0206/dsh-session-delete) ★0 — Session recycle bin and permanent delete for DeepSeek Harness
@@ -7542,6 +7547,9 @@
 - 🟨 `[不兼容]` [xsxll22-dsh-mcu51-plugin](https://github.com/XSXLL22/dsh-mcu51-plugin) ★0 — Standalone Windows x64 DSH 8051 toolbox: built-in STC ISP, serial, options, image buffers and 12 tools.
 - 🟨 `[不兼容]` [xuanyuanli-dsh-session-tariff](https://github.com/xuanyuanli/dsh-session-tariff) ★0 — 在输入框状态栏显示本会话估算花费，按高峰/空闲时段分档计价 · DSH plugin: estimated session cost in the composer status bar, split by DeepSe
 - 🟨 `[不兼容]` [xuechengzou-dsh-file-drop](https://github.com/xuechengzou/dsh-file-drop) ★0 — Gap-only extension for the DSH web composer attachment intake: a dropped folder is expanded into its individua
+- 🟨 `[不兼容]` [xurui2022-dsh-paper-manager](https://github.com/XuRui2022/dsh-paper-manager) ★0 — Academic paper reading and citation manager for DeepSeek Harness
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-eye-extract](https://github.com/xushilianzhuren/dsh-eye-extract) ★0 — 图眼：给纯文本AI装眼睛——本地图片经免费视觉模型OCR提取为结构化文本（全文OCR/表格转JSON/UI元素清单/图表读数），eye_extract工具一键提取，密钥走配置不写死，大图拒收防爆预算
+- 🟨 `[不兼容]` [xushilianzhuren-dsh-frame-scan](https://github.com/xushilianzhuren/dsh-frame-scan) ★0 — 全帧扫描：视频每0.5秒全量截图+5×5拼图分页，AI逐页读完整个视频，瞬态动画与事故帧不再漏检
 - 🟨 `[不兼容]` [xusuyang030218-dsh-skill-ui](https://github.com/xusuyang030218/dsh-skill-ui) ★0 — —
 - 🟨 `[不兼容]` [xwide-dsh-xwide-handoff](https://github.com/XWIDE/dsh-xwide-handoff) ★0 — DSH handoff plugin: /handoff generates a structured handoff card, auto-numbered new chat, sidebar pinning, thr
 - 🟨 `[不兼容]` [xxsttb-dsh-input-optimizer](https://github.com/Xxsttb/dsh-input-optimizer) ★0 — DeepSeek Harness plugin: a four-pointed-star button left of the composer's model selector that rewrites your d
