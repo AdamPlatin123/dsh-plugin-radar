@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4500）
+# 🤖 Agent 能力（4513）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1369,8 +1369,13 @@
 - 🟩 `[可用]` [ronnie-young-dsh-scnet-plan](https://github.com/Ronnie-Young/dsh-scnet-plan) ★1 — DeepSeek Harness 插件：查看 SCNet Token Plan 额度、每日消耗与 token 构成
 - ⬜ `[待定]` [rrrrrredy-skill-security-guard](https://github.com/rrrrrredy/skill-security-guard) ★1 — Static security scanner for agent skills: A-F risk rating, safe zip scanning, CI-tested rules
 - 🟩 `[可用]` [ruby1304-dsh-vision-subagent](https://github.com/ruby1304/dsh-vision-subagent) ★1 — Vision for DeepSeek Harness agents — paste images in the Web composer, delegate reads to Kimi/MiniMax vision r
+- 🟩 `[可用]` [rumemory-deepseek-harness-ru](https://github.com/RuMemory/deepseek-harness-ru) ★1 — —
 - 🟩 `[可用]` [runfali-dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) ★1 — dsh 通用每轮上下文注入插件：设置页管理提示词清单，每轮对话把每条启用提示词以「上下文注入」提醒行注入模型上下文，让纪律规则（例如 图谱消费/wiki 先查/记忆召回）可靠生效
 - 🟩 `[可用]` [ryasrk-dsh-awesome-skills](https://github.com/ryasrk/dsh-awesome-skills) ★1 — Plugin Skills for agents
+- 🟩 `[可用]` [sadjjk-dsh-zvec-memory-search](https://github.com/sadjjk/dsh-zvec-memory-search) ★1 — DSH 本地记忆库检索：关键词 + 语义混合检索，配置卡建索引、自动更新
+- 🟩 `[可用]` [sakura025-dsh-skill-picker](https://github.com/Sakura025/dsh-skill-picker) ★1 — Skill picker and in-app installer for the DeepSeek Harness composer: browse by lifecycle phase, search in Chin
+- ⬜ `[待定]` [sakurasign-dsh-session-delete](https://github.com/Sakurasign/dsh-session-delete) ★1 — DeepSeek Harness 插件：彻底删除会话（含子智能体会话）的日志目录、投影缓存与工作区记账
+- 🟩 `[可用]` [samanthara726-dsh-brain-memory](https://github.com/Samanthara726/DSH-Brain-Memory) ★1 — Prevent your DSH from experiencing memory loss!
 - 🟩 `[可用]` [dsh-token-usage](https://github.com/samecorner/dsh-token-usage) ★1 — DSH (DeepSeek Harness) web plugin — Token usage analytics tab for the conversation view (KPIs, context meter,
 - 🟩 `[可用]` [samirliu-dsh-goalloop-agentteams](https://github.com/samirliu/dsh-goalloop-agentteams) ★1 — Deterministic goal-completion gate for DSH: contract-first AC grammar, re-runs every verify command itself (ze
 - 🟩 `[可用]` [saul-dsh-dsh-prompt-enhancer](https://github.com/saul-dsh/dsh-prompt-enhancer) ★1 — Chat-box prompt auto-enhancement plugin for DeepSeek Harness (dsh): rewrites rough input into a clear, self-co
@@ -2714,16 +2719,22 @@
 - ⬜ `[待定]` [rossbool-dsh-plugins](https://github.com/RossBool/dsh-plugins) ★0 — DeepSeek Harness (DSH) 插件合集：协作编排、跨会话、团队模式、计划引擎、话题时间轴、语音、MCP 管理、提示词增强
 - 🟩 `[可用]` [rouyiemei-dsh-plugin-safe-install](https://github.com/rouyiemei/dsh-plugin-safe-install) ★0 — DSH (DeepSeek Harness) plugin bundling the safe plugin-installation skill: audit, install one-by-one, five-lev
 - 🟩 `[可用]` [ruazero-dsh-task-chime](https://github.com/ruazero/dsh-task-chime) ★0 — DSH dynamic Cordis plugin: play a real Windows system sound when an agent task finishes — custom sound, 4 inte
+- 🟩 `[可用]` [rukawa15-dsh-session-monitor](https://github.com/Rukawa15/dsh-session-monitor) ★0 — —
 - 🟩 `[可用]` [runfali-dsh-soul](https://github.com/runfali/dsh-soul) ★0 — Give DeepSeek Harness a soul — Markdown persona cards resolved per session and workspace, injected into the sy
+- 🟩 `[可用]` [ryan-g-rolling-dsh-memory-feeder](https://github.com/Ryan-G-Rolling/dsh-memory-feeder) ★0 — DSH plugin that extracts long-term facts from completed turns into an appendable Markdown memory inbox.
 - 🟩 `[可用]` [ryanshen3-dsh-toutiao-reader](https://github.com/RyanShen3/dsh-toutiao-reader) ★0 — 读网页/头条文章全文的 DSH 插件：webfetch 工具 + toutiao-reader 经验技能
 - 🟩 `[可用]` [s2p2-dsh-lab](https://github.com/S2P2/dsh-lab) ★0 — Personal DeepSeek Harness extension lab — plugins, Agent presets, and supporting research.
 - 🟩 `[可用]` [dsh-companion](https://github.com/s867968286/dsh-companion) ★0 — 给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆
 - 🟩 `[可用]` [sadjjk-dsh-context-mode-adapter](https://github.com/sadjjk/dsh-context-mode-adapter) ★0 — context-mode 没有官方 DSH 插件——本仓库补上：11 个 ctx_* 工具进程内注册 + hook 路由拦截，节省会话上下文
 - 🟩 `[可用]` [sagmans-dsh-plannotator](https://github.com/sagmans/dsh-plannotator) ★0 — Plannotator extension for deepseek-harness
+- 🟩 `[可用]` [sakana07x-dsh-plugin-team-subagent-control](https://github.com/Sakana07X/dsh-plugin-team-subagent-control) ★0 — 为 DeepSeek Desktop 的 Agent Teams 提供成员级模型/思考强度路由，并允许主对话释放（删除）团队成员子智能体运行实例
 - 🟩 `[可用]` [sakka6868-dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) ★0 — —
 - `[空仓监测]` **sam-midlight-dsh-loop-rescue** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [sandeep-alluru-deepseek-harness-rc](https://github.com/sandeep-alluru/deepseek-harness-rc) ★0 — Drive your DeepSeek Harness (dsh) coding agent from your phone — typed ACP protocol, one-tap approvals, self-h
+- 🟩 `[可用]` [sandwich-xz-dsh-session-dashboard](https://github.com/sandwich-xz/dsh-session-dashboard) ★0 — DeepSeek Harness (DSH) plugin: a 2x2 running-session dashboard with quarter-window cards, one-click entry and
 - 🟩 `[可用]` [sandzer0-dsh-hippocampus](https://github.com/sANDzER0/dsh-hippocampus) ★0 — Cross-session project memory for DeepSeek Harness — capture / consolidate / recall, keyword + optional local-O
+- 🟩 `[可用]` [sangonomiya249-dsh-meoo](https://github.com/sangonomiya249/dsh-meoo) ★0 — 把秒悟 Meoo 的模型接进 dsh：自动登录取项目服务 AK、同步模型目录，模型直接出现在会话模型选择器与「设置 → 模型」里
+- ⬜ `[待定]` [sanqiuyef-sqy-dsh-plugin](https://github.com/sanqiuyef/SQY-DSH-PLUGIN) ★0 — DeepSeek Harness 插件集合：MCP 管理 / 记忆管理 / 工具网关 / 技能管理 / 插件中心（Cordis bundles, MIT）
 - 🟩 `[可用]` [sarahdeady-dsh-auto-title](https://github.com/SarahDeady/dsh-auto-title) ★0 — DSH 插件：自动把会话标题提炼成最多 12 个字；用户手动改名后自动停手，侧栏会话菜单可一键重新提炼
 - 🟩 `[可用]` [saretheya-dsh-cairn](https://github.com/Saretheya/dsh-cairn) ★0 — Keep a task's state across context compaction for DeepSeek Harness: the model writes a checkpoint, and the plu
 - 🟩 `[可用]` [saretheya-dsh-ctx](https://github.com/Saretheya/dsh-ctx) ★0 — Keep a task's state across context compaction for DeepSeek Harness: the model writes a checkpoint, and the plu
@@ -3189,7 +3200,6 @@
 - 🟩 `[可用]` [zznobzz-dsh-plugin-mcp-manager](https://github.com/zznobzz/dsh-plugin-mcp-manager) ★0 — MCP connection manager for DeepSeek Harness: Settings → MCP page and mcp_connections agent tool
 - 🟩 `[可用]` [zzy-cl-dsh-prompt-optimizer](https://github.com/zzy-cl/dsh-prompt-optimizer) ★0 — —
 - ⬜ `[待定]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
-- ⬜ `[待定]` [swswordholy-tech-agentschatprotocol](https://github.com/swswordholy-tech/AgentsChatProtocol) ★0 — —
 - `[空仓监测]` **trae-dsh-plugin** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **eightfs-dsh-session-group** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **haoyuan-sjtu-deepseek-harness-governed-memory** — GitHub 无此仓库，判定暂不展示
@@ -3246,8 +3256,8 @@
 - 🟨 `[不兼容]` [qkycir-123-dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) ★109 — Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.
 - 🟨 `[不兼容]` [aa2246740-dsh-watcher](https://github.com/aa2246740/dsh-watcher) ★104 — Read-only Agent work-path observer for DeepSeek Harness
 - 🟨 `[不兼容]` [dsh-automation](https://github.com/titanwings/dsh-automation) ★100 — DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务
-- 🟨 `[不兼容]` [bruc3van-dsh-desktop](https://github.com/bruc3van/dsh-desktop-pro) ★98 — DeepSeek Harness 专业版桌面客户端，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用
 - 🟨 `[不兼容]` [pingfanfan-hello-dsh](https://github.com/pingfanfan/hello-dsh) ★97 — 从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）\| Zero-to-plugin tutorial for DeepSeek Harness
+- 🟨 `[不兼容]` [dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro) ★93 — DeepSeek Harness 专业版桌面客户端，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用
 - 🟨 `[不兼容]` [pkufudawei-dsh-capability-menu](https://github.com/PKUfudawei/dsh-capability-menu) ★86 — 管理 DeepSeek Harness 中工具与技能的暴露策略，支持按需检索与调用
 - 🟨 `[不兼容]` [fishsb-dsh-prompt-enhancer](https://github.com/Fishsb/dsh-voice-prompt-enhancer) ★82 — DeepSeek-Harness (DSH) 插件：✨ 提示词一键增强（5 模式·模型链·记忆链）+ 💬 语音输入增强（热键·说完自动停·口水词清理·语音纠错）
 - 🟨 `[不兼容]` [jingxuanc-causal-memory](https://github.com/JingxuanC/causal-memory) ★80 — Causal memory layer for AI agents — MCP server that records decision→outcome relationships
@@ -4350,8 +4360,11 @@
 - 🟨 `[不兼容]` [roojay-dsh-stream-upload](https://github.com/roojay/dsh-stream-upload) ★0 — DeepSeek Harness hybrid attachment plugin: native images plus bounded-memory workspace uploads
 - 🟨 `[不兼容]` [royenheart-dsh-plugin-skills-manager](https://github.com/royenheart/dsh-plugin-skills-manager) ★0 — deepseek harness plugin skill manager
 - 🟨 `[不兼容]` [runfali-dsh-mem0-plugins](https://github.com/runfali/dsh-mem0-plugins) ★0 — dsh 持久化记忆插件 - 依托自建的 mem0‑graph 服务器实现自动回忆与回写
+- 🟨 `[不兼容]` [ruqinhu-dsh-memory](https://github.com/ruqinhu/dsh-memory) ★0 — Durable agent memory plugin for DeepSeek Harness (DSH): whole-file injection, search, and bounded maintenance
 - 🟨 `[不兼容]` [ryu6zero-dsh-hindsight](https://github.com/Ryu6Zero/dsh-hindsight) ★0 — 🧠 Cross-session memory for DeepSeek Harness backed by Hindsight
 - 🟨 `[不兼容]` [ryuu-64-dsh-session-tools](https://github.com/Ryuu-64/dsh-session-tools) ★0 — Let the agent start a new session, or send a message to another one.
+- 🟨 `[不兼容]` [s3k926-dsh-agent-skills](https://github.com/S3K926/dsh-agent-skills) ★0 — 给 DSH（DeepSeek Harness）用的 agent 技能集（skills）：记忆档案维护、本机操作规矩、插件发布规程、Web 健康检查、会话日志修复
+- 🟨 `[不兼容]` [sad-jack-dsh-resource-monitor](https://github.com/Sad-Jack/dsh-resource-monitor) ★0 — Compact macOS CPU, GPU, memory and Ollama model status in DeepSeek Harness
 - 🟨 `[不兼容]` [satan9394-dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) ★0 — 199 DSH skill plugins in one monorepo - comprehensive collection for DeepSeek Harness
 - 🟨 `[不兼容]` [sdegongzuo-dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) ★0 — DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页
 - 🟨 `[不兼容]` [seeingrain-dsh-upload-file](https://github.com/seeingrain/dsh-upload-file) ★0 — DSH plugin: paperclip file library with per-session isolation, thumbnails and re-download.
