@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4553）
+# 🤖 Agent 能力（4557）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1407,6 +1407,7 @@
 - 🟩 `[可用]` [silvercrossing-write-approval-guard](https://github.com/SilverCrossing/write-approval-guard) ★1 — —
 - 🟩 `[可用]` [sjh9714-routinekit](https://github.com/sjh9714/routinekit) ★1 — Turn successful agent tool calls into reviewed, parameterized routines you can replay
 - ⬜ `[待定]` [slicenferqin-dsh-mobile](https://github.com/slicenferqin/dsh-mobile) ★1 — A task-first mobile workspace for DeepSeek Harness, with session overviews, compact input, and full-record acc
+- ⬜ `[待定]` [snaiheihei-dsh-snail-memory](https://github.com/snaiheihei/dsh-snail-memory) ★1 — —
 - 🟩 `[可用]` [snailium-dsh-command-context-trim](https://github.com/snailium/dsh-command-context-trim) ★1 — Model-free /trim command for DeepSeek Harness — drop the oldest, least valuable span of context so a session c
 - 🟩 `[可用]` [snowfallc-dsh-mobile-voice-call](https://github.com/SnowfallC/dsh-mobile-voice-call) ★1 — App-free mobile voice calls with existing DeepSeek Harness sessions.
 - 🟩 `[可用]` [snowrikka-dsh-llama-responses](https://github.com/SnowRikka/dsh-llama-responses) ★1 — DeepSeek Harness plugin: run subagents on a local llama.cpp model via the OpenAI Responses (/v1/responses) pro
@@ -2817,7 +2818,9 @@
 - 🟩 `[可用]` [smurfiez-morphe-patch-creator](https://github.com/smurfiez/morphe-patch-creator) ★0 — Authorized Morphe Android APK patch workflow as native DSH skills: recon, decompile, target hunting, patch wri
 - 🟩 `[可用]` [smwhff-dsh-delete-session](https://github.com/SMWHff/dsh-delete-session) ★0 — —
 - 🟩 `[可用]` [smwyylc-dsh-work-diary](https://github.com/smwyylc/dsh-work-diary) ★0 — DSH daily work diary plugin - reads the day's sessions and generates a work summary
+- ⬜ `[待定]` [snerou-dsh-hippo](https://github.com/Snerou/dsh-hippo) ★0 — Hippocampus for DeepSeek Harness: workspace files, memories and past sessions rendered as a rotatable neuron g
 - 🟩 `[可用]` [snow-the-dsh-ark-plan](https://github.com/snow-The/dsh-ark-plan) ★0 — Correctly activate DeepSeek v4 flash on the Volcano Ark plan API for DeepSeek Harness: default config injectio
+- ⬜ `[待定]` [snowfoxhq-dsh-hmr](https://github.com/snowfoxHQ/dsh-hmr) ★0 — dsh-Hestia Memory Runtime — cognitive memory plugin for DeepSeek Harness (HMR): reasoning chains, reflection,〔📦〕
 - 🟩 `[可用]` [snroman-dsh-agent-group](https://github.com/SNRoman/dsh-agent-group) ★0 — —
 - 🟩 `[可用]` [soberkeen-dsh-vault](https://github.com/soberkeen/dsh-vault) ★0 — DSH（DeepSeek Harness）加密全量备份与恢复插件 —— 配置/会话/插件/工作区/Hindsight 记忆打包成加密分卷，带自包含还原器与 GFS 滚动保留，零外部依赖
 - 🟩 `[可用]` [soffits-dsh-cron-jobs](https://github.com/soffits/dsh-cron-jobs) ★0 — Cron jobs for DeepSeek Harness: run shell commands on a schedule and wake an agent only when a gate asks for i
@@ -4422,6 +4425,7 @@
 - 🟨 `[不兼容]` [sivancola-dsh-subagent-reasonix](https://github.com/SivanCola/dsh-subagent-reasonix) ★0 — DeepSeek Harness plugin: delegate one task to your local Reasonix as a subagent (Reasonix 子智能体)
 - 🟨 `[不兼容]` [siyue-zo-dsh-prompt-polisher](https://github.com/SiYue-ZO/dsh-prompt-polisher) ★0 — A safe, native prompt polishing plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [slatinwine-dsh-sentience-audit](https://github.com/slatinwine/dsh-sentience-audit) ★0 — Audit a DeepSeek Harness session against the 14 consciousness indicator properties (Butlin/Long/Bengio 2023),
+- 🟨 `[不兼容]` [sleepinlava-piomics-life-science-dsh](https://github.com/sleepinlava/piomics-life-science-dsh) ★0 — PiOmics life-science skill bundle for DeepSeek Harness
 - 🟨 `[不兼容]` [smallhug-tkless](https://github.com/smallhug/tkless) ★0 — 为 AI Agent 提供低 Token 网页提取、搜索与 MCP 接入的 Rust 工具
 - 🟨 `[不兼容]` [snow-the-dsh-acp-memory](https://github.com/snow-The/dsh-acp-memory) ★0 — Unified local memory for DeepSeek Harness, backed by ACP graph: seven-layer memory (soul/user/project/fact/les
 - 🟨 `[不兼容]` [snow-the-dsh-busyloop-tools](https://github.com/snow-The/dsh-busyloop-tools) ★0 — Expose the dsh-busyloop engine to the agent as a tool: run one-off subagent loops on a chosen LLM channel (Vol
