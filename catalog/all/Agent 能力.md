@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4783）
+# 🤖 Agent 能力（4785）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -468,6 +468,7 @@
 - 🟩 `[可用]` [wenhongpan-dsh-projects](https://github.com/WenhongPan/dsh-projects) ★4 — Project and session organization for DeepSeek Harness: multi-folder projects, searchable chats, attention summ
 - 🟩 `[可用]` [winditer-dsh-prompt-optimizer](https://github.com/winditer/dsh-prompt-optimizer) ★4 — —
 - ⬜ `[待定]` [windwhiterain-dsh-compaction-threshold](https://github.com/windwhiterain/dsh-compaction-threshold) ★4 — Per-session automatic compaction threshold for DeepSeek Harness: a compaction backend whose trigger percentage
+- ⬜ `[待定]` [xalor888-dsh-unlimited-retry](https://github.com/xalor888/dsh-unlimited-retry) ★4 — Unbounded model-request retry for the DeepSeek Harness agent loop, with a live Settings panel.
 - 🟩 `[可用]` [ybh1291747665-dsh-peer-bus](https://github.com/ybh1291747665/dsh-peer-bus) ★4 — Cross-session message bus for DeepSeek Harness: let independent sessions address and wake each other.
 - 🟩 `[可用]` [yohanchen1-mathmodelingagent](https://github.com/yohanchen1/MathModelingAgent) ★4 — —
 - ⬜ `[待定]` [dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) ★4 — —
@@ -3152,6 +3153,7 @@
 - 🟩 `[可用]` [wzsx150-dsh-session-speed-pill](https://github.com/wzsx150/dsh-session-speed-pill) ★0 — 一个 DeepSeek Harness 插件，可以显示每一轮对话的token速度信息
 - 🟩 `[可用]` [x-000001-dsh-memory-plugin](https://github.com/x-000001/dsh-memory-plugin) ★0 — Layered long-term memory plugin for DeepSeek Harness (Cordis): project/global/habit stores, progressive disclo
 - ⬜ `[待定]` [x-xyy-dsh-api-balance](https://github.com/X-Xyy/dsh-api-balance) ★0 — Live DeepSeek API balance and per-session token usage in the conversation header.
+- 🟩 `[可用]` [x3416067-bit-dsh-plugin-restart-prompt](https://github.com/x3416067-bit/dsh-plugin-restart-prompt) ★0 — DSH 插件变动后提示「重启 DSH」，一键静默重启（无黑框），并可展开本次改动差异
 - 🟩 `[可用]` [xarleyn-dsh-session-scope](https://github.com/xarleyn/dsh-session-scope) ★0 — MOVED to @yadsh/dsh-session-scope in xarleyn/dsh-plugins — Per-session workspace scoping for DeepSeek Harness
 - `[空仓监测]` **xby-skill-dsh-12306-ticket-purchase-search** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [xby-skill-xby-12306-ticket-purchase-search](https://github.com/xby-skill/xby-12306-ticket-purchase-search) ★0 — 基于 Model Context Protocol (MCP) 的12306购票搜索服务器
