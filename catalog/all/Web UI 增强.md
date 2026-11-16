@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7663）
+# 🔌 Web UI 增强（7666）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1254,6 +1254,7 @@
 - 🟩 `[可用]` [dushaobindoudou-dsh-refine](https://github.com/dushaobindoudou/dsh-refine) ★2 — DeepSeek Harness (dsh) plugin — /refine command + settings panel for the dsh-continual-harness self-refinement
 - 🟩 `[可用]` [eastmg-dsh-gacha-calendar](https://github.com/EastMG/dsh-gacha-calendar) ★2 — DeepSeek Harness 二游卡池/活动日历速查插件：侧边栏按钮 内置 20+ 款主流二游 可添加自定义游戏
 - 🟩 `[可用]` [easytz-dsh-tui](https://github.com/EasyTZ/dsh-tui) ★2 — A Claude Code / Codex-style terminal  for DeepSeek Harness
+- 🟩 `[可用]` [edison7009-aiwings](https://github.com/edison7009/aiwings) ★2 — AI 正忙时，先把下一句话存进 Wings，等它空了，点一下就贴回输入框
 - 🟩 `[可用]` [edwardyang0011-dsh-ui-skins](https://github.com/edwardyang0011/dsh-ui-skins) ★2 — DeepSeek Harness Skin Plugin
 - 🟩 `[可用]` [egorfedorov-dsh-clone](https://github.com/egorfedorov/dsh-clone) ★2 — Screenshot in, working UI out: several agents rebuild the same reference interface in parallel, and you adopt
 - 🟩 `[可用]` [elfmingh-dsh-prompt-manager](https://github.com/elfmingh/dsh-prompt-manager) ★2 — Layered prompt manager for DeepSeek Harness: global / workspace / session prompt profiles, builtin-section ove
@@ -2063,6 +2064,7 @@
 - 🟩 `[可用]` [fzqxdedafeiyu-dsh-approval-reason-dock](https://github.com/FzqxDedafeiyu/dsh-approval-reason-dock) ★1 — Adds an optional note to DSH approval prompts (allow or reject) and confirms every allow before it runs; non-i
 - 🟩 `[可用]` [g57651-dsh-diy-layout](https://github.com/G57651/dsh-diy-layout) ★1 — DIY Layout for the DSH home sidebar — one/two columns, icon-only with tooltips, ordering & hiding
 - 🟩 `[可用]` [ganfne123-dsh-plugin-api-quota](https://github.com/ganfne123/dsh-plugin-api-quota) ★1 — DSH Web UI plugin: check your DeepSeek API key balance from the sidebar
+- 🟩 `[可用]` [gaolin89898-dsh-kite](https://github.com/gaolin89898/dsh-kite) ★1 — 基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Cod
 - 🟩 `[可用]` [gaopengpian-dsh-custom-ui-theme](https://github.com/gaopengpian/dsh-custom-ui-theme) ★1 — DeepSeek Harness Desktop region-based UI theme customizer (background/border/text styles, element picker, high
 - 🟩 `[可用]` [gaor0605-kq-dsh-workspace-explorer](https://github.com/gaor0605-kq/dsh-workspace-explorer) ★1 — 在 DSH 左侧栏查看工作区文件，拖进对话让 DSH 读取或修改 ·  DSH plugin: browse workspace files in the left sidebar and drag them into
 - 🟩 `[可用]` [gcsimple-emoji-desktop-pet](https://github.com/Gcsimple/Emoji_Desktop_Pet) ★1 — Emoji Desktop Pet 表情桌面宠物 — A draggable emoji desktop pet for the DeepSeek Harness (DSH) web UI, built as a dyn
@@ -4148,6 +4150,7 @@
 - ⬜ `[待定]` [ihodorchenko-dsh-futuristic-themes](https://github.com/ihodorchenko/dsh-futuristic-themes) ★0 — Three cinematic sci-fi themes for DeepSeek Harness Desktop — Nostromo Amber, Omni-tool and Renaissance Steel —
 - 🟩 `[可用]` [ilanxiaoqihi-cell-deepseek-harness-desktop](https://github.com/ilanxiaoqihi-cell/deepseek-harness-desktop) ★0 — Unofficial Electron desktop wrapper for DeepSeek Harness Web UI with a branded splash screen.
 - 🟩 `[可用]` [imcbw-dsh-balance-corner](https://github.com/imCBW/dsh-balance-corner) ★0 — DeepSeek account balance at the right end of the DSH sidebar account row
+- 🟩 `[可用]` [imccark-dsh-mc-valley](https://github.com/Imccark/dsh-mc-valley) ★0 — A pixel-art valley theme for the DeepSeek Harness Web client.
 - 🟩 `[可用]` [imlida-dsh-plugin-prompt-polish](https://github.com/imlida/dsh-plugin-prompt-polish) ★0 — 在 DeepSeek Harness 提示词输入框右下角加一个润色按钮：一键让模型改写草稿，润色用的提示词可随时修改
 - 🟩 `[可用]` [imroc-dsh-mobile-flow](https://github.com/imroc/dsh-mobile-flow) ★0 — Mobile in-flow composer for the DeepSeek Harness (dsh) Web UI — the input bar and AI confirmation cards scroll
 - 🟩 `[可用]` [imshz6669-dsh-split-chat](https://github.com/imshz6669/dsh-split-chat) ★0 — DSH 插件：把任意会话作为完整对话开进右侧栏，主区 + 右栏可同时对话（最多 3 个）
