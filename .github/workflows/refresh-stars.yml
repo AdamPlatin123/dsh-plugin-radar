@@ -72,6 +72,12 @@ jobs:
           BASE=$(git rev-parse HEAD)
           git config --unset-all http.https://github.com/.extraheader || true
           git remote add dsh-ext "https://x-access-token:${DSH_EXT_TOKEN}@github.com/Zhidao-Lab-OSS/awesome-dsh-plugins.git" || true
+          # 镜像仓不可达（2026-11 起 Repository not found：组织仓已删除或令牌失去权限）时告警跳过，
+          # 不让可选镜像把每日刷星整轮标红；仓库恢复后自动继续同步
+          if ! git ls-remote -q dsh-ext main >/dev/null 2>&1; then
+            echo "::warning title=refresh-stars 镜像跳过::Zhidao-Lab-OSS/awesome-dsh-plugins 不可达（仓库不存在或 DSH_EXT_TOKEN 无权限），本轮只推 origin"
+            exit 0
+          fi
           git fetch dsh-ext main
           # 双仓历史分叉：不整仓 rebase，只在 org main 之上同步 PLUGINS-ALL.md 单文件
           git checkout -q -B stars-mirror-sync dsh-ext/main
