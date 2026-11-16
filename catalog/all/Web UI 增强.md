@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7666）
+# 🔌 Web UI 增强（7668）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4205,6 +4205,7 @@
 - ⬜ `[待定]` [dsh-plugin-provider-quota](https://github.com/jasper-zsh/dsh-plugin-provider-quota) ★0 — DeepSeek Harness（DSH） 的 Web 插件：在对话输入框底部展示模型 Provider 的订阅额度与限流窗口，点击徽标即可查看详情
 - ⬜ `[待定]` [dsh-plugin-shady-relay](https://github.com/jasper-zsh/dsh-plugin-shady-relay) ★0 — DeepSeek Harness 静态插件：通过 GUI 创建虚拟模型
 - 🟩 `[可用]` [javiernier-balance-show](https://github.com/JavierNier/balance-show) ★0 — Balance & usage card plugin built on the DeepSeek Harness for its Web GUI: DeepSeek account balance with color
+- 🟩 `[可用]` [javipm-dsh-nan-provider](https://github.com/javipm/dsh-nan-provider) ★0 — Configura y vigila el uso de tu suscripción NaN (nan.builders) dentro de DeepSeek Harness, tanto en la TUI com
 - 🟩 `[可用]` [jayliu2025-vip-dsh-theme-huluwa](https://github.com/Jayliu2025-vip/dsh-theme-huluwa) ★0 — —
 - 🟩 `[可用]` [jaytdd-dsh-token-usage-panel](https://github.com/JAYTDD/dsh-token-usage-panel) ★0 — —
 - 🟩 `[可用]` [jazhu-dsh-hillstone-cli-ops](https://github.com/jazhu/dsh-hillstone-cli-ops) ★0 — Hillstone / StoneOS 设备运维插件：右侧栏「设备运维」标签页（设备管理 + SSH 终端 + 连接审计 + 执行策略），并给 agent 注册 9 个 hillstone_* 运维工具
@@ -6383,6 +6384,7 @@
 - 🟨 `[不兼容]` [ipromise2021-dsh-omc-tui](https://github.com/ipromise2021/dsh-omc-tui) ★2 — DeepSeek Harness (DSH) 原生全功能终端交互界面 · Claude Code-styled Terminal TUI & CLI for DeepSeek Harness
 - 🟨 `[不兼容]` [j62268781-alt-dsh-agent-browser](https://github.com/j62268781-alt/dsh-agent-browser) ★2 — DSH plugin for browser automation: narrow agent-browser CLI (Rust + CDP) tool surface, in-page DOM candidate e
 - 🟨 `[不兼容]` [jansen-66-dsh-guandan-panel](https://github.com/jansen-66/dsh-guandan-panel) ★2 — DSH Web Plugin: 工作区底部开辟一个迷你面板，当AI帮你工作时，不要荒废大脑，来一把掼蛋游戏
+- 🟨 `[不兼容]` [jasperpengc-dsh-mcp-skills-board](https://github.com/JasperPengC/dsh-mcp-skills-board) ★2 — DeepSeek Harness 的 MCP 服务器与技能管理面板
 - 🟨 `[不兼容]` [jaylor-wang-dsh-agent-loop-experiment](https://github.com/Jaylor-Wang/dsh-agent-loop-experiment) ★2 — Controllable convergence policy and agent loop replacement for DeepSeek Harness (DSH): runtime fingerprinting,
 - 🟨 `[不兼容]` [jessenreinhart-dsh-snapcompact](https://github.com/JessenReinhart/dsh-snapcompact) ★2 — Bitmap-frame context compression plugin for DeepSeek Harness (DSH): deterministic pixel-font visual archiving
 - 🟨 `[不兼容]` [jhboy203-dsh-plugin-installer](https://github.com/JHboy203/dsh-plugin-installer) ★2 — DSH 侧栏「插件 / Skill 安装」：GitHub / 压缩包 / 本地目录 → 下载·解包·预检·快照·安装·诊断·回滚；MCP 与 Skill 也装；回滚按 pre/post/now 三方比对，不吃你装完后的手

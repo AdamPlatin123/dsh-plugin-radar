@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T06:55:33Z",
+ "generated_at": "2026-11-16T07:05:40Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -61491,6 +61491,13 @@
    "desc": "Balance & usage card plugin built on the DeepSeek Harness for its Web GUI: DeepSeek account balance with color"
   },
   {
+   "repo": "javipm/dsh-nan-provider",
+   "name": "javipm-dsh-nan-provider",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Configura y vigila el uso de tu suscripción NaN (nan.builders) dentro de DeepSeek Harness, tanto en la TUI com"
+  },
+  {
    "repo": "Jayliu2025-vip/dsh-theme-huluwa",
    "name": "jayliu2025-vip-dsh-theme-huluwa",
    "verdict": "ok",
@@ -76406,6 +76413,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH Web Plugin: 工作区底部开辟一个迷你面板，当AI帮你工作时，不要荒废大脑，来一把掼蛋游戏"
+  },
+  {
+   "repo": "JasperPengC/dsh-mcp-skills-board",
+   "name": "jasperpengc-dsh-mcp-skills-board",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "DeepSeek Harness 的 MCP 服务器与技能管理面板"
   },
   {
    "repo": "Jaylor-Wang/dsh-agent-loop-experiment",
