@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5257）
+# 🤖 Agent 能力（5268）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3103,6 +3103,7 @@
 - ⬜ `[待定]` [solidifact-dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) ★0 — Retired: a controlled benchmark found no measurable gain
 - `[空仓监测]` **songoao25-dsh-contract-drafting-agent** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [sosiman-dsh-native-mode-router](https://github.com/sosiman/dsh-native-mode-router) ★0 — Autonomous runtime engine switcher (Standard, PTC, Team, Minimal) with in-flight Auto-Wakeup and live fleet ob
+- 🟩 `[可用]` [southm-dsh-nanshan-session-manager](https://github.com/SouthM/dsh-nanshan-session-manager) ★0 — 【南山】会话管理：在左侧栏筛选、按 ID 搜索、删除、恢复、导出和导入 DeepSeek Harness 的全部会话
 - 🟩 `[可用]` [soybeanmilkx-compflow](https://github.com/SoyBeanMilkx/CompFlow) ★0 — Organize DSH sessions into nested, collapsible compositions.
 - ⬜ `[待定]` [sparkweiyang-deepseekharness-androidclient](https://github.com/SparkWeiyang/DeepseekHarness-AndroidClient) ★0 — DeepSeek Harness 安卓端原生客户端（com.spark.harness）：会话/详情/设置三页、流式聊天对标网页端、局域网扫描、本地 adb 直连、DeepSeek 消耗查询
 - `[空仓监测]` **sparrived-dsh-plugin-workspace-skill** — GitHub 无此仓库，判定暂不展示
@@ -3142,6 +3143,7 @@
 - ⬜ `[待定]` [sunqing975-dsh-skills-hub](https://github.com/sunqing975/dsh-skills-hub) ★0 — DSH 原生 Skills 管理插件，统一管理多个 Agent 的技能，支持内容判重、版本对比、公用目录整合与可恢复清理
 - 🟩 `[可用]` [sunsetrne-dsh-session-relay](https://github.com/SunsetRNE/dsh-session-relay) ★0 — DSHA 平级会话互通：主会话 + 工作会话协作，版本线公告、指令模板、汇报合并唤醒
 - ⬜ `[待定]` [sunshaobei-dsh-session-manager](https://github.com/sunshaobei/dsh-session-manager) ★0 — —
+- 🟩 `[可用]` [sunshow-dsh-recent-sessions](https://github.com/Sunshow/dsh-recent-sessions) ★0 — DeepSeek Harness 侧栏「最近会话」：浮层按最后活动列出最近会话，点一行切过去并定位工作区；子代理会话可折叠进主会话 / 隐藏 / 单独列出
 - 🟩 `[可用]` [sunwindy91-dsh-tool-meta](https://github.com/sunwindy91/dsh-tool-meta) ★0 — 自进化元认知引擎：观测 agent 工具失败 → 反思 → 自动沉淀 SKILL → 下次自动滋养（跑在 DSH 官方接口上，零私有格式）
 - 🟩 `[可用]` [sunwindy91-spa-api-extract](https://github.com/sunwindy91/spa-api-extract) ★0 — Agent Skill: extract data from JS single-page apps via curl+grep+python when WebFetch fails (timeout / obfusca
 - 🟩 `[可用]` [suomir1995-dsh-notes](https://github.com/suomir1995/dsh-notes) ★0 — DSH bundle（DeepSeek Harness 插件）：笔记 —— 按目录分组的本地 Markdown 笔记，带 Web 侧栏页面，读取根/分组下的 AGENTS 等规则 md 作为写作上下文
@@ -3167,6 +3169,7 @@
 - 🟩 `[可用]` [tbaot-dsh-persona](https://github.com/TBAOT/dsh-persona) ★0 — Multi-persona memory for DeepSeek Harness: two-tier persona memory (user profile + agent notes) with per-turn
 - 🟩 `[可用]` [teagnes-dsh-xxnerv-eva](https://github.com/Teagnes/dsh-xxnerv-eva) ★0 — EVA-style companion HUD for DeepSeek Harness: remaining balance as active time, session cache-hit share as syn
 - 🟩 `[可用]` [ten-feng-dsh-jinhsi-avatar](https://github.com/ten-feng/dsh-jinhsi-avatar) ★0 — DSH 窗口里的今汐形象体：图生视频生成四组动作、透明循环动画、自动漫游 / 尺寸随远近变化 / 点击敲碗音效与余额播报
+- ⬜ `[待定]` [tendayst-dsh-wake-relay](https://github.com/tendayst/dsh-wake-relay) ★0 — External wake bridge for DeepSeek Harness: an out-of-host watcher wakes a session synchronously
 - 🟩 `[可用]` [terebisama-dsh-openviking-settings](https://github.com/TerebiSAMA/dsh-openviking-settings) ★0 — OpenViking 状态页插件：在 DSH【设置】里查看 OpenViking 连接、服务健康、记忆与会话计数
 - 🟩 `[可用]` [tespio-dsh-report-card](https://github.com/tespio/dsh-report-card) ★0 — Independent dynamic benchmark for DSH plugins: boot delta, per-turn overhead, context tax, capability surface
 - 🟩 `[可用]` [tetrassky-dsh-hold](https://github.com/TetraSsky/dsh-hold) ★0 — Hold a drafted message until the session is actually finished, then send it.
@@ -5092,6 +5095,14 @@
 - 🟨 `[不兼容]` [tagayamajin-dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) ★0 — DSH migration kit skill: back up plugins, profiles, plugin settings and chat history into one portable kit and
 - 🟨 `[不兼容]` [temoa-dsh-sessions-rm](https://github.com/Temoa/dsh-sessions-rm) ★0 — Session management for DeepSeek Harness (DSH).
 - 🟨 `[不兼容]` [theflippy978-dsh-auto-rename](https://github.com/Theflippy978/dsh-auto-rename) ★0 — Automatic conversation naming plugin for DeepSeek Harness (DSH): names the first prompt and streams AI title s
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-agent-router](https://github.com/thegabopacheco-sudo/dsh-plugin-agent-router) ★0 — Recomienda modelo/agente para una tarea segun fortalezas, presupuesto y contexto requerido, con reglas locales
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-context-meter](https://github.com/thegabopacheco-sudo/dsh-plugin-context-meter) ★0 — Medidor de contexto por sesion de DeepSeek Harness: lee la cache de proyeccion, muestra presion de contexto, d
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-decision-log](https://github.com/thegabopacheco-sudo/dsh-plugin-decision-log) ★0 — Registro local de decisiones tecnicas de DeepSeek Harness: guarda decision, contexto, alternativas, proyecto y
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-focus-session](https://github.com/thegabopacheco-sudo/dsh-plugin-focus-session) ★0 — Modo concentracion: minimiza ventanas que coincidan con patrones configurables, con dry-run por defecto y conf
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-memory-timelin](https://github.com/thegabopacheco-sudo/dsh-plugin-memory-timeline) ★0 — Linea de tiempo local de memoria y notas de DeepSeek Harness: registra eventos, lee notas de Hermano y busca p
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-plan-checker](https://github.com/thegabopacheco-sudo/dsh-plugin-plan-checker) ★0 — Valida planes de trabajo en Markdown para DeepSeek Harness: pasos, criterios de aceptacion, riesgos, rollback
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-prompt-vault](https://github.com/thegabopacheco-sudo/dsh-plugin-prompt-vault) ★0 — Biblioteca local de prompts para DeepSeek Harness: guarda plantillas con variables, busca, renderiza y organiz
+- 🟨 `[不兼容]` [thegabopacheco-sudo-dsh-plugin-turn-analytics](https://github.com/thegabopacheco-sudo/dsh-plugin-turn-analytics) ★0 — Analitica de turnos y pasos de sesiones de DeepSeek Harness: tiempos LLM vs tools, tamano de turnos, timeline
 - `[空仓监测]` **theheartfickle-dsh-session-manager** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [tianjie52009-dsh-kaomoji](https://github.com/TianJie52009/dsh-kaomoji) ★0 — Add Japanese kaomoji to DeepSeek Harness (dsh) replies; prompt-injection plugin with a curated kaomojiya.org l
 - 🟨 `[不兼容]` [tianzeluo-dsh-paper-reader](https://github.com/TianzeLuo/dsh-paper-reader) ★0 — DSH 插件：论文解读模式

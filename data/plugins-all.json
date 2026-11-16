@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T21:01:54Z",
+ "generated_at": "2026-11-16T21:17:04Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -21164,6 +21164,13 @@
    "desc": "Autonomous runtime engine switcher (Standard, PTC, Team, Minimal) with in-flight Auto-Wakeup and live fleet ob"
   },
   {
+   "repo": "SouthM/dsh-nanshan-session-manager",
+   "name": "southm-dsh-nanshan-session-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "【南山】会话管理：在左侧栏筛选、按 ID 搜索、删除、恢复、导出和导入 DeepSeek Harness 的全部会话"
+  },
+  {
    "repo": "SoyBeanMilkx/CompFlow",
    "name": "soybeanmilkx-compflow",
    "verdict": "ok",
@@ -21423,6 +21430,13 @@
    "desc": "—"
   },
   {
+   "repo": "Sunshow/dsh-recent-sessions",
+   "name": "sunshow-dsh-recent-sessions",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 侧栏「最近会话」：浮层按最后活动列出最近会话，点一行切过去并定位工作区；子代理会话可折叠进主会话 / 隐藏 / 单独列出"
+  },
+  {
    "repo": "sunwindy91/dsh-tool-meta",
    "name": "sunwindy91-dsh-tool-meta",
    "verdict": "ok",
@@ -21596,6 +21610,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 窗口里的今汐形象体：图生视频生成四组动作、透明循环动画、自动漫游 / 尺寸随远近变化 / 点击敲碗音效与余额播报"
+  },
+  {
+   "repo": "tendayst/dsh-wake-relay",
+   "name": "tendayst-dsh-wake-relay",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "External wake bridge for DeepSeek Harness: an out-of-host watcher wakes a session synchronously"
   },
   {
    "repo": "TerebiSAMA/dsh-openviking-settings",
@@ -34581,6 +34602,62 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Automatic conversation naming plugin for DeepSeek Harness (DSH): names the first prompt and streams AI title s"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-agent-router",
+   "name": "thegabopacheco-sudo-dsh-plugin-agent-router",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Recomienda modelo/agente para una tarea segun fortalezas, presupuesto y contexto requerido, con reglas locales"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-context-meter",
+   "name": "thegabopacheco-sudo-dsh-plugin-context-meter",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Medidor de contexto por sesion de DeepSeek Harness: lee la cache de proyeccion, muestra presion de contexto, d"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-decision-log",
+   "name": "thegabopacheco-sudo-dsh-plugin-decision-log",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Registro local de decisiones tecnicas de DeepSeek Harness: guarda decision, contexto, alternativas, proyecto y"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-focus-session",
+   "name": "thegabopacheco-sudo-dsh-plugin-focus-session",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Modo concentracion: minimiza ventanas que coincidan con patrones configurables, con dry-run por defecto y conf"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-memory-timeline",
+   "name": "thegabopacheco-sudo-dsh-plugin-memory-timelin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Linea de tiempo local de memoria y notas de DeepSeek Harness: registra eventos, lee notas de Hermano y busca p"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-plan-checker",
+   "name": "thegabopacheco-sudo-dsh-plugin-plan-checker",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Valida planes de trabajo en Markdown para DeepSeek Harness: pasos, criterios de aceptacion, riesgos, rollback"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-prompt-vault",
+   "name": "thegabopacheco-sudo-dsh-plugin-prompt-vault",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Biblioteca local de prompts para DeepSeek Harness: guarda plantillas con variables, busca, renderiza y organiz"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-turn-analytics",
+   "name": "thegabopacheco-sudo-dsh-plugin-turn-analytics",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Analitica de turnos y pasos de sesiones de DeepSeek Harness: tiempos LLM vs tools, tamano de turnos, timeline"
   },
   {
    "repo": "TianJie52009/dsh-kaomoji",
@@ -55499,6 +55576,13 @@
    "desc": "dsh desktop plugins theme"
   },
   {
+   "repo": "spankingsnail/dsh-quickjot",
+   "name": "spankingsnail-dsh-quickjot",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "随手记（仓库名 dsh-quickjot）：DeepSeek Harness 的本机日历插件（便签 / 待办 / 日程 + 应用内与微信提醒）"
+  },
+  {
    "repo": "SpellingDragon/dsh-better-quotes",
    "name": "spellingdragon-dsh-better-quotes",
    "verdict": "ok",
@@ -74518,6 +74602,13 @@
    "desc": "DSH composer button that rewrites the current draft into a precise prompt in place, in one click, with revert."
   },
   {
+   "repo": "SouthM/life-journey",
+   "name": "southm-life-journey",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A left-sidebar journal that records a personal growth journey in one local file."
+  },
+  {
    "repo": "SOVLOOKUP/dsh-settings-footer",
    "name": "sovlookup-dsh-settings-footer",
    "verdict": "ok",
@@ -74656,6 +74747,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Moves the DSH temp cache to a configurable directory and cleans it with an allowlist; manages archived session"
+  },
+  {
+   "repo": "StudentBuilding-Studio/dsh-search-pull",
+   "name": "studentbuilding-studio-dsh-search-pull",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "让 DeepSeek Harness 的 agent 更愿意先联网再回答——尤其是开发类问题：现成的开源实现优先复用，而不是凭记忆从头推导"
   },
   {
    "repo": "stzyk/dsh-mindmap",
@@ -75181,6 +75279,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness Web UI plugin for rendering Mermaid diagrams with zoom and a fullscreen workspace"
+  },
+  {
+   "repo": "tespio/dsh-a11y",
+   "name": "tespio-dsh-a11y",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Accessibility layer for the DeepSeek Harness Web UI: coordinated announcements, keyboard navigation, and acces"
   },
   {
    "repo": "tespio/dsh-balance-whale",
@@ -91962,6 +92067,13 @@
    "desc": "Local-only backup controls and workflow for DeepSeek Harness"
   },
   {
+   "repo": "SSHOOTING/dsh-billing-stats",
+   "name": "sshooting-dsh-billing-stats",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Read-only DSH token billing statistics with equivalent API cost"
+  },
+  {
    "repo": "starash07/dsh-edit-message",
    "name": "starash07-dsh-edit-message",
    "verdict": "incompatible",
@@ -92249,6 +92361,41 @@
    "desc": "QA con navegador real para DeepSeek Harness: abre URLs en Chrome/Edge via CDP, hace clic, escribe, captura pan"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-chart-builder",
+   "name": "thegabopacheco-sudo-dsh-plugin-chart-builder",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Genera graficos SVG (barra/linea) desde etiquetas y valores, con vista previa, guardado confirmado y sin depen"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-conversation-digest",
+   "name": "thegabopacheco-sudo-dsh-plugin-conversation-d",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Resumen extractivo de una sesion de DeepSeek Harness: prompts clave, respuestas, tools usadas, errores y sigui"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-csv-cleaner",
+   "name": "thegabopacheco-sudo-dsh-plugin-csv-cleaner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Limpia y perfila CSV locales: quita filas vacias, duplicados, espacios, normaliza encabezados y reporta cambio"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-data-contract",
+   "name": "thegabopacheco-sudo-dsh-plugin-data-contract",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Valida e infiere contratos JSON: schema-lite con required, tipos, enums y rangos para archivos o texto JSON, c"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-docker-doctor",
+   "name": "thegabopacheco-sudo-dsh-plugin-docker-doctor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Audita Dockerfile y docker-compose de un proyecto: imagen sin pin, root, ADD, secretos en ENV/ARG, descargas e"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-eyes",
    "name": "thegabopacheco-sudo-dsh-plugin-eyes",
    "verdict": "incompatible",
@@ -92263,11 +92410,25 @@
    "desc": "Base de conocimiento local para DeepSeek Harness: guarda guias y FAQ en Markdown, busca por texto y entrega co"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-tool-builder",
+   "name": "thegabopacheco-sudo-dsh-plugin-tool-builder",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Genera el esqueleto de un plugin MCP para DeepSeek Harness (package.json, cordis, server.mjs, tests, docs) a p"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-ui-bridge",
    "name": "thegabopacheco-sudo-dsh-plugin-ui-bridge",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Puente de interfaz Windows para DeepSeek Harness: lista y captura ventanas, árbol UI Automation, clic y escrit"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-window-layout",
+   "name": "thegabopacheco-sudo-dsh-plugin-window-layout",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Guarda y restaura layouts de ventanas de Windows (posicion y tamano) mediante UI Automation, con confirmacion"
   },
   {
    "repo": "TheHeartFickle/dsh-one-dark-pro",
@@ -116854,6 +117015,13 @@
    "desc": "DeepSeek Harness plugin for viewing and analyzing VCD/FST waveforms with SVW."
   },
   {
+   "repo": "sweet-boby/dsh-markdown-outline",
+   "name": "sweet-boby-dsh-markdown-outline",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "SweetenedSuzuka/dsh-zh-number-format",
    "name": "sweetenedsuzuka-dsh-zh-number-format",
    "verdict": "ok",
@@ -117139,6 +117307,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "THUjry/HarnessAMS",
+   "name": "thujry-harnessams",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Use LLM Harness to do AMS design."
   },
   {
    "repo": "Tianbaidi/dsh-plugin-scaffold",
@@ -135705,11 +135880,32 @@
    "desc": "Auditoría de accesibilidad web para DeepSeek Harness: alt, labels, ARIA, contraste, jerarquía de headings y fo"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-api-probe",
+   "name": "thegabopacheco-sudo-dsh-plugin-api-probe",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Prueba endpoints HTTP de hosts permitidos: status, latencia, content-type, tamano y primeras lineas de respues"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-clipboard-history",
+   "name": "thegabopacheco-sudo-dsh-plugin-clipboard-hist",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Historial local de portapapeles en Windows: captura el texto actual, busca en el historial y lo vuelve a copia"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-content-calendar",
    "name": "thegabopacheco-sudo-dsh-plugin-content-calend",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Calendario de contenido para DeepSeek Harness: programa anuncios y cross-posts, consulta pendientes y marca pu"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-daily-brief",
+   "name": "thegabopacheco-sudo-dsh-plugin-daily-brief",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Resumen diario para DeepSeek Harness: sesiones recientes con metricas, decisiones del dia, uso de tokens y pen"
   },
   {
    "repo": "thegabopacheco-sudo/dsh-plugin-discord-operator",
@@ -135719,11 +135915,39 @@
    "desc": "Operador de Discord para DeepSeek Harness: lista canales y mensajes, envia/edita mensajes y sube archivos con"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-env-doctor",
+   "name": "thegabopacheco-sudo-dsh-plugin-env-doctor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Valida variables de entorno de un proyecto: compara .env/.env.example con las variables usadas en el codigo, d"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-event-log-reader",
+   "name": "thegabopacheco-sudo-dsh-plugin-event-log-read",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Lee y resume eventos recientes de Windows (System/Application) con nivel, proveedor y mensaje, solo lectura."
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-forecast-lite",
+   "name": "thegabopacheco-sudo-dsh-plugin-forecast-lite",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Pronostica series numericas con media movil o regresion lineal simple, mostrando tendencia, estadisticas y pre"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-lead-inbox",
    "name": "thegabopacheco-sudo-dsh-plugin-lead-inbox",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Bandeja de leads para DeepSeek Harness: resume presupuestos y clientes interesados desde mensajes de Discord,"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-log-analyzer",
+   "name": "thegabopacheco-sudo-dsh-plugin-log-analyzer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Analiza logs locales: cuenta severidades, agrupa mensajes por firma, detecta patrones de fallo, rango temporal"
   },
   {
    "repo": "thegabopacheco-sudo/dsh-plugin-mail-operator",
@@ -135733,11 +135957,39 @@
    "desc": "Operador de correo para DeepSeek Harness: lista y busca correos por IMAP, lee mensajes y envia con confirmacio"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-mock-server",
+   "name": "thegabopacheco-sudo-dsh-plugin-mock-server",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Levanta un servidor HTTP local de mocks (rutas y respuestas configurables) para probar integraciones, con star"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-moderator-copilot",
    "name": "thegabopacheco-sudo-dsh-plugin-moderator-copi",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Copiloto de moderacion para DeepSeek Harness: revisa mensajes de Discord, detecta spam, estafas y toxicidad, y"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-network-diag",
+   "name": "thegabopacheco-sudo-dsh-plugin-network-diag",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Diagnostico de red local: resuelve DNS y comprueba puertos TCP con latencia, solo hosts permitidos."
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-podcast-clipper",
+   "name": "thegabopacheco-sudo-dsh-plugin-podcast-clippe",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Detecta silencios en audio con ffmpeg y opcionalmente los recorta, reportando duracion original/final e interv"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-preferences-sync",
+   "name": "thegabopacheco-sudo-dsh-plugin-preferences-sy",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Hub de preferencias para DeepSeek Harness: guarda claves por categoria, importa/exporta PREFERENCIAS en Markdo"
   },
   {
    "repo": "thegabopacheco-sudo/dsh-plugin-privacy-redactor",
@@ -135747,11 +135999,25 @@
    "desc": "Privacy Redactor para DeepSeek Harness: detecta y tapa emails, telefonos, tarjetas, IBAN, tokens y API keys en"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-recovery-snapshot",
+   "name": "thegabopacheco-sudo-dsh-plugin-recovery-snaps",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Snapshots de configuracion de plugins de DeepSeek Harness con manifiesto SHA-256, verificacion de integridad y"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-role-auditor",
    "name": "thegabopacheco-sudo-dsh-plugin-role-auditor",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Auditor de permisos de Discord para DeepSeek Harness: detecta roles con permisos peligrosos y webhooks expuest"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-rss-digest",
+   "name": "thegabopacheco-sudo-dsh-plugin-rss-digest",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Lee feeds RSS/Atom de hosts permitidos y genera un resumen Markdown con titulos, fechas y enlaces, con timeout"
   },
   {
    "repo": "thegabopacheco-sudo/dsh-plugin-screen-recorder",
@@ -135761,6 +136027,20 @@
    "desc": "Grabador de pantalla para DeepSeek Harness: graba el escritorio o una region con ffmpeg (gdigrab), lista graba"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-secrets-scanner",
+   "name": "thegabopacheco-sudo-dsh-plugin-secrets-scanne",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Escanea un proyecto local en busca de secretos y credenciales (claves, tokens, passwords, claves privadas) con"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-task-board",
+   "name": "thegabopacheco-sudo-dsh-plugin-task-board",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Tablero kanban local para DeepSeek Harness: tarjetas con columnas, prioridad, proyecto y notas, con movimiento"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-ticket-inspector",
    "name": "thegabopacheco-sudo-dsh-plugin-ticket-inspect",
    "verdict": "incompatible",
@@ -135768,11 +136048,25 @@
    "desc": "Inspector de tickets para DeepSeek Harness: lista hilos de soporte, detecta tickets estancados o sin responder"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-todo-bridge",
+   "name": "thegabopacheco-sudo-dsh-plugin-todo-bridge",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Puente de tareas para DeepSeek Harness: lista de tareas local con prioridad y proyecto, importa todos de sesio"
+  },
+  {
    "repo": "therain2020/dsh-obsidian-sync",
    "name": "therain2020-dsh-obsidian-sync",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Obsidian vault tools for DeepSeek Harness: write/read markdown notes with path-traversal protection"
+  },
+  {
+   "repo": "THUjry/dsh-harnessams-SmartAnaSim",
+   "name": "thujry-dsh-harnessams-smartanasim",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "tianhanly/dsh-genshin-redirect",
@@ -149201,6 +149495,20 @@
    "desc": "Deploy Guardian para DeepSeek Harness: revisa estado y logs de un VPS por SSH y ejecuta restart/deploy/rollbac"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-sandbox-sim",
+   "name": "thegabopacheco-sudo-dsh-plugin-sandbox-sim",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Simula y clasifica el riesgo de acciones antes de ejecutarlas en DeepSeek Harness: comandos destructivos, red,"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-tool-doctor",
+   "name": "thegabopacheco-sudo-dsh-plugin-tool-doctor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Diagnostico de servidores MCP instalados en DeepSeek Harness: arranca cada runtime en un DSH_HOME aislado, hac"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-uptime-watch",
    "name": "thegabopacheco-sudo-dsh-plugin-uptime-watch",
    "verdict": "incompatible",
@@ -155081,11 +155389,46 @@
    "desc": "Copias de seguridad versionadas para DeepSeek Harness: snapshots de carpetas con manifiesto SHA-256, verificac"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-disk-map",
+   "name": "thegabopacheco-sudo-dsh-plugin-disk-map",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Mide el uso de disco por carpeta y archivo en una ruta local, mostrando los mayores consumidores con profundid"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-error-digest",
+   "name": "thegabopacheco-sudo-dsh-plugin-error-digest",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Resumen de errores del harness: escanea transcripciones de sesiones y auditorias locales, agrupa errores repet"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-file-organizer",
    "name": "thegabopacheco-sudo-dsh-plugin-file-organizer",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Organizador de archivos para DeepSeek Harness: analiza carpetas, detecta duplicados por hash, ordena por tipo"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-image-batch",
+   "name": "thegabopacheco-sudo-dsh-plugin-image-batch",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Procesa imagenes por lote con ffmpeg: redimensiona, convierte y ajusta calidad en una carpeta, con vista previ"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-skill-index",
+   "name": "thegabopacheco-sudo-dsh-plugin-skill-index",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Indice local de skills para DeepSeek Harness: escanea carpetas con SKILL.md, extrae nombre/descripcion/cuando"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-startup-auditor",
+   "name": "thegabopacheco-sudo-dsh-plugin-startup-audito",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Audita apps de inicio de Windows: carpeta Startup y claves Run del registro, marcando entradas sospechosas."
   },
   {
    "repo": "TianJie52009/Tdsh-emoji",
@@ -165861,6 +166204,13 @@
    "desc": "Runtime data-flow audit log for DeepSeek Harness: who mutated what, in what order - per-plugin, per-fiber attr"
   },
   {
+   "repo": "Ssupervipuser/dsh-archived-cleanup",
+   "name": "ssupervipuser-dsh-archived-cleanup",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: list and permanently delete archived conversations, freeing their logs, cached projec"
+  },
+  {
    "repo": "StanElka/dsh-auto-archive",
    "name": "stanelka-dsh-auto-archive",
    "verdict": "ok",
@@ -165880,6 +166230,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "在 DeepSeek Harness 桌面端右键对话中的文件：打开、用默认应用打开、选择其他应用、复制路径、在资源管理器中打开"
+  },
+  {
+   "repo": "starighterily-art/dsh-line-tight",
+   "name": "starighterily-art-dsh-line-tight",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Tighter line height and paragraph spacing for the DSH chat transcript, adjustable in settings."
   },
   {
    "repo": "Stella-Mira/muse_galaxy",
@@ -166013,6 +166370,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Sync DeepSeek Harness model configuration and third-party API keys across machines, over S3-compatible storage"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-session-export",
+   "name": "thegabopacheco-sudo-dsh-plugin-session-export",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Exporta sesiones de DeepSeek Harness a Markdown o JSON: cabecera con metricas, turnos prompt/respuesta y trans"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-session-search",
+   "name": "thegabopacheco-sudo-dsh-plugin-session-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Buscador del historial de sesiones de DeepSeek Harness: indexa sesiones locales (transcripciones zstd y cache"
   },
   {
    "repo": "TheM14/dsh-session-cleaner",
@@ -170432,6 +170803,13 @@
    "desc": "Preview and permanently delete archived DeepSeek Harness Sessions together with their workspace artifacts."
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-config-doctor",
+   "name": "thegabopacheco-sudo-dsh-plugin-config-doctor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Diagnostico de configuraciones de plugins de DeepSeek Harness: valida JSON, campos obligatorios, tokens vacios"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-data-analyst",
    "name": "thegabopacheco-sudo-dsh-plugin-data-analyst",
    "verdict": "incompatible",
@@ -170453,6 +170831,20 @@
    "desc": "Cazador de facturas para DeepSeek Harness: extrae texto de PDFs con pdftotext, detecta fecha, proveedor, numer"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-json-transform",
+   "name": "thegabopacheco-sudo-dsh-plugin-json-transform",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Transforma JSON local sin eval: pick/omit/rename, flatten, ordenar, limitar, filtrar por campo y get por ruta,"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-metric-dashboard",
+   "name": "thegabopacheco-sudo-dsh-plugin-metric-dashboa",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Genera un dashboard SVG con tarjetas KPI y barras desde metricas JSON o CSV, con vista previa y guardado confi"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-payment-reconciler",
    "name": "thegabopacheco-sudo-dsh-plugin-payment-reconc",
    "verdict": "incompatible",
@@ -170465,6 +170857,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Price Watcher para DeepSeek Harness: vigila precios de productos con JSON-LD/OpenGraph, guarda historial y ale"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-sql-runner",
+   "name": "thegabopacheco-sudo-dsh-plugin-sql-runner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Ejecuta consultas SQL sobre SQLite local (node:sqlite): lista tablas, SELECT con limite y escrituras solo con"
   },
   {
    "repo": "Tinger-X/dsh-chapter-word-counter",
@@ -174954,6 +175353,13 @@
    "desc": "Dual avatars (user + assistant) for the DeepSeek Harness chat transcript, with an Avatars settings page."
   },
   {
+   "repo": "sweet560/dsh-plugin-wechat-session",
+   "name": "sweet560-dsh-plugin-wechat-session",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "微信会话互通聚合包：桌面弹窗 / 系统通知 + 提示音，30/60 秒超时后经 dsh-im 微信机器人把带问题原文与编号选项的清单发到微信，可直接在微信里回复选择"
+  },
+  {
    "repo": "thirteenkai/dsh-resend-editor",
    "name": "thirteenkai-dsh-resend-editor",
    "verdict": "ok",
@@ -178543,6 +178949,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "stealthpro/dsh-composer-balance",
+   "name": "stealthpro-dsh-composer-balance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Shows the remaining DeepSeek account balance under the message composer, with a details popover and a peak/off"
   },
   {
    "repo": "Stella-Mira/mira_account",
@@ -195471,6 +195884,13 @@
    "desc": "OpenCode's free-tier models for DeepSeek Harness: a local opencode serve makes the free models resolve, so no"
   },
   {
+   "repo": "TermerOfMe/dsh-study-reader",
+   "name": "termerofme-dsh-study-reader",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A DeepSeek Harness (DSH) plugin for reading PDFs, Word documents, and slides with AI translation, Q&A, and ann"
+  },
+  {
    "repo": "TestFox000/dsh-deepseek-peak-whale",
    "name": "testfox000-dsh-deepseek-peak-whale",
    "verdict": "ok",
@@ -206636,6 +207056,13 @@
    "desc": "Multi-root changes panel for DeepSeek Harness: one read-only Git changes view covering the session workspace r"
   },
   {
+   "repo": "SouthM/dsh-nanshan-market-publish",
+   "name": "southm-dsh-nanshan-market-publish",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "【南山】DSH插件市场发布：扫描本机正在开发的 DSH 组件，按官方 contributing.md 的要求分两轨引导完成 GitHub 代码提交与插件市场收录 PR，并生成 data/plugins/<owner>__"
+  },
+  {
    "repo": "sozercaniekosmosa/dsh-plugin-npm-run-shell",
    "name": "sozercaniekosmosa-dsh-plugin-npm-run-shell",
    "verdict": "pending",
@@ -206690,6 +207117,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Prompt optimizer for the DSH composer: one star button, two sliders, model switching, 11 toggleable rules"
+  },
+  {
+   "repo": "StarsObserverEric/dsh-multi-key-orchestrator",
+   "name": "starsobservereric-dsh-multi-key-orchestrator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把同一个对话的请求轮流分给同一服务方下的多把 API Key，均匀消耗各自额度；支持服务方/模型/单 Key 三级并发上限、为主进程保留槽位、429 自动换 Key 重试"
   },
   {
    "repo": "stayhpjinng/dsh-provider-proxy",
@@ -219894,6 +220328,20 @@
    "desc": "—"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-asset-optimizer",
+   "name": "thegabopacheco-sudo-dsh-plugin-asset-optimize",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Optimiza imagenes y videos para web con ffmpeg: reduce resolucion/calidad, convierte formato y reporta tamano"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-changelog-gen",
+   "name": "thegabopacheco-sudo-dsh-plugin-changelog-gen",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Genera CHANGELOG Markdown desde commits git, agrupando por tipo convencional (feat/fix/docs/etc.) y opcionalme"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-clip-factory",
    "name": "thegabopacheco-sudo-dsh-plugin-clip-factory",
    "verdict": "incompatible",
@@ -219908,11 +220356,60 @@
    "desc": "Clip Studio para DeepSeek Harness: descarga videos con yt-dlp, saca clips y verticales 9:16 con ffmpeg y quema"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-code-search",
+   "name": "thegabopacheco-sudo-dsh-plugin-code-search",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Busca simbolos (funciones, clases, exports, constantes) en un proyecto local con archivo y linea, soportando J"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-commit-craft",
+   "name": "thegabopacheco-sudo-dsh-plugin-commit-craft",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Sugiere mensajes de commit convencionales a partir del diff y los archivos cambiados, clasificando tipo y scop"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-dependency-doctor",
+   "name": "thegabopacheco-sudo-dsh-plugin-dependency-doc",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Audita dependencias locales de un proyecto Node: faltantes en node_modules, extraneas y versiones que no coinc"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-diff-reviewer",
+   "name": "thegabopacheco-sudo-dsh-plugin-diff-reviewer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Revisa cambios locales de git como un PR: archivos, lineas, secretos, console.log, TODOs, lockfiles y checklis"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-driver-report",
+   "name": "thegabopacheco-sudo-dsh-plugin-driver-report",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Reporte de drivers y dispositivos de Windows: nombre, estado, fabricante y version desde PowerShell, solo lect"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-hermano",
    "name": "thegabopacheco-sudo-dsh-plugin-hermano",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Memoria persistente para DeepSeek Harness: carga PREFERENCIAS_WENDIGO.md al iniciar, inyecta las preferencias"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-mcp-health",
+   "name": "thegabopacheco-sudo-dsh-plugin-mcp-health",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Salud historica de servidores MCP de DeepSeek Harness: handshake periodico, latencia, uptime por servidor y pe"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-media-index",
+   "name": "thegabopacheco-sudo-dsh-plugin-media-index",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Indexa y busca archivos de media locales con ffprobe: duracion, resolucion, codecs y tamano, filtros por nombr"
   },
   {
    "repo": "thegabopacheco-sudo/dsh-plugin-media-studio",
@@ -219922,11 +220419,53 @@
    "desc": "Media Studio para DeepSeek Harness: probe, conversion, recorte, clips verticales 9:16, miniaturas y subtitulos"
   },
   {
+   "repo": "thegabopacheco-sudo/dsh-plugin-project-context",
+   "name": "thegabopacheco-sudo-dsh-plugin-project-contex",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Contexto de proyecto para DeepSeek Harness: escanea manifiestos, README, stack, git y archivos recientes, y ge"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-provider-usage",
+   "name": "thegabopacheco-sudo-dsh-plugin-provider-usage",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Uso y rendimiento por proveedor/modelo en DeepSeek Harness: agrega tokens de entrada/salida/cache, cache hit r"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-repo-map",
+   "name": "thegabopacheco-sudo-dsh-plugin-repo-map",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Mapa de un repositorio para DeepSeek Harness: estructura, entrypoints, lenguajes, conteo de archivos/lineas y"
+  },
+  {
    "repo": "thegabopacheco-sudo/dsh-plugin-scam-shield",
    "name": "thegabopacheco-sudo-dsh-plugin-scam-shield",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Scam Shield para DeepSeek Harness: detecta estafas en URLs y textos (IP literal, acortadores, punycode, suplan"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-test-runner",
+   "name": "thegabopacheco-sudo-dsh-plugin-test-runner",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Ejecuta y resume tests de un proyecto local para DeepSeek Harness: detecta scripts (npm/pnpm/yarn/pytest), cor"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-thumbnail-designer",
+   "name": "thegabopacheco-sudo-dsh-plugin-thumbnail-desi",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Disena miniaturas SVG para videos/posts: titulo, subtitulo, badge, gradiente y color de acento, con vista prev"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-video-watermark",
+   "name": "thegabopacheco-sudo-dsh-plugin-video-watermar",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Superpone una marca de agua (imagen) sobre un video con ffmpeg: posicion, opacidad y margen configurables, ree"
   },
   {
    "repo": "TheRealChickenlegs/dsh-openai-provider",
@@ -221369,6 +221908,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-process-manager",
+   "name": "thegabopacheco-sudo-dsh-plugin-process-manage",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Lista y termina procesos de Windows con filtros y orden por memoria, con confirmacion para matar y reporte rea"
+  },
+  {
+   "repo": "thegabopacheco-sudo/dsh-plugin-scheduled-health",
+   "name": "thegabopacheco-sudo-dsh-plugin-scheduled-heal",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Chequeos locales de salud (disco libre, memoria, archivos) con historial en cache para ejecutar periodicamente"
   }
  ]
 }
