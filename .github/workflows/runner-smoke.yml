@@ -10,7 +10,9 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: runner-smoke
+  # 按事件 + 分支分组：同一分支的新提交取消旧运行；不同分支/PR 与 main 的 push 互不取消
+  # （原全局单组会让任一新运行把其他分支、甚至 main 上的运行取消掉）
+  group: runner-smoke-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -25,24 +27,31 @@ jobs:
         run: |
           pip install --quiet jsonschema
           python3 scripts/validate_contracts.py .
+      # 以下各项互相独立：任一失败不跳过后续检查（!cancelled()），一次报全部问题；整体结论仍为失败
       - name: 编译检查（scripts/ + engine/ 全量）
+        if: ${{ !cancelled() }}
         run: python3 -m compileall -q scripts engine
       - name: 冒烟① 磁贴资产生成（tile_assets，确定性输出）
+        if: ${{ !cancelled() }}
         run: |
           python3 scripts/tile_assets.py
           test -s assets/tile-ok.svg
           test -s assets/tile-adapt.svg
           test -s assets/tile-test.svg
       - name: 冒烟② 数据接口导出（dsh-radar/v1）
+        if: ${{ !cancelled() }}
         run: |
           python3 scripts/render-readme-from-snapshot.py
           python3 scripts/export-data.py .
           python3 -c "import json; n=len(json.load(open('data/plugins-all.json'))['plugins']); assert n>5000, n; print(f'[smoke] 数据接口 OK：{n} 条')"
       - name: 冒烟③ 稳定接口契约校验（schema/radar-v1.schema.json）
+        if: ${{ !cancelled() }}
         run: python3 scripts/validate_contracts.py .
       - name: 数据与渲染回归检查
+        if: ${{ !cancelled() }}
         run: |
           python3 scripts/test_repository_identity.py
           python3 scripts/test_review_regressions.py
       - name: 站点数据关联回归检查
+        if: ${{ !cancelled() }}
         run: python3 site/scripts/test_build_data.py
