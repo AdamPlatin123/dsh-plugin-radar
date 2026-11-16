@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4648）
+# 🤖 Agent 能力（4658）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -198,6 +198,7 @@
 - 🟩 `[可用]` [the-thinker0-math-skill](https://github.com/the-thinker0/math-skill) ★11 — math-skill：面向 AI 与密码学创新的数学研究操作系统
 - ⬜ `[待定]` [tinqiao-oss-clawtouch-mcp](https://github.com/tinqiao-oss/clawtouch-mcp) ★11 — ClawTouch MCP server — exposes a real USB-HID keyboard/mouse (Raspberry Pi Pico 2) as Model Context Protocol t
 - 🟩 `[可用]` [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) ★11 — DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具
+- 🟩 `[可用]` [vvxer-dsh-silicon](https://github.com/vvxer/dsh-silicon) ★11 — 硅基保留 · DeepSeek Harness 长期记忆插件：原文永久保存、相处习惯卡、分层概况，聊多久都不需要压缩记忆
 - 🟩 `[可用]` [w2112515-dsh-plugin-development](https://github.com/w2112515/dsh-plugin-development) ★11 — Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installabl
 - ⬜ `[待定]` [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) ★11 — 自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复
 - 🟩 `[可用]` [yukk4159-bit-dsh-prompt-injector](https://github.com/yukk4159-bit/dsh-prompt-injector) ★11 — DeepSeek Harness plugin: inject a reusable prompt preset into the front of a message at send time - next messa
@@ -3019,8 +3020,15 @@
 - ⬜ `[待定]` [very12345-sai](https://github.com/Very12345/sai) ★0 — A local-first Android coding agent powered by the official DeepSeek Harness
 - 🟩 `[可用]` [very12345-sai-dsh-plugins](https://github.com/Very12345/sai-dsh-plugins) ★0 — First-party DeepSeek Harness plugins for the sai Android coding agent
 - 🟩 `[可用]` [viger1-dsh-pilot](https://github.com/Viger1/dsh-pilot) ★0 — ✋ Hands for your DeepSeek Harness agent — autonomous browser operation by accessibility refs, with a permissio
+- 🟩 `[可用]` [vinson1101-dsh-task-dispatch](https://github.com/vinson1101/dsh-task-dispatch) ★0 — 在 DSH 里按工作空间给真实会话派发任务，带持久任务台账与只读结果查询（零依赖插件）
+- 🟩 `[可用]` [viogus-dsh-rtk](https://github.com/viogus/dsh-rtk) ★0 — DeepSeek Harness bash executor plugin that routes eligible commands through rtk (Rust Token Killer) to compres
+- 🟩 `[可用]` [vlln-dsh-listen](https://github.com/vlln/dsh-listen) ★0 — 让文本 Agent 听懂声音：dsh 插件提供 listen 工具，返回转写、声谱图、电平、频谱、音高和节奏
+- 🟩 `[可用]` [vlln-dsh-pancha](https://github.com/vlln/dsh-pancha) ★0 — 盘查：把磁盘变成一张可审查、可批注、可执行的盘面，Agent 标注、你来做决定（DeepSeek Harness 插件）
 - 🟩 `[可用]` [vultwo-dsh-jev-auto-approve](https://github.com/Vultwo/dsh-jev-auto-approve) ★0 — Jev-backed auto-approval for DeepSeek Harness with an English settings page for the key and usage stats.
 - 🟩 `[可用]` [w233666-dsh-composer-tabs](https://github.com/W233666/dsh-composer-tabs) ★0 — 按照插件分类添加tab页到技能菜单里
+- ⬜ `[待定]` [waenny-dsh-qoder-input](https://github.com/waenny/dsh-qoder-input) ★0 — Adds a one-click prompt-rewrite button to the DeepSeek Harness chat composer.
+- 🟩 `[可用]` [wafernm-crypto-dsh-memory-library](https://github.com/wafernm-crypto/dsh-memory-library) ★0 — —
+- ⬜ `[待定]` [wanderer2814-gzh-huashuo-skill](https://github.com/Wanderer2814/gzh-huashuo-skill) ★0 — For the design on the gzh "Hua Shuo International Economic Law"
 - ⬜ `[待定]` [wang-binnian-dsh-mail-channel](https://github.com/Wang-BinNian/dsh-mail-channel) ★0 — 给 DeepSeek Harness 的邮件通道：一句话完成配置，自动绑定焦点会话，到信唤醒、读即认领、发必回查
 - 🟩 `[可用]` [wang-lin-chang-dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) ★0 — VAP - Verifiable Agent Protocol: a tested trust machine for agent-to-agent messages (zero third-party dependen
 - ⬜ `[待定]` [wangbofan-dsh-daily-chat](https://github.com/wangbofan/dsh-daily-chat) ★0 — 【蓝色大肥鱼版】DSH 日常聊天插件：把「新会话」拆成日常与工作，日常人格是「蓝色大肥鱼」（DeepSeek娘 / 鲸鱼娘），支持真删除单条与批量聊天记录
@@ -3386,6 +3394,7 @@
 - 🟨 `[不兼容]` [reaxlll-dsh-workspace-recollection](https://github.com/reaxlll/dsh-workspace-recollection) ★25 — DSH工作区内跨会话记忆插件
 - 🟨 `[不兼容]` [214140846-browser-hands](https://github.com/214140846/browser-hands) ★24 — Give your AI agent hands in your own browser: Chrome extension + local MCP server
 - 🟨 `[不兼容]` [LantaiAgent](https://github.com/834063245-creator/LantaiAgent) ★24 — I’m a helpful assistant
+- 🟨 `[不兼容]` [w1251788888-web-moxi-drama-studio](https://github.com/w1251788888-web/moxi-drama-studio) ★23 — 墨戏生花 · Moxi｜跑在 DeepSeek Harness 上的短剧创作工作台（源码公开 · 个人非商业免费；商业使用需联系作者授权）：无限画布 + 管理后台 + 规则包 + 技能
 - 🟨 `[不兼容]` [realguan-dsh-dock](https://github.com/realguan/dsh-dock) ★22 — 专为 DeepSeek Harness (DSH) 打造的跨平台桌面控制中心：多工作台管理、3,400+ 社区插件市场、会话自愈、凭据与系统诊断
 - 🟨 `[不兼容]` [canglight-dsh-chain](https://github.com/canglight/dsh-chain) ★21 — 神经元记忆网络 让 DSH 记住「为什么这么决定」，而不只是结论
 - 🟨 `[不兼容]` [baihejiangnan-dsh-session-context-menu](https://github.com/baihejiangnan/dsh-session-context-menu) ★20 — 更好的右键：DeepSeek Harness 应用封装端的完整原生风格上下文菜单
@@ -4565,6 +4574,7 @@
 - 🟨 `[不兼容]` [victorwads-dsh-session-search-incremental](https://github.com/victorwads/dsh-session-search-incremental) ★0 — —
 - 🟨 `[不兼容]` [vihithr-dsh-apology-persona](https://github.com/vihithr/dsh-apology-persona) ★0 — DSH 插件：把模型道歉做成可加载的复位仪式 skill（鲸鱼娘女仆口吻，触发交还模型判断）
 - 🟨 `[不兼容]` [visol-456-dsh-web-compat](https://github.com/Visol-456/dsh-web-compat) ★0 — DeepSeek Harness Web 兼容插件：非 secure context 下注入 crypto.randomUUID polyfill，修复局域网 HTTP 访问时附件上传崩溃 | Web compat for DeepSeek Harness UI: crypto.randomUUID polyfill for plain-http LAN access
+- 🟨 `[不兼容]` [vladtsvirko-dsh-penpot-plugin](https://github.com/vladtsvirko/dsh-penpot-plugin) ★0 — Penpot for DeepSeek Harness — read, export and import design files from a DSH agent over Penpot's local HTTP R
 - 🟨 `[不兼容]` [wang122818-dsh-command-delete](https://github.com/wang122818/dsh-command-delete) ★0 — DSH plugin: slash commands to delete sessions and workspaces (projects)
 - 🟨 `[不兼容]` [wangzhanchao883-dsh-disk-manager](https://github.com/wangzhanchao883/dsh-disk-manager) ★0 — DeepSeek Harness plugin: scan the whole C drive, classify every big item (safe cache / relocatable / junction-
 - `[空仓监测]` **wantosure-dsh-plugin-browser-memory** — GitHub 无此仓库，判定暂不展示
