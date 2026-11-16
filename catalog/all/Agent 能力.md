@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（4675）
+# 🤖 Agent 能力（4684）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1509,6 +1509,8 @@
 - 🟩 `[可用]` [whateverboy2333-dsh-flat-teams](https://github.com/whateverboy2333/dsh-flat-teams) ★1 — Leaderless flat agent teams for DeepSeek Harness: cross-window structured task dispatch, recorder service, and
 - 🟩 `[可用]` [whning0513-deepseek-protocol-doctor](https://github.com/Whning0513/deepseek-protocol-doctor) ★1 — Checks DeepSeek tool loops, reasoning_content, strict schemas, and captured SSE
 - 🟩 `[可用]` [whxcjm-dsh-cost-bar](https://github.com/WhXcjm/dsh-cost-bar) ★1 — DeepSeek Harness 插件：输入栏成本条，显示本轮与会话的估算花费，点开看双栏明细
+- 🟩 `[可用]` [whybebabo-dsh-recent-sessions](https://github.com/whybebabo/dsh-recent-sessions) ★1 — Recent sessions across every workspace in one panel for DeepSeek Harness (DSH), plus deferred notes that come
+- 🟩 `[可用]` [william20100221-dsh-context-graph](https://github.com/William20100221/dsh-context-graph) ★1 — DeepSeek Harness plugin: remembers past conversations as a small graph
 - 🟩 `[可用]` [windwhiterain-dsh-history-access](https://github.com/windwhiterain/dsh-history-access) ★1 — Agent-facing recall of a session's own pre-compaction history for DeepSeek Harness: an outline, a paginated tr
 - 🟩 `[可用]` [winrngs-dsh-session-prompt-standalone](https://github.com/WinRNGS/dsh-session-prompt-standalone) ★1 — dsh的提示词注入
 - 🟩 `[可用]` [wode25500-dsh-niche-industries](https://github.com/WODE25500/dsh-niche-industries) ★1 — Cold-industry domain pack for DeepSeek Harness: agent presets + skills for tea tasting (GB/T 23776), classical
@@ -3054,8 +3056,12 @@
 - ⬜ `[待定]` [weixshaw-dsh-plugin-task-runner](https://github.com/weixshaw/dsh-plugin-task-runner) ★0 — Task Runner 任务拆解模式：主代理拆解任务、子代理（默认本地模型）并行执行再综合结果，并发/模型可按机器配置
 - 🟩 `[可用]` [wenhao4126-dsh-herdr](https://github.com/wenhao4126/dsh-herdr) ★0 — Expose Herdr workspaces, panes, and coding agents as DeepSeek Harness tools.
 - `[空仓监测]` **wha1echai-dsh-cross-session** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [whaithere-dsh-turn-usage](https://github.com/WhAIthere/dsh-turn-usage) ★0 — Per-turn cost in CNY plus 本轮/今日/会话 totals for DeepSeek Harness (dsh)
 - ⬜ `[待定]` [whaojie797-design-source-watch](https://github.com/whaojie797-design/source-watch) ★0 — Local, deterministic change-monitoring for the web sources your agent depends on
+- 🟩 `[可用]` [whitequeen306-dsh-peoplememory](https://github.com/whitequeen306/dsh-peoplememory) ★0 — DSH 长期记忆与用户画像插件：跨会话记住用户偏好、项目事实与近期结论
 - 🟩 `[可用]` [wickaninnish-dsh-skill-manager](https://github.com/Wickaninnish/dsh-skill-manager) ★0 — DeepSeek Harness 技能运维插件：自动发现、审计、去重和优化技能，构建安全可控的维护闭环
+- 🟩 `[可用]` [willmylife-dsh-event-gate](https://github.com/Willmylife/dsh-event-gate) ★0 — Event-driven trigger plugin for DeepSeek Harness: file watchers and local webhooks wake a target session and i
+- 🟩 `[可用]` [wilshi-dsh-memory-engine](https://github.com/WilShi/dsh-memory-engine) ★0 — Fork of dsh-memory-engine with a redesigned memory graph (@wilshi 0.8.0)
 - 🟩 `[可用]` [wingsky-1-dsh-skill-explorer](https://github.com/wingsky-1/dsh-skill-explorer) ★0 — DSH skill center plugin: browse loaded skills by source, enable/disable, create and delete
 - 🟩 `[可用]` [winniejq-dsh-conversation-cost](https://github.com/WinnieJQ/dsh-conversation-cost) ★0 — Per-conversation DeepSeek API cost badge for DeepSeek Harness (dsh): zero-dependency sessionCost projection wi
 - 🟩 `[可用]` [winyh-dsh-product](https://github.com/winyh/dsh-product) ★0 — dsh-product 是一个“互联网资讯查询 + 本地项目上下文”的 DeepSeek Harness 插件，用于把已经确认的产品机会转化为可验证、可交付、可迭代的产品
@@ -3992,6 +3998,7 @@
 - 🟨 `[不兼容]` [weicy98-dsh-permission-remote](https://github.com/weicy98/dsh-permission-remote) ★1 — 把一台 Linux 或 macOS 机器上的目录做成 DeepSeek Harness（DSH）工作区
 - 🟨 `[不兼容]` [weiyang742-dsh-cross-session-messaging](https://github.com/Weiyang742/dsh-cross-session-messaging) ★1 — Cross-session relay for DeepSeek Harness: peer discovery and text delivery between independent dsh processes.
 - 🟨 `[不兼容]` [weiyuzheng-cn-dsh-ecom-price](https://github.com/WeiyuZheng-CN/dsh-ecom-price) ★1 — DSH skill + plugin: read real Taobao/JD prices by driving your logged-in browser over CDP, and turn a procurem
+- 🟨 `[不兼容]` [wely1-dsh-topbar](https://github.com/WelY1/dsh-topbar) ★1 — Per-session status chips in the GNOME top bar for DeepSeek Harness.
 - 🟨 `[不兼容]` [wenowen-dsh-your-turn](https://github.com/WenOwen/dsh-your-turn) ★1 — Turn-handoff reminder for DeepSeek Harness: a centred popup and a synthesized chime for every Agent handoff.
 - 🟨 `[不兼容]` [windwhiterain-dsh-llm-quota-retry](https://github.com/windwhiterain/dsh-llm-quota-retry) ★1 — Answers an exhausted DeepSeek Harness account quota: move the session to another route of its pool when one st
 - 🟨 `[不兼容]` [windwhiterain-dsh-subagent-templates](https://github.com/windwhiterain/dsh-subagent-templates) ★1 — Named subagent templates for DeepSeek Harness: a template fixes a starting route (or the route pool it resolve
@@ -4602,7 +4609,9 @@
 - 🟨 `[不兼容]` [wepoi9-dsh-max-token-auto-continue](https://github.com/Wepoi9/dsh-max-token-auto-continue) ★0 — Community DSH host plugin that automatically resumes root-agent sessions after max-token truncation, with boun
 - 🟨 `[不兼容]` [whding110-dsh-dev-progress-memory](https://github.com/whding110/dsh-dev-progress-memory) ★0 — —
 - 🟨 `[不兼容]` [wig123-dsh-thread-tools](https://github.com/wig123/dsh-thread-tools) ★0 — Cross-session tools for DeepSeek Harness: list the deployment's other sessions and deliver a message to a live
+- 🟨 `[不兼容]` [wildchiken-dsh-doc-viewer](https://github.com/Wildchiken/dsh-doc-viewer) ★0 — DeepSeek Harness plugin: edit your own spreadsheets in place, together with the agent
 - 🟨 `[不兼容]` [wilshi-dsh-agentos-context](https://github.com/WilShi/dsh-agentos-context) ★0 — DSH memory & ontology workspace: community fork of @deepseek-ai/dsh-agentos-context with a redesigned graph
+- 🟨 `[不兼容]` [wilshi-dsh-gods-eye-view](https://github.com/WilShi/dsh-gods-eye-view) ★0 — Full God’s Eye View embedded in DeepSeek Harness with DSH agent control, process management and China/internat
 - 🟨 `[不兼容]` [win10ogod-dsh-agent-browser](https://github.com/win10ogod/dsh-agent-browser) ★0 — —
 - 🟨 `[不兼容]` [win10ogod-dsh-fount-memory](https://github.com/win10ogod/dsh-fount-memory) ★0 — Fount-inspired memory plugin for DeepSeek Harness with in-turn recall and no autonomous conversation turns
 - 🟨 `[不兼容]` [win10ogod-dsh-fount-reality](https://github.com/win10ogod/dsh-fount-reality) ★0 — Autonomous screen attention and private background Agent loop for DeepSeek Harness
