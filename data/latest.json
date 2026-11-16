@@ -1,17 +1,17 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T02:16:51Z",
- "snapshot_run_id": "20261116T021505Z",
+ "generated_at": "2026-11-16T02:31:44Z",
+ "snapshot_run_id": "20261116T023001Z",
  "stats": {
-  "ok": 17300,
-  "incompatible": 7278,
-  "pending": 3582,
+  "ok": 17332,
+  "incompatible": 7289,
+  "pending": 3592,
   "untested": 21,
   "gone": 1277,
   "ambiguous": 102,
   "unlocated": 21
  },
- "total_listed": 28181,
+ "total_listed": 28234,
  "runner_versions": {
   "schema": "dsh-radar/runner-versions/v1",
   "generated_at": "2026-11-15T19:54:42Z",

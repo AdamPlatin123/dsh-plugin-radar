@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7383）
+# 🔌 Web UI 增强（7399）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2772,9 +2772,13 @@
 - 🟩 `[可用]` [tcotc-dsh-plugin-default-workspace](https://github.com/TCOTC/dsh-plugin-default-workspace) ★1 — DSH plugin: pin the no-context fallback Workspace of new Sessions to one fixed folder (browser-side uiWorkspac
 - 🟩 `[可用]` [terry2010-dsh-rss-news-daily](https://github.com/terry2010/dsh-rss-news-daily) ★1 — dsh 插件：RSS 订阅 + AI 每日精选/时段快报 —— 侧栏新闻阅读器
 - ⬜ `[待定]` [thanksgiver233-deepseek-harness-win-desktop](https://github.com/Thanksgiver233/deepseek-harness-win-desktop) ★1 — `@deepseek-ai/dsh-win-desktop` 是 DeepSeek Harness（DSH）的 Windows 桌面插件，通过本地 HTTP 服务桥接 Windows 桌面会话
+- 🟩 `[可用]` [the-focus-ai-dsh-plugin-sidebar-workspace-nam](https://github.com/The-Focus-AI/dsh-plugin-sidebar-workspace-names) ★1 — DeepSeek Harness sidebar plugin: shows the owning workspace name on a second line under each session title in
+- 🟩 `[可用]` [theembers-dsh-quick-tasks](https://github.com/Theembers/dsh-quick-tasks) ★1 — DSH 左侧栏「后台任务」插件：管理需要后台运行的本地服务，一键启动/停止/重启与状态查看
+- 🟩 `[可用]` [theembers-dsh-workspace-icons](https://github.com/Theembers/dsh-workspace-icons) ★1 — Workspace & session icons for the DeepSeek Harness sidebar: pick an icon in the rename dialog, give local sess
 - 🟩 `[可用]` [dsh-nachoneko-theme](https://github.com/TheMyceliumOfAntan/dsh-nachoneko-theme) ★1 — DeepSeek Harness Nachoneko Theme
 - 🟩 `[可用]` [thirsty5034-dsh-git-forge](https://github.com/thirsty5034/dsh-git-forge) ★1 — DSH community plugin: GitHub/Gitea accounts, project grants, push policy (better-sidebar)
 - 🟩 `[可用]` [thundax-lyp-dsh-plugin-development](https://github.com/thundax-lyp/dsh-plugin-development) ★1 — An offline Agent Skill for building and testing DeepSeek Harness Cordis packages and plugins against dsh-v0.1.
+- 🟩 `[可用]` [thunderunruly-session-kanban](https://github.com/Thunderunruly/session-kanban) ★1 — DeepSeek Harness plugin: left-sidebar session kanban board with current work, todos, progress and a searchable
 - 🟩 `[可用]` [tianya-dao-dsh-pinned-sessions](https://github.com/TianYa-DAO/dsh-pinned-sessions) ★1 — Keeps running, finished-but-unopened and currently open sessions at the top of the DSH Web sidebar workspace l
 - ⬜ `[待定]` [tianzeluo-dsh-chatgpt-ui](https://github.com/TianzeLuo/dsh-chatgpt-ui) ★1 — A ChatGPT-desktop-style skin for the DSH Web GUI: Chat and Work modes, projects and sessions sidebar, pixel-ma
 - ⬜ `[待定]` [dsh-git-vcs](https://github.com/TiChuXiXi/dsh-git-vcs) ★1 — DSH Web GUI 的 Git 版本管理插件：右侧栏新增「版本管理」页，功能与界面参照 IntelliJ IDEA 的 Version Control 工具窗（本地变更 / 提交 / 历史 / 分支 / 命令 / 贮
@@ -5258,10 +5262,17 @@
 - 🟩 `[可用]` [teresa-coco-ohmydsh](https://github.com/Teresa-CoCo/ohmydsh) ★0 — OMP-flavoured DeepSeek Harness (dsh) distribution: TUI by default, desktop surface over one shared backend, pr
 - 🟩 `[可用]` [terrywangcode-dsh-mermaid-web](https://github.com/terrywangcode/dsh-mermaid-web) ★0 — DeepSeek Harness Web UI plugin for rendering Mermaid diagrams with zoom and a fullscreen workspace
 - 🟩 `[可用]` [tespio-dsh-balance-whale](https://github.com/tespio/dsh-balance-whale) ★0 — DeepSeek account balance and peak/off-peak pricing whale in the DSH sidebar footer.
+- 🟩 `[可用]` [th3r-dev-th3-plug](https://github.com/th3r-dev/th3-plug) ★0 — DeepSeek Harness plugins (plugs): shell commands from the chat box with ! or /sh, plus a template and scripts
 - 🟩 `[可用]` [thanhdz235123-commits-nyx-dsh-plugins](https://github.com/thanhdz235123-commits/nyx-dsh-plugins) ★0 — Nyx plugins for DeepSeek Harness — a right-side file panel and true edit-message, both drawn with the harness'
 - 🟩 `[可用]` [the-five-stooges-dsh-deepseek-usage](https://github.com/The-five-stooges/dsh-deepseek-usage) ★0 — DSH plugin: DeepSeek balance row in the sidebar footer plus a popover with locally estimated usage charts and
+- ⬜ `[待定]` [the932-dsh-session-delete](https://github.com/The932/dsh-session-delete) ★0 — Delete sessions from the DeepSeek Harness Web sidebar: a menu action plus a confirmation dialog that removes t
 - 🟩 `[可用]` [thegoodmorty-chat-pace](https://github.com/TheGoodMorty/chat-pace) ★0 — Configurable chat auto-scroll for the DeepSeek Harness web UI
+- 🟩 `[可用]` [theliudawei-dsh-codeflow-canvas](https://github.com/TheLiudawei/dsh-codeflow-canvas) ★0 — ComfyUI-style coding workflow canvas for DSH (DeepSeek Harness): nodes are agent-executable coding tasks, link
+- 🟩 `[可用]` [thembrace-dsh-thick-scrollbar](https://github.com/ThEmbrace/dsh-thick-scrollbar) ★0 — Hover-thickening scrollbars for the DeepSeek Harness Web GUI.
+- 🟩 `[可用]` [theroi-dsh-bg-panel](https://github.com/theroi/dsh-bg-panel) ★0 — DSH 个性化插件：自定义背景 + 半透明玻璃 + 主题色
+- 🟩 `[可用]` [thetd-dsh-workspace-batch](https://github.com/theTd/dsh-workspace-batch) ★0 — DeepSeek Harness web plugin: batch-remove sidebar Workspaces (registration only — folders and session logs are
 - 🟩 `[可用]` [theworld7-dsh-session-delete-plugin](https://github.com/Theworld7/dsh-session-delete-plugin) ★0 — A DeepSeek Harness (DSH) plugin that adds a permanent "Delete session" action to the sidebar session context m
+- 🟩 `[可用]` [theycallmexh-dsh-mindmap](https://github.com/TheycallmeXH/dsh-mindmap) ★0 — XMind-style mind maps inside the DeepSeek Harness web GUI
 - 🟩 `[可用]` [thezavtrak-a11y-dsh-cost-stats](https://github.com/thezavtrak-a11y/dsh-cost-stats) ★0 — Money on the screen for the DeepSeek Harness web GUI: per-turn USD cost in the chat, a Cost tab with charts, r
 - 🟩 `[可用]` [thezavtrak-a11y-dsh-image-annotate](https://github.com/thezavtrak-a11y/dsh-image-annotate) ★0 — Draw on a pasted screenshot in the DeepSeek Harness web GUI: pen, arrow, rectangle, ellipse and text stamps, f
 - 🟩 `[可用]` [thezavtrak-a11y-dsh-locale-ru](https://github.com/thezavtrak-a11y/dsh-locale-ru) ★0 — Russian language pack for the DeepSeek Harness web UI - a community DSH client plugin adding ru to Settings ->
@@ -5269,6 +5280,7 @@
 - ⬜ `[待定]` [thinkforge-core-dsh-upgrade-tools](https://github.com/ThinkForge-core/dsh-upgrade-tools) ★0 — Keep your DSH profile current: six compatibility checks against any core version, inspect a plugin before inst
 - 🟩 `[可用]` [thooy-dsh-client-ui-theme-manager](https://github.com/thooy/dsh-client-ui-theme-manager) ★0 — —
 - ⬜ `[待定]` [thr33h-deepseek-harness-humanity](https://github.com/Thr33H/Deepseek-Harness-Humanity) ★0 — A personification suite for DeepSeek Harness: persona, memory, skills, self-evolution and dreaming — behind on
+- 🟩 `[可用]` [thson-xue-dsh-path-lockbox](https://github.com/thson-xue/dsh-path-lockbox) ★0 — DeepSeek Harness (dsh) plugin: lock files/folders/drives against agent access - monotonic guard deny works eve
 - 🟩 `[可用]` [timebro9999-dsh-session-deck](https://github.com/Timebro9999/dsh-session-deck) ★0 — Manage your whole workspace in the DeepSeek Harness sidebar: a pinned band for projects and conversations, a b
 - ⬜ `[待定]` [timestatic-dsh-session-notebook](https://github.com/timestatic/dsh-session-notebook) ★0 — 面向 DeepSeek Harness(DSH)的本地优先笔记插件:把对话片段划线、引用, 整理成侧边栏里可搜索、可打标签、可导出的个人知识库
 - 🟩 `[可用]` [timsok-shit-dsh-conversation-tracker](https://github.com/timsok-shit/dsh-conversation-tracker) ★0 — DSH Web Conversation Navigator（对话追踪导航条）- 节点直接来自当前 conversation 完整 messages 数据
@@ -7254,9 +7266,13 @@
 - 🟨 `[不兼容]` [tenebris173-dsh-skin-abyssal](https://github.com/tenebris173/dsh-skin-abyssal) ★0 — 深渊 ABYSSAL —— DSH (DeepSeek Harness) UI 皮肤：近黑深海底 + 单一生物荧光光源 + 玻璃面板
 - 🟨 `[不兼容]` [tenebris173-dsh-skin-strata](https://github.com/tenebris173/dsh-skin-strata) ★0 — STRATA · 地层 — DSH UI 皮肤：工业网格 + 等高线背景，浅色纸面 / 深色终端两套底
 - 🟨 `[不兼容]` [termanli-dsh-fulltext-search](https://github.com/termanli/dsh-fulltext-search) ★0 — A DSH (DeepSeek Harness) Web GUI plugin that searches file contents in the current session working directory f
+- 🟨 `[不兼容]` [tests4gptplay-dsh-dots](https://github.com/Tests4gptplay/dsh-dots) ★0 — 为 DeepSeek Harness 提供 ChatGPT Dots 网页接入，支持 ChatGPT 账号登录、原生风格界面，以及自动适配明暗主题的状态栏图标
 - 🟨 `[不兼容]` [thanhvinh0265-art-dsh-locale-vi](https://github.com/thanhvinh0265-art/dsh-locale-vi) ★0 — Vietnamese language pack for DeepSeek Harness: adds the 'Tiếng Việt' UI language and a dictionary for every cl
+- 🟨 `[不兼容]` [thatgfsj-dsh-dsh-emotion-analyzer](https://github.com/thatgfsj-dsh/dsh-emotion-analyzer) ★0 — DSH 情绪分析器插件：本地 ONNX 推理为每条主模型回复打分，投影到会话状态并在网站注入可拖拽悬浮框
 - 🟨 `[不兼容]` [theheartfickle-dsh-one-dark-pro](https://github.com/TheHeartFickle/dsh-one-dark-pro) ★0 — DSH（DeepSeek Harness）主题插件：注册 One Dark Pro 配色，并把「外观」设置里的主题添加 One Dark Pro
+- 🟨 `[不兼容]` [therealchickenlegs-dsh-comfyui-workbench](https://github.com/TheRealChickenlegs/dsh-comfyui-workbench) ★0 — Local ComfyUI workbench for DeepSeek Harness (DSH): image/audio/video generation, W2/W3 sprite cards with Qwen
 - 🟨 `[不兼容]` [this-is-xiaodeng-dsh-plugin-notify](https://github.com/This-is-XiaoDeng/dsh-plugin-notify) ★0 — WxPusher + real browser notifications (sound, requireInteraction) for DeepSeek Harness session state changes —
+- 🟨 `[不兼容]` [this-is-xiaodeng-dsh-todo-queue](https://github.com/This-is-XiaoDeng/dsh-todo-queue) ★0 — DeepSeek Harness 的串行 TODO 队列板：全局/工作区队列各自最多一个会话，空闲自动派发，独立响应式面板 + 待验收浮窗
 - 🟨 `[不兼容]` [thisissevenpoints-deepseek-harness-local-svpt](https://github.com/thisissevenpoints/DeepSeek-Harness-Local-svpts) ★0 — DeepSeek Harness Local svpts —— 常驻托盘桌面壳（看门狗 + 注入式 UI + 局域网确认鉴权）
 - 🟨 `[不兼容]` [thucgra-dsh-quick-invoke](https://github.com/thuCGRA/dsh-quick-invoke) ★0 — `dsh-quick-invoke` 是一个面向 DSH Web 的独立 Cordis 插件，为 Skill、Agent preset 和 Plugin 提供统一的 `/` 快捷入口、候选选择和 Host 命令执行能力
 - 🟨 `[不兼容]` [tianyagk-dsh-tradewatcher](https://github.com/tianyagk/dsh-tradewatcher) ★0 — DeepSeek Harness (DSH) web plugin: 盯盘 market-dashboard sidebar tab — three quote strips with hover intraday ch
