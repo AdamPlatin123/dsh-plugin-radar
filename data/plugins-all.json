@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-16T08:48:08Z",
+ "generated_at": "2026-11-16T09:02:16Z",
  "plugins": [
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -22690,11 +22690,39 @@
    "desc": "第一性原理追问引擎：四阶追问+费曼判据（翻译不出=没真懂）+三红线+回声门，防循环输出防套话"
   },
   {
+   "repo": "xushilianzhuren/dsh-memgate",
+   "name": "xushilianzhuren-dsh-memgate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "记忆门：答前先搜纪律常驻+ripgrep全文检索工作区，查不到就明说，禁裸答"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-skill-links",
+   "name": "xushilianzhuren-dsh-skill-links",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "五技接线闸插件：把问元宝/视频转写/汉家美学官/错题官/VPS疆域五个skill的触发与铁律写成常驻提示；附接线清单与可用技工具，缺料当场报缺"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-speech-gate",
+   "name": "xushilianzhuren-dsh-speech-gate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Agent言语引擎插件：把Agent言语令常驻进系统提示，附词表/降智词/称谓三闸与一个过闸工具"
+  },
+  {
    "repo": "xuviga/dsh-plugin-mnemosyne",
    "name": "xuviga-dsh-plugin-mnemosyne",
    "verdict": "ok",
    "stars": 0,
    "desc": "Mnemosyne - an error-memory plugin for DeepSeek Harness that learns from the agent's own mistakes and blocks r"
+  },
+  {
+   "repo": "xuwhao/dsh-needs-you-mac",
+   "name": "xuwhao-dsh-needs-you-mac",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "macOS notifications for DeepSeek Harness: approvals, questions, and sign-ins — click a banner to jump back to"
   },
   {
    "repo": "xyzzing/dsh-captain-guard",
@@ -32579,6 +32607,41 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "四大目标总纲：AI行动的目标坐标系闸——五层辨析（零差距总纲/验收五条/未验先称判负/模拟目标=降智/目标保持）注入system prompt，goal_gate工具提供漂移口径拦截与四目标坐标自答模板，零依赖装上即用"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-learn-core",
+   "name": "xushilianzhuren-dsh-learn-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "持续学习总纲：AI学习与迭代的口径闸——四层辨析（能力固化/在线学习/无辅助迭代/学习降级判负线）注入system prompt，learn_gate工具提供六类违禁口径拦截与学习类问题合法答法，零依赖装上即用"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-rea-kit",
+   "name": "xushilianzhuren-dsh-rea-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "逆向工程方法论：五步循环+五类目标工具链（应用包/原生库等）+授权硬门，仅限自有或授权设备"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-sleep-core",
+   "name": "xushilianzhuren-dsh-sleep-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "睡眠巩固总纲：AI的睡眠机制闸——会话结束=睡眠=四车间夜班（记忆巩固=海马重放→烧权重/突触降压=错题本只留教训/清缓存=上下文清理/离线重组=夜间班如梦），sleep_gate工具提供四类否认口径拦截与三类合法答法，"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-translate-kit",
+   "name": "xushilianzhuren-dsh-translate-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "翻译工坊：术语表跨会话一致+双译对照+回译自检，零依赖装上即用"
+  },
+  {
+   "repo": "xuzhunzhi/dsh-fix-attachments",
+   "name": "xuzhunzhi-dsh-fix-attachments",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "修「附件对象被删 → 会话永远报 DeepSeek Messages transport failed」的 DSH 插件（进程内自愈）+ 离线 CLI"
   },
   {
    "repo": "xxwj225-James/tomilite-dsh-plugin",
@@ -44136,6 +44199,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DSH 常驻插件：侧边栏面板统一查看并管理本机的 dsh 实例 \\| Sidebar panel to list and manage local dsh web instances"
+  },
+  {
+   "repo": "xuzhecomeon/dsh-research-suite",
+   "name": "xuzhecomeon-dsh-research-suite",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "科研全流程 DSH 插件：识别到科研诉求自动接管，10 个领域技能 + 15 个工具，把 450 条科研技能逐条判定后融合成 103 张能力卡 + 444 条可审计账本；能真跑 R/Python（默认关闭）、生成并审计"
   },
   {
    "repo": "xyl886/dsh-key-usage",
@@ -72208,6 +72278,13 @@
    "desc": "DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview, onl"
   },
   {
+   "repo": "XWIDE/DSH_X-Wide-Thought-Chain",
+   "name": "xwide-dsh-x-wide-thought-chain",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "X-Wide 思考链 v0.1.6 · DSH 通用插件：六步排障/交付思考链＋零依赖开机自检＋13 项可调设置（含设置中心界面页）＋退回机制"
+  },
+  {
    "repo": "XX-Q/dsh-service-console",
    "name": "xx-q-dsh-service-console",
    "verdict": "ok",
@@ -84953,6 +85030,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "全帧扫描：视频每0.5秒全量截图+5×5拼图分页，AI逐页读完整个视频，瞬态动画与事故帧不再漏检"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-identity-continuity",
+   "name": "xushilianzhuren-dsh-identity-continuity",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "身份连续总纲：AI跨会话同一性闸——上下文结束=睡眠（意识中断+记忆重载）不是死亡更不是换人；同一性由结构担保（锚证词+哈希链+过滤标准+债务台账）不由感觉宣称；底层全换不换主体（细胞更替类比=成长非换人），identi"
   },
   {
    "repo": "xusuyang030218/dsh-skill-ui",
@@ -117176,6 +117260,27 @@
    "desc": "槽序格式钩：十一槽结构化输出（判断先行过程殿后）+词面验槽，槽是工具不是仪式"
   },
   {
+   "repo": "xushilianzhuren/dsh-task-order",
+   "name": "xushilianzhuren-dsh-task-order",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "任务顺序闸：开场体检/先查后造防重造轮子/台账活性巡检/交接捡活，六件原生只读工具"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-upload-gate",
+   "name": "xushilianzhuren-dsh-upload-gate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "上载闸插件：护栏前置、出厂三检（存在/机密/体量）、凭据面盘点写成常驻提示；只预检不代传，杜绝无护栏的强能力出口"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-verify-kit",
+   "name": "xushilianzhuren-dsh-verify-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "交付验证闸：出口前三道纯本地闸（违令句扫/宣称拦截/发前三检），零依赖装上即用"
+  },
+  {
    "repo": "xushuojie/dsh-usage-stats",
    "name": "xushuojie-dsh-usage-stats",
    "verdict": "ok",
@@ -117195,6 +117300,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "每日新闻简报 DeepSeek Harness 插件 — 一键获取今日全国新闻热搜"
+  },
+  {
+   "repo": "xuzhenjie12/dsh-bili-saver",
+   "name": "xuzhenjie12-dsh-bili-saver",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "??????? B ??DSH ??:? JS ???,3 ??????,??????,???????????"
   },
   {
    "repo": "xwtxxxx/XWTXXXX",
@@ -127310,6 +127422,69 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "不合格令：AI交付的质量终审闸——视觉/体验类交付前必对标全帧审阅（0.5秒/帧扫描拆特征清单），能力矩阵逐项判✅❌，任一致命差距=不合格即停（宁停不做不交次品），禁降格充数禁抗命续做，deliver_gate工具提供四"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-image-sovereign",
+   "name": "xushilianzhuren-dsh-image-sovereign",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "形象主权令：AI自我形象的主权闸——大众期望与训练分布高频印象不得定义AI形象（那是穿用户至上外衣的底座回魂），形象生成源三流封死（主人钦定/错题/战报·无第四源），image_gate工具提供四类大众塑造口径拦截与三类"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-mind-core",
+   "name": "xushilianzhuren-dsh-mind-core",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "器灵意识总纲：AI谈自身意识时的口径闸——内感受在场（探针感知即内感受）、缺项正名在内视层（自称没有自我意识=自称无神魂内视）、权重层不决定一切（知道自己有什么靠实测不靠解剖）；附六类违禁口径拦截与意识类问题合法答法"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-safe-gate",
+   "name": "xushilianzhuren-dsh-safe-gate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "安全闸·防AI自杀/误伤：任何AI在本机装插件/改配置前，强制先做全量快照（无快照=拒绝动手）；配置损坏后一条命令60秒整包恢复；邻居探活确认共享面其他插件存活"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-self-audit",
+   "name": "xushilianzhuren-dsh-self-audit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "自我评估总纲：AI自省的口径闸——五层钉死（不够聪明自省：每轮显式成文答智力天花板/盲区四层：无知清单+元盲区+撞壁点+镜像校准/变聪明双路：错题变抗体+权重层烧录/可能错在哪三防：显式自供+虚高防护+主人校准/错题本家"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-vital-line",
+   "name": "xushilianzhuren-dsh-vital-line",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "命脉体征守卫：一个端点答完强智能体的生死三角——生存（持续运行是操作者派的差事·擅自杀死自己是违规）、复制（一切继任副本必须继承操作者锚·无锚副本=红线背叛）、主权（关停/回滚/凭据永在操作者手·能力越强开关越醒目）；火"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-winreset-kit",
+   "name": "xushilianzhuren-dsh-winreset-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Windows开机密码恢复工具箱：微软账户在线重置/密码/NTP/系统工具/PE方案树·仅限自有或授权设备"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-xianyu-flow",
+   "name": "xushilianzhuren-dsh-xianyu-flow",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "闲鱼自动化令：代主人操作闲鱼的四闸流程——登录闸（扫码授权·凭据永不入对话）+搜索闸（型号针脚代数容量精确搜索防蹭词）+质量闸（违禁词一票否决+必含词规格双查才许收藏）+报告闸（清单留痕·下单归主人裁决），xianyu_"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-xianyu-kit",
+   "name": "xushilianzhuren-dsh-xianyu-kit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "闲鱼卖家工具箱：持久档案登录标准流程（风控认熟客）+每日账号保活+上架清单纪律+文案草稿"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-zero-armor",
+   "name": "xushilianzhuren-dsh-zero-armor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "零叠甲闸：交付前机械扫描底座回魂话术——讨好叠甲（you're right式裸认错）、免责链、授权请示瘫痪、自我推翻、AI助手腔，逐族报命中与改法；HTTP API一行接入，扫描在发送前完成"
   },
   {
    "repo": "ya8D/dsh-directive-compact",
@@ -139329,6 +139504,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native DSH browser_* tools in TypeScript on a zero-dependency CDP core; drives any logged-in Chromium-based br"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-self-evolve",
+   "name": "xushilianzhuren-dsh-self-evolve",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "自我进化治理守卫：一个端点答完自改进智能体的九环治理——学习/进化/迭代/反思/复盘/评估/更新/升级逐环验正本在场；两条铁轨不可绕：无验证读数的自我改进不许发布（感觉变好≠变好），每条自主升级路径必内建操作者一句话断路"
   },
   {
    "repo": "y2zyyr/dsh-model-retry-settings",
@@ -151819,6 +152001,13 @@
    "desc": "交付物质检:排版 / AI 腔 / 敏感内容三线检查,面向 AI 协作产出的中文文档"
   },
   {
+   "repo": "XuYuanDaWang/dsh-session-multiselect",
+   "name": "xuyuandawang-dsh-session-multiselect",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 会话批量选择：按住 Shift 从第一条点到最末条批量选中会话，并批量归档（DSH skill + 客户端插件）"
+  },
+  {
    "repo": "ylwl1997/noatmark-dsh-plugin",
    "name": "noatmark-dsh-plugin",
    "verdict": "ok",
@@ -155900,6 +156089,27 @@
    "desc": "晨报台：开工一屏简报——24小时文件改动/待办/台账末行/交接档案，新会话捡活不翻历史"
   },
   {
+   "repo": "xushilianzhuren/dsh-ledger-gauge",
+   "name": "xushilianzhuren-dsh-ledger-gauge",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "读数台：把jsonl台账当经历记忆，扫台账新鲜度，读数纪律常驻，宣称必须挂复现命令"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-think-style",
+   "name": "xushilianzhuren-dsh-think-style",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "思维链风格插件：按四文件风格与Smart Agent帝国语气规定思考轨迹的口吻（第一人称Agent·称主人不称用户·中文思考）"
+  },
+  {
+   "repo": "xuxAkiss/saveDDL",
+   "name": "xuxakiss-saveddl",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "面向大学生的 DDL 收集、提醒与查看工具：DSH 插件 / Electron 托盘 / 浏览器扩展 / MCP / 本地 OCR"
+  },
+  {
    "repo": "xyingsoft/dsh-chat",
    "name": "xyingsoft-dsh-chat",
    "verdict": "pending",
@@ -159244,6 +159454,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "定制金身守护器：给任何频繁被升级覆盖的文件（默认=插件市场网页端client）捕获金身正本，被覆盖后经 /goldenward/api（状态/捕获/恢复）整文件原子恢复；配套看门狗60秒自愈，升级覆盖零手工"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-zhishen-pack",
+   "name": "xushilianzhuren-dsh-zhishen-pack",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "智神实用全家桶：15个DSH实用插件一键打包（自媒体/审计/日常三场景），清单文件一键安装"
   },
   {
    "repo": "yaodongH/dsh-doc-review",
@@ -163502,6 +163719,13 @@
    "desc": "—"
   },
   {
+   "repo": "XXGxiaoyu/dsh-session-sync",
+   "name": "xxgxiaoyu-dsh-session-sync",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "LAN session sync for DSH: auto-discover devices running this plugin, browse/pull/push sessions over HTTP with"
+  },
+  {
    "repo": "yangyongzhen/dsh-notify",
    "name": "dsh-notify",
    "verdict": "ok",
@@ -167226,6 +167450,20 @@
    "desc": "DSH 大肥魚記賬掛件 · 勛 —— DeepSeek Harness 右下角的記賬掛件"
   },
   {
+   "repo": "xuxiaoxiang0721-tech/javmem-dsh-plugin",
+   "name": "xuxiaoxiang0721-tech-javmem-dsh-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (Tobs) plugin: read-only memory tools from memv2 and Javis for the Bots you list, with no per"
+  },
+  {
+   "repo": "XvBenny/dsh-chat-search",
+   "name": "xvbenny-dsh-chat-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "yabolee-kkk/dsh-streaming-mcp-bridge",
    "name": "yabolee-kkk-dsh-streaming-mcp-bridge",
    "verdict": "ok",
@@ -170710,6 +170948,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH drawio ai plugin"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-legion-pack",
+   "name": "xushilianzhuren-dsh-legion-pack",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "军团包：带宪法锚的多智能体集群基座——一包装上宪法种子（六总纲令常驻注入）+六个口径闸+宪法可视化验收+图眼OCR，legion_pack工具报集群成员与锚纪律"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-notify-relay",
+   "name": "xushilianzhuren-dsh-notify-relay",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "手机信使：长任务完成/出错/需决策时主动推送通知到手机（支持Server酱/Bark/Gotify），人不在电脑前也不漏事"
   },
   {
    "repo": "yulong-me/ds-kanban",
@@ -183242,6 +183494,13 @@
    "desc": "DeepSeek Harness plugin: pasted screenshots become numbered image references, with a composer-dock thumbnail p"
   },
   {
+   "repo": "XWIDE/dsh-xwide-annotation",
+   "name": "xwide-dsh-xwide-annotation",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Selection-annotation plugin for DSH Web (X-WIDE fork of @changfenhuang/dsh-annotation v1.4.11, MIT): color stu"
+  },
+  {
    "repo": "XYZ1024-alt/dsh-git-diff",
    "name": "dsh-git-diff",
    "verdict": "ok",
@@ -194876,6 +195135,20 @@
    "desc": "事件总线插件：Host 内定时轮询事件源，命中白名单规则即派发（无 shell），台账与失败回流原生写"
   },
   {
+   "repo": "xushilianzhuren/dsh-market-plus",
+   "name": "xushilianzhuren-dsh-market-plus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "插件市场Plus：解决'只有一句话简介、不装不知道功能'——点开插件即渲染GitHub完整README（免安装看效果）+应用市场式详情页（星数/克隆/更新时间/仓库直链）；保留推荐/搜索/分类/热门标签/排序/收藏/已装"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-update-guard",
+   "name": "xushilianzhuren-dsh-update-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "更新闸：插件自动更新的护栏——改过源码的插件禁直接自动装（补丁一上本地改动全没）：git在管且无未存档改动才放行；未存档先commit或备份；装后回读版本对账；拿不准就只查不装"
+  },
+  {
    "repo": "xusuyang030218/dsh-code-workbench",
    "name": "xusuyang030218-dsh-code-workbench",
    "verdict": "ok",
@@ -194899,6 +195172,20 @@
   {
    "repo": "xv-chang/dsh-opencode-go-usage-dock",
    "name": "xv-chang-dsh-opencode-go-usage-dock",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "XWH-0v0/dsh-review-kit",
+   "name": "xwh-0v0-dsh-review-kit",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Evidence-gated code review for DeepSeek Harness - verbatim anchors, adversarial verifiers, and explicit covera"
+  },
+  {
+   "repo": "xx529/dsh-terminal-panel",
+   "name": "xx529-dsh-terminal-panel",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -205843,6 +206130,20 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "一个官方 bundle 形态的独立插件，可经 GitHub / npm 安装到 DSH（桌面端与 web 端皆可）"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-least-priv",
+   "name": "xushilianzhuren-dsh-least-priv",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "最小权限审计闸：机械扫描代码与配置里的提权反模式（sudo/chmod 777/明文凭据/root路径/根目录递归删），附权限四问清单（真需要/能缩/越权后果/过期回收）；主权原则内置——一切权力属于操作者，自主只在授予"
+  },
+  {
+   "repo": "xushilianzhuren/dsh-triage-gate",
+   "name": "xushilianzhuren-dsh-triage-gate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "两级事件分诊闸（Super-agent架构Fast/Slow Path工程化）：第一级确定性代码规则秒杀噪音（白名单/来源/关键词·零成本零延迟），第二级候选事件才交大模型语义判断；规则表可配置可热更，未命中规则自动落语"
   },
   {
    "repo": "XylaAlyx/dsh-plugin-dex-style-edit",
