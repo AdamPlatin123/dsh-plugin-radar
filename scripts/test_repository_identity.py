@@ -94,6 +94,26 @@ class RepositoryIdentityTests(unittest.TestCase):
         self.assertEqual(ids.resolve('old/deepseek-harness-desktop'), 'latest/dsh-desktop')
         self.assertEqual(ids.resolve('new/deepseek-harness-desktop'), 'latest/dsh-desktop')
 
+    def test_dated_repo_map_beats_older_enrich_check(self):
+        # 仓库在 enrich 上次核验（低星仓 25 天一刷）之后改名：主机账本的较新观测必须胜出
+        enrich = {'old/plugin': {'full_name': 'old/plugin', 'canonical_id': 'github:9',
+                                 'identity_checked_at': '2026-11-04T00:15:07+00:00'}}
+        dated = {'new-plugin': {'full_name': 'new/plugin', 'canonical_id': 'github:9',
+                                'aliases': ['new/plugin', 'old/plugin'],
+                                'checked_at': '2026-11-14T23:40:00+00:00'}}
+        ids = RepositoryIdentities(repo_map=dated, enrich=enrich)
+        self.assertEqual(ids.resolve('old/plugin'), 'new/plugin')
+        self.assertEqual(ids.resolve('new/plugin'), 'new/plugin')
+        # 未带日期的旧式条目维持原口径：有核验时间的 enrich 优先
+        undated = {'new-plugin': {k: v for k, v in dated['new-plugin'].items() if k != 'checked_at'}}
+        ids = RepositoryIdentities(repo_map=undated, enrich=enrich)
+        self.assertEqual(ids.resolve('new/plugin'), 'old/plugin')
+        # enrich 晚于账本观测（账本陈旧）：enrich 胜出
+        newer = {'old/plugin': dict(enrich['old/plugin'], full_name='newest/plugin',
+                                    identity_checked_at='2026-11-15T01:00:00+00:00')}
+        ids = RepositoryIdentities(repo_map=dated, enrich=newer)
+        self.assertEqual(ids.resolve('new/plugin'), 'newest/plugin')
+
     def test_invalid_or_ambiguous_identity_fails_closed(self):
         for entries in (
             [{'full_name': 'https://bad.example/repo', 'aliases': []}],
