@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T07:02:12Z",
+ "generated_at": "2026-11-17T07:17:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -78760,6 +78760,13 @@
    "desc": "乐器调音"
   },
   {
+   "repo": "uia040808-design/dsh-connect-sensetime",
+   "name": "uia040808-design-dsh-connect-sensetime",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH bundle plugin that bridges the locally signed-in SenseTime Raccoon desktop client into DeepSeek Harness: s"
+  },
+  {
    "repo": "uigdwunm/dsh-conversation-jump",
    "name": "dsh-conversation-jump",
    "verdict": "ok",
@@ -90448,6 +90455,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "给 DSH 桌面版补一个可拖动的电源按钮：贴边自动收起，点开可重启或退出 DSH"
+  },
+  {
+   "repo": "whynpc9/dsh-t3code-sidebar",
+   "name": "whynpc9-dsh-t3code-sidebar",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "A T3 Code-style task sidebar for DeepSeek Harness, with session grouping and snooze (preview)."
   },
   {
    "repo": "wj2514939573-ui/dsh-security-gate",

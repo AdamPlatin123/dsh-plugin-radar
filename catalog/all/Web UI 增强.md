@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8663）
+# 🔌 Web UI 增强（8665）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6018,6 +6018,7 @@
 - 🟩 `[可用]` [uckkk-dsh-skin-type](https://github.com/uckkk/dsh-skin-type) ★0 — —
 - 🟩 `[可用]` [uckkk-dsh-spirit-guide](https://github.com/uckkk/dsh-spirit-guide) ★0 — —
 - 🟩 `[可用]` [uckkk-dsh-tune-guide](https://github.com/uckkk/dsh-tune-guide) ★0 — 乐器调音
+- 🟩 `[可用]` [uia040808-design-dsh-connect-sensetime](https://github.com/uia040808-design/dsh-connect-sensetime) ★0 — DSH bundle plugin that bridges the locally signed-in SenseTime Raccoon desktop client into DeepSeek Harness: s
 - 🟩 `[可用]` [dsh-conversation-jump](https://github.com/uigdwunm/dsh-conversation-jump) ★0 — 为 DSH Web 对话区提供回到顶部 / 上一条 / 下一条 / 回到底部的圆形导航按钮，自动处理更早历史分页
 - `[空仓监测]` **uigdwunm-dsh-ui-suite** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [uio-o-dsh-model-control](https://github.com/uio-o/dsh-model-control) ★0 — Unified model control for DeepSeek Harness: model picker + model management (channels, per-model capabilities)
@@ -7712,6 +7713,7 @@
 - 🟨 `[不兼容]` [wenheguo2-dsh-delegation-suite](https://github.com/wenheguo2/dsh-delegation-suite) ★1 — —
 - 🟨 `[不兼容]` [wepar1212-dsh-voice-input](https://github.com/wepar1212/dsh-voice-input) ★1 — DSH Web 中英语音输入插件，支持中英混合口述，基于浏览器 Web Speech API。 Chinese and English voice input for DSH Web, with mixed-language dictation via the browser Web Speech API.
 - 🟨 `[不兼容]` [whichwitchwin-dsh-power-button](https://github.com/WhichWitchWin/dsh-power-button) ★1 — 给 DSH 桌面版补一个可拖动的电源按钮：贴边自动收起，点开可重启或退出 DSH
+- 🟨 `[不兼容]` [whynpc9-dsh-t3code-sidebar](https://github.com/whynpc9/dsh-t3code-sidebar) ★1 — A T3 Code-style task sidebar for DeepSeek Harness, with session grouping and snooze (preview).
 - 🟨 `[不兼容]` [wj2514939573-ui-dsh-security-gate](https://github.com/wj2514939573-ui/dsh-security-gate) ★1 — SecurityGate（插件安检门）— inspect DSH plugins before install: dual-dimension static scan + LLM AI review + runtime
 - 🟨 `[不兼容]` [wjf1-dsh-commandcode](https://github.com/wjf1/dsh-commandcode) ★1 — DeepSeek Harness 的 Command Code LLM provider 插件：模型目录同步、请求重试、多凭据与设置面板 · DSH plugin: Command Code LLM provider w
 - 🟨 `[不兼容]` [wkfedor-deepseek-harness-voice-input](https://github.com/wkfedor/deepseek-harness-voice-input) ★1 — Local voice typing and speech-to-text plugin for DeepSeek Harness (dsh), powered by multilingual Whisper.
