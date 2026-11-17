@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5467）
+# 🤖 Agent 能力（5469）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2436,6 +2436,7 @@
 - ⬜ `[待定]` [heming-gmh-dsh-capcheck](https://github.com/heming-gmh/dsh-capcheck) ★0 — V0 capability-disclosure scanner for DeepSeek Harness (DSH) cordis plugins -- zero-execution static analysis o
 - 🟩 `[可用]` [herta-st-dsh-balance-card](https://github.com/HerTa-st/dsh-balance-card) ★0 — DSH 余额与用量浮层卡片：点图片从左侧滑出 / 再点缩回 + 点击回弹动画 · 官方余额 + 本地会话 token 三段计价估算
 - 🟩 `[可用]` [hexa-center-dsh-octagon-alerts](https://github.com/hexa-center/dsh-octagon-alerts) ★0 — Session chimes for choice, approval and completion — a DeepSeek Harness client plugin.
+- 🟩 `[可用]` [hgognav233-netizen-agent-workflow-viewer](https://github.com/hgognav233-netizen/agent-workflow-viewer) ★0 — DeepSeek Harness plugin: a live, zoomable map of what the model calls, what comes back, and which subagent it
 - 🟩 `[可用]` [hh12-web-dsh-tool-set-session-title](https://github.com/HH12-web/dsh-tool-set-session-title) ★0 — DeepSeek Harness（DSH）插件：对话标题工具，支持当前会话命名和历史会话重命名
 - ⬜ `[待定]` [hiccupgeng-dsh-briefing-skill](https://github.com/HiccupGeng/dsh-briefing-skill) ★0 — —
 - ⬜ `[待定]` [hiccupgeng-dsh-doc-skill](https://github.com/HiccupGeng/dsh-doc-skill) ★0 — DSH 规范文档生成技能（源自 Claude Code /doc）| Standardized doc generation skill for DeepSeek Harness: docs/yyyy_MM_dd_HH_<name>.md, type-aware checklists, pure Markdown, zero deps.
@@ -3925,6 +3926,7 @@
 - 🟩 `[可用]` [zouyuhang233-dsh-token-mascot](https://github.com/zouyuhang233/dsh-token-mascot) ★0 — 小汪：DSH（DeepSeek）右下角的 Q 版 token 看板娘，实时显示本会话 token、速率、上下文占用、当前任务与今日全部会话合计；可点击展开各会话明细
 - 🟩 `[可用]` [zoyluoblue-deepseek-harness-replay](https://github.com/zoyluoblue/deepseek-harness-replay) ★0 — Export any DeepSeek Harness session as a self-contained, replayable HTML transcript · 把 dsh 会话导出成自包含、可回放的 HTML
 - 🟩 `[可用]` [zq0929-dsh-lan-bridge](https://github.com/zq0929/dsh-lan-bridge) ★0 — Drive another DSH's session from an agent on your LAN — bidirectional, token-paired, per-session share switch,
+- 🟩 `[可用]` [zsagi1368-dsh-zcontext](https://github.com/zsagi1368/dsh-zcontext) ★0 — Model-driven incremental context folding plugin for the official DeepSeek harness — long sessions, low window
 - ⬜ `[待定]` [zszzlzm-dsh-context-compactor](https://github.com/zszzlzm/dsh-context-compactor) ★0 — L0-L5 context compaction pipeline for DSH + Ollama
 - 🟩 `[可用]` [zszzlzm-dsh-env-facts](https://github.com/zszzlzm/dsh-env-facts) ★0 — DSH plugin: structured environment facts with an as-of timestamp in the runtime-context snapshot
 - 🟩 `[可用]` [ztl0001-dsh-custom-instructions](https://github.com/ztl0001/dsh-custom-instructions) ★0 — One system prompt for every workspace — a Custom instructions page in DSH's Settings panel

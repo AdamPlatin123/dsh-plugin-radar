@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T07:32:13Z",
+ "generated_at": "2026-11-17T07:46:51Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -16796,6 +16796,13 @@
    "desc": "Session chimes for choice, approval and completion — a DeepSeek Harness client plugin."
   },
   {
+   "repo": "hgognav233-netizen/agent-workflow-viewer",
+   "name": "hgognav233-netizen-agent-workflow-viewer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: a live, zoomable map of what the model calls, what comes back, and which subagent it"
+  },
+  {
    "repo": "HH12-web/dsh-tool-set-session-title",
    "name": "hh12-web-dsh-tool-set-session-title",
    "verdict": "ok",
@@ -26727,6 +26734,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Drive another DSH's session from an agent on your LAN — bidirectional, token-paired, per-session share switch,"
+  },
+  {
+   "repo": "zsagi1368/dsh-zcontext",
+   "name": "zsagi1368-dsh-zcontext",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Model-driven incremental context folding plugin for the official DeepSeek harness — long sessions, low window"
   },
   {
    "repo": "zszzlzm/dsh-context-compactor",
@@ -61120,6 +61134,13 @@
    "desc": "DGW：GUI Git tool for Deepseek Harness"
   },
   {
+   "repo": "Zymjason/DSH_VCG",
+   "name": "zymjason-dsh-vcg",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "VCG 视觉控制生成器 (Visual Control Generator) — DeepSeek Harness Web GUI 插件：仿 ComfyUI 的节点式图像/视频生成工作流画布，聊天 VCG 画布模式、VC"
+  },
+  {
    "repo": "zypchloe-del/dsh-wallpaper",
    "name": "zypchloe-del-dsh-wallpaper",
    "verdict": "ok",
@@ -94620,6 +94641,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 远程文件下载：在网页预览中下载到当前设备，保留原生预览与界面样式"
+  },
+  {
+   "repo": "oxmumu3/dsh-incidental-learn",
+   "name": "oxmumu3-dsh-incidental-learn",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "在日常与 Agent 协作中顺手攒经验、沉淀个人技能库的 DeepSeek Harness 插件（对话末尾低调学习卡 + 后台自动存档 + 右侧边聊边学）"
   },
   {
    "repo": "oxomkbk/dsh-plugin-command-deck",
@@ -137476,6 +137504,13 @@
    "desc": "DeepSeek Harness 插件：给子智能体和队友逐个指定模型，点一下就换"
   },
   {
+   "repo": "DanneLeung/dsh-multi-key-rotation",
+   "name": "danneleung-dsh-multi-key-rotation",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness LLM multi api key rotation"
+  },
+  {
    "repo": "DaoMingze/dsh-plugin-wendao",
    "name": "daomingze-dsh-plugin-wendao",
    "verdict": "incompatible",
@@ -153280,6 +153315,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH Web 前端特效开关插件: 按分类关闭动画, 毛玻璃, 阴影, 渐变等特效, 降低浏览器渲染负担."
+  },
+  {
+   "repo": "Azheyc/novaflow-dsh-plugin",
+   "name": "azheyc-novaflow-dsh-plugin",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "NovaFlow account, native models, media MCP and user-confirmed plugin setup for DeepSeek Harness"
   },
   {
    "repo": "azure5100/huahua-dsh-plugin-orchestra",
@@ -169478,6 +169520,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: press the composer and pull up to send, drag back to cancel, drag clear of the conversation to voi"
+  },
+  {
+   "repo": "dingmac/dsh-superagent-monitor",
+   "name": "dingmac-dsh-superagent-monitor",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A manager and desktop entry for a standalone dsh-superagent: status, launchd service, start/stop, dashboard pl"
   },
   {
    "repo": "Diomchen/dsh-cross-agent",
@@ -190760,6 +190809,13 @@
    "desc": "DSH plugin - framework upgrade safety & plugin gating: contract pre-check, rollback point, auto-rollback on fa"
   },
   {
+   "repo": "AI4XE/Parallax",
+   "name": "ai4xe-parallax",
+   "verdict": "ok",
+   "stars": 129,
+   "desc": "A hands-off development plugin for AI coding agents (Claude Code, DeepSeek Harness, GitHub Copilot and more)"
+  },
+  {
    "repo": "THU-MAIC/dsh-openmaic",
    "name": "dsh-openmaic",
    "verdict": "ok",
@@ -201083,6 +201139,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "模仿codex auto-review 的自动审批机制"
+  },
+  {
+   "repo": "keli-wen/cospan",
+   "name": "keli-wen-cospan",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Orchestrate every model in its native harness — unified async delegation across Antigravity, Codex, Claude Cod"
   },
   {
    "repo": "keltanas/dsh-platform-balance",
@@ -213531,6 +213594,13 @@
    "desc": "Automatic model routing for DeepSeek Harness: three difficulty tiers (hard/normal/easy) plus vision routing, p"
   },
   {
+   "repo": "royrao2007/mont-BidCopilot",
+   "name": "royrao2007-mont-bidcopilot",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Dual-mode tender and bid drafting engine for DeepSeek Harness: 32 callable mont_* tools, code-enforced complia"
+  },
+  {
    "repo": "rpegorov/harness-review",
    "name": "rpegorov-harness-review",
    "verdict": "pending",
@@ -216161,6 +216231,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：在聊天记录中自动将本地音视频路径渲染为可播放的预览组件"
+  },
+  {
+   "repo": "XiaoPb/dsh-remote-hub",
+   "name": "xiaopb-dsh-remote-hub",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH dual-role remote-access plugin: pair a device and operate another DSH Host (QR/short-code pairing, per-dev"
   },
   {
    "repo": "xiaoshuai1024/dsh-brief",
@@ -224435,6 +224512,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "OpenCode Go quota badge for DeepSeek Harness (title-bar ring chip + usage card)"
+  },
+  {
+   "repo": "boldandigital/dsh-mailgun",
+   "name": "boldandigital-dsh-mailgun",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Send email through the Mailgun HTTP API with per-message open and click tracking, and read the delivery and en"
   },
   {
    "repo": "boldandigital/dsh-minimax-quota",
