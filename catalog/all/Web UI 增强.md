@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8665）
+# 🔌 Web UI 增强（8666）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3728,6 +3728,7 @@
 - 🟩 `[可用]` [awa-123-cw-dsh-ui-polish](https://github.com/awa-123-cw/dsh-ui-polish) ★0 — DeepSeek Harness 桌面端界面质感精修插件：去边框微分层 / 暗色字重补偿 / 双环聚焦 / 等宽数字 / 弹性动效 / 流式水墨（含思考输出）
 - 🟩 `[可用]` [awychoi-dsh-agents-md](https://github.com/awychoi/dsh-agents-md) ★0 — A right-sidebar markdown editor for DeepSeek Harness workspace instructions.
 - 🟩 `[可用]` [awychoi-dsh-vscode-quick-launch](https://github.com/awychoi/dsh-vscode-quick-launch) ★0 — Open VS Code from the sidebar menu or the session header
+- 🟩 `[可用]` [ax1omgg-dsh-offpeak-indicator](https://github.com/Ax1oMgg/dsh-offpeak-indicator) ★0 — DeepSeek Harness plugin: sidebar indicator for off-peak token pricing, verified against the official pricing p
 - ⬜ `[待定]` [axetroy-dsh-plugin-skills](https://github.com/axetroy/dsh-plugin-skills) ★0 — DeepSeek Harness 插件开发技能指南 / A skill guide for DeepSeek Harness plugin development.
 - 🟩 `[可用]` [axuan-1314-dsh-keepsake](https://github.com/axuan-1314/dsh-keepsake) ★0 — DSH 跨会话记忆插件：本地 markdown 落盘、自动提取+注入、零依赖 + 管理面板
 - ⬜ `[待定]` [aya-zhang-dsh-quota-ring](https://github.com/Aya-zhang/dsh-quota-ring) ★0 — DeepSeek Harness sidebar balance ring for macOS: live balance, estimated daily spend, and peak/off-peak usage.
