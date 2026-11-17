@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T18:17:13Z",
+ "generated_at": "2026-11-17T18:31:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -159820,6 +159820,13 @@
    "desc": "dsh token使用量插件"
   },
   {
+   "repo": "hosimitu/dsh-pet-ja",
+   "name": "hosimitu-dsh-pet-ja",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "dsh-pet（DSH デスクトップペット）の日本語化フォーク（非公式）"
+  },
+  {
    "repo": "HPNY/dsh-portfolio",
    "name": "hpny-dsh-portfolio",
    "verdict": "ok",
@@ -192970,6 +192977,13 @@
    "verdict": "pending",
    "stars": 274,
    "desc": "Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件"
+  },
+  {
+   "repo": "ZipengWu365/TOMC",
+   "name": "zipengwu365-tomc",
+   "verdict": "pending",
+   "stars": 264,
+   "desc": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other"
   },
   {
    "repo": "ZSeven-W/dsh-openpencil",
