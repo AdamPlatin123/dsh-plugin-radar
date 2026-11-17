@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T10:47:00Z",
+ "generated_at": "2026-11-17T11:01:56Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -51346,6 +51346,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Aqua glassmorphism theme plugin for DeepSeek Harness (DSH v0.2.x / desktop v0.22.3+) — original by WYH66666666"
+  },
+  {
+   "repo": "Aclguh/dsh-work-or-chat",
+   "name": "aclguh-dsh-work-or-chat",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Switch between DeepSeek Harness work mode and the official chat-demo UI, with local history and ZIP import."
   },
   {
    "repo": "act27/dsh-3d-model-studio",
@@ -212052,6 +212059,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "A preventive governance plugin for DeepSeek Harness: the cloud planner is denied write and shell access, a loc"
+  },
+  {
+   "repo": "jkfujr/dsh-codex-thread",
+   "name": "jkfujr-dsh-codex-thread",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: read and continue existing Codex sessions (list / read / new / send / wait / cancel)"
   },
   {
    "repo": "JMILI/dsh-seesion-copy-enhance",

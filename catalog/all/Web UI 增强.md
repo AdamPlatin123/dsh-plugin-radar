@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8771）
+# 🔌 Web UI 增强（8772）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1974,6 +1974,7 @@
 - 🟩 `[可用]` [aaronkate-dsh-codex-appearance](https://github.com/AaronKate/dsh-codex-appearance) ★1 — Appearance settings and a blue-gray theme for DeepSeek Harness
 - 🟩 `[可用]` [abyss2021-dsh-glass-skin](https://github.com/abyss2021/dsh-glass-skin) ★1 — —
 - 🟩 `[可用]` [acdsh4869-dsh-transparent-ui-plugin](https://github.com/acdsh4869/dsh-aqua-theme) ★1 — Aqua glassmorphism theme plugin for DeepSeek Harness (DSH v0.2.x / desktop v0.22.3+) — original by WYH66666666
+- ⬜ `[待定]` [aclguh-dsh-work-or-chat](https://github.com/Aclguh/dsh-work-or-chat) ★1 — Switch between DeepSeek Harness work mode and the official chat-demo UI, with local history and ZIP import.
 - 🟩 `[可用]` [act27-dsh-3d-model-studio](https://github.com/act27/dsh-3d-model-studio) ★1 — Preview 3D models and parse three.js scenes in the DeepSeek Harness right sidebar; export the full scene or pe
 - 🟩 `[可用]` [ad199-gif-dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) ★1 — Hide any dsh Web sidebar panel entry without disabling the plugin behind it
 - 🟩 `[可用]` [ada87-dsh-tag](https://github.com/ada87/dsh-tag) ★1 — Color tags for DSH sessions and workspaces: context-menu tags, colored titles, a sidebar filter bar, and 8 UI
