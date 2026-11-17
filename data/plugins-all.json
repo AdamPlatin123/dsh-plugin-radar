@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T09:47:20Z",
+ "generated_at": "2026-11-17T10:02:19Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -166631,13 +166631,6 @@
    "desc": "DSH Session Manager: manage conversations, archive/restore, delete safely, open record folders."
   },
   {
-   "repo": "LinYanZhi/dsh-mesh",
-   "name": "linyanzhi-dsh-mesh",
-   "verdict": "pending",
-   "stars": 19,
-   "desc": "dsh-mesh：把你自己多台电脑/手机上的 DSH 连成一个 AI 网络——局域网优先、跨机文件传输、AI 互相委托（Windows 优先，Early 0.x）"
-  },
-  {
    "repo": "AzaiSakura/dsh-computer-use",
    "name": "azaisakura-dsh-computer-use",
    "verdict": "pending",
@@ -175890,6 +175883,13 @@
    "verdict": "incompatible",
    "stars": 22,
    "desc": "Progressive tool-parameter documentation for DeepSeek Harness native TypeScript PTC, with a reproducible 78-to"
+  },
+  {
+   "repo": "LinYanZhi/dsh-mesh",
+   "name": "linyanzhi-dsh-mesh",
+   "verdict": "incompatible",
+   "stars": 19,
+   "desc": "dsh-mesh：把你自己多台电脑/手机上的 DSH 连成一个 AI 网络——局域网优先、跨机文件传输、AI 互相委托（Windows 优先，Early 0.x）"
   },
   {
    "repo": "dsh-plugin-lab/dsh-zhihu-search",
