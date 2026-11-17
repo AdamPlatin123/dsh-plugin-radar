@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T15:47:23Z",
+ "generated_at": "2026-11-17T16:32:42Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -161015,6 +161015,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-pet扩展插件"
+  },
+  {
+   "repo": "wdy8841693/ipadpet",
+   "name": "wdy8841693-ipadpet",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "鲸鱼娘 DSH 宠物 🐋 — iPad mini 4 全屏海底桌宠 + DeepSeek Harness 语音 Agent 插件（SpriteKit / SenseVoice / 零第三方依赖）"
   },
   {
    "repo": "whaojie797-design/career-fit-cn",
