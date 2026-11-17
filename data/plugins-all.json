@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T23:01:44Z",
+ "generated_at": "2026-11-17T23:17:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -87179,6 +87179,13 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "把「社区」装进 DSH：一个类 Discord 的社区插件 —— 在 DeepSeek Harness 面板内实时聊天、@ 提醒、贴图传文件、管理成员与权限"
+  },
+  {
+   "repo": "ShawnRen57/dsh-whale-trail",
+   "name": "shawnren57-dsh-whale-trail",
+   "verdict": "incompatible",
+   "stars": 4,
+   "desc": "Whale Trail · 鲸迹 — automatic local achievement badges for DeepSeek Harness, with whale-themed evolving artwork"
   },
   {
    "repo": "shenkonghui/dsh-llm-acp",
