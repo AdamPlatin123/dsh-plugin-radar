@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T10:02:19Z",
+ "generated_at": "2026-11-17T10:47:00Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -56570,6 +56570,13 @@
    "desc": "Cognition HUD 是 DSH Web UI 上的一个实时「认知监视」浮层"
   },
   {
+   "repo": "lw24-1936/dsh-memweave",
+   "name": "lw24-1936-dsh-memweave",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Memweave is a DSH organizational memory and task-evolution plugin"
+  },
+  {
    "repo": "lwx071001/dsh-account-meter",
    "name": "lwx071001-dsh-account-meter",
    "verdict": "pending",
@@ -64142,6 +64149,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "给 DSH Web-UI 的三栏做了各自独立的缩放"
+  },
+  {
+   "repo": "beyondgjc/dsh-agent-chat",
+   "name": "beyondgjc-dsh-agent-chat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "把 Super Agent 群聊与讨论接入 dsh（DeepSeek Harness）的 cordis 插件：5 个 agent 工具 + agent-chat skill + workbench UI 经 /wb 通道"
   },
   {
    "repo": "bgfhsnm/dsh-ask-alert",
