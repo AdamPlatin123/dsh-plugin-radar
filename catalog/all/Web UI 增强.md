@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8666）
+# 🔌 Web UI 增强（8668）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3442,6 +3442,7 @@
 - 🟩 `[可用]` [zyar-er-dsh-notify-bell](https://github.com/ZYar-er/dsh-notify-bell) ★1 — Semantic notification sounds for DeepSeek Harness: complete/approval/question/block/error via BEL or WAV, with
 - ⬜ `[待定]` [zyl20030506-dsh-session-delete](https://github.com/Zyl20030506/dsh-session-delete) ★1 — A recycle bin for DeepSeek Harness sessions: a red menu row moves a session into a 3-day bin that can be resto
 - 🟩 `[可用]` [zymjason-dsh-git-workbench](https://github.com/Zymjason/DSH_Git_Workbench) ★1 — DGW：GUI Git tool for Deepseek Harness
+- 🟩 `[可用]` [zymjason-dsh-vcg](https://github.com/Zymjason/DSH_VCG) ★1 — VCG 视觉控制生成器 (Visual Control Generator) — DeepSeek Harness Web GUI 插件：仿 ComfyUI 的节点式图像/视频生成工作流画布，聊天 VCG 画布模式、VC
 - 🟩 `[可用]` [zypchloe-del-dsh-wallpaper](https://github.com/zypchloe-del/dsh-wallpaper) ★1 — 给 DeepSeek Harness 网页版换壁纸的插件：上传自定义壁纸、调透明度、铺满整个界面背景
 - ⬜ `[待定]` [zyqchanel-06-dsh-model-hub](https://github.com/zyqchanel-06/dsh-model-hub) ★1 — DSH 模型中心：双栏模型选择器 + 悬浮能力面板，改动真实生效（零构建、零依赖）
 - 🟩 `[可用]` [zz12hui-dsh-deai-audit](https://github.com/zz12hui/dsh-deai-audit) ★1 — DSH 工具插件：文案去 AI 味审计（六维评分 + 逐句打标 + 改法），对话中直接调用 deai_audit / deai_audit_config
@@ -8311,6 +8312,7 @@
 - 🟨 `[不兼容]` [omdsh-dev-dsh-tui](https://github.com/omdsh-dev/dsh-tui) ★0 — Terminal UI front door for DeepSeek Harness (dsh) — Cordis plugin over pi-tui: transcript, tool cards, overlay
 - 🟨 `[不兼容]` [oobitoooo-dsh-quorum](https://github.com/oobitoooo/dsh-quorum) ★0 — DSH plugin: virtual council multi-agent review (context sandbox, TTD scoring with dynamic weights, 3-round cir
 - 🟨 `[不兼容]` [ousiqwq-dsh-file-bridge](https://github.com/ousiqwq/dsh-file-bridge) ★0 — DeepSeek Harness 远程文件下载：在网页预览中下载到当前设备，保留原生预览与界面样式
+- 🟨 `[不兼容]` [oxmumu3-dsh-incidental-learn](https://github.com/oxmumu3/dsh-incidental-learn) ★0 — 在日常与 Agent 协作中顺手攒经验、沉淀个人技能库的 DeepSeek Harness 插件（对话末尾低调学习卡 + 后台自动存档 + 右侧边聊边学）
 - 🟨 `[不兼容]` [oxomkbk-dsh-plugin-command-deck](https://github.com/oxomkbk/dsh-plugin-command-deck) ★0 — DeepSeek Harness页面 UI 更改为指挥台的界面美化插件，多种界面UI效果非常炫酷！
 - 🟨 `[不兼容]` [painclown-dsh-proxy-bridge](https://github.com/PAINCLOWN/dsh-proxy-bridge) ★0 — Lightweight reverse-proxy bridge for DSH web GUI - fixes WS 403 through nginx
 - 🟨 `[不兼容]` [panando-dsh-pua](https://github.com/panando/dsh-pua) ★0 — DSH PUA 修订版（基于 @michengai/dsh-pua v0.3.22）：解除上游全局总闸，让「入口常显」与「功能默认关闭」共存——输入栏菜单一键开关 PUA，界面紧凑化
