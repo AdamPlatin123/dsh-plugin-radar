@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8774）
+# 🔌 Web UI 增强（8775）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -266,6 +266,7 @@
 - 🟩 `[可用]` [classicoke-cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) ★21 — DSH execution-discipline plugin suite: 11 plugins + 6 skills, zero dependencies, 426 tests
 - 🟩 `[可用]` [iuikj-dsh-desktop](https://github.com/iuikj/dsh-desktop) ★21 — 一个微调美观的DeepSeek harness客户端（欢迎插件加入）
 - ⬜ `[待定]` [lukeinx-dsh-workboard](https://github.com/lukeinx/dsh-workboard) ★21 — DeepSeek Harness plugin: a modular dashboard with built-in widgets for agent workflows and daily work, plus sa
+- 🟩 `[可用]` [mrkennyhungry-dsh-cua](https://github.com/Mrkennyhungry/dsh-cua) ★21 — Windows 桌面自动化插件 for DeepSeek Harness (DSH) / Windows computer-use plugin: UIA, local OCR, window binding, brow
 - 🟩 `[可用]` [aks1st-dsh-cyber-particle](https://github.com/AKS1st/dsh-cyber-particle) ★20 — 为 DeepSeek Harness Web 界面添加动态粒子网络背景 \| Particle-network background plugin for DeepSeek Harness web
 - ⬜ `[待定]` [alice39s-agent-stash](https://github.com/Alice39s/agent-stash) ★20 — Personal Agent Skills and DeepSeek Harness (DSH) plugins: message edit, Skill Scout, prompt recall, autosugges
 - ⬜ `[待定]` [april-jk-dsh-mobile-suite](https://github.com/april-jk/dsh-mobile-suite) ★20 — Remote DeepSeek Harness from a paired mobile device through an outbound-only Relay

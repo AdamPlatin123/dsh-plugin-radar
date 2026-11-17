@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T17:47:26Z",
+ "generated_at": "2026-11-17T18:02:24Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39551,6 +39551,13 @@
    "verdict": "pending",
    "stars": 21,
    "desc": "DeepSeek Harness plugin: a modular dashboard with built-in widgets for agent workflows and daily work, plus sa"
+  },
+  {
+   "repo": "Mrkennyhungry/dsh-cua",
+   "name": "mrkennyhungry-dsh-cua",
+   "verdict": "ok",
+   "stars": 21,
+   "desc": "Windows 桌面自动化插件 for DeepSeek Harness (DSH) / Windows computer-use plugin: UIA, local OCR, window binding, brow"
   },
   {
    "repo": "AKS1st/dsh-cyber-particle",
@@ -162018,6 +162025,13 @@
    "desc": "DSH 插件：多市场金融数据 — A 股、美股、加密货币行情/K 线/选股/基本面"
   },
   {
+   "repo": "Doya16/dsh-shorekeeper",
+   "name": "doya16-dsh-shorekeeper",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "B站 400+ 收藏的守岸人桌宠，现在来陪你了"
+  },
+  {
    "repo": "FlyingFreeOwl/dshgirl-starter",
    "name": "flyingfreeowl-dshgirl-starter",
    "verdict": "incompatible",
@@ -222671,6 +222685,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "面向代码质量、工程安全与人机权责边界的 Agent Skills 集合（涵盖协作守则、Git/PR 工作流、Python 与 Rust 门禁）"
+  },
+  {
+   "repo": "divisioncassini05-lab/find-nyaa-anime-release",
+   "name": "divisioncassini05-lab-find-nyaa-anime-release",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "动漫搜索与自动追番：识别作品、核验 Nyaa 资源、筛选画质与中文字幕，支持 Codex Skill 和 DeepSeek Harness 插件"
   },
   {
    "repo": "DoveLi-Gu/dsh-showcase",
