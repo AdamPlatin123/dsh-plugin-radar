@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T21:16:55Z",
+ "generated_at": "2026-11-17T21:47:18Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -104970,7 +104970,7 @@
   {
    "repo": "1690834643/dsh-usage-dashboard",
    "name": "dsh-usage-dashboard",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
