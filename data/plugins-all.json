@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T20:47:10Z",
+ "generated_at": "2026-11-17T21:02:06Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -10004,13 +10004,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Composer infinity switch for DeepSeek Harness: injects an unlimited-token-budget notice into the system prompt"
-  },
-  {
-   "repo": "ljwzhaoxiaoniu/DLR",
-   "name": "ljwzhaoxiaoniu-dlr",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "DLR (Decoupled Logic Representation) + Three-Level Semantic Modeling (TSM) — a data-source-level semantic-laye"
   },
   {
    "repo": "llh11/deepseek-harness-desktop",
@@ -31615,6 +31608,13 @@
    "desc": "Append-only, multi-branch conversation trees for DeepSeek Harness — fork any historical prompt, clone sessions"
   },
   {
+   "repo": "ljwzhaoxiaoniu/DLR",
+   "name": "ljwzhaoxiaoniu-dlr",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DLR (Decoupled Logic Representation) + Three-Level Semantic Modeling (TSM) — a data-source-level semantic-laye"
+  },
+  {
    "repo": "lninghaha/dsh-hub-oauth-gateway",
    "name": "lninghaha-dsh-hub-oauth-gateway",
    "verdict": "incompatible",
@@ -39663,6 +39663,13 @@
    "verdict": "pending",
    "stars": 19,
    "desc": "Built with the dsh-bot plugin, this is an immersive 2.5D office game where you interact and collaborate with y"
+  },
+  {
+   "repo": "YanKaFei/art-aesthetic-vault",
+   "name": "yankafei-art-aesthetic-vault",
+   "verdict": "pending",
+   "stars": 19,
+   "desc": "A visual style library that turns art movements, drawing styles, film looks and camera recipes into composable"
   },
   {
    "repo": "zaimokuza-yoshiteru/dsh-acp-adapter",
