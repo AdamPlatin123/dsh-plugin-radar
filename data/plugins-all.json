@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T18:02:24Z",
+ "generated_at": "2026-11-17T18:17:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -46551,6 +46551,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "决策分屏：DSH Web UI 主窗口摘要+决策编辑，右侧详情栏完整 markdown 展示，决策一键回传 agent"
+  },
+  {
+   "repo": "YuigahamaHawk/dsh-paperhub",
+   "name": "yuigahamahawk-dsh-paperhub",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DeepSeek Harness插件：内置阅读器的文献库管理插件，具备AI排版、双语交替翻译与伴读助手功能，可从Zotero一键导入"
   },
   {
    "repo": "yunfei07/dsh-song-ui",
@@ -161444,6 +161451,13 @@
    "desc": "Pixel-art Little Red Riding Hood desktop pet for DeepSeek Harness"
   },
   {
+   "repo": "zz555z/dsh-zdd-pet",
+   "name": "zz555z-dsh-zdd-pet",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物"
+  },
+  {
    "repo": "edison7009/EchoBird",
    "name": "edison7009-echobird",
    "verdict": "incompatible",
@@ -220732,6 +220746,13 @@
    "verdict": "incompatible",
    "stars": 112,
    "desc": "给 DeepSeek Harness 换壁纸：一张图、一部番剧、一段会下雨的窗景，塞进对话窗口背后〔📦〕"
+  },
+  {
+   "repo": "q253595422/dsh-imagegen-video",
+   "name": "q253595422-dsh-imagegen-video",
+   "verdict": "incompatible",
+   "stars": 111,
+   "desc": "DeepSeek Harness plugin: image + video generation studio with an infinite canvas"
   },
   {
    "repo": "wink-run/tokenbank",
