@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T11:17:13Z",
+ "generated_at": "2026-11-17T11:32:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -20441,6 +20441,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Dictate prompts into the DeepSeek Harness Web Client — a microphone in the composer, with swappable transcript"
+  },
+  {
+   "repo": "NB-Corp/nb-speak-dsh",
+   "name": "nb-corp-nb-speak-dsh",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Zero-dependency DeepSeek Harness (DSH) native IM bubble & ElevenLabs v4 voice-note plugin: send_bubble + exec."
   },
   {
    "repo": "NB4747/dsh-session-sync",
@@ -78261,6 +78268,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "SemanticNebula · 语义星云 — decorative DSH / DeepSeek Harness plugin: every prompt becomes a rotating four-arm spi"
+  },
+  {
+   "repo": "sonruozimu/mbcc-console-wallpaper",
+   "name": "sonruozimu-mbcc-console-wallpaper",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "MBCC console theme for DeepSeek Harness: skippable opening video plus a local wallpaper library (upload, slide"
   },
   {
    "repo": "Sorphone/dsh-eyecare-bg",
@@ -191815,6 +191829,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh plugin: store and switch ChatGPT/Claude OAuth and Z.AI Coding Plan credentials in a Logins settings page"
+  },
+  {
+   "repo": "Na2Cr2O7/dsh-qq-automate",
+   "name": "na2cr2o7-dsh-qq-automate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "纯模拟无注入QQNT机器人框架"
   },
   {
    "repo": "NakliTechie/parallax",

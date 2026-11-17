@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5533）
+# 🤖 Agent 能力（5534）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2988,6 +2988,7 @@
 - `[空仓监测]` **nay-1-dsh-share-session** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **nay-1-dsh-skill-manage** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **nay-1-dsh-skill-manager** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [nb-corp-nb-speak-dsh](https://github.com/NB-Corp/nb-speak-dsh) ★0 — Zero-dependency DeepSeek Harness (DSH) native IM bubble & ElevenLabs v4 voice-note plugin: send_bubble + exec.
 - 🟩 `[可用]` [nb4747-dsh-session-sync](https://github.com/NB4747/dsh-session-sync) ★0 — —
 - 🟩 `[可用]` [necromanalbert-dsh-i-have-adhd](https://github.com/NecromanAlbert/dsh-i-have-adhd) ★0 — Always-on ADHD-friendly output for every DeepSeek Harness session
 - 🟩 `[可用]` [neil-ji-dsh-plugin-agnes-image](https://github.com/neil-ji/dsh-plugin-agnes-image) ★0 — Unofficial DSH desktop plugin: text-to-image and image-to-image tools for the agent, backed by Agnes Image 2.5
