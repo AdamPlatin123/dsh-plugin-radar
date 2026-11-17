@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T11:32:25Z",
+ "generated_at": "2026-11-17T11:47:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -23129,6 +23129,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Cross-session follow-up todo list for DeepSeek Harness"
+  },
+  {
+   "repo": "Tiger20240331/Intschool",
+   "name": "tiger20240331-intschool",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Radar on Intschool_Skill_v1.1 — one-page IntSchool radar report card skill for any subject teacher, tutor, coo"
   },
   {
    "repo": "TindalosKorone/dsh-agent-memory",
@@ -217799,6 +217806,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Prompt Forge for DeepSeek Harness: turn a rough image idea into model-ready prompts — 6 target dialects (Midjo"
+  },
+  {
+   "repo": "vicfei/agentdiary-dsh-plugin",
+   "name": "vicfei-agentdiary-dsh-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "agentdiary for DeepSeek Harness — your agents keep a diary, in your own git repo"
   },
   {
    "repo": "vicfei/dsh-auto-ontology",

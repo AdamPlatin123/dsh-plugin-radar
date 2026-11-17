@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5534）
+# 🤖 Agent 能力（5535）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3387,6 +3387,7 @@
 - ⬜ `[待定]` [tianshi1231-dsh-seawork-usage](https://github.com/tianshi1231/dsh-seawork-usage) ★0 — Seawork balance / 5h / weekly quota in the DeepSeek Harness session header (DSH bundle plugin)
 - ⬜ `[待定]` [tiantangcao1980-web-kjds](https://github.com/tiantangcao1980-web/kjds) ★0 — 把 SeaLeap 两个技能库（602+195 个技能）打包成 DeepSeek Harness 插件，并附一个可复用的跨平台电商运营内核 ops-core
 - 🟩 `[可用]` [tiaoma123-dsh-followup-todo](https://github.com/Tiaoma123/dsh-followup-todo) ★0 — Cross-session follow-up todo list for DeepSeek Harness
+- 🟩 `[可用]` [tiger20240331-intschool](https://github.com/Tiger20240331/Intschool) ★0 — Radar on Intschool_Skill_v1.1 — one-page IntSchool radar report card skill for any subject teacher, tutor, coo
 - 🟩 `[可用]` [tindaloskorone-dsh-agent-memory](https://github.com/TindalosKorone/dsh-agent-memory) ★0 — DSH 跨会话长期记忆插件：零运行时依赖、输出可自算自证、请求级隔离（CC BY-NC-SA 4.0）
 - 🟩 `[可用]` [tingfeng-droid-dsh-compaction-vcc](https://github.com/tingfeng-droid/dsh-compaction-vcc) ★0 — LLM-free deterministic context compaction for DeepSeek Harness
 - 🟩 `[可用]` [tiny-andr-dsh-chinese-cot](https://github.com/tiny-andr/dsh-chinese-cot) ★0 — Puts one editable line at the very front of every DeepSeek Harness system prompt, so the model thinks in Chine
