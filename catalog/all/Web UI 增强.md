@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8641）
+# 🔌 Web UI 增强（8646）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5525,6 +5525,7 @@
 - 🟩 `[可用]` [qifenglun1-dsh-prompt](https://github.com/qifenglun1/dsh-prompt) ★0 — A sidebar prompt template library for DeepSeek Harness: browse, manage, and insert reusable prompts into the c
 - `[空仓监测]` **qikairo7-dsh-usage-panel** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [qin839-dsh-visual-system](https://github.com/qin839/dsh-visual-system) ★0 — Wallpaper-driven visual system for the DeepSeek Harness Web GUI — one preset.json swaps the whole colour syste
+- ⬜ `[待定]` [qing-yylx-dsh-550w-theme](https://github.com/qing-yylx/DSH-550W-Theme) ★0 — A beautiful transparent theme for DSH
 - 🟩 `[可用]` [qingchunnh-dsh-desktop](https://github.com/qingchunnh/dsh-desktop) ★0 — DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI
 - ⬜ `[待定]` [qingfengzxr-dsh-session-flags](https://github.com/qingfengzxr/dsh-session-flags) ★0 — Colored, user-named flags for DeepSeek Harness session lists, with a searchable flagged-sessions sidebar panel
 - `[空仓监测]` **qingli-sketch-dsh-ui-kit** — GitHub 无此仓库，判定暂不展示
@@ -6998,6 +6999,7 @@
 - 🟨 `[不兼容]` [lutisure-cyrene-dsh-plugin](https://github.com/Lutisure/cyrene-dsh-plugin) ★5 — 昔涟角色 agent + 客户端主题 + 本地安全扫描，三个可独立安装的 DSH 插件
 - 🟨 `[不兼容]` [mozi-desk-mozi-forge](https://github.com/mozi-desk/mozi-forge) ★5 — A foundation for self-evolving AI agents, built on DeepSeek Harness.
 - 🟨 `[不兼容]` [ningbonb-dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) ★5 — Custom product name and logo branding for DeepSeek Harness Web 自定义 DeepSeek Harness Web 端 logo 和产品名称
+- 🟨 `[不兼容]` [ruohan0713-dsh-theme-studio](https://github.com/ruohan0713/dsh-theme-studio) ★5 — Twenty original literary themes for DeepSeek Harness (DSH): light/dark palettes, 116 design tokens, animated w
 - 🟨 `[不兼容]` [sakthiveltofficial-dsh-git-plugins](https://github.com/sakthiveltofficial/dsh-git-plugins) ★5 — dsh-git: Git & source-control plugin suite for DeepSeek Harness — local git + GitHub/GitLab/Bitbucket/Azure De
 - 🟨 `[不兼容]` [secretxuan-dsh-computer-use-win](https://github.com/secretxuan/dsh-computer-use-win) ★5 — Native-vision Windows computer-use for DeepSeek Harness: screenshots, UIA, OCR, and approval-gated input
 - 🟨 `[不兼容]` [sixtysevenlf-dsh-sound-alerts](https://github.com/sixtysevenlf/dsh-sound-alerts) ★5 — DSH Web UI 声音提示插件：需要授权/提问与任务完成时播放提示音 (Web Audio, no assets)
@@ -7736,6 +7738,7 @@
 - 🟨 `[不兼容]` [ylhow06-dsh-agnes-gen](https://github.com/Ylhow06/dsh-agnes-gen) ★1 — Agnes AI image/video generation tools (agnes_image / agnes_video) for DSH (DeepSeek Harness)
 - 🟨 `[不兼容]` [ylifeonlyonce-dsh-calendar](https://github.com/YLifeOnlyOnce/dsh-calendar) ★1 — See at a glance what DeepSeek did, and when
 - 🟨 `[不兼容]` [yswo-fei-dsh-api-heal](https://github.com/YSwo-fei/dsh-api-heal) ★1 — DeepSeek Harness 插件：界面报「API 密钥无效」时，自动定位并续期真正失效的那条凭据链（qoder / workbuddy-ai / our-free-model），然后重发请求
+- 🟨 `[不兼容]` [ytsu-ki-dsh-p3r-ui](https://github.com/ytsu-ki/dsh-p3r-ui) ★1 — Persona 3 Reload (Makoto Yuki) 60fps video backdrop, adaptive frosted-glass theme, and draggable HUD widgets f
 - 🟨 `[不兼容]` [dsh-workspace-enhance](https://github.com/yuanzehui313/dsh-workspace-enhance) ★1 — DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions
 - 🟨 `[不兼容]` [yuehancn-dsh-tool-comfyui](https://github.com/yuehancn/dsh-tool-comfyui) ★1 — Let DeepSeek Harness generate images: call local or LAN ComfyUI workers directly from chat (status, generate,
 - 🟨 `[不兼容]` [yukoz1227-dsh-ui-design-toggle](https://github.com/YukoZ1227/dsh-ui-design-toggle) ★1 — 由于 ui-ux-pro-max 原生不支持 DSH 而重建的插件：在 DSH 侧边栏一键启用/停用 ui-ux-pro-max 设计技能（适配 DSH 0.2.1-rc.2）
@@ -8399,6 +8402,7 @@
 - `[空仓监测]` **statem-li-dsh-webui** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [statou666-dsh-miniflux](https://github.com/statou666/dsh-miniflux) ★0 — Miniflux plugin for the DSH Web GUI: AI daily digest, picks and per-feed EPUBs, with a sidebar settings panel
 - 🟨 `[不兼容]` [stayhear0722-dev-deepseek-harness-skin](https://github.com/stayhear0722-dev/deepseek-harness-skin) ★0 — —〔📦〕
+- 🟨 `[不兼容]` [steelunicorn-dsh-db-tool-ru](https://github.com/steelunicorn/dsh-db-tool-ru) ★0 — DSH plugin fork of dsh-db-tool: Russian UI, English server layer, per-grant database allowlists (9 database en
 - 🟨 `[不兼容]` [stijnus-dsh-mcp-overview](https://github.com/Stijnus/dsh-mcp-overview) ★0 — Read-only MCP server overview for the DeepSeek Harness web GUI: connection status, transport, endpoint, and re
 - 🟨 `[不兼容]` [stolyarovmn-dsh-client-ui-plugin-market](https://github.com/Stolyarovmn/dsh-ui-registry-aggregator) ★0 — Federated plugin registry aggregator for DeepSeek Harness — combine npm, GitHub, and JSON catalogs into one se
 - 🟨 `[不兼容]` [strepsiades2-dsh-remote-ssh](https://github.com/Strepsiades2/dsh-remote-ssh) ★0 — SSH remote hosts for DeepSeek Harness: pick a host from ~/.ssh/config and open its DSH web UI in the browser.
@@ -8417,6 +8421,7 @@
 - 🟨 `[不兼容]` [superpaigu-dsh-conversation-outline](https://github.com/SuperPaiGu/dsh-conversation-outline) ★0 — DSH 对话右侧消息导航条插件
 - 🟨 `[不兼容]` [suxeca-dsh-client-ui-session-switcher](https://github.com/Suxeca/dsh-client-ui-session-switcher) ★0 — DSH session switcher: Ctrl+K command palette to create/archive/rename/search sessions, plus Ctrl+\[/\] cycling a
 - 🟨 `[不兼容]` [swiftlc-dsh-annotation](https://github.com/swiftlc/dsh-annotation) ★0 — Text annotation tools for the dsh web composer
+- 🟨 `[不兼容]` [t-splines-dsh-compaction-policy-engine](https://github.com/T-splines/dsh-compaction-policy-engine) ★0 — 为 DeepSeek Harness 提供分层、热加载的上下文压缩策略：供应商级规则、字段继承、比例/token 双单位、设置面板
 - 🟨 `[不兼容]` [t2094308-star-dsh-agent-contract](https://github.com/t2094308-star/dsh-agent-contract) ★0 — DSH 多智能体契约工作流引擎：契约注入 / 按角色委派 / 台账与审计 / 文档治理与索引 / 面板
 - 🟨 `[不兼容]` [tacotuesday22-dsh-aliyun-coupon-api](https://github.com/tacotuesday22/dsh-aliyun-coupon-api) ★0 — 阿里云余额 + 代金券挂件 \| DeepSeek Harness plugin: read-only Aliyun account balance & coupon balance via official OpenAP
 - 🟨 `[不兼容]` [tappat225-dsh-provider-hub](https://github.com/tappat225/dsh-provider-hub) ★0 — 自定义参数provider面板
