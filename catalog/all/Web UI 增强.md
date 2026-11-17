@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8773）
+# 🔌 Web UI 增强（8774）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6793,6 +6793,7 @@
 - ⬜ `[未测]` [dsh-hold-to-dictate](https://github.com/jryang1997/dsh-hold-to-dictate) — 输入框长按听写，复用官方语音输入模块已挂载的语音服务：长按输入框，松开后把转写写入草稿，不会自动发送，也不自带识别引擎。
 - ⬜ `[未测]` [dsh-ascii-whales](https://github.com/jryang1997/dsh-ascii-whales) — 海面正上方俯视的对话背景，支持用自定义文字或 ASCII 组成五种鲸类，含彩色字格、内容框毛玻璃、输入框避让、独立下潜、喷水、尾拍涟漪、风纹与云影；声明 dsh.bundle.patch
 - 🟨 `[不兼容]` [wanshuiyin-auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) ★19317 — ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re
+- 🟨 `[不兼容]` [nexu-io-openmotion](https://github.com/nexu-io/openmotion) ★10090 — The open-source Claude Motion & CapCut alternative
 - 🟨 `[不兼容]` [yjh051108-dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) ★7030 — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware re
 - 🟨 `[不兼容]` [dream-num-univer-workspace](https://github.com/dream-num/univer-workspace) ★2295 — Manage the Office content your agents create
 - 🟨 `[不兼容]` [unclecheng-li-ai-animation](https://github.com/Unclecheng-li/AI_Animation) ★1797 — 本项目整理了用于生成\[炫酷 HTML 动画网页\]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别

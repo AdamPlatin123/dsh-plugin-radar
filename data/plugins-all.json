@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T12:17:21Z",
+ "generated_at": "2026-11-17T14:17:22Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -84519,6 +84519,13 @@
    "verdict": "incompatible",
    "stars": 19317,
    "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re"
+  },
+  {
+   "repo": "nexu-io/openmotion",
+   "name": "nexu-io-openmotion",
+   "verdict": "incompatible",
+   "stars": 10090,
+   "desc": "The open-source Claude Motion & CapCut alternative"
   },
   {
    "repo": "yjh051108/dsh-routing-suite",
