@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T19:32:23Z",
+ "generated_at": "2026-11-17T19:46:53Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -148921,6 +148921,13 @@
    "desc": "DeepSeek Harness Desktop: dropped files and folders become @path references instead of uploads, by wiring the"
   },
   {
+   "repo": "4KAForever11/dsh-mcd-mcp",
+   "name": "4kaforever11-dsh-mcd-mcp",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "接入麦当劳mcp实现模型的麦当劳相关功能"
+  },
+  {
    "repo": "618527/dsh-install-guard",
    "name": "618527-dsh-install-guard",
    "verdict": "ok",
@@ -173832,6 +173839,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "用你写的模板，把 DSH 对话整理成表格、清单或周报，并保存成 Obsidian 笔记"
+  },
+  {
+   "repo": "reliable-ly0411/babeldoc-pdf-translate",
+   "name": "reliable-ly0411-babeldoc-pdf-translate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Portable agent skill for layout-preserving PDF translation with BabelDOC, bilingual output and custom terminol"
   },
   {
    "repo": "Renji004/dsh-omni-vision",
