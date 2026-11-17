@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T05:17:04Z",
+ "generated_at": "2026-11-17T06:17:17Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4957,6 +4957,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "Flutter mobile app + Dart wire-protocol SDK for the DeepSeek Harness (dsh)"
+  },
+  {
+   "repo": "aik8s/cubesandbox-agent-adapter",
+   "name": "aik8s-cubesandbox-agent-adapter",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Policy-controlled CubeSandbox execution adapter for OpenClaw and DeepSeek Harness"
   },
   {
    "repo": "ailuvu-art/dsh-favicon-status",
@@ -14890,6 +14897,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH（DeepSeek Harness）人设插件：在设置页里用 12 个字段分段配置 agent 的名字、称呼、自称、语气与行为准则，每次注入都有记录可查"
+  },
+  {
+   "repo": "climbh/dsh-plugin-delete-session",
+   "name": "climbh-dsh-plugin-delete-session",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件：在会话「…」菜单里加一个删除入口，确认后从本机彻底删掉该会话（日志目录、工作区引用、投影缓存），删的是当前会话时自动回到新会话窗口"
   },
   {
    "repo": "Cloud017/dsh-prompt-reforge",
@@ -51423,6 +51437,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside"
+  },
+  {
+   "repo": "banzhangdeerfenzhiyi/dsh-wechat-deploy-plugin",
+   "name": "banzhangdeerfenzhiyi-dsh-wechat-deploy-plugin",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH WeChat hook deploy/diagnose tools: status, prepare, launch, restart, build and service management for the"
   },
   {
    "repo": "BaoBao1996121/dsh-restart-ui",
@@ -182472,6 +182493,13 @@
    "desc": "运行中按一下只停当前回合，再按一下锁住注入闸门：后台任务、子代理汇报、定时提醒全部扣住，直到你发消息时一起送进模型"
   },
   {
+   "repo": "banzhangdeerfenzhiyi/dsh-qqmusic-plugin",
+   "name": "banzhangdeerfenzhiyi-dsh-qqmusic-plugin",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "QQ Music karaoke + AI cover singing for DeepSeek Harness WeChat/QQ persona bots (Demucs + RVC, native voice bu"
+  },
+  {
    "repo": "Barry-Liu-001/dsh_chat_index",
    "name": "barry-liu-001-dsh-chat-index",
    "verdict": "ok",
@@ -187776,6 +187804,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Real-time two-way bridge between DSH workspaces and private Feishu groups, with Markdown and durable delivery."
+  },
+  {
+   "repo": "banzhangdeerfenzhiyi/dsh-voicepack-plugin",
+   "name": "banzhangdeerfenzhiyi-dsh-voicepack-plugin",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Voice pack for the DSH WeChat persona: 15 Edge neural voices (female/male/dialects) plus RVC timbres, sent as"
   },
   {
    "repo": "Beeasy-L/dsh-watchman",

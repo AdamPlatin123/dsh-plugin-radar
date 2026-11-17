@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8662）
+# 🔌 Web UI 增强（8663）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2056,6 +2056,7 @@
 - 🟩 `[可用]` [baizz-520-dsh-theme-studio](https://github.com/baizz-520/dsh-theme-studio) ★1 — DSH 主题工坊 — 可自定义背景色/背景图、字体、输入框、边栏颜色的 DeepSeek Harness 主题插件（实时生效，43 项测试）
 - 🟩 `[可用]` [baka-world-dsh-sidebar-modes](https://github.com/baka-world/dsh-sidebar-modes) ★1 — —
 - 🟩 `[可用]` [banana770-dsh-work-badge](https://github.com/banana770/dsh-work-badge) ★1 — Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside
+- 🟩 `[可用]` [banzhangdeerfenzhiyi-dsh-wechat-deploy-plugin](https://github.com/banzhangdeerfenzhiyi/dsh-wechat-deploy-plugin) ★1 — DSH WeChat hook deploy/diagnose tools: status, prepare, launch, restart, build and service management for the
 - 🟩 `[可用]` [baobao1996121-dsh-restart-ui](https://github.com/BaoBao1996121/dsh-restart-ui) ★1 — One-click cross-platform restart button for DeepSeek Harness Web UI
 - 🟩 `[可用]` [baobaolaodie-flow-comet](https://github.com/baobaolaodie/flow-comet) ★1 — An automated execution engine that turns AI coding discipline into a verifiable state machine, built for Claud
 - 🟩 `[可用]` [baroncyrus-dsh-grok-subscription](https://github.com/BaronCyrus/dsh-grok-subscription) ★1 — Use a SuperGrok / X Premium Grok Build subscription in DeepSeek Harness
