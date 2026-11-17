@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8775）
+# 🔌 Web UI 增强（8776）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -7164,6 +7164,7 @@
 - 🟨 `[不兼容]` [qrxf-dsh-workspace-graph](https://github.com/qrxf/dsh-workspace-graph) ★4 — DeepSeek Harness 原生插件：可拖拽的工作区 / 会话图谱，气泡视图 + 筛选搜索 + 原生会话操作 \| Draggable workspace & session graph plugin for DSH
 - 🟨 `[不兼容]` [sbbbx-dsh-client-ui-webchat](https://github.com/sbbbx/dsh-client-ui-webchat) ★4 — 把网页版 DeepSeek 接进 DSH 桌面端：内嵌面板 + 与 agent 会话双向搬运（带走/喂回去）
 - 🟨 `[不兼容]` [seolhw-dsh-hello-plugin](https://github.com/seolhw/dsh-guild) ★4 — 把「社区」装进 DSH：一个类 Discord 的社区插件 —— 在 DeepSeek Harness 面板内实时聊天、@ 提醒、贴图传文件、管理成员与权限
+- 🟨 `[不兼容]` [shawnren57-dsh-whale-trail](https://github.com/ShawnRen57/dsh-whale-trail) ★4 — Whale Trail · 鲸迹 — automatic local achievement badges for DeepSeek Harness, with whale-themed evolving artwork
 - 🟨 `[不兼容]` [shenkonghui-dsh-llm-acp](https://github.com/shenkonghui/dsh-llm-acp) ★4 — DeepSeek Harness 的 ACP 客户端 LLM 适配器 + ACP 服务设置界面
 - 🟨 `[不兼容]` [shuishuipingan-inkweaver](https://github.com/shuishuipingan/InkWeaver) ★4 — 织墨 InkWeaver — 以本地化为核心的长篇小说创作空间，具备持续章节连贯性、基于证据的审阅、运行日志以及经过验证的 DSH 插件      织墨 InkWeaver — local-first long-form
 - 🟨 `[不兼容]` [snzhi000-sys-harness-macos-desktop-plugin-sui](https://github.com/snzhi000-sys/harness-macos-desktop-plugin-suite) ★4 — 基于 DeepSeek‑Harness 的 macOS 桌面定制客户端，在基座之上完成原生打包运行；内置多款自研、经过迭代优化的办公插件，适配产品经理轻度开发、PRD 文档撰写等办公场景〔📦〕
