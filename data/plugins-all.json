@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T04:17:09Z",
+ "generated_at": "2026-11-17T05:02:00Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -129300,13 +129300,6 @@
    "desc": "—"
   },
   {
-   "repo": "Watchcats211/dsh-podwave",
-   "name": "watchcats211-dsh-podwave",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "wcdlan/dsh-qiniu-usage",
    "name": "wcdlan-dsh-qiniu-usage",
    "verdict": "ok",
@@ -131613,6 +131606,13 @@
    "repo": "zzy-cl/dsh-web-search-tavily",
    "name": "zzy-cl-dsh-web-search-tavily",
    "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "Watchcats211/dsh-podwave",
+   "name": "watchcats211-dsh-podwave",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
