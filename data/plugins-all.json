@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T19:02:28Z",
+ "generated_at": "2026-11-17T19:17:28Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -114889,6 +114889,13 @@
   {
    "repo": "Elysiaqwq/dsh-reasoning-depth",
    "name": "elysiaqwq-dsh-reasoning-depth",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "emtpzh/dotline",
+   "name": "emtpzh-dotline",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
