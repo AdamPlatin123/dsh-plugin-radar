@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T16:32:42Z",
+ "generated_at": "2026-11-17T16:47:28Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -166918,6 +166918,13 @@
    "desc": "dsh-conv-export（对话导出）— export the current DeepSeek Harness conversation as Markdown, PDF, or a long PNG image"
   },
   {
+   "repo": "KratosLee-6/Html-ninefox",
+   "name": "kratoslee-6-html-ninefox",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "Html九尾狐 · 本地优先的 HTML 创作工作台：需求 → 分析 → 组合 → 生成 → PDF / PNG / PPTX / Word 导出，离线可用，AI 可选"
+  },
+  {
    "repo": "LUgABeEEE/minas-webdav",
    "name": "lugabeeee-minas-webdav",
    "verdict": "pending",
@@ -193147,6 +193154,13 @@
    "desc": "AI-managed Auto Compact for DeepSeek Harness: the agent decides when to compact context and what to retain bas"
   },
   {
+   "repo": "pearjelly/deep-blend",
+   "name": "pearjelly-deep-blend",
+   "verdict": "ok",
+   "stars": 102,
+   "desc": "Create and refine Blender product scenes in DSH: editable recipes, model imports, real previews, saved revisio"
+  },
+  {
    "repo": "SuLiuCanYing/dsh-billing-statistics",
    "name": "suliucanying-dsh-billing-statistics",
    "verdict": "ok",
@@ -193940,7 +193954,7 @@
   {
    "repo": "1001WillsStudio/AuroraCoder",
    "name": "AuroraCoder",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 20,
    "desc": "An autonomous AI coding agent with novel innovations in tool state management and code editing, running in a D"
   },
