@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8772）
+# 🔌 Web UI 增强（8773）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5877,6 +5877,7 @@
 - 🟩 `[可用]` [sonettogu14-dsh-session-smart-rename](https://github.com/SonettoGu14/dsh-session-smart-rename) ★0 — DSH Web GUI plugin: a sidebar "Smart rename" action reads the session conversation, asks its own model for a c
 - 🟩 `[可用]` [songwenhao-onedark-dsh-theme](https://github.com/songwenhao/onedark-dsh-theme) ★0 — One Dark Pro themes for DeepSeek Harness (dsh) - Desktop / Web GUI / dsh-TUI
 - 🟩 `[可用]` [songzhou666-dsh-spiral](https://github.com/songzhou666/dsh-spiral) ★0 — SemanticNebula · 语义星云 — decorative DSH / DeepSeek Harness plugin: every prompt becomes a rotating four-arm spi
+- 🟩 `[可用]` [sonruozimu-mbcc-console-wallpaper](https://github.com/sonruozimu/mbcc-console-wallpaper) ★0 — MBCC console theme for DeepSeek Harness: skippable opening video plus a local wallpaper library (upload, slide
 - 🟩 `[可用]` [sorphone-dsh-eyecare-bg](https://github.com/Sorphone/dsh-eyecare-bg) ★0 — 给 DeepSeek Harness（DSH）换护眼绿背景的插件：覆盖 31 个背景 token（画布/卡片/侧栏/输入框/代码块…），自带设置面板并注册进 DSH 设置页
 - ⬜ `[待定]` [soulyang-dsh-baogongtou](https://github.com/soulYANG/dsh-baogongtou) ★0 — 包工头：DeepSeek Harness 工作 agent 皮肤
 - 🟩 `[可用]` [soulzhou-dsh-context-windows](https://github.com/SoulZhou/dsh-context-windows) ★0 — Visual per-model context-window adjustment for WorkBuddy and Trae connectors in DeepSeek Harness
