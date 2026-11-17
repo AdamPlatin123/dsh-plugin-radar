@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T06:17:17Z",
+ "generated_at": "2026-11-17T07:02:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -11054,6 +11054,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 插件：查看 SCNet Token Plan 额度、每日消耗与 token 构成"
+  },
+  {
+   "repo": "Root-7-KHX/habit-hint",
+   "name": "root-7-khx-habit-hint",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Habit-hint local small model for DeepSeek Harness — reads recent chat, outputs habits/key points/hints, inject"
   },
   {
    "repo": "rrrrrredy/skill-security-guard",
@@ -158621,6 +158628,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "镜像：dsh-pet-to-family v0.7.1 — DSH 蓝色大肥鱼桌宠（上游 zi-O1/dsh-pet-to-family，MIT）"
+  },
+  {
+   "repo": "SpringRinbowCat/dsh-algorithm-tools",
+   "name": "springrinbowcat-dsh-algorithm-tools",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "算法训练台：Codeforces/AtCoder 刷题同步、弱项分析、每日三档训练、Rank 复盘、赛事与打卡"
   },
   {
    "repo": "starwithfox/dsh-pet-seen",
