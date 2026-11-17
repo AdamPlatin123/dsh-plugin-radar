@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T18:31:52Z",
+ "generated_at": "2026-11-17T18:47:33Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -192685,13 +192685,6 @@
    "desc": "A decorative whale-diving activity icon for the DeepSeek Harness Web chat flow:"
   },
   {
-   "repo": "nexu-io/open-design",
-   "name": "nexu-io-open-design",
-   "verdict": "pending",
-   "stars": 107955,
-   "desc": "The 1st Collaborative AI Design Agent Workspace"
-  },
-  {
    "repo": "freestylefly/awesome-gpt-image-2",
    "name": "freestylefly-awesome-gpt-image-2",
    "verdict": "ok",
@@ -220494,6 +220487,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: watch GitHub upstream repos for new commits on default branch, live"
+  },
+  {
+   "repo": "nexu-io/open-design",
+   "name": "nexu-io-open-design",
+   "verdict": "incompatible",
+   "stars": 107955,
+   "desc": "The 1st Collaborative AI Design Agent Workspace"
   },
   {
    "repo": "tt-a1i/archify",
