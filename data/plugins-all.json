@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T17:02:30Z",
+ "generated_at": "2026-11-17T17:47:26Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -158385,6 +158385,13 @@
    "desc": "Pin the persona into a system-prompt section so it never competes for the AGENTS.md 65536-byte instruction bud"
   },
   {
+   "repo": "heswy/dsh-game-market",
+   "name": "heswy-dsh-game-market",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "A game marketplace and runtime for DeepSeek Harness."
+  },
+  {
    "repo": "huanglianqi/dsh-math-snippets",
    "name": "huanglianqi-dsh-math-snippets",
    "verdict": "ok",
@@ -159155,6 +159162,13 @@
    "desc": "Mint Budgie desktop pet plugin for DeepSeek Harness"
   },
   {
+   "repo": "7AAAAAH/dsh-pet-gujiguji",
+   "name": "7aaaaah-dsh-pet-gujiguji",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "GujiGuji, a lightweight Codex-style desktop pet for DeepSeek Harness"
+  },
+  {
    "repo": "9527ccccccc/dsh-xiangqi",
    "name": "9527ccccccc-dsh-xiangqi",
    "verdict": "ok",
@@ -159419,6 +159433,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "崔仔桌宠角色包，适用于 DeepSeek Harness 与 dsh-pet"
+  },
+  {
+   "repo": "CurLeaf/dsh-pet-slim",
+   "name": "curleaf-dsh-pet-slim",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "大肥鱼桌宠精简版：移除余额/独立运行/应用打包，保留动画、物理、工作状态联动与碎碎念（基于 PC2005-cloud/dsh-pet）"
   },
   {
    "repo": "Daizhdd/dsh-pet-quota",
