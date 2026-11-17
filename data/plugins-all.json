@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T19:46:53Z",
+ "generated_at": "2026-11-17T20:01:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -10004,6 +10004,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Composer infinity switch for DeepSeek Harness: injects an unlimited-token-budget notice into the system prompt"
+  },
+  {
+   "repo": "ljwzhaoxiaoniu/DLR",
+   "name": "ljwzhaoxiaoniu-dlr",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DLR (Decoupled Logic Representation) + Three-Level Semantic Modeling (TSM) — a data-source-level semantic-laye"
   },
   {
    "repo": "llh11/deepseek-harness-desktop",
@@ -160177,6 +160184,13 @@
    "desc": "门后冒险，一个基于dsh的文字挂机陪伴插件"
   },
   {
+   "repo": "lukeAyin/dsh-whalebook",
+   "name": "lukeayin-dsh-whalebook",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "鲸事本！"
+  },
+  {
    "repo": "lwwwj/dsh-whale-widget-naiwa-role",
    "name": "lwwwj-dsh-whale-widget-naiwa-role",
    "verdict": "pending",
@@ -161295,6 +161309,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A floating whale-girl desktop pet for DeepSeek Harness showing live balance and token burn rate."
+  },
+  {
+   "repo": "xinstart-1/dsh-pet-skill",
+   "name": "xinstart-1-dsh-pet-skill",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "deepseek-harness的桌面pet宠物，内置各软件插件，让pet接管软件账号"
   },
   {
    "repo": "xlin20021/dsh-stock-chart",
