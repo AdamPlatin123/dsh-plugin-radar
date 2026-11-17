@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T09:32:16Z",
+ "generated_at": "2026-11-17T09:47:20Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -178732,6 +178732,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A daily Token-usage heatmap for the DSH settings page, including an estimated daily cost in CNY from DeepSeek list prices. Aggregated entirely from local session logs; no external requests. ｜ DSH 设置中的每日 Token 用量热力图，含人民币估算消费金额；数据取自本机会话日志，不发起外部请求。"
+  },
+  {
+   "repo": "shaobingtongzhi/dsh-ops-workbench",
+   "name": "shaobingtongzhi-dsh-ops-workbench",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH 运维工作台：SSH 只读巡检、健康总览、13 个排障动作、每日运维日报 · Server ops workbench plugin for DeepSeek Harness"
   },
   {
    "repo": "ShiraGawaAnri/dsh-at-mention",
