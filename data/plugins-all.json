@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T07:17:25Z",
+ "generated_at": "2026-11-17T07:32:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -19505,6 +19505,13 @@
    "desc": "DSH plugin: an actionable context coach above the composer and a per-turn usage receipt (steps, tokens, cache"
   },
   {
+   "repo": "markthc/dsh-caidazi-boards",
+   "name": "markthc-dsh-caidazi-boards",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "财搭子研究看板 · Caidazi Research Boards for DeepSeek Harness: memory, AI infrastructure, PCB/CCL and US data-center"
+  },
+  {
    "repo": "Masterchiefm/dsh-mol-structure",
    "name": "masterchiefm-dsh-mol-structure",
    "verdict": "ok",
@@ -26545,6 +26552,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "zhonghes/dsh-secret-variables",
+   "name": "zhonghes-dsh-secret-variables",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: scoped secret variables that stay out of prompts and logs; the model uses $DSH_SECRET"
   },
   {
    "repo": "zhylmzr/dsh-session-cost-cny",
@@ -63050,6 +63064,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Open VS Code from the sidebar menu or the session header"
+  },
+  {
+   "repo": "Ax1oMgg/dsh-offpeak-indicator",
+   "name": "ax1omgg-dsh-offpeak-indicator",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: sidebar indicator for off-peak token pricing, verified against the official pricing p"
   },
   {
    "repo": "axetroy/dsh-plugin-skills",
@@ -152617,6 +152638,13 @@
    "desc": "OctoOps: Unified SSH/Telnet & JumpServer Bastion Orchestrator for DeepSeek Harness (DSH)"
   },
   {
+   "repo": "hh5631/dsh-plugin-updater",
+   "name": "hh5631-dsh-plugin-updater",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "在 DSH Web 的已安装插件列表检查并安装兼容更新"
+  },
+  {
    "repo": "hialuoy/deepseek-harness-desktop",
    "name": "hialuoy-deepseek-harness-desktop",
    "verdict": "incompatible",
@@ -157683,6 +157711,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "流萤桌宠：透明置顶的 DSH 桌面伴侣，能聊天、会碎碎念、播报任务进度 / Firefly desktop pet for DeepSeek Harness"
+  },
+  {
+   "repo": "fishcg/dsh-music",
+   "name": "fishcg-dsh-music",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Acgay music player embedded in DeepSeek Harness"
   },
   {
    "repo": "FLL123-Arch/game-crash-doctor",
@@ -184164,6 +184199,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DSH Web 用户消息编辑重发插件：改掉某一轮提问重发，该轮之后的内容丢弃，原会话归档（新会话继承逐字节相同前缀以保住 prompt 缓存）"
+  },
+  {
+   "repo": "lzlrt/dsh-cross-session",
+   "name": "lzlrt-dsh-cross-session",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "跨会话协同 for DeepSeek Harness 0.2.x：四个工具让会话之间互发消息、交接任务、回信、互看进度"
   },
   {
    "repo": "M-Abozaid/limonene-mcp",

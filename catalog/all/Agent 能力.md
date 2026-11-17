@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5465）
+# 🤖 Agent 能力（5467）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2841,6 +2841,7 @@
 - 🟩 `[可用]` [maresan41-dsh-skill-scribe](https://github.com/MaresaN41/dsh-skill-scribe) ★0 — DeepSeek Harness 用プラグイン
 - 🟩 `[可用]` [mari23333-dsh-second-look](https://github.com/MaRi23333/dsh-second-look) ★0 — 过目 · Second Look — DeepSeek Harness 的独立 AI 审核助手，支持日常与加强审查、审批记录回看
 - 🟩 `[可用]` [marksimz-dsh-usage-kit](https://github.com/marksimZ/dsh-usage-kit) ★0 — DSH plugin: an actionable context coach above the composer and a per-turn usage receipt (steps, tokens, cache
+- ⬜ `[待定]` [markthc-dsh-caidazi-boards](https://github.com/markthc/dsh-caidazi-boards) ★0 — 财搭子研究看板 · Caidazi Research Boards for DeepSeek Harness: memory, AI infrastructure, PCB/CCL and US data-center
 - `[空仓监测]` **master1sun-dsh-session-monitor** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [masterchiefm-dsh-mol-structure](https://github.com/Masterchiefm/dsh-mol-structure) ★0 — DeepSeek Harness plugin: Mol* structure viewer with agent tools
 - 🟩 `[可用]` [masterltx-dsh-session-icon](https://github.com/MasterLTX/dsh-session-icon) ★0 — Session Icon · 给工作区对话增加可视化的图标 — 关键词 → 会话内容 → 模型 → 工作区兜底，445 个 Ant Design 图标，设置页可调
@@ -3898,6 +3899,7 @@
 - 🟩 `[可用]` [zhiwuli0228-dsh-image-router](https://github.com/zhiwuli0228/dsh-image-router) ★0 — DeepSeek Harness plugin: digest prompt images through a vision model and expose a describe_image tool — withou
 - 🟩 `[可用]` [zhiwuli0228-dsh-memory-hub](https://github.com/zhiwuli0228/dsh-memory-hub) ★0 — Local-first, file-native long-term memory for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [zhknb-dsh-approval-why](https://github.com/zhknb/dsh-approval-why) ★0 — —
+- ⬜ `[待定]` [zhonghes-dsh-secret-variables](https://github.com/zhonghes/dsh-secret-variables) ★0 — DeepSeek Harness plugin: scoped secret variables that stay out of prompts and logs; the model uses $DSH_SECRET
 - 🟩 `[可用]` [zhylmzr-dsh-session-cost-cny](https://github.com/zhylmzr/dsh-session-cost-cny) ★0 — dsh deepseek 模型费用统计
 - ⬜ `[待定]` [zhyunran-dsh-talk-mode](https://github.com/zhyunran/dsh-talk-mode) ★0 — Adds a tool-free Talk agent preset to DeepSeek Harness, keeping prompts small on limited plans.
 - `[未定位]` **zian-anson-dsh-unified-memory** — 占位待复核，判定暂不展示
