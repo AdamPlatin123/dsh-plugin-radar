@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T19:17:28Z",
+ "generated_at": "2026-11-17T19:32:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -29422,6 +29422,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "Real browser control for DeepSeek Harness: mounts Playwright MCP as native tools so the agent drives a browser"
+  },
+  {
+   "repo": "ShawnRen57/omni-learning-anything",
+   "name": "shawnren57-learnpath",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Omni Learning Anything: portable Agent Skill for personalized learning plans and illustrated daily lessons in"
   },
   {
    "repo": "Somnus678/dsh-input-assistant",
@@ -158166,6 +158173,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "🐾 DSH（DeepSeek Harness）桌宠插件 —— 会陪你互动、拥有 50+ 动画表情的桌面虚拟伙伴"
+  },
+  {
+   "repo": "1TRYOUT/dsh-whale-pixel-pet",
+   "name": "1tryout-dsh-whale-pixel-pet",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "A whale-girl desktop pet for DeepSeek Harness (DSH): in-window overlay + standalone Electron transparent alway"
   },
   {
    "repo": "5V1A-afk/dsh-sticker-pack",
