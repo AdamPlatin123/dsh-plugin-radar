@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8769）
+# 🔌 Web UI 增强（8771）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2723,6 +2723,7 @@
 - 🟩 `[可用]` [luxueliu-luxueliu-dsh-story](https://github.com/luxueliu/luxueliu-dsh-story) ★1 — DSH 写小说缺的四件事一次配齐！世界书角色卡拖进输入框，正文整篇进上下文；剧情断了 /gemini-sum 一键交接新窗；/out 导出干净成稿；/sum 一句话成角色卡/世界书；\[论坛体\]\[第二人称\] 打字即展开 —
 - ⬜ `[待定]` [lvzhiyuan0308-dsh-session-delete](https://github.com/lvzhiyuan0308/dsh_session_delete) ★1 — A DSH plugin for deleting a sidebar conversation after confirmation
 - 🟩 `[可用]` [lw24-1936-dsh-cognition-hud](https://github.com/lw24-1936/dsh-cognition-hud) ★1 — Cognition HUD 是 DSH Web UI 上的一个实时「认知监视」浮层
+- 🟩 `[可用]` [lw24-1936-dsh-memweave](https://github.com/lw24-1936/dsh-memweave) ★1 — Memweave is a DSH organizational memory and task-evolution plugin
 - ⬜ `[待定]` [lwx071001-dsh-account-meter](https://github.com/lwx071001/dsh-account-meter) ★1 — Live account balance + usage meter for the DSH Harness composer: balance, tokens, running time, tokens/sec, pl
 - 🟩 `[可用]` [lwx071001-dsh-mobile-console](https://github.com/lwx071001/dsh-mobile-console) ★1 — Open this DeepSeek Harness (DSH) on a phone: one QR code, a LAN bridge that runs only while it is on, no --hos
 - ⬜ `[待定]` [lxchapu-dsh-session-purge](https://github.com/lxchapu/dsh-session-purge) ★1 — DSH（DeepSeek Harness）插件：把会话从磁盘上彻底删除
@@ -3817,6 +3818,7 @@
 - 🟩 `[可用]` [berserk0501-dsh-soundscape](https://github.com/berserk0501/dsh-soundscape) ★0 — DSH 本机思考与工具音效插件，支持 MediaPlayer、WAV/MP3、自定义映射和设置面板
 - 🟩 `[可用]` [best0127-dsh-session-workbench](https://github.com/best0127/dsh-session-workbench) ★0 — DSH 会话工作台：把多个会话并排摊开在一个面板里，每一格都是可交互的原版对话 / Session workbench for DeepSeek Harness
 - 🟩 `[可用]` [beyondandsharp-dsh-plugin-scaling](https://github.com/BeyondandSharp/dsh-plugin-scaling) ★0 — 给 DSH Web-UI 的三栏做了各自独立的缩放
+- 🟩 `[可用]` [beyondgjc-dsh-agent-chat](https://github.com/beyondgjc/dsh-agent-chat) ★0 — 把 Super Agent 群聊与讨论接入 dsh（DeepSeek Harness）的 cordis 插件：5 个 agent 工具 + agent-chat skill + workbench UI 经 /wb 通道
 - 🟩 `[可用]` [bgfhsnm-dsh-ask-alert](https://github.com/bgfhsnm/dsh-ask-alert) ★0 — DSH plugin: native Windows alert (toast + taskbar flash + always-on-top card) when the assistant asks a questi
 - 🟩 `[可用]` [bgfhsnm-dsh-text2img](https://github.com/bgfhsnm/dsh-text2img) ★0 — DeepSeek Harness 插件：把本机 ComfyUI 文生图注册成原生 text2img 工具（FLUX / Qwen-Image / SDXL）
 - 🟩 `[可用]` [bgmmd-dsh-completion-notifier](https://github.com/bgmmd/dsh-completion-notifier) ★0 — DeepSeek Harness plugin: plays a chime and shows a Windows toast when a conversation turn completes.
