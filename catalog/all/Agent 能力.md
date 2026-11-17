@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5464）
+# 🤖 Agent 能力（5465）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1594,6 +1594,7 @@
 - 🟩 `[可用]` [riverho-agents-playbook](https://github.com/riverho/agents-playbook) ★1 — —
 - 🟩 `[可用]` [rocofish-deepseek-memory](https://github.com/RocoFish/deepseek-memory) ★1 — Curated long-term memory for DeepSeek Harness: two tiers of plain-text facts, memory tools, per-request inject
 - 🟩 `[可用]` [ronnie-young-dsh-scnet-plan](https://github.com/Ronnie-Young/dsh-scnet-plan) ★1 — DeepSeek Harness 插件：查看 SCNet Token Plan 额度、每日消耗与 token 构成
+- 🟩 `[可用]` [root-7-khx-habit-hint](https://github.com/Root-7-KHX/habit-hint) ★1 — Habit-hint local small model for DeepSeek Harness — reads recent chat, outputs habits/key points/hints, inject
 - ⬜ `[待定]` [rrrrrredy-skill-security-guard](https://github.com/rrrrrredy/skill-security-guard) ★1 — Static security scanner for agent skills: A-F risk rating, safe zip scanning, CI-tested rules
 - 🟩 `[可用]` [ruby1304-dsh-vision-subagent](https://github.com/ruby1304/dsh-vision-subagent) ★1 — Vision for DeepSeek Harness agents — paste images in the Web composer, delegate reads to Kimi/MiniMax vision r
 - 🟩 `[可用]` [rumemory-deepseek-harness-ru](https://github.com/RuMemory/deepseek-harness-ru) ★1 — —
