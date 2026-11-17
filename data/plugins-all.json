@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T18:47:33Z",
+ "generated_at": "2026-11-17T19:02:28Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -107313,6 +107313,13 @@
    "desc": "—"
   },
   {
+   "repo": "hyy124871/dsh-plugin-ai-diary",
+   "name": "hyy124871-dsh-plugin-ai-diary",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "AI 角色日记短剧流水线：选题 → 剧本 → 本地渲染 → 配音 → B 站客户端投稿（DeepSeek Harness 插件）"
+  },
+  {
    "repo": "iasiv5/dsh-obmc-web",
    "name": "iasiv5-dsh-obmc-web",
    "verdict": "ok",
@@ -159615,6 +159622,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "流萤桌宠：透明置顶的 DSH 桌面伴侣，能聊天、会碎碎念、播报任务进度 / Firefly desktop pet for DeepSeek Harness"
+  },
+  {
+   "repo": "Fish-under-sea/dshpet-dshwe",
+   "name": "fish-under-sea-dshpet-dshwe",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "fishcg/dsh-music",
