@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T14:47:49Z",
+ "generated_at": "2026-11-17T15:47:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -49932,6 +49932,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Scan to connect to DSH from your phone—no mobile app required."
+  },
+  {
+   "repo": "song-423/dsh-pet",
+   "name": "song-423-dsh-pet",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "dsh-pet 二创改动：长期事实记忆、记忆面板、主动搭话、可配置快捷键、只读「桌宠」预设（基于上游 v0.4.1）"
   },
   {
    "repo": "southsnowL/dsh-bulletin",
@@ -157669,6 +157676,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DSH (DeepSeek Harness) plugin bundle: grok-geo GEO brand audit agent skill - AI-search visibility, recommendat"
+  },
+  {
+   "repo": "yhm0619/dsh-pet-read",
+   "name": "yhm0619-dsh-pet-read",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "基于 dsh-pet 的互动碎碎念：每 30 秒识屏，用视觉模型在宠物头顶随口吐槽（不需要回复、不带表情包）"
   },
   {
    "repo": "1149784810/jayhe-dsh-gamemaker",

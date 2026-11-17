@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8773）
+# 🔌 Web UI 增强（8774）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1756,6 +1756,7 @@
 - 🟩 `[可用]` [skzrui-dsh-cli](https://github.com/SKzrui/DSH-CLI) ★2 — DSH‑CLI：轻量命令行，流式输出、工具调用、按目录恢复会话，密钥与模型灵活配置，一条命令对话 DeepSeek Harness
 - 🟩 `[可用]` [snailmann-dsh-quick-model-selector](https://github.com/SnailMann/dsh-quick-model-selector) ★2 — quick model selector for deepseek harness \| 多快好省的模型选择器
 - 🟩 `[可用]` [snowfallc-dsh-mobile-web-remote](https://github.com/SnowfallC/dsh-mobile-web-remote) ★2 — Scan to connect to DSH from your phone—no mobile app required.
+- ⬜ `[待定]` [song-423-dsh-pet](https://github.com/song-423/dsh-pet) ★2 — dsh-pet 二创改动：长期事实记忆、记忆面板、主动搭话、可配置快捷键、只读「桌宠」预设（基于上游 v0.4.1）
 - ⬜ `[待定]` [southsnowl-dsh-bulletin](https://github.com/southsnowL/dsh-bulletin) ★2 — DeepSeek Harness (DSH) plugins for peer-to-peer AI session collaboration and communication across workspaces o
 - 🟩 `[可用]` [spix18-dsh-mobilecode](https://github.com/spix18/dsh-mobilecode) ★2 — dsh-mobilecode — MobileCode port for DeepSeek Harness: detect iOS/Android projects, run serve-sim/serve-avd pr
 - 🟩 `[可用]` [sshirkit-dsh-matrix-theme](https://github.com/SShiRkiT/dsh-matrix-theme) ★2 — Matrix · 暗色玻璃主题 for DeepSeek Harness — Claude-style chrome, #040405 / #D9FFE2 / #C6FFD5
