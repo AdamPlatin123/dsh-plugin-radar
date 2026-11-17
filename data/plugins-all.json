@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T16:47:28Z",
+ "generated_at": "2026-11-17T17:02:30Z",
  "plugins": [
   {
    "repo": "morluto/rea",
