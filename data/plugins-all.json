@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T11:01:56Z",
+ "generated_at": "2026-11-17T11:17:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -137313,6 +137313,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "matrix1001/dsh-application-harness",
+   "name": "matrix1001-dsh-application-harness",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "NEXT GEN application platform based on Deepseek Harness"
   },
   {
    "repo": "MCviseron/dsh-stm32-toolchain",
