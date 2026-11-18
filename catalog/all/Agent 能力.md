@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5538）
+# 🤖 Agent 能力（5540）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -168,6 +168,7 @@
 - 🟩 `[可用]` [perrylink-dsh-talk](https://github.com/PerryLink/dsh-talk) ★19 — Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text
 - 🟩 `[可用]` [dsh-memory-pro](https://github.com/QIANLING-0831/dsh-memory-pro) ★19 — DSH Memory Pro：让新会话找回同工作区的旧讨论，回读原文与后续纠正，并带来源继续聊
 - 🟩 `[可用]` [sgzeng-pbfuzz](https://github.com/sgzeng/pbfuzz) ★19 — Agentic Directed Fuzzing for PoV Generation
+- ⬜ `[待定]` [slimeball2026-dsh-coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) ★19 — A reverse-agentic AI agent that forces YOU to do anything——anything？
 - 🟩 `[可用]` [yangdcm-dsh-expert-team](https://github.com/yangdcm/dsh-expert-team) ★19 — Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out
 - 🟩 `[可用]` [1420079678-ctrl-agent-body](https://github.com/1420079678-ctrl/agent-body) ★18 — Gates 84.7% of tool-schema prompt tokens away for DeepSeek Harness: plugins declare themselves organs, a nerve
 - 🟩 `[可用]` [angel291592-dsh-submodel](https://github.com/angel291592/dsh-submodel) ★18 — 官方 subagent 的默认策略包：装上一次配好「什么时候自己干、什么时候派出去、派给谁」
@@ -4171,6 +4172,7 @@
 - 🟨 `[不兼容]` [jiuaiwo-dsh-expert](https://github.com/jiuaiwo/dsh-expert) ★8 — T专家 — DeepSeek Harness 插件：22 分类 / 636 位专家名册（中文名与简介全量覆盖），@ 菜单召唤子代理
 - 🟨 `[不兼容]` [lifangjin-dsh-paoding](https://github.com/lifangjin/dsh-paoding) ★8 — 庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset
 - 🟨 `[不兼容]` [sensedeal-cue-skills](https://github.com/sensedeal/cue-skills) ★8 — Cue Skills for Agents
+- 🟨 `[不兼容]` [soso-deepseek-harness-plugins-dsh-context-tra](https://github.com/soso-deepseek-harness-plugins/dsh-context-track) ★8 — deepseek harness上下文链路追踪：把一次 agent 会话收成可展开的树
 - 🟨 `[不兼容]` [sshirkit-dsh-orchestrator](https://github.com/SShiRkiT/dsh-orchestrator) ★8 — Plan-only main agent with a plan-mode toggle; delegated workers on a switchable default route for DeepSeek Har
 - 🟨 `[不兼容]` [summersec-sumsec-skills](https://github.com/SummerSec/SumSec-Skills) ★8 — SummerSec 个人自定义Skill仓库
 - 🟨 `[不兼容]` [wilburli-onlymemory-plugin](https://github.com/wilburli/onlyMemory-plugin) ★8 — 零外部依赖的 LLM 长期记忆插件，专为 \[DeepSeek Harness\] 设计

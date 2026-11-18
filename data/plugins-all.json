@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T05:31:50Z",
+ "generated_at": "2026-11-18T05:47:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -1163,6 +1163,13 @@
    "verdict": "ok",
    "stars": 19,
    "desc": "Agentic Directed Fuzzing for PoV Generation"
+  },
+  {
+   "repo": "slimeball2026/DSH-Coach-mode",
+   "name": "slimeball2026-dsh-coach-mode",
+   "verdict": "pending",
+   "stars": 19,
+   "desc": "A reverse-agentic AI agent that forces YOU to do anything——anything？"
   },
   {
    "repo": "yangdcm/dsh-expert-team",
@@ -28288,6 +28295,13 @@
    "verdict": "incompatible",
    "stars": 8,
    "desc": "Cue Skills for Agents"
+  },
+  {
+   "repo": "soso-deepseek-harness-plugins/dsh-context-track",
+   "name": "soso-deepseek-harness-plugins-dsh-context-tra",
+   "verdict": "incompatible",
+   "stars": 8,
+   "desc": "deepseek harness上下文链路追踪：把一次 agent 会话收成可展开的树"
   },
   {
    "repo": "SShiRkiT/dsh-orchestrator",
@@ -122258,6 +122272,13 @@
    "desc": "Local speech pipeline for DeepSeek Harness: on-device Qwen3-ASR transcription with auto language detection, li"
   },
   {
+   "repo": "schrolemons/schnie-harness-plugin",
+   "name": "schrolemons-schnie-harness-plugin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness知识检索插件｜可配置检索来源与当前轮次引用"
+  },
+  {
    "repo": "scodypanda/dsh-sentinel",
    "name": "scodypanda-dsh-sentinel",
    "verdict": "ok",
@@ -138272,6 +138293,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "zhurongjun/dsh-rong-aio",
+   "name": "zhurongjun-dsh-rong-aio",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "My all-in-one dsh plugin"
   },
   {
    "repo": "zhuweiyou/dsh-holdem",
@@ -215202,6 +215230,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Click inline code in DeepSeek Harness assistant replies to copy it"
+  },
+  {
+   "repo": "omdsh-dev/dsh-pi-models",
+   "name": "omdsh-dev-dsh-pi-models",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Project the providers, models, keys and thinking levels configured in pi's models.json into this DeepSeek Harn"
   },
   {
    "repo": "onewilk/dsh-updater",
