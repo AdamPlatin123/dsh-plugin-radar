@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5634）
+# 🤖 Agent 能力（5637）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1952,6 +1952,7 @@
 - 🟩 `[可用]` [4478sc-dsh-monitor](https://github.com/4478sc/DSH_Monitor) ★0 — Desktop toasts and an approval ledger for DeepSeek Harness: clicking a toast restores DSH and jumps to the ses
 - 🟩 `[可用]` [502399493zjw-lgtm-dsh-model-retry](https://github.com/502399493zjw-lgtm/dsh-model-retry) ★0 — DeepSeek Harness plugin for configuring the global model-request retry budget
 - ⬜ `[待定]` [643048695-dsh-egm](https://github.com/643048695/dsh-egm) ★0 — Design-review gate for DSH: Elephant drafts, zero-context Goldfish reviewers attack, you approve before implem
+- 🟩 `[可用]` [66ronghua99-dsh-notifier](https://github.com/66Ronghua99/dsh-notifier) ★0 — macOS session notifications for DeepSeek Harness: a native banner plus a whale reminder doll that jumps to the
 - 🟩 `[可用]` [7gzgn-dsh-frame](https://github.com/7gzgn/dsh-frame) ★0 — See what a conversation actually costs: how many model requests, how big the system prompt and tool table are,
 - 🟩 `[可用]` [7gzgn-dsh-inpage-translator](https://github.com/7gzgn/dsh-inpage-translator) ★0 — Put a translate button into the page the agent is looking at: one click replaces every visible text node in pl
 - 🟩 `[可用]` [7nian173-dsh-session-orchestrator](https://github.com/7nian173/dsh-session-orchestrator) ★0 — 让 DeepSeek Harness 里的多个会话可以互相创建、互相跳转、互相写信
@@ -2171,6 +2172,7 @@
 - 🟩 `[可用]` [catsenior507-dsh-command-center](https://github.com/catsenior507/dsh-command-center) ★0 — Command center for DeepSeek Harness: watch running background jobs in one panel, tell a long silence apart fro
 - 🟩 `[可用]` [cayan0x-dsh-fold-context](https://github.com/cayan0x/dsh-fold-context) ★0 — Auto-fold context/system messages in DSH — collapse think blocks, tool calls, and tool results into grouped ex
 - 🟩 `[可用]` [ccclucky-dsh-plugin-session-rename](https://github.com/ccclucky/dsh-plugin-session-rename) ★0 — DSH plugin that gives the agent a native session_rename tool backed by the Cordis sessionTitle service.
+- 🟩 `[可用]` [ccr-wer-dsh-lifecycle-cache-cleaner](https://github.com/ccr-wer/dsh-Lifecycle-Cache-Cleaner) ★0 — DSH 本地 Agent 的 KV cache 生命周期管理：探测不到本地部署就不动引擎（fail-closed）
 - `[空仓监测]` **cczzyy-cn-subagent-model-picker** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [celumin-dsh-a2a](https://github.com/celumin/dsh-a2a) ★0 — DeepSeek Harness A2A (Agent2Agent) plugin: expose DSH agents as standard A2A servers (agent card, message/send, message/stream SSE, tasks) + a2a_* tools to call remote A2A agents
 - 🟩 `[可用]` [cesare97-dsh-balance-chip-cesare](https://github.com/Cesare97/dsh-balance-chip-cesare) ★0 — 余额与消耗插件：多币种换算、预算、可用天数、7 天按会话明细、汇率周更
@@ -4940,6 +4942,7 @@
 - 🟨 `[不兼容]` [alexz949-dsh-personal-agent](https://github.com/alexz949/dsh-personal-agent) ★0 — Personal assistant plugin for DeepSeek Harness (DSH) on macOS: Apple Calendar, Reminders, Notes, Mail drafts,
 - 🟨 `[不兼容]` [alfredhuang211-dsh-webdav-sync](https://github.com/alfredhuang211/dsh-webdav-sync) ★0 — DeepSeek Harness 插件：把会话日志与插件环境备份到任意 WebDAV 服务，并可从 WebDAV 恢复（会话+环境双源同步、rev/generation 版本机制、三方比较与冲突策略）
 - 🟨 `[不兼容]` [alvinhuang0509-design-dsh-connect-teleagent](https://github.com/alvinhuang0509-design/dsh-connect-teleagent) ★0 — dsh-connect-teleagent
+- 🟨 `[不兼容]` [amoswzw-dsh-macos-menu-bar](https://github.com/amoswzw/dsh-macos-menu-bar) ★0 — macOS menu bar and notch access for DeepSeek Harness Desktop, with native approval prompts
 - 🟨 `[不兼容]` [ancircle0-dsh-skills-ext](https://github.com/ancircle0/dsh-skills-ext) ★0 — —
 - 🟨 `[不兼容]` [andyzh0-dsh-claude-ultra](https://github.com/AndyZh0/dsh-claude-ultra) ★0 — Claude-style Ultra mode for DSH: the top reasoning effort plus Claude's standing multi-agent orchestration.
 - 🟨 `[不兼容]` [antman-xtalgh-dsh-prompt-enhance](https://github.com/AntMan-xtalgh/dsh-prompt-enhance) ★0 — ✨ Prompt enhancement button for the DeepSeek Harness composer — rewrites your rough draft into a clear prompt,
