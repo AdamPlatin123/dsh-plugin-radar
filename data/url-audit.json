@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17",
+ "checked_at": "2026-11-18",
  "entries": {
   "0-chenai/dsh-smooth-stream": {
    "status": "ok",
@@ -457,6 +457,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "1021summer/dsh-session-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "1024483906-pixel/dsh-novel-reader": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -612,6 +616,10 @@
   "1162514620/plugin-center": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "1165655527-dot/dsh-cyber-green-theme": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "117bs/dsh-perlica-ding": {
    "status": "ok",
@@ -985,6 +993,10 @@
    "status": "gone",
    "checked": "2026-11-17"
   },
+  "1334104926/vps-proxy-doctor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "133563825as-ai/dsh-api-dashboard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -1144,6 +1156,10 @@
   "1499501762/dsh-web-fetch-proxy": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "1502074527-svg/dsh-handoff-at-75": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "1514100951/dsh-notify-plugins": {
    "status": "ok",
@@ -1741,6 +1757,10 @@
    "status": "gone",
    "checked": "2026-11-16"
   },
+  "1997liuyh-boop/dsh-desktop-runtime": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "1997liuyh-boop/dsh-desktop-tools": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -1844,6 +1864,10 @@
   "1ecc/dsh-lenovo-toolkit": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "1gokd/dsh-rhino": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "1gudao1/angelina-web-deco": {
    "status": "ok",
@@ -2132,6 +2156,10 @@
   "2128627267/dsh-qrules": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "2132774831/dsh-local-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "2132774831/dsh-memory-plugin": {
    "status": "ok",
@@ -2725,9 +2753,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "329604421/agent-todo-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "329604421/dsh-agent-todo": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "3297304308/dsh-dream-wander": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "3309602454/dsh-quick-restart": {
    "status": "ok",
@@ -2736,6 +2772,10 @@
   "333yyy-bit/emotion-state-portrait": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "3341284397-max/dsh-question-bubbles": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "334456777/dsh_plugins": {
    "status": "ok",
@@ -2868,6 +2908,10 @@
   "382quaii/dsh-layers-hippocampus": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "384124694/dsh-host-paths": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "384615666/dsha-to-dshgo": {
    "status": "ok",
@@ -3116,6 +3160,10 @@
   "43aquarius/luna-threshold-sense": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "442443051/dsh-script-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "444136347/dsh-capability-discovery": {
    "status": "ok",
@@ -3581,6 +3629,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "66ronghua99/dsh-notifier": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "66wjz/dsh-model-cap": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -3832,6 +3884,10 @@
   "7gzgn/dsh-tool-gate": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "7nian173/dsh-session-orchestrator": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "7starsseeker/dsh-card-export": {
    "status": "ok",
@@ -4665,9 +4721,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "a903067276-rgb/dsh-tomatronic-child-raise": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "a961282799-crypto/dsh-island": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "a961282799-crypto/dsh-island-go": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "a961282799-crypto/dsh-region-edit": {
    "status": "ok",
@@ -4921,6 +4985,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "aaron-lmh/dsh-side-chat": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "aaron999-h/dsh-restart-account": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -5057,6 +5125,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "abccgh/dsh-ck3-mod-dev": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "abccgh/dsh-desktop-dev": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -5068,6 +5140,10 @@
   "abccgh/dsh-ima-plugin": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "abccgh/dsh-input": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "abccgh/dsh-plugin-dev": {
    "status": "gone",
@@ -5497,6 +5573,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "activer007/dsh-skin-engine": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "activer007/solar-odyssey-dsh": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -5532,6 +5612,10 @@
   "acus9345/dsh-protect-tests": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "acuteszw/dsh-purge-pro": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "acuteszw/dsh-rea-pro": {
    "status": "ok",
@@ -5689,6 +5773,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "adengou/dsh-kumquat": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "adenxie/dsh-vercel": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -5740,6 +5828,10 @@
   "adithyanraj03/dsh-graft-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "adithyanraj03/dsh-image-gen": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "adithyanraj03/dsh-mcp-summon": {
    "status": "ok",
@@ -6057,6 +6149,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "afeiaswell/dsh-doubao-pet": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "afeygu/dsh-compaction-tower": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -6104,6 +6200,10 @@
   "aga-j/dsh-mini-games": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "agabadouglas308/dsh-plugin-linux": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "age10-moyu/dsh-adiv-theme": {
    "status": "ok",
@@ -6180,6 +6280,10 @@
   "agentsdanceai/deepseek-harness-cloud": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "agentsgater/dsh-config-profiles": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "agenttools-cloud/agent-tools-dsh": {
    "status": "ok",
@@ -6813,6 +6917,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "aion-battlecruiser/dsh-worker-orchestrator": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "aipaigyx/wan-tavern": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -7309,6 +7417,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "alaichhe/dsh-antigravity-acp": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "alaichhe/dsh-qwenwork-connect": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -7496,6 +7608,10 @@
   "albertzj/dsh-web-search-pro-plus": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "albisjee25/albis-aipassport-badge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "albisjee25/albis-aipassport-homework": {
    "status": "ok",
@@ -7709,6 +7825,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "alexmbright/dsh-roblox-development": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "alexmillerovo/dsh-imagen": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -7816,6 +7936,10 @@
   "algovate/dsh-agent-debugger": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "algovate/dsh-channels": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "algovate/dsh-green-loop": {
    "status": "ok",
@@ -8485,6 +8609,18 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "amahahanasaki/dsh-mtrans": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "amahahanasaki/dsh-ra2-csf": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "amahahanasaki/dsh-ra2-mix": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "amainoyo/poster-studio": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -8520,6 +8656,14 @@
   "amc-tp/dsh-work-buddy": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "amd47802574/dsh-agents-editor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "amd47802574/dsh-artifacts": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "amd47802574/dsh-auto-full-permission": {
    "status": "ok",
@@ -8585,6 +8729,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "amesawa-000/dsh-ppt-image-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "amethystluna/dsh-model-everything": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -8629,6 +8777,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "amir-keshtkar/deepseek-harness-peak-reminder": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "amir83nasr/dsh-rastin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -8668,6 +8820,10 @@
   "amoss-1/routine-taskboard": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "amoswzw/dsh-macos-menu-bar": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "amouren7/dsh-plugin-desk": {
    "status": "ok",
@@ -8716,6 +8872,10 @@
   "an-an-618/dsh-intelligent-ui": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "an-yyds/dsh-wx-ilink": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "an0range/dsh-plugins": {
    "status": "ok",
@@ -8929,9 +9089,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "andreramosnl/dsh-opencode-go-usage": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "andretheaccelerator/dsh-design-canvas": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "andrew-liu/dsh-wechat-one": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "andrew111888/dsh-plugin-balance": {
    "status": "ok",
@@ -9328,6 +9496,10 @@
   "anjiaqi0926/dsh-plugin-switchboard": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "anjiaqi0926/dsh-style-mirror": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "anjiecobamboo-blip/ai-project-delivery": {
    "status": "ok",
@@ -10345,6 +10517,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "arfarfgit/dsh-ram-meter": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "arfcon/dsh-hotplug-hub": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -10485,6 +10661,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "arrongao/dsh-turn-ding": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "arrosam/dsh-better-workspace-file-manager": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -10508,6 +10688,10 @@
   "arsi-lab/agentbundle": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "arslan-jh/deepseek-harness-usage": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "art3misliu/cnki-batch-download": {
    "status": "ok",
@@ -10584,6 +10768,10 @@
   "artorias-zj/dsh-cc-switch-skills": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "artorias-zj/dsh-magpie-skills": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "artorias-zj/dsh-opencode-free-model": {
    "status": "ok",
@@ -10893,6 +11081,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ashley-dot-oss/dsh-persona-lab": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ashllll/dsh-open-code-review": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -10989,6 +11181,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "assuredfive/dsh-pan123": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "assuredfive/dsh-remote-control-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -11024,6 +11220,10 @@
   "asterionzephyr/dsh-desktop-hand": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "asterionzephyr/dsh-toolbox": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "asterionzephyr/dsh-ustc-image": {
    "status": "ok",
@@ -11441,6 +11641,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "automagik-dev/automagik": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "automagik-si/arca": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -11848,6 +12052,10 @@
   "axingde/dsh-welcome": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "axtut/dsh-gesture-control": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "axtut/dsh-plugin-dualtransfer-trial": {
    "status": "ok",
@@ -12425,6 +12633,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "backtomyfuture/dsh-resource-center": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "backtomyfuture/dsh-teamai-panel": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -12508,6 +12720,10 @@
   "baicaibucai1/dsh-process-control": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "baidada1020/dsh-go-phone": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "baidang201/dsh-hardware-buddy": {
    "status": "ok",
@@ -12729,6 +12945,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "baisbt/baisbt-dsh-service-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "baisbt/dsh-greaterclarity-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -12736,6 +12956,10 @@
   "baisbt/dsh-plugin-webrelay": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "baisbt/dsh-seesion-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "baisbt/dsh-service-manager": {
    "status": "ok",
@@ -12921,6 +13145,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "baldovinmarques391-design/dsh-goal-resume": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "baldovinmarques391-design/dsh-plugin-glm-vision": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -13032,6 +13260,10 @@
   "bangbang-03/dsh-client-ui-quote": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "bangbang-03/dsh-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "bangbang-03/dsh-memory-portrait": {
    "status": "ok",
@@ -13532,6 +13764,10 @@
   "beckchiang/dsh-tool-budget": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "beckchiang/open-sea-skin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "beckhamwash/dsh-claude-workbench": {
    "status": "ok",
@@ -14113,6 +14349,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "bgmmd/dsh-vibecoding-preflight": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "bgx666/dsh-memory-tree": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -14220,6 +14460,10 @@
   "bigbluebaby/codex2dsh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "bigbrain-work/shiliu-ai": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "bigbugy/dsh-tool-session-message": {
    "status": "ok",
@@ -14457,6 +14701,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "bin-71/dsh-net-accelerator": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "bin-hy/dsh": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -14464,6 +14712,10 @@
   "bin-top1/dsh-searchhub": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "bin9317/dsh-theme-mac-platinum": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "binaryinject/dsh-review-checkout": {
    "status": "ok",
@@ -15005,6 +15257,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "bloodarea/dsh-agent-team-browser": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "bloodarea/dsh-agent-team-presets": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -15461,6 +15717,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "borncode-app/dsh-borncode": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "borncode-app/dsh-browser-use": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -15652,6 +15912,10 @@
   "bowluna/dsh-novel": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "bowluna/dsh-prompt-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "bowluna/dsh-rp": {
    "status": "gone",
@@ -15873,6 +16137,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "brathonbai/whale-watcher": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "breakc0re/dsh-yandex-music": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -16061,6 +16329,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "bruc3van/awesome-dsh-plugin-pro": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "bruc3van/bruce-md2word": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -16080,6 +16352,10 @@
   "bruc3van/dsh-doctor": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "bruc3van/dsh-market-pro": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "bruc3van/safer-dsh-market": {
    "status": "ok",
@@ -16497,6 +16773,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "buxu777/dsh-theme-buxu": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "buyou-claw/dsh-superagent-win": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -16536,6 +16816,10 @@
   "bwhite55/dsh-wechat-pro": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "bwlfhu/lark-coding-agent-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "bwndlct/dsh-codex-bridge": {
    "status": "ok",
@@ -16861,6 +17145,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "caiccc-a11y/dsh-asr-openai": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "caiccc-a11y/dsh-wyymusic-player": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -17005,6 +17293,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "calisweetleaf/dsh-chatgpt-swic": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "calisweetleaf/dsh-siwc-native": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -17053,6 +17345,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "calliope-nicles/technical-terms-en-zh-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "callmegulab/dsh-purge-safe": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -17088,6 +17384,10 @@
   "calmzeala/dsh-km": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "calvin-xia/my-dsh-plugins": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "calvin451970353/dsh-vmic": {
    "status": "ok",
@@ -17217,6 +17517,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "canming/dsh-web-search-codex-020": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "cannebergeee/dsh-session-folder": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -17240,6 +17544,14 @@
   "cantarella-fisalia/dsh-langgraph-canvas": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "canvai1337/dsh-context-compaction-meter": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "canvai1337/dsh-enhance-prompt": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "canye-zdm/dsh-serial": {
    "status": "ok",
@@ -17472,6 +17784,10 @@
   "carlown/majia7-dsh-skin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "carlslin/dsh-skill-eval": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "carpon39038/dsh-image-theme": {
    "status": "ok",
@@ -17841,6 +18157,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "cc2027mk2/dsh-watch-phone": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ccbili30-collab/dsh-plugin-rollback-whale": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -17908,6 +18228,14 @@
   "ccch713/deepddw": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "cccjj55/dsh-plugin-bench": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "cccjj55/dsh-plugin-wsl": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ccclosed/dsh-selection-actions": {
    "status": "ok",
@@ -18024,6 +18352,10 @@
   "ccr-wer/dsh-dolphin-security": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ccr-wer/dsh-lifecycle-cache-cleaner": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ccr-wer/dsh-remote-rea": {
    "status": "ok",
@@ -18260,6 +18592,10 @@
   "cfyofjackie/dsh-selection-quote": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "cg-7s/dsh-waitiforud": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "cgartlab/dsh-tac": {
    "status": "ok",
@@ -18529,6 +18865,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "changmingjuebumaimeng3666/dsh-metabolism": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "changqin1024/dsh-session-delete-cascade": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -18745,6 +19085,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "charlie-yangjiaqi/dsh-static-kb": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "charliechang1216/dsh-whale-jump": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -18920,6 +19264,10 @@
   "cheintian/dsh-glab-kanban": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "chelly4/dsh-plugin-cyrene-live2d": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "chemiofitor4096/minecraft-dev-starter": {
    "status": "ok",
@@ -19116,6 +19464,10 @@
   "chencujinlin/dsh-whale-startup": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "chendaleiq/dsh-chrome": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "chendaleiq/dsh-plugin-auto-update": {
    "status": "ok",
@@ -19360,6 +19712,10 @@
   "chengzhi-c/dsh-wtq-pool": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "chengzhi43/dsh-desktop-notify": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "chengzhi43/dsh-file": {
    "status": "ok",
@@ -19685,6 +20041,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "chenvinc/dsh-relay-client": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "chenvinc/dsh-task-settle-notify": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -19985,6 +20345,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "cheso-ai-platform/dsh-cheso-design": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "chet-li/dsh-galgame-galbook": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -19996,6 +20360,10 @@
   "chf-hub99/dsh-plugin-manager": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "chguo-3/dsh-screenshot": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "chhlafiu4312/citeguard": {
    "status": "ok",
@@ -20549,6 +20917,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "chrischjh/dsh-doc-defrag": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "chrischjh/dsh-plugin-builder": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -20641,6 +21013,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "chsw-cc/dsh-lazy-tools": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "chthollyfan/dsh-cpp-optimization": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -20688,6 +21064,10 @@
   "chucan1/dsh-plugin-xt-memory": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "chuchenai/dshd": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "chuiguo/dsh-gpt56-sol-kit": {
    "status": "ok",
@@ -20885,6 +21265,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "cii-joint-lab-bigc/dsh-collaborator": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "cijiezhi/dsh-proxy-auto": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -21000,6 +21384,10 @@
   "citrusli2026/dsh-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "citrusli2026/dsh-electron-shell": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "citrusli2026/dsh-mobile-ui": {
    "status": "gone",
@@ -21223,7 +21611,7 @@
   },
   "cking000bigdemon/dsh-acp-interactive": {
    "status": "ok",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   },
   "cking000bigdemon/dsh-toolbelt": {
    "status": "ok",
@@ -21256,6 +21644,26 @@
   "cl2458228286-creator/dsh-plugin-workbuddy-checkin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "clair0314/dsh-ai-digest": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "clair0314/dsh-bilibili-viral": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "clair0314/dsh-inspiration-vault": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "clair0314/dsh-qq-radar": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "clair0314/dsh-repo-watcher": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "clairexi99/dsh-data-insight": {
    "status": "ok",
@@ -21300,6 +21708,10 @@
   "clarkzhao/dsh-llm-grok": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "clarois/dsh-nutaraline-credits": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "classcit/deepseek-harness-desktop": {
    "status": "ok",
@@ -21501,6 +21913,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "cloudsen/dsh-umbrella-hive-theme": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "cloudsen/dsh-umbrella-theme": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -21628,6 +22044,10 @@
   "cn-mg/dsh_infj_pet": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "cn-pa/dsh-jianying-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "cn-scuo-oo/dsh-deepseek-quota": {
    "status": "ok",
@@ -22025,6 +22445,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "coder9403/dsh-social-skills-archive": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "coderdailyone/dsh-plugin-browser-use": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -22120,6 +22544,10 @@
   "coffee-man666/dsh-lens": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "coffee405/dsh-qwen-scope": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "coffeiz/dsh-qqchat": {
    "status": "ok",
@@ -23025,6 +23453,14 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "cressev/dsh-note-wall": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "cressev/dsh-skill-board": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "crinstaniev/dsh-experience-index": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -23248,6 +23684,10 @@
   "cstarc/dsh-skill-mcp-bridge": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "cstcood/dsh-live-process": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "csthinker/deepseek-harness-desktop": {
    "status": "ok",
@@ -23533,6 +23973,14 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "cv588888888888888888888ju/dsh-gallery": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "cv588888888888888888888ju/dsh-image-read": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "cveo/dsh-digital-earth": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -23596,6 +24044,10 @@
   "cxkctrl24-lgtm/dsh-purge-021": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "cxv117793-blip/dsh-bibibobo": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "cxv117793-blip/dsh-sidebar-overflow": {
    "status": "ok",
@@ -23873,6 +24325,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "cyrus-xc/ego_lite_for_dsh": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "cyrus0322/novelforge-dsh": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -23933,6 +24389,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "czhmisaka/dsh-fleet": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "czhzz/dsh-danger-guard": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -23964,6 +24424,10 @@
   "czm15053/dsh-peer-link": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "cznail/stellane": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "cznbnbnb/dsh-tokenshare-limiter": {
    "status": "ok",
@@ -24004,6 +24468,10 @@
   "czy1326/dsh-restart-button": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "czyt1988/dsh-workflow-orchestrator": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "czzzlq/deepseek-harness-background": {
    "status": "ok",
@@ -24333,6 +24801,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "daishaodong/dsh-task-center": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "daishengli/dsh-docker": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -24468,6 +24940,10 @@
   "damonbao/dsh-models-input-modalities": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "damonkoy/dsh-bot-model-switch": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "damonkoy/dsh-plugin-toggle": {
    "status": "ok",
@@ -24773,6 +25249,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "darianliu23/dsh-civ6": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "darianliu23/dsh-stardew-blind-whale-farmer": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -24829,6 +25309,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "darklinex/dshspeed": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "darkmagic-ai/dsh-guard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -24884,6 +25368,14 @@
   "dashan-0079/dsh-photocraft": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dashan-0079/dsh-ppt-master": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "dashan-0079/dsh-superagent-adapt": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dashi666666-zxp/dsh-arch": {
    "status": "ok",
@@ -25176,6 +25668,22 @@
   "dayanccc/dsh-shortcut": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dayangtuo247/dsh-composer-display": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "dayangtuo247/dsh-context-monitor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "dayangtuo247/dsh-conversation-enhancer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "dayangtuo247/dsh-whale-theme": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "daybreakcold/dsh-theme-nebula-glass": {
    "status": "ok",
@@ -25525,6 +26033,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ddl095/dsh-depth-tool-gate": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ddl095/dsh-moa-native": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -25672,6 +26184,10 @@
   "ddy-007/dsh-client-resume-button": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "ddyfight/dsh-plugin-codex-mirror": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "de22323/dsh-memory": {
    "status": "ok",
@@ -25905,6 +26421,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "deepseekv41flash/dsh-chatbot-tools": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "deepseekv41flash/dsh-compaction-cache": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -25932,6 +26452,22 @@
   "deepseekv41flash/dsh-superagent-panel": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "deepslacking/dsh-context-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "deepslacking/dsh-plugin-manager-plus": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "deepslacking/dsh-sidebar-console": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "deepslacking/dsh-task-progress": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "deepsleep-one/dsh-gpt-niang": {
    "status": "ok",
@@ -27005,6 +27541,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "dingchenhui0618-arch/dsh-chatroom": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "dingchenhui0618-arch/dsh-compress-bench": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -27029,6 +27569,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "dingchenhui0618-arch/dsh-fact-lock-rewrite": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "dingchenhui0618-arch/dsh-imagegen-skill": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -27036,6 +27580,10 @@
   "dingchenhui0618-arch/dsh-in-hand": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dingchenhui0618-arch/dsh-incident-timeline": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dingchenhui0618-arch/dsh-launch-card": {
    "status": "ok",
@@ -27080,6 +27628,10 @@
   "dingchenhui0618-arch/dsh-readme-reel": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dingchenhui0618-arch/dsh-sfx-pad": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dingchenhui0618-arch/dsh-ship-receipt": {
    "status": "ok",
@@ -27277,6 +27829,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "diomchen/dsh-better-tag": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "diomchen/dsh-cross-agent": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -27284,6 +27840,10 @@
   "diomchen/dsh-zoo": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "diong39/dsh-local-history": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dioxxxl/deepseek-harness-desktop": {
    "status": "ok",
@@ -27352,6 +27912,10 @@
   "divineeagleblackhand/dsh-cost-receipt": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "divineeagleblackhand/dsh-fare-meter": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "divineli/cloud-credit-watch": {
    "status": "ok",
@@ -28357,6 +28921,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "douglas-fly/dsh-qrcode": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "doushalunae/dsh-readfence": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -28797,6 +29365,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "drizzlegig/dsh-novel-voice": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "drkoh-wz/team-craft": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -29012,6 +29584,10 @@
   "ds-hu/dsh-auto-task-center": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "ds-hu/dsh-better-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ds-hu/dsh-better-workspaces": {
    "status": "ok",
@@ -29356,6 +29932,10 @@
   "dsh-plugins/dsh-user-agent": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dsh-plugins/dsh-workspace-group": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dsh-pub/dsh-meow-cat": {
    "status": "ok",
@@ -29945,6 +30525,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "dushaobindoudou/dsh-selfrepair": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "dushudou/dsh-rea": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -30040,6 +30624,10 @@
   "dviridescent/dsh-compaction-meta": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "dvva/dsh-alert": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dwb159869/dafeiyu-plugins": {
    "status": "ok",
@@ -30228,6 +30816,10 @@
   "dynesshely/dsh-plugin-btw": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "dynesshely/dsh-plugin-endurance": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "dynesshely/dsh-plugin-notify": {
    "status": "ok",
@@ -30553,6 +31145,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "echo-ix/dsh-andrej-karpathy": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "echo-lgtm/dsh-plugin-wechat-official": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -30612,6 +31208,10 @@
   "echouniverse/dsh-balance": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "echouniverse/dsh-zoteroplugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "echouniverse/dshacp": {
    "status": "ok",
@@ -30841,6 +31441,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "edsml-jz2321/dsh-evokit": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "edusrez/dsh-smart-restart": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -30920,6 +31524,10 @@
   "ef-umbra/dsh-useful-taskball": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "effortful-lion/dsh-skin-muro": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "efrem-labs/niro-releases": {
    "status": "ok",
@@ -31277,6 +31885,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "elias-didoo/dsh-agent-pipeline": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "elias1222/deepseek-brain": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -31589,6 +32201,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "emo-bird/dsh-deepmemory": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "emomg/deepseek-harness-desktop": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -31712,6 +32328,14 @@
   "endlessfireworks/dsh-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "endlesspoem/dsh-ip-info": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "endlesspoem/dsh-session-delete": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "endorphin1203/dsh-side-chat": {
    "status": "ok",
@@ -32037,6 +32661,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ericwang1358/dsh-connect-dumate": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ericwang1358/dsh-jspace-trigger": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -32088,6 +32716,10 @@
   "ernesto-yuan/dsh-conversation-tools": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "ernesto-yuan/dsh-theme-switcher": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "errolleefin/dsh-tide-badge": {
    "status": "ok",
@@ -32352,6 +32984,10 @@
   "ethanyoq/invoice-downloader": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ethanyuan802/dsh-product-workbench": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ethanz11-creat/dsh-billing-tui": {
    "status": "ok",
@@ -32729,6 +33365,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "exhypr-hub/dsh-know": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "exile412/dsh-startup-screen-exile": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -33013,6 +33653,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "fairmehit/dsh-sync": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "faith1688/dsh-usage-meter-harness": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -33048,6 +33692,10 @@
   "fakenihilist/dsh-plugins": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "fakerkonzo/dsh-chat-tide": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "falda-da/ds-desktop-launcher": {
    "status": "ok",
@@ -33436,6 +34084,14 @@
   "farmer002/dsh-today-fortune": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "farons/dsh-terminal-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "farsunshine/dsh-share-import": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "faruzancn/dsh-memory-cloud": {
    "status": "ok",
@@ -34320,6 +34976,10 @@
   "fegnze/dsh-sub2api-monitor": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "fegnze/myspace-dsh-browser-computer": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "fei-hang/deepseekharnesssdk": {
    "status": "ok",
@@ -35821,6 +36481,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "flyer103/dsh-effort-lab": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "flyer103/dsh-side-chat": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -35844,6 +36508,10 @@
   "flyhai/dsh-auto-approval-frame": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "flyheart/dsh-chat-history-editor": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "flyhigao/dsh-file-download": {
    "status": "ok",
@@ -36124,6 +36792,10 @@
   "foo1moon/dsh-web-visualuiconfig": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "food211/chubby-fish-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "foolfu86/dsh-agnes-image": {
    "status": "ok",
@@ -36505,6 +37177,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "freakz2z/dsh-remote-workbench": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "fred-chen/dsh-subagent-model-director": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -36757,6 +37433,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "fsnh/dsh-plugin-knowledge-base": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "fsrmqi/dsh-promptkit": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -36796,6 +37476,10 @@
   "ftima-w/dsh-plugin-manager": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ftrans-cn/ft-ftp-mcp-stdio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ftshare-lab/dsh-plugin-acn": {
    "status": "ok",
@@ -36848,6 +37532,10 @@
   "fuckingling/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "fudanyrd/dsh-merge-conflicts": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "fufankeji/deepseek-harness-studio": {
    "status": "ok",
@@ -36928,6 +37616,10 @@
   "fujiwarareisen/dsh-live2dwaifu": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "fukangz/bilibili-subtitles": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "fulander0301/dsh-tool-read-tiff": {
    "status": "ok",
@@ -37097,9 +37789,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "fundapi-cn/fundapi-dsh-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "funk80rus/dsh-agent-teams-model-override": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "funny-dog/agent-cleaner": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "funny0a0/dsh-egress-router": {
    "status": "ok",
@@ -37525,9 +38225,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "fyzb2020/dsh-8g-poster": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "fyzb2020/dsh-autodidact": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "fyzb2020/dsh-fy-code-animation": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "fyzb2020/dsh-voice-doubao": {
    "status": "ok",
@@ -37657,6 +38365,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "gabsferreira/dsh-web-search-searchapi": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "gaffsailstenopterygiusquadrisicissus463/plugin-hub": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -37709,6 +38421,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "game25011/dsh-notify-toast": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "game25011/dsh-remote-access": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -37716,6 +38432,14 @@
   "gamecialx/dsh-study-notes": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "gamegeek-saikel/dsh-coding-preset": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "gamegeek-saikel/dsh-cost-meter": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "gameswu/dsh-cross-collaboration": {
    "status": "ok",
@@ -37764,6 +38488,10 @@
   "ganfne123/dsh-plugin-envtime": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "gangchen0470/dsh-beeapi-balance": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ganglith/dsh-wayland-use": {
    "status": "ok",
@@ -37880,6 +38608,10 @@
   "gaolei-mark43/dsh-github-bridge": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "gaoler006115/dsh-desktop-view": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "gaolin89898/dsh-kite": {
    "status": "ok",
@@ -38765,6 +39497,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "ghostmss86-afk/dsh-skin-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ghpt6/dsh-system-prompt": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -38825,6 +39561,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "gimartynov/dsh-safety": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "gimhol/dsh-git-suite": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -38868,6 +39608,10 @@
   "ginuim/multi-screen-wireframe": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ginxiu0330-sketch/dsh-plugin-doctor": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "gioguarin/dsh-nebula-theme": {
    "status": "ok",
@@ -39088,6 +39832,10 @@
   "gkgy/dsh-plugin-laile-laodi": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "gladess1102/dsh-ace-music": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "gladess1102/dsh-g-memory": {
    "status": "ok",
@@ -39517,6 +40265,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "gongxianjin/agentranch-dsh": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "gongyansong760-byte/dsh-client-ui-code-font": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -39841,9 +40593,17 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "goodjin/dsh-auto-resume": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "goodjin/dsh-chat-power": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "goodjin/dsh-codex": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "goodjin/dsh-superpowers": {
    "status": "ok",
@@ -40089,6 +40849,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "greatbob0512/whale-sentinel": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "greatv/oardsh": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -40124,6 +40888,10 @@
   "green233233/dsh_tray_follower": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "greendoyle/dsh-mcp-live-panel": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "greenhand-monster/dsh-deliberation-presets": {
    "status": "ok",
@@ -40549,6 +41317,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "guiyuan77/dsh-reader": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "gulagala001/dsh-btw": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -40877,6 +41649,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "guyu233/dsh-update-checker": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "guyue211/dsh-gpt-niang-quota": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -41012,6 +41788,10 @@
   "gxx950224/sapbuddy-dsh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "gxyfly/dsh-message-rewind": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "gxygxy1025-lab/deepseek-harness-desktop": {
    "status": "gone",
@@ -41785,6 +42565,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "hanmozhang0909/ai-dream": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hann428/dsh-hann-usage-dashboard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -41816,6 +42600,10 @@
   "hanrr92/dsh-code-quote": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "hans-wan/dsh-llm-council": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "hanshanxue83/collaborative-emergent-intelligence": {
    "status": "ok",
@@ -42349,6 +43137,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "harrytion/dsh-fnos-music": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "harua79/dsh-balance-ledger": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -42837,6 +43629,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "hebokenn/dsh-codex-chatgpt": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hecailiaopfs/firecrawl-research-engine": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -42884,6 +43680,10 @@
   "hehf21/dsh-sysmon": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "hehuifeng/dsh-dreams": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "heibai-king/dsh-pet": {
    "status": "ok",
@@ -43392,6 +44192,10 @@
   "heo-club/dsh-dag": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "heqi698/dsh-go-kugimiya-voice": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "heqinjian/dsh-plugin-pkt": {
    "status": "ok",
@@ -44185,6 +44989,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "hiseax/dsh-superagent": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hisence999/dsh-browser": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -44204,6 +45012,22 @@
   "hitmargin/ai-proxy": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "hitmargin/dsh-archived-sessions": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "hitmargin/dsh-bell-notify": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "hitmargin/dsh-kilo-prompt": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "hitmargin/dsh-prompt-refine": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "hitzhangjie/dsh-plugin-session-delete": {
    "status": "ok",
@@ -44377,6 +45201,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "hluica/dsh-chat-mode": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hluica/dsh-custom-css": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -44389,6 +45217,14 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "hluica/dsh-parent-instructions": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "hluica/dsh-session-deleater": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hlwzm/memory-star": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -44396,6 +45232,10 @@
   "hlyyh21201-prog/dsh-mcp-hub": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "hmhm2333/braingames": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "hmhm2333/dsh-braingames": {
    "status": "ok",
@@ -44553,6 +45393,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "hologrow/dsh-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "holy-ovo/dsh-startup": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -44613,6 +45457,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "hongcha-dsh/dsh-subagent-model-pin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hongcha-dsh/dsh-watchlist": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -44656,6 +45504,10 @@
   "honghudavy-star/dsh_plugins_4u": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "honghufox/dsh-pdf-translate": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "hongjun1-rgb/dsh-phone-access": {
    "status": "ok",
@@ -46913,6 +47765,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "hyper-open/dsh-task-board": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "hyperforce/dsh-workspace-lock": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -47196,6 +48052,10 @@
   "iamfromchangsha/dsh-go-balance": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "iamjager416/dsh-pixiv-autodownload": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "iamlieutenant/dsh-tool-user-memory": {
    "status": "ok",
@@ -47488,6 +48348,10 @@
   "iceshard999/dsh-appview": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "iceship-wheels/dsh-kanban": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "icesparrow1/dsh-code-server": {
    "status": "ok",
@@ -48325,6 +49189,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "imnotriv3r/dsh-progress": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "imocking/dsh-theme-triptych": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -48461,6 +49329,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "imzl-zl/dsh-model-router": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "imzl-zl/dsh-oncall": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -48557,6 +49429,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "inficer/dsh-fish-service": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "inficer/dsh-fold-context": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -48596,6 +49472,10 @@
   "ingeb0rga/dsh-sidebar-hover": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ingk888766-cloud/dsh-anti-interrupt": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ingk888766-cloud/dsh-manage-deletion": {
    "status": "ok",
@@ -48773,6 +49653,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "interested3041/dsh-bailian-auto-router": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "internettrollwatt/dsh-cua-driver": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -48808,6 +49692,10 @@
   "invalidnaaaame/dsh-side-workspace": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "invisiblezero/dsh-gated-workflow": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "invoker-bandit/dsh-history-up": {
    "status": "ok",
@@ -48848,6 +49736,10 @@
   "ip050/dsh-video-player": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ipedia825/dsh-ichuny-codex": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ipfans/dsh-connect-codearts": {
    "status": "ok",
@@ -48956,6 +49848,10 @@
   "iroul1212/dsh-computer-use": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "irrow627/dsh-quick-actions": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "iruoy/dsh-notify": {
    "status": "ok",
@@ -49180,6 +50076,10 @@
   "itailang2333/workspace-batch-manager": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "italycalibur2019/dsh-mera-theme": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "itanzhao/dsh-d365-kit": {
    "status": "ok",
@@ -49416,6 +50316,10 @@
   "ivorytower1026/dsh-im-bot": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ivseice/dsh-mini-notes": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ivvan3016/dsh-ui-pricing": {
    "status": "ok",
@@ -50257,6 +51161,14 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "jasocheung/dsh-qwen-plan-usage": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "jasocheung/dsh-qwen-reasoning": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jason-liao/dsh-memory-tdai": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -50553,6 +51465,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "jaylor-wang/dsh-plugin-agent-optimizer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jaylor-wang/dsh-tool-antigravity": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -50688,6 +51604,10 @@
   "jclzz/dsh-harbor": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "jcnet-9527/dsh-jpet-phone": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jcs130/dsh-harness2": {
    "status": "ok",
@@ -51320,6 +52240,10 @@
   "jessicaisleep/dsh-source-inbox": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "jessicaisleep/dsh-windows-toolbox": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jessicaisleep/dsh-wm-toolkit": {
    "status": "ok",
@@ -51973,6 +52897,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "jiaxusummer/dsh-window-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jiay425/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -51992,6 +52920,10 @@
   "jiayaoting/dsh-archive-confirm": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "jiayiliust-ops/dsh-live-doc": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jiayixie-jpg/dsh-desktop-pet": {
    "status": "ok",
@@ -52089,6 +53021,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "jiesou/dsh-focus-preset": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jiesou/dsh-nous-portal-free-provider": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -52153,6 +53089,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "jiezhif/dsh-dumate-provider": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jigjoy-ai/baro": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -52193,6 +53133,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "jilan71310/dsh-dispatch-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jilian-dsh/dsh-rule-engine": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -52224,6 +53168,10 @@
   "jimliu/baoyu-design": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "jimliu/open-artifact": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jimluan/dsh-tui-plugin": {
    "status": "ok",
@@ -52664,6 +53612,10 @@
   "jiq1314an/dsh-recent-sessions": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "jiqinga/dsh-folding-windows": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jiruidai/dsh-meta-orchestrator": {
    "status": "ok",
@@ -53669,6 +54621,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "jojo-adam/dsh-godot": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "jojo-adam/dsh-memory": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -53740,6 +54696,10 @@
   "jokerwen666/dsh-bili-taskmaster": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "jokeslin/dsh-mint-lite": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jokeslin/dsh-moonstyle": {
    "status": "ok",
@@ -54209,6 +55169,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "joshualover/dsh-github-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "joslynsmall/dsh-plugin-graphify-watch": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -54288,6 +55252,10 @@
   "joz739/dsh-workflow-map": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "jozhn/dsh-webmate": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "jpa957/dsh-web-search-anysearch": {
    "status": "gone",
@@ -54696,6 +55664,10 @@
   "junqingv587/mattpocock-skills-dsh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "junrui-li/dsh-agent-db-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "junt184/dsh-ui-background": {
    "status": "ok",
@@ -55257,6 +56229,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "kabanei/dsh-privacy-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kabarryo/dsh-fatfish": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -55492,6 +56468,10 @@
   "kaitox326/dsh-auto-prompt": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "kaius0629/dsh-oujingjing-progress": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kaiwangleo/xiwen": {
    "status": "ok",
@@ -55813,6 +56793,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "kapozux/dsh-xiaobenben": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "karahanart/dsh-client-locale-tr": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -55948,6 +56932,14 @@
   "kaus-io/dsh-remote-instance": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "kaveys/agent-user-profile": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "kawaiihachimi/dsh-kvmflow": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kaya734/jevcore": {
    "status": "gone",
@@ -57185,6 +58177,14 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "kingchen95272025/dsh-cursor-rules": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "kingchen95272025/dsh-cursor-toolkit": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kingcheng12/dsh-workspace-change-awareness": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -57389,6 +58389,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "kira905/dsh-ops-toolkit": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kira905/dsh-quality-toolkit": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -57504,6 +58508,10 @@
   "kirschblutex/engineer-software": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "kiru-sama/dsh-progress-bar": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kiru-sama/dsh-progress-reminder": {
    "status": "ok",
@@ -57752,6 +58760,10 @@
   "kkj-luna/dsh-image-bridge": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "kkj520/dsh-image-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kkk-yoyo/dsh-mcp-rea": {
    "status": "ok",
@@ -58033,6 +59045,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "knot-chord/dsh-bulk-io": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "knot-chord/dsh-capability-policy": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -58149,6 +59165,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "kochere/dsh-yijing": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kochetkov-ma/brewpage-publish-plugins": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -58212,6 +59232,10 @@
   "koking0/dsh-plugin-zhuoyu-ppt": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "kokota/dsh-deepseek-chat-panel": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kokubunshu/dsh-mobile-sync": {
    "status": "ok",
@@ -58473,6 +59497,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "kook543/dsh-task-toast": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kookoolive/dsh-plugin-telleru": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -58492,6 +59520,10 @@
   "korioncn/dsh-d2-diagrams": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "korosu/dsh-plugin-modern-web-guidance": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "korosu/dsh-web-search-ddg": {
    "status": "ok",
@@ -58609,6 +59641,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "kpbl95946-art/dsh-connect-cursor-pro": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kpl0111/dsh-context-guard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -58720,6 +59756,10 @@
   "kslamph/pi-dsh-adviser": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ksolodev/dsh-artel": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ksoulness/dsh-session-ecology": {
    "status": "ok",
@@ -58849,6 +59889,10 @@
    "status": "gone",
    "checked": "2026-11-15"
   },
+  "kulebbb/dsh-club": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kulebbb/dsh-context-optimize": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -58928,6 +59972,10 @@
   "kunalgupta25/dsh-login-gateway": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "kunchiang/dsh-moyu-games": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kunge6702/dsh-desktop": {
    "status": "ok",
@@ -59088,6 +60136,10 @@
   "kviiinh/dsh-whale-particles-bg": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "kvker/dsh-window-state-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "kvmem/dsh-super-advisor": {
    "status": "ok",
@@ -59261,6 +60313,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "kysr04/dsh-pitfall-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "kysr04/dsh-sidebar-studio": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -59288,6 +60344,10 @@
   "kzhw615/dsh-opencode-go-strip": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "kzzzt/dsh-chat-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "l-1124/dsh-tencent-music": {
    "status": "gone",
@@ -59396,6 +60456,22 @@
   "l956615272-hub/dsh-weekly-report": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "la-sandrone/mcp-cronopios": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "la-sandrone/mcp-melquiades": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "la-sandrone/mcp-pergaminos": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "la-sandrone/memoria-del-hielo": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "la7-f/dsh-mycordis": {
    "status": "ok",
@@ -59633,6 +60709,14 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "lanechenhku/dsh-claude-project-ui": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "lanechenhku/dsh-post-draft-auto": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lanfeng97/dsh-bottom-cost": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -59840,6 +60924,10 @@
   "laoju188/dshoslink-connector": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "laoliang-agent/harnesskit": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "laomaogu/dsh-ledger": {
    "status": "ok",
@@ -60433,6 +61521,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "leafchina/dsh-image-workbench": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "leafmy/dsh-font-manager": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -60572,6 +61664,10 @@
   "leeaoyin/dsh-agent-harness-audit": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "leeaoyin/dsh-data-cat": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "leechen298/code2skill": {
    "status": "ok",
@@ -60749,6 +61845,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "leezhian/dsh-btw": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "left0ver/dsh-file-review": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -60848,6 +61948,10 @@
   "leiming2333/dsh-web-search-lite": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "leiming2333/dsh-web-search-pro": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "leinaldo/dsh-routines": {
    "status": "ok",
@@ -61865,6 +62969,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "lfrs-cyberpunk/dsh-whale-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lfy-bot/dsh-api-probe": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -62192,6 +63300,10 @@
   "liancheng2020/dsh-aihot-radar": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "liancheng2020/dsh-balance-sentinel": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "liandy0731/dsh-llm-cost": {
    "status": "ok",
@@ -62608,6 +63720,10 @@
   "liatos233/dsh-dl-progress": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "liatos233/dsh-session-status-filter": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "libaie/dsh-flotilla": {
    "status": "ok",
@@ -63064,6 +64180,10 @@
   "lihihe/dsh-thinking-slider": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "lihongxu0221/dsh-prompt-filter": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lihongxu0221/dsh-workspace-browser": {
    "status": "ok",
@@ -63581,6 +64701,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "linabellbiu/dsh-computer-use-pip": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "linanatoly/dsh-chat-history-locator": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -64009,6 +65133,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "linkl-ike/my-fish": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "linkpain/dsh-recall-rebuild": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -64196,6 +65324,10 @@
   "linzzz14/dsh-x": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "lioez/dsh-ops-console": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lion-1209/aurora-studio": {
    "status": "ok",
@@ -64765,6 +65897,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "liubaibuliuyan/dsh-session-delete": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "liubaicai/dsh-codebuddy-link": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -64917,9 +66053,17 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "liuhange789/dsh-mcp-tool-schema-diff": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "liuhange789/dsh-patient-education": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "liuhange789/dsh-plugin-profiler": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "liuhange789/dsh-session-recovery": {
    "status": "ok",
@@ -64961,6 +66105,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "liuhuaian01/dsh-plugin-nature": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "liuhuan007/dsh-service-hub": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -64980,6 +66128,10 @@
   "liujia-io/dsh-image-picker": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "liujia1128/dsh-confluence": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "liujiacheng11/dsh-postman": {
    "status": "ok",
@@ -65120,6 +66272,10 @@
   "liuqingman/dsh-somni": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "liusaipu/dsh-notes": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "liusaipu/dsh-quicknotes": {
    "status": "ok",
@@ -65453,6 +66609,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lixiangzhong/dsh-suggestion": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lixiao1949/dsh-flash-toolbox": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -65753,6 +66913,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lizzzmax/dsh-tool-index": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lj100886/dsh-framework-doctor": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -65972,6 +67136,10 @@
   "ljwei-stak/dsh-approval-gate": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ljwzhaoxiaoniu/dlr": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ljx200719/dsh-screen-beyond": {
    "status": "ok",
@@ -66228,6 +67396,10 @@
   "lls578/dsh-plugin-checkup": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "lluozy/sourcelook": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "llylab/dbs": {
    "status": "ok",
@@ -66833,6 +68005,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "lone-jade/dsh-side-chat": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lone-wolf-akela/dsh-sandboxie-redirect": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -66853,9 +68029,17 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "lonelycrab888/dsh-molecular-viewer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lonelycrab888/dsh-remote-dc": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "lonelycrab888/dsh-sequence-viewer": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lonelycrab888/roundtable-bots": {
    "status": "ok",
@@ -67181,6 +68365,14 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "lornatang/dsh-atlassian-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "lornatang/dsh-caveman": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lornatang/dsh-codex-security": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -67196,6 +68388,10 @@
   "lornatang/dsh-notion": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "lornatang/dsh-security-audit": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lornberry/dsh-memory-center": {
    "status": "ok",
@@ -67769,6 +68965,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lphehe/dsh-token-economizer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lphuxhuq/dsh-vietnamese-lang": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -67821,6 +69021,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lqshow/dsh-wechat-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lr611415/dsh-plugin-documents": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -67836,6 +69040,10 @@
   "lrainner/dsh-plugin-standalone-session": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "lrhero/dsh-quick-chat": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lroyia/dsh-book-reader": {
    "status": "ok",
@@ -67905,9 +69113,17 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lsh-lenvast/dsh-plugin-tcm-learning": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lsh2002/dsh-custom-fonts": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "lshcoding/dsh-promptx": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lsjspl/dsh-plugin-grok2api-media-tool": {
    "status": "ok",
@@ -68285,6 +69501,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "luchiwanzi/dsh-tunnel": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lucienll/dsh-peak-price-panel": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -68401,6 +69621,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "lucky6star9/prompt-optimizer-keep": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lucky8197/dsh-code-smell": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -68444,6 +69668,10 @@
   "luckyur/completion-traffic-light": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "luckyxiang6688/dsh-agent-trace": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "luckyxiang6688/dsh-superagent-trace": {
    "status": "ok",
@@ -68945,6 +70173,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "luoqiaocong/dsh-answer-style": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "luorenyu/dsh-deepsearch": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -69165,6 +70397,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "luxbya/dsh-project-hooks": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "luxi233/dsh-settings-nav-scroll": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -69216,6 +70452,10 @@
   "luxus0946/dsh-uuyc": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "luyanci/dsh-im": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "luyanfcp/dsh-kicad": {
    "status": "ok",
@@ -69381,6 +70621,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "lw24-1936/dsh-frontend-page-craft": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lw24-1936/dsh-memweave": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -69537,6 +70781,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lxj5820/dsh-boot-animation": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lxj808624/dsh-tool-git": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -69560,6 +70808,10 @@
   "lxl8182/dsh-session-ops": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "lxmh1982/dsh-windows-agents": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lxp731/agents-plugins": {
    "status": "ok",
@@ -69716,6 +70968,10 @@
   "lyhue1991/dsh-automation": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "lyhue1991/dsh-pi-preset": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lyhue1991/dsh-soup": {
    "status": "ok",
@@ -69953,6 +71209,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "lyxdsg/dsh-mcp-cost": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "lyxx999/agents.md-management-for-dsh": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -69992,6 +71252,10 @@
   "lzeeorno/deepseekharness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "lzfandhky/dsh-agent-trust": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "lzfbite/dsh-github-ops": {
    "status": "gone",
@@ -70216,6 +71480,10 @@
   "m0r1c/dsh-vision-fix-lmstudio": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "m0rningbreeze/dsh-selection-followup": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "m0rt1s0114/dsh-deepseek-status": {
    "status": "ok",
@@ -70448,6 +71716,10 @@
   "mafeis/dsh-net-proxy": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "mafuyuyu/dsh-history-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "magelovania/dsh-branch-notes": {
    "status": "ok",
@@ -70717,6 +71989,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "malabananclauss-rgb/dsh-memory-scaffold": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "malabananclauss-rgb/qing-self": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -70789,6 +72065,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "mango2630/dsh-conversation-pins": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "mangshe3-0/dsh-plugin-guard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -70800,6 +72080,10 @@
   "mannixhu/dsh-statusbar-config": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "mannixs/dsh-plug-computeruse": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "manny333/dsh-checklists": {
    "status": "ok",
@@ -70852,6 +72136,10 @@
   "mantonlove/dsh-prism-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "mantonlove/dsh-saynext": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mantou-kaya/dsh-voice-input": {
    "status": "ok",
@@ -70908,6 +72196,10 @@
   "maoqizhen/dsh-pc-manager": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "maorong-rong/plant-omics-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "maoruoyu/dsh-plugin-store": {
    "status": "ok",
@@ -72041,6 +73333,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "mayuqinb/dsh-douyin-link-video": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "mazov2love/dsh-remote-control": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -73025,6 +74321,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "merusu/better-notice": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "merusu/dsh-better-notice": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -73032,6 +74332,10 @@
   "merusu/dsh-better-setting-page": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "merusu/dsh-temp-full-access": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "merusu/dsh-ui-controller": {
    "status": "ok",
@@ -73064,6 +74368,10 @@
   "mervyn-teo/dsh-plugin-terminal": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "merziller/dsh-video-workbench": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "meshtok/dsh-plugin-meshmoe": {
    "status": "ok",
@@ -73160,6 +74468,10 @@
   "metercai/aimail": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "methpia/dsh-server-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "methylorange-kun/dsh-task-popup": {
    "status": "ok",
@@ -74377,6 +75689,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "miraculousgu/dsh-ui-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "miragelyu/dsh-tui": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -74392,6 +75708,10 @@
   "mirelconstantin/dsh-postgres-expert": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "mirelconstantin/dsh-subagent-model": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mirelconstantin/dsh-subagents-model": {
    "status": "ok",
@@ -75009,6 +76329,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "mmovo/dsh-purge": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "mmparko/dsh-purge": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -75181,6 +76505,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "moderras/dsh-opencode-go": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "modersetech/dsh-material-file-icons": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -75332,6 +76660,10 @@
   "moh114514/dsh-image-context-menu": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "mohammadatiq472-source/ai-social-aio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mohe007/shengsheng-observer": {
    "status": "ok",
@@ -75645,6 +76977,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "monta-6969/dsh-sw-3d-preview": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "monter-code/dsh-image-insight": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -75916,6 +77252,10 @@
   "morcoan/ligui": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "mordoreay/dsh-edgerunners": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "more-nico/dsh-nico-theme": {
    "status": "ok",
@@ -76245,6 +77585,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "mouse985/dsh-ask-panel": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "mouse985/dsh-context-cap": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -76392,6 +77736,10 @@
   "mozhuanzuojing/dsh-agent-pill": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "mozhuanzuojing/dsh-deepbreath": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mozhuanzuojing/dsh-liangwengu": {
    "status": "ok",
@@ -77213,6 +78561,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "museav-ai/dsh-museav-assets": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "musewizard/dsh-import-workbuddy": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -77597,6 +78949,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "myiyang/dsh-prd-canvas": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "myiyang/dsh-task-folders": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -77636,6 +78992,10 @@
   "myname1234/dsh-deepseek-usage": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "myname1234/dsh-system-monitor": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mynameiskcy/dsh-mattpocock-skills": {
    "status": "ok",
@@ -77705,6 +79065,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "mysterycode-liwen/dsh-credential-vault": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "mystic7c/dsh-superagent-panel": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -77768,6 +79132,10 @@
   "mzqmzqmzqmzq/dsh-api-cost-meter": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "mzwing/dsh-plugins": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "mzy123l/dsh-plugin-remote-access": {
    "status": "ok",
@@ -78001,6 +79369,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "nakemer/pc-doctor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "nakie-zjm/dsh-session-delete": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -78161,9 +79533,17 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "nanhaiya/dsh-pindou-pattern": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "nanhua3839/dsh-hykb-scroll": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "nanhua3839/dsh-hykb-whale": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "naniwet/dsh-themes": {
    "status": "ok",
@@ -78312,6 +79692,10 @@
   "naskete/dsh-agnes-image": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "naskita/shadow-bilingual": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "nataliwhite20534-droid/dsh-4-role-workflow": {
    "status": "ok",
@@ -78869,6 +80253,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "nesarf/tastylineout": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "nesrinejouini08/magpie-our-free-model": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -78880,6 +80268,10 @@
   "netcatty/dsh-guard": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "netcatty/dsh-rewind": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "netcatty/dsh-session": {
    "status": "ok",
@@ -79193,6 +80585,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "nexxxl/windos2026": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "neymar011ren/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -79216,6 +80612,10 @@
   "ngosangns/ns-bridge": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ngosangns/ns-kiro-provider": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "nguyenduclong-ict/dsh-better-uiux": {
    "status": "ok",
@@ -79741,6 +81141,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "ningyuanlee/dsh-minimax-byapi": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ningyuanlee/dsh-personal-system-rules": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -79752,6 +81156,10 @@
   "ningzhenpeng/dsh-plugin-preflight": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "ninihao1743/dsh-memorytree-rule": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ninipa/dsh-desktop": {
    "status": "ok",
@@ -79961,6 +81369,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "niuvector/dsh-pcbagent": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "niuzhuang/dsh-git-ai": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -80076,6 +81488,10 @@
   "nmindz/stupid-comments": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "nmj94/dsh-task-progress": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "nmouzh/dsh-mattpocock-skills": {
    "status": "ok",
@@ -80204,6 +81620,10 @@
   "nodata404/dsh-env-probe": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "noeau-ai/dsh-history-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "noeljudenoel/dsh-files-manager": {
    "status": "ok",
@@ -80581,6 +82001,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "north30-dev/dsh-cloudflare-dash": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "northblizzard/dsh-gui-bridge": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -80616,6 +82040,10 @@
   "nortr0m/dsh-dota2-pet": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "nosleep00/dsh-github-radar": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "nosuiyi/dsh-fairy": {
    "status": "ok",
@@ -81037,6 +82465,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "nyasers/dsh-hanako": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "nyasers/dshana": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -81305,6 +82737,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "odo-tech/dsh-yukkuli": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "odysseykernelt/dsh-dashcam": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -81352,6 +82788,10 @@
   "oh-summy/dsh-remote-control": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "oh-wang/dsh-tools-deepseek-media": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ohlygod/dsh-jiuling-remote-android": {
    "status": "ok",
@@ -81477,6 +82917,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "oldcitynight/dsh-bettertaskgraphs": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "oldcitynight/dsh-dynamic-context": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -81517,6 +82961,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "oldqin-aurora/portwrench": {
+   "status": "gone",
+   "checked": "2026-11-18"
+  },
   "oldqin-aurora001/dsh-breeze-tts": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -81553,6 +83001,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "oliblue-evan/dsh-github-auth": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "oliblue-evan/dsh-liao-github": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -81572,6 +83024,10 @@
   "oliblue-evan/dsh-liao-usage": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "oliblue-evan/dsh-model-organizer": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "oliblue-evan/dsh-roleplay-preset": {
    "status": "ok",
@@ -81837,6 +83293,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "omdsh-dev/dsh-gonic": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "omdsh-dev/dsh-hub": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -81872,6 +83332,10 @@
   "omdsh-dev/dsh-longbridge": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "omdsh-dev/dsh-memos": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "omdsh-dev/dsh-mermaid": {
    "status": "ok",
@@ -81912,6 +83376,10 @@
   "omdsh-dev/dsh-pet-corner": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "omdsh-dev/dsh-pi-models": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "omdsh-dev/dsh-plugin-check": {
    "status": "ok",
@@ -82048,6 +83516,10 @@
   "omdsh-dev/dsh-vscode": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "omdsh-dev/dsh-web-skin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "omdsh-dev/dsh-web-ui-notify": {
    "status": "ok",
@@ -82216,6 +83688,10 @@
   "onecat2015/remote-my-dsh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "oneclickvirt/ecs": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "onedotmint/reroute": {
    "status": "ok",
@@ -82493,6 +83969,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "opencamel/dsh-yt-archive": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "opencnid/deepseek-rlm": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -82757,6 +84237,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "orderg-x/dsh-design-gallery": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "orderg-x/dsh-design-studio": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -82876,6 +84360,10 @@
   "orrinzeng/dsh-cursor-subscription": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "orstedoshua/dsh-api-cost": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "orxz/deepseek-harness-pets": {
    "status": "ok",
@@ -83173,6 +84661,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "overtowind/dsh-grouped-sessions": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "overtowind/dsh-todo": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -83429,6 +84921,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "p33333333333333l/dsh-mcp-servers": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "p33333333333333l/dsh-specialist-team": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -83472,6 +84968,10 @@
   "pabears/software-phase-theory": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "pachellber-marine/dsh-request-retry": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "pacoyi/dsh-memory-lite": {
    "status": "ok",
@@ -83560,6 +85060,10 @@
   "paleech0/dsh-notify-desktop": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "paleland/dsh-image-slider": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "paloma966/dsh-kaiju": {
    "status": "gone",
@@ -83777,6 +85281,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "panweizong/dsh-workbuddy-skills": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "pany0593/dsh-ui-notifications": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -83788,6 +85296,22 @@
   "paomoxml/dsh-paste-names": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "paomoxml/dsh-session-branch": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "paomoxml/dsh-session-migrator": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "paomoxml/dsh-theme-ink": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "paomoxml/dsh-thinking-phrase": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "papachong/deepseek-harness-tui": {
    "status": "ok",
@@ -84336,6 +85860,10 @@
   "pengtang1024/dsh-paste-image": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "pengtang1024/dsh-quick-phrases": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "penguin-oo/dsh-bookmarks": {
    "status": "ok",
@@ -85437,6 +86965,14 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "philomelcc/dsh-idea-wall": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "philomelcc/dsh-interaction": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "philomelcc/dsh-status-monitor": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -85756,6 +87292,10 @@
   "pilihu2022/dsh-proxy-failover": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "pilothowe/dsh-plugin-buddy": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "pilothowe/plugin-advisor": {
    "status": "ok",
@@ -86293,6 +87833,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "pokereva/dsh-no-enter-sand": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "pokereva/dsh-no-enter-send": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -86441,6 +87985,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "pondsi/dsh-diwen": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ponydevai/dsh-model-usage": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -86517,6 +88065,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "potterhe/dsh-helloworld": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "potterlee369-prog/dsh-feishu": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -86552,6 +88104,14 @@
   "powehig/dsh-knowledge-board": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "poweredbyai/dsh-consumer-insight": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "poweredbyai/geo-desk": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "powerrrrrrrr/dsh-live-loop": {
    "status": "ok",
@@ -86657,6 +88217,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "prcjimmy1015/dsh-live-run": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "preference-cmd/dsh-antigravity": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -86749,6 +88313,14 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "prirex/prirex-monitoring-deepseek-harness": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "prirex/prirex-preview": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "prismlean/dsh-run-guard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -86808,6 +88380,10 @@
   "project-hy/dsh-claude-delegate": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "prokint/infinite-canvas-dsh": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "prokint/whaledraw": {
    "status": "ok",
@@ -86892,6 +88468,10 @@
   "psychologist-jpg/dsh_mission-control": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "psyduck25/dsh-session-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "psynosaur/dsh-token-gobbler": {
    "status": "ok",
@@ -86989,6 +88569,14 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "puffdog-git/dsh-jukebox": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "puffdog-git/dsh-ptt-dive": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "puffdog-git/dsh-sound-atelier": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -87080,6 +88668,10 @@
   "pureexe/dsh-windows-remote-ssh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "pureheartrobotics/ai-os": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "purejiang/dsh-system-notifications": {
    "status": "ok",
@@ -87276,6 +88868,10 @@
   "q35888/dsh-plugin-browser": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "q3yp/dsh-plugin-deepseek-share-import": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "q499384877-commits/dsh-agent-dispatch": {
    "status": "gone",
@@ -87480,6 +89076,10 @@
   "qianbkk/aardio-windows-mcp": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "qianchang927/dsh-quotaline": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "qianchuan-ai/dsh-vidstyle": {
    "status": "ok",
@@ -87869,6 +89469,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "qinghuidaqzp/dsh-encoding-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "qingj01/dsh-attention-inbox": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -87984,6 +89588,10 @@
   "qingyuna/answer-me-with-html": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "qingzhijie05/dsh-user-memory": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "qingzhou-joshua/dsh-dev-toolbox": {
    "status": "ok",
@@ -88384,6 +89992,14 @@
   "qixin-ai-data/dsh-qixin-insight-mcp-oauth": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "qiyaogongfang/dsh-kb": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "qiyaogongfang/dsh-mimaben": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "qiyeren/dsh-eac-popup": {
    "status": "ok",
@@ -89005,6 +90621,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "qwased/dsh-niubash-windows": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "qwased/dsh-web-search-duckduckgo": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -89497,6 +91117,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "rainbowlion0320/dsh-model-insights": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "rainfish-home/dsh-mobi-web": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -89532,6 +91156,10 @@
   "rainoffire/dsh-plugin-store": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "rainow/ds-harness-remote-fast": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "rainow/dsh-simple-wiki-memory": {
    "status": "ok",
@@ -89720,6 +91348,10 @@
   "rannyrjjy/dsh-sidechat": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "ranranyya/dsh-delegate": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ranranyya/dsh-taskbridge": {
    "status": "ok",
@@ -90929,6 +92561,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "rezaastaraki/a2z-handoff": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "rezon-aki/dsh-compaction-effort-inherit": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -91193,6 +92829,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "richology/dsh-starharbor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "rick-2023/dsh-yuque-notes": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -91281,6 +92921,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "rifat-h/dsh-peak-hours": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "riffkit/dsh-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -91316,6 +92960,18 @@
   "rimagination/scansci-pdf": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "rinai-r/dsh-agent-scheduler": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "rinai-r/dsh-agent-team-scheduler": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "rinai-r/dsh-omp-retry": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "rinatitp/dsh-plugins": {
    "status": "ok",
@@ -91437,6 +93093,22 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ritanlisa/dsh-opencode-go-pool": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "ritchieleung/dsh-plugin-bot-issue": {
+   "status": "gone",
+   "checked": "2026-11-18"
+  },
+  "ritchieleung/dsh-plugin-bot-knowledge": {
+   "status": "gone",
+   "checked": "2026-11-18"
+  },
+  "ritchieleung/dsh-plugin-bot-restart": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ritvamanner/dsh-token-control": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -91456,6 +93128,10 @@
   "riverho/agents-playbook": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "riverzhang37927/dsh-font-switch": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "riverzhou/dsh-gitbash-new": {
    "status": "ok",
@@ -91733,9 +93409,17 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "rollstack/skills": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "romantic123fly/dsh-session-folders": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "romanticmysterylh/dsh-workbuddy-fetch": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "romany-saad/dsh-plugins": {
    "status": "ok",
@@ -91981,6 +93665,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "roxy-dd/fatfish-heart": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "roxy-gl373/dsh-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -92165,6 +93853,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "ruacha00/dsh-session-notifier": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ruaibeite/dsh-agent-ci": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -92288,6 +93980,10 @@
   "ruegg114514/dsh-colorlab": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "ruehuangs/dsh-global-selection": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ruffianjiang/dsh-desktop": {
    "status": "ok",
@@ -92509,6 +94205,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "runhuachen/dsh-exa-parallel-mcp": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "running-grass/dsh-nix-dev-shell": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -92721,6 +94421,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ryukirin/dsh-momo-learning": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ryukirin/momo-learning": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -92732,6 +94436,10 @@
   "ryunana/selfdistill": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "ryuu-64/dsh-answered-questions": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ryuu-64/dsh-find-all": {
    "status": "ok",
@@ -93129,6 +94837,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "sakikotgw/dsh-element-picker": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "sakikotgw/dsh-plugin-resolver": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -93253,6 +94965,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "saltfish060/dsh-opendesign-quota": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "salty-mocha/dsh-ops-mac": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -93364,6 +95080,10 @@
   "samxiabing/dsh-adb": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "samyihu/dsh-pwsh7": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "samyihu/dsh-visio": {
    "status": "ok",
@@ -93653,6 +95373,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "satont/dsh-harness-setup": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "satukisuto-hpc/dsh-i18n-ja": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -93880,6 +95604,10 @@
   "schrolemons/chat-harness-7-2-lays-for-a-ai-bot": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "schrolemons/schnie-harness-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "schumchanvi/dsh-voice-input-cn": {
    "status": "ok",
@@ -94217,6 +95945,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "sean-liulin/dsh-worklog-calendar": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "seanchen88/dsh-pluginhive": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -94340,6 +96072,10 @@
   "seekafterseek/dsh-chrome-only": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "seekafterseek/dsh-url-router": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "seekbuddy/dsh-ui": {
    "status": "ok",
@@ -94540,6 +96276,10 @@
   "senti100/dsh-oidc": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "sentryea/dsh-plugin-message-edit-plus": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "senumirai/dsh-whale-bili": {
    "status": "ok",
@@ -94869,6 +96609,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "sh-lsy/dsh-qwen-media": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "sh1robana/dsh-plugin-message-edit": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -94880,6 +96624,10 @@
   "sha2kyou/dsh-settings-about": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "shabe222/dsh-guzheng-pond": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "shad0wwa1ker/dsh-browser-mode": {
    "status": "ok",
@@ -94960,6 +96708,10 @@
   "shaky77/weiwen-law-dsh": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "shalilongfei/dsh-computer-use": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "shall0vv/dsh-conversation-files": {
    "status": "ok",
@@ -95249,6 +97001,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "shaoqing404/dsh-identity-verification": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "shaoqiuyuavailable/text-llm-vision": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -95260,6 +97016,10 @@
   "shaot92-del/dsh-job-board": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "shaot92-del/dsh-team": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "shaoxia20240902/dsh-plugin-leaderboard": {
    "status": "ok",
@@ -95361,6 +97121,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "shawnren57/dsh-whale-trail": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "shawnren57/dsh-whoop-easy-connect": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -95388,6 +97152,10 @@
   "shawnyhu/dsh-balance": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "shawnyuxuan/dsh-subagent-guide": {
+   "status": "gone",
+   "checked": "2026-11-18"
   },
   "shawnzhanggy/dsh-plugin-prompt-history": {
    "status": "ok",
@@ -95464,6 +97232,10 @@
   "sheldonjinn/dsh-precise-billing": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "shelfry/dsh-shelfry": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "shelken/dsh-co-authored-by": {
    "status": "ok",
@@ -95937,6 +97709,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "shinerain1/dsh-project-3": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "shinewinew/dsh-claude-in": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -95960,6 +97736,10 @@
   "shinji00222/dsh-incognito-chat": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "shinji00222/dsh-persona-continuity": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "shinji00222/dsh-windows-computer-use": {
    "status": "ok",
@@ -96477,6 +98257,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "shuimo233/dsh-socratic-tutor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "shuimowang/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -96925,6 +98709,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "siloet-phy/dsh-liquid-glass-composer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "siloet-phy/dsh-skill-labels": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -96972,6 +98760,10 @@
   "silversystem04-coder/dsh-project-hud": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "silversystem04-coder/dsh-project-tabs": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "silversystem04-coder/dsh-wenyan": {
    "status": "ok",
@@ -97060,6 +98852,10 @@
   "simonxluo/dsh-az8": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "simpleobj/dsh-web-login": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "simplifyourlife/dsh-spring-boot-launcher": {
    "status": "ok",
@@ -97325,6 +99121,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "sivancola/dsh-zentao-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "siwang311/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -97433,6 +99233,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "sixzjd/npm-usage": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "siyue-zo/dsh-prompt-polisher": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -97508,6 +99312,10 @@
   "sjlgg/dsh-free-web-search": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "sjnole/dsh-whale-dream": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "sjrslh/dsh-ui-zoom": {
    "status": "ok",
@@ -97625,6 +99433,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "skokinkoba/dsh-chatgpt-style": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "skr311/dsh-codex-pet": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -97684,6 +99496,10 @@
   "skyjjgw/dsh-plugin-android-preview": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "skyjjgw/dsh-plugin-skymoni": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "skyjjgw/dsh-version-guard": {
    "status": "ok",
@@ -97973,6 +99789,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "slimeball2026/dsh-coach-mode": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "slin-code/dsh-custom-skin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -98012,6 +99832,10 @@
   "sliverp/dsh-hub-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "sljdxde/dsh-clipchat": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "slohmaier/dsh-a11y-announcer": {
    "status": "ok",
@@ -98136,6 +99960,10 @@
   "smallcarve/dsh-better-keymap": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "smallcoding1/dsh-go-unrestricted": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "smalldy/godot-bridge": {
    "status": "ok",
@@ -98673,6 +100501,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "socool666/dsh-global-prompt": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "socooldad/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -98729,9 +100561,25 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "soffits/dsh-media-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "soffits/dsh-message-context": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "soffits/dsh-notify-inbox": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "soffits/dsh-points": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "soffits/dsh-practice": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "soffits/dsh-restart-resume": {
    "status": "ok",
@@ -98748,6 +100596,10 @@
   "soffits/dsh-telegram-bot": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "soffits/dsh-ui-kit": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "softspark/dsh-codex": {
    "status": "ok",
@@ -99089,6 +100941,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "songsenand/yingzao": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "songshuhuoban/dsh-environment-tray": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -99244,6 +101100,10 @@
   "soslowsnail/dsh-scenery-background": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "soso-deepseek-harness-plugins/dsh-context-track": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "sososilencing/dsh-network-engineer": {
    "status": "ok",
@@ -99469,6 +101329,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "spectershell/dsh-grid-panel": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "specterxueye/dsh-cv": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -99673,6 +101537,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "sqdr2/dsh-fusion": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "sqdr2/dsh-ssh-remote": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -99801,6 +101669,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "ssesweb/dsh-deepseek-mode": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ssf13546/dsh-delta-theme": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -99828,6 +101700,10 @@
   "sshooting/dsh-billing-stats": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "sshooting/dsh-event-fix": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "sshooting/dsh-polish": {
    "status": "ok",
@@ -99989,6 +101865,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "stallenlu/dsh-research-desk": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "stallenlu/dsh-scihub": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -100052,6 +101932,10 @@
   "star-learning/geoharness": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "star620/dsh-codex-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "starash07/dsh-edit-message": {
    "status": "ok",
@@ -100296,6 +102180,10 @@
   "stars-eto/dsh-think-guard": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "stars-xk/dsh-bitwarden": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "stars2022/dsh-ui-concise": {
    "status": "ok",
@@ -101381,6 +103269,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "sukai616/dsh-timefold": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "sukholovskyyy/dsh-liang-price-badge": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -101437,6 +103329,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "sumcam-l/ida-pro-mcp-enhanced": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "sumingwang233/dsh-auto-title": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -101452,6 +103348,10 @@
   "sumingwang233/dsh-question-bridge": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "sumingwong/dsh-provider-quota-rings": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "summer-521/deepseek-harness-swift": {
    "status": "ok",
@@ -101620,6 +103520,10 @@
   "sundustyc/dsh-pet": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "sungatetop/hibuddy": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "sunhailong123/dsh-study-loop": {
    "status": "ok",
@@ -101985,6 +103889,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "super-qaq/dsh-prompt-library": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "super0plant/dsh-plugin-game-time": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -102081,6 +103989,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "superqin7/dsh-usage-meter": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "superrabbit123/dsh-viper-recap": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -102136,6 +104048,10 @@
   "suply/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "supralune/dsh-tailseek": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "suqing114/dsh-tool-switch": {
    "status": "ok",
@@ -102317,9 +104233,25 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "suzunami/dsh-cv-warm": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "suzunami/dsh-foreground-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "suzunami/dsh-has-stripper": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "suzunami/dsh-workspace-hide": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "suzunami/plot3d-surface": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "suzuran0y/cute-partner": {
    "status": "ok",
@@ -102368,6 +104300,10 @@
   "svkoh/dsh-ms-office": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "svkoh/dsh-office-for-mso": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "svoemesto/dsh-web-search-searxng": {
    "status": "ok",
@@ -102901,6 +104837,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "t3-venture-labs-limited/ohmydsh": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "t479842598/dsh-upstream-watch": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -103357,6 +105297,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "tanqvv/dsh-provider-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "tansukii/dsh-screenshot": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -103412,6 +105356,10 @@
   "taoidle/dsh-truenas": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "taojun566/dsh-bus": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "taole-si/dsh-perf-guard": {
    "status": "ok",
@@ -103520,6 +105468,10 @@
   "tappat225/dsh-provider-hub": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "tardisbooo/scientific-visual-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "tarnish233/dsh-tui": {
    "status": "ok",
@@ -104089,6 +106041,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "tera-dark/dsh-desk-kit": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "terebisama/dsh-desktop-linux": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -104141,9 +106097,17 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "terry2010/dsh-rss-news-browser-fetch": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "terry2010/dsh-rss-news-daily": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "terry2010/dsh-rss-news-flash-kuaixun": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "terrywangcode/dsh-mermaid-web": {
    "status": "ok",
@@ -104436,6 +106400,10 @@
   "thebiggavin/marketingdashboard": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "thebtf/dsh-cliproxyapi-provider": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "thecarey/dsh-astrbot-memory-bridge": {
    "status": "ok",
@@ -105309,6 +107277,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "tianacloud/dsh-tiana": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "tianbaidi/dsh-plugin-github-search": {
    "status": "gone",
    "checked": "2026-11-14"
@@ -105401,6 +107373,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "tianjunchi/dsh-workflow-library": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "tiankongshenchu/dsh-chaotang": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -105484,6 +107460,10 @@
   "tianxiaz/dsh-recent-sessions": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "tianxie2026/agnes-image-gen": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "tianxingdao/dsh-shell-switch": {
    "status": "ok",
@@ -106069,6 +108049,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "titor-jz/dsh-dumate-gateway": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "tixan9/dshdesktop-restart-bottom": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -106140,6 +108124,10 @@
   "tkliuxing/dsh-video-forge": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "tkochj/dsh-storage": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "tkwkeven/dsh-lark": {
    "status": "ok",
@@ -106224,6 +108212,10 @@
   "tluoluo/dsh-persist": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "tlxy-code/tlxy.dsh-todo": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "tlyer233/dsh-vscode-review": {
    "status": "ok",
@@ -106561,6 +108553,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "tong174/dsh-enhance-prompt": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "tongailinc/dsh-mobile-access": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -106812,6 +108808,10 @@
   "tostoevsky/tsienhsueshen": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "total-quality/dsh-total-quality": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "totoro-qaq/cobsidian": {
    "status": "ok",
@@ -107108,6 +109108,10 @@
   "trevtravtrev/dsh-i-have-adhd": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "trexwb/dsh-wb-free-model": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "triagmas/dsh-project-evolution": {
    "status": "ok",
@@ -107708,6 +109712,10 @@
   "turboyuu/dsh-us-stocks": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "turboyuu/duh-us-stocks": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "tureen/dsh-acp-resume": {
    "status": "ok",
@@ -113021,6 +115029,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "uitte/dsh-sidebar-restore": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ukakbdh091/dsh-model-fallback": {
    "status": "ok",
    "checked": "2026-11-15"
@@ -113124,6 +115136,10 @@
   "umysy/dsh-plugins": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "uncertaintydeterminesyou4ndme/dsh-immersive-reader": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "uncertaintydeterminesyou4ndme/dsh-reading-room": {
    "status": "ok",
@@ -113272,6 +115288,10 @@
   "universe-st/dsh-game-material-master": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "universe-st/dsh-session-scheduler": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "uniwell9797/dsh-voice-f9": {
    "status": "ok",
@@ -113737,6 +115757,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "vacum972/dsh-page-translate": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "vacum972/dsh-usage-billing": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -113868,6 +115892,10 @@
   "vasidm/dsh-plugins": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "vaspike/dsh-usage-stat": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "vaspike/dsh-web-fetch-fakeip": {
    "status": "ok",
@@ -115105,6 +117133,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "vlln/dsh-better-trajectory": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "vlln/dsh-listen": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -115437,6 +117469,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "w-callan-w/dsh-usage-overview": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "w-j-y-wjy/dsh-glass-weather": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -115504,6 +117540,10 @@
   "w2112515/dsh-remote-host": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "w21180239/dsh-self-compact": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "w2310670047-code/ai-eight-honors-eight-shames": {
    "status": "ok",
@@ -115589,6 +117629,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "wagalicn/dsh-provider-proxy": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wahu2008/deepseekharnessdesktop": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -115640,6 +117684,10 @@
   "wakeupnotfound/dsh-rsi": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "wakis-kaf/dsh-agents-models": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "waknow/dsh-web-icon-indicator": {
    "status": "ok",
@@ -115772,6 +117820,10 @@
   "wanbinyu/wanbinyu-harness-toolbox": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "wanchengwildman/dsh-hcom": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wanchenrui/deepseek-harness-desktop": {
    "status": "ok",
@@ -115928,6 +117980,10 @@
   "wang1413520/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "wang1462604987/dsh-wsl-sidebar": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wang291010/deepseek-harness-desktop": {
    "status": "ok",
@@ -116112,6 +118168,10 @@
   "wangjinding/dsh-opencode-go-usage": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "wangkang183/dsh-pm-workbench": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wangkant/reelsmith": {
    "status": "ok",
@@ -117609,6 +119669,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "wen5555/orimem": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wenaixi/dsh-cfbridge": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -117809,6 +119873,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "weseeon/dsh-session-topics": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "weshopai/weshop-dsh-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -117852,6 +119920,10 @@
   "westhack/deepseek-harness-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "westwall586/dsh-westwall-plugins": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wet86y/voice-terminal": {
    "status": "ok",
@@ -117920,6 +119992,10 @@
   "wgrbiss-spec/dsh-colar-imagem-deepseek-harness": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "wgrbiss-spec/dsh-excluir-sessao": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wgytcdx/dsh-typing-buddy": {
    "status": "ok",
@@ -118961,6 +121037,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "winlin926/dsh-remote-connect": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "winlin926/dsh-roam": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -119064,6 +121144,10 @@
   "winterone-hub/ai-monitor": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "winterone-hub/dsh-deepchat": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "winterone-hub/dsh-plugin-pulse": {
    "status": "ok",
@@ -119312,6 +121396,10 @@
   "wjj865-code/dsh-orchestrator": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "wjl1224734792/ds-superbot": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wjl906/dsh-slowmist-security-guard": {
    "status": "ok",
@@ -119861,6 +121949,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "wolfsonliu/dsh-file-explorer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wolfsonliu/dsh-file-explorer-preview-molstar": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -120032,6 +122124,10 @@
   "worksassistant/dsh-quickref": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "world-eternity/dsh-strata-preset": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "worldconfig/dsh-plugin-usage-cost": {
    "status": "ok",
@@ -120309,6 +122405,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "wsk-build/dsh-plugin-my-deepseek": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wsk-build/dshbox": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -120316,6 +122416,10 @@
   "wsk114514/dsh-ark-wiki": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "wsk114514/dsh-update-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wsk4973/dsh-session-delete": {
    "status": "ok",
@@ -120344,6 +122448,14 @@
   "wsl043/dsh-reasoning-slider": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "wsl1602291891-stack/dsh-restart-center": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "wsl1602291891-stack/dsh-zhilian-api": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wsm000/dsh-sandbox-temp-guard": {
    "status": "ok",
@@ -120460,6 +122572,10 @@
   "wtksana/dsh-font-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "wtr20211202/schflow": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wtstarmark/dsh-myskin": {
    "status": "ok",
@@ -120769,6 +122885,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "wuqiyang312/dsh-git-workspace": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wuren-bridge/dsh-balance-battery": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -120920,6 +123040,10 @@
   "wuxiaosong10/dsh-lotm-sequence-atlas": {
    "status": "ok",
    "checked": "2026-11-15"
+  },
+  "wuxiaozp/dsh-netgate": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "wuxie233/dsh-plugin-agent-teams": {
    "status": "ok",
@@ -121609,6 +123733,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "wzvx/dsh-one-pack": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "wzw4429-crypto/dsh-github-sync": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -121812,6 +123940,10 @@
   "x7687315-gif/dsh-policy": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "x7user/dsh-model-usage": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "x9wd09ncc/dsh-x9-talkjump": {
    "status": "ok",
@@ -123281,6 +125413,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "xianglujun/dsh-todo-notes": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xiangnan0811/dsh-clinepass": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -123545,6 +125681,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "xiaoge480/dsh-qzone-diary": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xiaogu619520/dsh-plugin-task-panel": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -123664,6 +125804,10 @@
   "xiaojiuop/dsh-c4d": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "xiaojiuop/dsh-wallpaper-studio": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xiaokaizhou/dsh-llm-multimodal": {
    "status": "ok",
@@ -123789,6 +125933,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "xiaomao361/dsh-conversation-title": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xiaomao361/dsh-jand": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -123908,6 +126056,10 @@
   "xiaosenho/dsh-plugin-remote-access": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "xiaoshang05/dsh-loop-guard": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xiaoshang05/dsh-rice-guard": {
    "status": "ok",
@@ -124060,6 +126212,10 @@
   "xiaowudev/dsh-gitlines": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "xiaoxia-5201314/dsh-media-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xiaoxianasd/dsh-liquid-glass-ui": {
    "status": "ok",
@@ -124352,6 +126508,10 @@
   "xiaoziwenjie-code/dsh-plugin-wechat-publisher": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "xiaozou-second/dsh-mention-tooltip": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xiaozqi/dsh-dqy": {
    "status": "ok",
@@ -124705,9 +126865,17 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "xin1z/cp-notebooker": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xin505/dsh-task-shelf": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "xin505/dsh-xin505-notify": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xinanzzz/dsh-session-manager": {
    "status": "ok",
@@ -124724,6 +126892,10 @@
   "xincodes/deepseek-billing-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "xincy22/dsh-progress-updates": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xindady/dsh-prompt-enhancer": {
    "status": "ok",
@@ -125765,6 +127937,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "xq25478/dsh-usage-statistics": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xqcherry/dsh-fast-gpt": {
    "status": "ok",
    "checked": "2026-11-17"
@@ -126009,6 +128185,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "xua123/dsh-resource-monitor": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xuan-ao-1/deepseek-harness-workbench": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -126072,6 +128252,10 @@
   "xuanfenglajiao/dsh-effort-menu": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "xuanfenglajiao/dsh-mcp-more-panel": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xuanfu-web/dsh-metaphysics": {
    "status": "ok",
@@ -126253,6 +128437,14 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "xuetianhao98/deepseek-harness-gitview": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "xuetianhao98/dsh_docs": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "xuex991/dsh-working-changes": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -126260,6 +128452,10 @@
   "xuexiaolei1997/dsh-plugin-stock-x": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "xuexue61/dsh-task-queue": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xueyingneko/qqbridge-plus": {
    "status": "ok",
@@ -126736,6 +128932,10 @@
   "xvbenny/dsh-restart": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "xvxianjin/dsh-doc-pane": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "xwamt/at-terminal-dsh": {
    "status": "ok",
@@ -127224,6 +129424,10 @@
   "y1le/dsh-dageban": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "y1s2y3/dsh-whiteboard": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "y1x1n/dsh-prompt-optimizer": {
    "status": "ok",
@@ -127857,6 +130061,18 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "yangyanlu06/douyin-api-bypass": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "yangyanlu06/dsh-douyin-wallpaper": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "yangyanlu06/dsh-turn-cost-chip": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yangyhx/yanghx-dsh-quick-notes": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -127980,6 +130196,10 @@
   "yanj26/dsh-mobile": {
    "status": "gone",
    "checked": "2026-11-14"
+  },
+  "yankafei/art-aesthetic-vault": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yankafei/ascii-h3-director": {
    "status": "ok",
@@ -128185,6 +130405,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "yaolewu/agent-loop-workflow": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yaolewu/dsh-checkout-guard": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -128377,6 +130601,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "ycegg/dsh-a2a-doorbell": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "ycet/dsh-account-usage": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -128460,6 +130688,10 @@
   "ycr40/dsh-prolong-memory": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "yczhang1028/dsh-model-leaderboard": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ydhcxh/dsh-desktop": {
    "status": "ok",
@@ -128641,6 +130873,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "yehuoshun/dsh-media-ledger": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yejasonjiexin/dsh-whale-girl-pet": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -128728,6 +130964,10 @@
   "yelo0525/dsh-workspace-files-autoshow": {
    "status": "gone",
    "checked": "2026-11-17"
+  },
+  "yeloooooooooo/dsh-worklog-calendar": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yembors64632/dsh-connect": {
    "status": "ok",
@@ -128836,6 +131076,10 @@
   "yesterday06/dsh-brain": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "yesterday06/dsh-ycp": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yestone111/rtl_cockpit": {
    "status": "gone",
@@ -129045,6 +131289,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "yhaix/dsh-chat-search": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yhan-sun/dsh-agy": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -129088,6 +131336,10 @@
   "yhm0619/dsh-pet-read": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "yhm138/dsh-btw": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yhm138/dsh-image-rescue": {
    "status": "ok",
@@ -129248,6 +131500,10 @@
   "yidao2000/dsh-local-background": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "yidawuyi/dsh-manga-workflow": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yidien/dsh-capture-window": {
    "status": "ok",
@@ -129448,6 +131704,10 @@
   "yin52133/dsh-luban": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "yinany79-alt/dsh-island-bridge": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yinbenfeng/dsh-plugin-quick-draw-tool-": {
    "status": "ok",
@@ -129945,6 +132205,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "yjh248619/dsh-select-assist": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yjl9903/animegarden": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -130168,6 +132432,10 @@
   "ymf2317-tech/dsh-memo-plus": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "ymf2317-tech/dsh-mobile-fixes": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ymf2317-tech/dsh-my-computer": {
    "status": "ok",
@@ -130465,6 +132733,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "yolo-lzl/deepseek-harness-azurer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yolo-lzl/dsh-ssh-plugin": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -130665,9 +132937,17 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "youkucola/dsh-aurabot-qq-mods-qweather": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "youkucola/dsh-aurabot-world-parlor": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "youkucola/dsh-videostory": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "youli42/dsh_betterinput": {
    "status": "ok",
@@ -130985,6 +133265,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "yrsxy/dsh-simulink-mcp": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yrsxy/dsh-warm-theme": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -131264,6 +133548,10 @@
   "yuan2042-droid/dsh-plugin-directory": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "yuanawaqwq/dsh-columbina-pet": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yuanbaoerer/dsh-decision-split": {
    "status": "ok",
@@ -131629,6 +133917,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "yueyao/dsh-session-manager": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yueyexiayu/dsh-apitu": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -131716,6 +134008,10 @@
   "yugasun/dsh-plugins": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "yugege123/dsh-role-card": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yugejixian/vm-blackbox": {
    "status": "ok",
@@ -132057,6 +134353,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "yumonai/dsh-theme-wanderer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yums/dsh-duet": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -132236,6 +134536,10 @@
   "yunuo110/dsh-gitbash": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "yunweizhao26/dsh-browser-use-skill": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yunxiao11xie/dsh-compact-header": {
    "status": "ok",
@@ -133073,6 +135377,14 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "yyliucha/dsh-session-quote": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
+  "yyliucha/dsh-skill-switcher": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "yylx-r/dsh-console": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -133156,6 +135468,10 @@
   "yyty947/dsh-advisor-chain": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "yyty947/dsh-advisor-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "yyxcnasd/amadeus-for-dsh": {
    "status": "ok",
@@ -133461,6 +135777,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "z99we/tokenomics-plugin": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zaalipro/dsh-workflows": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -133712,6 +136032,10 @@
   "zbcs-studiocr-cn/dsh-skill-manager": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zbh13782-lang/dsh-ask-reader": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zbqzwbunny-max/deepseek-harness-desktop": {
    "status": "ok",
@@ -134061,6 +136385,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "zeki520/dsh-boot-nexus": {
+   "status": "gone",
+   "checked": "2026-11-18"
+  },
   "zekilou/dsh-ask-form": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -134104,6 +136432,10 @@
   "zeme56/dsh-style-studio": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "zemonvunter/qiqi-scan-triage": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zemul/dsh-generate-image": {
    "status": "ok",
@@ -134272,6 +136604,10 @@
   "zenithjoyh/dsh-quote": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "zenithjoyh/dsh-session-actions": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zenjibad/deepseek-cost-usage-status-plugin": {
    "status": "ok",
@@ -134613,6 +136949,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "zeyeyuki/dsh-prompt-optimizer": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zeyu-j/centricmem-skill": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -134672,6 +137012,10 @@
   "zghehejun233/dsh-slurm": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "zghoto/dsh-quick-update": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zgj980644897/dsh-ui-we2": {
    "status": "ok",
@@ -134788,6 +137132,10 @@
   "zhan1024/dsh-frontend-replay": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "zhan1024/dsh-zentao-buglens": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhanbohua/dsh-pet": {
    "status": "ok",
@@ -135609,6 +137957,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "zhaoyanbo1/dsh-screenshot-macos": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zhaoyaqi18/dsh-compressio": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -135872,6 +138224,10 @@
   "zhengqingjing/dsh-session-tree": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zhengqiuyang/dsh-attest": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhengqiuyang/dsh-attest-chain": {
    "status": "ok",
@@ -136233,6 +138589,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "zhiwuli0228/agent-memory-hub": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zhiwuli0228/dsh-env-manager": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -136300,6 +138660,10 @@
   "zhizhi-2986/dsh-obsidian-dashboard": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "zhizhi-2986/dsh-plugins-enhanced": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhizhuodemao/ai-reverse-resources": {
    "status": "ok",
@@ -136408,6 +138772,10 @@
   "zhou1736948757-cpu/dsh-plugin-safe": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zhou200310/dsh-imessage": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhouatie/dsh-device-deck": {
    "status": "ok",
@@ -136524,6 +138892,10 @@
   "zhouwumu2-lab/dsh-vision-fix": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zhouxianjun/dsh-fs-encoding-adaptive": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhouxiaoxian233/dsh-activity-heatmap": {
    "status": "ok",
@@ -136845,6 +139217,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "zhurongjun/dsh-rong-aio": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zhuruoling/dsh-client-plugin-approve-for-me": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -136901,6 +139277,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "zhuyuhan327/deepseek-harness-reader": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zhuyuhan327/dsh-translation-reader": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -136956,6 +139336,10 @@
   "zhy201810576/dsh-zh-reasoning": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zhy451/dsh-prompt-natural": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zhy5/dsh-wx-bridge": {
    "status": "ok",
@@ -137064,6 +139448,10 @@
   "zihangii/dsh-app-radar": {
    "status": "ok",
    "checked": "2026-11-17"
+  },
+  "zihangii/dsh-job-desk": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zihaovistonwang/stata-ai-skill": {
    "status": "ok",
@@ -137348,6 +139736,10 @@
   "ziye-jk/dsh-quadrant-todo": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "ziye-jk/dsh-quadrant-todolist": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "ziye1208/dsh-approval-voice": {
    "status": "ok",
@@ -137745,6 +140137,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "zmr234234-jpg/dsh-deepseek-splash": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zmy1006-sudo/dsh-project-atlas": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -137961,6 +140357,10 @@
    "status": "ok",
    "checked": "2026-11-16"
   },
+  "zoedong/dsh-feishu": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zoehao2026/dsh-standalone-chat": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -138168,6 +140568,10 @@
   "zpa76/deepseek-pa-dsh-desktop": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zpb332/dsh-competition-team": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zpda88888a88888-debug/dsh-progress-secretary": {
    "status": "ok",
@@ -138500,6 +140904,10 @@
   "ztcno0ne/dsh-loom": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "zth-zero/dsh-settings-plus": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zthhero/dsh-settings-plus": {
    "status": "ok",
@@ -138929,6 +141337,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "zy-wang-0304/dsh-workspace-mover": {
+   "status": "ok",
+   "checked": "2026-11-18"
+  },
   "zy-xyz/dsh-lcm": {
    "status": "ok",
    "checked": "2026-11-16"
@@ -139264,6 +141676,10 @@
   "zznobzz/dsh-plugin-mcp-manager": {
    "status": "ok",
    "checked": "2026-11-16"
+  },
+  "zznobzz/dsh-qwen-sub-oauth": {
+   "status": "ok",
+   "checked": "2026-11-18"
   },
   "zzsszz1122/dsh-agnes-media": {
    "status": "ok",
