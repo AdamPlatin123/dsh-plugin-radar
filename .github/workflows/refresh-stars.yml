@@ -43,7 +43,26 @@ jobs:
             exit 0
           fi
           git commit -m "auto: PLUGINS-ALL 星数日刷 $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          # 刷星约 15 分钟，期间快照/渲染 bot 推进 main：直接 push 会被拒（non-fast-forward）。
+          # PLUGINS-ALL.md 也由渲染 bot 重写，rebase 冲突时只提交 star-cache.json（本 workflow 独占；
+          # canonical 导出取其实时星，下一轮渲染即带入 PLUGINS-ALL），不丢整轮成果。
+          # 脚本还会改写 catalog/all/*.md（本 workflow 不提交）：未暂存改动会让 pull --rebase 直接拒绝，先丢弃
+          git reset -q --hard HEAD
+          for i in 1 2 3 4 5; do
+            if ! git pull --rebase -q origin main; then
+              git rebase --abort 2>/dev/null
+              cp data/star-cache.json /tmp/star-cache.json
+              git reset -q --hard origin/main
+              cp /tmp/star-cache.json data/star-cache.json
+              git add data/star-cache.json
+              if git diff --cached --quiet; then echo "[stars] star-cache 无变化"; exit 0; fi
+              git commit -q -m "auto: star-cache 星数日刷 $(date -u '+%Y-%m-%d %H:%M') UTC（PLUGINS-ALL 与渲染冲突，交由渲染带入）"
+            fi
+            git push && break
+            [ "$i" = 5 ] && { echo "[stars] push 连续 5 次被拒"; exit 1; }
+            echo "[stars] push 竞态，重试 $i/5"
+            sleep $((i * 10))
+          done
 
       - name: Push mirror to dsh-ext (optional)
         env:
@@ -53,6 +72,12 @@ jobs:
           BASE=$(git rev-parse HEAD)
           git config --unset-all http.https://github.com/.extraheader || true
           git remote add dsh-ext "https://x-access-token:${DSH_EXT_TOKEN}@github.com/Zhidao-Lab-OSS/awesome-dsh-plugins.git" || true
+          # 镜像仓不可达（2026-11 起 Repository not found：组织仓已删除或令牌失去权限）时告警跳过，
+          # 不让可选镜像把每日刷星整轮标红；仓库恢复后自动继续同步
+          if ! git ls-remote -q dsh-ext main >/dev/null 2>&1; then
+            echo "::warning title=refresh-stars 镜像跳过::Zhidao-Lab-OSS/awesome-dsh-plugins 不可达（仓库不存在或 DSH_EXT_TOKEN 无权限），本轮只推 origin"
+            exit 0
+          fi
           git fetch dsh-ext main
           # 双仓历史分叉：不整仓 rebase，只在 org main 之上同步 PLUGINS-ALL.md 单文件
           git checkout -q -B stars-mirror-sync dsh-ext/main

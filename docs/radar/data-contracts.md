@@ -10,7 +10,7 @@
 
 | 文件 | 语义 | 失效口径 |
 |---|---|---|
-| `repo-map.json` | canonical_id ↔ GitHub 全名映射，含改名 aliases | 改名捕获时增量更新 |
+| `repo-map.json` | canonical_id ↔ GitHub 全名映射，含改名 aliases；条目可带 `checked_at`（扫描主机观测到该全名的时刻），身份归一时与 enrich 的 `identity_checked_at` 比较新旧 | 扫描主机每日导出，只增不减 |
 | `locate-cache.json` | 占位键（`owner-repo`）→ 真实仓库定位结果，附实时星数 | 定期复核刷新 |
 | `url-audit.json` | 仓库存在性审计：真实 URL ∪ 定位命中 ∪ 手工区链接 | gone 判定 7 天 TTL 防抖 |
 | `desc-cache.json` | 仓库描述缓存 | 跟随快照轮次 |
