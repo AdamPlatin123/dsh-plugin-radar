@@ -1,5 +1,5 @@
 {
- "resolved_at": "2026-11-17",
+ "resolved_at": "2026-11-18",
  "entries": {
   "0-chenai-dsh-smooth-stream": {
    "status": "found",
@@ -619,7 +619,7 @@
   },
   "1021summer-dsh-session-search": {
    "status": "found",
-   "full_name": "Li-0803/dsh-session-search",
+   "full_name": "1021summer/dsh-session-search",
    "src": "host-identity",
    "star": 3
   },
@@ -840,6 +840,12 @@
   "1162514620-plugin-center": {
    "status": "found",
    "full_name": "1162514620/plugin-center",
+   "star": 0
+  },
+  "1165655527-dot-dsh-cyber-green-theme": {
+   "status": "found",
+   "full_name": "1165655527-dot/dsh-cyber-green-theme",
+   "src": "host-identity",
    "star": 0
   },
   "117bs-dsh-perlica-ding": {
@@ -1377,6 +1383,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "1334104926-vps-proxy-doctor": {
+   "status": "found",
+   "full_name": "1334104926/vps-proxy-doctor",
+   "src": "host-identity",
+   "star": 0
+  },
   "133563825as-ai-dsh-api-dashboard": {
    "status": "found",
    "full_name": "133563825as-ai/dsh-api-dashboard",
@@ -1606,6 +1618,12 @@
    "full_name": "1499501762/dsh-web-fetch-proxy",
    "src": "host-identity",
    "star": 1
+  },
+  "1502074527-svg-dsh-handoff-at-75": {
+   "status": "found",
+   "full_name": "1502074527-svg/dsh-handoff-at-75",
+   "src": "host-identity",
+   "star": 0
   },
   "1514100951-dsh-notify-plugins": {
    "status": "found",
@@ -2461,7 +2479,7 @@
   },
   "1997liuyh-boop-dsh-desktop-runtime": {
    "status": "found",
-   "full_name": "1997liuyh-boop/dsh-desktop-tools",
+   "full_name": "1997liuyh-boop/dsh-desktop-runtime",
    "src": "host-identity",
    "star": 0
   },
@@ -2608,6 +2626,12 @@
   "1ecc-dsh-lenovo-toolkit": {
    "status": "found",
    "full_name": "1Ecc/dsh-lenovo-toolkit",
+   "src": "host-identity",
+   "star": 0
+  },
+  "1gokd-dsh-rhino": {
+   "status": "found",
+   "full_name": "1gokd/dsh-rhino",
    "src": "host-identity",
    "star": 0
   },
@@ -3026,7 +3050,7 @@
   },
   "2132774831-dsh-local-memory": {
    "status": "found",
-   "full_name": "2132774831/dsh-nodal-memory",
+   "full_name": "2132774831/dsh-local-memory",
    "src": "host-identity",
    "star": 0
   },
@@ -3864,7 +3888,13 @@
   },
   "329604421-agent-todo-plugin": {
    "status": "found",
-   "full_name": "329604421/dsh-agent-todo",
+   "full_name": "329604421/agent-todo-plugin",
+   "src": "host-identity",
+   "star": 0
+  },
+  "3297304308-dsh-dream-wander": {
+   "status": "found",
+   "full_name": "3297304308/dsh-dream-wander",
    "src": "host-identity",
    "star": 0
   },
@@ -3882,7 +3912,7 @@
   },
   "3341284397-max-dsh-question-bubbles": {
    "status": "found",
-   "full_name": "Aurophyllis/dsh-question-bubbles",
+   "full_name": "3341284397-max/dsh-question-bubbles",
    "src": "host-identity",
    "star": 0
   },
@@ -4074,7 +4104,7 @@
   },
   "384124694-dsh-host-paths": {
    "status": "found",
-   "full_name": "SereneJi/dsh-host-paths",
+   "full_name": "384124694/dsh-host-paths",
    "src": "host-identity",
    "star": 0
   },
@@ -4438,6 +4468,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "442443051-dsh-script-studio": {
+   "status": "found",
+   "full_name": "442443051/dsh-script-studio",
+   "src": "host-identity",
+   "star": 0
+  },
   "444136347-dsh-capability-discovery": {
    "status": "found",
    "full_name": "444136347/dsh-capability-discovery",
@@ -4563,6 +4599,12 @@
   "4fuu-dsh-standard-plus": {
    "status": "found",
    "full_name": "4fuu/dsh-standard-plus",
+   "src": "host-identity",
+   "star": 0
+  },
+  "4kaforever11-dsh-mcd-mcp": {
+   "status": "found",
+   "full_name": "4KAForever11/dsh-mcd-mcp",
    "src": "host-identity",
    "star": 0
   },
@@ -5098,6 +5140,12 @@
    "src": "host-identity",
    "star": 2
   },
+  "66ronghua99-dsh-notifier": {
+   "status": "found",
+   "full_name": "66Ronghua99/dsh-notifier",
+   "src": "host-identity",
+   "star": 0
+  },
   "66wjz-dsh-model-cap": {
    "status": "found",
    "full_name": "66wjz/dsh-model-cap",
@@ -5468,6 +5516,12 @@
   "7gzgn-dsh-tool-gate": {
    "status": "found",
    "full_name": "7gzgn/dsh-tool-gate",
+   "src": "host-identity",
+   "star": 0
+  },
+  "7nian173-dsh-session-orchestrator": {
+   "status": "found",
+   "full_name": "7nian173/dsh-session-orchestrator",
    "src": "host-identity",
    "star": 0
   },
@@ -6747,11 +6801,23 @@
    "full_name": "a903067276-rgb/dsh-todo-guard",
    "star": 1
   },
+  "a903067276-rgb-dsh-tomatronic-child-raise": {
+   "status": "found",
+   "full_name": "a903067276-rgb/dsh-tomatronic-child-raise",
+   "src": "host-identity",
+   "star": 0
+  },
   "a961282799-crypto-dsh-island": {
    "status": "found",
    "full_name": "a961282799-crypto/dsh-island",
    "src": "host-identity",
    "star": 8
+  },
+  "a961282799-crypto-dsh-island-go": {
+   "status": "found",
+   "full_name": "a961282799-crypto/dsh-island-go",
+   "src": "host-identity",
+   "star": 0
   },
   "a961282799-crypto-dsh-region-edit": {
    "status": "found",
@@ -7109,6 +7175,12 @@
    "star": 4,
    "src": "registry"
   },
+  "aaron-lmh-dsh-side-chat": {
+   "status": "found",
+   "full_name": "Aaron-lmh/dsh-side-chat",
+   "src": "host-identity",
+   "star": 0
+  },
   "aaron999-h-dsh-restart-account": {
    "status": "found",
    "full_name": "aaron999-h/dsh-restart-account",
@@ -7304,6 +7376,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "abccgh-dsh-ck3-mod-dev": {
+   "status": "found",
+   "full_name": "ABccgh/dsh-ck3-mod-dev",
+   "src": "host-identity",
+   "star": 0
+  },
   "abccgh-dsh-desktop-dev": {
    "status": "found",
    "full_name": "ABccgh/dsh-desktop-dev",
@@ -7319,6 +7397,12 @@
   "abccgh-dsh-ima-plugin": {
    "status": "found",
    "full_name": "ABccgh/dsh-ima-plugin",
+   "src": "host-identity",
+   "star": 0
+  },
+  "abccgh-dsh-input": {
+   "status": "found",
+   "full_name": "ABccgh/dsh-input",
    "src": "host-identity",
    "star": 0
   },
@@ -7937,6 +8021,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "activer007-dsh-skin-engine": {
+   "status": "found",
+   "full_name": "Activer007/dsh-skin-engine",
+   "src": "host-identity",
+   "star": 0
+  },
   "activer007-solar-odyssey-dsh": {
    "status": "found",
    "full_name": "Activer007/solar-odyssey-dsh",
@@ -7990,6 +8080,12 @@
    "full_name": "acus9345/dsh-protect-tests",
    "src": "host-identity",
    "star": 4
+  },
+  "acuteszw-dsh-purge-pro": {
+   "status": "found",
+   "full_name": "AcuteSZW/dsh-purge-pro",
+   "src": "host-identity",
+   "star": 0
   },
   "acuteszw-dsh-rea-pro": {
    "status": "found",
@@ -8205,6 +8301,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "adengou-dsh-kumquat": {
+   "status": "found",
+   "full_name": "adengou/dsh-kumquat",
+   "src": "host-identity",
+   "star": 0
+  },
   "adenxie-dsh-vercel": {
    "status": "found",
    "full_name": "AdenXie/dsh-vercel",
@@ -8287,6 +8389,12 @@
    "full_name": "adithyanraj03/dsh-graft-plugin",
    "src": "host-identity",
    "star": 4
+  },
+  "adithyanraj03-dsh-image-gen": {
+   "status": "found",
+   "full_name": "adithyanraj03/dsh-image-gen",
+   "src": "host-identity",
+   "star": 0
   },
   "adithyanraj03-dsh-mcp-summon": {
    "status": "found",
@@ -8734,6 +8842,12 @@
    "src": "host-identity",
    "star": 4
   },
+  "afeiaswell-dsh-doubao-pet": {
+   "status": "found",
+   "full_name": "afeiaswell/dsh-doubao-pet",
+   "src": "host-identity",
+   "star": 0
+  },
   "afeygu-dsh-compaction-tower": {
    "status": "found",
    "full_name": "AfeyGu/dsh-compaction-tower",
@@ -8798,6 +8912,12 @@
   "aga-j-dsh-mini-games": {
    "status": "found",
    "full_name": "aga-j/dsh-mini-games",
+   "star": 0
+  },
+  "agabadouglas308-dsh-plugin-linux": {
+   "status": "found",
+   "full_name": "agabadouglas308/dsh-plugin-linux",
+   "src": "host-identity",
    "star": 0
   },
   "age10-moyu-dsh-adiv-theme": {
@@ -8916,6 +9036,12 @@
   "agentsdanceai-deepseek-harness-cloud": {
    "status": "found",
    "full_name": "AgentsDanceAI/deepseek-harness-cloud",
+   "src": "host-identity",
+   "star": 0
+  },
+  "agentsgater-dsh-config-profiles": {
+   "status": "found",
+   "full_name": "agentsgater/dsh-config-profiles",
    "src": "host-identity",
    "star": 0
   },
@@ -9825,6 +9951,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "aion-battlecruiser-dsh-worker-orchestrator": {
+   "status": "found",
+   "full_name": "AION-Battlecruiser/dsh-worker-orchestrator",
+   "src": "host-identity",
+   "star": 0
+  },
   "aipaigyx-wan-tavern": {
    "status": "found",
    "full_name": "aipaigyx/wan-tavern",
@@ -10525,6 +10657,12 @@
    "full_name": "ala-Lisa/dsh-eyes-upload",
    "star": 1
   },
+  "alaichhe-dsh-antigravity-acp": {
+   "status": "found",
+   "full_name": "AlaIchhe/dsh-antigravity-acp",
+   "src": "host-identity",
+   "star": 0
+  },
   "alaichhe-dsh-qwenwork-connect": {
    "status": "found",
    "full_name": "AlaIchhe/dsh-qwenwork-connect",
@@ -10789,6 +10927,12 @@
   "albertzj-dsh-web-search-pro-plus": {
    "status": "found",
    "full_name": "AlbertZJ/dsh-web-search-pro-plus",
+   "src": "host-identity",
+   "star": 0
+  },
+  "albisjee25-albis-aipassport-badge": {
+   "status": "found",
+   "full_name": "albisjee25/albis-aipassport-badge",
    "src": "host-identity",
    "star": 0
   },
@@ -11080,6 +11224,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "alexmbright-dsh-roblox-development": {
+   "status": "found",
+   "full_name": "alexmbright/dsh-roblox-development",
+   "src": "host-identity",
+   "star": 0
+  },
   "alexmillerovo-dsh-imagen": {
    "status": "found",
    "full_name": "AlexMillerOvO/dsh-imagen",
@@ -11216,6 +11366,12 @@
   "algovate-dsh-agent-debugger": {
    "status": "found",
    "full_name": "Algovate/dsh-agent-debugger",
+   "src": "host-identity",
+   "star": 0
+  },
+  "algovate-dsh-channels": {
+   "status": "found",
+   "full_name": "Algovate/dsh-channels",
    "src": "host-identity",
    "star": 0
   },
@@ -12146,6 +12302,24 @@
    "src": "host-identity",
    "star": 3
   },
+  "amahahanasaki-dsh-mtrans": {
+   "status": "found",
+   "full_name": "AmahaHanasaki/dsh-mtrans",
+   "src": "host-identity",
+   "star": 0
+  },
+  "amahahanasaki-dsh-ra2-csf": {
+   "status": "found",
+   "full_name": "AmahaHanasaki/dsh-ra2-csf",
+   "src": "host-identity",
+   "star": 0
+  },
+  "amahahanasaki-dsh-ra2-mix": {
+   "status": "found",
+   "full_name": "AmahaHanasaki/dsh-ra2-mix",
+   "src": "host-identity",
+   "star": 0
+  },
   "amainoyo-poster-studio": {
    "status": "found",
    "full_name": "amainoyo/Poster-Studio",
@@ -12194,6 +12368,18 @@
   "amc-tp-dsh-work-buddy": {
    "status": "found",
    "full_name": "AMC-tp/dsh-work-buddy",
+   "src": "host-identity",
+   "star": 0
+  },
+  "amd47802574-dsh-agents-editor": {
+   "status": "found",
+   "full_name": "amd47802574/dsh-agents-editor",
+   "src": "host-identity",
+   "star": 0
+  },
+  "amd47802574-dsh-artifacts": {
+   "status": "found",
+   "full_name": "amd47802574/dsh-artifacts",
    "src": "host-identity",
    "star": 0
   },
@@ -12283,6 +12469,12 @@
    "full_name": "americanjeff/modelspoke",
    "star": 1
   },
+  "amesawa-000-dsh-ppt-image-studio": {
+   "status": "found",
+   "full_name": "Amesawa-000/dsh-ppt-image-studio",
+   "src": "host-identity",
+   "star": 0
+  },
   "amethystluna-dsh-model-everything": {
    "status": "found",
    "full_name": "AmethystLuna/dsh-model-everything",
@@ -12359,6 +12551,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "amir-keshtkar-deepseek-harness-peak-reminder": {
+   "status": "found",
+   "full_name": "Amir-Keshtkar/deepseek-harness-peak-reminder",
+   "src": "host-identity",
+   "star": 1
+  },
   "amir83nasr-dsh-rastin": {
    "status": "found",
    "full_name": "Amir83Nasr/dsh-rastin",
@@ -12419,6 +12617,12 @@
   "amoss-1-routine-taskboard": {
    "status": "found",
    "full_name": "Amoss-1/routine-taskboard",
+   "star": 0
+  },
+  "amoswzw-dsh-macos-menu-bar": {
+   "status": "found",
+   "full_name": "amoswzw/dsh-macos-menu-bar",
+   "src": "host-identity",
    "star": 0
   },
   "amouren7-dsh-plugin-desk": {
@@ -12489,6 +12693,12 @@
    "full_name": "an-an-618/dsh-intelligent-ui",
    "src": "host-identity",
    "star": 1
+  },
+  "an-yyds-dsh-wx-ilink": {
+   "status": "found",
+   "full_name": "An-yyds/dsh-wx-ilink",
+   "src": "host-identity",
+   "star": 0
   },
   "an0range-dsh-plugins": {
    "status": "found",
@@ -12783,9 +12993,21 @@
    "full_name": "andrepontesmelo/moving-target",
    "star": 0
   },
+  "andreramosnl-dsh-opencode-go-usage": {
+   "status": "found",
+   "full_name": "andreramosnl/dsh-opencode-go-usage",
+   "src": "host-identity",
+   "star": 0
+  },
   "andretheaccelerator-dsh-design-canvas": {
    "status": "found",
    "full_name": "AndreTheAccelerator/dsh-design-canvas",
+   "src": "host-identity",
+   "star": 0
+  },
+  "andrew-liu-dsh-wechat-one": {
+   "status": "found",
+   "full_name": "Andrew-liu/dsh-wechat-one",
    "src": "host-identity",
    "star": 0
   },
@@ -13320,6 +13542,12 @@
   "anjiaqi0926-dsh-plugin-switchboard": {
    "status": "found",
    "full_name": "AnJiaqi0926/dsh-plugin-switchboard",
+   "src": "host-identity",
+   "star": 0
+  },
+  "anjiaqi0926-dsh-style-mirror": {
+   "status": "found",
+   "full_name": "AnJiaqi0926/dsh-style-mirror",
    "src": "host-identity",
    "star": 0
   },
@@ -14732,6 +14960,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "arfarfgit-dsh-ram-meter": {
+   "status": "found",
+   "full_name": "arfarfgit/dsh-ram-meter",
+   "src": "host-identity",
+   "star": 0
+  },
   "arfcon-dsh-hotplug-hub": {
    "status": "found",
    "full_name": "ARFCON/dsh-hotplug-hub",
@@ -14909,6 +15143,12 @@
    "full_name": "Arnoldkevin/prismrelay-mcp",
    "star": 1
   },
+  "arrongao-dsh-turn-ding": {
+   "status": "found",
+   "full_name": "arrongao/dsh-turn-ding",
+   "src": "host-identity",
+   "star": 0
+  },
   "arrosam-dsh-better-workspace-file-manager": {
    "status": "found",
    "full_name": "Arrosam/dsh-better-workspace-file-manager",
@@ -14940,7 +15180,7 @@
   },
   "arslan-jh-deepseek-harness-usage": {
    "status": "found",
-   "full_name": "jeffy-Peng/deepseek-harness-usage",
+   "full_name": "Arslan-jh/deepseek-harness-usage",
    "src": "host-identity",
    "star": 0
   },
@@ -15049,6 +15289,12 @@
   "artorias-zj-dsh-cc-switch-skills": {
    "status": "found",
    "full_name": "artorias-zj/dsh-cc-switch-skills",
+   "src": "host-identity",
+   "star": 0
+  },
+  "artorias-zj-dsh-magpie-skills": {
+   "status": "found",
+   "full_name": "artorias-zj/dsh-magpie-skills",
    "src": "host-identity",
    "star": 0
   },
@@ -15504,6 +15750,12 @@
    "full_name": "Asher-Xuv/DeepSeek-Balance-Badge",
    "star": 1
   },
+  "ashley-dot-oss-dsh-persona-lab": {
+   "status": "found",
+   "full_name": "ashley-dot-oss/dsh-persona-lab",
+   "src": "host-identity",
+   "star": 0
+  },
   "ashllll-dsh-open-code-review": {
    "status": "found",
    "full_name": "ashllll/dsh-open-code-review",
@@ -15641,7 +15893,7 @@
   },
   "assuredfive-dsh-pan123": {
    "status": "found",
-   "full_name": "Assuredfive/dsh-webdav",
+   "full_name": "Assuredfive/dsh-pan123",
    "src": "host-identity",
    "star": 1
   },
@@ -15690,6 +15942,12 @@
   "asterionzephyr-dsh-desktop-hand": {
    "status": "found",
    "full_name": "AsterionZephyr/dsh-desktop-hand",
+   "src": "host-identity",
+   "star": 0
+  },
+  "asterionzephyr-dsh-toolbox": {
+   "status": "found",
+   "full_name": "AsterionZephyr/dsh-toolbox",
    "src": "host-identity",
    "star": 0
   },
@@ -16272,7 +16530,7 @@
   },
   "automagik-dev-automagik": {
    "status": "found",
-   "full_name": "automagik-si/automagik",
+   "full_name": "automagik-dev/automagik",
    "src": "host-identity",
    "star": 2
   },
@@ -16827,6 +17085,12 @@
   "axingde-dsh-welcome": {
    "status": "found",
    "full_name": "axingde/dsh-welcome",
+   "src": "host-identity",
+   "star": 0
+  },
+  "axtut-dsh-gesture-control": {
+   "status": "found",
+   "full_name": "AXTUT/dsh-gesture-control",
    "src": "host-identity",
    "star": 0
   },
@@ -17631,7 +17895,7 @@
   },
   "backtomyfuture-dsh-resource-center": {
    "status": "found",
-   "full_name": "backtomyfuture/dsh-litellm-panel",
+   "full_name": "backtomyfuture/dsh-resource-center",
    "src": "host-identity",
    "star": 0
   },
@@ -17753,6 +18017,12 @@
   "baicaibucai1-dsh-process-control": {
    "status": "found",
    "full_name": "baicaibucai1/dsh-process-control",
+   "src": "host-identity",
+   "star": 0
+  },
+  "baidada1020-dsh-go-phone": {
+   "status": "found",
+   "full_name": "baidada1020/dsh-go-phone",
    "src": "host-identity",
    "star": 0
   },
@@ -18056,7 +18326,7 @@
   },
   "baisbt-baisbt-dsh-service-manager": {
    "status": "found",
-   "full_name": "Baisbt/dsh-service-manager",
+   "full_name": "Baisbt/Baisbt-dsh-service-manager",
    "src": "host-identity",
    "star": 0
   },
@@ -18073,7 +18343,7 @@
   },
   "baisbt-dsh-seesion-manager": {
    "status": "found",
-   "full_name": "Baisbt/dsh-session-manager",
+   "full_name": "Baisbt/dsh-seesion-manager",
    "src": "host-identity",
    "star": 0
   },
@@ -18321,6 +18591,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "baldovinmarques391-design-dsh-goal-resume": {
+   "status": "found",
+   "full_name": "baldovinmarques391-design/dsh-goal-resume",
+   "src": "host-identity",
+   "star": 0
+  },
   "baldovinmarques391-design-dsh-plugin-glm-visi": {
    "status": "found",
    "full_name": "baldovinmarques391-design/dsh-plugin-glm-vision",
@@ -18483,7 +18759,7 @@
   },
   "bangbang-03-dsh-memory": {
    "status": "found",
-   "full_name": "BangBang-03/dsh-memory-portrait",
+   "full_name": "BangBang-03/dsh-memory",
    "src": "host-identity",
    "star": 2
   },
@@ -19207,6 +19483,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "beckchiang-open-sea-skin": {
+   "status": "found",
+   "full_name": "BeckChiang/open-sea-skin",
+   "src": "host-identity",
+   "star": 0
+  },
   "beckhamwash-dsh-claude-workbench": {
    "status": "found",
    "full_name": "beckhamwash/dsh-claude-workbench",
@@ -19776,7 +20058,7 @@
   },
   "berrybearl-dsh-subagent-plus": {
    "status": "found",
-   "full_name": "BErrybearl/dsh-cli-subagent",
+   "full_name": "BErrybearl/dsh-subagent-plus",
    "src": "host-identity",
    "star": 0
   },
@@ -20027,6 +20309,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "bgmmd-dsh-vibecoding-preflight": {
+   "status": "found",
+   "full_name": "bgmmd/dsh-vibecoding-preflight",
+   "src": "host-identity",
+   "star": 0
+  },
   "bgx666-dsh-memory-tree": {
    "status": "found",
    "full_name": "bgx666/dsh-memory-tree",
@@ -20176,6 +20464,12 @@
    "status": "found",
    "full_name": "BigBlueBaby/codex2dsh",
    "star": 4
+  },
+  "bigbrain-work-shiliu-ai": {
+   "status": "found",
+   "full_name": "bigbrain-work/shiliu-ai",
+   "src": "host-identity",
+   "star": 0
   },
   "bigbugy-dsh-tool-session-message": {
    "status": "found",
@@ -20496,6 +20790,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "bin-71-dsh-net-accelerator": {
+   "status": "found",
+   "full_name": "bin-71/dsh-net-accelerator",
+   "src": "host-identity",
+   "star": 0
+  },
   "bin-hy-dsh": {
    "status": "found",
    "full_name": "Bin-hy/dsh",
@@ -20504,6 +20804,12 @@
   "bin-top1-dsh-searchhub": {
    "status": "found",
    "full_name": "Bin-top1/dsh-searchhub",
+   "src": "host-identity",
+   "star": 0
+  },
+  "bin9317-dsh-theme-mac-platinum": {
+   "status": "found",
+   "full_name": "bin9317/dsh-theme-mac-platinum",
    "src": "host-identity",
    "star": 0
   },
@@ -21267,7 +21573,7 @@
   },
   "bloodarea-dsh-agent-team-browser": {
    "status": "found",
-   "full_name": "bloodarea/dsh-agent-team-ui-testing",
+   "full_name": "bloodarea/dsh-agent-team-browser",
    "src": "host-identity",
    "star": 3
   },
@@ -21877,6 +22183,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "borncode-app-dsh-borncode": {
+   "status": "found",
+   "full_name": "borncode-app/dsh-borncode",
+   "src": "host-identity",
+   "star": 1
+  },
   "borncode-app-dsh-browser-use": {
    "status": "found",
    "full_name": "borncode-app/dsh-browser-use",
@@ -22152,7 +22464,7 @@
   },
   "bowluna-dsh-prompt-hub": {
    "status": "found",
-   "full_name": "BOWLUNA/dsh-multi-instance",
+   "full_name": "BOWLUNA/dsh-prompt-hub",
    "src": "host-identity",
    "star": 0
   },
@@ -22473,6 +22785,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "brathonbai-whale-watcher": {
+   "status": "found",
+   "full_name": "BrathonBai/whale-watcher",
+   "src": "host-identity",
+   "star": 0
+  },
   "breakc0re-dsh-yandex-music": {
    "status": "found",
    "full_name": "breakc0re/dsh-yandex-music",
@@ -22729,8 +23047,9 @@
   },
   "bruc3van-awesome-dsh-plugin": {
    "status": "found",
-   "full_name": "bruc3van/awesome-dsh-plugin",
-   "star": 169
+   "full_name": "bruc3van/awesome-dsh-plugin-pro",
+   "src": "host-identity",
+   "star": 526
   },
   "bruc3van-dsh-desktop": {
    "status": "found",
@@ -22740,7 +23059,7 @@
   },
   "bruc3van-dsh-desktop-safe-market": {
    "status": "found",
-   "full_name": "bruc3van/safer-dsh-market",
+   "full_name": "bruc3van/dsh-market-pro",
    "src": "host-identity",
    "star": 9
   },
@@ -23340,6 +23659,12 @@
    "src": "host-identity",
    "star": 4
   },
+  "buxu777-dsh-theme-buxu": {
+   "status": "found",
+   "full_name": "buxu777/dsh-theme-buxu",
+   "src": "host-identity",
+   "star": 0
+  },
   "buyou-claw-dsh-superagent-win": {
    "status": "found",
    "full_name": "buyou-claw/dsh-superagent-win",
@@ -23397,6 +23722,12 @@
    "status": "found",
    "full_name": "bwhite55/dsh-wechat-pro",
    "star": 1
+  },
+  "bwlfhu-lark-coding-agent-bridge": {
+   "status": "found",
+   "full_name": "bwlfhu/lark-coding-agent-bridge",
+   "src": "host-identity",
+   "star": 0
   },
   "bwndlct-dsh-codex-bridge": {
    "status": "found",
@@ -23848,6 +24179,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "caiccc-a11y-dsh-asr-openai": {
+   "status": "found",
+   "full_name": "Caiccc-a11y/dsh-asr-openai",
+   "src": "host-identity",
+   "star": 0
+  },
   "caiccc-a11y-dsh-wyymusic-player": {
    "status": "found",
    "full_name": "Caiccc-a11y/dsh-wyymusic-player",
@@ -23862,7 +24199,7 @@
   },
   "caidows-dsh-codex-model-picker": {
    "status": "found",
-   "full_name": "caidows/dsh-quick-model-switch",
+   "full_name": "caidows/dsh-codex-model-picker",
    "src": "host-identity",
    "star": 0
   },
@@ -24051,7 +24388,7 @@
   },
   "calisweetleaf-dsh-chatgpt-swic": {
    "status": "found",
-   "full_name": "calisweetleaf/dsh-siwc-native",
+   "full_name": "calisweetleaf/dsh-chatgpt-swic",
    "src": "host-identity",
    "star": 1
   },
@@ -24117,7 +24454,7 @@
   },
   "calliope-nicles-technical-terms-en-zh-plugin": {
    "status": "found",
-   "full_name": "Calliope-Nicles/technical-english-companion",
+   "full_name": "Calliope-Nicles/technical-terms-en-zh-plugin",
    "src": "host-identity",
    "star": 1
   },
@@ -24171,6 +24508,12 @@
   "calmzeala-dsh-km": {
    "status": "found",
    "full_name": "calmzealA/dsh-km",
+   "src": "host-identity",
+   "star": 0
+  },
+  "calvin-xia-my-dsh-plugins": {
+   "status": "found",
+   "full_name": "Calvin-Xia/my-dsh-plugins",
    "src": "host-identity",
    "star": 0
   },
@@ -24345,7 +24688,7 @@
   },
   "canming-dsh-web-search-codex-020": {
    "status": "found",
-   "full_name": "CanMing/dsh-web-search-codex",
+   "full_name": "CanMing/dsh-web-search-codex-020",
    "src": "host-identity",
    "star": 0
   },
@@ -24383,6 +24726,18 @@
    "full_name": "Cantarella-Fisalia/dsh-langgraph-canvas",
    "src": "host-identity",
    "star": 1
+  },
+  "canvai1337-dsh-context-compaction-meter": {
+   "status": "found",
+   "full_name": "Canvai1337/dsh-context-compaction-meter",
+   "src": "host-identity",
+   "star": 0
+  },
+  "canvai1337-dsh-enhance-prompt": {
+   "status": "found",
+   "full_name": "Canvai1337/dsh-enhance-prompt",
+   "src": "host-identity",
+   "star": 0
   },
   "canye-zdm-dsh-serial": {
    "status": "found",
@@ -24704,6 +25059,12 @@
   "carlown-majia7-dsh-skin": {
    "status": "found",
    "full_name": "Carlown/majia7-dsh-skin",
+   "star": 0
+  },
+  "carlslin-dsh-skill-eval": {
+   "status": "found",
+   "full_name": "carlslin/dsh-skill-eval",
+   "src": "host-identity",
    "star": 0
   },
   "carpon39038-dsh-image-theme": {
@@ -25232,6 +25593,12 @@
    "src": "host-identity",
    "star": 4
   },
+  "cc2027mk2-dsh-watch-phone": {
+   "status": "found",
+   "full_name": "CC2027MK2/dsh-watch-phone",
+   "src": "host-identity",
+   "star": 0
+  },
   "ccbili30-collab-dsh-plugin-rollback-whale": {
    "status": "found",
    "full_name": "ccbili30-collab/dsh-plugin-rollback-whale",
@@ -25326,6 +25693,18 @@
    "status": "found",
    "full_name": "ccch713/deepddw",
    "star": 9
+  },
+  "cccjj55-dsh-plugin-bench": {
+   "status": "found",
+   "full_name": "cccjj55/dsh-plugin-bench",
+   "src": "host-identity",
+   "star": 0
+  },
+  "cccjj55-dsh-plugin-wsl": {
+   "status": "found",
+   "full_name": "cccjj55/dsh-plugin-wsl",
+   "src": "host-identity",
+   "star": 0
   },
   "ccclosed-dsh-selection-actions": {
    "status": "found",
@@ -25492,6 +25871,12 @@
   "ccr-wer-dsh-dolphin-security": {
    "status": "found",
    "full_name": "ccr-wer/dsh-dolphin-security",
+   "star": 0
+  },
+  "ccr-wer-dsh-lifecycle-cache-cleaner": {
+   "status": "found",
+   "full_name": "ccr-wer/dsh-Lifecycle-Cache-Cleaner",
+   "src": "host-identity",
    "star": 0
   },
   "ccr-wer-dsh-remote-rea": {
@@ -25822,6 +26207,12 @@
   "cfyofjackie-dsh-selection-quote": {
    "status": "found",
    "full_name": "cfyofjackie/dsh-selection-quote",
+   "src": "host-identity",
+   "star": 0
+  },
+  "cg-7s-dsh-waitiforud": {
+   "status": "found",
+   "full_name": "CG-7S/dsh-waitiforud",
    "src": "host-identity",
    "star": 0
   },
@@ -26204,6 +26595,12 @@
    "full_name": "changlianxiya-139/dsh-ambiguity-handling",
    "star": 1
   },
+  "changmingjuebumaimeng3666-dsh-metabolism": {
+   "status": "found",
+   "full_name": "changmingjuebumaimeng3666/dsh-metabolism",
+   "src": "host-identity",
+   "star": 0
+  },
   "changqin1024-dsh-session-delete-cascade": {
    "status": "found",
    "full_name": "Changqin1024/dsh-session-delete-cascade",
@@ -26513,6 +26910,12 @@
    "full_name": "Charlie-Wang-03/dsh-sightline",
    "star": 1
   },
+  "charlie-yangjiaqi-dsh-static-kb": {
+   "status": "found",
+   "full_name": "Charlie-yangjiaqi/dsh-static-kb",
+   "src": "host-identity",
+   "star": 0
+  },
   "charliechang1216-dsh-whale-jump": {
    "status": "found",
    "full_name": "CharlieChang1216/dsh-whale-jump",
@@ -26761,6 +27164,12 @@
    "full_name": "CheinTian/dsh-glab-kanban",
    "src": "host-identity",
    "star": 0
+  },
+  "chelly4-dsh-plugin-cyrene-live2d": {
+   "status": "found",
+   "full_name": "chelly4/dsh-plugin-cyrene-live2d",
+   "src": "host-identity",
+   "star": 1
   },
   "chemiofitor4096-minecraft-dev-starter": {
    "status": "found",
@@ -27036,6 +27445,12 @@
    "full_name": "chencujinlin/dsh-whale-startup",
    "src": "host-identity",
    "star": 2
+  },
+  "chendaleiq-dsh-chrome": {
+   "status": "found",
+   "full_name": "chendaleiQ/dsh-chrome",
+   "src": "host-identity",
+   "star": 0
   },
   "chendaleiq-dsh-plugin-auto-update": {
    "status": "found",
@@ -27373,6 +27788,12 @@
    "full_name": "chengzhi-c/dsh-wtq-pool",
    "src": "host-identity",
    "star": 12
+  },
+  "chengzhi43-dsh-desktop-notify": {
+   "status": "found",
+   "full_name": "chengzhi43/dsh-desktop-notify",
+   "src": "host-identity",
+   "star": 0
   },
   "chengzhi43-dsh-file": {
    "status": "found",
@@ -27835,6 +28256,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "chenvinc-dsh-relay-client": {
+   "status": "found",
+   "full_name": "chenvinc/dsh-relay-client",
+   "src": "host-identity",
+   "star": 0
+  },
   "chenvinc-dsh-task-settle-notify": {
    "status": "found",
    "full_name": "chenvinc/dsh-task-settle-notify",
@@ -28252,6 +28679,12 @@
    "full_name": "CheshireJCat/blender",
    "star": 15
   },
+  "cheso-ai-platform-dsh-cheso-design": {
+   "status": "found",
+   "full_name": "cheso-ai-platform/dsh-cheso-design",
+   "src": "host-identity",
+   "star": 0
+  },
   "chet-li-dsh-galgame-galbook": {
    "status": "found",
    "full_name": "CHET-LI/DSH-galgame-galbook",
@@ -28266,6 +28699,12 @@
   "chf-hub99-dsh-plugin-manager": {
    "status": "found",
    "full_name": "CHF-hub99/dsh-plugin-manager",
+   "src": "host-identity",
+   "star": 0
+  },
+  "chguo-3-dsh-screenshot": {
+   "status": "found",
+   "full_name": "chguo-3/dsh-screenshot",
    "src": "host-identity",
    "star": 0
   },
@@ -29041,6 +29480,12 @@
    "full_name": "chris-003/dsh-agent-in-browser",
    "star": 0
   },
+  "chrischjh-dsh-doc-defrag": {
+   "status": "found",
+   "full_name": "chrischjh/dsh-doc-defrag",
+   "src": "host-identity",
+   "star": 0
+  },
   "chrischjh-dsh-plugin-builder": {
    "status": "found",
    "full_name": "chrischjh/dsh-plugin-builder",
@@ -29165,6 +29610,12 @@
   "chshcbz-dsh-plugin-safety-toolkit": {
    "status": "found",
    "full_name": "chshcbz/dsh-plugin-safety-toolkit",
+   "star": 0
+  },
+  "chsw-cc-dsh-lazy-tools": {
+   "status": "found",
+   "full_name": "Chsw-CC/dsh-lazy-tools",
+   "src": "host-identity",
    "star": 0
   },
   "chthollyfan-dsh-cpp-optimization": {
@@ -29512,6 +29963,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "cii-joint-lab-bigc-dsh-collaborator": {
+   "status": "found",
+   "full_name": "CII-Joint-Lab-BIGC/dsh-collaborator",
+   "src": "host-identity",
+   "star": 4
+  },
   "cijiezhi-dsh-proxy-auto": {
    "status": "found",
    "full_name": "cijiezhi/dsh-proxy-auto",
@@ -29675,7 +30132,7 @@
   },
   "citrusli2026-dsh-electron-shell": {
    "status": "found",
-   "full_name": "citrusli2026/dsh-desktop",
+   "full_name": "citrusli2026/dsh-electron-shell",
    "src": "host-identity",
    "star": 22
   },
@@ -30044,31 +30501,31 @@
   },
   "clair0314-dsh-ai-digest": {
    "status": "found",
-   "full_name": "nekonya77/dsh-ai-digest",
+   "full_name": "clair0314/dsh-ai-digest",
    "src": "host-identity",
    "star": 0
   },
   "clair0314-dsh-bilibili-viral": {
    "status": "found",
-   "full_name": "nekonya77/dsh-bilibili-viral",
+   "full_name": "clair0314/dsh-bilibili-viral",
    "src": "host-identity",
    "star": 1
   },
   "clair0314-dsh-inspiration-vault": {
    "status": "found",
-   "full_name": "nekonya77/dsh-inspiration-vault",
+   "full_name": "clair0314/dsh-inspiration-vault",
    "src": "host-identity",
    "star": 0
   },
   "clair0314-dsh-qq-radar": {
    "status": "found",
-   "full_name": "nekonya77/dsh-qq-radar",
+   "full_name": "clair0314/dsh-qq-radar",
    "src": "host-identity",
    "star": 0
   },
   "clair0314-dsh-repo-watcher": {
    "status": "found",
-   "full_name": "nekonya77/dsh-repo-watcher",
+   "full_name": "clair0314/dsh-repo-watcher",
    "src": "host-identity",
    "star": 0
   },
@@ -30127,6 +30584,12 @@
    "status": "found",
    "full_name": "clarkzhao/dsh-llm-grok",
    "star": 1
+  },
+  "clarois-dsh-nutaraline-credits": {
+   "status": "found",
+   "full_name": "clarois/dsh-nutaraline-credits",
+   "src": "host-identity",
+   "star": 0
   },
   "classcit-deepseek-harness-desktop": {
    "status": "found",
@@ -30411,6 +30874,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "cloudsen-dsh-umbrella-hive-theme": {
+   "status": "found",
+   "full_name": "CloudSen/dsh-umbrella-hive-theme",
+   "src": "host-identity",
+   "star": 0
+  },
   "cloudsen-dsh-umbrella-theme": {
    "status": "found",
    "full_name": "CloudSen/dsh-umbrella-theme",
@@ -30597,6 +31066,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "cn-pa-dsh-jianying-plugin": {
+   "status": "found",
+   "full_name": "CN-PA/dsh-jianying-plugin",
+   "src": "host-identity",
+   "star": 2
+  },
   "cn-scuo-oo-dsh-deepseek-quota": {
    "status": "found",
    "full_name": "cn-scuo-oo/dsh-deepseek-quota",
@@ -30670,7 +31145,7 @@
   },
   "cnhenaihui-dsh-ios-theme": {
    "status": "found",
-   "full_name": "cnhenaihui/dsh-theme-wallpaper",
+   "full_name": "cnhenaihui/dsh-ios-theme",
    "src": "host-identity",
    "star": 0
   },
@@ -31126,6 +31601,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "coder9403-dsh-social-skills-archive": {
+   "status": "found",
+   "full_name": "coder9403/dsh-social-skills-archive",
+   "src": "host-identity",
+   "star": 0
+  },
   "coderdailyone-dsh-plugin-browser-use": {
    "status": "found",
    "full_name": "coderdailyone/dsh-plugin-browser-use",
@@ -31254,6 +31735,12 @@
   "coffee-man666-dsh-lens": {
    "status": "found",
    "full_name": "coffee-man666/dsh-lens",
+   "star": 0
+  },
+  "coffee405-dsh-qwen-scope": {
+   "status": "found",
+   "full_name": "coffee405/dsh-qwen-scope",
+   "src": "host-identity",
    "star": 0
   },
   "coffeiz-dsh-qqchat": {
@@ -32500,6 +32987,18 @@
    "src": "host-identity",
    "star": 1
   },
+  "cressev-dsh-note-wall": {
+   "status": "found",
+   "full_name": "Cressev/dsh-note-wall",
+   "src": "host-identity",
+   "star": 0
+  },
+  "cressev-dsh-skill-board": {
+   "status": "found",
+   "full_name": "Cressev/dsh-skill-board",
+   "src": "host-identity",
+   "star": 0
+  },
   "crinstaniev-dsh-experience-index": {
    "status": "found",
    "full_name": "Crinstaniev/dsh-experience-index",
@@ -32822,6 +33321,12 @@
    "status": "found",
    "full_name": "cstarc/dsh-skill-mcp-bridge",
    "star": 0
+  },
+  "cstcood-dsh-live-process": {
+   "status": "found",
+   "full_name": "cstcood/dsh-live-process",
+   "src": "host-identity",
+   "star": 1
   },
   "csthinker-deepseek-harness-desktop": {
    "status": "found",
@@ -33232,6 +33737,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "cv588888888888888888888ju-dsh-gallery": {
+   "status": "found",
+   "full_name": "cv588888888888888888888ju/dsh-gallery",
+   "src": "host-identity",
+   "star": 0
+  },
+  "cv588888888888888888888ju-dsh-image-read": {
+   "status": "found",
+   "full_name": "cv588888888888888888888ju/dsh-image-read",
+   "src": "host-identity",
+   "star": 0
+  },
   "cveo-dsh-digital-earth": {
    "status": "found",
    "full_name": "CVEO/dsh-digital-earth",
@@ -33317,6 +33834,12 @@
    "full_name": "cxkctrl24-lgtm/dsh-purge-021",
    "src": "host-identity",
    "star": 3
+  },
+  "cxv117793-blip-dsh-bibibobo": {
+   "status": "found",
+   "full_name": "cxv117793-blip/dsh-bibibobo",
+   "src": "host-identity",
+   "star": 0
   },
   "cxv117793-blip-dsh-sidebar-overflow": {
    "status": "found",
@@ -33701,7 +34224,7 @@
   },
   "cyrus-xc-ego-lite-for-dsh": {
    "status": "found",
-   "full_name": "cyrus-xc/better-ego-browser",
+   "full_name": "cyrus-xc/ego_lite_for_DSH",
    "src": "host-identity",
    "star": 2
   },
@@ -33790,6 +34313,12 @@
    "full_name": "Czerror/dsh-plugin-prompt-tool",
    "star": 0
   },
+  "czhmisaka-dsh-fleet": {
+   "status": "found",
+   "full_name": "czhmisaka/dsh-fleet",
+   "src": "host-identity",
+   "star": 0
+  },
   "czhzz-dsh-danger-guard": {
    "status": "found",
    "full_name": "czhzz/dsh-danger-guard",
@@ -33829,6 +34358,12 @@
    "status": "found",
    "full_name": "czm15053/dsh-peer-link",
    "star": 6
+  },
+  "cznail-stellane": {
+   "status": "found",
+   "full_name": "czNail/Stellane",
+   "src": "host-identity",
+   "star": 0
   },
   "cznbnbnb-dsh-tokenshare-limiter": {
    "status": "found",
@@ -33885,6 +34420,12 @@
   "czy1326-dsh-restart-button": {
    "status": "found",
    "full_name": "CZY1326/dsh-restart-button",
+   "src": "host-identity",
+   "star": 0
+  },
+  "czyt1988-dsh-workflow-orchestrator": {
+   "status": "found",
+   "full_name": "czyt1988/dsh-workflow-orchestrator",
    "src": "host-identity",
    "star": 0
   },
@@ -34339,6 +34880,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "daishaodong-dsh-task-center": {
+   "status": "found",
+   "full_name": "daishaodong/dsh-task-center",
+   "src": "host-identity",
+   "star": 0
+  },
   "daishengli-dsh-docker": {
    "status": "found",
    "full_name": "daishengli/dsh-docker",
@@ -34522,6 +35069,12 @@
    "status": "found",
    "full_name": "DamonBao/dsh-models-input-modalities",
    "star": 1
+  },
+  "damonkoy-dsh-bot-model-switch": {
+   "status": "found",
+   "full_name": "DamonKoy/dsh-bot-model-switch",
+   "src": "host-identity",
+   "star": 0
   },
   "damonkoy-dsh-plugin-toggle": {
    "status": "found",
@@ -34955,6 +35508,12 @@
    "full_name": "Dariandai/dsh-starter-pack",
    "star": 1
   },
+  "darianliu23-dsh-civ6": {
+   "status": "found",
+   "full_name": "Darianliu23/dsh-civ6",
+   "src": "host-identity",
+   "star": 0
+  },
   "darianliu23-dsh-stardew-blind-whale-farmer": {
    "status": "found",
    "full_name": "Darianliu23/dsh-stardew-blind-whale-farmer",
@@ -35033,6 +35592,12 @@
   "darkknight2333-dsh-timeline-ui": {
    "status": "found",
    "full_name": "darkknight2333/dsh-timeline-ui",
+   "src": "host-identity",
+   "star": 0
+  },
+  "darklinex-dshspeed": {
+   "status": "found",
+   "full_name": "DarkLineX/DSHSpeed",
    "src": "host-identity",
    "star": 0
   },
@@ -35132,6 +35697,18 @@
   "dashan-0079-dsh-photocraft": {
    "status": "found",
    "full_name": "DASHAN-0079/dsh-photocraft",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dashan-0079-dsh-ppt-master": {
+   "status": "found",
+   "full_name": "DASHAN-0079/dsh-ppt-master",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dashan-0079-dsh-superagent-adapt": {
+   "status": "found",
+   "full_name": "DASHAN-0079/dsh-superagent-adapt",
    "src": "host-identity",
    "star": 0
   },
@@ -35528,6 +36105,30 @@
    "full_name": "day-day-dream/dsh-page-refresh",
    "src": "host-identity",
    "star": 2
+  },
+  "dayangtuo247-dsh-composer-display": {
+   "status": "found",
+   "full_name": "DaYangtuo247/dsh-composer-display",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dayangtuo247-dsh-context-monitor": {
+   "status": "found",
+   "full_name": "DaYangtuo247/dsh-context-monitor",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dayangtuo247-dsh-conversation-enhancer": {
+   "status": "found",
+   "full_name": "DaYangtuo247/dsh-conversation-enhancer",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dayangtuo247-dsh-whale-theme": {
+   "status": "found",
+   "full_name": "DaYangtuo247/dsh-whale-theme",
+   "src": "host-identity",
+   "star": 0
   },
   "dayanqaq-dsh-balance-mini": {
    "status": "found",
@@ -36033,6 +36634,12 @@
    "full_name": "ddggkkcc/dsh-stash",
    "star": 2
   },
+  "ddl095-dsh-depth-tool-gate": {
+   "status": "found",
+   "full_name": "DDL095/dsh-depth-tool-gate",
+   "src": "host-identity",
+   "star": 0
+  },
   "ddl095-dsh-moa-native": {
    "status": "found",
    "full_name": "DDL095/dsh-moa-native",
@@ -36212,6 +36819,12 @@
    "full_name": "ddy-007/dsh-client-resume-button",
    "src": "host-identity",
    "star": 1
+  },
+  "ddyfight-dsh-plugin-codex-mirror": {
+   "status": "found",
+   "full_name": "ddyfight/dsh-plugin-codex-mirror",
+   "src": "host-identity",
+   "star": 0
   },
   "de22323-dsh-memory": {
    "status": "found",
@@ -36612,6 +37225,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "deepseekv41flash-dsh-chatbot-tools": {
+   "status": "found",
+   "full_name": "deepseekv41flash/dsh-chatbot-tools",
+   "src": "host-identity",
+   "star": 0
+  },
   "deepseekv41flash-dsh-compaction-cache": {
    "status": "found",
    "full_name": "deepseekv41flash/dsh-compaction-cache",
@@ -36653,6 +37272,30 @@
    "full_name": "deepseekv41flash/dsh-superagent-panel",
    "src": "host-identity",
    "star": 5
+  },
+  "deepslacking-dsh-context-manager": {
+   "status": "found",
+   "full_name": "DeepSlacking/dsh-context-manager",
+   "src": "host-identity",
+   "star": 0
+  },
+  "deepslacking-dsh-plugin-manager-plus": {
+   "status": "found",
+   "full_name": "DeepSlacking/dsh-plugin-manager-plus",
+   "src": "host-identity",
+   "star": 0
+  },
+  "deepslacking-dsh-sidebar-console": {
+   "status": "found",
+   "full_name": "DeepSlacking/dsh-sidebar-console",
+   "src": "host-identity",
+   "star": 0
+  },
+  "deepslacking-dsh-task-progress": {
+   "status": "found",
+   "full_name": "DeepSlacking/dsh-task-progress",
+   "src": "host-identity",
+   "star": 0
   },
   "deepsleep-one-dsh-gpt-niang": {
    "status": "found",
@@ -37918,7 +38561,7 @@
   },
   "dianleida-dsh-dianleida-e-commerce-product-se": {
    "status": "found",
-   "full_name": "DianLeida/dsh-dianleida-1688-ecommerce-product-selection",
+   "full_name": "DianLeida/dsh-DianLeida-E-commerce-product-selection",
    "src": "host-identity",
    "star": 1
   },
@@ -38124,6 +38767,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "dingchenhui0618-arch-dsh-chatroom": {
+   "status": "found",
+   "full_name": "dingchenhui0618-arch/dsh-chatroom",
+   "src": "host-identity",
+   "star": 0
+  },
   "dingchenhui0618-arch-dsh-compress-bench": {
    "status": "found",
    "full_name": "dingchenhui0618-arch/dsh-compress-bench",
@@ -38160,11 +38809,23 @@
    "src": "host-identity",
    "star": 1
   },
+  "dingchenhui0618-arch-dsh-fact-lock-rewrite": {
+   "status": "found",
+   "full_name": "dingchenhui0618-arch/dsh-fact-lock-rewrite",
+   "src": "host-identity",
+   "star": 0
+  },
   "dingchenhui0618-arch-dsh-imagegen-skill": {
    "status": "found",
    "full_name": "dingchenhui0618-arch/dsh-imagegen-skill",
    "src": "host-identity",
    "star": 1
+  },
+  "dingchenhui0618-arch-dsh-incident-timeline": {
+   "status": "found",
+   "full_name": "dingchenhui0618-arch/dsh-incident-timeline",
+   "src": "host-identity",
+   "star": 0
   },
   "dingchenhui0618-arch-dsh-launch-card": {
    "status": "found",
@@ -38229,6 +38890,12 @@
   "dingchenhui0618-arch-dsh-readme-reel": {
    "status": "found",
    "full_name": "dingchenhui0618-arch/dsh-readme-reel",
+   "src": "host-identity",
+   "star": 0
+  },
+  "dingchenhui0618-arch-dsh-sfx-pad": {
+   "status": "found",
+   "full_name": "dingchenhui0618-arch/dsh-sfx-pad",
    "src": "host-identity",
    "star": 0
   },
@@ -38514,6 +39181,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "diomchen-dsh-better-tag": {
+   "status": "found",
+   "full_name": "Diomchen/dsh-better-tag",
+   "src": "host-identity",
+   "star": 0
+  },
   "diomchen-dsh-cross-agent": {
    "status": "found",
    "full_name": "Diomchen/dsh-cross-agent",
@@ -38523,6 +39196,12 @@
   "diomchen-dsh-zoo": {
    "status": "found",
    "full_name": "Diomchen/dsh-zoo",
+   "src": "host-identity",
+   "star": 0
+  },
+  "diong39-dsh-local-history": {
+   "status": "found",
+   "full_name": "DIONG39/dsh-local-history",
    "src": "host-identity",
    "star": 0
   },
@@ -38620,7 +39299,7 @@
   },
   "divineeagleblackhand-dsh-fare-meter": {
    "status": "found",
-   "full_name": "divineeagleblackhand/dsh-cost-receipt",
+   "full_name": "divineeagleblackhand/dsh-fare-meter",
    "src": "host-identity",
    "star": 1
   },
@@ -40035,6 +40714,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "douglas-fly-dsh-qrcode": {
+   "status": "found",
+   "full_name": "Douglas-Fly/dsh-qrcode",
+   "src": "host-identity",
+   "star": 0
+  },
   "doushalunae-dsh-readfence": {
    "status": "found",
    "full_name": "doushalunae/dsh-readfence",
@@ -40605,6 +41290,12 @@
    "src": "host-identity",
    "star": 2
   },
+  "drizzlegig-dsh-novel-voice": {
+   "status": "found",
+   "full_name": "DrizzleGig/dsh-novel-voice",
+   "src": "host-identity",
+   "star": 0
+  },
   "drkoh-wz-team-craft": {
    "status": "found",
    "full_name": "Drkoh-wz/team-craft",
@@ -40907,6 +41598,12 @@
    "full_name": "ds-hu/dsh-auto-task-center",
    "src": "host-identity",
    "star": 1
+  },
+  "ds-hu-dsh-better-search": {
+   "status": "found",
+   "full_name": "ds-hu/dsh-better-search",
+   "src": "host-identity",
+   "star": 0
   },
   "ds-hu-dsh-collaborative-clarity": {
    "status": "found",
@@ -42582,6 +43279,12 @@
    "full_name": "dsh-plugins/dsh-user-agent",
    "star": 0
   },
+  "dsh-plugins-dsh-workspace-group": {
+   "status": "found",
+   "full_name": "dsh-plugins/dsh-workspace-group",
+   "src": "host-identity",
+   "star": 0
+  },
   "dsh-plugins-plan-usage": {
    "status": "found",
    "full_name": "chendefine/dsh-plugins-plan-usage",
@@ -43059,7 +43762,7 @@
   },
   "dsh-tauri-desk-dsh-tauri-plugins": {
    "status": "found",
-   "full_name": "dsh-tauri/dsh-tauri-plugins",
+   "full_name": "dsh-tauri-desk/dsh-tauri-plugins",
    "src": "host-identity",
    "star": 1
   },
@@ -44103,7 +44806,7 @@
   },
   "dushaobindoudou-dsh-selfrepair": {
    "status": "found",
-   "full_name": "dushaobindoudou/dsh-recovery",
+   "full_name": "dushaobindoudou/dsh-selfrepair",
    "src": "host-identity",
    "star": 3
   },
@@ -44242,6 +44945,12 @@
    "status": "found",
    "full_name": "DViridescent/dsh-compaction-meta",
    "star": 1
+  },
+  "dvva-dsh-alert": {
+   "status": "found",
+   "full_name": "Dvva/dsh-alert",
+   "src": "host-identity",
+   "star": 0
   },
   "dwb159869-dafeiyu-plugins": {
    "status": "found",
@@ -44510,6 +45219,12 @@
   "dynesshely-dsh-plugin-btw": {
    "status": "found",
    "full_name": "Dynesshely/dsh-plugin-btw",
+   "src": "host-identity",
+   "star": 1
+  },
+  "dynesshely-dsh-plugin-endurance": {
+   "status": "found",
+   "full_name": "Dynesshely/dsh-plugin-endurance",
    "src": "host-identity",
    "star": 1
   },
@@ -44949,6 +45664,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "echo-ix-dsh-andrej-karpathy": {
+   "status": "found",
+   "full_name": "echo-ix/dsh-andrej-karpathy",
+   "src": "host-identity",
+   "star": 0
+  },
   "echo-lgtm-dsh-plugin-wechat-official": {
    "status": "found",
    "full_name": "echo-lgtm/dsh-plugin-wechat-official",
@@ -44962,7 +45683,7 @@
   },
   "echo-smith-hy-memory4dsh": {
    "status": "found",
-   "full_name": "Echo-Smith/dsh-hy-memory",
+   "full_name": "Echo-Smith/hy-memory4dsh",
    "src": "host-identity",
    "star": 0
   },
@@ -45026,6 +45747,12 @@
    "full_name": "ECHOUniverse/dsh-balance",
    "src": "host-identity",
    "star": 0
+  },
+  "echouniverse-dsh-zoteroplugin": {
+   "status": "found",
+   "full_name": "ECHOUniverse/dsh-zoteroplugin",
+   "src": "host-identity",
+   "star": 1
   },
   "echouniverse-dshacp": {
    "status": "found",
@@ -45348,6 +46075,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "edsml-jz2321-dsh-evokit": {
+   "status": "found",
+   "full_name": "edsml-jz2321/dsh-evokit",
+   "src": "host-identity",
+   "star": 0
+  },
   "edusrez-dsh-smart-restart": {
    "status": "found",
    "full_name": "edusrez/dsh-smart-restart",
@@ -45458,6 +46191,12 @@
    "full_name": "ef-umbra/dsh-useful-taskball",
    "src": "host-identity",
    "star": 3
+  },
+  "effortful-lion-dsh-skin-muro": {
+   "status": "found",
+   "full_name": "Effortful-lion/dsh-skin-muro",
+   "src": "host-identity",
+   "star": 0
   },
   "efrem-labs-niro-releases": {
    "status": "found",
@@ -45963,6 +46702,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "elias-didoo-dsh-agent-pipeline": {
+   "status": "found",
+   "full_name": "elias-didoo/dsh-agent-pipeline",
+   "src": "host-identity",
+   "star": 0
+  },
   "elias1222-deepseek-brain": {
    "status": "found",
    "full_name": "Elias1222/deepseek-brain",
@@ -46402,6 +47147,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "emo-bird-dsh-deepmemory": {
+   "status": "found",
+   "full_name": "emo-bird/dsh-deepmemory",
+   "src": "host-identity",
+   "star": 1
+  },
   "emomg-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "emomg/deepseek-harness-desktop",
@@ -46572,6 +47323,18 @@
    "status": "found",
    "full_name": "EndlessFireworks/dsh-desktop",
    "star": 1
+  },
+  "endlesspoem-dsh-ip-info": {
+   "status": "found",
+   "full_name": "EndlessPoem/dsh-ip-info",
+   "src": "host-identity",
+   "star": 0
+  },
+  "endlesspoem-dsh-session-delete": {
+   "status": "found",
+   "full_name": "EndlessPoem/dsh-session-delete",
+   "src": "host-identity",
+   "star": 0
   },
   "endorphin1203-dsh-side-chat": {
    "status": "found",
@@ -46943,7 +47706,7 @@
   },
   "erfan817-dsh-prompt-enhancer-plus": {
    "status": "found",
-   "full_name": "Erfan817/prompt-spark",
+   "full_name": "Erfan817/dsh-prompt-enhancer-plus",
    "src": "host-identity",
    "star": 1
   },
@@ -47048,6 +47811,12 @@
    "full_name": "ericw0315/dsh-usage-lite",
    "star": 3
   },
+  "ericwang1358-dsh-connect-dumate": {
+   "status": "found",
+   "full_name": "EricWang1358/dsh-connect-dumate",
+   "src": "host-identity",
+   "star": 0
+  },
   "ericwang1358-dsh-jspace-trigger": {
    "status": "found",
    "full_name": "EricWang1358/dsh-jspace-trigger",
@@ -47117,6 +47886,12 @@
   "ernesto-yuan-dsh-conversation-tools": {
    "status": "found",
    "full_name": "Ernesto-yuan/dsh-conversation-tools",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ernesto-yuan-dsh-theme-switcher": {
+   "status": "found",
+   "full_name": "Ernesto-yuan/dsh-theme-switcher",
    "src": "host-identity",
    "star": 0
   },
@@ -47479,6 +48254,12 @@
    "status": "found",
    "full_name": "EthanYoQ/Invoice-Downloader",
    "star": 477
+  },
+  "ethanyuan802-dsh-product-workbench": {
+   "status": "found",
+   "full_name": "Ethanyuan802/dsh-product-workbench",
+   "src": "host-identity",
+   "star": 0
   },
   "ethanz11-creat-dsh-billing-tui": {
    "status": "found",
@@ -48033,6 +48814,12 @@
    "full_name": "ExElectron/dsh-tool-hongtou",
    "star": 27
   },
+  "exhypr-hub-dsh-know": {
+   "status": "found",
+   "full_name": "EXhypr-hub/dsh-know",
+   "src": "host-identity",
+   "star": 0
+  },
   "exile412-dsh-startup-screen-exile": {
    "status": "found",
    "full_name": "exile412/dsh-startup-screen-exile",
@@ -48445,6 +49232,12 @@
    "src": "host-identity",
    "star": 6
   },
+  "fairmehit-dsh-sync": {
+   "status": "found",
+   "full_name": "FairmeHIT/dsh-sync",
+   "src": "host-identity",
+   "star": 0
+  },
   "faith1688-dsh-usage-meter-harness": {
    "status": "found",
    "full_name": "faith1688/dsh-usage-meter-harness",
@@ -48492,6 +49285,12 @@
   "fakenihilist-dsh-plugins": {
    "status": "found",
    "full_name": "fakeNihilist/dsh-plugins",
+   "src": "host-identity",
+   "star": 0
+  },
+  "fakerkonzo-dsh-chat-tide": {
+   "status": "found",
+   "full_name": "FakerKonzo/dsh-chat-tide",
    "src": "host-identity",
    "star": 0
   },
@@ -49029,6 +49828,18 @@
   "farmer002-dsh-today-fortune": {
    "status": "found",
    "full_name": "farmer002/dsh-today-fortune",
+   "src": "host-identity",
+   "star": 0
+  },
+  "farons-dsh-terminal-hub": {
+   "status": "found",
+   "full_name": "farons/dsh-terminal-hub",
+   "src": "host-identity",
+   "star": 0
+  },
+  "farsunshine-dsh-share-import": {
+   "status": "found",
+   "full_name": "FarSunShine/dsh-share-import",
    "src": "host-identity",
    "star": 0
   },
@@ -50314,7 +51125,7 @@
   },
   "fegnze-myspace-dsh-browser-computer": {
    "status": "found",
-   "full_name": "fegnze/dsh-browser-computer",
+   "full_name": "fegnze/myspace-dsh-browser-computer",
    "src": "host-identity",
    "star": 0
   },
@@ -52419,6 +53230,12 @@
    "full_name": "flyemFSB/dsh-reasoning-effort-hdbzq",
    "star": 4
   },
+  "flyer103-dsh-effort-lab": {
+   "status": "found",
+   "full_name": "flyer103/dsh-effort-lab",
+   "src": "host-identity",
+   "star": 0
+  },
   "flyer103-dsh-side-chat": {
    "status": "found",
    "full_name": "flyer103/dsh-side-chat",
@@ -52446,6 +53263,12 @@
   "flyhai-dsh-auto-approval-frame": {
    "status": "found",
    "full_name": "flyhai/dsh-auto-approval-frame",
+   "src": "host-identity",
+   "star": 0
+  },
+  "flyheart-dsh-chat-history-editor": {
+   "status": "found",
+   "full_name": "flyheart/dsh-chat-history-editor",
    "src": "host-identity",
    "star": 0
   },
@@ -52834,6 +53657,12 @@
   "foo1moon-dsh-web-visualuiconfig": {
    "status": "found",
    "full_name": "Foo1Moon/dsh-web-visualuiconfig",
+   "src": "host-identity",
+   "star": 0
+  },
+  "food211-chubby-fish-studio": {
+   "status": "found",
+   "full_name": "food211/chubby-fish-studio",
    "src": "host-identity",
    "star": 0
   },
@@ -53367,6 +54196,12 @@
    "full_name": "Freakz2z/dsh-evidence-ledger",
    "star": 0
   },
+  "freakz2z-dsh-remote-workbench": {
+   "status": "found",
+   "full_name": "Freakz2z/dsh-remote-workbench",
+   "src": "host-identity",
+   "star": 0
+  },
   "fred-chen-dsh-subagent-model-director": {
    "status": "found",
    "full_name": "fred-chen/dsh-subagent-model-director",
@@ -53721,6 +54556,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "fsnh-dsh-plugin-knowledge-base": {
+   "status": "found",
+   "full_name": "FSNH/dsh-plugin-knowledge-base",
+   "src": "host-identity",
+   "star": 0
+  },
   "fsrmqi-dsh-promptkit": {
    "status": "found",
    "full_name": "fsrmqi/dsh-promptkit",
@@ -53782,6 +54623,12 @@
    "status": "found",
    "full_name": "ftima-w/dsh-plugin-manager",
    "star": 0
+  },
+  "ftrans-cn-ft-ftp-mcp-stdio": {
+   "status": "found",
+   "full_name": "ftrans-cn/ft-ftp-mcp-stdio",
+   "src": "host-identity",
+   "star": 2
   },
   "ftshare-lab-dsh-kline": {
    "status": "found",
@@ -53861,6 +54708,12 @@
    "status": "found",
    "full_name": "fuckingling/deepseek-harness-desktop",
    "star": 1
+  },
+  "fudanyrd-dsh-merge-conflicts": {
+   "status": "found",
+   "full_name": "Fudanyrd/dsh-merge-conflicts",
+   "src": "host-identity",
+   "star": 0
   },
   "fufankeji-deepseek-harness-studio": {
    "status": "found",
@@ -53981,6 +54834,12 @@
    "full_name": "FujiwaraReisen/dsh-live2dwaifu",
    "src": "host-identity",
    "star": 1
+  },
+  "fukangz-bilibili-subtitles": {
+   "status": "found",
+   "full_name": "FukangZ/bilibili-subtitles",
+   "src": "host-identity",
+   "star": 0
   },
   "fulander0301-dsh-tool-read-tiff": {
    "status": "found",
@@ -54236,9 +55095,21 @@
    "full_name": "FuncWei/dsh-wechat-mp-studio",
    "star": 3
   },
+  "fundapi-cn-fundapi-dsh-plugin": {
+   "status": "found",
+   "full_name": "fundapi-cn/fundapi-dsh-plugin",
+   "src": "host-identity",
+   "star": 0
+  },
   "funk80rus-dsh-agent-teams-model-override": {
    "status": "found",
    "full_name": "funk80rus/dsh-agent-teams-model-override",
+   "src": "host-identity",
+   "star": 0
+  },
+  "funny-dog-agent-cleaner": {
+   "status": "found",
+   "full_name": "funny-dog/agent-cleaner",
    "src": "host-identity",
    "star": 0
   },
@@ -54429,7 +55300,7 @@
   },
   "fusheng-cs-dsh-trae-relay": {
    "status": "found",
-   "full_name": "FuSheng-cs/Trae2api-dsh",
+   "full_name": "FuSheng-cs/dsh-trae-relay",
    "src": "host-identity",
    "star": 2
   },
@@ -54819,11 +55690,23 @@
    "full_name": "fyy99/dsh-livis-connector",
    "star": 2
   },
+  "fyzb2020-dsh-8g-poster": {
+   "status": "found",
+   "full_name": "FYZB2020/dsh-8g-poster",
+   "src": "host-identity",
+   "star": 0
+  },
   "fyzb2020-dsh-autodidact": {
    "status": "found",
    "full_name": "FYZB2020/dsh-autodidact",
    "src": "host-identity",
    "star": 1
+  },
+  "fyzb2020-dsh-fy-code-animation": {
+   "status": "found",
+   "full_name": "FYZB2020/dsh-fy-code-animation",
+   "src": "host-identity",
+   "star": 0
   },
   "fyzb2020-dsh-voice-doubao": {
    "status": "found",
@@ -55004,6 +55887,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "gabsferreira-dsh-web-search-searchapi": {
+   "status": "found",
+   "full_name": "gabsferreira/dsh-web-search-searchapi",
+   "src": "host-identity",
+   "star": 0
+  },
   "gaffsailstenopterygiusquadrisicissus463-plugi": {
    "status": "found",
    "full_name": "Gaffsailstenopterygiusquadrisicissus463/plugin-hub",
@@ -55081,7 +55970,7 @@
   },
   "game25011-dsh-notify-toast": {
    "status": "found",
-   "full_name": "game25011/dsh-notify-lite",
+   "full_name": "game25011/dsh-notify-toast",
    "src": "host-identity",
    "star": 1
   },
@@ -55157,6 +56046,12 @@
   "ganfne123-dsh-plugin-envtime": {
    "status": "found",
    "full_name": "ganfne123/dsh-plugin-envtime",
+   "star": 0
+  },
+  "gangchen0470-dsh-beeapi-balance": {
+   "status": "found",
+   "full_name": "gangchen0470/dsh-beeapi-balance",
+   "src": "host-identity",
    "star": 0
   },
   "ganglith-dsh-wayland-use": {
@@ -55328,7 +56223,7 @@
   },
   "gaoler006115-dsh-desktop-view": {
    "status": "found",
-   "full_name": "videndi/dsh-desktop-view",
+   "full_name": "Gaoler006115/dsh-desktop-view",
    "src": "host-identity",
    "star": 0
   },
@@ -56586,7 +57481,7 @@
   },
   "ghostmss86-afk-dsh-skin-studio": {
    "status": "found",
-   "full_name": "ghostmss86-afk/dsh-mixin",
+   "full_name": "ghostmss86-afk/dsh-skin-studio",
    "src": "host-identity",
    "star": 1
   },
@@ -56677,6 +57572,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "gimartynov-dsh-safety": {
+   "status": "found",
+   "full_name": "gimartynov/dsh-safety",
+   "src": "host-identity",
+   "star": 0
+  },
   "gimhol-dsh-git-suite": {
    "status": "found",
    "full_name": "gimhol/dsh-git-suite",
@@ -56740,6 +57641,12 @@
    "status": "found",
    "full_name": "ginuim/multi-screen-wireframe",
    "star": 6
+  },
+  "ginxiu0330-sketch-dsh-plugin-doctor": {
+   "status": "found",
+   "full_name": "ginxiu0330-sketch/dsh-plugin-doctor",
+   "src": "host-identity",
+   "star": 0
   },
   "gioguarin-dsh-nebula-theme": {
    "status": "found",
@@ -57046,6 +57953,12 @@
   "gkgy-dsh-plugin-laile-laodi": {
    "status": "found",
    "full_name": "gkgy/dsh-plugin-laile-laodi",
+   "star": 0
+  },
+  "gladess1102-dsh-ace-music": {
+   "status": "found",
+   "full_name": "Gladess1102/dsh-ace-music",
+   "src": "host-identity",
    "star": 0
   },
   "gladess1102-dsh-g-memory": {
@@ -57590,7 +58503,7 @@
   },
   "gongfpp-dsh-man-031": {
    "status": "found",
-   "full_name": "gongfpp/dsh-man-report",
+   "full_name": "gongfpp/dsh-man-031",
    "src": "host-identity",
    "star": 0
   },
@@ -57646,6 +58559,12 @@
    "full_name": "gongstudent/dsh-quote-to-agent",
    "src": "host-identity",
    "star": 1
+  },
+  "gongxianjin-agentranch-dsh": {
+   "status": "found",
+   "full_name": "gongxianjin/agentranch-dsh",
+   "src": "host-identity",
+   "star": 0
   },
   "gongyansong760-byte-dsh-client-ui-code-font": {
    "status": "found",
@@ -58090,11 +59009,23 @@
    "src": "host-identity",
    "star": 0
   },
+  "goodjin-dsh-auto-resume": {
+   "status": "found",
+   "full_name": "goodjin/dsh-auto-resume",
+   "src": "host-identity",
+   "star": 0
+  },
   "goodjin-dsh-chat-power": {
    "status": "found",
    "full_name": "goodjin/dsh-chat-power",
    "src": "host-identity",
    "star": 0
+  },
+  "goodjin-dsh-codex": {
+   "status": "found",
+   "full_name": "goodjin/dsh-codex",
+   "src": "host-identity",
+   "star": 1
   },
   "goodjin-dsh-superpowers": {
    "status": "found",
@@ -58445,6 +59376,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "greatbob0512-whale-sentinel": {
+   "status": "found",
+   "full_name": "GreatBob0512/whale-sentinel",
+   "src": "host-identity",
+   "star": 1
+  },
   "greatv-oardsh": {
    "status": "found",
    "full_name": "GreatV/oardsh",
@@ -58495,6 +59432,12 @@
    "full_name": "Green233233/dsh_tray_follower",
    "src": "host-identity",
    "star": 0
+  },
+  "greendoyle-dsh-mcp-live-panel": {
+   "status": "found",
+   "full_name": "greendoyle/dsh-mcp-live-panel",
+   "src": "host-identity",
+   "star": 2
   },
   "greenhand-monster-dsh-deliberation-presets": {
    "status": "found",
@@ -59099,7 +60042,7 @@
   },
   "guiyuan77-dsh-reader": {
    "status": "found",
-   "full_name": "guiyuan77/dsh-peek",
+   "full_name": "guiyuan77/dsh-reader",
    "src": "host-identity",
    "star": 0
   },
@@ -59560,6 +60503,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "guyu233-dsh-update-checker": {
+   "status": "found",
+   "full_name": "guyu233/dsh-update-checker",
+   "src": "host-identity",
+   "star": 0
+  },
   "guyue211-dsh-gpt-niang-quota": {
    "status": "found",
    "full_name": "guyue211/dsh-gpt-niang-quota",
@@ -59749,6 +60698,12 @@
    "full_name": "gxx950224/SapBuddy-dsh",
    "star": 4
   },
+  "gxyfly-dsh-message-rewind": {
+   "status": "found",
+   "full_name": "GxyFly/dsh-message-rewind",
+   "src": "host-identity",
+   "star": 0
+  },
   "gxygxy1025-lab-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "gxygxy1025-lab/deepseek-harness-desktop",
@@ -59854,7 +60809,7 @@
   },
   "gzh330205-deepseek-harness-desktop": {
    "status": "found",
-   "full_name": "gzhBigger/deepseek-harness-desktop",
+   "full_name": "gzh330205/deepseek-harness-desktop",
    "src": "host-identity",
    "star": 2
   },
@@ -60833,9 +61788,15 @@
    "src": "host-identity",
    "star": 0
   },
+  "hanmozhang0909-ai-dream": {
+   "status": "found",
+   "full_name": "HanmoZhang0909/ai-dream",
+   "src": "host-identity",
+   "star": 0
+  },
   "hann428-dsh-usage-dashboard": {
    "status": "found",
-   "full_name": "Hann428/dsh-usage-dashboard",
+   "full_name": "Hann428/dsh-hann-usage-dashboard",
    "src": "host-identity",
    "star": 0
   },
@@ -60872,6 +61833,12 @@
    "status": "found",
    "full_name": "hanrr92/dsh-code-quote",
    "star": 1
+  },
+  "hans-wan-dsh-llm-council": {
+   "status": "found",
+   "full_name": "Hans-wan/dsh-llm-council",
+   "src": "host-identity",
+   "star": 0
   },
   "hanshanxue83-collaborative-emergent-intellige": {
    "status": "found",
@@ -61633,6 +62600,12 @@
    "src": "host-identity",
    "star": 5
   },
+  "harrytion-dsh-fnos-music": {
+   "status": "found",
+   "full_name": "Harrytion/dsh-fnos-music",
+   "src": "host-identity",
+   "star": 0
+  },
   "harua79-dsh-balance-ledger": {
    "status": "found",
    "full_name": "Harua79/dsh-balance-ledger",
@@ -62346,6 +63319,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "hebokenn-dsh-codex-chatgpt": {
+   "status": "found",
+   "full_name": "hebokenn/dsh-codex-chatgpt",
+   "src": "host-identity",
+   "star": 0
+  },
   "hecailiaopfs-firecrawl-research-engine": {
    "status": "found",
    "full_name": "hecailiaoPFS/firecrawl-research-engine",
@@ -62408,6 +63387,12 @@
   "hehf21-dsh-sysmon": {
    "status": "found",
    "full_name": "hehf21/dsh-sysmon",
+   "src": "host-identity",
+   "star": 0
+  },
+  "hehuifeng-dsh-dreams": {
+   "status": "found",
+   "full_name": "hehuifeng/dsh-dreams",
    "src": "host-identity",
    "star": 0
   },
@@ -63120,6 +64105,12 @@
    "full_name": "HEO-Club/DSH-DAG",
    "star": 2
   },
+  "heqi698-dsh-go-kugimiya-voice": {
+   "status": "found",
+   "full_name": "heqi698/dsh-go-kugimiya-voice",
+   "src": "host-identity",
+   "star": 0
+  },
   "heqinjian-dsh-plugin-pkt": {
    "status": "found",
    "full_name": "heqinjian/dsh-plugin-pkt",
@@ -63426,7 +64417,7 @@
   },
   "hexiangyu0730-web-dsh-web-bridge": {
    "status": "found",
-   "full_name": "LunarYu730/dsh-web-bridge",
+   "full_name": "hexiangyu0730-web/dsh-web-bridge",
    "src": "host-identity",
    "star": 1
   },
@@ -64259,6 +65250,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "hiseax-dsh-superagent": {
+   "status": "found",
+   "full_name": "HiSeax/dsh-superagent",
+   "src": "host-identity",
+   "star": 0
+  },
   "hisence999-dsh-browser": {
    "status": "found",
    "full_name": "hisence999/dsh-browser",
@@ -64286,6 +65283,30 @@
    "full_name": "HitMargin/ai-proxy",
    "src": "host-identity",
    "star": 2
+  },
+  "hitmargin-dsh-archived-sessions": {
+   "status": "found",
+   "full_name": "HitMargin/dsh-archived-sessions",
+   "src": "host-identity",
+   "star": 0
+  },
+  "hitmargin-dsh-bell-notify": {
+   "status": "found",
+   "full_name": "HitMargin/dsh-bell-notify",
+   "src": "host-identity",
+   "star": 0
+  },
+  "hitmargin-dsh-kilo-prompt": {
+   "status": "found",
+   "full_name": "HitMargin/dsh-kilo-prompt",
+   "src": "host-identity",
+   "star": 0
+  },
+  "hitmargin-dsh-prompt-refine": {
+   "status": "found",
+   "full_name": "HitMargin/dsh-prompt-refine",
+   "src": "host-identity",
+   "star": 0
   },
   "hitzhangjie-dsh-plugin-session-delete": {
    "status": "found",
@@ -64531,6 +65552,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "hluica-dsh-chat-mode": {
+   "status": "found",
+   "full_name": "hluica/dsh-chat-mode",
+   "src": "host-identity",
+   "star": 0
+  },
   "hluica-dsh-custom-css": {
    "status": "found",
    "full_name": "hluica/dsh-custom-css",
@@ -64549,6 +65576,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "hluica-dsh-parent-instructions": {
+   "status": "found",
+   "full_name": "hluica/dsh-parent-instructions",
+   "src": "host-identity",
+   "star": 0
+  },
+  "hluica-dsh-session-deleater": {
+   "status": "found",
+   "full_name": "hluica/dsh-session-deleater",
+   "src": "host-identity",
+   "star": 0
+  },
   "hlwzm-memory-star": {
    "status": "found",
    "full_name": "hlwzm/memory-star",
@@ -64563,7 +65602,7 @@
   },
   "hmhm2333-braingames": {
    "status": "found",
-   "full_name": "hmhm2333/dsh-braingames",
+   "full_name": "hmhm2333/braingames",
    "src": "host-identity",
    "star": 1
   },
@@ -64784,6 +65823,12 @@
    "star": 1,
    "fuzzy": true
   },
+  "hologrow-dsh-plugin": {
+   "status": "found",
+   "full_name": "hologrow/dsh-plugin",
+   "src": "host-identity",
+   "star": 0
+  },
   "holy-ovo-dsh-startup": {
    "status": "found",
    "full_name": "holy-ovo/dsh-startup",
@@ -64871,6 +65916,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "hongcha-dsh-dsh-subagent-model-pin": {
+   "status": "found",
+   "full_name": "hongcha-dsh/dsh-subagent-model-pin",
+   "src": "host-identity",
+   "star": 0
+  },
   "hongcha-dsh-dsh-watchlist": {
    "status": "found",
    "full_name": "hongcha-dsh/dsh-watchlist",
@@ -64933,6 +65984,12 @@
    "full_name": "honghudavy-star/DSH_plugins_4U",
    "star": 2,
    "fuzzy": true
+  },
+  "honghufox-dsh-pdf-translate": {
+   "status": "found",
+   "full_name": "honghufox/dsh-pdf-translate",
+   "src": "host-identity",
+   "star": 0
   },
   "hongjun1-rgb-dsh-phone-access": {
    "status": "found",
@@ -68104,6 +69161,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "hyper-open-dsh-task-board": {
+   "status": "found",
+   "full_name": "hyper-open/dsh-task-board",
+   "src": "host-identity",
+   "star": 0
+  },
   "hyperforce-dsh-workspace-lock": {
    "status": "found",
    "full_name": "HyperForce/dsh-workspace-lock",
@@ -68498,6 +69561,12 @@
    "status": "found",
    "full_name": "iamfromchangsha/dsh-go-balance",
    "star": 2
+  },
+  "iamjager416-dsh-pixiv-autodownload": {
+   "status": "found",
+   "full_name": "iamjager416/dsh-pixiv-autodownload",
+   "src": "host-identity",
+   "star": 0
   },
   "iamlieutenant-dsh-tool-user-memory": {
    "status": "found",
@@ -68898,6 +69967,12 @@
   "iceshard999-dsh-appview": {
    "status": "found",
    "full_name": "iceshard999/dsh-appview",
+   "src": "host-identity",
+   "star": 0
+  },
+  "iceship-wheels-dsh-kanban": {
+   "status": "found",
+   "full_name": "iceship-wheels/dsh-kanban",
    "src": "host-identity",
    "star": 0
   },
@@ -70060,7 +71135,7 @@
   },
   "imnotriv3r-dsh-progress": {
    "status": "found",
-   "full_name": "imnotRiv3r/dsh-download-dock",
+   "full_name": "imnotRiv3r/dsh-progress",
    "src": "host-identity",
    "star": 1
   },
@@ -70262,7 +71337,7 @@
   },
   "imzl-zl-dsh-model-router": {
    "status": "found",
-   "full_name": "Imzl-zl/dsh-oncall",
+   "full_name": "Imzl-zl/dsh-model-router",
    "src": "host-identity",
    "star": 1
   },
@@ -70399,7 +71474,7 @@
   },
   "inficer-dsh-fish-service": {
    "status": "found",
-   "full_name": "INFIcer/dsh-LocalAIService",
+   "full_name": "INFIcer/dsh-fish-service",
    "src": "host-identity",
    "star": 0
   },
@@ -70450,6 +71525,12 @@
   "ingeb0rga-dsh-sidebar-hover": {
    "status": "found",
    "full_name": "ingeb0rga/dsh-sidebar-hover",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ingk888766-cloud-dsh-anti-interrupt": {
+   "status": "found",
+   "full_name": "ingk888766-cloud/dsh-anti-interrupt",
    "src": "host-identity",
    "star": 0
   },
@@ -70689,6 +71770,12 @@
    "full_name": "Intelligent-GuoXin/dsh-plugin-gomoku",
    "star": 0
   },
+  "interested3041-dsh-bailian-auto-router": {
+   "status": "found",
+   "full_name": "interested3041/dsh-bailian-auto-router",
+   "src": "host-identity",
+   "star": 0
+  },
   "internettrollwatt-dsh-cua-driver": {
    "status": "found",
    "full_name": "internettrollwatt/dsh-cua-driver",
@@ -70736,6 +71823,12 @@
   "invalidnaaaame-dsh-side-workspace": {
    "status": "found",
    "full_name": "invalidnaaaame/dsh-side-workspace",
+   "src": "host-identity",
+   "star": 0
+  },
+  "invisiblezero-dsh-gated-workflow": {
+   "status": "found",
+   "full_name": "InvisibleZero/dsh-gated-workflow",
    "src": "host-identity",
    "star": 0
   },
@@ -70796,6 +71889,12 @@
    "status": "found",
    "full_name": "IP050/dsh-video-player",
    "star": 1
+  },
+  "ipedia825-dsh-ichuny-codex": {
+   "status": "found",
+   "full_name": "ipedia825/dsh-ichuny-codex",
+   "src": "host-identity",
+   "star": 0
   },
   "ipfans-dsh-connect-codearts": {
    "status": "found",
@@ -70950,6 +72049,12 @@
   "iroul1212-dsh-computer-use": {
    "status": "found",
    "full_name": "Iroul1212/DSH-Computer-Use",
+   "src": "host-identity",
+   "star": 0
+  },
+  "irrow627-dsh-quick-actions": {
+   "status": "found",
+   "full_name": "Irrow627/dsh-quick-actions",
    "src": "host-identity",
    "star": 0
   },
@@ -71266,6 +72371,12 @@
   "itailang2333-workspace-batch-manager": {
    "status": "found",
    "full_name": "Itailang2333/workspace-batch-manager",
+   "src": "host-identity",
+   "star": 0
+  },
+  "italycalibur2019-dsh-mera-theme": {
+   "status": "found",
+   "full_name": "italycalibur2019/dsh-mera-theme",
    "src": "host-identity",
    "star": 0
   },
@@ -71601,6 +72712,12 @@
    "status": "found",
    "full_name": "ivorytower1026/dsh-im-bot",
    "star": 2
+  },
+  "ivseice-dsh-mini-notes": {
+   "status": "found",
+   "full_name": "IVseIce/dsh-mini-notes",
+   "src": "host-identity",
+   "star": 0
   },
   "ivvan3016-dsh-ui-pricing": {
    "status": "found",
@@ -72776,6 +73893,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "jasocheung-dsh-qwen-plan-usage": {
+   "status": "found",
+   "full_name": "jasocheung/dsh-qwen-plan-usage",
+   "src": "host-identity",
+   "star": 0
+  },
+  "jasocheung-dsh-qwen-reasoning": {
+   "status": "found",
+   "full_name": "jasocheung/dsh-qwen-reasoning",
+   "src": "host-identity",
+   "star": 0
+  },
   "jason-liao-dsh-memory-tdai": {
    "status": "found",
    "full_name": "Jason-Liao/dsh-memory-tdai",
@@ -73183,7 +74312,7 @@
   },
   "jaylor-wang-dsh-plugin-agent-optimizer": {
    "status": "found",
-   "full_name": "Jaylor-Wang/dsh-awesome-optimizer",
+   "full_name": "Jaylor-Wang/dsh-plugin-agent-optimizer",
    "src": "host-identity",
    "star": 3
   },
@@ -73379,6 +74508,12 @@
    "full_name": "jclzz/dsh-harbor",
    "src": "host-identity",
    "star": 0
+  },
+  "jcnet-9527-dsh-jpet-phone": {
+   "status": "found",
+   "full_name": "Jcnet-9527/dsh-Jpet-phone",
+   "src": "host-identity",
+   "star": 9
   },
   "jcs130-dsh-harness2": {
    "status": "found",
@@ -74257,6 +75392,12 @@
   "jessicaisleep-dsh-source-inbox": {
    "status": "found",
    "full_name": "Jessicaisleep/dsh-source-inbox",
+   "src": "host-identity",
+   "star": 0
+  },
+  "jessicaisleep-dsh-windows-toolbox": {
+   "status": "found",
+   "full_name": "Jessicaisleep/dsh-windows-toolbox",
    "src": "host-identity",
    "star": 0
   },
@@ -75167,13 +76308,13 @@
   },
   "jiaxusummer-dsh-app-icon": {
    "status": "found",
-   "full_name": "jiaxusummer/dsh-icon-changer",
+   "full_name": "jiaxusummer/dsh-app-icon",
    "src": "host-identity",
    "star": 0
   },
   "jiaxusummer-dsh-window-memory": {
    "status": "found",
-   "full_name": "jiaxusummer/dsh-window-mem",
+   "full_name": "jiaxusummer/dsh-window-memory",
    "src": "host-identity",
    "star": 0
   },
@@ -75201,6 +76342,12 @@
   "jiayaoting-dsh-archive-confirm": {
    "status": "found",
    "full_name": "jiayaoting/dsh-archive-confirm",
+   "src": "host-identity",
+   "star": 0
+  },
+  "jiayiliust-ops-dsh-live-doc": {
+   "status": "found",
+   "full_name": "jiayiliust-ops/dsh-live-doc",
    "src": "host-identity",
    "star": 0
   },
@@ -75337,6 +76484,12 @@
    "full_name": "jiesou/dsh-commandcode-go-provider",
    "star": 17
   },
+  "jiesou-dsh-focus-preset": {
+   "status": "found",
+   "full_name": "jiesou/dsh-focus-preset",
+   "src": "host-identity",
+   "star": 0
+  },
   "jiesou-dsh-nous-portal-free-provider": {
    "status": "found",
    "full_name": "jiesou/dsh-nous-portal-free-provider",
@@ -75425,6 +76578,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "jiezhif-dsh-dumate-provider": {
+   "status": "found",
+   "full_name": "JieZhiF/dsh-dumate-provider",
+   "src": "host-identity",
+   "star": 1
+  },
   "jigjoy-ai-baro": {
    "status": "found",
    "full_name": "jigjoy-ai/baro",
@@ -75473,6 +76632,12 @@
    "full_name": "jikllji/DSH-JI-Plugins",
    "star": 6
   },
+  "jilan71310-dsh-dispatch-bridge": {
+   "status": "found",
+   "full_name": "jilan71310/dsh-dispatch-bridge",
+   "src": "host-identity",
+   "star": 0
+  },
   "jilian-dsh-dsh-rule-engine": {
    "status": "found",
    "full_name": "jilian-dsh/dsh-rule-engine",
@@ -75516,6 +76681,12 @@
    "full_name": "JimLiu/baoyu-design",
    "src": "host-identity",
    "star": 0
+  },
+  "jimliu-open-artifact": {
+   "status": "found",
+   "full_name": "JimLiu/open-artifact",
+   "src": "host-identity",
+   "star": 35
   },
   "jimluan-dsh-tui-plugin": {
    "status": "found",
@@ -76126,6 +77297,12 @@
   "jiq1314an-dsh-recent-sessions": {
    "status": "found",
    "full_name": "JIQ1314an/dsh-recent-sessions",
+   "src": "host-identity",
+   "star": 0
+  },
+  "jiqinga-dsh-folding-windows": {
+   "status": "found",
+   "full_name": "jiqinga/dsh-folding-Windows",
    "src": "host-identity",
    "star": 0
   },
@@ -77526,6 +78703,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "jojo-adam-dsh-godot": {
+   "status": "found",
+   "full_name": "JOJO-Adam/dsh-godot",
+   "src": "host-identity",
+   "star": 0
+  },
   "jojo-adam-dsh-memory": {
    "status": "found",
    "full_name": "JOJO-Adam/dsh-memory",
@@ -77632,7 +78815,7 @@
   },
   "jokeslin-dsh-mint-lite": {
    "status": "found",
-   "full_name": "JokesLin/dsh-moonstyle",
+   "full_name": "JokesLin/dsh-mint-lite",
    "src": "host-identity",
    "star": 0
   },
@@ -78266,6 +79449,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "joshualover-dsh-github-search": {
+   "status": "found",
+   "full_name": "Joshualover/dsh-github-search",
+   "src": "host-identity",
+   "star": 0
+  },
   "joslynsmall-dsh-plugin-graphify-watch": {
    "status": "found",
    "full_name": "joslynSmall/dsh-plugin-graphify-watch",
@@ -78376,6 +79565,12 @@
   "joz739-dsh-workflow-map": {
    "status": "found",
    "full_name": "Joz739/dsh-workflow-map",
+   "src": "host-identity",
+   "star": 0
+  },
+  "jozhn-dsh-webmate": {
+   "status": "found",
+   "full_name": "jozhn/dsh-webmate",
    "src": "host-identity",
    "star": 0
   },
@@ -78736,7 +79931,7 @@
   },
   "juliiiiiiiu-julies-session-stickies": {
    "status": "found",
-   "full_name": "juliiiiiiiu/session-stickies-manage-your-attention",
+   "full_name": "juliiiiiiiu/julies-session-stickies",
    "src": "host-identity",
    "star": 3
   },
@@ -78963,6 +80158,12 @@
    "status": "found",
    "full_name": "JUNQINGV587/mattpocock-skills-dsh",
    "star": 1
+  },
+  "junrui-li-dsh-agent-db-studio": {
+   "status": "found",
+   "full_name": "junrui-li/dsh-agent-db-studio",
+   "src": "host-identity",
+   "star": 0
   },
   "junt184-dsh-ui-background": {
    "status": "found",
@@ -79742,6 +80943,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "kabanei-dsh-privacy-guard": {
+   "status": "found",
+   "full_name": "KaBanei/dsh-privacy-guard",
+   "src": "host-identity",
+   "star": 1
+  },
   "kabarryo-dsh-fatfish": {
    "status": "found",
    "full_name": "kabarryo/dsh-fatfish",
@@ -80068,6 +81275,12 @@
   "kaitox326-dsh-auto-prompt": {
    "status": "found",
    "full_name": "Kaitox326/dsh-auto-prompt",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kaius0629-dsh-oujingjing-progress": {
+   "status": "found",
+   "full_name": "Kaius0629/dsh-oujingjing-progress",
    "src": "host-identity",
    "star": 0
   },
@@ -80513,6 +81726,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "kapozux-dsh-xiaobenben": {
+   "status": "found",
+   "full_name": "Kapozux/dsh-xiaobenben",
+   "src": "host-identity",
+   "star": 0
+  },
   "karahanart-dsh-client-locale-tr": {
    "status": "found",
    "full_name": "karahanart/dsh-client-locale-tr",
@@ -80702,6 +81921,18 @@
   "kaus-io-dsh-remote-instance": {
    "status": "found",
    "full_name": "kaus-io/dsh-remote-instance",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kaveys-agent-user-profile": {
+   "status": "found",
+   "full_name": "kaveys/agent-user-profile",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kawaiihachimi-dsh-kvmflow": {
+   "status": "found",
+   "full_name": "KawaiiHachimi/dsh-kvmflow",
    "src": "host-identity",
    "star": 0
   },
@@ -82413,6 +83644,18 @@
    "src": "host-identity",
    "star": 125
   },
+  "kingchen95272025-dsh-cursor-rules": {
+   "status": "found",
+   "full_name": "kingchen95272025/dsh-cursor-rules",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kingchen95272025-dsh-cursor-toolkit": {
+   "status": "found",
+   "full_name": "kingchen95272025/dsh-cursor-toolkit",
+   "src": "host-identity",
+   "star": 0
+  },
   "kingcheng12-dsh-workspace-change-awareness": {
    "status": "found",
    "full_name": "kingcheng12/dsh-workspace-change-awareness",
@@ -82706,6 +83949,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "kira905-dsh-ops-toolkit": {
+   "status": "found",
+   "full_name": "kira905/dsh-ops-toolkit",
+   "src": "host-identity",
+   "star": 0
+  },
   "kira905-dsh-quality-toolkit": {
    "status": "found",
    "full_name": "kira905/dsh-quality-toolkit",
@@ -82884,7 +84133,7 @@
   },
   "kiru-sama-dsh-progress-bar": {
    "status": "found",
-   "full_name": "Kiru-Sama/dsh-progress-reminder",
+   "full_name": "Kiru-Sama/dsh-progress-bar",
    "src": "host-identity",
    "star": 3
   },
@@ -83220,7 +84469,7 @@
   },
   "kkj520-dsh-image-bridge": {
    "status": "found",
-   "full_name": "kkj-luna/dsh-image-bridge",
+   "full_name": "kkj520/dsh-image-bridge",
    "src": "host-identity",
    "star": 1
   },
@@ -83627,6 +84876,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "knot-chord-dsh-bulk-io": {
+   "status": "found",
+   "full_name": "Knot-chord/dsh-bulk-io",
+   "src": "host-identity",
+   "star": 0
+  },
   "knot-chord-dsh-capability-policy": {
    "status": "found",
    "full_name": "Knot-chord/dsh-capability-policy",
@@ -83777,6 +85032,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "kochere-dsh-yijing": {
+   "status": "found",
+   "full_name": "Kochere/dsh-yijing",
+   "src": "host-identity",
+   "star": 0
+  },
   "kochetkov-ma-brewpage-publish-plugins": {
    "status": "found",
    "full_name": "kochetkov-ma/brewpage-publish-plugins",
@@ -83875,6 +85136,12 @@
    "full_name": "koking0/dsh-plugin-zhuoyu-ppt",
    "src": "host-identity",
    "star": 1
+  },
+  "kokota-dsh-deepseek-chat-panel": {
+   "status": "found",
+   "full_name": "KokoTa/dsh-deepseek-chat-panel",
+   "src": "host-identity",
+   "star": 0
   },
   "kokubunshu-dsh-mobile-sync": {
    "status": "found",
@@ -84256,6 +85523,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "kook543-dsh-task-toast": {
+   "status": "found",
+   "full_name": "Kook543/dsh-task-toast",
+   "src": "host-identity",
+   "star": 0
+  },
   "kookoolive-dsh-plugin-telleru": {
    "status": "found",
    "full_name": "kookoolive/dsh-plugin-telleru",
@@ -84281,6 +85554,12 @@
   "korioncn-dsh-d2-diagrams": {
    "status": "found",
    "full_name": "KorionCN/dsh-d2-diagrams",
+   "src": "host-identity",
+   "star": 0
+  },
+  "korosu-dsh-plugin-modern-web-guidance": {
+   "status": "found",
+   "full_name": "korosu/dsh-plugin-modern-web-guidance",
    "src": "host-identity",
    "star": 0
   },
@@ -84447,6 +85726,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "kpbl95946-art-dsh-connect-cursor-pro": {
+   "status": "found",
+   "full_name": "kpbl95946-art/dsh-connect-cursor-pro",
+   "src": "host-identity",
+   "star": 0
+  },
   "kpl0111-dsh-context-guard": {
    "status": "found",
    "full_name": "kpl0111/dsh-context-guard",
@@ -84605,6 +85890,12 @@
   "kslamph-pi-dsh-adviser": {
    "status": "found",
    "full_name": "kslamph/pi-dsh-adviser",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ksolodev-dsh-artel": {
+   "status": "found",
+   "full_name": "ksolodev/dsh-artel",
    "src": "host-identity",
    "star": 0
   },
@@ -84783,6 +86074,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "kulebbb-dsh-club": {
+   "status": "found",
+   "full_name": "kulebbb/dsh-club",
+   "src": "host-identity",
+   "star": 0
+  },
   "kulebbb-dsh-context-optimize": {
    "status": "found",
    "full_name": "kulebbb/dsh-context-optimize",
@@ -84893,6 +86190,12 @@
   "kunalgupta25-dsh-login-gateway": {
    "status": "found",
    "full_name": "KunalGupta25/dsh-login-gateway",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kunchiang-dsh-moyu-games": {
+   "status": "found",
+   "full_name": "KunChiang/dsh-moyu-games",
    "src": "host-identity",
    "star": 0
   },
@@ -85119,6 +86422,12 @@
   "kviiinh-dsh-whale-particles-bg": {
    "status": "found",
    "full_name": "kviiinh/dsh-whale-particles-bg",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kvker-dsh-window-state-plugin": {
+   "status": "found",
+   "full_name": "kvker/dsh-window-state-plugin",
    "src": "host-identity",
    "star": 0
   },
@@ -85368,6 +86677,12 @@
    "src": "host-identity",
    "star": 2
   },
+  "kysr04-dsh-pitfall-memory": {
+   "status": "found",
+   "full_name": "kysr04/dsh-pitfall-memory",
+   "src": "host-identity",
+   "star": 0
+  },
   "kysr04-dsh-sidebar-studio": {
    "status": "found",
    "full_name": "kysr04/dsh-sidebar-studio",
@@ -85403,6 +86718,12 @@
   "kzhw615-dsh-opencode-go-strip": {
    "status": "found",
    "full_name": "kzhw615/dsh-opencode-go-strip",
+   "src": "host-identity",
+   "star": 0
+  },
+  "kzzzt-dsh-chat-manager": {
+   "status": "found",
+   "full_name": "kzzzt/dsh-chat-manager",
    "src": "host-identity",
    "star": 0
   },
@@ -85556,6 +86877,30 @@
    "full_name": "l956615272-hub/dsh-weekly-report",
    "src": "host-identity",
    "star": 2
+  },
+  "la-sandrone-mcp-cronopios": {
+   "status": "found",
+   "full_name": "la-sandrone/mcp-cronopios",
+   "src": "host-identity",
+   "star": 0
+  },
+  "la-sandrone-mcp-melquiades": {
+   "status": "found",
+   "full_name": "la-sandrone/mcp-melquiades",
+   "src": "host-identity",
+   "star": 0
+  },
+  "la-sandrone-mcp-pergaminos": {
+   "status": "found",
+   "full_name": "la-sandrone/mcp-pergaminos",
+   "src": "host-identity",
+   "star": 0
+  },
+  "la-sandrone-memoria-del-hielo": {
+   "status": "found",
+   "full_name": "la-sandrone/memoria-del-hielo",
+   "src": "host-identity",
+   "star": 0
   },
   "la7-f-dsh-mycordis": {
    "status": "found",
@@ -85874,6 +87219,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "lanechenhku-dsh-claude-project-ui": {
+   "status": "found",
+   "full_name": "lanechenhku/dsh-claude-project-ui",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lanechenhku-dsh-post-draft-auto": {
+   "status": "found",
+   "full_name": "lanechenhku/dsh-post-draft-auto",
+   "src": "host-identity",
+   "star": 0
+  },
   "lanfeng97-dsh-bottom-cost": {
    "status": "found",
    "full_name": "LanFeng97/dsh-bottom-cost",
@@ -86162,6 +87519,12 @@
   "laoju188-dshoslink-connector": {
    "status": "found",
    "full_name": "laoju188/dshoslink-connector",
+   "src": "host-identity",
+   "star": 0
+  },
+  "laoliang-agent-harnesskit": {
+   "status": "found",
+   "full_name": "LaoLiang-agent/HarnessKit",
    "src": "host-identity",
    "star": 0
   },
@@ -86993,7 +88356,7 @@
   },
   "leafchina-dsh-image-workbench": {
    "status": "found",
-   "full_name": "LEAFCHINA/dsh-creation-workbench",
+   "full_name": "LEAFCHINA/dsh-image-workbench",
    "src": "host-identity",
    "star": 2
   },
@@ -87190,6 +88553,12 @@
   "leeaoyin-dsh-agent-harness-audit": {
    "status": "found",
    "full_name": "Leeaoyin/dsh-agent-harness-audit",
+   "star": 0
+  },
+  "leeaoyin-dsh-data-cat": {
+   "status": "found",
+   "full_name": "Leeaoyin/dsh-data-cat",
+   "src": "host-identity",
    "star": 0
   },
   "leechen298-code2skill": {
@@ -87466,6 +88835,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "leezhian-dsh-btw": {
+   "status": "found",
+   "full_name": "leezhian/dsh-btw",
+   "src": "host-identity",
+   "star": 0
+  },
   "left0ver-dsh-file-review": {
    "status": "found",
    "full_name": "left0ver/dsh-file-review",
@@ -87608,7 +88983,7 @@
   },
   "leiming2333-dsh-web-search-pro": {
    "status": "found",
-   "full_name": "leiming2333/dsh-web-search-lite",
+   "full_name": "leiming2333/dsh-web-search-pro",
    "src": "host-identity",
    "star": 1
   },
@@ -88790,7 +90165,8 @@
   },
   "lesliewylie-agent-loop-workflow": {
    "status": "found",
-   "full_name": "LeslieWylie/agent-loop-workflow",
+   "full_name": "YaoleWu/agent-loop-workflow",
+   "src": "host-identity",
    "star": 1
   },
   "lesliewylie-dsh-checkout-guard": {
@@ -89051,6 +90427,12 @@
   "lfm097384-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "LFM097384/Deepseek-Harness-Desktop",
+   "star": 0
+  },
+  "lfrs-cyberpunk-dsh-whale-bridge": {
+   "status": "found",
+   "full_name": "LFrs-Cyberpunk/dsh-whale-bridge",
+   "src": "host-identity",
    "star": 0
   },
   "lfy-bot-dsh-api-probe": {
@@ -89379,7 +90761,7 @@
   },
   "lhylhy2024-dsh-deepseek-turn-cost": {
    "status": "found",
-   "full_name": "lhylhy2024/dsh-simple-cost",
+   "full_name": "lhylhy2024/dsh-deepseek-turn-cost",
    "src": "host-identity",
    "star": 0
   },
@@ -89490,6 +90872,12 @@
   "liancheng2020-dsh-aihot-radar": {
    "status": "found",
    "full_name": "liancheng2020/dsh-aihot-radar",
+   "src": "host-identity",
+   "star": 0
+  },
+  "liancheng2020-dsh-balance-sentinel": {
+   "status": "found",
+   "full_name": "liancheng2020/dsh-balance-sentinel",
    "src": "host-identity",
    "star": 0
   },
@@ -90087,6 +91475,12 @@
   "liatos233-dsh-dl-progress": {
    "status": "found",
    "full_name": "Liatos233/dsh-dl-progress",
+   "src": "host-identity",
+   "star": 0
+  },
+  "liatos233-dsh-session-status-filter": {
+   "status": "found",
+   "full_name": "Liatos233/dsh-session-status-filter",
    "src": "host-identity",
    "star": 0
   },
@@ -90742,6 +92136,12 @@
   "lihihe-dsh-thinking-slider": {
    "status": "found",
    "full_name": "LihiHe/dsh-thinking-slider",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lihongxu0221-dsh-prompt-filter": {
+   "status": "found",
+   "full_name": "lihongxu0221/dsh-prompt-filter",
    "src": "host-identity",
    "star": 0
   },
@@ -91472,6 +92872,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "linabellbiu-dsh-computer-use-pip": {
+   "status": "found",
+   "full_name": "linabellbiu/dsh-computer-use-pip",
+   "src": "host-identity",
+   "star": 0
+  },
   "linanatoly-dsh-chat-history-locator": {
    "status": "found",
    "full_name": "linanatoly/dsh-chat-history-locator",
@@ -92082,6 +93488,12 @@
    "full_name": "linkingoscar/dsh-billing-glass",
    "star": 3
   },
+  "linkl-ike-my-fish": {
+   "status": "found",
+   "full_name": "linkl-ike/my-fish",
+   "src": "host-identity",
+   "star": 1
+  },
   "linkpain-dsh-recall-rebuild": {
    "status": "found",
    "full_name": "linkpain/dsh-recall-rebuild",
@@ -92342,6 +93754,12 @@
   "linzzz14-dsh-x": {
    "status": "found",
    "full_name": "Linzzz14/dsh-x",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lioez-dsh-ops-console": {
+   "status": "found",
+   "full_name": "lioez/dsh-ops-console",
    "src": "host-identity",
    "star": 0
   },
@@ -93174,6 +94592,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "liubaibuliuyan-dsh-session-delete": {
+   "status": "found",
+   "full_name": "liubaibuliuyan/dsh-session-delete",
+   "src": "host-identity",
+   "star": 0
+  },
   "liubaicai-dsh-codebuddy-link": {
    "status": "found",
    "full_name": "liubaicai/dsh-codebuddy-link",
@@ -93394,9 +94818,21 @@
    "src": "host-identity",
    "star": 0
   },
+  "liuhange789-dsh-mcp-tool-schema-diff": {
+   "status": "found",
+   "full_name": "liuhange789/dsh-mcp-tool-schema-diff",
+   "src": "host-identity",
+   "star": 0
+  },
   "liuhange789-dsh-patient-education": {
    "status": "found",
    "full_name": "liuhange789/dsh-patient-education",
+   "src": "host-identity",
+   "star": 0
+  },
+  "liuhange789-dsh-plugin-profiler": {
+   "status": "found",
+   "full_name": "liuhange789/dsh-plugin-profiler",
    "src": "host-identity",
    "star": 0
   },
@@ -93459,6 +94895,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "liuhuaian01-dsh-plugin-nature": {
+   "status": "found",
+   "full_name": "liuhuaian01/dsh-plugin-nature",
+   "src": "host-identity",
+   "star": 0
+  },
   "liuhuan007-dsh-service-hub": {
    "status": "found",
    "full_name": "liuhuan007/dsh-service-hub",
@@ -93486,6 +94928,12 @@
   "liujia-io-dsh-image-picker": {
    "status": "found",
    "full_name": "liujia-io/dsh-image-picker",
+   "star": 0
+  },
+  "liujia1128-dsh-confluence": {
+   "status": "found",
+   "full_name": "liujia1128/dsh-confluence",
+   "src": "host-identity",
    "star": 0
   },
   "liujiacheng11-dsh-postman": {
@@ -93691,7 +95139,7 @@
   },
   "liusaipu-dsh-notes": {
    "status": "found",
-   "full_name": "liusaipu/dsh-quicknotes",
+   "full_name": "liusaipu/dsh-notes",
    "src": "host-identity",
    "star": 1
   },
@@ -94170,6 +95618,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "lixiangzhong-dsh-suggestion": {
+   "status": "found",
+   "full_name": "lixiangzhong/dsh-suggestion",
+   "src": "host-identity",
+   "star": 0
+  },
   "lixiao1949-dsh-flash-toolbox": {
    "status": "found",
    "full_name": "LiXiao1949/dsh-flash-toolbox",
@@ -94587,7 +96041,7 @@
   },
   "lizzzmax-dsh-tool-index": {
    "status": "found",
-   "full_name": "LizzzMax/dsh-lean-context",
+   "full_name": "LizzzMax/dsh-tool-index",
    "src": "host-identity",
    "star": 0
   },
@@ -94901,6 +96355,12 @@
    "full_name": "Alice-Marx/dsh-model-router",
    "src": "host-identity",
    "star": 962
+  },
+  "ljwzhaoxiaoniu-dlr": {
+   "status": "found",
+   "full_name": "ljwzhaoxiaoniu/DLR",
+   "src": "host-identity",
+   "star": 1
   },
   "ljx200719-dsh-screen-beyond": {
    "status": "found",
@@ -95271,6 +96731,12 @@
   "lls578-dsh-plugin-checkup": {
    "status": "found",
    "full_name": "lls578/dsh-plugin-checkup",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lluozy-sourcelook": {
+   "status": "found",
+   "full_name": "lluozy/sourcelook",
    "src": "host-identity",
    "star": 0
   },
@@ -96090,6 +97556,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "lone-jade-dsh-side-chat": {
+   "status": "found",
+   "full_name": "Lone-Jade/dsh-side-chat",
+   "src": "host-identity",
+   "star": 0
+  },
   "lone-wolf-akela-dsh-sandboxie-redirect": {
    "status": "found",
    "full_name": "lone-wolf-akela/dsh-sandboxie-redirect",
@@ -96119,11 +97591,23 @@
    "src": "host-identity",
    "star": 9
   },
+  "lonelycrab888-dsh-molecular-viewer": {
+   "status": "found",
+   "full_name": "lonelycrab888/dsh-molecular-viewer",
+   "src": "host-identity",
+   "star": 0
+  },
   "lonelycrab888-dsh-remote-dc": {
    "status": "found",
    "full_name": "lonelycrab888/dsh-remote-dc",
    "src": "host-identity",
    "star": 4
+  },
+  "lonelycrab888-dsh-sequence-viewer": {
+   "status": "found",
+   "full_name": "lonelycrab888/dsh-sequence-viewer",
+   "src": "host-identity",
+   "star": 0
   },
   "lonelycrab888-roundtable-bots": {
    "status": "found",
@@ -96570,7 +98054,13 @@
   },
   "lornatang-dsh-atlassian-bridge": {
    "status": "found",
-   "full_name": "Lornatang/dsh-atlassian",
+   "full_name": "Lornatang/dsh-atlassian-bridge",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lornatang-dsh-caveman": {
+   "status": "found",
+   "full_name": "Lornatang/dsh-caveman",
    "src": "host-identity",
    "star": 0
   },
@@ -96595,6 +98085,12 @@
   "lornatang-dsh-notion": {
    "status": "found",
    "full_name": "Lornatang/dsh-notion",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lornatang-dsh-security-audit": {
+   "status": "found",
+   "full_name": "Lornatang/dsh-security-audit",
    "src": "host-identity",
    "star": 0
   },
@@ -97390,6 +98886,12 @@
    "src": "host-identity",
    "star": 18
   },
+  "lphehe-dsh-token-economizer": {
+   "status": "found",
+   "full_name": "Lphehe/dsh-token-economizer",
+   "src": "host-identity",
+   "star": 0
+  },
   "lphuxhuq-dsh-vietnamese-lang": {
    "status": "found",
    "full_name": "lphuxhuq/dsh-vietnamese-lang",
@@ -97463,6 +98965,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "lqshow-dsh-wechat-studio": {
+   "status": "found",
+   "full_name": "lqshow/dsh-wechat-studio",
+   "src": "host-identity",
+   "star": 0
+  },
   "lr611415-dsh-plugin-documents": {
    "status": "found",
    "full_name": "LR611415/dsh-plugin-documents",
@@ -97485,6 +98993,12 @@
    "full_name": "LRainner/dsh-plugin-standalone-session",
    "src": "host-identity",
    "star": 1
+  },
+  "lrhero-dsh-quick-chat": {
+   "status": "found",
+   "full_name": "lrhero/dsh-quick-chat",
+   "src": "host-identity",
+   "star": 0
   },
   "lroyia-dsh-book-reader": {
    "status": "found",
@@ -97579,10 +99093,22 @@
    "src": "host-identity",
    "star": 1
   },
+  "lsh-lenvast-dsh-plugin-tcm-learning": {
+   "status": "found",
+   "full_name": "lsh-lenvast/dsh-plugin-tcm-learning",
+   "src": "host-identity",
+   "star": 0
+  },
   "lsh2002-dsh-custom-fonts": {
    "status": "found",
    "full_name": "lsh2002/dsh-custom-fonts",
    "star": 2
+  },
+  "lshcoding-dsh-promptx": {
+   "status": "found",
+   "full_name": "LSHCoding/dsh-promptx",
+   "src": "host-identity",
+   "star": 0
   },
   "lsjspl-dsh-plugin-grok2api-media-tool": {
    "status": "found",
@@ -98110,6 +99636,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "luchiwanzi-dsh-tunnel": {
+   "status": "found",
+   "full_name": "luchiwanzi/dsh-tunnel",
+   "src": "host-identity",
+   "star": 0
+  },
   "lucienll-dsh-peak-price-panel": {
    "status": "found",
    "full_name": "LucienLL/dsh-peak-price-panel",
@@ -98261,7 +99793,7 @@
   },
   "lucky6star9-prompt-optimizer-keep": {
    "status": "found",
-   "full_name": "lucky6star9/prompt-keep",
+   "full_name": "lucky6star9/prompt-optimizer-keep",
    "src": "host-identity",
    "star": 0
   },
@@ -98326,7 +99858,7 @@
   },
   "luckyxiang6688-dsh-agent-trace": {
    "status": "found",
-   "full_name": "luckyxiang6688/dsh-superagent-trace",
+   "full_name": "luckyxiang6688/dsh-agent-trace",
    "src": "host-identity",
    "star": 0
   },
@@ -98550,6 +100082,12 @@
    "status": "found",
    "full_name": "Luke-Yong/dsh-plugin-project-management",
    "star": 1
+  },
+  "lukeayin-dsh-whalebook": {
+   "status": "found",
+   "full_name": "lukeAyin/dsh-whalebook",
+   "src": "host-identity",
+   "star": 0
   },
   "lukebest-dsh-plugin-profile-sync": {
    "status": "found",
@@ -99019,6 +100557,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "luoqiaocong-dsh-answer-style": {
+   "status": "found",
+   "full_name": "Luoqiaocong/dsh-answer-style",
+   "src": "host-identity",
+   "star": 0
+  },
   "luorenyu-dsh-deepsearch": {
    "status": "found",
    "full_name": "luorenyu/dsh-deepsearch",
@@ -99330,6 +100874,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "luxbya-dsh-project-hooks": {
+   "status": "found",
+   "full_name": "LUXBYA/dsh-project-hooks",
+   "src": "host-identity",
+   "star": 0
+  },
   "luxi233-dsh-settings-nav-scroll": {
    "status": "found",
    "full_name": "luxi233/dsh-settings-nav-scroll",
@@ -99397,6 +100947,12 @@
    "full_name": "luxus0946/dsh-uuyc",
    "src": "host-identity",
    "star": 1
+  },
+  "luyanci-dsh-im": {
+   "status": "found",
+   "full_name": "luyanci/dsh-im",
+   "src": "host-identity",
+   "star": 0
   },
   "luyanfcp-dsh-kicad": {
    "status": "found",
@@ -99629,6 +101185,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "lw24-1936-dsh-frontend-page-craft": {
+   "status": "found",
+   "full_name": "lw24-1936/dsh-frontend-page-craft",
+   "src": "host-identity",
+   "star": 0
+  },
   "lw24-1936-dsh-memweave": {
    "status": "found",
    "full_name": "lw24-1936/dsh-memweave",
@@ -99842,6 +101404,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "lxj5820-dsh-boot-animation": {
+   "status": "found",
+   "full_name": "lxj5820/dsh-boot-animation",
+   "src": "host-identity",
+   "star": 354
+  },
   "lxj808624-dsh-tool-git": {
    "status": "found",
    "full_name": "lxj808624/dsh-tool-git",
@@ -99849,7 +101417,7 @@
   },
   "lxjljy2014-dshx": {
    "status": "found",
-   "full_name": "ideal-jun/dshx",
+   "full_name": "lxjljy2014/dshx",
    "src": "host-identity",
    "star": 0
   },
@@ -99880,6 +101448,12 @@
   "lxl8182-dsh-session-ops": {
    "status": "found",
    "full_name": "lxl8182/dsh-session-ops",
+   "src": "host-identity",
+   "star": 0
+  },
+  "lxmh1982-dsh-windows-agents": {
+   "status": "found",
+   "full_name": "LXMH1982/dsh-windows-agents",
    "src": "host-identity",
    "star": 0
   },
@@ -100102,6 +101676,12 @@
    "full_name": "lyhue1991/dsh-automation",
    "src": "host-identity",
    "star": 0
+  },
+  "lyhue1991-dsh-pi-preset": {
+   "status": "found",
+   "full_name": "lyhue1991/dsh-pi-preset",
+   "src": "host-identity",
+   "star": 1
   },
   "lyhue1991-dsh-soup": {
    "status": "found",
@@ -100449,6 +102029,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "lyxdsg-dsh-mcp-cost": {
+   "status": "found",
+   "full_name": "LYXDSG/dsh-mcp-cost",
+   "src": "host-identity",
+   "star": 0
+  },
   "lyxx999-agents-md-management-for-dsh": {
    "status": "found",
    "full_name": "lyxx999/AGENTS.md-management-for-dsh",
@@ -100508,6 +102094,12 @@
    "status": "found",
    "full_name": "lzeeorno/DeepSeekHarness-Desktop",
    "star": 1
+  },
+  "lzfandhky-dsh-agent-trust": {
+   "status": "found",
+   "full_name": "LzfandHky/dsh-agent-trust",
+   "src": "host-identity",
+   "star": 0
   },
   "lzfbite-dsh-github-ops": {
    "status": "found",
@@ -100812,6 +102404,12 @@
   "m0r1c-dsh-vision-fix-lmstudio": {
    "status": "found",
    "full_name": "M0R1C/dsh-vision-fix-lmstudio",
+   "src": "host-identity",
+   "star": 0
+  },
+  "m0rningbreeze-dsh-selection-followup": {
+   "status": "found",
+   "full_name": "M0rningBreeze/dsh-selection-followup",
    "src": "host-identity",
    "star": 0
   },
@@ -101147,6 +102745,12 @@
    "status": "found",
    "full_name": "mafeis/dsh-net-proxy",
    "star": 13
+  },
+  "mafuyuyu-dsh-history-search": {
+   "status": "found",
+   "full_name": "mafuyuyu/dsh-history-search",
+   "src": "host-identity",
+   "star": 0
   },
   "magelovania-dsh-branch-notes": {
    "status": "found",
@@ -101516,7 +103120,7 @@
   },
   "makotonikki-dsh-discord-rich": {
    "status": "found",
-   "full_name": "wisqqud/dsh-discord-rich",
+   "full_name": "MakotoNikki/dsh-discord-rich",
    "src": "host-identity",
    "star": 0
   },
@@ -101532,7 +103136,7 @@
   },
   "malabananclauss-rgb-dsh-memory-scaffold": {
    "status": "found",
-   "full_name": "malabananclauss-rgb/qing-self",
+   "full_name": "malabananclauss-rgb/dsh-memory-scaffold",
    "src": "host-identity",
    "star": 0
   },
@@ -101636,7 +103240,7 @@
   },
   "mango2630-dsh-conversation-pins": {
    "status": "found",
-   "full_name": "yuanxiao2630/dsh-conversation-pins",
+   "full_name": "mango2630/dsh-conversation-pins",
    "src": "host-identity",
    "star": 1
   },
@@ -101654,6 +103258,12 @@
   "mannixhu-dsh-statusbar-config": {
    "status": "found",
    "full_name": "MannixHu/dsh-statusbar-config",
+   "star": 0
+  },
+  "mannixs-dsh-plug-computeruse": {
+   "status": "found",
+   "full_name": "mannixS/dsh-plug-computeruse",
+   "src": "host-identity",
    "star": 0
   },
   "manny333-dsh-checklists": {
@@ -101732,6 +103342,12 @@
    "full_name": "mantonlove/dsh-prism-plugin",
    "star": 2
   },
+  "mantonlove-dsh-saynext": {
+   "status": "found",
+   "full_name": "mantonlove/dsh-saynext",
+   "src": "host-identity",
+   "star": 0
+  },
   "mantou-kaya-dsh-voice-input": {
    "status": "found",
    "full_name": "ManTou-kaya/dsh-voice-input",
@@ -101809,6 +103425,12 @@
   "maoqizhen-dsh-pc-manager": {
    "status": "found",
    "full_name": "maoqizhen/dsh-pc-manager",
+   "src": "host-identity",
+   "star": 0
+  },
+  "maorong-rong-plant-omics-hub": {
+   "status": "found",
+   "full_name": "maorong-rong/plant-omics-hub",
    "src": "host-identity",
    "star": 0
   },
@@ -103417,6 +105039,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "mayuqinb-dsh-douyin-link-video": {
+   "status": "found",
+   "full_name": "MaYuQiNB/dsh-douyin-link-video",
+   "src": "host-identity",
+   "star": 0
+  },
   "mazov2love-dsh-remote-control": {
    "status": "found",
    "full_name": "mazov2love/dsh-remote-control",
@@ -104780,7 +106408,7 @@
   },
   "merusu-better-notice": {
    "status": "found",
-   "full_name": "MeruSu/dsh-better-notice",
+   "full_name": "MeruSu/better-notice",
    "src": "host-identity",
    "star": 1
   },
@@ -104789,6 +106417,12 @@
    "full_name": "MeruSu/dsh-better-setting-page",
    "src": "host-identity",
    "star": 1
+  },
+  "merusu-dsh-temp-full-access": {
+   "status": "found",
+   "full_name": "MeruSu/dsh-temp-full-access",
+   "src": "host-identity",
+   "star": 0
   },
   "merusu-dsh-ui-controller": {
    "status": "found",
@@ -104830,6 +106464,12 @@
    "status": "found",
    "full_name": "mervyn-teo/dsh-plugin-terminal",
    "star": 2
+  },
+  "merziller-dsh-video-workbench": {
+   "status": "found",
+   "full_name": "Merziller/dsh-video-workbench",
+   "src": "host-identity",
+   "star": 40
   },
   "meshtok-dsh-plugin-meshmoe": {
    "status": "found",
@@ -104966,6 +106606,12 @@
   "metercai-aimail": {
    "status": "found",
    "full_name": "metercai/aimail",
+   "star": 0
+  },
+  "methpia-dsh-server-memory": {
+   "status": "found",
+   "full_name": "methpia/dsh-server-memory",
+   "src": "host-identity",
    "star": 0
   },
   "methylorange-kun-dsh-task-popup": {
@@ -106677,6 +108323,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "miraculousgu-dsh-ui-studio": {
+   "status": "found",
+   "full_name": "MiraculousGu/dsh-ui-studio",
+   "src": "host-identity",
+   "star": 0
+  },
   "miragelyu-dsh-tui": {
    "status": "found",
    "full_name": "MirageLyu/dsh-tui",
@@ -106701,7 +108353,7 @@
   },
   "mirelconstantin-dsh-subagent-model": {
    "status": "found",
-   "full_name": "mirelconstantin/dsh-subagents-model",
+   "full_name": "mirelconstantin/dsh-subagent-model",
    "src": "host-identity",
    "star": 2
   },
@@ -107585,6 +109237,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "mmovo-dsh-purge": {
+   "status": "found",
+   "full_name": "MMovo/dsh-purge",
+   "src": "host-identity",
+   "star": 0
+  },
   "mmparko-dsh-purge": {
    "status": "found",
    "full_name": "mmparko/dsh-purge",
@@ -107828,6 +109486,12 @@
    "src": "host-identity",
    "star": 370
   },
+  "moderras-dsh-opencode-go": {
+   "status": "found",
+   "full_name": "ModerRAS/dsh-opencode-go",
+   "src": "host-identity",
+   "star": 0
+  },
   "modesthub-dsh-sensenova-freeapi": {
    "status": "found",
    "full_name": "modesthub/dsh-sensenova-freeapi",
@@ -108021,6 +109685,12 @@
   "moh114514-dsh-image-context-menu": {
    "status": "found",
    "full_name": "Moh114514/dsh-image-context-menu",
+   "src": "host-identity",
+   "star": 0
+  },
+  "mohammadatiq472-source-ai-social-aio": {
+   "status": "found",
+   "full_name": "mohammadatiq472-source/ai-social-aio",
    "src": "host-identity",
    "star": 0
   },
@@ -108464,6 +110134,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "monta-6969-dsh-sw-3d-preview": {
+   "status": "found",
+   "full_name": "monta-6969/dsh-sw-3d-preview",
+   "src": "host-identity",
+   "star": 0
+  },
   "monter-code-dsh-image-insight": {
    "status": "found",
    "full_name": "Monter-code/dsh-image-insight",
@@ -108865,6 +110541,12 @@
   "morcoan-ligui": {
    "status": "found",
    "full_name": "morcoan/ligui",
+   "src": "host-identity",
+   "star": 0
+  },
+  "mordoreay-dsh-edgerunners": {
+   "status": "found",
+   "full_name": "mordoreay/dsh-edgerunners",
    "src": "host-identity",
    "star": 0
   },
@@ -109320,6 +111002,12 @@
    "full_name": "mouse33333/dsh-quota-monitor",
    "star": 1
   },
+  "mouse985-dsh-ask-panel": {
+   "status": "found",
+   "full_name": "mouse985/dsh-ask-panel",
+   "src": "host-identity",
+   "star": 0
+  },
   "mouse985-dsh-context-cap": {
    "status": "found",
    "full_name": "mouse985/dsh-context-cap",
@@ -109532,6 +111220,12 @@
   "mozhuanzuojing-dsh-agent-pill": {
    "status": "found",
    "full_name": "mozhuanzuojing/dsh-agent-pill",
+   "src": "host-identity",
+   "star": 0
+  },
+  "mozhuanzuojing-dsh-deepbreath": {
+   "status": "found",
+   "full_name": "mozhuanzuojing/dsh-deepbreath",
    "src": "host-identity",
    "star": 0
   },
@@ -111238,6 +112932,12 @@
    "src": "host-identity",
    "star": 2
   },
+  "myiyang-dsh-prd-canvas": {
+   "status": "found",
+   "full_name": "MYiYang/dsh-prd-canvas",
+   "src": "host-identity",
+   "star": 0
+  },
   "myiyang-dsh-task-folders": {
    "status": "found",
    "full_name": "MYiYang/dsh-task-folders",
@@ -111293,6 +112993,12 @@
   "myname1234-dsh-deepseek-usage": {
    "status": "found",
    "full_name": "myname1234/dsh-deepseek-usage",
+   "src": "host-identity",
+   "star": 0
+  },
+  "myname1234-dsh-system-monitor": {
+   "status": "found",
+   "full_name": "myname1234/dsh-system-monitor",
    "src": "host-identity",
    "star": 0
   },
@@ -111387,6 +113093,12 @@
    "src": "host-identity",
    "star": 2
   },
+  "mysterycode-liwen-dsh-credential-vault": {
+   "status": "found",
+   "full_name": "mysterycode-liwen/dsh-credential-vault",
+   "src": "host-identity",
+   "star": 0
+  },
   "mystic7c-dsh-superagent-panel": {
    "status": "found",
    "full_name": "mystic7c/dsh-superagent-panel",
@@ -111473,6 +113185,12 @@
   "mzqmzqmzqmzq-dsh-api-cost-meter": {
    "status": "found",
    "full_name": "mzqmzqmzqmzq/dsh-api-cost-meter",
+   "src": "host-identity",
+   "star": 0
+  },
+  "mzwing-dsh-plugins": {
+   "status": "found",
+   "full_name": "mzwing/dsh-plugins",
    "src": "host-identity",
    "star": 0
   },
@@ -111805,6 +113523,12 @@
    "src": "host-identity",
    "star": 5
   },
+  "nakemer-pc-doctor": {
+   "status": "found",
+   "full_name": "nakemer/pc-doctor",
+   "src": "host-identity",
+   "star": 0
+  },
   "nakie-zjm-dsh-session-delete": {
    "status": "found",
    "full_name": "Nakie-zjm/dsh-session-delete",
@@ -112031,9 +113755,15 @@
    "src": "host-identity",
    "star": 0
   },
+  "nanhaiya-dsh-pindou-pattern": {
+   "status": "found",
+   "full_name": "nanhaiya/dsh-pindou-pattern",
+   "src": "host-identity",
+   "star": 0
+  },
   "nanhua3839-dsh-hykb-whale": {
    "status": "found",
-   "full_name": "nanhua3839/dsh-hykb-scroll",
+   "full_name": "nanhua3839/dsh-hykb-whale",
    "src": "host-identity",
    "star": 1
   },
@@ -112245,6 +113975,12 @@
    "full_name": "Naskete/dsh-agnes-image",
    "src": "host-identity",
    "star": 1
+  },
+  "naskita-shadow-bilingual": {
+   "status": "found",
+   "full_name": "Naskita/shadow-bilingual",
+   "src": "host-identity",
+   "star": 0
   },
   "nataliwhite20534-droid-dsh-4-role-workflow": {
    "status": "found",
@@ -112476,7 +114212,7 @@
   },
   "nazidada-koishi-plugin-adapter-harness": {
    "status": "found",
-   "full_name": "FloraAurella/koishi-plugin-adapter-harness",
+   "full_name": "nazidada/koishi-plugin-adapter-harness",
    "src": "host-identity",
    "star": 1
   },
@@ -112992,7 +114728,7 @@
   },
   "nesarf-tastylineout": {
    "status": "found",
-   "full_name": "Nesarf/Oishikunaare-Moe-Moe-Kyun",
+   "full_name": "Nesarf/TastyLineOut",
    "src": "host-identity",
    "star": 0
   },
@@ -113011,6 +114747,12 @@
   "netcatty-dsh-guard": {
    "status": "found",
    "full_name": "netcatty/dsh-guard",
+   "src": "host-identity",
+   "star": 0
+  },
+  "netcatty-dsh-rewind": {
+   "status": "found",
+   "full_name": "netcatty/dsh-rewind",
    "src": "host-identity",
    "star": 0
   },
@@ -113467,6 +115209,12 @@
    "full_name": "NexusClawHQ/nexusclaw-agent-governance",
    "star": 1
   },
+  "nexxxl-windos2026": {
+   "status": "found",
+   "full_name": "nexxxl/windos2026",
+   "src": "host-identity",
+   "star": 0
+  },
   "neymar011ren-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "neymar011ren/deepseek-harness-desktop",
@@ -113495,7 +115243,7 @@
   },
   "ngosangns-ns-kiro-provider": {
    "status": "found",
-   "full_name": "ngosangns/ns-bridge",
+   "full_name": "ngosangns/ns-kiro-provider",
    "src": "host-identity",
    "star": 3
   },
@@ -114230,7 +115978,7 @@
   },
   "ningyuanlee-dsh-minimax-byapi": {
    "status": "found",
-   "full_name": "NingYuanLee/dsh-minimax-api",
+   "full_name": "NingYuanLee/dsh-minimax-byapi",
    "src": "host-identity",
    "star": 2
   },
@@ -114249,6 +115997,12 @@
   "ningzhenpeng-dsh-plugin-preflight": {
    "status": "found",
    "full_name": "NingZhenPeng/dsh-plugin-preflight",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ninihao1743-dsh-memorytree-rule": {
+   "status": "found",
+   "full_name": "ninihao1743/dsh-memorytree-rule",
    "src": "host-identity",
    "star": 0
   },
@@ -114529,6 +116283,12 @@
    "full_name": "niushuanan/xiaozhuang-dsh",
    "star": 1
   },
+  "niuvector-dsh-pcbagent": {
+   "status": "found",
+   "full_name": "NiuVector/dsh-pcbagent",
+   "src": "host-identity",
+   "star": 0
+  },
   "niuzhuang-dsh-git-ai": {
    "status": "found",
    "full_name": "NiuZhuang/dsh-git-ai",
@@ -114685,6 +116445,12 @@
   "nmindz-stupid-comments": {
    "status": "found",
    "full_name": "nmindz/stupid-comments",
+   "src": "host-identity",
+   "star": 0
+  },
+  "nmj94-dsh-task-progress": {
+   "status": "found",
+   "full_name": "nmj94/dsh-task-progress",
    "src": "host-identity",
    "star": 0
   },
@@ -114873,6 +116639,12 @@
   "nodata404-dsh-env-probe": {
    "status": "found",
    "full_name": "nodata404/dsh-env-probe",
+   "star": 0
+  },
+  "noeau-ai-dsh-history-search": {
+   "status": "found",
+   "full_name": "Noeau-AI/dsh-history-search",
+   "src": "host-identity",
    "star": 0
   },
   "noeljudenoel-dsh-files-manager": {
@@ -115396,6 +117168,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "north30-dev-dsh-cloudflare-dash": {
+   "status": "found",
+   "full_name": "north30-dev/dsh-cloudflare-dash",
+   "src": "host-identity",
+   "star": 0
+  },
   "northblizzard-dsh-gui-bridge": {
    "status": "found",
    "full_name": "NorthBlizzard/dsh-gui-bridge",
@@ -115446,6 +117224,12 @@
   "nortr0m-dsh-dota2-pet": {
    "status": "found",
    "full_name": "Nortr0m/dsh-dota2-pet",
+   "src": "host-identity",
+   "star": 0
+  },
+  "nosleep00-dsh-github-radar": {
+   "status": "found",
+   "full_name": "nosleep00/dsh-github-radar",
    "src": "host-identity",
    "star": 0
   },
@@ -116057,7 +117841,7 @@
   },
   "nyasers-dsh-hanako": {
    "status": "found",
-   "full_name": "Nyasers/DSHana",
+   "full_name": "Nyasers/dsh-hanako",
    "src": "host-identity",
    "star": 58
   },
@@ -116441,6 +118225,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "odo-tech-dsh-yukkuli": {
+   "status": "found",
+   "full_name": "ODO-TECH/dsh-yukkuli",
+   "src": "host-identity",
+   "star": 0
+  },
   "odysseykernelt-dsh-dashcam": {
    "status": "found",
    "full_name": "odysseykernelt/dsh-dashcam",
@@ -116505,6 +118295,12 @@
   "oh-summy-dsh-remote-control": {
    "status": "found",
    "full_name": "oh-summy/dsh-remote-control",
+   "star": 0
+  },
+  "oh-wang-dsh-tools-deepseek-media": {
+   "status": "found",
+   "full_name": "oh-wang/dsh-tools-deepseek-media",
+   "src": "host-identity",
    "star": 0
   },
   "ohlygod-dsh-jiuling-remote-android": {
@@ -116679,7 +118475,7 @@
   },
   "oldcitynight-dsh-bettertaskgraphs": {
    "status": "found",
-   "full_name": "oldcitynight/dsh-better-task-grapth",
+   "full_name": "oldcitynight/dsh-bettertaskgraphs",
    "src": "host-identity",
    "star": 1
   },
@@ -116741,6 +118537,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "oldqin-aurora-portwrench": {
+   "status": "found",
+   "full_name": "OldQin-Aurora/PortWrench",
+   "src": "host-identity",
+   "star": 0
+  },
   "oldqin-aurora001-dsh-breeze-tts": {
    "status": "found",
    "full_name": "OldQin-Aurora001/dsh-breeze-tts",
@@ -116795,7 +118597,7 @@
   },
   "oliblue-evan-dsh-github-auth": {
    "status": "found",
-   "full_name": "oliblue-evan/dsh-liao-github",
+   "full_name": "oliblue-evan/dsh-github-auth",
    "src": "host-identity",
    "star": 0
   },
@@ -116813,7 +118615,7 @@
   },
   "oliblue-evan-dsh-model-organizer": {
    "status": "found",
-   "full_name": "oliblue-evan/dsh-liao-models",
+   "full_name": "oliblue-evan/dsh-model-organizer",
    "src": "host-identity",
    "star": 0
   },
@@ -117160,6 +118962,12 @@
    "full_name": "omdsh-dev/dsh-gomoku",
    "star": 13
   },
+  "omdsh-dev-dsh-gonic": {
+   "status": "found",
+   "full_name": "omdsh-dev/dsh-gonic",
+   "src": "host-identity",
+   "star": 0
+  },
   "omdsh-dev-dsh-hub": {
    "status": "found",
    "full_name": "omdsh-dev/dsh-hub",
@@ -117205,6 +119013,12 @@
    "status": "found",
    "full_name": "omdsh-dev/dsh-longbridge",
    "star": 4
+  },
+  "omdsh-dev-dsh-memos": {
+   "status": "found",
+   "full_name": "omdsh-dev/dsh-memos",
+   "src": "host-identity",
+   "star": 0
   },
   "omdsh-dev-dsh-mermaid": {
    "status": "found",
@@ -117256,6 +119070,12 @@
    "status": "found",
    "full_name": "omdsh-dev/dsh-pet-corner",
    "star": 3
+  },
+  "omdsh-dev-dsh-pi-models": {
+   "status": "found",
+   "full_name": "omdsh-dev/dsh-pi-models",
+   "src": "host-identity",
+   "star": 0
   },
   "omdsh-dev-dsh-plugin-check": {
    "status": "found",
@@ -117424,6 +119244,12 @@
    "status": "found",
    "full_name": "omdsh-dev/dsh-voice-funasr",
    "star": 3
+  },
+  "omdsh-dev-dsh-web-skin": {
+   "status": "found",
+   "full_name": "omdsh-dev/dsh-web-skin",
+   "src": "host-identity",
+   "star": 0
   },
   "omdsh-dev-dsh-web-ui-notify": {
    "status": "found",
@@ -117674,6 +119500,12 @@
    "status": "found",
    "full_name": "OneCat2015/Remote-My-DSH",
    "star": 1
+  },
+  "oneclickvirt-ecs": {
+   "status": "found",
+   "full_name": "oneclickvirt/ecs",
+   "src": "host-identity",
+   "star": 0
   },
   "onedotmint-reroute": {
    "status": "found",
@@ -118059,6 +119891,12 @@
    "full_name": "opencamel/dsh-x-archive",
    "star": 0
   },
+  "opencamel-dsh-yt-archive": {
+   "status": "found",
+   "full_name": "opencamel/dsh-yt-archive",
+   "src": "host-identity",
+   "star": 0
+  },
   "opencnid-deepseek-rlm": {
    "status": "found",
    "full_name": "cnidrs/deepseek-rlm",
@@ -118423,6 +120261,12 @@
    "src": "host-identity",
    "star": 11
   },
+  "orderg-x-dsh-design-gallery": {
+   "status": "found",
+   "full_name": "OrderG-X/dsh-design-gallery",
+   "src": "host-identity",
+   "star": 0
+  },
   "orderg-x-dsh-design-studio": {
    "status": "found",
    "full_name": "OrderG-X/dsh-design-studio",
@@ -118590,6 +120434,12 @@
    "status": "found",
    "full_name": "orrinzeng/dsh-cursor-subscription",
    "star": 8
+  },
+  "orstedoshua-dsh-api-cost": {
+   "status": "found",
+   "full_name": "OrstedOshua/dsh-api-cost",
+   "src": "host-identity",
+   "star": 0
   },
   "orxz-deepseek-harness-pets": {
    "status": "found",
@@ -119002,6 +120852,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "overtowind-dsh-grouped-sessions": {
+   "status": "found",
+   "full_name": "OverToWind/dsh-grouped-sessions",
+   "src": "host-identity",
+   "star": 0
+  },
   "overtowind-dsh-todo": {
    "status": "found",
    "full_name": "OverToWind/dsh-todo",
@@ -119358,6 +121214,12 @@
    "full_name": "p2coder/dsh-task-control",
    "star": 6
   },
+  "p33333333333333l-dsh-mcp-servers": {
+   "status": "found",
+   "full_name": "p33333333333333l/dsh-mcp-servers",
+   "src": "host-identity",
+   "star": 0
+  },
   "p33333333333333l-dsh-specialist-team": {
    "status": "found",
    "full_name": "p33333333333333l/dsh-specialist-team",
@@ -119421,6 +121283,12 @@
   "pabears-software-phase-theory": {
    "status": "found",
    "full_name": "Pabears/software-phase-theory",
+   "src": "host-identity",
+   "star": 0
+  },
+  "pachellber-marine-dsh-request-retry": {
+   "status": "found",
+   "full_name": "pachellber-marine/dsh-request-retry",
    "src": "host-identity",
    "star": 0
   },
@@ -119549,6 +121417,12 @@
    "full_name": "paleech0/dsh-notify-desktop",
    "src": "host-identity",
    "star": 4
+  },
+  "paleland-dsh-image-slider": {
+   "status": "found",
+   "full_name": "PaleLand/dsh-image-slider",
+   "src": "host-identity",
+   "star": 0
   },
   "paloma966-dsh-kaiju": {
    "status": "found",
@@ -119860,6 +121734,12 @@
    "src": "host-identity",
    "star": 5
   },
+  "panweizong-dsh-workbuddy-skills": {
+   "status": "found",
+   "full_name": "panweizong/dsh-workbuddy-skills",
+   "src": "host-identity",
+   "star": 0
+  },
   "pany0593-dsh-ui-notifications": {
    "status": "found",
    "full_name": "pany0593/dsh-ui-notifications",
@@ -119875,6 +121755,30 @@
    "status": "found",
    "full_name": "PaoMoXML/dsh-paste-names",
    "star": 2
+  },
+  "paomoxml-dsh-session-branch": {
+   "status": "found",
+   "full_name": "PaoMoXML/dsh-session-branch",
+   "src": "host-identity",
+   "star": 0
+  },
+  "paomoxml-dsh-session-migrator": {
+   "status": "found",
+   "full_name": "PaoMoXML/dsh-session-migrator",
+   "src": "host-identity",
+   "star": 0
+  },
+  "paomoxml-dsh-theme-ink": {
+   "status": "found",
+   "full_name": "PaoMoXML/dsh-theme-ink",
+   "src": "host-identity",
+   "star": 0
+  },
+  "paomoxml-dsh-thinking-phrase": {
+   "status": "found",
+   "full_name": "PaoMoXML/dsh-thinking-phrase",
+   "src": "host-identity",
+   "star": 0
   },
   "papachong-deepseek-harness-tui": {
    "status": "found",
@@ -120188,7 +122092,7 @@
   },
   "pawpaw-agent-dsh-mobile": {
    "status": "found",
-   "full_name": "pawpaw-agent/dsh-handheld",
+   "full_name": "pawpaw-agent/dsh-mobile",
    "src": "host-identity",
    "star": 2
   },
@@ -120625,6 +122529,12 @@
   "pengtang1024-dsh-paste-image": {
    "status": "found",
    "full_name": "pengtang1024/dsh-paste-image",
+   "src": "host-identity",
+   "star": 0
+  },
+  "pengtang1024-dsh-quick-phrases": {
+   "status": "found",
+   "full_name": "pengtang1024/dsh-quick-phrases",
    "src": "host-identity",
    "star": 0
   },
@@ -122333,6 +124243,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "philomelcc-dsh-idea-wall": {
+   "status": "found",
+   "full_name": "philomelcc/dsh-idea-wall",
+   "src": "host-identity",
+   "star": 0
+  },
+  "philomelcc-dsh-interaction": {
+   "status": "found",
+   "full_name": "philomelcc/dsh-interaction",
+   "src": "host-identity",
+   "star": 0
+  },
   "philomelcc-dsh-status-monitor": {
    "status": "found",
    "full_name": "philomelcc/dsh-status-monitor",
@@ -122783,7 +124705,7 @@
   },
   "pilothowe-plugin-advisor": {
    "status": "found",
-   "full_name": "PilotHowe/Plugin-advisor",
+   "full_name": "PilotHowe/dsh-plugin-buddy",
    "src": "host-identity",
    "star": 1
   },
@@ -123523,7 +125445,7 @@
   },
   "pokereva-dsh-no-enter-sand": {
    "status": "found",
-   "full_name": "pokereva/dsh-no-enter-send",
+   "full_name": "pokereva/dsh-no-enter-sand",
    "src": "host-identity",
    "star": 0
   },
@@ -123729,6 +125651,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "pondsi-dsh-diwen": {
+   "status": "found",
+   "full_name": "Pondsi/dsh-diwen",
+   "src": "host-identity",
+   "star": 0
+  },
   "ponydevai-dsh-model-usage": {
    "status": "found",
    "full_name": "PonyDevAI/dsh-model-usage",
@@ -123837,6 +125765,12 @@
    "full_name": "potoior/dsh-bull-bear",
    "star": 0
   },
+  "potterhe-dsh-helloworld": {
+   "status": "found",
+   "full_name": "potterhe/dsh-helloworld",
+   "src": "host-identity",
+   "star": 0
+  },
   "potterlee369-prog-dsh-feishu": {
    "status": "found",
    "full_name": "potterlee369-prog/dsh-feishu",
@@ -123884,6 +125818,18 @@
   "powehig-dsh-knowledge-board": {
    "status": "found",
    "full_name": "PowehiG/dsh-knowledge-board",
+   "src": "host-identity",
+   "star": 0
+  },
+  "poweredbyai-dsh-consumer-insight": {
+   "status": "found",
+   "full_name": "poweredbyai/dsh-consumer-insight",
+   "src": "host-identity",
+   "star": 1
+  },
+  "poweredbyai-geo-desk": {
+   "status": "found",
+   "full_name": "poweredbyai/geo-desk",
    "src": "host-identity",
    "star": 0
   },
@@ -124035,6 +125981,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "prcjimmy1015-dsh-live-run": {
+   "status": "found",
+   "full_name": "Prcjimmy1015/dsh-live-run",
+   "src": "host-identity",
+   "star": 0
+  },
   "preference-cmd-dsh-antigravity": {
    "status": "found",
    "full_name": "Preference-cmd/dsh-antigravity",
@@ -124158,13 +126110,13 @@
   },
   "prirex-prirex-monitoring-deepseek-harness": {
    "status": "found",
-   "full_name": "Prirex/dsh-PriRex-Monitoring-DeepSeek-Harness",
+   "full_name": "Prirex/PriRex-Monitoring-DeepSeek-Harness",
    "src": "host-identity",
    "star": 1
   },
   "prirex-prirex-preview": {
    "status": "found",
-   "full_name": "Prirex/dsh-PriRex-Preview",
+   "full_name": "Prirex/PriRex-Preview",
    "src": "host-identity",
    "star": 1
   },
@@ -124252,7 +126204,7 @@
   },
   "prokint-infinite-canvas-dsh": {
    "status": "found",
-   "full_name": "Prokint/WhaleDraw",
+   "full_name": "Prokint/infinite-canvas-dsh",
    "src": "host-identity",
    "star": 4
   },
@@ -124375,6 +126327,12 @@
   "psychologist-jpg-dsh-mission-control": {
    "status": "found",
    "full_name": "Psychologist-jpg/dsh_mission-control",
+   "src": "host-identity",
+   "star": 0
+  },
+  "psyduck25-dsh-session-manager": {
+   "status": "found",
+   "full_name": "psyduck25/dsh-session-manager",
    "src": "host-identity",
    "star": 0
   },
@@ -124511,6 +126469,18 @@
    "src": "host-identity",
    "star": 2
   },
+  "puffdog-git-dsh-jukebox": {
+   "status": "found",
+   "full_name": "puffdog-git/dsh-jukebox",
+   "src": "host-identity",
+   "star": 0
+  },
+  "puffdog-git-dsh-ptt-dive": {
+   "status": "found",
+   "full_name": "puffdog-git/dsh-ptt-dive",
+   "src": "host-identity",
+   "star": 0
+  },
   "puffdog-git-dsh-sound-atelier": {
    "status": "found",
    "full_name": "puffdog-git/dsh-sound-atelier",
@@ -124644,6 +126614,12 @@
   "pureexe-dsh-windows-remote-ssh": {
    "status": "found",
    "full_name": "pureexe/dsh-windows-remote-ssh",
+   "src": "host-identity",
+   "star": 0
+  },
+  "pureheartrobotics-ai-os": {
+   "status": "found",
+   "full_name": "pureheartrobotics/ai-os",
    "src": "host-identity",
    "star": 0
   },
@@ -124915,6 +126891,12 @@
    "status": "found",
    "full_name": "q35888/dsh-plugin-browser",
    "star": 1
+  },
+  "q3yp-dsh-plugin-deepseek-share-import": {
+   "status": "found",
+   "full_name": "Q3yp/dsh-plugin-deepseek-share-import",
+   "src": "host-identity",
+   "star": 0
   },
   "q499384877-commits-dsh-agent-dispatch": {
    "status": "found",
@@ -125211,6 +127193,12 @@
    "full_name": "qianbkk/aardio-windows-mcp",
    "src": "host-identity",
    "star": 2
+  },
+  "qianchang927-dsh-quotaline": {
+   "status": "found",
+   "full_name": "QianChang927/dsh-quotaline",
+   "src": "host-identity",
+   "star": 0
   },
   "qianchuan-ai-dsh-vidstyle": {
    "status": "found",
@@ -125793,6 +127781,12 @@
    "full_name": "qinghui316/dsh-memory",
    "star": 1
   },
+  "qinghuidaqzp-dsh-encoding-guard": {
+   "status": "found",
+   "full_name": "qinghuidaqzp/dsh-encoding-guard",
+   "src": "host-identity",
+   "star": 0
+  },
   "qingj01-dsh-attention-inbox": {
    "status": "found",
    "full_name": "QingJ01/dsh-attention-inbox",
@@ -125962,7 +127956,7 @@
   },
   "qingzhijie05-dsh-user-memory": {
    "status": "found",
-   "full_name": "XinzeQing/dsh-user-memory",
+   "full_name": "qingzhijie05/dsh-user-memory",
    "src": "host-identity",
    "star": 2
   },
@@ -126525,6 +128519,18 @@
    "status": "found",
    "full_name": "qixin-ai-data/dsh-qixin-insight-mcp-oauth",
    "star": 1
+  },
+  "qiyaogongfang-dsh-kb": {
+   "status": "found",
+   "full_name": "qiyaogongfang/dsh-kb",
+   "src": "host-identity",
+   "star": 0
+  },
+  "qiyaogongfang-dsh-mimaben": {
+   "status": "found",
+   "full_name": "qiyaogongfang/dsh-mimaben",
+   "src": "host-identity",
+   "star": 0
   },
   "qiyeren-dsh-eac-popup": {
    "status": "found",
@@ -127408,6 +129414,12 @@
    "full_name": "qw457812/dotfiles",
    "star": 5
   },
+  "qwased-dsh-niubash-windows": {
+   "status": "found",
+   "full_name": "qwased/dsh-niubash-windows",
+   "src": "host-identity",
+   "star": 0
+  },
   "qwased-dsh-web-search-duckduckgo": {
    "status": "found",
    "full_name": "qwased/dsh-web-search-duckduckgo",
@@ -128099,6 +130111,12 @@
    "full_name": "RainbowDashy/dsh-theme-palettes",
    "star": 1
   },
+  "rainbowlion0320-dsh-model-insights": {
+   "status": "found",
+   "full_name": "RainbowLion0320/dsh-model-insights",
+   "src": "host-identity",
+   "star": 0
+  },
   "rainfish-home-dsh-mobi-web": {
    "status": "found",
    "full_name": "rainfish-home/dsh-mobi-web",
@@ -128148,6 +130166,12 @@
   "rainoffire-dsh-plugin-store": {
    "status": "found",
    "full_name": "rainoffire/dsh-plugin-store",
+   "src": "host-identity",
+   "star": 0
+  },
+  "rainow-ds-harness-remote-fast": {
+   "status": "found",
+   "full_name": "rainow/ds-harness-remote-fast",
    "src": "host-identity",
    "star": 0
   },
@@ -128411,7 +130435,7 @@
   },
   "ranranyya-dsh-delegate": {
    "status": "found",
-   "full_name": "ranranyya/dsh-taskbridge",
+   "full_name": "ranranyya/dsh-delegate",
    "src": "host-identity",
    "star": 1
   },
@@ -129559,6 +131583,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "reliable-ly0411-babeldoc-pdf-translate": {
+   "status": "found",
+   "full_name": "reliable-ly0411/babeldoc-pdf-translate",
+   "src": "host-identity",
+   "star": 0
+  },
   "relistencode-dsh-extension-hub": {
    "status": "found",
    "full_name": "Relistencode/dsh-extension-hub",
@@ -130115,6 +132145,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "rezaastaraki-a2z-handoff": {
+   "status": "found",
+   "full_name": "RezaAstaraki/a2z-handoff",
+   "src": "host-identity",
+   "star": 0
+  },
   "rezon-aki-dsh-compaction-effort-inherit": {
    "status": "found",
    "full_name": "rezon-aki/dsh-compaction-effort-inherit",
@@ -130482,6 +132518,12 @@
    "full_name": "RichieChoo/deepseek-harness-release",
    "star": 1
   },
+  "richology-dsh-starharbor": {
+   "status": "found",
+   "full_name": "Richology/dsh-starharbor",
+   "src": "host-identity",
+   "star": 0
+  },
   "rick-2023-dsh-yuque-notes": {
    "status": "found",
    "full_name": "rick-2023/dsh-yuque-notes",
@@ -130606,6 +132648,12 @@
    "full_name": "riesbri/dshline",
    "star": 20
   },
+  "rifat-h-dsh-peak-hours": {
+   "status": "found",
+   "full_name": "rifat-h/dsh-peak-hours",
+   "src": "host-identity",
+   "star": 0
+  },
   "riffkit-dsh-plugin": {
    "status": "found",
    "full_name": "riffkit/dsh-plugin",
@@ -130624,7 +132672,7 @@
   },
   "rightnowrose-dsh-ai-fastvideo": {
    "status": "found",
-   "full_name": "VeillessRose/dsh-ai-fastvideo",
+   "full_name": "rightnowrose/dsh-ai-fastvideo",
    "src": "host-identity",
    "star": 0
   },
@@ -130663,19 +132711,19 @@
   },
   "rinai-r-dsh-agent-scheduler": {
    "status": "found",
-   "full_name": "dsh-labs/dsh-agent-scheduler",
+   "full_name": "Rinai-R/dsh-agent-scheduler",
    "src": "host-identity",
    "star": 1
   },
   "rinai-r-dsh-agent-team-scheduler": {
    "status": "found",
-   "full_name": "dsh-labs/dsh-agent-team-scheduler",
+   "full_name": "Rinai-R/dsh-agent-team-scheduler",
    "src": "host-identity",
    "star": 2
   },
   "rinai-r-dsh-omp-retry": {
    "status": "found",
-   "full_name": "dsh-labs/dsh-omp-retry",
+   "full_name": "Rinai-R/dsh-omp-retry",
    "src": "host-identity",
    "star": 1
   },
@@ -130849,6 +132897,30 @@
    "full_name": "rison114514/dsh-image-understanding",
    "star": 1
   },
+  "ritanlisa-dsh-opencode-go-pool": {
+   "status": "found",
+   "full_name": "Ritanlisa/dsh-opencode-go-pool",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ritchieleung-dsh-plugin-bot-issue": {
+   "status": "found",
+   "full_name": "RitchieLeung/dsh-plugin-bot-issue",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ritchieleung-dsh-plugin-bot-knowledge": {
+   "status": "found",
+   "full_name": "RitchieLeung/dsh-plugin-bot-knowledge",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ritchieleung-dsh-plugin-bot-restart": {
+   "status": "found",
+   "full_name": "RitchieLeung/dsh-plugin-bot-restart",
+   "src": "host-identity",
+   "star": 0
+  },
   "ritvamanner-dsh-token-control": {
    "status": "found",
    "full_name": "RitvaManner/dsh-token-control",
@@ -130876,6 +132948,12 @@
   "riverho-agents-playbook": {
    "status": "found",
    "full_name": "riverho/agents-playbook",
+   "src": "host-identity",
+   "star": 0
+  },
+  "riverzhang37927-dsh-font-switch": {
+   "status": "found",
+   "full_name": "RiverZhang37927/dsh-font-switch",
    "src": "host-identity",
    "star": 0
   },
@@ -131261,9 +133339,21 @@
    "src": "host-identity",
    "star": 604
   },
+  "rollstack-skills": {
+   "status": "found",
+   "full_name": "Rollstack/skills",
+   "src": "host-identity",
+   "star": 14
+  },
   "romantic123fly-dsh-session-folders": {
    "status": "found",
    "full_name": "romantic123fly/dsh-session-folders",
+   "src": "host-identity",
+   "star": 0
+  },
+  "romanticmysterylh-dsh-workbuddy-fetch": {
+   "status": "found",
+   "full_name": "RomanticMysteryLH/dsh-workbuddy-fetch",
    "src": "host-identity",
    "star": 0
   },
@@ -131614,6 +133704,12 @@
    "full_name": "RoxsLee/dsh-cost-plugin",
    "star": 5
   },
+  "roxy-dd-fatfish-heart": {
+   "status": "found",
+   "full_name": "Roxy-DD/fatfish-heart",
+   "src": "host-identity",
+   "star": 0
+  },
   "roxy-gl373-dsh-desktop": {
    "status": "found",
    "full_name": "Roxy-gl373/dsh-desktop",
@@ -131862,7 +133958,7 @@
   },
   "ruacha00-dsh-session-notifier": {
    "status": "found",
-   "full_name": "Ruacha00/dsh-popnotify",
+   "full_name": "Ruacha00/dsh-session-notifier",
    "src": "host-identity",
    "star": 0
   },
@@ -132040,6 +134136,12 @@
    "full_name": "ruegg114514/dsh-colorlab",
    "src": "host-identity",
    "star": 1
+  },
+  "ruehuangs-dsh-global-selection": {
+   "status": "found",
+   "full_name": "ruehuangs/dsh-global-selection",
+   "src": "host-identity",
+   "star": 0
   },
   "ruffianjiang-dsh-desktop": {
    "status": "found",
@@ -132353,6 +134455,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "runhuachen-dsh-exa-parallel-mcp": {
+   "status": "found",
+   "full_name": "RunhuaChen/dsh-exa-parallel-mcp",
+   "src": "host-identity",
+   "star": 0
+  },
   "running-grass-dsh-nix-dev-shell": {
    "status": "found",
    "full_name": "running-grass/dsh-nix-dev-shell",
@@ -132653,7 +134761,7 @@
   },
   "ryukirin-dsh-momo-learning": {
    "status": "found",
-   "full_name": "ryukirin/momo-learning",
+   "full_name": "ryukirin/dsh-momo-learning",
    "src": "host-identity",
    "star": 0
   },
@@ -132665,6 +134773,12 @@
   "ryunana-selfdistill": {
    "status": "found",
    "full_name": "ryunana/selfdistill",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ryuu-64-dsh-answered-questions": {
+   "status": "found",
+   "full_name": "Ryuu-64/dsh-answered-questions",
    "src": "host-identity",
    "star": 0
   },
@@ -133092,12 +135206,14 @@
   },
   "saikel-orado-liu-dsh-coding-preset": {
    "status": "found",
-   "full_name": "Saikel-Orado-Liu/dsh-coding-preset",
+   "full_name": "GameGeek-Saikel/dsh-coding-preset",
+   "src": "host-identity",
    "star": 2
   },
   "saikel-orado-liu-dsh-cost-meter": {
    "status": "found",
-   "full_name": "Saikel-Orado-Liu/dsh-cost-meter",
+   "full_name": "GameGeek-Saikel/dsh-cost-meter",
+   "src": "host-identity",
    "star": 2
   },
   "sailina-afk-cyrene-balance-widget": {
@@ -133231,6 +135347,12 @@
   "sakiko00-dsh-plugin": {
    "status": "found",
    "full_name": "Sakiko00/dsh-plugin",
+   "star": 0
+  },
+  "sakikotgw-dsh-element-picker": {
+   "status": "found",
+   "full_name": "sakikoTGW/dsh-element-picker",
+   "src": "host-identity",
    "star": 0
   },
   "sakikotgw-dsh-plugin-resolver": {
@@ -133406,6 +135528,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "saltfish060-dsh-opendesign-quota": {
+   "status": "found",
+   "full_name": "saltfish060/dsh-opendesign-quota",
+   "src": "host-identity",
+   "star": 0
+  },
   "salty-mocha-dsh-ops-mac": {
    "status": "found",
    "full_name": "Salty-Mocha/dsh-ops-mac",
@@ -133563,6 +135691,12 @@
    "status": "found",
    "full_name": "SamXiaBing/dsh-adb",
    "star": 2
+  },
+  "samyihu-dsh-pwsh7": {
+   "status": "found",
+   "full_name": "SamyiHu/dsh-pwsh7",
+   "src": "host-identity",
+   "star": 0
   },
   "samyihu-dsh-visio": {
    "status": "found",
@@ -133993,6 +136127,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "satont-dsh-harness-setup": {
+   "status": "found",
+   "full_name": "Satont/dsh-harness-setup",
+   "src": "host-identity",
+   "star": 0
+  },
   "satukisuto-hpc-dsh-i18n-ja": {
    "status": "found",
    "full_name": "SatukiSuto-HPC/dsh-i18n-ja",
@@ -134321,6 +136461,12 @@
    "full_name": "schrolemons/chat-harness-7-2-lays-for-a-AI-bot",
    "src": "host-identity",
    "star": 1
+  },
+  "schrolemons-schnie-harness-plugin": {
+   "status": "found",
+   "full_name": "schrolemons/schnie-harness-plugin",
+   "src": "host-identity",
+   "star": 0
   },
   "schumchanvi-dsh-voice-input-cn": {
    "status": "found",
@@ -134831,6 +136977,12 @@
    "full_name": "Sean-Gao/DSH",
    "star": 0
   },
+  "sean-liulin-dsh-worklog-calendar": {
+   "status": "found",
+   "full_name": "sean-liulin/dsh-worklog-calendar",
+   "src": "host-identity",
+   "star": 0
+  },
   "seanchen88-dsh-pluginhive": {
    "status": "found",
    "full_name": "seanchen88/dsh-pluginHive",
@@ -134996,6 +137148,12 @@
   "seekafterseek-dsh-chrome-only": {
    "status": "found",
    "full_name": "SeekAfterSeek/dsh-chrome-only",
+   "src": "host-identity",
+   "star": 0
+  },
+  "seekafterseek-dsh-url-router": {
+   "status": "found",
+   "full_name": "SeekAfterSeek/dsh-url-router",
    "src": "host-identity",
    "star": 0
   },
@@ -135277,6 +137435,12 @@
   "senti100-dsh-oidc": {
    "status": "found",
    "full_name": "Senti100/dsh-oidc",
+   "src": "host-identity",
+   "star": 0
+  },
+  "sentryea-dsh-plugin-message-edit-plus": {
+   "status": "found",
+   "full_name": "Sentryea/dsh-plugin-message-edit-plus",
    "src": "host-identity",
    "star": 0
   },
@@ -135765,6 +137929,12 @@
    "full_name": "SH-9999/what-was-that",
    "star": 2
   },
+  "sh-lsy-dsh-qwen-media": {
+   "status": "found",
+   "full_name": "sh-lsy/dsh-qwen-media",
+   "src": "host-identity",
+   "star": 0
+  },
   "sh1robana-dsh-plugin-message-edit": {
    "status": "found",
    "full_name": "sh1robana/dsh-plugin-message-edit",
@@ -135783,7 +137953,7 @@
   },
   "shabe222-dsh-guzheng-pond": {
    "status": "found",
-   "full_name": "wuyetong-dev/dsh-guzheng-pond",
+   "full_name": "shabe222/dsh-guzheng-pond",
    "src": "host-identity",
    "star": 0
   },
@@ -135883,6 +138053,12 @@
    "status": "found",
    "full_name": "Shaky77/weiwen-law-dsh",
    "star": 14
+  },
+  "shalilongfei-dsh-computer-use": {
+   "status": "found",
+   "full_name": "shalilongfei/dsh-computer-use",
+   "src": "host-identity",
+   "star": 1
   },
   "shall0vv-dsh-conversation-files": {
    "status": "found",
@@ -136274,6 +138450,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "shaoqing404-dsh-identity-verification": {
+   "status": "found",
+   "full_name": "shaoqing404/dsh-identity-verification",
+   "src": "host-identity",
+   "star": 0
+  },
   "shaoqiuyuavailable-text-llm-vision": {
    "status": "found",
    "full_name": "shaoqiuyuavailable/text-llm-vision",
@@ -136286,7 +138468,7 @@
   },
   "shaot92-del-dsh-team": {
    "status": "found",
-   "full_name": "shaot92-del/dsh-job-board",
+   "full_name": "shaot92-del/dsh-team",
    "src": "host-identity",
    "star": 0
   },
@@ -136425,6 +138607,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "shawnren57-dsh-whale-trail": {
+   "status": "found",
+   "full_name": "ShawnRen57/dsh-whale-trail",
+   "src": "host-identity",
+   "star": 0
+  },
   "shawnren57-dsh-whoop-easy-connect": {
    "status": "found",
    "full_name": "ShawnRen57/dsh-whoop-easy-connect",
@@ -136461,6 +138649,12 @@
    "status": "found",
    "full_name": "shawnyhu/dsh-balance",
    "star": 1
+  },
+  "shawnyuxuan-dsh-subagent-guide": {
+   "status": "found",
+   "full_name": "shawnyuxuan/dsh-subagent-guide",
+   "src": "host-identity",
+   "star": 0
   },
   "shawnzhanggy-dsh-plugin-prompt-history": {
    "status": "found",
@@ -136574,7 +138768,7 @@
   },
   "shelfry-dsh-shelfry": {
    "status": "found",
-   "full_name": "dshcrate/dsh-crate",
+   "full_name": "shelfry/dsh-shelfry",
    "src": "host-identity",
    "star": 1
   },
@@ -137248,7 +139442,7 @@
   },
   "shinerain1-dsh-project-3": {
    "status": "found",
-   "full_name": "shinerain1/dsh-evidence-lineage",
+   "full_name": "shinerain1/dsh-project-3",
    "src": "host-identity",
    "star": 0
   },
@@ -137286,6 +139480,12 @@
    "full_name": "shinji00222/dsh-incognito-chat",
    "src": "host-identity",
    "star": 1
+  },
+  "shinji00222-dsh-persona-continuity": {
+   "status": "found",
+   "full_name": "shinji00222/dsh-persona-continuity",
+   "src": "host-identity",
+   "star": 0
   },
   "shinji00222-dsh-windows-computer-use": {
    "status": "found",
@@ -137720,7 +139920,7 @@
   },
   "show-thesky-every-thing-is-possible": {
    "status": "found",
-   "full_name": "show-thesky/bing",
+   "full_name": "show-thesky/every-thing-is-possible",
    "src": "host-identity",
    "star": 1
   },
@@ -138010,6 +140210,12 @@
    "status": "found",
    "full_name": "shuimo07/xiaoliuren",
    "star": 3
+  },
+  "shuimo233-dsh-socratic-tutor": {
+   "status": "found",
+   "full_name": "shuimo233/dsh-socratic-tutor",
+   "src": "host-identity",
+   "star": 0
   },
   "shuimowang-deepseek-harness-desktop": {
    "status": "found",
@@ -138641,7 +140847,7 @@
   },
   "siloet-phy-dsh-liquid-glass-composer": {
    "status": "found",
-   "full_name": "Siloet-phy/analog-liquid-glass-for-dsh",
+   "full_name": "Siloet-phy/dsh-liquid-glass-composer",
    "src": "host-identity",
    "star": 0
   },
@@ -138713,7 +140919,7 @@
   },
   "silversystem04-coder-dsh-project-tabs": {
    "status": "found",
-   "full_name": "silversystem04-coder/dsh-project-hud",
+   "full_name": "silversystem04-coder/dsh-project-tabs",
    "src": "host-identity",
    "star": 0
   },
@@ -138846,6 +141052,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "simpleobj-dsh-web-login": {
+   "status": "found",
+   "full_name": "simpleobj/dsh-web-login",
+   "src": "host-identity",
+   "star": 0
+  },
   "simplifyourlife-dsh-spring-boot-launcher": {
    "status": "found",
    "full_name": "simplifyOurLife/dsh-spring-boot-launcher",
@@ -138889,7 +141101,7 @@
   },
   "sincerity711-dsh-remote-desktop": {
    "status": "found",
-   "full_name": "sincerity711/dsh-remote-desktop",
+   "full_name": "sincerity711/dsh-ssh-workspace",
    "src": "host-identity",
    "star": 0
   },
@@ -139213,6 +141425,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "sivancola-dsh-zentao-hub": {
+   "status": "found",
+   "full_name": "SivanCola/dsh-zentao-hub",
+   "src": "host-identity",
+   "star": 0
+  },
   "siwang311-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "siwang311/deepseek-harness-desktop",
@@ -139353,7 +141571,7 @@
   },
   "sixzjd-npm-usage": {
    "status": "found",
-   "full_name": "sixzjd/dsh-usage-dashboard",
+   "full_name": "sixzjd/npm-usage",
    "src": "host-identity",
    "star": 0
   },
@@ -139463,6 +141681,12 @@
   "sjlgg-dsh-free-web-search": {
    "status": "found",
    "full_name": "sjlgg/dsh-free-web-search",
+   "star": 1
+  },
+  "sjnole-dsh-whale-dream": {
+   "status": "found",
+   "full_name": "sjnole/dsh-whale-dream",
+   "src": "host-identity",
    "star": 1
   },
   "sjrslh-dsh-ui-zoom": {
@@ -139626,6 +141850,12 @@
    "full_name": "SKL-666666/image-analysis-skill",
    "star": 1
   },
+  "skokinkoba-dsh-chatgpt-style": {
+   "status": "found",
+   "full_name": "skokinkoba/dsh-chatgpt-style",
+   "src": "host-identity",
+   "star": 0
+  },
   "skr311-dsh-codex-pet": {
    "status": "found",
    "full_name": "skr311/dsh-codex-pet",
@@ -139707,6 +141937,12 @@
   "skyjjgw-dsh-plugin-android-preview": {
    "status": "found",
    "full_name": "skyjjgw/dsh-plugin-android-preview",
+   "src": "host-identity",
+   "star": 0
+  },
+  "skyjjgw-dsh-plugin-skymoni": {
+   "status": "found",
+   "full_name": "skyjjgw/dsh-plugin-skymoni",
    "src": "host-identity",
    "star": 0
   },
@@ -140126,6 +142362,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "slimeball2026-dsh-coach-mode": {
+   "status": "found",
+   "full_name": "slimeball2026/DSH-Coach-mode",
+   "src": "host-identity",
+   "star": 20
+  },
   "slin-code-dsh-custom-skin": {
    "status": "found",
    "full_name": "SLin-code/dsh-custom-skin",
@@ -140177,6 +142419,12 @@
    "full_name": "dsh-hub-managers/dsh-hub-plugin",
    "src": "host-identity",
    "star": 19
+  },
+  "sljdxde-dsh-clipchat": {
+   "status": "found",
+   "full_name": "sljdxde/dsh-clipchat",
+   "src": "host-identity",
+   "star": 0
   },
   "slohmaier-dsh-a11y-announcer": {
    "status": "found",
@@ -140339,6 +142587,12 @@
    "full_name": "Smallcarve/dsh-better-keymap",
    "src": "host-identity",
    "star": 1
+  },
+  "smallcoding1-dsh-go-unrestricted": {
+   "status": "found",
+   "full_name": "smallCoding1/dsh-go-unrestricted",
+   "src": "host-identity",
+   "star": 12
   },
   "smalldy-godot-bridge": {
    "status": "found",
@@ -141094,6 +143348,12 @@
    "full_name": "Socialist-Sister/dsh-survival-mode",
    "star": 1
   },
+  "socool666-dsh-global-prompt": {
+   "status": "found",
+   "full_name": "SOCOOL666/dsh-global-prompt",
+   "src": "host-identity",
+   "star": 1
+  },
   "socooldad-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "soCoolDad/Deepseek-Harness-Desktop",
@@ -141173,9 +143433,33 @@
    "src": "host-identity",
    "star": 0
   },
+  "soffits-dsh-media-hub": {
+   "status": "found",
+   "full_name": "soffits/dsh-media-hub",
+   "src": "host-identity",
+   "star": 0
+  },
   "soffits-dsh-message-context": {
    "status": "found",
    "full_name": "soffits/dsh-message-context",
+   "src": "host-identity",
+   "star": 0
+  },
+  "soffits-dsh-notify-inbox": {
+   "status": "found",
+   "full_name": "soffits/dsh-notify-inbox",
+   "src": "host-identity",
+   "star": 0
+  },
+  "soffits-dsh-points": {
+   "status": "found",
+   "full_name": "soffits/dsh-points",
+   "src": "host-identity",
+   "star": 0
+  },
+  "soffits-dsh-practice": {
+   "status": "found",
+   "full_name": "soffits/dsh-practice",
    "src": "host-identity",
    "star": 0
   },
@@ -141200,6 +143484,12 @@
   "soffits-dsh-telegram-bot": {
    "status": "found",
    "full_name": "soffits/dsh-telegram-bot",
+   "src": "host-identity",
+   "star": 0
+  },
+  "soffits-dsh-ui-kit": {
+   "status": "found",
+   "full_name": "soffits/dsh-ui-kit",
    "src": "host-identity",
    "star": 0
   },
@@ -141685,6 +143975,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "songsenand-yingzao": {
+   "status": "found",
+   "full_name": "songsenand/yingzao",
+   "src": "host-identity",
+   "star": 0
+  },
   "songshuhuoban-dsh-environment-tray": {
    "status": "found",
    "full_name": "songshuhuoban/dsh-environment-tray",
@@ -141904,6 +144200,12 @@
    "status": "found",
    "full_name": "soslowsnail/dsh-scenery-background",
    "star": 0
+  },
+  "soso-deepseek-harness-plugins-dsh-context-tra": {
+   "status": "found",
+   "full_name": "soso-deepseek-harness-plugins/dsh-context-track",
+   "src": "host-identity",
+   "star": 8
   },
   "sososilencing-dsh-network-engineer": {
    "status": "found",
@@ -142228,6 +144530,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "spectershell-dsh-grid-panel": {
+   "status": "found",
+   "full_name": "SpecterShell/dsh-grid-panel",
+   "src": "host-identity",
+   "star": 0
+  },
   "specterxueye-dsh-cv": {
    "status": "found",
    "full_name": "specterxueye/dsh-cv",
@@ -142516,7 +144824,7 @@
   },
   "sqdr2-dsh-fusion": {
    "status": "found",
-   "full_name": "SQDR2/dsh-agent-studio-fusion",
+   "full_name": "SQDR2/dsh-fusion",
    "src": "host-identity",
    "star": 1
   },
@@ -142702,6 +145010,12 @@
    "full_name": "ssdyg4444-sys/dsh-audit-log",
    "star": 0
   },
+  "ssesweb-dsh-deepseek-mode": {
+   "status": "found",
+   "full_name": "ssesweb/dsh-deepseek-mode",
+   "src": "host-identity",
+   "star": 0
+  },
   "ssf13546-dsh-delta-theme": {
    "status": "found",
    "full_name": "ssf13546/dsh-delta-theme",
@@ -142740,6 +145054,12 @@
   "sshooting-dsh-billing-stats": {
    "status": "found",
    "full_name": "SSHOOTING/dsh-billing-stats",
+   "src": "host-identity",
+   "star": 0
+  },
+  "sshooting-dsh-event-fix": {
+   "status": "found",
+   "full_name": "SSHOOTING/dsh-event-fix",
    "src": "host-identity",
    "star": 0
   },
@@ -142969,6 +145289,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "stallenlu-dsh-research-desk": {
+   "status": "found",
+   "full_name": "stallenlu/dsh-research-desk",
+   "src": "host-identity",
+   "star": 0
+  },
   "stallenlu-dsh-scihub": {
    "status": "found",
    "full_name": "stallenlu/dsh-scihub",
@@ -143055,6 +145381,12 @@
    "status": "found",
    "full_name": "Star-Learning/GeoHarness",
    "star": 2
+  },
+  "star620-dsh-codex-bridge": {
+   "status": "found",
+   "full_name": "star620/dsh-codex-bridge",
+   "src": "host-identity",
+   "star": 0
   },
   "starash07-dsh-edit-message": {
    "status": "found",
@@ -143446,6 +145778,12 @@
    "full_name": "Stars-ETO/dsh-think-guard",
    "src": "host-identity",
    "star": 1
+  },
+  "stars-xk-dsh-bitwarden": {
+   "status": "found",
+   "full_name": "Stars-XK/dsh-bitwarden",
+   "src": "host-identity",
+   "star": 0
   },
   "stars2022-dsh-ui-concise": {
    "status": "found",
@@ -144988,6 +147326,12 @@
    "full_name": "sujiu222/dsh-one-click-archive",
    "star": 0
   },
+  "sukai616-dsh-timefold": {
+   "status": "found",
+   "full_name": "sukai616/dsh-timefold",
+   "src": "host-identity",
+   "star": 0
+  },
   "sukholovskyyy-dsh-liang-price-badge": {
    "status": "found",
    "full_name": "sukholovskyyy/dsh-liang-price-badge",
@@ -145068,6 +147412,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "sumcam-l-ida-pro-mcp-enhanced": {
+   "status": "found",
+   "full_name": "Sumcam-L/ida-pro-mcp-enhanced",
+   "src": "host-identity",
+   "star": 0
+  },
   "sumingwang233-dsh-auto-title": {
    "status": "found",
    "full_name": "sumingwang233/dsh-auto-title",
@@ -145088,7 +147438,7 @@
   },
   "sumingwong-dsh-provider-quota-rings": {
    "status": "found",
-   "full_name": "sumingwang233/dsh-provider-quota-rings",
+   "full_name": "sumingwong/dsh-provider-quota-rings",
    "src": "host-identity",
    "star": 0
   },
@@ -145328,6 +147678,12 @@
    "status": "found",
    "full_name": "SundustYc/dsh-pet",
    "star": 2
+  },
+  "sungatetop-hibuddy": {
+   "status": "found",
+   "full_name": "sungatetop/HiBuddy",
+   "src": "host-identity",
+   "star": 0
   },
   "sunhailong123-dsh-study-loop": {
    "status": "found",
@@ -145846,6 +148202,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "super-qaq-dsh-prompt-library": {
+   "status": "found",
+   "full_name": "Super-QAQ/dsh-prompt-library",
+   "src": "host-identity",
+   "star": 0
+  },
   "super0plant-dsh-plugin-game-time": {
    "status": "found",
    "full_name": "super0plant/dsh-plugin-game-time",
@@ -145989,6 +148351,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "superqin7-dsh-usage-meter": {
+   "status": "found",
+   "full_name": "superqin7/dsh-usage-meter",
+   "src": "host-identity",
+   "star": 0
+  },
   "superrabbit123-dsh-viper-recap": {
    "status": "found",
    "full_name": "superrabbit123/dsh-viper-recap",
@@ -146060,6 +148428,12 @@
    "status": "found",
    "full_name": "suply/deepseek-harness-desktop",
    "star": 1
+  },
+  "supralune-dsh-tailseek": {
+   "status": "found",
+   "full_name": "supralune/dsh-tailseek",
+   "src": "host-identity",
+   "star": 0
   },
   "suqing114-dsh-tool-switch": {
    "status": "found",
@@ -146313,11 +148687,35 @@
    "src": "host-identity",
    "star": 1
   },
+  "suzunami-dsh-cv-warm": {
+   "status": "found",
+   "full_name": "SUZUNAMI/dsh-cv-warm",
+   "src": "host-identity",
+   "star": 0
+  },
+  "suzunami-dsh-has-stripper": {
+   "status": "found",
+   "full_name": "SUZUNAMI/dsh-has-stripper",
+   "src": "host-identity",
+   "star": 0
+  },
+  "suzunami-dsh-wait-guard": {
+   "status": "found",
+   "full_name": "SUZUNAMI/dsh-foreground-guard",
+   "src": "host-identity",
+   "star": 0
+  },
   "suzunami-dsh-workspace-hide": {
    "status": "found",
    "full_name": "SUZUNAMI/dsh-workspace-hide",
    "src": "host-identity",
    "star": 2
+  },
+  "suzunami-plot3d-surface": {
+   "status": "found",
+   "full_name": "SUZUNAMI/plot3d-surface",
+   "src": "host-identity",
+   "star": 0
   },
   "suzuran0y-cute-partner": {
    "status": "found",
@@ -146361,7 +148759,7 @@
   },
   "svkoh-dsh-office-for-mso": {
    "status": "found",
-   "full_name": "svkoh/dsh-ms-office",
+   "full_name": "svkoh/dsh-office-for-mso",
    "src": "host-identity",
    "star": 0
   },
@@ -147101,6 +149499,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "t3-venture-labs-limited-ohmydsh": {
+   "status": "found",
+   "full_name": "T3-Venture-Labs-Limited/ohmydsh",
+   "src": "host-identity",
+   "star": 0
+  },
   "ta-www-dsh-tripsy": {
    "status": "found",
    "full_name": "ta-www/dsh-tripsy",
@@ -147726,6 +150130,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "tanqvv-dsh-provider-guard": {
+   "status": "found",
+   "full_name": "tanqvv/dsh-provider-guard",
+   "src": "host-identity",
+   "star": 0
+  },
   "tansukii-dsh-screenshot": {
    "status": "found",
    "full_name": "Tansukii/dsh-screenshot",
@@ -147807,6 +150217,12 @@
    "full_name": "Taoidle/dsh-truenas",
    "src": "host-identity",
    "star": 1
+  },
+  "taojun566-dsh-bus": {
+   "status": "found",
+   "full_name": "taojun566/dsh-bus",
+   "src": "host-identity",
+   "star": 0
   },
   "taole-si-dsh-perf-guard": {
    "status": "found",
@@ -147956,6 +150372,12 @@
   "tappat225-dsh-provider-hub": {
    "status": "found",
    "full_name": "tappat225/dsh-provider-hub",
+   "star": 0
+  },
+  "tardisbooo-scientific-visual-studio": {
+   "status": "found",
+   "full_name": "TardisBooo/scientific-visual-studio",
+   "src": "host-identity",
    "star": 0
   },
   "tarnish233-dsh-tui": {
@@ -148760,6 +151182,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "tera-dark-dsh-desk-kit": {
+   "status": "found",
+   "full_name": "Tera-Dark/dsh-desk-kit",
+   "src": "host-identity",
+   "star": 0
+  },
   "terebisama-dsh-desktop-linux": {
    "status": "found",
    "full_name": "TerebiSAMA/dsh-desktop-linux",
@@ -148834,11 +151262,23 @@
    "src": "host-identity",
    "star": 1
   },
+  "terry2010-dsh-rss-news-browser-fetch": {
+   "status": "found",
+   "full_name": "terry2010/dsh-rss-news-browser-fetch",
+   "src": "host-identity",
+   "star": 0
+  },
   "terry2010-dsh-rss-news-daily": {
    "status": "found",
    "full_name": "terry2010/dsh-rss-news-daily",
    "src": "host-identity",
    "star": 1
+  },
+  "terry2010-dsh-rss-news-flash-kuaixun": {
+   "status": "found",
+   "full_name": "terry2010/dsh-rss-news-flash-kuaixun",
+   "src": "host-identity",
+   "star": 0
   },
   "terrywangcode-dsh-mermaid-web": {
    "status": "found",
@@ -149254,6 +151694,12 @@
    "status": "found",
    "full_name": "theBigGavin/marketingdashboard",
    "star": 324
+  },
+  "thebtf-dsh-cliproxyapi-provider": {
+   "status": "found",
+   "full_name": "thebtf/dsh-cliproxyapi-provider",
+   "src": "host-identity",
+   "star": 0
   },
   "thecarey-dsh-astrbot-memory-bridge": {
    "status": "found",
@@ -150515,6 +152961,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "tianacloud-dsh-tiana": {
+   "status": "found",
+   "full_name": "tianacloud/dsh-tiana",
+   "src": "host-identity",
+   "star": 0
+  },
   "tianbaidi-dsh-plugin-github-search": {
    "status": "found",
    "full_name": "Tianbaidi/dsh-plugin-github-search",
@@ -150638,6 +153090,12 @@
    "full_name": "tianjiqx/dsh-wigolo",
    "star": 2
   },
+  "tianjunchi-dsh-workflow-library": {
+   "status": "found",
+   "full_name": "TianjunChi/dsh-workflow-library",
+   "src": "host-identity",
+   "star": 0
+  },
   "tiankongshenchu-dsh-chaotang": {
    "status": "found",
    "full_name": "tiankongshenchu/dsh-chaotang",
@@ -150754,6 +153212,12 @@
    "full_name": "tianxiaz/dsh-recent-sessions",
    "src": "host-identity",
    "star": 3
+  },
+  "tianxie2026-agnes-image-gen": {
+   "status": "found",
+   "full_name": "TianXie2026/agnes-image-gen",
+   "src": "host-identity",
+   "star": 0
   },
   "tianxingdao-dsh-shell-switch": {
    "status": "found",
@@ -151545,6 +154009,12 @@
    "full_name": "titanwings/dsh-plannotator",
    "star": 5
   },
+  "titor-jz-dsh-dumate-gateway": {
+   "status": "found",
+   "full_name": "titor-jz/dsh-dumate-gateway",
+   "src": "host-identity",
+   "star": 1
+  },
   "tixan9-dshdesktop-restart-bottom": {
    "status": "found",
    "full_name": "TixAn9/DSHdesktop-restart-bottom",
@@ -151646,6 +154116,12 @@
    "full_name": "tkliuxing/dsh-video-forge",
    "src": "host-identity",
    "star": 2
+  },
+  "tkochj-dsh-storage": {
+   "status": "found",
+   "full_name": "tkochj/dsh-storage",
+   "src": "host-identity",
+   "star": 0
   },
   "tkwkeven-dsh-lark": {
    "status": "found",
@@ -151765,6 +154241,12 @@
    "status": "found",
    "full_name": "tluoluo/dsh-persist",
    "star": 3
+  },
+  "tlxy-code-tlxy-dsh-todo": {
+   "status": "found",
+   "full_name": "Tlxy-code/Tlxy.dsh-todo",
+   "src": "host-identity",
+   "star": 0
   },
   "tlyer233-dsh-vscode-review": {
    "status": "found",
@@ -152242,6 +154724,12 @@
    "full_name": "tong-io/tongflow",
    "star": 1032
   },
+  "tong174-dsh-enhance-prompt": {
+   "status": "found",
+   "full_name": "tong174/dsh-enhance-prompt",
+   "src": "host-identity",
+   "star": 0
+  },
   "tongailinc-dsh-mobile-access": {
    "status": "found",
    "full_name": "TongaiLinC/dsh-mobile-access",
@@ -152457,7 +154945,7 @@
   },
   "tonyziyuan-dsh-session-delete": {
    "status": "found",
-   "full_name": "Neruviko/dsh-session-delete",
+   "full_name": "TonyZiYuan/dsh-session-delete",
    "src": "host-identity",
    "star": 0
   },
@@ -152606,6 +155094,12 @@
    "status": "found",
    "full_name": "Tostoevsky/TsienHsueShen",
    "star": 4
+  },
+  "total-quality-dsh-total-quality": {
+   "status": "found",
+   "full_name": "total-quality/dsh-total-quality",
+   "src": "host-identity",
+   "star": 0
   },
   "totoro-qaq-cobsidian": {
    "status": "found",
@@ -153003,6 +155497,12 @@
    "full_name": "trevtravtrev/dsh-i-have-adhd",
    "src": "host-identity",
    "star": 1
+  },
+  "trexwb-dsh-wb-free-model": {
+   "status": "found",
+   "full_name": "trexwb/dsh-wb-free-model",
+   "src": "host-identity",
+   "star": 0
   },
   "triagmas-dsh-project-evolution": {
    "status": "found",
@@ -153820,7 +156320,7 @@
   },
   "turboyuu-duh-us-stocks": {
    "status": "found",
-   "full_name": "turboYuu/dsh-us-stocks",
+   "full_name": "turboYuu/duh-us-stocks",
    "src": "host-identity",
    "star": 0
   },
@@ -160731,6 +163231,12 @@
    "full_name": "treeworl/uiopt",
    "star": 0
   },
+  "uitte-dsh-sidebar-restore": {
+   "status": "found",
+   "full_name": "uitTe/dsh-sidebar-restore",
+   "src": "host-identity",
+   "star": 0
+  },
   "ukakbdh091-dsh-model-fallback": {
    "status": "found",
    "full_name": "ukakbdh091/dsh-model-fallback",
@@ -160860,7 +163366,7 @@
   },
   "uncertaintydeterminesyou4ndme-dsh-immersive-r": {
    "status": "found",
-   "full_name": "UncertaintyDeterminesYou4ndMe/dsh-reading-room",
+   "full_name": "UncertaintyDeterminesYou4ndMe/dsh-immersive-reader",
    "src": "host-identity",
    "star": 0
   },
@@ -161061,6 +163567,12 @@
    "full_name": "universe-st/dsh-game-material-master",
    "src": "host-identity",
    "star": 169
+  },
+  "universe-st-dsh-session-scheduler": {
+   "status": "found",
+   "full_name": "universe-st/dsh-session-scheduler",
+   "src": "host-identity",
+   "star": 0
   },
   "uniwell9797-dsh-voice-f9": {
    "status": "found",
@@ -161712,6 +164224,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "vacum972-dsh-page-translate": {
+   "status": "found",
+   "full_name": "vacum972/dsh-page-translate",
+   "src": "host-identity",
+   "star": 0
+  },
   "vacum972-dsh-usage-billing": {
    "status": "found",
    "full_name": "vacum972/dsh-usage-billing",
@@ -161902,6 +164420,12 @@
   "vasidm-dsh-plugins": {
    "status": "found",
    "full_name": "VASIDM/dsh-plugins",
+   "src": "host-identity",
+   "star": 0
+  },
+  "vaspike-dsh-usage-stat": {
+   "status": "found",
+   "full_name": "vaspike/dsh-usage-stat",
    "src": "host-identity",
    "star": 0
   },
@@ -163672,6 +166196,12 @@
    "src": "host-identity",
    "star": 3
   },
+  "vlln-dsh-better-trajectory": {
+   "status": "found",
+   "full_name": "vlln/dsh-better-trajectory",
+   "src": "host-identity",
+   "star": 0
+  },
   "vlln-dsh-listen": {
    "status": "found",
    "full_name": "vlln/dsh-listen",
@@ -164140,6 +166670,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "w-callan-w-dsh-usage-overview": {
+   "status": "found",
+   "full_name": "w-callan-w/dsh-usage-overview",
+   "src": "host-identity",
+   "star": 0
+  },
   "w-j-y-wjy-dsh-glass-weather": {
    "status": "found",
    "full_name": "w-j-y-wjy/dsh-glass-weather",
@@ -164235,6 +166771,12 @@
    "status": "found",
    "full_name": "w2112515/dsh-remote-host",
    "star": 1
+  },
+  "w21180239-dsh-self-compact": {
+   "status": "found",
+   "full_name": "w21180239/dsh-self-compact",
+   "src": "host-identity",
+   "star": 0
   },
   "w2310670047-code-ai-eight-honors-eight-shames": {
    "status": "found",
@@ -164351,6 +166893,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "wagalicn-dsh-provider-proxy": {
+   "status": "found",
+   "full_name": "wagalicn/dsh-provider-proxy",
+   "src": "host-identity",
+   "star": 0
+  },
   "wahu2008-deepseekharnessdesktop": {
    "status": "found",
    "full_name": "wahu2008/DeepSeekHarnessDesktop",
@@ -164427,6 +166975,12 @@
    "full_name": "wakeupnotfound/dsh-rsi",
    "src": "host-identity",
    "star": 2
+  },
+  "wakis-kaf-dsh-agents-models": {
+   "status": "found",
+   "full_name": "Wakis-kaf/dsh-agents-models",
+   "src": "host-identity",
+   "star": 0
   },
   "waknow-dsh-web-icon-indicator": {
    "status": "found",
@@ -164610,6 +167164,12 @@
    "status": "found",
    "full_name": "Wanbinyu/wanbinyu-harness-toolbox",
    "star": 3
+  },
+  "wanchengwildman-dsh-hcom": {
+   "status": "found",
+   "full_name": "WanchengWildMan/dsh-hcom",
+   "src": "host-identity",
+   "star": 0
   },
   "wanchenrui-deepseek-harness-desktop": {
    "status": "found",
@@ -164822,7 +167382,7 @@
   },
   "wang1462604987-dsh-wsl-sidebar": {
    "status": "found",
-   "full_name": "WangJialong19/dsh-wsl-sidebar",
+   "full_name": "Wang1462604987/dsh-wsl-sidebar",
    "src": "host-identity",
    "star": 2
   },
@@ -165078,6 +167638,12 @@
   "wangjinding-dsh-opencode-go-usage": {
    "status": "found",
    "full_name": "wangjinding/dsh-opencode-go-usage",
+   "src": "host-identity",
+   "star": 0
+  },
+  "wangkang183-dsh-pm-workbench": {
+   "status": "found",
+   "full_name": "wangkang183/dsh-pm-workbench",
    "src": "host-identity",
    "star": 0
   },
@@ -166358,7 +168924,7 @@
   },
   "webkubor-dsh-museav-assets": {
    "status": "found",
-   "full_name": "webkubor/dsh-museav-assets",
+   "full_name": "museav-ai/dsh-museav-assets",
    "src": "host-identity",
    "star": 1
   },
@@ -166708,7 +169274,8 @@
   },
   "weichi-ai-dshd": {
    "status": "found",
-   "full_name": "weichi-ai/dshd",
+   "full_name": "chuchenai/dshd",
+   "src": "host-identity",
    "star": 1
   },
   "weicy98-dsh-cftunnel": {
@@ -167175,6 +169742,12 @@
    "full_name": "wemio/dsh-plugin-catalog",
    "star": 0
   },
+  "wen5555-orimem": {
+   "status": "found",
+   "full_name": "Wen5555/OriMem",
+   "src": "host-identity",
+   "star": 0
+  },
   "wenaixi-dsh-cfbridge": {
    "status": "found",
    "full_name": "Wenaixi/dsh-cfbridge",
@@ -167449,6 +170022,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "weseeon-dsh-session-topics": {
+   "status": "found",
+   "full_name": "weseeon/dsh-session-topics",
+   "src": "host-identity",
+   "star": 0
+  },
   "weshopai-weshop-dsh-plugin": {
    "status": "found",
    "full_name": "weshopai/weshop-dsh-plugin",
@@ -167507,6 +170086,12 @@
   "westhack-deepseek-harness-desktop": {
    "status": "found",
    "full_name": "westhack/deepseek-harness-desktop",
+   "star": 1
+  },
+  "westwall586-dsh-westwall-plugins": {
+   "status": "found",
+   "full_name": "westwall586/dsh-westwall-plugins",
+   "src": "host-identity",
    "star": 1
   },
   "wet86y-voice-terminal": {
@@ -167598,6 +170183,12 @@
   "wgrbiss-spec-dsh-colar-imagem-deepseek-harnes": {
    "status": "found",
    "full_name": "wgrbiss-spec/dsh-colar-imagem-deepseek-harness",
+   "src": "host-identity",
+   "star": 0
+  },
+  "wgrbiss-spec-dsh-excluir-sessao": {
+   "status": "found",
+   "full_name": "wgrbiss-spec/dsh-excluir-sessao",
    "src": "host-identity",
    "star": 0
   },
@@ -169047,7 +171638,7 @@
   },
   "winlin926-dsh-remote-connect": {
    "status": "found",
-   "full_name": "winlin926/dsh-carry",
+   "full_name": "winlin926/dsh-remote-connect",
    "src": "host-identity",
    "star": 2
   },
@@ -169196,6 +171787,12 @@
   "winterone-hub-ai-monitor": {
    "status": "found",
    "full_name": "WinterOne-hub/ai-monitor",
+   "src": "host-identity",
+   "star": 0
+  },
+  "winterone-hub-dsh-deepchat": {
+   "status": "found",
+   "full_name": "WinterOne-hub/dsh-DeepChat",
    "src": "host-identity",
    "star": 0
   },
@@ -169537,6 +172134,12 @@
    "full_name": "wjj865-code/dsh-orchestrator",
    "src": "host-identity",
    "star": 1
+  },
+  "wjl1224734792-ds-superbot": {
+   "status": "found",
+   "full_name": "Wjl1224734792/ds-superbot",
+   "src": "host-identity",
+   "star": 0
   },
   "wjl906-dsh-slowmist-security-guard": {
    "status": "found",
@@ -170311,6 +172914,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "wolfsonliu-dsh-file-explorer": {
+   "status": "found",
+   "full_name": "wolfsonliu/dsh-file-explorer",
+   "src": "host-identity",
+   "star": 0
+  },
   "wolfsonliu-dsh-file-explorer-preview-molstar": {
    "status": "found",
    "full_name": "wolfsonliu/dsh-file-explorer-preview-molstar",
@@ -170554,6 +173163,12 @@
   "worksassistant-dsh-quickref": {
    "status": "found",
    "full_name": "worksAssistant/dsh-quickref",
+   "star": 0
+  },
+  "world-eternity-dsh-strata-preset": {
+   "status": "found",
+   "full_name": "world-eternity/dsh-strata-preset",
+   "src": "host-identity",
    "star": 0
   },
   "worldconfig-dsh-plugin-usage-cost": {
@@ -170942,6 +173557,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "wsk-build-dsh-plugin-my-deepseek": {
+   "status": "found",
+   "full_name": "WSK-build/dsh-plugin-my-deepseek",
+   "src": "host-identity",
+   "star": 3
+  },
   "wsk-build-dshbox": {
    "status": "found",
    "full_name": "WSK-build/DSHBox",
@@ -170952,6 +173573,12 @@
    "full_name": "wsk114514/dsh-ark-wiki",
    "src": "host-identity",
    "star": 3
+  },
+  "wsk114514-dsh-update-guard": {
+   "status": "found",
+   "full_name": "wsk114514/dsh-update-guard",
+   "src": "host-identity",
+   "star": 0
   },
   "wsk4973-dsh-session-delete": {
    "status": "found",
@@ -170990,6 +173617,18 @@
    "status": "found",
    "full_name": "WSL043/dsh-reasoning-slider",
    "star": 1
+  },
+  "wsl1602291891-stack-dsh-restart-center": {
+   "status": "found",
+   "full_name": "wsl1602291891-stack/dsh-restart-center",
+   "src": "host-identity",
+   "star": 0
+  },
+  "wsl1602291891-stack-dsh-zhilian-api": {
+   "status": "found",
+   "full_name": "wsl1602291891-stack/dsh-zhilian-api",
+   "src": "host-identity",
+   "star": 0
   },
   "wsm000-dsh-sandbox-temp-guard": {
    "status": "found",
@@ -171154,6 +173793,12 @@
    "status": "found",
    "full_name": "wtksana/dsh-font-plugin",
    "star": 1
+  },
+  "wtr20211202-schflow": {
+   "status": "found",
+   "full_name": "wtr20211202/schflow",
+   "src": "host-identity",
+   "star": 0
   },
   "wtstarmark-dsh-myskin": {
    "status": "found",
@@ -171617,6 +174262,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "wuqiyang312-dsh-git-workspace": {
+   "status": "found",
+   "full_name": "Wuqiyang312/dsh-git-workspace",
+   "src": "host-identity",
+   "star": 0
+  },
   "wuren-bridge-dsh-balance-battery": {
    "status": "found",
    "full_name": "WuRen-bridge/dsh-balance-battery",
@@ -171831,6 +174482,12 @@
    "full_name": "wuxiaosong10/dsh-lotm-sequence-atlas",
    "src": "host-identity",
    "star": 4
+  },
+  "wuxiaozp-dsh-netgate": {
+   "status": "found",
+   "full_name": "wuxiaozp/dsh-netgate",
+   "src": "host-identity",
+   "star": 0
   },
   "wuxie233-dsh-plugin-agent-teams": {
    "status": "found",
@@ -173059,6 +175716,12 @@
    "status": "found",
    "full_name": "x7687315-gif/dsh-policy",
    "star": 1
+  },
+  "x7user-dsh-model-usage": {
+   "status": "found",
+   "full_name": "x7user/dsh-model-usage",
+   "src": "host-identity",
+   "star": 0
   },
   "x9wd09ncc-dsh-x9-talkjump": {
    "status": "found",
@@ -175016,6 +177679,12 @@
    "full_name": "Xiangliuy/dsh-web-search-bing-rss",
    "star": 0
   },
+  "xianglujun-dsh-todo-notes": {
+   "status": "found",
+   "full_name": "xianglujun/dsh-todo-notes",
+   "src": "host-identity",
+   "star": 0
+  },
   "xiangnan0811-dsh-clinepass": {
    "status": "found",
    "full_name": "xiangnan0811/dsh-clinepass",
@@ -175398,6 +178067,12 @@
    "full_name": "xiaoge200/dsh-desktop",
    "star": 2
   },
+  "xiaoge480-dsh-qzone-diary": {
+   "status": "found",
+   "full_name": "xiaoge480/dsh-qzone-diary",
+   "src": "host-identity",
+   "star": 0
+  },
   "xiaogu619520-dsh-plugin-task-panel": {
    "status": "found",
    "full_name": "xiaogu619520/dsh-plugin-task-panel",
@@ -175562,6 +178237,12 @@
    "full_name": "xiaojiuop/dsh-c4d",
    "src": "host-identity",
    "star": 1
+  },
+  "xiaojiuop-dsh-wallpaper-studio": {
+   "status": "found",
+   "full_name": "xiaojiuop/dsh-wallpaper-studio",
+   "src": "host-identity",
+   "star": 0
   },
   "xiaokaizhou-dsh-llm-multimodal": {
    "status": "found",
@@ -175736,6 +178417,12 @@
   "xiaomao361-dsh-capability-gateway": {
    "status": "found",
    "full_name": "xiaomao361/dsh-capability-gateway",
+   "src": "host-identity",
+   "star": 0
+  },
+  "xiaomao361-dsh-conversation-title": {
+   "status": "found",
+   "full_name": "xiaomao361/dsh-conversation-title",
    "src": "host-identity",
    "star": 0
   },
@@ -175914,7 +178601,7 @@
   },
   "xiaoshang05-dsh-loop-guard": {
    "status": "found",
-   "full_name": "XiaoSHang05/dsh-rice-guard",
+   "full_name": "XiaoSHang05/dsh-loop-guard",
    "src": "host-identity",
    "star": 0
   },
@@ -176109,6 +178796,12 @@
    "full_name": "xiaowuDev/dsh-gitlines",
    "src": "host-identity",
    "star": 1
+  },
+  "xiaoxia-5201314-dsh-media-bridge": {
+   "status": "found",
+   "full_name": "xiaoxia-5201314/dsh-media-bridge",
+   "src": "host-identity",
+   "star": 0
   },
   "xiaoxianasd-dsh-liquid-glass-ui": {
    "status": "found",
@@ -176514,6 +179207,12 @@
   "xiaoziwenjie-code-dsh-plugin-wechat-publisher": {
    "status": "found",
    "full_name": "xiaoziwenjie-code/dsh-plugin-wechat-publisher",
+   "src": "host-identity",
+   "star": 0
+  },
+  "xiaozou-second-dsh-mention-tooltip": {
+   "status": "found",
+   "full_name": "xiaozou-second/dsh-mention-tooltip",
    "src": "host-identity",
    "star": 0
   },
@@ -177023,11 +179722,23 @@
    "src": "host-identity",
    "star": 1
   },
+  "xin1z-cp-notebooker": {
+   "status": "found",
+   "full_name": "xin1z/cp-notebooker",
+   "src": "host-identity",
+   "star": 0
+  },
   "xin505-dsh-task-shelf": {
    "status": "found",
    "full_name": "xin505/dsh-task-shelf",
    "src": "host-identity",
    "star": 2
+  },
+  "xin505-dsh-xin505-notify": {
+   "status": "found",
+   "full_name": "xin505/dsh-xin505-notify",
+   "src": "host-identity",
+   "star": 0
   },
   "xinanzzz-dsh-session-manager": {
    "status": "found",
@@ -177050,6 +179761,12 @@
    "status": "found",
    "full_name": "xinCodes/deepseek-billing-plugin",
    "star": 3
+  },
+  "xincy22-dsh-progress-updates": {
+   "status": "found",
+   "full_name": "xincy22/dsh-progress-updates",
+   "src": "host-identity",
+   "star": 0
   },
   "xindady-dsh-prompt-enhancer": {
    "status": "found",
@@ -177301,7 +180018,7 @@
   },
   "xingyingyuzhui-dsh-agent-policy": {
    "status": "found",
-   "full_name": "xingyingyuzhui/dsh-claw-policy",
+   "full_name": "xingyingyuzhui/dsh-agent-policy",
    "src": "host-identity",
    "star": 0
   },
@@ -177340,7 +180057,7 @@
   },
   "xingyingyuzhui-dsh-observability": {
    "status": "found",
-   "full_name": "xingyingyuzhui/dsh-observability",
+   "full_name": "xingyingyuzhui/dsh-claw-observability",
    "src": "host-identity",
    "star": 0
   },
@@ -177638,6 +180355,12 @@
   "xinstart-1-dsh-log-triage": {
    "status": "found",
    "full_name": "xinstart-1/dsh-log-triage",
+   "src": "host-identity",
+   "star": 0
+  },
+  "xinstart-1-dsh-pet-skill": {
+   "status": "found",
+   "full_name": "xinstart-1/dsh-pet-skill",
    "src": "host-identity",
    "star": 0
   },
@@ -178434,6 +181157,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "xq25478-dsh-usage-statistics": {
+   "status": "found",
+   "full_name": "xq25478/dsh-usage-statistics",
+   "src": "host-identity",
+   "star": 0
+  },
   "xqcherry-dsh-fast-gpt": {
    "status": "found",
    "full_name": "xqcherry/dsh-fast-gpt",
@@ -178772,6 +181501,12 @@
    "full_name": "xu1132/dsh-plugin-hello",
    "star": 0
   },
+  "xua123-dsh-resource-monitor": {
+   "status": "found",
+   "full_name": "xua123/dsh-resource-monitor",
+   "src": "host-identity",
+   "star": 0
+  },
   "xuan-ao-1-deepseek-harness-workbench": {
    "status": "found",
    "full_name": "xuan-ao-1/deepseek-harness-workbench",
@@ -178863,6 +181598,12 @@
   "xuanfenglajiao-dsh-effort-menu": {
    "status": "found",
    "full_name": "xuanfenglajiao/dsh-effort-menu",
+   "src": "host-identity",
+   "star": 0
+  },
+  "xuanfenglajiao-dsh-mcp-more-panel": {
+   "status": "found",
+   "full_name": "xuanfenglajiao/dsh-mcp-more-panel",
    "src": "host-identity",
    "star": 0
   },
@@ -179122,6 +181863,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "xuetianhao98-deepseek-harness-gitview": {
+   "status": "found",
+   "full_name": "xuetianhao98/deepseek-harness-gitview",
+   "src": "host-identity",
+   "star": 0
+  },
+  "xuetianhao98-dsh-docs": {
+   "status": "found",
+   "full_name": "xuetianhao98/dsh_docs",
+   "src": "host-identity",
+   "star": 0
+  },
   "xuex991-dsh-working-changes": {
    "status": "found",
    "full_name": "xuex991/dsh-working-changes",
@@ -179132,6 +181885,12 @@
    "status": "found",
    "full_name": "xuexiaolei1997/dsh-plugin-stock-x",
    "star": 2
+  },
+  "xuexue61-dsh-task-queue": {
+   "status": "found",
+   "full_name": "xuexue61/dsh-task-queue",
+   "src": "host-identity",
+   "star": 0
   },
   "xueyingneko-qqbridge-plus": {
    "status": "found",
@@ -179835,6 +182594,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "xvxianjin-dsh-doc-pane": {
+   "status": "found",
+   "full_name": "xvxianjin/dsh-doc-pane",
+   "src": "host-identity",
+   "star": 0
+  },
   "xwamt-at-terminal-dsh": {
    "status": "found",
    "full_name": "xwamt/at-terminal-dsh",
@@ -180517,6 +183282,12 @@
   "y1le-dsh-dageban": {
    "status": "found",
    "full_name": "Y1le/dsh-dageban",
+   "src": "host-identity",
+   "star": 0
+  },
+  "y1s2y3-dsh-whiteboard": {
+   "status": "found",
+   "full_name": "y1s2y3/dsh-whiteboard",
    "src": "host-identity",
    "star": 0
   },
@@ -181410,6 +184181,24 @@
    "src": "host-identity",
    "star": 0
   },
+  "yangyanlu06-douyin-api-bypass": {
+   "status": "found",
+   "full_name": "yangyanlu06/douyin-api-bypass",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yangyanlu06-dsh-douyin-wallpaper": {
+   "status": "found",
+   "full_name": "yangyanlu06/dsh-douyin-wallpaper",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yangyanlu06-dsh-turn-cost-chip": {
+   "status": "found",
+   "full_name": "yangyanlu06/dsh-turn-cost-chip",
+   "src": "host-identity",
+   "star": 0
+  },
   "yangyhx-yanghx-dsh-quick-notes": {
    "status": "found",
    "full_name": "YangYhx/yanghx-dsh-quick-notes",
@@ -181577,6 +184366,12 @@
    "full_name": "yanJ26/dsh-mobile",
    "src": "host-identity",
    "star": 0
+  },
+  "yankafei-art-aesthetic-vault": {
+   "status": "found",
+   "full_name": "YanKaFei/art-aesthetic-vault",
+   "src": "host-identity",
+   "star": 20
   },
   "yankafei-ascii-h3-director": {
    "status": "found",
@@ -182099,6 +184894,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "ycegg-dsh-a2a-doorbell": {
+   "status": "found",
+   "full_name": "ycegg/dsh-a2a-doorbell",
+   "src": "host-identity",
+   "star": 0
+  },
   "ycet-dsh-account-usage": {
    "status": "found",
    "full_name": "Ycet/dsh-account-usage",
@@ -182209,6 +185010,12 @@
    "status": "found",
    "full_name": "ycr40/dsh-prolong-memory",
    "star": 1
+  },
+  "yczhang1028-dsh-model-leaderboard": {
+   "status": "found",
+   "full_name": "yczhang1028/dsh-model-leaderboard",
+   "src": "host-identity",
+   "star": 0
   },
   "ydhcxh-dsh-desktop": {
    "status": "found",
@@ -182470,6 +185277,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "yehuoshun-dsh-media-ledger": {
+   "status": "found",
+   "full_name": "yehuoshun/dsh-media-ledger",
+   "src": "host-identity",
+   "star": 0
+  },
   "yejasonjiexin-dsh-whale-girl-pet": {
    "status": "found",
    "full_name": "YEJASONJIEXIN/dsh-whale-girl-pet",
@@ -182593,6 +185406,12 @@
   "yelo0525-dsh-workspace-files-autoshow": {
    "status": "found",
    "full_name": "Yelo0525/dsh-workspace-files-autoshow",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yeloooooooooo-dsh-worklog-calendar": {
+   "status": "found",
+   "full_name": "yeloooooooooo/dsh-worklog-calendar",
    "src": "host-identity",
    "star": 0
   },
@@ -182745,6 +185564,12 @@
   "yesterday06-dsh-brain": {
    "status": "found",
    "full_name": "yesterday06/dsh-brain",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yesterday06-dsh-ycp": {
+   "status": "found",
+   "full_name": "yesterday06/dsh-Ycp",
    "src": "host-identity",
    "star": 0
   },
@@ -183071,7 +185896,7 @@
   },
   "yhaix-dsh-chat-search": {
    "status": "found",
-   "full_name": "timefarer/dsh-chat-search",
+   "full_name": "yhaix/dsh-chat-search",
    "src": "host-identity",
    "star": 2
   },
@@ -183129,6 +185954,12 @@
    "full_name": "yhm0619/dsh-pet-read",
    "src": "host-identity",
    "star": 3
+  },
+  "yhm138-dsh-btw": {
+   "status": "found",
+   "full_name": "yhm138/dsh-btw",
+   "src": "host-identity",
+   "star": 0
   },
   "yhm138-dsh-image-rescue": {
    "status": "found",
@@ -183350,6 +186181,12 @@
   "yidao2000-dsh-local-background": {
    "status": "found",
    "full_name": "yidao2000/dsh-local-background",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yidawuyi-dsh-manga-workflow": {
+   "status": "found",
+   "full_name": "YiDaWuYi/dsh-manga-workflow",
    "src": "host-identity",
    "star": 0
   },
@@ -183627,6 +186464,12 @@
   "yin52133-dsh-luban": {
    "status": "found",
    "full_name": "yin52133/dsh-luban",
+   "star": 0
+  },
+  "yinany79-alt-dsh-island-bridge": {
+   "status": "found",
+   "full_name": "yinany79-alt/dsh-island-bridge",
+   "src": "host-identity",
    "star": 0
   },
   "yinbenfeng-dsh-plugin-quick-draw-tool": {
@@ -184349,7 +187192,7 @@
   },
   "yjh248619-dsh-select-assist": {
    "status": "found",
-   "full_name": "yjh248619/dsh-floating-assistant",
+   "full_name": "yjh248619/dsh-select-assist",
    "src": "host-identity",
    "star": 0
   },
@@ -184666,6 +187509,12 @@
   "ymf2317-tech-dsh-memo-plus": {
    "status": "found",
    "full_name": "ymf2317-tech/dsh-memo-plus",
+   "src": "host-identity",
+   "star": 0
+  },
+  "ymf2317-tech-dsh-mobile-fixes": {
+   "status": "found",
+   "full_name": "ymf2317-tech/dsh-mobile-fixes",
    "src": "host-identity",
    "star": 0
   },
@@ -185088,7 +187937,7 @@
   },
   "yolo-lzl-deepseek-harness-azurer": {
    "status": "found",
-   "full_name": "Azurer0121/deepseek-harness-azurer",
+   "full_name": "YOLO-LZL/deepseek-harness-azurer",
    "src": "host-identity",
    "star": 0
   },
@@ -185377,9 +188226,21 @@
    "full_name": "youkongling/dsh-plugin-gate",
    "star": 0
   },
+  "youkucola-dsh-aurabot-qq-mods-qweather": {
+   "status": "found",
+   "full_name": "youkucola/dsh-aurabot-qq-mods-qweather",
+   "src": "host-identity",
+   "star": 0
+  },
   "youkucola-dsh-aurabot-world-parlor": {
    "status": "found",
    "full_name": "youkucola/dsh-aurabot-world-parlor",
+   "src": "host-identity",
+   "star": 0
+  },
+  "youkucola-dsh-videostory": {
+   "status": "found",
+   "full_name": "youkucola/dsh-videostory",
    "src": "host-identity",
    "star": 0
   },
@@ -185835,6 +188696,12 @@
    "full_name": "YrracOwl/dsh-tool-adapt",
    "star": 0
   },
+  "yrsxy-dsh-simulink-mcp": {
+   "status": "found",
+   "full_name": "yrsxy/dsh-simulink-mcp",
+   "src": "host-identity",
+   "star": 1
+  },
   "yrsxy-dsh-warm-theme": {
    "status": "found",
    "full_name": "yrsxy/dsh-warm-theme",
@@ -186223,6 +189090,12 @@
   "yuan2042-droid-dsh-plugin-directory": {
    "status": "found",
    "full_name": "yuan2042-droid/dsh-plugin-directory",
+   "src": "host-identity",
+   "star": 0
+  },
+  "yuanawaqwq-dsh-columbina-pet": {
+   "status": "found",
+   "full_name": "Yuanawaqwq/dsh-columbina-pet",
    "src": "host-identity",
    "star": 0
   },
@@ -186745,6 +189618,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "yueyao-dsh-session-manager": {
+   "status": "found",
+   "full_name": "yueyao/dsh-session-manager",
+   "src": "host-identity",
+   "star": 0
+  },
   "yueyexiayu-dsh-apitu": {
    "status": "found",
    "full_name": "yueyexiayu/dsh-apitu",
@@ -186873,6 +189752,12 @@
    "status": "found",
    "full_name": "yugasun/dsh-plugins",
    "star": 3
+  },
+  "yugege123-dsh-role-card": {
+   "status": "found",
+   "full_name": "yugege123/dsh-role-card",
+   "src": "host-identity",
+   "star": 0
   },
   "yugejixian-vm-blackbox": {
    "status": "found",
@@ -187352,6 +190237,12 @@
    "full_name": "yumoii789/dsh-auto-continue",
    "star": 0
   },
+  "yumonai-dsh-theme-wanderer": {
+   "status": "found",
+   "full_name": "yumonai/dsh-theme-wanderer",
+   "src": "host-identity",
+   "star": 1
+  },
   "yums-dsh-duet": {
    "status": "found",
    "full_name": "YuMS/dsh-duet",
@@ -187610,6 +190501,12 @@
    "full_name": "yunuo110/dsh-gitbash",
    "src": "host-identity",
    "star": 8
+  },
+  "yunweizhao26-dsh-browser-use-skill": {
+   "status": "found",
+   "full_name": "yunweizhao26/dsh-browser-use-skill",
+   "src": "host-identity",
+   "star": 0
   },
   "yunxiao11xie-dsh-compact-header": {
    "status": "found",
@@ -188778,6 +191675,18 @@
    "src": "host-identity",
    "star": 0
   },
+  "yyliucha-dsh-session-quote": {
+   "status": "found",
+   "full_name": "yyliucha/dsh-session-quote",
+   "src": "host-identity",
+   "star": 1
+  },
+  "yyliucha-dsh-skill-manager": {
+   "status": "found",
+   "full_name": "yyliucha/dsh-skill-switcher",
+   "src": "host-identity",
+   "star": 1
+  },
   "yylx-r-dsh-console": {
    "status": "found",
    "full_name": "Yylx-R/dsh-console",
@@ -188886,7 +191795,7 @@
   },
   "yyty947-dsh-advisor-plugin": {
    "status": "found",
-   "full_name": "yyty947/dsh-advisor-chain",
+   "full_name": "yyty947/dsh-advisor-plugin",
    "src": "host-identity",
    "star": 0
   },
@@ -189313,6 +192222,12 @@
    "full_name": "z953218350/dsh-np-ppt",
    "star": 2
   },
+  "z99we-tokenomics-plugin": {
+   "status": "found",
+   "full_name": "z99wE/tokenomics-plugin",
+   "src": "host-identity",
+   "star": 0
+  },
   "zaalipro-dsh-workflows": {
    "status": "found",
    "full_name": "zaalipro/dsh-workflows",
@@ -189660,6 +192575,12 @@
    "status": "found",
    "full_name": "ZBCs-StudioCr-CN/dsh-skill-manager",
    "star": 2
+  },
+  "zbh13782-lang-dsh-ask-reader": {
+   "status": "found",
+   "full_name": "zbh13782-lang/dsh-ask-reader",
+   "src": "host-identity",
+   "star": 0
   },
   "zbqzwbunny-max-deepseek-harness-desktop": {
    "status": "found",
@@ -190150,6 +193071,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "zeki520-dsh-boot-nexus": {
+   "status": "found",
+   "full_name": "zeki520/dsh-boot-nexus",
+   "src": "host-identity",
+   "star": 0
+  },
   "zekilou-dsh-ask-form": {
    "status": "found",
    "full_name": "Zekilou/dsh-ask-form",
@@ -190211,6 +193138,12 @@
   "zeme56-dsh-style-studio": {
    "status": "found",
    "full_name": "zeme56/dsh-style-studio",
+   "src": "host-identity",
+   "star": 0
+  },
+  "zemonvunter-qiqi-scan-triage": {
+   "status": "found",
+   "full_name": "ZemonVunter/qiqi-scan-triage",
    "src": "host-identity",
    "star": 0
   },
@@ -190440,7 +193373,7 @@
   },
   "zenithjoyh-dsh-archive-delete": {
    "status": "found",
-   "full_name": "ZenithJoyH/dsh-archive-delete",
+   "full_name": "ZenithJoyH/dsh-session-actions",
    "src": "host-identity",
    "star": 1
   },
@@ -190895,6 +193828,12 @@
    "full_name": "zexuanw958-svg/dsh-hud",
    "star": 11
   },
+  "zeyeyuki-dsh-prompt-optimizer": {
+   "status": "found",
+   "full_name": "zeyeyuki/dsh-prompt-optimizer",
+   "src": "host-identity",
+   "star": 0
+  },
   "zeyu-j-centricmem-skill": {
    "status": "found",
    "full_name": "zeyu-j/centricmem-skill",
@@ -190976,6 +193915,12 @@
   "zghehejun233-dsh-slurm": {
    "status": "found",
    "full_name": "zghehejun233/dsh-slurm",
+   "src": "host-identity",
+   "star": 0
+  },
+  "zghoto-dsh-quick-update": {
+   "status": "found",
+   "full_name": "zghoto/dsh-quick-update",
    "src": "host-identity",
    "star": 0
   },
@@ -191148,6 +194093,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "zhan1024-dsh-zentao-buglens": {
+   "status": "found",
+   "full_name": "zhan1024/dsh-zentao-buglens",
+   "src": "host-identity",
+   "star": 0
+  },
   "zhanbohua-dsh-pet": {
    "status": "found",
    "full_name": "ZhanboHua/dsh-pet",
@@ -191184,7 +194135,7 @@
   },
   "zhang-eli-dsh-one-pack": {
    "status": "found",
-   "full_name": "Zhang-Eli/dsh-one-pack",
+   "full_name": "wzvx/dsh-one-pack",
    "src": "host-identity",
    "star": 0
   },
@@ -192061,7 +195012,7 @@
   },
   "zhaochengggg-dsh-machine-apps": {
    "status": "found",
-   "full_name": "zhaochengggg/dsh-a2ui-studio",
+   "full_name": "zhaochengggg/dsh-machine-apps",
    "src": "host-identity",
    "star": 0
   },
@@ -192306,6 +195257,12 @@
   "zhaoxuejie-moqian-dsh-plugin-list": {
    "status": "found",
    "full_name": "zhaoxuejie/moqian-dsh-plugin-list",
+   "src": "host-identity",
+   "star": 0
+  },
+  "zhaoyanbo1-dsh-screenshot-macos": {
+   "status": "found",
+   "full_name": "zhaoyanbo1/dsh-screenshot-macos",
    "src": "host-identity",
    "star": 0
   },
@@ -192681,7 +195638,7 @@
   },
   "zhengqiuyang-dsh-attest": {
    "status": "found",
-   "full_name": "zhengqiuyang/dsh-attest-chain",
+   "full_name": "zhengqiuyang/dsh-attest",
    "src": "host-identity",
    "star": 0
   },
@@ -193195,6 +196152,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "zhiwuli0228-agent-memory-hub": {
+   "status": "found",
+   "full_name": "zhiwuli0228/agent-memory-hub",
+   "src": "host-identity",
+   "star": 0
+  },
   "zhiwuli0228-dsh-env-manager": {
    "status": "found",
    "full_name": "zhiwuli0228/dsh-env-manager",
@@ -193291,6 +196254,12 @@
    "src": "host-identity",
    "star": 0
   },
+  "zhizhi-2986-dsh-plugins": {
+   "status": "found",
+   "full_name": "Zhizhi-2986/dsh-plugins-enhanced",
+   "src": "host-identity",
+   "star": 1
+  },
   "zhizhuodemao-ai-reverse-resources": {
    "status": "found",
    "full_name": "zhizhuodemao/ai-reverse-resources",
@@ -193378,7 +196347,7 @@
   },
   "zhongjie10086-dsh-adaptive-native-standard": {
    "status": "found",
-   "full_name": "zhongjie10086/dsh-adaptive-native",
+   "full_name": "zhongjie10086/dsh-adaptive-native-standard",
    "src": "host-identity",
    "star": 0
   },
@@ -193436,6 +196405,12 @@
   "zhou1736948757-cpu-dsh-plugin-safe": {
    "status": "found",
    "full_name": "zhou1736948757-cpu/dsh-plugin-safe",
+   "star": 0
+  },
+  "zhou200310-dsh-imessage": {
+   "status": "found",
+   "full_name": "zhou200310/dsh-imessage",
+   "src": "host-identity",
    "star": 0
   },
   "zhouatie-dsh-device-deck": {
@@ -193595,6 +196570,12 @@
    "status": "found",
    "full_name": "zhouwumu2-lab/dsh-vision-fix",
    "star": 14
+  },
+  "zhouxianjun-dsh-fs-encoding-adaptive": {
+   "status": "found",
+   "full_name": "zhouxianjun/dsh-fs-encoding-adaptive",
+   "src": "host-identity",
+   "star": 0
   },
   "zhouxiaoxian233-dsh-activity-heatmap": {
    "status": "found",
@@ -194038,6 +197019,12 @@
    "src": "host-identity",
    "star": 1
   },
+  "zhurongjun-dsh-rong-aio": {
+   "status": "found",
+   "full_name": "zhurongjun/dsh-rong-aio",
+   "src": "host-identity",
+   "star": 2
+  },
   "zhuruoling-dsh-client-plugin-approve-for-me": {
    "status": "found",
    "full_name": "ZhuRuoLing/dsh-client-plugin-approve-for-me",
@@ -194118,7 +197105,7 @@
   },
   "zhuyuhan327-deepseek-harness-reader": {
    "status": "found",
-   "full_name": "zhuyuhan327/dsh-translation-reader",
+   "full_name": "zhuyuhan327/deepseek-harness-reader",
    "src": "host-identity",
    "star": 1
   },
@@ -194193,6 +197180,12 @@
    "status": "found",
    "full_name": "zhy201810576/dsh-zh-reasoning",
    "star": 2
+  },
+  "zhy451-dsh-prompt-natural": {
+   "status": "found",
+   "full_name": "zhy451/dsh-prompt-natural",
+   "src": "host-identity",
+   "star": 0
   },
   "zhy5-wxbridge": {
    "status": "found",
@@ -194347,6 +197340,12 @@
   "zihangii-dsh-app-radar": {
    "status": "found",
    "full_name": "zihangii/dsh-app-radar",
+   "src": "host-identity",
+   "star": 0
+  },
+  "zihangii-dsh-job-desk": {
+   "status": "found",
+   "full_name": "zihangii/dsh-job-desk",
    "src": "host-identity",
    "star": 0
   },
@@ -194743,7 +197742,7 @@
   },
   "ziye-jk-dsh-quadrant-todolist": {
    "status": "found",
-   "full_name": "ZIYE-JK/dsh-quadrant-todo",
+   "full_name": "ZIYE-JK/dsh-quadrant-todolist",
    "src": "host-identity",
    "star": 2
   },
@@ -195326,7 +198325,7 @@
   },
   "zmr234234-jpg-dsh-deepseek-splash": {
    "status": "found",
-   "full_name": "zhang-23x/dsh-deepseek-splash",
+   "full_name": "zmr234234-jpg/dsh-deepseek-splash",
    "src": "host-identity",
    "star": 1
   },
@@ -195619,6 +198618,12 @@
    "src": "host-identity",
    "star": 10
   },
+  "zoedong-dsh-feishu": {
+   "status": "found",
+   "full_name": "ZoeDong/dsh-feishu",
+   "src": "host-identity",
+   "star": 0
+  },
   "zoehao2026-dsh-standalone-chat": {
    "status": "found",
    "full_name": "ZoeHao2026/dsh-standalone-chat",
@@ -195908,6 +198913,12 @@
   "zpa76-deepseek-pa-dsh-desktop": {
    "status": "found",
    "full_name": "ZPA76/deepseek-pa-dsh-desktop",
+   "star": 1
+  },
+  "zpb332-dsh-competition-team": {
+   "status": "found",
+   "full_name": "zpb332/dsh-competition-team",
+   "src": "host-identity",
    "star": 1
   },
   "zpda88888a88888-debug-dsh-progress-secretary": {
@@ -196377,7 +199388,7 @@
   },
   "zth-zero-dsh-settings-plus": {
    "status": "found",
-   "full_name": "ZTHHero/dsh-settings-plus",
+   "full_name": "ZTH-zero/dsh-settings-plus",
    "src": "host-identity",
    "star": 1
   },
@@ -196988,6 +199999,12 @@
    "full_name": "zy-ultimately/dsh-knowledge-base",
    "star": 0
   },
+  "zy-wang-0304-dsh-workspace-mover": {
+   "status": "found",
+   "full_name": "ZY-WANG-0304/dsh-workspace-mover",
+   "src": "host-identity",
+   "star": 0
+  },
   "zy-xyz-dsh-lcm": {
    "status": "found",
    "full_name": "zy-xyz/dsh-lcm",
@@ -197466,6 +200483,12 @@
   "zznobzz-dsh-plugin-mcp-manager": {
    "status": "found",
    "full_name": "zznobzz/dsh-plugin-mcp-manager",
+   "src": "host-identity",
+   "star": 0
+  },
+  "zznobzz-dsh-qwen-sub-oauth": {
+   "status": "found",
+   "full_name": "zznobzz/dsh-qwen-sub-oauth",
    "src": "host-identity",
    "star": 0
   },
