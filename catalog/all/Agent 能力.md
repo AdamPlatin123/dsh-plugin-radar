@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5540）
+# 🤖 Agent 能力（5542）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2479,6 +2479,7 @@
 - 🟩 `[可用]` [hmlyx-dsh-memory](https://github.com/hmlyx/dsh-memory) ★0 — 简单的插件，让你的每个 AI 记录经验和记忆
 - ⬜ `[待定]` [hoist-wen-dsh-trajectory-tool-insight](https://github.com/hoist-wen/dsh-trajectory-tool-insight) ★0 — DSH 插件：在会话视图新增「解读」标签，按轮次解读工具调用
 - 🟩 `[可用]` [hongcha-dsh-dsh-cache-keepalive](https://github.com/hongcha-dsh/dsh-cache-keepalive) ★0 — DSH 插件：主会话空闲时重放最近一次请求，保持 prompt cache 有效（跟随当前会话模型）
+- 🟩 `[可用]` [hongcha-dsh-dsh-subagent-model-pin](https://github.com/hongcha-dsh/dsh-subagent-model-pin) ★0 — DSH plugin: pin every subagent to one model and abort on drift, so a costly parent model can never drain your
 - ⬜ `[待定]` [hongcheng-li-dsh-paperwriter](https://github.com/Hongcheng-LI/dsh-paperwriter) ★0 — Paperwriter skill packaged as a DeepSeek Harness (DSH) plugin, with a dsh-market index
 - 🟩 `[可用]` [hongweifei-dsh-prompt](https://github.com/hongweifei/dsh-prompt) ★0 — —
 - 🟩 `[可用]` [hoshino114-dsh-skill-hub](https://github.com/hoshino114/dsh-skill-hub) ★0 — DSH Skill Hub - browse and manage local Agent Skills, and browse/download skills from ClawHub, ModelScope and
@@ -4861,6 +4862,7 @@
 - 🟨 `[不兼容]` [akinoharuka-companion-memory](https://github.com/AkiHaruka/companion-memory) ★0 — Native scoped Riko memory plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [aleleppy-leppy-loop-deepseek](https://github.com/aleleppy/leppy-loop-deepseek) ★0 — Native Leppy Loop bundle for DeepSeek Harness
 - 🟨 `[不兼容]` [alexchen5-research-epic-manager](https://github.com/alexchen5/research-epic-manager) ★0 — Agent skills for running research projects end-to-end using a plain-file epic→issues→comments tracker.
+- 🟨 `[不兼容]` [alexmbright-dsh-roblox-development](https://github.com/alexmbright/dsh-roblox-development) ★0 — Portable Roblox development preset for DeepSeek Harness: native workers, role-aware routing, and upstream Robl
 - 🟨 `[不兼容]` [alexz949-dsh-personal-agent](https://github.com/alexz949/dsh-personal-agent) ★0 — Personal assistant plugin for DeepSeek Harness (DSH) on macOS: Apple Calendar, Reminders, Notes, Mail drafts,
 - 🟨 `[不兼容]` [alfredhuang211-dsh-webdav-sync](https://github.com/alfredhuang211/dsh-webdav-sync) ★0 — DeepSeek Harness 插件：把会话日志与插件环境备份到任意 WebDAV 服务，并可从 WebDAV 恢复（会话+环境双源同步、rev/generation 版本机制、三方比较与冲突策略）
 - 🟨 `[不兼容]` [allentnetus-dsh-job-hunting](https://github.com/allentnetus/dsh-job-hunting) ★0 — DeepSeek Harness job hunting plugin and runtime skill for local job intelligence workflows.〔📦〕

@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8792）
+# 🔌 Web UI 增强（8793）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -8743,6 +8743,7 @@
 - 🟨 `[不兼容]` [yusufameri-dsh-t3-new-session-screen](https://github.com/yusufameri/dsh-t3-new-session-screen) ★0 — T3 Code's New Session screen for DeepSeek Harness: the "What should we build in <project>?" headline with an i
 - 🟨 `[不兼容]` [yuyu121704-dsh-sidebar-flex](https://github.com/yuyu121704/dsh-sidebar-flex) ★0 — Draggable, persisted splitter for the DeepSeek Harness sidebar: trade global panel-list height for workspace/s
 - 🟨 `[不兼容]` [yuzhou1227-dsh-session-manager](https://github.com/yuzhou1227/dsh-session-manager) ★0 — DSH web plugin: sidebar session manager - list, search and batch-delete historical sessions
+- 🟨 `[不兼容]` [yyliucha-dsh-skill-manager](https://github.com/yyliucha/dsh-skill-switcher) ★0 — DeepSeek Harness plugin: switch each agent skill on, to user-only, or off from the composer and Settings, writ
 - 🟨 `[不兼容]` [yyyyyylor-dsh-asuka-school-theme](https://github.com/Yyyyyylor/dsh-asuka-school-theme) ★0 — Theme-Asuka — An unofficial Asuka-inspired theme plugin for DeepSeek Harness Web UI, featuring time-of-day wal
 - 🟨 `[不兼容]` [yzhclcl-dsh-plan-build-mode](https://github.com/yzhclcl/dsh-plan-build-mode) ★0 — Plan / Build mode switcher for DeepSeek Harness: a composer dropdown plus a default-mode setting for new sessi
 - 🟨 `[不兼容]` [yzmin-dsh-whale-pet](https://github.com/yzmin/dsh-whale-pet) ★0 — Animated DeepSeek whale pet for the DeepSeek Harness Web UI - live status, completion chime, and an interactio
