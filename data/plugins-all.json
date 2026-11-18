@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T13:47:40Z",
+ "generated_at": "2026-11-18T14:02:33Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -138668,6 +138668,13 @@
   {
    "repo": "DaoMingze/dsh-plugin-wendao",
    "name": "daomingze-dsh-plugin-wendao",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "DASHAN-0079/dsh-ppt-master",
+   "name": "dashan-0079-dsh-ppt-master",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
