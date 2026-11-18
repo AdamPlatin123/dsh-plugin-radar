@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T18:02:42Z",
+ "generated_at": "2026-11-18T18:32:51Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -110577,6 +110577,13 @@
   {
    "repo": "cwqXXX/dsh-mnemo",
    "name": "cwqxxx-dsh-mnemo",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "cxv117793-blip/dsh-bibibobo",
+   "name": "cxv117793-blip-dsh-bibibobo",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
