@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T05:47:25Z",
+ "generated_at": "2026-11-18T06:02:18Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -17083,6 +17083,13 @@
    "desc": "DSH 插件：主会话空闲时重放最近一次请求，保持 prompt cache 有效（跟随当前会话模型）"
   },
   {
+   "repo": "hongcha-dsh/dsh-subagent-model-pin",
+   "name": "hongcha-dsh-dsh-subagent-model-pin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: pin every subagent to one model and abort on drift, so a costly parent model can never drain your"
+  },
+  {
    "repo": "Hongcheng-LI/dsh-paperwriter",
    "name": "hongcheng-li-dsh-paperwriter",
    "verdict": "pending",
@@ -33055,6 +33062,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Agent skills for running research projects end-to-end using a plain-file epic→issues→comments tracker."
+  },
+  {
+   "repo": "alexmbright/dsh-roblox-development",
+   "name": "alexmbright-dsh-roblox-development",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Portable Roblox development preset for DeepSeek Harness: native workers, role-aware routing, and upstream Robl"
   },
   {
    "repo": "alexz949/dsh-personal-agent",
@@ -98129,6 +98143,13 @@
    "desc": "DSH web plugin: sidebar session manager - list, search and batch-delete historical sessions"
   },
   {
+   "repo": "yyliucha/dsh-skill-switcher",
+   "name": "yyliucha-dsh-skill-manager",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: switch each agent skill on, to user-only, or off from the composer and Settings, writ"
+  },
+  {
    "repo": "Yyyyyylor/dsh-asuka-school-theme",
    "name": "yyyyyylor-dsh-asuka-school-theme",
    "verdict": "incompatible",
@@ -111497,6 +111518,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "补齐 DSH 在对话显示设为 Compact（紧凑）时无法自动折叠的能力"
+  },
+  {
+   "repo": "Zhizhi-2986/dsh-plugins-enhanced",
+   "name": "zhizhi-2986-dsh-plugins",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "—"
   },
   {
    "repo": "zhong-1212/dsh-plugins",
@@ -138048,6 +138076,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "/btw system command  for deepseek harness"
+  },
+  {
+   "repo": "westwall586/dsh-westwall-plugins",
+   "name": "westwall586-dsh-westwall-plugins",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness Plugins"
   },
   {
    "repo": "Windsland52/dsh-exa-web-search",
