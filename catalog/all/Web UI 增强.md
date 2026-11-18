@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8822）
+# 🔌 Web UI 增强（8825）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6466,6 +6466,7 @@
 - 🟩 `[可用]` [xthreehao-dsh-hidden-session](https://github.com/xthreehao/dsh-hidden-session) ★0 — DSH（DeepSeek Harness）隐藏会话插件：把会话从侧边栏隐藏、可随时恢复
 - 🟩 `[可用]` [xtt-xt-dsh-custom-tool-studio](https://github.com/xtt-xt/dsh-custom-tool-studio) ★0 — DSH bundle plugin: author Python tools in the Web UI or through agent tools, register them as first-class DSH
 - 🟩 `[可用]` [xuan25-dsh-timer](https://github.com/xuan25/dsh-timer) ★0 — A systemd.timer equivalent for DeepSeek Harness (DSH)
+- ⬜ `[待定]` [xuanfenglajiao-dsh-mcp-more-panel](https://github.com/xuanfenglajiao/dsh-mcp-more-panel) ★0 — DeepSeek Harness 的 MCP 服务器管理面板：全局与项目作用域、多来源配置读取、仓库配置批准与指纹校验
 - 🟩 `[可用]` [xuanyuanchumo-dsh-anic](https://github.com/xuanyuanchumo/dsh-anic) ★0 — ANIC — AI-Native Iteration Cycle as a standalone DSH plugin (general-purpose workflow visualizer)
 - 🟩 `[可用]` [xubin0628-dsh-inline-trigger](https://github.com/xubin0628/dsh-inline-trigger) ★0 — 让 DSH Web 输入框在已有内容时也能用 / 唤起指令菜单、用 @ 引用对话与文件（含中文后直接输入）
 - 🟩 `[可用]` [xudongh123-dsh-terminal-run](https://github.com/xudongh123/dsh-terminal-run) ★0 — Run shell code blocks from the DSH conversation in the right sidebar terminal
@@ -8052,6 +8053,7 @@
 - 🟨 `[不兼容]` [damlys99-dsh-queue-reorder](https://github.com/damlys99/dsh-queue-reorder) ★0 — Reorder queued messages inside the DeepSeek Harness Web GUI queue dock: grip-and-drag plus move buttons, witho
 - 🟨 `[不兼容]` [danyikona-dsh-script-hub](https://github.com/DanYikona/DSH-script-hub) ★0 — DeepSeek Harness（DSH）插件
 - 🟨 `[不兼容]` [dao-awa-dsh-computer-use-native](https://github.com/dao-awa/dsh-computer-use-native) ★0 — Windows computer use for DeepSeek Harness, built for a vision model: screenshot the real desktop, read the int
+- 🟨 `[不兼容]` [dashan-0079-dsh-superagent-adapt](https://github.com/DASHAN-0079/dsh-superagent-adapt) ★0 — dsh-superagent adapted to DeepSeek Harness 0.2.2-rc.3: five source changes, added tests, equivalence evidence
 - 🟨 `[不兼容]` [daybreakcold-dsh-theme-nebula-glass](https://github.com/daybreakcold/dsh-theme-nebula-glass) ★0 — Dual-palette theme for the DeepSeek Harness Web client, with an original generated nebula wallpaper.
 - 🟨 `[不兼容]` [ddowbnac-dsh-claude-auth-proxy](https://github.com/ddowbnac/dsh-claude-auth-proxy) ★0 — LLM provider plugin for the DeepSeek Harness (dsh): streams Claude through your Claude Code subscription (clau
 - 🟨 `[不兼容]` [dee3526-dsh-plugin-voice-input-demo](https://github.com/Dee3526/dsh-plugin-voice-input-demo) ★0 — Minimal Chinese voice input plugin for the DeepSeek Harness Web UI
@@ -8076,6 +8078,7 @@
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-ps-preflight](https://github.com/dingchenhui0618-arch/dsh-ps-preflight) ★0 — 给 agent 跑的每条 PowerShell 命令做执行前静态分级：删除/覆盖/网络下载/凭据四类，高风险二次确认，全量落本地审计
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-pua-receipt](https://github.com/dingchenhui0618-arch/dsh-pua-receipt) ★0 — 给 DeepSeek Harness 的 /pua 加回执：对比施压前后各 N 轮工具调用与验证步骤，判定「改了做法 / 只是重述 / 无变化」
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-readme-reel](https://github.com/dingchenhui0618-arch/dsh-readme-reel) ★0 — Turn a plugin repo's screenshots into a 6-second silent looping hero reel: transparent-background webm + gif +
+- 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-sfx-pad](https://github.com/dingchenhui0618-arch/dsh-sfx-pad) ★0 — Event sound pad for DeepSeek Harness: bind test/build/recording/publish outcomes to local audio files, preview
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-ship-receipt](https://github.com/dingchenhui0618-arch/dsh-ship-receipt) ★0 — A shareable delivery receipt for DeepSeek Harness: branch and commit, artifact hashes, the three pre-push chec
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-signal-pet](https://github.com/dingchenhui0618-arch/dsh-signal-pet) ★0 — A status pet for DeepSeek Harness: reacts to the real session event stream (thinking, tool calls, errors, long
 - 🟨 `[不兼容]` [dingchenhui0618-arch-dsh-skill-radar](https://github.com/dingchenhui0618-arch/dsh-skill-radar) ★0 — Skill usage radar for DeepSeek Harness: records every skill hit, ranks by the last 7 days, and suggests archiv
