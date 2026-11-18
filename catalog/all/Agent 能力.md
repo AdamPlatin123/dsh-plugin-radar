@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5537）
+# 🤖 Agent 能力（5538）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1954,6 +1954,7 @@
 - 🟩 `[可用]` [aaalog-dsh-chat-bridge](https://github.com/aaalog/dsh-chat-bridge) ★0 — DSH Chat 桥接插件：把 DeepSeek Harness 的智能体接进聊天后台，Host 内驱动会话，不 spawn headless
 - 🟩 `[可用]` [aawef-dsh-time-watchdog](https://github.com/aawef/dsh-time-watchdog) ★0 — Turn timer for DeepSeek Harness: elapsed tool + /set-time wrap-up prompt injection + run-time cards
 - `[空仓监测]` **abccgh-dsh-agent-studio** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [abccgh-dsh-input](https://github.com/ABccgh/dsh-input) ★0 — DeepSeek Harness host-plane plugin: 11 input_* tools for Windows keyboard/mouse control (SendInput), window fo
 - 🟩 `[可用]` [abdounasser202-dsh-deepseek-budget](https://github.com/abdounasser202/dsh-deepseek-budget) ★0 — Track your DeepSeek spent budget into DeepSeek Harness
 - 🟩 `[可用]` [abluefan-dsh-session-user-id](https://github.com/abluefan/dsh-session-user-id) ★0 — 每条会话独立、持久、随机的 DeepSeek API user_id
 - ⬜ `[待定]` [abworks-dev-dsh-hooks](https://github.com/abworks-dev/dsh-hooks) ★0 — DSH 通用钩子插件：按会话事件管理本地自动化命令，支持显式启停、工具前置拦截与有限执行记录，无需硬件

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T05:17:17Z",
+ "generated_at": "2026-11-18T05:31:50Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -13546,6 +13546,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Turn timer for DeepSeek Harness: elapsed tool + /set-time wrap-up prompt injection + run-time cards"
+  },
+  {
+   "repo": "ABccgh/dsh-input",
+   "name": "abccgh-dsh-input",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness host-plane plugin: 11 input_* tools for Windows keyboard/mouse control (SendInput), window fo"
   },
   {
    "repo": "abdounasser202/dsh-deepseek-budget",
@@ -141263,6 +141270,13 @@
    "desc": "—"
   },
   {
+   "repo": "mzwing/dsh-plugins",
+   "name": "mzwing-dsh-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Some DeepSeek Harness plugins used by myself"
+  },
+  {
    "repo": "Najiya5/dsh-fish-reflection",
    "name": "najiya5-dsh-fish-reflection",
    "verdict": "incompatible",
@@ -182719,7 +182733,7 @@
   {
    "repo": "DianLeida/dsh-dianleida-1688-ecommerce-product-selection",
    "name": "dianleida-dsh-dianleida-e-commerce-product-se",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "dianleida MCP packages five product selection capabilities—product library, product rankings, product analysis"
   },
