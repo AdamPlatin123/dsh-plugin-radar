@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T10:32:15Z",
+ "generated_at": "2026-11-18T11:02:05Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -70456,6 +70456,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek 余额/用量小鲸鱼挂件（DSH Web UI 插件）：余额、官网口径今日用量、每轮消耗拟人播报、峰谷定价倒计时、四状态立绘，中英双语"
+  },
+  {
+   "repo": "iceship-wheels/dsh-kanban",
+   "name": "iceship-wheels-dsh-kanban",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Kanban board plugin for the DeepSeek Harness sidebar"
   },
   {
    "repo": "IceyVanci/dsh-phonephoto-ezinput",

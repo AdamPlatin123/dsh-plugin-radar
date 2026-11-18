@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8825）
+# 🔌 Web UI 增强（8826）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4637,6 +4637,7 @@
 - 🟩 `[可用]` [ice-ai-lab-dsh-plugin-pi-ui](https://github.com/ice-ai-lab/dsh-plugin-pi-ui) ★0 — pi-web-inspired sidebar chrome for the DeepSeek Harness Web GUI: temporary sessions, a one-directory session l
 - 🟩 `[可用]` [ice5kysl-dsh-msg9-kit](https://github.com/ice5kysl/dsh-msg9-kit) ★0 — 给每个 dsh workspace 一个 msg9.io 收件箱：Agent 用工具收发，GUI 点 ✉ 看同一份邮件 \| one msg9.io inbox per dsh workspace
 - 🟩 `[可用]` [iceseas-dsh-ds-whale](https://github.com/Iceseas/dsh-ds-whale) ★0 — DeepSeek 余额/用量小鲸鱼挂件（DSH Web UI 插件）：余额、官网口径今日用量、每轮消耗拟人播报、峰谷定价倒计时、四状态立绘，中英双语
+- 🟩 `[可用]` [iceship-wheels-dsh-kanban](https://github.com/iceship-wheels/dsh-kanban) ★0 — Kanban board plugin for the DeepSeek Harness sidebar
 - 🟩 `[可用]` [iceyvanci-dsh-phonephoto-ezinput](https://github.com/IceyVanci/dsh-phonephoto-ezinput) ★0 — 简单便捷的把手机中的照片发送到DeepSeek Harness中的对话
 - 🟩 `[可用]` [icrefin-dsh-mcp-mgr](https://github.com/icrefin/dsh-mcp-mgr) ★0 — Workspace-level MCP server manager for DeepSeek Harness: one profile-scoped server registry, per-workspace sel
 - 🟩 `[可用]` [icrefin-dsh-workspace-running-indicator](https://github.com/icrefin/dsh-workspace-running-indicator) ★0 — Mirror a folded Workspace's Session status in the dsh sidebar: the waiting dot, the in-progress loader and the
