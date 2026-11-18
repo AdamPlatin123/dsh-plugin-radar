@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T10:02:11Z",
+ "generated_at": "2026-11-18T10:17:22Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -140946,6 +140946,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Personalize the DeepSeek Harness activity icon and spinner verbs."
+  },
+  {
+   "repo": "edsml-jz2321/dsh-evokit",
+   "name": "edsml-jz2321-dsh-evokit",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Measured self-improvement for AI systems: paired experiments, noise-aware gates, holdout confirmation"
   },
   {
    "repo": "ElioChen240/dsh-humanink",
