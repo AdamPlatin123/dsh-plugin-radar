@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T00:47:17Z",
+ "generated_at": "2026-11-18T01:02:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -198686,7 +198686,7 @@
   {
    "repo": "202411130091-coder/dsh-scholar",
    "name": "dsh-scholar",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Research tools for DeepSeek Harness: arXiv search, HTML/PDF text extraction with optional proxy, and OpenAlex"
   },
