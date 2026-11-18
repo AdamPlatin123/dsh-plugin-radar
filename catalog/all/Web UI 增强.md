@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7814）
+# 🔌 Web UI 增强（7810）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1635,7 +1635,7 @@
 - 🟩 `[可用]` [rongyishuaige7-dsh-stats](https://github.com/rongyishuaige7/dsh-stats) ★2 — DeepSeek Harness (DSH) 插件：项目级 Token 消耗、开发时间线与消费金额统计面板
 - 🟩 `[可用]` [rrrrrredy-beforedone](https://github.com/rrrrrredy/beforedone) ★2 — Require fresh, file-bound verification evidence before coding agents declare completion.
 - 🟩 `[可用]` [ruanimal-dsh-sidebar-panel-buttons](https://github.com/ruanimal/dsh-sidebar-panel-buttons) ★2 — dsh 侧边栏顶部的全局面板菜单从「竖向文字列表」 收起为一排横向图标按钮
-- 🟩 `[可用]` [saikel-orado-liu-dsh-cost-meter](https://github.com/GameGeek-Saikel/dsh-cost-meter) ★2 — Cost tracking plugin for the DeepSeek Harness Web GUI — snapshot-anchored per-turn pricing, account balance, a
+- 🟩 `[可用]` [dsh-cost-meter](https://github.com/GameGeek-Saikel/dsh-cost-meter) ★2 — Cost tracking plugin for the DeepSeek Harness Web GUI — snapshot-anchored per-turn pricing, account balance, a
 - 🟩 `[可用]` [sailoumili-dsh-sidebar-plus](https://github.com/sailoumili/dsh-sidebar-plus) ★2 — 基于 DSH 官方侧边栏的文件视图增强插件，提供源码视图、原位编辑、行号显示、搜索和字体缩放功能
 - 🟩 `[可用]` [sakka6868-dsh-skin](https://github.com/sakka6868/dsh-skin) ★2 — DSH skin plugin: Alphacoders popular wallpapers as the DeepSeek Harness Web GUI background — gallery, search,
 - 🟩 `[可用]` [saknutella-dsh-thinking-quips](https://github.com/Saknutella/dsh-thinking-quips) ★2 — Playful bilingual quips and dynamic loading icons for the DeepSeek Harness (DSH) running-turn indicator.
@@ -1812,7 +1812,6 @@
 - 🟩 `[可用]` [zz12hui-dsh-bili-video-summary](https://github.com/zz12hui/dsh-bili-video-summary) ★2 — B 站视频一键总结 DSH 插件：本地 faster-whisper 转写，自动生成解析 md 与一图读懂 PNG。
 - 🟩 `[可用]` [zz12hui-dsh-github-readme](https://github.com/zz12hui/dsh-github-readme) ★2 — DSH 工具插件：上传 GitHub 前把仓库 README 按统一版式优化——10 种首图风格随机配色、过程图生成、排版校验、带重试推送。
 - ⬜ `[待定]` [zzy2210-y1n-agent-flow](https://github.com/zzy2210/y1n-agent-flow) ★2 — y1n-flow · 多模型编排开发流 \| A multi-model orchestrated dev workflow for DeepSeek Harness:主代理编排、子代理执行,plan document 为
-- 🟩 `[可用]` [saikel-orado-liu-dsh-cost-meter](https://github.com/Saikel-Orado-Liu/dsh-cost-meter) ★2 — Cost tracking plugin for the DeepSeek Harness Web GUI — snapshot-anchored per-turn pricing, account balance, a
 - `[空仓监测]` **rabbitknight-dsh-tui** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-question-anchors](https://github.com/snakeUni/dsh-question-anchors) ★2 — DeepSeek Harness 右侧提问锚点面板
 - `[空仓监测]` **dsh-miku-skin** — GitHub 无此仓库，判定暂不展示
@@ -3226,7 +3225,7 @@
 - 🟩 `[可用]` [2211431960-dsh-wallpaper-theme](https://github.com/2211431960/dsh-wallpaper-theme) ★0 — Wallpaper + liquid glass theme for DeepSeek Harness
 - 🟩 `[可用]` [22225555wwwww-dsh-exec-trace](https://github.com/22225555wwwww/dsh-exec-trace) ★0 — A visual execution-trace companion plugin for DeepSeek Harness (DSH): per-turn execution bar, native step chap
 - 🟩 `[可用]` [222406569-dsh-uitest](https://github.com/222406569/dsh-uitest) ★0 — DSH 插件：WinForms/Win32 应用的 UI 自动化测试桥（UIA 结构化优先，OCR 兜底），含用例编排、批量回归与 CI 命令行
-- 🟩 `[可用]` [2228293026-dsh-model-usage](https://github.com/2228293026/dsh-model-usage) ★0 — 在左侧栏加入「模型用量」入口，打开一个按模型统计 Token 消耗与请求次数的面板。
+- 🟩 `[可用]` [2228293026-dsh-model-usage](https://github.com/2228293026/dsh-model-usage) ★0 — 在左侧栏加入「模型用量」入口，打开一个按模型统计 Token 消耗与请求次数的面板
 - 🟩 `[可用]` [2239058652-dsh-mcp-workbench](https://github.com/2239058652/dsh-mcp-workbench) ★0 — DSH 的 MCP 管理控制台：左侧栏面板管理 MCP 服务器、就地试用工具、重连与探测
 - 🟩 `[可用]` [2275803244-cpu-dsh-model-switcher](https://github.com/2275803244-cpu/dsh-model-switcher) ★0 — One-click provider/model switcher client plugin for the DeepSeek Harness web GUI
 - 🟩 `[可用]` [2275803244-cpu-dsh-session-search](https://github.com/2275803244-cpu/dsh-session-search) ★0 — In-session full-text search client plugin for the DeepSeek Harness web GUI - full-history coverage, kind filte
@@ -5144,7 +5143,7 @@
 - 🟩 `[可用]` [dsh-job-board](https://github.com/shaot92-del/dsh-job-board) ★0 — 把「团队 · 作业板」接进 DSH 的插件：12 个 board_* 工具 + 4 个 sh_* 工具 + 侧栏面板与 /api/board/ui/* 路由
 - 🟩 `[可用]` [shattradingle-dsh-mobile-ui](https://github.com/shattradingle/dsh-mobile-ui) ★0 — A phone layout for the DeepSeek Harness web GUI: drawer sidebars, edge swipe, keyboard-aware composer, Enter-to-send.
 - ⬜ `[待定]` [shawnclink-dsh-bookmarks](https://github.com/shawnclink/dsh-bookmarks) ★0 — 六个收藏夹（X / YouTube / Reddit / B 站 / 知乎 / 小红书）汇总到 DeepSeek Harness 一个面板：每天三条、按角色筛、一键落到 Obsidian / 提醒 / 日历
-- ⬜ `[待定]` [shawnyuxuan-dsh-subagent-guide](https://github.com/shawnyuxuan/dsh-subagent-guide) ★0 — —
+- `[空仓监测]` **shawnyuxuan-dsh-subagent-guide** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [sheep645-dsh-sidebar-fold-row](https://github.com/sheep645/dsh-sidebar-fold-row) ★0 — Fold row for the DeepSeek Harness Web sidebar: one click folds the plugin and panel entries under New session,
 - ⬜ `[待定]` [shehuilaoliumang-dsh-memory](https://github.com/shehuilaoliumang/dsh-memory) ★0 — Personal long-term memory knowledge base for DeepSeek Harness (sanitized public snapshot)
 - 🟩 `[可用]` [shehuilaoliumang-dsh-plugin-updater](https://github.com/shehuilaoliumang/dsh-plugin-updater) ★0 — 检查 DeepSeek Harness 已安装插件是否有新版本，并在插件页 / 插件详情页一键更新
@@ -5973,9 +5972,6 @@
 - 🟩 `[可用]` [zzhi191-dsh-plugin-night-dog](https://github.com/zzhi191/dsh-plugin-night-dog) ★0 — A tan DeepSeek mascot dog named 夜官 that lives in the corner of the DSH web GUI: floats, reacts to the harness,
 - 🟩 `[可用]` [zzjq678-dsh-model-picker](https://github.com/ZZJQ678/dsh-model-picker) ★0 — 按渠道商（Provider）分组、可折叠的 DSH 模型选择器：替换聊天输入框右下角原生选择器
 - 🟩 `[可用]` [zzzzzzzll-dsh-skill-manager](https://github.com/ZzzzzzzLL/dsh-skill-manager) ★0 — Visual Web manager for local DSH project and global Skills
-- 🟩 `[可用]` [2228293026-dsh-model-usage](https://github.com/HitMargin/dsh-model-usage) ★0 — 在左侧栏加入「模型用量」入口，打开一个按模型统计 Token 消耗与请求次数的面板
-- 🟩 `[可用]` [zhang-eli-dsh-github-trending-masonry](https://github.com/wzvx/dsh-github-trending-masonry) ★0 — GitHub Trending in a flat masonry card panel for the DeepSeek Harness Web UI
-- 🟩 `[可用]` [zhang-eli-dsh-matrix-todo](https://github.com/wzvx/dsh-matrix-todo) ★0 — DeepSeek Harness 插件：艾森豪威尔四象限待办（重要 × 紧急），支持截止日期、拖拽排序、一键切换已完成
 - 🟩 `[可用]` [dsh-auth](https://github.com/cestbon0309/dsh-auth) ★0 — A plugin that allows you to configure access password for dsh webui, and access
 - `[空仓监测]` **dsh-mobile-ui** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-system-control](https://github.com/FrankZhangIronly/dsh-system-control) ★0 — DSH web plugin: System menu (Restart / Shutdown) in the sidebar footer
