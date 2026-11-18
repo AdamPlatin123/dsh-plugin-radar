@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T10:17:22Z",
+ "generated_at": "2026-11-18T10:32:15Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -82995,6 +82995,13 @@
    "desc": "A systemd.timer equivalent for DeepSeek Harness (DSH)"
   },
   {
+   "repo": "xuanfenglajiao/dsh-mcp-more-panel",
+   "name": "xuanfenglajiao-dsh-mcp-more-panel",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的 MCP 服务器管理面板：全局与项目作用域、多来源配置读取、仓库配置批准与指纹校验"
+  },
+  {
    "repo": "xuanyuanchumo/dsh-anic",
    "name": "xuanyuanchumo-dsh-anic",
    "verdict": "ok",
@@ -93978,6 +93985,13 @@
    "desc": "Windows computer use for DeepSeek Harness, built for a vision model: screenshot the real desktop, read the int"
   },
   {
+   "repo": "DASHAN-0079/dsh-superagent-adapt",
+   "name": "dashan-0079-dsh-superagent-adapt",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "dsh-superagent adapted to DeepSeek Harness 0.2.2-rc.3: five source changes, added tests, equivalence evidence"
+  },
+  {
    "repo": "daybreakcold/dsh-theme-nebula-glass",
    "name": "daybreakcold-dsh-theme-nebula-glass",
    "verdict": "incompatible",
@@ -94144,6 +94158,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Turn a plugin repo's screenshots into a 6-second silent looping hero reel: transparent-background webm + gif +"
+  },
+  {
+   "repo": "dingchenhui0618-arch/dsh-sfx-pad",
+   "name": "dingchenhui0618-arch-dsh-sfx-pad",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Event sound pad for DeepSeek Harness: bind test/build/recording/publish outcomes to local audio files, preview"
   },
   {
    "repo": "dingchenhui0618-arch/dsh-ship-receipt",
@@ -143048,6 +143069,13 @@
    "desc": "DeepSeek account balance and per-model spending under the composer in DeepSeek Harness"
   },
   {
+   "repo": "ODO-TECH/dsh-yukkuli",
+   "name": "odo-tech-dsh-yukkuli",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Yukkuri voice for DeepSeek Harness: reads assistant replies aloud locally through AquesTalk, with no network c"
+  },
+  {
    "repo": "oldHan2423/dsh-image-auto-describe",
    "name": "oldhan2423-dsh-image-auto-describe",
    "verdict": "incompatible",
@@ -165936,6 +165964,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "xuetianhao98/dsh_docs",
+   "name": "xuetianhao98-dsh-docs",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness docs plugin."
   },
   {
    "repo": "YIBO06/dsh-aurora-wallpaper",
@@ -222106,6 +222141,13 @@
    "desc": "—"
   },
   {
+   "repo": "xuetianhao98/deepseek-harness-gitview",
+   "name": "xuetianhao98-deepseek-harness-gitview",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A git view plugin for DeepSeek Harness."
+  },
+  {
    "repo": "XunWuJian/dsh-git-session-vault",
    "name": "xunwujian-dsh-git-session-vault",
    "verdict": "ok",
@@ -233871,6 +233913,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "SSHOOTING/dsh-event-fix",
+   "name": "sshooting-dsh-event-fix",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Step-level error and wasted-work analytics for DeepSeek Harness sessions — an event-sourcing side branch"
   },
   {
    "repo": "ssuper1/dsh-model-behavior",
