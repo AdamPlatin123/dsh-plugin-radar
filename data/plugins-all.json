@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T03:47:06Z",
+ "generated_at": "2026-11-18T04:17:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -105320,7 +105320,7 @@
   {
    "repo": "4060415/Deepseek-harness-routing-layer-",
    "name": "Deepseek-harness-routing-layer-",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness 智能模型自动路由插件，根据任务需求自动选择最合适的模型"
   },
