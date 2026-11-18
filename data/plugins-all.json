@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-17T23:17:25Z",
+ "generated_at": "2026-11-18T00:02:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -161582,6 +161582,13 @@
    "verdict": "incompatible",
    "stars": 13,
    "desc": "DSH 插件：蓝色大肥鱼表情包回复 —— 模型按语境在回复里贴一张会动的大肥鱼，支持设置页预览墙与下一轮指定"
+  },
+  {
+   "repo": "Jcnet-9527/dsh-Jpet-phone",
+   "name": "jcnet-9527-dsh-jpet-phone",
+   "verdict": "incompatible",
+   "stars": 9,
+   "desc": "dsh-pet"
   },
   {
    "repo": "peterwangze/dsh-novel-writing",
