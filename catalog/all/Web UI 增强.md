@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8776）
+# 🔌 Web UI 增强（8777）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1270,6 +1270,7 @@
 - 🟩 `[可用]` [ylinghao-dsh-codeui](https://github.com/YLingHao/dsh-codeui) ★3 — A workbench for programmers to review code and track changes, featuring a conversation navigation rail for jum
 - 🟩 `[可用]` [youhui1-dsh-sessions-diagnosis](https://github.com/YouHui1/dsh-sessions-diagnosis) ★3 — Diagnose and repair DSH sessions that stopped opening after a harness upgrade — from the CLI, from an agent to
 - 🟩 `[可用]` [yu-wenchao-dsh-tool-lipsync](https://github.com/yu-wenchao/dsh-tool-lipsync) ★3 — 免 Key、免登录的 AI 对口型口播视频生成插件，为 DeepSeek Harness (DSH) 注册 5 个工具，使用免费开放 API 生成对口型视频
+- ⬜ `[待定]` [yuanawaqwq-dsh-columbina-pet](https://github.com/Yuanawaqwq/dsh-columbina-pet) ★3 — Columbina (Genshin Impact) 2D live desktop pet for DeepSeek Harness — 4 skins, 76 voiced lines in Chinese, Jap
 - 🟩 `[可用]` [yuanbaoerer-dsh-decision-split](https://github.com/yuanbaoerer/dsh-decision-split) ★3 — 决策分屏：DSH Web UI 主窗口摘要+决策编辑，右侧详情栏完整 markdown 展示，决策一键回传 agent
 - ⬜ `[待定]` [yuigahamahawk-dsh-paperhub](https://github.com/YuigahamaHawk/dsh-paperhub) ★3 — DeepSeek Harness插件：内置阅读器的文献库管理插件，具备AI排版、双语交替翻译与伴读助手功能，可从Zotero一键导入
 - 🟩 `[可用]` [yunfei07-dsh-song-ui](https://github.com/yunfei07/dsh-song-ui) ★3 — The light palette combines silk-paper surfaces, warm ink text, Ru-celadon interactions, and cinnabar error sta

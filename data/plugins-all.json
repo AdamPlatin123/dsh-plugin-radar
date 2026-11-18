@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T00:17:33Z",
+ "generated_at": "2026-11-18T00:47:17Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -46551,6 +46551,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "免 Key、免登录的 AI 对口型口播视频生成插件，为 DeepSeek Harness (DSH) 注册 5 个工具，使用免费开放 API 生成对口型视频"
+  },
+  {
+   "repo": "Yuanawaqwq/dsh-columbina-pet",
+   "name": "yuanawaqwq-dsh-columbina-pet",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Columbina (Genshin Impact) 2D live desktop pet for DeepSeek Harness — 4 skins, 76 voiced lines in Chinese, Jap"
   },
   {
    "repo": "yuanbaoerer/dsh-decision-split",
