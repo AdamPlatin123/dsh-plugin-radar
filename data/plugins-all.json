@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-18T11:17:09Z",
+ "generated_at": "2026-11-18T11:32:47Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -180762,6 +180762,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Native DSH default workspace with complete paged read-only access to plugins, skills, memory, sessions, storag"
+  },
+  {
+   "repo": "changmingjuebumaimeng3666/dsh-metabolism",
+   "name": "changmingjuebumaimeng3666-dsh-metabolism",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "上下文代谢，压缩前原文归档进本地茅房，配指针摘要与按时间加权召回"
   },
   {
    "repo": "chanyuenpang/dsh-better-file-viewer",
