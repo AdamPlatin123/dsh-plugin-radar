@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T10:47:14Z",
+ "generated_at": "2026-11-19T11:02:14Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -17050,7 +17050,7 @@
   {
    "repo": "fundapi-cn/fundapi-dsh-plugin",
    "name": "fundapi-cn-fundapi-dsh-plugin",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "基金数据 API 官方 DeepSeek Harness 插件 —— 输个包名即装，19 个基金工具（净值 / 持仓 / 调仓 / 经理 / 评级 / 排行 / 选基 / 组合穿透 / 分红 / 交易规则），免费工具无需"
   },
@@ -33867,6 +33867,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "Awenforever/dsh-loci",
+   "name": "awenforever-dsh-loci",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Long-term memory for DeepSeek Harness: a stable injected index, bi-temporal facts, and only human-verified ent"
   },
   {
    "repo": "awol2005ex3/dsh-hosts",
