@@ -176,7 +176,7 @@
 - 🟩 `[可用]` [yoli-mi-dsh-client-ui-custom](https://github.com/yoli-mi/dsh-client-ui-custom) ★40 — Configurable DSH web-surface plugin: wallpaper & frosted-glass themes, accent colors, custom keyboard shortcut
 - 🟩 `[可用]` [yu-wenchao-dsh-free-models-hub](https://github.com/yu-wenchao/dsh-free-models-hub) ★40 — 免费模型排行榜 · DeepSeek Harness 社区插件，在 DeepSeek Harness (DSH) Web UI 左侧边栏提供「免费模型榜」：分页浏览（每页 20 条、页码窗口、首页/末页）、 点击标题展开
 - `[空仓监测]` **captain1275-dsh-ui-web** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [stardustlc666-dsh-remotion](https://github.com/STARDUSTLC666/dsh-remotion) ★39 — DeepSeek Harness React 视频创作工作台：内置官方 Remotion 技能、工程检索、模板库、素材排序、Studio 预览与本地 MP4 导出，支持原生清透 / 米白纸感 / Claude 暖书卷 /
+- 🟩 `[可用]` [stardustlc666-dsh-remotion](https://github.com/STARDUSTLC666/dsh-remotion) ★39 — DeepSeek Harness React 视频创作工作台：内置官方 Remotion 技能、工程检索、模板库、素材排序、Studio 预览与本地 MP4 导出，支持原生清透 / 米白纸感 / Claude 暖书卷 /
 - 🟩 `[可用]` [kannakuron-dsh-better-workspace](https://github.com/KannaKuron/dsh-better-workspace) ★38 — DSH web plugin: a hierarchical workspace tree for the sidebar — titles containing / group into virtual folders
 - 🟩 `[可用]` [arvinqi-dsh-mcp](https://github.com/ArvinQi/dsh-mcp) ★37 — DeepSeek Harness 的 MCP 服务器管理插件：可视化界面管理 + 按需热注入，OAuth 鉴权支持，环境变量配置
 - 🟩 `[可用]` [cixisvesper-dsh-soundtry](https://github.com/CixiSVesper/dsh-soundtry) ★37 — Local audio understanding for DeepSeek Harness: transcription (whisper medium), rhythm, melody, chords, struct

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T11:02:14Z",
+ "generated_at": "2026-11-19T11:17:54Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39940,7 +39940,7 @@
   {
    "repo": "STARDUSTLC666/dsh-remotion",
    "name": "stardustlc666-dsh-remotion",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 39,
    "desc": "DeepSeek Harness React 视频创作工作台：内置官方 Remotion 技能、工程检索、模板库、素材排序、Studio 预览与本地 MP4 导出，支持原生清透 / 米白纸感 / Claude 暖书卷 /"
   },
@@ -96241,7 +96241,7 @@
   {
    "repo": "STARDUSTLC666/dsh-voice",
    "name": "stardustlc666-dsh-voice",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 6,
    "desc": "DeepSeek Harness 语音插件：零密钥 Edge TTS 朗读、音色试听、兼容 ASR 转写与工作区输出保护"
   },
@@ -198952,7 +198952,7 @@
   {
    "repo": "STARDUSTLC666/dsh-codex-port",
    "name": "stardustlc666-dsh-codex-port",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 10,
    "desc": "DeepSeek Harness Codex 技能移植插件：离线预览导入、保留调用策略与许可、检测同名冲突"
   },
