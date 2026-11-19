@@ -775,7 +775,7 @@
 - 🟩 `[可用]` [zhao-guang-ai-dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) ★5 — Selection quoting and anchored annotations for DSH: the composer and the transcript render a compact quote blo
 - ⬜ `[待定]` [zhouzhencheng07-dsh-kit](https://github.com/zhouzhencheng07/dsh-kit) ★5 — Page capability kit for DeepSeek Harness (dsh): terminal dock, file tree, source control, skills manager, phon
 - ⬜ `[待定]` [zoria-lind-behavior-enhancer-generic](https://github.com/Zoria-Lind/behavior-enhancer-generic) ★5 — Behavior discipline for coding agents: read-before-write enforcement, failure convergence, write verification
-- 🟩 `[可用]` [0lidaxiang-dsh-plugin-greet](https://github.com/0lidaxiang/dsh-plugin-greet) ★4 — DeepSeek Harness is a plugin-based system for building AI agents
+- ⬜ `[待定]` [0lidaxiang-dsh-plugin-greet](https://github.com/0lidaxiang/dsh-plugin-greet) ★4 — DeepSeek Harness is a plugin-based system for building AI agents
 - 🟩 `[可用]` [58fly-dsh-language-guard](https://github.com/58fly/dsh-language-guard) ★4 — 让 DSH 智能体用你选定的语言思考与回复：三档强度、设置面板、侧栏快速切换
 - 🟩 `[可用]` [6-debug-6-dsh-thinking-notifier](https://github.com/6-debug-6/dsh-thinking-notifier) ★4 — A simple popup that can quickly show when Deepseek has finished thinking or is requesting permission during sp
 - 🟩 `[可用]` [764475881-dsh-chat-width](https://github.com/764475881/dsh-chat-width) ★4 — Drag-to-resize chat content width for the DeepSeek Harness web UI (748px -> 1040px, draggable handle)
