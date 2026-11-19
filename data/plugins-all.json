@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T08:47:13Z",
+ "generated_at": "2026-11-19T09:02:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -208916,6 +208916,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Drop-in enhanced fork of the official @deepseek-ai/dsh-tool-workflow: persisted saved-workflow library (workflow_save/list/get/delete/run_saved) over ctx.storageDomain. 官方 workflow 工具增强版：saved workflow 持久库"
+  },
+  {
+   "repo": "silverwryyy/dsh-cmd-guard",
+   "name": "silverwryyy-dsh-cmd-guard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Structural command parser for DeepSeek Harness"
   },
   {
    "repo": "sinvacn/dsh-vscode-runner",
