@@ -687,7 +687,7 @@
 - 🟩 `[可用]` [dsh-youmind-plugin](https://github.com/seamas0825-lab/dsh-youmind-plugin) ★3 — YouMind OpenAPI tools and skill bundle for DeepSeek Harness
 - 🟩 `[可用]` [shaneconner-canon](https://github.com/shaneconner/canon) ★3 — Canonical project memory for the Pi coding agent: one governing article per asset, an append-only journal, cap
 - 🟩 `[可用]` [shangyunqiang1-dsh-eplan](https://github.com/shangyunqiang1/DSH_Eplan) ★3 — DeepSeek Harness bundle for EPLAN Electric P8: a bundled eplan-mcp server that drives the running EPLAN instance, offline SQLite documentation indexes, a settings page, and five agent skills.
-- ⬜ `[待定]` [stardustlc666-dsh-docker](https://github.com/STARDUSTLC666/dsh-docker) ★3 — DeepSeek Harness Docker 管理插件：容器与镜像巡检、日志排障、受控执行与宿主审批确认
+- 🟩 `[可用]` [stardustlc666-dsh-docker](https://github.com/STARDUSTLC666/dsh-docker) ★3 — DeepSeek Harness Docker 管理插件：容器与镜像巡检、日志排障、受控执行与宿主审批确认
 - 🟩 `[可用]` [starriv-dsh-session-dashboard](https://github.com/starriv/dsh-session-dashboard) ★3 — DeepSeek Harness session stats dashboard: token usage, cost, composition, ranking and runtime health.
 - 🟩 `[可用]` [summersummer-liu-dsh-su](https://github.com/summersummer-liu/dsh-su) ★3 — SketchUp 2023 bridge plugin for DeepSeek Harness: drive a live SU session (Ruby tasks, .skp save, viewport cap
 - ⬜ `[待定]` [szx-a-ds](https://github.com/szx-a/ds) ★3 — LMA (Layered Memory Architecture) 是一个为 DeepSeek Harness 设计的地基插件（Foundation Plugin）
