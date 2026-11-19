@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T08:32:26Z",
+ "generated_at": "2026-11-19T08:47:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -115956,6 +115956,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Русский язык для DeepSeek Harness: 2615 строк интерфейса в 58 namespace — штатный DSH-плагин, добавляющий Русс"
+  },
+  {
+   "repo": "kvker/dsh-acw-plugin",
+   "name": "kvker-dsh-acw-plugin",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
   },
   {
    "repo": "kw12121212/strict-spec-driven",
