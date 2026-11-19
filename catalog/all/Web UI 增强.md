@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7820）
+# 🔌 Web UI 增强（7821）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -16,7 +16,7 @@
 - ⬜ `[待定]` [tiger3807861189-j-space-cognition-suite-v3-7](https://github.com/Tiger3807861189/J-Space-Cognition-Suite) ★2953 — J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work,
 - 🟩 `[可用]` [sixtysevenlf-dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin) ★2194 — DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 2
 - 🟩 `[可用]` [shanliuling-dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) ★1624 — 可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI
-- ⬜ `[待定]` [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) ★1286 — Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&
+- 🟩 `[可用]` [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) ★1286 — Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&
 - 🟩 `[可用]` [paean-ai-deeptide](https://github.com/paean-ai/deeptide) ★1111 — Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent
 - ⬜ `[待定]` [superdesigndev-superdesign-skill](https://github.com/superdesigndev/superdesign-skill) ★1026 — The design skill for Claude Code, Cursor and any coding agent
 - 🟩 `[可用]` [dsh-genui](https://github.com/omdsh-dev/dsh-genui) ★1024 — GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui fenc
@@ -5506,6 +5506,7 @@
 - 🟩 `[可用]` [wanyi424-dsh-quick-translate](https://github.com/Wanyi424/dsh-quick-translate) ★0 — 不离开 DSH 就能中英互译：复用已配置的模型，免填 API Key；译文边生成边显示，提示词可自定义，历史自动存在本地，可随时回看重译。
 - 🟩 `[可用]` [wasteoneslife-scenes-skill-creator](https://github.com/wasteoneslife/scenes-skill-creator) ★0 — DeepSeek Harness plugin: create spec-compliant skills from the Web UI (Huawei Cloud / generic / REST API), wit
 - 🟩 `[可用]` [watershow666-dsh-sidebar-icon-row](https://github.com/watershow666/dsh-sidebar-icon-row) ★0 — DeepSeek Harness plugin: turn sidebar entries into a compact icon row, with adjustable icon size and per-entry
+- 🟩 `[可用]` [wayblink-using-kanban](https://github.com/wayblink/using-kanban) ★0 — Shared, event-sourced kanban for people and coding agents
 - 🟩 `[可用]` [waynezprog-dsh-tui](https://github.com/WaynezProg/dsh-tui) ★0 — Loopback-only terminal UI and CLI client for DeepSeek Harness Web
 - 🟩 `[可用]` [wbaws-dsh-scenery](https://github.com/wbaws/dsh-scenery) ★0 — Capy-style ambient background for the DeepSeek Harness (DSH) workspace: custom image + very large bottom black
 - 🟩 `[可用]` [wbycloud-dsh-composer-tokens](https://github.com/wbycloud/dsh-composer-tokens) ★0 — DSH web GUI composer real-time token counter plugin (client-side, v1)

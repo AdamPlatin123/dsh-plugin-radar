@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T09:32:17Z",
+ "generated_at": "2026-11-19T09:49:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3767,6 +3767,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "Router/Worker super-agent for DeepSeek Harness (DSH): autonomous project dispatch, durable triggers, reusable Worker context, cross-project sessions, watchdog, and a native web panel."
+  },
+  {
+   "repo": "tk553521/dsh-tavern",
+   "name": "tk553521-dsh-tavern",
+   "verdict": "ok",
+   "stars": 4,
+   "desc": "DSH 酒馆：SillyTavern 风格角色扮演插件（人物卡 / 世界书 / 预设 / 多 agent）"
   },
   {
    "repo": "Wangxiaolu0716/ctf-solve-teach",
@@ -23224,7 +23231,7 @@
   {
    "repo": "songsenand/yingzao",
    "name": "songsenand-yingzao",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "A dsh plugin for mechanical CAD — the agent generates, the plugin closes the loop."
   },
@@ -38820,7 +38827,7 @@
   {
    "repo": "ysr666/dsh-vision-router",
    "name": "dsh-vision-router",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1286,
    "desc": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&"
   },
@@ -76693,6 +76700,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: turn sidebar entries into a compact icon row, with adjustable icon size and per-entry"
+  },
+  {
+   "repo": "wayblink/using-kanban",
+   "name": "wayblink-using-kanban",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Shared, event-sourced kanban for people and coding agents"
   },
   {
    "repo": "WaynezProg/dsh-tui",
@@ -192102,6 +192116,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "DS-link — local session collaboration and bubble/card chat views for DeepSeek Harness."
+  },
+  {
+   "repo": "WangShuangTong/dsh-notify",
+   "name": "wangshuangtong-dsh-notify",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Desktop notification plugin for DeepSeek Harness (DSH): approval, question and completion cards with click-to-"
   },
   {
    "repo": "wannaknowhys/dsh-llm-dump",
