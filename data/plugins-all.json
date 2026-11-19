@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T19:32:56Z",
+ "generated_at": "2026-11-19T19:47:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -114229,13 +114229,6 @@
    "desc": "—"
   },
   {
-   "repo": "hoshF/dsh-md-export",
-   "name": "hoshf-dsh-md-export",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Export DeepSeek Harness conversations as clean Markdown"
-  },
-  {
    "repo": "hotpot-labs/dsh-wooden-fish",
    "name": "hotpot-labs-dsh-wooden-fish",
    "verdict": "ok",
@@ -139686,6 +139679,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "hoshF/dsh-md-export",
+   "name": "hoshf-dsh-md-export",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Export DeepSeek Harness conversations as clean Markdown"
   },
   {
    "repo": "hoshino114/dsh-server-box",
