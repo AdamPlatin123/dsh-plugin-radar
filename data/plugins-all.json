@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T10:02:09Z",
+ "generated_at": "2026-11-19T10:17:32Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -95058,7 +95058,7 @@
   {
    "repo": "STARDUSTLC666/dsh-ffmpeg",
    "name": "stardustlc666-dsh-ffmpeg",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 17,
    "desc": "DeepSeek Harness 音视频处理插件：本机 FFmpeg 探测、剪辑转码、字幕烧录、抽帧与 GIF 导出"
   },
@@ -184161,7 +184161,7 @@
   {
    "repo": "STARDUSTLC666/dsh-sql",
    "name": "stardustlc666-dsh-sql",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 9,
    "desc": "DeepSeek Harness 数据库插件：SQLite / MySQL / PostgreSQL 结构探查、限流查询与写操作审批"
   },
@@ -185316,14 +185316,14 @@
   {
    "repo": "STARDUSTLC666/dsh-dingtalk",
    "name": "dsh-dingtalk",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness 钉钉群通知插件：发送文本与 Markdown 消息，支持加签校验、凭证脱敏与配置自检"
   },
   {
    "repo": "STARDUSTLC666/dsh-slack",
    "name": "dsh-slack",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness Slack 集成插件：频道通知、线程回复、Socket Mode 收件箱与受控重连"
   },
@@ -196768,7 +196768,7 @@
   {
    "repo": "liustack/modsearch",
    "name": "modsearch",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1017,
    "desc": "🥇 The strongest free web search plugin for DeepSeek Harness, and the search bridge for every model without nat"
   },
