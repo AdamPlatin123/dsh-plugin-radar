@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7821）
+# 🔌 Web UI 增强（7822）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5027,6 +5027,7 @@
 - 🟩 `[可用]` [qwq2333333-qaq-dsh-search-chat](https://github.com/QwQ2333333-QaQ/dsh-search-chat) ★0 — DeepSeek Harness 右侧栏会话搜索：跨全部工作区按字面匹配查找聊天记录，点击跳到原消息（DSH 0.2.2+）
 - 🟩 `[可用]` [qwqzylqwq-dsh-trae-relay-usage](https://github.com/qwqZYLqwq/dsh-trae-relay-usage) ★0 — DeepSeek Harness 插件：在会话标题栏和侧边栏显示本地 Trae Relay 反代的账号积分、今日 Token 与请求流水
 - 🟩 `[可用]` [qydxd1-dsh-page-zoom](https://github.com/qydxd1/dsh-page-zoom) ★0 — 浏览器式的整页缩放，给 DeepSeek Harness 桌面版用：按住 Ctrl 滚动滚轮（触控板双指捏合同理）即可像浏览器一样缩放整个界面，Ctrl + 0 回到 100%
+- ⬜ `[待定]` [qzhengpyuan-dsh-analytics](https://github.com/qzhengpyuan/dsh-analytics) ★0 — dsh-analytics — AI-assisted statistics workbench plugin for DeepSeek Harness, built on a bundled GNU PSPP engi
 - 🟩 `[可用]` [qzj903-dsh-sensenova-suite](https://github.com/QZJ903/dsh-sensenova-suite) ★0 — \[DSH Plugins\]商汤多账号 Key 池与 429 限流调度、三协议适配与降级链、积分用量监控与多模态工具
 - 🟩 `[可用]` [rabershef-dsh-pin-session](https://github.com/RaberShef/dsh-pin-session) ★0 — Pin DSH sessions to the top of the sidebar and mark them unread for later.
 - ⬜ `[待定]` [ragnarpitla-dsh-field-guide](https://github.com/RagnarPitla/dsh-field-guide) ★0 — An evidence-badged field guide to DeepSeek Harness (dsh), plus a working plugin

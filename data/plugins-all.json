@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T13:02:29Z",
+ "generated_at": "2026-11-19T13:17:29Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -73459,6 +73459,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "浏览器式的整页缩放，给 DeepSeek Harness 桌面版用：按住 Ctrl 滚动滚轮（触控板双指捏合同理）即可像浏览器一样缩放整个界面，Ctrl + 0 回到 100%"
+  },
+  {
+   "repo": "qzhengpyuan/dsh-analytics",
+   "name": "qzhengpyuan-dsh-analytics",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "dsh-analytics — AI-assisted statistics workbench plugin for DeepSeek Harness, built on a bundled GNU PSPP engi"
   },
   {
    "repo": "QZJ903/dsh-sensenova-suite",
