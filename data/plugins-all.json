@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T09:49:25Z",
+ "generated_at": "2026-11-19T10:02:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4772,7 +4772,7 @@
   {
    "repo": "STARDUSTLC666/dsh-docker",
    "name": "stardustlc666-dsh-docker",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness Docker 管理插件：容器与镜像巡检、日志排障、受控执行与宿主审批确认"
   },
