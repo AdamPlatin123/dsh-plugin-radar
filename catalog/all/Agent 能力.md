@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5688）
+# 🤖 Agent 能力（5689）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -544,6 +544,7 @@
 - ⬜ `[待定]` [sunrisepeak-dsh-index](https://github.com/Sunrisepeak/dsh-index) ★4 — DeepSeek Harness Plugin and Agent Profile Package Index - Install dsh-plugin with just one command
 - ⬜ `[待定]` [susu-the-heroine-dsh-consciousness](https://github.com/susu-the-heroine/dsh-consciousness) ★4 — Long-term memory for DSH
 - 🟩 `[可用]` [tianzeluo-dsh-super-agent](https://github.com/TianzeLuo/dsh-super-agent) ★4 — Router/Worker super-agent for DeepSeek Harness (DSH): autonomous project dispatch, durable triggers, reusable Worker context, cross-project sessions, watchdog, and a native web panel.
+- 🟩 `[可用]` [tk553521-dsh-tavern](https://github.com/tk553521/dsh-tavern) ★4 — DSH 酒馆：SillyTavern 风格角色扮演插件（人物卡 / 世界书 / 预设 / 多 agent）
 - 🟩 `[可用]` [wangxiaolu0716-ctf-solve-teach](https://github.com/Wangxiaolu0716/ctf-solve-teach) ★4 — DSH 插件 · 教学式 CTF 解题技能：边解边讲套路/工具/知识点，收尾在 solves/<题目名>/ 生成可复现 Writeup（npm: dsh-ctf-solve-teach）
 - 🟩 `[可用]` [whning0513-awesome-deepseek-skills](https://github.com/Whning0513/awesome-deepseek-skills) ★4 — Pinned and statically verified Agent Skills for DeepSeek and DSH.
 - ⬜ `[待定]` [windwhiterain-dsh-compaction-threshold](https://github.com/windwhiterain/dsh-compaction-threshold) ★4 — Per-session automatic compaction threshold for DeepSeek Harness: a compaction backend whose trigger percentage
@@ -3397,7 +3398,7 @@
 - 🟩 `[可用]` [solitudeks-agent-coop](https://github.com/Solitudeks/agent-coop) ★0 — 硅姬后援团（@local/agent-coop）：DeepSeek Harness 本机 Agent 运行状态面板 — local Agent runtime status panel for DSH
 - 🟩 `[可用]` [solopole-dsh-prompt-picker](https://github.com/solopole/dsh-prompt-picker) ★0 — Prompt picker for DeepSeek Harness - multi-select system-prompt injections with per-row scopes (both/main/sub), one bolt icon in the composer.
 - `[空仓监测]` **songoao25-dsh-contract-drafting-agent** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [songsenand-yingzao](https://github.com/songsenand/yingzao) ★0 — A dsh plugin for mechanical CAD — the agent generates, the plugin closes the loop.
+- 🟩 `[可用]` [songsenand-yingzao](https://github.com/songsenand/yingzao) ★0 — A dsh plugin for mechanical CAD — the agent generates, the plugin closes the loop.
 - ⬜ `[待定]` [sosiman-dsh-native-mode-router](https://github.com/sosiman/dsh-native-mode-router) ★0 — Autonomous runtime engine switcher (Standard, PTC, Team, Minimal) with in-flight Auto-Wakeup and live fleet observability for DeepSeek Harness.
 - 🟩 `[可用]` [soulzhou-dsh-context-windows](https://github.com/SoulZhou/dsh-context-windows) ★0 — Visual per-model context-window adjustment for WorkBuddy and Trae connectors in DeepSeek Harness
 - 🟩 `[可用]` [southm-dsh-nanshan-session-manager](https://github.com/SouthM/dsh-nanshan-session-manager) ★0 — 【南山】会话管理：在左侧栏筛选、按 ID 搜索、删除、恢复、导出和导入 DeepSeek Harness 的全部会话。
