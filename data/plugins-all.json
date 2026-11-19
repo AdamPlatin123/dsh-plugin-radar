@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T17:47:29Z",
+ "generated_at": "2026-11-19T18:47:35Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -222701,13 +222701,6 @@
    "desc": "DeepSeek Harness plugin"
   },
   {
-   "repo": "yueyexiayu/dsh-bianji",
-   "name": "yueyexiayu-dsh-bianji",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness desktop workspace file editor plugin"
-  },
-  {
    "repo": "yueyexiayu/dsh-session-continuation",
    "name": "yueyexiayu-dsh-session-continuation",
    "verdict": "pending",
@@ -234270,6 +234263,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Connect a locally signed-in MiniMax Code account to DeepSeek Harness through a loopback reverse proxy. No API key storage and no sign-out."
+  },
+  {
+   "repo": "yueyexiayu/dsh-bianji",
+   "name": "yueyexiayu-dsh-bianji",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness desktop workspace file editor plugin"
   },
   {
    "repo": "yuhhhong/dsh-sidechat",
