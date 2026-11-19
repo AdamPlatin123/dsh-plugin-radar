@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T18:47:35Z",
+ "generated_at": "2026-11-19T19:17:30Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -204396,13 +204396,6 @@
    "desc": "A full IDE inside DeepSeek Harness — file tree, tabs, AI chat, Git, terminal, Python/TypeScript LSP and CodeMirror 6."
   },
   {
-   "repo": "toddpan/dsh-xiaozhi",
-   "name": "toddpan-dsh-xiaozhi",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "把小智（Xiaozhi.me）语音助手接入 DSH Web：DSH 作为 MCP 工具提供方，把 35 个 DSH Web 接口封装成 16 个语音友好工具，自带 DSH Web 设置页"
-  },
-  {
    "repo": "TreeCodeTyper/dsh-blender-mc",
    "name": "treecodetyper-dsh-blender-mc",
    "verdict": "ok",
@@ -205465,13 +205458,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Diagrams a reader understands on first look — one JSON spec to a self-contained HTML page, with a machine-chec"
-  },
-  {
-   "repo": "Biogod2020/dsh-article-review",
-   "name": "biogod2020-dsh-article-review",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "DSH Markdown manuscript review plugin source: annotations, proposals, version comparison, figures and BibTeX"
   },
   {
    "repo": "BitDG/dsh-cloud-model-providers",
@@ -227055,6 +227041,13 @@
    "desc": "Online-model video generation for DeepSeek Harness: three model tools, a durable provider-task ledger that survives restarts, live chat cards and a Videos panel, cost estimates from a public price feed."
   },
   {
+   "repo": "toddpan/dsh-xiaozhi",
+   "name": "toddpan-dsh-xiaozhi",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "把小智（Xiaozhi.me）语音助手接入 DSH Web：DSH 作为 MCP 工具提供方，把 35 个 DSH Web 接口封装成 16 个语音友好工具，自带 DSH Web 设置页"
+  },
+  {
    "repo": "Tureen/dsh-acp-resume",
    "name": "tureen-dsh-acp-resume",
    "verdict": "incompatible",
@@ -227487,6 +227480,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "Biogod2020/dsh-article-review",
+   "name": "biogod2020-dsh-article-review",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DSH Markdown manuscript review plugin source: annotations, proposals, version comparison, figures and BibTeX"
   },
   {
    "repo": "bocchii-the-code/dsh-nerd-mode",
