@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-19T02:50:24Z",
+ "generated_at": "2026-11-19T08:32:26Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -92107,6 +92107,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "追番订阅 DSH 插件：Bangumi 查番 + nyaa/dmhy 搜种 + qBittorrent 自动下载 + 媒体库查重 + 日历 GUI"
+  },
+  {
+   "repo": "yishan/dsh-burn",
+   "name": "yishan-dsh-burn",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Per-session token spend, peak/off-peak pricing, and account balance for the DeepSeek Harness web UI."
   },
   {
    "repo": "yll86/dsh-theme-aemath",

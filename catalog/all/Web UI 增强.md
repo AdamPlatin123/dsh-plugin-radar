@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（7810）
+# 🔌 Web UI 增强（7811）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -7740,6 +7740,7 @@
 - 🟨 `[不兼容]` [yingblock-dsh-plugin-files-download](https://github.com/Yingblock/dsh-plugin-files-download) ★0 — Download buttons on every row of the DSH web GUI's file tree, served by an authenticated streaming Host route
 - 🟨 `[不兼容]` [yingmoon0715-rightbar-driver](https://github.com/Yingmoon0715/rightbar-driver) ★0 — Drive the built-in browser inside the DSH right sidebar: open, navigate, read, click, fill, close.
 - 🟨 `[不兼容]` [yiran0-dsh-bangumi](https://github.com/YiRan0/dsh-bangumi) ★0 — 追番订阅 DSH 插件：Bangumi 查番 + nyaa/dmhy 搜种 + qBittorrent 自动下载 + 媒体库查重 + 日历 GUI
+- 🟨 `[不兼容]` [yishan-dsh-burn](https://github.com/yishan/dsh-burn) ★0 — Per-session token spend, peak/off-peak pricing, and account balance for the DeepSeek Harness web UI.
 - 🟨 `[不兼容]` [yll86-dsh-theme-aemath](https://github.com/yll86/dsh-theme-aemath) ★0 — AEMEATH Theme - sakura violet-rose theme plugin for the DeepSeek Harness Web GUI
 - 🟨 `[不兼容]` [ymc521-dsh-model-groups](https://github.com/YMC521/dsh-model-groups) ★0 — DSH 插件：把模型选择列表按供应商折叠成手风琴，带搜索与推理等级侧栏面板
 - 🟨 `[不兼容]` [ymf2317-tech-dsh-rail-order](https://github.com/ymf2317-tech/dsh-rail-order) ★0 — Drag-to-order for the DeepSeek Harness left rail: panel icons, pinned sessions, workspaces, sessions and view tabs. Frozen fork of dsh-sidebar-entries.
