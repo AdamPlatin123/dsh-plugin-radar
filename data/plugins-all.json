@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T22:17:44Z",
+ "generated_at": "2026-11-20T23:32:08Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -404,7 +404,7 @@
   {
    "repo": "Aik358/dsh-auto-memory",
    "name": "dsh-auto-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 205,
    "desc": "Proactive associative memory for DSH: system-prompt recall before the model speaks, three-layer auto-consolida"
   },
@@ -149196,7 +149196,7 @@
   {
    "repo": "AlliotTech/deepseek-harness-docker",
    "name": "alliottech-deepseek-harness-docker",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 21,
    "desc": "deepseek-harness docker部署"
   },
