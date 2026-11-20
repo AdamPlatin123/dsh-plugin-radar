@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8827）
+# 🔌 Web UI 增强（8829）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4888,6 +4888,7 @@
 - ⬜ `[待定]` [kingchen95272025-dsh-cursor-rules](https://github.com/kingchen95272025/dsh-cursor-rules) ★0 — Loads Cursor .mdc rules into the DeepSeek Harness agent context and adds a rules panel to the Web GUI.
 - 🟩 `[可用]` [kingdawangxta-dsh-pixel-crt](https://github.com/kingdawangXTA/dsh-pixel-crt) ★0 — Dark CRT pixel skin for the DSH Web GUI conversation pane
 - 🟩 `[可用]` [kingzhz-dsh-global-rules](https://github.com/kingzhz/dsh-global-rules) ★0 — Global AGENTS-style rules as many independent markdown files, with a settings GUI — fills the gap left by Deep
+- 🟩 `[可用]` [kira905-dsh-butler-panel](https://github.com/kira905/dsh-butler-panel) ★0 — 大管家面板：在 DSH 侧边栏看任务/健康/流水的一屏仪表盘，只读为主
 - 🟩 `[可用]` [kirinkylin-1-dsh-annotated-browser](https://github.com/KirinKylin-1/dsh-annotated-browser) ★0 — Annotation for the DSH sidebar browser: render pages through a same-origin host proxy, then click an element o
 - ⬜ `[待定]` [kiriukazurei-dsh-git-tree](https://github.com/KiriuKazurei/dsh-git-tree) ★0 — Draggable Git graph HUD and commit diff sidebar for DeepSeek Harness (DSH) Web.
 - ⬜ `[待定]` [kiriukazurei-dsh-skill-mcp-workbench](https://github.com/KiriuKazurei/dsh-skill-mcp-workbench) ★0 — Manage global skills and MCP servers in the DeepSeek Harness Web sidebar.
@@ -8037,6 +8038,7 @@
 - 🟨 `[不兼容]` [chenneyzhuang-estimate-before-build](https://github.com/ChenneyZhuang/estimate-before-build) ★0 — Estimate-before-build skill: bounded task list, S/M/L/XL band estimates with uncertainty drivers named, scope-
 - 🟨 `[不兼容]` [chenpiyanghappy-dsh-buddy-suite](https://github.com/chenpiyanghappy/dsh-buddy-suite) ★0 — WorkBuddy 模型接入与每日签到合一的 DeepSeek Harness 插件 (cn models + daily check-in in one plugin)
 - 🟨 `[不兼容]` [chenvinc-dsh-cto-office](https://github.com/chenvinc/dsh-cto-office) ★0 — CTO 办公室模式：一名 CTO 带六个岗位（架构师、工程师、评审、QA、UI/UX 设计、业务）的 DeepSeek Harness agent 预设 bundle
+- 🟨 `[不兼容]` [chernyakai-dsh-aicraft](https://github.com/ChernyakAI/dsh-aicraft) ★0 — A workflow builder for DeepSeek Harness with custom roles, stages, and task artifacts.
 - 🟨 `[不兼容]` [cherrchen-dsh-auto-review-panel](https://github.com/cherrchen/dsh-auto-review-panel) ★0 — Read-only DeepSeek Harness (DSH) plugin that surfaces the official Auto Review verdicts — review records and h
 - 🟨 `[不兼容]` [cherrchen-dsh-client-ui-details-host](https://github.com/cherrchen/dsh-client-ui-details-host) ★0 — 可移植 DSH Client Details 栏基础设施，在 AppFrame 详情列承载活动 surface；DeepSeek Harness Desktop 内置
 - 🟨 `[不兼容]` [cherrchen-dsh-plugin-scaffold](https://github.com/cherrchen/dsh-plugin-scaffold) ★0 — A minimal out-of-tree DeepSeek Harness plugin scaffold: compatibility gate, host service row, browser client a
