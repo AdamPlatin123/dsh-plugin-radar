@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T22:02:15Z",
+ "generated_at": "2026-11-20T22:17:44Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -123950,6 +123950,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "m-f-vip/ugi-font",
+   "name": "m-f-vip-ugi-font",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "中文标题字 text-mask 批量出图：智能 tag 选字体，32 位 RGBA 白字透明底 PNG，按「国」字光学校正，自动裁边后四周精确补 3px"
   },
   {
    "repo": "M0rningBreeze/dsh-selection-followup",
