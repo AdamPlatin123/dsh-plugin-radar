@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T14:32:14Z",
+ "generated_at": "2026-11-20T14:47:31Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -78921,6 +78921,13 @@
    "desc": "选中 AI 回答里的词，右键「解释」，在侧栏与会话之间开一张可拖拽/折叠/固定的便利贴"
   },
   {
+   "repo": "pokereva/dsh-session-history-ui",
+   "name": "pokereva-dsh-session-history-ui",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 右侧栏插件：查看当前会话聊天记录与分支关系（跳转、过滤、置顶、拖拽排序、归档展示）"
+  },
+  {
    "repo": "PolinniZhong/dsh-visual-acceptance",
    "name": "polinnizhong-dsh-visual-acceptance",
    "verdict": "ok",
@@ -79192,6 +79199,20 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: finds out why DeepSeek's prompt cache missed, names the plugin or system prompt secti"
+  },
+  {
+   "repo": "qinghuidaqzp/dsh-night-shift",
+   "name": "qinghuidaqzp-dsh-night-shift",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: queue tasks during the day, run them automatically in DeepSeek's off-peak half-price"
+  },
+  {
+   "repo": "qinghuidaqzp/dsh-pixel-report",
+   "name": "qinghuidaqzp-dsh-pixel-report",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: turn your agent's day or week into a shareable 1080x1632 retro pixel-art battle repor"
   },
   {
    "repo": "QingshanYousi/DSH-Plugin-RedAi-Skin",
@@ -126995,6 +127016,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "信息源聚合 DSH 插件：定时摄取 RSS / B 站 / YouTube，读正文与字幕做本地预筛和三档判断，每轮出一份增量汇报"
+  },
+  {
+   "repo": "smallflycar/dsh-reading-focus",
+   "name": "smallflycar-dsh-reading-focus",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "阅读辅助：给 DeepSeek Harness 的渐变文字、阅读尺、逐行/逐段聚焦与色块分段"
   },
   {
    "repo": "smk-h/dsh-smkit",
@@ -176389,6 +176417,13 @@
    "desc": "消费者洞察工作台：填项目目标与调研类型，生成问卷、分析框架、抽样配额与 Word/Excel 交付物"
   },
   {
+   "repo": "qianxi-00/dsh-paper-workbench",
+   "name": "qianxi-00-dsh-paper-workbench",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH paper workbench: PDF library, bilingual reading, translation and native Agent sessions."
+  },
+  {
    "repo": "Qintsg/dsh-safe-delete",
    "name": "dsh-safe-delete",
    "verdict": "ok",
@@ -180069,6 +180104,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-插件｜一个专业的医院感染病例分析工作台"
+  },
+  {
+   "repo": "Ouyangyouzi/dsh-whale-backup",
+   "name": "ouyangyouzi-dsh-whale-backup",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "一键备份与恢复 DeepSeek Harness：聊天记录、插件、设置和项目文件，支持本地磁盘或 WebDAV"
   },
   {
    "repo": "Parirose/dsh-cardcatalog",
