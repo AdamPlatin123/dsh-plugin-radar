@@ -10,6 +10,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-tiaforge | [tia-forge/dsh-tiaforge](https://github.com/tia-forge/dsh-tiaforge) | 博途（TIA Portal）工程插件：注册 6 个技能 + 5 个 MCP 端点（编程文档检索 / 云端逐扫描仿真 / LadDoc 转可导入 SimaticML / 梯形图渲染 / 本机网关操作真实博途工程）；四个云端点各 100 次免费额度，操作真实工程需 Windows + 博途 V17–V21 + Openness；npm `dsh-tiaforge` 0.3.3，无运行时依赖 | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
