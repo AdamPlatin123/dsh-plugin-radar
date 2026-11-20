@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9019）
+# 🔌 Web UI 增强（9022）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6833,6 +6833,7 @@
 - 🟩 `[可用]` [zengxiangpeng123-dsh-sidebar-fold-zxp](https://github.com/zengxiangpeng123/dsh-sidebar-fold-zxp) ★0 — 把 DSH 左侧那排插件入口折成一行「插件列表」，按组归类、自定义顺序，把高度还给工作区与会话列表
 - 🟩 `[可用]` [zengxiaolou-dsh-effort-dial](https://github.com/zengxiaolou/dsh-effort-dial) ★0 — DSH 插件：输入框推理强度滑杆（鲸鱼娘 + canvas 辐射特效），Auto 区间与模型路由
 - ⬜ `[待定]` [zengxiaolou-dsh-pr-panel](https://github.com/zengxiaolou/dsh-pr-panel) ★0 — —
+- ⬜ `[待定]` [zephinel-dsh-power-suite](https://github.com/Zephinel/dsh-power-suite) ★0 — —
 - 🟩 `[可用]` [zeppeli777-dsh-stardew-skin](https://github.com/Zeppeli777/dsh-stardew-skin) ★0 — Stardew Valley theme for DeepSeek Harness Web UI — official token-override theme (dsh-theme-stardew) plus a fu
 - ⬜ `[待定]` [zeppeli777-idea-git](https://github.com/Zeppeli777/idea-git) ★0 — An IntelliJ IDEA-style Git workbench for the DeepSeek Harness Web UI: commit graph, branches, diffs, annotate,
 - 🟩 `[可用]` [zerodegress-dsh-tui-favors](https://github.com/zerodegress/dsh-tui-favors) ★0 — A dsh-TUI plugin that pins the model, reasoning effort, agent preset and permission mode every new  conversati
@@ -8542,6 +8543,7 @@
 - 🟨 `[不兼容]` [lliangworld-dsh-rule-guard](https://github.com/lliangworld/dsh-rule-guard) ★0 — DeepSeek Harness 的纯本地命令规则守卫
 - 🟨 `[不兼容]` [llyyhh0487-dsh-input-polish](https://github.com/llyyhh0487/dsh-input-polish) ★0 — —
 - 🟨 `[不兼容]` [lmq00-dsh-prompt-polish](https://github.com/LMQ00/dsh-prompt-polish) ★0 — 把粗糙提示词转写成规范提示词，浮层预览确认后写入输入框（不自动发送）
+- 🟨 `[不兼容]` [lnqxyz-dsh-recent-tasks](https://github.com/lnqxyz/dsh-recent-tasks) ★0 — DeepSeek Harness 侧栏「最近任务」面板：正在运行 / 收藏 / 未读 / 已完成四区，点 + 在记住的文件夹里开新会话
 - 🟨 `[不兼容]` [lnyuqian-dsh-quick-prompts](https://github.com/lnyuqian/dsh-quick-prompts) ★0 — DSH 插件（Web 版 / 桌面版通用）：输入框上方常驻快捷条 + 闪电笔弹层，点选预设提示词追加到原有内容之后（不清空），可按条开启自动发送、可设序号排序，支持 MD 导入导出；数据存全局 ~/.dsh/quick-
 - 🟨 `[不兼容]` [lock-down-dsh-capability-switch](https://github.com/lock-down/dsh-capability-switch) ★0 — A DSH sidebar plugin for managing Skills and MCP servers, with symlink sync and app import.
 - 🟨 `[不兼容]` [loeissu-dsh-plugin-mobile-ui](https://github.com/loeissu/dsh-plugin-mobile-ui) ★0 — Mobile-first UI for the DeepSeek Harness web client — an official slot client plugin
@@ -8856,6 +8858,7 @@
 - 🟨 `[不兼容]` [weibaohui-dsh-plugin-scheduled-items](https://github.com/weibaohui/dsh-plugin-scheduled-items) ★0 — DeepSeek Harness plugin: cron-driven scheduled items with a full-page management UI
 - 🟨 `[不兼容]` [weijianguizhou-dsh-task-notify](https://github.com/weijianguizhou/dsh-task-notify) ★0 — —
 - 🟨 `[不兼容]` [weimingyu9312-dshswitch](https://github.com/weimingyu9312/DSHSwitch) ★0 — DSH 插件 — 在 DSH Web GUI 聊天输入框左侧添加可自定义的 switch 快捷按钮
+- 🟨 `[不兼容]` [weiwenhao-dudu](https://github.com/weiwenhao/dudu) ★0 — An efficient multi-agent collaboration assistant built on DSH
 - 🟨 `[不兼容]` [wendaokeliu-sys-dsh-skill-console](https://github.com/wendaokeliu-sys/dsh-skill-console) ★0 — A skill manager for the DeepSeek Harness web GUI
 - 🟨 `[不兼容]` [wenhongquan-dsh-open-file-viewer](https://github.com/wenhongquan/dsh-open-file-viewer) ★0 — Open File Viewer preview for DSH — PDF, Office, images, archives, CAD/3D/GIS preview inside the sidebar
 - 🟨 `[不兼容]` [wenjun81-dsh-vscode](https://github.com/wenjun81/dsh-vscode) ★0 — DSH sidebar plugin bridging VS Code: launch VS Code, browse workspace files, send them as attachments to the c

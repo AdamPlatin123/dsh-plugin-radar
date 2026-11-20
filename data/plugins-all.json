@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T18:02:51Z",
+ "generated_at": "2026-11-20T18:18:38Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -86712,6 +86712,13 @@
    "desc": "—"
   },
   {
+   "repo": "Zephinel/dsh-power-suite",
+   "name": "zephinel-dsh-power-suite",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "Zeppeli777/dsh-stardew-skin",
    "name": "zeppeli777-dsh-stardew-skin",
    "verdict": "ok",
@@ -98563,6 +98570,13 @@
    "desc": "把粗糙提示词转写成规范提示词，浮层预览确认后写入输入框（不自动发送）"
   },
   {
+   "repo": "lnqxyz/dsh-recent-tasks",
+   "name": "lnqxyz-dsh-recent-tasks",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness 侧栏「最近任务」面板：正在运行 / 收藏 / 未读 / 已完成四区，点 + 在记住的文件夹里开新会话"
+  },
+  {
    "repo": "lnyuqian/dsh-quick-prompts",
    "name": "lnyuqian-dsh-quick-prompts",
    "verdict": "incompatible",
@@ -100738,6 +100752,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 插件 — 在 DSH Web GUI 聊天输入框左侧添加可自定义的 switch 快捷按钮"
+  },
+  {
+   "repo": "weiwenhao/dudu",
+   "name": "weiwenhao-dudu",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "An efficient multi-agent collaboration assistant built on DSH"
   },
   {
    "repo": "wendaokeliu-sys/dsh-skill-console",
@@ -180951,6 +180972,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Derived self-check for changed files in AI coding-agent sessions: parses PowerShell/JS/JSON, runs the tests th"
+  },
+  {
+   "repo": "Tlr18348452080-hub/soma-humanoid-walker",
+   "name": "tlr18348452080-hub-soma-humanoid-walker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A humanoid body for AI that walks by itself: C++ 60 Hz bipedal walker (LIPM + capture point/ZMP), 18-node ragd"
   },
   {
    "repo": "Tpihis/dsh-session-todos",
