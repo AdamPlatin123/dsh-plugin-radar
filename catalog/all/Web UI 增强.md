@@ -1014,7 +1014,6 @@
 - 🟩 `[可用]` [christophersmith2737-commits-offpeak](https://github.com/christophersmith2737-commits/OffPeak) ★3 — 针对 DeepSeek V4‑Flash / V4‑Pro 高峰涨价时段的成本管控 Agent 插件
 - 🟩 `[可用]` [chuxumilk-dsh-404-panic-lock](https://github.com/chuxumilk/dsh-404-panic-lock) ★3 — 用DSH 开发的轻量化插件:按 Ctrl+Shift+L 一键把页面伪装成静态 404 截图,暂时锁死鼠标键盘,防止别人乱动电脑
 - 🟩 `[可用]` [civaapple-alt-pi-cordis](https://github.com/civaapple-alt/pi-cordis) ★3 — 🥧 Developer-first terminal coding agent rebuilt on Cordis (v4.0.1) microkernel with an "Everything is a plugin
-- `[空仓监测]` **cmfok-dsh-feishucard** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [cn-scuo-oo-dsh-deepseek-quota](https://github.com/cn-scuo-oo/dsh-deepseek-quota) ★3 — DeepSeek Harness Web 侧边栏 DeepSeek API 额度卡片 + 充值面板插件 \| Sidebar quota card & recharge panel for DeepSeek Harness
 - 🟩 `[可用]` [cngtn-dsh-cngtn-pond](https://github.com/cngtn/dsh-cngtn-pond) ★3 — Paper-and-ink theme for DeepSeek Harness, with a living ASCII koi pond
 - 🟩 `[可用]` [coldgust-dsh-translation-assistant](https://github.com/coldgust/dsh-translation-assistant) ★3 — 面向 DeepSeek Harness 的 AI 翻译工作流插件：文本、文件、截图与整个文件夹由 AI 翻译，术语与文风规范自动附带；评分与评语转化为重写指令，支持双模型协作，一个负责翻译、一个负责评审
@@ -7228,6 +7227,7 @@
 - 🟨 `[不兼容]` [benhuhuan-dhs-tuicode](https://github.com/BenHuHuan/dhs-tuicode) ★3 — DSH plug -- cli coding agent with Minimal/Router profiles, \[Windows\] support, MCP, agents, and a polished TUI.〔📦〕
 - 🟨 `[不兼容]` [deepseek-harness-external-migration](https://github.com/buguoshixc/deepseek-harness-external-migration) ★3 — **DeepSeek-Harness Migration Plugin** 是一款专为 \[DeepSeek-Harness\](https://github.com/deepseek-ai/deepseek-harness
 - 🟨 `[不兼容]` [cccodder-dsh-remote-console](https://github.com/cccodder/dsh-remote-console) ★3 — DSH (DeepSeek Harness) plugin — right-sidebar SSH terminal where you and your AI agent share one PTY, one acti
+- `[空仓监测]` **cmfok-dsh-feishucard** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [cyjyyd-dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) ★3 — DSH Relay — remote-first terminal UI for DeepSeek Harness coding agents
 - 🟨 `[不兼容]` [daodishisha28-dsh-sidechat-plugin](https://github.com/daodishisha28/dsh-sidechat-plugin) ★3 — Open a persistent side conversation from any DeepSeek Harness session to investigate questions, clarify requir
 - 🟨 `[不兼容]` [davidalmeida90-finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) ★3 — Equity valuation skills and data MCPs for DeepSeek Harness and Claude Code
