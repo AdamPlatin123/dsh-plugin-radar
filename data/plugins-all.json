@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T14:47:31Z",
+ "generated_at": "2026-11-20T15:32:34Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -17671,6 +17671,13 @@
    "desc": "Live layered architecture map of the DeepSeek Harness: plugins, services, tools, sessions, models and MCP rend"
   },
   {
+   "repo": "Haibo0223/dsh-mainbrain-prompt-optimizer",
+   "name": "haibo0223-dsh-mainbrain-prompt-optimizer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness prompt optimizer: rewrite drafts into faithful, dispatch-ready task briefs, preview before re"
+  },
+  {
    "repo": "haidashu79-prog/dsh-prompt-booster",
    "name": "haidashu79-prog-dsh-prompt-booster",
    "verdict": "ok",
@@ -17718,6 +17725,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "给 DeepSeek Harness 的长期人格与记忆插件：人格分层、性格演化、长期记忆、技能反射与安全降级"
+  },
+  {
+   "repo": "hanhan9999999999999999999/dsh-macro-memory",
+   "name": "hanhan9999999999999999999-dsh-macro-memory",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "宏记忆 · Macro Memory — 一个 DSH 记忆插件接管全部记忆能力：8 个统一工具（schema 56,759 B → 8,655 B）、1,085 字符常驻注入、meow 七层主库 + 可重建星图，能力一"
   },
   {
    "repo": "hanhan9999999999999999999/dsh-token-lock",
@@ -35372,6 +35386,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 左侧栏 AI 使用量仪表盘：token 用量、成本估算、缓存命中率、分会话/分模型统计、实时 CPU/GPU/内存监控与平台账单对账 · dsh-plugin"
+  },
+  {
+   "repo": "DennisZhangOiler/dsh-dev-workflow",
+   "name": "denniszhangoiler-dsh-dev-workflow",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Non-default Dev Workflow agent preset for DeepSeek Harness"
   },
   {
    "repo": "deqecomb/dsh-session-link",
@@ -57499,6 +57520,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "JNGKZbird/dsh-chat-with-deepseek",
+   "name": "jngkzbird-dsh-chat-with-deepseek",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "「和 DeepSeek 一起聊天吧！」（DSH Chat with DeepSeek）是 DSH 的 DeepSeek 网页聊天复刻插件：自绘复刻官网界面，只保留联网搜索工具，并且加入对话树、导航轨、全树导入导出与官方"
   },
   {
    "repo": "JoblessJoe/dsh-vitals",
@@ -100619,6 +100647,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH plugin that adds third-party free web search to DeepSeek Harness — Bing, Google, Baidu, Yandex, no API key"
+  },
+  {
+   "repo": "Vincent-chk/dsh-project-workbench",
+   "name": "vincent-chk-dsh-project-workbench",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "File-backed project requirements, tasks, reviews and acceptance workbench for DeepSeek Harness"
   },
   {
    "repo": "viyu-tech/dsh-input-limit",
@@ -203918,6 +203953,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "Token-saving context compression + evidence-backed self-evolution for DeepSeek Harness."
+  },
+  {
+   "repo": "edsml-jz2321/QuoteMem",
+   "name": "edsml-jz2321-quotemem",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "QuoteMem: auditable long-term memory for LLM agents — quoted byte-span evidence, versioned supersession, tombs"
   },
   {
    "repo": "ericfetch/dsh-sight",
