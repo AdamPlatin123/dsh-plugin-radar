@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9013）
+# 🔌 Web UI 增强（9016）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5696,6 +5696,7 @@
 - ⬜ `[待定]` [pluckslugsorrow-dsh-session-history-search](https://github.com/PluckSlugSorrow/dsh-session-history-search) ★0 — Sidebar search across every past Session for DSH: literal substring matching that also works for Chinese, resu
 - ⬜ `[待定]` [plur-ai-dsh-plugin](https://github.com/plur-ai/dsh-plugin) ★0 — PLUR memory for DeepSeek Harness — engrams injected into the system prompt, no tool call required
 - 🟩 `[可用]` [plyhi-dsh-explain-note](https://github.com/Plyhi/dsh-explain-note) ★0 — 选中 AI 回答里的词，右键「解释」，在侧栏与会话之间开一张可拖拽/折叠/固定的便利贴
+- 🟩 `[可用]` [pokereva-dsh-session-history-ui](https://github.com/pokereva/dsh-session-history-ui) ★0 — DSH 右侧栏插件：查看当前会话聊天记录与分支关系（跳转、过滤、置顶、拖拽排序、归档展示）
 - 🟩 `[可用]` [polinnizhong-dsh-visual-acceptance](https://github.com/PolinniZhong/dsh-visual-acceptance) ★0 — DSH 视觉验收｜AI 生成 Web 页面与 UI 原型的本地验收与复验工作台：检查页面是否按声明范围真实打开、记录可追溯的浏览器异常、按原条件复验，不替用户做最终审美判断
 - 🟩 `[可用]` [poloniumn-dsh-balance-display](https://github.com/poloniumn/dsh-balance-display) ★0 — Wallet balance & Token Plan usage for every enabled DSH provider, right in the sidebar · DSH 侧边栏余额与套餐用量
 - 🟩 `[可用]` [poloniumn-dsh-model-panel](https://github.com/poloniumn/dsh-model-panel) ★0 — 把输入框的模型位换成可搜索的服务商与模型表格 —— 逐模型折扣倍率、实时余额与套餐进度、渠道积分、每会话子任务开关
@@ -5736,6 +5737,8 @@
 - 🟩 `[可用]` [qingchunnh-dsh-desktop](https://github.com/qingchunnh/dsh-desktop) ★0 — DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI
 - ⬜ `[待定]` [qingfengzxr-dsh-session-flags](https://github.com/qingfengzxr/dsh-session-flags) ★0 — Colored, user-named flags for DeepSeek Harness session lists, with a searchable flagged-sessions sidebar panel
 - 🟩 `[可用]` [qinghuidaqzp-dsh-cache-doctor](https://github.com/qinghuidaqzp/dsh-cache-doctor) ★0 — DeepSeek Harness plugin: finds out why DeepSeek's prompt cache missed, names the plugin or system prompt secti
+- 🟩 `[可用]` [qinghuidaqzp-dsh-night-shift](https://github.com/qinghuidaqzp/dsh-night-shift) ★0 — DeepSeek Harness plugin: queue tasks during the day, run them automatically in DeepSeek's off-peak half-price
+- 🟩 `[可用]` [qinghuidaqzp-dsh-pixel-report](https://github.com/qinghuidaqzp/dsh-pixel-report) ★0 — DeepSeek Harness plugin: turn your agent's day or week into a shareable 1080x1632 retro pixel-art battle repor
 - `[空仓监测]` **qingli-sketch-dsh-ui-kit** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [qingshanyousi-dsh-plugin-redai-skin](https://github.com/QingshanYousi/DSH-Plugin-RedAi-Skin) ★0 — —
 - ⬜ `[待定]` [qingshuiliuyun-dsh-node-monitor](https://github.com/qingshuiliuyun/dsh-node-monitor) ★0 — —
