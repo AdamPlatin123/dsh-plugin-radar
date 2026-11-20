@@ -237,7 +237,7 @@
 | dsh-subagent-cwd | [lynx-gt/dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) | dsh-subagent-tools 加按次 cwd（子代理工作目录），附两处进程内 provider 补丁；rc.6 前台/后台 cwd 实测通过 | ✅ |
 | dsh-update-notifier | [arvin-yd/dsh-update-notifier](https://github.com/arvin-yd/dsh-update-notifier) | DSH 本体版本徽标：常驻侧边栏 Settings 行右侧，三色状态点（红=有更新/绿=最新/黄=检查中或失败），点开五态弹窗（复制更新命令/忽略/稍后/立即检查），启动 10s 首查+6h 复查；零构建、29 单测、mock-llm headless L4 实测（mainline 47f9438，证据见 [VERIFICATION.md](https://github.com/arvin-yd/dsh-update-notifier/blob/main/VERIFICATION.md)） | ✅ |
 | dsh-daily-kit | [zhouwei713/dsh-daily-kit](https://github.com/zhouwei713/dsh-daily-kit) | 日常插件集合 monorepo：16 个插件（审批门/桌面与Webhook通知/成本计量/会话导出/Ollama 本地模型/上下文水位/办公文档解析/本地文件夹索引/cron 全局调度/RSS与网页内容监控/日历/Gmail/待办/天气地点/票据识别/音视频转录）+ 4 个一键 bundle（dev-buddy/evidence-wall/inbox-zero/daily-briefing）；权限透明、读取优先、零 native 依赖，596 单测，dsh rc.6/rc.7 真实加载与 npm 安装实测通过 | ✅ |
-| dsh-suite (STARDUSTLC666) | [STARDUSTLC666/dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) | 18 组件组合补丁包：一条命令拉取并固定加载 18 个独立插件（含 9 个支持 5 套主题切换的原生工作台），统一注入办公流/媒体/DevOps/通知与极简 PTC 默认配置，带 Cordis 热重载清理与组件页底部的整包热更新/回滚控件；请勿与组件重复直装；npm `@stardustlc/dsh-suite` | 待测 |
+| dsh-suite (STARDUSTLC666) | [STARDUSTLC666/dsh-suite](https://github.com/STARDUSTLC666/dsh-suite) | 18 组件组合补丁包：安装套件即可拉取精确版本的办公流/媒体/DevOps/通知插件与极简 PTC 配置，提供 10 个支持 5 套主题的原生工作台；更新入口位于工作台及原生插件详情页，组件随 Suite 整包管理；Review 与 Computer Use 作为配套插件另行提供；npm `@stardustlc/dsh-suite` | 待测 |
 | agent-body | [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) | 器官化插件平台（插件集）：仓库内 14 个可安装插件包各自声明为器官（能力 / 感知 / 反射弧），内核提供其余生理活动——变速心跳把当前指令与稳态告警泵向全身、神经冲动把命令确定性支配到负责它的器官、反射弧零模型调用即开火、空闲期把运行经历巩固成记忆卡、失败先归因（缺工具/参数/权限/超时/网络/不存在/冲突）再决定是否重试且复检才闭合伤口。工具 schema 按当前意图显影，仓库内冷启动基准 48 条命令省 84.71% tool schema token | 待测 |
 
 ## 🎓 技能
@@ -347,7 +347,7 @@
 | dsh-voice | [STARDUSTLC666/dsh-voice](https://github.com/STARDUSTLC666/dsh-voice) | 语音双件套：voice_tts（edge-tts 免费微软神经语音）/ voice_stt（OpenAI 兼容 ASR）/ voice_list / voice_preview 音色批量试听 / voice_health 自检，WebSocket 直连，插件级代理 | ✅ |
 | dsh-codex-port | [STARDUSTLC666/dsh-codex-port](https://github.com/STARDUSTLC666/dsh-codex-port) | 把 ~/.codex 官方插件（186 插件、583 技能）一键移植为 DSH 技能：codex_list/port/status/health，frontmatter 转换、幂等跳过、Codex 目录自检，技能可跨 harness | ✅ |
 | dsh-dream | [STARDUSTLC666/dsh-dream](https://github.com/STARDUSTLC666/dsh-dream) | 任务经验记忆工作台：9 个 dream_* 工具 + dream-protocol 技能，任务后提取带来源证据的候选经验，待审阅队列核对范围与例外后手动采纳（J/K/A/D 快捷键），相关任务自动召回，支持 AGENTS.md 规则差异预览与回滚及 5 套工作台主题；npm `@stardustlc/dsh-dream` | ✅ |
-| dsh-ppt | [STARDUSTLC666/dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) | 演示文稿工作台与 9 个 ppt_* 工具：从文本、大纲或参考 .pptx（ppt_absorb 样式与版式解析）导出离线 HTML 放映、可编辑 PPTX 与工程包，内置 24 套演示主题、6 套母版骨架与 20 套场景蓝图，支持点选改字、撤销、排版检查与 5 套工作台主题 | ✅ |
+| dsh-ppt | [STARDUSTLC666/dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) | 演示文稿工作台与 13 个 ppt_* 工具：文本/Office 文档导入与参考 .pptx 样式解析，导出离线 HTML 放映、可编辑 PPTX 与工程包；内置 24 套演示主题、6 套母版骨架、20 套标杆范本及 Few-Shot JSON，支持调研分镜策划、证据账本与出处检查、双击改字/撤销及 5 套工作台主题（检索与交叉核验由 Agent 调用外部工具完成） | ✅ |
 | dsh-minimal-ptc | [STARDUSTLC666/dsh-minimal-ptc](https://github.com/STARDUSTLC666/dsh-minimal-ptc) | 极简 PTC 模式 Agent 预设：一句 RL 对齐提示词 + PTC 全量工具，安装即物化到用户预设目录，不覆盖用户自建预设 | ✅ |
 | ncm-player | [WolfGenerals/ncm-player](https://github.com/WolfGenerals/ncm-player) | 网易云音乐浮窗播放器：歌单/歌词/歌词翻译/播放队列/账号登录，适配皮肤主题 | 待测 |
 | dsh-theme-eink-retro | [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) | DSH Web UI 纸墨风客户端主题：平衡模式保留语义状态色，沉浸模式采用黑白显示；设置可在浏览器本地切换与持久化 | ✅ |
