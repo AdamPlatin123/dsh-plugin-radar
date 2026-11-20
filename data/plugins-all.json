@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T10:47:29Z",
+ "generated_at": "2026-11-20T11:03:04Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4572,6 +4572,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "把小米 MiMo AI Studio 网页端接进 DSH：用浏览器登录态（不是 API Key）驱动 agent"
+  },
+  {
+   "repo": "misaki-rx/dsh-inplace-annotate",
+   "name": "misaki-rx-dsh-inplace-annotate",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "A DSH (DeepSeek Harness) plugin for annotating agent replies: select text to mark Agree/Disagree/Question/Comm"
   },
   {
    "repo": "Miyamiz39/mihaji-memory",
@@ -122237,6 +122244,13 @@
    "desc": "—"
   },
   {
+   "repo": "MUYU46548/dsh-fangcun",
+   "name": "muyu46548-dsh-fangcun",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "方寸的DSH插件，这是方寸的附属插件，适用于DeepSeek Harness"
+  },
+  {
    "repo": "mwbimh/dsh-plugin",
    "name": "mwbimh-dsh-plugin",
    "verdict": "pending",
@@ -124111,6 +124125,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "shiftonetothree/dsh-starter",
+   "name": "shiftonetothree-dsh-starter",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "帮助用户快速上手Deepseek Harness的插件"
   },
   {
    "repo": "shiliman/better-plugin-combine-dsh-society",
@@ -176669,6 +176690,13 @@
    "desc": "DSH (DeepSeek Harness) tool plugin: archive and read X (Twitter) posts as permanent Markdown snapshots, powere"
   },
   {
+   "repo": "ORIOW/xparse-bridge",
+   "name": "oriow-xparse-bridge",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "A dsh plugin to allow dsh to use textin xparse API while your workbuddy is already connected to the same texti"
+  },
+  {
    "repo": "ostar999/ostar-dsh-nosocomial-infection-workbench-op",
    "name": "ostar999-ostar-dsh-nosocomial-infection-workb",
    "verdict": "ok",
@@ -203337,6 +203365,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Docs before code: one page per feature so your agent stops grepping and starts knowing."
+  },
+  {
+   "repo": "meltartica/dsh-mistral-vibe",
+   "name": "meltartica-dsh-mistral-vibe",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Mistral Vibe in DeepSeek Harness: a self-contained Mistral La Plateforme provider with the current Vibe model"
   },
   {
    "repo": "mengyaoi/dsh-mcp-pack",
