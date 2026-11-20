@@ -59,7 +59,7 @@
 - 🟩 `[可用]` [poco-ai-agentero-dsh-plugin](https://github.com/poco-ai/agentero-dsh-plugin) ★242 — 给 DeepSeek Harness 用的科研文献库插件：搜论文、带出处、审批入库、把笔记线索交给同会话其他插件
 - 🟩 `[可用]` [windsander-mebular](https://github.com/Windsander/Mebular) ★233 — 🌌 Mebular 忆云 · 智能体共享记忆与任务协作 \| One shared memory and task graph for all your AI agents and devices: automatic o
 - 🟩 `[可用]` [perrylink-dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) ★225 — Industry and company research domain pack for DeepSeek Harness: methodology skills, industry chain mapping, pu
-- 🟩 `[可用]` [dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) ★205 — Proactive associative memory for DSH: system-prompt recall before the model speaks, three-layer auto-consolida
+- ⬜ `[待定]` [dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) ★205 — Proactive associative memory for DSH: system-prompt recall before the model speaks, three-layer auto-consolida
 - 🟩 `[可用]` [vladimir-human-ru-marketplace-mcp](https://github.com/Vladimir-Human/ru-marketplace-mcp) ★194 — MCP-серверы и сравнение цен без API-ключей для 12 площадок РФ и Китая (Wildberries / WB, Ozon, Яндекс Маркет,
 - 🟩 `[可用]` [shanliuling-skills-link](https://github.com/shanliuling/skills-link) ★188 — Sync your local skills across 41+ AI coding agents with a single command.
 - ⬜ `[待定]` [superpowers-dsh](https://github.com/LayneChai/superpowers-dsh) ★169 — Superpowers skills for DeepSeek Harness: TDD, debugging, planning, and collaboration skills adapted from obra/
