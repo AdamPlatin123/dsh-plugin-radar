@@ -4447,7 +4447,7 @@
 - 🟩 `[可用]` [flem83-dsh-opencode-quota-panel](https://github.com/Flem83/dsh-opencode-quota-panel) ★0 — DSH plugin: OpenCode Go subscription quota (5h/weekly/monthly) in the DSH Web UI · 在 DSH 网页界面显示 OpenCode Go 订阅
 - 🟩 `[可用]` [floweroid-dsh-sidebar-ingblock](https://github.com/Floweroid/dsh-sidebar-ingblock) ★0 — A collapsible "In Progress" group for the DSH Web sidebar: collect sessions from each session row's ..
 - 🟩 `[可用]` [flowingboy-dsh-session-manager](https://github.com/flowingboy/dsh-session-manager) ★0 — DSH web GUI session manager plugin: archive (soft-delete) and bulk archive sessions from a sidebar panel
-- ⬜ `[待定]` [flupke91-dsh-phone-control](https://github.com/flupke91/dsh-phone-control) ★0 — DSH bundle: control the DeepSeek Harness web GUI from a phone/tablet on the same LAN
+- 🟩 `[可用]` [flupke91-dsh-phone-control](https://github.com/flupke91/dsh-phone-control) ★0 — DSH bundle: control the DeepSeek Harness web GUI from a phone/tablet on the same LAN
 - 🟩 `[可用]` [fly-cat-2015-dsh-quick-input](https://github.com/fly-cat-2015/dsh-quick-input) ★0 — 一个为deepseek-harness提供快捷输入的插件
 - 🟩 `[可用]` [flydubaitower-dsh-dafeiyu-counter](https://github.com/flydubaitower/dsh-dafeiyu-counter) ★0 — A third conversation view for DeepSeek Harness: a full-state 2K character scene with a status sign, the latest
 - 🟩 `[可用]` [flyfakeboy-bit-boom-art](https://github.com/flyfakeboy-bit/boom-art) ★0 — Boom Art! - DSH 发送烟花插件：以输入框为爆心，向边界外径向绽放，带 LED 边框与六档强度
