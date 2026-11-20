@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5671）
+# 🤖 Agent 能力（5674）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -616,6 +616,7 @@
 - ⬜ `[待定]` [fishexploi-dsh-mesh](https://github.com/Fishexploi/dsh-mesh) ★3 — 让局域网里的多台 DSH 互联：上级派任务、子级执行、结果回传、审批转发
 - 🟩 `[可用]` [fotor-ai-fotor-agent-plugins](https://github.com/fotor-ai/fotor-agent-plugins) ★3 — Fotor Plugin for Agents
 - 🟩 `[可用]` [dsh-credits](https://github.com/AnLifeX/dsh-credits) ★3 — DeepSeek Harness额度插件：跟随当前供应商显示余额或订阅用量，支持本会话估算、跨会话累计消耗与可视化设置
+- 🟩 `[可用]` [ghabix-spine-plugin](https://github.com/GhabiX/spine-plugin) ★3 — Spine context-management plugins for Pi (@spinejit/pi-spinejit) and DeepSeek Harness (@spinejit/dsh-spinejit),
 - 🟩 `[可用]` [gongyuancaiji-dsh-chinese-thinking](https://github.com/GongYuanCaiJi/dsh-chinese-thinking) ★3 — DeepSeek Harness 插件：让 agent 默认用中文思考与回复（移植自 superpowers-zh）
 - 🟩 `[可用]` [gsmqmwq1-dsh-skills-market](https://github.com/gsmqmwq1/dsh-skills-market) ★3 — —
 - 🟩 `[可用]` [gulagala001-dsh-trisoul](https://github.com/gulagala001/dsh-trisoul) ★3 — TriSoul —— 三魂共识 Agent：三个灵魂盲写+匿名互评，三官（对齐/博识/实证）补偿生成，画布式上下文，记忆中枢
@@ -3582,6 +3583,7 @@
 - ⬜ `[待定]` [very12345-sai](https://github.com/Very12345/sai) ★0 — A local-first Android coding agent powered by the official DeepSeek Harness
 - 🟩 `[可用]` [very12345-sai-dsh-plugins](https://github.com/Very12345/sai-dsh-plugins) ★0 — First-party DeepSeek Harness plugins for the sai Android coding agent
 - ⬜ `[待定]` [vfuncyy-dsh-edge-bridge](https://github.com/vfuncyy/dsh-edge-bridge) ★0 — Connect DeepSeek Harness to your real Microsoft Edge browser over loopback — stable refs, expect guards, effect_state, capability negotiation. Zero runtime dependencies.
+- 🟩 `[可用]` [vicfei-dsh-trustquant](https://github.com/vicfei/dsh-trustquant) ★0 — DeepSeek Harness plugin: TrustQuant financial tools — oracle-pinned pricing/portfolio/rates with calculation m
 - ⬜ `[待定]` [vicfei-dsh-vibe-trading](https://github.com/vicfei/dsh-Vibe-Trading) ★0 — Interactive trading research on DeepSeek Harness — orchestrated plan→data→compute→explain loop; numbers from a
 - 🟩 `[可用]` [viger1-dsh-pilot](https://github.com/Viger1/dsh-pilot) ★0 — ✋ Hands for your DeepSeek Harness agent — autonomous browser operation by accessibility refs, with a permissio
 - 🟩 `[可用]` [vinson1101-dsh-task-dispatch](https://github.com/vinson1101/dsh-task-dispatch) ★0 — 在 DSH 里按工作空间给真实会话派发任务，带持久任务台账与只读结果查询（零依赖插件）
@@ -3889,6 +3891,7 @@
 - ⬜ `[待定]` [yankihue-deepseek-harness-voice-mode](https://github.com/yankihue/deepseek-harness-voice-mode) ★0 — Voice mode for DeepSeek Harness: live captions, push-to-talk, spoken agent replies, barge-in, and real thread
 - 🟩 `[可用]` [yanliao66-dsh-pins](https://github.com/yanliao66/dsh-pins) ★0 — Cross-session memory pins for DeepSeek Harness (DSH): pin a note once and every later session carries it — com
 - 🟩 `[可用]` [yanqd0-dsh-mint](https://github.com/yanqd0/dsh-mint) ★0 — DSH plugin: mint issue tracking integration — session context injection, event reminders, plan binding, mint_q
+- ⬜ `[待定]` [yaohua-leo-dsh-lean-plugin](https://github.com/Yaohua-Leo/dsh-lean-plugin) ★0 — DSH Lean Proof Assistant plugin with explicit LSP/Beam modes, isolated skills, fail-closed selfcheck and proje
 - 🟩 `[可用]` [yaya716-dsh-user-prompts](https://github.com/Yaya716/dsh-user-prompts) ★0 — —
 - 🟩 `[可用]` [ycegg-dsh-a2a-doorbell](https://github.com/ycegg/dsh-a2a-doorbell) ★0 — A2A doorbell plugin for DeepSeek Harness: ring a local HTTP endpoint and wake a DSH session instantly.
 - 🟩 `[可用]` [yearncy-dsh-question-tree](https://github.com/YearnCy/dsh-question-tree) ★0 — DSH Desktop 插件：使用树形结构解决线性对话上下文过长而导致回顾问题、记录问题困难的结症，允许同时记录多个问题，自定义问题深度
