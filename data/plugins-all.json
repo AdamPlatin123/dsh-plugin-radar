@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T14:17:56Z",
+ "generated_at": "2026-11-20T14:32:14Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -37199,6 +37199,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "NapCat / OneBot 11 QQ channel plugin for DeepSeek Harness（QQ 通道：私聊/群聊、@门控、白名单、每会话独立 agent、长文分段）"
+  },
+  {
+   "repo": "MBSF-Yifan/mbsf-compaction",
+   "name": "mbsf-yifan-mbsf-compaction",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "结构即语义——未必科幻压缩引擎 \\| DSH 插件（dsh-plugin）· DeepSeek Harness 上下文压缩"
   },
   {
    "repo": "mdktelmdktel/dsh-agent-status",
@@ -87559,6 +87566,13 @@
    "desc": "按渠道商（Provider）分组、可折叠的 DSH 模型选择器：替换聊天输入框右下角原生选择器"
   },
   {
+   "repo": "zznobzz/dsh-soul-ru-lang",
+   "name": "zznobzz-dsh-soul-ru-lang",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Russian UI language pack (client overlay) for the dsh-soul personalization plugin — 401 locale keys under the"
+  },
+  {
    "repo": "zzylanmengqingchuan/dsh-session-pin",
    "name": "zzylanmengqingchuan-dsh-session-pin",
    "verdict": "ok",
@@ -98281,6 +98295,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "小红书黑马爆文榜 dsh 插件：darkhorse_rank 工具 + 爆款规律分析 + 小红书风格 HTML 导出 + 侧栏看板"
+  },
+  {
+   "repo": "LianyeSheng/dsh-hyprscope",
+   "name": "lianyesheng-dsh-hyprscope",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Hyprland desktop observation and consent-gated control for AI agents — screenshots, events and UI plans behind"
   },
   {
    "repo": "liaoshaohua123/dsh-plugin-taskbar-flash",
@@ -124869,6 +124890,13 @@
    "desc": "DeepSeek Harness plugin: LAN task mesh with a shared-folder ledger, leases and crash recovery"
   },
   {
+   "repo": "mycroft-sherlock/apple-display",
+   "name": "mycroft-sherlock-apple-display",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Control Apple Studio Display / Pro Display XDR brightness from DeepSeek Harness on Windows"
+  },
+  {
    "repo": "myg133/anspire-ai-search",
    "name": "myg133-anspire-ai-search",
    "verdict": "ok",
@@ -137838,6 +137866,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Startup crash guard for DeepSeek Harness (DSH): isolates broken frontend plugins, prevents white-screen launch"
+  },
+  {
+   "repo": "ZY-WANG-0304/dsh-bundle-presets",
+   "name": "zy-wang-0304-dsh-bundle-presets",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Named bundle-set presets for DeepSeek Harness: save, edit, apply and undo bundle compositions from the Plugins"
   },
   {
    "repo": "zy12342/usage-widget",

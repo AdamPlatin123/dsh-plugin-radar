@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9011）
+# 🔌 Web UI 增强（9013）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6959,6 +6959,7 @@
 - 🟩 `[可用]` [zysftd-dsh-quote](https://github.com/zysftd/dsh-quote) ★0 — DSH web 插件：划选/整条/粘贴大文本引用 AI 内容到输入框，发送时自动附带 > 引用块（原生风格 UI 卡片）
 - 🟩 `[可用]` [zzhi191-dsh-plugin-night-dog](https://github.com/zzhi191/dsh-plugin-night-dog) ★0 — A tan DeepSeek mascot dog named 夜官 that lives in the corner of the DSH web GUI: floats, reacts to the harness,
 - 🟩 `[可用]` [zzjq678-dsh-model-picker](https://github.com/ZZJQ678/dsh-model-picker) ★0 — 按渠道商（Provider）分组、可折叠的 DSH 模型选择器：替换聊天输入框右下角原生选择器
+- 🟩 `[可用]` [zznobzz-dsh-soul-ru-lang](https://github.com/zznobzz/dsh-soul-ru-lang) ★0 — Russian UI language pack (client overlay) for the dsh-soul personalization plugin — 401 locale keys under the
 - 🟩 `[可用]` [zzylanmengqingchuan-dsh-session-pin](https://github.com/zzylanmengqingchuan/dsh-session-pin) ★0 — Pin important sessions to the top of the DeepSeek Harness web GUI sidebar
 - 🟩 `[可用]` [zzzzzzzll-dsh-skill-manager](https://github.com/ZzzzzzzLL/dsh-skill-manager) ★0 — Visual Web manager for local DSH project and global Skills
 - 🟩 `[可用]` [tardisbooo-scientific-visual-studio](https://github.com/TardisBooo/scientific-visual-studio) ★0 — —
@@ -8506,6 +8507,7 @@
 - 🟨 `[不兼容]` [liangdabiao-dsh-gzh-ai-feed](https://github.com/liangdabiao/dsh-gzh-ai-feed) ★0 — AI公众号信息源 dsh 插件：扫描AI公众号按互动总量发现爆款文章+智能聚类+深色主题HTML日报
 - 🟨 `[不兼容]` [liangdabiao-dsh-tiktok-topic](https://github.com/liangdabiao/dsh-tiktok-topic) ★0 — TikTok 话题雷达 · dsh 插件：按 TikTok 话题 ID 查询话题作品列表（播放/点赞/评论/分享+完整链接），排序切换与游标翻页 + 侧栏看板
 - 🟨 `[不兼容]` [liangdabiao-dsh-xhs-darkhorse](https://github.com/liangdabiao/dsh-xhs-darkhorse) ★0 — 小红书黑马爆文榜 dsh 插件：darkhorse_rank 工具 + 爆款规律分析 + 小红书风格 HTML 导出 + 侧栏看板
+- 🟨 `[不兼容]` [lianyesheng-dsh-hyprscope](https://github.com/LianyeSheng/dsh-hyprscope) ★0 — Hyprland desktop observation and consent-gated control for AI agents — screenshots, events and UI plans behind
 - 🟨 `[不兼容]` [liaoshaohua123-dsh-plugin-taskbar-flash](https://github.com/liaoshaohua123/dsh-plugin-taskbar-flash) ★0 — Windows-only DeepSeek Harness plugin: reminder sounds on turn completion, questions and approvals, plus taskba
 - 🟨 `[不兼容]` [lichufeng123-dsh-public-qa-plugins](https://github.com/lichufeng123/dsh-public-qa-plugins) ★0 — Public DSH bundles for portable requirement review and local synthetic fixture generation.
 - 🟨 `[不兼容]` [lifenrir-dsh-video-preview](https://github.com/LiFenrir/dsh-video-preview) ★0 — DSH 插件：在右侧文档预览面板直接播放工作区视频，支持 HTTP Range 拖动进度 / Native video playback in DeepSeek Harness's document preview pa
