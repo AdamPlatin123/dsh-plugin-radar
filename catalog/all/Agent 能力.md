@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5798）
+# 🤖 Agent 能力（5799）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -5461,6 +5461,7 @@
 - 🟨 `[不兼容]` [marycomplex-dsh-ssh-panel](https://github.com/MARYCOMPLEX/dsh-ssh-panel) ★0 — SSH host panel for DeepSeek Harness: manage hosts (key/password) in Settings, agent tools ssh_list / ssh_exec
 - 🟨 `[不兼容]` [masknull-dsh-workspace-default-path](https://github.com/masknull/dsh-workspace-default-path) ★0 — DSH 插件：添加工作区时记住上次使用的目录，下次打开浏览对话框直接定位（预填 + 自动记忆，官方流程不动）
 - 🟨 `[不兼容]` [matt-xb-dsh-napcat](https://github.com/matt-xb/dsh-napcat) ★0 — NapCat / OneBot 11 QQ channel plugin for DeepSeek Harness（QQ 通道：私聊/群聊、@门控、白名单、每会话独立 agent、长文分段）
+- 🟨 `[不兼容]` [mbsf-yifan-mbsf-compaction](https://github.com/MBSF-Yifan/mbsf-compaction) ★0 — 结构即语义——未必科幻压缩引擎 \| DSH 插件（dsh-plugin）· DeepSeek Harness 上下文压缩
 - 🟨 `[不兼容]` [mdktelmdktel-dsh-agent-status](https://github.com/mdktelmdktel/dsh-agent-status) ★0 — DSH 会话标题栏实时进度条：现在在干什么、第几步、跑了多久、待办进度
 - 🟨 `[不兼容]` [meisijiya-dsh-hindsight-memory](https://github.com/meisijiya/dsh-hindsight-memory) ★0 — DSH 插件：把 Hindsight 记忆服务接到 DeepSeek Harness，与 omp 共用同一记忆库/同一套标签语义（单库 + 全局层/项目层双层标签），模型只看见封装后的语义化工具
 - 🟨 `[不兼容]` [meliodascz89-dsh-agent-voice](https://github.com/meliodascz89/dsh-agent-voice) ★0 — —
