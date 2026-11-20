@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T10:17:25Z",
+ "generated_at": "2026-11-20T10:32:27Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -15163,6 +15163,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Audit what context compaction actually lost: session-constraint survival (arXiv 2608.11242 measured ~17% acros"
+  },
+  {
+   "repo": "bushizhanghan/dsh-context-budget",
+   "name": "bushizhanghan-dsh-context-budget",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Per-turn context injection audit for DeepSeek-Harness: break down what each turn spends on AGENTS.md, skill ca"
   },
   {
    "repo": "byChen47/dsh-session-rehome",
@@ -31389,6 +31396,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Auto-approval permission guard for DeepSeek Harness: a middle tier between workspace-write and danger-full-acc"
+  },
+  {
+   "repo": "aewu777/screenshot-master",
+   "name": "aewu777-dsh-screenshot-master",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Cross-platform screenshot tools for AI agent harnesses: capture the screen, a display, or a window to PNG and"
   },
   {
    "repo": "ahqrt/dsh-herdr",
@@ -47743,6 +47757,13 @@
    "desc": "DSH 主题配色插件：4 套配色 × 明暗两模式，OKLCH 色域钳位 + 真实承载面对比度求解"
   },
   {
+   "repo": "0131kikimy/dsh-collect",
+   "name": "0131kikimy-dsh-collect",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "采文 · CollectKit —— DeepSeek Harness 侧边栏采集插件：优先用非桌面操控方式抓取网页正文与图片，并按需生成 docx/xlsx/pptx/pdf 等文件；附面向小白的安装与使用文档"
+  },
+  {
    "repo": "1010231693/dsh-bat-runner",
    "name": "1010231693-dsh-bat-runner",
    "verdict": "ok",
@@ -52718,6 +52739,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "dsh ui-conversation  indexed"
+  },
+  {
+   "repo": "aijacko/dsh-message-actions",
+   "name": "aijacko-dsh-message-actions",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 桌面版插件：在会话里提供撤回、删除、删至末尾、多选分享、多选导出、费用统计等，并在删除后同步隐藏侧边栏的轮次刻度"
   },
   {
    "repo": "aijunjiang/dsh-plugin-vision",
@@ -151434,6 +151462,13 @@
    "desc": "—"
   },
   {
+   "repo": "baiyang-poob1/dsh-web-read",
+   "name": "baiyang-poob1-dsh-web-read",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Read public web pages with a sandboxed headless browser, optional JavaScript rendering and script inspection f"
+  },
+  {
    "repo": "balaleikaerina/dsh-paper",
    "name": "balaleikaerina-dsh-paper",
    "verdict": "pending",
@@ -181163,6 +181198,13 @@
    "desc": "—"
   },
   {
+   "repo": "fiatlux2333/dsh-Cicada",
+   "name": "fiatlux2333-dsh-cicada",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "蝉蜕 Cicada · DSH Windows 隐私维护插件，按未打卡时长分级清理浏览记录、补入假历史、删除指定文件夹、清理使用记录及卸载指定软件"
+  },
+  {
    "repo": "Fireawa/dsh-tool-round-limited-target",
    "name": "fireawa-dsh-tool-round-limited-target",
    "verdict": "incompatible",
@@ -203472,6 +203514,13 @@
    "desc": "DSH插件：处理上游资源切换导致的Different Azure OpenAI错误，在原会话中一键处理，处理续聊时的资源绑定报错，保留原聊天记录"
   },
   {
+   "repo": "Pub-Polaris/openseek-lcm",
+   "name": "pub-polaris-openseek-lcm",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Inspired by Opencode-LCM, A LCM plugin designed for Deepseek Harness."
+  },
+  {
    "repo": "Qingzhu093/dsh-latex-studio",
    "name": "qingzhu093-dsh-latex-studio",
    "verdict": "ok",
@@ -204716,6 +204765,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 右侧栏可批注文件编辑器：懒加载文件树、行内批注、跨文件批注导航、Markdown 预览，批注可加入对话草稿"
+  },
+  {
+   "repo": "ASCII-58/long-context-budget",
+   "name": "ascii-58-long-context-budget",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin: per-session context budget slider and pre-step auto-compaction"
   },
   {
    "repo": "Asteroid-Code-Channel/dsh-workspace-atlas",
