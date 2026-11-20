@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8831）
+# 🔌 Web UI 增强（8833）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3252,6 +3252,7 @@
 - 🟩 `[可用]` [w2327644822-png-dsh-usage-analytics](https://github.com/w2327644822-png/dsh-usage-analytics) ★1 — Personal usage analytics & activity dashboard for the DeepSeek Harness (dsh) web GUI: token totals, contributi
 - 🟩 `[可用]` [waldsatte-dsh-theme-taojian](https://github.com/Waldsatte/dsh-theme-taojian) ★1 — Taojian (陶笺) — Claude-inspired DSH theme
 - 🟩 `[可用]` [walvka-code-proj-doc-builder](https://github.com/walvka-code/proj-doc-builder) ★1 — Turn a codebase into documentation an AI can read: outline per source directory, hash-based change baseline, r
+- 🟩 `[可用]` [wanderingheart-dsh-auto-memory-wh](https://github.com/WanderingHeart/dsh-auto-memory-WH) ★1 — WandeeringHeart制作的大肥鱼自动记忆插件
 - 🟩 `[可用]` [wang-shuanglin-dsh-cosplay-studio](https://github.com/Wang-Shuanglin/dsh-cosplay-studio) ★1 — Cosplay Studio for the DSH web GUI: deploy ComfyUI (Z-Image-Turbo) with a self-test, then generate a live-acti
 - ⬜ `[待定]` [wang-yifan666-repo-tutor](https://github.com/Wang-yifan666/Repo_Tutor) ★1 — An interactive repository learning tutor for DeepSeek Harness
 - ⬜ `[待定]` [wang341223-dsh-umbrella-startup](https://github.com/Wang341223/dsh-umbrella-startup) ★1 — DeepSeek Harness 启动动画插件 · 生化危机保护伞公司主题（含音频素材）
@@ -3823,7 +3824,7 @@
 - 🟩 `[可用]` [aze0695-dsh-crimson-theme](https://github.com/aze0695/dsh-crimson-theme) ★0 — —
 - 🟩 `[可用]` [azhe0306-dsh-howtolivebetter](https://github.com/Azhe0306/dsh-howtolivebetter) ★0 — DeepSeek Harness 插件：把《高性价比人生指南》装进侧栏——34 节 767 条建议离线可读，按节翻阅、全文检索、五维筛选 \| DSH plugin: read the HowToLiveBetter gu
 - 🟩 `[可用]` [azkbzxf-dsh-vscode-scrollbar](https://github.com/azkbzxf/dsh-vscode-scrollbar) ★0 — DSH plugin: restyles the conversation scrollbar to match the Visual Studio Code editor (14px, flat translucent
-- ⬜ `[待定]` [azopt-dsh-acut](https://github.com/azopt/dsh-acut) ★0 — Screenshot plugin: region capture, annotation, scrolling long capture, floating preview, pin on top
+- 🟩 `[可用]` [azopt-dsh-acut](https://github.com/azopt/dsh-acut) ★0 — Screenshot plugin: region capture, annotation, scrolling long capture, floating preview, pin on top
 - 🟩 `[可用]` [b-iurea-dsh-doc-workflow](https://github.com/b-iurea/dsh-doc-workflow) ★0 — Document-driven workflow plugin for DeepSeek Harness: verified index, clarification gates, notes & plan, live
 - 🟩 `[可用]` [b-iurea-dsh-graphify](https://github.com/b-iurea/dsh-graphify) ★0 — Graphify integration for DeepSeek Harness: graphify_* agent tools + interactive code-graph sidebar tab
 - 🟩 `[可用]` [b612wang-dsh-ui-transparency](https://github.com/B612wang/dsh-ui-transparency) ★0 — Minimalist window transparency for DeepSeek Harness: one sidebar button and a 0-90% slider that set the whole
@@ -4844,6 +4845,7 @@
 - ⬜ `[待定]` [moqi](https://github.com/JWE24-code/moqi) ★0 — Moqi — the unspoken understanding between you and your harness
 - 🟩 `[可用]` [jwilson411-dsh-loop-brake](https://github.com/jwilson411/dsh-loop-brake) ★0 — DeepSeek Harness plugin: identical tool+args circuit breaker (LOOP_BRAKE)
 - 🟩 `[可用]` [jxhsjxhs-dsh-job-lasso](https://github.com/jxhsjxhs/dsh-job-lasso) ★0 — 每天从 BOSS直聘、猎聘、LinkedIn 等站点捞远程岗位，按求职画像打分，集中显示在 Harness 面板里
+- 🟩 `[可用]` [jxligui-dsh-plugin-deepseek-chat](https://github.com/jxligui/dsh-plugin-deepseek-chat) ★0 — DeepSeek Chat panel for DeepSeek Harness (DSH): a left-navigation entry plus a right-Sidebar panel embedding c
 - ⬜ `[待定]` [jyshangguan-dsh-gui](https://github.com/jyshangguan/dsh-gui) ★0 — A Chrome launcher of Deepseek Harness
 - 🟩 `[可用]` [k12u-dsh-client-ui-pending-sound](https://github.com/k12u/dsh-client-ui-pending-sound) ★0 — —
 - 🟩 `[可用]` [k623615746-dsh-chat-split](https://github.com/k623615746/dsh-chat-split) ★0 — DSH 分屏对话插件：左侧栏入口 + 最多 4 屏并行对话，拖拽入屏即分屏，宿主顶栏与侧栏原样保留

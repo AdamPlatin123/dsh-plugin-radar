@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5674）
+# 🤖 Agent 能力（5676）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3227,6 +3227,7 @@
 - 🟩 `[可用]` [qigai74-dsh-usage-breakdown](https://github.com/qigai74/dsh-usage-breakdown) ★0 — DSH 插件：按「会话 × 供应商 × 模型」拆解调用次数与 token 用量，数据只读自 dsh-cost-meter 账本
 - ⬜ `[待定]` [qihangzhang-272-dsh-asl](https://github.com/qihangzhang-272/dsh-asl) ★0 — ASL Mode and Skill workspace for DeepSeek Harness: editable Mermaid canvas, Markdown files and native DeepSeek
 - 🟩 `[可用]` [qihongmu-dsh-plugins](https://github.com/qihongmu/dsh-plugins) ★0 — External plugins for DeepSeek Harness (dsh): Scheduled Tasks (run agent instructions on a schedule) and Token
+- 🟩 `[可用]` [qing8-max-dsh-session-overview](https://github.com/Qing8-Max/dsh-session-overview) ★0 — DeepSeek Harness plugin: an Overview tab for the conversation view (turns, time, token usage).
 - ⬜ `[待定]` [qingj01-dsh-attention-inbox](https://github.com/QingJ01/dsh-attention-inbox) ★0 — Release candidate: cross-session attention inbox for DeepSeek Harness.
 - 🟩 `[可用]` [qingying012-dsh-chinese-thinking](https://github.com/qingying012/dsh-chinese-thinking) ★0 — DeepSeek Harness plugin: tell every agent to reason in Simplified Chinese.
 - 🟩 `[可用]` [qinu321-dsh-session-rename](https://github.com/qinu321/dsh-session-rename) ★0 — Lets an AI rename its own session in DeepSeek Harness — a zero-dependency plugin that adds the session_rename
@@ -5156,6 +5157,7 @@
 - 🟨 `[不兼容]` [gongxianjin-agentranch-dsh](https://github.com/gongxianjin/agentranch-dsh) ★0 — DSH plugin: bounded DSH control of AgentRanch aw-cli (agentranch-dsh)
 - 🟨 `[不兼容]` [goodandready-dsh-smart-restart](https://github.com/GooDAnDReaDY/dsh-smart-restart) ★0 — Verified restart for DeepSeek Harness with recovery confirmation and session handoff
 - 🟨 `[不兼容]` [goshawkgggg-dsh-safe-tool](https://github.com/GoshawkGGGG/dsh-safe-tool) ★0 — DeepSeek Harness 的 AI 工具审批插件，使用AI审核AGENT调用工具的合规性并决定是否执行，审核标准可定制
+- 🟨 `[不兼容]` [grounzerliu-dsh-plan-steps](https://github.com/GrounzerLiu/dsh-plan-steps) ★0 — Reasonix-style plan steps for DeepSeek Harness: two-level plans, one sign-off path, a live plan panel
 - 🟨 `[不兼容]` [guanzhw-agentsession](https://github.com/Guanzhw/AgentSession) ★0 — —
 - 🟨 `[不兼容]` [guo120629-dotcom-dsh-send-timestamp](https://github.com/guo120629-dotcom/dsh-send-timestamp) ★0 — Per-conversation timestamp toggle for the dsh Web composer: each submitted message is followed by a hidden con
 - 🟨 `[不兼容]` [guytogay-dsh-addon-kit](https://github.com/guytogay/dsh-addon-kit) ★0 — DSH addon kit: reusable MCP servers (desktop/browsers), A2A agent bridge, skill, plugins and mobile-remote kit
