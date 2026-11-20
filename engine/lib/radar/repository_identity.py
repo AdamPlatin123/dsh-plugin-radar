@@ -18,7 +18,8 @@ class RepositoryIdentities:
         for item in (repo_map or {}).values():
             if not item.get('full_name'):
                 continue
-            observations.append((1, '', item, item.get('aliases') or []))
+            # 扫描主机导出时带 checked_at（候选清单观测时刻）：比它更早的 enrich 核验不得把改名拉回旧名
+            observations.append((1, item.get('checked_at') or '', item, item.get('aliases') or []))
         for repo, item in (enrich or {}).items():
             if item.get('canonical_id') and item.get('full_name'):
                 observations.append((2, item.get('identity_checked_at') or '', item, [repo]))

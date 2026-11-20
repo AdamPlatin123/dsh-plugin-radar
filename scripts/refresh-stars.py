@@ -12,6 +12,7 @@ token 不进 argv；限速感知）。
 依赖：环境变量 GH_TOKEN（或 gh auth token）；python3 纯标准库。
 用法：GH_TOKEN=... python3 scripts/refresh-stars.py [--dry]
 """
+import json
 import os
 import re
 import sys
