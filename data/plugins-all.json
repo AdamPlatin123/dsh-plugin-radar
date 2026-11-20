@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T11:03:04Z",
+ "generated_at": "2026-11-20T11:17:40Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4271,6 +4271,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness额度插件：跟随当前供应商显示余额或订阅用量，支持本会话估算、跨会话累计消耗与可视化设置"
+  },
+  {
+   "repo": "GhabiX/spine-plugin",
+   "name": "ghabix-spine-plugin",
+   "verdict": "ok",
+   "stars": 3,
+   "desc": "Spine context-management plugins for Pi (@spinejit/pi-spinejit) and DeepSeek Harness (@spinejit/dsh-spinejit),"
   },
   {
    "repo": "GongYuanCaiJi/dsh-chinese-thinking",
@@ -24496,6 +24503,13 @@
    "desc": "Connect DeepSeek Harness to your real Microsoft Edge browser over loopback — stable refs, expect guards, effect_state, capability negotiation. Zero runtime dependencies."
   },
   {
+   "repo": "vicfei/dsh-trustquant",
+   "name": "vicfei-dsh-trustquant",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: TrustQuant financial tools — oracle-pinned pricing/portfolio/rates with calculation m"
+  },
+  {
    "repo": "vicfei/dsh-Vibe-Trading",
    "name": "vicfei-dsh-vibe-trading",
    "verdict": "pending",
@@ -26552,6 +26566,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: mint issue tracking integration — session context injection, event reminders, plan binding, mint_q"
+  },
+  {
+   "repo": "Yaohua-Leo/dsh-lean-plugin",
+   "name": "yaohua-leo-dsh-lean-plugin",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH Lean Proof Assistant plugin with explicit LSP/Beam modes, isolated skills, fail-closed selfcheck and proje"
   },
   {
    "repo": "Yaya716/dsh-user-prompts",
@@ -54890,6 +54911,13 @@
    "desc": "DSH Best Workspace — Codex 风格的 DSH 左侧边栏：项目/会话树、分组、置顶、拖拽排序与输入框 ↑↓ 翻历史"
   },
   {
+   "repo": "feralpixel2026/dsh-osc-harness-sidebar",
+   "name": "feralpixel2026-dsh-osc-harness-sidebar",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 DeepSeek Harness 变成你自己的 Agent Harness"
+  },
+  {
    "repo": "fhy-action/dsh-cursor-halo",
    "name": "fhy-action-dsh-cursor-halo",
    "verdict": "ok",
@@ -67950,6 +67978,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Build your own coding agent with Pi dsh-plugin"
+  },
+  {
+   "repo": "dsh-plugins/dsh-git-sidebar",
+   "name": "dsh-plugins-dsh-git-sidebar",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Git sidebar for DeepSeek Harness: a left-sidebar row that opens a panel for branch, working-tree status and re"
   },
   {
    "repo": "dsh-plugins/dsh-model-prompt",
@@ -200798,6 +200833,13 @@
    "desc": "给 AI 助手装上「先出计划、再派活、随时看进度」的能力，安全证据对齐 ISO/IEC 15408:2026 结构，一条命令安装 / Plan-first multi-agent orchestration for AI"
   },
   {
+   "repo": "ac0033/product-dev",
+   "name": "ac0033-product-dev",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Product Dev：面向 Claude Code、Codex 和 DeepSeek Harness 的产品开发插件，从需求、原型与架构到开发、测试、审查与交付"
+  },
+  {
    "repo": "acus9345/dsh-block-placeholder-edits",
    "name": "acus9345-dsh-block-placeholder-edits",
    "verdict": "ok",
@@ -210528,6 +210570,13 @@
    "desc": "励志做github最好用的deepseek hamess 插件市场"
   },
   {
+   "repo": "zxygithub/dsh-agnes-create",
+   "name": "zxygithub-dsh-agnes-create",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 的 Agnes 创作插件"
+  },
+  {
    "repo": "zyf2492313716-cloud/dsh-session-hub",
    "name": "zyf2492313716-cloud-dsh-session-hub",
    "verdict": "pending",
@@ -219129,6 +219178,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH agent 自身身份（did:web + X.509）的器官化出入口"
+  },
+  {
+   "repo": "outsmall/dsh-plugin-xc-compliance",
+   "name": "outsmall-dsh-plugin-xc-compliance",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Read-only EU product compliance evidence connector for DeepSeek Harness"
   },
   {
    "repo": "OverToWind/dsh-todo",

@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8829）
+# 🔌 Web UI 增强（8831）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2346,6 +2346,7 @@
 - 🟩 `[可用]` [fengtianyang523-dsh-creation-timeline](https://github.com/fengtianyang523/dsh-creation-timeline) ★1 — A searchable file creation timeline for the DeepSeek Harness sidebar.
 - 🟩 `[可用]` [fengzhaoy-dsh-best-workspace](https://github.com/fengzhaoy/dsh-best-workspace) ★1 — DSH Best Workspace — Codex 风格的 DSH 左侧边栏：项目/会话树、分组、置顶、拖拽排序与输入框 ↑↓ 翻历史
 - `[空仓监测]` **fengzhiyushui-dsh-desktop-window** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [feralpixel2026-dsh-osc-harness-sidebar](https://github.com/feralpixel2026/dsh-osc-harness-sidebar) ★1 — 把 DeepSeek Harness 变成你自己的 Agent Harness
 - 🟩 `[可用]` [fhy-action-dsh-cursor-halo](https://github.com/fhy-action/dsh-cursor-halo) ★1 — A DeepSeek Harness plugin that makes your cursor more fluid, leaving a glowing trail as you move.
 - 🟩 `[可用]` [fiker1203-dsh-plugin-renamer](https://github.com/Fiker1203/dsh-plugin-renamer) ★1 — DSH Web UI 插件改名器：解决 plugin-switch 插件清单里插件名雷同不好分辨的问题，自动提取每个插件的说明并支持自定义别名（友好名），可与 plugin-switch 搭配使用
 - 🟩 `[可用]` [fishcg-dsh-input-prediction](https://github.com/fishcg/dsh-input-prediction) ★1 — DSH 输入预测插件：输入框灰字续写下一句（Tab 接受）+ 每轮回答后 1–3 条可一键发送的候选
@@ -4235,6 +4236,7 @@
 - 🟩 `[可用]` [dsh-kit-dsh-quicknote](https://github.com/dsh-kit/dsh-quicknote) ★0 — Capture a note from the DSH composer, keep it out of the way, and manage the list on one page.
 - 🟩 `[可用]` [dsh-mixxed-dsh-client-ui-filesystem-manager](https://github.com/dsh-mixxed/dsh-client-ui-filesystem-manager) ★0 — A customized DeepSeek Harness filetree manager UI plugin.
 - ⬜ `[待定]` [dsh-plugin-dev-dsh-plugin](https://github.com/dsh-plugin-dev/dsh-plugin) ★0 — Build your own coding agent with Pi dsh-plugin
+- 🟩 `[可用]` [dsh-plugins-dsh-git-sidebar](https://github.com/dsh-plugins/dsh-git-sidebar) ★0 — Git sidebar for DeepSeek Harness: a left-sidebar row that opens a panel for branch, working-tree status and re
 - 🟩 `[可用]` [dsh-plugins-dsh-model-prompt](https://github.com/dsh-plugins/dsh-model-prompt) ★0 — Inject per-model system-prompt guidance from ~/.agents/model-prompts by matching regex patterns against the ac
 - 🟩 `[可用]` [dsh-plugins-dsh-spellcheck-off](https://github.com/dsh-plugins/dsh-spellcheck-off) ★0 — Turn off browser spellcheck for every text input in the DSH Web UI, including the Lexical composer and all tex
 - 🟩 `[可用]` [dsh-raising-plan-dsh-anime-guide](https://github.com/DSH-Raising-Plan/dsh-anime-guide) ★0 — DeepSeek Harness 番剧插件：yuc 新番表 + 番库/Bangumi/MAL 评分榜，搜索推荐与国内外差异对照
