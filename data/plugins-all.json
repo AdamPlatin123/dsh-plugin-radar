@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T15:32:34Z",
+ "generated_at": "2026-11-20T16:02:16Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -213235,6 +213235,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "OpenCode's free-tier models for DeepSeek Harness: a local opencode serve makes the free models resolve, so no API key is needed."
+  },
+  {
+   "repo": "TengYangTuoHai/dsh-session-harbor",
+   "name": "tengyangtuohai-dsh-t3-code",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Session Harbor — 在一个 DeepSeek Harness 侧栏管理本机和多台 SSH 设备的会话"
   },
   {
    "repo": "TermerOfMe/dsh-study-reader",
