@@ -46,14 +46,22 @@ const { t } = useI18n()
   text-decoration: none;
 }
 .body { padding: 12px 14px 14px; }
-.title-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-.name { font-weight: 600; font-size: 15px; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.title-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.name {
+  flex: 1; min-width: 0;
+  font-weight: 600; font-size: 15px; color: var(--fg);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
 .desc {
   margin: 6px 0 10px; color: var(--fg-dim); font-size: 13px; line-height: 1.5;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   min-height: 2.9em;
 }
 .meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.chip { font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--fg-dim); }
-.owner { margin-left: auto; font-size: 12px; color: var(--fg-faint); font-family: var(--mono); }
+.chip { font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--fg-dim); flex: none; }
+.owner {
+  margin-left: auto; max-width: 100%;
+  font-size: 12px; color: var(--fg-faint); font-family: var(--mono);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
 </style>

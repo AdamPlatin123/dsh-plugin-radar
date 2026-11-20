@@ -38,15 +38,20 @@ const items = computed(() => {
   background: var(--line-soft); border: 1px solid var(--line-soft);
   border-radius: var(--radius); overflow: hidden;
 }
-.cell, .total { background: var(--panel); padding: 14px 16px; text-align: center; }
-.n { font-size: 24px; color: var(--tone, var(--cy)); }
+.cell, .total { background: var(--panel); padding: 16px 14px; text-align: center; min-width: 0; }
+.n { font-size: 24px; color: var(--tone, var(--cy)); line-height: 1.15; }
 .total .n { font-size: 30px; color: var(--cy); }
-.lbl { font-size: 12px; color: var(--fg-dim); margin-top: 2px; }
-.sub2 { font-size: 11px; color: var(--fg-faint); margin-top: 4px; }
+.lbl { font-size: 12px; color: var(--fg-dim); margin-top: 4px; overflow-wrap: break-word; }
+.sub2 { font-size: 11px; color: var(--fg-faint); margin-top: 4px; overflow-wrap: break-word; }
 .sub2 .num { color: var(--fg-dim); }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .strip { grid-template-columns: repeat(2, 1fr); }
-  .total { grid-column: span 2; }
+  .total { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .cell, .total { padding: 14px 10px; }
+  .n { font-size: 22px; }
+  .total .n { font-size: 28px; }
 }
 </style>
