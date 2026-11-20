@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9016）
+# 🔌 Web UI 增强（9018）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2591,6 +2591,7 @@
 - 🟩 `[可用]` [jinsiyu-dsh-auto-open-web](https://github.com/jinsiyu/dsh-auto-open-web) ★1 — deepseek harness自动打开浏览器插件，内置WebView2程序实现轻量级桌面化
 - 🟩 `[可用]` [jizenghui81-dsh-huashu-pixel](https://github.com/jizenghui81/dsh-huashu-pixel) ★1 — Warm pixel theme for the DeepSeek Harness Web UI: cream-paper and arcade-phosphor palettes, pixel chrome with
 - ⬜ `[待定]` [jmctsh-dsh-ui-desktop-pet](https://github.com/jmctsh/dsh-ui-desktop-pet) ★1 — —
+- 🟩 `[可用]` [jngkzbird-dsh-chat-with-deepseek](https://github.com/JNGKZbird/dsh-chat-with-deepseek) ★1 — 「和 DeepSeek 一起聊天吧！」（DSH Chat with DeepSeek）是 DSH 的 DeepSeek 网页聊天复刻插件：自绘复刻官网界面，只保留联网搜索工具，并且加入对话树、导航轨、全树导入导出与官方
 - 🟩 `[可用]` [joblessjoe-dsh-vitals](https://github.com/JoblessJoe/dsh-vitals) ★1 — Live CPU, memory, temperature and GPU load tab for the DeepSeek Harness (dsh) web GUI
 - ⬜ `[待定]` [jochenyang-dsh-remote](https://github.com/JochenYang/dsh-remote) ★1 — Operate DeepSeek Harness from your phone: self-hosted relay + desktop plugin tunnel with a mobile-adapted web
 - 🟩 `[可用]` [johnhom1024-dsh-loopback-bridge](https://github.com/johnhom1024/dsh-loopback-bridge) ★1 — Unlock DSH Web settings and credentials when you open the UI from a LAN IP or public hostname
@@ -8842,6 +8843,7 @@
 - 🟨 `[不兼容]` [vb2250158-dsh-speech-service](https://github.com/vb2250158/dsh-speech-service) ★0 — Removable speech enhancements for DeepSeek Harness voice input
 - 🟨 `[不兼容]` [vclike-dsh-delivery-cards](https://github.com/vclike/dsh-delivery-cards) ★0 — DeepSeek Harness 插件的独立交付卡片行：绕开 conversation.chat.turnTail 链被抢占导致的交付卡片消失；11 类文件类型图标、亮暗双主题、零依赖零构建 — DSH plugin:
 - 🟨 `[不兼容]` [vi0let-dev-dsh-free-web-search](https://github.com/vi0let-dev/dsh-free-web-search) ★0 — DSH plugin that adds third-party free web search to DeepSeek Harness — Bing, Google, Baidu, Yandex, no API key
+- 🟨 `[不兼容]` [vincent-chk-dsh-project-workbench](https://github.com/Vincent-chk/dsh-project-workbench) ★0 — File-backed project requirements, tasks, reviews and acceptance workbench for DeepSeek Harness
 - 🟨 `[不兼容]` [viyu-tech-dsh-input-limit](https://github.com/viyu-tech/dsh-input-limit) ★0 — —
 - 🟨 `[不兼容]` [vlantech-dsh-glassic-mist-theme](https://github.com/VlanTech/dsh-glassic-mist-theme) ★0 — —
 - 🟨 `[不兼容]` [wangrunwei-dsh-luxun-desktop-pet](https://github.com/WangRunWei/dsh-luxun-desktop-pet) ★0 — DSH (DeepSeek Harness) 桌宠插件：鲁迅先生桌宠，按 Agent 工作状态切换动作，任务完成播放语音，支持全屏拖拽/点击互动/静音开关

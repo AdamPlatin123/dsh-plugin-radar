@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5799）
+# 🤖 Agent 能力（5802）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2561,6 +2561,7 @@
 - ⬜ `[待定]` [gyp8735abc-dsh-mcp-manager](https://github.com/gyp8735abc/dsh-mcp-manager) ★0 — Per-workspace MCP and skill switches for DeepSeek Harness (dsh) - one popup per workspace row
 - 🟩 `[可用]` [gyxsza-approval-alert](https://github.com/gyxsza/approval-alert) ★0 — Approval alert plugin for DeepSeek Harness
 - 🟩 `[可用]` [h2298511604-ops-dsh-anatomy](https://github.com/h2298511604-ops/dsh-anatomy) ★0 — Live layered architecture map of the DeepSeek Harness: plugins, services, tools, sessions, models and MCP rend
+- 🟩 `[可用]` [haibo0223-dsh-mainbrain-prompt-optimizer](https://github.com/Haibo0223/dsh-mainbrain-prompt-optimizer) ★0 — DeepSeek Harness prompt optimizer: rewrite drafts into faithful, dispatch-ready task briefs, preview before re
 - 🟩 `[可用]` [haidashu79-prog-dsh-prompt-booster](https://github.com/haidashu79-prog/dsh-prompt-booster) ★0 — DSH plugin: auto-completes vague/incomplete prompts for non-expert users, with key-point highlights
 - ⬜ `[待定]` [haitang-hub-dsh-3d-director-desk](https://github.com/Haitang-Hub/dsh-3d-director-desk) ★0 — 3D导演台 \| DeepSeek Harness 插件：基于 three.js 的 3D 场景导演台，摆放角色、运镜、时间轴预演与镜头导出，AI Agent 通过本地零依赖 MCP 桥实时编排场景，支持从无限画布跨项目导
 - ⬜ `[待定]` [haitang-hub-dsh-infinite-canvas](https://github.com/Haitang-Hub/dsh-infinite-canvas) ★0 — 无限画布 \| DeepSeek Harness 插件：Agent 驱动的无限 AI 创作画布，在节点画布上生成图片/视频/音频并导出；内置零依赖本地桥（MCP stdio/HTTP + 浏览器内工具执行器）、技能系统与节
@@ -2568,6 +2569,7 @@
 - 🟩 `[可用]` [haiwenxiang061-dev-dsh-prompt-complete](https://github.com/haiwenxiang061-dev/dsh-prompt-complete) ★0 — DeepSeek Harness plugin: rewrite the composer draft into a complete, precise prompt using the live conversatio
 - 🟩 `[可用]` [hajimimaodie8-dsh-session-sync](https://github.com/hajimimaodie8/DSH-Session-Sync) ★0 — —
 - ⬜ `[待定]` [han0han0le0ni-dsh-daughter](https://github.com/han0han0le0ni/dsh-daughter) ★0 — 给 DeepSeek Harness 的长期人格与记忆插件：人格分层、性格演化、长期记忆、技能反射与安全降级
+- 🟩 `[可用]` [hanhan9999999999999999999-dsh-macro-memory](https://github.com/hanhan9999999999999999999/dsh-macro-memory) ★0 — 宏记忆 · Macro Memory — 一个 DSH 记忆插件接管全部记忆能力：8 个统一工具（schema 56,759 B → 8,655 B）、1,085 字符常驻注入、meow 七层主库 + 可重建星图，能力一
 - 🟩 `[可用]` [hanhan9999999999999999999-dsh-token-lock](https://github.com/hanhan9999999999999999999/dsh-token-lock) ★0 — Multi-dimensional token guard for DSH 2.0: measures what a session spends and what it produces, then nudges or
 - ⬜ `[待定]` [hanhan9999999999999999999-remote-connect-dsh](https://github.com/hanhan9999999999999999999/remote-connect-dsh) ★0 — DSH 插件 dsh-remote-connect — 手机扫码远程操作电脑上的 DSH，两台电脑之间互相同步插件 / 技能 / 规则 / 配置 / 会话
 - 🟩 `[可用]` [hanihahaha-dsh-auto-approve](https://github.com/Hanihahaha/dsh-auto-approve) ★0 — —
@@ -5193,6 +5195,7 @@
 - 🟨 `[不兼容]` [dax233-dsh-session-bridge](https://github.com/Dax233/dsh-session-bridge) ★0 — Fork of dsh-session-bridge (MIT): cross-workspace session find/read + full-text search (session_search_global)
 - 🟨 `[不兼容]` [dayi-z-dsh-safety-restart](https://github.com/Dayi-Z/dsh-safety-restart) ★0 — Safe, seamless restart for DeepSeek Harness: the agent can restart the host itself and resume afterwards
 - 🟨 `[不兼容]` [dekurri-dsh-usage-monitor](https://github.com/Dekurri/dsh-usage-monitor) ★0 — DSH 左侧栏 AI 使用量仪表盘：token 用量、成本估算、缓存命中率、分会话/分模型统计、实时 CPU/GPU/内存监控与平台账单对账 · dsh-plugin
+- 🟨 `[不兼容]` [denniszhangoiler-dsh-dev-workflow](https://github.com/DennisZhangOiler/dsh-dev-workflow) ★0 — Non-default Dev Workflow agent preset for DeepSeek Harness
 - 🟨 `[不兼容]` [deqecomb-dsh-session-link](https://github.com/deqecomb/dsh-session-link) ★0 — Directed messaging between DSH sessions: send to one specific session, receive your own inbox, durable queue t
 - 🟨 `[不兼容]` [dev-rookiestar-dsh-sound-plugin](https://github.com/dev-rookiestar/dsh-sound-plugin) ★0 — DeepSeek Harness 插件：回复完成 / 待审批提示音
 - 🟨 `[不兼容]` [dm-odyssey-dsh-session-manager](https://github.com/DM-Odyssey/dsh-session-manager) ★0 — dsh Session Manager（会话管理插件）
