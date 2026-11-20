@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8874）
+# 🔌 Web UI 增强（8879）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2290,6 +2290,7 @@
 - ⬜ `[待定]` [dongce9655-design-dsh-desktop-launcher](https://github.com/dongce9655-design/dsh-desktop-launcher) ★1 — One-click launcher for the DeepSeek Harness Web GUI on Windows
 - 🟩 `[可用]` [dongjinxiang-deepseek-harness-desktop](https://github.com/dongjinxiang/deepseek-harness-desktop) ★1 — Lossless Windows desktop app for DeepSeek Harness with the complete DSH Web UI, plugins, skins, and skill dock
 - ⬜ `[待定]` [dongsheng123132-dsh-workspace-plugins](https://github.com/dongsheng123132/dsh-workspace-plugins) ★1 — Two small DeepSeek Harness (DSH) sidebar plugins: import project directories from your other AI tools, and mov
+- 🟩 `[可用]` [doubtun-dsh-tray-enhance](https://github.com/Doubtun/dsh-tray-enhance) ★1 — Richer Windows tray menu for DeepSeek Harness (DSH): per-item icons, restart, update check, and a light/dark t
 - 🟩 `[可用]` [dove222-dsh-screenshot-hotkey](https://github.com/Dove222/dsh-screenshot-hotkey) ★1 — 一个小白制作的DSH截图插件：Alt+A调出截图框，自由选取后点击确定即可自动复制到系统粘贴板，也可点击另存为单独保存为独立图片文件
 - 🟩 `[可用]` [dreamer0323-dsh-desktop](https://github.com/dreamer0323/dsh-desktop) ★1 — 一个dsh桌面端应用，可自定义主题以及桌宠，内置了雾雨魔理沙主题
 - 🟩 `[可用]` [ds-hu-dsh-collaborative-clarity](https://github.com/ds-hu/dsh-collaborative-clarity) ★1 — Artifact rounds for DeepSeek Harness: the agent shows a decision in the right sidebar, you annotate and choose
@@ -4145,6 +4146,7 @@
 - ⬜ `[待定]` [dake6767-dsh-onlyoffice](https://github.com/dake6767/dsh-onlyoffice) ★0 — OnlyOffice document viewer/editor plugin for DeepSeek Harness — open docx/xlsx/pptx from the sidebar, edit and
 - 🟩 `[可用]` [danhcng3822f-dsh-upload-plugin](https://github.com/danhcng3822f/dsh-upload-plugin) ★0 — DeepSeek Harness plugin providing Add photos, Add files, and Uploaded files in chat UI with vision validation
 - ⬜ `[待定]` [danhuaxuanshu-dsh-icey](https://github.com/DanHuaXuanShu/dsh-icey) ★0 — 让deepseek真的能玩ICEY，实时画面、看得懂的截图、按得动的操作
+- 🟩 `[可用]` [danielcy-dsh-fast-reply](https://github.com/danielcy/dsh-fast-reply) ★0 — DSH快捷回复插件，支持添加并管理常用消息，一键选择并填入输入框
 - 🟩 `[可用]` [danieltoraji-dsh-skin-kamisato](https://github.com/Danieltoraji/dsh-skin-kamisato) ★0 — —
 - 🟩 `[可用]` [daoyu1993-lab-dsh-plugin-sidebar-polish](https://github.com/daoyu1993-lab/dsh-plugin-sidebar-polish) ★0 — Polish the DSH left sidebar: drop the brand row, redraw New Session as a panel row, unify row heights, tune th
 - 🟩 `[可用]` [daphne999-dsh-daily-digest](https://github.com/Daphne999/dsh-daily-digest) ★0 — A facts layer for daily watch: reports newly added plugins in the marketplace registry and new activity period
@@ -4315,6 +4317,7 @@
 - 🟩 `[可用]` [elctronicon-dsh-desktop](https://github.com/ELctronicon/dsh-desktop) ★0 — DeepSeek Harness desktop edition: self-built exe with embedded dsh backend + Electron window
 - 🟩 `[可用]` [elegant01-agent-acta](https://github.com/elegant01/agent-acta) ★0 — 本地 AI agent 请求日志面板
 - 🟩 `[可用]` [elegant01-dsh-workbuddy-theme](https://github.com/elegant01/dsh-workbuddy-theme) ★0 — WorkBuddy 主题 for DSH Web GUI — 薄荷绿品牌色、灰阶侧栏、24px 输入框、无框助手消息
+- ⬜ `[待定]` [elevenai-pro-dsh-archive-manager](https://github.com/ElevenAI-Pro/dsh-archive-manager) ★0 — Session archive & cleanup manager for DeepSeek Harness (DSH): sidebar permanent delete (cascades to sub-agents
 - 🟩 `[可用]` [eliaweiss-dsh-quick-find-en](https://github.com/eliaweiss/dsh-quick-find-en) ★0 — Find in a DeepSeek Harness chat by meaning (TypeSafe Jev via Vercel AI Gateway) or by text with Cmd/Ctrl+F, ac
 - 🟩 `[可用]` [elims777-dsh-languages](https://github.com/elims777/dsh-languages) ★0 — 14 community translations for the DeepSeek Harness web UI: ru, es, pt-BR, de, fr, it, pl, tr, ja, ko, zh-TW, i
 - 🟩 `[可用]` [elliotmasheal-dsh-brand-studio](https://github.com/elliotmasheal/dsh-brand-studio) ★0 — DSH 侧边栏品牌插件：账号头像或上传图片作 Logo，纯圆/圆角矩形，自定义名称与官方 Harness 徽标
@@ -4390,6 +4393,7 @@
 - ⬜ `[待定]` [felixpu-dsh-archive-session-manager](https://github.com/felixpu/dsh-archive-session-manager) ★0 — 已归档会话管理：在会话「···」菜单里为已归档会话提供「删除会话」，并提供一个归档会话面板（多选、批量删除、批量取消归档）
 - 🟩 `[可用]` [felixpu-dsh-sidebar-tab-actions](https://github.com/felixpu/dsh-sidebar-tab-actions) ★0 — DSH Web 右侧栏标签页右键批量关闭：关闭左侧 / 关闭右侧 / 关闭全部
 - ⬜ `[待定]` [felixpu-dsh-suite](https://github.com/felixpu/dsh-suite) ★0 — DSH 插件合集（聚合包）：一次安装把多个独立维护的 DSH 插件装配成一组，单个插件故障不影响其余功能
+- ⬜ `[待定]` [femnn-dsh-markdown-docs](https://github.com/femnn/dsh-markdown-docs) ★0 — Markdown workbench for the DeepSeek Harness right sidebar: browse, preview, edit, drop files and folders in, a
 - ⬜ `[待定]` [feng183043996-dsh-folder-wallpaper](https://github.com/feng183043996/dsh-folder-wallpaper) ★0 — DeepSeek Harness 照片壁纸轮播插件：读取本地文件夹照片作为界面背景，自动轮播 + 毛玻璃面板
 - 🟩 `[可用]` [fengasdf-dsh-remote-screen2](https://github.com/fengasdf/dsh-remote-screen2) ★0 — Remote Linux desktops in the DSH Web UI: an xrdp RDP session or a live VNC mirror of the console, in draggable
 - ⬜ `[待定]` [fengbinmov-dsh-git-panel](https://github.com/fengbinmov/dsh-git-panel) ★0 — DSH Web GUI 的 Git 面板插件：在会话界面的标签栏里，紧挨「对话 / 轨迹」再加一个 Git 页， 用来完成日常的查看改动、暂存、提交、看 diff、翻历史、切分支和推拉
@@ -7649,6 +7653,7 @@
 - 🟨 `[不兼容]` [fallow5-dsh-pin-sessions](https://github.com/fallow5/dsh-pin-sessions) ★1 — DSH (DeepSeek Harness) web plugin: pin sessions to the top of the sidebar for quick access to recurring workfl
 - 🟨 `[不兼容]` [fan56-dsh-profile-switch](https://github.com/fan56/dsh-profile-switch) ★1 — dsh plugin: switch named model profiles (default model, think level, per-subagent models) interactively via th
 - 🟨 `[不兼容]` [fanxingchunshui-dsh-stock](https://github.com/FanXingChunShui/dsh-stock) ★1 — —
+- 🟨 `[不兼容]` [fedmez8-cpu-dsh-node-studio](https://github.com/fedmez8-cpu/dsh-node-studio) ★1 — Visual node-based workflow editor plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [feifandiv-dsh-md-live-edit](https://github.com/feifandiv/dsh-md-live-edit) ★1 — Edit Markdown in place inside the DeepSeek Harness sidebar preview, without switching to a code mode.
 - 🟨 `[不兼容]` [fightingfirefox-dsh-web-terminal](https://github.com/fightingFirefox/dsh-web-terminal) ★1 — Claude-styled visible terminal panel for the DeepSeek Harness web GUI: streams agent shell commands into the r
 - 🟨 `[不兼容]` [flametn7-dsh-tui-browser-use](https://github.com/FlameTN7/dsh-tui-browser-use) ★1 — Browser automation bridge sub-plugin for dsh-tui
