@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5668）
+# 🤖 Agent 能力（5670）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2196,6 +2196,7 @@
 - 🟩 `[可用]` [broklam-dsh-spend-tracker](https://github.com/Broklam/dsh-spend-tracker) ★0 — Session spend tracker for DeepSeek Harness: an estimated spend reading under the message box, priced at DeepSe
 - 🟩 `[可用]` [brucecheung666-dsh-subagent-panel](https://github.com/BruceCheung666/dsh-subagent-panel) ★0 — —
 - 🟩 `[可用]` [bushizhanghan-dsh-compaction-audit](https://github.com/bushizhanghan/dsh-compaction-audit) ★0 — Audit what context compaction actually lost: session-constraint survival (arXiv 2608.11242 measured ~17% acros
+- 🟩 `[可用]` [bushizhanghan-dsh-context-budget](https://github.com/bushizhanghan/dsh-context-budget) ★0 — Per-turn context injection audit for DeepSeek-Harness: break down what each turn spends on AGENTS.md, skill ca
 - ⬜ `[待定]` [bychen47-dsh-session-rehome](https://github.com/byChen47/dsh-session-rehome) ★0 — Move a DeepSeek Harness conversation into another workspace in place - same session id, history and title; a c
 - 🟩 `[可用]` [c-dyang-dsh-night-watch](https://github.com/c-dyang/dsh-night-watch) ★0 — DSH plugin: a four-stage memory loop for agents — settle a day, audit it in a separate process, keep a deniabl
 - 🟩 `[可用]` [c163q-dsh-always-allow](https://github.com/C163q/dsh-always-allow) ★0 — \[CODING WITH AI\] "Always allow commands that start with …" for DeepSeek Harness approvals.
@@ -4619,6 +4620,7 @@
 - 🟨 `[不兼容]` [a1swg1159-pixel-dsh-prompt-shield](https://github.com/a1swg1159-pixel/dsh-prompt-shield) ★1 — Runtime prompt-injection detection and quarantine for DeepSeek Harness tool results.
 - 🟨 `[不兼容]` [a903067276-rgb-dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) ★1 — Auto-approval permission guard for DeepSeek Harness: a middle tier between workspace-write and danger-full-acc
 - `[空仓监测]` **aerince-dsh-active-context-pruning** — GitHub 无此仓库，判定暂不展示
+- 🟨 `[不兼容]` [aewu777-dsh-screenshot-master](https://github.com/aewu777/screenshot-master) ★1 — Cross-platform screenshot tools for AI agent harnesses: capture the screen, a display, or a window to PNG and
 - 🟨 `[不兼容]` [ahqrt-dsh-herdr](https://github.com/ahqrt/dsh-herdr) ★1 — Delegate subtasks from DeepSeek Harness to Herdr-managed coding agents, harvest exact results, and review them
 - 🟨 `[不兼容]` [aidrama-lab-dsh-volc-mem0](https://github.com/aidrama-lab/dsh-volc-mem0) ★1 — 为 DeepSeek Harness（DSH）接入火山引擎 Mem0，支持跨会话记忆、自动召回、后台学习与经验自进化，并提供多项目管理和原生设置页面
 - `[空仓监测]` **alexkaiqi-dsh-session-assistant** — GitHub 无此仓库，判定暂不展示

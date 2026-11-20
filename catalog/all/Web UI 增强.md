@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8825）
+# 🔌 Web UI 增强（8827）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1319,6 +1319,7 @@
 - 🟩 `[可用]` [ztqing4agents-dsh-skill-panel](https://github.com/Ztqing4Agents/dsh-skill-panel) ★3 — 适用于 DSH Web GUI 的原生风格技能管理面板插件，支持统一管理内置/本地/已安装技能与一键启停，内置 SkillHub 技能市场
 - 🟩 `[可用]` [zuihouye-dsh-agnes-tools](https://github.com/zuihouye/dsh-agnes-tools) ★3 — —
 - 🟩 `[可用]` [zuoyunlai-dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) ★3 — DSH 主题配色插件：4 套配色 × 明暗两模式，OKLCH 色域钳位 + 真实承载面对比度求解
+- 🟩 `[可用]` [0131kikimy-dsh-collect](https://github.com/0131kikimy/dsh-collect) ★2 — 采文 · CollectKit —— DeepSeek Harness 侧边栏采集插件：优先用非桌面操控方式抓取网页正文与图片，并按需生成 docx/xlsx/pptx/pdf 等文件；附面向小白的安装与使用文档
 - 🟩 `[可用]` [1010231693-dsh-bat-runner](https://github.com/1010231693/dsh-bat-runner) ★2 — 一个可以在DSH中运行任何bat脚本的插件，终端日志直接显示在DSH主界面，可控制启停，可设置日志面板外观，可任意拖动/缩放
 - 🟩 `[可用]` [1052326311-dsh-goal-quiescence](https://github.com/1052326311/dsh-goal-quiescence) ★2 — Completion evidence gate for DeepSeek Harness goal-mode subagents
 - 🟩 `[可用]` [1120370331-dsh-frontend-review](https://github.com/1120370331/dsh-frontend-review) ★2 — Frontend review canvas plugin + Skill for DeepSeek Harness: pin fixed page versions, annotate visually, and ro
@@ -2036,6 +2037,7 @@
 - 🟩 `[可用]` [aidenwanggitgit-paper-skin](https://github.com/AidenWanggitgit/paper-skin) ★1 — A scholarly journal-desk skin for DeepSeek Harness: Nature, Science, IEEE and Elsevier covers, manuscript stag
 - 🟩 `[可用]` [aihaoran0015-dsh-web-companion](https://github.com/aihaoran0015/dsh-web-companion) ★1 — DeepSeek Harness plugin: DeepSeek & Doubao in the sidebar, with persistent login and Doubao vision via CDP
 - 🟩 `[可用]` [aihesa-ui-conversation-indexed](https://github.com/AiHeSa/ui-conversation-indexed) ★1 — dsh ui-conversation  indexed
+- 🟩 `[可用]` [aijacko-dsh-message-actions](https://github.com/aijacko/dsh-message-actions) ★1 — DeepSeek Harness 桌面版插件：在会话里提供撤回、删除、删至末尾、多选分享、多选导出、费用统计等，并在删除后同步隐藏侧边栏的轮次刻度
 - 🟩 `[可用]` [aijunjiang-dsh-plugin-vision](https://github.com/aijunjiang/dsh-plugin-vision) ★1 — Give your DSH agent eyes via any OpenAI-compatible vision model - 11 provider presets (Doubao/Qwen-VL/GLM-V/Op
 - 🟩 `[可用]` [aikunx-dsh-cloudflare-codemode](https://github.com/aikunx/dsh-cloudflare-codemode) ★1 — Cloudflare 全功能管家 for DeepSeek Harness：接入官方 Code Mode MCP，search + execute 覆盖 2,500+ API（Workers / Pages / DNS
 - ⬜ `[待定]` [ailiasdesu-dsh-session-migrate](https://github.com/ailiasdesu/dsh-session-manager) ★1 — DSH session migration plugin: drag-and-drop sessions between workspaces in the Web UI settings panel (auto bac
