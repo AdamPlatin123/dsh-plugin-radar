@@ -52,6 +52,7 @@ jobs:
         run: |
           python3 scripts/test_repository_identity.py
           python3 scripts/test_review_regressions.py
+          python3 scripts/test_entry_precheck.py
       - name: 站点数据关联回归检查
         if: ${{ !cancelled() }}
         run: python3 site/scripts/test_build_data.py
