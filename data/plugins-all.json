@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T10:32:27Z",
+ "generated_at": "2026-11-20T10:47:29Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -72439,6 +72439,13 @@
    "desc": "Global AGENTS-style rules as many independent markdown files, with a settings GUI — fills the gap left by Deep"
   },
   {
+   "repo": "kira905/dsh-butler-panel",
+   "name": "kira905-dsh-butler-panel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "大管家面板：在 DSH 侧边栏看任务/健康/流水的一屏仪表盘，只读为主"
+  },
+  {
    "repo": "KirinKylin-1/dsh-annotated-browser",
    "name": "kirinkylin-1-dsh-annotated-browser",
    "verdict": "ok",
@@ -94109,6 +94116,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "CTO 办公室模式：一名 CTO 带六个岗位（架构师、工程师、评审、QA、UI/UX 设计、业务）的 DeepSeek Harness agent 预设 bundle"
+  },
+  {
+   "repo": "ChernyakAI/dsh-aicraft",
+   "name": "chernyakai-dsh-aicraft",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "A workflow builder for DeepSeek Harness with custom roles, stages, and task artifacts."
   },
   {
    "repo": "cherrchen/dsh-auto-review-panel",
@@ -181380,6 +181394,13 @@
    "desc": "抓虾数据插件｜DeepSeek Harness（DSH）CSV / Excel / JSON 预览、数据概览、筛选去重、排序转换与表格导出"
   },
   {
+   "repo": "hrrrb408/lm-memory",
+   "name": "hrrrb408-lm-memory",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "本地优先的 Agent 长期记忆（MCP server + DSH 插件）：SQLite+FTS5+双语本地嵌入，会遗忘、可纠正、带证据回查"
+  },
+  {
    "repo": "ihorleleka/Local-Rag-Wiki",
    "name": "ihorleleka-local-rag-wiki",
    "verdict": "incompatible",
@@ -202749,6 +202770,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Right-to-left chat layout for DeepSeek Harness (Persian/Arabic)"
+  },
+  {
+   "repo": "HaoyanZhang123/dsh-plugin-control-your-video",
+   "name": "haoyanzhang123-dsh-plugin-control-your-video",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DeepSeek Harness 插件：让 AI 真的会做片子"
   },
   {
    "repo": "HaoyueQin/dsh-deepseek-monitor",
