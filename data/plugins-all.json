@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T16:02:16Z",
+ "generated_at": "2026-11-20T17:02:53Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -98143,6 +98143,13 @@
    "desc": "AryaCode Polish - one install for the small GUI, workflow and information improvements that make AryaCode feel finished."
   },
   {
+   "repo": "KonnectSuite/dsh-engineering",
+   "name": "konnectsuite-dsh-engineering",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Automation-engineering tools, skills and file viewers for DeepSeek Harness (AryaCode): Studio 5000 L5X, Factor"
+  },
+  {
    "repo": "kousenlee/dsh-balance-monitor",
    "name": "kousenlee-dsh-balance-monitor",
    "verdict": "incompatible",
@@ -137691,6 +137698,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "应用雷达 · DSH 后台进程与端口控制台：列出 DSH 启动的后台进程与端口，一键按进程组强制停止"
+  },
+  {
+   "repo": "zijian-ai-projects/dsh-vocab",
+   "name": "zijian-ai-projects-dsh-vocab",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH vocab app plugin distribution: release package and checksums."
   },
   {
    "repo": "zimai233/dsh-wash-calendar",
@@ -211625,6 +211639,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "Rich interactive HTML reports for everyone"
+  },
+  {
+   "repo": "magiccyclingz/dsh-design-leapavid",
+   "name": "magiccyclingz-dsh-design-leapavid",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DeepSeek Harness 侧栏视觉设计插件：84 套品牌设计语言的风格库，按风格生成网页 / 幻灯片 / 信息图"
   },
   {
    "repo": "MajidAsghariTabrizi/credence",
