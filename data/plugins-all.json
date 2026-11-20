@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T17:02:53Z",
+ "generated_at": "2026-11-20T18:02:51Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -70348,7 +70348,7 @@
   {
    "repo": "flupke91/dsh-phone-control",
    "name": "flupke91-dsh-phone-control",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "DSH bundle: control the DeepSeek Harness web GUI from a phone/tablet on the same LAN"
   },
