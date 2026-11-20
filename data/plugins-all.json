@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T11:17:40Z",
+ "generated_at": "2026-11-20T11:32:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -22081,6 +22081,13 @@
    "desc": "External plugins for DeepSeek Harness (dsh): Scheduled Tasks (run agent instructions on a schedule) and Token"
   },
   {
+   "repo": "Qing8-Max/dsh-session-overview",
+   "name": "qing8-max-dsh-session-overview",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: an Overview tab for the conversation view (turns, time, token usage)."
+  },
+  {
    "repo": "QingJ01/dsh-attention-inbox",
    "name": "qingj01-dsh-attention-inbox",
    "verdict": "pending",
@@ -35106,6 +35113,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 的 AI 工具审批插件，使用AI审核AGENT调用工具的合规性并决定是否执行，审核标准可定制"
+  },
+  {
+   "repo": "GrounzerLiu/dsh-plan-steps",
+   "name": "grounzerliu-dsh-plan-steps",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Reasonix-style plan steps for DeepSeek Harness: two-level plans, one sign-off path, a live plan panel"
   },
   {
    "repo": "Guanzhw/AgentSession",
@@ -61232,6 +61246,13 @@
    "desc": "Turn a codebase into documentation an AI can read: outline per source directory, hash-based change baseline, r"
   },
   {
+   "repo": "WanderingHeart/dsh-auto-memory-WH",
+   "name": "wanderingheart-dsh-auto-memory-wh",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "WandeeringHeart制作的大肥鱼自动记忆插件"
+  },
+  {
    "repo": "Wang-Shuanglin/dsh-cosplay-studio",
    "name": "wang-shuanglin-dsh-cosplay-studio",
    "verdict": "ok",
@@ -65175,7 +65196,7 @@
   {
    "repo": "azopt/dsh-acut",
    "name": "azopt-dsh-acut",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "Screenshot plugin: region capture, annotation, scrolling long capture, floating preview, pin on top"
   },
@@ -72157,6 +72178,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "每天从 BOSS直聘、猎聘、LinkedIn 等站点捞远程岗位，按求职画像打分，集中显示在 Harness 面板里"
+  },
+  {
+   "repo": "jxligui/dsh-plugin-deepseek-chat",
+   "name": "jxligui-dsh-plugin-deepseek-chat",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Chat panel for DeepSeek Harness (DSH): a left-navigation entry plus a right-Sidebar panel embedding c"
   },
   {
    "repo": "jyshangguan/dsh-gui",
@@ -112178,25 +112206,11 @@
    "desc": "Private DSH Web turn navigation plugin"
   },
   {
-   "repo": "vicfei/dsh-Kronos",
-   "name": "vicfei-dsh-kronos",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "K-line scenario forecasting for DeepSeek Harness — seeded, reproducible bootstrap fans (P10-P90) from real his"
-  },
-  {
    "repo": "vicfei/dsh-plugin-atlas",
    "name": "vicfei-dsh-plugin-atlas",
    "verdict": "pending",
    "stars": 1,
    "desc": "A live map of the DeepSeek Harness (DSH) plugin ecosystem — daily-refreshed star counts, staleness markers, bi"
-  },
-  {
-   "repo": "vicfei/dsh-quantstats",
-   "name": "vicfei-dsh-quantstats",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Performance tearsheets for DeepSeek Harness — Sharpe/Sortino/Calmar/drawdown/VaR computed deterministically, z"
   },
   {
    "repo": "vicTop-cw/FIST-Mbt",
@@ -139931,6 +139945,20 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Русская локаль (ru) для плагина Cline Pass в DeepSeek Harness (форк yhshzh/dsh-cline-pass)"
+  },
+  {
+   "repo": "vicfei/dsh-Kronos",
+   "name": "vicfei-dsh-kronos",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "K-line scenario forecasting for DeepSeek Harness — seeded, reproducible bootstrap fans (P10-P90) from real his"
+  },
+  {
+   "repo": "vicfei/dsh-quantstats",
+   "name": "vicfei-dsh-quantstats",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Performance tearsheets for DeepSeek Harness — Sharpe/Sortino/Calmar/drawdown/VaR computed deterministically, z"
   },
   {
    "repo": "Visol-456/dsh-cost-tracker",
@@ -183613,6 +183641,13 @@
    "desc": "Bring third-party subscription accounts into DeepSeek Harness - 为 DeepSeek Harness 接入第三方订阅账户(当前支持 OpenAI / Cha"
   },
   {
+   "repo": "liaty8/dsh-muteki-preset",
+   "name": "liaty8-dsh-muteki-preset",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "Muteki 蜂群 · DeepSeek Harness Agent 预设：黑板事实图 / 证据门 / 按题隔离 / 程序化派单 / Claude Code 异构"
+  },
+  {
    "repo": "lucifersteps/telos-harness",
    "name": "lucifersteps-telos-harness",
    "verdict": "pending",
@@ -194860,6 +194895,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "当 DeepSeek Harness 运行结束、提出问题或等待审批时触发的系统通知"
+  },
+  {
+   "repo": "Jiangsubei/kujira",
+   "name": "jiangsubei-kujira",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness × QQ 官方 Bot API v2 合规单聊（C2C）拟人化聊天插件"
   },
   {
    "repo": "JianTG/dsh-auto-model-router",
@@ -209562,13 +209604,6 @@
    "desc": "Auto ontology construction for DeepSeek Harness — two-pass LLM pipeline (TBox schema, ABox assertions) with ev"
   },
   {
-   "repo": "vicfei/dsh-jesse",
-   "name": "vicfei-dsh-jesse",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Strategy parameter optimization for DeepSeek Harness — grid sweeps with fee-aware backtests, train/test split,"
-  },
-  {
    "repo": "vicfei/dsh-nautilus_trader",
    "name": "vicfei-dsh-nautilus-trader",
    "verdict": "pending",
@@ -220426,6 +220461,13 @@
    "desc": "DSH evidence provenance: source-aware context folding, structured Agent reports, durable lineage and auditable"
   },
   {
+   "repo": "Shingwha/dsh-gitbash",
+   "name": "shingwha-dsh-gitbash",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: runs the bash tool through Git Bash on Windows and removes pwsh from every agent."
+  },
+  {
    "repo": "Shiro-Design-16/dsh-daily-chat-config",
    "name": "shiro-design-16-dsh-daily-chat-config",
    "verdict": "ok",
@@ -230329,6 +230371,13 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Configurable OpenAI Responses API provider for DSH web search."
+  },
+  {
+   "repo": "vicfei/dsh-jesse",
+   "name": "vicfei-dsh-jesse",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "Strategy parameter optimization for DeepSeek Harness — grid sweeps with fee-aware backtests, train/test split,"
   },
   {
    "repo": "visheshgubrani/clean-dev",
