@@ -23,7 +23,8 @@
     "bundle": { "type": "integer", "minimum": 0 },
     "cur_image": { "type": "string", "description": "测试 runner 镜像标签（如 dsh-test-runner:0.1.5-rc.2）" },
     "cur_tested": { "type": "integer", "minimum": 0 },
-    "cur_pass": { "type": "integer", "minimum": 0 }
+    "cur_pass": { "type": "integer", "minimum": 0 },
+    "version_gate": { "type": "integer", "minimum": 0, "description": "fail 中属于版本门禁的条数（catalog_entries[].fail_kind=version-gate，已计入 fail）" }
    }
   },
   "catalog_entries": {
@@ -39,7 +40,9 @@
      "verdict": { "enum": ["✅ 运行级可用", "❌ 运行级不兼容", "⚠️ 待定", "⏳ 未测"] },
      "domain": { "type": "string" },
      "desc": { "type": "string" },
-     "bundle": { "type": "string" }
+     "bundle": { "type": "string" },
+     "fail_kind": { "type": "string", "description": "不兼容的细分原因（可选，仅 verdict=❌ 时有意义）。version-gate = 插件声明的 dsh 版本范围不含测试版本，dsh 在安装阶段拒绝，未进入运行" },
+     "dsh_requires": { "type": "string", "description": "fail_kind=version-gate 时插件声明的 engines.dsh 范围（可选；由 peerDependencies 精确钉版触发的门禁无此字段）" }
     }
    }
   }

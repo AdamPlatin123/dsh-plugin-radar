@@ -10,7 +10,7 @@ export const en = {
     ok: 'Runtime OK', incompatible: 'Needs adaptation', pending: 'Pending', untested: 'Untested',
     gone: 'Empty watch', ambiguous: 'Ambiguous', unlocated: 'Unlocated', total: 'Listed repos',
     fresh: 'Data as of snapshot', runner: 'Tested on', browsable: 'Runtime OK total',
-    runnerSource: 'Test version source', unavailable: 'Unavailable',
+    runnerSource: 'Test version source', unavailable: 'Unavailable', versionGate: '{n} blocked by version gate',
   },
   filter: {
     all: 'All categories', verdict: 'Verdict', stars: 'Stars', search: 'Search name / repo / description…',
@@ -22,7 +22,8 @@ export const en = {
     defaultNote: 'Defaults to DSH-named projects with "Runtime OK"; the full index contains {n} repositories',
   },
   curated: { noRecord: 'No verdict details', recorded: 'Radar record: {status}' },
-  card: { view: 'Details', bundle: 'Bundle', pr: 'PR registered', stars: 'stars', dormant: 'Dormant' },
+  card: { view: 'Details', bundle: 'Bundle', pr: 'PR registered', stars: 'stars', dormant: 'Dormant',
+    versionGate: 'Version gate', versionGateTip: 'The plugin\'s declared dsh version range excludes the tested version, so install was refused' },
   detail: {
     install: 'Install', noInstall: 'No install command yet (see repo README)',
     updated: 'Last pushed', language: 'Language', license: 'License', topics: 'Topics',
@@ -30,6 +31,8 @@ export const en = {
     curated: 'Curated profile', risk: 'Risk', network: 'Network', fs: 'Filesystem',
     creds: 'Credentials', testedAt: 'Tested at', source: 'Provenance', snapshot: 'Snapshot',
     openRepo: 'Open repository', dormantNote: 'This repo has not been updated for 30+ days and is incompatible with recent DSH versions — retesting paused until its next update.',
+    versionGateNote: 'Version gate: this plugin\'s declared dsh version range does not include the dsh version used for this test run, so dsh refused to install it and the test never reached runtime. This is not a runtime failure — it is retested automatically once the author widens the declared range.',
+    versionGateRange: 'Declared range:',
   },
   featured: { title: 'Featured', desc: 'Hand-picked 50+ must-have plugins (11 categories)' },
   bundles: { title: 'Bundles', desc: 'Ready-to-use plugin collections' },

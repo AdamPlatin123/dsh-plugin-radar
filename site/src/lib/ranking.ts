@@ -23,6 +23,7 @@ interface FilterRow extends StarRow {
   desc: string
   domain: string
   bundle: boolean
+  versionGate?: boolean
 }
 
 export interface Filters {
@@ -51,7 +52,10 @@ export function applyFilters<T extends FilterRow>(all: T[], f: Filters): T[] {
     if (f.kind === 'plugin' && r.bundle) return false
     if (f.kind === 'bundle' && !r.bundle) return false
     if (f.domain !== 'all' && r.domain !== f.domain) return false
-    if (f.verdict !== 'all' && r.verdict !== f.verdict) return false
+    // version-gate 是「需适配」的细分，不是第五档判定
+    if (f.verdict === 'version-gate') {
+      if (!r.versionGate) return false
+    } else if (f.verdict !== 'all' && r.verdict !== f.verdict) return false
     if (bucket && (r.stars === null || r.stars < bucket.min || r.stars > bucket.max)) return false
     if (q && !(r.name.toLowerCase().includes(q) || r.repo.toLowerCase().includes(q)
       || r.desc.toLowerCase().includes(q))) return false

@@ -57,10 +57,13 @@ CANONICAL = {
     'schema': 'dsh-radar/canonical/v1', 'generated_at': '2026-10-02T00:00:00Z',
     'pr_names': ['dormant-inc'],
     'entries': [
-        {'url': 'https://github.com/b/second-ok', 'domain': '💻 编码开发'},
-        {'url': 'https://github.com/c/third-inc', 'domain': '🎨 主题皮肤', 'bundle': True},
+        # 判定已不是不兼容却残留 fail_kind：不得打版本门禁位
+        {'url': 'https://github.com/b/second-ok', 'domain': '💻 编码开发', 'fail_kind': 'version-gate'},
+        {'url': 'https://github.com/c/third-inc', 'domain': '🎨 主题皮肤', 'bundle': True,
+         'fail_kind': 'version-gate', 'dsh_requires': '>=0.1.0 <0.2.0'},
         {'url': 'https://github.com/d/curated-ok', 'domain': '🎓 技能包'},
-        {'url': 'https://github.com/f/dormant-inc', 'domain': '🛠 基建部署'},
+        # peerDependencies 钉版触发的门禁：没有 engines.dsh 声明范围
+        {'url': 'https://github.com/f/dormant-inc', 'domain': '🛠 基建部署', 'fail_kind': 'version-gate'},
         # 未定位条目：url 为 search?q=owner-name（'/' 已归一为 '-'）
         {'url': 'https://github.com/search?q=x-missing-gone', 'locate': 'empty_watch'},
         {'url': 'https://github.com/search?q=z-missing-unlocated', 'locate': 'unresolved'},
@@ -133,6 +136,7 @@ class BuildDataRegression(unittest.TestCase):
         build(root, out)   # out_dir 指向临时目录：不污染 site/src/data 生成物
         cls.rows = _load_export(out / 'plugins.ts', 'ROWS')
         cls.enrich = _load_export(out / 'plugins.ts', 'ENRICH')
+        cls.gate = _load_export(out / 'plugins.ts', 'GATE')
         cls.meta = _load_export(out / 'meta.ts', 'meta')
 
     @classmethod
@@ -235,6 +239,17 @@ class BuildDataRegression(unittest.TestCase):
         self.assertEqual(by_repo['b/second-ok'][6] & 4, 4)   # enrich 命中
         self.assertEqual(by_repo['f/dormant-inc'][6] & 8, 8)  # skip-list 命中
         self.assertEqual(by_repo['a/first-untested'][6], 4)
+
+    def test_version_gate_flag_and_side_table(self):
+        """flags 位 16=版本门禁：仅不兼容行生效；GATE 副表只收带声明范围的行"""
+        by_repo = {r[0].lower(): (i, r) for i, r in enumerate(self.rows)}
+        i_third, third = by_repo['c/third-inc']
+        self.assertEqual(third[6] & 16, 16)
+        self.assertEqual(by_repo['f/dormant-inc'][1][6] & 16, 16)
+        self.assertEqual(by_repo['b/second-ok'][1][6] & 16, 0)
+        self.assertEqual(self.gate, {str(i_third): '>=0.1.0 <0.2.0'})
+        self.assertEqual(self.meta['versionGate'], 2)
+        self.assertLessEqual(self.meta['versionGate'], self.meta['stats']['incompatible'])
 
     def test_alias_duplicates_merge_before_enrich_flags_and_statistics(self):
         """旧导出仍有别名重复时，站点写入归一身份；整合包标签、元数据和统计都跟随最终行。"""

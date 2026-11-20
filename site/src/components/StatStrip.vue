@@ -8,7 +8,7 @@ const items = computed(() => {
   const s = meta.stats
   return [
     { key: 'ok', n: s.ok, cls: 'v-ok' },
-    { key: 'incompatible', n: s.incompatible, cls: 'v-incompatible' },
+    { key: 'incompatible', n: s.incompatible, cls: 'v-incompatible', gate: meta.versionGate },
     { key: 'pending', n: s.pending, cls: 'v-pending' },
     { key: 'untested', n: s.untested, cls: 'v-untested' },
   ]
@@ -28,6 +28,9 @@ const items = computed(() => {
     <div v-for="it in items" :key="it.key" class="cell" :class="it.cls">
       <div class="num n">{{ it.n.toLocaleString() }}</div>
       <div class="lbl">{{ t(`stat.${it.key}`) }}</div>
+      <router-link v-if="it.gate" class="lbl sub2 gate" to="/browse?verdict=version-gate">
+        🔒 {{ t('stat.versionGate', { n: it.gate.toLocaleString() }) }}
+      </router-link>
     </div>
   </div>
 </template>
@@ -44,6 +47,7 @@ const items = computed(() => {
 .lbl { font-size: 12px; color: var(--fg-dim); margin-top: 2px; }
 .sub2 { font-size: 11px; color: var(--fg-faint); margin-top: 4px; }
 .sub2 .num { color: var(--fg-dim); }
+.gate { display: block; }
 
 @media (max-width: 640px) {
   .strip { grid-template-columns: repeat(2, 1fr); }

@@ -28,6 +28,18 @@ test('browse star buckets share the homepage DSH scope; full index is explicit',
   assert.deepEqual(applyFilters(rows, { ...filters, scope: 'all', q: 'mem0' }), [rows[0]])
 })
 
+test('version gate is a sub-filter of incompatible, not a verdict of its own', () => {
+  const rows = [
+    { repo: 'a/dsh-gated', name: 'gated', stars: 5, verdict: 'incompatible', domain: 'infra', desc: '', bundle: false, versionGate: true },
+    { repo: 'a/dsh-broken', name: 'broken', stars: 4, verdict: 'incompatible', domain: 'infra', desc: '', bundle: false, versionGate: false },
+    { repo: 'a/dsh-fine', name: 'fine', stars: 3, verdict: 'ok', domain: 'infra', desc: '', bundle: false },
+  ]
+  const filters = { scope: 'dsh', kind: 'all', domain: 'all', verdict: 'all', stars: 'all', q: '' }
+  assert.deepEqual(applyFilters(rows, { ...filters, verdict: 'version-gate' }), [rows[0]])
+  assert.deepEqual(applyFilters(rows, { ...filters, verdict: 'incompatible' }), rows.slice(0, 2))
+  assert.deepEqual(applyFilters(rows, filters), rows)
+})
+
 test('keeps DSH desktop, sidebar and TUI across verdicts; excludes popular general tools', () => {
   const rows = [
     { repo: 'mem0ai/mem0', stars: 66432, verdict: 'ok' },

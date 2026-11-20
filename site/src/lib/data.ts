@@ -15,6 +15,7 @@ export interface PluginRow {
   pr: boolean
   hasEnrich: boolean
   dormant: boolean
+  versionGate: boolean
 }
 
 export interface EnrichInfo {
@@ -27,6 +28,7 @@ export interface EnrichInfo {
 
 const rows = ref<PluginRow[]>([])
 const enrich = ref<Record<number, [string, string, string, string, string[]]>>({})
+const gate = ref<Record<number, string>>({})
 const loaded = ref(false)
 let loading: Promise<void> | null = null
 
@@ -52,9 +54,11 @@ export function ensureRows(): Promise<void> {
         pr: (flags & 2) !== 0,
         hasEnrich: (flags & 4) !== 0,
         dormant: (flags & 8) !== 0,
+        versionGate: (flags & 16) !== 0,
       }
     })
     enrich.value = m.ENRICH
+    gate.value = m.GATE
     loaded.value = true
   })()
   return loading
@@ -67,6 +71,11 @@ export function useRows() {
 export function enrichAt(index: number): EnrichInfo | null {
   const e = enrich.value[index]
   return e ? { pushedAt: e[0], avatar: e[1], lang: e[2], license: e[3], topics: e[4] } : null
+}
+
+/** 版本门禁行声明的 engines.dsh 范围；由 peerDependencies 钉版触发的门禁无此值 */
+export function gateRequiresAt(index: number): string | null {
+  return gate.value[index] ?? null
 }
 
 export function findRow(owner: string, name: string): PluginRow | null {

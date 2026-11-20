@@ -39,6 +39,10 @@ WINDOW_DAYS = 30
 
 REAL_URL_RE = re.compile(r'github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)')
 CONFLICTING_VERDICTS = ('✅ 运行级可用', '❌ 运行级不兼容')
+INCOMPATIBLE = '❌ 运行级不兼容'
+# 不兼容的细分原因（快照可选字段）：version-gate = dsh 安装阶段按版本声明拒绝
+FAIL_DETAIL_KEYS = ('fail_kind', 'dsh_requires')
+VERSION_GATE = 'version-gate'
 
 sys.path.insert(0, str(ROOT / 'scripts'))
 from classify import classify  # noqa: E402
@@ -155,6 +159,14 @@ def merge_entry(a, b):
         elif va in CONFLICTING_VERDICTS and vb in CONFLICTING_VERDICTS:
             out['verdict'] = '⚠️ 待定'
             out['verdict_conflict'] = f'{va} ↔ {vb}'
+    # 细分原因随判定走：判定取自 b 时带上 b 的，最终不是不兼容时丢弃
+    if out.get('verdict') != INCOMPATIBLE:
+        for k in FAIL_DETAIL_KEYS:
+            out.pop(k, None)
+    elif va != INCOMPATIBLE:
+        for k in FAIL_DETAIL_KEYS:
+            if b.get(k):
+                out[k] = b[k]
     return out
 
 
@@ -436,7 +448,10 @@ def build(root: Path = ROOT):
                    'unresolved': n_unresolved, 'live_star': n_star,
                    'floor_added': n_floor, 'floor_gone': n_floor_gone,
                    'rename_followed': n_rename, 'desc_backfilled': n_desc, 'reclassed': n_reclass,
-                   'pr_registered': len(pr_names)},
+                   'pr_registered': len(pr_names),
+                   'version_gate': sum(1 for e in entries if e['locate'] == 'located'
+                                       and e.get('verdict') == INCOMPATIBLE
+                                       and e.get('fail_kind') == VERSION_GATE)},
         'stats_located': dict(vc), 'stats_all': dict(v_all), 'pr_names': sorted(pr_names),
         'domain_stats': {dom: {'total': sum(1 for e in entries if e.get('domain') == dom),
                                'ok': vc_local(entries, dom, '✅ 运行级可用'),

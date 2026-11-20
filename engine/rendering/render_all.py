@@ -84,6 +84,10 @@ def render(canonical=None) -> dict:
              f'`[可用]`（{v_all.get("✅ 运行级可用", 0)}）/ `[不兼容]`（{v_all.get("❌ 运行级不兼容", 0)}）/ `[待定]`（{v_all.get("⚠️ 待定", 0)}）')
     L.append(f'- 已定位明细 {n_located}（本列表展示口径，另 {len(entries) - n_located} 条监测/未定位的判定暂不展示）：'
              f'`[可用]`（{vc.get("✅ 运行级可用", 0)}）/ `[不兼容]`（{vc.get("❌ 运行级不兼容", 0)}）/ `[待定]`（{vc.get("⚠️ 待定", 0)}）/ `[未测]`（{vc.get("⏳ 未测", 0)}）')
+    n_gate = counts.get('version_gate', 0)
+    if n_gate:
+        L.append(f'- 已定位的不兼容中有 {n_gate} 条属于版本门禁：插件声明的 dsh 版本范围不含测试版本，'
+                 'dsh 在安装阶段拒绝，未进入运行；作者放宽声明后自动重测')
     L.append('')
     L.append('**定位维度**（与判定正交；监测类不显示对错判定，原始结果保留于快照层）：')
     L.append('')

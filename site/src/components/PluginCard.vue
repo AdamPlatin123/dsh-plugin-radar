@@ -27,6 +27,7 @@ const { t } = useI18n()
         <span v-if="row.bundle" class="chip bundle">📦 {{ t('card.bundle') }}</span>
         <span v-if="row.pr" class="chip pr">{{ t('card.pr') }}</span>
         <span v-if="row.dormant" class="chip dormant">😴 {{ t('card.dormant') }}</span>
+        <span v-if="row.versionGate" class="chip gate" :title="t('card.versionGateTip')">🔒 {{ t('card.versionGate') }}</span>
         <span class="owner">{{ row.owner }}</span>
       </div>
     </div>

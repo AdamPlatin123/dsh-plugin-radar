@@ -22,3 +22,4 @@ button { font: inherit; color: inherit; }
 }
 
 .chip.dormant { color: var(--fg-faint); border-color: var(--line-soft); opacity: 0.85; }
+.chip.gate { color: var(--warn); border-color: var(--warn); }
