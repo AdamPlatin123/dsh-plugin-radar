@@ -1551,7 +1551,7 @@
 - 🟩 `[可用]` [hero476-dsh-instruction-memory](https://github.com/HERO476/dsh-instruction-memory) ★2 — DSH instruction memory plugin: maintain long-term instructions in the DSH settings UI, auto-injected into ever
 - 🟩 `[可用]` [heshuren371-dsh-music-player](https://github.com/heshuren371/dsh-music-player) ★2 — DeepSeek Harness Web 本地音乐播放器插件：会话视图「音乐」标签页，flac/mp3 等常见格式，单曲/列表循环，macOS Music 风格 UI
 - 🟩 `[可用]` [hetonghao-dsh-zed-space](https://github.com/hetonghao/dsh-zed-space) ★2 — Zed Space Skin · DeepSeek Harness 动态背景与界面皮肤
-- 🟩 `[可用]` [long-draft-input](https://github.com/Heyflyingpig/long-draft-input) ★2 — Deepseek Harness 插件：用于聚合发送框长文本
+- ⬜ `[待定]` [long-draft-input](https://github.com/Heyflyingpig/long-draft-input) ★2 — Deepseek Harness 插件：用于聚合发送框长文本
 - 🟩 `[可用]` [hfyydd-dsh-cua](https://github.com/hfyydd/dsh-cua) ★2 — Computer Use for DeepSeek Harness, backed by the cua-driver daemon (trycua): UIA element-level targeting, back
 - 🟩 `[可用]` [hightoward-dsh-plugins-sidebar-manager](https://github.com/HighToward/dsh-plugins-sidebar-manager) ★2 — DSH左上角插件侧栏管理，可以把面板入口收进一级分类/二级分类，也可以把某个入口隐藏或显示
 - 🟩 `[可用]` [hinayoung23-dsh-live-wallpaper](https://github.com/hinayoung23/dsh-live-wallpaper) ★2 — Dependency-free dynamic wallpapers for the DeepSeek Harness Web UI
@@ -2512,7 +2512,7 @@
 - 🟩 `[可用]` [hightoward-dsh-skill-manager](https://github.com/HighToward/dsh-skill-manager) ★1 — DSH技能管理面板，通过扫描本机所有技能，并按类型分组，可自建类型、让模型写中文说明和画图标，能够检查技能是否在互联网上更新
 - 🟩 `[可用]` [hiocobueno653-pixel-dsh-ui-polish](https://github.com/hiocobueno653-pixel/dsh-ui-polish) ★1 — DSH UI 打磨层：毛玻璃浮层修复 + 推理强度滑杆 + 模型选择导航增强（浏览器侧注入插件）
 - 🟩 `[可用]` [hirschno-meow-starmap](https://github.com/HirschNo/meow-starmap) ★1 — 这是我给 meow-memory 做的星图面板
-- 🟩 `[可用]` [dsh-ergonomics](https://github.com/hisaniwo/dsh-ergonomics) ★1 — DSH 会话人体工学：/new 一键新会话 + 输入历史 ↑↓ 回溯
+- ⬜ `[待定]` [dsh-ergonomics](https://github.com/hisaniwo/dsh-ergonomics) ★1 — DSH 会话人体工学：/new 一键新会话 + 输入历史 ↑↓ 回溯
 - 🟩 `[可用]` [hit-html-dsh-enhanced](https://github.com/HIT-HTML/dsh-ENHANCED) ★1 — (((( depricated repo))))One plugin, every upgrade DeepSeek Harness lacks out of the box: multi-engine web sear
 - 🟩 `[可用]` [hj01857655-dsh-plugins](https://github.com/hj01857655/dsh-plugins) ★1 — DeepSeek Harness 插件集合（monorepo）：context-memory / verdict / theme-studio / cost-track / model-arena / prompt-vc
 - 🟩 `[可用]` [hjj345-dsh-sm-version-display](https://github.com/hjj345/dsh-sm-version-display) ★1 — 用于在侧边栏“设置”按钮上方显示已安装 dsh 版本的 DeepSeek Harness Web 插件
