@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T05:33:15Z",
+ "generated_at": "2026-11-21T05:47:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -201164,7 +201164,7 @@
   {
    "repo": "fakechris/dsh-harness-ops",
    "name": "fakechris-dsh-harness-ops",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 17,
    "desc": "DSH 运维工具箱：升级、重启、故障都不用操心"
   },
