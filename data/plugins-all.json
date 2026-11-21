@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T12:18:01Z",
+ "generated_at": "2026-11-21T12:33:01Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -44535,6 +44535,13 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "Let your coding agent SEE what it builds"
+  },
+  {
+   "repo": "loguhan/dsh-workshop",
+   "name": "dsh-workshop",
+   "verdict": "pending",
+   "stars": 5,
+   "desc": "Steam Workshop style plugin store for DeepSeek Harness Web UI: browse 850+ community plugins, one-click instal"
   },
   {
    "repo": "lonelycrab888/dsh-remote-dc",
@@ -90282,13 +90289,6 @@
    "desc": "Build your workflow on an infinite canvas — text, design, app, image and video cards wired together on DeepSee"
   },
   {
-   "repo": "loguhan/dsh-workshop",
-   "name": "dsh-workshop",
-   "verdict": "incompatible",
-   "stars": 5,
-   "desc": "Steam Workshop style plugin store for DeepSeek Harness Web UI: browse 850+ community plugins, one-click instal"
-  },
-  {
    "repo": "louifinn/dsh-tower",
    "name": "louifinn-dsh-tower",
    "verdict": "incompatible",
@@ -112628,7 +112628,7 @@
   {
    "repo": "lordship12138-crypto/dsh-plugin-dedup",
    "name": "dsh-plugin-dedup",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -162403,6 +162403,13 @@
    "desc": "DSH 个人配置:Token 用量统计 / 成本估算 / 自定义指令 / 外观全局字号 / 桌面宠物(含会话状态概览),纯本地不联网"
   },
   {
+   "repo": "liyupi/dsh-kun-like-pet",
+   "name": "liyupi-dsh-kun-like-pet",
+   "verdict": "pending",
+   "stars": 113,
+   "desc": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：右下角小坤宠随 Agent 工作状态切换 9 种动作，任务完成播放「你干嘛~哎哟」"
+  },
+  {
    "repo": "thawline/dsh-memewiki",
    "name": "thawline-dsh-memewiki",
    "verdict": "ok",
@@ -167294,13 +167301,6 @@
    "verdict": "incompatible",
    "stars": 218,
    "desc": "从需求澄清到可信交付的 Agent 编程 Harness 工程框架"
-  },
-  {
-   "repo": "liyupi/dsh-kun-like-pet",
-   "name": "liyupi-dsh-kun-like-pet",
-   "verdict": "incompatible",
-   "stars": 113,
-   "desc": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：右下角小坤宠随 Agent 工作状态切换 9 种动作，任务完成播放「你干嘛~哎哟」"
   },
   {
    "repo": "Weaxs/stock-analysis-plugin",
@@ -188352,6 +188352,13 @@
    "desc": "给你的大肥鲸注册一个qq号吧"
   },
   {
+   "repo": "lovedheart/dsh-plugin-telegram",
+   "name": "dsh-plugin-telegram",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH plugin for Telegram bot integration"
+  },
+  {
    "repo": "Luminet-LT/dsh-inapp-chat",
    "name": "luminet-lt-dsh-inapp-chat",
    "verdict": "ok",
@@ -196822,13 +196829,6 @@
    "desc": "GovernLoop-DSH automatically connects DeepSeek Harness agents to independent ChatGPT review with checkpoints a"
   },
   {
-   "repo": "lovedheart/dsh-plugin-telegram",
-   "name": "dsh-plugin-telegram",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "DSH plugin for Telegram bot integration"
-  },
-  {
    "repo": "master1Sun/dsh-QQbot",
    "name": "master1sun-dsh-qqbot",
    "verdict": "incompatible",
@@ -200366,7 +200366,7 @@
   {
    "repo": "Lixiaoyiao/DSH-action",
    "name": "lixiaoyiao-deepseek-harness-action",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 64,
    "desc": "Community GitHub Action for DeepSeek Harness — AI Code Review · CI Diagnosis · Auto Fix · Issue → PR"
   },
@@ -205315,7 +205315,7 @@
   {
    "repo": "lsjspl/dsh-plugin-grok2api-media-tool",
    "name": "dsh-plugin-grok2api-media-tool",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "让 dsh 通过 grok2api 的 API 获得图片与视频生成能力（generate_image / generate_video）"
   },
@@ -211475,7 +211475,7 @@
   {
    "repo": "lonelymoon87/dsh-gitflow",
    "name": "dsh-gitflow",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Git status, diff, log, commit, branch, and optional Change Ledger tools for DeepSeek Harness."
   },
