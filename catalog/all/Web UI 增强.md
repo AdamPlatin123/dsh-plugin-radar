@@ -1484,6 +1484,7 @@
 - ⬜ `[待定]` [dingpenghui-good-dsh-tool-agnes](https://github.com/Dingpenghui-good/dsh-tool-agnes) ★2 — Agnes AI media generation plugins for DeepSeek Harness
 - 🟩 `[可用]` [dingpenghui-good-dsh-web-search-serper](https://github.com/Dingpenghui-good/dsh-web-search-serper) ★2 — Serper.dev-backed web search provider for DeepSeek Harness (DSH) web capability seam
 - 🟩 `[可用]` [dlpufan-dsh-theme-cyberpunk](https://github.com/dlpufan/dsh-theme-cyberpunk) ★2 — DeepSeek Harness 赛博朋克主题插件：RGB 流动霓虹、自定义背景图库、本地音乐播放器与一键启停
+- ⬜ `[待定]` [dsh-narrative-ledger](https://github.com/dongsheng123132/dsh-narrative-ledger) ★2 — Verifiable narrative state, continuity and character-knowledge ledger for DeepSeek Harness
 - ⬜ `[待定]` [dorisaimpatient855-awesome-dsh-plugin](https://github.com/dorisaimpatient855/awesome-dsh-plugin) ★2 — Curated plugins for DeepSeek Harness (dsh) — install, extend, and customize models, tools, sandboxes, UI, and
 - ⬜ `[待定]` [douglarek-dsh-statistics](https://github.com/douglarek/dsh-statistics) ★2 — Token usage, cost, budget, and CPU activity panel for DeepSeek Harness
 - 🟩 `[可用]` [drscrewdriver-dsh-paste-dock](https://github.com/drscrewdriver/dsh-paste-dock) ★2 — DeepSeek Harness 插件:大段文本粘贴自动存为 pastes/*.txt,输入框上方 dock 卡片管理,草稿内只留最小徽标(auto-paste × paste-to-path 整合)
@@ -7584,7 +7585,6 @@
 - 🟨 `[不兼容]` [deruichen258-deepseek-harness-desktop](https://github.com/DeRuiChen258/deepseek-harness-desktop) ★2 — —〔📦〕
 - 🟨 `[不兼容]` [dingpenghui-good-dsh-conversation-language](https://github.com/Dingpenghui-good/dsh-conversation-language) ★2 — DSH plugin for switching conversation language between Chinese and English
 - 🟨 `[不兼容]` [dingzhenyao-dsh-plugin-directory](https://github.com/dingzhenyao/dsh-plugin-directory) ★2 — DSH Web GUI plugin: a browsable, searchable, stats-driven directory of GitHub DeepSeek Harness plugins (dsh-pl
-- 🟨 `[不兼容]` [dsh-narrative-ledger](https://github.com/dongsheng123132/dsh-narrative-ledger) ★2 — Verifiable narrative state, continuity and character-knowledge ledger for DeepSeek Harness
 - 🟨 `[不兼容]` [drscrewdriver-dsh-docx-sidebar](https://github.com/drscrewdriver/dsh-docx-sidebar) ★2 — DSH web plugin (dsh-better-sidebar consumer): read .docx documents in the right sidebar — headings, lists, tab
 - 🟨 `[不兼容]` [drscrewdriver-dsh-opensheet-sidebar](https://github.com/drscrewdriver/dsh-opensheet-sidebar) ★2 — DSH web plugin (dsh-better-sidebar consumer): CSV/TSV/PSV plus xlsx/xlsm workbook preview in the right sidebar
 - 🟨 `[不兼容]` [drscrewdriver-dsh-pptx-sidebar](https://github.com/drscrewdriver/dsh-pptx-sidebar) ★2 — DSH plugin: read .pptx decks in the sidebar — slides in deck order, bullets, speaker notes, inline pictures
