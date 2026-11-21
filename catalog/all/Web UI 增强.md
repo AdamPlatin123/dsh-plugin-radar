@@ -2257,7 +2257,7 @@
 - 🟩 `[可用]` [comecaramelos-dsh-custom-provider](https://github.com/ComeCaramelos/dsh-custom-provider) ★1 — DSH plugin that adds a "No API key required" toggle to custom providers configuration
 - 🟩 `[可用]` [comecaramelos-dsh-mcp-manager](https://github.com/ComeCaramelos/dsh-mcp-manager) ★1 — Manage several external MCP connections from the Web GUI
 - 🟩 `[可用]` [comeonzhj-dsh-intelligent-ui](https://github.com/comeonzhj/dsh-intelligent-ui) ★1 — Intelligent UI for DeepSeek Harness: the model writes the interface in DIL, the host compiles it, a sandboxed
-- 🟩 `[可用]` [dsh-left-sidebar-collapse](https://github.com/condaThinker/dsh-left-sidebar-collapse) ★1 — Auto-collapse / fully-collapse the DSH left sidebar on session select (standalone DSH plugin)
+- ⬜ `[待定]` [dsh-left-sidebar-collapse](https://github.com/condaThinker/dsh-left-sidebar-collapse) ★1 — Auto-collapse / fully-collapse the DSH left sidebar on session select (standalone DSH plugin)
 - 🟩 `[可用]` [coolwyd-dsh-staff](https://github.com/Coolwyd/dsh-staff) ★1 — Persistent employee roster, task ledger, group chat and an in-UI staff center that turn DSH Agent Teams into a
 - 🟩 `[可用]` [corangam-dsh-familiar-dsweb](https://github.com/Corangam/dsh-familiar-dsweb) ★1 — DSH 桌面端的悬浮小助手：可拖拽悬浮窗内嵌 DeepSeek 网页版，跟随宿主深浅主题，水波外框 + 上浮气泡
 - 🟩 `[可用]` [cplh-dsh-course-notes](https://github.com/cplh/dsh-course-notes) ★1 — Bilibili course notes for DSH: watches Bilibili videos, builds subject knowledge maps, and delivers same-name
