@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20",
+ "checked_at": "2026-11-21",
  "entries": {
   "0-chenai/dsh-smooth-stream": {
    "status": "ok",
@@ -19469,6 +19469,10 @@
    "status": "gone",
    "checked": "2026-11-14"
   },
+  "charliewhale/bridge": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "charlotten7/dsh-dlp": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -22059,7 +22063,7 @@
   },
   "cking000bigdemon/dsh-acp-interactive": {
    "status": "ok",
-   "checked": "2026-11-20"
+   "checked": "2026-11-21"
   },
   "cking000bigdemon/dsh-toolbelt": {
    "status": "ok",
@@ -29492,6 +29496,14 @@
   "douglas-fly/dsh-qrcode": {
    "status": "ok",
    "checked": "2026-11-18"
+  },
+  "doushabao2026/dsh-opencode-routing": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
+  "doushabao2026/dsh-skill-market": {
+   "status": "ok",
+   "checked": "2026-11-21"
   },
   "doushalunae/dsh-readfence": {
    "status": "ok",
@@ -73049,6 +73061,10 @@
    "status": "ok",
    "checked": "2026-11-17"
   },
+  "m-f-vip/ugi-font": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "m-guo-2/dsh-delayed-task": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -77069,6 +77085,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "minglink/dsh-infinite-gen-5": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "minglink/dsh-plugin-agent-workflow": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -78168,6 +78188,10 @@
   "mochgolf/dsh-deepseek-vision-router": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "mochi-fish/dsh-fish": {
+   "status": "ok",
+   "checked": "2026-11-21"
   },
   "mochinek0/dsh-desktop": {
    "status": "ok",
@@ -85101,6 +85125,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "omdsh-dev/dsh-ego-browser": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "omdsh-dev/dsh-ernie-image": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -85360,6 +85388,14 @@
   "omdsh-dev/dsh-tui": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "omdsh-dev/dsh-turtle-ui": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
+  "omdsh-dev/dsh-typwriter": {
+   "status": "ok",
+   "checked": "2026-11-21"
   },
   "omdsh-dev/dsh-ui-progress": {
    "status": "ok",
@@ -95664,6 +95700,10 @@
   "roooooyczx/dsh-peakseek": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "roost-qq/dsh-roost": {
+   "status": "ok",
+   "checked": "2026-11-21"
   },
   "root-7-khx/ai-voice": {
    "status": "ok",
@@ -111905,6 +111945,10 @@
    "status": "ok",
    "checked": "2026-11-15"
   },
+  "tsukii12/dsh-yuremote": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "tsunamistr/dsh-opencode-go-usage": {
    "status": "ok",
    "checked": "2026-11-14"
@@ -126669,6 +126713,10 @@
    "status": "ok",
    "checked": "2026-11-14"
   },
+  "x7user/dsh-model-quota": {
+   "status": "ok",
+   "checked": "2026-11-21"
+  },
   "x7user/dsh-model-usage": {
    "status": "ok",
    "checked": "2026-11-18"
@@ -136584,6 +136632,10 @@
   "yuanyuanma03/dsh-funnel": {
    "status": "ok",
    "checked": "2026-11-14"
+  },
+  "yuanyuanzhang0815/dsh-prompt-book": {
+   "status": "ok",
+   "checked": "2026-11-21"
   },
   "yuanyuanzhang0815/dsh-quick-prompts": {
    "status": "ok",
