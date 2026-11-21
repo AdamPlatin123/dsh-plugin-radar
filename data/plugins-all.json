@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T15:17:52Z",
+ "generated_at": "2026-11-21T15:32:37Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3741,6 +3741,13 @@
    "desc": "Collection of Octoparse agent skills"
   },
   {
+   "repo": "omdsh-dev/dsh-revive",
+   "name": "dsh-revive",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "DSH 一键复活：重启后给所有被打断的会话自动发送「继续」指令（/revive 命令 + revive_sessions 工具 + 浏览器一键按钮）"
+  },
+  {
    "repo": "Punky971210/dsh-punky-swarm",
    "name": "punky971210-dsh-punky-swarm",
    "verdict": "ok",
@@ -6417,7 +6424,7 @@
   {
    "repo": "omdsh-dev/session-teleport",
    "name": "session-teleport",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -30178,13 +30185,6 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "Durable dependency-graph task factory for DeepSeek Harness: recurring Agent work, safe checkout lanes, first-c"
-  },
-  {
-   "repo": "omdsh-dev/dsh-revive",
-   "name": "dsh-revive",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "DSH 一键复活：重启后给所有被打断的会话自动发送「继续」指令（/revive 命令 + revive_sessions 工具 + 浏览器一键按钮）"
   },
   {
    "repo": "PandaPolo/dsh-voice-call",
@@ -201421,6 +201421,13 @@
    "desc": "One-line fix: inject a fixed system-prompt section so the agent always thinks and replies in Chinese, whatever"
   },
   {
+   "repo": "omdsh-dev/dsh-sidechain",
+   "name": "dsh-sidechain",
+   "verdict": "pending",
+   "stars": 14,
+   "desc": "DSH 侧会话插件：/btw 后台侧问，/side 独立追问；继承已完成上下文，使用 DSH 原生侧栏标签，主会话保持可用"
+  },
+  {
    "repo": "patrykorwat/open-dream-rsi",
    "name": "patrykorwat-open-dream-rsi",
    "verdict": "pending",
@@ -229454,13 +229461,6 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "An AI-native browser workspace for DeepSeek Harness (DSH), combining multi-tab browsing, live page annotations"
-  },
-  {
-   "repo": "omdsh-dev/dsh-sidechain",
-   "name": "dsh-sidechain",
-   "verdict": "incompatible",
-   "stars": 14,
-   "desc": "DSH 侧会话插件：/btw 后台侧问，/side 独立追问；继承已完成上下文，使用 DSH 原生侧栏标签，主会话保持可用"
   },
   {
    "repo": "PerryLink/dsh-output-styles",
