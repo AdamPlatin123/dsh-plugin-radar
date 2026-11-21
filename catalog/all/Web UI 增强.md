@@ -49,6 +49,7 @@
 - 🟩 `[可用]` [d-dev0101-open-sea-skin](https://github.com/d-dev0101/open-sea-skin) ★399 — 🌊 DeepSeek Harness 海洋皮肤与动态主题 \| Real-time ocean theme with adjustable waves, sunset & glass opacity
 - 🟩 `[可用]` [xing-shuyin-pi-web-ui](https://github.com/xing-shuyin/pi-web-ui) ★396 — Just open your browser — get all your work done.
 - ⬜ `[待定]` [libukai-awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) ★382 — DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plug
+- ⬜ `[待定]` [linhay-harmony-next-skills](https://github.com/linhay/harmony-next.skills) ★376 — Offline HarmonyOS NEXT developer skill library for AI coding assistants
 - 🟩 `[可用]` [zseven-w-dsh-android](https://github.com/ZSeven-W/dsh-android) ★364 — DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream insid
 - 🟩 `[可用]` [alaliqing-claude-paper](https://github.com/alaliqing/claude-paper) ★360 — 📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, d
 - ⬜ `[待定]` [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) ★348 — 在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations
@@ -7100,7 +7101,6 @@
 - 🟨 `[不兼容]` [oxbshw-watch-skill](https://github.com/oxbshw/watch-skill) ★597 — Give AI agents eyes, ears, and verifiable results
 - 🟨 `[不兼容]` [dsh-ego-browser](https://github.com/omdsh-dev/dsh-ego-browser) ★558 — DSH（DeepSeek Harness）插件：把 ego-lite 浏览器（给 AI Agent 用的 Chromium）接入 HARNESS——13 个结构化 ego_* 工具（文本语义快照、语义定位点击、表单填充、
 - 🟨 `[不兼容]` [yogsoth-ai-de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) ★515 — Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi
-- 🟨 `[不兼容]` [linhay-harmony-next-skills](https://github.com/linhay/harmony-next.skills) ★376 — Offline HarmonyOS NEXT developer skill library for AI coding assistants
 - 🟨 `[不兼容]` [modelstudioai-cli](https://github.com/modelstudioai/cli) ★371 — Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and wo
 - 🟨 `[不兼容]` [zhu1090093659-dsh-trading](https://github.com/zhu1090093659/dsh-trading) ★367 — Agent-native trading terminal built on DeepSeek Harness
 - 🟨 `[不兼容]` [shengsheng90-dsh-taskboard](https://github.com/shengsheng90/DSH-taskboard) ★329 — Native local Taskboard plugin for DeepSeek Harness
