@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T17:48:44Z",
+ "generated_at": "2026-11-21T18:03:00Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -151527,7 +151527,7 @@
   {
    "repo": "SuMuxi66/deepseek-harness-desktop-electron",
    "name": "deepseek-harness-desktop-electron",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "deepseek的harness桌面端"
   },
@@ -186849,7 +186849,7 @@
   {
    "repo": "liliuCourier/dsh-chat-outline",
    "name": "dsh-chat-outline",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "对话栏左侧常驻大纲：快速定位每次 user 提问与最后 assistant 回复（DeepSeek Harness 插件）"
   },
