@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T01:32:51Z",
+ "generated_at": "2026-11-21T01:47:53Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -5213,7 +5213,7 @@
   {
    "repo": "ang-XWBWZ/dsh-approval-ai",
    "name": "dsh-approval-ai",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "AI approval answerer for DeepSeek Harness (DSH) using the unified LLM route with fail-closed policy checks."
   },
