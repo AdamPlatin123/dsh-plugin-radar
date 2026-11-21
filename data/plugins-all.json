@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T06:17:58Z",
+ "generated_at": "2026-11-21T06:32:19Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -56446,7 +56446,7 @@
   {
    "repo": "goodpostidea-tech/deepseek-harness-skin",
    "name": "deepseek-harness-skin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "deepseek-harness-skin"
   },
@@ -200653,7 +200653,7 @@
   {
    "repo": "GuoMonth/dsh-multi-tenant",
    "name": "dsh-multi-tenant",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 31,
    "desc": "Self-hosted multi-user DeepSeek Harness on Kubernetes, with OIDC sign-in and persistent user environments."
   },
@@ -218909,7 +218909,7 @@
   {
    "repo": "Gordonynh/dsh-plugin-codex-import",
    "name": "dsh-plugin-codex-import",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: import OpenAI Codex conversation history into DSH sessions via /codex-import \\| 用 /cod"
   },
