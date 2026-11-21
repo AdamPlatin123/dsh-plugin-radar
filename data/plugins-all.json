@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T05:47:09Z",
+ "generated_at": "2026-11-21T06:03:02Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39679,6 +39679,13 @@
    "desc": "已并入 dsh-routing-suite（单仓库化）；本仓库为历史镜像/归档 —— 注意力工程主线 v1.19.1/v34 研发线未发布"
   },
   {
+   "repo": "flymysql/dsh-remote",
+   "name": "flymysql-dsh-remote",
+   "verdict": "pending",
+   "stars": 338,
+   "desc": "SSH remote workspaces for DeepSeek Harness: parallel projects across hosts, remote file browsing and editing,"
+  },
+  {
    "repo": "kingOfSoySauce/dsh-skin-market",
    "name": "kingofsoysauce-dsh-skin-market",
    "verdict": "ok",
@@ -46737,7 +46744,7 @@
   {
    "repo": "Favio8/dsh-plugin-deepeye",
    "name": "dsh-plugin-deepeye",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DeepEye vision plugin for DeepSeek Harness (DSH): image description, OCR, VQA, UI layout, and clipboard analys"
   },
@@ -49887,7 +49894,7 @@
   {
    "repo": "forrestahha/dsh-voice-input",
    "name": "dsh-voice-input",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Voice-to-text input plugin for the DeepSeek Harness Web UI"
   },
@@ -88299,13 +88306,6 @@
    "verdict": "incompatible",
    "stars": 348,
    "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations"
-  },
-  {
-   "repo": "flymysql/dsh-remote",
-   "name": "flymysql-dsh-remote",
-   "verdict": "incompatible",
-   "stars": 338,
-   "desc": "SSH remote workspaces for DeepSeek Harness: parallel projects across hosts, remote file browsing and editing,"
   },
   {
    "repo": "shengsheng90/DSH-taskboard",
@@ -149455,7 +149455,7 @@
   {
    "repo": "fly233338/dsh-overleaf",
    "name": "dsh-overleaf",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "Connect Overleaf projects to DeepSeek Harness (DSH) through OverleafMCP and MCP tools."
   },
@@ -192239,7 +192239,7 @@
   {
    "repo": "FernanDAlumin/dsh-codex-subs-plugin",
    "name": "dsh-codex-subs-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "An experimental DeepSeek Harness adapter that uses ChatGPT OAuth to access a Codex subscription as the primary"
   },
@@ -218216,7 +218216,7 @@
   {
    "repo": "Feng-orz/dsh-metaplugin",
    "name": "dsh-metaplugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "A native DeepSeek Harness metaplugin for generating, adding, and managing plugins inside Harness."
   },
