@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T09:33:00Z",
+ "generated_at": "2026-11-21T09:47:08Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -45379,7 +45379,7 @@
   {
    "repo": "kaotusi/dsh-task-notify",
    "name": "dsh-task-notify",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness (DSH) system-level task notifications: approval required / awaiting reply / task finished (ba"
   },
@@ -56411,7 +56411,7 @@
   {
    "repo": "godlike985/dsh-sidebar-editor",
    "name": "godlike985-dsh-sidebar-editor",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 1,
    "desc": "在 DSH 右侧栏预览代码文件、按名字搜索工作区文件，并把选中行一键引用进对话框 ｜ Preview code files in the DSH sidebar, search workspace files by na"
   },
@@ -186630,6 +186630,13 @@
    "desc": "LINE Messaging API bot plugin for DeepSeek Harness: Cloudflare Tunnel, selectable personas, proactive messages"
   },
   {
+   "repo": "JustGenius-s/DSH-Plugs",
+   "name": "justgenius-s-dsh-plugs",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "DSH Plugins Cellection"
+  },
+  {
    "repo": "NimuStudio/NimuQDock-dsh",
    "name": "nimustudio-nimuqdock-dsh",
    "verdict": "ok",
@@ -196038,13 +196045,6 @@
    "desc": "Lark/飞书（Feishu）渠道插件，为 \\[DeepSeek Harness\\](https://github.com/deepseek-ai/deepseek-harness) 提供飞书通信能力"
   },
   {
-   "repo": "JustGenius-s/DSH-Plugs",
-   "name": "justgenius-s-dsh-plugs",
-   "verdict": "incompatible",
-   "stars": 9,
-   "desc": "DSH Plugins Cellection"
-  },
-  {
    "repo": "justhalfbit/dsh-plugin-jev-effort-selector",
    "name": "justhalfbit-dsh-plugin-jev-effort-selector",
    "verdict": "incompatible",
@@ -205217,7 +205217,7 @@
   {
    "repo": "k4its1t/deepseek-harness-desktop-community",
    "name": "k4its1t-deepseek-harness-desktop-community",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "停止维护 / Discontinued — Please use the official DeepSeek Harness desktop: https://github.com/deepseek-ai/deepsee"
   },

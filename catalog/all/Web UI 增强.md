@@ -869,7 +869,7 @@
 - 🟩 `[可用]` [jolly-j-dsh-deepseek-billing](https://github.com/Jolly-J/dsh-deepseek-billing) ★4 — DSH WebUI 插件:DeepSeek 余额显示与按会话费用估算
 - 🟩 `[可用]` [juliiiiiiiu-my-cozy-dsh](https://github.com/juliiiiiiiu/my-cozy-dsh) ★4 — My Cozy DSH: an illustrated theme for DeepSeek Harness
 - ⬜ `[待定]` [jungenius-stack-dsh-zcode-ui](https://github.com/jungenius-stack/dsh-zcode-ui) ★4 — DSH ZCode UI — 把 DeepSeek Harness Web 的界面换成 ZCode 风格：侧栏、工作区会话树、全局搜索与轮次导航
-- 🟩 `[可用]` [dsh-task-notify](https://github.com/kaotusi/dsh-task-notify) ★4 — DeepSeek Harness (DSH) system-level task notifications: approval required / awaiting reply / task finished (ba
+- ⬜ `[待定]` [dsh-task-notify](https://github.com/kaotusi/dsh-task-notify) ★4 — DeepSeek Harness (DSH) system-level task notifications: approval required / awaiting reply / task finished (ba
 - 🟩 `[可用]` [kelai141-dsh-client-ui-responsive](https://github.com/kelai141/dsh-client-ui-responsive) ★4 — dsh Web UI 的移动响应式 AppFrame——派生自 dsh-client-ui-layout，新增 <640px 抽屉侧栏、底部 sheet 与安全区
 - 🟩 `[可用]` [kerbalmans-dsh-aliyun-coupon](https://github.com/KERBALMans/dsh-aliyun-coupon) ★4 — DeepSeek Harness 插件：在侧边栏实时查看阿里云「云工开物」学生专属 300 元代金券余额
 - 🟩 `[可用]` [kerbalmans-dsh-modpack](https://github.com/KERBALMans/dsh-modpack) ★4 — 像《我的世界》整合包一样管理 DeepSeek Harness 插件：勾选一部分或全部插件，打包成一个 .dshmodpack.json 文件，别人导入即可一键装回整套插件环境
@@ -2457,7 +2457,7 @@
 - 🟩 `[可用]` [gjhhjfgh-mirror-dsh-adapter](https://github.com/gjhhjfgh/mirror-dsh-adapter) ★1 — Mirror · AI 的记忆治理层 —— DSH 插件（本地记忆内核 + 治理面板）
 - 🟩 `[可用]` [glenngit-dsh-top](https://github.com/glenngit/dsh-top) ★1 — System monitoring tool for the dsh web GUI: live CPU, RAM, disk, network, and top processes in a floating, col
 - 🟩 `[可用]` [gmh13552-dsh-timer-scheduler](https://github.com/GMH13552/dsh-timer-scheduler) ★1 — 简单的dsh定时任务插件 支持定时列表任务、ui显示，对于长期任务有益
-- ⬜ `[待定]` [godlike985-dsh-sidebar-editor](https://github.com/godlike985/dsh-sidebar-editor) ★1 — 在 DSH 右侧栏预览代码文件、按名字搜索工作区文件，并把选中行一键引用进对话框 ｜ Preview code files in the DSH sidebar, search workspace files by na
+- 🟩 `[可用]` [godlike985-dsh-sidebar-editor](https://github.com/godlike985/dsh-sidebar-editor) ★1 — 在 DSH 右侧栏预览代码文件、按名字搜索工作区文件，并把选中行一键引用进对话框 ｜ Preview code files in the DSH sidebar, search workspace files by na
 - 🟩 `[可用]` [goldenloaf24h-dsh-exa](https://github.com/GoldenLoaf24h/dsh-exa) ★1 — Exa web search and fetch for DeepSeek Harness (dsh): replaces built-in web_search/web_fetch and exposes advanc
 - 🟩 `[可用]` [goldgish-dsh-agent-trace](https://github.com/goldgish/dsh-agent-trace) ★1 — Agent Trace — visualize an agent's reasoning, parallel tool calls, and results as an interactive DAG inside De
 - 🟩 `[可用]` [gonegirl07-commandcode-go-for-dsh](https://github.com/gonegirl07/commandcode-go-for-dsh) ★1 — Command Code Go provider for DeepSeek Harness TUI and Web, including /cc-usage.
