@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T23:03:04Z",
+ "generated_at": "2026-11-21T23:17:59Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -52869,7 +52869,7 @@
   {
    "repo": "ylqit/dsh-skin-plugin",
    "name": "ylqit-dsh-skin-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "dsh-web的换肤插件"
   },
@@ -164785,7 +164785,7 @@
   {
    "repo": "yoke233/dsh-pixel-whale",
    "name": "dsh-pixel-whale",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "A lively pixel-whale running-state companion for DeepSeek Harness Web."
   },
@@ -227806,7 +227806,7 @@
   {
    "repo": "youjiaqi421/dsh-plugin-workspace-rules",
    "name": "dsh-plugin-workspace-rules",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Load Cursor, Gemini CLI, and GitHub Copilot workspace instructions into DeepSeek Harness."
   },
