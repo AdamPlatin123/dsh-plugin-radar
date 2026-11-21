@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T17:17:43Z",
+ "generated_at": "2026-11-21T17:32:56Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -43475,7 +43475,7 @@
   {
    "repo": "siberiah2o/dsh-plugin-terminal",
    "name": "dsh-plugin-terminal",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Bottom terminal panel plugin for DeepSeek Harness (DSH Web GUI)"
   },
@@ -47962,7 +47962,7 @@
   {
    "repo": "SeverusZh/dsh-yolo-mode",
    "name": "dsh-yolo-mode",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalations (built-in presets"
   },
@@ -61409,7 +61409,7 @@
   {
    "repo": "shyboy/dsh-k12-lesson-builder",
    "name": "dsh-k12-lesson-builder",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness plugin for generating synchronized K12 English PPTX and DOCX lesson materials"
   },
@@ -114434,7 +114434,7 @@
   {
    "repo": "SisyphusSQ/dsh-plugins",
    "name": "sisyphussq-dsh-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "A monorepo for composable DeepSeek Harness (DSH) plugins."
   },
@@ -170770,7 +170770,7 @@
   {
    "repo": "showlibia/dsh-plugin-installer",
    "name": "showlibia-dsh-plugin-installer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -200912,7 +200912,7 @@
   {
    "repo": "shaokeyibb/dsh-plugin-product-subagents",
    "name": "dsh-plugin-product-subagents",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 22,
    "desc": "Role-based Codex / Claude Code / ACP subagent providers for the DeepSeek Harness — continuable children, durab"
   },
