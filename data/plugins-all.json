@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T20:47:59Z",
+ "generated_at": "2026-11-21T21:02:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -6949,7 +6949,7 @@
   {
    "repo": "Wine-Red/dsh-prompt-stash",
    "name": "dsh-prompt-stash",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Local, per-session prompt stash for DeepSeek Harness Web \\| 本地、分对话的提示词输入暂存工具"
   },
