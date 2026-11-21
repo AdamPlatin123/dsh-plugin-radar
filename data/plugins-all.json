@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T08:47:55Z",
+ "generated_at": "2026-11-21T09:02:49Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -107931,14 +107931,14 @@
   {
    "repo": "Hyperionjust/dsh-tool-underseal",
    "name": "dsh-tool-underseal",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
   {
    "repo": "Inspireason/dsh-plugin-organizer",
    "name": "inspireason-dsh-plugin-organizer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -137079,7 +137079,7 @@
   {
    "repo": "yebaihyp/dsh-vibe-coding-prd",
    "name": "yebaihyp-dsh-vibe-coding-prd",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "把一个说不清需求的人，通过一问一答，带到一份 AI 能直接照着开工的 PRD"
   },
@@ -170131,6 +170131,13 @@
    "desc": "DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem ·"
   },
   {
+   "repo": "imsai-sh/awesome-deepseek-harness-plugins",
+   "name": "imsai-sh-awesome-deepseek-harness-plugins",
+   "verdict": "pending",
+   "stars": 407,
+   "desc": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install comman"
+  },
+  {
    "repo": "polang233/dsh-plugin-index",
    "name": "polang233-dsh-plugin-index",
    "verdict": "ok",
@@ -171893,13 +171900,6 @@
    "verdict": "incompatible",
    "stars": 667,
    "desc": "The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet, reviewed"
-  },
-  {
-   "repo": "imsai-sh/awesome-deepseek-harness-plugins",
-   "name": "imsai-sh-awesome-deepseek-harness-plugins",
-   "verdict": "incompatible",
-   "stars": 407,
-   "desc": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install comman"
   },
   {
    "repo": "duhu2000/dsh-mcp-connector",
@@ -201241,7 +201241,7 @@
   {
    "repo": "inmny/dsh-git-bash",
    "name": "inmny-dsh-git-bash",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "DeepSeek Harness 插件：让DSH使用Git Bash，能够保持read-only, workspace-write, full-access权限控制依旧可用"
   },
