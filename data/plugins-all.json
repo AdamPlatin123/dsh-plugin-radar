@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T17:32:56Z",
+ "generated_at": "2026-11-21T17:48:44Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -23616,7 +23616,7 @@
   {
    "repo": "SmileTao/dsh-plugin-dev-skill",
    "name": "smiletao-dsh-plugin-dev-skill",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "帮助 AI 正确地编写 DeepSeek Harness (dsh) 插件的skill"
   },
@@ -50006,7 +50006,7 @@
   {
    "repo": "Galaxy-2001/Rhine-Lab-Codex-Theme",
    "name": "galaxy-2001-rhine-lab-codex-theme",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 2,
    "desc": "莱茵生命风格的 Windows Codex 动态主题，支持聊天与设置页背景、循环动画和可选 Skill"
   },
@@ -173549,7 +173549,7 @@
   {
    "repo": "Sorwcyra/ds-vision-plugin",
    "name": "ds-vision-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Paste images into DeepSeek Harness with a four-model vision race, OCR, and an automatic text bridge."
   },
