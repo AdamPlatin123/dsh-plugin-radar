@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T09:02:49Z",
+ "generated_at": "2026-11-21T09:17:49Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -631,6 +631,13 @@
    "verdict": "pending",
    "stars": 73,
    "desc": "An MCP server, CLI and Skills for reach CNKI"
+  },
+  {
+   "repo": "btspoony/mstar-harness",
+   "name": "mstar-harness",
+   "verdict": "pending",
+   "stars": 72,
+   "desc": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills."
   },
   {
    "repo": "cofy-x/axern",
@@ -28850,13 +28857,6 @@
    "desc": "将 Qoder（国内版/国际版）以 PAT 接入 DeepSeek Harness —— 侧栏额度展示、上下文窗口切换、模型自由开关、每日自动签到"
   },
   {
-   "repo": "btspoony/mstar-harness",
-   "name": "mstar-harness",
-   "verdict": "incompatible",
-   "stars": 72,
-   "desc": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills."
-  },
-  {
    "repo": "automagik-si/omni",
    "name": "automagik-si-omni",
    "verdict": "incompatible",
@@ -47115,7 +47115,7 @@
   {
    "repo": "izz-BLUE/dsh-deepseek-usage-dashboard",
    "name": "dsh-deepseek-usage-dashboard",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and balance monitoring"
   },
@@ -54626,7 +54626,7 @@
   {
    "repo": "Carpon39038/dsh-image-theme",
    "name": "dsh-image-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Warp-inspired image-to-theme plugin for DeepSeek Harness: upload a background, extract a palette, and apply a"
   },
