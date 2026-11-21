@@ -858,7 +858,6 @@
 - 🟩 `[可用]` [keyblues-dsh-fofatoto](https://github.com/keyblues/dsh-fofatoto) ★2 — DeepSeek Harness (DSH) 插件：fofatoto —— FOFA 网络空间测绘（额度查询/语句检索/全量导出），原生 Agent 工具，插件页配置 API Key
 - 🟩 `[可用]` [kiefeng-dsh-lan-memory](https://github.com/kiefeng/dsh-lan-memory) ★2 — Local-first memory & persona plugin for DeepSeek Harness (DSH): three-layer file memory, SOUL/MOOD persona, ze
 - 🟩 `[可用]` [kingguuu8-svg-dsh-pi-compatible](https://github.com/kingguuu8-svg/dsh-pi-compatible) ★2 — 在 DeepSeek Harness 中复刻 Pi 工具组的 agent preset，提供 Pi 风格小写核心工具契约并保留 DSH-backed 扩展工具
-- ⬜ `[待定]` [kingsoftcloud-agentkit-personal-assistant](https://github.com/kingsoftcloud/agentkit-personal-assistant) ★2 — AgentKit personal assistant plugin for DeepSeek Harness
 - 🟩 `[可用]` [kira905-dsh-memory-toolkit](https://github.com/kira905/dsh-memory-toolkit) ★2 — Agent 记忆层：向量召回 + FTS5 双路、命中留痕、分层软淘汰、只读体检器具 · Memory layer for agents: vector + FTS5 recall, recall provenance,
 - 🟩 `[可用]` [kira905-dsh-task-board-local](https://github.com/kira905/dsh-task-board-local) ★2 — 插件：自维护任务看板 —— 一张卡 = 一次真实 DSH 会话，跑完由人验收才算完成 · DSH plugin: a self-maintained task board where a card is a real D
 - 🟩 `[可用]` [kitterfast-dsh-ppt-maker](https://github.com/kitterfast/dsh-ppt-maker) ★2 — DSH (DeepSeek Harness) web plugin: adds a PPT 制作 entry to the composer + menu that kicks off a bundled, self-c
@@ -1835,7 +1834,7 @@
 - 🟩 `[可用]` [weft-audit-dsh-checkpoint](https://github.com/weft-audit/dsh-checkpoint) ★1 — 任务断点协议——记录断点、恢复只做剩余步骤、绝不自动执行
 - 🟩 `[可用]` [weft-audit-dsh-judgement](https://github.com/weft-audit/dsh-judgement) ★1 — 20 条判断力清单技能包（中英，纯方法论，不夹带私人内容）
 - 🟩 `[可用]` [weiliu03-deepseek-harness-desktop](https://github.com/WeiLiu03/deepseek-harness-desktop) ★1 — Unofficial desktop app for DeepSeek Harness (dsh) - DeepSeek's plugin-first AI agent runtime in one native win
-- 🟩 `[可用]` [wellorbetter-dsh-plugin-window-stats](https://github.com/wellorbetter/dsh-plugin-window-stats) ★1 — DSH web plugin: see every session's conversation progress and token usage at a glance — all-windows overview,
+- ⬜ `[待定]` [wellorbetter-dsh-plugin-window-stats](https://github.com/wellorbetter/dsh-plugin-window-stats) ★1 — DSH web plugin: see every session's conversation progress and token usage at a glance — all-windows overview,
 - ⬜ `[待定]` [whaojie797-design-china-exec-report](https://github.com/whaojie797-design/china-exec-report) ★1 — Chinese decision-style business report Agent Skill - messy materials into traceable, decision-ready Chinese re
 - 🟩 `[可用]` [whateverboy2333-dsh-flat-teams](https://github.com/whateverboy2333/dsh-flat-teams) ★1 — Leaderless flat agent teams for DeepSeek Harness: cross-window structured task dispatch, recorder service, and
 - 🟩 `[可用]` [whxcjm-dsh-cost-bar](https://github.com/WhXcjm/dsh-cost-bar) ★1 — DeepSeek Harness 插件：输入栏成本条，显示本轮与会话的估算花费，点开看双栏明细
@@ -2820,7 +2819,6 @@
 - 🟩 `[可用]` [klpzj-dsh-peer-relay](https://github.com/klpzj/dsh-peer-relay) ★0 — Host-only peer session relay tools for DeepSeek Harness
 - 🟩 `[可用]` [kmagwenzi-dsh-ai-suplex](https://github.com/kmagwenzi/dsh-ai-suplex) ★0 — The 7-7-7 execution loop for DeepSeek Harness — plan, run, capture, close, compound, with a human gate.
 - 🟩 `[可用]` [knowz-io-deepseek-knowz-plugin](https://github.com/knowz-io/deepseek-knowz-plugin) ★0 — Knowz vaults for DeepSeek Harness — hosted MCP plus slim vault skills
-- ⬜ `[待定]` [kochetkov-ma-brewpage-publish-plugins](https://github.com/kochetkov-ma/brewpage-publish-plugins) ★0 — Host HTML pages and static sites, publish AI artifacts, and share Markdown, documents, reports or any file wit
 - 🟩 `[可用]` [kocor01-dsh-model-auto-retry](https://github.com/kocor01/dsh-model-auto-retry) ★0 — DSH host plugin: keep agents alive through model rate limits (HTTP 429) - in-loop retry, then an automatic 继续
 - 🟩 `[可用]` [kongbaige010-dsh-conn-check](https://github.com/Kongbaige010/dsh-conn-check) ★0 — Model connectivity chips for the DSH session header
 - 🟩 `[可用]` [kongyecn-wq-dsh-okx-skill-hub](https://github.com/kongyecn-wq/dsh-okx-skill-hub) ★0 — —
@@ -4617,6 +4615,7 @@
 - 🟨 `[不兼容]` [johnxu22786-spec-driven](https://github.com/JohnXu22786/spec-driven) ★2 — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防过度工程与范围蔓延，为 dsh 等插件化 harness 提供技能+工具+模板
 - 🟨 `[不兼容]` [jonah791-dsh-agent-memory](https://github.com/jonah791/dsh-agent-memory) ★2 — Agent-driven long-term memory for DeepSeek Harness: scoped memory (global + per-workspace), layered entries (f
 - 🟨 `[不兼容]` [work-charter-dsh](https://github.com/eddiez529/work-charter-dsh) ★2 — DSH-native Work Charter policy plugin backed by session-coordinator-dsh
+- 🟨 `[不兼容]` [kingsoftcloud-agentkit-personal-assistant](https://github.com/kingsoftcloud/agentkit-personal-assistant) ★2 — AgentKit personal assistant plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [kirbylynx-deepshell-agent](https://github.com/kirbylynx/deepshell-agent) ★2 — A desktop agent powered by DeepSeek Harness.
 - 🟨 `[不兼容]` [ktdhhc-dsh-custom-subagents](https://github.com/ktdhhc/dsh-custom-subagents) ★2 — 一个dsh的子agent控制插件
 - 🟨 `[不兼容]` [kyrielrving11-loopforge](https://github.com/kyrielrving11/LoopForge) ★2 — —
@@ -5360,6 +5359,7 @@
 - 🟨 `[不兼容]` [kjx-talesofai-dsh-plugin-agent-alerts](https://github.com/kjx-talesofai/dsh-plugin-agent-alerts) ★0 — A desktop notification and a sound when the agent finishes, asks a question, or needs your approval — with you
 - 🟨 `[不兼容]` [kjx-talesofai-dsh-plugin-localhost](https://github.com/kjx-talesofai/dsh-plugin-localhost) ★0 — A panel for the servers and static pages an agent started on localhost: port, directory, registering session,
 - 🟨 `[不兼容]` [kngear-dsh-agenttask](https://github.com/knGear/dsh-AgentTask) ★0 — —
+- 🟨 `[不兼容]` [kochetkov-ma-brewpage-publish-plugins](https://github.com/kochetkov-ma/brewpage-publish-plugins) ★0 — Host HTML pages and static sites, publish AI artifacts, and share Markdown, documents, reports or any file wit
 - 🟨 `[不兼容]` [koewen-dsh-window-size-lock](https://github.com/Koewen/dsh-window-size-lock) ★0 — DeepSeek Harness plugin: remember, lock and restore the main window size across sessions (koffi + user32, no E
 - 🟨 `[不兼容]` [kolawong-dsh-plugin-model-dispatch](https://github.com/kolawong/dsh-plugin-model-dispatch) ★0 — DSH plugin: pick separate models and reasoning efforts for the main session, subagents, and plan mode.
 - 🟨 `[不兼容]` [komorebi-nine-dsh-inline-pi-agent](https://github.com/Komorebi-Nine/dsh-inline-pi-agent) ★0 — A plugin for DSH to run the Pi Agent Loop
