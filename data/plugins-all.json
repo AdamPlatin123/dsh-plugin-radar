@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T19:03:14Z",
+ "generated_at": "2026-11-21T19:18:08Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4866,6 +4866,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Agent 忙时自动分叉会话：你新发的指令立刻在新会话里得到响应，旧会话留在后台跑完并把结果回注（DeepSeek Harness 插件）"
+  },
+  {
+   "repo": "Wanbinyu/dsh-billing",
+   "name": "wanbinyu-dsh-billing",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Local per-model cost, token usage, and session quota plugin for DeepSeek Harness"
   },
   {
    "repo": "Wanqiu12345/dsh-session-matrix",
@@ -30817,13 +30824,6 @@
    "desc": "—"
   },
   {
-   "repo": "Wanbinyu/dsh-billing",
-   "name": "wanbinyu-dsh-billing",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "Local per-model cost, token usage, and session quota plugin for DeepSeek Harness"
-  },
-  {
    "repo": "WanYanTianDe/dsh-headroom",
    "name": "wanyantiande-dsh-headroom",
    "verdict": "incompatible",
@@ -39632,7 +39632,7 @@
   {
    "repo": "vlln/whale-girl",
    "name": "whale-girl",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 413,
    "desc": "DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴"
   },
@@ -40307,6 +40307,13 @@
    "verdict": "pending",
    "stars": 60,
    "desc": "Deepseek Harness 自定义主题插件，支持自定义图片/视频壁纸，对话框，侧边栏等透明度模糊度调整，全局主题色的色轮调整插件"
+  },
+  {
+   "repo": "vlln/plugin-registry",
+   "name": "vlln-plugin-registry",
+   "verdict": "pending",
+   "stars": 60,
+   "desc": "DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导"
   },
   {
    "repo": "Lovenndme/dsh-profile-stats",
@@ -88588,13 +88595,6 @@
    "desc": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新"
   },
   {
-   "repo": "vlln/plugin-registry",
-   "name": "vlln-plugin-registry",
-   "verdict": "incompatible",
-   "stars": 60,
-   "desc": "DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导"
-  },
-  {
    "repo": "zhuiyueya/dsh-im-gateway",
    "name": "zhuiyueya-dsh-im-gateway",
    "verdict": "incompatible",
@@ -104557,7 +104557,7 @@
   {
    "repo": "wangyang10/image-vision",
    "name": "wangyang10-image-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "—"
   },
@@ -164694,7 +164694,7 @@
   {
    "repo": "Vinsenz0122/deepseek-harness-whale-pet",
    "name": "deepseek-harness-whale-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness Web 的可拖动鲸鱼女仆状态宠物插件"
   },
@@ -192818,13 +192818,6 @@
    "desc": "给 DSH（DeepSeek Harness）的 QQ 官方机器人通道补齐表情包、主动发言、长期记忆和图形设置页"
   },
   {
-   "repo": "kankanfs/dsh-chat-first",
-   "name": "kankanfs-dsh-chat-first",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Chat First for DeepSeek Harness: discuss when unsure, act when ready"
-  },
-  {
    "repo": "Kanzhenijuede/aurabot-mod-douyin-chat",
    "name": "kanzhenijuede-aurabot-mod-douyin-chat",
    "verdict": "ok",
@@ -198551,6 +198544,13 @@
    "desc": "DSH multi-tenant auth plugin: PostgreSQL-backed accounts, admin management, per-user workspace isolation"
   },
   {
+   "repo": "kankanfs/dsh-chat-first",
+   "name": "kankanfs-dsh-chat-first",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Chat First for DeepSeek Harness: discuss when unsure, act when ready"
+  },
+  {
    "repo": "KasenRi/ds-bot-addmode",
    "name": "kasenri-ds-bot-addmode",
    "verdict": "incompatible",
@@ -200369,6 +200369,13 @@
    "verdict": "pending",
    "stars": 64,
    "desc": "Community GitHub Action for DeepSeek Harness — AI Code Review · CI Diagnosis · Auto Fix · Issue → PR"
+  },
+  {
+   "repo": "Vithrive/Deepseek-Harness-for-VS-Code",
+   "name": "Deepseek-Harness-for-VS-Code",
+   "verdict": "pending",
+   "stars": 63,
+   "desc": "Deepseek Harness for VS Code"
   },
   {
    "repo": "thibautrey/multivibe",
@@ -205728,7 +205735,7 @@
   {
    "repo": "vpromise/dsh-memory",
    "name": "vpromise-dsh-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Persistent context across sessions for every agent: a DeepSeek Harness Cordis plugin that captures activity, c"
   },
@@ -228992,13 +228999,6 @@
    "verdict": "incompatible",
    "stars": 66,
    "desc": "DSH web plugin: VSCode Remote-SSH-like remote development (SSH, remote workspace, file explorer, integrated te"
-  },
-  {
-   "repo": "Vithrive/Deepseek-Harness-for-VS-Code",
-   "name": "Deepseek-Harness-for-VS-Code",
-   "verdict": "incompatible",
-   "stars": 63,
-   "desc": "Deepseek Harness for VS Code"
   },
   {
    "repo": "lna-lab/distill-kura",

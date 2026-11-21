@@ -701,6 +701,7 @@
 - 🟩 `[可用]` [ventisyn-dsh-approval-gate](https://github.com/ventisyn/dsh-approval-gate) ★3 — 适配 DSH 0.2.2-rc.5 的自动审批门控：判定模型判断不可回补操作，安全自动批准、危险转人工
 - 🟩 `[可用]` [viyiviyi-dsh-tree-task-flow](https://github.com/viyiviyi/dsh-tree-task-flow) ★3 — 树形任务流 · DeepSeek Harness 插件：把多步任务组织成目标→任务→子任务三级树，节点完成时由 AI 提交结果，插件随即把该节点的执行过程从上下文里折叠掉
 - 🟩 `[可用]` [vlln-dsh-autofork](https://github.com/vlln/dsh-autofork) ★3 — Agent 忙时自动分叉会话：你新发的指令立刻在新会话里得到响应，旧会话留在后台跑完并把结果回注（DeepSeek Harness 插件）
+- ⬜ `[待定]` [wanbinyu-dsh-billing](https://github.com/Wanbinyu/dsh-billing) ★3 — Local per-model cost, token usage, and session quota plugin for DeepSeek Harness
 - ⬜ `[待定]` [wanqiu12345-dsh-session-matrix](https://github.com/Wanqiu12345/dsh-session-matrix) ★3 — A panoramic console for DeepSeek Harness: run multiple native sessions and subagents in parallel, see the agen
 - 🟩 `[可用]` [warrenop-open-preset-harness](https://github.com/warrenop/open-preset-harness) ★3 — DSH Memory plugin (dsh-tool-project-memory): shared project organizational memory across presets — recall, rem
 - ⬜ `[待定]` [web0926-dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) ★3 — DeepSeek Harness plugin that validates and ranks 3/5 independent coding-agent patches before approval-gated ap
@@ -4535,7 +4536,6 @@
 - 🟨 `[不兼容]` [tzyceng-dsh-model-visibility](https://github.com/TZYCeng/dsh-model-visibility) ★3 — DeepSeek Harness plugin: choose which models appear in the chat model menu, with per-model capability tags (re
 - 🟨 `[不兼容]` [v-quest123456-dsh-smart-input](https://github.com/v-quest123456/dsh-smart-input) ★3 — 智能输入插件 for DeepSeek Harness — 语音输入 + 提示词优化
 - 🟨 `[不兼容]` [dsh-omniloop](https://github.com/vidgewong/dsh-omniloop) ★3 — —
-- 🟨 `[不兼容]` [wanbinyu-dsh-billing](https://github.com/Wanbinyu/dsh-billing) ★3 — Local per-model cost, token usage, and session quota plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [wanyantiande-dsh-headroom](https://github.com/WanYanTianDe/dsh-headroom) ★3 — Headroom context compression for DeepSeek Harness: proxy lifecycle, compaction engine backend, CCR retrieve to
 - 🟨 `[不兼容]` [xiaomodern-dsh-trajectory-teacher](https://github.com/XiaoMoDern/dsh-trajectory-teacher) ★3 — /trajectory-teacher: DSH plugin that turns an agent's execution trajectory into a structured post-mortem repor
 - 🟨 `[不兼容]` [xiebaiyuan-dsh-lead-mode](https://github.com/xiebaiyuan/dsh-lead-mode) ★3 — Lead mode for DSH: an agent preset, a working-method skill, a dependency self-check, and two reminders that te
