@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-20T23:32:08Z",
+ "generated_at": "2026-11-21T00:02:55Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -14488,7 +14488,7 @@
   {
    "repo": "alonelypigeon/dsh-plugin-balance-panel",
    "name": "dsh-plugin-balance-panel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness cordis plugin: API balance + Coding Plan usage panel (/balance /plan)"
   },
@@ -154334,7 +154334,7 @@
   {
    "repo": "alonelypigeon/dsh-plugin-im-notify",
    "name": "dsh-plugin-im-notify",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness cordis plugin: /desktop commands to open and control the desktop shell"
   },
