@@ -3069,7 +3069,7 @@
 - 🟩 `[可用]` [milaro001-dsh-chat-source-tracer](https://github.com/Milaro001/dsh-chat-source-tracer) ★0 — DSH 对话溯源助手：核对 AI 回答依据，跨会话搜索，保存摘录并引用原文追问
 - `[空仓监测]` **milbaxter-dsh-critique-loop** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [milliontimes-dsh-preset-route](https://github.com/Milliontimes/dsh-preset-route) ★0 — DSH agent preset: reads the live agent-preset roster, picks the preset a task should go to, and drafts a paste
-- ⬜ `[待定]` [mindie-agent-mindie-agent-dsh](https://github.com/mindie-agent/mindie-agent-dsh) ★0 — MindIE Agent for DeepSeek Harness: Ascend NPU knowledge and remote-dev tools composed from stable DSH plugins.
+- 🟩 `[可用]` [mindie-agent-mindie-agent-dsh](https://github.com/mindie-agent/mindie-agent-dsh) ★0 — MindIE Agent for DeepSeek Harness: Ascend NPU knowledge and remote-dev tools composed from stable DSH plugins.
 - `[空仓监测]` **ming-14-download-by-mirror-skill** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-vuln-search-skill** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **ming-14-weather-skill** — GitHub 无此仓库，判定暂不展示
