@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T18:03:00Z",
+ "generated_at": "2026-11-21T18:17:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39663,6 +39663,13 @@
    "verdict": "pending",
    "stars": 382,
    "desc": "DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plug"
+  },
+  {
+   "repo": "linhay/harmony-next.skills",
+   "name": "linhay-harmony-next-skills",
+   "verdict": "pending",
+   "stars": 376,
+   "desc": "Offline HarmonyOS NEXT developer skill library for AI coding assistants"
   },
   {
    "repo": "ZSeven-W/dsh-android",
@@ -88329,13 +88336,6 @@
    "desc": "Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi"
   },
   {
-   "repo": "linhay/harmony-next.skills",
-   "name": "linhay-harmony-next-skills",
-   "verdict": "incompatible",
-   "stars": 376,
-   "desc": "Offline HarmonyOS NEXT developer skill library for AI coding assistants"
-  },
-  {
    "repo": "modelstudioai/cli",
    "name": "modelstudioai-cli",
    "verdict": "incompatible",
@@ -104434,6 +104434,13 @@
    "verdict": "ok",
    "stars": 9,
    "desc": "DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 五种模式子智能体编排（fanout / pipeline / supervisor / map-reduce / router）"
+  },
+  {
+   "repo": "tellmewhattodo/dsh-serenity-plugin",
+   "name": "dsh-serenity-plugin",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "dsh-serenity-plugin"
   },
   {
    "repo": "tr1v3r/dsh-quote-followup",
@@ -139268,13 +139275,6 @@
    "desc": "🐂🐴 牛马修仙看板：DeepSeek Harness 工时统计 × 修仙养成——把每一分钟劳动，都修成境界（日/周/月 + 学年年历，炼气→宇宙洪荒）"
   },
   {
-   "repo": "tellmewhattodo/dsh-serenity-plugin",
-   "name": "dsh-serenity-plugin",
-   "verdict": "incompatible",
-   "stars": 9,
-   "desc": "dsh-serenity-plugin"
-  },
-  {
    "repo": "wodaimnd/Xsdsh-purge-next",
    "name": "wodaimnd-xsdsh-purge-next",
    "verdict": "incompatible",
@@ -163376,6 +163376,13 @@
    "desc": "Lossless long-horizon memory for DeepSeek Harness: sticky L2/L3 extra-context, hybrid recall, cold-tier compre"
   },
   {
+   "repo": "syy-shark/dsh-music-plugin",
+   "name": "dsh-music-plugin",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DeepSeek Harness music plugin (dsh-plugin)"
+  },
+  {
    "repo": "thus-zhou/dsh-chapter-whale",
    "name": "thus-zhou-dsh-chapter-whale",
    "verdict": "ok",
@@ -167609,13 +167616,6 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "—"
-  },
-  {
-   "repo": "syy-shark/dsh-music-plugin",
-   "name": "dsh-music-plugin",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "DeepSeek Harness music plugin (dsh-plugin)"
   },
   {
    "repo": "windfind-02/jingbao-voice-pet",
@@ -173556,7 +173556,7 @@
   {
    "repo": "tdf1995/dsh-plugin-vision",
    "name": "dsh-plugin-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Vision for text-only LLMs in DeepSeek Harness (DSH): describe images / OCR / VQA via free Gemini & GLM vision"
   },
