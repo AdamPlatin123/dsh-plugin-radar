@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T04:17:37Z",
+ "generated_at": "2026-11-21T04:33:07Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -43671,7 +43671,7 @@
   {
    "repo": "dancingmemory/dskin",
    "name": "dskin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "DSKIN · DeepSeek Harness（DSH）卡通像素皮肤插件 / Cartoon pixel skin plugin for DSH Web GUI — 原始界面不动，像素宠物会散步、眨眼、跳跃 / liv"
   },
@@ -106258,7 +106258,7 @@
   {
    "repo": "cyberlieflife/dsh-model-thinking",
    "name": "dsh-model-thinking",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DSH (DeepSeek Harness) web plugin: thinking intensity / reasoning effort settings for custom OpenAI-compatible"
   },
@@ -162503,7 +162503,7 @@
   {
    "repo": "cyanfish-x/dsh-live2d-pets",
    "name": "dsh-live2d-pets",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 33,
    "desc": "Live2D 桌宠插件 for DeepSeek Harness：Agent 状态镜像 + 互动陪伴，内置宽松许可预设模型 / Live2D pet plugin: agent state mirror + intera"
   },
