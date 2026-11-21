@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T15:02:57Z",
+ "generated_at": "2026-11-21T15:17:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -51369,9 +51369,16 @@
    "desc": "DeepSeek Harness 输入框的下一句建议：助手回复完，空输入框里出现一句灰色建议，按 Tab 填入"
   },
   {
+   "repo": "omdsh-dev/dsh-input-history",
+   "name": "omdsh-dev-dsh-input-history",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH Web 输入历史插件：Ctrl+Up / Ctrl+Down 像终端一样召回与切换已发送消息，零核心改动"
+  },
+  {
    "repo": "omdsh-dev/dsh-kb-sieve",
    "name": "dsh-kb-sieve",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DSH knowledge-base plugin: build audit-able KB packs (references + SQLite FTS5) from md/txt/docx/pdf, determin"
   },
@@ -92317,13 +92324,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH weather tab and weather-following themes powered by Open-Meteo"
-  },
-  {
-   "repo": "omdsh-dev/dsh-input-history",
-   "name": "omdsh-dev-dsh-input-history",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "DSH Web 输入历史插件：Ctrl+Up / Ctrl+Down 像终端一样召回与切换已发送消息，零核心改动"
   },
   {
    "repo": "omdsh-dev/dsh-paste-input",
@@ -162517,7 +162517,7 @@
   {
    "repo": "omdsh-dev/dsh-gomoku",
    "name": "dsh-gomoku",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 32,
    "desc": "在DSH中与AI下五子棋，也可以让AI对局，看哪个AI棋力更强"
   },
@@ -186086,7 +186086,7 @@
   {
    "repo": "omdsh-dev/dsh-lark",
    "name": "dsh-lark",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 61,
    "desc": "Lark/Feishu IM bot channel for DeepSeek Harness \\| 飞书 DeepSeek Harness （DSH）插件"
   },
@@ -202725,7 +202725,7 @@
   {
    "repo": "omdsh-dev/dsh-inspect",
    "name": "dsh-inspect",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "发现问题(checkup) → 修复交付(fix) → 质量复查(review) 的对抗式闭环插件：基于官方 workflow 引擎的检查/修复/复查工具集"
   },
