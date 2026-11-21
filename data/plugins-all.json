@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T18:33:00Z",
+ "generated_at": "2026-11-21T18:47:30Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -12535,7 +12535,7 @@
   {
    "repo": "U-Illll/dsh-memory",
    "name": "u-illll-dsh-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Memory retrieval plugin for DeepSeek Harness (dsh): wiki double-link memory graph with 9 tools — hybrid search, read, link-scan, remember, forget, compile, health-check, resident retriever subagent"
   },
@@ -73428,7 +73428,7 @@
   {
    "repo": "JHyugou/dsh-sidebar-pet",
    "name": "jhyugou-dsh-sidebar-pet",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "小蓝桌宠：DeepSeek Harness 侧栏任务伙伴插件，支持连贯点击动画、任务提醒与独立外观设置"
   },
@@ -103619,7 +103619,7 @@
   {
    "repo": "unitarylab/quantum-practices",
    "name": "quantum-practices",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 23,
    "desc": "量子计算最佳实践 Quantum Algorithms Best Practices"
   },

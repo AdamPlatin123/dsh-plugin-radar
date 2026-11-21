@@ -4919,7 +4919,7 @@
 - 🟩 `[可用]` [jh-evil-dsh-music](https://github.com/jh-Evil/dsh-music) ★0 — 音乐播放器卡片插件 for DeepSeek Harness：对话内渲染可交互播放器，网易云/QQ 双后端，玻璃悬浮歌词、节拍气泡特效与多主题
 - 🟩 `[可用]` [jhonden-my-dsh-plugins](https://github.com/jhonden/my-dsh-plugins) ★0 — Community plugins for the DeepSeek Harness (dsh): workspace file explorer for the Web UI (Files tab — tree, ma
 - 🟩 `[可用]` [jhyugou-dsh-enter-send](https://github.com/JHyugou/dsh-enter-send) ★0 — DSH 插件：在输入框工具行「权限」按钮右侧加一个发送键开关，可在 Enter 发送与 Ctrl+Enter 发送之间切换，另一个键自动变为换行（Send-key toggle chip for DeepSeek Har
-- ⬜ `[待定]` [jhyugou-dsh-sidebar-pet](https://github.com/JHyugou/dsh-sidebar-pet) ★0 — 小蓝桌宠：DeepSeek Harness 侧栏任务伙伴插件，支持连贯点击动画、任务提醒与独立外观设置
+- 🟩 `[可用]` [jhyugou-dsh-sidebar-pet](https://github.com/JHyugou/dsh-sidebar-pet) ★0 — 小蓝桌宠：DeepSeek Harness 侧栏任务伙伴插件，支持连贯点击动画、任务提醒与独立外观设置
 - 🟩 `[可用]` [jhyugou-dsh-tidy](https://github.com/JHyugou/dsh-tidy) ★0 — DSH 插件：把暂时不用的工作区或单个会话拖进侧边栏「收纳区」，需要时再拖回来，收纳区可折叠（Sidebar stash area for DeepSeek Harness）
 - ⬜ `[待定]` [ji-tz-dsh-build-servers](https://github.com/ji-tz/dsh-build-servers) ★0 — Remote build servers for DeepSeek Harness: per-session binding, source upload, build/install/test pipeline, SS
 - 🟩 `[可用]` [jiale-cheng-ning-mcp-hub](https://github.com/jiale-cheng-ning/mcp-hub) ★0 — One TUI to manage all your MCP servers
