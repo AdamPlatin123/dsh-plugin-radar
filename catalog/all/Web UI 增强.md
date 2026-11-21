@@ -1497,7 +1497,7 @@
 - 🟩 `[可用]` [easytz-dsh-tui](https://github.com/EasyTZ/dsh-tui) ★2 — A Claude Code / Codex-style terminal  for DeepSeek Harness
 - 🟩 `[可用]` [edge-echo-dsh-netassist](https://github.com/Edge-Echo/dsh-netassist) ★2 — Network & proxy assistant for DeepSeek Harness (dsh): one-shot GitHub connectivity check, system proxy status,
 - 🟩 `[可用]` [edison7009-aiwings](https://github.com/edison7009/aiwings) ★2 — AI 正忙时，先把下一句话存进 Wings，等它空了，点一下就贴回输入框
-- 🟩 `[可用]` [edwardyang0011-dsh-ui-skins](https://github.com/edwardyang0011/dsh-ui-skins) ★2 — DeepSeek Harness Skin Plugin
+- ⬜ `[待定]` [edwardyang0011-dsh-ui-skins](https://github.com/edwardyang0011/dsh-ui-skins) ★2 — DeepSeek Harness Skin Plugin
 - 🟩 `[可用]` [egorfedorov-dsh-clone](https://github.com/egorfedorov/dsh-clone) ★2 — Screenshot in, working UI out: several agents rebuild the same reference interface in parallel, and you adopt
 - 🟩 `[可用]` [ejinhouse-dsh-turn-timeline](https://github.com/Ejinhouse/dsh-turn-timeline) ★2 — DSH 插件：左侧栏「任务时间线」面板，把每个 turn 的交付物、台账与文件变更排成一条可回溯的时间轴
 - 🟩 `[可用]` [elfmingh-dsh-prompt-manager](https://github.com/elfmingh/dsh-prompt-manager) ★2 — Layered prompt manager for DeepSeek Harness: global / workspace / session prompt profiles, builtin-section ove

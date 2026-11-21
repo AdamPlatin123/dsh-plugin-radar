@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T05:17:33Z",
+ "generated_at": "2026-11-21T05:33:15Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3456,7 +3456,7 @@
   {
    "repo": "elementor-i/dsh-agentmemory",
    "name": "elementor-i-dsh-agentmemory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the loc"
   },
@@ -5493,7 +5493,7 @@
   {
    "repo": "echo-xianyu/dsh-better-chat-history",
    "name": "dsh-better-chat-history",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "A plugin for DSH to optimize session loading speed and reduce disk read/write consumption."
   },
@@ -49747,7 +49747,7 @@
   {
    "repo": "edwardyang0011/dsh-ui-skins",
    "name": "edwardyang0011-dsh-ui-skins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness Skin Plugin"
   },
@@ -152346,7 +152346,7 @@
   {
    "repo": "Eddie0521/turn-deepseek-into-desktop",
    "name": "turn-deepseek-into-desktop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Turn DeepSeek Harness into a native macOS desktop app"
   },
@@ -204902,7 +204902,7 @@
   {
    "repo": "echo-xianyu/dsh-go-rotator",
    "name": "dsh-go-rotator",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "A plugin for DSH to swich opencode Go subscription"
   },
@@ -217838,7 +217838,7 @@
   {
    "repo": "Elaina-real/dsh-tiered-approval",
    "name": "dsh-tiered-approval",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Tiered auto-review for DeepSeek Harness: static-rule safety net + LLM reviewer + human fallback — auto-allow s"
   },
