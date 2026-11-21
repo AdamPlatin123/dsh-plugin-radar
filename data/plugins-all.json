@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T16:33:05Z",
+ "generated_at": "2026-11-21T16:48:10Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -42477,6 +42477,13 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "DeepSeek Harness 天气面板：自动定位、5 天预报、逐小时降水、中央气象台预警与台风路径（纯浏览器端，无需 API key）"
+  },
+  {
+   "repo": "qyqy-1109/deepseek-harness-desktop",
+   "name": "qyqy-1109-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 10,
+   "desc": "DeepSeek Harness Desktop: self-contained Windows desktop shell (Electron) that auto-starts dsh web, plus a sub"
   },
   {
    "repo": "Venshell/dsh-zcode-startplan",
@@ -89435,13 +89442,6 @@
    "desc": "简洁的 DSH 全局导航折叠：流畅动画、即时名称与随手排序"
   },
   {
-   "repo": "qyqy-1109/deepseek-harness-desktop",
-   "name": "qyqy-1109-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 10,
-   "desc": "DeepSeek Harness Desktop: self-contained Windows desktop shell (Electron) that auto-starts dsh web, plus a sub"
-  },
-  {
    "repo": "SakuraYH1080/dsh-purge-dsh0.2.1",
    "name": "sakurayh1080-dsh-purge-dsh0-2-1",
    "verdict": "incompatible",
@@ -126467,7 +126467,7 @@
   {
    "repo": "qizhen2021/dsh-plugin-vision",
    "name": "qizhen2021-dsh-plugin-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -176314,7 +176314,7 @@
   {
    "repo": "Qintsg/dsh-safe-delete",
    "name": "dsh-safe-delete",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Safe delete plugin for DeepSeek Harness (DSH): move files to trash / staging area instead of permanent removal"
   },
