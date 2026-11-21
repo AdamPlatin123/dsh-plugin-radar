@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T11:18:54Z",
+ "generated_at": "2026-11-21T11:33:02Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -163133,7 +163133,7 @@
   {
    "repo": "lglglglgy/dsh-whale-pet",
    "name": "dsh-whale-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "dsh-whale-pet"
   },
