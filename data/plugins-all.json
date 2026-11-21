@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T22:18:13Z",
+ "generated_at": "2026-11-21T22:32:31Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -41536,7 +41536,7 @@
   {
    "repo": "LaoYueHanNi/dsh-token-usage",
    "name": "laoyuehanni-dsh-token-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 17,
    "desc": "贴近 DSH 原生设计风格的 token 用量统计插件：实时记录每次请求的用量与费用，在 Web UI 中提供趋势图表、按模型定价明细和供应商配额显示"
   },
@@ -168682,6 +168682,13 @@
    "desc": "你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目"
   },
   {
+   "repo": "hikariming/dshfind",
+   "name": "hikariming-dshfind",
+   "verdict": "pending",
+   "stars": 405,
+   "desc": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
+  },
+  {
    "repo": "EricWang1358/dsh-web-studyhub",
    "name": "ericwang1358-dsh-web-studyhub",
    "verdict": "pending",
@@ -169765,13 +169772,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "一次一个知识点、一个问题地教，本地绘制数学 SVG，并把学习进度写在本机"
-  },
-  {
-   "repo": "hikariming/dshfind",
-   "name": "hikariming-dshfind",
-   "verdict": "incompatible",
-   "stars": 405,
-   "desc": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
   },
   {
    "repo": "Vncntvx/dsh-zotero",
