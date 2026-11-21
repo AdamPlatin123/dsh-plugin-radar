@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T05:03:10Z",
+ "generated_at": "2026-11-21T05:17:33Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -49654,6 +49654,13 @@
    "desc": "DeepSeek Harness 赛博朋克主题插件：RGB 流动霓虹、自定义背景图库、本地音乐播放器与一键启停"
   },
   {
+   "repo": "dongsheng123132/dsh-narrative-ledger",
+   "name": "dsh-narrative-ledger",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Verifiable narrative state, continuity and character-knowledge ledger for DeepSeek Harness"
+  },
+  {
    "repo": "dorisaimpatient855/awesome-dsh-plugin",
    "name": "dorisaimpatient855-awesome-dsh-plugin",
    "verdict": "pending",
@@ -91703,13 +91710,6 @@
    "desc": "DSH Web GUI plugin: a browsable, searchable, stats-driven directory of GitHub DeepSeek Harness plugins (dsh-pl"
   },
   {
-   "repo": "dongsheng123132/dsh-narrative-ledger",
-   "name": "dsh-narrative-ledger",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Verifiable narrative state, continuity and character-knowledge ledger for DeepSeek Harness"
-  },
-  {
    "repo": "drscrewdriver/dsh-docx-sidebar",
    "name": "drscrewdriver-dsh-docx-sidebar",
    "verdict": "incompatible",
@@ -107579,6 +107579,13 @@
    "desc": "—"
   },
   {
+   "repo": "dongsheng123132/dsh-xiapan-media",
+   "name": "dsh-xiapan-media",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Native vision, gpt-image-2 and Seedance plugins for DeepSeek Harness via Xiapan Cloud"
+  },
+  {
    "repo": "dongwenxiu83-web/dsh-friendly-steps",
    "name": "dongwenxiu83-web-dsh-friendly-steps",
    "verdict": "ok",
@@ -110783,6 +110790,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "dongsheng123132/dsh-windows-readiness-proof",
+   "name": "dsh-windows-readiness-proof",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Content-addressed readiness proof for sanitized DeepSeek Harness observations on managed Windows hosts"
   },
   {
    "repo": "doublemolu/dsh-costometer",
@@ -140619,13 +140633,6 @@
    "desc": "Make DSH greater."
   },
   {
-   "repo": "dongsheng123132/dsh-xiapan-media",
-   "name": "dsh-xiapan-media",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Native vision, gpt-image-2 and Seedance plugins for DeepSeek Harness via Xiapan Cloud"
-  },
-  {
    "repo": "dreanzy/dsh-plg",
    "name": "dreanzy-dsh-plg",
    "verdict": "incompatible",
@@ -141681,13 +141688,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Adds one row to the DeepSeek Harness workspace menu: move this workspace to the top, once"
-  },
-  {
-   "repo": "dongsheng123132/dsh-windows-readiness-proof",
-   "name": "dsh-windows-readiness-proof",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Content-addressed readiness proof for sanitized DeepSeek Harness observations on managed Windows hosts"
   },
   {
    "repo": "dpwgc/dsh-coding-workflow",
@@ -206279,9 +206279,23 @@
    "desc": "Content-addressed, value-redacted policy drift evidence for DeepSeek Harness"
   },
   {
+   "repo": "dongsheng123132/dsh-recovery-proof",
+   "name": "dsh-recovery-proof",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Read-only recovery drill evidence for DeepSeek Harness"
+  },
+  {
+   "repo": "dongsheng123132/dsh-release-proof",
+   "name": "dsh-release-proof",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Reproducible multi-source release evidence for DeepSeek Harness artifacts and mirrors"
+  },
+  {
    "repo": "dongsheng123132/dsh-terminal",
    "name": "dsh-terminal",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Persistent interactive terminal mode for DeepSeek Harness"
   },
@@ -209557,7 +209571,7 @@
   {
    "repo": "dongsheng123132/dshx",
    "name": "dshx",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Machine-friendly DeepSeek Harness adapter with cwd, stdin, timeout, stable JSON — CLI + Codex/Agent plugins"
   },
@@ -231568,20 +231582,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness plugin: local and remote (SSH) workspaces in one place"
-  },
-  {
-   "repo": "dongsheng123132/dsh-recovery-proof",
-   "name": "dsh-recovery-proof",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Read-only recovery drill evidence for DeepSeek Harness"
-  },
-  {
-   "repo": "dongsheng123132/dsh-release-proof",
-   "name": "dsh-release-proof",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Reproducible multi-source release evidence for DeepSeek Harness artifacts and mirrors"
   },
   {
    "repo": "dongsheng123132/dsh-switch",
