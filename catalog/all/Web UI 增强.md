@@ -3114,7 +3114,7 @@
 - 🟩 `[可用]` [ronnyjung2021-dsh-mimo-skin](https://github.com/RonnyJung2021/dsh-mimo-skin) ★1 — MiMo skin for the DSH Web GUI
 - 🟩 `[可用]` [ronnyjung2021-dsh-mobile-remote-view](https://github.com/RonnyJung2021/dsh-mobile-remote-view) ★1 — Turn the DSH Web GUI a quarter turn — sidebar, conversation and right panel each fill a phone screen
 - 🟩 `[可用]` [ronnyjung2021-dsh-trae-skin](https://github.com/RonnyJung2021/dsh-trae-skin) ★1 — —
-- 🟩 `[可用]` [ropz12138-dsh-ui-background](https://github.com/ropz12138/dsh-ui-background) ★1 — deepseek harness 的背景插件，会涉及一些其他组件css覆盖
+- ⬜ `[待定]` [ropz12138-dsh-ui-background](https://github.com/ropz12138/dsh-ui-background) ★1 — deepseek harness 的背景插件，会涉及一些其他组件css覆盖
 - ⬜ `[待定]` [rosa42-dsh-sync](https://github.com/Rosa42/dsh-sync) ★1 — DeepSeek Harness plugin: sync sessions and profile configuration across machines with rclone bisync, with a co
 - ⬜ `[待定]` [roxy-gl373-dsh-desktop](https://github.com/Roxy-gl373/dsh-desktop) ★1 — DSh Whale · DeepSeek Harness 桌面启动器：WebView2 内嵌 DSH 界面，实时日志、单实例托盘、多开、等比缩放，装插件自动快照回滚
 - 🟩 `[可用]` [royalsan-dsh-github-trending](https://github.com/Royalsan/dsh-github-trending) ★1 — A long-lived Cordis plugin for DeepSeek Harness: it scrapes GitHub Trending (daily / weekly / monthly, optiona
@@ -4542,7 +4542,6 @@
 - ⬜ `[待定]` [fredgeoo-creative-matrix](https://github.com/fredgeoO/creative-matrix) ★0 — 格致矩阵：任意两维交叉、逐格穷推的 DSH 推演面板插件
 - ⬜ `[待定]` [fredgeoo-dsh-screenshot](https://github.com/fredgeoO/dsh-screenshot) ★0 — Windows screenshot tools + ui-visual-check skill for DeepSeek Harness
 - 🟩 `[可用]` [frogflaying-dsh-onshelf](https://github.com/FrogFlaying/dsh-onshelf) ★0 — 上架台：扫描本地 DSH 插件、按 awesome-dsh-plugin 规则体检、生成投稿 YAML 与截图清单，并在确认后创建 fork、提交分支、开 PR
-- ⬜ `[待定]` [frontiermindlab-dsh-quick-compact](https://github.com/FrontierMindLab/dsh-quick-compact) ★0 — DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）
 - 🟩 `[可用]` [frost-ra9-dsh-theme-everforest](https://github.com/Frost-rA9/dsh-theme-everforest) ★0 — Six complete Everforest palettes (hard/medium/soft × dark/light) for the DeepSeek Harness Web UI
 - ⬜ `[待定]` [frzzaxszz-dsh-skill-catalog](https://github.com/frzzaxszz/dsh-skill-catalog) ★0 — DSH Web GUI 技能面板（dsh-skill-picker 的个人 fork）：全量技能发现 + 全中文备注 + 8 类分类筛选 + 技能管理（置顶/关闭/定位/卸载可撤回），自带维护技能
 - 🟩 `[可用]` [ftima-w-dsh-plugin-manager](https://github.com/ftima-w/dsh-plugin-manager) ★0 — DSH plugin-manager-ui: MCP/Skills management + plugin stop/enable/delete
@@ -8439,6 +8438,7 @@
 - 🟨 `[不兼容]` [forfeeling-dsh-vault](https://github.com/forfeeling/dsh-vault) ★0 — DSH 零知识密钥保险库：sops+age 加密存储密码/API key，密保挑战+审计日志，含 GUI 管理页插件与 agent skill，明文永不进入模型上下文
 - 🟨 `[不兼容]` [frederico-kluser-dsh-tavily-resilient-search](https://github.com/frederico-kluser/dsh-tavily-resilient-search) ★0 — Pesquisa web Tavily para o DeepSeek Harness (plugin Cordis) com rotação atómica e resiliente de um agrupamento
 - 🟨 `[不兼容]` [freespace8-dsh-plugins](https://github.com/freespace8/dsh-plugins) ★0 — DeepSeek Harness (DSH) 插件合集：工具包、守护循环、UI 面板等
+- 🟨 `[不兼容]` [frontiermindlab-dsh-quick-compact](https://github.com/FrontierMindLab/dsh-quick-compact) ★0 — DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）
 - 🟨 `[不兼容]` [fusu123fusu-dsh-tui-cron](https://github.com/FUSU123fusu/dsh-tui-cron) ★0 — —
 - 🟨 `[不兼容]` [fusu123fusu-dsh-tui-model-switch](https://github.com/FUSU123fusu/dsh-tui-model-switch) ★0 — —
 - 🟨 `[不兼容]` [fusu123fusu-dsh-tui-webhook](https://github.com/FUSU123fusu/dsh-tui-webhook) ★0 — —
