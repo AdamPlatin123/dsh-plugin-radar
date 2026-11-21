@@ -1534,7 +1534,7 @@
 - 🟩 `[可用]` [fst-echofly-dsh-im-phone-chat](https://github.com/FST-EchoFly/dsh-im-phone-chat) ★2 — DSH 手机聊天镜像：在左侧栏/主面板实时查看手机 IM 会话与助手回复（dsh-im 配套，支持 LaTeX 与图片）
 - 🟩 `[可用]` [fu3rte-dsh-sight](https://github.com/Fu3rte/dsh-sight) ★2 — Plug-in vision for text-only DeepSeek Harness (dsh) models: built-in free/cheap VLM presets + multi-image batc
 - 🟩 `[可用]` [g34y0r-dsh-deepseek-balance](https://github.com/g34y0r/dsh-deepseek-balance) ★2 — DeepSeek API 余额，常驻在 dsh 输入框旁边
-- ⬜ `[待定]` [galaxy-2001-rhine-lab-codex-theme](https://github.com/Galaxy-2001/Rhine-Lab-Codex-Theme) ★2 — 莱茵生命风格的 Windows Codex 动态主题，支持聊天与设置页背景、循环动画和可选 Skill
+- 🟩 `[可用]` [galaxy-2001-rhine-lab-codex-theme](https://github.com/Galaxy-2001/Rhine-Lab-Codex-Theme) ★2 — 莱茵生命风格的 Windows Codex 动态主题，支持聊天与设置页背景、循环动画和可选 Skill
 - 🟩 `[可用]` [geekricardo-dsh-balance](https://github.com/GeekRicardo/dsh-balance) ★2 — DeepSeek Harness web 插件：输入框下方状态栏展示当前供应商的余额/用量 —— DeepSeek 官方余额 + 本会话花费，Kimi Coding、OpenCode Go、GLM Coding Plan
 - 🟩 `[可用]` [gezi-wen-sage-guikit](https://github.com/gezi-wen/dsh-guikit) ★2 — Windows desktop-control tools for DeepSeek Harness (DSH): screen layout, annotated screenshots, click / type /
 - 🟩 `[可用]` [ghjivhidd-dsh-plugin-usage](https://github.com/GHJIVHIDD/dsh-plugin-usage) ★2 — DeepSeek Harness 的用量（Usage）部署级插件：会话视图环新增「用量」页签，实时跟踪输入/输出/缓存命中 tokens 与费用（DeepSeek 官方峰谷价 + OpenCode Go 套餐价），动态渐

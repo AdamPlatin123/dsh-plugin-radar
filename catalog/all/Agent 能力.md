@@ -3452,7 +3452,7 @@
 - ⬜ `[待定]` [skysstst-dsh-independent-task](https://github.com/skysstst/dsh-independent-task) ★0 — One-click timestamped workspace folders + new sessions for DeepSeek Harness
 - 🟩 `[可用]` [skyzhao1223-dsh-agent-token-stats](https://github.com/skyzhao1223/dsh-agent-token-stats) ★0 — DSH-native, local-first cross-agent usage analytics: model totals, cache-hit analysis, reported vs estimated c
 - 🟩 `[可用]` [sljdxde-dsh-clipchat](https://github.com/sljdxde/dsh-clipchat) ★0 — DSH Web plugin: quote-and-ask in place, green-underline highlights, kept Q&A, cross-session search
-- 🟩 `[可用]` [smiletao-dsh-plugin-dev-skill](https://github.com/SmileTao/dsh-plugin-dev-skill) ★0 — 帮助 AI 正确地编写 DeepSeek Harness (dsh) 插件的skill
+- ⬜ `[待定]` [smiletao-dsh-plugin-dev-skill](https://github.com/SmileTao/dsh-plugin-dev-skill) ★0 — 帮助 AI 正确地编写 DeepSeek Harness (dsh) 插件的skill
 - 🟩 `[可用]` [smoktea-dsh-chartlab](https://github.com/SMOKTEA/dsh-chartlab) ★0 — Let the agent turn your data into an interactive chart
 - 🟩 `[可用]` [smurfiez-morphe-patch-creator](https://github.com/smurfiez/morphe-patch-creator) ★0 — Authorized Morphe Android APK patch workflow as native DSH skills: recon, decompile, target hunting, patch wri
 - 🟩 `[可用]` [smwhff-dsh-delete-session](https://github.com/SMWHff/dsh-delete-session) ★0 — —
