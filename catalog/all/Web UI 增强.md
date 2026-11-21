@@ -1118,7 +1118,7 @@
 - 🟩 `[可用]` [iroul1212-dsh-computer-use](https://github.com/Iroul1212/DSH-Computer-Use) ★3 — 一个 vibe coding 的 Windows computer use 插件：Codex 风格蓝色荧光指示 + Esc 急停，截图 / 鼠标键盘 / 窗口 / UIA / 剪贴板 5 个工具，附 8 个应用技能
 - 🟩 `[可用]` [isilsolme-dsh-splash-launcher](https://github.com/Isilsolme/dsh-splash-launcher) ★3 — One-click Windows launcher for the DeepSeek Harness (dsh) Web GUI with a stroke-by-stroke startup animation
 - 🟩 `[可用]` [itchenshi-deepseekharnessgui](https://github.com/itchenshi/dsh-ready-gui) ★3 — DeepSeek Harness 桌面壳：内嵌 Web UI、引擎自动保持最新、预置 4 个插件、插件装坏能自愈
-- 🟩 `[可用]` [dsh-deepseek-usage-dashboard](https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard) ★3 — DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and balance monitoring
+- ⬜ `[待定]` [dsh-deepseek-usage-dashboard](https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard) ★3 — DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and balance monitoring
 - `[空仓监测]` **j0ss077-dsh-always-require-tools-approval** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [jcaiagent7143-ui-linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) ★3 — —
 - 🟩 `[可用]` [jean3690-dsh-devtoolbox](https://github.com/jean3690/dsh-devtoolbox) ★3 — DSH 本地工具箱插件：侧边栏独立页面 + /toolbox 命令 + 配置驱动的 agent 工具注册，35 个纯本地小工具（文本/编码/数据/安全/提取/转换/参考/效率），数据不出本机
@@ -2199,7 +2199,7 @@
 - 🟩 `[可用]` [canye-zdm-dsh-skin-aurora](https://github.com/Canye-zdm/dsh-skin-aurora) ★1 — Deepseek Harness aurora theme skin
 - 🟩 `[可用]` [canyuey-dsh-anime-guide](https://github.com/canyueY/dsh-anime-guide) ★1 — DeepSeek Harness 番剧插件：yuc 新番表 + 番库/Bangumi/MAL 评分榜，搜索推荐与国内外差异对照
 - 🟩 `[可用]` [caprimoon-dsh-live-wallpaper](https://github.com/caprimoon/dsh-live-wallpaper) ★1 — 为 DeepSeek Harness 打造的动态壁纸与五区毛玻璃：五源在线图库、本地媒体导入、离线 Canvas 场景，以及左侧栏/内容区/输入框/用量栏/指令菜单各自独立的底色、遮罩与虚化
-- 🟩 `[可用]` [dsh-image-theme](https://github.com/Carpon39038/dsh-image-theme) ★1 — Warp-inspired image-to-theme plugin for DeepSeek Harness: upload a background, extract a palette, and apply a
+- ⬜ `[待定]` [dsh-image-theme](https://github.com/Carpon39038/dsh-image-theme) ★1 — Warp-inspired image-to-theme plugin for DeepSeek Harness: upload a background, extract a palette, and apply a
 - 🟩 `[可用]` [carrychang-dsh-iot-studio](https://github.com/CarryChang/dsh-iot-studio) ★1 — 通用 IoT 工作室插件 · 品牌无关的工具层：新设备配网即用，新品牌注册一个 provider 即接入，内置小米/米家 · Generic brand-neutral IoT layer plugin for Deep
 - 🟩 `[可用]` [catsenior507-dsh-web-watchdog](https://github.com/catsenior507/dsh-web-watchdog) ★1 — Watchdog for the dsh web GUI: crash logging + exponential-backoff auto-restart supervisor + status panel
 - 🟩 `[可用]` [cc-play-dsh-theme-cooldark](https://github.com/CC-play/dsh-theme-cooldark) ★1 — A dark theme for DeepSeek Harness
