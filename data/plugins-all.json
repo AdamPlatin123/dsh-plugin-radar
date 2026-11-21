@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T03:03:02Z",
+ "generated_at": "2026-11-21T03:17:44Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -186478,7 +186478,7 @@
   {
    "repo": "c-ling/dsh-plugin-notify",
    "name": "dsh-plugin-notify",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 12,
    "desc": "DeepSeek Harness 消息提醒插件：回合结束、等待确认或提问时，向桌面/浏览器、系统、飞书/钉钉/企业微信/通用 Webhook 发送通知"
   },
