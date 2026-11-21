@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T10:02:28Z",
+ "generated_at": "2026-11-21T10:17:48Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -179100,7 +179100,7 @@
   {
    "repo": "Kevoyuan/dsh-mac-vision",
    "name": "dsh-mac-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "On-device macOS OCR and Apple Vision for DeepSeek Harness — one native plugin with a bundled Skill."
   },
