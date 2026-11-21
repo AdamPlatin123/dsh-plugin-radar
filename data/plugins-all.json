@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T16:02:58Z",
+ "generated_at": "2026-11-21T16:17:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40899,7 +40899,7 @@
   {
    "repo": "pingta-guangpingwang/claude-harness-desktop",
    "name": "claude-harness-desktop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 29,
    "desc": "An Electron-based multi-project AI cockpit that orchestrates multiple Claude Code instances with a built-in AI"
   },
@@ -105229,7 +105229,7 @@
   {
    "repo": "PixLunaLab/dsh-pixluna",
    "name": "dsh-pixluna",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "dsh-plugin-pixluna \\| 让 DSH 自己看涩图！"
   },
@@ -200212,7 +200212,7 @@
   {
    "repo": "PivotStackIntelligence/dsh-github",
    "name": "pivotstackintelligence-dsh-github",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 93,
    "desc": "—"
   },
