@@ -42,7 +42,7 @@
 - ⬜ `[待定]` [morluto-jacobian](https://github.com/morluto/jacobian) ★375 — Composable mathematics tools for agents
 - 🟩 `[可用]` [xiajiajun516-dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) ★371 — DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configurat
 - 🟩 `[可用]` [memtensor-memos-cloud-openclaw-plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) ★370 — Official MemOS Cloud plugin for OpenClaw
-- 🟩 `[可用]` [openma-ai-open-managed-agents](https://github.com/openma-ai/open-managed-agents) ★368 — —〔📦〕
+- ⬜ `[待定]` [openma-ai-open-managed-agents](https://github.com/openma-ai/open-managed-agents) ★368 — —〔📦〕
 - ⬜ `[待定]` [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) ★358 — Complete reverse-skill (88 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz
 - 🟩 `[可用]` [zhaoolee-notes](https://github.com/zhaoolee/notes) ★336 — 开源版锤子便签，复刻锤科美学，一键Docker私有化部署，支持skill调用，支持dsh plugin，支持多租户，一键生成公众号格式，支持导出便签为图片
 - ⬜ `[待定]` [mrpulor-gh-nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) ★335 — Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Ch

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T15:32:37Z",
+ "generated_at": "2026-11-21T15:47:51Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -285,7 +285,7 @@
   {
    "repo": "openma-ai/open-managed-agents",
    "name": "openma-ai-open-managed-agents",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 368,
    "desc": "—〔📦〕"
   },
@@ -39457,7 +39457,7 @@
   {
    "repo": "paean-ai/deeptide",
    "name": "paean-ai-deeptide",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1112,
    "desc": "Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent"
   },
@@ -149495,6 +149495,13 @@
    "desc": "DSH 的 Figma MCP 一键连接插件"
   },
   {
+   "repo": "Onenightcarnival/deepseek-harness-desktop",
+   "name": "onenightcarnival-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 13,
+   "desc": "DeepSeek Harness（dsh）的 桌面安装包：Windows exe 和 macOS dmg"
+  },
+  {
    "repo": "zasSYJ/deepseek-harness-desktop",
    "name": "zassyj-deepseek-harness-desktop",
    "verdict": "ok",
@@ -158992,13 +158999,6 @@
    "verdict": "incompatible",
    "stars": 16,
    "desc": "Use SSH hosts as transparent workspaces in DeepSeek Harness."
-  },
-  {
-   "repo": "Onenightcarnival/deepseek-harness-desktop",
-   "name": "onenightcarnival-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 13,
-   "desc": "DeepSeek Harness（dsh）的 桌面安装包：Windows exe 和 macOS dmg"
   },
   {
    "repo": "LoserFox/marisa-distro",
@@ -170420,7 +170420,7 @@
   {
    "repo": "ouyangyipeng/dsh-marketplace",
    "name": "dsh-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "A safe, live plugin marketplace for DeepSeek Harness"
   },
@@ -186737,7 +186737,7 @@
   {
    "repo": "kc0ed/dsh-bottom-bar",
    "name": "dsh-bottom-bar",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "用于提供更丰富的DeepSeek Harness底栏信息显示插件"
   },
