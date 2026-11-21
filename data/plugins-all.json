@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T14:33:09Z",
+ "generated_at": "2026-11-21T14:47:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -1968,6 +1968,13 @@
    "verdict": "pending",
    "stars": 9,
    "desc": "DSH基本的记忆功能"
+  },
+  {
+   "repo": "nowledge-co/nowledge-mem-deepseek-harness",
+   "name": "nowledge-mem-deepseek-harness",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "One memory layer for every AI tool and agent, packaged for DeepSeek Harness"
   },
   {
    "repo": "polaris-smart/dsh-devices",
@@ -29485,13 +29492,6 @@
    "verdict": "incompatible",
    "stars": 9,
    "desc": "Behavior-management plugin for DeepSeek Harness: tool-call discipline prompt section, failure-triggered parall"
-  },
-  {
-   "repo": "nowledge-co/nowledge-mem-deepseek-harness",
-   "name": "nowledge-mem-deepseek-harness",
-   "verdict": "incompatible",
-   "stars": 9,
-   "desc": "One memory layer for every AI tool and agent, packaged for DeepSeek Harness"
   },
   {
    "repo": "RiemannRe3/DSH-RolePlay",
