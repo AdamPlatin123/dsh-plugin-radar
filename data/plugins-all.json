@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T03:33:00Z",
+ "generated_at": "2026-11-21T03:47:15Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -104809,7 +104809,7 @@
   {
    "repo": "Chinesezjc/dsh-tool-todo-tree",
    "name": "dsh-tool-todo-tree",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "Nested (tree-shaped) todo_write tool plugin for DeepSeek Harness (DSH) — the mutually-exclusive alternative to"
   },
