@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T19:32:35Z",
+ "generated_at": "2026-11-21T19:48:05Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -102975,7 +102975,7 @@
   {
    "repo": "weijiafu14/pi2dsh",
    "name": "pi2dsh",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 219,
    "desc": "Bridge the Pi and DeepSeek Harness ecosystems: one Pi Host ABI runs unmodified Pi extensions as native DSH plu"
   },
