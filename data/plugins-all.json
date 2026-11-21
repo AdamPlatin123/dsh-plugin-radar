@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T07:03:20Z",
+ "generated_at": "2026-11-21T07:34:11Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -50069,7 +50069,7 @@
   {
    "repo": "havingautism/dsh-ultra-ui",
    "name": "dsh-ultra-ui",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
