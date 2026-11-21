@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T16:48:10Z",
+ "generated_at": "2026-11-21T17:02:47Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -61003,7 +61003,7 @@
   {
    "repo": "ropz12138/dsh-ui-background",
    "name": "ropz12138-dsh-ui-background",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "deepseek harness 的背景插件，会涉及一些其他组件css覆盖"
   },
@@ -70827,13 +70827,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "上架台：扫描本地 DSH 插件、按 awesome-dsh-plugin 规则体检、生成投稿 YAML 与截图清单，并在确认后创建 fork、提交分支、开 PR"
-  },
-  {
-   "repo": "FrontierMindLab/dsh-quick-compact",
-   "name": "frontiermindlab-dsh-quick-compact",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）"
   },
   {
    "repo": "Frost-rA9/dsh-theme-everforest",
@@ -97651,6 +97644,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) 插件合集：工具包、守护循环、UI 面板等"
+  },
+  {
+   "repo": "FrontierMindLab/dsh-quick-compact",
+   "name": "frontiermindlab-dsh-quick-compact",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH composer 上下文小环 + 一键 /compact：看用量、看构成、点一下压缩（客户端插件，无遥测、无第三方上报）"
   },
   {
    "repo": "FUSU123fusu/dsh-tui-cron",
@@ -151422,7 +151422,7 @@
   {
    "repo": "Richard-Yang0130/dsh-web-speech-input",
    "name": "dsh-web-speech-input",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Voice input plugin for DeepSeek Harness using the browser Web Speech API"
   },
@@ -187038,7 +187038,7 @@
   {
    "repo": "renat3u/dsh-web-archive",
    "name": "dsh-web-archive",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "折叠对话当中众多的“无用消息”，例如Think、Bash等"
   },
