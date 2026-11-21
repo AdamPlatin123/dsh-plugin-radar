@@ -597,7 +597,7 @@
 - 🟩 `[可用]` [orxz-deepseek-harness-themes](https://github.com/orxz/deepseek-harness-themes) ★7 — A collection of UI themes for deepseek-harness.
 - 🟩 `[可用]` [rannyrjjy-dsh-sidechat](https://github.com/rannyrjjy/dsh-sidechat) ★7 — 旁侧对话：给 \[DSH\] 加一个与主会话强绑定的侧边栏对话
 - ⬜ `[待定]` [raphael-y7-dsh-desktop-statusbar](https://github.com/raphael-y7/dsh-desktop-statusbar) ★7 — 把 DSH 桌面端底部的统计行换成可配置状态栏：10 个字段可选可排序，按 DeepSeek 官方峰谷口径估算费用，支持自定义模型单价与账户余额
-- 🟩 `[可用]` [dsh-plugin-terminal](https://github.com/siberiah2o/dsh-plugin-terminal) ★7 — Bottom terminal panel plugin for DeepSeek Harness (DSH Web GUI)
+- ⬜ `[待定]` [dsh-plugin-terminal](https://github.com/siberiah2o/dsh-plugin-terminal) ★7 — Bottom terminal panel plugin for DeepSeek Harness (DSH Web GUI)
 - 🟩 `[可用]` [springbrand-lab-dsh-skin-universe](https://github.com/springbrand-lab/dsh-skin-universe) ★7 — Themes and web GUI plugins for DeepSeek Harness: task board, Git graph, file panel, SSH, mobile remote, compan
 - 🟩 `[可用]` [dsh-builtin-toggles](https://github.com/Starfie1d1272/dsh-builtin-toggles) ★7 — Evidence-backed built-in capability inspector with fail-closed controls for DeepSeek Harness Web.
 - 🟩 `[可用]` [sucriss-dsh-version-update](https://github.com/SuCriss/dsh-version-update) ★7 — Version update menu for the DeepSeek Harness Web GUI settings panel: check @deepseek-ai/dsh releases, install
@@ -1241,7 +1241,7 @@
 - 🟩 `[可用]` [sequoiayunus-hue-dsh-subagent-model-config](https://github.com/sequoiayunus-hue/dsh-subagent-model-config) ★3 — Configure per-teammate model & reasoning effort for DeepSeek Harness native agent teams — settings UI, zero of
 - 🟩 `[可用]` [serenity-2026-dsh-treecom](https://github.com/Serenity-2026/dsh-treecom) ★3 — Tree-shaped conversation branching for DeepSeek Harness: one visible conversation, a tree panel, and branch-fr
 - 🟩 `[可用]` [severuszh-dsh-skills-mcp-group-manager](https://github.com/SeverusZh/dsh-skills-mcp-group-manager) ★3 — DeepSeek Harness Skills & MCPs 分组管理器 — 分组管理 Skills、过滤模型技能目录、独立开关 MCP 服务器、左侧面板一键管理 / Group skills, filter the m
-- 🟩 `[可用]` [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) ★3 — dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalations (built-in presets
+- ⬜ `[待定]` [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) ★3 — dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalations (built-in presets
 - 🟩 `[可用]` [shan5246992zhui-dsh-select-translate](https://github.com/SHAN5246992ZHUI/dsh-select-translate) ★3 — Select text in any Windows app and get a translation-only always-on-top card
 - 🟩 `[可用]` [shirolin-dsh-theme-animal-island-ui](https://github.com/Shirolin/dsh-theme-animal-island-ui) ★3 — A high-fidelity Animal Island-inspired theme for DeepSeek Harness Web and Desktop.
 - 🟩 `[可用]` [shuimo07-xiaoliuren](https://github.com/shuimo07/xiaoliuren) ★3 — 小六壬占卜 + DeepSeek Harness 插件（时间/报数/随机起卦，结论优先）
@@ -3172,7 +3172,7 @@
 - 🟩 `[可用]` [shuijhu-dsh-quota-autoresume](https://github.com/shuijhu/dsh-quota-autoresume) ★1 — DeepSeek Harness plugin that resumes tasks stopped by plan-quota exhaustion, right after the next quota reset
 - 🟩 `[可用]` [shuoweifu-dsh-liquid-glass](https://github.com/ShuoweiFu/dsh-liquid-glass) ★1 — A high-performance WebGL Liquid Glass plugin for DeepSeek Harness (Electron). Features FBM domain warp, chromatic dispersion, and a 5-layer GPU overheat guard. / 为 DSH 打造的高性能 WebGL 液态玻璃插件，内含色散折射、鼠标涟漪与 5 层核显保命机制。
 - 🟩 `[可用]` [shushushu-whn-dsh-brand-text](https://github.com/Shushushu-whn/dsh-brand-text) ★1 — 把 DSH Web 界面换成自家品牌（Logo / 名称 / 中央标题 / favicon），并给页面与项目文件夹打上「为什么加 · 在干什么」水印
-- 🟩 `[可用]` [dsh-k12-lesson-builder](https://github.com/shyboy/dsh-k12-lesson-builder) ★1 — DeepSeek Harness plugin for generating synchronized K12 English PPTX and DOCX lesson materials
+- ⬜ `[待定]` [dsh-k12-lesson-builder](https://github.com/shyboy/dsh-k12-lesson-builder) ★1 — DeepSeek Harness plugin for generating synchronized K12 English PPTX and DOCX lesson materials
 - ⬜ `[待定]` [silasvanceneo-dsh-dynamic-multiagent](https://github.com/Silasvanceneo/dsh-dynamic-multiagent) ★1 — Dynamic multi-agent orchestration for DeepSeek Harness (dsh): task graphs of child agents with per-node role,
 - 🟩 `[可用]` [simbamo-dsh-session-unarchive](https://github.com/simbamo/dsh-session-unarchive) ★1 — DeepSeek Harness 插件：查看并恢复已归档的会话（侧边栏「归档会话」入口 + session_archive 工具 + /unarchive 命令）
 - 🟩 `[可用]` [simmon-clap-dsh-intelligent-ui](https://github.com/simmon-clap/dsh-intelligent-ui) ★1 — DSH plugin for DeepSeek Harness — turns answers into interactive Paper Glass cards
