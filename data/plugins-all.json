@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T10:48:14Z",
+ "generated_at": "2026-11-21T11:03:42Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -42110,7 +42110,7 @@
   {
    "repo": "creativedswork/dscode",
    "name": "dscode",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 11,
    "desc": "dscode is a coding agent that empowers digital and knowledge work"
   },

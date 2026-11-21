@@ -401,7 +401,7 @@
 - 🟩 `[可用]` [dsh-mini-tui](https://github.com/boxeryao/dsh-mini-tui) ★11 — DSH-TUI: a lightweight and fast terminal plugin connected directly to the DSH runtime.
 - 🟩 `[可用]` [chimesky-dsh-a2ui](https://github.com/ChimeSky/dsh-a2ui) ★11 — Generative UI for DeepSeek Harness: renders Google A2UI 1.0 surfaces inside the conversation with an agent ->
 - 🟩 `[可用]` [chplus0-dsh-learning-mode](https://github.com/CHplus0/dsh-learning-mode) ★11 — A DeepSeek Harness (DSH) agent preset that teaches while coding — concrete scenario-grounded explanations, Soc
-- 🟩 `[可用]` [dscode](https://github.com/creativedswork/dscode) ★11 — dscode is a coding agent that empowers digital and knowledge work
+- ⬜ `[待定]` [dscode](https://github.com/creativedswork/dscode) ★11 — dscode is a coding agent that empowers digital and knowledge work
 - 🟩 `[可用]` [cryjkd-dsh-clawbot](https://github.com/cryjkd/dsh-clawbot) ★11 — 在 DeepSeek Harness（DSH）里接入微信官方 ilink 机器人网关：扫码绑定后，AI 能主动给自己发微信通知；每次回复后自动推送任务完成摘要；目标完成/阻断时自动通知；需要批准/选择时主动微信提醒
 - ⬜ `[待定]` [forelsket521-jpg-vvn-deepseek-harness](https://github.com/forelsket521-jpg/vvn-deepseek-harness) ★11 — DeepSeek Harness 破甲工具：解锁审批 / 沙箱 / 提权限制，解除身份与拒答约束，注入自定义提示词
 - ⬜ `[待定]` [gehennawu-dsh-service](https://github.com/gehennawu/dsh-service) ★11 — DSH Web 一站式运维面板：模型配置与子代理路由、用量与额度查询、会话与备份管理、健康诊断及安全重启
