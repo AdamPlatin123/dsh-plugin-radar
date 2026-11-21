@@ -869,7 +869,7 @@
 - 🟩 `[可用]` [leo1958923515-dsh-popup-cards](https://github.com/Leo1958923515/dsh-popup-cards) ★2 — Topmost DSH-styled Windows cards for DeepSeek Harness approvals, questions, plan reviews and finished runs — c
 - 🟩 `[可用]` [leolee9086-dsh-context-care](https://github.com/leolee9086/dsh-context-care) ★2 — DeepSeek Harness 的疲劳度、唤醒值与自主上下文压缩 Cordis 插件
 - ⬜ `[待定]` [dsh-plugin-release](https://github.com/YaoleWu/dsh-plugin-release) ★2 — Portable package contract, release checklist, and installation hygiene skills for DeepSeek Harness plugins.
-- 🟩 `[可用]` [dsh-task-relay](https://github.com/YaoleWu/dsh-task-relay) ★2 — DSH 跨会话任务接力板：task_push/list/claim/done + handoff_write/read
+- ⬜ `[待定]` [dsh-task-relay](https://github.com/YaoleWu/dsh-task-relay) ★2 — DSH 跨会话任务接力板：task_push/list/claim/done + handoff_write/read
 - 🟩 `[可用]` [liangdabiao-dsh-seedance-studio](https://github.com/liangdabiao/dsh-seedance-studio) ★2 — dsh-seedance-studio 上美影短剧工坊（dsh-seedance-studio）  把 \[smy-seedance-storyboard\]  这套「上美影风格短剧」skill 搬进 DeepSeek Ha
 - 🟩 `[可用]` [libinyam-dsh-experts](https://github.com/libinyam/dsh-experts) ★2 — DeepSeek Harness multi-expert bundle: expert teams as user-authorable data directories, each auto-registered a
 - 🟩 `[可用]` [light-ei-dsh-ebbing-context](https://github.com/Light-EI/dsh-ebbing-context) ★2 — 模拟记忆衰退的 DSH 分层上下文压缩插件：原文 → L1 → L2 → L3，越旧分辨率越低，但从不删除
