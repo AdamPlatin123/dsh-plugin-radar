@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T03:17:44Z",
+ "generated_at": "2026-11-21T03:33:00Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39345,7 +39345,7 @@
   {
    "repo": "ccch1mneyyy/dsh-TUI",
    "name": "dsh-TUI",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8039,
    "desc": "DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse i"
   },
@@ -41550,7 +41550,7 @@
   {
    "repo": "ccq1/dsh-side-panel",
    "name": "dsh-side-panel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "DSH 侧边栏，集成文件浏览器、终端和 Git 审查，方便预览文件"
   },
@@ -49397,7 +49397,7 @@
   {
    "repo": "ChengChe106/dsh-session-cost",
    "name": "dsh-session-cost",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DSH plugin: estimated DeepSeek API cost per session in the web GUI stats strip"
   },
@@ -54650,6 +54650,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Codex 风格的 DeepSeek Harness 模型与推理弹窗，七档界面映射原生四档，支持 npm、Git 与本地安装"
+  },
+  {
+   "repo": "chajiuqqq/dsh-claude-theme",
+   "name": "dsh-claude-theme",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "dsh的claude风格界面"
   },
   {
    "repo": "Chang-An2002/dsh-diy-skin",
@@ -93285,13 +93292,6 @@
    "desc": "DSH Token 花费面板：预算 / 峰谷计价 / 按模型明细 / CSV·JSON 导出 / CLI 报表（社区插件，非官方）"
   },
   {
-   "repo": "chajiuqqq/dsh-claude-theme",
-   "name": "dsh-claude-theme",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "dsh的claude风格界面"
-  },
-  {
    "repo": "changhang155/dsh-plugin-claude-import",
    "name": "changhang155-dsh-plugin-claude-import",
    "verdict": "incompatible",
@@ -118277,7 +118277,7 @@
   {
    "repo": "chenjunda0018-sketch/A-persona-plugin-for-DeepSeek-Harness",
    "name": "A-persona-plugin-for-DeepSeek-Harness",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "switch DSH between a Classical Chinese scholar, a Northeastern buddy, and a talking cat."
   },

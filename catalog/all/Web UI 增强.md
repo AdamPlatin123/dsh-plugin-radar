@@ -3,7 +3,7 @@
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
 - ⬜ `[待定]` [element-plus-element-plus](https://github.com/element-plus/element-plus) ★27864 — 🎉 A Vue.js 3 UI Library made by Element team
-- 🟩 `[可用]` [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) ★8039 — DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse i
+- ⬜ `[待定]` [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) ★8039 — DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse i
 - 🟩 `[可用]` [elysia395-dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) ★7701 — 把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应
 - 🟩 `[可用]` [meteornox-deepseek-balance-whale-widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) ★7385 — DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额
 - ⬜ `[待定]` [zseven-w-openpencil](https://github.com/ZSeven-W/openpencil) ★7306 — The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams
@@ -321,7 +321,7 @@
 - ⬜ `[待定]` [0qwq0-dsh-ui-auth](https://github.com/0QwQ0/dsh-ui-auth) ★16 — DeepSeek Harness Web UI 认证网关插件：登录门禁、用户管理、管理员专属模型/Key 配置、数据隔离 · Authentication gate for the DeepSeek Harness We
 - 🟩 `[可用]` [1225sakura-oh-my-deepseekharness](https://github.com/1225Sakura/oh-my-deepseekharness) ★16 — DeepSeek Harness 的多智能体编排层 —— 42 skills / 33 角色卡 / 55 MCP 工具 / graph DAG 运行时 / team 流水线 / HUD 面板
 - 🟩 `[可用]` [better-er-dsh-tool-autoexpand](https://github.com/better-er/dsh-tool-autoexpand) ★16 — 「DSH·工具结果自动展开」：在 DSH Web 界面自动展开工具调用卡片，支持侧边栏开关
-- 🟩 `[可用]` [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) ★16 — DSH 侧边栏，集成文件浏览器、终端和 Git 审查，方便预览文件
+- ⬜ `[待定]` [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) ★16 — DSH 侧边栏，集成文件浏览器、终端和 Git 审查，方便预览文件
 - ⬜ `[待定]` [chenamel-deterministic-pixel-art](https://github.com/Chenamel/deterministic-pixel-art) ★16 — Editable pixel-art PNGs for AI agents and game developers: sprites, UI, named atlases, precise edits and verif
 - 🟩 `[可用]` [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) ★16 — DeepSeek account balance and session cost readout for the DeepSeek Harness Web GUI
 - 🟩 `[可用]` [liqichen-dsh-plugin-manager](https://github.com/liqichen/dsh-plugin-manager) ★16 — DSH 插件管理器:在 DeepSeek Harness 设置面板内嵌 GUI,管理 MCP 服务 / Skills / 内置插件包,改动热生效无需重启
@@ -1447,7 +1447,7 @@
 - 🟩 `[可用]` [chemiofitor4096-minecraft-dev-starter](https://github.com/Chemiofitor4096/minecraft-dev-starter) ★2 — DSH plugin: detect, launch and verify Minecraft mod builds from the session header.
 - 🟩 `[可用]` [cheng-cheng9669-dsh-cache-precision](https://github.com/Cheng-cheng9669/dsh-cache-precision) ★2 — DSH client plugin: render the built-in session cache-hit percentage with three decimal places.
 - 🟩 `[可用]` [cheng-xiu-dsh-mobile-link](https://github.com/Cheng-xiu/dsh-mobile-link) ★2 — One-click phone access to DeepSeek Harness (DSH): Cloudflare quick tunnel + multi-channel push (ServerChan/Pus
-- 🟩 `[可用]` [dsh-session-cost](https://github.com/ChengChe106/dsh-session-cost) ★2 — DSH plugin: estimated DeepSeek API cost per session in the web GUI stats strip
+- ⬜ `[待定]` [dsh-session-cost](https://github.com/ChengChe106/dsh-session-cost) ★2 — DSH plugin: estimated DeepSeek API cost per session in the web GUI stats strip
 - 🟩 `[可用]` [chengwill45-bot-dsh-hacker-terminal-theme](https://github.com/chengwill45-bot/dsh-hacker-terminal-theme) ★2 — Standalone hacker-terminal theme plugin for the DeepSeek Harness Web UI
 - 🟩 `[可用]` [chenshanhan0711-dsh-session-grep](https://github.com/chenshanhan0711/dsh-session-grep) ★2 — Literal substring search across every conversation in the workspace, from a search box in the conversation hea
 - ⬜ `[待定]` [chentao326-dsh-gui](https://github.com/chentao326/dsh-gui) ★2 — macOS 原生桌面 GUI for DeepSeek Harness — 双击图标即用的 DSH 桌面客户端（Swift + WKWebView，零依赖）
@@ -2203,6 +2203,7 @@
 - 🟩 `[可用]` [cenbonew-dsh-ctx-visualizer](https://github.com/cenbonew/dsh-ctx-visualizer) ★1 — DeepSeek Harness plugin: see exactly what context every model call receives — system vs user content, tools, t
 - 🟩 `[可用]` [ch4acko3-bites-the-dsh](https://github.com/memorax-ai/bites-the-dsh) ★1 — Read-only, scriptable session playback for the DeepSeek Harness WebUI
 - 🟩 `[可用]` [chadqian2012-sudo-dsh-codex-ui](https://github.com/chadqian2012-sudo/dsh-codex-ui) ★1 — Codex 风格的 DeepSeek Harness 模型与推理弹窗，七档界面映射原生四档，支持 npm、Git 与本地安装
+- ⬜ `[待定]` [dsh-claude-theme](https://github.com/chajiuqqq/dsh-claude-theme) ★1 — dsh的claude风格界面
 - ⬜ `[待定]` [chang-an2002-dsh-diy-skin](https://github.com/Chang-An2002/dsh-diy-skin) ★1 — DSH插件：可添加壁纸、图片、GIF，自定义并保存UI配色方案（零运行时依赖）
 - 🟩 `[可用]` [changhao213141-dsh-folder-cards](https://github.com/changhao213141/dsh-folder-cards) ★1 — Folder cards sidebar for DeepSeek Harness - 3:4 folder cards, droplet transitions, search, native session menu
 - ⬜ `[待定]` [changli7047-deepseek-harness-plugins](https://github.com/changli7047/DeepSeek-Harness-Plugins) ★1 — AI Agent 插件集（OpenCode v2 + DeepSeek Harness / dsh），双插件：Windows 桌面自动化（后台截图、元素快照、点击输入、条件等待）＋ 本地 LLM 知识库（markdown
@@ -7810,7 +7811,6 @@
 - 🟨 `[不兼容]` [c10ck-p-dsh-checkpoint-dock](https://github.com/c10ck-p/dsh-checkpoint-dock) ★1 — Per-turn, per-file checkpoints for DeepSeek Harness: keep, undo, redo, and revert to here from a dock above th
 - 🟨 `[不兼容]` [caomuyes-dsh-wallpaper-only](https://github.com/caomuyes/dsh-wallpaper-only) ★1 — 为 DeepSeek Harness Web GUI 提供只修改壁纸效果的插件（本地图片/渐变、遮罩、模糊、玻璃面板）
 - 🟨 `[不兼容]` [catgrandfa-dsh-token-cost](https://github.com/catgrandfa/dsh-token-cost) ★1 — DSH Token 花费面板：预算 / 峰谷计价 / 按模型明细 / CSV·JSON 导出 / CLI 报表（社区插件，非官方）
-- 🟨 `[不兼容]` [dsh-claude-theme](https://github.com/chajiuqqq/dsh-claude-theme) ★1 — dsh的claude风格界面
 - 🟨 `[不兼容]` [changhang155-dsh-plugin-claude-import](https://github.com/changhang155/dsh-plugin-claude-import) ★1 — Import Claude Code sessions into DeepSeek Harness as continuable context — agent tools (claude_session_list /
 - 🟨 `[不兼容]` [charlie-pan-dsh-voice](https://github.com/charlie-pan/dsh-voice) ★1 — 🎤 DeepSeek Harness 语音转文字插件：输入框右下角麦克风按钮，浏览器自带 / 讯飞 / 本地 Whisper 三种引擎，麦克风设备选择，自动增益，液态玻璃风格
 - 🟨 `[不兼容]` [chen731215-dev-dsh-muv-engine](https://github.com/chen731215-dev/dsh-muv-engine) ★1 — DSH Native MUV Engine - tavern companion: regex scripts, status bar, variable tracking, LaTeX, macros, visual
