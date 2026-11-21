@@ -44,7 +44,7 @@
 - 🟩 `[可用]` [zhuzhaoyun-molio](https://github.com/zhuzhaoyun/Molio) ★451 — A local-first personal knowledge layer for AI agents
 - 🟩 `[可用]` [wyh66666666-dsh-transparent-ui-plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) ★439 — 是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端
 - 🟩 `[可用]` [dominic789654-awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) ★434 — A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness
-- 🟩 `[可用]` [whale-girl](https://github.com/vlln/whale-girl) ★413 — DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴
+- ⬜ `[待定]` [whale-girl](https://github.com/vlln/whale-girl) ★413 — DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴
 - 🟩 `[可用]` [kingofsoysauce-dsh-liang-skin](https://github.com/kingOfSoySauce/dsh-liang-skin) ★402 — DeepSeek Harness 滑动变阻器皮肤
 - 🟩 `[可用]` [d-dev0101-open-sea-skin](https://github.com/d-dev0101/open-sea-skin) ★399 — 🌊 DeepSeek Harness 海洋皮肤与动态主题 \| Real-time ocean theme with adjustable waves, sunset & glass opacity
 - 🟩 `[可用]` [xing-shuyin-pi-web-ui](https://github.com/xing-shuyin/pi-web-ui) ★396 — Just open your browser — get all your work done.
@@ -142,6 +142,7 @@
 - 🟩 `[可用]` [mr-remon219-search-boost](https://github.com/Mr-remon219/search-boost) ★61 — Multi-engine web search and evidence synthesis for AI coding agents
 - 🟩 `[可用]` [perrylink-dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) ★60 — Double-check before you ship: grill the requirements, test the implementation, prove the delivery
 - ⬜ `[待定]` [tkingxiao-dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) ★60 — Deepseek Harness 自定义主题插件，支持自定义图片/视频壁纸，对话框，侧边栏等透明度模糊度调整，全局主题色的色轮调整插件
+- ⬜ `[待定]` [vlln-plugin-registry](https://github.com/vlln/plugin-registry) ★60 — DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导
 - 🟩 `[可用]` [lovenndme-dsh-profile-stats](https://github.com/Lovenndme/dsh-profile-stats) ★59 — Personal usage profile page for the DeepSeek Harness Web UI: tokens, peak day, streaks, activity heatmap, per-
 - 🟩 `[可用]` [yts1919-dsh-vision-complete](https://github.com/Yts1919/dsh-vision-complete) ★59 — 给 DeepSeek 补上「眼睛和耳朵」的多模态视觉插件：看图 / OCR / 物体检测 / 视频理解 / 语音转写 / 截图直读，一键安装（DSH 插件）
 - 🟩 `[可用]` [likenttt-garmin-connect-plugin-for-dsh](https://github.com/Likenttt/garmin-connect-plugin-for-dsh) ★58 — A TypeScript-based Garmin Connect plugin and MCP server with secure browser-based MFA, built for DeepSeek Harn
@@ -7137,7 +7138,6 @@
 - 🟨 `[不兼容]` [sagirimo-biodsh](https://github.com/sagirimo/BioDSH) ★69 — The bioinformatics agent desktop for clinicians and wet-lab scientists — built on DeepSeek Harness
 - 🟨 `[不兼容]` [ouli-1242-dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) ★63 — 一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent也能帮你操作这个插件
 - 🟨 `[不兼容]` [xiincs-deepseek-harness-desktop](https://github.com/xiincs/deepseek-harness-desktop) ★63 — DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新
-- 🟨 `[不兼容]` [vlln-plugin-registry](https://github.com/vlln/plugin-registry) ★60 — DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导
 - 🟨 `[不兼容]` [zhuiyueya-dsh-im-gateway](https://github.com/zhuiyueya/dsh-im-gateway) ★60 — 把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 \| Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to
 - 🟨 `[不兼容]` [xbzbing-dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) ★59 — Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、AI 生成提交信息、文件浏览、代码与图片新旧差异对照、输入框分支标记、针对移动端优化 \| an IDE-style Git
 - 🟨 `[不兼容]` [dreamfarer-space-deepseek-harness-intelligent](https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui) ★53 — Generative, interactive UI for DeepSeek Harness (DSH): declarative components and sandboxed live widgets strea
