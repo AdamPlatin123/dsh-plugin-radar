@@ -749,6 +749,7 @@
 - 🟩 `[可用]` [lion-1209-dsh-plugin-wiki-skills](https://github.com/Lion-1209/dsh-plugin-wiki-skills) ★5 — Prompt-level wiki skill suite (wiki, wiki-ingest, wiki-query, wiki-lint, save) for dsh — pairs with dsh-plugin
 - 🟩 `[可用]` [lionad-morotar-dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) ★5 — Keyboard jump navigation for the DeepSeek Harness Web GUI: press a chord, type a letter label, and the labelle
 - 🟩 `[可用]` [lkh081231-screenshot-feedback-hook-mcp](https://github.com/lkh081231/screenshot-feedback-hook-mcp) ★5 — Let your coding agent SEE what it builds
+- ⬜ `[待定]` [dsh-workshop](https://github.com/loguhan/dsh-workshop) ★5 — Steam Workshop style plugin store for DeepSeek Harness Web UI: browse 850+ community plugins, one-click instal
 - ⬜ `[待定]` [lonelycrab888-dsh-remote-dc](https://github.com/lonelycrab888/dsh-remote-dc) ★5 — Access files, search logs, and run commands on paired machines from DeepSeek Harness using Desktop Commander’s
 - ⬜ `[待定]` [lumine-423-dsh-session-popout](https://github.com/lumine-423/dsh-session-popout) ★5 — 让你可以从侧边栏拖拽会话，使其成为一个独立窗口，省得来回切换会话的插件！
 - 🟩 `[可用]` [dsh-funpack](https://github.com/lvyuchuiyi/dsh-funpack) ★5 — DeepSeek Harness的一些有趣插件
@@ -7380,7 +7381,6 @@
 - 🟨 `[不兼容]` [lyshell-archive](https://github.com/liangyou09/lyshell-archive) ★5 — AI-native terminal & SSH client — Harness launches DeepSeek / CodEx / Claude agents on PowerShell 7 in TUI or
 - 🟨 `[不兼容]` [lion-1209-dsh-plugin-wiki-tools](https://github.com/Lion-1209/dsh-plugin-wiki-tools) ★5 — Native dsh tools for an Obsidian wiki vault: wiki_query, wiki_write, wiki_rename, wiki_scaffold, wiki_archive,
 - 🟨 `[不兼容]` [ljcoder2015-dsh-canvas](https://github.com/ljcoder2015/dsh-canvas-flow) ★5 — Build your workflow on an infinite canvas — text, design, app, image and video cards wired together on DeepSee
-- 🟨 `[不兼容]` [dsh-workshop](https://github.com/loguhan/dsh-workshop) ★5 — Steam Workshop style plugin store for DeepSeek Harness Web UI: browse 850+ community plugins, one-click instal
 - 🟨 `[不兼容]` [louifinn-dsh-tower](https://github.com/louifinn/dsh-tower) ★5 — Tower plugin for DeepSeek Harness: multi-agent missions, worktree isolation, review-gated merges, human-owned
 - 🟨 `[不兼容]` [lutisure-cyrene-dsh-plugin](https://github.com/Lutisure/cyrene-dsh-plugin) ★5 — 昔涟角色 agent + 客户端主题 + 本地安全扫描，三个可独立安装的 DSH 插件
 - 🟨 `[不兼容]` [mozi-desk-mozi-forge](https://github.com/mozi-desk/mozi-forge) ★5 — A foundation for self-evolving AI agents, built on DeepSeek Harness.
