@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T19:18:08Z",
+ "generated_at": "2026-11-21T19:32:35Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -5944,13 +5944,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "在 DeepSeek Harness 中复刻 Pi 工具组的 agent preset，提供 Pi 风格小写核心工具契约并保留 DSH-backed 扩展工具"
-  },
-  {
-   "repo": "kingsoftcloud/agentkit-personal-assistant",
-   "name": "kingsoftcloud-agentkit-personal-assistant",
-   "verdict": "pending",
-   "stars": 2,
-   "desc": "AgentKit personal assistant plugin for DeepSeek Harness"
   },
   {
    "repo": "kira905/dsh-memory-toolkit",
@@ -12738,7 +12731,7 @@
   {
    "repo": "wellorbetter/dsh-plugin-window-stats",
    "name": "wellorbetter-dsh-plugin-window-stats",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH web plugin: see every session's conversation progress and token usage at a glance — all-windows overview,"
   },
@@ -19398,13 +19391,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Knowz vaults for DeepSeek Harness — hosted MCP plus slim vault skills"
-  },
-  {
-   "repo": "kochetkov-ma/brewpage-publish-plugins",
-   "name": "kochetkov-ma-brewpage-publish-plugins",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Host HTML pages and static sites, publish AI artifacts, and share Markdown, documents, reports or any file wit"
   },
   {
    "repo": "kocor01/dsh-model-auto-retry",
@@ -31384,6 +31370,13 @@
    "desc": "DSH-native Work Charter policy plugin backed by session-coordinator-dsh"
   },
   {
+   "repo": "kingsoftcloud/agentkit-personal-assistant",
+   "name": "kingsoftcloud-agentkit-personal-assistant",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "AgentKit personal assistant plugin for DeepSeek Harness"
+  },
+  {
    "repo": "kirbylynx/deepshell-agent",
    "name": "kirbylynx-deepshell-agent",
    "verdict": "incompatible",
@@ -36499,6 +36492,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "kochetkov-ma/brewpage-publish-plugins",
+   "name": "kochetkov-ma-brewpage-publish-plugins",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Host HTML pages and static sites, publish AI artifacts, and share Markdown, documents, reports or any file wit"
   },
   {
    "repo": "Koewen/dsh-window-size-lock",
