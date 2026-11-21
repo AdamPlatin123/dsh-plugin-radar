@@ -374,6 +374,7 @@
 - 🟩 `[可用]` [theflowyears-dsh-arknights-theme](https://github.com/Theflowyears/dsh-arknights-theme) ★13 — Arknights theme pack for the DeepSeek Harness Web GUI: wallpapers with saturation-driven edge blur, an acrylic
 - 🟩 `[可用]` [xinxing1708-dsh-codex-style](https://github.com/xinxing1708/DSH-Codex-Style) ★13 — 为Deepseek-Harness制作的Codex界面的UI插件
 - 🟩 `[可用]` [aicivilization-deepseek-harness-vps](https://github.com/AIcivilization/dsh-vps) ★12 — One-command DeepSeek Harness on your VPS: a zero-dependency login gateway puts the stock DSH web UI - settings
+- ⬜ `[待定]` [dsh-annotate](https://github.com/BrambleXu/dsh-annotate) ★12 — Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, a
 - ⬜ `[待定]` [cristallin2006-ghidra-skill-for-dsh](https://github.com/Cristallin2006/ghidra-skill-for-dsh) ★12 — Custom-built for dsh (DeepSeek Harness): persistent Ghidra headless daemon + reverse-engineering agent skills
 - 🟩 `[可用]` [culture-flask-dsh-aemeath-pet](https://github.com/culture-flask/dsh-aemeath-pet) ★12 — 爱弥斯 · DeepSeek Harness 桌宠 — DeepSeek Harness Web GUI 的像素风宠物插件
 - 🟩 `[可用]` [ikevss-dsh-ima](https://github.com/ikevss/dsh-ima) ★12 — 把腾讯 ima 知识库接进 DeepSeek Harness：侧边栏浏览、跨库搜正文、上传文件
@@ -2172,7 +2173,7 @@
 - 🟩 `[可用]` [blackstar-baba-dsh-bird-bike](https://github.com/blackstar-baba/dsh-bird-bike) ★1 — 像素小鸡骑自行车 —— DSH Web GUI 底部的我的世界像素风骑行带 / A DSH client plugin: a helmeted pixel chicken rides a bicycle along a
 - 🟩 `[可用]` [blackthunder2191026-dsh-deepseek-usage](https://github.com/BlackThunder2191026/dsh-deepseek-usage) ★1 — DeepSeek Harness 插件：侧边栏实时余额 + 每轮对话花费（人民币，含 token 明细）
 - 🟩 `[可用]` [blockman0321-dsh-sidebar-overlay](https://github.com/blockman0321/dsh-sidebar-overlay) ★1 — Floating sidebar overlay for DeepSeek Harness: independently rendered workspace/session browser in the officia
-- 🟩 `[可用]` [dsh-client-shortcuts](https://github.com/blue-a11y/dsh-client-shortcuts) ★1 — Global keyboard shortcuts for the DeepSeek Harness web GUI: ctx.shortcuts registry, rebindable settings, and d
+- ⬜ `[待定]` [dsh-client-shortcuts](https://github.com/blue-a11y/dsh-client-shortcuts) ★1 — Global keyboard shortcuts for the DeepSeek Harness web GUI: ctx.shortcuts registry, rebindable settings, and d
 - ⬜ `[待定]` [boltblue121-dsh-moss-draw](https://github.com/BoltBlue121/dsh-moss-draw) ★1 — DSH Desktop「AI 画画」工作台插件：7 个 art_* 工具、右侧栏工作台、多 LoRA 叠加，后端走自建 ComfyUI
 - 🟩 `[可用]` [boweiduan-dsh-tui-session-manager](https://github.com/BoweiDuan/dsh-tui-session-manager) ★1 — Session manager plugin for dsh-TUI: a /sessions scene to browse, filter and truly delete saved sessions, plus
 - 🟩 `[可用]` [braidy-wu-dsh-conversation-minimap](https://github.com/Braidy-Wu/dsh-conversation-minimap) ★1 — ChatGPT-style prompt-based conversation minimap for the DSH Web GUI (fish-eye hover, edge fade, click-to-jump)
@@ -7219,7 +7220,6 @@
 - 🟨 `[不兼容]` [ytxue-dsh-skill-manager-ytxue](https://github.com/YTxue/dsh-skill-manager-ytxue) ★13 — DSH web plugin: skill manager in the Settings sidebar - list/enable/disable, folder batch import with conflict
 - 🟨 `[不兼容]` [zephinel-dsh-intelligent-ui](https://github.com/Zephinel/dsh-intelligent-ui) ★13 — Intelligent UI extension for DeepSeek Harness: render OpenUI Lang answers as interactive pages.
 - 🟨 `[不兼容]` [big-dao-dsh-plugin-wsl-env](https://github.com/Big-Dao/dsh-plugin-wsl-env) ★12 — Run a DeepSeek Harness session against a WSL distro: ctx.shell, ctx.fs and the GUI terminal served from inside
-- 🟨 `[不兼容]` [dsh-annotate](https://github.com/BrambleXu/dsh-annotate) ★12 — Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, a
 - 🟨 `[不兼容]` [cheesehaqi-dsh-qq-onebot-bridge](https://github.com/cheesehaqi/dsh-qq-onebot-bridge) ★12 — 尝试为您自己搭建属于自己的QQ小助手吧 / Try building your own QQ assistant for yourself
 - 🟨 `[不兼容]` [crosery-dsh-viewer](https://github.com/Crosery/dsh-viewer) ★12 — Everything renders: images, video, audio, PDF, Office documents and local web pages inline in the DeepSeek Har
 - 🟨 `[不兼容]` [gxinxing-deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) ★12 — Terminal-native interactive TUI for DeepSeek Harness (dsh) — built with Ink, React for terminals
