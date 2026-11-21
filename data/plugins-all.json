@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T02:32:17Z",
+ "generated_at": "2026-11-21T02:47:35Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -44196,7 +44196,7 @@
   {
    "repo": "bennett-dsh/dsh-plugin-usage",
    "name": "dsh-plugin-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "Token usage statistics plugin for DeepSeek Harness: daily/custom-range views, model filters, call counts & cos"
   },
@@ -117808,7 +117808,7 @@
   {
    "repo": "ben7am1n/dsh-lens-lite",
    "name": "dsh-lens-lite",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Post-edit diagnostics for DeepSeek Harness"
   },
@@ -201036,6 +201036,13 @@
    "desc": "🔔 Cross-window completion & approval notifications for DeepSeek Harness — popup reminders that bring you back"
   },
   {
+   "repo": "biedongbin/dsh-claude-compat",
+   "name": "dsh-claude-compat",
+   "verdict": "pending",
+   "stars": 19,
+   "desc": "DSH plugin: bridge Claude Code's .claude/ directory (skills, commands, rules) into DeepSeek Harness natively"
+  },
+  {
    "repo": "CVEO/dsh-digital-earth",
    "name": "cveo-dsh-digital-earth",
    "verdict": "pending",
@@ -206022,7 +206029,7 @@
   {
    "repo": "BillionSeniors/dsh-project-file-explorer",
    "name": "dsh-project-file-explorer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness 项目文件浏览器插件：右侧停靠文件树 + 一键预览（代码/文本/图片/音视频/PDF），新增工作区自动停靠，窄屏响应式抽屉"
   },
@@ -229272,13 +229279,6 @@
    "verdict": "incompatible",
    "stars": 19,
    "desc": "AWiki identity and messaging plugin for DeepSeek Harness"
-  },
-  {
-   "repo": "biedongbin/dsh-claude-compat",
-   "name": "dsh-claude-compat",
-   "verdict": "incompatible",
-   "stars": 19,
-   "desc": "DSH plugin: bridge Claude Code's .claude/ directory (skills, commands, rules) into DeepSeek Harness natively"
   },
   {
    "repo": "icodesign/orbis",
