@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T08:03:33Z",
+ "generated_at": "2026-11-21T08:19:40Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -922,7 +922,7 @@
   {
    "repo": "HiWhaleW/dsh-toolbox",
    "name": "hiwhalew-dsh-toolbox",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 29,
    "desc": "Local-first DeepSeek Harness plugins for product research, context routing, plugin preflight, and compatibilit"
   },
@@ -50125,7 +50125,7 @@
   {
    "repo": "Heyflyingpig/long-draft-input",
    "name": "long-draft-input",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Deepseek Harness 插件：用于聚合发送框长文本"
   },
@@ -56796,7 +56796,7 @@
   {
    "repo": "hisaniwo/dsh-ergonomics",
    "name": "dsh-ergonomics",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH 会话人体工学：/new 一键新会话 + 输入历史 ↑↓ 回溯"
   },
@@ -121378,7 +121378,7 @@
   {
    "repo": "Hjjj0918/dsh-plugin-local-utilities",
    "name": "dsh-plugin-local-utilities",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -173759,7 +173759,7 @@
   {
    "repo": "hisaniwo/dsh-plugin-archive-recovery",
    "name": "dsh-plugin-archive-recovery",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DSH (DeepSeek Harness) plugin: restore archived sessions from an icon in the workspace section header, backed"
   },
@@ -189537,14 +189537,14 @@
   {
    "repo": "hnmrxz/dsh-plugin-sysmon",
    "name": "dsh-plugin-sysmon",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Local system resource monitor (CPU / memory / disk / load / uptime) for the DeepSeek Harness bottom status bar"
   },
   {
    "repo": "hnmrxz/dsh-plugin-usage-dashboard",
    "name": "dsh-plugin-usage-dashboard",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek usage & cost dashboard for the DSH bottom status bar: per-session token/cost aggregation with low-bal"
   },
