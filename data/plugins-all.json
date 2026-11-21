@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T23:17:59Z",
+ "generated_at": "2026-11-21T23:33:01Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -115925,7 +115925,7 @@
   {
    "repo": "YukunR/dsh-ezprot-plugin",
    "name": "yukunr-dsh-ezprot-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "A plug-and-play proteomics analysis plugin for DeepSeek Harness"
   },
@@ -158595,6 +158595,13 @@
    "desc": "EN: Lifecycle-safe MCP status pill for DSH Web"
   },
   {
+   "repo": "yuanzhoucanxiang/dsh-desktop",
+   "name": "yuanzhoucanxiang-dsh-desktop",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness Desktop shell"
+  },
+  {
    "repo": "yueyexiayu/dsh-edu",
    "name": "yueyexiayu-dsh-edu",
    "verdict": "ok",
@@ -162233,13 +162240,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "deepseek-harness桌面版〔📦〕"
-  },
-  {
-   "repo": "yuanzhoucanxiang/dsh-desktop",
-   "name": "yuanzhoucanxiang-dsh-desktop",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "DeepSeek Harness Desktop shell"
   },
   {
    "repo": "yuehancn/dsh-tool-browser",
@@ -193910,13 +193910,6 @@
    "desc": "DSH 桌面端多通道更新与重启插件：稳定/beta/nightly 检查更新、安装包 SHA-512 校验、一键重启 Host"
   },
   {
-   "repo": "qiubai-di/dsh-chatgpt-subscription",
-   "name": "qiubai-di-dsh-chatgpt-subscription",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "OAuth-only ChatGPT subscription model provider for DeepSeek Harness."
-  },
-  {
    "repo": "qiuleec/dsh-point-plugin",
    "name": "qiuleec-dsh-point-plugin",
    "verdict": "ok",
@@ -199032,6 +199025,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness plugin for direct WeChat ClawBot messaging through the iLink bot API"
+  },
+  {
+   "repo": "qiubai-di/dsh-chatgpt-subscription",
+   "name": "qiubai-di-dsh-chatgpt-subscription",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "OAuth-only ChatGPT subscription model provider for DeepSeek Harness."
   },
   {
    "repo": "qqc0821/dsh-plugin-wallpaper",
