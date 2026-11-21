@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T19:48:05Z",
+ "generated_at": "2026-11-21T20:02:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40146,6 +40146,13 @@
    "verdict": "pending",
    "stars": 76,
    "desc": "Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins"
+  },
+  {
+   "repo": "whiteguo233/dsh-openbiliclaw",
+   "name": "dsh-openbiliclaw",
+   "verdict": "pending",
+   "stars": 75,
+   "desc": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容"
   },
   {
    "repo": "Zhenyu98/dsh-context-doctor",
@@ -88544,13 +88551,6 @@
    "verdict": "incompatible",
    "stars": 80,
    "desc": "把外部 Agent CLI、持久终端、工作区调试和远程访问，装进 DSH 原生界面"
-  },
-  {
-   "repo": "whiteguo233/dsh-openbiliclaw",
-   "name": "dsh-openbiliclaw",
-   "verdict": "incompatible",
-   "stars": 75,
-   "desc": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容"
   },
   {
    "repo": "xi-zhao/OpenQuantum",
@@ -201764,6 +201764,13 @@
    "desc": "Edit typeset Typst documents inside DeepSeek Harness"
   },
   {
+   "repo": "white0dew/awesome-dsh-plugins",
+   "name": "white0dew-awesome-dsh-plugins",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "Awesome DSH Plugins: a public GitHub directory for DeepSeek Harness plugins, DSH plugins, install commands, an"
+  },
+  {
    "repo": "Xenia0922/dsh-opencode-go-usage",
    "name": "dsh-opencode-go-usage",
    "verdict": "ok",
@@ -229594,13 +229601,6 @@
    "verdict": "incompatible",
    "stars": 12,
    "desc": "Provider quota/balance widget for the dsh web surface: capsule + card + settings panel, dual-face (loopback RP"
-  },
-  {
-   "repo": "white0dew/awesome-dsh-plugins",
-   "name": "white0dew-awesome-dsh-plugins",
-   "verdict": "incompatible",
-   "stars": 12,
-   "desc": "Awesome DSH Plugins: a public GitHub directory for DeepSeek Harness plugins, DSH plugins, install commands, an"
   },
   {
    "repo": "xinchen03/minta",
