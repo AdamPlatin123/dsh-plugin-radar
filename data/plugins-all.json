@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T08:19:40Z",
+ "generated_at": "2026-11-21T08:33:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -201472,7 +201472,7 @@
   {
    "repo": "hootandy321/dsh-Agentlink",
    "name": "hootandy321-dsh-agentlink",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 13,
    "desc": "Caller-side bridge from Codex and other agent frameworks to DeepSeek Harness, with observable sessions, follow"
   },
