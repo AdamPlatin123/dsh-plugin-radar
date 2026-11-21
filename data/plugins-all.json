@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T06:32:19Z",
+ "generated_at": "2026-11-21T06:47:27Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -43786,6 +43786,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Automated development pipeline plugin for DeepSeek Harness: requirement pool → LLM refine/design/plan/review →"
+  },
+  {
+   "repo": "HaoyueQin/deepseek-harness-desktop",
+   "name": "haoyueqin-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "\\[maintenance mode\\] A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek"
   },
   {
    "repo": "john-walks-slow/dsh-im-humanize",
@@ -89930,13 +89937,6 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "守藏 Shoucang — DeepSeek Harness (DSH) 长期记忆插件：会话蒸馏自动沉淀 × 深度睡眠反思归纳 × 词法+向量混合召回 × 认知环引导 × 主动遗忘，配本地设置面板"
-  },
-  {
-   "repo": "HaoyueQin/deepseek-harness-desktop",
-   "name": "haoyueqin-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "\\[maintenance mode\\] A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek"
   },
   {
    "repo": "ingleav626-art/dsh-native-launcher",
