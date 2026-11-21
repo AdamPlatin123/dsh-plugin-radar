@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T21:32:59Z",
+ "generated_at": "2026-11-21T21:47:48Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -13063,6 +13063,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness 子代理模型管控与 Jev 智能分流插件（合并自 vitas/dsh-jev-subagent-dispatch 与 ringoage/dsh-subagent-model-picker）"
+  },
+  {
+   "repo": "xinmo114514/dsh-usage-widget",
+   "name": "dsh-usage-widget",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh"
   },
   {
    "repo": "xinspark/dsh-better-session-topbar",
@@ -33995,13 +34002,6 @@
    "desc": "让一个会话既能向其他模型借智慧，也能向其他会话借记忆"
   },
   {
-   "repo": "xinmo114514/dsh-usage-widget",
-   "name": "dsh-usage-widget",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh"
-  },
-  {
    "repo": "xipian1216/dsh-aa-bridge",
    "name": "xipian1216-dsh-aa-bridge",
    "verdict": "incompatible",
@@ -40279,6 +40279,13 @@
    "verdict": "ok",
    "stars": 63,
    "desc": "公网远程控制 DeepSeek Harness（dsh web）：安装即得专属加密地址，人在外面也能用手机远程访问，无需同一局域网/WiFi、无内网穿透，可选自建服务〔📦〕"
+  },
+  {
+   "repo": "xiincs/deepseek-harness-desktop",
+   "name": "xiincs-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 63,
+   "desc": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新"
   },
   {
    "repo": "berhbro/dsh-cyrene-theme",
@@ -48431,7 +48438,7 @@
   {
    "repo": "xing-shuyin/ds-web-ui",
    "name": "ds-web-ui",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "My DeepSeek Harness Web UI"
   },
@@ -88588,13 +88595,6 @@
    "desc": "一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent也能帮你操作这个插件"
   },
   {
-   "repo": "xiincs/deepseek-harness-desktop",
-   "name": "xiincs-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 63,
-   "desc": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新"
-  },
-  {
    "repo": "zhuiyueya/dsh-im-gateway",
    "name": "zhuiyueya-dsh-im-gateway",
    "verdict": "incompatible",
@@ -109023,7 +109023,7 @@
   {
    "repo": "xiaoshihou514/archived_dsh-vision",
    "name": "archived_dsh-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "deprecated"
   },
@@ -162461,7 +162461,7 @@
   {
    "repo": "xiaoshihou514/dsh-desktop-pet",
    "name": "xiaoshihou514-dsh-desktop-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 65,
    "desc": "DeepSeek Harness：鲸鱼娘桌宠！"
   },
@@ -186968,7 +186968,7 @@
   {
    "repo": "xiaomengxinbb/dsh-qq-bridge",
    "name": "xiaomengxinbb-dsh-qq-bridge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "将 QQ（私聊+群聊）接入 DeepSeek Harness 的双向桥插件：每个 QQ 对话一个隔离持久 Agent 会话，支持命令/审批/多媒体/出站文件"
   },
@@ -187556,7 +187556,7 @@
   {
    "repo": "XiLuovo/dsh-session-timeline",
    "name": "dsh-session-timeline",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness 会话时间轴插件：横短横线波浪、当前消息定位、点击跳转、圆角预览 tooltip、可收起/展开"
   },
