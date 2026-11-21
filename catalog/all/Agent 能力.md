@@ -1003,7 +1003,7 @@
 - 🟩 `[可用]` [wfz2006-dsh-agent-bridge](https://github.com/wfz2006/dsh-agent-bridge) ★2 — DSH 插件：浏览本机其他 AI Agent 的项目、记忆和 Skills，在原工作目录接续开发，或导出 Markdown 交接
 - 🟩 `[可用]` [whning0513-deepseek-protocol-doctor](https://github.com/Whning0513/deepseek-protocol-doctor) ★2 — Checks DeepSeek tool loops, reasoning_content, strict schemas, and captured SSE
 - 🟩 `[可用]` [wicm84266964-dsh-minimal-mode-compaction](https://github.com/wicm84266964/dsh-minimal-mode-compaction) ★2 — 为 DeepSeek Harness 极简模式增加自动上下文压缩、/compact、/context 和模型主动压缩，解决极简模式长任务无法持续工作的问题
-- 🟩 `[可用]` [dsh-prompt-stash](https://github.com/Wine-Red/dsh-prompt-stash) ★2 — Local, per-session prompt stash for DeepSeek Harness Web \| 本地、分对话的提示词输入暂存工具
+- ⬜ `[待定]` [dsh-prompt-stash](https://github.com/Wine-Red/dsh-prompt-stash) ★2 — Local, per-session prompt stash for DeepSeek Harness Web \| 本地、分对话的提示词输入暂存工具
 - 🟩 `[可用]` [winnie-0721-dsh-dialogue-cleanup](https://github.com/Winnie-0721/dsh-dialogue-cleanup) ★2 — DeepSeek Harness plugin: delete sessions from the running Web runtime — live store, workspace records, and on-
 - 🟩 `[可用]` [winsonpong98-cloud-dsh-distillation-director](https://github.com/winsonpong98-cloud/dsh-distillation-director) ★2 — DSH 蒸馏主管：把一本书蒸馏成可执行 Agent 技能的判态制元技能（三闸判态·零🔴门禁）｜V4.9.17 npm 通道实发·CLI 发布·readme 回归；发版闸 A/B/C/D/D-配套/D-import/E/F
 - 🟩 `[可用]` [winter-street-dsh-plugin-agent-budget](https://github.com/winter-street/dsh-plugin-agent-budget) ★2 — Durable shared token budgets for DeepSeek Harness agent trees — a fail-closed admission gate plus a replayable
