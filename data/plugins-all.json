@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T18:47:30Z",
+ "generated_at": "2026-11-21T19:03:14Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -42061,7 +42061,7 @@
   {
    "repo": "v587d/dsh-opencode-go-usage",
    "name": "v587d-dsh-opencode-go-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 12,
    "desc": "A DeepSeek Harness (dsh) bundle that shows OpenCode Go subscription usage in the Web GUI's composer dock — the"
   },
@@ -45610,7 +45610,7 @@
   {
    "repo": "makuralymi/dsh-webUI-Glass-Theme",
    "name": "dsh-webUI-Glass-Theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "—"
   },
