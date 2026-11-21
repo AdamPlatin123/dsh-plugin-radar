@@ -227,7 +227,7 @@
 - 🟩 `[可用]` [hongming-huang-dsh-file-upload](https://github.com/HongMing-Huang/dsh-file-upload) ★30 — DeepSeek Harness (dsh) file-message plugin: Claude-style drag-and-drop / paperclip upload, content sniffing, d
 - 🟩 `[可用]` [islibaodong-dsh-login](https://github.com/islibaodong/dsh-login) ★30 — Multi-user login gateway plugin for the DeepSeek Harness Web GUI: login wall, per-user conversation isolation,
 - 🟩 `[可用]` [lilycleheart-dsh-liuli-ui-enhance](https://github.com/LilycleHeart/dsh-liuli-ui-enhance) ★30 — 琉璃 UI 增强 —— DSH 主题插件:M3 动态取色、壁纸磨砂材质、声纹可视化、dock shell、嵌入式浏览器
-- 🟩 `[可用]` [dsh-codex-subscription](https://github.com/yequ172672/dsh-codex-subscription) ★30 — DSH 插件:直接复用 Codex CLI 本地登录订阅凭证,在 DeepSeek Harness 中使用 ChatGPT 订阅模型,无需 API Key \| DSH plugin: reuse your Codex C
+- ⬜ `[待定]` [dsh-codex-subscription](https://github.com/yequ172672/dsh-codex-subscription) ★30 — DSH 插件:直接复用 Codex CLI 本地登录订阅凭证,在 DeepSeek Harness 中使用 ChatGPT 订阅模型,无需 API Key \| DSH plugin: reuse your Codex C
 - 🟩 `[可用]` [hruiccc-ruic-dsh-purge](https://github.com/HRuiCcc/RuiC-dsh-purge) ★29 — DSH 本机维护插件：预检 → 快照 → 原子写入 → 冲突检测回滚；含提示词管理与设置面板
 - 🟩 `[可用]` [liustack-pptwise](https://github.com/liustack/pptwise) ★29 — A real PowerPoint, not HTML
 - 🟩 `[可用]` [dsh-theme-plugin](https://github.com/nevertoday/dsh-theme-plugin) ★29 — Chinese traditional colors as a DeepSeek Harness theme pack.

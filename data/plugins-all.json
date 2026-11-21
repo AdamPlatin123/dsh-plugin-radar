@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T22:02:54Z",
+ "generated_at": "2026-11-21T22:18:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4996,7 +4996,7 @@
   {
    "repo": "yangyue1974/dsh-plugin-audiolib",
    "name": "dsh-plugin-audiolib",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Ambient soundtrack for DeepSeek Harness, driven by agent state"
   },
@@ -40892,7 +40892,7 @@
   {
    "repo": "yequ172672/dsh-codex-subscription",
    "name": "dsh-codex-subscription",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 30,
    "desc": "DSH 插件:直接复用 Codex CLI 本地登录订阅凭证,在 DeepSeek Harness 中使用 ChatGPT 订阅模型,无需 API Key \\| DSH plugin: reuse your Codex C"
   },
@@ -106986,7 +106986,7 @@
   {
    "repo": "yangyongzhen/dsh-article-publish",
    "name": "dsh-article-publish",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Publish articles from DeepSeek Harness to CSDN / Juejin / CNBlog"
   },
@@ -115694,7 +115694,7 @@
   {
    "repo": "yangYzc/dsh-plugin-quote-reply",
    "name": "dsh-plugin-quote-reply",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH plugin: select text in a conversation, then quote it into the composer or reply in a new window"
   },

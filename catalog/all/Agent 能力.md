@@ -719,7 +719,7 @@
 - 🟩 `[可用]` [xtd1145-dsh-full-access-switch](https://github.com/xtd1145/dsh-full-access-switch) ★3 — DSH one-time Full access switch: no per-session confirmation for new workspaces/conversations
 - 🟩 `[可用]` [xyzyaemiko-dsh-session-groups](https://github.com/xyzYaeMiko/dsh-session-groups) ★3 — dsh会话分组插件（仿edge标签页分组）
 - 🟩 `[可用]` [yangyongzhen-dsh-session-export](https://github.com/yangyongzhen/dsh-session-export) ★3 — Export DeepSeek Harness sessions to Markdown for review, blogging and audit
-- 🟩 `[可用]` [dsh-plugin-audiolib](https://github.com/yangyue1974/dsh-plugin-audiolib) ★3 — Ambient soundtrack for DeepSeek Harness, driven by agent state
+- ⬜ `[待定]` [dsh-plugin-audiolib](https://github.com/yangyue1974/dsh-plugin-audiolib) ★3 — Ambient soundtrack for DeepSeek Harness, driven by agent state
 - 🟩 `[可用]` [yansera-dsh-memoir](https://github.com/Yansera/dsh-living-memoir) ★3 — DSH plugin — long-term memory as a short, categorized Markdown living document, rewritten in place each turn.
 - 🟩 `[可用]` [ycp424c-dsh-browser-bridge](https://github.com/ycp424c/dsh-browser-bridge) ★3 — Prompt-scoped bridge between DSH and explicitly attached Chrome tabs
 - 🟩 `[可用]` [yeyeyeyeshifu-dsh-session-hotkeys](https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys) ★3 — —
