@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T02:47:35Z",
+ "generated_at": "2026-11-21T03:03:02Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -547,6 +547,13 @@
    "verdict": "pending",
    "stars": 103,
    "desc": "DeepSeek Harness plugin: let top-level sessions find, message, and spawn each other (session_list / session_se"
+  },
+  {
+   "repo": "bruc3van/dsh-desktop-pro",
+   "name": "dsh-desktop-pro",
+   "verdict": "pending",
+   "stars": 98,
+   "desc": "DeepSeek Harness 专业版，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用"
   },
   {
    "repo": "lamost423/dsh-maze",
@@ -28801,13 +28808,6 @@
    "desc": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务"
   },
   {
-   "repo": "bruc3van/dsh-desktop-pro",
-   "name": "dsh-desktop-pro",
-   "verdict": "incompatible",
-   "stars": 98,
-   "desc": "DeepSeek Harness 专业版，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用"
-  },
-  {
    "repo": "zhuchongba-01/dsh-breach",
    "name": "zhuchongba-01-dsh-breach",
    "verdict": "incompatible",
@@ -41919,6 +41919,13 @@
    "desc": "One-command DeepSeek Harness on your VPS: a zero-dependency login gateway puts the stock DSH web UI - settings"
   },
   {
+   "repo": "BrambleXu/dsh-annotate",
+   "name": "dsh-annotate",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, a"
+  },
+  {
    "repo": "Cristallin2006/ghidra-skill-for-dsh",
    "name": "cristallin2006-ghidra-skill-for-dsh",
    "verdict": "pending",
@@ -54437,7 +54444,7 @@
   {
    "repo": "blue-a11y/dsh-client-shortcuts",
    "name": "dsh-client-shortcuts",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Global keyboard shortcuts for the DeepSeek Harness web GUI: ctx.shortcuts registry, rebindable settings, and d"
   },
@@ -89162,13 +89169,6 @@
    "desc": "Run a DeepSeek Harness session against a WSL distro: ctx.shell, ctx.fs and the GUI terminal served from inside"
   },
   {
-   "repo": "BrambleXu/dsh-annotate",
-   "name": "dsh-annotate",
-   "verdict": "incompatible",
-   "stars": 12,
-   "desc": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, a"
-  },
-  {
    "repo": "cheesehaqi/dsh-qq-onebot-bridge",
    "name": "cheesehaqi-dsh-qq-onebot-bridge",
    "verdict": "incompatible",
@@ -103995,6 +103995,13 @@
    "desc": "用于DeepSeek Harness的网页读取插件"
   },
   {
+   "repo": "bpc-oss/dsh-web-billing",
+   "name": "dsh-web-billing",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "RMB/USD token-billing plugin for DeepSeek Harness (dsh web): official-policy auto pricing with peak/off-peak h"
+  },
+  {
    "repo": "CAOGGL/dsh-ding",
    "name": "caoggl-dsh-ding",
    "verdict": "ok",
@@ -110157,7 +110164,7 @@
   {
    "repo": "bocha-ai/dsh-web-search-bocha",
    "name": "dsh-web-search-bocha",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness Web Search Plugin"
   },
@@ -139112,13 +139119,6 @@
    "verdict": "incompatible",
    "stars": 12,
    "desc": "面向企业内部管控的 DeepSeek Harness 统一智能工作台入口〔📦〕"
-  },
-  {
-   "repo": "bpc-oss/dsh-web-billing",
-   "name": "dsh-web-billing",
-   "verdict": "incompatible",
-   "stars": 12,
-   "desc": "RMB/USD token-billing plugin for DeepSeek Harness (dsh web): official-policy auto pricing with peak/off-peak h"
   },
   {
    "repo": "0x7A7A6572/dsh-forge-studio",
@@ -200203,6 +200203,13 @@
    "desc": "受控中文技术写作技能：ASD-STE100 的中文对应物，含 stdlib-only 确定性 linter"
   },
   {
+   "repo": "BruzWJ/Liang-Saint-Slider",
+   "name": "Liang-Saint-Slider",
+   "verdict": "pending",
+   "stars": 95,
+   "desc": "Liang Saint Slider as the DeepSeek Harness model + thinking-effort selector."
+  },
+  {
    "repo": "PivotStackIntelligence/dsh-github",
    "name": "pivotstackintelligence-dsh-github",
    "verdict": "ok",
@@ -228824,13 +228831,6 @@
    "verdict": "incompatible",
    "stars": 101,
    "desc": "DeepSeek Harness gate - per-turn persistent-operation counter: remind, instruct the model to stop, then ask fo"
-  },
-  {
-   "repo": "BruzWJ/Liang-Saint-Slider",
-   "name": "Liang-Saint-Slider",
-   "verdict": "incompatible",
-   "stars": 95,
-   "desc": "Liang Saint Slider as the DeepSeek Harness model + thinking-effort selector."
   },
   {
    "repo": "czcdr/dsh-plugin-rea",
