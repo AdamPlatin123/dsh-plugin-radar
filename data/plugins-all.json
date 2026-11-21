@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T11:33:02Z",
+ "generated_at": "2026-11-21T11:47:22Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -172581,6 +172581,13 @@
    "desc": "\\[ARCHIVED\\] Migrated to dsh-tavern-v2 with PolyForm-Noncommercial-Copyleft-1.0.0 license"
   },
   {
+   "repo": "liguobao/dsh-desktop",
+   "name": "liguobao-dsh-desktop",
+   "verdict": "pending",
+   "stars": 37,
+   "desc": "Archived / 已归档，停止维护"
+  },
+  {
    "repo": "Hakunm/dsh-android-app",
    "name": "hakunm-dsh-android-app",
    "verdict": "pending",
@@ -182386,13 +182393,6 @@
    "verdict": "incompatible",
    "stars": 42,
    "desc": "万象知识库：DeepSeek Harness 本地知识库插件，支持一键会话存入知识库，让你的deepseek与你一起无限进步！  好用的话求个星星！"
-  },
-  {
-   "repo": "liguobao/dsh-desktop",
-   "name": "liguobao-dsh-desktop",
-   "verdict": "incompatible",
-   "stars": 37,
-   "desc": "Archived / 已归档，停止维护"
   },
   {
    "repo": "LiuJunheng/DeepSeekHarnessGreen",
