@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T06:03:02Z",
+ "generated_at": "2026-11-21T06:17:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -41571,7 +41571,7 @@
   {
    "repo": "Ghost011118/dsh-balance-meter",
    "name": "dsh-balance-meter",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "DeepSeek account balance and session cost readout for the DeepSeek Harness Web GUI"
   },
@@ -172758,7 +172758,7 @@
   {
    "repo": "freehul/sgme",
    "name": "freehul-sgme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 17,
    "desc": "SGME 拾光记忆引擎：AI 全面接管记忆、技能库、WIKI 知识库三大模块，跨会话、多智能体共享记忆，AI 会一直记得你的偏好"
   },
@@ -188165,7 +188165,7 @@
   {
    "repo": "GiantGKL/dsh-cost",
    "name": "giantgkl-dsh-cost",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
