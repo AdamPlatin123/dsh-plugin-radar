@@ -642,6 +642,7 @@
 - 🟩 `[可用]` [fouxiuan-dsh-free-xianyu](https://github.com/Fouxiuan/dsh-free-xianyu) ★6 — Free Xianyu (闲鱼) monitor as a DeepSeek Harness plugin: hosts ai-goofish-monitor, adds goofish_* agent tools an
 - 🟩 `[可用]` [guo6x-dsh-housekeeper](https://github.com/guo6x/dsh-housekeeper) ★6 — Environment housekeeper for DeepSeek Harness: toolchain inventory, safe cache cleanup, and machine rules edito
 - 🟩 `[可用]` [h97y-dsh-devflow](https://github.com/H97y/dsh-devflow) ★6 — Automated development pipeline plugin for DeepSeek Harness: requirement pool → LLM refine/design/plan/review →
+- ⬜ `[待定]` [haoyueqin-deepseek-harness-desktop](https://github.com/HaoyueQin/deepseek-harness-desktop) ★6 — \[maintenance mode\] A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek
 - ⬜ `[待定]` [john-walks-slow-dsh-im-humanize](https://github.com/john-walks-slow/dsh-im-humanize) ★6 — Humanized fork of @xmanrui/dsh-im (base 4.21.2): humanized message delivery with send-delay + typing two-phase
 - 🟩 `[可用]` [kelearns-dsh-navigation-bar](https://github.com/KeLearns/dsh-navigation-bar) ★6 — Piano-key style conversation navigation bar for the DeepSeek Harness web GUI
 - 🟩 `[可用]` [kiwi233333-dsh-creator](https://github.com/KiWi233333/dsh-creator) ★6 — Build verified extensions for DeepSeek Harness with an installable agent skill.
@@ -7330,7 +7331,6 @@
 - 🟨 `[不兼容]` [earnest02522-dsh-archive-manager](https://github.com/Earnest02522/dsh-archive-manager) ★6 — Archived-conversation manager for DeepSeek Harness: view (grouped by workspace), restore, and reveal transcrip
 - `[空仓监测]` **festoney8-deepseek-harness-gui** — GitHub 无此仓库，判定暂不展示
 - 🟨 `[不兼容]` [fishsb-dsh-shoucang-memory](https://github.com/Fishsb/dsh-shoucang-memory) ★6 — 守藏 Shoucang — DeepSeek Harness (DSH) 长期记忆插件：会话蒸馏自动沉淀 × 深度睡眠反思归纳 × 词法+向量混合召回 × 认知环引导 × 主动遗忘，配本地设置面板
-- 🟨 `[不兼容]` [haoyueqin-deepseek-harness-desktop](https://github.com/HaoyueQin/deepseek-harness-desktop) ★6 — \[maintenance mode\] A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek
 - 🟨 `[不兼容]` [ingleav626-art-dsh-native-launcher](https://github.com/ingleav626-art/dsh-native-launcher) ★6 — 以"零额外安装"为设计原则：仅凭一个官方插件与 Windows 原生机制，让 DeepSeek Harness Web UI 获得桌面 App 式的一键启动体验
 - 🟨 `[不兼容]` [kikulmj-dsh-jupyter](https://github.com/kikulmj/dsh-jupyter) ★6 — Provide notebook‑style workbench and local shell for DeepSeek Harness Web GUI
 - 🟨 `[不兼容]` [lanbaolu-dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) ★6 — DeepSeek Harness (DSH) 微信桥接插件：三端通用，host 工具 + Web 管理面板
