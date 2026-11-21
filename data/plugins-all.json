@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T22:32:31Z",
+ "generated_at": "2026-11-21T22:47:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -186532,13 +186532,6 @@
    "desc": "原生 DeepSeek Harness 插件形态的代码评审机器人：跨代码平台、规则可插拔、可本地重放"
   },
   {
-   "repo": "oxmumu3/dsh-family-assistant",
-   "name": "oxmumu3-dsh-family-assistant",
-   "verdict": "pending",
-   "stars": 13,
-   "desc": "家庭助手：基于 DeepSeek Harness 的多成员独立微信助手、提醒、个性化日报与 Owner 工作台"
-  },
-  {
    "repo": "c-ling/dsh-plugin-notify",
    "name": "dsh-plugin-notify",
    "verdict": "pending",
@@ -196015,6 +196008,13 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "DeepSeek Harness 长对话消息的查看/搜索/跳转工具"
+  },
+  {
+   "repo": "oxmumu3/dsh-family-assistant",
+   "name": "oxmumu3-dsh-family-assistant",
+   "verdict": "incompatible",
+   "stars": 13,
+   "desc": "家庭助手：基于 DeepSeek Harness 的多成员独立微信助手、提醒、个性化日报与 Owner 工作台"
   },
   {
    "repo": "shiker1996/wechat-editroom",
