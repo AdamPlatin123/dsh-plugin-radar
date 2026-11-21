@@ -700,7 +700,7 @@
 - ⬜ `[待定]` [arcanepivot-dsh-api-balance](https://github.com/ArcanePivot/dsh-api-balance) ★5 — DeepSeek Harness Web UI widget for viewing DeepSeek API balance from the host side.
 - 🟩 `[可用]` [asdnmy123-dsh-prompt-optimizer](https://github.com/asdnmy123/dsh-prompt-optimizer) ★5 — 给 DSH 对话输入框加一个 ♂harden 按钮：一键把草稿锻造成硬邦邦、雷霆炫酷、肌肉集团味的提示词 —— 事实一条不丢，废话一句不留
 - 🟩 `[可用]` [atropinoltt-dsh-guide-dog](https://github.com/AtropinolTT/dsh-guide-dog) ★5 — Guide Dog for DSH — MiniMax multimodal plugin: image/video/music/speech generation & vision tools, voice mode,
-- 🟩 `[可用]` [dsh-plugin-usage](https://github.com/bennett-dsh/dsh-plugin-usage) ★5 — Token usage statistics plugin for DeepSeek Harness: daily/custom-range views, model filters, call counts & cos
+- ⬜ `[待定]` [dsh-plugin-usage](https://github.com/bennett-dsh/dsh-plugin-usage) ★5 — Token usage statistics plugin for DeepSeek Harness: daily/custom-range views, model filters, call counts & cos
 - 🟩 `[可用]` [bigbluebaby-codex2dsh](https://github.com/BigBlueBaby/codex2dsh) ★5 — 把 Codex（OpenAI Codex CLI / Desktop）的 MCP 服务器、技能、全局指令、记忆与会话历史一键迁移进 DeepSeek Harness（DSH）——可视化面板 + CLI，源码只读、dry-
 - 🟩 `[可用]` [boliban-dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) ★5 — A DSH plugin that allows customizable input modes
 - 🟩 `[可用]` [bxsexc-dsh-roblox-studio](https://github.com/bxsexc/dsh-roblox-studio) ★5 — DeepSeek Harness native plugin: Settings UI for the Roblox Studio MCP bridge - list connected Studio instances
