@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T03:47:15Z",
+ "generated_at": "2026-11-21T04:03:01Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -149726,6 +149726,13 @@
    "desc": "Playwright-powered browser automation for DeepSeek Harness"
   },
   {
+   "repo": "chnjames/dsh-plugin-market",
+   "name": "chnjames-dsh-plugin-market",
+   "verdict": "pending",
+   "stars": 7,
+   "desc": "DSH 插件市场 — DeepSeek Harness 设置内一键安装社区插件，并提供公开目录站（浏览 / 复制安装命令）"
+  },
+  {
    "repo": "DshMarketPlace/dshmarketplace",
    "name": "dshmarketplace-dshmarketplace",
    "verdict": "ok",
@@ -159118,13 +159125,6 @@
    "verdict": "incompatible",
    "stars": 7,
    "desc": "Community-maintained self-contained Tauri desktop distribution for DeepSeek Harness〔📦〕"
-  },
-  {
-   "repo": "chnjames/dsh-plugin-market",
-   "name": "chnjames-dsh-plugin-market",
-   "verdict": "incompatible",
-   "stars": 7,
-   "desc": "DSH 插件市场 — DeepSeek Harness 设置内一键安装社区插件，并提供公开目录站（浏览 / 复制安装命令）"
   },
   {
    "repo": "cloud-1104/deepseek-harness-desktop",
