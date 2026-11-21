@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T14:47:58Z",
+ "generated_at": "2026-11-21T15:02:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3736,7 +3736,7 @@
   {
    "repo": "octoparse/agent-skills",
    "name": "octoparse-agent-skills",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Collection of Octoparse agent skills"
   },
@@ -78776,7 +78776,7 @@
   {
    "repo": "oa1mgo/dshplugin",
    "name": "oa1mgo-dshplugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Community-built discovery and verification registry for DeepSeek Harness plugins."
   },
@@ -149539,7 +149539,7 @@
   {
    "repo": "omdsh-dev/awesome-deepseek-harness-desktop",
    "name": "omdsh-dev-awesome-deepseek-harness-desktop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 11,
    "desc": "ADHD — Awesome DeepSeek Harness Desktop, an out-of-the-box Electron desktop wrapper for DeepSeek Harness"
   },
@@ -163175,7 +163175,7 @@
   {
    "repo": "omdsh-dev/dsh-fun-ticker",
    "name": "dsh-fun-ticker",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DSH 行情跑马灯插件：可自选标的的加密/汇率/A股/指数/港美股跑马灯，免 key 数据源，宿主代理+缓存"
   },
