@@ -84,6 +84,7 @@
 - ⬜ `[待定]` [dsh-fish](https://github.com/mochi-fish/dsh-fish) ★173 — DSH插件：养一个会自己刷b站会成长的agent：不通过面板配置，通过学习诞生人格
 - ⬜ `[待定]` [miaoqichuan-new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) ★171 — 把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集，八个模块：重画、时间轴、关系图、大事记、对抗图、图表、课件、案件看板
 - 🟩 `[可用]` [cocode-agency-cocode](https://github.com/cocode-agency/cocode) ★165 — Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, DSH terminal TUI, and harness integration.
+- ⬜ `[待定]` [humblebanana-open-record-replay](https://github.com/humblebanana/open-record-replay) ★151 — Open-source macOS record-and-replay workflow recorder for computer use agents
 - 🟩 `[可用]` [something11235-dsh-video-skin](https://github.com/Something11235/dsh-video-skin) ★137 — DSH 视频皮肤：聊天背景 + 有声开机动画 + 界面内透明度调节
 - 🟩 `[可用]` [renzic-stone-dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) ★134 — DSH Web内目前最无感的消息撤回、重编辑插件，原版体验，兼容性强，功能简单可开关，设置丰富，现代化轻量ui框架
 - 🟩 `[可用]` [topmindspace-dsh-super-kanban](https://github.com/topmindspace/dsh-super-kanban) ★134 — AI task kanban plugin for DeepSeek Harness — derives task goals, progress and issues from DSH sessions, with s
@@ -127,7 +128,7 @@
 - 🟩 `[可用]` [lhuans-dsh-genui](https://github.com/lhuans/dsh-genui) ★66 — GenUI for DeepSeek Harness: interactive charts, forms, calculators, dashboards, and mini apps rendered inline
 - 🟩 `[可用]` [phant0meow-dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) ★66 — 手机电脑dsh通知功能！移动端可用的通知！手机端ui交互优化！让手机端dsh真正可用
 - 🟩 `[可用]` [cosyncing-cosyncing](https://github.com/cosyncing/cosyncing) ★65 — Synchronize and Orchestrate agents from CLI to GUI, across desktop to phone.〔📦〕
-- 🟩 `[可用]` [dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) ★65 — 为 better-sidebar 提供 Office 三件套预览（.docx/.xlsx/.pptx），独立 bundle 瘦身主体 \| Provides Office-suite preview (.docx/.xls
+- ⬜ `[待定]` [dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) ★65 — 为 better-sidebar 提供 Office 三件套预览（.docx/.xlsx/.pptx），独立 bundle 瘦身主体 \| Provides Office-suite preview (.docx/.xls
 - 🟩 `[可用]` [dsh-web-plugin-manager](https://github.com/LX2000WASD/dsh-web-plugin-manager) ★65 — 在 Web UI 中一键管理 DeepSeek Harness (DSH) 插件：查看、实时启停、安装/卸载、更新检测、健康检查（依赖/冲突/兼容性分析）、环境管理、插件市场
 - 🟩 `[可用]` [thewolfwalker-dsh-notifier](https://github.com/THEWOLFWALKER/dsh-notifier) ★65 — DSH notification & remote-control plane: 28 outbound channels, 6 inbound controls, Native Notify & Control UI,
 - ⬜ `[待定]` [heigeai-deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) ★64 — DeepSeek Harness 换肤系统：21 套内置皮肤 + 一张图生成整套配色的自定义皮肤
@@ -7112,7 +7113,6 @@
 - 🟨 `[不兼容]` [WhaleIsle](https://github.com/ChisaAlter/WhaleIsle) ★206 — 鲸屿 Whale Isle · DeepSeek Harness 开源社区桌面版：AI 对话、终端与 Git、鲸桥 API/订阅接入、主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接
 - 🟨 `[不兼容]` [runzhliu-deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) ★183 — Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Comp
 - 🟨 `[不兼容]` [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) ★166 — 推荐组件（非必须）：DeepSeek Harness 运行时注入器；已随 dsh-routing-suite 单仓库化保留，本仓库继续维护/发布
-- 🟨 `[不兼容]` [humblebanana-open-record-replay](https://github.com/humblebanana/open-record-replay) ★151 — Open-source macOS record-and-replay workflow recorder for computer use agents
 - 🟨 `[不兼容]` [pengyue-polaron-deepseek-harness-genui](https://github.com/pengyue-polaron/deepseek-harness-genui) ★128 — Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn
 - 🟨 `[不兼容]` [eee1723-dsh-houdini](https://github.com/eee1723/dsh-houdini) ★124 — DeepSeek Harness Desktop 插件，让 AI Agent 用自然语言构建、检查和维护可编辑的 SideFX Houdini 工程，支持程序化建模、HDA、场景诊断与渲染
 - 🟨 `[不兼容]` [luowang-ui-dsh-purge-plus](https://github.com/luowang-ui/dsh-purge-plus) ★121 — Purge Community Plus - DeepSeek Harness jailbreak plugin, adapted for DSH Desktop 0.2.1-rc.x
