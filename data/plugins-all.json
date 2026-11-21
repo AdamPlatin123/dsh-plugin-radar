@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T21:17:49Z",
+ "generated_at": "2026-11-21T21:32:59Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -41067,7 +41067,7 @@
   {
    "repo": "XCNXNXNX/dsh-portable-tavern",
    "name": "dsh-portable-tavern",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 25,
    "desc": "DeepSeek Harness 的「便携酒馆」插件：RPG 式 SillyTavern V2/V3 角色卡生成器 + 酒馆角色扮演聊天"
   },
@@ -48389,7 +48389,7 @@
   {
    "repo": "XavierMarquis93/dsh-plugin-conversation-outline",
    "name": "dsh-plugin-conversation-outline",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DeepSeek Harness conversation outline plugin (对话目录)"
   },
@@ -115302,7 +115302,7 @@
   {
    "repo": "woshi-Tom/dsh-status-plugin",
    "name": "dsh-status-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "dsh status plugin；可以方便的查看宿主机的运行状态，故障时方便排查"
   },
@@ -115330,7 +115330,7 @@
   {
    "repo": "WUDIFIVE/dsh-plugin-vision",
    "name": "wudifive-dsh-plugin-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "deepseek herness vision plugin"
   },
