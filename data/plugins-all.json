@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T04:48:18Z",
+ "generated_at": "2026-11-21T05:03:10Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -292,7 +292,7 @@
   {
    "repo": "dhicoc/dsh-reverse-skill",
    "name": "dsh-reverse-skill",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 358,
    "desc": "Complete reverse-skill (88 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz"
   },
@@ -55382,7 +55382,7 @@
   {
    "repo": "DfsyJian/dsh-snapshot",
    "name": "dsh-snapshot",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: automatic file snapshots with a sidebar timeline and settings card"
   },
@@ -200954,7 +200954,7 @@
   {
    "repo": "DietCokewithSugar/dsh-user-experience",
    "name": "dsh-user-experience",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 21,
    "desc": "Persona-driven UX walkthrough plugin for DeepSeek Harness (DSH) - scans React + TypeScript source code for UX"
   },
@@ -206242,6 +206242,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Evidence-backed DeepSeek Harness plugin radar and 2Origin plugin lab"
+  },
+  {
+   "repo": "dongsheng123132/dsh-2origin",
+   "name": "dsh-2origin",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Evidence-first 2Origin state projection, diff and immutable freeze for DeepSeek Harness"
   },
   {
    "repo": "dongsheng123132/dsh-action-parity",
@@ -231561,13 +231568,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DeepSeek Harness plugin: local and remote (SSH) workspaces in one place"
-  },
-  {
-   "repo": "dongsheng123132/dsh-2origin",
-   "name": "dsh-2origin",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Evidence-first 2Origin state projection, diff and immutable freeze for DeepSeek Harness"
   },
   {
    "repo": "dongsheng123132/dsh-recovery-proof",

@@ -2308,7 +2308,7 @@
 - 🟩 `[可用]` [devome-dsh-panel-layout](https://github.com/devome/dsh-panel-layout) ★1 — 侧边栏面板菜单的布局与排序：按钮行/列表切换、按钮行行数上限、拖动排序，溢出项收进「更多」，并把左下角「更多」里的设置/意见反馈/登录并入面板菜单
 - 🟩 `[可用]` [devve-1-dsh-plugin-personal-appearance](https://github.com/DEVVE-1/dsh-plugin-personal-appearance) ★1 — DSH 客户端换皮插件：标题栏点一下就能换主题，Codex 和 Claude Code 两套完整配色，外加小圆角 / macOS 圆角和 iOS 手感的弹簧动效，不用重启，改完立刻生效
 - 🟩 `[可用]` [dezhou123-dsh-model-orchestrator](https://github.com/DeZhou123/dsh-model-orchestrator) ★1 — DSH 插件：两级模型调度（先选模型、再选渠道；失败先换渠道再换模型），带偏好模式与实时渠道健康面板
-- 🟩 `[可用]` [dsh-snapshot](https://github.com/DfsyJian/dsh-snapshot) ★1 — DeepSeek Harness plugin: automatic file snapshots with a sidebar timeline and settings card
+- ⬜ `[待定]` [dsh-snapshot](https://github.com/DfsyJian/dsh-snapshot) ★1 — DeepSeek Harness plugin: automatic file snapshots with a sidebar timeline and settings card
 - 🟩 `[可用]` [dightendless-dsh-browser](https://github.com/DightEndless/dsh-browser) ★1 — Open the extension side panel and it takes over the page you are already on: click, type, scroll, drag, naviga
 - 🟩 `[可用]` [diluka-dsh-persona](https://github.com/Diluka/dsh-persona) ★1 — Configurable coding collaboration style prompts and settings UI for DeepSeek Harness.
 - ⬜ `[待定]` [dingchenhui0618-arch-dsh-chatroom](https://github.com/dingchenhui0618-arch/dsh-chatroom) ★1 — 多人个人聊天室 for DeepSeek Harness: 你和你携带的 agent 同处一屋，三条发言规则并行，本机与 LAN 成员来源一眼可分
