@@ -1644,6 +1644,7 @@
 - 🟩 `[可用]` [person-clouds-dsh-context-guard](https://github.com/person-clouds/dsh-context-guard) ★1 — dsh-context-guard 上下文token优化及安全优化
 - 🟩 `[可用]` [philmingdao-anno](https://github.com/philmingdao/anno) ★1 — Local-first HTML review and annotation for AI coding agents〔📦〕
 - 🟩 `[可用]` [philomelcc-dsh-status-monitor](https://github.com/philomelcc/dsh-status-monitor) ★1 — Workbench module: disk, CPU/memory/GPU, port and token-usage cards
+- ⬜ `[待定]` [phoenixlucky-chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) ★1 — 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力
 - 🟩 `[可用]` [phoenixlucky-family-lovers-skill](https://github.com/phoenixlucky/family-lovers-skill) ★1 — ❤️ 家庭关怀技能 · 走出原生家庭 — 觉察、疗愈、陪伴
 - 🟩 `[可用]` [phoenixlucky-financial-analyst-skill](https://github.com/phoenixlucky/financial-analyst-skill) ★1 — —
 - 🟩 `[可用]` [phoenixlucky-weiliaozi-skill](https://github.com/phoenixlucky/weiliaozi-skill) ★1 — 尉缭子分析法 - 融汇黄帝、太公望、孙武、吴起、齐桓公五位先贤思想，按本质、条件、得失、先后、对手进行结构化分析的五栏框架
@@ -4897,7 +4898,6 @@
 - 🟨 `[不兼容]` [perrylink-dsh-dida](https://github.com/PerryLink/dsh-dida) ★1 — TickTick / Dida365 task bridge for DeepSeek Harness: Session-header task panel, agent tools and settings card.
 - 🟨 `[不兼容]` [ph1996-cn-dsh-bmad-method](https://github.com/ph1996-cn/dsh-BMAD-Method) ★1 — BMAD-Method 封装插件：在 dsh 内管理 BMAD 的全部模块与 skill
 - 🟨 `[不兼容]` [phantomcyber-ai-dsh-skill-router](https://github.com/Phantomcyber-ai/dsh-skill-router) ★1 — Intent-level skill auto-routing for DeepSeek Harness: routes every user message against the skill catalog and
-- 🟨 `[不兼容]` [phoenixlucky-chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) ★1 — 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力
 - 🟨 `[不兼容]` [plasticmemories-0823-dsh-session-tree](https://github.com/plasticmemories-0823/dsh-session-tree) ★1 — Conversation trees, visible subagents, and task handoffs for DeepSeek Harness
 - 🟨 `[不兼容]` [player-minepig-dsh-prompt-assembler](https://github.com/Player-MINEPIG/dsh-prompt-assembler) ★1 — Independent DSH prompt assembly plugin with source-owned adapters and per-session strategies.
 - 🟨 `[不兼容]` [player-yn-dsh-agent-driver-writehere](https://github.com/Player-YN/dsh-agent-driver-writehere) ★1 — Hierarchical long-form writing for DeepSeek Harness — WriteHERE as an agent driver, not extra ReAct tools.

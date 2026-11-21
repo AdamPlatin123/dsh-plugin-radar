@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T15:47:51Z",
+ "generated_at": "2026-11-21T16:02:58Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -11418,6 +11418,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Workbench module: disk, CPU/memory/GPU, port and token-usage cards"
+  },
+  {
+   "repo": "phoenixlucky/chrome-mcp-bridge-2026-skill",
+   "name": "phoenixlucky-chrome-mcp-bridge-2026-skill",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力"
   },
   {
    "repo": "phoenixlucky/family-lovers-skill",
@@ -33314,13 +33321,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Intent-level skill auto-routing for DeepSeek Harness: routes every user message against the skill catalog and"
-  },
-  {
-   "repo": "phoenixlucky/chrome-mcp-bridge-2026-skill",
-   "name": "phoenixlucky-chrome-mcp-bridge-2026-skill",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力"
   },
   {
    "repo": "plasticmemories-0823/dsh-session-tree",
@@ -103906,7 +103906,7 @@
   {
    "repo": "ds-hu/dsh-acp-paseo",
    "name": "pheobe-southwood-dsh-acp-paseo",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "The most feature-complete DeepSeek Harness – Paseo integration project."
   },
@@ -201001,6 +201001,13 @@
    "desc": "Tree-shaped knowledge bases for DeepSeek Harness: a right-side canvas you edit by hand, plus tools the model r"
   },
   {
+   "repo": "phoenixlucky/zerotoken-skill",
+   "name": "phoenixlucky-zerotoken-skill",
+   "verdict": "pending",
+   "stars": 21,
+   "desc": "让 Agent 高效又守纪律 — 不止省 token：ZeroToken 压缩无效上下文/推理/输出；尉缭子十原则约束权限边界、单一指令、先谋后动、验证先于结束；附 Unicode 编码规范、搜索规范、六种任务模式"
+  },
+  {
    "repo": "smilewhenever777/dsh-scholar",
    "name": "smilewhenever777-dsh-scholar",
    "verdict": "ok",
@@ -229300,13 +229307,6 @@
    "verdict": "incompatible",
    "stars": 21,
    "desc": "让 DeepSeek Harness Agent 拥有操作 GitHub 的原生手脚！零 Token 泄露复用宿主机 gh 凭据，内置 18 大领域工具矩阵（104 Action，覆盖率 87%）：支持 PR 自动审查合"
-  },
-  {
-   "repo": "phoenixlucky/zerotoken-skill",
-   "name": "phoenixlucky-zerotoken-skill",
-   "verdict": "incompatible",
-   "stars": 21,
-   "desc": "让 Agent 高效又守纪律 — 不止省 token：ZeroToken 压缩无效上下文/推理/输出；尉缭子十原则约束权限边界、单一指令、先谋后动、验证先于结束；附 Unicode 编码规范、搜索规范、六种任务模式"
   },
   {
    "repo": "elegant01/dsh-codearts",
