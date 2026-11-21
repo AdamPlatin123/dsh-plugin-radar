@@ -139,6 +139,7 @@
 - ⬜ `[待定]` [heigeai-deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) ★64 — DeepSeek Harness 换肤系统：21 套内置皮肤 + 一张图生成整套配色的自定义皮肤
 - 🟩 `[可用]` [ppy-web-dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) ★64 — 为 DSH 添加 Xiaomi MiMo TTS、豆包 Seed TTS，浏览器语音；音频下载、 UI 音效、桌宠联动、QQBot 语音；
 - 🟩 `[可用]` [mrrisega-dsh-remote](https://github.com/mrRisega/dsh-remote) ★63 — 公网远程控制 DeepSeek Harness（dsh web）：安装即得专属加密地址，人在外面也能用手机远程访问，无需同一局域网/WiFi、无内网穿透，可选自建服务〔📦〕
+- ⬜ `[待定]` [xiincs-deepseek-harness-desktop](https://github.com/xiincs/deepseek-harness-desktop) ★63 — DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新
 - 🟩 `[可用]` [berhbro-dsh-cyrene-theme](https://github.com/berhbro/dsh-cyrene-theme) ★61 — Cyrene theme dsh plugin
 - 🟩 `[可用]` [mr-remon219-search-boost](https://github.com/Mr-remon219/search-boost) ★61 — Multi-engine web search and evidence synthesis for AI coding agents
 - 🟩 `[可用]` [perrylink-dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) ★60 — Double-check before you ship: grill the requirements, test the implementation, prove the delivery
@@ -1309,7 +1310,7 @@
 - 🟩 `[可用]` [xiaoyi-xx-dsh-peak-status](https://github.com/xiaoyi-xx/dsh-peak-status) ★3 — DeepSeek Harness Web GUI 的高峰时段指示灯
 - 🟩 `[可用]` [xiaoyuink-dsh-image-vision](https://github.com/xiaoyuink/dsh-image-vision) ★3 — 图片识别插件 for DeepSeek Harness：自动判断当前模型识图能力，支持多供应商视觉模型管理与检测
 - ⬜ `[待定]` [xiciyang-dsh-visual-memory](https://github.com/xiciyang/dsh-visual-memory) ★3 — Lossless visual memory for DSH agents: store an image once, address it by sha256, read exact pixels, compare p
-- 🟩 `[可用]` [ds-web-ui](https://github.com/xing-shuyin/ds-web-ui) ★3 — My DeepSeek Harness Web UI
+- ⬜ `[待定]` [ds-web-ui](https://github.com/xing-shuyin/ds-web-ui) ★3 — My DeepSeek Harness Web UI
 - 🟩 `[可用]` [xinglan163-dsh-gemini-quota](https://github.com/xinglan163/dsh-gemini-quota) ★3 — 为 DeepSeek Harness 添加 Gemini 网页端额度条：输入框旁显示 5 小时 / 每周剩余额度，只在选中 Gemini 模型时出现
 - ⬜ `[待定]` [xingxue-ux-dsh-comfyui-control](https://github.com/xingxue-ux/dsh-comfyUI-control) ★3 — DeepSeek Harness 绘图模式 preset plugin: 19 comfyui_* tools for a local ComfyUI - Anima/Krea2 generation, LoRA sea
 - 🟩 `[可用]` [xizrsams-dsh-gui-hanhua](https://github.com/XIZRSAMS/dsh-gui-hanhua) ★3 — GUI Localization for DeepSeek Harness — 语言永远不会成为 Agent 的门槛
@@ -7138,7 +7139,6 @@
 - 🟨 `[不兼容]` [huaweicloud-huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) ★70 — Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails, and cloud sandbox to help A
 - 🟨 `[不兼容]` [sagirimo-biodsh](https://github.com/sagirimo/BioDSH) ★69 — The bioinformatics agent desktop for clinicians and wet-lab scientists — built on DeepSeek Harness
 - 🟨 `[不兼容]` [ouli-1242-dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) ★63 — 一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent也能帮你操作这个插件
-- 🟨 `[不兼容]` [xiincs-deepseek-harness-desktop](https://github.com/xiincs/deepseek-harness-desktop) ★63 — DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新
 - 🟨 `[不兼容]` [zhuiyueya-dsh-im-gateway](https://github.com/zhuiyueya/dsh-im-gateway) ★60 — 把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 \| Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to
 - 🟨 `[不兼容]` [xbzbing-dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) ★59 — Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、AI 生成提交信息、文件浏览、代码与图片新旧差异对照、输入框分支标记、针对移动端优化 \| an IDE-style Git
 - 🟨 `[不兼容]` [dreamfarer-space-deepseek-harness-intelligent](https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui) ★53 — Generative, interactive UI for DeepSeek Harness (DSH): declarative components and sandboxed live widgets strea

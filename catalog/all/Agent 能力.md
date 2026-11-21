@@ -1883,6 +1883,7 @@
 - 🟩 `[可用]` [xinghe-1018-dsh-token-plan-quota](https://github.com/xinghe-1018/dsh-token-plan-quota) ★1 — 跟随当前模型供应商的额度徽标：DeepSeek、千问 Token Plan、阿里云费用中心取官方真值，Moonshot / OpenRouter 已接官方端点但字段未用真 Key 核对；其余只报本实例实测
 - 🟩 `[可用]` [xingzhen199186-dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) ★1 — DeepSeek Harness 子代理模型管控与 Jev 智能分流插件（合并自 vitas/dsh-jev-subagent-dispatch 与 ringoage/dsh-subagent-model-picker）
 - `[空仓监测]` **xinkezhou-byte-dsh-context-ring** — GitHub 无此仓库，判定暂不展示
+- ⬜ `[待定]` [dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) ★1 — DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh
 - 🟩 `[可用]` [dsh-better-session-topbar](https://github.com/xinspark/dsh-better-session-topbar) ★1 — Better Session Topbar — replace the DSH session topbar title with a workspace/session breadcrumb: switch works
 - ⬜ `[待定]` [xisnn-harness2-dsh](https://github.com/xisnn/harness2-dsh) ★1 — Convert a Google Research Harness2 harness tree into a DeepSeek Harness (DSH) agent-preset bundle
 - 🟩 `[可用]` [xiyuepcl-dsh-approval-translator](https://github.com/xiyuepcl/dsh-approval-translator) ★1 — DSH审批汉化 — DeepSeek 驱动的 dsh 审批弹窗自动汉化插件（approval dialog auto-translation for DeepSeek Harness）
@@ -4994,7 +4995,6 @@
 - 🟨 `[不兼容]` [xiaozhebrother-dsh-agent-growth](https://github.com/XiaoZheBrother/dsh-agent-growth) ★1 — 让你的大肥鱼 / Agent 从真实素材中学习、自主关注、复盘作品并积累可追溯记忆；适用于 DeepSeek Harness，可自定义角色
 - 🟨 `[不兼容]` [xiaozhebrother-dsh-reaction-studio](https://github.com/XiaoZheBrother/dsh-reaction-studio) ★1 — 让你的大肥鱼 / Agent 自主陪看：连续理解剧情、自主开口与暂停分析，合成语音、字幕和 Live2D 的离线 reaction 视频
 - 🟨 `[不兼容]` [xingzhen199186-dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) ★1 — 让一个会话既能向其他模型借智慧，也能向其他会话借记忆
-- 🟨 `[不兼容]` [dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) ★1 — DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapsh
 - 🟨 `[不兼容]` [xipian1216-dsh-aa-bridge](https://github.com/xipian1216/dsh-aa-bridge) ★1 — Agents Anywhere bridge and Web status plugin for DeepSeek Harness
 - 🟨 `[不兼容]` [xkjxziochu-dsh-input-optimizer](https://github.com/xkjxziochu/dsh-input-optimizer) ★1 — Standalone dsh plugin: rewrite the composer draft into a better prompt through the harness's own LLM routes, w
 - 🟨 `[不兼容]` [xsy822-dsh-emotion-memory](https://github.com/xsy822/dsh-emotion-memory) ★1 — 小世炎情绪记忆 0.1：PAD 情绪场 + 带情感指纹的记忆
