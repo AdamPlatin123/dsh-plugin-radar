@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T21:47:48Z",
+ "generated_at": "2026-11-21T22:02:54Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -136778,7 +136778,7 @@
   {
    "repo": "xu1132/dsh-plugin-hello",
    "name": "dsh-plugin-hello",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "A minimal DeepSeek Harness community plugin that registers a callable hello tool"
   },
@@ -153921,7 +153921,7 @@
   {
    "repo": "xluomo/dsh-mcp-settings",
    "name": "dsh-mcp-settings",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "dsh mcp服务器配置管理"
   },
@@ -153935,7 +153935,7 @@
   {
    "repo": "xu1132/dsh-plugin-browser",
    "name": "dsh-plugin-browser",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "A DeepSeek Harness community plugin that drives a headless Playwright browser: rendered page text, screenshots"
   },
@@ -214093,7 +214093,7 @@
   {
    "repo": "XJungit/omdp",
    "name": "omdp",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "only my DSH plugins — monorepo of DeepSeek Harness plugin bundles"
   },
