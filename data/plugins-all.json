@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T13:18:01Z",
+ "generated_at": "2026-11-21T13:32:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4618,7 +4618,7 @@
   {
    "repo": "Moximxxx/dsh-find-skill",
    "name": "dsh-find-skill",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, and lifecycle for temp"
   },
@@ -40640,7 +40640,7 @@
   {
    "repo": "morluto/gitcontribute",
    "name": "morluto-gitcontribute",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 38,
    "desc": "Contribution research for agents: check repository guidance, related work, code context, and validation before"
   },
@@ -125109,7 +125109,7 @@
   {
    "repo": "MostlyHarmlessxyz/dsh-safe-web-fetch",
    "name": "dsh-safe-web-fetch",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "SSRF-resistant public-only HTTP(S) WebFetchProvider plugin for DeepSeek Harness"
   },

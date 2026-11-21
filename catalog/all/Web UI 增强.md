@@ -190,7 +190,7 @@
 - 🟩 `[可用]` [hunmer-dsh-team-control](https://github.com/hunmer/dsh-team-control) ★39 — DSH 的 Agent Team 控制平面：成员上限可配、DAG 自动派发、四域强制权限、SSE 实时面板
 - 🟩 `[可用]` [aqiu817-dsh-llm-agentrouter](https://github.com/aqiu817/dsh-llm-agentrouter) ★38 — DeepSeek Harness bundle: the AgentRouter relay as one pi-ai route with a domestic/international endpoint switc
 - 🟩 `[可用]` [arvinqi-dsh-mcp](https://github.com/ArvinQi/dsh-mcp) ★38 — DeepSeek Harness 的 MCP 服务器管理插件：可视化界面管理 + 按需热注入，OAuth 鉴权支持，环境变量配置
-- 🟩 `[可用]` [morluto-gitcontribute](https://github.com/morluto/gitcontribute) ★38 — Contribution research for agents: check repository guidance, related work, code context, and validation before
+- ⬜ `[待定]` [morluto-gitcontribute](https://github.com/morluto/gitcontribute) ★38 — Contribution research for agents: check repository guidance, related work, code context, and validation before
 - ⬜ `[待定]` [assassinvix-fairy-zzz-plugin](https://github.com/AssassinVIX/fairy-zzz-plugin) ★37 — A theme that completely replaces the Web interface of DeepSeek Harness with the H.D.D terminal theme of "Fairy
 - 🟩 `[可用]` [cixisvesper-dsh-soundtry](https://github.com/CixiSVesper/dsh-soundtry) ★37 — Local audio understanding for DeepSeek Harness: transcription (whisper medium), rhythm, melody, chords, struct
 - ⬜ `[待定]` [dsh-minigames](https://github.com/lhh010/dsh-minigames) ★37 — DSH 小游戏面板：208 款离线小游戏（六类分类+经典策展），跳棋竞速、迷你爬塔、传送带工厂、斗兽棋、四色地图、蚁群引路等原创机制，等模型回复时的摸鱼神器
