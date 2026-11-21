@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T22:47:52Z",
+ "generated_at": "2026-11-21T23:03:04Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -2840,7 +2840,7 @@
   {
    "repo": "YLifeOnlyOnce/dsh-smarthome",
    "name": "dsh-smarthome",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "Home Assistant control for DeepSeek Harness agents — approval-gated lights, switches, climate"
   },
@@ -52862,7 +52862,7 @@
   {
    "repo": "ylouis8/kph",
    "name": "ylouis8-kph",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "基于dsh的量化研究agent，驱动真实回测与交易"
   },
