@@ -5696,7 +5696,7 @@
 - 🟩 `[可用]` [nullifyi-dsh-sidebar-width](https://github.com/nullifyi/dsh-sidebar-width) ★0 — DeepSeek Harness plugin: VS Code-style sash dividers in the left sidebar, per-row compact mode with auto-shrin
 - 🟩 `[可用]` [nyco1d-dsh-prompt-optimizer](https://github.com/Nyco1d/dsh-prompt-optimizer) ★0 — 在 DeepSeek Harness 输入框旁一键优化提示词（区别于简单的重整原始提示词逻辑）
 - ⬜ `[待定]` [nzlov-dsh-bing-wallpaper](https://github.com/nzlov/dsh-bing-wallpaper) ★0 — Daily Bing wallpapers, image-derived theme colours, and automatic light/dark appearance for DSH Web.
-- 🟩 `[可用]` [oa1mgo-dshplugin](https://github.com/oa1mgo/dshplugin) ★0 — Community-built discovery and verification registry for DeepSeek Harness plugins.
+- ⬜ `[待定]` [oa1mgo-dshplugin](https://github.com/oa1mgo/dshplugin) ★0 — Community-built discovery and verification registry for DeepSeek Harness plugins.
 - 🟩 `[可用]` [obliviateonline-dsh-cinema](https://github.com/ObliviateOnline/dsh-cinema) ★0 — DSH 影音工作室插件：左侧栏入口，TMDB 海报墙 + CMS 片源管理，支持搜索、选集与面板内 HLS/FLV 播放
 - 🟩 `[可用]` [obwiler-dsh-tsnet-skin-pilot](https://github.com/Obwiler/dsh-tsnet-skin-pilot) ★0 — DSH Web GUI skin: theme derived from the background tone, 7 background modes, right-edge conversation rail
 - 🟩 `[可用]` [odelbos-dsh-models-filter](https://github.com/odelbos/dsh-models-filter) ★0 — DeepSeek Harness plugin used to add an input filed to filter the models menu
