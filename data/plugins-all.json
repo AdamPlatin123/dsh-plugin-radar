@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T11:47:22Z",
+ "generated_at": "2026-11-21T12:18:01Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3624,7 +3624,7 @@
   {
    "repo": "LingLambda/dsh-undo",
    "name": "dsh-undo",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Context undo/redo plugin for DeepSeek Harness (dsh): roll the model context back to the last completed step an"
   },
@@ -4541,7 +4541,7 @@
   {
    "repo": "litestartup-com/litestartup-skills",
    "name": "litestartup-com-litestartup-skills",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Resigter a doamin, set up a domain email, publish blog, docs, website, changelog, send campaign email directly"
   },
@@ -42887,7 +42887,7 @@
   {
    "repo": "linenxi-ctrl/dsh-vision",
    "name": "linenxi-ctrl-dsh-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "为 DeepSeek Harness 增加外挂识图模型：圆形鲸鱼按钮、发送图片识图自动回传、模型自主截图+识图工具、多协议自动适配、小白一键安装（未装 Node.js 自动下载）"
   },
@@ -75381,7 +75381,7 @@
   {
    "repo": "liliuCourier/dsh-note-sidebar",
    "name": "dsh-note-sidebar",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "?????:?????????????????,?????????,???????????(DeepSeek Harness ??)"
   },
@@ -106534,6 +106534,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "—"
+  },
+  {
+   "repo": "lishize20040802-rgb/useful-dsh-plugins",
+   "name": "lishize20040802-rgb-useful-dsh-plugins",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "Third-party DeepSeek Harness plugins with local speech recognition, portable installation and lifecycle manage"
   },
   {
    "repo": "Liuary/OpenFeel",
@@ -140211,13 +140218,6 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "🐋 大肥鱼 · 情绪耳朵 — Voice + emotion-aware companion for DeepSeek Harness"
-  },
-  {
-   "repo": "lishize20040802-rgb/useful-dsh-plugins",
-   "name": "lishize20040802-rgb-useful-dsh-plugins",
-   "verdict": "incompatible",
-   "stars": 3,
-   "desc": "Third-party DeepSeek Harness plugins with local speech recognition, portable installation and lifecycle manage"
   },
   {
    "repo": "lmst2/dsh-asc",
@@ -211426,7 +211426,7 @@
   {
    "repo": "LJH-snow/dsh-tool-github",
    "name": "dsh-tool-github",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
