@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T11:03:42Z",
+ "generated_at": "2026-11-21T11:18:54Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -6025,7 +6025,7 @@
   {
    "repo": "YaoleWu/dsh-task-relay",
    "name": "dsh-task-relay",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DSH 跨会话任务接力板：task_push/list/claim/done + handoff_write/read"
   },
@@ -41063,6 +41063,13 @@
    "verdict": "pending",
    "stars": 24,
    "desc": "Condition-driven wakeup for DeepSeek Harness: durable file/command/http/process/webhook watches that wake the"
+  },
+  {
+   "repo": "lehhair/dsh-diff-viewer",
+   "name": "dsh-diff-viewer",
+   "verdict": "pending",
+   "stars": 24,
+   "desc": "DSH Web GUI PiUI-style diff viewer plugin: replaces the stock DiffBlock for write/edit tool calls via ui-tool"
   },
   {
    "repo": "Mrkennyhungry/dsh-cua",
@@ -88838,13 +88845,6 @@
    "verdict": "incompatible",
    "stars": 25,
    "desc": "Layered token-optimization pipeline for DeepSeek Harness: output ladder, MCP lazy loading,compaction driver, c"
-  },
-  {
-   "repo": "lehhair/dsh-diff-viewer",
-   "name": "dsh-diff-viewer",
-   "verdict": "incompatible",
-   "stars": 24,
-   "desc": "DSH Web GUI PiUI-style diff viewer plugin: replaces the stock DiffBlock for write/edit tool calls via ui-tool"
   },
   {
    "repo": "mangfufu/dsh-comfyui-web",
@@ -209522,7 +209522,7 @@
   {
    "repo": "Dino6021/dsh-usage-cost",
    "name": "dsh-usage-cost",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH plugin: per-step timestamped DeepSeek API usage timeline + peak/off-peak cost readout"
   },
@@ -211188,7 +211188,7 @@
   {
    "repo": "YaoleWu/dsh-fleet-audit",
    "name": "dsh-fleet-audit",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH agent-fleet hygiene audit plugin: credential-file permissions, embedded git-remote credentials (masked), p"
   },
