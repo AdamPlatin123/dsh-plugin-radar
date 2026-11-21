@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T10:17:48Z",
+ "generated_at": "2026-11-21T10:32:36Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -41977,7 +41977,7 @@
   {
    "repo": "kunjinkao-os/dsh-mobile-gui-agent",
    "name": "dsh-mobile-gui-agent",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 12,
    "desc": "Android Mobile GUI Agent plugin for DeepSeek Harness with ADB control, iterative verification, approvals, and"
   },
@@ -170259,7 +170259,7 @@
   {
    "repo": "KYZHXL/dsh-manager",
    "name": "dsh-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "DeepSeek Harness plugin marketplace"
   },
@@ -172912,7 +172912,7 @@
   {
    "repo": "lanlandeli/dsh-usage-stats",
    "name": "dsh-usage-stats",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 11,
    "desc": "DeepSeek Harness 使用统计插件｜Token 总量与构成、7/30 天趋势、年度活跃热力图、模型占比、工作区/任务筛选、CSV/JSON 导出"
   },
@@ -187143,7 +187143,7 @@
   {
    "repo": "kinyokun/dsh-session-import",
    "name": "dsh-session-import",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH 会话日志导入插件:解析 /export 的 zip/jsonl,结构真实性验证 + SHA-256 指纹校验,同步模型/预设/权限等状态,导入/删除实时推送免刷新"
   },
@@ -206967,7 +206967,7 @@
   {
    "repo": "krislavten/ai-sdk-provider-dsh",
    "name": "ai-sdk-provider-dsh",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "AI SDK provider that drives a DeepSeek Harness (dsh) runtime as a LanguageModelV3 — works on AI SDK v6 and v7"
   },
@@ -211076,7 +211076,7 @@
   {
    "repo": "KYinCode/dsh-project-mcp-bridge",
    "name": "dsh-project-mcp-bridge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Per-project MCP loading for DeepSeek Harness: drop a .dsh/mcp.json into a project and its sessions get the MCP"
   },
