@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T04:33:07Z",
+ "generated_at": "2026-11-21T04:48:18Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -104347,7 +104347,7 @@
   {
    "repo": "DEEP-IOS/dsh-humanizer",
    "name": "dsh-humanizer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 9,
    "desc": "DeepSeek Harness原生中文文本人工智能痕迹消除与多重审核对抗工作流"
   },
@@ -171141,7 +171141,7 @@
   {
    "repo": "Danystea/dsh-plugin-marketplace",
    "name": "danystea-dsh-plugin-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -189222,7 +189222,7 @@
   {
    "repo": "dbydd/dsh-onlyne",
    "name": "dsh-onlyne",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "IM gateway for DeepSeek Harness agents — send and receive QQ, WeChat, Feishu and Telegram messages from dsh se"
   },
