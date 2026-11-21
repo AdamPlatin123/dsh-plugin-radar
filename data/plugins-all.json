@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T13:47:54Z",
+ "generated_at": "2026-11-21T14:33:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -11128,7 +11128,7 @@
   {
    "repo": "nfz/dsh-plugin-skill-tree",
    "name": "dsh-plugin-skill-tree",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -39677,6 +39677,13 @@
    "verdict": "ok",
    "stars": 360,
    "desc": "📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, d"
+  },
+  {
+   "repo": "Nagi-ovo/dsh-visualize",
+   "name": "dsh-visualize",
+   "verdict": "pending",
+   "stars": 348,
+   "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations"
   },
   {
    "repo": "yjh051108/dsh-router-standard",
@@ -88336,13 +88343,6 @@
    "desc": "Agent-native trading terminal built on DeepSeek Harness"
   },
   {
-   "repo": "Nagi-ovo/dsh-visualize",
-   "name": "dsh-visualize",
-   "verdict": "incompatible",
-   "stars": 348,
-   "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations"
-  },
-  {
    "repo": "shengsheng90/DSH-taskboard",
    "name": "shengsheng90-dsh-taskboard",
    "verdict": "incompatible",
@@ -113153,7 +113153,7 @@
   {
    "repo": "namesColin/DSH-Plugin-Account-HUD",
    "name": "DSH-Plugin-Account-HUD",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "一个deepseek harness的插件，用于实时显示api-key的余额和api服务状态"
   },
@@ -113202,7 +113202,7 @@
   {
    "repo": "Neplich/dsh_plugin",
    "name": "neplich-dsh-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -200016,7 +200016,7 @@
   {
    "repo": "Nagi-ovo/dsh-find-plugins",
    "name": "nagi-ovo-dsh-find-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 184,
    "desc": "帮 DSH 搜索、安装并验证插件的 Skill｜A DSH skill that finds, installs, and verifies GitHub plugins"
   },
