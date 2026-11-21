@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T08:33:58Z",
+ "generated_at": "2026-11-21T08:47:55Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39903,6 +39903,13 @@
    "desc": "Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, DSH terminal TUI, and harness integration."
   },
   {
+   "repo": "humblebanana/open-record-replay",
+   "name": "humblebanana-open-record-replay",
+   "verdict": "pending",
+   "stars": 151,
+   "desc": "Open-source macOS record-and-replay workflow recorder for computer use agents"
+  },
+  {
    "repo": "Something11235/dsh-video-skin",
    "name": "something11235-dsh-video-skin",
    "verdict": "ok",
@@ -40206,7 +40213,7 @@
   {
    "repo": "HuanLinOTO/dsh-plugin-better-sidebar-plugin-office",
    "name": "dsh-plugin-better-sidebar-plugin-office",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 65,
    "desc": "为 better-sidebar 提供 Office 三件套预览（.docx/.xlsx/.pptx），独立 bundle 瘦身主体 \\| Provides Office-suite preview (.docx/.xls"
   },
@@ -88411,13 +88418,6 @@
    "verdict": "incompatible",
    "stars": 166,
    "desc": "推荐组件（非必须）：DeepSeek Harness 运行时注入器；已随 dsh-routing-suite 单仓库化保留，本仓库继续维护/发布"
-  },
-  {
-   "repo": "humblebanana/open-record-replay",
-   "name": "humblebanana-open-record-replay",
-   "verdict": "incompatible",
-   "stars": 151,
-   "desc": "Open-source macOS record-and-replay workflow recorder for computer use agents"
   },
   {
    "repo": "pengyue-polaron/deepseek-harness-genui",
@@ -162783,7 +162783,7 @@
   {
    "repo": "HuanLinOTO/dsh-plugin-d399",
    "name": "dsh-plugin-d399",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 9,
    "desc": "模型生成时右下角弹出小游戏菜单（Wordle/消消乐/192 款参数化小游戏，可拓展注册表） \\| Pops up a mini-game menu while the model generates (Wordle/Ma"
   },
@@ -187115,7 +187115,7 @@
   {
    "repo": "HuanLinOTO/dsh-plugin-spur",
    "name": "dsh-plugin-spur",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "聊天流中悬挂皮鞭，甩动鞭梢（>2.0 px/ms）即向 agent 发送 go work 消息 \\| A whip hanging in the chat stream; flick the tip (>2.0 px/ms"
   },
@@ -187647,7 +187647,7 @@
   {
    "repo": "huguangyu666/dsh-plugin-notify",
    "name": "huguangyu666-dsh-plugin-notify",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DeepSeek Harness 插件：通知出口——agent 通过桌面通知 / 中文语音播报 / 提示音主动联系用户（长任务完成、出错、呼叫用户回来）"
   },
@@ -201930,6 +201930,13 @@
    "verdict": "ok",
    "stars": 10,
    "desc": "Discovery + management wrappers around gh CLI for AI coding agents"
+  },
+  {
+   "repo": "HuanLinOTO/dsh-plugin-interpreters",
+   "name": "dsh-plugin-interpreters",
+   "verdict": "pending",
+   "stars": 10,
+   "desc": "暴露 run_python/run_node 工具，通过 stdin 执行代码返回 stdout/stderr/exit，含解释器路径配置卡 \\| Exposes run_python/run_node tools tha"
   },
   {
    "repo": "icyaaaww/dsh-bili-vision",
@@ -229671,13 +229678,6 @@
    "verdict": "incompatible",
    "stars": 10,
    "desc": "Agent skill for developing DeepSeek Harness (DSH) plugins — tools (defineTool), LLM adapters, services, events"
-  },
-  {
-   "repo": "HuanLinOTO/dsh-plugin-interpreters",
-   "name": "dsh-plugin-interpreters",
-   "verdict": "incompatible",
-   "stars": 10,
-   "desc": "暴露 run_python/run_node 工具，通过 stdin 执行代码返回 stdout/stderr/exit，含解释器路径配置卡 \\| Exposes run_python/run_node tools tha"
   },
   {
    "repo": "kyle123740/dsh-zcode-cli-proxy",
