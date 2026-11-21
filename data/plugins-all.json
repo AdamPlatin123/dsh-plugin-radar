@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T09:17:49Z",
+ "generated_at": "2026-11-21T09:33:00Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -2623,7 +2623,7 @@
   {
    "repo": "juhe291/dsh-token-panel",
    "name": "juhe291-dsh-token-panel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "A corner HUD for DeepSeek Harness that shows your session's token pressure, per-model cost, and daily/monthly"
   },
@@ -4394,7 +4394,7 @@
   {
    "repo": "Jesse-njx/dsh-voice",
    "name": "dsh-voice",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Voice notes in, spoken answers out — dictate audio that becomes user messages (transcribe), have the agent rea"
   },
@@ -9777,7 +9777,7 @@
   {
    "repo": "Jesse-njx/dsh-memory",
    "name": "jesse-njx-dsh-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Cited memory over DSH's lossless session log — distilled, human-auditable facts with citations back to the exa"
   },
@@ -18681,7 +18681,7 @@
   {
    "repo": "Jesse-njx/dsh-tmuxctl",
    "name": "dsh-tmuxctl",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run, and watch the panes you alre"
   },
@@ -42600,7 +42600,7 @@
   {
    "repo": "jelly-000/dsh-balance-monitor",
    "name": "dsh-balance-monitor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 9,
    "desc": "Multi-provider AI balance, quota, and token usage for the dsh sidebar, with a daily heatmap."
   },
@@ -42866,7 +42866,7 @@
   {
    "repo": "JoukoPuro/dsh-prompt-polish",
    "name": "dsh-prompt-polish",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "一个 DeepSeek Harness（DSH）插件： 在 Web 输入框的工具行中添加一个 ✨ 图标按钮"
   },
@@ -43293,7 +43293,7 @@
   {
    "repo": "jiruidai/dsh-meta-orchestrator",
    "name": "dsh-meta-orchestrator",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "A model-native meta-agent plugin for DeepSeek Harness that uses the underlying model’s reasoning and planning"
   },
@@ -73435,7 +73435,7 @@
   {
    "repo": "jianghuife/dsh-open-auth-plugin",
    "name": "dsh-open-auth-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -105621,7 +105621,7 @@
   {
    "repo": "Jinsong-Zhou/safe-find-dsh-plugins",
    "name": "jinsong-zhou-safe-find-dsh-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Discover and install the best DeepSeek Harness plugins for a user's task"
   },
@@ -111963,7 +111963,7 @@
   {
    "repo": "jinbaozi/deepseek-harness-plugins",
    "name": "jinbaozi-deepseek-harness-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Personal deepseek harness plugins"
   },
@@ -174303,6 +174303,13 @@
    "desc": "Microsoft MarkItDown as a DeepSeek Harness tool: convert PDF, Word, Excel, PowerPoint, HTML, CSV, EPUB, or a U"
   },
   {
+   "repo": "jinguanghai/deepseek-harness-forge-plugins",
+   "name": "jinguanghai-deepseek-harness-forge-plugins",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "Forge-plus: math/logic/regex/eprover/system/repair gates + TCM diagnosis + memory recall plugins for DeepSeek"
+  },
+  {
    "repo": "jinsiyu/dsh-safemode-profile",
    "name": "jinsiyu-dsh-safemode-profile",
    "verdict": "ok",
@@ -183137,13 +183144,6 @@
    "desc": "Local knowledge bases with explicit, source-backed retrieval for DeepSeek Harness Web."
   },
   {
-   "repo": "jinguanghai/deepseek-harness-forge-plugins",
-   "name": "jinguanghai-deepseek-harness-forge-plugins",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "Forge-plus: math/logic/regex/eprover/system/repair gates + TCM diagnosis + memory recall plugins for DeepSeek"
-  },
-  {
    "repo": "JingYu-er/dsh-kb",
    "name": "jingyu-er-dsh-kb",
    "verdict": "incompatible",
@@ -186355,6 +186355,13 @@
    "verdict": "ok",
    "stars": 22,
    "desc": "让鲸群游过留白"
+  },
+  {
+   "repo": "JustGenius-s/DSH-Desktop",
+   "name": "DSH-Desktop",
+   "verdict": "pending",
+   "stars": 22,
+   "desc": "DSH-Desktop"
   },
   {
    "repo": "MarioZZJ/cc-notify-hooks",
@@ -195861,13 +195868,6 @@
    "verdict": "incompatible",
    "stars": 23,
    "desc": "DSH 手机/外网远程访问插件：免配置公网隧道 + 局域网 HTTPS 直连 + 自定义公网链接/端口 + 微信机器人"
-  },
-  {
-   "repo": "JustGenius-s/DSH-Desktop",
-   "name": "DSH-Desktop",
-   "verdict": "incompatible",
-   "stars": 22,
-   "desc": "DSH-Desktop"
   },
   {
    "repo": "S3K926/dsh-selfwake",
@@ -220085,14 +220085,14 @@
   {
    "repo": "Jesse-njx/dsh-plugin-manager",
    "name": "dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "dsh pm — discover, install, update, and manage dsh plugins from the CLI: multi-source search (awesome list + G"
   },
   {
    "repo": "Jesse-njx/dsh-plugin-manager-installer",
    "name": "dsh-plugin-manager-installer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "@dsh-pm/installer — install, update, remove, and list dsh plugins: a thin, honest layer over `dsh plugin add/r"
   },
