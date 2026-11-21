@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T01:47:53Z",
+ "generated_at": "2026-11-21T02:02:19Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -53891,7 +53891,7 @@
   {
    "repo": "Andy294753951/dsh-plugin-gouden-leeuw-theme",
    "name": "andy294753951-dsh-plugin-gouden-leeuw-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Unofficial Gouden Leeuw moonlit sanctuary theme for the DeepSeek Harness web UI"
   },
@@ -102450,7 +102450,7 @@
   {
    "repo": "Anionex/dsh-computer-use",
    "name": "dsh-computer-use",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 109,
    "desc": "为 DeepSeek Harness 提供电脑控制插件：新鲜 Accessibility 观测、过期状态拒绝、作用域权限与安全输入（目前支持macos）｜Accessibility-first macOS Compute"
   },
@@ -109366,7 +109366,7 @@
   {
    "repo": "AnothetLoice/dsh-hotplug-engine",
    "name": "dsh-hotplug-engine",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Plugin install, rollback, and audit as a service for DSH."
   },
@@ -200086,7 +200086,7 @@
   {
    "repo": "Anionex/dsh-turn-rewind",
    "name": "dsh-turn-rewind",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 152,
    "desc": "deepseek harness对话和代码状态回退插件 \\| DSH — rewind conversation and workspace state, powered by a persistent Change Le"
   },
