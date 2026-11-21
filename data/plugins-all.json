@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T02:02:19Z",
+ "generated_at": "2026-11-21T02:17:44Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -199995,7 +199995,7 @@
   {
    "repo": "awesome-dsh-plugin/dsh-find-plugin",
    "name": "dsh-find-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 238,
    "desc": "Find DSH plugins inside the agent — live GitHub dsh-plugin topic search, star-ranked / 会话内搜索发现 DSH 插件"
   },
@@ -200583,7 +200583,7 @@
   {
    "repo": "AwesomeHou/dsh-plugin-marketplace",
    "name": "dsh-plugin-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 35,
    "desc": "Plugin marketplace for DeepSeek Harness — live-syncs the GitHub dsh-plugin topic  into a searchable, paginated"
   },
