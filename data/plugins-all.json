@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T17:02:47Z",
+ "generated_at": "2026-11-21T17:17:43Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40017,7 +40017,7 @@
   {
    "repo": "Sanqi-normal/dsh-webui-market-plugin",
    "name": "dsh-webui-market-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 104,
    "desc": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin.com 插件目录，一键安装/卸载到 profile"
   },
@@ -80673,7 +80673,7 @@
   {
    "repo": "salathleizhang/dsh-agent-sdk",
    "name": "dsh-agent-sdk",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Embeddable, plugin-based coding-agent runtime built on DeepSeek Harness"
   },
@@ -151436,7 +151436,7 @@
   {
    "repo": "Ruler4396/dsh-launcher-lifetime",
    "name": "dsh-launcher-lifetime",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness (dsh) plugin: control the dsh service lifetime (always-on / tray / follow-window) for the dsh"
   },
@@ -174459,7 +174459,7 @@
   {
    "repo": "securstack/securstack-dsh-plugin",
    "name": "securstack-dsh-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "SecurStack adapter for DeepSeek Harness: run repository security scans, policy gates, doctor diagnostics, and"
   },
