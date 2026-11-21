@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T23:33:01Z",
+ "generated_at": "2026-11-21T23:48:04Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -39891,7 +39891,7 @@
   {
    "repo": "skymecode/deepseek-harness-for-vscode",
    "name": "deepseek-harness-for-vscode",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 173,
    "desc": "deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness"
   },
@@ -137604,7 +137604,7 @@
   {
    "repo": "yweilai77-dev/dsh-plugin-cost",
    "name": "dsh-plugin-cost",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -157428,7 +157428,7 @@
   {
    "repo": "Rosmeowtis/dsh-aria2-rpc",
    "name": "rosmeowtis-dsh-aria2-rpc",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "让 dsh 能够连接你的 aria2 RPC 接口，提供下载任务的创建、查询、暂停、恢复和取消功能"
   },
@@ -162874,7 +162874,7 @@
   {
    "repo": "yuxino/dsh-blue-whale-maid",
    "name": "dsh-blue-whale-maid",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "DeepSeek Harness Web 桌宠插件：任务状态提醒、交互动画与费用估算"
   },
@@ -200667,7 +200667,7 @@
   {
    "repo": "yuukiLike/zeromd",
    "name": "yuukilike-zeromd",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 35,
    "desc": "Obsidian 零成本同步：iPhone ↔ Mac，GitHub 自动备份"
   },

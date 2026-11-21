@@ -83,7 +83,7 @@
 - 🟩 `[可用]` [fandc520-dsh-comfyui](https://github.com/fandc520/dsh-comfyui) ★190 — 一个基于DeepSeek-Harness的ComfyUI插件
 - 🟩 `[可用]` [oscar-williams-dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) ★183 — Know when your DeepSeek Harness tasks need you
 - 🟩 `[可用]` [ymh0000123-dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield) ★175 — 终末地官网风格的 DSH Web 主题：奶油纸底、墨黑文字、信号黄强调、全直角工业编辑风
-- 🟩 `[可用]` [deepseek-harness-for-vscode](https://github.com/skymecode/deepseek-harness-for-vscode) ★173 — deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness
+- ⬜ `[待定]` [deepseek-harness-for-vscode](https://github.com/skymecode/deepseek-harness-for-vscode) ★173 — deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness
 - ⬜ `[待定]` [dsh-fish](https://github.com/mochi-fish/dsh-fish) ★173 — DSH插件：养一个会自己刷b站会成长的agent：不通过面板配置，通过学习诞生人格
 - ⬜ `[待定]` [miaoqichuan-new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) ★171 — 把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集，八个模块：重画、时间轴、关系图、大事记、对抗图、图表、课件、案件看板
 - 🟩 `[可用]` [cocode-agency-cocode](https://github.com/cocode-agency/cocode) ★165 — Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, DSH terminal TUI, and harness integration.
