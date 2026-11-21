@@ -687,7 +687,7 @@
 - 🟩 `[可用]` [suifei-dsh-market-lens](https://github.com/suifei/dsh-market-lens) ★6 — 寰镜股票看板 MarketLens — A股/港股/美股 只读看盘盯盘股票看板（延迟公开行情，无交易）· 股票 看盘 盯盘 摸鱼 股市
 - 🟩 `[可用]` [superfly-sprites-deepseek-plugin](https://github.com/superfly/sprites-deepseek-plugin) ★6 — DeepSeek Harness plugin for Fly.io Sprites: computers for agents
 - 🟩 `[可用]` [thetianzz-dsh-billing](https://github.com/TheTianzz/dsh-billing) ★6 — DeepSeek Harness plugin: 账户余额 + 会话费用（/balance /cost 命令、deepseek_billing 工具、Web UI 双胶囊），官方价格每 12 小时自动同步
-- 🟩 `[可用]` [dsh-model-router](https://github.com/tianji-qingtian/dsh-model-router) ★6 — 模型路由与成本优化器：简单问题 flash 直答、故障自动降级、会话 token/缓存/成本实时面板 \| Model router & cost optimizer for DeepSeek Harness: flash
+- ⬜ `[待定]` [dsh-model-router](https://github.com/tianji-qingtian/dsh-model-router) ★6 — 模型路由与成本优化器：简单问题 flash 直答、故障自动降级、会话 token/缓存/成本实时面板 \| Model router & cost optimizer for DeepSeek Harness: flash
 - 🟩 `[可用]` [weibaohui-dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) ★6 — dsh 插件 · 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义）、背景不透明度与背景（亮暗各一色，实时跟随主题）
 - 🟩 `[可用]` [wfz2006-dsh-status-bar](https://github.com/wfz2006/dsh-status-bar) ★6 — 把 DSH 的任务进度装进一块会折射的桌面玻璃 · Electron + React 桌面状态栏
 - 🟩 `[可用]` [wjz-p-dsh-attachments](https://github.com/WJZ-P/dsh-attachments) ★6 — DeepSeek Harness plugin
@@ -793,7 +793,7 @@
 - 🟩 `[可用]` [dsh-composer-polish](https://github.com/tianji-qingtian/dsh-composer-polish) ★5 — DeepSeek Harness plugin: one-click ✨ polish for composer drafts — flash rewrite, auto fill-back · DeepSeek Har
 - ⬜ `[待定]` [tiphareth0-dsh-sshworkspaces](https://github.com/tiphareth0/dsh-sshworkspaces) ★5 — Workspace-level SSH remote development plugin for DeepSeek Harness: transparent seam-routed fs, git & terminal
 - 🟩 `[可用]` [tmpdot-dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) ★5 — File-diff visualization between checkpoint time nodes for DeepSeek Harness: read-only timeline + per-file line
-- 🟩 `[可用]` [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) ★5 — A marketplace plugin to quickly integrate your DeepSeek Harness into the GitHub plugin ecosystem.
+- ⬜ `[待定]` [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) ★5 — A marketplace plugin to quickly integrate your DeepSeek Harness into the GitHub plugin ecosystem.
 - 🟩 `[可用]` [ttmouse-dsh-model-picker](https://github.com/ttmouse/dsh-model-picker) ★5 — Enhanced model picker for the dsh web GUI — replaces the composer's model seat
 - 🟩 `[可用]` [valuz-ai-dsh-valuz-genui](https://github.com/valuz-ai/dsh-valuz-genui) ★5 — DeepSeek Harness plugin: generate_ui — the model authors A2UI documents rendered as interactive surfaces in th
 - 🟩 `[可用]` [wenq-cloud-dsh-cutewhale-h](https://github.com/WenQ-cloud/dsh-cutewhale-h) ★5 — DSH Web/软件端 插件：住在输入框左边的像素鲸鱼娘，A pixel whale maid for DSH Web&software
@@ -2797,7 +2797,7 @@
 - ⬜ `[待定]` [dsh-chrome-suite](https://github.com/Ln1m/dsh-chrome-suite) ★1 — DSH window chrome suite: restart button, session archive button, wallet · DSH 窗口边框家族：重启按钮 / 会话归档按钮 / 钱包
 - ⬜ `[待定]` [ln1m-dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) ★1 — DSH three-column layout skeleton: slot contract + layout shell, the prerequisite of every other suite · DSH 三栏
 - ⬜ `[待定]` [loftspire-dsh-shot](https://github.com/loftspire/dsh-shot) ★1 — 给 DeepSeek Harness 输入框加一个截图按钮：整屏冻结压暗、悬停即选整窗、八手柄缩放、箭头/画笔标注，确认后图片直接进草稿附件
-- 🟩 `[可用]` [dsh-ui-workbench](https://github.com/LoftyTao/dsh-ui-workbench) ★1 — DeepSeek Harness WebUI 的右侧边文件管理以及变更审查界面插件
+- ⬜ `[待定]` [dsh-ui-workbench](https://github.com/LoftyTao/dsh-ui-workbench) ★1 — DeepSeek Harness WebUI 的右侧边文件管理以及变更审查界面插件
 - 🟩 `[可用]` [loktlin-dsh-lanhu](https://github.com/LoktLin/dsh-lanhu) ★1 — 让 AI 直接「读蓝湖设计稿」—— 解析成可直抄的精确数值（色值 / 字号 / 圆角 / 间距 / 文本），替代靠截图估算
 - 🟩 `[可用]` [longgege-cd-dsh-skin-pixel-anime](https://github.com/longgege-cd/dsh-skin-pixel-anime) ★1 — Pixel-anime skin plugin for DeepSeek Harness web UI: palettes, pixel fonts (incl
 - ⬜ `[待定]` [longhao666666-dsh-element-context](https://github.com/longhao666666/dsh-element-context) ★1 — DeepSeek Harness 插件：对话中圈选/关联 UI 元素，把选择器、源码位置、盒模型与计算样式注入模型提示词

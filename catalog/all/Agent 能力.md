@@ -226,7 +226,7 @@
 - 🟩 `[可用]` [pure-craft-dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) ★13 — Manage MCP servers, skills, and tools for your DeepSeek Harness agent — true in-context state and per-session
 - ⬜ `[待定]` [project-blueprint](https://github.com/shuguang1994/project-blueprint) ★13 — Make any project AI-agent-ready in one command
 - ⬜ `[待定]` [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) ★13 — DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent
-- 🟩 `[可用]` [totoro-qaq-cobsidian](https://github.com/Totoro-qaq/Cobsidian) ★13 — Agent-agnostic workflow skill for maintaining Obsidian knowledge bases
+- ⬜ `[待定]` [totoro-qaq-cobsidian](https://github.com/Totoro-qaq/Cobsidian) ★13 — Agent-agnostic workflow skill for maintaining Obsidian knowledge bases
 - 🟩 `[可用]` [wdsjwzl-session-seed-plugin](https://github.com/wdsjwzl/session-seed-plugin) ★13 — 对话自动注入，可用于高概率破甲模型
 - ⬜ `[待定]` [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) ★13 — 自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复
 - 🟩 `[可用]` [yukk4159-bit-dsh-prompt-injector](https://github.com/yukk4159-bit/dsh-prompt-injector) ★13 — DeepSeek Harness plugin: inject a reusable prompt preset into the front of a message at send time - next messa
@@ -235,7 +235,7 @@
 - 🟩 `[可用]` [hoyyang-dsh-smart-compact](https://github.com/hoyyang/dsh-smart-compact) ★12 — Context window auto-management for DeepSeek Harness: lossless zero-model rollover, budget reminders, notes.
 - 🟩 `[可用]` [juntaoding-flowboard](https://github.com/juntaoding/Flowboard) ★12 — 运行在 DeepSeek Harness 中的开源办公协作与团队管理插件，让目标、会议、Agent 执行、进度和资料在同一套办公逻辑中持续流动
 - 🟩 `[可用]` [machine-126-dsh-alert-sound](https://github.com/Machine-126/dsh-alert-sound) ★12 — 不用盯着屏幕也能知道 DeepSeek Harness 什么时候需要你：审批、提问、完成、报错各有不同的提示音或语音朗读（中/英） \| Know when DeepSeek Harness needs you: dist
-- 🟩 `[可用]` [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) ★12 — DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具
+- ⬜ `[待定]` [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) ★12 — DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具
 - 🟩 `[可用]` [tkingxiao-dsh-memu-memory](https://github.com/Tkingxiao/dsh-memu-memory) ★12 — 面向长篇 RP 与陪伴对话的 DeepSeek Harness 记忆插件：给 AI 角色一份会淡、会不确定、只知道它该知道的事的记忆
 - 🟩 `[可用]` [co-engram-co-engram](https://github.com/Co-Engram/Co-Engram) ★11 — Self-evolving team memory
 - 🟩 `[可用]` [echouser005-dsh-fate-spectrum](https://github.com/EchoUser005/dsh-fate-spectrum) ★11 — DeepSeek Harness plugin for Bazi & Zi Wei Dou Shu — deterministic, offline fate-chart calculation for AI agent
@@ -694,7 +694,7 @@
 - ⬜ `[待定]` [szx-a-ds](https://github.com/szx-a/ds) ★3 — LMA (Layered Memory Architecture) 是一个为 DeepSeek Harness 设计的地基插件（Foundation Plugin）
 - 🟩 `[可用]` [taxueseek-taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) ★3 — taxue 画师：DeepSeek Harness 一体化视觉创作工具链（提示词反推/优化 + 多供应商生图，支持异步后台出图）
 - 🟩 `[可用]` [terry12138qy-dsh-vision](https://github.com/Terry12138qy/dsh-vision) ★3 — DeepSeek Harness 识图插件：为不具备原生识图能力的模型提供识图能力（阿里云百炼 qwen3.5-omni-plus，失败自动切换智谱 glm-4.6v-flash）
-- 🟩 `[可用]` [reSanity](https://github.com/Thhoho/reSanity) ★3 — reSanity 散修 — 面向散户投研的证据搜索与逻辑梳理 Skill：核查一手资料，拆解题材到收入、利润和现金的传导链，标注证据与推断边界
+- ⬜ `[待定]` [reSanity](https://github.com/Thhoho/reSanity) ★3 — reSanity 散修 — 面向散户投研的证据搜索与逻辑梳理 Skill：核查一手资料，拆解题材到收入、利润和现金的传导链，标注证据与推断边界
 - 🟩 `[可用]` [tia-forge-dsh-tiaforge](https://github.com/tia-forge/dsh-tiaforge) ★3 — TIA Portal MCP server for DeepSeek Harness (DSH): 5 skills + 5 MCP endpoints - PLC docs retrieval, SCL/ladder
 - 🟩 `[可用]` [tuoluosuan-dsh-skill-center](https://github.com/tuoLuoSuan/dsh-skill-center) ★3 — DeepSeek Harness 的技能浏览器
 - 🟩 `[可用]` [ullrai-dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) ★3 — MQTT protocol driver and agent worker gateway for DSH
