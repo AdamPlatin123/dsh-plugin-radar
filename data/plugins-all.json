@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T04:03:01Z",
+ "generated_at": "2026-11-21T04:17:37Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -631,6 +631,13 @@
    "verdict": "pending",
    "stars": 73,
    "desc": "An MCP server, CLI and Skills for reach CNKI"
+  },
+  {
+   "repo": "cofy-x/axern",
+   "name": "cofy-x-axern",
+   "verdict": "pending",
+   "stars": 65,
+   "desc": "Self-hosted execution platform for AI agents, powered by gVisor."
   },
   {
    "repo": "dhicoc/dsh-chinese-traditional-wisdom-skill",
@@ -28857,13 +28864,6 @@
    "desc": "Universal event-driven omnichannel platform for AI agents to communicate across any messaging platform"
   },
   {
-   "repo": "cofy-x/axern",
-   "name": "cofy-x-axern",
-   "verdict": "incompatible",
-   "stars": 65,
-   "desc": "Self-hosted execution platform for AI agents, powered by gVisor."
-  },
-  {
    "repo": "HakureiMonika/dsh-sandbox-escalation-fix",
    "name": "justmonika2022-dsh-sandbox-escalation-fix",
    "verdict": "incompatible",
@@ -55032,7 +55032,7 @@
   {
    "repo": "condaThinker/dsh-left-sidebar-collapse",
    "name": "dsh-left-sidebar-collapse",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Auto-collapse / fully-collapse the DSH left sidebar on session select (standalone DSH plugin)"
   },
@@ -201890,6 +201890,13 @@
    "desc": "为 DeepSeek Harness 注入「自在模式」的 Agent 预设方案"
   },
   {
+   "repo": "creght-dev/skills",
+   "name": "skills",
+   "verdict": "pending",
+   "stars": 10,
+   "desc": "Codex and agent skills for Cregh."
+  },
+  {
    "repo": "curo22/dsh-wb400-guard",
    "name": "curo22-dsh-wb400-guard",
    "verdict": "ok",
@@ -229629,13 +229636,6 @@
    "verdict": "incompatible",
    "stars": 10,
    "desc": "Use a Kimi Code subscription in DeepSeek Harness with OAuth, quota display, and composer usage"
-  },
-  {
-   "repo": "creght-dev/skills",
-   "name": "skills",
-   "verdict": "incompatible",
-   "stars": 10,
-   "desc": "Codex and agent skills for Cregh."
   },
   {
    "repo": "Destinhue/dsh-video-vision",
