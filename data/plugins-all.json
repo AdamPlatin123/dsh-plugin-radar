@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T21:02:58Z",
+ "generated_at": "2026-11-21T21:17:49Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -21089,7 +21089,7 @@
   {
    "repo": "mindie-agent/mindie-agent-dsh",
    "name": "mindie-agent-mindie-agent-dsh",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "MindIE Agent for DeepSeek Harness: Ascend NPU knowledge and remote-dev tools composed from stable DSH plugins."
   },
