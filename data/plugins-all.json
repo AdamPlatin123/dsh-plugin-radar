@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T21:33:52Z",
+ "generated_at": "2026-11-22T21:47:35Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4719,13 +4719,6 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "Pass your project, not your context."
-  },
-  {
-   "repo": "Ke-wood/dsh-workflow-kit",
-   "name": "ke-wood-dsh-workflow-kit",
-   "verdict": "pending",
-   "stars": 3,
-   "desc": "DeepSeek Harness workflow kit: 5 agent presets + 18 skills + routing table"
   },
   {
    "repo": "keyblues/dsh-tool-exposure",
@@ -31942,6 +31935,13 @@
    "verdict": "incompatible",
    "stars": 3,
    "desc": "Captain plugin for DeepSeek Harness: GPT planning, DeepSeek workers, independent review, adaptive multi-agent"
+  },
+  {
+   "repo": "Ke-wood/dsh-workflow-kit",
+   "name": "ke-wood-dsh-workflow-kit",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "DeepSeek Harness workflow kit: 5 agent presets + 18 skills + routing table"
   },
   {
    "repo": "kelemiao/dsh-api",
@@ -167515,7 +167515,7 @@
   {
    "repo": "guojiangli/dsh-plugin-desktop-pet",
    "name": "guojiangli-dsh-plugin-desktop-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness（dsh）桌面小精灵"
   },
