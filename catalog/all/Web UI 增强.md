@@ -6790,7 +6790,7 @@
 - 🟩 `[可用]` [yesyugao-dsh-claude-harness](https://github.com/Yesyugao/dsh-claude-harness) ★0 — Claude branding for the DeepSeek Harness desktop app in one plugin: the Claude Code style UI, the Claude app i
 - 🟩 `[可用]` [yezisorft-dsh-paper-mode](https://github.com/yezisorft/dsh-paper-mode) ★0 — DSH 论文模式插件：五阶段写作法 · 引言/段落/结论三公式 · GB/T 论文版式与参考文献规范；含 paper-writing 技能、/paper 命令与界面徽标
 - 🟩 `[可用]` [yezitotempeace-dsh-chat-background](https://github.com/yezitotempeace/dsh-chat-background) ★0 — 聊天背景美化：本地图片/视频或预设渐变，可调清晰度、透明度、缩放、位置、遮罩、动效与玻璃面板；文件只存浏览器本地
-- ⬜ `[待定]` [yhm138-dsh-btw](https://github.com/yhm138/dsh-btw) ★0 — Antigravity-style /btw side questions for DeepSeek Harness: a disposable forked child agent with full tools in
+- 🟩 `[可用]` [yhm138-dsh-btw](https://github.com/yhm138/dsh-btw) ★0 — Antigravity-style /btw side questions for DeepSeek Harness: a disposable forked child agent with full tools in
 - 🟩 `[可用]` [yhprime-dsh-sidebar-guide-scroll](https://github.com/yhPrime/dsh-sidebar-guide-scroll) ★0 — DSH 插件：右侧栏「开始」页卡片溢出时可滚动，滚动条只在需要时出现 / Make the right sidebar Start page scroll when its tool cards overflow
 - 🟩 `[可用]` [yhprime-dsh-sidebar-left-split](https://github.com/yhPrime/dsh-sidebar-left-split) ★0 — DSH 左侧栏分隔条：拖动「工作区」与全局面板列表之间的交接调整高度，面板列表被压小时自动出现滚动条
 - 🟩 `[可用]` [yhprime-dsh-theme-picker](https://github.com/yhPrime/dsh-theme-picker) ★0 — —
