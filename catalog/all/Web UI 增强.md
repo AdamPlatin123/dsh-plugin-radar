@@ -3560,6 +3560,7 @@
 - 🟩 `[可用]` [zerodegress-dsh-tui-secret](https://github.com/zerodegress/dsh-tui-secret) ★1 — A dsh-tui plugin which keep your Secrets safe from the Agents.
 - 🟩 `[可用]` [zeroot-liu-dsh-usage-widget](https://github.com/ZeroOT-Liu/dsh-usage-widget) ★1 — DeepSeek Harness 插件：在侧边栏左下角显示账号余额、今日 token 消耗与花费
 - 🟩 `[可用]` [zeusxx-dsh-composer-live](https://github.com/zeusxx/dsh-composer-live) ★1 — Type Markdown, see it rendered live — Open-WebUI-style composer for DeepSeek Harness (DSH) web
+- ⬜ `[待定]` [zgblkylin-dsh-gui](https://github.com/ZgblKylin/dsh-gui) ★1 — Tauri GUI with integrated DeepSeek Harness, and some plugin bundle
 - 🟩 `[可用]` [zhang-guangjie-dsh-video-bg](https://github.com/zhang-guangjie/dsh-video-bg) ★1 — DSH plugin: loop a local video behind the chat UI, with play/pause, opacity, scrim and fit controls
 - 🟩 `[可用]` [zhang-guo-wen-dsh-ui-beautify](https://github.com/zhang-guo-wen/dsh-ui-beautify) ★1 — Page beautification for DeepSeek Harness: ship open-source CJK webfonts and let the Web GUI pick its body font
 - 🟩 `[可用]` [zhang-jiazhi-dsh-stats-panel](https://github.com/zhang-jiazhi/dsh-stats-panel) ★1 — DeepSeek Harness Token 用量统计面板：模型/渠道聚合、余额配额、精确归档与费用估算
@@ -8177,7 +8178,6 @@
 - 🟨 `[不兼容]` [zengzichao-dsh-seq-viewer](https://github.com/ZengZichao/dsh-seq-viewer) ★1 — DeepSeek Harness plugin: view FASTA, CLUSTAL, PHYLIP and Stockholm alignments in the right sidebar with ReSeqt
 - 🟨 `[不兼容]` [zeppeli777-dsh-theme-stardew-fullskin](https://github.com/Zeppeli777/dsh-theme-stardew-fullskin) ★1 — Stardew Valley full-skin theme for the DeepSeek Harness Web UI: replaces the served frontend with a self-conta
 - 🟨 `[不兼容]` [zerozhao314-dsh-everything-wp](https://github.com/Zerozhao314/dsh-everything-wp) ★1 — 专为 WordPress 建站调试打造的 Skill 集合 · 包含 DeepSeek Harness (DSH) Plugin 开发 Skill + WordPress 插件开发 AI 工具包（5 Agents + 1
-- 🟨 `[不兼容]` [zgblkylin-dsh-gui](https://github.com/ZgblKylin/dsh-gui) ★1 — Tauri GUI with integrated DeepSeek Harness, and some plugin bundle
 - 🟨 `[不兼容]` [zhaizhoux-dsh-cad-freecad](https://github.com/zhaizhoux/dsh-cad-freecad) ★1 — DeepSeek Harness plugin that turns a local FreeCAD installation into a safe, declarative CAD modeling backend:
 - 🟨 `[不兼容]` [zhangguiping-xydt-dsh-possibility-space](https://github.com/zhangguiping-xydt/dsh-possibility-space) ★1 — Explore AI outputs as a steerable semantic possibility space for DeepSeek Harness.
 - 🟨 `[不兼容]` [zhangkkkai-dsh-spec-panel](https://github.com/zhangkkkai/dsh-spec-panel) ★1 — 一个基于 dsh-better-sidebar 的 SDD（规范驱动开发，Spec-Driven Development）配套插件：在侧边栏提供一个 Spec 工作台，围绕 OpenSpec 的标准目录结构，让「先写规范

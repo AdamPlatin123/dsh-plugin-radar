@@ -564,7 +564,7 @@
 - 🟩 `[可用]` [yohanchen1-mathmodelingagent](https://github.com/yohanchen1/MathModelingAgent) ★4 — —
 - 🟩 `[可用]` [yujh129-dsh-literature-agents](https://github.com/yujh129/dsh-literature-agents) ★4 — 文学与古典文献研究：9 个检索与翻译工具、11 位文史专家子代理、3 个评审团
 - ⬜ `[待定]` [dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) ★4 — —
-- 🟩 `[可用]` [dsh-personalize](https://github.com/Zephyr-vibe/dsh-personalize) ★4 — Per-host personalization for DSH: custom instructions, local long-term memory, and reply-tone presets.
+- ⬜ `[待定]` [dsh-personalize](https://github.com/Zephyr-vibe/dsh-personalize) ★4 — Per-host personalization for DSH: custom instructions, local long-term memory, and reply-tone presets.
 - 🟩 `[可用]` [zixin947-dsh-compact](https://github.com/zixin947/dsh-compact) ★4 — DeepSeek Harness 的上下文压缩插件：自动与手动压缩、工具结果裁剪、有界溢出恢复
 - 🟩 `[可用]` [zn-dk-dsh-session-repair](https://github.com/Zn-Dk/dsh-session-repair) ★4 — DSH Web 会话诊断、可信备份与一键安全修复插件
 - 🟩 `[可用]` [znlgis-dsh-opengis-skill](https://github.com/znlgis/dsh-opengis-skill) ★4 — DeepSeek Harness OpenGIS 技能包
