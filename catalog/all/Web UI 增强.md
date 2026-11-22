@@ -1987,7 +1987,7 @@
 - 🟩 `[可用]` [zenjibad-llmtrim-stats-plugin](https://github.com/Zenjibad/llmtrim-stats-plugin) ★2 — Live llmtrim savings dashboard inside the DeepSeek Harness (DSH) Web UI: a settings dashboard plus a rotating
 - ⬜ `[待定]` [dsh-security-suite](https://github.com/Zenquiem/dsh-security-suite) ★2 — Security assessment workflows for DeepSeek Harness
 - 🟩 `[可用]` [zenvertao-dsh-inline-comments](https://github.com/zenvertao/dsh-inline-comments) ★2 — 选中即批注，刷新亦留存 —— DSH 行内批注插件
-- 🟩 `[可用]` [zerro-223-dsh-token-usage](https://github.com/zerro-223/dsh-token-usage) ★2 — Token usage statistics plugin for DeepSeek Harness (DSH) Web UI: per-request LLM usage captured from llm/strea
+- ⬜ `[待定]` [zerro-223-dsh-token-usage](https://github.com/zerro-223/dsh-token-usage) ★2 — Token usage statistics plugin for DeepSeek Harness (DSH) Web UI: per-request LLM usage captured from llm/strea
 - 🟩 `[可用]` [zgxaxdd-dsh-html-render](https://github.com/zgxaxdd/dsh-html-render) ★2 — Inline HTML + KaTeX renderer for DeepSeek Harness (DSH) chats - sandboxed iframes, theme-adaptive, height-accu
 - 🟩 `[可用]` [zhanghzdev-dsh-theme-button](https://github.com/zhanghzdev/dsh-theme-button) ★2 — DeepSeek Harness 的悬浮主题挂件：切换官方外观 + 自定义背景（图片/纯色）
 - ⬜ `[待定]` [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) ★2 — Obsidian-style \[\[wikilink\]\] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T17:03:26Z",
+ "generated_at": "2026-11-22T17:18:31Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -53926,7 +53926,7 @@
   {
    "repo": "zerro-223/dsh-token-usage",
    "name": "zerro-223-dsh-token-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Token usage statistics plugin for DeepSeek Harness (DSH) Web UI: per-request LLM usage captured from llm/strea"
   },
@@ -189185,6 +189185,13 @@
    "desc": "DSH 插件：分支式消息编辑、重掷、重试与版本时间线 \\| DSH plugin: branch-based message editing, reroll, retry, version timeline"
   },
   {
+   "repo": "limbo947/dsh-recall-plugin",
+   "name": "limbo947-dsh-recall-plugin",
+   "verdict": "pending",
+   "stars": 54,
+   "desc": "消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent"
+  },
+  {
    "repo": "Fantasality/dsh-origin-plugin",
    "name": "fantasality-dsh-origin-plugin",
    "verdict": "ok",
@@ -199053,13 +199060,6 @@
    "verdict": "incompatible",
    "stars": 65,
    "desc": "Say goodbye to copy-pasting and DSH Token anxiety"
-  },
-  {
-   "repo": "limbo947/dsh-recall-plugin",
-   "name": "limbo947-dsh-recall-plugin",
-   "verdict": "incompatible",
-   "stars": 54,
-   "desc": "消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent"
   },
   {
    "repo": "MJ-CJM/DSH-Bot",
@@ -224885,13 +224885,6 @@
    "desc": "A minimal IDEA in the DeepSeek Harness right column."
   },
   {
-   "repo": "lidaqi001/dsh-codex-claude-pipeline",
-   "name": "lidaqi001-dsh-codex-claude-pipeline",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness agent preset: Codex plans and decomposes, Claude Code executes each work item."
-  },
-  {
    "repo": "lidaqi001/dsh-codex-delegate",
    "name": "lidaqi001-dsh-codex-delegate",
    "verdict": "pending",
@@ -241536,6 +241529,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness agent preset that delegates every task to a Claude Code subagent"
+  },
+  {
+   "repo": "lidaqi001/dsh-codex-claude-pipeline",
+   "name": "lidaqi001-dsh-codex-claude-pipeline",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness agent preset: Codex plans and decomposes, Claude Code executes each work item."
   },
   {
    "repo": "LiFenrir/dsh-external-task-context",
