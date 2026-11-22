@@ -39,7 +39,7 @@
 - ⬜ `[待定]` [zju-llms-openstory](https://github.com/ZJU-LLMs/OpenStory) ★446 — An LLM-powered multi-agent framework for simulating interactive, evolving story worlds.
 - 🟩 `[可用]` [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) ★424 — Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving sk
 - ⬜ `[待定]` [dondai44423-bladebro](https://github.com/dondai44423/bladebro) ★398 — A Fully free agentic browser driver for AI , few tools, full control, real stealth, top-tier token efficiency.
-- 🟩 `[可用]` [minara-ai-minara-skills](https://github.com/Minara-AI/minara-skills) ★392 — The skills for trading, to make your agent earn for you.
+- ⬜ `[待定]` [minara-ai-minara-skills](https://github.com/Minara-AI/minara-skills) ★392 — The skills for trading, to make your agent earn for you.
 - ⬜ `[待定]` [morluto-jacobian](https://github.com/morluto/jacobian) ★375 — Composable mathematics tools for agents
 - 🟩 `[可用]` [xiajiajun516-dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) ★371 — DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configurat
 - 🟩 `[可用]` [memtensor-memos-cloud-openclaw-plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) ★370 — Official MemOS Cloud plugin for OpenClaw
