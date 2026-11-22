@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T10:17:52Z",
+ "generated_at": "2026-11-22T10:33:17Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -45190,7 +45190,7 @@
   {
    "repo": "GLFzr/dsh-opencode-go-quota",
    "name": "glfzr-dsh-opencode-go-quota",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH 插件：OpenCode Go 额度圆环 —— 输入框模型选择器左侧的进度圆环，点击切换 5小时/每周/每月用量（OpenCode Go quota ring for DeepSeek Harness Web）"
   },
@@ -47752,7 +47752,7 @@
   {
    "repo": "GHJIVHIDD/dsh-plugin-vm-sandbox",
    "name": "ghjivhidd-dsh-plugin-vm-sandbox",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "原生UI界面"
   },
@@ -205959,7 +205959,7 @@
   {
    "repo": "Guojiz/gitlearnos",
    "name": "guojiz-gitlearnos",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Git-native AI learning OS with a GitLearnOS-exclusive DeepSeek Harness panel, targeted practice, local RAG, an"
   },
@@ -209991,7 +209991,7 @@
   {
    "repo": "GongYuanCaiJi/dsh-simplify",
    "name": "gongyuancaiji-dsh-simplify",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness 插件：审查最近改动的代码，就清晰度、一致性与可维护性提出改进（移植自 pi-simplify）"
   },
