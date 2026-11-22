@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T17:33:24Z",
+ "generated_at": "2026-11-22T17:48:23Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -16416,6 +16416,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Prompt visibility and notification plugin for DeepSeek Harness."
+  },
+  {
+   "repo": "davidgereb/dsh-plugin-watchdog",
+   "name": "davidgereb-dsh-plugin-watchdog",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Restart your ongoing agent sessions once on server restart in DeepSeek Harness."
   },
   {
    "repo": "Daviszhou212/dsh-cost-pill",
@@ -35843,13 +35850,6 @@
    "desc": "Connect Clanker mobile to Harness Desktop with authenticated agent chats, streaming, controls and file transfe"
   },
   {
-   "repo": "davidgereb/dsh-plugin-watchdog",
-   "name": "davidgereb-dsh-plugin-watchdog",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Restart your ongoing agent sessions once on server restart in DeepSeek Harness."
-  },
-  {
    "repo": "Dax233/dsh-session-bridge",
    "name": "dax233-dsh-session-bridge",
    "verdict": "incompatible",
@@ -50450,6 +50450,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "截图或一句话就能记账的本地账本"
+  },
+  {
+   "repo": "daboge-beach/dsh-skin-studio",
+   "name": "daboge-beach-dsh-skin-studio",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "🎨 Create, try on & share living DeepSeek Harness skins — no code required〔📦〕"
   },
   {
    "repo": "daha1216/dsh-pocket",
@@ -93381,13 +93388,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH 插件：简体中文行为规范三层注入（常驻层 + prompt 技能 + anchored preset 锚定注入）+ Web UI 编辑 prompt.md"
-  },
-  {
-   "repo": "daboge-beach/dsh-skin-studio",
-   "name": "daboge-beach-dsh-skin-studio",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "🎨 Create, try on & share living DeepSeek Harness skins — no code required〔📦〕"
   },
   {
    "repo": "damijun/dsh-browser-automation",
