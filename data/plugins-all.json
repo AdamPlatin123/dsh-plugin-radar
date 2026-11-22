@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T10:03:20Z",
+ "generated_at": "2026-11-22T10:17:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -449,6 +449,13 @@
    "verdict": "pending",
    "stars": 149,
    "desc": "许愿特化器 · Wish Specializer — DSH 插件：让模型更出色地，不误解你的意思地，完成你的“愿望”"
+  },
+  {
+   "repo": "Fishsb/dsh-voice-prompt-enhancer",
+   "name": "fishsb-dsh-prompt-enhancer",
+   "verdict": "pending",
+   "stars": 133,
+   "desc": "DeepSeek-Harness (DSH) 插件：✨ 提示词一键增强（5 模式·模型链·记忆链）+ 💬 语音输入增强（热键·说完自动停·口水词清理·语音纠错）"
   },
   {
    "repo": "AI4XE/ai4ai",
@@ -29375,13 +29382,6 @@
    "desc": "DSH IM Connect — 将主流即时通讯平台接入本机 DeepSeek Harness · Connect major messaging platforms to local DeepSeek Harness"
   },
   {
-   "repo": "Fishsb/dsh-voice-prompt-enhancer",
-   "name": "fishsb-dsh-prompt-enhancer",
-   "verdict": "incompatible",
-   "stars": 133,
-   "desc": "DeepSeek-Harness (DSH) 插件：✨ 提示词一键增强（5 模式·模型链·记忆链）+ 💬 语音输入增强（热键·说完自动停·口水词清理·语音纠错）"
-  },
-  {
    "repo": "eleckoi/ElecKoi",
    "name": "eleckoi-eleckoi",
    "verdict": "incompatible",
@@ -45995,7 +45995,7 @@
   {
    "repo": "Estellalee/dsh-outdoor-theme",
    "name": "estellalee-dsh-outdoor-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DSH 户外皮肤 · 山野向导（Trail Guide）"
   },
