@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T09:33:49Z",
+ "generated_at": "2026-11-22T09:47:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -1797,7 +1797,7 @@
   {
    "repo": "ChenyuHeee/dsh-browser-playwright",
    "name": "chenyuheee-dsh-browser-playwright",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 10,
    "desc": "Snapshot-first Playwright browser automation for DeepSeek Harness: accessibility-tree interaction with stable"
   },
@@ -42376,7 +42376,7 @@
   {
    "repo": "better-er/dsh-tool-autoexpand",
    "name": "better-er-dsh-tool-autoexpand",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "「DSH·工具结果自动展开」：在 DSH Web 界面自动展开工具调用卡片，支持侧边栏开关"
   },
@@ -43608,7 +43608,7 @@
   {
    "repo": "buhuikongpan/dsh-pluginmanager",
    "name": "buhuikongpan-dsh-pluginmanager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "DSH 分层插件管理器：原生插件按 系统层/WebUI 层/工具层 只读展示，用户扩展支持停用/启用、补登记、卸载与可编辑描述"
   },
@@ -107938,7 +107938,7 @@
   {
    "repo": "bilbillm/dsh-motion",
    "name": "bilbillm-dsh-motion",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Restrained, semantic interface motion for DeepSeek Harness"
   },
@@ -108015,7 +108015,7 @@
   {
    "repo": "chu557/douyin-plugin-dsh-plugin",
    "name": "chu557-douyin-plugin-dsh-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "在使用dsh等待的过程中刷抖音"
   },
@@ -205651,7 +205651,7 @@
   {
    "repo": "cindyguyuehu123/dsh-webchatlike",
    "name": "cindyguyuehu123-dsh-webchatlike",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "Web-chat style message actions for DeepSeek Harness: edit your prompt, regenerate answers, and flip versions w"
   },
@@ -206249,6 +206249,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "在对话里驱动本机 Origin/OriginPro：导入 .dat/.csv/.txt 与工作站 .bin，绘图、拟合、改样式、导出图片并保存可编辑的 .opju"
+  },
+  {
+   "repo": "Cavan-Ou/hermes-dsh-collab",
+   "name": "cavan-ou-hermes-dsh-collab",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "Battle-tested multi-agent collaboration playbook for DeepSeek Harness: model-tier routing, spec discipline, gi"
   },
   {
    "repo": "Civitasv/dsh-plugin-diff-review",
@@ -209438,7 +209445,7 @@
   {
    "repo": "Blaczz/dsh-sci",
    "name": "blaczz-dsh-sci",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Zero-dependency scientific computing tools for DeepSeek Harness: physical-unit conversion, CODATA physical con"
   },
@@ -212679,7 +212686,7 @@
   {
    "repo": "coderdailyone/dsh-plugin-web-search-tavily",
    "name": "coderdailyone-dsh-plugin-web-search-tavily",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Tavily search provider bundle for DeepSeek Harness (dsh) — community plugin registering a WebSearchProvider in"
   },
@@ -233794,13 +233801,6 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "DSH 提供商与模型高级管理台 · Provider & model management console for DeepSeek Harness (dsh)"
-  },
-  {
-   "repo": "Cavan-Ou/hermes-dsh-collab",
-   "name": "cavan-ou-hermes-dsh-collab",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "Battle-tested multi-agent collaboration playbook for DeepSeek Harness: model-tier routing, spec discipline, gi"
   },
   {
    "repo": "chocobo77/dsh-infinite-context",
