@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T01:03:12Z",
+ "generated_at": "2026-11-22T01:17:43Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -58278,6 +58278,13 @@
    "desc": "deepseek harness plugins dsh-ayaka-theme"
   },
   {
+   "repo": "laiyinyizao007/dsh-desktop-responsive",
+   "name": "laiyinyizao007-dsh-desktop-responsive",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A phone-width layout for the DSH Desktop and the DeepSeek Harness web UI"
+  },
+  {
    "repo": "lanechenhku/dsh-claude-project-ui",
    "name": "lanechenhku-dsh-claude-project-ui",
    "verdict": "ok",
@@ -58892,6 +58899,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "把 AI 生成的视频（或录屏）自动切成能直接投喂人物替换工具的片段：识别并裁掉播放器 UI 覆盖层、按场景分镜、逐镜头量运动量、超长镜头再切子段"
+  },
+  {
+   "repo": "LouieKeung-13/dsh-task-toast",
+   "name": "louiekeung-13-dsh-task-toast",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "A lightweight, independent card-style task completion notification plugin for DeepSeek Harness (DSH)."
   },
   {
    "repo": "LouisCanBe/dsh-plugin-ollama-monitor",
@@ -185991,6 +186005,13 @@
    "verdict": "ok",
    "stars": 212,
    "desc": "DeepSeek Harness 的桌面自动化：给整台 Windows 机器装上眼睛和手"
+  },
+  {
+   "repo": "Loping151/dsh-nekowhale-stickers",
+   "name": "loping151-dsh-nekowhale-stickers",
+   "verdict": "ok",
+   "stars": 208,
+   "desc": "大肥鱼 / GPT娘 sticker knowledge kit for DeepSeek Harness (dsh), MCP and any chat bot · 大肥鱼表情包知识库"
   },
   {
    "repo": "Yuuyuko-uu/dsh-qq-link",

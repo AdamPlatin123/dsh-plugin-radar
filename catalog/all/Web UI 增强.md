@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9138）
+# 🔌 Web UI 增强（9140）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2724,6 +2724,7 @@
 - ⬜ `[待定]` [l-da-da-credit-board](https://github.com/l-da-da/credit-board) ★1 — 每日自动签到 + 额度看板（DeepSeek Harness 插件）：WorkBuddy / 豆包 / CodeArts / AutoClaw 签到与余额汇总到 DSH 侧边栏
 - 🟩 `[可用]` [l-s-c-dsh-workspace-labels](https://github.com/l-s-c/dsh-workspace-labels) ★1 — Open DeepSeek Harness workspaces from the existing sidebar three-dot menu
 - 🟩 `[可用]` [l-vm2k-dsh-ayaka-theme](https://github.com/l-vM2k/dsh-ayaka-theme) ★1 — deepseek harness plugins dsh-ayaka-theme
+- 🟩 `[可用]` [laiyinyizao007-dsh-desktop-responsive](https://github.com/laiyinyizao007/dsh-desktop-responsive) ★1 — A phone-width layout for the DSH Desktop and the DeepSeek Harness web UI
 - 🟩 `[可用]` [lanechenhku-dsh-claude-project-ui](https://github.com/lanechenhku/dsh-claude-project-ui) ★1 — 把 Claude Code 的项目 + 讨论串体验搬进 DSH：主对话当 lead 派活、回报自动汇总成看板与任务，最多 6 个讨论串并发、上下文自动接续，按项目挂多个文件夹、面板中英双语——接近 Claude（Opus
 - ⬜ `[待定]` [lansi-ai-dsh-plugin-starter](https://github.com/lansi-ai/dsh-plugin-starter) ★1 — DSH plugin development starter: a loadable skill (SKILL.md) plus copy-paste templates for building dual-face (
 - 🟩 `[可用]` [lanxiuyun-dsh-multi-chat](https://github.com/lanxiuyun/dsh-multi-chat) ★1 — Side-by-side session grid for the DeepSeek Harness web GUI: click sessions in the sidebar, get an equal-cell g
@@ -2812,6 +2813,7 @@
 - 🟩 `[可用]` [loopiplusplus-dsh-plugin-toggle-manager](https://github.com/Loopiplusplus/dsh-plugin-toggle-manager) ★1 — Visual plugin manager for DSH Web.
 - 🟩 `[可用]` [looriann-dsh-cost-ledger](https://github.com/Looriann/dsh-cost-ledger) ★1 — DSH 的「费用」标签页：按天、按模型看 token 花了多少钱
 - 🟩 `[可用]` [loubaji083-rgb-dsh-plugin-aivideo-shotkit](https://github.com/loubaji083-rgb/dsh-plugin-aivideo-shotkit) ★1 — 把 AI 生成的视频（或录屏）自动切成能直接投喂人物替换工具的片段：识别并裁掉播放器 UI 覆盖层、按场景分镜、逐镜头量运动量、超长镜头再切子段
+- 🟩 `[可用]` [louiekeung-13-dsh-task-toast](https://github.com/LouieKeung-13/dsh-task-toast) ★1 — A lightweight, independent card-style task completion notification plugin for DeepSeek Harness (DSH).
 - 🟩 `[可用]` [louiscanbe-dsh-plugin-ollama-monitor](https://github.com/LouisCanBe/dsh-plugin-ollama-monitor) ★1 — Ollama 监控与测评平台 · DeepSeek Harness (DSH) 插件组合包：agent 工具 + Web 设置页面板（npm: ollama-monitor）
 - 🟩 `[可用]` [lov0vo-dsh-composer-autopair](https://github.com/lov0vo/dsh-composer-autopair) ★1 — DSH 聊天输入框的括号/引号自动配对插件 —— Auto-pair brackets and quotes in the DeepSeek Harness chat composer
 - 🟩 `[可用]` [lovejavacore-dsh-minecraft-pet](https://github.com/lovejavacore/dsh-minecraft-pet) ★1 — DeepSeek Harness（DSH）网页界面的桌面宠物——Steve、Creeper 和 Ultraman 会根据代理的工作状态做出反应
