@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T14:03:18Z",
+ "generated_at": "2026-11-22T14:18:09Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -7250,7 +7250,7 @@
   {
    "repo": "yha9806/dsh-subagent-admission",
    "name": "yha9806-dsh-subagent-admission",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents."
   },
@@ -117395,7 +117395,7 @@
   {
    "repo": "xiaohj233/dsh-credential-handoff",
    "name": "xiaohj233-dsh-credential-handoff",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Conversation-local credential handoff for DSH that writes through the credential service without exposing the"
   },
@@ -154005,7 +154005,7 @@
   {
    "repo": "yabo083/dsh-document-review",
    "name": "yabo083-dsh-document-review",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness plugin: review Markdown documents in a local browser with annotations, replacements, and dele"
   },
@@ -191763,7 +191763,7 @@
   {
    "repo": "xiaoxianyu-office/dsh-image-tools",
    "name": "xiaoxianyu-office-dsh-image-tools",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DSH bundle plugin: chat-image bridge + read_image deny + conversational image_recognize for text-only main mod"
   },

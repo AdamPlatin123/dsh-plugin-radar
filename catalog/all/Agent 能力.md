@@ -1046,7 +1046,7 @@
 - 🟩 `[可用]` [yanghua-ovo-dsh-secure-memory](https://github.com/YangHua-ovo/dsh-secure-memory) ★2 — v0.1.0｜DSH 本地加密跨工作区记忆插件：会话级精确关联、三级记忆检索、上下文预算与原页面状态更新，保留独立授权、来源追溯和提示词注入隔离
 - 🟩 `[可用]` [yankafei-smartstaff-ai-deepseek-plugin](https://github.com/YanKaFei/smartstaff-ai-deepseek-plugin) ★2 — A multi-tenant restaurant workforce SaaS test framework with a DeepSeek planning layer: accounts, marketplace,
 - ⬜ `[待定]` [yekeyu-666-ultron-memory](https://github.com/yekeyu-666/ultron-memory) ★2 — —
-- 🟩 `[可用]` [yha9806-dsh-subagent-admission](https://github.com/yha9806/dsh-subagent-admission) ★2 — Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents.
+- ⬜ `[待定]` [yha9806-dsh-subagent-admission](https://github.com/yha9806/dsh-subagent-admission) ★2 — Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents.
 - 🟩 `[可用]` [yihong89-dsh-companion](https://github.com/Yihong89/dsh-companion) ★2 — 一个完全可自定义的陪伴 Agent（DeepSeek Harness 插件）——名字、性格、声音都由你 在对话里配置，不需要 fork 仓库或发布新包
 - 🟩 `[可用]` [yihong89-dsh-usage-plugin](https://github.com/Yihong89/dsh-usage-plugin) ★2 — DeepSeek Harness (DSH) plugins
 - ⬜ `[待定]` [yitian951012-dsh-project-dev-flow](https://github.com/yitian951012/dsh-project-dev-flow) ★2 — 把一套经过真实项目校正的开发治理方法，按需加载到 agent 的上下文里
