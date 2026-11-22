@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T08:33:33Z",
+ "generated_at": "2026-11-22T08:47:31Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -12092,6 +12092,13 @@
    "desc": "角色茶话会模式 \\| Character Tea Party Agent preset for DeepSeek Harness (dsh): 8 LLM-girls roleplay around a tea table"
   },
   {
+   "repo": "shskyc/dsh-conversation-search",
+   "name": "shskyc-dsh-conversation-search",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Ctrl+F in-session search for DeepSeek Harness conversations with Office-style match list and in-place highligh"
+  },
+  {
    "repo": "shutongX/dsh-session-message",
    "name": "shutongx-dsh-session-message",
    "verdict": "pending",
@@ -20704,7 +20711,7 @@
   {
    "repo": "longyu065/dsh-session-index",
    "name": "dsh-session-index",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -62366,6 +62373,13 @@
    "desc": "A high-performance WebGL Liquid Glass plugin for DeepSeek Harness (Electron). Features FBM domain warp, chromatic dispersion, and a 5-layer GPU overheat guard. / 为 DSH 打造的高性能 WebGL 液态玻璃插件，内含色散折射、鼠标涟漪与 5 层核显保命机制。"
   },
   {
+   "repo": "ShuoweiFu/DSH-Theme-Engine",
+   "name": "shuoweifu-dsh-theme-engine",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Liquid glass theme engine for DeepSeek Harness - live desktop wallpaper behind the UI, 13-tap Gaussian blur on"
+  },
+  {
    "repo": "Shushushu-whn/dsh-brand-text",
    "name": "shushushu-whn-dsh-brand-text",
    "verdict": "ok",
@@ -102924,6 +102938,13 @@
    "desc": "—"
   },
   {
+   "repo": "tungloong/dsh-t3-inbox",
+   "name": "tungloong-dsh-t3-inbox",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Attention-first, T3 Code–inspired inbox sidebar for DeepSeek Harness"
+  },
+  {
    "repo": "TuWeiZhi/dsh-translator",
    "name": "tuweizhi-dsh-translator",
    "verdict": "incompatible",
@@ -106958,7 +106979,7 @@
   {
    "repo": "lonelymoon87/dsh-specflow",
    "name": "dsh-specflow",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "Specification-driven development toolkit for DeepSeek Harness."
   },
@@ -190207,6 +190228,13 @@
    "desc": "Desktop notifications for DeepSeek Harness (dsh) — run completion, questions, approvals"
   },
   {
+   "repo": "SamuelChung2010/DSHift",
+   "name": "samuelchung2010-dshift",
+   "verdict": "pending",
+   "stars": 5,
+   "desc": "为 DeepSeek Harness 提供类似 ChatGPT 的原生聊天体验，支持联网搜索、深度思考、附件解析、会话管理、长期记忆、跨 AI 记忆迁移、DeepSeek 聊天记录导入，以及 Chat / Agent 双"
+  },
+  {
    "repo": "WyxBUPT-22/dsh-plugin-edit-message",
    "name": "wyxbupt-22-dsh-plugin-edit-message",
    "verdict": "ok",
@@ -205959,7 +205987,7 @@
   {
    "repo": "Jesse-njx/dsh-skillport",
    "name": "dsh-skillport",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Every skill you already have — Claude Code, Codex, Cursor, Gemini CLI — works in DSH: Agent Skills SKILL.md di"
   },
@@ -206883,7 +206911,7 @@
   {
    "repo": "lxj808624/dsh-tool-git",
    "name": "lxj808624-dsh-tool-git",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "Structured safe Git tools for DeepSeek Harness (dsh): git_status/diff/log/branch/stage/commit/stash/show + des"
   },
@@ -225167,7 +225195,7 @@
   {
    "repo": "lmcsh9527/dsh-search-free",
    "name": "dsh-search-free",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Free multi-layer web search + fetch provider for DeepSeek Harness (Exa -> Tavily -> Bing + web_fetch)"
   },
@@ -242180,6 +242208,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "用于解决 deepseek harness 使用opencodego时候 的请求头问题，可以用于解决现deepseek harness 实验性功能自动审查使用opencodego导致的不可用问题"
+  },
+  {
+   "repo": "percentcola3/dsh-designer",
+   "name": "percentcola3-dsh-designer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Private standalone DSH Designer plugin: source, CI and versioned release bundles"
   },
   {
    "repo": "pgnqukezrdxmhjso/dsh-llm-codebuddy-power",
