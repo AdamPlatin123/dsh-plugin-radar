@@ -468,7 +468,7 @@
 - 🟩 `[可用]` [restregular-dsh-pocket](https://github.com/RestRegular/dsh-pocket) ★5 — Pocket for DeepSeek Harness: mobile web access to sessions, live output, tool calls, questions and approvals.
 - 🟩 `[可用]` [shyuan-hub-dsh-compact-button](https://github.com/shyuan-hub/dsh-compact-button) ★5 — one-click Compact context button for the DSH Web context meter panel.
 - 🟩 `[可用]` [soyoungzsy-soya](https://github.com/soyoungzsy/soya) ★5 — 🐳 SOYA Personal Board — your private board of directors: 12 great minds from history for decisions, morning me
-- 🟩 `[可用]` [sufan721-dsh-evolution](https://github.com/sufan721/dsh-evolution) ★5 — 让 DeepSeek Harness（dsh）Agent 自进化的 Cordis 插件——持久记忆、上下文总结落地、会话复盘、夜间梦境蒸馏与可回滚的源码自更新，越用越懂你、越用越少犯错
+- ⬜ `[待定]` [sufan721-dsh-evolution](https://github.com/sufan721/dsh-evolution) ★5 — 让 DeepSeek Harness（dsh）Agent 自进化的 Cordis 插件——持久记忆、上下文总结落地、会话复盘、夜间梦境蒸馏与可回滚的源码自更新，越用越懂你、越用越少犯错
 - 🟩 `[可用]` [taoshi1999-dsh-workspace-hygiene](https://github.com/taoshi1999/dsh-workspace-hygiene) ★5 — DeepSeek Harness plugin for agent workspace hygiene: artifact value assessment, metadata indexing, and auditab
 - 🟩 `[可用]` [taurenmountain-dsh-llm-as-a-verifier](https://github.com/TaurenMountain/dsh-llm-as-a-verifier) ★5 — LLM-as-a-Verifier for DeepSeek Harness: fine-grained reward, Probabilistic Pivot Tournament best-of-N selectio
 - 🟩 `[可用]` [tianzeluo-dsh-super-agent](https://github.com/TianzeLuo/dsh-super-agent) ★5 — Router/Worker super-agent for DeepSeek Harness (DSH): autonomous project dispatch, durable triggers, reusable

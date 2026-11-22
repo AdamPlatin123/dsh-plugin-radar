@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T22:18:13Z",
+ "generated_at": "2026-11-22T22:48:19Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3253,7 +3253,7 @@
   {
    "repo": "sufan721/dsh-evolution",
    "name": "sufan721-dsh-evolution",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "让 DeepSeek Harness（dsh）Agent 自进化的 Cordis 插件——持久记忆、上下文总结落地、会话复盘、夜间梦境蒸馏与可回滚的源码自更新，越用越懂你、越用越少犯错"
   },
@@ -42348,7 +42348,7 @@
   {
    "repo": "yoli-mi/dsh-client-ui-custom",
    "name": "yoli-mi-dsh-client-ui-custom",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 40,
    "desc": "Configurable DSH web-surface plugin: wallpaper & frosted-glass themes, accent colors, custom keyboard shortcut"
   },
@@ -98754,7 +98754,7 @@
   {
    "repo": "vonPaulison/deepseek-harness-custom-background",
    "name": "vonpaulison-deepseek-harness-custom-backgroun",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness Web 界面自定义背景插件：主界面/边栏/顶栏三区域独立背景、拖拽定位、不透明度控制、主题色、圆角、缩放"
   },
@@ -190377,7 +190377,7 @@
   {
    "repo": "wx-yss/dsh-message-rail",
    "name": "wx-yss-dsh-message-rail",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "Codex 风格左侧消息导航轨道：等距刻度 + 悬停预览 + 点击跳转用户消息 · DSH Web 插件"
   },
