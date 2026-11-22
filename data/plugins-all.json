@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T12:18:26Z",
+ "generated_at": "2026-11-22T12:33:51Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -43755,7 +43755,7 @@
   {
    "repo": "Relistencode/dsh-extension-hub",
    "name": "relistencode-dsh-extension-hub",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "Manage DSH（DeepSeek Harness)） skills and MCP servers: CLI + settings-page UI with zh/en i18n, Claude/Codex imp"
   },
@@ -46646,7 +46646,7 @@
   {
    "repo": "ShuiHan268/dsh-qwen-mm-plugins",
    "name": "shuihan268-dsh-qwen-mm-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness 的 Qwen-MM-Plugins 集成插件：12 个多模态 MCP 工具（视觉/OCR/定位/ASR/音视频）、Web 设置页（粘贴 Qwen API Key 即用）、内置技能与一键安"
   },
@@ -52533,7 +52533,7 @@
   {
    "repo": "Rainronin/dsh-balance-monitor",
    "name": "rainronin-dsh-balance-monitor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness 插件：DeepSeek API 余额实时监测（官方 /user/balance 快照 + ds_balance 工具 + 峰谷计价状态 + 单会话费用估算 + dsh 原生风格侧边栏徽章"
   },
@@ -106725,6 +106725,13 @@
    "desc": "DeepSeek Web Bridge by SaiSenBox — browse and continue DeepSeek web conversations in DSH, or import them with"
   },
   {
+   "repo": "shinjiyu/dsh-plugin-search",
+   "name": "shinjiyu-dsh-plugin-search",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "Zero-config web_search for DeepSeek Harness when you are not on the official DeepSeek API."
+  },
+  {
    "repo": "snakejohn/dsh-hindsight-local",
    "name": "snakejohn-dsh-hindsight-local",
    "verdict": "ok",
@@ -107668,6 +107675,13 @@
    "verdict": "ok",
    "stars": 4,
    "desc": "⚡ DSH 多机算力组网：把朋友间/局域网/云上 ECS 的闲置算力汇聚成分布式 AI 算力池，一台机调用整个团队的算力"
+  },
+  {
+   "repo": "SherlockGougou/dsh-plugins-fix",
+   "name": "sherlockgougou-dsh-plugins-fix",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "DSH 的插件（cordis.patch.yml 补丁层中的条目）一旦配置损坏、插件包缺失或初始化崩溃，会导致 DSH 无法启动"
   },
   {
    "repo": "SilenZerOrz/obsidian-dsh-acp",
@@ -129568,7 +129582,7 @@
   {
    "repo": "skystar567/dsh-openai-plugins",
    "name": "skystar567-dsh-openai-plugins",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "用于在dsh和openai账户之间建立连接"
   },
@@ -141823,13 +141837,6 @@
    "desc": "Three Departments and Six Ministries governance mode plugin for DeepSeek Harness \\| dsh 三省六部模式插件"
   },
   {
-   "repo": "shinjiyu/dsh-plugin-search",
-   "name": "shinjiyu-dsh-plugin-search",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "Zero-config web_search for DeepSeek Harness when you are not on the official DeepSeek API."
-  },
-  {
    "repo": "startupworld-ai/soulnet",
    "name": "startupworld-ai-soulnet",
    "verdict": "incompatible",
@@ -142248,13 +142255,6 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "DeepSeekHarness portable launcher: one-click dsh web with modern control window (Windows + macOS)"
-  },
-  {
-   "repo": "SherlockGougou/dsh-plugins-fix",
-   "name": "sherlockgougou-dsh-plugins-fix",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "DSH 的插件（cordis.patch.yml 补丁层中的条目）一旦配置损坏、插件包缺失或初始化崩溃，会导致 DSH 无法启动"
   },
   {
    "repo": "Snow-ea/dsh-token-optimizer",
@@ -179212,7 +179212,7 @@
   {
    "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
    "name": "shililinghu-dsh-file-upload-deepseek-harness-",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness 工作区文件上传插件：文件/zip 上传、自动解压、拖拽上传、上限可配置、中英双语 | Workspace file upload plugin for DeepSeek Harness: file & zip upload, auto-extract, drag & drop, configurable limits, zh/en UI"
   },
