@@ -1345,7 +1345,7 @@
 - 🟩 `[可用]` [zeroa234-dsh-comfyui](https://github.com/zeroa234/dsh-comfyui) ★3 — ComfyUI 驱动器（AI-first 合同制）：模型只见合同槽、不见工作流 JSON
 - 🟩 `[可用]` [zhang-guo-wen-dsh-drawioedit](https://github.com/zhang-guo-wen/dsh-drawioedit) ★3 — DeepSeek Harness plugin: edit .drawio diagrams in the Web Sidebar ,侧边栏编辑流程图  .drawio文件
 - 🟩 `[可用]` [zhanghao3693-dsh-deepseek-web](https://github.com/zhanghao3693/dsh-deepseek-web) ★3 — 网页版 AI 一键入口：在右侧边栏浏览器 tab 里打开 DeepSeek / Kimi / 豆包 / 腾讯元宝 / 通义千问 / 智谱清言的免费网页版（走 Electron webview，不受 CSP frame-a
-- 🟩 `[可用]` [zhen-wushuilingchun-dsh-plugin-market](https://github.com/Zhen-WushuiLingchun/dsh-plugin-market) ★3 — —
+- ⬜ `[待定]` [zhen-wushuilingchun-dsh-plugin-market](https://github.com/Zhen-WushuiLingchun/dsh-plugin-market) ★3 — —
 - 🟩 `[可用]` [zhengjy01-dsh-skill-studio](https://github.com/zhengjy01/dsh-skill-studio) ★3 — Skill studio for DeepSeek Harness: visualize, edit and enable/disable agent skills from the web settings panel
 - 🟩 `[可用]` [zhishengplus-dsh-image-annotate](https://github.com/dsh-plugins/dsh-image-annotate) ★3 — An annotation pen for the DeepSeek Harness image lightbox: circle, label, then keep moving / resizing / re-edi
 - 🟩 `[可用]` [zimai233-dsh-exam-countdown](https://github.com/zimai233/dsh-exam-countdown) ★3 — Chinese exam countdown for DeepSeek Harness
@@ -1987,7 +1987,7 @@
 - 🟩 `[可用]` [zerro-223-dsh-token-usage](https://github.com/zerro-223/dsh-token-usage) ★2 — Token usage statistics plugin for DeepSeek Harness (DSH) Web UI: per-request LLM usage captured from llm/strea
 - 🟩 `[可用]` [zgxaxdd-dsh-html-render](https://github.com/zgxaxdd/dsh-html-render) ★2 — Inline HTML + KaTeX renderer for DeepSeek Harness (DSH) chats - sandboxed iframes, theme-adaptive, height-accu
 - 🟩 `[可用]` [zhanghzdev-dsh-theme-button](https://github.com/zhanghzdev/dsh-theme-button) ★2 — DeepSeek Harness 的悬浮主题挂件：切换官方外观 + 自定义背景（图片/纯色）
-- 🟩 `[可用]` [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) ★2 — Obsidian-style \[\[wikilink\]\] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the
+- ⬜ `[待定]` [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) ★2 — Obsidian-style \[\[wikilink\]\] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the
 - 🟩 `[可用]` [zhbcher-dsh-plugin-lark](https://github.com/zhbcher/dsh-plugin-lark) ★2 — DeepSeek Harness 飞书接入插件（薄架构）：Web 面板扫码授权 lark-cli + 监听器管理
 - 🟩 `[可用]` [zhenghaoyang24-obsidian-plugin-deepshian](https://github.com/zhenghaoyang24/obsidian-plugin-deepshian) ★2 — Sidebar AI chat powered by the local DeepSeek Harness (dsh): streaming replies, tool calls, and real vault fil
 - 🟩 `[可用]` [zhengjy01-dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) ★2 — Fold plugin/extension settings entries in the DSH settings panel into one collapsible 'Plugin entries' group r

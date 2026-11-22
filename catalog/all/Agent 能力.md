@@ -1065,7 +1065,7 @@
 - 🟩 `[可用]` [zhaoqiminggg-dsh-instruction-optimizer](https://github.com/zhaoqiminggg/dsh-instruction-optimizer) ★2 — A DSH instruction secretary: turn rough drafts into complete, executable instructions with session and attachm
 - 🟩 `[可用]` [zhaoxiagongsi001-dsh-prompt-forge](https://github.com/zhaoxiagongsi001/dsh-prompt-forge) ★2 — —
 - 🟩 `[可用]` [zhaoyuntao-wl-dsh-plugin-thread](https://github.com/zhaoyuntao-wl/dsh-plugin-thread) ★2 — DeepSeek Harness plugin - Thread session memory adapter (dsh-thread)
-- 🟩 `[可用]` [dsh-session-tree](https://github.com/ZhengQingJing/dsh-session-tree) ★2 — Lightweight read-only session lineage navigation for DeepSeek Harness
+- ⬜ `[待定]` [dsh-session-tree](https://github.com/ZhengQingJing/dsh-session-tree) ★2 — Lightweight read-only session lineage navigation for DeepSeek Harness
 - 🟩 `[可用]` [zjsthmjialin-inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) ★2 — Inspiration Deck Workshop: local HTML presentation skill and template toolkit
 - 🟩 `[可用]` [zouu-x-dsh-webnotification](https://github.com/Zouu-X/DSH_WebNotification) ★2 — It is a plug-in that helps sending notifications when agent finishes in DSH
 - 🟩 `[可用]` [zriyox-dsh-goal-scaffold](https://github.com/zriyox/dsh-goal-scaffold) ★2 — 一句话大需求先别急着跑：拦一下问你要不要先规划，自动生成带验收清单的 plan.md 再开工 — DeepSeek Harness 插件 / Catches one-sentence mammoth tasks and
