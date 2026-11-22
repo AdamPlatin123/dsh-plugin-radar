@@ -38,6 +38,7 @@
 - 🟩 `[可用]` [zseven-w-dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) ★718 — Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to
 - 🟩 `[可用]` [nwflower-dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) ★672 — Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 复刻 Claude Code Desktop 风格与交互体验的主题插件
 - 🟩 `[可用]` [dsh-meme](https://github.com/yyh-001/dsh-meme) ★595 — DeepSeek Harness 表情包插件：输入框一键发图、文字 token 斗图、情绪主动发图、AI 自动学图，图库市场一键安装
+- ⬜ `[待定]` [yogsoth-ai-de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) ★515 — Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi
 - ⬜ `[待定]` [sunchaokun-ppt-design-skill](https://github.com/sunchaokun/PPT-Design-Skill) ★510 — Precision PPT design skill for OpenCode/Claude Code/Codex, with 40,000+ styles, pixel-perfect Build Mode contr
 - 🟩 `[可用]` [roland0511-dsh-marktext](https://github.com/Roland0511/dsh-marktext) ★488 — MarkText (muya) WYSIWYG Markdown editor for the DeepSeek Harness right sidebar
 - 🟩 `[可用]` [zseven-w-dsh-ios](https://github.com/ZSeven-W/dsh-ios) ★479 — DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation
@@ -7238,7 +7239,6 @@
 - 🟨 `[不兼容]` [enderfga-claw-orchestrator](https://github.com/Enderfga/claw-orchestrator) ★617 — Run Claude Code, Codex, Antigravity, Grok Build and OpenCode behind one runtime, and a run only counts as done
 - 🟨 `[不兼容]` [oxbshw-watch-skill](https://github.com/oxbshw/watch-skill) ★597 — Give AI agents eyes, ears, and verifiable results
 - 🟨 `[不兼容]` [dsh-ego-browser](https://github.com/omdsh-dev/dsh-ego-browser) ★558 — DSH（DeepSeek Harness）插件：把 ego-lite 浏览器（给 AI Agent 用的 Chromium）接入 HARNESS——13 个结构化 ego_* 工具（文本语义快照、语义定位点击、表单填充、
-- 🟨 `[不兼容]` [yogsoth-ai-de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) ★515 — Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi
 - 🟨 `[不兼容]` [modelstudioai-cli](https://github.com/modelstudioai/cli) ★371 — Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and wo
 - 🟨 `[不兼容]` [zhu1090093659-dsh-trading](https://github.com/zhu1090093659/dsh-trading) ★367 — Agent-native trading terminal built on DeepSeek Harness
 - 🟨 `[不兼容]` [shengsheng90-dsh-taskboard](https://github.com/shengsheng90/DSH-taskboard) ★329 — Native local Taskboard plugin for DeepSeek Harness

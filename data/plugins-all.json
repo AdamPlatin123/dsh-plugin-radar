@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T16:48:21Z",
+ "generated_at": "2026-11-22T17:03:26Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40356,6 +40356,13 @@
    "verdict": "ok",
    "stars": 595,
    "desc": "DeepSeek Harness 表情包插件：输入框一键发图、文字 token 斗图、情绪主动发图、AI 自动学图，图库市场一键安装"
+  },
+  {
+   "repo": "yogsoth-ai/de-anthropocentric-research-engine",
+   "name": "yogsoth-ai-de-anthropocentric-research-engine",
+   "verdict": "pending",
+   "stars": 515,
+   "desc": "Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi"
   },
   {
    "repo": "sunchaokun/PPT-Design-Skill",
@@ -90063,13 +90070,6 @@
    "verdict": "incompatible",
    "stars": 558,
    "desc": "DSH（DeepSeek Harness）插件：把 ego-lite 浏览器（给 AI Agent 用的 Chromium）接入 HARNESS——13 个结构化 ego_* 工具（文本语义快照、语义定位点击、表单填充、"
-  },
-  {
-   "repo": "yogsoth-ai/de-anthropocentric-research-engine",
-   "name": "yogsoth-ai-de-anthropocentric-research-engine",
-   "verdict": "incompatible",
-   "stars": 515,
-   "desc": "Give an AI a research direction: it runs literature synthesis, gap validation, hypothesis formation and experi"
   },
   {
    "repo": "modelstudioai/cli",
@@ -161089,7 +161089,7 @@
   {
    "repo": "yikakia/dsh-plugin-browser",
    "name": "yikakia-dsh-plugin-browser",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -204860,7 +204860,7 @@
   {
    "repo": "ymh0000123/dsh-client-masquerade",
    "name": "ymh0000123-dsh-client-masquerade",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "DeepSeek Harness 插件：让自定义 llm-pi-ai provider 伪装成 Claude Code / Codex 客户端（伪造客户端身份请求头）"
   },
@@ -224885,13 +224885,6 @@
    "desc": "A minimal IDEA in the DeepSeek Harness right column."
   },
   {
-   "repo": "lidaqi001/dsh-claude-code-delegate",
-   "name": "lidaqi001-dsh-claude-code-delegate",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness agent preset that delegates every task to a Claude Code subagent"
-  },
-  {
    "repo": "lidaqi001/dsh-codex-claude-pipeline",
    "name": "lidaqi001-dsh-codex-claude-pipeline",
    "verdict": "pending",
@@ -230746,7 +230739,7 @@
   {
    "repo": "xhvdhczd/dsh-plugin-marketplace",
    "name": "xhvdhczd-dsh-plugin-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) plugin: marketplace dashboard for the GitHub dsh-plugin topic - 2815 repos with stats,"
   },
@@ -241536,6 +241529,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "dsh-ecom-video-seedance · 带货视频拆解  DeepSeek Harness（dsh）插件：**带货视频反向拆解与 Seedance 复刻提示词生成**——把带货爆款视频\"看懂\"（拆成镜头卡片），"
+  },
+  {
+   "repo": "lidaqi001/dsh-claude-code-delegate",
+   "name": "lidaqi001-dsh-claude-code-delegate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness agent preset that delegates every task to a Claude Code subagent"
   },
   {
    "repo": "LiFenrir/dsh-external-task-context",
