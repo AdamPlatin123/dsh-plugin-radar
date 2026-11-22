@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9140）
+# 🔌 Web UI 增强（9141）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -8824,6 +8824,7 @@
 - 🟨 `[不兼容]` [saibei404-dsh-prompt-optimize](https://github.com/saibei404/dsh-prompt-optimize) ★0 — DeepSeek Harness 提示词优化插件：输入框旁一键把草稿改写成清晰可执行的提示词（DeepSeek V4.1 Flash）
 - 🟨 `[不兼容]` [saitoasuka1121-dsh-client-ui-elasticsearch](https://github.com/SaitoAsuka1121/dsh-client-ui-elasticsearch) ★0 — dsh elasticsearch plugin
 - 🟨 `[不兼容]` [santera-pixel-dsh-scriptorium](https://github.com/santera-pixel/dsh-scriptorium) ★0 — A project knowledge base for the DeepSeek Harness Web GUI: notes, media sandbox, canvas, mind graph, board and
+- 🟨 `[不兼容]` [says693-dsh-artplayer](https://github.com/says693/dsh-artplayer) ★0 — Compact ArtPlayer video plugin for DSH: sidebar entry, small landscape window, double-tap expansion and hold f
 - 🟨 `[不兼容]` [scsmash3r-dsh-ui-colors](https://github.com/scsmash3r/dsh-ui-colors) ★0 — Adds an ability to control the looks of DSH GUI, mixing spectrum and presets of colors
 - 🟨 `[不兼容]` [sdmu-gaoqi-dsh-terminal](https://github.com/sdmu-gaoqi/dsh-terminal) ★0 — dsh插件,侧边栏内置终端管理
 - 🟨 `[不兼容]` [sdwf4wgv5z-rgb-dsh-pi-ai-patch](https://github.com/sdwf4wgv5z-rgb/dsh-pi-ai-patch) ★0 — DSH 插件：把 cordis.patch.yml 里模型的 input 模态声明做成设置面板勾选框，省掉手改 YAML 的缩进风险
