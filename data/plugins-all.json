@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T06:03:08Z",
+ "generated_at": "2026-11-22T06:33:06Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -7383,7 +7383,7 @@
   {
    "repo": "ZhengQingJing/dsh-session-tree",
    "name": "dsh-session-tree",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Lightweight read-only session lineage navigation for DeepSeek Harness"
   },
@@ -49425,7 +49425,7 @@
   {
    "repo": "Zhen-WushuiLingchun/dsh-plugin-market",
    "name": "zhen-wushuilingchun-dsh-plugin-market",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -53891,7 +53891,7 @@
   {
    "repo": "zhaoscsc/dsh-wikilink",
    "name": "dsh-wikilink",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Obsidian-style \\[\\[wikilink\\]\\] mentions for the DeepSeek Harness web GUI: fuzzy-search note titles and attach the"
   },
@@ -106307,7 +106307,7 @@
   {
    "repo": "zibo2025/dsh-orchestrator",
    "name": "zibo2025-dsh-orchestrator",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "【编排模式】为 DeepSeek Harness 提供多智能体编排模式：主智能体分解分派、worker 全网格互通，支持逐 worker 指定模型与思考强度"
   },
