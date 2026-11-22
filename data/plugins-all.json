@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T06:33:06Z",
+ "generated_at": "2026-11-22T06:47:42Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -204146,7 +204146,7 @@
   {
    "repo": "ZK-Andy/dsh-continual-evolve",
    "name": "dsh-continual-evolve",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 23,
    "desc": "Continual self-evolution plugin for DeepSeek Harness: versioned, auditable, rollback-safe harness state refine"
   },
