@@ -2213,7 +2213,7 @@
 - 🟩 `[可用]` [beckchiang-dsh-tool-budget](https://github.com/BeckChiang/dsh-tool-budget) ★0 — Session-level tool budget for DeepSeek Harness: scene packs, plugin view, three tiers, call counts, cost estim
 - 🟩 `[可用]` [beisheng2333-dsh-send-mode](https://github.com/BeiSheng2333/dsh-send-mode) ★0 — Queue/steer switch in the DeepSeek Harness composer: choose what Enter and Send do while the agent is running.
 - 🟩 `[可用]` [belowthetree-dsh-openjev-browser](https://github.com/belowthetree/dsh-openjev-browser) ★0 — Native DSH (cordis) plugin port of the openjev-browser MCP stdio tool: model-driven browser control with a tin
-- 🟩 `[可用]` [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) ★0 — Context-cheap lazy MCP access for DeepSeek Harness
+- ⬜ `[待定]` [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) ★0 — Context-cheap lazy MCP access for DeepSeek Harness
 - 🟩 `[可用]` [bene-2020-plane-dsh-plugin](https://github.com/Bene-2020/plane-dsh-plugin) ★0 — Plane-powered project management for DeepSeek Harness (DSH).
 - 🟩 `[可用]` [benedicttom-dsh-thinking-intensity](https://github.com/BenedictTom/dsh-thinking-intensity) ★0 — A dot-matrix pill above the DSH composer that reads and writes the session real reasoning effort, with a parti
 - 🟩 `[可用]` [benjiyaya-dsh-asaagent](https://github.com/benjiyaya/dsh_AsaAgent) ★0 — Bridge Asa's self-learning research agent into DeepSeek Harness: mcp__asa__asa_research / asa_message / asa_st

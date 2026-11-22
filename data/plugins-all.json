@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T07:48:15Z",
+ "generated_at": "2026-11-22T08:03:15Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -15328,7 +15328,7 @@
   {
    "repo": "ben7am1n/dsh-mcp-proxy",
    "name": "dsh-mcp-proxy",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Context-cheap lazy MCP access for DeepSeek Harness"
   },
@@ -195102,7 +195102,7 @@
   {
    "repo": "devteapot/dsh-openai-codex",
    "name": "dsh-openai-codex",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "OpenAI Codex (ChatGPT OAuth) provider bundle for DeepSeek Harness"
   },
