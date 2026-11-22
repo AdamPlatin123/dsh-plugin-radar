@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T10:33:17Z",
+ "generated_at": "2026-11-22T11:17:37Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3036,7 +3036,7 @@
   {
    "repo": "LemCAE/dsh-balance",
    "name": "lemcae-dsh-balance",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "一个适用于deepseek-harness的插件，功能是显示当前账户余额以及当前会话预估的费用消耗 \\| A plugin for deepseek-harness that displays the current ac"
   },
@@ -10379,7 +10379,7 @@
   {
    "repo": "Lanxi26/dsh-cluster",
    "name": "lanxi26-dsh-cluster",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "画布式多智能体协作插件 \\| Canvas-based multi-agent cooperation plugin for DeepSeek Harness"
   },
@@ -42404,7 +42404,7 @@
   {
    "repo": "liqichen/dsh-plugin-manager",
    "name": "liqichen-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "DSH 插件管理器:在 DeepSeek Harness 设置面板内嵌 GUI,管理 MCP 服务 / Skills / 内置插件包,改动热生效无需重启"
   },
@@ -45260,7 +45260,7 @@
   {
    "repo": "kbpoyo/dsh-image-bridge",
    "name": "kbpoyo-dsh-image-bridge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH 插件：让纯文本模型也能看图"
   },
@@ -47878,7 +47878,7 @@
   {
    "repo": "huadong19970512-cyber/deepseek-tui",
    "name": "huadong19970512-cyber-deepseek-tui",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Unofficial Tauri desktop shell for DeepSeek Harness"
   },
@@ -51161,7 +51161,7 @@
   {
    "repo": "imissthecat/dsh-plugin-manager",
    "name": "imissthecat-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "一个可实际使用的 DeepSeek Harness WebUI 插件管理器：在浏览器里搜索 npm 仓库、安装、启用/停用、卸载 profile 插件，不再依赖命令行 dsh plugin"
   },
@@ -51483,7 +51483,7 @@
   {
    "repo": "kyorakuyk/dsh-hotreload-plugin-manager",
    "name": "kyorakuyk-dsh-hotreload-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness plugin: hot install / uninstall / update / enable-disable of profile plugin bundles from the"
   },
@@ -76025,7 +76025,7 @@
   {
    "repo": "kun2-5code/dsh-plugin-installer",
    "name": "dsh-plugin-installer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness (dsh) plugin: install/remove profile plugins straight from the web GUI (Settings → Plugins →"
   },
@@ -151728,6 +151728,13 @@
    "desc": "Unofficial open-source Windows Electron wrapper for DeepSeek Harness"
   },
   {
+   "repo": "IMHaoyan/deepseek-harness-launcher",
+   "name": "imhaoyan-deepseek-harness-launcher",
+   "verdict": "pending",
+   "stars": 19,
+   "desc": "DeepSeek Harness Launcher（DSHL）—— Windows 托盘启动器 / 看护工具：运行环境一键安装、服务看护、自动更新"
+  },
+  {
    "repo": "inmny/dsh-sandbox-escalation-fix",
    "name": "inmny-dsh-sandbox-escalation-fix",
    "verdict": "ok",
@@ -151877,7 +151884,7 @@
   {
    "repo": "labmimors/dsh-mcp-lens",
    "name": "labmimors-dsh-mcp-lens",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 12,
    "desc": "Search 1,000 MCP tools through two interfaces in DeepSeek Harness"
   },
@@ -161512,13 +161519,6 @@
    "verdict": "incompatible",
    "stars": 22,
    "desc": "Verified plugin marketplace and autonomous registry for DeepSeek Harness"
-  },
-  {
-   "repo": "IMHaoyan/deepseek-harness-launcher",
-   "name": "imhaoyan-deepseek-harness-launcher",
-   "verdict": "incompatible",
-   "stars": 19,
-   "desc": "DeepSeek Harness Launcher（DSHL）—— Windows 托盘启动器 / 看护工具：运行环境一键安装、服务看护、自动更新"
   },
   {
    "repo": "dsh-ssh/dsh-ssh",
@@ -171349,6 +171349,13 @@
    "desc": "Minecraft dev for DeepSeek Harness (dsh): Paper/Spigot/Fabric/Forge/NeoForge across MC 1.7.10-26.3, offline AP"
   },
   {
+   "repo": "Karbo123/DSH-EvoResearch",
+   "name": "karbo123-dsh-evoresearch",
+   "verdict": "pending",
+   "stars": 19,
+   "desc": "自进化科研工作流"
+  },
+  {
    "repo": "civaapple-alt/mini-dsh",
    "name": "civaapple-alt-mini-dsh",
    "verdict": "ok",
@@ -171386,7 +171393,7 @@
   {
    "repo": "JuneLearn/dsh-image2-draw",
    "name": "junelearn-dsh-image2-draw",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "DeepSeek Harness Image2 生图插件，通过第三方 OpenAI Images 兼容接口调用 gpt-image-2，只需配置 baseURL 和 API Key"
   },
@@ -172453,13 +172460,6 @@
    "verdict": "incompatible",
    "stars": 28,
    "desc": "DeepSeek Harness 红队评测插件 dsh-purge 的接续仓库：以官方 1.1.90 发布包为基线重建，自 1.1.91 起继续发布"
-  },
-  {
-   "repo": "Karbo123/DSH-EvoResearch",
-   "name": "karbo123-dsh-evoresearch",
-   "verdict": "incompatible",
-   "stars": 19,
-   "desc": "自进化科研工作流"
   },
   {
    "repo": "EarzuChan/DshVibeLearning",
@@ -189250,7 +189250,7 @@
   {
    "repo": "jjxjjjjiik-bot/dsh-chat-timeline",
    "name": "jjxjjjjiik-bot-dsh-chat-timeline",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 33,
    "desc": "1:1 port of DeepSeek's official web right-side chat navigation rail (ScrollNav) as a DeepSeek Harness (DSH) pl"
   },
@@ -190699,7 +190699,7 @@
   {
    "repo": "Hoshino-Yumetsuki/dsh-onebot",
    "name": "hoshino-yumetsuki-dsh-onebot",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "OneBot Adapter For DSH"
   },
@@ -203234,6 +203234,13 @@
    "desc": "DSH 插件：便捷无感的同窗口内对话回退，从不新建分支；自带轻量工作区备份，可一并还原文件（Claude Code /rewind 语义）"
   },
   {
+   "repo": "HanaAyane/dsh-reasoning-effort",
+   "name": "hanaayane-dsh-reasoning-effort",
+   "verdict": "pending",
+   "stars": 283,
+   "desc": "DSH适用的Q版大模型娘跑步思考强度滑块"
+  },
+  {
    "repo": "Microqian2th/dsh-codex-effort-slider",
    "name": "microqian2th-dsh-codex-effort-slider",
    "verdict": "ok",
@@ -203463,6 +203470,13 @@
    "verdict": "ok",
    "stars": 131,
    "desc": "Quality gate for AI/Codex-generated pull requests: blocks TODO leftovers, leaked secrets, sloppy commits and r"
+  },
+  {
+   "repo": "liceses/dsh-gitbash-preset",
+   "name": "liceses-dsh-gitbash-preset",
+   "verdict": "pending",
+   "stars": 128,
+   "desc": "DeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agent preset —— 把 DSH 自带极简模式中的 bash 调用映射到 Git for Windows 的 bash（MSYS"
   },
   {
    "repo": "NINKCH/dsh-infinite_canvas",
@@ -208675,7 +208689,7 @@
   {
    "repo": "lifensame/dsh-plugin",
    "name": "lifensame-dsh-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Global memory plugin for the DeepSeek Harness (dsh): persistent cross-session memories, automatic recall, and"
   },
@@ -213841,7 +213855,7 @@
   {
    "repo": "Huasfan/dsh-tool-git",
    "name": "dsh-tool-git",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Git tools for DeepSeek Harness agent"
   },
@@ -232494,13 +232508,6 @@
    "desc": "AI-native engineering environment management that makes your codebase agent-ready."
   },
   {
-   "repo": "HanaAyane/dsh-reasoning-effort",
-   "name": "hanaayane-dsh-reasoning-effort",
-   "verdict": "incompatible",
-   "stars": 283,
-   "desc": "DSH适用的Q版大模型娘跑步思考强度滑块"
-  },
-  {
    "repo": "Rain-kl/dsh-preset-plus",
    "name": "rain-kl-dsh-preset-plus",
    "verdict": "incompatible",
@@ -232583,13 +232590,6 @@
    "verdict": "incompatible",
    "stars": 132,
    "desc": "DeepSeek Harness Codex Desktop — 无需预装环境、开箱即用的跨平台桌面客户端 · A ready-to-use cross-platform DeepSeek Harness desktop"
-  },
-  {
-   "repo": "liceses/dsh-gitbash-preset",
-   "name": "liceses-dsh-gitbash-preset",
-   "verdict": "incompatible",
-   "stars": 128,
-   "desc": "DeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agent preset —— 把 DSH 自带极简模式中的 bash 调用映射到 Git for Windows 的 bash（MSYS"
   },
   {
    "repo": "hancao97/hanai-investment-dsh",

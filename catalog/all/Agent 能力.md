@@ -437,7 +437,7 @@
 - 🟩 `[可用]` [kianajunjie-dsh-hippocampus](https://github.com/kianajunjie/dsh-hippocampus) ★5 — 给「大肥鱼」的记忆层：事件编码、情绪加权遗忘、联想召回，还会承认自己记不清
 - 🟩 `[可用]` [kidli1412-dsh-session-cost](https://github.com/KIDLi1412/dsh-session-cost) ★5 — DSH web plugin: conversation status bar with per-session token cost estimate (per-model CNY pricing) and live
 - ⬜ `[待定]` [leawind-dsh-minecraft-dev](https://github.com/Leawind/dsh-minecraft-dev) ★5 — 一个面向 Minecraft 模组开发的 DeepSeek Harness Agent 预设
-- 🟩 `[可用]` [lemcae-dsh-balance](https://github.com/LemCAE/dsh-balance) ★5 — 一个适用于deepseek-harness的插件，功能是显示当前账户余额以及当前会话预估的费用消耗 \| A plugin for deepseek-harness that displays the current ac
+- ⬜ `[待定]` [lemcae-dsh-balance](https://github.com/LemCAE/dsh-balance) ★5 — 一个适用于deepseek-harness的插件，功能是显示当前账户余额以及当前会话预估的费用消耗 \| A plugin for deepseek-harness that displays the current ac
 - ⬜ `[待定]` [leolourson-macrostress-dsh](https://github.com/LeoLourson/MacroStress-DSH) ★5 — Plugin-based macro stress testing over MCP
 - 🟩 `[可用]` [lin-axiomsight-dsh-zh-layer](https://github.com/Lin-AxiomSight/dsh-zh-layer) ★5 — A toggleable bilingual layer for DSH: Chinese names + English originals for plugins, commands and skills · DSH
 - 🟩 `[可用]` [lizilong1993-dsh-unlimited-effort](https://github.com/lizilong1993/dsh-unlimited-effort) ★5 — Composer infinity switch for DeepSeek Harness: injects an unlimited-token-budget notice into the system prompt
@@ -1495,7 +1495,7 @@
 - 🟩 `[可用]` [laiyouxing-dsh-session-budget](https://github.com/laiyouxing/dsh-session-budget) ★1 — Per-session token, cost and wall-clock budgets for DeepSeek Harness that stop the model session at the limit,
 - 🟩 `[可用]` [lamplitisles-kepos-hindsight](https://github.com/LamplitIsles/kepos-hindsight) ★1 — hindsight memory for companion agent in dsh
 - 🟩 `[可用]` [lance808-dsh-think-zh](https://github.com/lance808/dsh-think-zh) ★1 — DeepSeek Harness 插件：通过在系统提示词中注入一条指令，使AI用中文推理（思考）
-- 🟩 `[可用]` [lanxi26-dsh-cluster](https://github.com/Lanxi26/dsh-cluster) ★1 — 画布式多智能体协作插件 \| Canvas-based multi-agent cooperation plugin for DeepSeek Harness
+- ⬜ `[待定]` [lanxi26-dsh-cluster](https://github.com/Lanxi26/dsh-cluster) ★1 — 画布式多智能体协作插件 \| Canvas-based multi-agent cooperation plugin for DeepSeek Harness
 - 🟩 `[可用]` [laochenfeizhai-dsh-todo-progress-guard](https://github.com/LaochenFEIZHAI/dsh-todo-progress-guard) ★1 — DSH host plugin: keeps todo_write progress in sync by nudging the agent mid-turn and completing stranded tasks
 - 🟩 `[可用]` [lavenleo-dsh-web-summary](https://github.com/lavenleo/dsh-web-summary) ★1 — A DeepSeek Harness plugin that fetches a public web page and returns its title and plain-text summary to the a
 - ⬜ `[待定]` [lazyra-dsh-session-trash](https://github.com/LazyRa/dsh-session-trash) ★1 — Recoverable session deletion for DeepSeek Harness: delete moves sessions to a trash folder, restorable for 7 d
