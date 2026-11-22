@@ -5558,7 +5558,6 @@
 - ⬜ `[待定]` [mathieuportmann-dsh-plan-runner](https://github.com/MathieuPortmann/dsh-plan-runner) ★0 — Step-by-step plan runner for DeepSeek Harness (DSH), built for small local models: fresh child conversation pe
 - 🟩 `[可用]` [matrixc7-dsh-ui-zoom](https://github.com/MatrixC7/dsh-ui-zoom) ★0 — 适用于 DeepSeek Harness (DSH) 的全局 UI 缩放插件
 - 🟩 `[可用]` [matsuriy-dsh-wallpaper-skin](https://github.com/matsuriy/dsh-wallpaper-skin) ★0 — DSH 动态壁纸皮肤插件（大肥鱼版）：mp4/webm 视频或 jpg/png/gif 图片作为 DeepSeek Harness 背景，设置页集成、原生文件选择、遮罩/亮度/底调调节、热切换不重启
-- ⬜ `[待定]` [matteocui001-dsh-local-task-observer](https://github.com/MatteoCui001/dsh-local-task-observer) ★0 — Read-only local task metadata for macOS and DeepSeek Harness
 - 🟩 `[可用]` [mauit06-dsh-jinhsi-skin](https://github.com/Mauit06/dsh-jinhsi-skin) ★0 — DeepSeek Harness webGUI的今汐主题，Jinhsi (Wuthering Waves) theme for the DeepSeek Harness web GUI
 - 🟩 `[可用]` [maxesisnclaw-dsh-force-motion](https://github.com/maxesisnclaw/dsh-force-motion) ★0 — Keep DeepSeek Harness UI animations running despite prefers-reduced-motion / 强制开启 dsh 界面动效
 - ⬜ `[待定]` [maxevansliuer-dsh-window-control](https://github.com/MaxEvansLiuer/dsh-window-control) ★0 — Control any Windows window or browser from an LLM agent: UI Automation + vision/OCR + real input + CDP, packag
@@ -8833,6 +8832,7 @@
 - 🟨 `[不兼容]` [mason-1011-dsh-schematic](https://github.com/Mason-1011/dsh-schematic) ★0 — Human-and-agent control plane for DeepSeek Harness — visualize live wiring, trace activity, and safely automat
 - 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-folder](https://github.com/mastereal/dsh-sidebar-enhancement-folder) ★0 — Reveal the containing folder of any file open in a dsh-better-sidebar editor tab (one button per tab)
 - 🟨 `[不兼容]` [mastereal-dsh-sidebar-enhancement-search](https://github.com/mastereal/dsh-sidebar-enhancement-search) ★0 — Codex-style file search inside the built-in dsh-better-sidebar Explorer tab + per-file-type icons/badges
+- 🟨 `[不兼容]` [matteocui001-dsh-local-task-observer](https://github.com/MatteoCui001/dsh-local-task-observer) ★0 — Read-only local task metadata for macOS and DeepSeek Harness
 - 🟨 `[不兼容]` [max-null-dsh-jubensha](https://github.com/Max-Null/dsh-jubensha) ★0 — Solo murder-mystery in the DSH sidebar: AI hosts the game and fills every seat but yours (up to five AI player
 - 🟨 `[不兼容]` [mdalboni-dsh-mobile](https://github.com/mdalboni/dsh-mobile) ★0 — Mobile viewport lock, overscroll containment, virtual keyboard resizing, and sidebar auto-retraction for DeepS
 - 🟨 `[不兼容]` [mengxinggg-dsh-desktop](https://github.com/mengxingGG/dsh-desktop) ★0 — Community downstream of DeepSeek Harness with a cross-platform desktop shell and built-in plugin tools.〔📦〕
