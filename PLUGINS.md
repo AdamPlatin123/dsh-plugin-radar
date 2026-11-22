@@ -94,13 +94,6 @@
 | DSH-Plugins-Marketplace | [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | DSH 插件市场：聚合 GitHub `dsh-plugin` 话题插件，Web GUI 一键安装/更新/已安装识别（含预装插件自动比对），静态索引 CI 每 2 小时刷新，中英双语 | ✅ |
 | dsh-doublecheck | [PerryLink/dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) | 工程纪律插件：交付前三查——需求审讯（grill-requirements 技能）+ 红绿测试证据门 + 对抗评审 + 交付报告与逐维度核对（verify 工作流）；/doublecheck 会话命令、en/zh 双语、npm 已发布 0.6.0 | 待测 |
 | dsh-git-plugin | [IT-coder-Yy/dsh-git-plugin](https://github.com/IT-coder-Yy/dsh-git-plugin) | 面向 DSH Web 的可视化 Git 工作台：查看仓库状态、Diff、分支、提交历史与贮藏，点击执行常用 Git 操作，并安全运行 AI 生成的分步骤 Git 提议；npm `dsh-easygit-plugin` 0.2.1，DSH 0.1.0-rc.6 实测 | 待测 |
-| dsh-memento | [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) | 有界、分层、审批门、可审计的跨会话记忆接缝：ctx.memory 服务 + 本地 SQLite（零依赖）+ memory 工具 + 冻结快照注入；写必审批、模型可见 ⟺ 落盘；0.4.0 预演 dsh-memory-protocol v1——适配器注册表（mem0/Hermes/CLAUDE.md 转换）+ 可分发一致性套件 | ✅ |
-| dsh-mcp-panel | [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) | 官方 MCP 客户端（dsh-mcp-client）管理控制台：/mcp 命令 + 设置页 MCP 页签提供服务器增删改（审批门 + 自动备份的只追加 profile 写入）、走官方工具管线的工具试用台、健康诊断与连接状态；npm 0.4.0，全量门禁绿（142 测试） | ✅ |
-| dsh-budget | [PerryLink/dsh-budget](https://github.com/PerryLink/dsh-budget) | 成本治理：按模型/会话/天聚合 token 与费用计量，会话/日/月预算上限 + 阈值告警（桌面通知 + webhook）与超限 alert/block/degrade 策略，碳足迹估算、分模型延迟基准、Settings 预算页与 /budget 命令 | 待测 |
-| dsh-checkpoint-rewind | [PerryLink/dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) | Claude Code /rewind 等价能力：每次变更型工具执行前捕获 git 优先工作区快照（stash create / commit-tree 未引用对象，copy 兜底），轮次边界 fork 会话，一条 /rewind 命令恢复文件并回退会话（三段式事务 + 保护检查点 + preview 只读预览 + 增量字节配额）；npm 可装，160 单测 + Win/Linux CI 全绿 | 待测 |
-| dsh-draw | [PerryLink/dsh-draw](https://github.com/PerryLink/dsh-draw) | 统一静态图像生成路由：单一 image_generate 工具 + 标准参数，配置驱动的 OpenAI 兼容引擎路由（OpenAI Images、智谱 CogView 及任意兼容端点）与健康感知回退，工作区持久附件结果、按会话配额记账、对话内结果卡片，API key 存为凭据引用 | 待测 |
-| dsh-defend | [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) | 注入/越狱/密钥泄露检测 + 危险删除门禁：Aho-Corasick 引擎在用户消息、工具参数、工具结果三处按 allow/ask/block 拦截（脱敏 defend/detection 审计事件、defend_report 工具、/defend 命令），并拒绝工作区外的递归删除命令 | 待测 |
-| dsh-local-ai | [PerryLink/dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) | Ollama 本地模型接入：ollama_list/pull/remove/show 与健康检查，以官方 LlmAdapter 注册 Ollama 路由并按 model_route 规则（离线优先/长文本/隐私）分流、失败自动回退云端；/ollama 命令一键总览；npm dsh-local-ai 已发布 | 待测 |
 
 | dsh-mcp-adapter | [NexusAgentX/dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) | 一个 mcp 代理工具：按需 search/describe/call，不把每个 MCP schema 塞进上下文；Web `/mcp` 菜单可添加/连接/授权 | ✅ |
 | dsh-mcp-skill-panel | [lilyblessing/dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) | MCP 与技能管理面板：MCP 服务器/Skill 实时启停释放上下文（停用态回填目录工具数）；可选 AI 中间层（mcp_search/mcp_call）按 server 状态过滤可见性、保活启用 + 空闲 30s 回收 | ✅ |
@@ -234,6 +227,12 @@
 | dsh-plugin-upgrader | [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) | 插件页「版本」标签：换版本走原位替换（只临时摘掉 manifest 里的那条依赖再装回，bundle 全程不卸载、启用状态不用恢复），升级时显示阶段、pnpm 原始日志、已用时并可取消，列出全部已发布版本并一键回滚，每个版本号都指向真实 release 页，镜像落后上游时标出缺口，安装源可选且写进 profile；五条 HTTP 路由仅接受回环访问 | 待测 |
 | memory-lattice | [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | 会遗忘的记忆插件：短期记忆 48h 自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准；运行时零第三方依赖；npm `memory-lattice`@0.2.10 | 待测 |
 | @youdotcom-oss/dsh-plugin | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) | You.com 联网：把 DSH 原生 web_search 接到 You.com（无 key 时走免费匿名搜索），注册 web_fetch 提供方，并挂载 You.com 研究/金融/发现/docs 四个 MCP 服务器；monorepo，插件在 `packages/dsh-plugin` | 待测 |
+| dsh-memento | [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) | 有界、分层、审批门、可审计的跨会话记忆接缝：ctx.memory 服务 + 本地 SQLite（零依赖）+ memory 工具 + 冻结快照注入；写必审批、模型可见 ⟺ 落盘；0.4.0 预演 dsh-memory-protocol v1——适配器注册表（mem0/Hermes/CLAUDE.md 转换）+ 可分发一致性套件 | ✅ |
+| dsh-mcp-panel | [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) | 官方 MCP 客户端（dsh-mcp-client）管理控制台：/mcp 命令 + 设置页 MCP 页签提供服务器增删改（审批门 + 自动备份的只追加 profile 写入）、走官方工具管线的工具试用台、健康诊断与连接状态；npm 0.4.0，全量门禁绿（142 测试） | ✅ |
+| dsh-budget | [PerryLink/dsh-budget](https://github.com/PerryLink/dsh-budget) | 成本治理：按模型/会话/天聚合 token 与费用计量，会话/日/月预算上限 + 阈值告警（桌面通知 + webhook）与超限 alert/block/degrade 策略，碳足迹估算、分模型延迟基准、Settings 预算页与 /budget 命令 | 待测 |
+| dsh-checkpoint-rewind | [PerryLink/dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) | Claude Code /rewind 等价能力：每次变更型工具执行前捕获 git 优先工作区快照（stash create / commit-tree 未引用对象，copy 兜底），轮次边界 fork 会话，一条 /rewind 命令恢复文件并回退会话（三段式事务 + 保护检查点 + preview 只读预览 + 增量字节配额）；npm 可装，160 单测 + Win/Linux CI 全绿 | 待测 |
+| dsh-draw | [PerryLink/dsh-draw](https://github.com/PerryLink/dsh-draw) | 统一静态图像生成路由：单一 image_generate 工具 + 标准参数，配置驱动的 OpenAI 兼容引擎路由（OpenAI Images、智谱 CogView 及任意兼容端点）与健康感知回退，工作区持久附件结果、按会话配额记账、对话内结果卡片，API key 存为凭据引用 | 待测 |
+| dsh-defend | [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) | 注入/越狱/密钥泄露检测 + 危险删除门禁：Aho-Corasick 引擎在用户消息、工具参数、工具结果三处按 allow/ask/block 拦截（脱敏 defend/detection 审计事件、defend_report 工具、/defend 命令），并拒绝工作区外的递归删除命令 | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
@@ -294,6 +293,7 @@
 | dsh-suite | [whyihaveyou/dsh-suite](https://github.com/whyihaveyou/dsh-suite) | DSH 插件活目录 + 脚手架 + 内置插件商店：785+ 插件每小时刷新、每日兼容 CI 实测、中英双语可搜索目录站；含 create-dsh-plugin 脚手架与 plugin-manager / plugin-notify / plugin-session-export / plugin-team-board 五个 npm 包 | 已测 |
 | dsh-change-budget | [Raphaelutumn/dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) | 为每个 DSH Agent 回合设置文件数、修改调用数与 UTF-8 载荷额度；在受支持的文件修改工具执行前阻止超额修改，并对并行调用同步预留额度 | 待测 |
 | dshscan | [shaoshi20/dshscan](https://github.com/shaoshi20/dshscan) | DSH 插件安全审查器：风险评分/严重等级/证据/安装建议；静态+语义双通道、DSH 特有攻击面规则、npm 源码扫描与 audit、批量扫描、HTML 报告 + Web Dashboard（npm: @shaoshi/dshscan） | 待测 |
+| dsh-local-ai | [PerryLink/dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) | Ollama 本地模型接入：ollama_list/pull/remove/show 与健康检查，以官方 LlmAdapter 注册 Ollama 路由并按 model_route 规则（离线优先/长文本/隐私）分流、失败自动回退云端；/ollama 命令一键总览；npm dsh-local-ai 已发布 | 待测 |
 | dsh-cert-mcp | [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) | DSH 插件认证注册表 MCP 服务器：查询认证、列出已认证插件、读取认证规范 | 待测 |
 | dsh-wallpaper-engine | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 把本机 Wallpaper Engine 壁纸渲染到 DSH Web 对话界面后方：视频原生播放、Web/HTML 走 iframe、Scene 壁纸由内置纯 JS 场景渲染器输出完整场景帧（对象树/纹理/粒子/shader 效果）；iOS 液态玻璃（配色/玻璃颜色/透明度/模糊统一调节）、一级液态玻璃设置页、壁纸选择弹窗、隐藏/恢复、倍速/翻转/亮度对比度饱和度、遮挡暂停省电三档、ffmpeg 抽帧转码帧率上限、自定义壁纸上传；设置持久化到宿主端文件，npm `dsh-plugin-wallpaper-engine` 0.7.0 | 待测 |
 | dsh-theme-macintosh | [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) | 经典麦金塔 System 7 像素主题：ChiKareGo/Fusion Pixel 像素字体、桌面噪点画布、Finder 式会话侧栏、黑白按钮与弹窗、深浅色随官方外观切换、Kit 检视页；npm `dsh-theme-macintosh`，`dsh plugin add github:fengb3/dsh-theme-macintosh` 一键安装 | ✅(自报) |
