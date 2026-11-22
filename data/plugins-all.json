@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T15:18:12Z",
+ "generated_at": "2026-11-22T15:32:54Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -74429,7 +74429,7 @@
   {
    "repo": "jackxiao-hub/dsh-plugin-tree",
    "name": "jackxiao-hub-dsh-plugin-tree",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "A DSH web client plugin that turns the Settings → Plugins page into a dependency-layered plugin tree, plus an"
   },
@@ -105705,7 +105705,7 @@
   {
    "repo": "kxh4892636/pi-deepseek-anchor",
    "name": "kxh4892636-pi-deepseek-anchor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "pi extension: DeepSeek V4 Pro Minimal-anchored bootstrap, then full Standard tools (port of dsh-anchored-stand"
   },
