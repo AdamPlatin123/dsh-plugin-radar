@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T17:18:31Z",
+ "generated_at": "2026-11-22T17:33:24Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -173724,7 +173724,7 @@
   {
    "repo": "anjaymi/dsh-plugin-store",
    "name": "anjaymi-dsh-plugin-store",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Native plugin store for DeepSeek Harness Web"
   },
@@ -189747,7 +189747,7 @@
   {
    "repo": "br1nosense/dsh-wxauto-plugin",
    "name": "br1nosense-dsh-wxauto-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "dsh-wxauto-plugin — DSH 微信汇报与监听插件"
   },
@@ -212161,7 +212161,7 @@
   {
    "repo": "ayahunter/dsh-plugin-clinic",
    "name": "ayahunter-dsh-plugin-clinic",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Read-only health clinic for installed DeepSeek Harness plugins: loader health, dependency integrity, version c"
   },
