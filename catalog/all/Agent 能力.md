@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5776）
+# 🤖 Agent 能力（5775）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1828,7 +1828,6 @@
 - 🟩 `[可用]` [wangjiaqizero-dsh-session-hud](https://github.com/wangjiaqizero/dsh-session-hud) ★1 — Desktop floating session HUD for DeepSeek Harness: always-on-top overlay that appears when DSH is minimized (W
 - 🟩 `[可用]` [wanglijie34-dsh-session-jump](https://github.com/wanglijie34/dsh-session-jump) ★1 — —
 - 🟩 `[可用]` [wangshouyong-dsh-taskbearing](https://github.com/wangshouyong/dsh-taskbearing) ★1 — 在长对话里，AI 从来不缺上下文，缺上下文的是你
-- 🟩 `[可用]` [wangzhen110-dsh-omni-memory](https://github.com/wangzhen110/omni-memory) ★1 — 全息记忆：跨宿主 AI 长期记忆库（DSH 原生插件 + MCP / HTTP / OpenAPI / CLI）
 - 🟩 `[可用]` [wangzhuoyuan229-source-deepseeklauncher](https://github.com/wangzhuoyuan229-source/DeepSeekLauncher) ★1 — macOS desktop launcher for DeepSeek Harness — Chrome, custom transparent icon, and installation skill
 - 🟩 `[可用]` [warsk-80486-dsh-auto-summary](https://github.com/Warsk-80486/dsh-auto-summary) ★1 — DeepSeek Harness plugin: summarize a session at a token threshold and hand it off to a fresh agent, always kee
 - 🟩 `[可用]` [warter666-dsh-compaction-fit](https://github.com/warter666/dsh-compaction-fit) ★1 — DSH compaction middleware: real-token prompt trimming, shrink-and-retry on prompt-too-long, and repair of pi-a
@@ -3689,6 +3688,7 @@
 - 🟩 `[可用]` [wangyong1972-dsh-auto-approval](https://github.com/wangyong1972/dsh-auto-approval) ★0 — —
 - ⬜ `[待定]` [wangyueyueye-dsh-session-delete](https://github.com/wangyueyueye/dsh-session-delete) ★0 — 真正删除 DSH 会话：日志全部格式代、投影缓存、索引、插件数据、孤儿附件，可选覆盖擦除
 - 🟩 `[可用]` [wangzhanchao883-dsh-no-long-sit](https://github.com/wangzhanchao883/dsh-no-long-sit) ★0 — Sit-and-water reminder for DeepSeek Harness: a 30-90 min focus cycle ends in a centered popup + triple chime;
+- 🟩 `[可用]` [omni-memory](https://github.com/wangzhen110/omni-memory) ★0 — 全息记忆：跨宿主 AI 长期记忆库（DSH 原生插件 + MCP / HTTP / OpenAPI / CLI）
 - ⬜ `[待定]` [wangzishu-cn-dsh-guardian](https://github.com/wangzishu-CN/dsh-guardian) ★0 — Session-0-safe DeepSeek Harness watchdog: probe loopback, restart via Interactive scheduled task.
 - 🟩 `[可用]` [wangzw928-dsh-model-router-lite](https://github.com/WangZW928/dsh-model-router-lite) ★0 — 按任务类型为原生子 agent 提供模型选择建议；不自动授权
 - 🟩 `[可用]` [wannaknowhys-dsh-preset-rules](https://github.com/wannaknowhys/dsh-preset-rules) ★0 — Generate DeepSeek Harness agent-preset patches from a small editable rule file
@@ -4184,7 +4184,6 @@
 - 🟩 `[可用]` [zzy-cl-dsh-prompt-optimizer](https://github.com/zzy-cl/dsh-prompt-optimizer) ★0 — —
 - ⬜ `[待定]` [zzzmmmnn-dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) ★0 — Remote-only OpenKapsel workspace bridge for the DeepSeek Harness: replaces host filesystem and shell tools wit
 - 🟩 `[可用]` [zzzzyppp-dsh-skill-desc-zh](https://github.com/zzzzyppp/dsh-skill-desc-zh) ★0 — 把 DSH 技能与斜杠命令描述自动翻译为中文，并在设置页管理技能与第三方插件（技能 CRUD、禁用、回收站、检查更新）
-- 🟩 `[可用]` [wangzhen110-dsh-omni-memory](https://github.com/wangzhen110/dsh-omni-memory) ★0 — 全息记忆：DeepSeek Harness 长期记忆插件（源码可见 · 仅限个人自用 · 禁止商用与转售）
 - `[空仓监测]` **trae-dsh-plugin** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **eightfs-dsh-session-group** — GitHub 无此仓库，判定暂不展示
 - `[空仓监测]` **haoyuan-sjtu-deepseek-harness-governed-memory** — GitHub 无此仓库，判定暂不展示
