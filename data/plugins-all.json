@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-21T23:48:04Z",
+ "generated_at": "2026-11-22T00:03:18Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3911,7 +3911,7 @@
   {
    "repo": "Zephyr-vibe/dsh-personalize",
    "name": "dsh-personalize",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Per-host personalization for DSH: custom instructions, local long-term memory, and reply-tone presets."
   },
@@ -64102,6 +64102,13 @@
    "desc": "Type Markdown, see it rendered live — Open-WebUI-style composer for DeepSeek Harness (DSH) web"
   },
   {
+   "repo": "ZgblKylin/dsh-gui",
+   "name": "zgblkylin-dsh-gui",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Tauri GUI with integrated DeepSeek Harness, and some plugin bundle"
+  },
+  {
    "repo": "zhang-guangjie/dsh-video-bg",
    "name": "zhang-guangjie-dsh-video-bg",
    "verdict": "ok",
@@ -95838,13 +95845,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "专为 WordPress 建站调试打造的 Skill 集合 · 包含 DeepSeek Harness (DSH) Plugin 开发 Skill + WordPress 插件开发 AI 工具包（5 Agents + 1"
-  },
-  {
-   "repo": "ZgblKylin/dsh-gui",
-   "name": "zgblkylin-dsh-gui",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Tauri GUI with integrated DeepSeek Harness, and some plugin bundle"
   },
   {
    "repo": "zhaizhoux/dsh-cad-freecad",
@@ -150764,7 +150764,7 @@
   {
    "repo": "zhangzujian/dsh-same-mode-sandbox-noop",
    "name": "dsh-same-mode-sandbox-noop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DSH compatibility plugin for redundant same-mode sandbox escalation requests"
   },
@@ -208157,7 +208157,7 @@
   {
    "repo": "ZgblKylin/dsh-terminal",
    "name": "zgblkylin-dsh-terminal",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Integrate terminal plugin for DeepSeek Harness"
   },
