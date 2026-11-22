@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T20:03:14Z",
+ "generated_at": "2026-11-22T20:18:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -13304,7 +13304,7 @@
   },
   {
    "repo": "wangchengxin666/metis",
-   "name": "wangchengxin666-dsh-dock",
+   "name": "metis",
    "verdict": "pending",
    "stars": 1,
    "desc": "Self-hosted multi-user cloud workspaces & control plane for DeepSeek Harness (DSH) — isolated Docker Agent OS"
@@ -14442,13 +14442,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持）"
-  },
-  {
-   "repo": "wangchengxin666/dsh-dock",
-   "name": "wangchengxin666-dsh-dock",
-   "verdict": "pending",
-   "stars": 1,
-   "desc": "Self-hosted multi-user cloud workspaces & control plane for DeepSeek Harness (DSH) — isolated Docker Agent OS"
   },
   {
    "repo": "lfc162874/dsh-observer",
@@ -19904,8 +19897,8 @@
    "desc": "DeepSeek Harness plugin: emit OpenTelemetry spans from a session log (turn / step / tool execute)"
   },
   {
-   "repo": "jwitmann/operator-memory",
-   "name": "jwitmann-operator-memory",
+   "repo": "jwitmann/vcc-brain",
+   "name": "vcc-brain",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -38930,8 +38923,8 @@
    "desc": "Per-session editable subagent model allowlists for DSH — experimental, known design flaws, not maintained"
   },
   {
-   "repo": "NULLCOLORcat/dsh-Agent-team-fix",
-   "name": "nullcolorcat-dsh-agent-team-fix",
+   "repo": "NULLCOLORcat/dsh-Smarter-Subagent-level",
+   "name": "dsh-Smarter-Subagent-level",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
@@ -45281,7 +45274,7 @@
   {
    "repo": "zhxqc/dsh-oh-my-theme",
    "name": "zhxqc-dsh-oh-my-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "DeepSeek Harness (dsh) web plugin with themes, global typography, @file mentions, project file tree, and Markd"
   },
@@ -85592,13 +85585,6 @@
    "desc": "Pin important sessions to the top of the DeepSeek Harness web GUI sidebar"
   },
   {
-   "repo": "zbh13782-lang/dsh-ask-reader",
-   "name": "zbh13782-lang-dsh-ask-reader",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Reading board for DeepSeek Harness: pin an assistant reply into the right sidebar as rendered Markdown, see ea"
-  },
-  {
    "repo": "cestbon0309/dsh-auth",
    "name": "dsh-auth",
    "verdict": "ok",
@@ -112627,7 +112613,7 @@
   },
   {
    "repo": "Tangwei227/DSH-MediaOps",
-   "name": "tangweiwei227-dsh-mediaops",
+   "name": "DSH-MediaOps",
    "verdict": "ok",
    "stars": 1,
    "desc": "AI-native media operations plugin for DeepSeek Harness"
@@ -114140,7 +114126,7 @@
   {
    "repo": "zebbkira/dsh-pluginmgmt",
    "name": "zebbkira-dsh-pluginmgmt",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Deepseek harness插件全生命周期管理"
   },
@@ -114402,13 +114388,6 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Auto downscale large Retina/4K screenshots for DeepSeek Harness (DSH) to bypass 2000px limit"
-  },
-  {
-   "repo": "Tangweiwei227/DSH-MediaOps",
-   "name": "tangweiwei227-dsh-mediaops",
-   "verdict": "ok",
-   "stars": 1,
-   "desc": "AI-native media operations plugin for DeepSeek Harness"
   },
   {
    "repo": "ilimei/dsh-zenmux-oauth",
@@ -125569,8 +125548,8 @@
    "desc": "—"
   },
   {
-   "repo": "peach-zhang/dsh-sync",
-   "name": "peach-zhang-dsh-sync",
+   "repo": "tao-1abs/dsh-sync",
+   "name": "dsh-sync",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -160562,13 +160541,6 @@
    "desc": "DSH 控制台：鸿蒙端手机远程使用桌面端 DSH"
   },
   {
-   "repo": "JiangXingchen4210/Davinci_MCP_DSH_Demo",
-   "name": "jiangxingchen4210-davinci-mcp-dsh-demo",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "—"
-  },
-  {
    "repo": "hesheng4/deepseek-harness-desktop",
    "name": "hesheng4-deepseek-harness-desktop",
    "verdict": "pending",
@@ -184187,8 +184159,8 @@
    "desc": "DeepSeek Harness plugin: archive, restore, or permanently delete workspace sessions"
   },
   {
-   "repo": "minggemofashi/dsh-pdf-math-desk",
-   "name": "minggemofashi-dsh-pdf-math-desk",
+   "repo": "minggemofashi/dsh-pdf-workbench",
+   "name": "dsh-pdf-workbench",
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
@@ -189592,7 +189564,7 @@
   },
   {
    "repo": "Tangwei227/dsh-asc",
-   "name": "tangweiwei227-dsh-asc",
+   "name": "dsh-asc",
    "verdict": "incompatible",
    "stars": 0,
    "desc": "App Store Connect CLI (asc) as a native tool for DeepSeek Harness — structured argv, JSON output, no-shell exe"
@@ -190023,13 +189995,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness 科研论文正文与补充信息数据核对插件，支持自定义格式、图像表格读取和 HRMS 精确质量复算"
-  },
-  {
-   "repo": "Tangweiwei227/dsh-asc",
-   "name": "tangweiwei227-dsh-asc",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "App Store Connect CLI (asc) as a native tool for DeepSeek Harness — structured argv, JSON output, no-shell exe"
   },
   {
    "repo": "titanwings/distilly",
@@ -207288,7 +207253,7 @@
   },
   {
    "repo": "fxylabs/superself-runtime",
-   "name": "fxylabs-superself",
+   "name": "superself-runtime",
    "verdict": "ok",
    "stars": 5,
    "desc": "The open Company State Runtime — version control for your project's state"
@@ -207663,13 +207628,6 @@
    "verdict": "ok",
    "stars": 5,
    "desc": "DeepSeek Harness Desktop — A native desktop app for DeepSeek Harness (dsh)"
-  },
-  {
-   "repo": "fxylabs/superself",
-   "name": "fxylabs-superself",
-   "verdict": "ok",
-   "stars": 5,
-   "desc": "The open Company State Runtime — version control for your project's state"
   },
   {
    "repo": "121103qwq/dsh-vision-sidecar",
@@ -210862,13 +210820,6 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "Config-only DeepSeek Harness bundle for OpenAI-compatible vision models."
-  },
-  {
-   "repo": "liedwardtw/dsh-ego-google-search",
-   "name": "liedwardtw-search-api",
-   "verdict": "ok",
-   "stars": 2,
-   "desc": "Google web search for DeepSeek Harness via your local ego-browser (ego lite)"
   },
   {
    "repo": "liiiubai/dsh-mcp-bridge",
@@ -224521,6 +224472,13 @@
    "desc": "—"
   },
   {
+   "repo": "liedwardtw/dsh-ego-google-search",
+   "name": "dsh-ego-google-search",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Google web search for DeepSeek Harness via your local ego-browser (ego lite)"
+  },
+  {
    "repo": "lifecoder1988/dsh-secrets-manager",
    "name": "lifecoder1988-dsh-secrets-manager",
    "verdict": "ok",
@@ -228063,7 +228021,7 @@
    "desc": "tmux-like shared persistent bash sessions for DeepSeek Harness: every agent in a profile shares the same shell"
   },
   {
-   "repo": "sobermh/tokens_DshConnect_code",
+   "repo": "TokensAPI/tokens_DshConnect_code",
    "name": "sobermh-tokens-dshconnect-code",
    "verdict": "pending",
    "stars": 0,
@@ -230948,7 +230906,7 @@
   },
   {
    "repo": "zbh13782-lang/dsh-pin-bookmarks",
-   "name": "zbh13782-lang-dsh-ask-reader",
+   "name": "dsh-pin-bookmarks",
    "verdict": "ok",
    "stars": 0,
    "desc": "Right-side reading board for DeepSeek Harness: pin a reply, read it as Markdown, quote part of it back to the"
@@ -231449,13 +231407,6 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Live DeepSeek API balance and time-to-empty for the composer dock — projects spend from this machine's own tok"
-  },
-  {
-   "repo": "liedwardtw/search-api",
-   "name": "liedwardtw-search-api",
-   "verdict": "ok",
-   "stars": 0,
-   "desc": "Google web search for DeepSeek Harness via your local ego-browser (ego lite)"
   },
   {
    "repo": "codetime-dev/dsh-codetime",

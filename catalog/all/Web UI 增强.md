@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（8297）
+# 🔌 Web UI 增强（8296）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -596,7 +596,7 @@
 - 🟩 `[可用]` [yangfch3-dsh-mcp-mgr](https://github.com/yangfch3/dsh-mcp-mgr) ★7 — MCP server manager for DeepSeek Harness — workspace mcp.json discovery, hot sync, and a web settings UI.
 - ⬜ `[待定]` [yogemow-dsh-cyrene-philia093-0](https://github.com/YOGEMOW/dsh-cyrene-philia093-0) ★7 — 昔涟（PHILIA093）· 新卷：sealed 人设 + 五育成长记忆（日月年梦/余页）+ 双模式能力 + 思源镜像/恢复 + 设置面板
 - 🟩 `[可用]` [yusaltyfish-dsh-bongo-fish](https://github.com/YUsaltyfish/dsh-bongo-fish) ★7 — A BangoCat-style typing feedback widget that auto-snaps to the DSH composer, with customizable art and sound./
-- 🟩 `[可用]` [zhxqc-dsh-oh-my-theme](https://github.com/zhxqc/dsh-oh-my-theme) ★7 — DeepSeek Harness (dsh) web plugin with themes, global typography, @file mentions, project file tree, and Markd
+- ⬜ `[待定]` [zhxqc-dsh-oh-my-theme](https://github.com/zhxqc/dsh-oh-my-theme) ★7 — DeepSeek Harness (dsh) web plugin with themes, global typography, @file mentions, project file tree, and Markd
 - 🟩 `[可用]` [zimai233-dsh-adhd-copilot](https://github.com/zimai233/dsh-adhd-copilot) ★7 — ADHD behavioral coaching skill for DeepSeek Harness
 - 🟩 `[可用]` [ziui1008-dsh-chat-pro](https://github.com/ziui1008/dsh-chat-pro) ★7 — DeepSeek Harness 插件：用官方网页版界面聊天，可切换 DSH 里已配置的供应商、模型与思考档位
 - 🟩 `[可用]` [zuojinxin-dsh-sidebar-manager](https://github.com/zuojinxin/dsh-sidebar-manager) ★7 — 让 DSH 的扩展入口和视图标签支持折叠、排序、隐藏
@@ -6442,7 +6442,6 @@
 - 🟩 `[可用]` [zzjq678-dsh-model-picker](https://github.com/ZZJQ678/dsh-model-picker) ★0 — 按渠道商（Provider）分组、可折叠的 DSH 模型选择器：替换聊天输入框右下角原生选择器。仅在 DSH 桌面版实测通过，Web 版未测试。
 - 🟩 `[可用]` [zznobzz-dsh-soul-ru-lang](https://github.com/zznobzz/dsh-soul-ru-lang) ★0 — Russian UI language pack (client overlay) for the dsh-soul personalization plugin — 401 locale keys under the
 - 🟩 `[可用]` [zzylanmengqingchuan-dsh-session-pin](https://github.com/zzylanmengqingchuan/dsh-session-pin) ★0 — Pin important sessions to the top of the DeepSeek Harness web GUI sidebar
-- 🟩 `[可用]` [zbh13782-lang-dsh-ask-reader](https://github.com/zbh13782-lang/dsh-ask-reader) ★0 — Reading board for DeepSeek Harness: pin an assistant reply into the right sidebar as rendered Markdown, see ea
 - 🟩 `[可用]` [dsh-auth](https://github.com/cestbon0309/dsh-auth) ★0 — A plugin that allows you to configure access password for dsh webui, and access
 - `[空仓监测]` **dsh-mobile-ui** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [dsh-system-control](https://github.com/FrankZhangIronly/dsh-system-control) ★0 — DSH web plugin: System menu (Restart / Shutdown) in the sidebar footer
