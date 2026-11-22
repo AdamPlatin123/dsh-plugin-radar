@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T08:47:31Z",
+ "generated_at": "2026-11-22T09:02:40Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -27709,6 +27709,13 @@
    "desc": "Cross-session memory pins for DeepSeek Harness (DSH): pin a note once and every later session carries it — com"
   },
   {
+   "repo": "yannikzz/narracat-dsh-workbench",
+   "name": "yannikzz-narracat-dsh-workbench",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "A full-flow novel workbench for DeepSeek Harness (DSH): shelf, premise, outline, drafting, visible memory, rev"
+  },
+  {
    "repo": "yanqd0/dsh-mint",
    "name": "yanqd0-dsh-mint",
    "verdict": "ok",
@@ -44987,7 +44994,7 @@
   {
    "repo": "283Gawin/dsh-heatmap",
    "name": "283gawin-dsh-heatmap",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH Web GUI activity heatmap plugin: GitHub-style commit/token/spend heatmap in the sidebar with per-model cos"
   },
@@ -107056,7 +107063,7 @@
   {
    "repo": "sala003/dsh-tool-describe-image",
    "name": "dsh-tool-describe-image",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -198630,7 +198637,7 @@
   {
    "repo": "ZenHatesCoding/feishu-local-agent-bridge-windows",
    "name": "feishu-local-agent-bridge-windows",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Windows Feishu bridges for Antigravity and DeepSeek Harness"
   },

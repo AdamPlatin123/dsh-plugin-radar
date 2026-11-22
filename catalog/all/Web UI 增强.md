@@ -705,7 +705,7 @@
 - 🟩 `[可用]` [1123762794-dsh-web-restart](https://github.com/1123762794/dsh-web-restart) ★5 — One-click restart button for the DeepSeek Harness Web UI: sidebar footer button, single click restarts the dsh
 - 🟩 `[可用]` [dsh-chat-skin](https://github.com/1m01m0/dsh-chat-skin) ★5 — DeepSeek Harness client plugin: chat wallpaper & skins for the Web GUI — 6 presets, custom wallpaper, native s
 - 🟩 `[可用]` [2026heshao-dsh-obsidian-board](https://github.com/2026heshao/dsh-obsidian-board) ★5 — Turn your local Obsidian vault into a RAG chat panel inside DeepSeek Harness (DSH)
-- 🟩 `[可用]` [283gawin-dsh-heatmap](https://github.com/283Gawin/dsh-heatmap) ★5 — DSH Web GUI activity heatmap plugin: GitHub-style commit/token/spend heatmap in the sidebar with per-model cos
+- ⬜ `[待定]` [283gawin-dsh-heatmap](https://github.com/283Gawin/dsh-heatmap) ★5 — DSH Web GUI activity heatmap plugin: GitHub-style commit/token/spend heatmap in the sidebar with per-model cos
 - 🟩 `[可用]` [534119219-chicheng-gate](https://github.com/534119219/chicheng-gate) ★5 — DSH Web 插件：局域网/远程访问控制、frpc 内网穿透、面板密码门禁与手机端 UI 适配
 - 🟩 `[可用]` [afrel1024-dsh-client-ui-aqua-unofficial](https://github.com/afrel1024/dsh-client-ui-aqua-unofficial) ★5 — Unofficial community fork of the Aqua glassmorphism theme for the DeepSeek Harness web UI (upstream: WYH666666
 - 🟩 `[可用]` [ajubest-dsh-plugin-optimization](https://github.com/AJUbest/dsh-plugin-optimization) ★5 — A DSH plugin that distinguishes official built-in DSH plugins and user custom plugins on the external interfac

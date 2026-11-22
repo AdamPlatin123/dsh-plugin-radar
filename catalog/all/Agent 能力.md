@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5885）
+# 🤖 Agent 能力（5886）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4054,6 +4054,7 @@
 - 🟩 `[可用]` [yankess233-rea-switch](https://github.com/yankess233/rea-switch) ★0 — A security-hardened local DSH composer chip that toggles REA MCP tools, masks inherited schemas, shadows promp
 - ⬜ `[待定]` [yankihue-deepseek-harness-voice-mode](https://github.com/yankihue/deepseek-harness-voice-mode) ★0 — Voice mode for DeepSeek Harness: live captions, push-to-talk, spoken agent replies, barge-in, and real thread
 - 🟩 `[可用]` [yanliao66-dsh-pins](https://github.com/yanliao66/dsh-pins) ★0 — Cross-session memory pins for DeepSeek Harness (DSH): pin a note once and every later session carries it — com
+- 🟩 `[可用]` [yannikzz-narracat-dsh-workbench](https://github.com/yannikzz/narracat-dsh-workbench) ★0 — A full-flow novel workbench for DeepSeek Harness (DSH): shelf, premise, outline, drafting, visible memory, rev
 - 🟩 `[可用]` [yanqd0-dsh-mint](https://github.com/yanqd0/dsh-mint) ★0 — DSH plugin: mint issue tracking integration — session context injection, event reminders, plan binding, mint_q
 - ⬜ `[待定]` [yaohua-leo-dsh-lean-plugin](https://github.com/Yaohua-Leo/dsh-lean-plugin) ★0 — DSH Lean Proof Assistant plugin with explicit LSP/Beam modes, isolated skills, fail-closed selfcheck and proje
 - 🟩 `[可用]` [yaya716-dsh-user-prompts](https://github.com/Yaya716/dsh-user-prompts) ★0 — —
