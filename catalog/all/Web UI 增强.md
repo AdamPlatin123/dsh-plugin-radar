@@ -136,7 +136,7 @@
 - 🟩 `[可用]` [cosyncing-cosyncing](https://github.com/cosyncing/cosyncing) ★65 — Synchronize and Orchestrate agents from CLI to GUI, across desktop to phone.〔📦〕
 - ⬜ `[待定]` [dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) ★65 — 为 better-sidebar 提供 Office 三件套预览（.docx/.xlsx/.pptx），独立 bundle 瘦身主体 \| Provides Office-suite preview (.docx/.xls
 - ⬜ `[待定]` [dsh-web-plugin-manager](https://github.com/LX2000WASD/dsh-web-plugin-manager) ★65 — 在 Web UI 中一键管理 DeepSeek Harness (DSH) 插件：查看、实时启停、安装/卸载、更新检测、健康检查（依赖/冲突/兼容性分析）、环境管理、插件市场
-- 🟩 `[可用]` [thewolfwalker-dsh-notifier](https://github.com/THEWOLFWALKER/dsh-notifier) ★65 — DSH notification & remote-control plane: 28 outbound channels, 6 inbound controls, Native Notify & Control UI,
+- ⬜ `[待定]` [thewolfwalker-dsh-notifier](https://github.com/THEWOLFWALKER/dsh-notifier) ★65 — DSH notification & remote-control plane: 28 outbound channels, 6 inbound controls, Native Notify & Control UI,
 - ⬜ `[待定]` [heigeai-deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) ★64 — DeepSeek Harness 换肤系统：21 套内置皮肤 + 一张图生成整套配色的自定义皮肤
 - 🟩 `[可用]` [ppy-web-dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) ★64 — 为 DSH 添加 Xiaomi MiMo TTS、豆包 Seed TTS，浏览器语音；音频下载、 UI 音效、桌宠联动、QQBot 语音；
 - 🟩 `[可用]` [mrrisega-dsh-remote](https://github.com/mrRisega/dsh-remote) ★63 — 公网远程控制 DeepSeek Harness（dsh web）：安装即得专属加密地址，人在外面也能用手机远程访问，无需同一局域网/WiFi、无内网穿透，可选自建服务〔📦〕

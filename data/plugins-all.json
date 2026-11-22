@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T19:18:25Z",
+ "generated_at": "2026-11-22T19:33:28Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -817,7 +817,7 @@
   {
    "repo": "songyang0603/ds-spec-loop",
    "name": "songyang0603-ds-spec-loop",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 39,
    "desc": "Portable Agent Skill for repository-native Spec programming, informed by public DeepSeek Harness engineering p"
   },
@@ -41039,7 +41039,7 @@
   {
    "repo": "THEWOLFWALKER/dsh-notifier",
    "name": "thewolfwalker-dsh-notifier",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 65,
    "desc": "DSH notification & remote-control plane: 28 outbound channels, 6 inbound controls, Native Notify & Control UI,"
   },
@@ -174291,7 +174291,7 @@
   {
    "repo": "shixiaosia/dsh-plugin-marketplace",
    "name": "shixiaosia-dsh-plugin-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -174340,7 +174340,7 @@
   {
    "repo": "StarPivotNet/dsh-plugins-public",
    "name": "starpivotnet-dsh-plugins-public",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Installable DeepSeek Harness plugin marketplace (Settings → Plugins)"
   },

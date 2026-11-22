@@ -118,7 +118,7 @@
 - 🟩 `[可用]` [skillroute](https://github.com/jestatsio/skillroute) ★41 — —
 - 🟩 `[可用]` [littleblacktong-dsh-plugin-memory](https://github.com/LittleBlackTong/dsh-plugin-memory) ★41 — —
 - 🟩 `[可用]` [adamaik-dsh-progress-rules](https://github.com/Adamaik/dsh-progress-rules) ★40 — DeepSeek Harness bundle plugin: process-discipline system-prompt section + deterministic progress nudge for si
-- 🟩 `[可用]` [songyang0603-ds-spec-loop](https://github.com/songyang0603/ds-spec-loop) ★39 — Portable Agent Skill for repository-native Spec programming, informed by public DeepSeek Harness engineering p
+- ⬜ `[待定]` [songyang0603-ds-spec-loop](https://github.com/songyang0603/ds-spec-loop) ★39 — Portable Agent Skill for repository-native Spec programming, informed by public DeepSeek Harness engineering p
 - ⬜ `[待定]` [l246804-dsh-pstack](https://github.com/l246804/dsh-pstack) ★37 — pstack for DeepSeek Harness: rigorous agent workflows ported from cursor/plugins.
 - 🟩 `[可用]` [fnnas-labs-fnos-cli-skill](https://github.com/fnnas-labs/fnos-cli-skill) ★35 — —
 - ⬜ `[待定]` [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) ★35 — Advisor - Pair a second model that passively reviews each turn with notes and predicts your next prompt
