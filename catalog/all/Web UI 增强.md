@@ -3667,7 +3667,7 @@
 - ⬜ `[待定]` [zyqchanel-06-dsh-model-hub](https://github.com/zyqchanel-06/dsh-model-hub) ★1 — DSH 模型中心：双栏模型选择器 + 悬浮能力面板，改动真实生效（零构建、零依赖）
 - 🟩 `[可用]` [zz12hui-dsh-deai-audit](https://github.com/zz12hui/dsh-deai-audit) ★1 — DSH 工具插件：文案去 AI 味审计（六维评分 + 逐句打标 + 改法），对话中直接调用 deai_audit / deai_audit_config
 - 🟩 `[可用]` [zz12hui-dsh-github-readme](https://github.com/zz12hui/dsh-github-readme) ★1 — DSH 工具插件：上传 GitHub 前把仓库 README 按统一版式优化——10 种首图风格随机配色、过程图生成、排版校验、带重试推送
-- 🟩 `[可用]` [dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) ★1 — Explain failed DeepSeek Harness agent runs locally, then produce a redacted recovery plan
+- ⬜ `[待定]` [dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) ★1 — Explain failed DeepSeek Harness agent runs locally, then produce a redacted recovery plan
 - 🟩 `[可用]` [zzt0818-dsh-task-details](https://github.com/zzt0818/dsh-task-details) ★1 — Task details sidebar for DeepSeek Harness: a 'View task details' button under every finished turn opens a resi
 - 🟩 `[可用]` [zzz234234234-dsh-workbuddy-cny](https://github.com/ZZZ234234234/dsh-workbuddy-cny) ★1 — Show WorkBuddy credits and the DeepSeek CNY balance in one DSH sidebar line
 - ⬜ `[待定]` [zzzzym7018-dsh-fudan-status-wallpaper](https://github.com/zzzzym7018/dsh-fudan-status-wallpaper) ★1 — 复旦 · 状态栏 & 壁纸 — DeepSeek Harness quota, weather status bar and campus wallpaper plugin

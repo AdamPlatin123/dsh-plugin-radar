@@ -1069,7 +1069,7 @@
 - 🟩 `[可用]` [zjsthmjialin-inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) ★2 — Inspiration Deck Workshop: local HTML presentation skill and template toolkit
 - 🟩 `[可用]` [zouu-x-dsh-webnotification](https://github.com/Zouu-X/DSH_WebNotification) ★2 — It is a plug-in that helps sending notifications when agent finishes in DSH
 - 🟩 `[可用]` [zriyox-dsh-goal-scaffold](https://github.com/zriyox/dsh-goal-scaffold) ★2 — 一句话大需求先别急着跑：拦一下问你要不要先规划，自动生成带验收清单的 plan.md 再开工 — DeepSeek Harness 插件 / Catches one-sentence mammoth tasks and
-- 🟩 `[可用]` [dsh-gpu](https://github.com/zytsyj/dsh-gpu) ★2 — GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,
+- ⬜ `[待定]` [dsh-gpu](https://github.com/zytsyj/dsh-gpu) ★2 — GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,
 - 🟩 `[可用]` [zzzhangy-dsh-compound-engineering](https://github.com/zzzhangy/dsh-compound-engineering) ★2 — Compound Engineering for DeepSeek Harness: 36 skills that turn every solved problem into a durable repo learni
 - 🟩 `[可用]` [zzzzkd-dsh-workflow-studio](https://github.com/Zzzzkd/dsh-workflow-studio) ★2 — DeepSeek Harness 的可视化工作流插件
 - 🟩 `[可用]` [007350-dsh-screenshot-board](https://github.com/007350/dsh-screenshot-board) ★1 — Screenshot annotation board for DeepSeek Harness: mark regions, write tasks, hand off to an agent.
