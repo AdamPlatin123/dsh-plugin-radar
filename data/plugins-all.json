@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T22:48:19Z",
+ "generated_at": "2026-11-22T23:03:42Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -106109,6 +106109,13 @@
    "desc": "在cache miss的时候提示 尽量保持兼容性"
   },
   {
+   "repo": "ShanWuYinShe/dsh-plugins",
+   "name": "dsh-plugins",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "deepseek harness plugin set"
+  },
+  {
    "repo": "woyeshishen/dsh-vision-plugin",
    "name": "woyeshishen-dsh-vision-plugin",
    "verdict": "pending",
@@ -141403,13 +141410,6 @@
    "desc": "A DeepSeek Harness Web plugin for inspecting redacted LLM HTTP request and response traces."
   },
   {
-   "repo": "ShanWuYinShe/dsh-plugins",
-   "name": "dsh-plugins",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "deepseek harness plugin set"
-  },
-  {
    "repo": "wisp-science/WispOps",
    "name": "wisp-science-wispops",
    "verdict": "incompatible",
@@ -174599,7 +174599,7 @@
   {
    "repo": "ydhrdh/dsh-marketplace",
    "name": "ydhrdh-dsh-marketplace",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "An open-source plugin marketplace for DeepSeek Harness (DSH)"
   },
@@ -206302,7 +206302,7 @@
   {
    "repo": "dttxorg/deepseekeyes",
    "name": "dttxorg-deepseekeyes",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Auditable vision and cross-platform Computer Use runtime for DeepSeek Harness — strict evidence, health-checke"
   },
@@ -224276,13 +224276,6 @@
    "desc": "A minimal IDEA in the DeepSeek Harness right column."
   },
   {
-   "repo": "lidaqi001/dsh-codex-delegate",
-   "name": "lidaqi001-dsh-codex-delegate",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DeepSeek Harness agent preset: every task is delegated to a Codex subagent"
-  },
-  {
    "repo": "lieang-git/dsh-quote-cards",
    "name": "lieang-git-dsh-quote-cards",
    "verdict": "ok",
@@ -240206,6 +240199,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DeepSeek Harness agent preset: Codex plans and decomposes, Claude Code executes each work item."
+  },
+  {
+   "repo": "lidaqi001/dsh-codex-delegate",
+   "name": "lidaqi001-dsh-codex-delegate",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DeepSeek Harness agent preset: every task is delegated to a Codex subagent"
   },
   {
    "repo": "LIghtJUNction/dsh-compass",
