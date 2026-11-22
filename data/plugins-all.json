@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T14:18:09Z",
+ "generated_at": "2026-11-22T14:33:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -41102,7 +41102,7 @@
   {
    "repo": "Yts1919/dsh-vision-complete",
    "name": "yts1919-dsh-vision-complete",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 59,
    "desc": "给 DeepSeek 补上「眼睛和耳朵」的多模态视觉插件：看图 / OCR / 物体检测 / 视频理解 / 语音转写 / 截图直读，一键安装（DSH 插件）"
   },
@@ -41851,7 +41851,7 @@
   {
    "repo": "zebbkira/dsh-skills-mcp-manager",
    "name": "zebbkira-dsh-skills-mcp-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 25,
    "desc": "面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 MCP 服务器"
   },
@@ -53807,14 +53807,14 @@
   {
    "repo": "z827439974/dsh-background-plugin",
    "name": "z827439974-dsh-background-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Set the image as background for your dsh-webui"
   },
   {
    "repo": "Zachary7456/dsh-voice-mic",
    "name": "zachary7456-dsh-voice-mic",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness (dsh) 语音输入插件：麦克风按钮/快捷键录音，实时转写回填输入框"
   },
@@ -169060,6 +169060,13 @@
    "desc": "镜像：dsh-pet-to-family v0.7.1 — DSH 蓝色大肥鱼桌宠（上游 zi-O1/dsh-pet-to-family，MIT）"
   },
   {
+   "repo": "SorenLorn/dsh-onepiece-balance-widget",
+   "name": "sorenlorn-dsh-onepiece-balance-widget",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) One Piece balance widget, secondary development based on MeteorNOX's whale widget"
+  },
+  {
    "repo": "starwithfox/dsh-pet-seen",
    "name": "starwithfox-dsh-pet-seen",
    "verdict": "ok",
@@ -209249,7 +209256,7 @@
   {
    "repo": "yu2025-luo/dsh-file-panel",
    "name": "yu2025-luo-dsh-file-panel",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "Right-side file panel for DeepSeek Harness — auto-popup when the agent creates or downloads files, with image/"
   },
