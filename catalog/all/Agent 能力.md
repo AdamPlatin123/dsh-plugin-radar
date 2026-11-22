@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5815）
+# 🤖 Agent 能力（5817）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -2721,12 +2721,14 @@
 - 🟩 `[可用]` [iqingyoung-search2chart-mcp](https://github.com/iqingyoung/search2chart-mcp) ★0 — search2chart-mcp: agent-native charting — turn search/research/tabular data into inline charts in agent conver
 - 🟩 `[可用]` [irerc-dsh-qianfan-usage](https://github.com/irerc/dsh-qianfan-usage) ★0 — 百度千帆 Token Plan 用量挂件 + DeepSeek-V4.1-Flash-1017 正文卫生规则（DSH bundle）
 - 🟩 `[可用]` [itsbuyru-bit-dsh-model-price](https://github.com/itsbuyru-bit/dsh-model-price) ★0 — Per-model API prices in USD or CNY, wallet balance and live session spend for DeepSeek Harness.
+- 🟩 `[可用]` [ivescheung-dsh-search-everything](https://github.com/IvesCheung/dsh-search-everything) ★0 — Everything-style global search for DSH: Ctrl+K across every session message of every workspace, jump straight
 - 🟩 `[可用]` [ixietv-dsh-session-rewind](https://github.com/ixietv/dsh-session-rewind) ★0 — In-session rewind for DeepSeek Harness: fold the current conversation back to a previous turn in place via /re
 - 🟩 `[可用]` [izrino-dsh-token-stats](https://github.com/IZRINO/dsh-token-stats) ★0 — DeepSeek Harness token usage statistics plugin (DSH plugin): all-session hourly/daily/weekly/monthly aggregati
 - 🟩 `[可用]` [jachinshen-dsh-subagent-response-promoter](https://github.com/JachinShen/dsh-subagent-response-promoter) ★0 — —
 - ⬜ `[待定]` [jack-chai-work-dsh-work-window](https://github.com/jack-chai-work/dsh-work-window) ★0 — DSH 工作时段插件：工作日 9:00-12:00 / 14:00-18:00 自动暂停 agent（零 token），暂停时段任务先提醒并确认；
 - 🟩 `[可用]` [jackzo400-dsh-carryover](https://github.com/JackZo400/dsh-carryover) ★0 — dsh 插件：会话交接——开新会话前先把上一段摘要成笔记，笔记真的落盘了才允许删旧轨迹 · Session handover for dsh: summarize first; delete the transcript
 - 🟩 `[可用]` [jadel-kemo-dsh-session-delete-menu](https://github.com/JadeL-Kemo/dsh-session-delete-menu) ★0 — DSH 桌面版会话右键菜单「删除会话」插件（软删除，24 小时内可恢复）
+- ⬜ `[待定]` [jae1010-dsh-session-toast-notification](https://github.com/Jae1010/dsh-session-toast-notification) ★0 — Session notifications for DeepSeek Harness: toast when a turn ends, when the agent asks a question, or when a
 - 🟩 `[可用]` [jaffe2718-s1cap](https://github.com/Jaffe2718/s1cap) ★0 — System-1 decision models (Jev/Laya/Kev-class) as the governance layer for an LLM agent context lifecycle: grow
 - 🟩 `[可用]` [janpauldahlke-dsh-agent-processes](https://github.com/janpauldahlke/dsh-agent-processes) ★0 — DeepSeek Harness plugin: host-owned process & port lifecycle for local agents
 - 🟩 `[可用]` [jason25417-dsh-external-bridge](https://github.com/Jason25417/dsh-external-bridge) ★0 — Local HTTP bridge for DeepSeek Harness Desktop: external processes create real sessions, send prompts, long-po

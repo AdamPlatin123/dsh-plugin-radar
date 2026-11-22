@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T03:18:09Z",
+ "generated_at": "2026-11-22T03:33:10Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -18763,6 +18763,13 @@
    "desc": "Per-model API prices in USD or CNY, wallet balance and live session spend for DeepSeek Harness."
   },
   {
+   "repo": "IvesCheung/dsh-search-everything",
+   "name": "ivescheung-dsh-search-everything",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Everything-style global search for DSH: Ctrl+K across every session message of every workspace, jump straight"
+  },
+  {
    "repo": "ixietv/dsh-session-rewind",
    "name": "ixietv-dsh-session-rewind",
    "verdict": "ok",
@@ -18803,6 +18810,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 桌面版会话右键菜单「删除会话」插件（软删除，24 小时内可恢复）"
+  },
+  {
+   "repo": "Jae1010/dsh-session-toast-notification",
+   "name": "jae1010-dsh-session-toast-notification",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Session notifications for DeepSeek Harness: toast when a turn ends, when the agent asks a question, or when a"
   },
   {
    "repo": "Jaffe2718/s1cap",
@@ -57865,6 +57879,13 @@
    "desc": "DeepSeek Harness plugin development rules: five extension forms (bundle / patch plugin / preset / skill / dyna"
   },
   {
+   "repo": "jdzpd666/dsh-computer-replacer-lite",
+   "name": "jdzpd666-dsh-computer-replacer-lite",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness plugin for Windows computer use: UIA-first, approval-gated, zero-image read paths, 14 tools."
+  },
+  {
    "repo": "jeff072333/dsh-live-spend",
    "name": "jeff072333-dsh-live-spend",
    "verdict": "ok",
@@ -73552,6 +73573,13 @@
    "desc": "Adds a whole-document copy button to the DeepSeek Harness sidebar editor header, right of Save"
   },
   {
+   "repo": "Iophinie/dsh-workspace-mover",
+   "name": "iophinie-dsh-workspace-mover",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness plugin: move a chat between workspaces from the sidebar (/move-workspace command, move_chat t"
+  },
+  {
    "repo": "IoveCelestina/dsh-lifeboat",
    "name": "iovecelestina-dsh-lifeboat",
    "verdict": "ok",
@@ -73655,6 +73683,27 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Tint the DSH web UI with the KDE system accent color."
+  },
+  {
+   "repo": "ixxgal/dsh-student-perks",
+   "name": "ixxgal-dsh-student-perks",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "状态栏常驻阿里云学生券与账户余额、DeepSeek API 余额，以及峰谷计价时段"
+  },
+  {
+   "repo": "ixxgal/dsh-task-board",
+   "name": "ixxgal-dsh-task-board",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "定时任务面板：把 Windows 计划任务里 DSH 建的条目和 DSH 内部定时任务放在同一页，可以运行、停用、启用、删除、新建"
+  },
+  {
+   "repo": "ixxgal/dsh-task-mail-notifier",
+   "name": "ixxgal-dsh-task-mail-notifier",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "回合结束时用 SMTP 发一封提醒邮件：侧边栏开关、换发信邮箱、IM 免打扰与完成提示音"
   },
   {
    "repo": "j20cc/dsh-sidebar-plantuml",
@@ -73774,6 +73823,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Unified @ mentions for the DeepSeek Harness web GUI — files, folders, skills, past chats, plugins, and @git"
+  },
+  {
+   "repo": "JamieYoungYang/dsh-inkstone-theme",
+   "name": "jamieyoungyang-dsh-inkstone-theme",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "七件文房色板 + 字体层 + 画布渐变，给 DeepSeek Harness 的七套水墨主题：汝窑 / 赭石 / 松烟 / 青瓷 / 紫毫 / 宣纸 / 胭脂"
   },
   {
    "repo": "JaMoLpE88/dsh-desktop-chat",
@@ -176627,6 +176683,13 @@
    "desc": "“Answers should grow where the question is asked — a single-file AI reading tool, zero dependencies, with all"
   },
   {
+   "repo": "ixxgal/dsh-plugins",
+   "name": "ixxgal-dsh-plugins",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "ixxgal 的全部 DSH 插件：一个仓库、一个索引，装的时候只认一个链接"
+  },
+  {
    "repo": "JackZo400/dsh-memory-search",
    "name": "jackzo400-dsh-memory-search",
    "verdict": "ok",
@@ -179894,6 +179957,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 会话删除管理：删会话可选择带上它写过的文件，删除进回收站可还原，正在跑的会话拒绝"
+  },
+  {
+   "repo": "intelfabs/dsh-file-library",
+   "name": "intelfabs-dsh-file-library",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Searchable library of every file sent to DeepSeek Harness, with one-click filing and @library reuse."
   },
   {
    "repo": "ItLeLeYa/dsh-pdl-center",
@@ -193742,6 +193812,13 @@
    "desc": "—"
   },
   {
+   "repo": "inquark7-cmd/dsh-inbox-manager",
+   "name": "inquark7-cmd-dsh-inbox-manager",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "dsh聊天消息队列"
+  },
+  {
    "repo": "instpe/dsh-self-restart",
    "name": "instpe-dsh-self-restart",
    "verdict": "ok",
@@ -193859,6 +193936,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "QQ conversations through NapCat with persistent DSH Sessions and Scene permissions"
+  },
+  {
+   "repo": "jhckevin/dsh-composer-prediction",
+   "name": "jhckevin-dsh-composer-prediction",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 下一条消息预测插件"
   },
   {
    "repo": "JHOpenDev/dsh-approval-feishu",
@@ -211996,6 +212080,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "BidKit — a native DeepSeek Harness (dsh) plugin for the tender/bid lifecycle: 18-item tender parsing, score-al"
+  },
+  {
+   "repo": "Jensen0925/dsh-codearts-dock",
+   "name": "jensen0925-dsh-codearts-dock",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "CodeArts Dock · 码道驿站：DeepSeek Harness 的非官方华为云码道模型插件，支持多账号、积分提醒、模型预设和加密备份"
   },
   {
    "repo": "JeremyGuo/dsh-slide",
@@ -233094,6 +233185,13 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "—"
+  },
+  {
+   "repo": "jiangxingfan1-coder/Open-Agent-API",
+   "name": "jiangxingfan1-coder-open-agent-api",
+   "verdict": "incompatible",
+   "stars": 2,
+   "desc": "Turn agents into an API"
   },
   {
    "repo": "jiuge2467/DSH-Desktop",
