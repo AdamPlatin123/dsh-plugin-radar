@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9185）
+# 🔌 Web UI 增强（9191）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4796,6 +4796,7 @@
 - 🟩 `[可用]` [hkhlpj-dsh-boot-theme](https://github.com/hkhlpj/dsh-boot-theme) ★0 — DeepSeek Harness 冷启动开机动画插件：全屏播放自定义视频/音频，播完转场进入主界面
 - 🟩 `[可用]` [hlhhh-dsh-changelog-panel](https://github.com/HLhhh/dsh-changelog-panel) ★0 — Bilingual DeepSeek Harness changelog, security-advisory and storage panel — version timeline, CVE/GHSA records
 - 🟩 `[可用]` [hmlyx-dsh-notify](https://github.com/hmlyx/dsh-notify) ★0 — 在输入框右边加了一个泡泡窗口，你可以接入插件或者告诉 AI 什么时候使用它
+- 🟩 `[可用]` [hngm-hp-dsh-lan-access](https://github.com/HNGM-HP/dsh-lan-access) ★0 — Device-approved LAN access for the native DeepSeek Harness Web UI.
 - 🟩 `[可用]` [hoaxquill-clear-ui](https://github.com/HoaXQuill/clear-ui) ★0 — DSH plugin: a compact toggle above the composer that switches the transcript to the built-in compact work-deta
 - 🟩 `[可用]` [hoemr-dsh-quicklook](https://github.com/Hoemr/dsh-quicklook) ★0 — QuickLook-style space-key large preview for DSH better-sidebar: press Space on the active file tab for an inst
 - 🟩 `[可用]` [homes-mark-dsh-fold-workspace-sessions](https://github.com/homes-mark/dsh-fold-workspace-sessions) ★0 — DSH plugin: one sidebar button folds or unfolds every workspace's conversations in a single click
@@ -4817,6 +4818,7 @@
 - 🟩 `[可用]` [hseons-dsh-usage-peak](https://github.com/hseons/dsh-usage-peak) ★0 — DeepSeek Harness sidebar widget: peak/valley pricing, usage, budget and balance
 - 🟩 `[可用]` [hsgtlgt-dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) ★0 — 面向模型的「截图」工具插件（DeepSeek Harness，Windows 宿主）
 - ⬜ `[待定]` [hsushjk-dsh-uriauth](https://github.com/hsushjk/dsh-uriauth) ★0 — DeepSeek Harness（DSH）插件，给 DSH Web UI 一个固定的免 token 入口
+- ⬜ `[待定]` [ht65-dsh-open-with-default](https://github.com/ht65/dsh-open-with-default) ★0 — DSH 插件：为每种文件类型选择默认打开的应用，支持左侧边栏「打开方式」设置页；不修改 Windows 系统关联
 - ⬜ `[待定]` [hto404-screenshotpro](https://github.com/HtO404/screenshotpro) ★0 — 实测 UI 截图：捕获窗口或网页，保持矩形尺寸与实测值完全一致，绘制框体、数字、箭头、像素化效果并附带图例，通过 15 项断言验证该图像，可用于制作使用手册、操作说明、流程文档、软件工具功能演示等场景
 - 🟩 `[可用]` [hu568-dsh-plugin-browser-use](https://github.com/hu568/dsh-plugin-browser-use) ★0 — DSH 插件：ARIA 快照优先的浏览器操作工具集（导航/点击/输入/截图/多标签）+ 右侧栏实时投屏与用户接管面板
 - 🟩 `[可用]` [hualidan42-beep-dsh-plugin-skin](https://github.com/hualidan42-beep/dsh-plugin-skin) ★0 — DSH 主题与外观：换肤、插画壁纸与 Windows 桌面桌宠
@@ -4838,9 +4840,11 @@
 - 🟩 `[可用]` [huihuangdi-dsh-model-provider-badge](https://github.com/huihuangdi/dsh-model-provider-badge) ★0 — Shows the provider behind a session's current model as a compact badge in the DSH Web composer tool row.
 - ⬜ `[待定]` [huihuanye-dsh-archived-session-delete](https://github.com/HuiHuanYe/dsh-archived-session-delete) ★0 — A DSH Web plugin that adds a permanent delete action for archived sessions to the sidebar session context menu
 - ⬜ `[待定]` [huihuanye-dsh-system-prompt](https://github.com/HuiHuanYe/dsh-system-prompt) ★0 — DSH plugin: edit and replace the actual system prompt in Settings, with one-click reset to the default prompt.
+- 🟩 `[可用]` [huihui3488-dsh-native-toast](https://github.com/huihui3488/dsh-native-toast) ★0 — Windows notification-center toasts for DeepSeek Harness when a turn finishes or the agent needs a choice or ap
 - ⬜ `[待定]` [huihui4399-dsh-ssh-explorer](https://github.com/huihui4399/dsh-ssh-explorer) ★0 — VSCode 式 SSH 远程资源管理器 · DSH 侧栏插件：双向拖拽传文件、就地编辑保存、右键新建/改名/删除、远端终端与 AI 对话
 - 🟩 `[可用]` [huilv0-dsh-skill-panel](https://github.com/HUIlv0/dsh-skill-panel) ★0 — DSH 技能面板：左侧导航加一行「技能」，悬浮气泡按功能分类列出全部技能，多选一键写入输入框
 - 🟩 `[可用]` [huisde-dsh-pnpm-release-age-zero-fix](https://github.com/HUISDE/dsh-pnpm-release-age-zero-fix) ★0 — DSH Desktop zero-release-age update-policy compatibility plugin
+- ⬜ `[待定]` [huiyaoxingkong-dsh-privacy-mode](https://github.com/huiyaoxingkong/dsh-privacy-mode) ★0 — Asymmetric visibility modes for DeepSeek Harness: mark plugins, workspaces and chats private; NORMAL makes the
 - 🟩 `[可用]` [hun1315-dsh-ui-cards](https://github.com/hun1315/dsh-ui-cards) ★0 — DSH 插件 UI验牌：把右上角「⋯」改造成卡牌式插件扩展坞，插件前端 UI 收容成可滑动卡牌，点卡即开
 - 🟩 `[可用]` [huningsong-dsh-todos-diy](https://github.com/huningsong/dsh-todos-diy) ★0 — Work todo reminders for DeepSeek Harness: four stage views plus recurring/paused filters, derived priority, re
 - 🟩 `[可用]` [hunyu-feng-dsh-usage-pulse](https://github.com/hunyu-feng/dsh-usage-pulse) ★0 — DSH Web UI plugin: live DeepSeek peak / off-peak pricing, token spend and hourly usage bars in the composer do
@@ -4852,6 +4856,7 @@
 - ⬜ `[待定]` [hvdxxx-deepseek-harness-ru](https://github.com/hvdxxx/deepseek-harness-ru) ★0 — Russian localization (language pack) for the DeepSeek Harness web GUI: a DSH client plugin with 63 locale name
 - 🟩 `[可用]` [hxql666-dsh-presentation](https://github.com/hxql666/dsh-presentation) ★0 — Presentation-document mode for DeepSeek Harness: structured page data to PDF via Typst + Touying, with a visua
 - 🟩 `[可用]` [hy-sde-dsh-tool-subagent-report](https://github.com/hy-sde/dsh-tool-subagent-report) ★0 — The child-scoped report tool for continuable in-process subagents on DeepSeek Harness: installs `report` plus
+- 🟩 `[可用]` [hylzju-dsh-notepad](https://github.com/HYLZJU/dsh-notepad) ★0 — A global, draggable notepad in the DeepSeek Harness composer: multiline notes, built-in checklists, workspace
 - 🟩 `[可用]` [hyperforce-dsh-workspace-lock](https://github.com/HyperForce/dsh-workspace-lock) ★0 — Per-workspace password locks for the DeepSeek Harness (DSH) web UI: right-click to lock, lock screen, admin ma
 - 🟩 `[可用]` [hypershub-dsh-panorama-mode](https://github.com/hypershub/dsh-panorama-mode) ★0 — 全景模式 · Panorama mode — Live AI execution visualization for DeepSeek Harness / Hypers Work: reasoning, tools, t
 - 🟩 `[可用]` [hzh5021-dsh-daily-read](https://github.com/hzh5021/dsh-daily-read) ★0 — Registers /daily, which sends the model to read the newest bili-scroll report and say what it understood inste
@@ -8539,6 +8544,7 @@
 - 🟨 `[不兼容]` [hluica-dsh-enhanced-prompt](https://github.com/hluica/dsh-enhanced-prompt) ★0 — Render the user prompt as Markdown with the same GFM pipeline the assistant replies use; keep reference chips
 - 🟨 `[不兼容]` [hluica-dsh-font-settings](https://github.com/hluica/dsh-font-settings) ★0 — Pick the text, code, and terminal font stacks from the fonts installed on this system, replacing the shipped p
 - 🟨 `[不兼容]` [hluica-dsh-parent-instructions](https://github.com/hluica/dsh-parent-instructions) ★0 — Parent-workspace AGENTS.md guidance for nested workspaces in DeepSeek Harness.
+- 🟨 `[不兼容]` [hluica-dsh-preset-workspace-hook](https://github.com/hluica/dsh-preset-workspace-hook) ★0 — DSH plugin: switch the Agent preset for new sessions by workspace path.
 - 🟨 `[不兼容]` [hluica-dsh-session-deleater](https://github.com/hluica/dsh-session-deleater) ★0 — Safely delete a local DeepSeek Harness session, its projection cache, workspace references, and optional media
 - 🟨 `[不兼容]` [hmtxj-dsh-model-modality](https://github.com/hmtxj/dsh-model-modality) ★0 — Per-model input type (text/image) and thinking level checkboxes on the DSH Models settings page, writing the o
 - 🟨 `[不兼容]` [holo-dataanalyst-dsh-thought-capsule](https://github.com/Holo-dataanalyst/dsh-thought-capsule) ★0 — 思维胶囊：干活时想到的点子 / 待试插件，一句话记下来，自动分类进待办
