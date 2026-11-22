@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T00:32:51Z",
+ "generated_at": "2026-11-22T00:47:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -4649,6 +4649,13 @@
    "verdict": "ok",
    "stars": 3,
    "desc": "会话导入导出：把 DSH 会话连同附件导出为压缩包，或导入为当前工作区里的新会话"
+  },
+  {
+   "repo": "Murphy2000-cyk/dsh-skill-plugin-tuning",
+   "name": "murphy2000-cyk-skill-create-debug-dsh",
+   "verdict": "pending",
+   "stars": 3,
+   "desc": "DeepSeek Harness (DSH) 的 skill 与插件包工作台：合规体检 14 项、触发率实测、插件工具契约与配置死键检查 9 类"
   },
   {
    "repo": "muyangplus/dsh-oi-workbench",
@@ -21162,6 +21169,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh-agent-teams"
+  },
+  {
+   "repo": "LUgABeEEE/dsh-desktop-shell",
+   "name": "missfor100-dsh-desktop-shell",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness desktop OS integration plugin: native notifications, screenshot to session, clipboard watch,"
   },
   {
    "repo": "Missher12/Missher-DSH-Session-Bridge",
@@ -86460,6 +86474,13 @@
    "desc": "A DeepSeek Harness plugin that reclaims the rebuildable caches of DSH itself, the desktop client and installed"
   },
   {
+   "repo": "young1lin/dsh-glm-quota",
+   "name": "young1lin-dsh-glm-quota",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: Zhipu GLM Coding Plan quota panel (sidebar foot) — dual-face, no-build, tag-driven npm publish via"
+  },
+  {
    "repo": "Yourtokenkeeper/dsh-deepseek-c",
    "name": "yourtokenkeeper-dsh-deepseek-c",
    "verdict": "ok",
@@ -105131,7 +105152,7 @@
   {
    "repo": "kirkchinese/harness-forge",
    "name": "harness-forge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -114682,6 +114703,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "Tangweiwei227/DSH-MediaOps",
+   "name": "tangweiwei227-dsh-mediaops",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "AI-native media operations plugin for DeepSeek Harness"
   },
   {
    "repo": "TaoLe-si/dsh-perf-guard",
@@ -126022,6 +126050,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 图片插件：图片选择卡 + 回复内嵌图片 + 盲模型收图"
+  },
+  {
+   "repo": "PClO3/dsh-computer-use",
+   "name": "pclo3-dsh-computer-use",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "A project that lets your DSH（DeepSeek harness） control your mouse."
   },
   {
    "repo": "PCML-Z/pmcl-dsh",

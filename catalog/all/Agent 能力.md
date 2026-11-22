@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5775）
+# 🤖 Agent 能力（5777）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -670,6 +670,7 @@
 - ⬜ `[待定]` [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) ★3 — dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, and lifecycle for temp
 - 🟩 `[可用]` [mrbeandev-dsh-hypercompact](https://github.com/mrbeandev/dsh-hypercompact) ★3 — Deterministic, zero-LLM, byte-budget context compaction for DeepSeek Harness, with byte-exact recall of compac
 - 🟩 `[可用]` [mswinandmc-dsh-session-port](https://github.com/mswinandmc/dsh-session-port) ★3 — 会话导入导出：把 DSH 会话连同附件导出为压缩包，或导入为当前工作区里的新会话
+- ⬜ `[待定]` [murphy2000-cyk-skill-create-debug-dsh](https://github.com/Murphy2000-cyk/dsh-skill-plugin-tuning) ★3 — DeepSeek Harness (DSH) 的 skill 与插件包工作台：合规体检 14 项、触发率实测、插件工具契约与配置死键检查 9 类
 - 🟩 `[可用]` [muyangplus-dsh-oi-workbench](https://github.com/muyangplus/dsh-oi-workbench) ★3 — OI 出题工作台：知识点锁定、数据构造、本地评测，打包 Hydro/HOJ 原生题目包，发布/管理 Hydro 与 HOJ OJ
 - 🟩 `[可用]` [mys12word-dsh-file-tracker](https://github.com/Mys12word/dsh-file-tracker) ★3 — DSH plugin: shows which files and directories the agent touched (directory view + timeline)
 - ⬜ `[待定]` [nana7mi0721-anima-prompt-caption](https://github.com/Nana7mi0721/anima-prompt-caption) ★3 — —
@@ -3084,6 +3085,7 @@
 - 🟩 `[可用]` [misakiy1333-dsh-prompt-optimizer](https://github.com/Misakiy1333/dsh-prompt-optimizer) ★0 — A composer button for DeepSeek Harness: rewrites your draft into a structured prompt and puts it back in the i
 - 🟩 `[可用]` [miseryrua-dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) ★0 — 给 DSH 里的 Agent 一份跨会话长期记忆：真值源是工作区里的纯 Markdown，无向量库、无外部服务、零运行时依赖；每回合按预算分层注入 systemPrompt，后台自动流水 → 提炼 → 整理 → 治理
 - 🟩 `[可用]` [misrightw-dsh-agent-teams](https://github.com/MisRightW/dsh-agent-teams) ★0 — dsh-agent-teams
+- 🟩 `[可用]` [missfor100-dsh-desktop-shell](https://github.com/LUgABeEEE/dsh-desktop-shell) ★0 — DeepSeek Harness desktop OS integration plugin: native notifications, screenshot to session, clipboard watch,
 - 🟩 `[可用]` [missher12-dsh-session-bridge](https://github.com/Missher12/Missher-DSH-Session-Bridge) ★0 — Independent Missher plugin: current source, installable bundle and documentation.；桌面入口与其他插件见主页链接
 - ⬜ `[待定]` [missher12-missher-mse-learning](https://github.com/Missher12/Missher-MSE-Learning) ★0 — Missher MSE Learning: standalone learning product for DSH and other agents; no personal learning data.；桌面入口与其他
 - ⬜ `[待定]` [mknecar-dsh-hudv1-0-0](https://github.com/Mknecar/dsh_HUDV1.0.0) ★0 — 做了一个DeepSeek Harness 的右上角悬浮任务台，它能够实时显示当前时段是波峰（贵/红）还是波谷（便宜/绿），还提供了模型、工具、Agent、定价与 24 小时的峰谷轨迹
