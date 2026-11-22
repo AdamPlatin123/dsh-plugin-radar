@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T15:48:47Z",
+ "generated_at": "2026-11-22T16:03:03Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -264,7 +264,7 @@
   {
    "repo": "Minara-AI/minara-skills",
    "name": "minara-ai-minara-skills",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 392,
    "desc": "The skills for trading, to make your agent earn for you."
   },
