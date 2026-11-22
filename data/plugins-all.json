@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T18:33:21Z",
+ "generated_at": "2026-11-22T18:48:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -21269,13 +21269,6 @@
    "desc": "DSH plugin: Web on/off chip with Ollama web search and web_read, plus a tool budget and scratchpad for small-c"
   },
   {
-   "repo": "MauroProto/mbrowser",
-   "name": "mauroproto-mbrowser",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Complemento de DeepSeek Harness para Chrome con control en segundo plano, autorización local y panel de activi"
-  },
-  {
    "repo": "maverikhe-cpu/zhuangzai-dsh-workbench",
    "name": "maverikhe-cpu-zhuangzai-dsh-workbench",
    "verdict": "pending",
@@ -37724,6 +37717,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 插件：添加工作区时记住上次使用的目录，下次打开浏览对话框直接定位（预填 + 自动记忆，官方流程不动）"
+  },
+  {
+   "repo": "MauroProto/mbrowser",
+   "name": "mauroproto-mbrowser",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Complemento de DeepSeek Harness para Chrome con control en segundo plano, autorización local y panel de activi"
   },
   {
    "repo": "MBSF-Yifan/mbsf-compaction",
@@ -78613,13 +78613,6 @@
    "desc": "DSH 动态壁纸皮肤插件（大肥鱼版）：mp4/webm 视频或 jpg/png/gif 图片作为 DeepSeek Harness 背景，设置页集成、原生文件选择、遮罩/亮度/底调调节、热切换不重启"
   },
   {
-   "repo": "MatteoCui001/dsh-local-task-observer",
-   "name": "matteocui001-dsh-local-task-observer",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Read-only local task metadata for macOS and DeepSeek Harness"
-  },
-  {
    "repo": "Mauit06/dsh-jinhsi-skin",
    "name": "mauit06-dsh-jinhsi-skin",
    "verdict": "ok",
@@ -101179,6 +101172,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Codex-style file search inside the built-in dsh-better-sidebar Explorer tab + per-file-type icons/badges"
+  },
+  {
+   "repo": "MatteoCui001/dsh-local-task-observer",
+   "name": "matteocui001-dsh-local-task-observer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Read-only local task metadata for macOS and DeepSeek Harness"
   },
   {
    "repo": "Max-Null/dsh-jubensha",
@@ -158765,7 +158765,7 @@
   {
    "repo": "lazyaer/dsh-plugin-manager",
    "name": "lazyaer-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DSH web plugin: enable/disable installed plugins from the browser + audit every plugin download (source & time"
   },
@@ -224593,7 +224593,7 @@
   {
    "repo": "LawaR-tree/dsh-plugin-cost",
    "name": "lawar-tree-dsh-plugin-cost",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "SH cost/usage tracker for OpenCode Go & DeepSeek"
   },
