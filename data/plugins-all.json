@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T07:03:08Z",
+ "generated_at": "2026-11-22T07:18:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -7411,7 +7411,7 @@
   {
    "repo": "zytsyj/dsh-gpu",
    "name": "dsh-gpu",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,"
   },
@@ -65595,7 +65595,7 @@
   {
    "repo": "zzh-newlearner/dsh-postmortem",
    "name": "dsh-postmortem",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Explain failed DeepSeek Harness agent runs locally, then produce a redacted recovery plan"
   },
@@ -106734,7 +106734,7 @@
   {
    "repo": "zuoguyoupan2023/adhdgofly-dsh-ext",
    "name": "zuoguyoupan2023-adhdgofly-dsh-ext",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "ADHDGoFly POS highlighting plugin for DeepSeek Harness Web: nouns green, verbs red, adjectives/adverbs purple,"
   },
@@ -161215,7 +161215,7 @@
   {
    "repo": "zsmx233/dsh-plugin-ssh-remotes",
    "name": "dsh-plugin-ssh-remotes",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -166416,7 +166416,7 @@
   {
    "repo": "zprolab/WhaleKit",
    "name": "zprolab-whalekit",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Superpowers customized for DeepSeek Harness"
   },
