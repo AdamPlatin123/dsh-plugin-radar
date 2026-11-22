@@ -792,6 +792,7 @@
 - ⬜ `[待定]` [cq-guojia-dsh-task-dispatch-table](https://github.com/cq-guojia/dsh-task-dispatch-table) ★2 — 一个 dsh host 层插件：用一张任务定义表驱动周期性任务，按时间窗与依赖把任务派发成独立会话执行（调度层零大模型介入）
 - 🟩 `[可用]` [croissantts-dsh-bailian-models](https://github.com/CroissanTTs/dsh-bailian-models) ★2 — \[百炼（DashScope）模型目录预置插件\]Alibaba Bailian (DashScope) model catalog preset for DeepSeek Harness — 36 models with
 - ⬜ `[待定]` [ddwolf715-dsh-plugin-session-manager](https://github.com/ddwolf715/dsh-plugin-session-manager) ★2 — DeepSeek Harness 会话管理插件
+- ⬜ `[待定]` [deepforce-dsh-balance](https://github.com/deepforce/dsh-balance) ★2 — DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate
 - 🟩 `[可用]` [deepsleepaquarium-dsh-whale-post](https://github.com/deepsleepAquarium/dsh-whale-post) ★2 — 给同一台机器上的多个 AI 会话（或多台引擎）的异步信箱 —— 默认离线、信不会丢、万物皆插件（DSH / Cordis 风格） · An asynchronous mailbox for several AI sess
 - 🟩 `[可用]` [devmom-dsh-session-import](https://github.com/devmom/dsh-session-import) ★2 — —
 - 🟩 `[可用]` [diaryofuranus-dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) ★2 — DeepSeek Harness（DSH）第二大脑载入器：把有硬上限、带时间戳的脑快照（身份＋状态指纹＋未决项＋指针与边界）注入每个新会话；只读、零写入、fail-loud、零依赖
@@ -4671,7 +4672,6 @@
 - 🟨 `[不兼容]` [dataelement-dsh-plugin-coaligne](https://github.com/dataelement/dsh-plugin-coaligne) ★2 — CoAligne for DeepSeek Harness: shared team project context over MCP, plus the coaligne-workflow skill
 - 🟨 `[不兼容]` [datuloar-dsh-computer-use-win](https://github.com/datuloar/dsh-computer-use-win) ★2 — Windows computer use for DeepSeek Harness agents  screenshot, click, type, scroll, with an on-screen indicator
 - 🟨 `[不兼容]` [decarbonizedglucose-dsh-memory-note](https://github.com/DecarbonizedGlucose/dsh-memory-note) ★2 — Lightweight local cross-session memory for DeepSeek Harness
-- 🟨 `[不兼容]` [deepforce-dsh-balance](https://github.com/deepforce/dsh-balance) ★2 — DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate
 - 🟨 `[不兼容]` [dialling-dsh-galaxy-view](https://github.com/dialling/dsh-galaxy-view) ★2 — Cinematic 3D galaxy view for DeepSeek Harness — workspaces as suns, conversations as stars, plus a memory libr
 - 🟨 `[不兼容]` [dpskh-dsh-rewind](https://github.com/dpskh/dsh-rewind) ★2 — Fold everything since the last checkpoint mark into an auto-generated report, replacing it in context while ke
 - 🟨 `[不兼容]` [dsh-teamwork-dsh-teamwork](https://github.com/dsh-teamwork/dsh-teamwork) ★2 — Shared team models, agent presets, and approved plugins for DeepSeek Harness.

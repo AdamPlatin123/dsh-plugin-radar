@@ -358,7 +358,7 @@
 - 🟩 `[可用]` [1015677515-dsh-theme-holo](https://github.com/1015677515/dsh-theme-holo) ★14 — 为 DeepSeek Harness 打造的《狼与香辛料》赫萝主题：12 秒开场动画、浮动字标、偷看的她、动态档案卡、侧栏麦田、记录板、右栏待机画面与小鲸鱼联动——其中多个组件可以单独关掉
 - 🟩 `[可用]` [dsh-visualizer](https://github.com/abiddotdev/dsh-visualizer) ★14 — —
 - ⬜ `[待定]` [alfredchaos-dsh-usage-panel](https://github.com/AlfredChaos/dsh-usage-panel) ★14 — DeepSeek Harness 消耗统计插件：设置页 Token 用量 KPI、半年活跃热力图、按模型堆叠柱状图与模型环形图（dsh-plugin）
-- 🟩 `[可用]` [dviridescent-dafy-whale-theme](https://github.com/DViridescent/dafy-whale-theme) ★14 — DeepSeek Harness 蓝色大肥鱼主题插件：海洋配色、鱼群、气泡、吉祥物与品牌替换
+- ⬜ `[待定]` [dviridescent-dafy-whale-theme](https://github.com/DViridescent/dafy-whale-theme) ★14 — DeepSeek Harness 蓝色大肥鱼主题插件：海洋配色、鱼群、气泡、吉祥物与品牌替换
 - ⬜ `[待定]` [dsh-plugin-ya-workspace-sidebar](https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar) ★14 — DSH Web 工作区侧栏替代，顶部全局最近会话 + Workspace→Session 二级菜单 + 面包屑 \| DSH Web workspace sidebar replacement: top global re
 - 🟩 `[可用]` [jaychang1989-dsh-webchat](https://github.com/jaychang1989/dsh-webchat) ★14 — Opens the official chat.deepseek.com web app inside DeepSeek Harness: one sidebar entry renders the real page
 - 🟩 `[可用]` [justskill-ai-justskill-design](https://github.com/justskill-ai/justskill-design) ★14 — Design with your coding agent — A skill, not a product: no MCP server, no app to install, no account, no build

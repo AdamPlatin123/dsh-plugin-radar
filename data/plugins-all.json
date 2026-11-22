@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T09:47:57Z",
+ "generated_at": "2026-11-22T10:03:20Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -5482,6 +5482,13 @@
    "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness 会话管理插件"
+  },
+  {
+   "repo": "deepforce/dsh-balance",
+   "name": "deepforce-dsh-balance",
+   "verdict": "pending",
+   "stars": 2,
+   "desc": "DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate"
   },
   {
    "repo": "deepsleepAquarium/dsh-whale-post",
@@ -31762,13 +31769,6 @@
    "desc": "Lightweight local cross-session memory for DeepSeek Harness"
   },
   {
-   "repo": "deepforce/dsh-balance",
-   "name": "deepforce-dsh-balance",
-   "verdict": "incompatible",
-   "stars": 2,
-   "desc": "DSH plugin: /balance command, composer-dock balance readout with top-up link, session-cost estimate"
-  },
-  {
    "repo": "dialling/dsh-galaxy-view",
    "name": "dialling-dsh-galaxy-view",
    "verdict": "incompatible",
@@ -42572,7 +42572,7 @@
   {
    "repo": "DViridescent/dafy-whale-theme",
    "name": "dviridescent-dafy-whale-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 14,
    "desc": "DeepSeek Harness 蓝色大肥鱼主题插件：海洋配色、鱼群、气泡、吉祥物与品牌替换"
   },
@@ -105117,7 +105117,7 @@
   {
    "repo": "EdgeTypE/dsh-better-deepseek",
    "name": "edgetype-dsh-better-deepseek",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 43,
    "desc": "DeepSeek Harness bridge plugin for Better DeepSeek Chrome extension."
   },
@@ -212924,7 +212924,7 @@
   {
    "repo": "DimitriLIAN/dsh-habits",
    "name": "dimitrilian-dsh-habits",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Habits editor for DeepSeek Harness — edit the user-global AGENTS.md from Web settings, injected into every ses"
   },
