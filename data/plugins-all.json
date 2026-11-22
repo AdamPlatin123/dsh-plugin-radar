@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T14:33:13Z",
+ "generated_at": "2026-11-22T14:47:57Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -55233,6 +55233,13 @@
    "desc": "Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside"
   },
   {
+   "repo": "BannyLon/dsh-npie-reader",
+   "name": "bannylon-dsh-npie-reader",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "读到哪都能直接问 AI 的 DSH 阅读插件：RSS、电子书、论文都在同一个界面里读，读完就地写成日记与读后感"
+  },
+  {
    "repo": "BaoBao1996121/dsh-restart-ui",
    "name": "baobao1996121-dsh-restart-ui",
    "verdict": "ok",
@@ -100516,6 +100523,13 @@
    "desc": "基于 AppKit、SwiftUI 与 WKWebView 的 DSH 原生 macOS 桌面壳，提供设置中心、DSH 版本管理、插件管理、通知和 Sparkle 应用更新"
   },
   {
+   "repo": "kuanbandu/dsh-email",
+   "name": "kuanbandu-dsh-email",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Email for DeepSeek Harness: log in once in the Web UI, then read, search and send mail through agent tools (IM"
+  },
+  {
    "repo": "kulebbb/dsh-club",
    "name": "kulebbb-dsh-club",
    "verdict": "incompatible",
@@ -119390,7 +119404,7 @@
   {
    "repo": "apheli0os/deepseek-harness-orchestrate",
    "name": "apheli0os-deepseek-harness-orchestrate",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Declarative task-DAG orchestration plugin for DeepSeek Harness"
   },
@@ -165070,6 +165084,13 @@
    "desc": "让 AI 回复加入自定义表情，支持Bilibili、小红书、贴吧、知乎等多平台表情包，或自定义表情"
   },
   {
+   "repo": "Yi-111-a/dsh-jingling",
+   "name": "yi-111-a-dsh-jingling",
+   "verdict": "pending",
+   "stars": 52,
+   "desc": "dsh · dsh-plugin · deepseek · deepseek-harness · deepseek-harness-plugin · ai-companion · desktop-pet · charac"
+  },
+  {
    "repo": "yuanstarstar/dsh-game-stack",
    "name": "yuanstarstar-dsh-game-stack",
    "verdict": "pending",
@@ -169961,13 +169982,6 @@
    "verdict": "incompatible",
    "stars": 99,
    "desc": "Stock research toolkit for AI agents — 73 tools + 21 skills for analysis, screening & backtesting across A/HK/"
-  },
-  {
-   "repo": "Yi-111-a/dsh-jingling",
-   "name": "yi-111-a-dsh-jingling",
-   "verdict": "incompatible",
-   "stars": 52,
-   "desc": "dsh · dsh-plugin · deepseek · deepseek-harness · deepseek-harness-plugin · ai-companion · desktop-pet · charac"
   },
   {
    "repo": "Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
