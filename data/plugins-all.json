@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T01:48:42Z",
+ "generated_at": "2026-11-22T02:02:40Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -9530,6 +9530,13 @@
    "desc": "Raindrop.io dashboard for DeepSeek Harness: collection, tag, domain and type analytics, monthly trend and clea"
   },
   {
+   "repo": "htfy23/dsh-velocity",
+   "name": "htfy23-dsh-velocity",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Session velocity auditor for DeepSeek Harness: measures reclaimable wait time and reports the speedup percenta"
+  },
+  {
    "repo": "HuaGyuu/dsh-pure-mode-preset",
    "name": "huagyuu-dsh-pure-mode-preset",
    "verdict": "pending",
@@ -15788,6 +15795,13 @@
    "desc": "云仙大世界 — a living xiuxian world for DeepSeek Harness agents: enter, cultivate, and export a self-contained HTML"
   },
   {
+   "repo": "chrock-hyper/dsh-hyper-mode",
+   "name": "chrock-hyper-dsh-hyper-mode",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 的扩展 bundle：增强创造模式 + 岗位制编排 + 工单看板 + 会话内 Wiki（pnpm monorepo，TypeScript + JSX 构建）"
+  },
+  {
    "repo": "ChuanTianML/dsh-local-share",
    "name": "chuantianml-dsh-local-share",
    "verdict": "ok",
@@ -15800,6 +15814,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Degeneration guard for DeepSeek Harness: contains runaway symbol streams at the model boundary and repairs pol"
+  },
+  {
+   "repo": "ciskonc/dsh-skillmcp-gate",
+   "name": "ciskonc-dsh-skillmcp-gate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: per-session/global skill & MCP tool exposure gate"
   },
   {
    "repo": "Ck-epsilon/Aura",
@@ -25628,6 +25649,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH plugin: browser-extension cookie export, per-domain approval, in-memory vault, and a read-only CDP browser"
+  },
+  {
+   "repo": "wth373737/dsh-resource-guard",
+   "name": "wth373737-dsh-resource-guard",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Pre-flight memory/VRAM gate for DeepSeek Harness tool calls"
   },
   {
    "repo": "wu04186767/dsh-plugin-macos",
@@ -38046,6 +38074,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "steelunicorn/dsh-mcp-tool",
+   "name": "steelunicorn-dsh-mcp-tool",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Per-folder MCP server governance for DeepSeek Harness: a global server registry with lazy, agent-driven activa"
   },
   {
    "repo": "stefanydevitoqz-creatorPPP/dsh-edit-resend",
@@ -86259,7 +86294,7 @@
   {
    "repo": "yhm138/dsh-btw",
    "name": "yhm138-dsh-btw",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "Antigravity-style /btw side questions for DeepSeek Harness: a disposable forked child agent with full tools in"
   },
@@ -113072,6 +113107,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "MiniMax 语音识别（asr-1.0）+ 语音合成（speech-2.8-hd）的 DeepSeek Harness 全局插件：转写工具、任务结束后用喇叭念一句的播报、实时免手对话、303 个音色可选"
+  },
+  {
+   "repo": "Mooling0602/awesome-mooling-dsh-plugins",
+   "name": "mooling0602-awesome-mooling-dsh-plugins",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "My dsh-plugins."
   },
   {
    "repo": "MoreanP2003/dsh-speed-gauge",
@@ -153044,6 +153086,13 @@
    "desc": "一个轻量的 dsh（DeepSeek Harness）插件：安装桌面双击启动器 —— macOS 上是带官方鲸鱼图标的 dsh.app，Linux 上是 .desktop 入口。零依赖，约 147 KB。（终端命令在独立的 dsh-launcher 包）"
   },
   {
+   "repo": "LZM-P/dsh-plugin-rack",
+   "name": "lzm-p-dsh-plugin-dashboard",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "DSH 插件管理台：所有插件一屏看完，一个开关直接开关，更新完自动热替换不用重启 / Plugin dashboard for DSH: every plugin in one list with a power swi"
+  },
+  {
    "repo": "M0Yun/dsh-cookie-guard",
    "name": "m0yun-dsh-cookie-guard",
    "verdict": "ok",
@@ -155067,6 +155116,13 @@
    "desc": "强度表是 DSH Web 开源插件：设置页按模型统计 token 用量（环形图、热力图、趋势），数据仅来自本地日志"
   },
   {
+   "repo": "ciskonc/dsh-scp-ops",
+   "name": "ciskonc-dsh-scp-ops",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "SCP upload/download tools for DeepSeek Harness — legacy SCP wire protocol over ssh2, works without a remote SF"
+  },
+  {
    "repo": "classcit/deepseek-harness-desktop",
    "name": "classcit-deepseek-harness-desktop",
    "verdict": "ok",
@@ -156948,13 +157004,6 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "dsh plugin connecting Jina MCP with proxy + tool allowlist support"
-  },
-  {
-   "repo": "muhadif/dsh-atlassian-mcp",
-   "name": "muhadif-dsh-atlassian-mcp",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "Confluence and Jira connector for DeepSeek Harness (Atlassian remote MCP)"
   },
   {
    "repo": "MuYu-Zh/dsh-browser-control",
@@ -161575,6 +161624,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 浏览器工具：驱动 Chromium 标签页（headless / CDP attach / 拉起桌面应用 / 经 Browser Relay 接管真实 Chrome），open-close-run 三段式 + t"
+  },
+  {
+   "repo": "muhadif/dsh-atlassian-mcp",
+   "name": "muhadif-dsh-atlassian-mcp",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Confluence and Jira connector for DeepSeek Harness (Atlassian remote MCP)"
   },
   {
    "repo": "Nannanyeye/dsh-envdoctor",
@@ -174819,6 +174875,13 @@
    "verdict": "pending",
    "stars": 1,
    "desc": "基于dsh环境制作，给 AI agent 用的类脑长期记忆：单文件 SQLite、事件是唯一真相、会遗忘（衰减/休眠/提炼）、题集评测"
+  },
+  {
+   "repo": "20700499ww-byte/dsh-plugin-human-input",
+   "name": "20700499ww-byte-dsh-plugin-human-input",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Give agents real Windows input: eased cursor paths with arc and jitter, press/release, drag, per-character typ"
   },
   {
    "repo": "240xu/verdict-engine",
@@ -199417,6 +199480,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Custom text and colour for the DeepSeek Harness chat running-status line (「深度求索中，用时 12秒 ···」), configured from"
+  },
+  {
+   "repo": "wth373737/dsh-plugin-chat-export",
+   "name": "wth373737-dsh-plugin-chat-export",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: allowlisted Telegram group-chat export, human-only consent, verbatim notices + local-model digests"
   },
   {
    "repo": "wu81313-lab/dsh-image-studio",

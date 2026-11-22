@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5779）
+# 🤖 Agent 能力（5784）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1372,6 +1372,7 @@
 - ⬜ `[待定]` [hope4b-dsh-onto-space-panel](https://github.com/hope4b/dsh-onto-space-panel) ★1 — Onto space panel for DeepSeek Harness: declarations, agents, memory and per-chat context.
 - 🟩 `[可用]` [hotkong-dsh-home-assistant-panel](https://github.com/hotkong/dsh-home-assistant-panel) ★1 — Home Assistant panel for DeepSeek Harness: read-only status overview, prompt injection, ha_status, and browser
 - 🟩 `[可用]` [houdinicc-dsh-raindrop](https://github.com/houdinicc/dsh-raindrop) ★1 — Raindrop.io dashboard for DeepSeek Harness: collection, tag, domain and type analytics, monthly trend and clea
+- 🟩 `[可用]` [htfy23-dsh-velocity](https://github.com/htfy23/dsh-velocity) ★1 — Session velocity auditor for DeepSeek Harness: measures reclaimable wait time and reports the speedup percenta
 - ⬜ `[待定]` [huagyuu-dsh-pure-mode-preset](https://github.com/HuaGyuu/dsh-pure-mode-preset) ★1 — Pure Mode preset for DeepSeek Harness: sends only user and assistant messages — no system prompt, no tools, no
 - 🟩 `[可用]` [huajikano-dsh-feibi-breaker](https://github.com/huajikano/dsh-feibi-breaker) ★1 — 菲比破限 · DeepSeek-Harness 提示词塑形 + 提交前拦截插件，与 dsh-gatekeeper 共存
 - 🟩 `[可用]` [hubert-hwk-dsh-loop-doctor](https://github.com/Hubert-hwk/dsh-loop-doctor) ★1 — Self-diagnosing plugin family for DeepSeek Harness (dsh): deterministic detour detection over the SessionEvent
@@ -2287,8 +2288,10 @@
 - 🟩 `[可用]` [chonwai-dsh-gsap-skills](https://github.com/Chonwai/dsh-gsap-skills) ★0 — Official GSAP skills as a DeepSeek Harness bundle: eight skills, four documented corrections, verified gates
 - ⬜ `[待定]` [chris-003-dsh-agent-in-browser](https://github.com/chris-003/dsh-agent-in-browser) ★0 — Let a DeepSeek Harness agent see and control your browser in real time — read, screenshot, navigate, click, an
 - 🟩 `[可用]` [christianreevee-dsh-xiuxian-world](https://github.com/CHristianREEVEE/dsh-xiuxian-world) ★0 — 云仙大世界 — a living xiuxian world for DeepSeek Harness agents: enter, cultivate, and export a self-contained HTML
+- 🟩 `[可用]` [chrock-hyper-dsh-hyper-mode](https://github.com/chrock-hyper/dsh-hyper-mode) ★0 — DeepSeek Harness 的扩展 bundle：增强创造模式 + 岗位制编排 + 工单看板 + 会话内 Wiki（pnpm monorepo，TypeScript + JSX 构建）
 - 🟩 `[可用]` [chuantianml-dsh-local-share](https://github.com/ChuanTianML/dsh-local-share) ★0 — Local, privacy-first Markdown and self-contained HTML sharing for DeepSeek Harness sessions
 - 🟩 `[可用]` [chunqing286-dsh-guard-degen](https://github.com/chunqing286/dsh-guard-degen) ★0 — Degeneration guard for DeepSeek Harness: contains runaway symbol streams at the model boundary and repairs pol
+- 🟩 `[可用]` [ciskonc-dsh-skillmcp-gate](https://github.com/ciskonc/dsh-skillmcp-gate) ★0 — DSH plugin: per-session/global skill & MCP tool exposure gate
 - ⬜ `[待定]` [ck-epsilon-aura](https://github.com/Ck-epsilon/Aura) ★0 — Aura — small, focused tools for agents and people
 - 🟩 `[可用]` [ckcfcc-dsh-hindsight-workspace-switch](https://github.com/ckcfcc/dsh-hindsight-workspace-switch) ★0 — A **per-workspace** HindSight switch for the DeepSeek Harness (dsh) composer: a toggle sits to the left of the
 - 🟩 `[可用]` [cloud017-dsh-prompt-reforge](https://github.com/Cloud017/dsh-prompt-reforge) ★0 — A DSH composer control that reforges a rough draft into a precise prompt, with one-click revert.
@@ -3747,6 +3750,7 @@
 - 🟩 `[可用]` [wsm000-dsh-sandbox-temp-guard](https://github.com/wsm000/dsh-sandbox-temp-guard) ★0 — Self-healing guard for the DeepSeek Harness Windows ACL sandbox: recreates the per-session private temp direct
 - 🟩 `[可用]` [wste47-dsh-tab-status](https://github.com/WsTe47/dsh-tab-status) ★0 — 把 DeepSeek Harness 网页版的会话进度同步到浏览器标签：标题状态前缀 + favicon 计数徽章
 - 🟩 `[可用]` [wth373737-dsh-plugin-cookie-whitelist](https://github.com/wth373737/dsh-plugin-cookie-whitelist) ★0 — DSH plugin: browser-extension cookie export, per-domain approval, in-memory vault, and a read-only CDP browser
+- 🟩 `[可用]` [wth373737-dsh-resource-guard](https://github.com/wth373737/dsh-resource-guard) ★0 — Pre-flight memory/VRAM gate for DeepSeek Harness tool calls
 - 🟩 `[可用]` [wu04186767-dsh-plugin-macos](https://github.com/wu04186767/dsh-plugin-macos) ★0 — Native macOS tools for DeepSeek Harness agents: 21 local tools for notifications, clipboard, screenshots, spee
 - 🟩 `[可用]` [wu55uy-dsh-pomodoro-box](https://github.com/WU55UY/dsh-pomodoro-box) ★0 — A pomodoro timer for the DeepSeek Harness composer dock that opens a collectible blind box after every focus s
 - 🟩 `[可用]` [wufeng0105-dsh-plugin-kit](https://github.com/wufeng0105/dsh-plugin-kit) ★0 — DSH plugin development: contract lookup order (inspect → dsh-doc → real plugin source) plus executable complet
@@ -5588,6 +5592,7 @@
 - 🟨 `[不兼容]` [sskkde-dsh-goal-guard](https://github.com/sskkde/dsh-goal-guard) ★0 — DeepSeek Harness plugin: hold back goal auto-continuation while background subagents are still running (in-pro
 - 🟨 `[不兼容]` [stars-xk-dsh-bitwarden](https://github.com/Stars-XK/dsh-bitwarden) ★0 — DeepSeek Harness 的 Bitwarden / Vaultwarden 密码库插件：AI 只拿元数据、密码明文不出仓、受控执行通道
 - 🟨 `[不兼容]` [starstorm-ai-dsh-context-picker](https://github.com/starstorm-ai/dsh-context-picker) ★0 — —
+- 🟨 `[不兼容]` [steelunicorn-dsh-mcp-tool](https://github.com/steelunicorn/dsh-mcp-tool) ★0 — Per-folder MCP server governance for DeepSeek Harness: a global server registry with lazy, agent-driven activa
 - 🟨 `[不兼容]` [stefanydevitoqz-creatorppp-dsh-edit-resend](https://github.com/stefanydevitoqz-creatorPPP/dsh-edit-resend) ★0 — DSH (DeepSeek Harness) plugin: edit an already-sent user prompt and resend it - forks a child session whose in
 - 🟨 `[不兼容]` [stelliaf0x-dsh-better-subagent](https://github.com/STEllIAF0X/dsh-better-subagent) ★0 — —
 - 🟨 `[不兼容]` [stephenevenson-dsh-plugin-elevenlabs-callback](https://github.com/StephenEvenson/dsh-plugin-elevenlabs-callback) ★0 — DeepSeek Harness plugin: when a run finishes or needs approval, get a link on your phone, hear the result from
