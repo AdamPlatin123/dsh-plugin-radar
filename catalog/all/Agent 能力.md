@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5882）
+# 🤖 Agent 能力（5884）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1154,6 +1154,7 @@
 - 🟩 `[可用]` [ankepoipoi-agent-model-scout](https://github.com/ankepoipoi/agent-model-scout) ★1 — A Cordis plugin for DeepSeek Harness that probes all configured models with a cheap planning call, scores plan
 - 🟩 `[可用]` [anonrttty-dsh-mobile-remote-mode-plugin](https://github.com/anonRTtty/DSH-mobile-remote-mode-plugin) ★1 — DSH (DeepSeek Harness) mobile remote mode plugin - LAN discovery, QR pairing, Level-1 observer and Level-2 rem
 - 🟩 `[可用]` [anowhale-dsh-session-span](https://github.com/aNoWhale/dsh-session-span) ★1 — —
+- 🟩 `[可用]` [antimatter2020-dsh-assoc-mem](https://github.com/antimatter2020/dsh-assoc-mem) ★1 — 让AI像动物那样联想式记忆（以省token的方式\[确信\]）
 - 🟩 `[可用]` [aokamoaki-dsh-startup-guard](https://github.com/aokamoaki/dsh-startup-guard) ★1 — Boot-time guard for DeepSeek Harness: repairs corrupt session logs, preflights plugin composition, smoke-tests
 - 🟩 `[可用]` [dsh-optimize](https://github.com/cheetahbeatbeat/dsh-optimize) ★1 — Long-session resource control for DeepSeek Harness: measures the context every request carries, warns at confi
 - 🟩 `[可用]` [aorucshiea-dsh-preset-switch](https://github.com/aorucshiea/dsh-preset-switch) ★1 — Optional mid-session agent-preset switching for DeepSeek Harness
@@ -2593,6 +2594,7 @@
 - 🟩 `[可用]` [guobinmengxiang-rgb-dsh-memory-canvas](https://github.com/guobinmengxiang-rgb/dsh-memory-canvas) ★0 — DSH plugin: offload bulky tool logs to refs/*.md, keep a Mermaid canvas, recall by node_id
 - 🟩 `[可用]` [gurio-wine-dsh-fold-it-up](https://github.com/gurio-wine/dsh-fold-it-up) ★0 — DeepSeek Harness Web 插件：强制折叠每一轮的工作过程，答案照常显示，历史轮次与上下文注入行一并折叠
 - 🟩 `[可用]` [gxx950224-agent-team-dsh](https://github.com/gxx950224/agent-team-dsh) ★0 — —
+- ⬜ `[待定]` [gxyfly-dsh-session-delete-menu](https://github.com/GxyFly/dsh-session-delete-menu) ★0 — DeepSeek Harness 删除对话：右键确认后从侧栏移除会话，记录保留在本地备份
 - 🟩 `[可用]` [gxyfly-dsh-subagent-preview](https://github.com/GxyFly/dsh-subagent-preview) ★0 — DeepSeek Harness 子智能体预览：在原生侧栏查看运行状态、实时输出和历史结果
 - ⬜ `[待定]` [gyp8735abc-dsh-mcp-manager](https://github.com/gyp8735abc/dsh-mcp-manager) ★0 — Per-workspace MCP and skill switches for DeepSeek Harness (dsh) - one popup per workspace row
 - 🟩 `[可用]` [gyxsza-approval-alert](https://github.com/gyxsza/approval-alert) ★0 — Approval alert plugin for DeepSeek Harness

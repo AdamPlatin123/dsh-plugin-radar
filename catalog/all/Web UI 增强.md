@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9284）
+# 🔌 Web UI 增强（9285）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4508,6 +4508,7 @@
 - ⬜ `[待定]` [exagone313-dsh-draft-prompts](https://github.com/Exagone313/dsh-draft-prompts) ★0 — Adds a right-sidebar tab for drafting prompts in DeepSeek Harness
 - 🟩 `[可用]` [exagone313-dsh-subagent-sidebar](https://github.com/Exagone313/dsh-subagent-sidebar) ★0 — A right-sidebar tab for DeepSeek Harness that lists subagents and opens them in one click
 - 🟩 `[可用]` [excitedeven-dsh-titlebar-workspace](https://github.com/ExcitedEven/dsh-titlebar-workspace) ★0 — Workspace switcher for the DeepSeek Harness titlebar — see the current project and jump to the right conversat
+- 🟩 `[可用]` [extetragon-dsh-illuminating-skin](https://github.com/ExTetragon/dsh-illuminating-skin) ★0 — 卡片风格的 DSH 简约毛玻璃皮肤主题，纯 CSS 注入，不调用宿主 API
 - 🟩 `[可用]` [extreme-russian-dsh-fandom-dsh-clippy-compani](https://github.com/extreme-russian-dsh-fandom/dsh-clippy-companion) ★0 — Clippy (and :godmode:) in your DeepSeek Harness GUI
 - 🟩 `[可用]` [ezerruier-dsh-matlab-feedback](https://github.com/Ezerruier/dsh-matlab-feedback) ★0 — DSH plugin: capture live MATLAB/DPABI/DPARSF/SPM QC window screenshots and command-window text into the DeepSe
 - 🟩 `[可用]` [ezerruier-dsh-mri-workbench](https://github.com/Ezerruier/dsh-mri-workbench) ★0 — DeepSeek Harness plugin + MATLAB GUI workbench for resting-state fMRI preprocessing with DPABI/DPARSF: dataset
