@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5805）
+# 🤖 Agent 能力（5810）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1299,6 +1299,7 @@
 - 🟩 `[可用]` [elfgzp-dsh-llm-minimax](https://github.com/elfgzp/dsh-llm-minimax) ★1 — MiniMax open-platform models for DeepSeek Harness: paste the API key in Settings, get MiniMax-M3.1-Flash / M3
 - 🟩 `[可用]` [eliofanyu-dsh-prompt-vault](https://github.com/ElioFanyu/dsh-prompt-vault) ★1 — 提示词库 · Prompt vault for DSH: save reusable prompts as plain Markdown notes (Obsidian-compatible) and insert th
 - 🟩 `[可用]` [emck-tirol-dsh-language-set](https://github.com/Emck/tirol-dsh-language-set) ★1 — \[DeepSeek Harness\] dsh plugin, that controls AI's reply language and thinking language separately via system p
+- 🟩 `[可用]` [enderxiao-dsh-express-cards](https://github.com/EnderXiao/dsh-express-cards) ★1 — Structured reply formatting for DeepSeek Harness: prompt discipline plus expresscard fences rendered as styled
 - ⬜ `[待定]` [englandtong-governance-multi-agent-harness](https://github.com/EnglandTong/governance-multi-agent-harness) ★1 — Governance-Multi-Agent-Harness-Plugin-for-DeepSeek-Harness
 - 🟩 `[可用]` [epsilonh-eps-dsh-nest](https://github.com/epsilonH-eps/dsh-nest) ★1 — 给 DSH 装一个「巢」：在设置里用下拉框安排会话从属，母会话就能像调 agent 一样访问子会话 —— 原地唤醒、问一句、拿回答，不复制历史、不改会话树
 - ⬜ `[待定]` [erty3244-dsh-self-trigger](https://github.com/erty3244/dsh-self-trigger) ★1 — Self-trigger for DeepSeek Harness: when the host is idle, the agent may inject one turn into a chosen session
@@ -1328,6 +1329,7 @@
 - 🟩 `[可用]` [fflow2023-dsh-usage-cost](https://github.com/fflow2023/dsh-usage-cost) ★1 — Lightweight DeepSeek Harness plugin: per-session + global API cost stats (peak/off-peak pricing)
 - 🟩 `[可用]` [findshan-dsh-agent-memory](https://github.com/findshan/dsh-agent-memory) ★1 — Self-evolving memory for DeepSeek Harness: capture → dream consolidation → retrieval injection → evolve
 - 🟩 `[可用]` [fly3366-deepjit](https://github.com/fly3366/DeepJIT) ★1 — JIT compiler plugin for deepseek-harness: compiles recurring agent workflows into hot skills and flow template
+- 🟩 `[可用]` [fubai-fenzhi-dsh-procedures](https://github.com/fubai-fenzhi/dsh-procedures) ★1 — File-based experience cards for DSH and other agents: a matching tool error injects a one-line pointer to a lo
 - 🟩 `[可用]` [fufuf-c-dsh-token](https://github.com/fufuf-c/dsh-token) ★1 — DSH local token usage & cost dashboard: 4-segment token breakdown, cache savings, per-session drill-down, glob
 - 🟩 `[可用]` [funnysnake11111-dsh-desktop-context-menu](https://github.com/FunnySnake11111/dsh-desktop-context-menu) ★1 — 专门为deepseek harness 桌面端开发的右键拓展菜单
 - 🟩 `[可用]` [funnyvalentine00-dsh-session-continue](https://github.com/Funnyvalentine00/dsh-session-continue) ★1 — —
@@ -4786,6 +4788,7 @@
 - 🟨 `[不兼容]` [ericjiang0423-dsh-orchestrator](https://github.com/EricJiang0423/dsh-orchestrator) ★1 — Local-first issue board for DeepSeek Harness: board data, model-facing tools, a fresh-agent planning loop, and a human approval queue for agent-proposed issues.
 - 🟨 `[不兼容]` [ericxu20266-dsh-skillmanager](https://github.com/EricXu20266/dsh-skillmanager) ★1 — DSH skill manager — list, group and enable/disable skills, delegate creation to the host agent
 - 🟨 `[不兼容]` [erzhe-lume-dsh-tool-diagram](https://github.com/erzhe-lume/dsh-tool-diagram) ★1 — DiagramKit — 结构化示意图的排版量尺与自检器：量真实字宽、查溢出/重叠/穿框，每次调用返回「图 + 可执行的修法」
+- 🟨 `[不兼容]` [escap1ng-dsh-novel-break](https://github.com/Escap1ng/dsh-novel-break) ★1 — DSH plugin: read novels between reasoning chunks
 - 🟨 `[不兼容]` [evilirving-dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) ★1 — On-demand context retrieval for DeepSeek Harness: context_query / context_slice / context_grep tools.
 - 🟨 `[不兼容]` [expertkt-dsh-agent-team-patch](https://github.com/ExpertKT/dsh-agent-team-patch) ★1 — Reproducible hot-patch for DSH Agent Teams: retire states, per-teammate model selection, conversation-header t
 - 🟨 `[不兼容]` [f-e-n-g-0531-dsh-execution-bus](https://github.com/f-e-n-g-0531/dsh-execution-bus) ★1 — —
@@ -5205,6 +5208,7 @@
 - 🟨 `[不兼容]` [dongkid-dsh-extra-workspaces](https://github.com/dongkid/dsh-extra-workspaces) ★0 — Per-session extra working directories for DSH: a session-settings option plus a runtime-context reminder that
 - 🟨 `[不兼容]` [dongze502-dsh-session-to-doc](https://github.com/Dongze502/dsh-session-to-doc) ★0 — Reorganize a DeepSeek Harness session into a structured Markdown document with outline and TOC (model tool + c
 - 🟨 `[不兼容]` [donkey-kurt-fullstack-pair](https://github.com/Donkey-Kurt/fullstack-pair) ★0 — 多目录任务范围：让一个会话在多个任意目录间共享检索范围（DSH 插件）
+- 🟨 `[不兼容]` [dreamalone666-dsh-gemini-native](https://github.com/DreamAlone666/dsh-gemini-native) ★0 — DSH + Gemini，原生 parts、服务端搜索、XHigh 推理、抗降智汉化提示词
 - 🟨 `[不兼容]` [drm-nz-dsh-redact](https://github.com/drm-nz/dsh-redact) ★0 — Redacts secrets from tool output before it reaches the model or the session log
 - 🟨 `[不兼容]` [dsh-plugins-dsh-approve-for-me](https://github.com/dsh-plugins/dsh-approve-for-me) ★0 — —
 - 🟨 `[不兼容]` [dsh-plugins-dsh-network-settings](https://github.com/dsh-plugins/dsh-network-settings) ★0 — A DeepSeek Harness plugin that bundles three network capabilities — User-Agent rewriting (from @dsh-plugin/dsh
@@ -5249,6 +5253,7 @@
 - 🟨 `[不兼容]` [flowingboy-dsh-local-perf](https://github.com/flowingboy/dsh-local-perf) ★0 — Durable DeepSeek Harness bundle: local-model performance tuning as a re-installable plugin layer (compaction,
 - 🟨 `[不兼容]` [fnckerpoi-dsh-plugin-nexus-sdlc](https://github.com/Fnckerpoi/dsh-plugin-nexus-sdlc) ★0 — Nexus spec-driven development agent preset for DeepSeek Harness
 - 🟨 `[不兼容]` [fomalhaut1998-dsh-ai-research](https://github.com/fomalhaut1998/dsh-ai-research) ★0 — AI research toolkit for DeepSeek Harness: model release radar, model benchmark & community report, AI news dig
+- 🟨 `[不兼容]` [fongap-labs-delta](https://github.com/fongap-labs/delta) ★0 — Local-first personal AI agent for work, research, analysis, and creation that improves with use.〔📦〕
 - 🟨 `[不兼容]` [fotlim-dsh-plugin-offline-reasoning-translato](https://github.com/fotlim/dsh-plugin-offline-reasoning-translator) ★0 — Local, offline English-to-Chinese translation for the reasoning text of DSH sessions (ONNX NMT, model download
 - 🟨 `[不兼容]` [fpm0312-dsh-auto-compact](https://github.com/fpm0312/dsh-auto-compact) ★0 — DeepSeek Harness 插件：上下文超过 45% 且静默 3 分钟时自动压缩会话历史
 - `[空仓监测]` **frank-nf-dsh-memory-nexus** — GitHub 无此仓库，判定暂不展示
