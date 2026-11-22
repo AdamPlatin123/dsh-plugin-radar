@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5813）
+# 🤖 Agent 能力（5815）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1377,6 +1377,7 @@
 - ⬜ `[待定]` [heyiwe1-dsh-multi-agent-preset](https://github.com/heyiwe1/dsh-multi-agent-preset) ★1 — 为 DeepSeek Harness 打造的多 agent 协同 preset：方向师/架构师/执行者三角色热插拔 + 可交互三模工具栏与一键启动。开箱即用、随包协议完备。Multi-agent collaboration preset for DeepSeek Harness: hot-swappable three roles — Director, Architect and Executor, alongside an interactive three-module toolbar supporting one-click startup. Ready-to-use, with fully integrated bundled protocols.
 - 🟩 `[可用]` [heyuanliu3-byte-dsh-auto-preset](https://github.com/heyuanliu3-byte/dsh-auto-preset) ★1 — DSH plugin: remembers your last manual permission-preset choice per session and restores it when the session i
 - 🟩 `[可用]` [hgognav233-netizen-agent-workflow-viewer](https://github.com/hgognav233-netizen/agent-workflow-viewer) ★1 — DeepSeek Harness plugin: a live, zoomable map of what the model calls, what comes back, and which subagent it
+- 🟩 `[可用]` [hihikohaza-dsh-heat-loop](https://github.com/hihikohaza/dsh-heat-loop) ★1 — Closed-loop intensity control for BLE devices — heat engine + physiological safety gates
 - ⬜ `[待定]` [hlwzm-memory-star](https://github.com/hlwzm/memory-star) ★1 — 把 Markdown 笔记变成能查、能连、能看的 3D 记忆星图
 - ⬜ `[待定]` [hochan666-hermes-skills-sync](https://github.com/Hochan666/hermes-skills-sync) ★1 — 把本机 Hermes Agent 已安装的技能导入 DeepSeek Harness：多源发现、Profile 分组、批量导入、冲突处理、保持原名
 - ⬜ `[待定]` [hope4b-dsh-onto-space-panel](https://github.com/hope4b/dsh-onto-space-panel) ★1 — Onto space panel for DeepSeek Harness: declarations, agents, memory and per-chat context.
@@ -2700,6 +2701,7 @@
 - 🟩 `[可用]` [ikta2010-dsh-loop-breaker](https://github.com/ikta2010/dsh-loop-breaker) ★0 — —
 - 🟩 `[可用]` [ilaomianyang-dsh-memory-graph](https://github.com/ilaomianyang/dsh-memory-graph) ★0 — Long-term associative memory for DeepSeek Harness: raw episodes, typed memory cards and entity pages in a plai
 - ⬜ `[待定]` [ilps2-avis-dsh-plugin](https://github.com/ilps2/avis-dsh-plugin) ★0 — AVIS 视频语义层 DSH 社区插件：给视频建可检索的语义索引，agent 毫秒级零 token 定位片段
+- ⬜ `[待定]` [ilvacm-dsh-setmodel-for-contextcompression](https://github.com/ILVACM/DSH-SetModel-for-ContextCompression) ★0 — 专门给DSH用于可视化设置上下文压缩专用模型
 - 🟩 `[可用]` [imcaibaicai-dsh-history-autoload](https://github.com/imcaibaicai/dsh-history-autoload) ★0 — Auto-load full session history when opening a conversation in DSH
 - 🟩 `[可用]` [imcaibaicai-dsh-session-landing](https://github.com/imcaibaicai/dsh-session-landing) ★0 — Pushed by DSH automated push engine
 - 🟩 `[可用]` [imcaibaicai-dsh-session-ref-unlimit](https://github.com/imcaibaicai/dsh-session-ref-unlimit) ★0 — —
