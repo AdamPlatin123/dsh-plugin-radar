@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T13:48:23Z",
+ "generated_at": "2026-11-22T14:03:18Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40381,7 +40381,7 @@
   {
    "repo": "WYH66666666/DSH-Transparent-UI-Plugin",
    "name": "wyh66666666-dsh-transparent-ui-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 439,
    "desc": "是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端"
   },
@@ -41571,7 +41571,7 @@
   {
    "repo": "WeirdSky924/agent-handoff-skill",
    "name": "weirdsky924-agent-handoff-skill",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 33,
    "desc": "Use this cross-platform skill in Codex or Claude Code to establish repository-local continuity memory so a fut"
   },
@@ -49145,7 +49145,7 @@
   {
    "repo": "WhitePlusMS/dsh-input-plus",
    "name": "whiteplusms-dsh-input-plus",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "DSH Web UI plugin for workspace file references, prompt history, and lightweight composer enhancements."
   },
@@ -63978,7 +63978,7 @@
   {
    "repo": "wjwjw/dsh-workspace-files",
    "name": "wjwjw-dsh-workspace-files",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Workspace file explorer plugin for the DeepSeek Harness web GUI"
   },
@@ -110787,7 +110787,7 @@
   {
    "repo": "woyeshishen/dsh-vision-plugin",
    "name": "woyeshishen-dsh-vision-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
