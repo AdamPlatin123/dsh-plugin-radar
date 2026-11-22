@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T12:02:51Z",
+ "generated_at": "2026-11-22T12:18:26Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -44567,7 +44567,7 @@
   {
    "repo": "Er1c0v0/dsh-whale-pet",
    "name": "dsh-whale-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "Cute whale-girl pet plugin for the DeepSeek Harness Web UI"
   },
