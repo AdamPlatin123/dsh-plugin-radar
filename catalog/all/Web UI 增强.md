@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9285）
+# 🔌 Web UI 增强（9287）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3202,6 +3202,7 @@
 - 🟩 `[可用]` [shuigege2025-dev-cloud-smoke-widget](https://github.com/shuigege2025-dev/cloud-smoke-widget) ★1 — An interactive virtual-smoking fidget widget for DeepSeek Harness (DSH) — a Cordis client plugin built and ope
 - 🟩 `[可用]` [shuijhu-dsh-quota-autoresume](https://github.com/shuijhu/dsh-quota-autoresume) ★1 — DeepSeek Harness plugin that resumes tasks stopped by plan-quota exhaustion, right after the next quota reset
 - 🟩 `[可用]` [shuoweifu-dsh-liquid-glass](https://github.com/ShuoweiFu/dsh-liquid-glass) ★1 — A high-performance WebGL Liquid Glass plugin for DeepSeek Harness (Electron). Features FBM domain warp, chromatic dispersion, and a 5-layer GPU overheat guard. / 为 DSH 打造的高性能 WebGL 液态玻璃插件，内含色散折射、鼠标涟漪与 5 层核显保命机制。
+- 🟩 `[可用]` [shuoweifu-dsh-theme-engine](https://github.com/ShuoweiFu/DSH-Theme-Engine) ★1 — Liquid glass theme engine for DeepSeek Harness - live desktop wallpaper behind the UI, 13-tap Gaussian blur on
 - 🟩 `[可用]` [shushushu-whn-dsh-brand-text](https://github.com/Shushushu-whn/dsh-brand-text) ★1 — 把 DSH Web 界面换成自家品牌（Logo / 名称 / 中央标题 / favicon），并给页面与项目文件夹打上「为什么加 · 在干什么」水印
 - ⬜ `[待定]` [dsh-k12-lesson-builder](https://github.com/shyboy/dsh-k12-lesson-builder) ★1 — DeepSeek Harness plugin for generating synchronized K12 English PPTX and DOCX lesson materials
 - ⬜ `[待定]` [silasvanceneo-dsh-dynamic-multiagent](https://github.com/Silasvanceneo/dsh-dynamic-multiagent) ★1 — Dynamic multi-agent orchestration for DeepSeek Harness (dsh): task graphs of child agents with per-node role,
@@ -9088,6 +9089,7 @@
 - 🟨 `[不兼容]` [ttmouse-dsh-generative-ui](https://github.com/ttmouse/dsh-generative-ui) ★0 — DSH 插件：AI 在对话流里直接输出可交互的 Generative UI 组件（沙箱 iframe，纯客户端）
 - 🟨 `[不兼容]` [tu1918-dsh-git-plugin](https://github.com/tu1918/dsh-git-plugin) ★0 — DSH Web GUI git panel: a resident right-sidebar tab for reviewing, staging, committing, and syncing the sessio
 - 🟨 `[不兼容]` [tuhuikao-dsh-wlk-video-edit](https://github.com/tuhuikao/dsh-wlk-video-edit) ★0 — —
+- 🟨 `[不兼容]` [tungloong-dsh-t3-inbox](https://github.com/tungloong/dsh-t3-inbox) ★0 — Attention-first, T3 Code–inspired inbox sidebar for DeepSeek Harness
 - 🟨 `[不兼容]` [tuweizhi-dsh-translator](https://github.com/TuWeiZhi/dsh-translator) ★0 — DSH 划词翻译（增强 fork）：独立输入面板 + Google 翻译 + 音标与词典
 - 🟨 `[不兼容]` [txlznbzsdj-collab-dsh-session-delete](https://github.com/txlznbzsdj-collab/dsh-session-delete) ★0 — DSH plugin: add a "Delete" item to the sidebar session menu with a confirmation dialog.
 - 🟨 `[不兼容]` [uid-762-dsh-ai-workbench](https://github.com/Uid-762/dsh-ai-workbench) ★0 — 用一句大白话让 AI 在 DSH 里造一个可缩放窗口，然后继续跟它聊 — DeepSeek Harness 插件

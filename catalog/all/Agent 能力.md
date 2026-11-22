@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5884）
+# 🤖 Agent 能力（5885）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1742,6 +1742,7 @@
 - 🟩 `[可用]` [shixingxingai-dsh-skill-ponytail](https://github.com/shixingxingai/dsh-skill-ponytail) ★1 — Ponytail 懒人资深模式-最小改动解决问题，回复一段话就能看懂
 - 🟩 `[可用]` [shlan28-dsh-task-board](https://github.com/shlan28/dsh-task-board) ★1 — DeepSeek Harness 插件：侧栏任务看板，把卡片派发到独立会话执行并回收进度与结果
 - ⬜ `[待定]` [shokoup-dsh-tea-party-mode](https://github.com/ShokouP/dsh-tea-party-mode) ★1 — 角色茶话会模式 \| Character Tea Party Agent preset for DeepSeek Harness (dsh): 8 LLM-girls roleplay around a tea table
+- 🟩 `[可用]` [shskyc-dsh-conversation-search](https://github.com/shskyc/dsh-conversation-search) ★1 — Ctrl+F in-session search for DeepSeek Harness conversations with Office-style match list and in-place highligh
 - ⬜ `[待定]` [shutongx-dsh-session-message](https://github.com/shutongX/dsh-session-message) ★1 — Cross-session messaging for DeepSeek Harness: send a user-role message to another session in any workspace
 - 🟩 `[可用]` [sijie-ni-0214-dsh-subagent-error-details](https://github.com/sijie-ni-0214/dsh-subagent-error-details) ★1 — DSH plugin: deliver the real failure reason (e.g
 - 🟩 `[可用]` [sillykjs-dsh-share-import](https://github.com/Sillykjs/dsh-share-import) ★1 — Import public DeepSeek / Doubao chat share links into DeepSeek Harness (DSH) as static, resumable sessions.
@@ -3009,7 +3010,7 @@
 - 🟩 `[可用]` [lobster-liu-dsh-invest-research](https://github.com/lobster-liu/dsh-invest-research) ★0 — Multi-agent A-share research pipeline skill for DeepSeek Harness (6 roles, dual-blind risk review, source-cite
 - ⬜ `[待定]` [lokih1028-dsh-prompt-optimizer](https://github.com/lokih1028/dsh-prompt-optimizer) ★0 — One-click prompt enhancement and structuring plugin for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [lolkda-dsh-skills-manager](https://github.com/lolkda/dsh-skills-manager) ★0 — Manage the DeepSeek Harness skill catalog from Settings: list what DSH actually resolves, enable or disable a
-- 🟩 `[可用]` [dsh-session-index](https://github.com/longyu065/dsh-session-index) ★0 — —
+- ⬜ `[待定]` [dsh-session-index](https://github.com/longyu065/dsh-session-index) ★0 — —
 - 🟩 `[可用]` [loonylabs-dev-dsh-cache-guard](https://github.com/loonylabs/dsh-cache-guard) ★0 — DSH plugin that prices an automatic context rewrite before it lands and asks first — the cold re-read, in k to
 - 🟩 `[可用]` [dsh-subagent-model](https://github.com/loonylabs/dsh-subagent-model) ★0 — —
 - 🟩 `[可用]` [lornatang-dsh-security-audit](https://github.com/Lornatang/dsh-security-audit) ★0 — Security audit skill for DeepSeek Harness.
