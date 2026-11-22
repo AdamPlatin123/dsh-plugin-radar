@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T09:02:40Z",
+ "generated_at": "2026-11-22T09:18:21Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -214635,6 +214635,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "可拖动排序的 DSH 网页抓取聚合插件：直连 / Jina / Firecrawl / fastCRW / Exa / 无头浏览器 / Lightpanda"
+  },
+  {
+   "repo": "liangdabiao/dsh-comic-story-video",
+   "name": "liangdabiao-dsh-comic-story-video",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "漫画故事片场 · dsh-comic-story-video  把任意选题做成 110–135 秒竖屏「图片在讲故事」的漫画短视频：生成式线稿.comic-story-video dsh plugin: vertical"
   },
   {
    "repo": "lightporta/dsh-knowledge-center",
