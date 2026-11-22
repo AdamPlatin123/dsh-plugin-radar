@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T23:33:24Z",
+ "generated_at": "2026-11-22T23:47:49Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -100630,7 +100630,7 @@
   {
    "repo": "1264459640/dsh-trellis",
    "name": "1264459640-dsh-trellis",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 13,
    "desc": "Self-contained Trellis workflow trigger for DeepSeek Harness (DSH / Cordis)"
   },
@@ -106643,7 +106643,7 @@
   {
    "repo": "13323232dong/dsh-tunnel-qr-plugin",
    "name": "13323232dong-dsh-tunnel-qr-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH 免费公网隧道插件：一次性安全密钥二维码自动登录，支持定时刷新与 macOS、Linux、Windows"
   },
@@ -150517,6 +150517,13 @@
    "desc": "deepseek harness桌面客户端(含插件市场和多模态视觉) 一键安装包，双击DeepSeekHarnessSetup-desktop.exe就可以一键安装，适合小白！"
   },
   {
+   "repo": "yxccai/dsh-desktop",
+   "name": "yxccai-dsh-desktop",
+   "verdict": "pending",
+   "stars": 11,
+   "desc": "Unofficial Windows and macOS desktop app for DeepSeek Harness, with bundled runtime and automatic reuse of exi"
+  },
+  {
    "repo": "AcidGr/dsh-web-mobile-fix",
    "name": "acidgr-dsh-web-mobile-fix",
    "verdict": "ok",
@@ -160707,13 +160714,6 @@
    "verdict": "incompatible",
    "stars": 12,
    "desc": "魔理沙 DSH 整合包发行：29 插件 + 一键安装 + profile 直装"
-  },
-  {
-   "repo": "yxccai/dsh-desktop",
-   "name": "yxccai-dsh-desktop",
-   "verdict": "incompatible",
-   "stars": 11,
-   "desc": "Unofficial Windows and macOS desktop app for DeepSeek Harness, with bundled runtime and automatic reuse of exi"
   },
   {
    "repo": "drscrewdriver/dsh-cookie-cleaner",
@@ -172469,6 +172469,13 @@
    "desc": "DeepSeek Harness chat history and session management: search archives, restore conversations, and delete safely."
   },
   {
+   "repo": "0326/dsh-plugin-market",
+   "name": "0326-dsh-plugin-market",
+   "verdict": "pending",
+   "stars": 9,
+   "desc": "A secure, trusted, curated plugin marketplace for DeepSeek Harness."
+  },
+  {
    "repo": "omdsh-dev/dsh-hub-workshop",
    "name": "omdsh-dev-dsh-hub-workshop",
    "verdict": "ok",
@@ -174756,13 +174763,6 @@
    "verdict": "incompatible",
    "stars": 14,
    "desc": "害怕插件装了就崩溃？用这个插件帮你检测插件是否正常/是否含木马！"
-  },
-  {
-   "repo": "0326/dsh-plugin-market",
-   "name": "0326-dsh-plugin-market",
-   "verdict": "incompatible",
-   "stars": 9,
-   "desc": "A secure, trusted, curated plugin marketplace for DeepSeek Harness."
   },
   {
    "repo": "LX2000WASD/dsh-plugin-manager-companion",
