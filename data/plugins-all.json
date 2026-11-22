@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T18:02:59Z",
+ "generated_at": "2026-11-22T18:33:21Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40983,7 +40983,7 @@
   {
    "repo": "hyzyn/dsh-plugin-kit",
    "name": "hyzyn-dsh-plugin-kit",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 69,
    "desc": "Plugin family for the DeepSeek Harness (DSH) Web GUI: a pnpm monorepo with a plugin template, dev kit, and one"
   },
@@ -104907,7 +104907,7 @@
   {
    "repo": "kanghelyu/dsh-deepseek-flow",
    "name": "kanghelyu-dsh-deepseek-flow",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 93,
    "desc": "—"
   },
@@ -196096,7 +196096,7 @@
   {
    "repo": "l309820784-lgtm/dsh-plugin-wechat",
    "name": "l309820784-lgtm-dsh-plugin-wechat",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness 微信渠道插件：微信(文字/语音) ↔ DSH agent，随 DSH 自动启动"
   },

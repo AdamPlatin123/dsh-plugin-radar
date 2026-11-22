@@ -128,7 +128,7 @@
 - 🟩 `[可用]` [regrevia-dsh-unlag](https://github.com/regrevia/dsh-unlag) ★71 — Clear a sluggish DeepSeek Harness workbench without restarting: rebuild the interface and swap plugin code in
 - ⬜ `[待定]` [perrylink-dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) ★70 — A practical guide to DSH plugin quality: ENTRY checks, FLOW journeys, and BOOST practices
 - 🟩 `[可用]` [988hj7tczd-oss-dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) ★69 — Cross-platform Computer Use plugin for DeepSeek Harness: observable desktop automation with an isolated virtua
-- 🟩 `[可用]` [hyzyn-dsh-plugin-kit](https://github.com/hyzyn/dsh-plugin-kit) ★69 — Plugin family for the DeepSeek Harness (DSH) Web GUI: a pnpm monorepo with a plugin template, dev kit, and one
+- ⬜ `[待定]` [hyzyn-dsh-plugin-kit](https://github.com/hyzyn/dsh-plugin-kit) ★69 — Plugin family for the DeepSeek Harness (DSH) Web GUI: a pnpm monorepo with a plugin template, dev kit, and one
 - ⬜ `[待定]` [whyihaveyou-dsh-suite](https://github.com/whyihaveyou/dsh-suite) ★69 — The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, with an in-app plugin st
 - 🟩 `[可用]` [chenruot-dsh-sidebar-qa](https://github.com/ChenRuoT/dsh-sidebar-qa) ★68 — 一个基于DSH-better-sidebar的侧边栏提问tab，实现类codex的侧边提问或claude code的/btw功能
 - 🟩 `[可用]` [lhuans-dsh-genui](https://github.com/lhuans/dsh-genui) ★66 — GenUI for DeepSeek Harness: interactive charts, forms, calculators, dashboards, and mini apps rendered inline
