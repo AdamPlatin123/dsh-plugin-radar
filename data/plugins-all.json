@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T08:17:38Z",
+ "generated_at": "2026-11-22T08:33:33Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -8002,6 +8002,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "—"
+  },
+  {
+   "repo": "antimatter2020/dsh-assoc-mem",
+   "name": "antimatter2020-dsh-assoc-mem",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "让AI像动物那样联想式记忆（以省token的方式\\[确信\\]）"
   },
   {
    "repo": "aokamoaki/dsh-startup-guard",
@@ -17893,6 +17900,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "GxyFly/dsh-session-delete-menu",
+   "name": "gxyfly-dsh-session-delete-menu",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness 删除对话：右键确认后从侧栏移除会话，记录保留在本地备份"
   },
   {
    "repo": "GxyFly/dsh-subagent-preview",
@@ -71338,6 +71352,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Workspace switcher for the DeepSeek Harness titlebar — see the current project and jump to the right conversat"
+  },
+  {
+   "repo": "ExTetragon/dsh-illuminating-skin",
+   "name": "extetragon-dsh-illuminating-skin",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "卡片风格的 DSH 简约毛玻璃皮肤主题，纯 CSS 注入，不调用宿主 API"
   },
   {
    "repo": "extreme-russian-dsh-fandom/dsh-clippy-companion",
@@ -157090,6 +157111,13 @@
    "desc": "deepseek harness desktop"
   },
   {
+   "repo": "Beeasy-L/DSH-plugin-market",
+   "name": "beeasy-l-dsh-plugin-market",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness 插件合集 —— 每个插件在 plugins/ 下独立成包，可单独安装、单独启用，互不牵连"
+  },
+  {
    "repo": "BeforeWave/dsh-desktop",
    "name": "beforewave-dsh-desktop",
    "verdict": "pending",
@@ -195135,13 +195163,6 @@
    "desc": "任务提示音：DSH 需要确认或一轮结束时播放 Windows 提示音，音效可在设置页挑选并试听"
   },
   {
-   "repo": "dongkid/dsh-active-workspace-top",
-   "name": "dongkid-dsh-active-workspace-top",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH plugin: keeps the workspace you last messaged at the top of the workspace list"
-  },
-  {
    "repo": "dove-a/dsh-chat-window-fold",
    "name": "dove-a-dsh-chat-window-fold",
    "verdict": "ok",
@@ -201377,6 +201398,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Clean-room DSH plugin: use Claude and ChatGPT (Codex) subscriptions as LLM provider routes — OAuth login, stre"
+  },
+  {
+   "repo": "dongkid/dsh-active-workspace-top",
+   "name": "dongkid-dsh-active-workspace-top",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: keeps the workspace you last messaged at the top of the workspace list"
   },
   {
    "repo": "doraasn/dsh-cloud-sync",
