@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（6040）
+# 🤖 Agent 能力（6039）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1916,7 +1916,7 @@
 - 🟩 `[可用]` [vincent-chk-dsh-ponytail](https://github.com/Vincent-chk/dsh-ponytail) ★1 — Ponytail (lazy senior dev mode) for DeepSeek Harness: always-on smallest-complete-change rules and six ponytai
 - 🟩 `[可用]` [vitas-dsh-jev-subagent-dispatch](https://github.com/vitas/dsh-jev-subagent-dispatch) ★1 — Cut LLM costs: route routine tasks to cheap subagent models (DeepSeek Harness plugin)
 - `[空仓监测]` **w210548735-art-dsh-session-collaboration** — GitHub 无此仓库，判定暂不展示
-- ⬜ `[待定]` [wangchengxin666-dsh-dock](https://github.com/wangchengxin666/metis) ★1 — Self-hosted multi-user cloud workspaces & control plane for DeepSeek Harness (DSH) — isolated Docker Agent OS
+- ⬜ `[待定]` [metis](https://github.com/wangchengxin666/metis) ★1 — Self-hosted multi-user cloud workspaces & control plane for DeepSeek Harness (DSH) — isolated Docker Agent OS
 - 🟩 `[可用]` [wangjiaqizero-dsh-session-hud](https://github.com/wangjiaqizero/dsh-session-hud) ★1 — Desktop floating session HUD for DeepSeek Harness: always-on-top overlay that appears when DSH is minimized (W
 - 🟩 `[可用]` [wanglijie34-dsh-session-jump](https://github.com/wanglijie34/dsh-session-jump) ★1 — —
 - 🟩 `[可用]` [wangshouyong-dsh-taskbearing](https://github.com/wangshouyong/dsh-taskbearing) ★1 — 在长对话里，AI 从来不缺上下文，缺上下文的是你。” 这是一个为 开发者打造的 DSH 插件。它不做发号施令的老板，只做你的 AI 任务外脑与方向仪表盘。
@@ -2080,7 +2080,6 @@
 - 🟩 `[可用]` [zydxn77-dsh-plugin-tiles](https://github.com/zydxn77/dsh-plugin-tiles) ★1 — 插件显示在会话标题旁：装过的插件，左键开关、右键改名，尺寸可调
 - 🟩 `[可用]` [zyfgood-dsh-a2a](https://github.com/zyfgood/dsh-a2a) ★1 — DeepSeek Harness A2A (Agent2Agent) plugin: expose DSH agents as standard A2A servers (agent card, message/send
 - 🟩 `[可用]` [zzj8442-blip-dsh-mobile-remote](https://github.com/zzj8442-blip/dsh-mobile-remote) ★1 — 📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持）
-- ⬜ `[待定]` [wangchengxin666-dsh-dock](https://github.com/wangchengxin666/dsh-dock) ★1 — Self-hosted multi-user cloud workspaces & control plane for DeepSeek Harness (DSH) — isolated Docker Agent OS
 - 🟩 `[可用]` [dsh-observer](https://github.com/lfc162874/dsh-observer) ★1 — Evidence-based diagnostics plugin for DeepSeek Harness agents.
 - 🟩 `[可用]` [dsh-session-html-export](https://github.com/DeltaFROST141/dsh-session-html-export) ★1 — —
 - 🟩 `[可用]` [dsh-skill-lord-serf](https://github.com/ttxl314/dsh-skill-lord-serf) ★1 — —
@@ -2889,7 +2888,7 @@
 - 🟩 `[可用]` [jwilson411-dsh-canary](https://github.com/jwilson411/dsh-canary) ★0 — DeepSeek Harness plugin: plant a canary and deny tool args/URLs that echo it (CANARY_TRIP).
 - 🟩 `[可用]` [jwilson411-dsh-compat-probe](https://github.com/jwilson411/dsh-compat-probe) ★0 — DeepSeek Harness plugin: OpenAI-compat server protocol card (loopback probe, no GGUF)
 - 🟩 `[可用]` [jwilson411-dsh-otel](https://github.com/jwilson411/dsh-otel) ★0 — DeepSeek Harness plugin: emit OpenTelemetry spans from a session log (turn / step / tool execute)
-- 🟩 `[可用]` [jwitmann-operator-memory](https://github.com/jwitmann/operator-memory) ★0 — —
+- 🟩 `[可用]` [vcc-brain](https://github.com/jwitmann/vcc-brain) ★0 — —
 - `[空仓监测]` **jxame-dsh-echo-memory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [jyhn-hunao-dsh-session-cost](https://github.com/jyhn-hunao/dsh-session-cost) ★0 — —
 - 🟩 `[可用]` [jyz48prsbr-netizen-dsh-my-rules](https://github.com/jyz48prsbr-netizen/dsh-my-rules) ★0 — Editable rule files injected into every session system prompt
@@ -5716,7 +5715,7 @@
 - 🟨 `[不兼容]` [ninjasln-labs-dsh-subagent-cursor](https://github.com/NinjaSln-labs/dsh-subagent-cursor) ★0 — DeepSeek Harness 插件：Cursor-as-subagent 提供方——一次本地 @cursor/sdk one-shot 运行、摘要优先结果、可无人值守的 Profile Bundle
 - 🟨 `[不兼容]` [niuniuaba-dsh-subagent-vision](https://github.com/niuniuaba/dsh-subagent-vision) ★0 — —
 - 🟨 `[不兼容]` [nobodyhere34-dsh-session-subagent-models](https://github.com/nobodyhere34/dsh-session-subagent-models) ★0 — Per-session editable subagent model allowlists for DSH — experimental, known design flaws, not maintained
-- 🟨 `[不兼容]` [nullcolorcat-dsh-agent-team-fix](https://github.com/NULLCOLORcat/dsh-Agent-team-fix) ★0 — —
+- 🟨 `[不兼容]` [dsh-Smarter-Subagent-level](https://github.com/NULLCOLORcat/dsh-Smarter-Subagent-level) ★0 — —
 - 🟨 `[不兼容]` [nwasvsad-dsh-task-digest](https://github.com/nwasvsad/dsh-task-digest) ★0 — DSH plugin: nightly per-task token, cost, and result digest for the previous day's Sessions
 - 🟨 `[不兼容]` [nwasvsad-dsh-task-plan](https://github.com/nwasvsad/dsh-task-plan) ★0 — DSH plugin: off-peak task plan table that runs pending tasks as concurrent Sessions
 - 🟨 `[不兼容]` [nzlov-dsh-rainbow-activity](https://github.com/nzlov/dsh-rainbow-activity) ★0 — Adds step counts, an execution-order colour strip, and a category legend to DSH Web’s native turn, analysis, and tool summaries. Adjacent steps of the same category share one colour block.
