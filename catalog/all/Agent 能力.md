@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5853）
+# 🤖 Agent 能力（5864）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -967,6 +967,7 @@
 - 🟩 `[可用]` [shayexiangpaimeng-dsh-memory](https://github.com/shayexiangpaimeng/dsh-memory) ★2 — Append-only layered memory plugin for DeepSeek Harness: five-layer partitioning, write gate, keyword recall, c
 - 🟩 `[可用]` [shepaw-agent-bridge](https://github.com/shepaw/agent-bridge) ★2 — —〔📦〕
 - ⬜ `[待定]` [dsh-context-viewer](https://github.com/shiningsprk-arch/dsh-context-viewer) ★2 — DeepSeek Harness (DSH) 上下文查看器 — 浏览思考链、shell 命令、工具调用与原始事件日志（Electron + React）
+- 🟩 `[可用]` [shiquanchai-dsh-workbuddy-pool](https://github.com/shiquanchai/dsh-workbuddy-pool) ★2 — DeepSeek Harness 的 WorkBuddy 账号池插件：多账号自动签到领积分、余额快照、按会话归因积分消耗，含账号池反代
 - ⬜ `[待定]` [shynloc-acks-dsh-plugins](https://github.com/shynloc/acks-dsh-plugins) ★2 — ACKS DeepSeek Harness 插件库 — AI Agent / Creative / Knowledge / Service 四类插件合集
 - 🟩 `[可用]` [sillykjs-dsh-agents-md](https://github.com/Sillykjs/dsh-agents-md) ★2 — A DSH Web tab for viewing and editing the AGENTS.md instruction files DSH loads
 - 🟩 `[可用]` [simveit-dsh-matriarc](https://github.com/simveit/dsh-matriarc) ★2 — Matriarc: a second model plans and reviews the work of a DeepSeek Harness (dsh) session, through a DSH subagen
@@ -3528,6 +3529,7 @@
 - 🟩 `[可用]` [soberkeen-dsh-vault](https://github.com/soberkeen/dsh-vault) ★0 — DSH（DeepSeek Harness）加密全量备份与恢复插件 —— 配置/会话/插件/工作区/Hindsight 记忆打包成加密分卷，带自包含还原器与 GFS 滚动保留，零外部依赖
 - ⬜ `[待定]` [soffits-dsh-restart-resume](https://github.com/soffits/dsh-restart-resume) ★0 — Continue the turns a DeepSeek Harness restart cut off, subagents included
 - ⬜ `[待定]` [solidifact-dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) ★0 — Retired: a controlled benchmark found no measurable gain
+- 🟩 `[可用]` [songling715-dsh-subagent-workbench](https://github.com/songling715/dsh-subagent-workbench) ★0 — Dispatch, watch, and take over parallel subagents from DeepSeek Harness.
 - `[空仓监测]` **songoao25-dsh-contract-drafting-agent** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [songsenand-yingzao](https://github.com/songsenand/yingzao) ★0 — A dsh plugin for mechanical CAD — the agent generates, the plugin closes the loop.
 - ⬜ `[待定]` [sophia-duoduo-dsh-smart-planner](https://github.com/Sophia-DuoDuo/dsh-smart-planner) ★0 — Task planner for DeepSeek Harness: staged daily plans, buffer days, capacity board, evening review, pinned ass
@@ -3581,6 +3583,7 @@
 - 🟩 `[可用]` [suyunxing-dsh-welcome-greeting](https://github.com/suyunxing/dsh-welcome-greeting) ★0 — Rewrites the DSH New Session headline into a short affectionate greeting written by the selected model from th
 - 🟩 `[可用]` [sven-mirana-dsh-recovery-right-wbr7](https://github.com/Sven-Mirana/dsh-recovery-right-wbr7) ★0 — 追偿权纠纷 R7 · DeepSeek Harness skill for Chinese recovery-right litigation
 - 🟩 `[可用]` [sviktor75-dsh-sound-notification](https://github.com/sviktor75/dsh-sound-notification) ★0 — DeepSeek Harness Web plugin: plays a chime when any session's response finishes (rising tone) or a question/ap
+- ⬜ `[待定]` [swcmb-dsh-spec-driven-delivery](https://github.com/Swcmb/dsh-spec-driven-delivery) ★0 — DSH agent preset: 规格驱动交付 — six fixed steps with brainstorming/spec/plan skills and a document-reviewer subagen
 - ⬜ `[待定]` [sweet-boby-dsh-session-isolation](https://github.com/sweet-boby/dsh-session-isolation) ★0 — DSH plugin for per-session working directories: keep parallel agent sessions from overwriting each other.
 - ⬜ `[待定]` [swrabbit-dsh-keeper](https://github.com/swrabbit/dsh-keeper) ★0 — DSH 管家是一个带左侧栏入口的 DSH 插件
 - 🟩 `[可用]` [syroezhkin-dsh-routerai](https://github.com/syroezhkin/dsh-routerai) ★0 — RouterAI plugins for the DeepSeek Harness: web search and a session-cost meter
@@ -5007,6 +5010,7 @@
 - 🟨 `[不兼容]` [songmingjun3-dsh-kitchen-plugin](https://github.com/songmingjun3/dsh-kitchen-plugin) ★1 — A kitchen of DeepSeek Harness sessions: stations, tickets, long jobs, and the bell that wakes them.
 - 🟨 `[不兼容]` [soulize-dsh-agent-teams-prompt-assemble](https://github.com/Soulize/dsh-agent-teams-prompt-assemble) ★1 — Small DeepSeek Harness plugin that changes the official Agent Teams prompt gate without modifying the Agent Te
 - 🟨 `[不兼容]` [soulmate793-dsh-memory](https://github.com/Soulmate793/dsh-memory) ★1 — Human-like memory plugin for DeepSeek Harness: Ebbinghaus decay, sleep consolidation, memory zones, hash-chain
+- 🟨 `[不兼容]` [spookywaste-dsh-time-context-off](https://github.com/SpookyWaste/dsh-time-context-off) ★1 — 精简time-context自动注入，只保留设置里勾选的部分
 - 🟨 `[不兼容]` [sskkde-dsh-oh-my-agent](https://github.com/sskkde/dsh-oh-my-agent) ★1 — oh-my-openagent (OmO) core capabilities ported as a DeepSeek Harness plugin: ultrawork, role delegation, rules
 - 🟨 `[不兼容]` [sssogin-malts](https://github.com/SssoGin/MALTS) ★1 — Multi-Agent Long-Task Scheduling and Growth System for AI coding agents, with file-based state, verification,
 - 🟨 `[不兼容]` [stfq-dsh-showcase](https://github.com/STFQ/dsh-showcase) ★1 — Turn DeepSeek Harness session exports into redacted, README-ready animated demos with a local CLI — zero model
@@ -5658,6 +5662,13 @@
 - 🟨 `[不兼容]` [sole373-dsh-agent-checkin](https://github.com/sole373/dsh-agent-checkin) ★0 — DeepSeek Harness 插件：聚合各 AI 客户端每日签到 + 余额看板，并把本机客户端模型接入 DSH（中文）
 - 🟨 `[不兼容]` [sonwe1e-ambitious-prompt](https://github.com/sonwe1e/ambitious-prompt) ★0 — Use domain expertise to rethink goals, methods and prompts
 - 🟨 `[不兼容]` [dsh-science-plugin](https://github.com/SPYfighting/dsh-science-plugin) ★0 — 🧪 Science team workbench for DeepSeek Harness — 9-role research agents, paper-blueprint workflow, task-flow DA
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-context-map](https://github.com/SSHOOTING/dsh-plugin-context-map) ★0 — DSH plugin: See what is in the current context: which sources were selected, roughly how much each costs, and
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-handoff-pack](https://github.com/SSHOOTING/dsh-plugin-handoff-pack) ★0 — DSH plugin: Carry task context — brief, artifacts, decisions, open items and a redacted trace — when switching
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-memory-compiler](https://github.com/SSHOOTING/dsh-plugin-memory-compiler) ★0 — DSH plugin: Compile a session into sourced memory entries — decisions, constraints and open questions — not a
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-plan-preview](https://github.com/SSHOOTING/dsh-plugin-plan-preview) ★0 — DSH plugin: Before execution, show the planned steps, their dependencies, likely tools, estimated cost and dan
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-skill-distiller](https://github.com/SSHOOTING/dsh-plugin-skill-distiller) ★0 — DSH plugin: Turn one successful task into a reusable skill draft: when it applies, the steps, counter-examples
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-subagent-board](https://github.com/SSHOOTING/dsh-plugin-subagent-board) ★0 — DSH plugin: See who the subagents are, what each is doing, dependencies, spend and whether results were merged
+- 🟨 `[不兼容]` [sshooting-dsh-plugin-task-contract](https://github.com/SSHOOTING/dsh-plugin-task-contract) ★0 — DSH plugin: Turn one vague request into an editable 5-line contract: goal, non-goals, acceptance criteria, bud
 - 🟨 `[不兼容]` [sskkde-dsh-goal-guard](https://github.com/sskkde/dsh-goal-guard) ★0 — DeepSeek Harness plugin: hold back goal auto-continuation while background subagents are still running (in-pro
 - 🟨 `[不兼容]` [stars-xk-dsh-bitwarden](https://github.com/Stars-XK/dsh-bitwarden) ★0 — DeepSeek Harness 的 Bitwarden / Vaultwarden 密码库插件：AI 只拿元数据、密码明文不出仓、受控执行通道
 - 🟨 `[不兼容]` [starstorm-ai-dsh-context-picker](https://github.com/starstorm-ai/dsh-context-picker) ★0 — —
