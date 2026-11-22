@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T11:33:11Z",
+ "generated_at": "2026-11-22T11:48:11Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -701,6 +701,13 @@
    "verdict": "ok",
    "stars": 57,
    "desc": "番茄小说 MCP、独立 Skill 与 DeepSeek Harness 阅读插件，支持搜书、阅读官网可见章节，以及查看本人书架和收藏划线"
+  },
+  {
+   "repo": "Nyasers/DSHana",
+   "name": "DSHana",
+   "verdict": "pending",
+   "stars": 56,
+   "desc": "DSHana: DeepSeek Harness as a subagent for HanaAgent"
   },
   {
    "repo": "sluminositys/dsh-nested-followups",
@@ -29501,13 +29508,6 @@
    "desc": "oh-my-dsh：面向 DSH (DeepSeek Harness) 的插件生态——700+ 插件，只通过扩展接缝注册，不修改 agent-loop 骨架"
   },
   {
-   "repo": "Nyasers/DSHana",
-   "name": "DSHana",
-   "verdict": "incompatible",
-   "stars": 56,
-   "desc": "DSHana: DeepSeek Harness as a subagent for HanaAgent"
-  },
-  {
    "repo": "limuyang2/agent-team",
    "name": "limuyang2-agent-team",
    "verdict": "incompatible",
@@ -44236,6 +44236,13 @@
    "desc": "Drive the open-source ArtCraft studio apps — PhotoCraft, FilmCraft, EffectCraft.."
   },
   {
+   "repo": "Noob-stupid/dsh-github-login",
+   "name": "noob-stupid-dsh-github-login",
+   "verdict": "pending",
+   "stars": 7,
+   "desc": "DeepSeek Harness 生态的 GitHub 可视化登录工具（零终端）：设备码流程，令牌同步 gh CLI \\| Visual GitHub login for the DSH ecosystem - no te"
+  },
+  {
    "repo": "OpenVulcan/dsh-vulcancode",
    "name": "openvulcan-dsh-vulcancode",
    "verdict": "pending",
@@ -44801,6 +44808,13 @@
    "verdict": "ok",
    "stars": 6,
    "desc": "Galgame / visual-novel UI plugin for the DeepSeek Harness: a whale-girl companion with animated expressions, s"
+  },
+  {
+   "repo": "omdsh-dev/dsh-minigames",
+   "name": "omdsh-dev-dsh-minigames",
+   "verdict": "pending",
+   "stars": 6,
+   "desc": "DSH 小游戏面板：215 款离线小游戏（六类分类+经典策展），剪绳喂糖、找规律、小作坊经营、连锁反应、潜行渗透、押注气球等原创机制，等模型回复时的摸鱼神器"
   },
   {
    "repo": "online111111/whalechan-dsh-theme",
@@ -46492,7 +46506,7 @@
   {
    "repo": "noone89A/dsh-gauge",
    "name": "noone89a-dsh-gauge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "为 DeepSeek Harness Web UI 提供精确缓存命中率、token 用量与费用估算"
   },
@@ -91507,13 +91521,6 @@
    "desc": "DeepSeek Harness 多供应商额度监控插件：余额型 API 查询 + 限额型本地用量计量，侧边栏实时卡片 + 可视化配置"
   },
   {
-   "repo": "Noob-stupid/dsh-github-login",
-   "name": "noob-stupid-dsh-github-login",
-   "verdict": "incompatible",
-   "stars": 7,
-   "desc": "DeepSeek Harness 生态的 GitHub 可视化登录工具（零终端）：设备码流程，令牌同步 gh CLI \\| Visual GitHub login for the DSH ecosystem - no te"
-  },
-  {
    "repo": "Pasumao/dsh-plugin-workbench",
    "name": "pasumao-dsh-plugin-workbench",
    "verdict": "incompatible",
@@ -91694,13 +91701,6 @@
    "verdict": "incompatible",
    "stars": 6,
    "desc": "Provides a Codex-like, project-free session experience for DeepSeek Harness, automatically creating a working"
-  },
-  {
-   "repo": "omdsh-dev/dsh-minigames",
-   "name": "omdsh-dev-dsh-minigames",
-   "verdict": "incompatible",
-   "stars": 6,
-   "desc": "DSH 小游戏面板：215 款离线小游戏（六类分类+经典策展），剪绳喂糖、找规律、小作坊经营、连锁反应、潜行渗透、押注气球等原创机制，等模型回复时的摸鱼神器"
   },
   {
    "repo": "papachong/deepseek-harness-tui",
@@ -159442,6 +159442,13 @@
    "desc": "npm 安装门禁插件:在 DeepSeek Harness 执行 npm install 前审计漏洞、许可证、体积与包健康度,自动放行/询问/拦截"
   },
   {
+   "repo": "niceberserker38/deepseek-harness-desktop",
+   "name": "niceberserker38-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Unlock DeepSeek Harness locally with a minimal, cross-platform desktop shell for private AI experimentation."
+  },
+  {
    "repo": "nicken/dsh-computer-use",
    "name": "nicken-dsh-computer-use",
    "verdict": "ok",
@@ -164123,13 +164130,6 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "Everyone remembers their first desktop"
-  },
-  {
-   "repo": "niceberserker38/deepseek-harness-desktop",
-   "name": "niceberserker38-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 0,
-   "desc": "Unlock DeepSeek Harness locally with a minimal, cross-platform desktop shell for private AI experimentation."
   },
   {
    "repo": "nicken/dsh-browser-use",
@@ -190230,7 +190230,7 @@
   {
    "repo": "pitetow/dsh-notify-on-complete",
    "name": "pitetow-dsh-notify-on-complete",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "Desktop notifications for DeepSeek Harness (dsh) — run completion, questions, approvals"
   },
@@ -203453,7 +203453,7 @@
   {
    "repo": "orziz/odai",
    "name": "orziz-odai",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 132,
    "desc": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付"
   },
@@ -207625,7 +207625,7 @@
   {
    "repo": "Noelune/dsh-agent-relay",
    "name": "noelune-dsh-agent-relay",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Local multi-agent collaboration relay for DeepSeek Harness — HMAC-authenticated loopback message broker for ds"
   },
@@ -210782,7 +210782,7 @@
   {
    "repo": "paradoxSCH/dsh-worktree",
    "name": "paradoxsch-dsh-worktree",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Durable Git worktree isolation and delivery plugin for DeepSeek Harness"
   },

@@ -597,6 +597,7 @@
 - 🟩 `[可用]` [muze63096-dsh-draw-plugin](https://github.com/muze63096/dsh-draw-plugin) ★7 — DeepSeek Harness 画图插件：侧边栏整页面板，写提示词即出图，Q版/正常两档画风，三引擎可选（免费 Pollinations / 硅基流动 Kolors / 任意 OpenAI 兼容）
 - 🟩 `[可用]` [nexus-aethra-nexus-terminal](https://github.com/Nexus-Aethra/Nexus-Terminal) ★7 — dshell — a terminal-first AI workbench built as dsh plugins: one terminal timeline per session, cross-session
 - 🟩 `[可用]` [ninkch-dsh-artcraft](https://github.com/NINKCH/dsh-artcraft) ★7 — Drive the open-source ArtCraft studio apps — PhotoCraft, FilmCraft, EffectCraft..
+- ⬜ `[待定]` [noob-stupid-dsh-github-login](https://github.com/Noob-stupid/dsh-github-login) ★7 — DeepSeek Harness 生态的 GitHub 可视化登录工具（零终端）：设备码流程，令牌同步 gh CLI \| Visual GitHub login for the DSH ecosystem - no te
 - ⬜ `[待定]` [openvulcan-dsh-vulcancode](https://github.com/OpenVulcan/dsh-vulcancode) ★7 — VulcanCode plugin suite for DeepSeek Harness (dsh): OpenVulcan account, Vulcan Decision permission guard, inte
 - 🟩 `[可用]` [orxz-deepseek-harness-themes](https://github.com/orxz/deepseek-harness-themes) ★7 — A collection of UI themes for deepseek-harness.
 - 🟩 `[可用]` [rannyrjjy-dsh-sidechat](https://github.com/rannyrjjy/dsh-sidechat) ★7 — 旁侧对话：给 \[DSH\] 加一个与主会话强绑定的侧边栏对话
@@ -678,6 +679,7 @@
 - 🟩 `[可用]` [noirabaka-dsh-compact-suite](https://github.com/NoiraBaka/dsh-compact-suite) ★6 — 面向本地部署的 DSH 上下文压缩控制面：摘要改走指定模型、阈值真正生效、口径对齐卡片、暂停即完整还原
 - ⬜ `[待定]` [oitsukiii-deepseek-harness-lan](https://github.com/oitsukiii/deepseek-harness-lan) ★6 — Run DeepSeek Harness Web UI on your home LAN — 4 minimal patches + one-click apply/revert scripts \| 让 DeepSeek
 - 🟩 `[可用]` [omdsh-dev-dsh-gal](https://github.com/omdsh-dev/dsh-gal) ★6 — Galgame / visual-novel UI plugin for the DeepSeek Harness: a whale-girl companion with animated expressions, s
+- ⬜ `[待定]` [omdsh-dev-dsh-minigames](https://github.com/omdsh-dev/dsh-minigames) ★6 — DSH 小游戏面板：215 款离线小游戏（六类分类+经典策展），剪绳喂糖、找规律、小作坊经营、连锁反应、潜行渗透、押注气球等原创机制，等模型回复时的摸鱼神器
 - ⬜ `[待定]` [online111111-whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) ★6 — Unofficial Whale-chan community fan-art theme for DeepSeek Harness
 - 🟩 `[可用]` [pasumao-dsh-plugin-dev-kb](https://github.com/Pasumao/dsh-plugin-dev-kb) ★6 — DeepSeek Harness (dsh) 插件开发知识库：官方文档完整镜像 + 主题导航与检索
 - ⬜ `[待定]` [pure-craft-dsh-actions](https://github.com/pure-craft/dsh-actions) ★6 — Deterministic project actions for people and agents — a DeepSeek Harness Web plugin
@@ -919,7 +921,7 @@
 - 🟩 `[可用]` [mushuanli-dsht](https://github.com/mushuanli/dsht) ★4 — deepseek-harness tui client, like claudecode cli or codex cli.
 - 🟩 `[可用]` [nagatoquin33-dsh-villager-hmm](https://github.com/nagatoquin33/dsh-villager-hmm) ★4 — Play a Minecraft villager hmm whenever the model hums inside its reasoning chain
 - 🟩 `[可用]` [nichts0v0-dsh-mcp-manager](https://github.com/Nichts0v0/dsh-mcp-manager) ★4 — 在 DeepSeek Harness 设置页管理 MCP 服务器：运行时添加/编辑/启停/重连/删除，实时状态、自动重连，中英双语界面
-- 🟩 `[可用]` [noone89a-dsh-gauge](https://github.com/noone89A/dsh-gauge) ★4 — 为 DeepSeek Harness Web UI 提供精确缓存命中率、token 用量与费用估算
+- ⬜ `[待定]` [noone89a-dsh-gauge](https://github.com/noone89A/dsh-gauge) ★4 — 为 DeepSeek Harness Web UI 提供精确缓存命中率、token 用量与费用估算
 - 🟩 `[可用]` [nothree-code-folder-tree-sh](https://github.com/Nothree-code/folder-tree-sh) ★4 — Workspace file-tree panel for the DSH web UI: explore, preview (DOCX / Markdown / PDF / code / CSV), and manag
 - 🟩 `[可用]` [oceanxuikun-dsh-eva-theme-plugin](https://github.com/oceanxuikun/dsh-eva-theme-plugin) ★4 — Evangelion-inspired theme plugin for DSH WebUI, featuring Unit-00, Unit-01, and Unit-02 themes with immersive
 - 🟩 `[可用]` [pollyreach-pollyreach-dsh-plugin](https://github.com/PollyReach/pollyreach-dsh-plugin) ★4 — pollyreach-dsh-plugin is a phone communication plugin built for DeepSeek Harness (dsh)
@@ -7445,7 +7447,6 @@
 - 🟨 `[不兼容]` [kevin-luo-dsh-org-panel](https://github.com/kevin-luo/dsh-org-panel) ★7 — deepseek harness 纯牛马 —— 多智能体数字员工指挥台插件
 - 🟨 `[不兼容]` [liceses-dsh-cosplay](https://github.com/liceses/dsh-cosplay) ★7 — DSH 角色扮演插件：角色卡（系统提示词注入 + 用户提示词改写）、可分享的单文件卡包、复刻原版 UI 的角色页签与首轮选角 chip
 - 🟨 `[不兼容]` [marisa-4219-deepseek-harness-quota-monitor](https://github.com/marisa-4219/deepseek-harness-quota-monitor) ★7 — DeepSeek Harness 多供应商额度监控插件：余额型 API 查询 + 限额型本地用量计量，侧边栏实时卡片 + 可视化配置
-- 🟨 `[不兼容]` [noob-stupid-dsh-github-login](https://github.com/Noob-stupid/dsh-github-login) ★7 — DeepSeek Harness 生态的 GitHub 可视化登录工具（零终端）：设备码流程，令牌同步 gh CLI \| Visual GitHub login for the DSH ecosystem - no te
 - 🟨 `[不兼容]` [pasumao-dsh-plugin-workbench](https://github.com/Pasumao/dsh-plugin-workbench) ★7 — \[Discontinued 2026-09-11: DSH >=0.1.5 ships a built-in workspace file tree + document preview — use that inste
 - 🟨 `[不兼容]` [quimos-m-dsh-sidebar-size](https://github.com/Quimos-M/dsh-sidebar-size) ★7 — 为DeepSeek Harness开发的右侧边栏尺寸持久化记忆插件
 - 🟨 `[不兼容]` [ruisenbai-dsh-annotation](https://github.com/ruisenbai/dsh-annotation) ★7 — 在原文旁批注聊天内容、文件和代码差异，汇总发送多条注解，也可在侧栏沿用主会话上下文单独讨论
@@ -7473,7 +7474,6 @@
 - 🟨 `[不兼容]` [lhh010-dsh-file-trace](https://github.com/lhh010/dsh-file-trace) ★6 — DSH Web UI 文件追踪插件：记录模型读取/写入/编辑的每个文件（含代码执行中的 fs 调用，代码读取/写入标注），终端风 diff、Markdown/KaTeX/Mermaid/图片渲染、文件直达资源管理器
 - 🟨 `[不兼容]` [lijian-ui-dsh-im-gateway](https://github.com/lijian-ui/dsh-im-gateway) ★6 — 为 DeepSeek Harness 提供多 IM 通道接入的网关插件：钉钉 / QQ / 个人微信，支持扫码绑定与流式回复
 - 🟨 `[不兼容]` [noproblum-dsh-codexlike-projectless](https://github.com/NoProblUm/dsh-codexlike-projectless) ★6 — Provides a Codex-like, project-free session experience for DeepSeek Harness, automatically creating a working
-- 🟨 `[不兼容]` [omdsh-dev-dsh-minigames](https://github.com/omdsh-dev/dsh-minigames) ★6 — DSH 小游戏面板：215 款离线小游戏（六类分类+经典策展），剪绳喂糖、找规律、小作坊经营、连锁反应、潜行渗透、押注气球等原创机制，等模型回复时的摸鱼神器
 - 🟨 `[不兼容]` [papachong-deepseek-harness-tui](https://github.com/papachong/deepseek-harness-tui) ★6 — This is a standalone terminal for deepseek-harness (designed based on a plug-in approach), updated in sync wit〔📦〕
 - 🟨 `[不兼容]` [pengxiaozi-dsh-plugins](https://github.com/pengxiaozi/dsh-plugins) ★6 — DeepSeek Harness 社区插件：MCP 连接管理面板 + Skills 管理面板（ZIP 导出）
 - 🟨 `[不兼容]` [better-dsh](https://github.com/pgmi-builds/better-dsh) ★6 — MOVED to pgmi-builds/super-dsh — better-dsh & super-dsh now maintained there (npm better-dsh unchanged)
