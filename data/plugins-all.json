@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T01:33:54Z",
+ "generated_at": "2026-11-22T01:48:42Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -25621,6 +25621,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "把 DeepSeek Harness 网页版的会话进度同步到浏览器标签：标题状态前缀 + favicon 计数徽章"
+  },
+  {
+   "repo": "wth373737/dsh-plugin-cookie-whitelist",
+   "name": "wth373737-dsh-plugin-cookie-whitelist",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: browser-extension cookie export, per-domain approval, in-memory vault, and a read-only CDP browser"
   },
   {
    "repo": "wu04186767/dsh-plugin-macos",
@@ -63015,6 +63022,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Multi-role engineering team for DeepSeek Harness: dispatch-time role charters, plan gate, QA, browser acceptan"
+  },
+  {
+   "repo": "WJPGKZ/dsh-tidal-memory",
+   "name": "wjpgkz-dsh-tidal-memory",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness rc5 memory: workspace-shared L0-L3 storage, evidence-based recall and native settings UI."
   },
   {
    "repo": "wjwjw/dsh-workspace-files",
@@ -158203,6 +158217,13 @@
    "desc": "Made for self using desktop of Deepseek harness."
   },
   {
+   "repo": "wth373737/dsh-plugin-sandbox-mode",
+   "name": "wth373737-dsh-plugin-sandbox-mode",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Sandbox Mode for DeepSeek Harness: reasoning edits a sandbox document, and every action and final output is ru"
+  },
+  {
    "repo": "wuhobin/dsh-mcp-manage",
    "name": "wuhobin-dsh-mcp-manage",
    "verdict": "ok",
@@ -226633,6 +226654,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "Interactive cards for DeepSeek Harness replies: sliders, forms, charts and tables from a tool result, with act"
+  },
+  {
+   "repo": "wth373737/dsh-video-localmodel",
+   "name": "wth373737-dsh-video-localmodel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Local-first video screening for DeepSeek Harness: deterministic signals + Qwen3-ASR subtitles + local VLM fram"
   },
   {
    "repo": "WU079/dsh-sts2-agent",

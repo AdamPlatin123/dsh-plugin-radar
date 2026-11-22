@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5778）
+# 🤖 Agent 能力（5779）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3746,6 +3746,7 @@
 - 🟩 `[可用]` [wsl1602291891-stack-dsh-restart-center](https://github.com/wsl1602291891-stack/dsh-restart-center) ★0 — Restart control for the DeepSeek Desktop window chrome: two-step confirm, running-session warning, plugin inst
 - 🟩 `[可用]` [wsm000-dsh-sandbox-temp-guard](https://github.com/wsm000/dsh-sandbox-temp-guard) ★0 — Self-healing guard for the DeepSeek Harness Windows ACL sandbox: recreates the per-session private temp direct
 - 🟩 `[可用]` [wste47-dsh-tab-status](https://github.com/WsTe47/dsh-tab-status) ★0 — 把 DeepSeek Harness 网页版的会话进度同步到浏览器标签：标题状态前缀 + favicon 计数徽章
+- 🟩 `[可用]` [wth373737-dsh-plugin-cookie-whitelist](https://github.com/wth373737/dsh-plugin-cookie-whitelist) ★0 — DSH plugin: browser-extension cookie export, per-domain approval, in-memory vault, and a read-only CDP browser
 - 🟩 `[可用]` [wu04186767-dsh-plugin-macos](https://github.com/wu04186767/dsh-plugin-macos) ★0 — Native macOS tools for DeepSeek Harness agents: 21 local tools for notifications, clipboard, screenshots, spee
 - 🟩 `[可用]` [wu55uy-dsh-pomodoro-box](https://github.com/WU55UY/dsh-pomodoro-box) ★0 — A pomodoro timer for the DeepSeek Harness composer dock that opens a collectible blind box after every focus s
 - 🟩 `[可用]` [wufeng0105-dsh-plugin-kit](https://github.com/wufeng0105/dsh-plugin-kit) ★0 — DSH plugin development: contract lookup order (inspect → dsh-doc → real plugin source) plus executable complet
