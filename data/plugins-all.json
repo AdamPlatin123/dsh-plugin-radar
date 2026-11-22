@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T16:03:03Z",
+ "generated_at": "2026-11-22T16:18:16Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -165961,7 +165961,7 @@
   {
    "repo": "moononnn/DeepSeek-Harness-biaoqingbao",
    "name": "moononnn-deepseek-harness-biaoqingbao",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "一个在DSH上使用的表情包插件，在和agent聊天时让ta自然的插入表情包"
   },
@@ -172912,7 +172912,7 @@
   {
    "repo": "nonentity303/dsh-plugin-manager",
    "name": "nonentity303-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 12,
    "desc": "—"
   },
@@ -178872,6 +178872,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Import WorkBuddy conversations into DeepSeek Harness (dsh)"
+  },
+  {
+   "repo": "my-dsh-plugin/session-archive-manager",
+   "name": "my-dsh-plugin-session-archive-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness 插件：在设置中查看并管理归档会话，支持取消归档、删除、批量删除与全量删除"
   },
   {
    "repo": "N107meow/figma-mcp-dsh",
@@ -186957,13 +186964,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "让dsh更简单的连接数据库"
-  },
-  {
-   "repo": "my-dsh-plugin/session-archive-manager",
-   "name": "my-dsh-plugin-session-archive-manager",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DeepSeek Harness 插件：在设置中查看并管理归档会话，支持取消归档、删除、批量删除与全量删除"
   },
   {
    "repo": "nico-zhuang/dsh-chat-file-actions",
