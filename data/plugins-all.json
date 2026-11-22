@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T01:17:43Z",
+ "generated_at": "2026-11-22T01:33:54Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -11852,6 +11852,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "Chat-box prompt auto-enhancement plugin for DeepSeek Harness (dsh): rewrites rough input into a clear, self-co"
+  },
+  {
+   "repo": "says693/dsh-scatter",
+   "name": "says693-dsh-scatter",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "Prompt optimizer for the DeepSeek Harness (DSH) composer: rewrite the draft with the session's current model,"
   },
   {
    "repo": "Sdongmaker/vpshub",
@@ -100332,6 +100339,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "A project knowledge base for the DeepSeek Harness Web GUI: notes, media sandbox, canvas, mind graph, board and"
+  },
+  {
+   "repo": "says693/dsh-artplayer",
+   "name": "says693-dsh-artplayer",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "Compact ArtPlayer video plugin for DSH: sidebar entry, small landscape window, double-tap expansion and hold f"
   },
   {
    "repo": "scsmash3r/dsh-ui-colors",
