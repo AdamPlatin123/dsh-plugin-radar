@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9239）
+# 🔌 Web UI 增强（9242）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3166,6 +3166,7 @@
 - 🟩 `[可用]` [saul-dsh-dsh-siri-voice](https://github.com/saul-dsh/dsh-siri-voice) ★1 — Siri-style running-light visualizer for the DeepSeek Harness (dsh) composer: a glowing wave band appears above
 - 🟩 `[可用]` [dsh-rich-questions](https://github.com/svgop/dsh-rich-questions) ★1 — Rich branching survey system for DeepSeek Harness (DSH) Web GUI — ask_survey tool with branch graphs, delayed
 - 🟩 `[可用]` [savastone-dsh-provider-limits](https://github.com/SavaStone/dsh-provider-limits) ★1 — DSH plugin: remaining provider limits in the sidebar footer — OpenRouter credit balance and OpenCode Go quota
+- ⬜ `[待定]` [sayzwx-dsh-daily-workspace](https://github.com/sayzwx/dsh-daily-workspace) ★1 — Default daily workspace + recent conversations for the DeepSeek Harness sidebar
 - 🟩 `[可用]` [dsh-custom-model](https://github.com/sayzwx/dsh-custom-model) ★1 — Custom-model console + model probe for the DeepSeek Harness Models page: manage llm-pi-ai providers in one lis
 - 🟩 `[可用]` [scarlet20252025-cloud-dsh-computeruse-enhance](https://github.com/scarlet20252025-cloud/DSH_Computeruse_Enhance) ★1 — DSH Computer Use Enhance: rebuild ZCode Computer Use as a DSH plugin with performance and contract hardening
 - ⬜ `[待定]` [scorp1o117-dsh-enhancement-suite](https://github.com/Scorp1o117/dsh-enhancement-suite) ★1 — Official enhancement suite for DeepSeek Harness — Vision, Soul/Persona, Long-term Memory & Plugin Marketplace.
@@ -3173,6 +3174,7 @@
 - ⬜ `[待定]` [selenium39-dsh-bpmn](https://github.com/Selenium39/dsh-bpmn) ★1 — BPMN 2.0 visual modeler plugin for DeepSeek Harness (DSH) — a bpmn-js powered workbench panel inside the DSH W
 - ⬜ `[待定]` [self-identity-dsh-preset-requirement-confirm](https://github.com/Self-Identity/dsh-preset-requirement-confirm) ★1 — DSH agent preset: confirm the requirement with a questionnaire before executing.
 - ⬜ `[待定]` [selinefieldcrop975-awesome-deepseek-agent](https://github.com/Selinefieldcrop975/awesome-deepseek-agent) ★1 — Discover step-by-step guides to integrate DeepSeek models into top AI agents and coding assistants, with quick
+- 🟩 `[可用]` [sensencjq-dsh-dragon-raja](https://github.com/sensencjq/dsh-dragon-raja) ★1 — 《龙族》执行员登录主题 for DeepSeek Harness：权限确认开场动画、黑金执行部配色与全屏 HUD
 - 🟩 `[可用]` [dsh-node-nav](https://github.com/Seryta/dsh-node-nav) ★1 — 对话节点导航：DSH Web GUI 右侧节点串，hover 预览、点击跳转、active 药丸跟随阅读位置
 - 🟩 `[可用]` [sevenhsu7-dsh-codex-like-markdown](https://github.com/sevenhsu7/dsh-codex-like-markdown) ★1 — Codex-like Markdown editing for the DSH right Sidebar: a rendered document you edit in place, including table
 - 🟩 `[可用]` [sg88-dsh-proxy-switch](https://github.com/sg88/dsh-proxy-switch) ★1 — DSH 网络代理开关：直连失败自动回退到 HTTP/SOCKS5 代理，设置面板可配置代理地址
@@ -6043,6 +6045,7 @@
 - 🟩 `[可用]` [rui08984-dot-dsh-sessionrelay](https://github.com/rui08984-dot/dsh-sessionrelay) ★0 — SessionRelay project memory for DeepSeek Harness — automatic brief injection, project auto-detection, and two-
 - 🟩 `[可用]` [ruide92-dsh-project-atlas](https://github.com/ruide92/dsh-project-atlas) ★0 — Project Atlas — local-first visual workbench for DeepSeek Harness projects, skills and sessions
 - 🟩 `[可用]` [ruihe774-dsh-agent-attribution](https://github.com/ruihe774/dsh-agent-attribution) ★0 — A dsh plugin that tells agents how to attribute the git commits and pull requests they create, with the model
+- 🟩 `[可用]` [ruiliover-dsh-important-sessions](https://github.com/Ruiliover/dsh-important-sessions) ★0 — Categorized Important sessions favorites in the DSH sidebar, with a star on every session.
 - 🟩 `[可用]` [ruiming-cn-dsh-better-at](https://github.com/Ruiming-cn/dsh-better-at) ★0 — Custom @ search scope for the DSH Web composer: keeps archived, stale and unrelated-subagent sessions out of t
 - 🟩 `[可用]` [ruiming-cn-dsh-turn-notify](https://github.com/Ruiming-cn/dsh-turn-notify) ★0 — —
 - `[空仓监测]` **ruisenbai-dsh-turn-fold** — GitHub 无此仓库，判定暂不展示
