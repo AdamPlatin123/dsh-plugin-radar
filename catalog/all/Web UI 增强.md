@@ -528,7 +528,7 @@
 - 🟩 `[可用]` [dsh-ventus-whale](https://github.com/meto-ventus/dsh-ventus-whale) ★8 — 🐳 蓝色大肥鱼 · DeepSeek 虎鲸 3D 桌宠插件 — 由 DeepSeek 虎鲸 logo 轮廓重建，悬浮于 Web GUI 角落：拖拽旋转、360° 转圈、爱心互动、悬停工具栏、大小/灵敏度/文字设置，配置本
 - ⬜ `[待定]` [dsh-science](https://github.com/omdsh-dev/dsh-science) ★8 — Reproducible Python and R work on DeepSeek Harness, built as plugins.〔📦〕
 - 🟩 `[可用]` [ragnoryok1-dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) ★8 — Russian (ru) language pack for the DeepSeek Harness web GUI: 584 namespaces, 67,724 strings, 520 third-party p
-- 🟩 `[可用]` [relistencode-dsh-extension-hub](https://github.com/Relistencode/dsh-extension-hub) ★8 — Manage DSH（DeepSeek Harness)） skills and MCP servers: CLI + settings-page UI with zh/en i18n, Claude/Codex imp
+- ⬜ `[待定]` [relistencode-dsh-extension-hub](https://github.com/Relistencode/dsh-extension-hub) ★8 — Manage DSH（DeepSeek Harness)） skills and MCP servers: CLI + settings-page UI with zh/en i18n, Claude/Codex imp
 - 🟩 `[可用]` [samizuhm-dsh-client-ui-theme-xp](https://github.com/SamizuHM/dsh-client-ui-theme-xp) ★8 — Windows XP Luna desktop theme for the DeepSeek Harness web GUI: multi-window desktop, XP chrome, taskbar, Blis
 - 🟩 `[可用]` [sherunlocked-4869-dsh-plugin-msg-nav](https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav) ★8 — DeepSeek Harness 对话节点导航条插件：在对话区右缘渲染一列短横线节点串（每条真实用户消息一个节点），跟随阅读位置；鼠标靠近节点串时，节点条「变形弹出」为单行消息预览面板（覆盖原位置，移开复原），点击任意预
 - 🟩 `[可用]` [sqfcyily-dsh-workspace-files](https://github.com/sqfcyily/dsh-workspace-files) ★8 — 在DeepSeek Harness Web GUI 中浏览工作区的目录/文件，并结合 Git 显示文件改动
@@ -941,7 +941,7 @@
 - 🟩 `[可用]` [secyborg-dsh-find-bar](https://github.com/secyborg/dsh-find-bar) ★4 — DSH web plugin: a Cmd/Ctrl+F find bar (like the browser's built-in find) for the desktop Electron shell, which
 - 🟩 `[可用]` [shimingming520-dsh-audiogen](https://github.com/shimingming520/dsh-audiogen) ★4 — AI audio generation plugin for the DeepSeek Harness web GUI: multi-vendor TTS, music, sound effects and voice
 - 🟩 `[可用]` [shouwang37-dsh-comfyui-node-development](https://github.com/shouwang37/dsh-comfyui-node-development) ★4 — DeepSeek Harness（DSH）插件：ComfyUI 自定义节点开发浓缩指南，打包为 comfyui-node-dev 技能
-- 🟩 `[可用]` [shuihan268-dsh-qwen-mm-plugins](https://github.com/ShuiHan268/dsh-qwen-mm-plugins) ★4 — DeepSeek Harness 的 Qwen-MM-Plugins 集成插件：12 个多模态 MCP 工具（视觉/OCR/定位/ASR/音视频）、Web 设置页（粘贴 Qwen API Key 即用）、内置技能与一键安
+- ⬜ `[待定]` [shuihan268-dsh-qwen-mm-plugins](https://github.com/ShuiHan268/dsh-qwen-mm-plugins) ★4 — DeepSeek Harness 的 Qwen-MM-Plugins 集成插件：12 个多模态 MCP 工具（视觉/OCR/定位/ASR/音视频）、Web 设置页（粘贴 Qwen API Key 即用）、内置技能与一键安
 - 🟩 `[可用]` [shy3130-dsh-quota](https://github.com/shy3130/dsh-quota) ★4 — DeepSeek Harness 状态栏多厂商额度监控插件：GLM · OpenCode Go · Kimi · 小米 · DeepSeek（余额+消耗），附 Token 用量统计
 - 🟩 `[可用]` [sim-xia-dsh-vscode-theme](https://github.com/Sim-xia/dsh-vscode-theme) ★4 — allow deepseek harness to use .vsix theme file designed for visual studio code
 - ⬜ `[待定]` [siriuswj-dsh-rp-tools](https://github.com/SiriusWJ/dsh-rp-tools) ★4 — 跑团 / DM 工具插件（DeepSeek Harness）：中立随机裁决 + 本地 ComfyUI 配图 + 按会话隔离的战役配置（角色卡 / 世界 / 随机表）
@@ -1787,7 +1787,7 @@
 - 🟩 `[可用]` [qzyme-dsh-besson-tools](https://github.com/QZyme/dsh-besson-tools) ★2 — 北山Besson 模组开发助手插件（bundle）：11 个工具（教程检索/学习路线/版本对比/环境搭建/工程体检/迁移清单/骨架生成/中文映射）+ 左栏面板 + 内置「Besson 教程助手」agent 预设；DSH
 - 🟩 `[可用]` [rad-weed-dsh-ui-beautify](https://github.com/Rad-Weed/DSH-UI-Beautify) ★2 — DSH界面美化 · DSH UI Beautify —— 用于 DSH 的桌面壁纸 + 毛玻璃美化插件（零布局侵入、可逐字节回滚、自带诊断面板）
 - ⬜ `[待定]` [rainl-621-dsh-office-bridge](https://github.com/RainL-621/dsh-office-bridge) ★2 — You and your AI agent edit the same Office file in the DSH sidebar — ONLYOFFICE does the heavy lifting, saves
-- 🟩 `[可用]` [rainronin-dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) ★2 — DeepSeek Harness 插件：DeepSeek API 余额实时监测（官方 /user/balance 快照 + ds_balance 工具 + 峰谷计价状态 + 单会话费用估算 + dsh 原生风格侧边栏徽章
+- ⬜ `[待定]` [rainronin-dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) ★2 — DeepSeek Harness 插件：DeepSeek API 余额实时监测（官方 /user/balance 快照 + ds_balance 工具 + 峰谷计价状态 + 单会话费用估算 + dsh 原生风格侧边栏徽章
 - 🟩 `[可用]` [rans725-dsh-glass-ranswork](https://github.com/rans725/dsh-glass-ranswork) ★2 — 自定义主题：玻璃拟态 + 自定义背景图/裁剪/自动明暗（DSH 插件）
 - 🟩 `[可用]` [raomaiping-hash-dsh-client-ui-mobile](https://github.com/raomaiping-hash/dsh-client-ui-mobile) ★2 — Mobile UI optimizer for the DeepSeek Harness Web GUI — drawer sidebar, full-screen settings, safe areas, touch
 - 🟩 `[可用]` [realhacker-dsh-theme-colorizer](https://github.com/RealHacker/dsh-theme-colorizer) ★2 — A Deepseek Harness plugin that gives its UI color themes
