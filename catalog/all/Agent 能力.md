@@ -4317,7 +4317,6 @@
 - 🟩 `[可用]` [zhengjy01-dsh-restart](https://github.com/zhengjy01/dsh-restart) ★0 — One-click restart for DeepSeek Harness: a web button (plus a dsh_restart agent tool) hands the relaunch to a detached helper, the page reconnects by itself, and a recovery console shows the boot errors when the new host fails
 - 🟩 `[可用]` [zhengjy01-dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) ★0 — Session-profile skill recommender for DeepSeek Harness
 - 🟩 `[可用]` [zhengjy01-dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) ★0 — Knowledge Planet (zsxq) integration for DeepSeek Harness
-- ⬜ `[待定]` [zhengjy273-dsh-subagent-governor](https://github.com/zhengjy273/dsh-subagent-governor) ★0 — DSH plugin: govern session subagents (total cap over living+finished children, ask/deny on limit, reuse simila
 - 🟩 `[可用]` [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) ★0 — Signed chain-of-custody for DeepSeek Harness sessions — hash-chained, ed25519-signed records of what the agent
 - 🟩 `[可用]` [zhengqiuyang-dsh-compaction-guard](https://github.com/zhengqiuyang/dsh-compaction-guard) ★0 — Compaction integrity for DeepSeek Harness — constraints from the compacted range are verified against the summ
 - 🟩 `[可用]` [zhengqiuyang-dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) ★0 — Deterministic write gate for DeepSeek Harness — scope policy + residue scan at the moment of the write; the CI
@@ -6015,6 +6014,7 @@
 - 🟨 `[不兼容]` [zglinus-for-agent-dsh-subvision](https://github.com/zglinus-for-agent/dsh-subvision) ★0 — —
 - 🟨 `[不兼容]` [zh-littlebird-dsh-plugin-ssh-hosts](https://github.com/zh-Littlebird/dsh-plugin-ssh-hosts) ★0 — SSH fleet management for DSH: host inventory, sudo policy, SFTP, approvals, encrypted secrets
 - 🟨 `[不兼容]` [dsh-a2ui-studio](https://github.com/zhaochengggg/dsh-a2ui-studio) ★0 — DSH A2UI Studio — let agents manage machines and apps, remember context, and create persistent A2UI-inspired i
+- 🟨 `[不兼容]` [zhengjy273-dsh-subagent-governor](https://github.com/zhengjy273/dsh-subagent-governor) ★0 — DSH plugin: govern session subagents (total cap over living+finished children, ask/deny on limit, reuse simila
 - 🟨 `[不兼容]` [zhengqiuyang-dsh-readme-polish](https://github.com/zhengqiuyang/dsh-readme-polish) ★0 — DeepSeek Harness plugin that bundles the readme-polish skill: upgrade an existing README to the standard of to
 - 🟨 `[不兼容]` [zheqiu2023-dsh-skill-catalog-refresh](https://github.com/Zheqiu2023/dsh-skill-catalog-refresh) ★0 — refresh dsh skill catalog when new skill is added
 - 🟨 `[不兼容]` [zhsm27-dsh-waymark](https://github.com/ZhSM27/dsh-waymark) ★0 — Local agent workflow diagnostics and opt-in live reminders for DeepSeek Harness

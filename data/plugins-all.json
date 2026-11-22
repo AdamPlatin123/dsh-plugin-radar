@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T20:33:23Z",
+ "generated_at": "2026-11-22T20:47:50Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -29424,13 +29424,6 @@
    "desc": "Knowledge Planet (zsxq) integration for DeepSeek Harness"
   },
   {
-   "repo": "zhengjy273/dsh-subagent-governor",
-   "name": "zhengjy273-dsh-subagent-governor",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "DSH plugin: govern session subagents (total cap over living+finished children, ask/deny on limit, reuse simila"
-  },
-  {
    "repo": "zhengqiuyang/dsh-attest-chain",
    "name": "dsh-attest-chain",
    "verdict": "ok",
@@ -40953,6 +40946,13 @@
    "desc": "DSH A2UI Studio — let agents manage machines and apps, remember context, and create persistent A2UI-inspired i"
   },
   {
+   "repo": "zhengjy273/dsh-subagent-governor",
+   "name": "zhengjy273-dsh-subagent-governor",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "DSH plugin: govern session subagents (total cap over living+finished children, ask/deny on limit, reuse simila"
+  },
+  {
    "repo": "zhengqiuyang/dsh-readme-polish",
    "name": "zhengqiuyang-dsh-readme-polish",
    "verdict": "incompatible",
@@ -41728,6 +41728,13 @@
    "verdict": "ok",
    "stars": 134,
    "desc": "AI task kanban plugin for DeepSeek Harness — derives task goals, progress and issues from DSH sessions, with s"
+  },
+  {
+   "repo": "pengyue-polaron/deepseek-harness-genui",
+   "name": "pengyue-polaron-deepseek-harness-genui",
+   "verdict": "pending",
+   "stars": 128,
+   "desc": "Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn"
   },
   {
    "repo": "Viy1204/recruiting-copilot",
@@ -43349,7 +43356,7 @@
   {
    "repo": "XieZongChen/dsh-md-notes",
    "name": "xiezongchen-dsh-md-notes",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "A note-taking plugin for DeepSeek Harness (DSH)"
   },
@@ -54682,7 +54689,7 @@
   {
    "repo": "beafreey/dsh-plugin-manager",
    "name": "beafreey-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH 第三方插件管理器：侧边栏「插件管理」面板，查看 / 检查更新 / 一键更新与删除 web profile 中的第三方插件（含 GitHub 安装的插件）"
   },
@@ -85821,13 +85828,6 @@
    "verdict": "incompatible",
    "stars": 166,
    "desc": "推荐组件（非必须）：DeepSeek Harness 运行时注入器；已随 dsh-routing-suite 单仓库化保留，本仓库继续维护/发布"
-  },
-  {
-   "repo": "pengyue-polaron/deepseek-harness-genui",
-   "name": "pengyue-polaron-deepseek-harness-genui",
-   "verdict": "incompatible",
-   "stars": 128,
-   "desc": "Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn"
   },
   {
    "repo": "eee1723/dsh-houdini",
@@ -135796,13 +135796,6 @@
    "desc": "—"
   },
   {
-   "repo": "winterhuan/dsh-new-api",
-   "name": "winterhuan-dsh-new-api",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "New API / One API site console for DeepSeek Harness"
-  },
-  {
    "repo": "winyh/dsh-sales",
    "name": "winyh-dsh-sales",
    "verdict": "ok",
@@ -149052,6 +149045,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "winterhuan/dsh-new-api",
+   "name": "winterhuan-dsh-new-api",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "New API / One API site console for DeepSeek Harness"
   },
   {
    "repo": "WinterOne-hub/dsh-voice-notes",
@@ -164428,7 +164428,7 @@
   {
    "repo": "aceice01/dsh-whale-pet",
    "name": "aceice01-dsh-whale-pet",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 30,
    "desc": "DeepSeek 鲸鱼娘桌宠：DSH Desktop 桌宠 + Web 版悬浮桌宠，晓伊神经网络语音、撒娇互动、任务完成提醒"
   },
