@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T07:18:25Z",
+ "generated_at": "2026-11-22T07:33:39Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3603,7 +3603,7 @@
   {
    "repo": "jonah791/dsh-agent-compact",
    "name": "jonah791-dsh-agent-compact",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Agent-driven compaction for DeepSeek Harness: the agent summarizes its own conversation (KV-cache friendly, no"
   },
@@ -124507,7 +124507,7 @@
   {
    "repo": "joyfoxai/dsh-eco-router",
    "name": "dsh-eco-router",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "A token-efficient model-routing flywheel for the DeepSeek Harness."
   },
@@ -189698,7 +189698,7 @@
   {
    "repo": "Hu9956/dsh-codex-provider",
    "name": "dsh-codex-provider",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "已停止维护"
   },
@@ -189803,7 +189803,7 @@
   {
    "repo": "Jesse-njx/dsh-chatnode-wechat",
    "name": "dsh-chatnode-wechat",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for"
   },
@@ -203194,7 +203194,7 @@
   {
    "repo": "ZSeven-W/dsh-openpencil",
    "name": "dsh-openpencil",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 263,
    "desc": "The DeepSeek Harness plugin for OpenPencil — preview, inspect, and edit real .op documents inside a conversati"
   },
@@ -220806,7 +220806,7 @@
   {
    "repo": "dhatfieldai/agentvest",
    "name": "dhatfieldai-agentvest",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "A provider-agnostic financial-agent harness for running Anthropic, OpenAI, Gemini, xAI, DeepSeek, GLM, and Ope"
   },
