@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T07:33:39Z",
+ "generated_at": "2026-11-22T07:48:15Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -178127,7 +178127,7 @@
   {
    "repo": "forrestsweet/dsh-agent-replay",
    "name": "forrestsweet-dsh-agent-replay",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness 会话回放与脱敏分享插件：将真实 Agent 轨迹导出为独立交互 HTML，用于文档、演示和问题反馈"
   },
