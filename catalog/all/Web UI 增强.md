@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9137）
+# 🔌 Web UI 增强（9138）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6824,6 +6824,7 @@
 - ⬜ `[待定]` [yornii-dsh-session-delete](https://github.com/Yornii/dsh-session-delete) ★0 — Permanently delete a Session from the DeepSeek Harness sidebar, with an in-app confirmation and safe directory
 - ⬜ `[待定]` [you112358-dsh-cache-cleaner](https://github.com/you112358/dsh-cache-cleaner) ★0 — A DeepSeek Harness plugin that reclaims the rebuildable caches of DSH itself, the desktop client and installed
 - `[空仓监测]` **youhui1-dsh-serial** — GitHub 无此仓库，判定暂不展示
+- 🟩 `[可用]` [young1lin-dsh-glm-quota](https://github.com/young1lin/dsh-glm-quota) ★0 — DSH plugin: Zhipu GLM Coding Plan quota panel (sidebar foot) — dual-face, no-build, tag-driven npm publish via
 - 🟩 `[可用]` [yourtokenkeeper-dsh-deepseek-c](https://github.com/Yourtokenkeeper/dsh-deepseek-c) ★0 — DSH plugin that exposes a personal DeepSeek web session as agent tools (chat / sessions / history), with built
 - 🟩 `[可用]` [youyaemmm-pixel-dsh-custom-lists](https://github.com/youyaemmm-pixel/dsh-custom-lists) ★0 — 自定义列表：为 DeepSeek Harness 提供来源分类、分层模型导航及 Our Free Model 四类型目录
 - 🟩 `[可用]` [youyli03-dsh-palenight-theme](https://github.com/youyli03/dsh-palenight-theme) ★0 — —
