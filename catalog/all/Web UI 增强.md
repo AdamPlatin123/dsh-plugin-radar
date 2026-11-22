@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9141）
+# 🔌 Web UI 增强（9142）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3403,6 +3403,7 @@
 - 🟩 `[可用]` [wjc300000000-beep-dsh-plugin-open-source-firs](https://github.com/wjc300000000-beep/dsh-plugin-open-source-first) ★1 — DSH plugin: injects an auditable open-source-first workflow (search -> three-tier evaluation -> build) into th
 - ⬜ `[待定]` [wjingshan-dsh-dock-launcher](https://github.com/wjingshan/dsh-dock-launcher) ★1 — 常驻程序坞的 DeepSeek Harness 开关：左键回到/启动 dsh 网页界面，右键菜单（停止服务、动画开关），图标实时显示服务与任务状态并在完成/需确认时发光提醒
 - 🟩 `[可用]` [wjl1224734792-ds-superbot](https://github.com/Wjl1224734792/ds-superbot) ★1 — Multi-role engineering team for DeepSeek Harness: dispatch-time role charters, plan gate, QA, browser acceptan
+- ⬜ `[待定]` [wjpgkz-dsh-tidal-memory](https://github.com/WJPGKZ/dsh-tidal-memory) ★1 — DeepSeek Harness rc5 memory: workspace-shared L0-L3 storage, evidence-based recall and native settings UI.
 - 🟩 `[可用]` [wjwjw-dsh-workspace-files](https://github.com/wjwjw/dsh-workspace-files) ★1 — Workspace file explorer plugin for the DeepSeek Harness web GUI
 - ⬜ `[待定]` [wo115889-stack-deepseekharness-desktop](https://github.com/wo115889-stack/DeepSeekHarness-Desktop) ★1 — DeepSeekHarness桌面版一键安装，粘贴api可直接使用；win版，如需要mac版告诉我
 - 🟩 `[可用]` [woody-dx-dsh-pdf-bookmarks](https://github.com/woody-dx/dsh-pdf-bookmarks) ★1 — PDF outline navigation and local reading bookmarks in the DeepSeek Harness right sidebar.
