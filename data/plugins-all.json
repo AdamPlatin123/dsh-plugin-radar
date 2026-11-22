@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T05:17:51Z",
+ "generated_at": "2026-11-22T06:03:08Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -64774,6 +64774,13 @@
    "desc": "Permanent conversation deletion for the DeepSeek Harness sidebar"
   },
   {
+   "repo": "yuanzehui313/dsh-workspace-enhance",
+   "name": "dsh-workspace-enhance",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions"
+  },
+  {
    "repo": "YuChenLiao/dsh-comfyui-album",
    "name": "yuchenliao-dsh-comfyui-album",
    "verdict": "ok",
@@ -97420,13 +97427,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Persona 3 Reload (Makoto Yuki) 60fps video backdrop, adaptive frosted-glass theme, and draggable HUD widgets f"
-  },
-  {
-   "repo": "yuanzehui313/dsh-workspace-enhance",
-   "name": "dsh-workspace-enhance",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions"
   },
   {
    "repo": "yuehancn/dsh-tool-comfyui",
@@ -179574,6 +179574,13 @@
    "desc": "DSH 插件：AI垃圾过滤 Ai Slop/Work Slop —— 给收到的文件打可回溯的「体检得分」（表达／执行／决策三维加权），用义务台账审查工作空转，每条引文机器复核原文"
   },
   {
+   "repo": "YJSoooooo/dsh-chrome",
+   "name": "yjsoooooo-dsh-chrome",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Chrome profile bridge for DeepSeek Harness: control an existing signed-in Chrome profile through chrome_repl."
+  },
+  {
    "repo": "ylwl1997/noatmark-dsh-plugin",
    "name": "noatmark-dsh-plugin",
    "verdict": "ok",
@@ -187125,13 +187132,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "DSH 设置新增「归档」页：按工作区分组查看已归档会话，支持筛选/排序、取消归档、二次确认彻底删除"
-  },
-  {
-   "repo": "YJSoooooo/dsh-chrome",
-   "name": "yjsoooooo-dsh-chrome",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Chrome profile bridge for DeepSeek Harness: control an existing signed-in Chrome profile through chrome_repl."
   },
   {
    "repo": "Yourtsao/gongwen-dsh",
