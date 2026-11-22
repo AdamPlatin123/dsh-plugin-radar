@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T09:18:21Z",
+ "generated_at": "2026-11-22T09:33:49Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -47115,7 +47115,7 @@
   {
    "repo": "ai7603/dsh-cyberpunk-theme",
    "name": "ai7603-dsh-cyberpunk-theme",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -111809,7 +111809,7 @@
   {
    "repo": "anxinyuanshiyu/dsh-plugin-zh-inventory",
    "name": "anxinyuanshiyu-dsh-plugin-zh-inventory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "给DeepSeek Harness 中的插件列表加上中文的表签和简述"
   },
