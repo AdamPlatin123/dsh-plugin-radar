@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9181）
+# 🔌 Web UI 增强（9185）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -4691,6 +4691,7 @@
 - ⬜ `[待定]` [gty2408-dsh-session-eraser](https://github.com/Gty2408/dsh-session-eraser) ★0 — Delete a session from the DSH sidebar
 - 🟩 `[可用]` [gty2408-dsh-word-translate](https://github.com/Gty2408/dsh-word-translate) ★0 — Right-click selected English in the DSH Web UI for a bundled offline dictionary (POS, phonetics, Collins ratin
 - 🟩 `[可用]` [guaiwua-dsh-skill-bar](https://github.com/GuaiWuA/dsh-skill-bar) ★0 — 让 DSH 的 skill 变成可浏览的技能栏：搜索、收藏、点一下或拖一下写进输入框
+- 🟩 `[可用]` [guangbaobaozero-sky-panel](https://github.com/GuangBaoBaoZero/sky-panel) ★0 — 星图面板：二十八宿 x 十二辰 x 二十四节气 x 七曜行星的中国传统天文仪表盘（农历/事件日历/双视图，纯本地零网络）
 - 🟩 `[可用]` [guanui-dsh-campus-net](https://github.com/GUANUI/dsh-campus-net) ★0 — Campus network auto-login for DeepSeek Harness (Windows): status, on-demand login, a local settings page, auto
 - 🟩 `[可用]` [gucheng990615-dsh-token-usage-panel](https://github.com/gucheng990615/dsh-token-usage-panel) ★0 — Real-time token usage and account balance panel for DeepSeek Harness
 - 🟩 `[可用]` [guga0620-dsh-pet-bellylaugh](https://github.com/Guga0620/dsh-pet-bellylaugh) ★0 — 奶蛙（bellylaugh）桌宠 DSH 插件：常驻 Deepseek harness 界面右下角，跟着 Agent 工作状态切换动作，任务完成时捧腹大笑
@@ -4731,10 +4732,12 @@
 - 🟩 `[可用]` [hanfang5057-byte-dsh-plugin-quote-comment](https://github.com/hanfang5057-byte/dsh-plugin-quote-comment) ★0 — Ask for a comment before inserting a quoted selection in the DeepSeek Harness Web GUI, as one block.
 - ⬜ `[待定]` [hanhan1137-theme-coach-dsh](https://github.com/hanhan1137/theme-coach-dsh) ★0 — theme-coach-dsh: DSH (DeepSeek Harness) adapted UI theme coach - Q&A guided theme design, official-asset wayfi
 - 🟩 `[可用]` [hanice404-dsh-sidebar-plugins-toggle](https://github.com/Hanice404/dsh-sidebar-plugins-toggle) ★0 — DSH 插件：在侧边栏「插件」行右侧加一个小箭头，点一下收起插件区（插件市场 / 自动化任务 / 上下文洞察 / 更多），再点一下展开
+- ⬜ `[待定]` [hanqing404-dsh-jiemeng](https://github.com/HanQing404/dsh-jiemeng) ★0 — 解梦 for DeepSeek Harness — dream journal panel + six-line hexagram aid
 - 🟩 `[可用]` [hanqing404-dsh-liuyao](https://github.com/HanQing404/dsh-liuyao) ★0 — 六爻纳甲解卦 for DeepSeek Harness：侧栏面板 + 三个 agent 工具（起卦 / 解卦 / 查典）
 - 🟩 `[可用]` [hanshuang2683-dsh-quote-annotate](https://github.com/HansHuang2683/dsh-quote-annotate) ★0 — DeepSeek Harness plugin: select any passage, annotate it in place, and send the quote + your comment with the
 - ⬜ `[待定]` [hanwuji1-dsh-web-launcher](https://github.com/hanwuji1/dsh-web-launcher) ★0 — 🐋 One-click desktop launcher for the DeepSeek Harness Web UI — a whale-icon app that boots dsh web and opens your browser. Zero friction, zero typing.
 - 🟩 `[可用]` [hanyi7867069-create-dsh-moonrise](https://github.com/hanyi7867069-create/dsh-moonrise) ★0 — 月升 Moonrise — a warm amber-on-midnight theme for the DeepSeek Harness Web UI.
+- 🟩 `[可用]` [hanyu-me-dsh-sider-task-reviewer](https://github.com/HanYu-me/dsh-sider-task-reviewer) ★0 — DSH plugin: another model reviews the task the current conversation is doing or has done — right-sidebar tab,
 - ⬜ `[待定]` [hao0311-dsh-mimo-tts](https://github.com/Hao0311/dsh-mimo-tts) ★0 — Xiaomi MiMo TTS for DeepSeek Harness: a mimo_tts tool, read-aloud on answers, auto-read, and a sidebar Speech
 - 🟩 `[可用]` [hao0311-dsh-sidebar-tidy](https://github.com/Hao0311/dsh-sidebar-tidy) ★0 — Collapse the DSH Web GUI sidebar into Plugins / Automations / More - every other panel row moves into a More m
 - 🟩 `[可用]` [haoyanzhang123-dsh-live-preset-switch](https://github.com/HaoyanZhang123/dsh-live-preset-switch) ★0 — DSH skill provider bundle: live agent-preset switching guidance (additive, no lifecycle scripts, no runtime de
@@ -4745,6 +4748,7 @@
 - 🟩 `[可用]` [haruri03-dsh-reveal-in-folder](https://github.com/haruri03/dsh-reveal-in-folder) ★0 — Right-click any file path in the DSH Web UI (chat file links, editor tabs, path bar) to reveal it in the OS fi
 - 🟩 `[可用]` [harveyzed-clawd-whale-girl](https://github.com/HarveyZed/clawd-whale-girl) ★0 — Clawd on Desk × DeepSeek Harness 增强桥接：上下文用量、审批、子代理、上下文压缩、余额告警，外加鲸鱼娘桌宠主题
 - 🟩 `[可用]` [hateyoulittle-dsh-web-tinyfish](https://github.com/HateYouLittle/dsh-web-tinyfish) ★0 — TinyFish search + fetch providers for DeepSeek Harness (dsh): backs the built-in web_search and web_fetch tool
+- 🟩 `[可用]` [hauwong-dsh-utodo](https://github.com/HauWong/dsh-utodo) ★0 — Todo lists and an idea notebook in the DeepSeek Harness sidebar — flexible dates, important/soon views, tag co
 - 🟩 `[可用]` [haveanote06-dsh-llm-kimi](https://github.com/haveanote06/dsh-llm-kimi) ★0 — Kimi (Moonshot AI) LLM adapter plugin for DeepSeek Harness — three routes: kimi-code (Kimi Code subscription),
 - 🟩 `[可用]` [haydensmith1121-dsh-wallpaper-engine](https://github.com/DPH-1121/dsh-wallpaper-engine) ★0 — Wallpaper Engine Steam Workshop browser for DeepSeek Harness: anonymous search & browse the workshop from a si
 - 🟩 `[可用]` [hazen223-dsh-pocket-h5](https://github.com/Hazen223/dsh-pocket-h5) ★0 — DeepSeek Harness 插件面板：把 Pocket · H5 预览工作台复用到 DSH（iPhone 17 尺寸/外观预览、真机物理尺寸、手机扫码）

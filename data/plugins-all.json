@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T02:47:45Z",
+ "generated_at": "2026-11-22T03:03:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -9516,6 +9516,13 @@
    "desc": "Session Shield —— 让 DSH 会话日志永远不会因为一次畸形 tool call（空 id / 空 name / 非法 arguments）而打不开"
   },
   {
+   "repo": "helloloveworld/capy-connect",
+   "name": "helloloveworld-capy-connect",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "把 Capy 模型接入 DeepSeek Harness：OpenAI 兼容网关 + 设备隧道，工具由 DSH 执行"
+  },
+  {
    "repo": "hengyun721/hikari-rento",
    "name": "hengyun721-hikari-rento",
    "verdict": "ok",
@@ -17825,6 +17832,13 @@
    "desc": "—"
   },
   {
+   "repo": "GxyFly/dsh-subagent-preview",
+   "name": "gxyfly-dsh-subagent-preview",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness 子智能体预览：在原生侧栏查看运行状态、实时输出和历史结果"
+  },
+  {
    "repo": "gyp8735abc/dsh-mcp-manager",
    "name": "gyp8735abc-dsh-mcp-manager",
    "verdict": "pending",
@@ -17998,6 +18012,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek peak/off-peak pricing guard for DSH: pauses running tasks at peak, resumes automatically when off-pea"
+  },
+  {
+   "repo": "hawkqiang/dsh-tool-slice",
+   "name": "hawkqiang-dsh-tool-slice",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH plugin: per-conversation tool switches, named scenarios, and a slice workflow that runs one plan step per"
   },
   {
    "repo": "hayou2002/dsh-vibecoding",
@@ -72096,6 +72117,13 @@
    "desc": "让 DSH 的 skill 变成可浏览的技能栏：搜索、收藏、点一下或拖一下写进输入框"
   },
   {
+   "repo": "GuangBaoBaoZero/sky-panel",
+   "name": "guangbaobaozero-sky-panel",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "星图面板：二十八宿 x 十二辰 x 二十四节气 x 七曜行星的中国传统天文仪表盘（农历/事件日历/双视图，纯本地零网络）"
+  },
+  {
    "repo": "GUANUI/dsh-campus-net",
    "name": "guanui-dsh-campus-net",
    "verdict": "ok",
@@ -72369,6 +72397,13 @@
    "desc": "DSH 插件：在侧边栏「插件」行右侧加一个小箭头，点一下收起插件区（插件市场 / 自动化任务 / 上下文洞察 / 更多），再点一下展开"
   },
   {
+   "repo": "HanQing404/dsh-jiemeng",
+   "name": "hanqing404-dsh-jiemeng",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "解梦 for DeepSeek Harness — dream journal panel + six-line hexagram aid"
+  },
+  {
    "repo": "HanQing404/dsh-liuyao",
    "name": "hanqing404-dsh-liuyao",
    "verdict": "ok",
@@ -72395,6 +72430,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "月升 Moonrise — a warm amber-on-midnight theme for the DeepSeek Harness Web UI."
+  },
+  {
+   "repo": "HanYu-me/dsh-sider-task-reviewer",
+   "name": "hanyu-me-dsh-sider-task-reviewer",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: another model reviews the task the current conversation is doing or has done — right-sidebar tab,"
   },
   {
    "repo": "Hao0311/dsh-mimo-tts",
@@ -72458,6 +72500,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "TinyFish search + fetch providers for DeepSeek Harness (dsh): backs the built-in web_search and web_fetch tool"
+  },
+  {
+   "repo": "HauWong/dsh-utodo",
+   "name": "hauwong-dsh-utodo",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Todo lists and an idea notebook in the DeepSeek Harness sidebar — flexible dates, important/soon views, tag co"
   },
   {
    "repo": "haveanote06/dsh-llm-kimi",
@@ -103218,6 +103267,13 @@
    "desc": "DeepSeek Harness 的壁纸与片头插件：本机图片/视频或 Wallpaper Engine 视频壁纸当聊天背景，启动时播放可自定义的片头"
   },
   {
+   "repo": "harveyzhang/dsh-appearance-media",
+   "name": "harveyzhang-dsh-appearance-media",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DSH 外观媒体插件：背景 / 开机片头 / 屏保三合一，一份素材库一张卡（移植自 lxj5820/dsh-boot-animation, MIT）"
+  },
+  {
    "repo": "LLinsanity/dsh-chat-find",
    "name": "llinsanity-dsh-chat-find",
    "verdict": "ok",
@@ -111938,6 +111994,27 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "把「待办」放进 DeepSeek Harness：左侧入口、项目分类、对话里增删、回答一键拆成任务"
+  },
+  {
+   "repo": "gougou1993/dsh-redis-client",
+   "name": "gougou1993-dsh-redis-client",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "dsh Redis客户端插件；dsh-redis-client"
+  },
+  {
+   "repo": "gougou1993/dsh-sticky-notes",
+   "name": "gougou1993-dsh-sticky-notes",
+   "verdict": "ok",
+   "stars": 1,
+   "desc": "dsh 便利贴插件；dsh-sticky-notes Plugin"
+  },
+  {
+   "repo": "gougou1993/dsh-tree-new-bee-api-client",
+   "name": "gougou1993-dsh-tree-new-bee-api-client",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH Plugin，类 Postman 的接口调试工具：请求构造、集合树、环境变量、常用头与历史记录"
   },
   {
    "repo": "GPIOX/dsh-api-balance",
@@ -121803,6 +121880,13 @@
    "desc": "DSH 断点续接插件：模型回复因网络中断/超时半途失败时，自动把已生成的部分输出带进下一轮，让模型从中断处继续，而不是从零全量重跑"
   },
   {
+   "repo": "HArry2006-1/dsh-interview-dojo",
+   "name": "harry2006-1-dsh-interview-dojo",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "日本留学面试模拟道场：调研目标大学官网、结合入学理由书生成问题，并进行带中日对照、词汇语法解析、逐题反馈和实时/本机语音对话的练习"
+  },
+  {
    "repo": "HarryKong824/fde-copilot",
    "name": "harrykong824-fde-copilot",
    "verdict": "ok",
@@ -121845,11 +121929,25 @@
    "desc": "Plugin advisor for DeepSeek Harness: senses a need, checks installed plugins first, searches the dsh-plugin ec"
   },
   {
+   "repo": "hbosslab/dsh-worktree-picker",
+   "name": "hbosslab-dsh-worktree-picker",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
    "repo": "hbx111/dsh-policy",
    "name": "hbx111-dsh-policy",
    "verdict": "ok",
    "stars": 0,
    "desc": "DeepSeek Harness plugin: in-stream refusal detection and auto-retry that keeps streaming intact"
+  },
+  {
+   "repo": "hbycwzm001/dsh-plugin-translate",
+   "name": "hbycwzm001-dsh-plugin-translate",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH plugin: translate into what a specific country actually says (249 locales) + live FX + back-translation ch"
   },
   {
    "repo": "hcycyxx/dsh-think-overlay",
@@ -176242,6 +176340,13 @@
    "desc": "A DeepSeek Harness (dsh) plugin that converts documents to Markdown so an LLM can read them."
   },
   {
+   "repo": "gougou1993/dsh-file-manager",
+   "name": "gougou1993-dsh-file-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "dsh 文件管理插件； dsh-file-manager"
+  },
+  {
    "repo": "GROW1234567/dsh-easypaper-translate",
    "name": "grow1234567-dsh-easypaper-translate",
    "verdict": "ok",
@@ -220382,6 +220487,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "HFTXsws/dsh-au",
+   "name": "hftxsws-dsh-au",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DSH 多机工作区插件，内置跨设备 Todo、移动端抽屉与本机 Claude/Codex Agent 控制入口"
   },
   {
    "repo": "hg1048596-pixel/dsh-price-indicator",
