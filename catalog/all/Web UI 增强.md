@@ -717,7 +717,7 @@
 - 🟩 `[可用]` [atropinoltt-dsh-guide-dog](https://github.com/AtropinolTT/dsh-guide-dog) ★5 — Guide Dog for DSH — MiniMax multimodal plugin: image/video/music/speech generation & vision tools, voice mode,
 - ⬜ `[待定]` [dsh-plugin-usage](https://github.com/bennett-dsh/dsh-plugin-usage) ★5 — Token usage statistics plugin for DeepSeek Harness: daily/custom-range views, model filters, call counts & cos
 - 🟩 `[可用]` [bigbluebaby-codex2dsh](https://github.com/BigBlueBaby/codex2dsh) ★5 — 把 Codex（OpenAI Codex CLI / Desktop）的 MCP 服务器、技能、全局指令、记忆与会话历史一键迁移进 DeepSeek Harness（DSH）——可视化面板 + CLI，源码只读、dry-
-- 🟩 `[可用]` [boliban-dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) ★5 — A DSH plugin that allows customizable input modes
+- ⬜ `[待定]` [boliban-dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) ★5 — A DSH plugin that allows customizable input modes
 - 🟩 `[可用]` [bxsexc-dsh-roblox-studio](https://github.com/bxsexc/dsh-roblox-studio) ★5 — DeepSeek Harness native plugin: Settings UI for the Roblox Studio MCP bridge - list connected Studio instances
 - 🟩 `[可用]` [chengdb-dsh-plugin-capability-panel](https://github.com/chengdb/dsh-plugin-capability-panel) ★5 — 在 Web GUI 里可视化管理项目的全部能力——Skills、MCP 服务器、快捷消息， 全部支持项目级 / 全局级双作用域，全部可以不离开浏览器完成安装、启停与分发
 - 🟩 `[可用]` [dsh-wallpaper](https://github.com/RexCue/dsh-wallpaper) ★5 — Wallpaper skin for the DeepSeek Harness (dsh) web UI: image background with opacity, mask and blur controls.
@@ -2463,7 +2463,7 @@
 - 🟩 `[可用]` [fuyu-technology-dsh-auto-repair-ui](https://github.com/fuyu-technology/dsh-auto-repair-ui) ★1 — DeepSeek Harness 插件：自愈守护进程的可视化面板——实时诊断结论、修复历史，一键手动修复
 - 🟩 `[可用]` [fvvef121-cell-dsh-aliyun-coupon](https://github.com/fvvef121-cell/dsh-aliyun-coupon) ★1 — 在 DeepSeek Harness 侧栏显示阿里云代金券余额（BSS OpenAPI 只读查询，凭据只留宿主进程）
 - 🟩 `[可用]` [g57651-dsh-diy-layout](https://github.com/G57651/dsh-diy-layout) ★1 — DIY Layout for the DSH home sidebar — one/two columns, icon-only with tooltips, ordering & hiding
-- 🟩 `[可用]` [ganfne123-dsh-plugin-api-quota](https://github.com/ganfne123/dsh-plugin-api-quota) ★1 — DSH Web UI plugin: check your DeepSeek API key balance from the sidebar
+- ⬜ `[待定]` [ganfne123-dsh-plugin-api-quota](https://github.com/ganfne123/dsh-plugin-api-quota) ★1 — DSH Web UI plugin: check your DeepSeek API key balance from the sidebar
 - 🟩 `[可用]` [gaolin89898-dsh-kite](https://github.com/gaolin89898/dsh-kite) ★1 — 基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Cod
 - 🟩 `[可用]` [gaopengpian-dsh-custom-ui-theme](https://github.com/gaopengpian/dsh-custom-ui-theme) ★1 — DeepSeek Harness Desktop region-based UI theme customizer (background/border/text styles, element picker, high
 - 🟩 `[可用]` [gaor0605-kq-dsh-workspace-explorer](https://github.com/gaor0605-kq/dsh-workspace-explorer) ★1 — 在 DSH 左侧栏查看工作区文件，拖进对话让 DSH 读取或修改 ·  DSH plugin: browse workspace files in the left sidebar and drag them into

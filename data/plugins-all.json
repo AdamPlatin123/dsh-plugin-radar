@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T14:47:57Z",
+ "generated_at": "2026-11-22T15:18:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -31405,6 +31405,13 @@
    "desc": "基于 DeepSeek Harness 的自主 AI 助理插件，支持目标规划、持续执行、多 Agent 协作、任务接续、故障恢复与技能学习"
   },
   {
+   "repo": "Tests4gptplay/dsh-kujira-persona",
+   "name": "tests4gptplay-dsh-kujira-persona",
+   "verdict": "incompatible",
+   "stars": 3,
+   "desc": "Kujira 是集 AI 桌宠、模型联动、用量与计费监控、角色扮演（RP）和个性化记忆于一体的 DSH 插件"
+  },
+  {
    "repo": "TianJie52009/dsh-kaomoji",
    "name": "tianjie52009-dsh-kaomoji",
    "verdict": "incompatible",
@@ -45078,7 +45085,7 @@
   {
    "repo": "Boliban/dsh-enter-customizer",
    "name": "boliban-dsh-enter-customizer",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "A DSH plugin that allows customizable input modes"
   },
@@ -57216,7 +57223,7 @@
   {
    "repo": "ganfne123/dsh-plugin-api-quota",
    "name": "ganfne123-dsh-plugin-api-quota",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH Web UI plugin: check your DeepSeek API key balance from the sidebar"
   },
@@ -123065,14 +123072,14 @@
   {
    "repo": "gxx950224/backpack",
    "name": "gxx950224-backpack",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "dsh backpack plugin"
   },
   {
    "repo": "gxx950224/quest",
    "name": "gxx950224-quest",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "dsh quest plugin"
   },
@@ -165721,6 +165728,13 @@
    "desc": "deepseek harness Pet 包含噜噜 总裁等宠物，并可快速添加自定义宠物"
   },
   {
+   "repo": "CyberryRe/lx_music-for-dsh",
+   "name": "cyberryre-lx-music-for-dsh",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "This is a plugin that allows deepseek harness own the ability of lx music."
+  },
+  {
    "repo": "deanzhang2026-max/dsh-lived-pet",
    "name": "deanzhang2026-max-dsh-lived-pet",
    "verdict": "pending",
@@ -170164,13 +170178,6 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "DeepSeek Harness 部署级桌宠：右下角随 Agent 工作状态切换 GIF 动画，气泡实时显示 DeepSeek 余额与语音台词，可拖动、可点击互动，任务完成随机播放语音"
-  },
-  {
-   "repo": "CyberryRe/lx_music-for-dsh",
-   "name": "cyberryre-lx-music-for-dsh",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "This is a plugin that allows deepseek harness own the ability of lx music."
   },
   {
    "repo": "guoliyuan97-png/dsh-game-hud",
@@ -204622,7 +204629,7 @@
   {
    "repo": "HR2AY/DSH-Plan-Graph",
    "name": "hr2ay-dsh-plan-graph",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 16,
    "desc": "another version of deepseek herness trajectory (DIY)"
   },
@@ -217271,7 +217278,7 @@
   {
    "repo": "withlovehub/harness-code",
    "name": "harness-code",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Terminal-native client for the official DeepSeek Harness Runtime — no browser, no localhost."
   },
@@ -223809,7 +223816,7 @@
   {
    "repo": "JinBeiCN/dsh-coding-discipline",
    "name": "jinbeicn-dsh-coding-discipline",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 0,
    "desc": "Coding agent preset + embedded coding-discipline skill for DeepSeek Harness: verify-first edits, minimal diffs"
   },
