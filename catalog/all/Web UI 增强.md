@@ -3550,6 +3550,7 @@
 - ⬜ `[待定]` [ytibu-dsh-agents-md](https://github.com/Ytibu/dsh-agents-md) ★1 — 在 DeepSeek Harness 设置面板里编辑与生成 AGENTS.md：改全局规则、改项目规则、按「合并全局规则」或「直接覆盖」生成项目级规则
 - 🟩 `[可用]` [yuanvesper-dsh-suoming-theme](https://github.com/yuanvesper/dsh-suoming-theme) ★1 — <Wuthering Waves Suoming theme> third-party DeepSeek Harness Web GUI theme bundle
 - ⬜ `[待定]` [yuanyuan-jc-permanent-session-delete](https://github.com/YuanYuan-JC/permanent-session-delete) ★1 — Permanent conversation deletion for the DeepSeek Harness sidebar
+- ⬜ `[待定]` [dsh-workspace-enhance](https://github.com/yuanzehui313/dsh-workspace-enhance) ★1 — DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions
 - 🟩 `[可用]` [yuchenliao-dsh-comfyui-album](https://github.com/YuChenLiao/dsh-comfyui-album) ★1 — DSH 相册插件：把 dsh-comfyui-image 生成的图片收成相册，侧边栏浏览，悬浮复制图片/提示词、导出工作流、加入当前对话、删除
 - 🟩 `[可用]` [yuchilling-dsh-dscost-tide](https://github.com/yuchilling/dsh-dscost-tide) ★1 — 在dsh侧边栏底部一眼边知当前峰谷状态以及距下一时段时间的账单余额插件
 - 🟩 `[可用]` [yuexizhishang-dsh-ui-probe](https://github.com/yuexizhishang/dsh-ui-probe) ★1 — DeepSeek Harness 图形界面插件测试工具：在真实界面里自动测试插件页面，读样式、点按钮、填表单、等异步结果、抓控制台报错，测完自动回到原对话
@@ -8297,7 +8298,6 @@
 - 🟨 `[不兼容]` [ylifeonlyonce-dsh-calendar](https://github.com/YLifeOnlyOnce/dsh-calendar) ★1 — See at a glance what DeepSeek did, and when
 - 🟨 `[不兼容]` [yswo-fei-dsh-api-heal](https://github.com/YSwo-fei/dsh-api-heal) ★1 — DeepSeek Harness 插件：界面报「API 密钥无效」时，自动定位并续期真正失效的那条凭据链（qoder / workbuddy-ai / our-free-model），然后重发请求
 - 🟨 `[不兼容]` [ytsu-ki-dsh-p3r-ui](https://github.com/ytsu-ki/dsh-p3r-ui) ★1 — Persona 3 Reload (Makoto Yuki) 60fps video backdrop, adaptive frosted-glass theme, and draggable HUD widgets f
-- 🟨 `[不兼容]` [dsh-workspace-enhance](https://github.com/yuanzehui313/dsh-workspace-enhance) ★1 — DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace drag, ungrouped sessions
 - 🟨 `[不兼容]` [yuehancn-dsh-tool-comfyui](https://github.com/yuehancn/dsh-tool-comfyui) ★1 — Let DeepSeek Harness generate images: call local or LAN ComfyUI workers directly from chat (status, generate,
 - 🟨 `[不兼容]` [yukoz1227-dsh-ui-design-toggle](https://github.com/YukoZ1227/dsh-ui-design-toggle) ★1 — 由于 ui-ux-pro-max 原生不支持 DSH 而重建的插件：在 DSH 侧边栏一键启用/停用 ui-ux-pro-max 设计技能（适配 DSH 0.2.1-rc.2）
 - 🟨 `[不兼容]` [yyliucha-dsh-session-quote](https://github.com/yyliucha/dsh-session-quote) ★1 — DeepSeek Harness plugin: quote a message from an earlier session into the composer, so the reply is clearly ai
