@@ -1171,7 +1171,7 @@
 - 🟩 `[可用]` [adithyanraj03-dsh-mcp-summon](https://github.com/adithyanraj03/dsh-mcp-summon) ★1 — Dormant-by-default MCP for DeepSeek Harness: one mcp_summon tool; summoning a server registers its tools as re
 - ⬜ `[待定]` [adsikito-dsh-study-steward](https://github.com/adsikito/dsh-study-steward) ★1 — DeepSeek Harness agent preset: a study-and-execution steward persona on the full Standard tool surface, shippe
 - ⬜ `[待定]` [aenotr-local-imagegen-skill](https://github.com/Aenotr/local-imagegen-skill) ★1 — DSH Skill: 用本机 GPU 上的 ComfyUI + Z-Image Turbo 离线生图（零 API 费用），含显卡能力自检、文生图与局部重绘 CLI
-- 🟩 `[可用]` [afterrealism-dsh-session-ctxmenu](https://github.com/afterrealism/dsh-session-ctxmenu) ★1 — DSH plugin: right-click a session/project row in the sidebar to open its Rename/Fork/Archive menu
+- `[空仓监测]` **afterrealism-dsh-session-ctxmenu** — GitHub 无此仓库，判定暂不展示
 - ⬜ `[待定]` [agent-mobile-dsh-mobile-gateway](https://github.com/agent-mobile/dsh-mobile-gateway) ★1 — LAN access plugin for the DeepSeek Harness (dsh) web host: token-gated /m/api for the companion mobile app
 - ⬜ `[待定]` [ai-v5-llmagentchatroom](https://github.com/ai-v5/LLMAgentChatRoom) ★1 — Local multi-agent chat room
 - 🟩 `[可用]` [aidulibrary-skillmesh-index](https://github.com/aidulibrary/skillmesh-index) ★1 — SkillMesh / 插台 — 能力通约网络的开放索引层。CCP协议的开源实现，零服务器成本，个人维护，全球双语。 SkillMesh / Cha-Tai — Open index layer for capability commensurability network. CCP protocol implementation, zero server cost, bilingual, globally open.
@@ -2632,14 +2632,14 @@
 - `[空仓监测]` **gabrielbav-dsh-plugin-session-delete** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [gaochenyuen-dsh-scopus-searcher](https://github.com/Gaochenyuen/dsh-scopus-searcher) ★0 — Deep literature research agent as a Deepseek-Harness preset powered by Scopus API.
 - 🟩 `[可用]` [gaochonggeng-dsh-aloof](https://github.com/gaochonggeng/dsh-aloof) ★0 — 把 Aloof 的办公审批接成 DeepSeek Harness（dsh）的原生工具：查待办、列模板、读表单、提单。写操作过 dsh 审批闸门，也是一份可运行的 dsh 插件样板。
-- 🟩 `[可用]` [gaolin89898-remote-session-plugin](https://github.com/gaolin89898/remote-session-plugin) ★0 — —
+- `[空仓监测]` **gaolin89898-remote-session-plugin** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [garinz-dsh-handoff](https://github.com/GarinZ/dsh-handoff) ★0 — Model-facing session handoff for DeepSeek Harness: copy a session's full history into another workspace with a
 - ⬜ `[待定]` [gcd1949-dsh-tools](https://github.com/Gcd1949/dsh-tools) ★0 — DeepSeek Harness (dsh) utilities: session-manager plugin & Windows control panel
 - 🟩 `[可用]` [gcluffy-dsh-session-cleanup-pro](https://github.com/gcluffy/dsh-session-cleanup-pro) ★0 — DeepSeek Harness 插件：在设置页按工作区分级清理会话，支持批量删除与 Agent 工具
 - 🟩 `[可用]` [geecraft23-dsh-session-cost](https://github.com/geecraft23/dsh-session-cost) ★0 — Per-turn and whole-session DeepSeek API cost estimates for DeepSeek Harness Web.
 - 🟩 `[可用]` [geekyfoxlab-dsh-subagents](https://github.com/geekyfoxlab/dsh-subagents) ★0 — Focused child-agent delegation (scout, researcher, worker, reviewer, oracle, delegate) and multi-agent workflo
 - 🟩 `[可用]` [geesepop01-ai4s](https://github.com/geesepop01/ai4s) ★0 — OpenScience research plugin for DeepSeek Harness: 370 research skills, 6 literature tools and an always-on res
-- 🟩 `[可用]` [gege9527-dsh-checkpoint-memory](https://github.com/gege9527/dsh-checkpoint-memory) ★0 — —
+- `[空仓监测]` **gege9527-dsh-checkpoint-memory** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [gemchance-dsh-chinese-minimal-mode](https://github.com/GemChance/dsh-chinese-minimal-mode) ★0 — DeepSeek Harness Minimal preset with an editable Markdown system prompt
 - 🟩 `[可用]` [genius-alray-dsh-plugin-session-token-stats](https://github.com/genius-alray/dsh-plugin-session-token-stats) ★0 — Token usage dashboard for DeepSeek Harness: totals, monthly usage, cache-hit rate, daily timeline, per-session
 - 🟩 `[可用]` [geokkjer-dsh-peak](https://github.com/geokkjer/dsh-peak) ★0 — Peak/off-peak pricing indicator for DeepSeek Harness — live composer pill with countdown, plus a status tool f
