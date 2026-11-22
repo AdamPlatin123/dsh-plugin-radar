@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T11:17:37Z",
+ "generated_at": "2026-11-22T11:33:11Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3694,7 +3694,7 @@
   {
    "repo": "maxiaovivi/dsh-cloak-browser",
    "name": "maxiaovivi-dsh-cloak-browser",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "Native CloakBrowser tools for DeepSeek Harness: isolated browser sessions, snapshots, interaction, screenshots"
   },
@@ -114537,6 +114537,13 @@
    "desc": "—"
   },
   {
+   "repo": "luokai-demo/dsh-plugins",
+   "name": "luokai-demo-dsh-plugins",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "—"
+  },
+  {
    "repo": "LuoX218/dsh-siyuan",
    "name": "luox218-dsh-siyuan",
    "verdict": "ok",
@@ -144637,13 +144644,6 @@
    "desc": "—"
   },
   {
-   "repo": "luokai-demo/dsh-plugins",
-   "name": "luokai-demo-dsh-plugins",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "—"
-  },
-  {
    "repo": "luoyuejun9/dsh-plugin-forge",
    "name": "luoyuejun9-dsh-plugin-forge",
    "verdict": "incompatible",
@@ -155445,6 +155445,13 @@
    "desc": "记住 DeepSeek Harness 桌面窗口的位置/大小/最大化状态；脚本本体不依赖客户端版本"
   },
   {
+   "repo": "mmllemon/deepseek-harness-desktop",
+   "name": "mmllemon-deepseek-harness-desktop",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Tauri 2 desktop wrapper for deepseek-ai/deepseek-harness"
+  },
+  {
    "repo": "modred522/dsh-manager",
    "name": "modred522-dsh-manager",
    "verdict": "ok",
@@ -162744,13 +162751,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "—〔📦〕"
-  },
-  {
-   "repo": "mmllemon/deepseek-harness-desktop",
-   "name": "mmllemon-deepseek-harness-desktop",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Tauri 2 desktop wrapper for deepseek-ai/deepseek-harness"
   },
   {
    "repo": "MrLukezy/dsh-cloud-gateway",
@@ -203950,7 +203950,7 @@
   {
    "repo": "MoFeng2223/dsh-claude-provider",
    "name": "mofeng2223-dsh-claude-provider",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 35,
    "desc": "Custom Claude provider support for DeepSeek Harness"
   },
@@ -203971,7 +203971,7 @@
   {
    "repo": "Make0209/dsh-usage-stats",
    "name": "make0209-dsh-usage-stats",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 33,
    "desc": "DeepSeek Harness 插件：GitHub 风格用量热力图 + Token / 缓存命中 / 账户余额看板 + 工作区别名管理"
   },
@@ -207525,6 +207525,13 @@
    "desc": "AOS — Agent Operating System: 运行在类 Claude Code agent harness 上的个人文件治理层（DSH 完整适配 / AGENTS.md 工具通用适配）"
   },
   {
+   "repo": "majiayu000/dsh-plugin-registry",
+   "name": "majiayu000-dsh-plugin-registry",
+   "verdict": "pending",
+   "stars": 4,
+   "desc": "Searchable DeepSeek Harness plugin registry with curated listings and manifest-verified GitHub discovery."
+  },
+  {
    "repo": "Matrix2097/dsh-mobile",
    "name": "matrix2097-dsh-mobile",
    "verdict": "ok",
@@ -207569,7 +207576,7 @@
   {
    "repo": "MJ-Chang/dsh-vscode",
    "name": "mj-chang-dsh-vscode",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness for VS Code: right-side chat agent that reads, edits, and runs your project — like Claude Cod"
   },
@@ -210607,7 +210614,7 @@
   {
    "repo": "mervyn-teo/dsh-plugin-terminal",
    "name": "dsh-plugin-terminal",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "DeepSeek Harness Web plugin: a real PTY terminal in a VS Code-style collapsible footer panel"
   },
@@ -234326,13 +234333,6 @@
    "verdict": "incompatible",
    "stars": 4,
    "desc": "Read-only side chat plugin for DeepSeek Harness (DSH) — ask temporary questions with inherited context while t"
-  },
-  {
-   "repo": "majiayu000/dsh-plugin-registry",
-   "name": "majiayu000-dsh-plugin-registry",
-   "verdict": "incompatible",
-   "stars": 4,
-   "desc": "Searchable DeepSeek Harness plugin registry with curated listings and manifest-verified GitHub discovery."
   },
   {
    "repo": "ManoloRemiddi/dsh-model-picker-augmented",
