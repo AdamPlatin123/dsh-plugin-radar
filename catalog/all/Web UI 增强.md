@@ -637,7 +637,7 @@
 - 🟩 `[可用]` [h97y-dsh-devflow](https://github.com/H97y/dsh-devflow) ★6 — Automated development pipeline plugin for DeepSeek Harness: requirement pool → LLM refine/design/plan/review →
 - ⬜ `[待定]` [haoyueqin-deepseek-harness-desktop](https://github.com/HaoyueQin/deepseek-harness-desktop) ★6 — \[maintenance mode\] A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek
 - ⬜ `[待定]` [john-walks-slow-dsh-im-humanize](https://github.com/john-walks-slow/dsh-im-humanize) ★6 — Humanized fork of @xmanrui/dsh-im (base 4.21.2): humanized message delivery with send-delay + typing two-phase
-- 🟩 `[可用]` [kelearns-dsh-navigation-bar](https://github.com/KeLearns/dsh-navigation-bar) ★6 — Piano-key style conversation navigation bar for the DeepSeek Harness web GUI
+- ⬜ `[待定]` [kelearns-dsh-navigation-bar](https://github.com/KeLearns/dsh-navigation-bar) ★6 — Piano-key style conversation navigation bar for the DeepSeek Harness web GUI
 - 🟩 `[可用]` [kiwi233333-dsh-creator](https://github.com/KiWi233333/dsh-creator) ★6 — Build verified extensions for DeepSeek Harness with an installable agent skill.
 - 🟩 `[可用]` [lan-tina-ws-dsh-windows-shell-policy](https://github.com/LAN-TINA-WS/dsh-windows-shell-policy) ★6 — DeepSeek Harness Windows 默认 Shell 策略：探测 git-bash/MSYS2，配置面板一键切换 bash/pwsh，动态注册 bash 工具并裁剪提示词工具面 · DSH 组合插件
 - 🟩 `[可用]` [lesliewylie-dsh-session-search-pro](https://github.com/YaoleWu/dsh-session-search-pro) ★6 — Search past and live DeepSeek Harness sessions through the built-in session service.
