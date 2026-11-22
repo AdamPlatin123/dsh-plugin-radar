@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T16:33:09Z",
+ "generated_at": "2026-11-22T16:48:21Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -85937,7 +85937,7 @@
   {
    "repo": "Wftwtc/dsh-plugin-manager",
    "name": "wftwtc-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Plugin manager for the DeepSeek Harness Web GUI — enable/disable plugins, official/user categories, Chinese ov"
   },
@@ -105637,7 +105637,7 @@
    "name": "isomoes-ikanban",
    "verdict": "ok",
    "stars": 15,
-   "desc": "—"
+   "desc": "—〔📦〕"
   },
   {
    "repo": "JRJRJPRO/dsh-chat-tree",
@@ -155949,6 +155949,13 @@
    "desc": "DeepSeek Harness plugin: a research desk for literature discovery, anchored reading, multi-perspective review,"
   },
   {
+   "repo": "Strangelight-Merser/dsh-plugin-market",
+   "name": "strangelight-merser-dsh-plugin-market",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "Minimal, lightweight DSH plugin market — 极简、开箱即用、一键安装与启停"
+  },
+  {
    "repo": "Strom9898/deepseek-harness-desktop",
    "name": "strom9898-deepseek-harness-desktop",
    "verdict": "ok",
@@ -162919,13 +162926,6 @@
    "verdict": "incompatible",
    "stars": 1,
    "desc": "Unofficial DeepSeek Harness bundle that connects the REA reverse-engineering MCP server."
-  },
-  {
-   "repo": "Strangelight-Merser/dsh-plugin-market",
-   "name": "strangelight-merser-dsh-plugin-market",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "Minimal, lightweight DSH plugin market — 极简、开箱即用、一键安装与启停"
   },
   {
    "repo": "Sumcam-L/ida-pro-mcp-enhanced",

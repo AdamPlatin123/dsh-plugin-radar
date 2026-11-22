@@ -6631,7 +6631,7 @@
 - 🟩 `[可用]` [weopenfire-git-dsh-plugin-pub-review](https://github.com/weopenfire-git/dsh-plugin-pub-review) ★0 — Publish-readiness review for DeepSeek Harness plugins: official docs freshness check (docs-check), 30+ static
 - 🟩 `[可用]` [wepoi9-dsh-local-font-picker](https://github.com/Wepoi9/dsh-local-font-picker) ★0 — Community DSH plugin for selecting installed local UI and code fonts in the DeepSeek Harness Web UI.
 - 🟩 `[可用]` [weseeon-dsh-session-topics](https://github.com/weseeon/dsh-session-topics) ★0 — 给 DSH 的每个会话配一份可导航的主题目录
-- 🟩 `[可用]` [wftwtc-dsh-plugin-manager](https://github.com/Wftwtc/dsh-plugin-manager) ★0 — Plugin manager for the DeepSeek Harness Web GUI — enable/disable plugins, official/user categories, Chinese ov
+- ⬜ `[待定]` [wftwtc-dsh-plugin-manager](https://github.com/Wftwtc/dsh-plugin-manager) ★0 — Plugin manager for the DeepSeek Harness Web GUI — enable/disable plugins, official/user categories, Chinese ov
 - 🟩 `[可用]` [wgrbiss-spec-dsh-excluir-sessao](https://github.com/wgrbiss-spec/dsh-excluir-sessao) ★0 — Plugin de exclusão de sessões para o DeepSeek Harness, em português do Brasil — fork traduzido de dsh-delete-s
 - 🟩 `[可用]` [wh1stle05-dsh-chat-figure](https://github.com/Wh1stle05/dsh-chat-figure) ★0 — DSH 聊天内原生图解与练习 / native in-chat diagrams and quizzes for DeepSeek Harness：把 ```figure / ```tree / ```quiz 代码块渲
 - `[空仓监测]` **whatcannotbesaid-dsh-eva-inspired-theme** — GitHub 无此仓库，判定暂不展示
