@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T18:48:12Z",
+ "generated_at": "2026-11-22T19:03:20Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -3106,7 +3106,7 @@
   {
    "repo": "MimicHunterZ/dsh-agent-compact",
    "name": "mimichunterz-dsh-agent-compact",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints"
   },
@@ -173402,7 +173402,7 @@
   {
    "repo": "Mg-K-Mn/dsh-plugin-manager",
    "name": "mg-k-mn-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },

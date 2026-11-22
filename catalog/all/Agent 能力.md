@@ -447,7 +447,7 @@
 - 🟩 `[可用]` [shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) ★5 — SHOPLINE AI Toolkit for DeepSeek Harness (dsh-plugin): official SHOPLINE Developer MCP bridge + SHOPLINE agent
 - 🟩 `[可用]` [mianyoubiaoqing-dsh-mmem](https://github.com/mianyoubiaoqing/dsh-Mmem) ★5 — 这是一个支持同dsh进程多记忆空间的dsh记忆插件
 - ⬜ `[待定]` [mikeyoubeach-dsh-minimal-v3](https://github.com/mikeyoubeach/dsh-minimal-v3) ★5 — Windows-friendly full-minimal DeepSeek Harness agent preset (Minimal V3): minimal persona, platform shell (pws
-- 🟩 `[可用]` [mimichunterz-dsh-agent-compact](https://github.com/MimicHunterZ/dsh-agent-compact) ★5 — DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints
+- ⬜ `[待定]` [mimichunterz-dsh-agent-compact](https://github.com/MimicHunterZ/dsh-agent-compact) ★5 — DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints
 - 🟩 `[可用]` [mjylfz-dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) ★5 — 把其他 Agent 的技能一键搬进 DeepSeek Harness：支持 14 个平台 + 共享层识别、同名技能合并、不重复搬运、可回滚
 - 🟩 `[可用]` [muzylink-dsh-subagent-profile](https://github.com/muzyLink/dsh-subagent-profile) ★5 — DeepSeek Harness 子 Agent 派发插件：按任务为子代理选模型、推理强度与工具范围，常用组合存成命名方案随时复用；内置安全检查、成本估算与节省分析、完整派发决策台账
 - 🟩 `[可用]` [nanpaidashi-dsh-honcho-sync](https://github.com/nanpaidashi/dsh-honcho-sync) ★5 — DSH plugin: auto-sync conversation turns to Honcho memory service
