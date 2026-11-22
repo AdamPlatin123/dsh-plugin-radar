@@ -4952,7 +4952,7 @@
 - 🟩 `[可用]` [jackdu2333-dsh-hermes-workspace](https://github.com/jackdu2333/dsh-hermes-workspace) ★0 — DSH 原生插件：直连 Hermes TUI Gateway JSON-RPC，恢复 canonical Bot Chat
 - ⬜ `[待定]` [jackengineer-dsh-quick-screenshot](https://github.com/JackEngineer/dsh-quick-screenshot) ★0 — 一键截图：截取 DeepSeek Harness 窗口，PNG 直接作为附件放进输入框草稿 · One-click DSH screenshot: capture the DeepSeek Harness window
 - 🟩 `[可用]` [jackroe-dsh-token-usage-panel](https://github.com/JackRoe/dsh-token-usage-panel) ★0 — DSH（DeepSeek Harness）对话区下方的模型用量面板：逐次调用的 token 与花费、峰谷计价、余额查询、日历热力图
-- 🟩 `[可用]` [jackxiao-hub-dsh-plugin-tree](https://github.com/jackxiao-hub/dsh-plugin-tree) ★0 — A DSH web client plugin that turns the Settings → Plugins page into a dependency-layered plugin tree, plus an
+- ⬜ `[待定]` [jackxiao-hub-dsh-plugin-tree](https://github.com/jackxiao-hub/dsh-plugin-tree) ★0 — A DSH web client plugin that turns the Settings → Plugins page into a dependency-layered plugin tree, plus an
 - 🟩 `[可用]` [jackxiao17-dsh-ocean-theme](https://github.com/jackxiao17/dsh-ocean-theme) ★0 — DSH 海洋主题：Markdown 琥珀单主色 + 浅海/深海两档蓝调界面，纯 CSS 无设置 \| Ocean theme for DeepSeek Harness — amber Markdown palette +
 - 🟩 `[可用]` [jake1266-dsh-nailong-ui](https://github.com/JAKE1266/dsh-nailong-ui) ★0 — 奶龙主题 for DeepSeek Harness Web — 明黄蛋黄主色、奶白暖调表面、圆润几何与回弹动效
 - 🟩 `[可用]` [jameswatt139240-crypto-dsh-atlas](https://github.com/jameswatt139240-crypto/dsh-ATLAS) ★0 — Unified @ mentions for the DeepSeek Harness web GUI — files, folders, skills, past chats, plugins, and @git
