@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T15:32:54Z",
+ "generated_at": "2026-11-22T15:48:47Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -175334,7 +175334,7 @@
   {
    "repo": "loadingvx/deepseek-harness-workbench-plugin",
    "name": "loadingvx-deepseek-harness-workbench-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 36,
    "desc": "Deepseek-harness-workbench-plugin"
   },
