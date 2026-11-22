@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T23:18:13Z",
+ "generated_at": "2026-11-22T23:33:24Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -1664,7 +1664,7 @@
   {
    "repo": "wdsjwzl/session-seed-plugin",
    "name": "wdsjwzl-session-seed-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 13,
    "desc": "对话自动注入，可用于高概率破甲模型"
   },
@@ -102597,7 +102597,7 @@
   {
    "repo": "Qiongkura/dsh-usage-plugin",
    "name": "qiongkura-dsh-usage-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness（DSH）的 Token 用量统计 附属插件"
   },
