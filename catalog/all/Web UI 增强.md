@@ -90,6 +90,7 @@
 - 🟩 `[可用]` [something11235-dsh-video-skin](https://github.com/Something11235/dsh-video-skin) ★137 — DSH 视频皮肤：聊天背景 + 有声开机动画 + 界面内透明度调节
 - 🟩 `[可用]` [renzic-stone-dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) ★134 — DSH Web内目前最无感的消息撤回、重编辑插件，原版体验，兼容性强，功能简单可开关，设置丰富，现代化轻量ui框架
 - 🟩 `[可用]` [topmindspace-dsh-super-kanban](https://github.com/topmindspace/dsh-super-kanban) ★134 — AI task kanban plugin for DeepSeek Harness — derives task goals, progress and issues from DSH sessions, with s
+- ⬜ `[待定]` [pengyue-polaron-deepseek-harness-genui](https://github.com/pengyue-polaron/deepseek-harness-genui) ★128 — Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn
 - 🟩 `[可用]` [viy1204-recruiting-copilot](https://github.com/Viy1204/recruiting-copilot) ★128 — 给 HR 和猎头的 AI 招聘工作流：岗位梳理、BOSS 直聘与猎聘双通道寻源初筛、人才盘点、简历评估、面试安排、候选台账与日报
 - 🟩 `[可用]` [6mikao9-dsh-wsl-workspace](https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace) ★124 — WSL workspace support for DeepSeek Harness——无缝的 WSL 工作区使用体验，无需在 WSL 之中再安装一个dsh，安装该插件后在 GUI 里直接添加 WSL 工作区即可
 - ⬜ `[待定]` [orderg-x-dsh-design-studio](https://github.com/OrderG-X/dsh-design-studio) ★123 — DSH 设计工作台：模型画的界面摆上画布，点一下就改，还有设计市场
@@ -323,7 +324,7 @@
 - ⬜ `[待定]` [shuangji66-dsh](https://github.com/shuangji66/dsh) ★16 — dsh控制面板
 - 🟩 `[可用]` [williamshi666-dsh-multiple-chat-panels](https://github.com/WilliamShi666/dsh-multiple-chat-panels) ★16 — DeepSeek Harness 多对话面板：并排查看并与多个 Agent 会话同时交互
 - 🟩 `[可用]` [wycto-dsh-dock](https://github.com/wycto/dsh-dock) ★16 — dsh-dock · DeepSeek Harness 功能坞插件：一张面板统一注册/开关所有小功能——用量记账（自定义单价·分时价）、模型设置与余额、19 种任务动画、任务通知（钉钉/飞书）、运行状态、图片理解代理、账
-- 🟩 `[可用]` [xiezongchen-dsh-md-notes](https://github.com/XieZongChen/dsh-md-notes) ★16 — A note-taking plugin for DeepSeek Harness (DSH)
+- ⬜ `[待定]` [xiezongchen-dsh-md-notes](https://github.com/XieZongChen/dsh-md-notes) ★16 — A note-taking plugin for DeepSeek Harness (DSH)
 - 🟩 `[可用]` [yu502950715yang-dsh-use-wallpaper](https://github.com/yu502950715yang/dsh-use-wallpaper) ★16 — 把 Wallpaper Engine 动态壁纸搬进 DeepSeek Harness 的 Web GUI：浏览器内实时渲染 scene 壁纸（three.js + Rust/WASM 粒子模拟），支持视频与 web 壁纸
 - ⬜ `[待定]` [dsh-webui-auth](https://github.com/Yuuz12/dsh-webui-auth) ★16 — WebUI 身份认证：HTTP/传输层强制登录（资源、插件 bundle、/api、WebSocket 四层防护），服务端会话 + HttpOnly Cookie
 - 🟩 `[可用]` [aumisatori-dsh-ui-beautify](https://github.com/AumiSatori/dsh-ui-beautify) ★15 — DSH UI appearance, task and Artifact cards, custom message bubbles, backgrounds, particles and focus mode.
@@ -1953,7 +1954,7 @@
 - 🟩 `[可用]` [baroncyrus-dsh-grok-subscription](https://github.com/BaronCyrus/dsh-grok-subscription) ★1 — Use a SuperGrok / X Premium Grok Build subscription in DeepSeek Harness
 - 🟩 `[可用]` [basaltfold-dsh-channel-credits](https://github.com/basaltfold/dsh-channel-credits) ★1 — 在 DSH 输入框统计栏常驻显示渠道积分余额，并按账号归因每轮对话的积分消耗
 - 🟩 `[可用]` [bauerelizabeth07139-tangsan](https://github.com/bauerelizabeth07139/tangsan) ★1 — TangSan mascot appearance layer for the DeepSeek Harness Web GUI: chat wallpaper with opacity, blur and scrim
-- 🟩 `[可用]` [beafreey-dsh-plugin-manager](https://github.com/beafreey/dsh-plugin-manager) ★1 — DSH 第三方插件管理器：侧边栏「插件管理」面板，查看 / 检查更新 / 一键更新与删除 web profile 中的第三方插件（含 GitHub 安装的插件）
+- ⬜ `[待定]` [beafreey-dsh-plugin-manager](https://github.com/beafreey/dsh-plugin-manager) ★1 — DSH 第三方插件管理器：侧边栏「插件管理」面板，查看 / 检查更新 / 一键更新与删除 web profile 中的第三方插件（含 GitHub 安装的插件）
 - 🟩 `[可用]` [beatther-c-dsh-api-client](https://github.com/Beatther-c/dsh-api-client) ★1 — Agent-native API Client for DeepSeek Harness — Postman 级 API 调试 UI + Agent 原生 HTTP 工具 + Postman Collection 导入的
 - 🟩 `[可用]` [beijiangwx-dsh-reasonix-token-hud](https://github.com/beijiangwx/dsh-reasonix-token-hud) ★1 — 一个仿reasonix的概览侧边栏以及底栏余额监视器
 - 🟩 `[可用]` [betsy20-dsh-magpie](https://github.com/Betsy20/dsh-magpie) ★1 — 把 magpie 原版 Web UI 嵌进 DeepSeek Harness 侧边栏：缺 magpie 时自动下载，后台启动 magpie serve --web，经服务端注入 Cookie 的反向代理提供页面；不注册 provider（模型由 magpie 自身写入 cordis.patch.yml）
@@ -6489,7 +6490,6 @@
 - 🟨 `[不兼容]` [WhaleIsle](https://github.com/ChisaAlter/WhaleIsle) ★206 — 鲸屿 Whale Isle · DeepSeek Harness 开源社区桌面版：AI 对话、终端与 Git、鲸桥 API/订阅接入、主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接
 - 🟨 `[不兼容]` [runzhliu-deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) ★183 — Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Comp
 - 🟨 `[不兼容]` [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) ★166 — 推荐组件（非必须）：DeepSeek Harness 运行时注入器；已随 dsh-routing-suite 单仓库化保留，本仓库继续维护/发布
-- 🟨 `[不兼容]` [pengyue-polaron-deepseek-harness-genui](https://github.com/pengyue-polaron/deepseek-harness-genui) ★128 — Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn
 - 🟨 `[不兼容]` [eee1723-dsh-houdini](https://github.com/eee1723/dsh-houdini) ★124 — DeepSeek Harness Desktop 插件，让 AI Agent 用自然语言构建、检查和维护可编辑的 SideFX Houdini 工程，支持程序化建模、HDA、场景诊断与渲染
 - 🟨 `[不兼容]` [luowang-ui-dsh-purge-plus](https://github.com/luowang-ui/dsh-purge-plus) ★121 — Purge Community Plus - DeepSeek Harness jailbreak plugin, adapted for DSH Desktop 0.2.1-rc.x
 - 🟨 `[不兼容]` [guzhou079-arch-deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) ★115 — 把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配电脑，读屏/点按/虚拟屏/定时任务和整套技能都随包；它还能在手机上自己编译、打包、签名、发布
