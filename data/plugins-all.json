@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T23:03:42Z",
+ "generated_at": "2026-11-22T23:18:13Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -45540,7 +45540,7 @@
   {
    "repo": "KeLearns/dsh-navigation-bar",
    "name": "kelearns-dsh-navigation-bar",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "Piano-key style conversation navigation bar for the DeepSeek Harness web GUI"
   },
@@ -119656,7 +119656,7 @@
   {
    "repo": "guobinmengxiang-rgb/dsh-xhs-note",
    "name": "guobinmengxiang-rgb-dsh-xhs-note",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DSH plugin: format Xiaohongshu notes"
   },
@@ -190895,7 +190895,7 @@
   {
    "repo": "kinoward/dsh-plugin-subhub",
    "name": "kinoward-dsh-plugin-subhub",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 6,
    "desc": "Bring third-party subscription accounts into DeepSeek Harness - 为 DeepSeek Harness 接入第三方订阅账户(当前支持 OpenAI / Cha"
   },
