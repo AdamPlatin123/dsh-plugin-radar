@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T21:02:59Z",
+ "generated_at": "2026-11-22T21:33:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -187484,6 +187484,13 @@
    "desc": "Strawberry research tools for DeepSeek Harness"
   },
   {
+   "repo": "AeolusJack/dsh-computer-pro",
+   "name": "aeolusjack-dsh-computer-pro",
+   "verdict": "incompatible",
+   "stars": 1,
+   "desc": "DeepSeek Harness desktop control, local OCR, app launch and isolated browser DOM"
+  },
+  {
    "repo": "ai-tool-labs/dsh-converter",
    "name": "ai-tool-labs-dsh-converter",
    "verdict": "incompatible",
@@ -195767,7 +195774,7 @@
   {
    "repo": "classfieldseason-cmd/dsh-notify-plugin",
    "name": "classfieldseason-cmd-dsh-notify-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
