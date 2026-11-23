@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T05:03:28Z",
+ "generated_at": "2026-11-23T05:32:44Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -204130,6 +204130,13 @@
    "desc": "DSH 插件：便捷无感的同窗口内对话回退，从不新建分支；自带轻量工作区备份，可一并还原文件（Claude Code /rewind 语义）"
   },
   {
+   "repo": "sopaco/terrain",
+   "name": "sopaco-terrain",
+   "verdict": "pending",
+   "stars": 290,
+   "desc": "AI-native engineering environment management that makes your codebase agent-ready."
+  },
+  {
    "repo": "HanaAyane/dsh-reasoning-effort",
    "name": "hanaayane-dsh-reasoning-effort",
    "verdict": "pending",
@@ -205021,7 +205028,7 @@
   {
    "repo": "seed-forge/harness-ai-kit",
    "name": "seed-forge-harness-ai-kit",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 26,
    "desc": "Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin"
   },
@@ -233598,13 +233605,6 @@
    "verdict": "incompatible",
    "stars": 304,
    "desc": "DeepSeek Harness 的软工作流插件：在画布上设计流程，编译成计划提示词，由模型按计划执行；运行状态由模型自己记，没有执行引擎"
-  },
-  {
-   "repo": "sopaco/terrain",
-   "name": "sopaco-terrain",
-   "verdict": "incompatible",
-   "stars": 290,
-   "desc": "AI-native engineering environment management that makes your codebase agent-ready."
   },
   {
    "repo": "Rain-kl/dsh-preset-plus",
