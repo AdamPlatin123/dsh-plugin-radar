@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T04:33:31Z",
+ "generated_at": "2026-11-23T04:48:39Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -158520,7 +158520,7 @@
   {
    "repo": "FICCIF/dsh-plugin-manager",
    "name": "ficcif-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DSH 插件管理器：图形化启用/停用 DSH 插件（Electron 桌面应用，修改即时生效）"
   },
