@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T04:48:39Z",
+ "generated_at": "2026-11-23T05:03:28Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -614,7 +614,7 @@
   {
    "repo": "eri64/dsh-claude-ux",
    "name": "eri64-dsh-claude-ux",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 77,
    "desc": "DSH plugin: Claude-style Chinese risk control & conversation autonomy for DeepSeek Harness web"
   },
