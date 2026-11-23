@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T01:52:08Z",
+ "generated_at": "2026-11-23T02:04:48Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -6896,6 +6896,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "给工艺安全/HAZOP 主席：核对 HAZOP（危险与可操作性分析）分析表的节点、偏差、原因、后果与建议措施是否齐备一致。 HAZOP worksheet element and deviation check."
+  },
+  {
+   "repo": "PerryLink/dsh-research-skills",
+   "name": "perrylink-dsh-research-skills",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "Seven research SOP skills for DeepSeek Harness"
   },
   {
    "repo": "PerryLink/dsh-security-pack",
@@ -181987,6 +181994,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "A read-only 3D neural map for DeepSeek Harness: chats and projects become a glowing brain with six lobes, live"
+  },
+  {
+   "repo": "atorber/dsh-hitrading",
+   "name": "atorber-hitrading",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "HiTrading — A股投资助手插件（DeepSeek Harness）：11 个 Agent 工具 + 交互控制台，SQLite 持久化，纯分析不下单"
   },
   {
    "repo": "AvenYQ/dsh-vellum",

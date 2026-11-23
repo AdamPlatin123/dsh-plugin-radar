@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（6039）
+# 🤖 Agent 能力（6040）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -994,6 +994,7 @@
 - 🟩 `[可用]` [perrylink-dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) ★2 — DeepSeek Harness 插件 — 应急预案核对：依据《生产经营单位生产安全事故应急预案编制导则》《生产安全事故应急预案管理办法》（GB/T 29639-2020、国家安全生产监督管理总局令第88号）
 - 🟩 `[可用]` [perrylink-dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) ★2 — 劳保用品配置核对：按公开配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论。
 - 🟩 `[可用]` [perrylink-dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) ★2 — 给工艺安全/HAZOP 主席：核对 HAZOP（危险与可操作性分析）分析表的节点、偏差、原因、后果与建议措施是否齐备一致。 HAZOP worksheet element and deviation check.
+- 🟩 `[可用]` [perrylink-dsh-research-skills](https://github.com/PerryLink/dsh-research-skills) ★2 — Seven research SOP skills for DeepSeek Harness
 - 🟩 `[可用]` [perrylink-dsh-security-pack](https://github.com/PerryLink/dsh-security-pack) ★2 — Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness: eight bilingual skills and a pr
 - 🟩 `[可用]` [moon-lovers-skill](https://github.com/phoenixlucky/moon-lovers-skill) ★2 — Moon Lovers 白月光 — 为角色卡和恋爱聊天场景设计的温柔克制型 AI 回复 Skill。支持西施、王昭君、貂蝉、杨玉环等四大美人角色卡，输出自然、留白、不油腻的恋爱聊天回复。AI-powered romantic chat reply generator with gentle, restrained Moon Lovers tone — character profiles for Diaochan, Xishi, Wang Zhaojun, Yang Yuhuan included.
 - 🟩 `[可用]` [dsh-skill-intelligence](https://github.com/PolinniZhong/dsh-skill-intelligence) ★2 — DSH Skill 智能实验室：Explore, understand and evolve Agent Skills.
