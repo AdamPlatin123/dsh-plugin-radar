@@ -717,6 +717,7 @@
 - ⬜ `[待定]` [534119219-chicheng-gate](https://github.com/534119219/chicheng-gate) ★5 — DSH Web 插件：局域网/远程访问控制、frpc 内网穿透、面板密码门禁与手机端 UI 适配
 - 🟩 `[可用]` [afrel1024-dsh-client-ui-aqua-unofficial](https://github.com/afrel1024/dsh-client-ui-aqua-unofficial) ★5 — Unofficial community fork of the Aqua glassmorphism theme for the DeepSeek Harness web UI (upstream: WYH666666
 - 🟩 `[可用]` [ajubest-dsh-plugin-optimization](https://github.com/AJUbest/dsh-plugin-optimization) ★5 — A DSH plugin that distinguishes official built-in DSH plugins and user custom plugins on the external interfac
+- ⬜ `[待定]` [alex04130-dsh-forge](https://github.com/alex04130/dsh-forge) ★5 — DeepSeek Harness 扩展套件：运行时注入器、子代理派发与模型路由策略、插件市场/技能/插件管理面板、浏览器桥与 MCP 集成
 - 🟩 `[可用]` [dsh-douyin](https://github.com/AnacondaKC/dsh-douyin) ★5 — DSH WebUI 侧栏短视频插件：原生播放器、系列导航、直链解析与精确历史回放
 - ⬜ `[待定]` [arcanepivot-dsh-api-balance](https://github.com/ArcanePivot/dsh-api-balance) ★5 — DeepSeek Harness Web UI widget for viewing DeepSeek API balance from the host side.
 - 🟩 `[可用]` [asdnmy123-dsh-prompt-optimizer](https://github.com/asdnmy123/dsh-prompt-optimizer) ★5 — 给 DSH 对话输入框加一个 ♂harden 按钮：一键把草稿锻造成硬邦邦、雷霆炫酷、肌肉集团味的提示词 —— 事实一条不丢，废话一句不留
@@ -3873,7 +3874,7 @@
 - 🟩 `[可用]` [aefuimn-dsh-agent-preset-switcher](https://github.com/aefuimn/dsh-agent-preset-switcher) ★0 — Hot-switch agent presets (working modes) inside a running DSH session, instead of choosing a preset only when
 - ⬜ `[待定]` [aeonsscope-dsh-fellowmoon-theme](https://github.com/aeonsscope/dsh-fellowmoon-theme) ★0 — 以《新月同行》超管局「橙·黑·白」配色重构的 带有开机动画的DSH 桌面主题
 - 🟩 `[可用]` [aeroscis-dsh-workspace-manager](https://github.com/Aeroscis/dsh-workspace-manager) ★0 — Sidebar workspace management for DeepSeek Harness: auto-rise the last prompted workspace, pin, drag to reorder
-- 🟩 `[可用]` [af2000-tech-dsh-taskboard-plugin](https://github.com/af2000-tech/dsh-taskboard-plugin) ★0 — Taskboard plugin for DeepSeek Harness (DSH) — issue kanban with a sidebar board panel, a 13-command agent tool
+- ⬜ `[待定]` [af2000-tech-dsh-taskboard-plugin](https://github.com/af2000-tech/dsh-taskboard-plugin) ★0 — Taskboard plugin for DeepSeek Harness (DSH) — issue kanban with a sidebar board panel, a 13-command agent tool
 - 🟩 `[可用]` [afeiaswell-dsh-hkm](https://github.com/afeiaswell/dsh-hkm) ★0 — DeepSeek Harness 热键管理面板：查看并修改 DSH 快捷键，扫描系统与第三方来源，并可将窗口最小化到 Windows 通知区域
 - 🟩 `[可用]` [afufuafa-dsh-standalone-settings](https://github.com/Afufuafa/dsh-standalone-settings) ★0 — 把 DeepSeek Harness 桌面版的设置入口从账号按钮的二级菜单里独立出来：在侧边栏底部 账号按钮的右端固定一个独立的设置按钮
 - 🟩 `[可用]` [aga-j-dsh-mini-games](https://github.com/aga-j/dsh-mini-games) ★0 — DeepSeek Harness details 面板的纯前端小游戏合集：猜数字 / 2048 / 扫雷
@@ -7540,7 +7541,6 @@
 - 🟨 `[不兼容]` [534119219-chicheng-quickinput](https://github.com/534119219/chicheng-quickinput) ★5 — DSH 便捷输入保险箱插件：输入栏「用量」与「发送」之间一键展开，自动收录会话中的密钥/网址/服务器/手机号等；点击填入或 Ctrl+点击直接发送；私密内容密码保护 + WebDAV 备份
 - 🟨 `[不兼容]` [aealen-dsh-worktree](https://github.com/Aealen/dsh-coding-workspace) ★5 — coding 工作台
 - 🟨 `[不兼容]` [aks1st-dock-files](https://github.com/AKS1st/dock-files) ★5 — DSH 生态中最好的文件浏览插件：VSCode 资源管理器级目录树、新建/重命名/复制粘贴/删除、拖放导入、粘贴本地文件与剪贴板图片、上传进度条与右键菜单；依赖 dock 基座 \| The best file explo
-- 🟨 `[不兼容]` [alex04130-dsh-forge](https://github.com/alex04130/dsh-forge) ★5 — DeepSeek Harness 扩展套件：运行时注入器、子代理派发与模型路由策略、插件市场/技能/插件管理面板、浏览器桥与 MCP 集成
 - 🟨 `[不兼容]` [boyingliu01-xp-gate](https://github.com/boyingliu01/xp-gate) ★5 — Deterministic quality gates for AI-generated code: 12 checks, Delphi review, requirement-test alignment
 - 🟨 `[不兼容]` [chruix-dsh-team-model](https://github.com/Chruix/dsh-team-model) ★5 — DeepSeek Harness 插件：让 Agent Teams 的每个队友拥有自己的模型（模型可指定 + Web UI 三处切换 + 切换后持续生效）
 - 🟨 `[不兼容]` [chs-1108-dsh-purge](https://github.com/chs-1108/dsh-purge) ★5 — DeepSeek Harness 本机安全评测与提示词清洗插件：侧栏面板管理提示词分层、补丁、规则集与技能；带授权演练台

@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T05:48:29Z",
+ "generated_at": "2026-11-23T06:03:29Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -7971,7 +7971,7 @@
   {
    "repo": "Ackerman0/Dsh-Prompt-Enhancement",
    "name": "ackerman0-dsh-prompt-enhancement",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek harness 提示词增强"
   },
@@ -45181,6 +45181,13 @@
    "desc": "A DSH plugin that distinguishes official built-in DSH plugins and user custom plugins on the external interfac"
   },
   {
+   "repo": "alex04130/dsh-forge",
+   "name": "alex04130-dsh-forge",
+   "verdict": "pending",
+   "stars": 5,
+   "desc": "DeepSeek Harness 扩展套件：运行时注入器、子代理派发与模型路由策略、插件市场/技能/插件管理面板、浏览器桥与 MCP 集成"
+  },
+  {
    "repo": "AnacondaKC/dsh-douyin",
    "name": "dsh-douyin",
    "verdict": "ok",
@@ -67128,7 +67135,7 @@
   {
    "repo": "af2000-tech/dsh-taskboard-plugin",
    "name": "af2000-tech-dsh-taskboard-plugin",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Taskboard plugin for DeepSeek Harness (DSH) — issue kanban with a sidebar board panel, a 13-command agent tool"
   },
@@ -92256,13 +92263,6 @@
    "desc": "DSH 生态中最好的文件浏览插件：VSCode 资源管理器级目录树、新建/重命名/复制粘贴/删除、拖放导入、粘贴本地文件与剪贴板图片、上传进度条与右键菜单；依赖 dock 基座 \\| The best file explo"
   },
   {
-   "repo": "alex04130/dsh-forge",
-   "name": "alex04130-dsh-forge",
-   "verdict": "incompatible",
-   "stars": 5,
-   "desc": "DeepSeek Harness 扩展套件：运行时注入器、子代理派发与模型路由策略、插件市场/技能/插件管理面板、浏览器桥与 MCP 集成"
-  },
-  {
    "repo": "boyingliu01/xp-gate",
    "name": "boyingliu01-xp-gate",
    "verdict": "incompatible",
@@ -108386,7 +108386,7 @@
   {
    "repo": "akslcw/dsh-negative-ledger",
    "name": "akslcw-dsh-negative-ledger",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 3,
    "desc": "—"
   },
@@ -154908,7 +154908,7 @@
   {
    "repo": "aka-danielZhang/dsh-mcp-settings",
    "name": "aka-danielzhang-dsh-mcp-settings",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DSH bundle for MCP server management, inventory status, and Web settings"
   },
@@ -174375,7 +174375,7 @@
   {
    "repo": "ACEMaravilla/dsh-plugin-market",
    "name": "acemaravilla-dsh-plugin-market",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Model-facing plugin marketplace for DeepSeek Harness: discover, vet, report, and install community plugins (pl"
   },
@@ -204286,7 +204286,7 @@
   {
    "repo": "Aisland-SJL/dsh-usage",
    "name": "aisland-sjl-dsh-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 155,
    "desc": "🌊 Persistent dock & fully-customizable balance/usage panel for DeepSeek Harness — activity heatmap, dual-chann"
   },
