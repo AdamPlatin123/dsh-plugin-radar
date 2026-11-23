@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T08:33:34Z",
+ "generated_at": "2026-11-23T08:48:32Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -206694,7 +206694,7 @@
   {
    "repo": "Bcy2020/dsh-cc-ecosystem",
    "name": "bcy2020-dsh-cc-ecosystem",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 8,
    "desc": "让 DeepSeek Harness 用上 Claude Code 全家桶:技能、命令、规则、权限、子代理、hooks—— .claude/ 资产原样加载"
   },
