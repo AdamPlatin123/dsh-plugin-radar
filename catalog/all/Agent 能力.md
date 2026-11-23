@@ -1149,7 +1149,7 @@
 - 🟩 `[可用]` [aawef-dsh-skill-manager-tags](https://github.com/aawef/dsh-skill-manager-tags) ★1 — A DSH plugin to manage and organize skills using tags
 - 🟩 `[可用]` [abab996-dsh-autonomy](https://github.com/abab996/dsh-autonomy) ★1 — DSH 自主性切换器：五档滑块按会话调节模型自主性（严格遵循 → 天马行空），提示词注入即时生效、每会话独立记忆
 - 🟩 `[可用]` [abwp2-dsh-session-grep](https://github.com/abwp2/dsh-session-grep) ★1 — Read DeepSeek Harness session transcripts (multi-frame zstd): list, title, find, dump, around by seq.
-- 🟩 `[可用]` [ackerman0-dsh-prompt-enhancement](https://github.com/Ackerman0/Dsh-Prompt-Enhancement) ★1 — DeepSeek harness 提示词增强
+- ⬜ `[待定]` [ackerman0-dsh-prompt-enhancement](https://github.com/Ackerman0/Dsh-Prompt-Enhancement) ★1 — DeepSeek harness 提示词增强
 - 🟩 `[可用]` [activeing123-dsh-forge](https://github.com/activeing123/dsh-forge) ★1 — Skill self-forging plugin for DeepSeek Harness — watch session traces, detect repeated successful tasks, forge
 - 🟩 `[可用]` [adenxie-dsh-vercel](https://github.com/AdenXie/dsh-vercel) ★1 — Vercel MCP and on-demand official Vercel skills for DeepSeek Harness
 - 🟩 `[可用]` [adithyanraj03-dsh-mcp-summon](https://github.com/adithyanraj03/dsh-mcp-summon) ★1 — Dormant-by-default MCP for DeepSeek Harness: one mcp_summon tool; summoning a server registers its tools as re
