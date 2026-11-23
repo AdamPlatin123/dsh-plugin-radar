@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5899）
+# 🤖 Agent 能力（5904）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1984,6 +1984,7 @@
 - 🟩 `[可用]` [dsh-plugin-context-compressor](https://github.com/YYTbit/dsh-plugin-context-compressor) ★1 — Context compression skill for DeepSeek Harness
 - ⬜ `[待定]` [dsh-plugin-vision-toolkit](https://github.com/YYTbit/dsh-plugin-vision-toolkit) ★1 — Vision toolkit for DeepSeek Harness -- give text-only agents eyes
 - 🟩 `[可用]` [yyy-yq1-dsh-plugin-token-governor](https://github.com/yyy-yq1/dsh-plugin-token-governor) ★1 — 给 DeepSeek Harness 装一只「费率表 + 缓存哨兵 + 输出压缩器」：真实 ¥ 账单、缓存失效告警与自动回滚、工具输出无损压缩、交接新会话（单请求 −94%）
+- 🟩 `[可用]` [yyy2556-dsh-familiar](https://github.com/yyy2556/dsh-familiar) ★1 — Cross-session long-term memory for DeepSeek Harness: a capped always-on profile plus silent recall over facts
 - 🟩 `[可用]` [zadanthony-dsh-projects](https://github.com/ZadAnthony/DSH-Projects) ★1 — DeepSeek Harness 的本地项目协作插件：多会话协作、长期上下文、聊天记录与共享记忆
 - 🟩 `[可用]` [zaykoff-dsh-sound-alerts](https://github.com/ZaykoFF/dsh-sound-alerts) ★1 — DSH plugin: sound cues on the host machine - task completed, context compaction, question awaiting answer
 - 🟩 `[可用]` [zccz14-exe](https://github.com/zccz14/eXe) ★1 — eXe (Executable) — zero-trusted devices execution plane
@@ -3638,6 +3639,7 @@
 - 🟩 `[可用]` [tetrachlorosilane-dsh-combinagents](https://github.com/Tetrachlorosilane/dsh-combinagents) ★0 — —
 - 🟩 `[可用]` [tetrassky-dsh-hold](https://github.com/TetraSsky/dsh-hold) ★0 — Hold a drafted message until the session is actually finished, then send it.
 - 🟩 `[可用]` [tf961656585-dsh-plugin-process-guard](https://github.com/tf961656585/dsh-plugin-process-guard) ★0 — Lists Playwright browsers and dev servers left running by agents, grouped by project, with a release button
+- 🟩 `[可用]` [tfcheng80808080-dsh-token-budget](https://github.com/tfcheng80808080/dsh-token-budget) ★0 — Token/Money budget per conversation for DeepSeek Harness
 - 🟩 `[可用]` [thechengxi-dsh-session-sync](https://github.com/TheChengXi/dsh-session-sync) ★0 — 广播会话修改实现多窗口同步
 - 🟩 `[可用]` [thechengxi-dsh-skills-reference](https://github.com/TheChengXi/dsh-skills-reference) ★0 — DSH plugin: cross-workspace skill referencing - declare references, update once, reuse everywhere
 - ⬜ `[待定]` [thechengxi-intent-flow](https://github.com/TheChengXi/intent-flow) ★0 — IntentFlow — Comment-Driven Development Framework 注释驱动开发框架：以 @intent 注释为契约的 AI 辅助开发工作流（需求/设计/执行/报告四阶段 + 状态机自动流
@@ -4060,6 +4062,7 @@
 - `[空仓监测]` **y-king666-dsh-global-prompt** — GitHub 无此仓库，判定暂不展示
 - 🟩 `[可用]` [yaemikoreal-dsh-plugin-obsidian](https://github.com/Yaemikoreal/dsh-plugin-obsidian) ★0 — Obsidian vault bridge for DeepSeek Harness: search, read, and write notes as agent tools, plus live Obsidian a
 - 🟩 `[可用]` [yajiangandchenchen-dsh-sandbox-permissions-no](https://github.com/yajiangandchenchen/dsh-sandbox-permissions-not-strictly-wider-justification-empty-fix) ★0 — 修复 sandbox_permissions 和 justification 字段在 pwsh/bash/fs/dsh-sandbox 中的 no-op 升级报错
+- 🟩 `[可用]` [yamashigure-dsh-listen-together](https://github.com/Yamashigure/dsh-listen-together) ★0 — DSH plugin: read system loopback audio, floating window control, and now-playing tools for the current session
 - ⬜ `[待定]` [yan92626-dsh-task-butler](https://github.com/yan92626/dsh-task-butler) ★0 — 任务管家（Task Butler）：DeepSeek Harness 的任务队列与执行看板插件 — 批量发布、自动领取、AI 日报、Webhook、定时复盘
 - 🟩 `[可用]` [yang002li-dsh-fuzzy-memory](https://github.com/yang002li/dsh-fuzzy-memory) ★0 — 让DSH在任何对话窗口都能记住你说过的关键信息
 - ⬜ `[待定]` [yang101and-dsh-cyber-muyu](https://github.com/yang101and/dsh-cyber-muyu) ★0 — Cyber wooden fish (muyu) plugin for DeepSeek Harness: every agent tool call earns merit, failed calls count as
@@ -5858,6 +5861,7 @@
 - 🟨 `[不兼容]` [dsh-token-cost](https://github.com/yoggu/dsh-token-cost) ★0 — Estimated current-session token cost from local pi-ai catalog prices; not a billed amount.
 - 🟨 `[不兼容]` [yogioo-dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) ★0 — dsh plugin bridging agentmemory REST API: memory_search / memory_remember / memory_forget / memory_health
 - 🟨 `[不兼容]` [young-yyj-dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) ★0 — DeepSeek Harness 的本地只读技能浏览插件
+- 🟨 `[不兼容]` [yoyoluming1-dsh-delete-chat](https://github.com/yoyoluming1/dsh-delete-chat) ★0 — Delete a turn from a DeepSeek Harness conversation: truncate from that turn, or keep the later turns in a new
 - 🟨 `[不兼容]` [yuanyihy-dsh-rail-equalizer](https://github.com/yuanyiHY/dsh-rail-equalizer) ★0 — Make DSH's turn-navigator rail react to system audio in real time (Windows)
 - 🟨 `[不兼容]` [yucong-28-dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) ★0 — —
 - 🟨 `[不兼容]` [yuhhhong-dsh-model-meta-fill](https://github.com/yuhhhong/dsh-model-meta-fill) ★0 — DeepSeek Harness（DSH）的模型元数据填入插件
@@ -5882,6 +5886,7 @@
 - 🟨 `[不兼容]` [zheqiu2023-dsh-skill-catalog-refresh](https://github.com/Zheqiu2023/dsh-skill-catalog-refresh) ★0 — refresh dsh skill catalog when new skill is added
 - 🟨 `[不兼容]` [zhsm27-dsh-waymark](https://github.com/ZhSM27/dsh-waymark) ★0 — Local agent workflow diagnostics and opt-in live reminders for DeepSeek Harness
 - 🟨 `[不兼容]` [zhuqinyangdev-dsh-traffic-light](https://github.com/zhuqinyangdev/dsh-traffic-light) ★0 — Traffic lights for DeepSeek Harness sessions
+- 🟨 `[不兼容]` [zirscard-dsh-project-memory](https://github.com/zirscard/dsh-project-memory) ★0 — Cross-session project memory for DeepSeek Harness agents: durable fact/decision/constraint entries with mandat
 - 🟨 `[不兼容]` [zongyanbai-dsh-context-continuum](https://github.com/zongyanbai/dsh-context-continuum) ★0 — 把 DeepSeek Harness 的上下文压缩从「滚动重写的叙事摘要」改成「只追加的会话索引」；三条实测缺陷已取证，征集社区修复
 - 🟨 `[不兼容]` [zshqzcn-dsh-plugin-agent-bridge](https://github.com/zshqzcn/dsh-plugin-agent-bridge) ★0 — Two-way agent-to-agent bridge for DeepSeek Harness (DSH): two hosts talk over a PSK-authenticated TCP link, re
 - 🟨 `[不兼容]` [ztc1522021381-dsh-context-mode](https://github.com/ztc1522021381/dsh-context-mode) ★0 — context-mode adapter for DeepSeek Harness: two-tier routing — deny before execution, truncate after
