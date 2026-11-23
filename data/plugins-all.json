@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T02:19:11Z",
+ "generated_at": "2026-11-23T02:33:30Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -24221,6 +24221,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "Continue the turns a DeepSeek Harness restart cut off, subagents included"
+  },
+  {
+   "repo": "soffits/dsh-work",
+   "name": "soffits-dsh-work",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "DeepSeek Harness work page: board columns and a group chat per issue, over a board command line and DSH sessio"
   },
   {
    "repo": "SolidiFact/dsh-session-list-cache",
@@ -83226,6 +83233,13 @@
    "desc": "Resizable panes for the DeepSeek Harness sidebar: drag the line between the panel list and Workspaces, like VS"
   },
   {
+   "repo": "soffits/dsh-ui-actions",
+   "name": "soffits-dsh-ui-actions",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Shared action buttons for DeepSeek Harness plugin pages, and chat about an item as a card"
+  },
+  {
    "repo": "soffits/dsh-ui-kit",
    "name": "soffits-dsh-ui-kit",
    "verdict": "ok",
@@ -119530,6 +119544,13 @@
   {
    "repo": "Avisitort/dsh-harness-os",
    "name": "avisitort-dsh-harness-os",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "—"
+  },
+  {
+   "repo": "aw085680-max/dsh-plugin-local-workstudio",
+   "name": "aw085680-max-dsh-plugin-local-workstudio",
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
@@ -167695,6 +167716,13 @@
    "desc": "DSH plugin that cuts model repetition loops mid-stream, prunes them from the session log, and resumes automati"
   },
   {
+   "repo": "cn-zhangpeng/dsh-shanhai-pet",
+   "name": "cn-zhangpeng-dsh-shanhai-pet",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "山海灵宠：一只住在 DeepSeek Harness 会话旁的修行小灵宠"
+  },
+  {
    "repo": "cobaltions/dsh-pet-madoka",
    "name": "cobaltions-dsh-pet-madoka",
    "verdict": "ok",
@@ -180496,6 +180524,13 @@
    "verdict": "pending",
    "stars": 0,
    "desc": "—"
+  },
+  {
+   "repo": "d2184/dsh-system-proxy",
+   "name": "d2184-dsh-system-proxy",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "DeepSeek Harness (DSH) plugin: it applies one outbound proxy policy to a profile's in-process traffic"
   },
   {
    "repo": "DaJiang07/dsh-plugin-backup",
@@ -219334,6 +219369,13 @@
    "desc": "Renamed to ax2/dsh-toolbox-bundle (npm: dsh-toolbox-bundle) -- this repository is archived."
   },
   {
+   "repo": "AyanamReiIV/dsh-plugin-wallpaper-machine",
+   "name": "ayanamreiiv-dsh-plugin-wallpaper-machine",
+   "verdict": "ok",
+   "stars": 0,
+   "desc": "Use your WallpaperMachine library as the DeepSeek Harness background (macOS): live Scene wallpapers via WebWal"
+  },
+  {
    "repo": "ayst-z/dsh-history-migration",
    "name": "ayst-z-dsh-history-migration",
    "verdict": "pending",
@@ -221187,6 +221229,13 @@
    "verdict": "ok",
    "stars": 0,
    "desc": "DSH 插件：模型收藏（星标常用 provider/model 组合，一键切换）"
+  },
+  {
+   "repo": "DreamYuande/dsh-history-message-editor",
+   "name": "dreamyuande-dsh-history-message-editor",
+   "verdict": "pending",
+   "stars": 0,
+   "desc": "Edit historical user messages and regenerate in the same DeepSeek Harness session."
   },
   {
    "repo": "Dried-Persimmon-JPG/dsh-plugin-publisher",
@@ -242572,6 +242621,13 @@
    "verdict": "incompatible",
    "stars": 0,
    "desc": "DSH 插件：在文件变更工具卡片上重绘行级 diff（相同行只渲染一次 + 行内字符高亮），覆盖 run_code(PTC) 与 str_replace_editor，轮末给出改动汇总卡，并可在资源管理器中定位或复制路径"
+  },
+  {
+   "repo": "Serius117/pixelbar-one-look-public",
+   "name": "serius117-pixelbar-one-look-public",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "将 花再 PixelBar 音箱变成 Agent工具状态灯的 OpenCode + Deepseek Harness 插件"
   },
   {
    "repo": "shamcleren/dsh-security-scan",

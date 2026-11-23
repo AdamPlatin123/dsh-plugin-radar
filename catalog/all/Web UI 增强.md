@@ -1,4 +1,4 @@
-# 🔌 Web UI 增强（9286）
+# 🔌 Web UI 增强（9287）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -6247,6 +6247,7 @@
 - 🟩 `[可用]` [soffits-dsh-custom-css](https://github.com/soffits/dsh-custom-css) ★0 — Custom CSS for the DeepSeek Harness Web UI, with a default fix that stops the whole page from scrolling.
 - ⬜ `[待定]` [soffits-dsh-desktop-view](https://github.com/soffits/dsh-desktop-view) ★0 — Live view of the agent's desktop in the DeepSeek Harness Web UI, relayed from cua-spacesd behind DSH's login,
 - 🟩 `[可用]` [soffits-dsh-sidebar-split](https://github.com/soffits/dsh-sidebar-split) ★0 — Resizable panes for the DeepSeek Harness sidebar: drag the line between the panel list and Workspaces, like VS
+- 🟩 `[可用]` [soffits-dsh-ui-actions](https://github.com/soffits/dsh-ui-actions) ★0 — Shared action buttons for DeepSeek Harness plugin pages, and chat about an item as a card
 - 🟩 `[可用]` [soffits-dsh-ui-kit](https://github.com/soffits/dsh-ui-kit) ★0 — Small shared pieces for DeepSeek Harness plugin pages: data icons, ticking times, rings and sparklines, a live
 - 🟩 `[可用]` [soh4c4759-dsh-plugin-cicd](https://github.com/SOH4C4759/dsh-plugin-cicd) ★0 — 发布台 (Release Console) for DeepSeek Harness: a sidebar entry and a main-panel page showing each repository's la
 - 🟩 `[可用]` [sol-ray-dsh-qa-jump](https://github.com/sol-ray/dsh-qa-jump) ★0 — DSH 插件：提问/回答双轴跳转 + 代码块折叠 \| Question/answer jump and code folding for the DeepSeek Harness web GUI
