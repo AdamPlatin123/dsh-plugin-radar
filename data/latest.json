@@ -1,7 +1,7 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T01:28:55Z",
- "snapshot_run_id": "20261123T011502Z",
+ "generated_at": "2026-11-23T01:52:08Z",
+ "snapshot_run_id": "20261123T014503Z",
  "stats": {
   "ok": 20978,
   "incompatible": 8813,
