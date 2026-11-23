@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-22T23:47:49Z",
+ "generated_at": "2026-11-23T00:03:12Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -7918,6 +7918,13 @@
    "verdict": "ok",
    "stars": 1,
    "desc": "DeepSeek Harness plugin: compact model input via a lazy tool surface (mc_discover), deployment-level prompt la"
+  },
+  {
+   "repo": "21hbguo/dsh-session-batch-manager",
+   "name": "21hbguo-dsh-session-batch-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DeepSeek Harness (DSH) Web GUI 插件：批量选择会话进行归档、恢复与删除的管理面板"
   },
   {
    "repo": "2303572348/deepseek-harness-memory",
@@ -33288,13 +33295,6 @@
    "desc": "DSH (DeepSeek Harness) Agent 实时看板：主 agent 与子代理树形层级监控 + 停滞自动告警 + SSE 实时推送，点击直达会话"
   },
   {
-   "repo": "21hbguo/dsh-session-batch-manager",
-   "name": "21hbguo-dsh-session-batch-manager",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DeepSeek Harness (DSH) Web GUI 插件：批量选择会话进行归档、恢复与删除的管理面板"
-  },
-  {
    "repo": "2233heorbrin/fish-body",
    "name": "2233heorbrin-fish-body",
    "verdict": "incompatible",
@@ -45911,7 +45911,7 @@
   {
    "repo": "534119219/chicheng-gate",
    "name": "534119219-chicheng-gate",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "DSH Web 插件：局域网/远程访问控制、frpc 内网穿透、面板密码门禁与手机端 UI 适配"
   },
@@ -106895,7 +106895,7 @@
   {
    "repo": "305037991x-pixel/dsh-account-balance",
    "name": "dsh-account-balance",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek account balance chip for DeepSeek Harness Web: 3-min auto refresh with total/topped-up/granted breakd"
   },
@@ -172868,6 +172868,13 @@
    "desc": "Enumerate and control Windows top-level windows from WSL: activate, minimize, restore, move and resize."
   },
   {
+   "repo": "1a125/dsh-mcp-manager",
+   "name": "1a125-dsh-mcp-manager",
+   "verdict": "pending",
+   "stars": 1,
+   "desc": "DSH global MCP manager"
+  },
+  {
    "repo": "2672243194/dsh-tally",
    "name": "2672243194-dsh-tally",
    "verdict": "ok",
@@ -174903,13 +174910,6 @@
    "verdict": "incompatible",
    "stars": 2,
    "desc": "DSH 设置页导航管理：拖拽排序 · 显隐 · 抽屉收纳 · 侧栏入口，常用分区钉到侧栏一键直达（1.3.0）"
-  },
-  {
-   "repo": "1a125/dsh-mcp-manager",
-   "name": "1a125-dsh-mcp-manager",
-   "verdict": "incompatible",
-   "stars": 1,
-   "desc": "DSH global MCP manager"
   },
   {
    "repo": "ArcaneOrion/dsh-model-channel-manager",
