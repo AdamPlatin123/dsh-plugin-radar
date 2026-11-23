@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T09:18:22Z",
+ "generated_at": "2026-11-23T09:33:33Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -204734,7 +204734,7 @@
   {
    "repo": "caoyiwei850/dsh-ssh-ops",
    "name": "caoyiwei850-dsh-ssh-ops",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 60,
    "desc": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端"
   },
