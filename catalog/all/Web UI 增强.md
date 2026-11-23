@@ -5285,7 +5285,6 @@
 - 🟩 `[可用]` [leamonac0823-dsh-cornell-classic-theme](https://github.com/leamonac0823/dsh-cornell-classic-theme) ★0 — Cornell notebook workspace for DeepSeek Harness Web UI
 - 🟩 `[可用]` [learner202699-dsh-pet-watch](https://github.com/learner202699/dsh-pet-watch) ★0 — 桌宠陪看：定时截屏，让视觉模型点评你正在看的画面，再从 dsh-pet 的气泡里说出来，需先安装 dsh-pet
 - 🟩 `[可用]` [ledas-as-dsh-claude-video-slider](https://github.com/Ledas-as/dsh-claude-video-slider) ★0 — 模仿 Claude UI 的 DSH 滑块插件
-- ⬜ `[待定]` [lee-nihao2333-dsh-cat-loop](https://github.com/lee-nihao2333/dsh-cat-loop) ★0 — cat-loop for the DeepSeek Harness (dsh): three independent Agent Teams (Plan, Build, Review) in one conversati
 - 🟩 `[可用]` [lee2277-t-dsh-miniapp-audit](https://github.com/Lee2277-t/dsh-miniapp-audit) ★0 — 微信小程序提审前自查：隐私接口线索、requiredPrivateInfos 缺项、静默失败点、包体积与未引用资源
 - 🟩 `[可用]` [lee2277-t-pbip-forge](https://github.com/Lee2277-t/pbip-forge) ★0 — Create complete Power BI projects (.pbip) directly: TMDL semantic models, DAX measures, relationships, PBIR pa
 - ⬜ `[待定]` [lee9501-coder-dsh-tui](https://github.com/lee9501-coder/dsh-tui) ★0 — 转为DeepSeek Harness设计的terminal UI
@@ -8800,6 +8799,7 @@
 - 🟨 `[不兼容]` [larliers-dsh-skill-prompt-injector](https://github.com/Larliers/dsh-skill-prompt-injector) ★0 — Search, pin, combine and inject skills and prompts into the current conversation from the DSH right sidebar.
 - 🟨 `[不兼容]` [lastplayer82-dsh-tanqi](https://github.com/lastplayer82/dsh-tanqi) ★0 — 探奇 (Tanqi) plugin for the dsh web GUI: AI-generated curiosity & trivia with layered deep-dives
 - 🟨 `[不兼容]` [ldystudy0913-jpg-dsh-pet](https://github.com/ldystudy0913-jpg/dsh-pet) ★0 — Desk pet for the DSH Web UI: an orange desk cat that reacts to the live agent session state.
+- 🟨 `[不兼容]` [lee-nihao2333-dsh-cat-loop](https://github.com/lee-nihao2333/dsh-cat-loop) ★0 — cat-loop for the DeepSeek Harness (dsh): three independent Agent Teams (Plan, Build, Review) in one conversati
 - 🟨 `[不兼容]` [leeseo39-dsh-we-wallpaper](https://github.com/leeseo39/dsh-we-wallpaper) ★0 — Wallpaper Engine assets as DeepSeek Harness dynamic background — upstream skin-center 0.3.14 source snapshot +
 - 🟨 `[不兼容]` [legifyx-dsh-usage](https://github.com/LegifyX/dsh-usage) ★0 — LegifyX fork of @linxin666/dsh-usage for DeepSeek Harness: signed-in DeepSeek account balance in every currenc
 - 🟨 `[不兼容]` [leinian114514-dsh-memory](https://github.com/leinian114514/dsh-memory) ★0 — DSH 自托管记忆插件：四层 SQLite 记忆库 + BM25 中文检索 + 首轮与命中注入 + 项目核心 + 方案清单 + 时间轴还原 + 冲突治理 + 侧栏面板

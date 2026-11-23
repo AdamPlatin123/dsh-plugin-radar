@@ -2158,7 +2158,7 @@
 - ⬜ `[待定]` [andromder-dsh-task-budget](https://github.com/Andromder/dsh-task-budget) ★0 — —
 - ⬜ `[待定]` [andy294753951-dsh-plugin-qwen-web-bridge](https://github.com/Andy294753951/dsh-plugin-qwen-web-bridge) ★0 — DeepSeek Harness plugin: drive a logged-in Qwen web session (Qwen3.8 on qianwen.com / qwen.ai) through a local
 - 🟩 `[可用]` [andyfan1094-dsh-minimax-usage-pro](https://github.com/andyfan1094/dsh-minimax-usage-pro) ★0 — DSH bundle plugin showing MiniMax Token Plan / Subscription usage in Settings
-- 🟩 `[可用]` [andyyang12345-dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) ★0 — —
+- ⬜ `[待定]` [andyyang12345-dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) ★0 — —
 - 🟩 `[可用]` [anhaoxie-dsh-plugin-obsidian](https://github.com/anhaoXie/dsh-plugin-obsidian) ★0 — Obsidian vault integration for DeepSeek Harness: 10 agent tools + a browser panel to add and manage notes dire
 - ⬜ `[待定]` [anilams-dsh-session-observer](https://github.com/Anilams/dsh-session-observer) ★0 — A conversation view for DeepSeek Harness that answers one question: do I need to step in? Rule-based by defaul
 - ⬜ `[待定]` [anime-fan-5903-dsh-sync](https://github.com/anime-fan-5903/dsh-sync) ★0 — Sign in with your Microsoft account to synchronize your native DSH instructions and user Skills across devices
