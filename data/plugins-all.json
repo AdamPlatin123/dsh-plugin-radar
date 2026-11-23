@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T07:18:43Z",
+ "generated_at": "2026-11-23T07:32:52Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -191133,7 +191133,7 @@
   {
    "repo": "baisama-cloud/dsh-omni-bridge",
    "name": "baisama-cloud-dsh-omni-bridge",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 4,
    "desc": "DeepSeek Harness（DSH）多通道消息桥：将微信（ClawBot/iLink）、QQ和飞书（Lark）聊天消息路由给DSH代理，并将代理的回复反馈给发送方"
   },
