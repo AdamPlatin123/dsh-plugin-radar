@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5882）
+# 🤖 Agent 能力（5884）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3542,6 +3542,7 @@
 - 🟩 `[可用]` [snowfoxhq-dsh-hmr](https://github.com/snowfoxHQ/dsh-hmr) ★0 — dsh-Hestia Memory Runtime — cognitive memory plugin for DeepSeek Harness (HMR): reasoning chains, reflection,〔📦〕
 - 🟩 `[可用]` [soberkeen-dsh-vault](https://github.com/soberkeen/dsh-vault) ★0 — DSH（DeepSeek Harness）加密全量备份与恢复插件 —— 配置/会话/插件/工作区/Hindsight 记忆打包成加密分卷，带自包含还原器与 GFS 滚动保留，零外部依赖
 - ⬜ `[待定]` [soffits-dsh-restart-resume](https://github.com/soffits/dsh-restart-resume) ★0 — Continue the turns a DeepSeek Harness restart cut off, subagents included
+- 🟩 `[可用]` [soffits-dsh-session-model](https://github.com/soffits/dsh-session-model) ★0 — Keep a model picked in a DeepSeek Harness session in that session
 - ⬜ `[待定]` [soffits-dsh-work](https://github.com/soffits/dsh-work) ★0 — DeepSeek Harness work page: board columns and a group chat per issue, over a board command line and DSH sessio
 - ⬜ `[待定]` [solidifact-dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) ★0 — Retired: a controlled benchmark found no measurable gain
 - 🟩 `[可用]` [songling715-dsh-subagent-workbench](https://github.com/songling715/dsh-subagent-workbench) ★0 — Dispatch, watch, and take over parallel subagents from DeepSeek Harness.
@@ -5174,6 +5175,7 @@
 - 🟨 `[不兼容]` [arkfishinglab-dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) ★0 — —
 - 🟨 `[不兼容]` [arrosam-dsh-idle-compact](https://github.com/Arrosam/dsh-idle-compact) ★0 — DSH plugin: auto-compact long sessions after user idle time, before the KV cache expires.
 - 🟨 `[不兼容]` [ashenjyy-dsh-subagent-cursor](https://github.com/AshenJyy/dsh-subagent-cursor) ★0 — Cursor CLI subagent plugin for DeepSeek Harness 0.2.2-rc.3
+- 🟨 `[不兼容]` [astra-ursae-majoris-dsh-plugin-conveyor-assis](https://github.com/Astra-Ursae-Majoris/dsh-plugin-conveyor-assistant) ★0 — 把口语草稿翻译成 AI Agent 不会误读的意图：先追问你没说清楚的地方，再改写成结构化工单；附一只常驻像素大肥鱼
 - 🟨 `[不兼容]` [autonomous-ai-deepseek-harness-cli](https://github.com/autonomous-ai/deepseek-harness-cli) ★0 — —
 - 🟨 `[不兼容]` [avaritiachaos-dsh-plugin-memory](https://github.com/avaritiachaos/dsh-plugin-memory) ★0 — —
 - 🟨 `[不兼容]` [awenforever-dsh-loci](https://github.com/Awenforever/dsh-loci) ★0 — Long-term memory for DeepSeek Harness: a stable injected index, bi-temporal facts, and only human-verified ent
