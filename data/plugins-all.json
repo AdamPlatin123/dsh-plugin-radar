@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T06:48:25Z",
+ "generated_at": "2026-11-23T07:18:43Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -210687,6 +210687,13 @@
    "verdict": "ok",
    "stars": 2,
    "desc": "DeepSeek Harness plugin to connect and auto-sync OpenCode Desktop free models"
+  },
+  {
+   "repo": "drscrewdriver/dsh-spirit",
+   "name": "drscrewdriver-dsh-spirit",
+   "verdict": "ok",
+   "stars": 2,
+   "desc": "DSH 第一人称体验条目插件（prime-memory 姊妹线）：流程事件编译成角色体验 + 情绪档 + 模型前回忆卡注入"
   },
   {
    "repo": "dsh-plugin/dsh-plugin.github.io",
