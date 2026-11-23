@@ -227,6 +227,7 @@
 | dsh-plugin-upgrader | [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) | 插件页「版本」标签：换版本走原位替换（只临时摘掉 manifest 里的那条依赖再装回，bundle 全程不卸载、启用状态不用恢复），升级时显示阶段、pnpm 原始日志、已用时并可取消，列出全部已发布版本并一键回滚，每个版本号都指向真实 release 页，镜像落后上游时标出缺口，安装源可选且写进 profile；五条 HTTP 路由仅接受回环访问 | 待测 |
 | memory-lattice | [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | 会遗忘的记忆插件：短期记忆 48h 自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准；运行时零第三方依赖；npm `memory-lattice`@0.2.10 | 待测 |
 | @youdotcom-oss/dsh-plugin | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) | You.com 联网：把 DSH 原生 web_search 接到 You.com（无 key 时走免费匿名搜索），注册 web_fetch 提供方，并挂载 You.com 研究/金融/发现/docs 四个 MCP 服务器；monorepo，插件在 `packages/dsh-plugin` | 待测 |
+| dsh-mini-superagent | [wychmod/dsh-mini-superagent](https://github.com/wychmod/dsh-mini-superagent) | 任务派发与派发工作台：主会话把任务派给独立的后台子会话后立即返回，子会话的报告自动回流为本会话的消息；侧边栏「派发工作台」显示并发位、排队、批次进度与失败原因，每条任务可取消/重试/归档；10 个 dispatch_* 工具，零运行时依赖、纯 ESM；npm `dsh-mini-superagent` 0.10.2，MIT | 待测 |
 ## 🧰 插件集
 
 | 插件 | 仓库 | 说明 | 运行级 |
