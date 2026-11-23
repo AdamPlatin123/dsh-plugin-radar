@@ -1461,7 +1461,7 @@
 - ⬜ `[待定]` [belowthetree-dsh-shape](https://github.com/belowthetree/dsh-shape) ★2 — 以插件形式为 dsh 添加一个快速自定义 dsh 界面、功能的能力，你可以用这个插件即时添加一个窗口、更改 UI 或者新增工具
 - 🟩 `[可用]` [bennie96-dsh-quark](https://github.com/Bennie96/dsh-quark) ★2 — 夸克网盘 DeepSeek Harness 插件（dsh-plugin）：基于官方 quarkclouddrive skill 的图形化文件管理面板
 - 🟩 `[可用]` [big-head-pigeon-dsh-session-menu](https://github.com/big-head-pigeon/dsh-session-menu) ★2 — Session context menu for the DeepSeek Harness sidebar: mark unread, copy session info, reveal in Finder or ope
-- 🟩 `[可用]` [bigclawd-dsh-security-guard](https://github.com/bigclawd/dsh-security-guard) ★2 — Security guard for DeepSeek Harness (dsh): static scan for malicious code, prompt injection and token waste, r
+- ⬜ `[待定]` [bigclawd-dsh-security-guard](https://github.com/bigclawd/dsh-security-guard) ★2 — Security guard for DeepSeek Harness (dsh): static scan for malicious code, prompt injection and token waste, r
 - ⬜ `[待定]` [bilibiliuid1480494301-relay-hub](https://github.com/bilibiliUID1480494301/relay-hub) ★2 — —
 - 🟩 `[可用]` [bingchancn-fabric-theme-studio](https://github.com/BingChanCN/fabric-theme-studio) ★2 — —
 - 🟩 `[可用]` [bingomu-dsh-sticky-wall](https://github.com/bingomu/dsh-sticky-wall) ★2 — Sticky-note wall for DeepSeek Harness: capture, categorize, archive, turn into to-dos, and let the agent read

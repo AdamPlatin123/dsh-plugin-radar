@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T09:03:37Z",
+ "generated_at": "2026-11-23T09:18:22Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -50391,7 +50391,7 @@
   {
    "repo": "bigclawd/dsh-security-guard",
    "name": "bigclawd-dsh-security-guard",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Security guard for DeepSeek Harness (dsh): static scan for malicious code, prompt injection and token waste, r"
   },
@@ -106916,7 +106916,7 @@
   {
    "repo": "BruceLanLan/dsh-tier-router",
    "name": "brucelanlan-dsh-tier-router",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "—"
   },
@@ -109723,7 +109723,7 @@
   {
    "repo": "BingChanCN/fabric",
    "name": "bingchancn-fabric",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -112824,7 +112824,7 @@
   {
    "repo": "Blackspace2/dsh-math-copy",
    "name": "blackspace2-dsh-math-copy",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "在 dsh web 中复制数学公式"
   },
@@ -178708,7 +178708,7 @@
   {
    "repo": "brickmaker/dsh-workspace-files",
    "name": "brickmaker-dsh-workspace-files",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "为 DSH Web 提供当前工作区文件树右侧栏"
   },
@@ -181193,7 +181193,7 @@
   {
    "repo": "ben7am1n/dsh-memory",
    "name": "ben7am1n-dsh-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "Durable cross-session SQLite memory for DeepSeek Harness"
   },
