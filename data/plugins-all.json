@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T06:03:29Z",
+ "generated_at": "2026-11-23T06:18:30Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -14936,7 +14936,7 @@
   {
    "repo": "AndyYang12345/dsh-butler-memory",
    "name": "andyyang12345-dsh-butler-memory",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "—"
   },
@@ -76814,13 +76814,6 @@
    "desc": "模仿 Claude UI 的 DSH 滑块插件"
   },
   {
-   "repo": "lee-nihao2333/dsh-cat-loop",
-   "name": "lee-nihao2333-dsh-cat-loop",
-   "verdict": "pending",
-   "stars": 0,
-   "desc": "cat-loop for the DeepSeek Harness (dsh): three independent Agent Teams (Plan, Build, Review) in one conversati"
-  },
-  {
    "repo": "Lee2277-t/dsh-miniapp-audit",
    "name": "lee2277-t-dsh-miniapp-audit",
    "verdict": "ok",
@@ -101041,6 +101034,13 @@
    "desc": "Desk pet for the DSH Web UI: an orange desk cat that reacts to the live agent session state."
   },
   {
+   "repo": "lee-nihao2333/dsh-cat-loop",
+   "name": "lee-nihao2333-dsh-cat-loop",
+   "verdict": "incompatible",
+   "stars": 0,
+   "desc": "cat-loop for the DeepSeek Harness (dsh): three independent Agent Teams (Plan, Build, Review) in one conversati"
+  },
+  {
    "repo": "leeseo39/dsh-we-wallpaper",
    "name": "leeseo39-dsh-we-wallpaper",
    "verdict": "incompatible",
@@ -119964,7 +119964,7 @@
   {
    "repo": "ariesy/dsh-vision",
    "name": "ariesy-dsh-vision",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness (DSH) dynamic Cordis plugin: global image upload button + configurable vision-model recogniti"
   },
