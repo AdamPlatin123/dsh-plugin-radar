@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5881）
+# 🤖 Agent 能力（5882）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -3542,6 +3542,7 @@
 - 🟩 `[可用]` [snowfoxhq-dsh-hmr](https://github.com/snowfoxHQ/dsh-hmr) ★0 — dsh-Hestia Memory Runtime — cognitive memory plugin for DeepSeek Harness (HMR): reasoning chains, reflection,〔📦〕
 - 🟩 `[可用]` [soberkeen-dsh-vault](https://github.com/soberkeen/dsh-vault) ★0 — DSH（DeepSeek Harness）加密全量备份与恢复插件 —— 配置/会话/插件/工作区/Hindsight 记忆打包成加密分卷，带自包含还原器与 GFS 滚动保留，零外部依赖
 - ⬜ `[待定]` [soffits-dsh-restart-resume](https://github.com/soffits/dsh-restart-resume) ★0 — Continue the turns a DeepSeek Harness restart cut off, subagents included
+- ⬜ `[待定]` [soffits-dsh-work](https://github.com/soffits/dsh-work) ★0 — DeepSeek Harness work page: board columns and a group chat per issue, over a board command line and DSH sessio
 - ⬜ `[待定]` [solidifact-dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) ★0 — Retired: a controlled benchmark found no measurable gain
 - 🟩 `[可用]` [songling715-dsh-subagent-workbench](https://github.com/songling715/dsh-subagent-workbench) ★0 — Dispatch, watch, and take over parallel subagents from DeepSeek Harness.
 - `[空仓监测]` **songoao25-dsh-contract-drafting-agent** — GitHub 无此仓库，判定暂不展示
