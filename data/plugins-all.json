@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T05:32:44Z",
+ "generated_at": "2026-11-23T05:48:29Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40402,7 +40402,7 @@
   {
    "repo": "vostride/agent-qa",
    "name": "vostride-agent-qa",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 820,
    "desc": "Open-source self-improving QA agent for software teams"
   },
@@ -44063,7 +44063,7 @@
   {
    "repo": "82c86b8z86-stack/dsh-engineering-workflow",
    "name": "82c86b8z86-stack-dsh-engineering-workflow",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 7,
    "desc": "Engineering workflow layer for DeepSeek Harness (dsh): a disciplined-engineer agent preset with five gated pha"
   },
@@ -54696,7 +54696,7 @@
   {
    "repo": "7A7K/DSH-Timeline-Navigator",
    "name": "7a7k-dsh-timeline-navigator",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "DeepSeek Harness 长对话时间线导航插件：按回合组织、搜索、星标收藏并跳转历史消息"
   },
@@ -112376,7 +112376,7 @@
   {
    "repo": "abinzhao/dsh-request-flight-recorder",
    "name": "abinzhao-dsh-request-flight-recorder",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -152850,7 +152850,7 @@
   {
    "repo": "AbnerAI/dsh-monitor",
    "name": "abnerai-dsh-monitor",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 5,
    "desc": "—"
   },
@@ -167144,7 +167144,7 @@
   {
    "repo": "67-68/dsh-music-alert",
    "name": "67-68-dsh-music-alert",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "—"
   },
@@ -178407,7 +178407,7 @@
   {
    "repo": "863683348/dsh-plugin-focus",
    "name": "863683348-dsh-plugin-focus",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "Focus board for DeepSeek Harness agents: durable, model-maintained notes in the session workspace — pins objec"
   },

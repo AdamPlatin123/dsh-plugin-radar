@@ -30,7 +30,7 @@
 - 🟩 `[可用]` [wecode-ai-wegent](https://github.com/wecode-ai/Wegent) ★893 — Plan, build, and deliver with an open-source, self-hostable AI workspace for coding, collaboration, and automa
 - ⬜ `[待定]` [6shenhonghong9-dsh-startup-screen](https://github.com/6shenhonghong9/dsh-startup-screen) ★872 — DeepSeek Harness 的启动界面与启动动画插件
 - ⬜ `[待定]` [clarklevis1995-dsh-mobile](https://github.com/Clarklevis1995/dsh-mobile) ★829 — DeepSeek Harness Mobile 是一个面向 DeepSeek Harness 的原生移动端客户端
-- 🟩 `[可用]` [vostride-agent-qa](https://github.com/vostride/agent-qa) ★820 — Open-source self-improving QA agent for software teams
+- ⬜ `[待定]` [vostride-agent-qa](https://github.com/vostride/agent-qa) ★820 — Open-source self-improving QA agent for software teams
 - 🟩 `[可用]` [zseven-w-dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio) ★815 — Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to
 - ⬜ `[待定]` [wsk-build-dshbox](https://github.com/WSK-build/DSHBox) ★765 — DSHBox — 移动端本地运行和远程操控 DeepSeek Harness
 - 🟩 `[可用]` [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) ★746 — Cost tracking for DeepSeek Harness: session and model costs, token usage, budgets, provider balances, and codi
@@ -557,7 +557,7 @@
 - 🟩 `[可用]` [Solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) ★8 — Solarized + Selenized themes for DeepSeek Harness (dsh): four faithful palettes registered into the theme runt
 - 🟩 `[可用]` [ziui1008-dsh-chat-pro](https://github.com/ziui1008/dsh-chat-pro) ★8 — DeepSeek Harness 插件：用官方网页版界面聊天，可切换 DSH 里已配置的供应商、模型与思考档位
 - 🟩 `[可用]` [117bs-dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding) ★7 — 「我们不是理想的陈述者，而是理想的践行者
-- 🟩 `[可用]` [82c86b8z86-stack-dsh-engineering-workflow](https://github.com/82c86b8z86-stack/dsh-engineering-workflow) ★7 — Engineering workflow layer for DeepSeek Harness (dsh): a disciplined-engineer agent preset with five gated pha
+- ⬜ `[待定]` [82c86b8z86-stack-dsh-engineering-workflow](https://github.com/82c86b8z86-stack/dsh-engineering-workflow) ★7 — Engineering workflow layer for DeepSeek Harness (dsh): a disciplined-engineer agent preset with five gated pha
 - 🟩 `[可用]` [alaliqing-dsh-annotate](https://github.com/alaliqing/dsh-annotate) ★7 — Visual annotation plugin for DeepSeek Harness: select elements in local app previews and send structured UI fe
 - 🟩 `[可用]` [anakincao-dsh-md-export](https://github.com/AnakinCao/dsh-md-export) ★7 — DSH web plugin (dsh-better-sidebar companion): export the current .md file to standalone HTML (Mermaid inlined
 - 🟩 `[可用]` [anarrogantcat-dsh-identity](https://github.com/Anarrogantcat/dsh-identity) ★7 — DSH 身份系统插件（大肥鱼）：可编辑内核 + 证据制 traits + 记忆/日记/复盘 + 心情 v2 + 自主提议 + 治理与能力运行时
@@ -2086,7 +2086,7 @@
 - 🟩 `[可用]` [66jiujiu99-dsh-plugin-remote-mobile](https://github.com/66jiujiu99/dsh-plugin-remote-mobile) ★1 — DSH 手机同步：把桌面端完整 Web UI 反代到手机（/m），带设备配对、只读策略与审批路由
 - ⬜ `[待定]` [6789-6-dsh-voice-conversation-qq-web](https://github.com/6789-6/dsh-voice-conversation-qq-web) ★1 — Fish Audio TTS and optional ASR for DeepSeek Harness Web and OneBot voice conversations
 - 🟩 `[可用]` [6jeffr3y-dsh-burpsuite-mcp](https://github.com/6jeffr3y/dsh-burpsuite-mcp) ★1 — Native Burp Suite MCP tools and live settings for DeepSeek Harness
-- 🟩 `[可用]` [7a7k-dsh-timeline-navigator](https://github.com/7A7K/DSH-Timeline-Navigator) ★1 — DeepSeek Harness 长对话时间线导航插件：按回合组织、搜索、星标收藏并跳转历史消息
+- ⬜ `[待定]` [7a7k-dsh-timeline-navigator](https://github.com/7A7K/DSH-Timeline-Navigator) ★1 — DeepSeek Harness 长对话时间线导航插件：按回合组织、搜索、星标收藏并跳转历史消息
 - 🟩 `[可用]` [863683348-dsh-plugin-translation](https://github.com/863683348/dsh-plugin-translation) ★1 — Translation toolkit for DeepSeek Harness agents: sentence segmentation, term/glossary extraction, source-targe
 - 🟩 `[可用]` [879745uhjun-dsh-notepad](https://github.com/879745uhjun/dsh-notepad) ★1 — DSH 右侧常驻记事本插件：抽屉式停靠、支持图片、与内置侧栏并存
 - 🟩 `[可用]` [879745uhjun-dsh-session-boxes](https://github.com/879745uhjun/dsh-session-boxes) ★1 — Custom session boxes (groups) inside the DeepSeek Harness workspace sidebar, with multi-box membership, collap
