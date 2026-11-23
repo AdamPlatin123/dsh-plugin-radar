@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T01:02:28Z",
+ "generated_at": "2026-11-23T01:28:55Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -165275,7 +165275,7 @@
   {
    "repo": "ShanJun-pro-max/dsh-novel-workbench",
    "name": "shanjun-pro-max-dsh-novel-workbench",
-   "verdict": "pending",
+   "verdict": "ok",
    "stars": 3,
    "desc": "DeepSeek Harness 的一页式小说创作工作台：开新章给方向、候选稿抽卡、剧情总结带索引、别称识别、情节体检、偏好档案按类型跨书继承"
   },
