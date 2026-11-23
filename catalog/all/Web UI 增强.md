@@ -477,7 +477,7 @@
 - 🟩 `[可用]` [zoe1nan-windowseat](https://github.com/zoe1nan/windowseat) ★10 — 临窗 Windowseat — 把 DeepSeek Harness 装进 Microsoft Edge 侧边栏（非官方社区扩展）
 - 🟩 `[可用]` [2nd1st-dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) ★9 — Bring open-mcp-apps into deepseek-harness: apps as sidebar containers with their own sessions, an agent status
 - 🟩 `[可用]` [alexpeng07-dsh-custom-plugin](https://github.com/AlexPeng07/dsh-custom-plugin) ★9 — dsh-custom-plugin是一个为 DeepSeek Harness (DSH) 打造的增强插件
-- 🟩 `[可用]` [asukasec-dsh-message-preview](https://github.com/asukasec/dsh-message-preview) ★9 — Right-side user-message navigator for the DeepSeek Harness Web UI.
+- ⬜ `[待定]` [asukasec-dsh-message-preview](https://github.com/asukasec/dsh-message-preview) ★9 — Right-side user-message navigator for the DeepSeek Harness Web UI.
 - 🟩 `[可用]` [biggerboy-dsh-conversation-anchors](https://github.com/biggerboy/dsh-conversation-anchors) ★9 — Codex-style tick-rail and thinking-process fold for DeepSeek Harness Web GUI: per-turn dashes, hover preview,
 - ⬜ `[待定]` [dsh-niu](https://github.com/caomengxuan666/dsh-niu) ★9 — Niubash runtime, sandbox, profile bundle, and Web UI plugin for DeepSeek Harness
 - 🟩 `[可用]` [cdxiaodong-dsh-island](https://github.com/cdxiaodong/dsh-island) ★9 — 把 DeepSeek Harness(DSH) agent 实时状态桥接到 CodeIsland 刘海面板 — sessions/tools/approvals on the Dynamic Island
@@ -1446,7 +1446,7 @@
 - 🟩 `[可用]` [asong6824-dsh-llm-rate-limit](https://github.com/Asong6824/dsh-llm-rate-limit) ★2 — DeepSeek Harness plugin for LLM API rate limiting, concurrency control, FIFO queuing, token budgets, and adapt
 - 🟩 `[可用]` [astemiir-dsh-client-locale-ru](https://github.com/Astemiir/dsh-client-locale-ru) ★2 — Russian localization for the DeepSeek Harness (dsh) web UI - registers the ru language (73 namespaces, 3477 st
 - `[空仓监测]` **astra-ursae-majoris-deepseek-harness-local-ui** — GitHub 无此仓库，判定暂不展示
-- 🟩 `[可用]` [aythyacrispus-dsh-minimal-msys2](https://github.com/AythyaCrispus/dsh-minimal-msys2) ★2 — Windows Minimal Mode: persistent bash + str_replace_editor dsh plugin — registers an agent preset, provides a
+- ⬜ `[待定]` [aythyacrispus-dsh-minimal-msys2](https://github.com/AythyaCrispus/dsh-minimal-msys2) ★2 — Windows Minimal Mode: persistent bash + str_replace_editor dsh plugin — registers an agent preset, provides a
 - 🟩 `[可用]` [baifagg-dsh-plugin-busy-workspace](https://github.com/baifagg/dsh-plugin-busy-workspace) ★2 — DeepSeek Harness (dsh) Web GUI plugin: highlight running sessions and pin busy workspaces to the top of the si
 - 🟩 `[可用]` [baihejiangnan-dsh-plugin-pack](https://github.com/baihejiangnan/dsh-plugin-pack) ★2 — DSH plugin pack manifest, schema, validation and publishing guide
 - 🟩 `[可用]` [baisama-cloud-dsh-session-mover](https://github.com/baisama-cloud/dsh-session-mover) ★2 — Drag sessions to another workspace in the DeepSeek Harness (DSH) web GUI — 把侧边栏会话直接拖到其他工作区（完整历史克隆+原会话归档）

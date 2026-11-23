@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T06:18:30Z",
+ "generated_at": "2026-11-23T06:33:34Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -43503,7 +43503,7 @@
   {
    "repo": "asukasec/dsh-message-preview",
    "name": "asukasec-dsh-message-preview",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 9,
    "desc": "Right-side user-message navigator for the DeepSeek Harness Web UI."
   },
@@ -50251,7 +50251,7 @@
   {
    "repo": "AythyaCrispus/dsh-minimal-msys2",
    "name": "aythyacrispus-dsh-minimal-msys2",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "Windows Minimal Mode: persistent bash + str_replace_editor dsh plugin — registers an agent preset, provides a"
   },
@@ -109618,7 +109618,7 @@
   {
    "repo": "Asukaleo-aa/dsh-openscience",
    "name": "asukaleo-aa-dsh-openscience",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 2,
    "desc": "—"
   },
@@ -213407,7 +213407,7 @@
   {
    "repo": "Ayou-Claw/flowctx-dsh",
    "name": "ayou-claw-flowctx-dsh",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 1,
    "desc": "A context engine for DeepSeek Harness — reversible, token-budgeted compression of the live context window."
   },
@@ -220127,7 +220127,7 @@
   {
    "repo": "jeffy-Peng/deepseek-harness-usage",
    "name": "deepseek-harness-usage",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "DeepSeek Harness 插件，显示每日消费与账户总余额"
   },
