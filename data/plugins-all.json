@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-23T06:33:34Z",
+ "generated_at": "2026-11-23T06:48:25Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -174431,7 +174431,7 @@
   {
    "repo": "AzulimLX/dsh-plugin-manager",
    "name": "azulimlx-dsh-plugin-manager",
-   "verdict": "ok",
+   "verdict": "pending",
    "stars": 0,
    "desc": "一个管理deepSeekHarness插件的小插件"
   },
