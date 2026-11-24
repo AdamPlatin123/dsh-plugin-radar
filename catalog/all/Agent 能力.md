@@ -1,4 +1,4 @@
-# 🤖 Agent 能力（5909）
+# 🤖 Agent 能力（5907）
 
 > 数据源与口径见 [PLUGINS-ALL.md](../../PLUGINS-ALL.md)（索引页）；磁贴图例同 README。
 
@@ -1069,7 +1069,7 @@
 - 🟩 `[可用]` [yihong89-dsh-companion](https://github.com/Yihong89/dsh-companion) ★2 — 一个完全可自定义的陪伴 Agent（DeepSeek Harness 插件）——名字、性格、声音都由你 在对话里配置，不需要 fork 仓库或发布新包
 - 🟩 `[可用]` [yihong89-dsh-usage-plugin](https://github.com/Yihong89/dsh-usage-plugin) ★2 — DeepSeek Harness (DSH) plugins
 - ⬜ `[待定]` [yitian951012-dsh-project-dev-flow](https://github.com/yitian951012/dsh-project-dev-flow) ★2 — 把一套经过真实项目校正的开发治理方法，按需加载到 agent 的上下文里
-- ⬜ `[待定]` [yixin2021-dsh-skills](https://github.com/yixin2021/dsh-skill-manager) ★2 — Skills panel for the DeepSeek Harness left navigation: list, preview, enable/disable, install and safely unins
+- ⬜ `[待定]` [dsh-skill-manager](https://github.com/yixin2021/dsh-skill-manager) ★2 — Skills panel for the DeepSeek Harness left navigation: list, preview, enable/disable, install and safely unins
 - 🟩 `[可用]` [yiyuzh-dsh-skillflux](https://github.com/YiyuZh/dsh-skillflux) ★2 — DeepSeek Harness 动态 Skill 运行时管理器，自动发现、路由、挂载和卸载 Agent Skills
 - ⬜ `[待定]` [yourtsao-offical-paper-wrighting-chinese-skil](https://github.com/Yourtsao/Offical-paper-Wrighting--Chinese--skill) ★2 — Gongwen writing Skill by a senior SOE office director (PhD) — 38 document types, GB/T 9704, no fabrication \[待补
 - ⬜ `[待定]` [yu-jianhai-dsh-session-progress](https://github.com/Yu-jianhai/dsh-session-progress) ★2 — 大鲸鱼在线写插件 · 让鲸鱼去监督鲸鱼：在 DSH 侧栏每条会话行上铺一条半透明进度带，每 30 秒用一个轻量模型读上下文估进度；可选监督模型、可调思考强度、可改颜色与样式，左侧栏还能看到判断模型的每一次原始输出
@@ -1093,7 +1093,6 @@
 - ⬜ `[待定]` [dsh-gpu](https://github.com/zytsyj/dsh-gpu) ★2 — GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, auto card selection,
 - 🟩 `[可用]` [zzzhangy-dsh-compound-engineering](https://github.com/zzzhangy/dsh-compound-engineering) ★2 — Compound Engineering for DeepSeek Harness: 36 skills that turn every solved problem into a durable repo learni
 - 🟩 `[可用]` [zzzzkd-dsh-workflow-studio](https://github.com/Zzzzkd/dsh-workflow-studio) ★2 — DeepSeek Harness 的可视化工作流插件
-- ⬜ `[待定]` [yixin2021-dsh-skills](https://github.com/yixin2021/dsh-skills) ★2 — Skills panel for the DeepSeek Harness left navigation: list, preview, enable/disable, install and safely unins
 - 🟩 `[可用]` [007350-dsh-screenshot-board](https://github.com/007350/dsh-screenshot-board) ★1 — Screenshot annotation board for DeepSeek Harness: mark regions, write tasks, hand off to an agent.
 - 🟩 `[可用]` [00wz-dsh-subagent-forge](https://github.com/00wz/dsh-subagent-forge) ★1 — Configurable subagents for DeepSeek Harness: per-child system prompt, model allowlist, reasoning effort and an
 - 🟩 `[可用]` [0131kikimy-dsh-council](https://github.com/0131kikimy/dsh-council) ★1 — 循环决议 · Council — DeepSeek Harness 三智能体（Leader/执行者/检验者）循环执行插件
@@ -1971,7 +1970,7 @@
 - 🟩 `[可用]` [yrracowl-dsh-subagent-conductor](https://github.com/YrracOwl/dsh-subagent-conductor) ★1 — EN: Lifecycle-safe subagent routing and role controls for DSH Web
 - 🟩 `[可用]` [ytclaw01-dsh-plugin-sets](https://github.com/ytclaw01/dsh-plugin-sets) ★1 — Save named scenes of DSH plugins, MCP servers and skills, and switch between them in one click.
 - 🟩 `[可用]` [yuan-source-666-dsh-task-notifier](https://github.com/yuan-source-666/dsh-task-notifier) ★1 — DeepSeek Harness community plugin: OS notification when a turn, subagent, background job, goal, or workflow fi
-- 🟩 `[可用]` [yuaneen-dsh-ai-gateway](https://github.com/Yuaneen/dsh-token-gateway) ★1 — Token budget gateway for DeepSeek Harness: one admission gate for every model call, session/day/month cost cap
+- 🟩 `[可用]` [dsh-token-gateway](https://github.com/Yuaneen/dsh-token-gateway) ★1 — Token budget gateway for DeepSeek Harness: one admission gate for every model call, session/day/month cost cap
 - 🟩 `[可用]` [yuanfeng637-cmyk-dsh-skill-router-and-gate](https://github.com/yuanfeng637-cmyk/dsh-skill-router-and-gate) ★1 — —
 - 🟩 `[可用]` [yuanming-11-more-than-7s](https://github.com/YuanMing-11/more-than-7s) ★1 — 🐟 不止七秒：传说鱼只有七秒记忆，第八秒，ta还记得你
 - 🟩 `[可用]` [yuanzephyr920-oss-dsh-om-messiah](https://github.com/yuanzephyr920-oss/dsh-om-messiah) ★1 — 发送前把提示词改写成机械神教祷文，再由你决定发送祷文还是原文
@@ -2030,7 +2029,6 @@
 - 🟩 `[可用]` [zydxn77-dsh-plugin-tiles](https://github.com/zydxn77/dsh-plugin-tiles) ★1 — 插件显示在会话标题旁：装过的插件，左键开关、右键改名，尺寸可调
 - 🟩 `[可用]` [zyfgood-dsh-a2a](https://github.com/zyfgood/dsh-a2a) ★1 — DeepSeek Harness A2A (Agent2Agent) plugin: expose DSH agents as standard A2A servers (agent card, message/send
 - 🟩 `[可用]` [zzj8442-blip-dsh-mobile-remote](https://github.com/zzj8442-blip/dsh-mobile-remote) ★1 — 📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持）
-- 🟩 `[可用]` [yuaneen-dsh-ai-gateway](https://github.com/Yuaneen/dsh-ai-gateway) ★1 — AI Gateway + budget governance for DeepSeek Harness: one admission gate for every model call, session/day/mont
 - 🟩 `[可用]` [dsh-observer](https://github.com/lfc162874/dsh-observer) ★1 — Evidence-based diagnostics plugin for DeepSeek Harness agents.
 - 🟩 `[可用]` [dsh-session-html-export](https://github.com/DeltaFROST141/dsh-session-html-export) ★1 — —
 - 🟩 `[可用]` [dsh-skill-lord-serf](https://github.com/ttxl314/dsh-skill-lord-serf) ★1 — —
