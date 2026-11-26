@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-24T05:33:53Z",
+ "generated_at": "2026-11-26T03:48:56Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -40540,8 +40540,8 @@
    "desc": "🌊 DeepSeek Harness 海洋皮肤与动态主题 \\| Real-time ocean theme with adjustable waves, sunset & glass opacity"
   },
   {
-   "repo": "xing-shuyin/pi-web-ui",
-   "name": "xing-shuyin-pi-web-ui",
+   "repo": "xing-shuyin/keel",
+   "name": "keel",
    "verdict": "ok",
    "stars": 397,
    "desc": "Just open your browser — get all your work done."
