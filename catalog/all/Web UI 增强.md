@@ -47,7 +47,7 @@
 - ⬜ `[待定]` [whale-girl](https://github.com/vlln/whale-girl) ★413 — DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴
 - 🟩 `[可用]` [kingofsoysauce-dsh-liang-skin](https://github.com/kingOfSoySauce/dsh-liang-skin) ★403 — DeepSeek Harness 滑动变阻器皮肤
 - 🟩 `[可用]` [d-dev0101-open-sea-skin](https://github.com/d-dev0101/open-sea-skin) ★400 — 🌊 DeepSeek Harness 海洋皮肤与动态主题 \| Real-time ocean theme with adjustable waves, sunset & glass opacity
-- 🟩 `[可用]` [xing-shuyin-pi-web-ui](https://github.com/xing-shuyin/pi-web-ui) ★397 — Just open your browser — get all your work done.
+- 🟩 `[可用]` [keel](https://github.com/xing-shuyin/keel) ★397 — Just open your browser — get all your work done.
 - 🟩 `[可用]` [roland0511-dsh-marktext](https://github.com/Roland0511/dsh-marktext) ★389 — MarkText (muya) WYSIWYG Markdown editor for the DeepSeek Harness right sidebar
 - ⬜ `[待定]` [libukai-awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) ★383 — DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plug
 - ⬜ `[待定]` [linhay-harmony-next-skills](https://github.com/linhay/harmony-next.skills) ★377 — Offline HarmonyOS NEXT developer skill library for AI coding assistants
