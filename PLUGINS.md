@@ -10,6 +10,7 @@
 
 | 插件 | 仓库 | 说明 | 运行级 |
 |---|---|---|---|
+| dsh-capability-index | [fubai-fenzhi/dsh-capability-index](https://github.com/fubai-fenzhi/dsh-capability-index) | DSH 能力索引：一个工具 + 一个按需技能，按插件套列出已安装的工具和技能。实测 5 个套件（17 个 publish 工具、3 个 bili 工具、3 个按需技能）；索引约 120 token/轮，技能命中约 600 token/次、不命中 0；经验卡单次命中省 86.5%（6,491 → 879 token）；npm 5 个包、imsai 4/4 合并。 | 待测 |
 | dsh-xiaomi-tts | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) | Xiaomi MiMo TTS 语音朗读：预置/自定义音色、PCM 流式播放、MP3/WAV 完整音频与浏览器语音双向兜底；支持 MiMo 优先/本地优先/关闭本地语音 | 待测 |
 | dsh-wps | [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) | WPS / 金山文档云文档集成（官方 SkillHub MCP，mcp__wps__* 工具） | agent |
 | dsh-vercel-mcp | [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) | Vercel MCP connection for DSH: official OAuth 2.0 client flow against mcp.vercel.com; Vercel platform tools under mcp__vercel__* | 待测 |
