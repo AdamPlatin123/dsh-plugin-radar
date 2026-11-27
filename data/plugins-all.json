@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-26T03:48:56Z",
+ "generated_at": "2026-11-27T03:50:17Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -141515,8 +141515,8 @@
    "desc": "Connect Qoder (Lingma CN / international) models to DeepSeek Harness through their PATs, with a multi-account"
   },
   {
-   "repo": "xuedai-mayi/dsh-wenshan",
-   "name": "xuedai-mayi-dsh-wenshan",
+   "repo": "xuedai-mayi/wenshan",
+   "name": "wenshan",
    "verdict": "incompatible",
    "stars": 93,
    "desc": "问山：DeepSeek Harness 地理野外实习知识图谱插件与非官方二次开发项目"
