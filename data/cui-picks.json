@@ -1,30 +1,44 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-28",
  "source": "@tianyi",
  "name": "崔添翼 @tianyi",
  "days": 30,
- "count": 8,
+ "count": 10,
  "tweets": [
+  {
+   "id": "2125420999458132293",
+   "date": "Wed Nov 25 02:47:09 +0000 2026",
+   "text": "Everything is a plugin, obviously.\n\nSee also @DeepSeekHarness",
+   "url": "https://x.com/tianyi/status/2125420999458132293",
+   "likes": 839
+  },
+  {
+   "id": "2124970294523945328",
+   "date": "Mon Nov 23 20:56:12 +0000 2026",
+   "text": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.\n\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\n\nBrowse 10,000+ plugins:",
+   "url": "https://x.com/tianyi/status/2124970294523945328",
+   "likes": 9947
+  },
   {
    "id": "2121248749343420437",
    "date": "Fri Nov 13 14:28:07 +0000 2026",
    "text": "DeepSeek 产品背后的各项核心能力均已通过 API 开放。我们期待在产品功能的实现门槛进一步降低之后，能够从社区中生长出更多样、更极致、更具想象力的产品！",
    "url": "https://x.com/tianyi/status/2121248749343420437",
-   "likes": 1185
+   "likes": 1187
   },
   {
    "id": "2121247896918253875",
    "date": "Fri Nov 13 14:24:44 +0000 2026",
    "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build",
    "url": "https://x.com/tianyi/status/2121247896918253875",
-   "likes": 12414
+   "likes": 12453
   },
   {
    "id": "2119433744671273441",
    "date": "Sun Nov 08 14:15:56 +0000 2026",
    "text": "很多 DeepSeek Harness 插件作者都有问过我，什么样的插件和功能官方会做成内置，如果一个功能官方会做，那第三方插件做还是否有意义。\n\n我们的希望是，DeepSeek Harness 可以作为 Agent 时代的操作系统。\n\n所以，也许可以用操作系统来举例。以智能手机操作系统为例，系统会内置一些通用的",
    "url": "https://x.com/tianyi/status/2119433744671273441",
-   "likes": 1575
+   "likes": 1578
   },
   {
    "id": "2117258349649780737",
@@ -38,7 +52,7 @@
    "date": "Mon Nov 02 14:03:08 +0000 2026",
    "text": "Your Harness. You Define It.\n\nMeet Creator Mode in DeepSeek Harness. \n\nTurn ideas into plugins that you can use, from a design workspace to a sandbox game or a 3D LLM visualizer. \n\nWhat will you create?",
    "url": "https://x.com/tianyi/status/2117256196227019194",
-   "likes": 25390
+   "likes": 25403
   },
   {
    "id": "2117064134961631414",
@@ -52,14 +66,14 @@
    "date": "Sun Nov 01 20:56:38 +0000 2026",
    "text": "recommended reading. had the good fortune to talk with @tianyi a little while ago, and the DSH folks are one of the not so many teams doing innovative stuff in the harness space.\n\nthe below largely aligns with what we are gravitating towards at earendil as well. single, long",
    "url": "https://x.com/tianyi/status/2116997870213906524",
-   "likes": 783
+   "likes": 784
   },
   {
    "id": "2116859582639403080",
    "date": "Sun Nov 01 11:47:08 +0000 2026",
    "text": "Super-agent 文章的官方英文版发布啦～\n\n做 Agent 产品，DeepSeek 有一流的模型、算法、基建，有优秀的研究员和工程师。但是，目前优秀的产品经理和设计师的数量还远远不够。\n\n欢迎想做世界一流 Agent 产品的优秀产品经理和产品设计师给 DeepSeek 产品部投简历。",
    "url": "https://x.com/tianyi/status/2116859582639403080",
-   "likes": 831
+   "likes": 832
   }
  ]
 }
