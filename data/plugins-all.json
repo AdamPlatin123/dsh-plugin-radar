@@ -1,6 +1,6 @@
 {
  "schema": "dsh-radar/v1",
- "generated_at": "2026-11-27T03:50:17Z",
+ "generated_at": "2026-11-28T03:34:17Z",
  "plugins": [
   {
    "repo": "morluto/rea",
@@ -42402,8 +42402,8 @@
    "desc": "DeepSeek Harness（DSH）Web GUI 的实时大纲插件，移植自 Ophel Atlas"
   },
   {
-   "repo": "Witherwithwinter/DSH-Codinput",
-   "name": "witherwithwinter-dsh-codinput",
+   "repo": "0x2fovo/DSH-Codinput",
+   "name": "DSH-Codinput",
    "verdict": "ok",
    "stars": 18,
    "desc": "把 DeepSeek Harness 的聊天输入框，换成编辑器式的输入面板"
@@ -42995,6 +42995,13 @@
    "verdict": "ok",
    "stars": 12,
    "desc": "Intelligent UI for DeepSeek Harness: the model answers with an openui-lang program and the Web GUI renders it"
+  },
+  {
+   "repo": "nonentity303/dsh-drydock",
+   "name": "dsh-drydock",
+   "verdict": "pending",
+   "stars": 12,
+   "desc": "—"
   },
   {
    "repo": "TABmk/dsh-theme-ascetic",
@@ -152050,8 +152057,8 @@
    "desc": "dsh桌面客户端"
   },
   {
-   "repo": "1475505/miliastra-beyond-simulator",
-   "name": "1475505-miliastra-beyond-simulator",
+   "repo": "duduk233/miliastra-beyond-simulator",
+   "name": "miliastra-beyond-simulator",
    "verdict": "ok",
    "stars": 106,
    "desc": "千星沙箱模拟器：Lua 驱动的 2D 奇域外置沙箱 ，支持 DeepSeek Harness、Web 和 MCP"
@@ -152204,8 +152211,8 @@
    "desc": "dsh + ModLens 视觉能力一键安装包：给 DeepSeek Harness 装上看图能力（Windows EXE 安装器 + 智谱 GLM-4V-Flash 免费视觉引擎）"
   },
   {
-   "repo": "monagisa/dsh-plugin-shop-accounts",
-   "name": "monagisa-dsh-plugin-shop-accounts",
+   "repo": "world-geniuses/dsh-plugin-shop-accounts",
+   "name": "dsh-plugin-shop-accounts",
    "verdict": "ok",
    "stars": 25,
    "desc": "DSH 插件：电商平台店铺账号管理（拼多多/淘宝/天猫/抖音/京东/1688 商家端）—— 一店一份 Chrome 档案，登录一次长期复用；静默/定时检测登录态、保活续期、一键自更新"
@@ -170628,7 +170635,7 @@
    "desc": "Stock research toolkit for AI agents — 73 tools + 21 skills for analysis, screening & backtesting across A/HK/"
   },
   {
-   "repo": "Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl",
+   "repo": "0x2fovo/DeepSeek-Balance-Whale-Widget-Bowl",
    "name": "witherwithwinter-deepseek-balance-whale-widge",
    "verdict": "incompatible",
    "stars": 42,
@@ -173559,13 +173566,6 @@
    "verdict": "ok",
    "stars": 13,
    "desc": "车同轨，书同文"
-  },
-  {
-   "repo": "nonentity303/dsh-plugin-manager",
-   "name": "nonentity303-dsh-plugin-manager",
-   "verdict": "pending",
-   "stars": 12,
-   "desc": "—"
   },
   {
    "repo": "dsh-research/dsh-research",
@@ -205901,8 +205901,8 @@
    "desc": "DeepSeek Harness plugin that does QA: an agent explores your app like a real user and leaves evidence, then th"
   },
   {
-   "repo": "1Lany2a/dsh-domain-role",
-   "name": "1lany2a-dsh-domain-role",
+   "repo": "1Lany2a/dsh-post-owner",
+   "name": "dsh-post-owner",
    "verdict": "pending",
    "stars": 12,
    "desc": "Domain-identity framework for long-running AI agents: one domain, one long-lived identity, one accountable own"
